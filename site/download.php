@@ -119,6 +119,8 @@ function update_count_of_downloads($file) {
     downloadFile('srtm/'.$file);
  } else if(isset($_GET['road'])){
     downloadFile('road-indexes/'.$file);
+ } else if(isset($_GET['hillshade'])){
+    downloadFile('hillshade/'.$file);
  } else if (count($res) > 0) {
  	$node = $res[0];
         if($node["local"]) {
