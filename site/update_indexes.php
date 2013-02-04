@@ -1,4 +1,14 @@
 <?php
+function endsWith($haystack, $needle)
+{
+    $length = strlen($needle);
+    if ($length == 0) {
+        return true;
+    }
+
+    return (substr($haystack, -$length) === $needle);
+}
+
 function loadIndexesFromDir($output, $outputIndexes, $dir, $elementName, $mapNodes){
 	$local_file = basename($_SERVER['PHP_SELF']) == basename(__FILE__);
 	if (is_dir($dir)) {
@@ -7,18 +17,24 @@ function loadIndexesFromDir($output, $outputIndexes, $dir, $elementName, $mapNod
 			while (($file = readdir($dh)) !== false) {
 				$filename = $dir . $file ; //"./test112.zip";
 				//print("processing file:" . $filename . "\n");
-				if ($zip->open($filename,ZIPARCHIVE::CHECKCONS)!==TRUE) {
-					// echo exit("cannot open <$filename>\n");
-					// print($filename . " cannot open as zip\n");
-					continue;
-				}
 				$indexName=$file;
-
-				$description = $zip->getCommentIndex(0);
-				$stat = $zip->statIndex( 0 );
-				$date= date('d.m.Y',$stat['mtime']);
+				if(endsWith($file, ".sqlitedb")) {
+					$date= date('d.m.Y',filemtime($filename));
+					$description = str_replace("_", " ", $file);
+				} else {
+					if ($zip->open($filename,ZIPARCHIVE::CHECKCONS)!==TRUE) {
+						// echo exit("cannot open <$filename>\n");
+						// print($filename . " cannot open as zip\n");
+						continue;
+					}
+					$description = $zip->getCommentIndex(0);
+					$stat = $zip->statIndex( 0 );
+					$date= date('d.m.Y',$stat['mtime']);
+					$zip->close();
+				}
+				
 				$size=  number_format((filesize($filename) / (1024.0*1024.0)), 1, '.', '');
-				$zip->close();
+
                 if($local_file) {
 					echo 'Local : '.$indexName.' '.$date.' '.$size.'<br>';
                 }
