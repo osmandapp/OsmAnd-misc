@@ -20,7 +20,7 @@ function loadIndexesFromDir($output, $outputIndexes, $dir, $elementName, $mapNod
 				$indexName=$file;
 				if(endsWith($file, ".sqlitedb")) {
 					$date= date('d.m.Y',filemtime($filename));
-					$description = str_replace("_", " ", $file);
+					$description = str_replace("_", " ", substr($file, 0, -9));
 				} else {
 					if ($zip->open($filename,ZIPARCHIVE::CHECKCONS)!==TRUE) {
 						// echo exit("cannot open <$filename>\n");
