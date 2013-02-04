@@ -165,6 +165,7 @@ function updateGoogleCodeIndexes($update=false) {
 	
     loadIndexesFromDir($output, $outputIndexes, 'indexes/', 'region', $mapNodes);
     loadIndexesFromDir($output, $outputIndexes, 'road-indexes/', 'road_region');
+    loadIndexesFromDir($output, $outputIndexes, 'hillshade/', 'hillshade');
 	$output->save($localFileName);
 }
 

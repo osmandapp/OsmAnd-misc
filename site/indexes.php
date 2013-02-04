@@ -74,6 +74,22 @@
    }
 ?>
 </table>
-
+<h1><?php echo "Table of hillshade hosted on osmand.net"; ?></h1>
+<table border="1">
+<?php
+   $res = $xpath->query('//hillshade[@local]');
+   if($res && $res->length > 0) {
+    foreach($res as $node) {
+      if (file_exists('hillshade/'.$node->getAttribute('name'))) {
+          echo "<tr><td>".$node->getAttribute('name')."</td><td>".$node->getAttribute('date')
+               ."</td><td>".$node->getAttribute('size')
+               ."</td><td>".$node->getAttribute('description')
+               ;
+        
+        }
+        }
+    }     
+?>
+</table>
 </body>
 </html>
