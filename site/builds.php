@@ -7,7 +7,7 @@
 	function addBuilds($files, $output, $outputIndexes, $tag_suffix="") {
 		foreach($files as $file => $stats) {	
 			$fname = basename($file); 
-			if(stristr($fname, "osmand-") && stristr($fname, ".bar") ) {
+			if(stristr($fname, "osmand-") && !stristr($fname, ".bar") ) {
 				$type = "OsmAnd";
 			} else if(stristr($fname, "osmandmapcreator-")) {
 				$type = "OsmAndMapCreator";
