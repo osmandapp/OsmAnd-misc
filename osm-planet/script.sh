@@ -22,7 +22,7 @@ ASIA+="afghanistan bangladesh bhutan british_indian_ocean_territory iran maldive
 ASIA+="armenia bahrain caspian_sea cyprus georgia jordan kuwait lebanon oman qatar saudi_arabia syria turkey united_arab_emirates yemen"
 
 TEST="hong_kong"
-mkdir -P extacted
+mkdir -p extacted
 for i in TEST
 do
 	echo "Extracting $i country from planet..."
