@@ -1,5 +1,7 @@
 #!/bin/bash
 
+mkdir -p extracted
+
 AMERICAS=""
 #South America
 AMERICAS+="guyana""paraguay""peru""suriname""venezuela" 
@@ -21,9 +23,7 @@ ASIA+="brunei cambodia christmas_island east_timor laos malaysia myanmar singapo
 ASIA+="afghanistan bangladesh bhutan british_indian_ocean_territory iran maldives nepal sri_lanka"
 ASIA+="armenia bahrain caspian_sea cyprus georgia jordan kuwait lebanon oman qatar saudi_arabia syria turkey united_arab_emirates yemen"
 
-TEST="hong_kong"
-mkdir -p extacted
-for i in TEST
+for i in $ASIA
 do
 	echo "Extracting $i country from planet..."
 	osmconvert $1 -B=polygons/asia/$i.poly --complex-ways --complete-ways --drop-author -o=extracted/$i.pbf
