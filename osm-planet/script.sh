@@ -23,8 +23,11 @@ ASIA+="brunei cambodia christmas_island east_timor laos malaysia myanmar singapo
 ASIA+="afghanistan bangladesh bhutan british_indian_ocean_territory iran maldives nepal sri_lanka"
 ASIA+="armenia bahrain caspian_sea cyprus georgia jordan kuwait lebanon oman qatar saudi_arabia syria turkey united_arab_emirates yemen"
 
-for i in $ASIA
+#TEST
+TEST=""
+TEST+="rhone-alpes"
+for i in $TEST
 do
 	echo "Extracting $i country from planet..."
-	osmconvert $1 -B=polygons/asia/$i.poly --complex-ways --complete-ways --drop-author -o=extracted/$i.pbf
+	osmconvert $1 -B=polygons/test/$i.poly --complex-ways --complete-ways --drop-author -o=extracted/$i.pbf
 done
