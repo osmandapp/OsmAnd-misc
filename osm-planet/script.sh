@@ -2,7 +2,7 @@
 # Takes 2 arguments planet.obf file and folder with extracts
 EXTRACT_DIR=$2
 PLANET_FILE=$1
-if [ -n "$EXTRACT_DIR" ]; then
+if [ -z "$EXTRACT_DIR" ]; then
 	EXTRACT_DIR=extracted
 fi
 mkdir -p "$EXTRACT_DIR"
@@ -11,7 +11,7 @@ function convert {
 	for i in $1
 	do
 		echo "Extracting $i country from $2 $(date) ..."
-		time osmconvert $1 -B=$3/$i.poly --complex-ways --complete-ways --drop-author -o="$EXTRACT_DIR"/$i.pbf
+		time osmconvert $2 -B=$3/$i.poly --complex-ways --complete-ways --drop-author -o="$EXTRACT_DIR"/$i.pbf
 	done;
 }
 
