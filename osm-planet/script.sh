@@ -6,6 +6,7 @@ if [ -z "$EXTRACT_DIR" ]; then
 	EXTRACT_DIR=extracted
 fi
 mkdir -p "$EXTRACT_DIR"
+mkdir -p "$EXTRACT_DIR"/continents/
 
 function convert {
 	for i in  ${@:3} 
@@ -21,7 +22,7 @@ AMERICAS=""
 #South America
 SOUTH_AMERICA="guyana paraguay peru suriname venezuela" 
 convert $PLANET_FILE "geo-polygons/" "south-america"
-convert "$EXTRACT_DIR"/south-america.pbf  "polygons/americas" $SOUTH_AMERICA
+convert "$EXTRACT_DIR"/continents/south-america.pbf  "polygons/americas" $SOUTH_AMERICA
 
 #NorthAmerica
 NORTH_AMERICA=" bermuda greenland"
@@ -31,10 +32,10 @@ NORTH_AMERICA=" bermuda greenland"
 
 
 # Central America
-convert $PLANET_FILE "geo-polygons/" "central-america.poly"
+convert $PLANET_FILE "geo-polygons/" "central-america"
 
 CENTRAL_AMERICA=" costa_rica el_salvador honduras nicaragua panama"
-convert "$EXTRACT_DIR"/central-america.poly.pbf  "polygons/americas" $CENTRAL_AMERICA
+convert "$EXTRACT_DIR"/central-america.pbf  "polygons/americas" $CENTRAL_AMERICA
 
 # Carribean (suffix = _CentralAmerica)
 CARRIBEAN=" anguilla antigua_and_barbuda aruba 
@@ -43,7 +44,7 @@ CARRIBEAN=" anguilla antigua_and_barbuda aruba
           haiti jamaica grenada guadeloupe martinique 
           montserrat netherlands_antilles puerto_rico  
           saint_vincent_and_the_grenadines trinidad_and_tobago virgin_islands_us"
-convert "$EXTRACT_DIR"/central-america.poly.pbf  "polygons/americas" $CARRIBEAN
+convert "$EXTRACT_DIR"/central-america.pbf  "polygons/americas" $CARRIBEAN
 
 # 2. AFRICA Geofabrik
 convert $PLANET_FILE "geo-polygons/" "africa"
@@ -56,7 +57,7 @@ ASIA="";
 ASIA+=" hong_kong macao north_korea south_korea"
 ASIA+=" brunei cambodia christmas_island east_timor laos malaysia myanmar singapore spratly_islands thailand vietnam"
 ASIA+=" afghanistan bangladesh bhutan british_indian_ocean_territory iran maldives nepal sri_lanka"
-ASIA+=" armenia bahrain cyprus georgia jordan kuwait lebanon oman qatar saudi_arabia syria turkey united_arab_emirates yemen"
+ASIA+=" armenia bahrain cyprus georgia jordan kuwait lebanon oman qatar saudi_arabia syria united_arab_emirates yemen"
 
 convert $PLANET_FILE "geo-polygons/" "asia"
 convert "$EXTRACT_DIR"/asia.pbf "polygons/asia/" $ASIA
