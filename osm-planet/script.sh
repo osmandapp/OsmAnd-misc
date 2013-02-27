@@ -12,8 +12,9 @@ function convert {
 	for i in  ${@:3} 
 	do
 		echo "Extracting $i country from $1 $(date) ..."
-		rm "$EXTRACT_DIR"/$i.pbf
-		time osmconvert $1 -B=$2/$i.poly --complex-ways --complete-ways --drop-author -o="$EXTRACT_DIR"/$i.pbf
+		FILE="$EXTRACT_DIR"/$i.pbf
+		if [ -f $FILE ]; then rm $FILE; fi
+		time osmconvert $1 -B=$2/$i.poly --complex-ways --complete-ways --drop-author -o=$FILE
 	done;
 }
 
