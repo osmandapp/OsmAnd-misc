@@ -6,15 +6,18 @@ if [ -z "$EXTRACT_DIR" ]; then
 	EXTRACT_DIR=extracted
 fi
 mkdir -p "$EXTRACT_DIR"
-mkdir -p "$EXTRACT_DIR"/continents/
 
 function convert {
 	for i in  ${@:3} 
 	do
-		echo "Extracting $i country from $1 $(date) ..."
 		FILE="$EXTRACT_DIR"/$i.pbf
-		if [ -f $FILE ]; then rm $FILE; fi
-		time osmconvert $1 -B=$2/$i.poly --complex-ways --complete-ways --drop-author -o=$FILE
+		if [ -f $FILE ]; 
+			then
+				echo "Skipping $i country from $1 $(date) ..." 
+			else
+				echo "Extracting $i country from $1 $(date) ..."
+				time osmconvert $1 -B=$2/$i.poly --complex-ways --complete-ways --drop-author -o=$FILE
+		fi
 	done;
 }
 
@@ -23,7 +26,7 @@ AMERICAS=""
 #South America
 SOUTH_AMERICA="guyana paraguay peru suriname venezuela" 
 convert $PLANET_FILE "geo-polygons/" "south-america"
-convert "$EXTRACT_DIR"/continents/south-america.pbf  "polygons/americas" $SOUTH_AMERICA
+convert "$EXTRACT_DIR"/south-america.pbf  "polygons/americas" $SOUTH_AMERICA
 
 #NorthAmerica
 NORTH_AMERICA=" bermuda greenland"
