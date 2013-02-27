@@ -25,9 +25,14 @@ ASIA+="armenia bahrain caspian_sea cyprus georgia jordan kuwait lebanon oman qat
 
 #TEST
 TEST=""
-TEST+="rhone-alpes"
-for i in $TEST
+#TEST+="rhone-alpes"
+
+echo "Extracting africa..."
+osmconvert $1 -B=geo-polygons/africa.poly --complex-ways --complete-ways --drop-author -o=extracted/africa.pbf
+
+AFRICA_TEST="burkina_faso canary_islands ethiopia guinea guinea-bissau ivory_coast"
+for i in $AFRICA_TEST
 do
 	echo "Extracting $i country from planet..."
-	osmconvert $1 -B=polygons/test/$i.poly --complex-ways --complete-ways --drop-author -o=extracted/$i.pbf
+	osmconvert extracted/africa.pbf -B=geo-polygons/africa/$i.poly --complex-ways --complete-ways --drop-author -o=extracted/$i.pbf
 done
