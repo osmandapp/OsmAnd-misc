@@ -11,7 +11,9 @@ function convert {
 	for i in  ${@:3} 
 	do
 		FILE="$EXTRACT_DIR"/$i.pbf
-		if [[ ! -s $FILE ]] ; then rm $FILE; 
+		if [[ ! -s $FILE ]] ; then 
+			if [ -f $FILE ]; then rm $FILE; 
+			fi
 		fi
 		if [ -f $FILE ]; then
 			echo "Skipping $i country from $1 $(date) ...";
