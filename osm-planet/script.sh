@@ -27,7 +27,7 @@ function convert {
 # 1. AMERICAS
 AMERICAS=""
 #South America
-SOUTH_AMERICA="guyana paraguay peru suriname venezuela" 
+SOUTH_AMERICA="guyana paraguay peru suriname venezuela trinidad_and_tobago" 
 convert $PLANET_FILE "geo-polygons/" "south-america"
 convert "$EXTRACT_DIR"/south-america.pbf  "polygons/americas" $SOUTH_AMERICA
 
@@ -47,10 +47,10 @@ convert "$EXTRACT_DIR"/central-america.pbf  "polygons/americas" $CENTRAL_AMERICA
 # Carribean (suffix = _CentralAmerica)
 CARRIBEAN=" anguilla antigua_and_barbuda aruba 
           bahamas barbados british_virgin_islands 
-          cayman_islands cuba dominica dominican_republic 
+          cayman_islands cuba dominica
           haiti jamaica grenada guadeloupe martinique 
           montserrat netherlands_antilles puerto_rico  
-          saint_vincent_and_the_grenadines trinidad_and_tobago virgin_islands_us"
+          saint_vincent_and_the_grenadines  virgin_islands_us"
 convert "$EXTRACT_DIR"/central-america.pbf  "polygons/americas" $CARRIBEAN
 
 # 2. AFRICA Geofabrik
