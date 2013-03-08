@@ -59,7 +59,7 @@ AFRICA_GEOFABRIK="burkina_faso canary_islands ethiopia guinea guinea-bissau ivor
 				liberia libya madagascar morocco nigeria somalia south_africa_and_lesotho tanzania "
 convert "$EXTRACT_DIR"/africa.pbf "geo-polygons/africa/" $AFRICA_GEOFABRIK
 AFRICA="mali"
-convert "$EXTRACT_DIR"/africa.pbf "geo-polygons/africa/" $AFRICA
+convert "$EXTRACT_DIR"/africa.pbf "polygons/africa/" $AFRICA
 
 # 3. ASIA
 ASIA="";
