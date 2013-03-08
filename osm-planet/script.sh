@@ -58,7 +58,7 @@ convert $PLANET_FILE "geo-polygons/" "africa"
 AFRICA_GEOFABRIK="burkina_faso canary_islands ethiopia guinea guinea-bissau ivory_coast 
 				liberia libya madagascar morocco nigeria somalia south_africa_and_lesotho tanzania "
 convert "$EXTRACT_DIR"/africa.pbf "geo-polygons/africa/" $AFRICA_GEOFABRIK
-AFRICA="ьфдш"
+AFRICA="mali"
 convert "$EXTRACT_DIR"/africa.pbf "geo-polygons/africa/" $AFRICA
 
 # 3. ASIA
