@@ -74,8 +74,8 @@ convert "$EXTRACT_DIR"/north-asia.pbf "polygons/north-asia/" $NORTH_ASIA
 
 convert $PLANET_FILE "polygons/" "east-asia"
 EAST_ASIA="afghanistan armenia bahrain british_indian_ocean_territory georgia iran jordan kuwait lebanon maldives nepal oman qatar saudi_arabia sri_lanka syria united_arab_emirates yemen"
-convert "$EXTRACT_DIR"/east-asia.pbf "polygons/north-asia/" $EAST_ASIA
+convert "$EXTRACT_DIR"/east-asia.pbf "polygons/east-asia/" $EAST_ASIA
 
 convert $PLANET_FILE "polygons/" "ocean-asia"
 OCEAN_ASIA="bangladesh brunei cambodia christmas_island east_timor laos malaysia myanmar singapore spratly_islands thailand vietnam"
-convert "$EXTRACT_DIR"/ocean-asia.pbf "polygons/ocean-asia/" $NORTH_ASIA
+convert "$EXTRACT_DIR"/ocean-asia.pbf "polygons/ocean-asia/" $OCEAN_ASIA
