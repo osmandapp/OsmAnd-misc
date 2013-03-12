@@ -24,58 +24,58 @@ function convert {
 	done;
 }
 
-# 1. AMERICAS
-AMERICAS=""
-#South America
-SOUTH_AMERICA="guyana paraguay peru suriname venezuela" 
-convert $PLANET_FILE "polygons/" "south-america"
-convert "$EXTRACT_DIR"/south-america.pbf  "polygons/south-america" $SOUTH_AMERICA
-
-#NorthAmerica
-#NORTH_AMERICA=" bermuda greenland"
-# TODO north america too big for 2 small countries
-#convert $PLANET_FILE "geo-polygons/" "north-america"
-#convert "$EXTRACT_DIR"/north-america.pbf  "polygons/americas" $NORTH_AMERICA
-
-
-# Central America
-convert $PLANET_FILE "polygons/" "central-america"
-
-CENTRAL_AMERICA=" costa_rica el_salvador honduras nicaragua panama puerto_rico trinidad_and_tobago bermuda greenland"
-convert "$EXTRACT_DIR"/central-america.pbf  "polygons/central-america" $CENTRAL_AMERICA
-
-# Carribean (suffix = _CentralAmerica)
-CARRIBEAN=" anguilla antigua_and_barbuda aruba 
-          bahamas barbados british_virgin_islands 
-          cayman_islands cuba dominica dominican_republic
-          grenada guadeloupe haiti jamaica martinique 
-          montserrat netherlands_antilles   
-          saint_vincent_and_the_grenadines virgin_islands_us"
-convert "$EXTRACT_DIR"/central-america.pbf  "polygons/central-america" $CARRIBEAN
-
-# 2. AFRICA Geofabrik
+#sorted according to regions list in osmand-tools.
+#Geofabrik is not neded because those extracts are already processed.
+# 1. AFRICA
 convert $PLANET_FILE "polygons/" "africa"
-AFRICA_GEOFABRIK="burkina_faso canary_islands ethiopia guinea guinea-bissau ivory_coast 
-				liberia libya madagascar morocco nigeria somalia south_africa_and_lesotho tanzania "
-convert "$EXTRACT_DIR"/africa.pbf "geo-polygons/africa/" $AFRICA_GEOFABRIK
-AFRICA="mali dr_congo"
+
+#need to fix borders...
+AFRICA="mali"
 convert "$EXTRACT_DIR"/africa.pbf "polygons/africa/" $AFRICA
 
-# 3. ASIA
-#ASIA="";
-#ASIA+=" hong_kong macao north_korea south_korea"
-#ASIA+=" brunei cambodia christmas_island east_timor laos malaysia myanmar singapore spratly_islands thailand vietnam"
-#ASIA+=" afghanistan bangladesh bhutan british_indian_ocean_territory iran maldives nepal sri_lanka"
-#ASIA+=" armenia bahrain cyprus georgia jordan kuwait lebanon oman qatar saudi_arabia syria united_arab_emirates yemen"
-
-convert $PLANET_FILE "polygons/" "north-asia"
-NORTH_ASIA="bhutan hong_kong macao north_korea south_korea"
-convert "$EXTRACT_DIR"/north-asia.pbf "polygons/north-asia/" $NORTH_ASIA
-
+# 2. Asia
+# 2.1 east asia
+#still work to be done
 convert $PLANET_FILE "polygons/" "east-asia"
-EAST_ASIA="afghanistan armenia bahrain british_indian_ocean_territory georgia iran jordan kuwait lebanon maldives nepal oman qatar saudi_arabia sri_lanka syria united_arab_emirates yemen"
+
+#need to fix borders...
+EAST_ASIA="afghanistan armenia bahrain british-indian-ocean-territory bhutan georgia iran jordan kuwait lebanon maldives nepal oman qatar saudi-arabia sri-lanka syria united-arab-emirates yemen"
 convert "$EXTRACT_DIR"/east-asia.pbf "polygons/north-asia/" $EAST_ASIA
 
+# 2.1 ocean asia
 convert $PLANET_FILE "polygons/" "ocean-asia"
-OCEAN_ASIA="bangladesh brunei cambodia christmas_island east_timor laos malaysia myanmar singapore spratly_islands thailand vietnam"
+
+#need to fix borders...
+OCEAN_ASIA="bangladesh brunei cambodia christmas-island east-timor hong-kong laos macao malaysia myanmar north-korea singapore south-korea spratly-islands vietnam"
 convert "$EXTRACT_DIR"/ocean-asia.pbf "polygons/ocean-asia/" $NORTH_ASIA
+
+#4. Central America
+convert $PLANET_FILE "polygons/" "central-america"
+
+#borders ok... check later
+CENTRAL_AMERICA="aruba bahamas barbados cayman-islands cuba jamaica" 
+convert "$EXTRACT_DIR"/central-america.pbf  "polygons/central-america" $CENTRAL_AMERICA
+
+#need to fix borders...
+CENTRAL_AMERICA2="anguilla antigua-and-barbuda  
+          costa-rica dominica el-salvador
+          grenada guadeloupe honduras martinique 
+          montserrat netherlands-antilles nicaragua panama puerto-rico  
+          saint-vincent-and-the-grenadines trinidad-and-tobago virgin-islands-british virgin-islands-us" 
+convert "$EXTRACT_DIR"/central-america.pbf  "polygons/central-america" $CENTRAL_AMERICA2
+
+#5. Europe
+#all present, i think so, but for numbering purposes
+
+#6. North America
+#borders ok
+NORTH_AMERICA="bermuda greenland"
+convert "$EXTRACT_DIR"/central-america.pbf  "polygons/north-america" $NORTH_AMERICA
+
+
+# 7. South America
+convert $PLANET_FILE "polygons/" "south-america"
+
+#need to fix borders...
+SOUTH_AMERICA="guyana paraguay peru suriname venezuela" 
+convert "$EXTRACT_DIR"/south-america.pbf  "polygons/south-america" $SOUTH_AMERICA
