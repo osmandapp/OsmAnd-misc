@@ -38,30 +38,34 @@ convert "$EXTRACT_DIR"/africa.pbf "polygons/africa/" $AFRICA
 #still work to be done
 convert $PLANET_FILE "polygons/" "east-asia"
 
-#need to fix borders...
-EAST_ASIA="afghanistan armenia bahrain british-indian-ocean-territory bhutan georgia iran jordan kuwait lebanon maldives nepal oman qatar saudi-arabia sri-lanka syria united-arab-emirates yemen"
+#borders ok
+EAST_ASIA="british-indian-ocean-territory maldives sri-lanka"
 convert "$EXTRACT_DIR"/east-asia.pbf "polygons/north-asia/" $EAST_ASIA
+
+#need to fix borders...
+EAST_ASIA2="afghanistan armenia bahrain bhutan georgia iran jordan kuwait lebanon nepal oman qatar saudi-arabia syria united-arab-emirates yemen"
+convert "$EXTRACT_DIR"/east-asia.pbf "polygons/north-asia/" $EAST_ASIA2
 
 # 2.1 ocean asia
 convert $PLANET_FILE "polygons/" "ocean-asia"
 
+#borders ok
+OCEAN_ASIA="christmas-island spratly-islands"
+convert "$EXTRACT_DIR"/ocean-asia.pbf "polygons/ocean-asia/" $OCEAN_ASIA
+
 #need to fix borders...
-OCEAN_ASIA="bangladesh brunei cambodia christmas-island east-timor hong-kong laos macao malaysia myanmar north-korea singapore south-korea spratly-islands vietnam"
-convert "$EXTRACT_DIR"/ocean-asia.pbf "polygons/ocean-asia/" $NORTH_ASIA
+OCEAN_ASIA2="bangladesh brunei cambodia east-timor hong-kong laos macao malaysia myanmar north-korea singapore south-korea vietnam"
+convert "$EXTRACT_DIR"/ocean-asia.pbf "polygons/ocean-asia/" $OCEAN_ASIA2
 
 #4. Central America
 convert $PLANET_FILE "polygons/" "central-america"
 
-#borders ok... check later
-CENTRAL_AMERICA="aruba bahamas barbados cayman-islands cuba jamaica" 
+#borders ok
+CENTRAL_AMERICA="anguilla antigua-and-barbuda aruba bahamas barbados cayman-islands cuba jamaica guadeloupe martinique montserrat puerto-rico saint-vincent-and-the-grenadines trinidad-and-tobago virgin-islands-british virgin-islands-us" 
 convert "$EXTRACT_DIR"/central-america.pbf  "polygons/central-america" $CENTRAL_AMERICA
 
 #need to fix borders...
-CENTRAL_AMERICA2="anguilla antigua-and-barbuda  
-          costa-rica dominica el-salvador
-          grenada guadeloupe honduras martinique 
-          montserrat netherlands-antilles nicaragua panama puerto-rico  
-          saint-vincent-and-the-grenadines trinidad-and-tobago virgin-islands-british virgin-islands-us" 
+CENTRAL_AMERICA2="costa-rica dominica el-salvador grenada honduras netherlands-antilles nicaragua panama" 
 convert "$EXTRACT_DIR"/central-america.pbf  "polygons/central-america" $CENTRAL_AMERICA2
 
 #5. Europe
