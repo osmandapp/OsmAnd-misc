@@ -61,11 +61,11 @@ convert "$EXTRACT_DIR"/ocean-asia.pbf "polygons/ocean-asia/" $OCEAN_ASIA2
 convert $PLANET_FILE "polygons/" "central-america"
 
 #borders ok
-CENTRAL_AMERICA="anguilla antigua-and-barbuda aruba bahamas barbados cayman-islands cuba jamaica guadeloupe martinique montserrat panama puerto-rico saint-vincent-and-the-grenadines trinidad-and-tobago virgin-islands-british virgin-islands-us" 
+CENTRAL_AMERICA="anguilla antigua-and-barbuda aruba bahamas barbados cayman-islands costa-rica cuba jamaica guadeloupe martinique montserrat panama puerto-rico saint-vincent-and-the-grenadines trinidad-and-tobago virgin-islands-british virgin-islands-us" 
 convert "$EXTRACT_DIR"/central-america.pbf  "polygons/central-america" $CENTRAL_AMERICA
 
 #need to fix borders...
-CENTRAL_AMERICA2="costa-rica dominica el-salvador grenada honduras netherlands-antilles nicaragua" 
+CENTRAL_AMERICA2="dominica el-salvador grenada honduras netherlands-antilles nicaragua" 
 convert "$EXTRACT_DIR"/central-america.pbf  "polygons/central-america" $CENTRAL_AMERICA2
 
 #5. Europe
