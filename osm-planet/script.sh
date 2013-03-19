@@ -40,11 +40,11 @@ convert $PLANET_FILE "polygons/" "east-asia"
 
 #borders ok
 EAST_ASIA="british-indian-ocean-territory maldives sri-lanka"
-convert "$EXTRACT_DIR"/east-asia.pbf "polygons/north-asia/" $EAST_ASIA
+convert "$EXTRACT_DIR"/east-asia.pbf "polygons/east-asia/" $EAST_ASIA
 
 #need to fix borders...
 EAST_ASIA2="afghanistan armenia bahrain bhutan georgia iran jordan kuwait lebanon nepal oman qatar saudi-arabia syria united-arab-emirates yemen"
-convert "$EXTRACT_DIR"/east-asia.pbf "polygons/north-asia/" $EAST_ASIA2
+convert "$EXTRACT_DIR"/east-asia.pbf "polygons/east-asia/" $EAST_ASIA2
 
 # 2.1 ocean asia
 convert $PLANET_FILE "polygons/" "ocean-asia"
