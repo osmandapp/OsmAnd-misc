@@ -69,7 +69,10 @@ CENTRAL_AMERICA2="dominica grenada netherlands-antilles nicaragua"
 convert "$EXTRACT_DIR"/central-america.pbf  "polygons/central-america" $CENTRAL_AMERICA2
 
 #5. Europe
-#all present, i think so, but for numbering purposes
+convert $PLANET_FILE "polygons/" "europe"
+# borders fixed
+EUROPE="portugal" 
+convert "$EXTRACT_DIR"/europe.pbf  "polygons/europe" $EUROPE
 
 #6. North America
 #borders ok
