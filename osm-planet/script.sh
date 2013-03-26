@@ -29,9 +29,13 @@ function convert {
 # 1. AFRICA
 convert $PLANET_FILE "polygons/" "africa"
 
-#need to fix borders...
-AFRICA="mali"
+#borders ok
+AFRICA="burundi chad kenya"
 convert "$EXTRACT_DIR"/africa.pbf "polygons/africa/" $AFRICA
+
+#need to fix borders...
+AFRICA2="mali"
+convert "$EXTRACT_DIR"/africa.pbf "polygons/africa/" $AFRICA2
 
 # 2. Asia
 # 2.1 east asia
