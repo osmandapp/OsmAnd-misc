@@ -193,5 +193,5 @@ function updateGoogleCodeIndexes($update=false) {
 	$output->save($localFileName);
 }
 
-updateGoogleCodeIndexes(false);
+updateGoogleCodeIndexes($_GET['update']);
 ?>
