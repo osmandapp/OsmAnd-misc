@@ -24,15 +24,6 @@ function loadIndexesFromDir($output, $outputIndexes, $dir, $elementName, $mapNod
 					$date= date('d.m.Y',filemtime($filename));
 					$description = str_replace("_", " ", substr($file, 0, -9));
 				} else {
-					// calculate target size
-					$resource = zip_open($filename);
-					$targetSize = 0;
-    				while ($dir_resource = zip_read($resource)) {
-        				$targetSize += zip_entry_filesize($dir_resource);
-    				}
-    				$targetSize =  number_format($targetSize / (1024.0*1024.0), 1, '.', '');
-    				zip_close($resource);
-
 					if ($zip->open($filename,ZIPARCHIVE::CHECKCONS)!==TRUE) {
 						// echo exit("cannot open <$filename>\n");
 						// print($filename . " cannot open as zip\n");
@@ -40,6 +31,8 @@ function loadIndexesFromDir($output, $outputIndexes, $dir, $elementName, $mapNod
 					}
 					$description = $zip->getCommentIndex(0);
 					$stat = $zip->statIndex( 0 );
+					$tSize = $stat['size'];
+					$targetSize =  number_format($tSize / (1024.0*1024.0), 1, '.', '');
 					$date= date('d.m.Y',$stat['mtime']);
 					$zip->close();
 				}
