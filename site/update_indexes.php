@@ -30,8 +30,8 @@ function loadIndexesFromDir($output, $outputIndexes, $dir, $elementName, $mapNod
 						continue;
 					}
 					$description = $zip->getCommentIndex(0);
-					$stat = $zip->statIndex( 0 );
-					$targetSize = number_format($stat['comp_size'] / (1024.0*1024.0), 1, '.', '');
+					$stat = $zip->statIndex( 0 , ZIPARCHIVE::FL_UNCHANGED);
+					$targetSize = number_format($stat['size'] / (1024.0*1024.0), 1, '.', '');
 					$date= date('d.m.Y',$stat['mtime']);
 					$zip->close();
 				}
