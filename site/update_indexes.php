@@ -26,6 +26,7 @@ function loadIndexesFromDir($output, $outputIndexes, $dir, $elementName, $mapNod
 				} else {
 					// calculate target size
 					$resource = zip_open($filename);
+					$targetSize = 0;
     				while ($dir_resource = zip_read($resource)) {
         				$targetSize += zip_entry_filesize($dir_resource);
     				}
