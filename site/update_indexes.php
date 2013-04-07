@@ -29,6 +29,7 @@ function loadIndexesFromDir($output, $outputIndexes, $dir, $elementName, $mapNod
     				while ($dir_resource = zip_read($resource)) {
         				$targetSize += zip_entry_filesize($dir_resource);
     				}
+    				$targetSize = $targetSize/ (1024.0*1024.0);
     				zip_close($resource);
 
 					if ($zip->open($filename,ZIPARCHIVE::CHECKCONS)!==TRUE) {
