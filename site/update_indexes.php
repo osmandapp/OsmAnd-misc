@@ -32,7 +32,7 @@ function loadIndexesFromDir($output, $outputIndexes, $dir, $elementName, $mapNod
 					$description = $zip->getCommentIndex(0);
 					$stat = $zip->statIndex( 0 );
 					$tSize = $stat['size'];
-					$targetSize =  number_format($tSize / (1024.0*1024.0), 1, '.', '');
+					$targetSize = 10;// number_format($tSize / (1024.0*1024.0), 1, '.', '');
 					$date= date('d.m.Y',$stat['mtime']);
 					$zip->close();
 				}
@@ -193,5 +193,5 @@ function updateGoogleCodeIndexes($update=false) {
 	$output->save($localFileName);
 }
 
-updateGoogleCodeIndexes($_GET['update']);
+updateGoogleCodeIndexes(false);
 ?>
