@@ -162,7 +162,7 @@ function updateGoogleCodeIndexes($update=false) {
 	 					$mapNodes[$base] = $out;
 	 					$out -> setAttribute("date", $date);
 	 					$out -> setAttribute("size", $size);
-	 					$out -> setAttribute("target_size", $size);
+	 					$out -> setAttribute("targetsize", $size);
 	 					$out -> setAttribute("name", $base);
 	 					$out -> setAttribute("description", $description);
 	 					$outputIndexes->appendChild($out);
@@ -174,7 +174,7 @@ function updateGoogleCodeIndexes($update=false) {
 	 				$out = $output->createElement( "region" );
 	 				$out -> setAttribute("date", $date);
 	 				$out -> setAttribute("size", $size);
-	 				$out -> setAttribute("target_size", $size);
+	 				$out -> setAttribute("targetsize", $size);
 	 				$out -> setAttribute("name", $indexName);
 	 				$out -> setAttribute("description", $description);
 	 				$outputIndexes->appendChild($out);
