@@ -18,10 +18,19 @@ function loadIndexesFromDir($output, $outputIndexes, $dir, $elementName, $mapNod
 				$filename = $dir . $file ; //"./test112.zip";
 				//print("processing file:" . $filename . "\n");
 				$indexName=$file;
+				$size =  number_format((filesize($filename) / (1024.0*1024.0)), 1, '.', '');
+				$targetSize =$size;
 				if(endsWith($file, ".sqlitedb")) {
 					$date= date('d.m.Y',filemtime($filename));
 					$description = str_replace("_", " ", substr($file, 0, -9));
 				} else {
+					// calculate target size
+					$resource = zip_open($filename);
+    				while ($dir_resource = zip_read($resource)) {
+        				$targetSize += zip_entry_filesize($dir_resource);
+    				}
+    				zip_close($resource);
+
 					if ($zip->open($filename,ZIPARCHIVE::CHECKCONS)!==TRUE) {
 						// echo exit("cannot open <$filename>\n");
 						// print($filename . " cannot open as zip\n");
@@ -33,7 +42,7 @@ function loadIndexesFromDir($output, $outputIndexes, $dir, $elementName, $mapNod
 					$zip->close();
 				}
 				
-				$size=  number_format((filesize($filename) / (1024.0*1024.0)), 1, '.', '');
+				
 
                 if($local_file) {
 					echo 'Local : '.$indexName.' '.$date.' '.$size.'<br>';
@@ -43,6 +52,7 @@ function loadIndexesFromDir($output, $outputIndexes, $dir, $elementName, $mapNod
                     $localdate = DateTime::createFromFormat('d.m.Y', $date);
                                         
                     if($localdate->getTimestamp() <= $exdate->getTimestamp()) {
+                    	$out -> setAttribute("targetsize", $targetSize);
 						continue;
 					}	
 					$out = $mapNodes[$indexName];				
@@ -60,6 +70,7 @@ function loadIndexesFromDir($output, $outputIndexes, $dir, $elementName, $mapNod
 				$out -> setAttribute("date", $date);
 				$out -> setAttribute("local", "true");
 				$out -> setAttribute("size", $size);
+				$out -> setAttribute("targetsize", $targetSize);
 				$out -> setAttribute("name", $indexName);
 				$out -> setAttribute("description", $description);
 				//$mapNodes[$indexName] = $out;
@@ -150,6 +161,7 @@ function updateGoogleCodeIndexes($update=false) {
 	 					$mapNodes[$base] = $out;
 	 					$out -> setAttribute("date", $date);
 	 					$out -> setAttribute("size", $size);
+	 					$out -> setAttribute("target_size", $size);
 	 					$out -> setAttribute("name", $base);
 	 					$out -> setAttribute("description", $description);
 	 					$outputIndexes->appendChild($out);
@@ -161,6 +173,7 @@ function updateGoogleCodeIndexes($update=false) {
 	 				$out = $output->createElement( "region" );
 	 				$out -> setAttribute("date", $date);
 	 				$out -> setAttribute("size", $size);
+	 				$out -> setAttribute("target_size", $size);
 	 				$out -> setAttribute("name", $indexName);
 	 				$out -> setAttribute("description", $description);
 	 				$outputIndexes->appendChild($out);
