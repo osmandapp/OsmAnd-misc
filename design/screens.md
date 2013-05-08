@@ -1,6 +1,10 @@
-Screens & Dialogs except Map Screen
+Screens & Dialogs
 =============
-LIST ACTIVITIES (+/-)
+
+Map Screen
+------------------
+
+List Activities
 -----------------------
 SearchAddressOnlineActivity
 PluginsActivity
@@ -11,21 +15,25 @@ GeoIntentActivity
 ShowRouteInfoActivity
 5 - SearchByNameAbstractActivity
 
-SPECIAL ACTIVITIES
-----------------------
-- 6 - SearchActivity (tabs)
-- Settings (General/AudioVideo/Accessiblity/OnlineMaps)
-- Navigation Settings
-- Test Voice Activity
-- Save local OSM editings
-
-LIST EXPAND ACTIVITIES
+Tree List Activities
 -----------------------
 - Favorites 
 - Data Management
 - Download Activity
 
-DIALOGS (non-standard list/message ook)
+
+Special Activities
+----------------------
+- SearchActivity (tabs) + 5 
+    (transport, address, favourties, location, history)
+- SelectAddressActivity (from Search near)
+- Settings (General/Audio Video/Accessiblity/Online Maps)
+- Navigation Settings
+- Test Voice Activity
+- Save local OSM editings
+
+
+Dialogs (except standard list/message)
 ----------------------
 - Tips and tricks 
 - Navigate to dialog
@@ -36,4 +44,4 @@ DIALOGS (non-standard list/message ook)
 - Add GPX 
 - Mark as parking positoin
 - Open OSM bug
-- New poi (Opening hours!)
+- New/edit poi  (Opening hours!)
