@@ -6,14 +6,14 @@ Map Screen
 
 List Activities
 -----------------------
-SearchAddressOnlineActivity
-PluginsActivity
-ContributionVersionActivity
-EditPOIFilterActivity
-SearchPOIActivity
-GeoIntentActivity
-ShowRouteInfoActivity
-5 - SearchByNameAbstractActivity
+- SearchAddressOnlineActivity
+- PluginsActivity
+- ContributionVersionActivity
+- EditPOIFilterActivity
+- SearchPOIActivity
+- GeoIntentActivity
+- ShowRouteInfoActivity
+- 5 - SearchByNameAbstractActivity (street,...)
 
 Tree List Activities
 -----------------------
