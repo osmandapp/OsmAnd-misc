@@ -30,7 +30,7 @@ function convert {
 convert $PLANET_FILE "polygons/" "africa"
 
 #borders ok
-AFRICA="burundi chad kenya mauritania"
+AFRICA="burundi chad kenya mauritania rwanda namibia"
 convert "$EXTRACT_DIR"/africa.pbf "polygons/africa/" $AFRICA
 
 #need to fix borders...
