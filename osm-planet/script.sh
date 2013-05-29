@@ -75,7 +75,7 @@ convert "$EXTRACT_DIR"/central-america.pbf  "polygons/central-america" $CENTRAL_
 #5. Europe
 convert $PLANET_FILE "polygons/" "europe"
 # borders fixed
-EUROPE="portugal switzerland" 
+EUROPE="portugal switzerland england_cornwall" 
 convert "$EXTRACT_DIR"/europe.pbf  "polygons/europe" $EUROPE
 
 #6. North America
