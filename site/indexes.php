@@ -3,7 +3,7 @@
 <?php 
    $update = $_GET['update'];
    include 'update_indexes.php';
-   updateGoogleCodeIndexes($update);
+   updateIndexes($update);
    $dom = new DomDocument(); 
    $dom->load('indexes.xml'); 
    $xpath = new DOMXpath($dom);

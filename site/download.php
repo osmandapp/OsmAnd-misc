@@ -54,23 +54,6 @@ function url_exists($url) {
     return is_array($hdrs) ? preg_match('/^HTTP\\/\\d+\\.\\d+\\s+2\\d\\d\\s+.*$/',$hdrs[0]) : false; 
 } 
 
-function update_count_of_downloads($file) {
- try {
-  $xml = simplexml_load_file("download_stat.xml");
-  $res = $xml->xpath('//download[@name="'.$file.'"]');
-  if (count($res) > 0) {
-    $node = $res[0];
-    $node["count"] = intval($node["count"]) + 1;
-  } else {
-    $obj = $xml-> addChild("download");
-    $obj -> addAttribute("name", $file);
-    $obj -> addAttribute("count", "1");
-  }
-  $xml->asXML("download_stat.xml");	
-  //fclose($xml);
- } catch(Exception $e) {
- }
-}
 
  if(!isset($_GET['file']) ) {
    header('HTTP/1.0 404 Not Found');

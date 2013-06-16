@@ -76,7 +76,7 @@ function loadIndexesFromDir($output, $outputIndexes, $dir, $elementName, $mapNod
 	}
 }
 
-function updateGoogleCodeIndexes($update=false) {
+function updateIndexes($update=false) {
     $local_file = basename($_SERVER['PHP_SELF']) == basename(__FILE__);
 	if( $local_file) 	{
     	$update = true;
@@ -192,5 +192,5 @@ function updateGoogleCodeIndexes($update=false) {
 	$output->save($localFileName);
 }
 
-updateGoogleCodeIndexes(false);
+updateIndexes(false);
 ?>

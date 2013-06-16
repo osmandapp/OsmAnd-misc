@@ -1,0 +1,53 @@
+#
+# VirtualHost for weblate
+#
+WSGIPythonPath /var/www/weblate
+<VirtualHost *:80>
+    ServerAdmin weblateadmin@osmand.net
+    ServerName translate.osmand.net
+
+    DocumentRoot /var/www/weblate/weblate/media/
+
+    Alias /robots.txt /var/www/weblate/weblate/media/robots.txt
+    Alias /favicon.ico /var/www/weblate/weblate/media/favicon.ico
+
+    Alias /media/ /var/www/weblate/weblate/media/
+    Alias /doc/ /var/doc/packages/weblate/html/
+    #Alias /static/admin /usr/share/pyshared/django/contrib/admin/media/
+    Alias /static/admin /usr/local/lib/python2.7/dist-packages/django/contrib/admin/static/admin/
+    #Alias /static/admin /usr/lib/python2.7/site-packages/django/contrib/admin/static/admin/
+
+    <Directory /usr/lib/python2.7/site-packages/django/contrib/admin/static/admin/>
+        Order deny,allow
+        Allow from all
+    </Directory>
+
+    <Directory /var/www/weblate/weblate/media/>
+        Order deny,allow
+        Allow from all
+    </Directory>
+
+    <Directory /var/doc/packages/weblate/html/>
+        Order deny,allow
+        Allow from all
+    </Directory>
+
+    <Directory /var/www/weblate/weblate/examples/>
+        Order deny,allow
+        Allow from all
+    </Directory>
+
+    WSGIScriptAlias / /var/www/weblate/weblate/wsgi.py
+    WSGIPassAuthorization On
+    #WSGIDaemonProcess weblate user=www-data
+    #WSGIProcessGroup weblate
+
+    <Directory /var/www/weblate/weblate>
+        <Files wsgi.py>
+        Order deny,allow
+        Allow from all
+        </Files>
+    </Directory>
+
+</VirtualHost>
+
