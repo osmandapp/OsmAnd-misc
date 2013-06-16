@@ -1,8 +1,8 @@
 #!/bin/sh
 DIRECTORY=$(cd `dirname $0` && pwd)
 
-GIT_SITE_DIR=$DIRECTORY/site
-LOCAL_SITE_DIR=/var/www-download
+GIT_SITE_DIR=$DIRECTORY/site/*
+LOCAL_SITE_DIR=/var/www-download/
 
 mkdir -p $LOCAL_SITE_DIR/
 cp -vur $GIT_SITE_DIR $LOCAL_SITE_DIR  
