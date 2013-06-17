@@ -112,7 +112,7 @@ function url_exists($url) {
     downloadFile('hillshade/'.$file);
   } else {
     header('HTTP/1.1 302 Found');
-    header('Location: http://ovh.osmand.net/download.php?hillshade=yes&file'.$file);
+    header('Location: http://ovh.osmand.net/download.php?hillshade=yes&file='.$file);
   }
  } else if (count($res) > 0) {
  	$node = $res[0];
