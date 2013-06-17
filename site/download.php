@@ -99,11 +99,15 @@ function url_exists($url) {
  $xml = simplexml_load_file("indexes.xml");
  $res = $xml->xpath('//region[@name="'.$file.'"]');
  if(isset($_GET['srtm'])){
-    downloadFile('srtm/'.$file);
+    // downloadFile('srtm/'.$file);
+  header('HTTP/1.1 302 Found');
+  header('Location: http://ovh.osmand.net/download.php?'.$file);
  } else if(isset($_GET['road'])){
     downloadFile('road-indexes/'.$file);
  } else if(isset($_GET['hillshade'])){
-    downloadFile('hillshade/'.$file);
+  //  downloadFile('hillshade/'.$file);
+  header('HTTP/1.1 302 Found');
+  header('Location: http://ovh.osmand.net/download.php?'.$file);
  } else if (count($res) > 0) {
  	$node = $res[0];
         if($node["local"]) {
