@@ -103,17 +103,16 @@ function url_exists($url) {
     downloadFile('srtm/'.$file);
   } else {
     header('HTTP/1.1 302 Found');
-    header('Location: http://ovh.osmand.net/download.php?srtm=yes&'.$file);
+    header('Location: http://ovh.osmand.net/download.php?srtm=yes&file='.$file);
   }
  } else if(isset($_GET['road'])){
     downloadFile('road-indexes/'.$file);
  } else if(isset($_GET['hillshade'])){
-  //  downloadFile('hillshade/'.$file);
   if($_SERVER['SERVER_NAME'] == 'ovh.osmand.net') {
     downloadFile('hillshade/'.$file);
   } else {
     header('HTTP/1.1 302 Found');
-    header('Location: http://ovh.osmand.net/download.php?hillshade=yes&'.$file);
+    header('Location: http://ovh.osmand.net/download.php?hillshade=yes&file'.$file);
   }
  } else if (count($res) > 0) {
  	$node = $res[0];
