@@ -101,13 +101,13 @@ function url_exists($url) {
  if(isset($_GET['srtm'])){
     // downloadFile('srtm/'.$file);
   header('HTTP/1.1 302 Found');
-  header('Location: http://ovh.osmand.net/download.php?'.$file);
+  header('Location: http://ovh.osmand.net/download.php?srtm=yes&'.$file);
  } else if(isset($_GET['road'])){
     downloadFile('road-indexes/'.$file);
  } else if(isset($_GET['hillshade'])){
   //  downloadFile('hillshade/'.$file);
   header('HTTP/1.1 302 Found');
-  header('Location: http://ovh.osmand.net/download.php?'.$file);
+  header('Location: http://ovh.osmand.net/download.php?hillshade=yes&'.$file);
  } else if (count($res) > 0) {
  	$node = $res[0];
         if($node["local"]) {
