@@ -99,20 +99,25 @@ function url_exists($url) {
  $xml = simplexml_load_file("indexes.xml");
  $res = $xml->xpath('//region[@name="'.$file.'"]');
  if(isset($_GET['srtm'])){
-  if($_SERVER['SERVER_NAME'] == 'ovh.osmand.net') {
-    downloadFile('srtm/'.$file);
-  } else {
+  if($_SERVER['SERVER_NAME'] == 'download.osmand.net' || $_SERVER['SERVER_NAME'] == 'osmand.net') {
     header('HTTP/1.1 302 Found');
     header('Location: http://ovh.osmand.net/download.php?srtm=yes&file='.$file);
+  } else {
+    downloadFile('srtm/'.$file);
   }
  } else if(isset($_GET['road'])){
-    downloadFile('road-indexes/'.$file);
- } else if(isset($_GET['hillshade'])){
-  if($_SERVER['SERVER_NAME'] == 'ovh.osmand.net') {
-    downloadFile('hillshade/'.$file);
+  if($_SERVER['SERVER_NAME'] == 'download.osmand.net' || $_SERVER['SERVER_NAME'] == 'osmand.net') {
+    header('HTTP/1.1 302 Found');
+    header('Location: http://ovh.osmand.net/download.php?road=yes&file='.$file);
   } else {
+    downloadFile('road-indexes/'.$file);
+  }
+ } else if(isset($_GET['hillshade'])){
+  if($_SERVER['SERVER_NAME'] == 'download.osmand.net' || $_SERVER['SERVER_NAME'] == 'osmand.net') {
     header('HTTP/1.1 302 Found');
     header('Location: http://ovh.osmand.net/download.php?hillshade=yes&file='.$file);
+  } else {
+    downloadFile('hillshade/'.$file);
   }
  } else if (count($res) > 0) {
  	$node = $res[0];

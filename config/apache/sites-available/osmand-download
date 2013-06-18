@@ -19,9 +19,9 @@
 		NoIPLimit
 	</Location>
 
-    Alias /awstatsclasses "/usr/share/awstats/lib/"
-    Alias /awstatsicons/ "/usr/share/awstats/icon/"
-	Alias /awstatscss "/usr/share/doc/awstats/examples/css"
+    Alias /awstats-classes "/usr/share/awstats/lib/"
+    Alias /awstats-icon "/usr/share/awstats/icon/"
+    Alias /awstats-css "/usr/share/doc/awstats/exa
 	ScriptAlias /awstats/ /usr/lib/cgi-bin/
 	Options ExecCGI -MultiViews +SymLinksIfOwnerMatch
 
