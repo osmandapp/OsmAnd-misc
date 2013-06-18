@@ -120,12 +120,17 @@ function url_exists($url) {
     downloadFile('hillshade/'.$file);
   }
  } else if (count($res) > 0) {
- 	$node = $res[0];
-        if($node["local"]) {
- 		downloadFile('indexes/'.$file);
- 	}  else {
- 		header('HTTP/1.1 302 Found');
- 		header('Location: http://osmand.googlecode.com/files/'.$file);
+ 	 $node = $res[0];
+   if($node["local"]) {
+      if($_SERVER['SERVER_NAME'] == 'download.osmand.net' || $_SERVER['SERVER_NAME'] == 'osmand.net') {
+        header('HTTP/1.1 302 Found');
+        header('Location: http://ovh.osmand.net/download.php?file='.$file);
+      } else {
+        downloadFile('indexes/'.$file);
+      }
+ 	 } else {
+  		header('HTTP/1.1 302 Found');
+ 	  	header('Location: http://osmand.googlecode.com/files/'.$file);
  	}
  } else {
     header('HTTP/1.1 302 Found');
