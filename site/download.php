@@ -124,7 +124,7 @@ function url_exists($url) {
    if($node["local"]) {
       if($_SERVER['SERVER_NAME'] == 'download.osmand.net' || $_SERVER['SERVER_NAME'] == 'osmand.net') {
         header('HTTP/1.1 302 Found');
-        header('Location: http://ovh.osmand.net/download.php?file='.$file);
+        header('Location: http://ovh.osmand.net/download.php?standard=yes&file='.$file);
       } else {
         downloadFile('indexes/'.$file);
       }
