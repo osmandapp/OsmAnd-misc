@@ -54,6 +54,14 @@ function url_exists($url) {
     return is_array($hdrs) ? preg_match('/^HTTP\\/\\d+\\.\\d+\\s+2\\d\\d\\s+.*$/',$hdrs[0]) : false; 
 } 
 
+function dwFile($filename,$query) {
+  if($_SERVER['SERVER_NAME'] == 'download.osmand.net' || $_SERVER['SERVER_NAME'] == 'osmand.net') {
+    header('HTTP/1.1 302 Found');
+    header('Location: http://ovh.osmand.net:81/download.php?'.$query);
+  } else {
+    downloadFile($filename);
+  }
+}
 
  if(!isset($_GET['file']) ) {
    header('HTTP/1.0 404 Not Found');
@@ -99,35 +107,15 @@ function url_exists($url) {
  $xml = simplexml_load_file("indexes.xml");
  $res = $xml->xpath('//region[@name="'.$file.'"]');
  if(isset($_GET['srtm'])){
-  if($_SERVER['SERVER_NAME'] == 'download.osmand.net' || $_SERVER['SERVER_NAME'] == 'osmand.net') {
-    header('HTTP/1.1 302 Found');
-    header('Location: http://ovh.osmand.net/download.php?srtm=yes&file='.$file);
-  } else {
-    downloadFile('srtm/'.$file);
-  }
+    dwFile('srtm/'.$file, 'srtm=yes&file='.$file);
  } else if(isset($_GET['road'])){
-  if($_SERVER['SERVER_NAME'] == 'download.osmand.net' || $_SERVER['SERVER_NAME'] == 'osmand.net') {
-    header('HTTP/1.1 302 Found');
-    header('Location: http://ovh.osmand.net/download.php?road=yes&file='.$file);
-  } else {
-    downloadFile('road-indexes/'.$file);
-  }
+    dwFile('road-indexes/'.$file, 'road=yes&file='.$file);
  } else if(isset($_GET['hillshade'])){
-  if($_SERVER['SERVER_NAME'] == 'download.osmand.net' || $_SERVER['SERVER_NAME'] == 'osmand.net') {
-    header('HTTP/1.1 302 Found');
-    header('Location: http://ovh.osmand.net/download.php?hillshade=yes&file='.$file);
-  } else {
-    downloadFile('hillshade/'.$file);
-  }
+    dwFile('hillshade/'.$file, 'hillshade=yes&file='.$file);
  } else if (count($res) > 0) {
  	 $node = $res[0];
    if($node["local"]) {
-      if($_SERVER['SERVER_NAME'] == 'download.osmand.net' || $_SERVER['SERVER_NAME'] == 'osmand.net') {
-        header('HTTP/1.1 302 Found');
-        header('Location: http://ovh.osmand.net/download.php?standard=yes&file='.$file);
-      } else {
-        downloadFile('indexes/'.$file);
-      }
+      dwFile('indexes/'.$file, 'standard=yes&file='.$file);
  	 } else {
   		header('HTTP/1.1 302 Found');
  	  	header('Location: http://osmand.googlecode.com/files/'.$file);
