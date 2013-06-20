@@ -55,7 +55,8 @@ function url_exists($url) {
 } 
 
 function dwFile($filename,$query) {
-  if($_SERVER['SERVER_NAME'] == 'download.osmand.net' || $_SERVER['SERVER_NAME'] == 'osmand.net') {
+  if($_SERVER['SERVER_NAME'] == 'download.osmand.net' || $_SERVER['SERVER_NAME'] == 'osmand.net'
+    || $_SERVER['SERVER_NAME'] == 'new.osmand.net') {
     header('HTTP/1.1 302 Found');
     header('Location: http://ovh.osmand.net:81/download.php?'.$query);
   } else {
