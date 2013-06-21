@@ -1,6 +1,6 @@
-<VirtualHost *:80>
+<VirtualHost *:81>
 	ServerAdmin wwwdownload@osmand.net
-	ServerName download.osmand.net
+	ServerName dl.osmand.net
 
 	DocumentRoot /var/www-download
 	<Directory />
@@ -12,11 +12,11 @@
 		AllowOverride None
 		Order allow,deny
 		allow from all
-		MaxConnPerIP 4
+		# MaxConnPerIP 4 # requuires limitipconn.load
 	</Directory>
 
 	<Location /resource>
-		NoIPLimit
+		# NoIPLimit 4 # requuires limitipconn.load
 	</Location>
 
     Alias /awstats-classes "/usr/share/awstats/lib/"
