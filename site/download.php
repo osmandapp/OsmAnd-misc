@@ -59,7 +59,7 @@ function dwFile($filename,$query) {
     || $_SERVER['SERVER_NAME'] == 'new.osmand.net') {
     header('HTTP/1.1 302 Found');
     # header('Location: http://ovh.osmand.net:81/download.php?'.$query);
-    header('Location: http://dl.osmand.net/download.php?'.$query);
+    header('Location: http://dl2.osmand.net/download.php?'.$query);
   } else {
     downloadFile($filename);
   }
