@@ -18,16 +18,16 @@
 ##
 
 server {
-	listen   81; ## listen for ipv4; this line is default and implied
+	listen   80; ## listen for ipv4; this line is default and implied
 	#listen   [::]:80 default ipv6only=on; ## listen for ipv6
 
 	root /var/www-download/;
 	index index.html index.htm;
 
 	# Make site accessible from http://localhost/
-	server_name ovh.osmand.net;
+	server_name dl.osmand.net;
 
-	location ~ /download\.php {
+	location = /download.php {
 		# add_header Content-Disposition "attachment; filename=$arg_file";
 		if ($arg_srtm) {
 			rewrite ^ /srtm/$arg_file last;
@@ -41,6 +41,32 @@ server {
 		rewrite ^ /indexes/$arg_file last;
 	}
 
+	location .php {
+		# Uncomment to enable naxsi on this location
+		# include /etc/nginx/naxsi.rules
+		proxy_pass         http://127.0.0.1:81/;
+        proxy_redirect     off;
+        proxy_set_header   Host             $host;
+        proxy_set_header   X-Real-IP        $remote_addr;
+        #proxy_set_header  X-Forwarded-For  $proxy_add_x_forwarded_for;
+
+        client_max_body_size       10m;
+        client_body_buffer_size    128k;
+
+        client_body_temp_path      /var/nginx/client_body_temp;
+
+        proxy_connect_timeout      70;
+        proxy_send_timeout         90;
+        proxy_read_timeout         90;
+        #proxy_send_lowat           12000;
+
+        proxy_buffer_size          4k;
+        proxy_buffers              4 32k;
+        proxy_busy_buffers_size    64k;
+        proxy_temp_file_write_size 64k;
+        proxy_temp_path            /var/nginx/proxy_temp;
+	}	
+
 	location / {
 		# First attempt to serve request as file, then
 		# as directory, then fall back to index.html
@@ -48,27 +74,6 @@ server {
 		# Uncomment to enable naxsi on this location
 		# include /etc/nginx/naxsi.rules
 
-		#proxy_pass         http://127.0.0.1/;
-        #proxy_redirect     off;
-        #proxy_set_header   Host             $host;
-        #proxy_set_header   X-Real-IP        $remote_addr;
-        ##proxy_set_header  X-Forwarded-For  $proxy_add_x_forwarded_for;
-
-        #client_max_body_size       10m;
-        #client_body_buffer_size    128k;
-
-        #client_body_temp_path      /var/nginx/client_body_temp;
-
-        #proxy_connect_timeout      70;
-        #proxy_send_timeout         90;
-        #proxy_read_timeout         90;
-        #proxy_send_lowat           12000;
-
-        #proxy_buffer_size          4k;
-        #proxy_buffers              4 32k;
-        #proxy_busy_buffers_size    64k;
-        #proxy_temp_file_write_size 64k;
-        #proxy_temp_path            /var/nginx/proxy_temp;
         #charset  utf-8;
 	}	
 

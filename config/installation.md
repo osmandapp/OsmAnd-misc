@@ -54,4 +54,7 @@ cd /etc/apache2/mods-enabled/ && ln -s ../mods-available/rewrite.load
 
 
 # setup nginx
-
+mkdir -p /var/nginx/client_body_temp && mkdir -p /var/nginx/proxy_temp
+chown -R www-data /var/nginx/client_body_temp &&  chown -R www-data /var/nginx/proxy_temp 
+vi /etc/nginx/sites-available/osmand-download
+cd /etc/nginx/sites-enabled/   && rm default && ln -s ../sites-available/osmand-download osmand-download
