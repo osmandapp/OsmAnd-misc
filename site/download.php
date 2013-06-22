@@ -114,7 +114,9 @@ function dwFile($filename,$query) {
  set_time_limit(0);
  $xml = simplexml_load_file("indexes.xml");
  $res = $xml->xpath('//region[@name="'.$file.'"]');
- if(isset($_GET['srtm'])){
+ if($file ==  "World_basemap_2.obf.zip") {
+    dwFile('indexes/'.$file, 'standard=yes&file='.$file);
+ } else if(isset($_GET['srtm'])){
     dwFile('srtm/'.$file, 'srtm=yes&file='.$file);
  } else if(isset($_GET['road'])){
     dwFile('road-indexes/'.$file, 'road=yes&file='.$file);
