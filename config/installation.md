@@ -19,6 +19,7 @@ service jenkins restart
 # traffic
 apt-get install vnstat iptraf
 vi /etc/vnstat.conf # MaxBandwidth
+service vnstat restart #!
 
 
 # configure jenkins
@@ -40,10 +41,10 @@ git://github.com/osmandapp/OsmAnd-manifest.git
 $ misc/update_site.sh
 
 # setup apache2
+cd /etc/apache2/
 rm sites-enabled/000-default
 vi ports.conf # 81
-vi httpd.conf # ServerName dl.osmand.net # if file exists
-vi sites-available/osmand-default
+vi sites-available/osmand-download
 ln -s ../sites-available/osmand-download osmand-download
 cd /etc/apache2/mods-enabled/ && ln -s ../mods-available/rewrite.load
 

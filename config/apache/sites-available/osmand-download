@@ -1,6 +1,6 @@
 <VirtualHost *:81>
 	ServerAdmin wwwdownload@osmand.net
-	ServerName dl.osmand.net
+	ServerName localhost
 
 	DocumentRoot /var/www-download
 	<Directory />
@@ -21,7 +21,7 @@
 
     Alias /awstats-classes "/usr/share/awstats/lib/"
     Alias /awstats-icon "/usr/share/awstats/icon/"
-    Alias /awstats-css "/usr/share/doc/awstats/exa
+    Alias /awstats-css "/usr/share/doc/awstats/examples/css"
 	ScriptAlias /awstats/ /usr/lib/cgi-bin/
 	Options ExecCGI -MultiViews +SymLinksIfOwnerMatch
 
