@@ -25,12 +25,12 @@ function convert {
 }
 
 #sorted according to regions list in osmand-tools.
-#Geofabrik is not neded because those extracts are already processed.
+#Geofabrik is not needed because those extracts are already processed.
 # 1. AFRICA
 convert $PLANET_FILE "polygons/" "africa"
 
 #borders ok
-AFRICA="burundi chad kenya mauritania"
+AFRICA="burundi chad kenya mauritania tunisia"
 convert "$EXTRACT_DIR"/africa.pbf "polygons/africa/" $AFRICA
 
 #need to fix borders...
