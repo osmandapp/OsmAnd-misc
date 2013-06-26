@@ -4,7 +4,7 @@ DIRECTORY=$(cd `dirname $0` && pwd)
 INDEXES_DIR=/var/www-download/indexes/
 SYNC_DIR=/var/www-download/sync/
 
-rsync --recursive -v -L --times $SYNC_DIR/publish/ $SYNC_DIR/indexes/
+rsync --recursive -v -L --times $SYNC_DIR/indexes/ $SYNC_DIR/publish/
 
 # R2NGOYG7TSJL7BT5QB5QFULORCH7TQ43X
 mkdir -p $SYNC_DIR/Russia
