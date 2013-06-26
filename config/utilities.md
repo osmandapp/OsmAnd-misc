@@ -1,4 +1,4 @@
- # Calculate traffic from access.log
+# Calculate traffic from access.log
 zcat /var/log/apache2/access.log.2.gz | grep germany | wc -l
 cat /var/log/apache2/access.log | grep europe | perl -e 'my $sum=0; while(<>) { my ($traffic) = m/\[.+\] ".+" \d+ (\d+)
  /; $sum += $traffic}; $sum = $sum/(1024.*1024.*1024.) ; print "$sum GB\n"'
@@ -22,3 +22,6 @@ cd /tmp
 git clone https://github.com/sivel/speedtest-cli
 cd speedtest-cli 
 python2.7 speedtest-cli
+
+
+# btsync 
