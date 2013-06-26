@@ -2,7 +2,9 @@
 DIRECTORY=$(cd `dirname $0` && pwd)
 
 INDEXES_DIR=/var/www-download/indexes/
-SYNC_DIR=/var/sync/
+SYNC_DIR=/var/www-download/sync/
+
+rsync --recursive -v -L --times $SYNC_DIR/publish/ $SYNC_DIR/indexes/
 
 # R2NGOYG7TSJL7BT5QB5QFULORCH7TQ43X
 mkdir -p $SYNC_DIR/Russia
@@ -28,4 +30,4 @@ rsync --progress --delete-after --dirs --times --exclude="(France|Gb_|Germany)*"
 mkdir -p $SYNC_DIR/NorthAmerica
 rsync --progress --delete-after --dirs --times $INDEXES_DIR/*_northamerica_* $SYNC_DIR/NorthAmerica/
 
-rsync --recursive -v -L --times $SYNC_DIR/publish/ $SYNC_DIR/content/
+
