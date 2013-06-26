@@ -27,3 +27,5 @@ rsync --progress --delete-after --dirs --times --exclude="(France|Gb_|Germany)*"
 # RJ6BUYMK4CDT64G3JZWVKAK2UPNGALXXI
 mkdir -p $SYNC_DIR/NorthAmerica
 rsync --progress --delete-after --dirs --times $INDEXES_DIR/*_northamerica_* $SYNC_DIR/NorthAmerica/
+
+rsync --recursive -v -L --times $SYNC_DIR/publish/ $SYNC_DIR/content/
