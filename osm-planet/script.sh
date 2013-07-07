@@ -17,7 +17,7 @@ generate()  {
 			echo "Skipping $3 country from $1 $(date) ...";
 		else
 			echo "Extracting $3 country from $1 $(date) ..."
-			time osmconvert $3 -B=$2/$3.poly --complex-ways --complete-ways --drop-author -o=$FILE
+			time osmconvert $1 -B=$2/$3.poly --complex-ways --complete-ways --drop-author -o=$FILE
 		fi
 }
 
