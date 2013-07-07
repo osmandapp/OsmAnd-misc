@@ -32,7 +32,7 @@ convertFolder() {
   SOURCE_PBF=$1
   FOLDER=$2
   for FILE in ${FOLDER}/*.poly; do
-      FILENAME=${FILE##/*/}
+      FILENAME=${FILE##*/}
       if [[ $FILENAME == _* ]]; then
         continue;
       fi
