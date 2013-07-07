@@ -36,7 +36,7 @@ convertFolder() {
       if [[ $FILENAME == _* ]]; then
         continue;
       fi
-      generate $1 $2 ${FILENAME::-5}
+      generate $1 ${FOLDER} ${FILENAME::-5}
   done
 }
 
