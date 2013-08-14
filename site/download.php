@@ -61,7 +61,7 @@ function dwFile($filename,$query) {
     $var = rand(0, 10);
     if($var < 5 ) {
       // header('Location: http://dl1.osmand.net/download.php?'.$query);
-       header('Location: http://dl2.osmand.net/download.php?'.$query);
+       header('Location: http://dl3.osmand.net/download.php?'.$query);
     //} else if($var == 5 ) {
     //  header('Location: http://builder.osmand.net/download.php?'.$query);
     } else {
