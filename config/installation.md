@@ -43,10 +43,11 @@ $ misc/update_site.sh
 # setup apache2
 cd /etc/apache2/
 rm sites-enabled/000-default
-vi ports.conf # 81
+vi ports.conf # NameVirtualHost *:80 Listen 81
 vi sites-available/osmand-download
-ln -s ../sites-available/osmand-download osmand-download
+cd /etc/apache2/sites-enabled && ln -s ../sites-available/osmand-download osmand-download
 cd /etc/apache2/mods-enabled/ && ln -s ../mods-available/rewrite.load
+vi /etc/apache2/apache2.conf
 
 
 # setup awstats
