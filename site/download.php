@@ -58,9 +58,10 @@ function dwFile($filename,$query) {
   if($_SERVER['SERVER_NAME'] == 'download.osmand.net' || $_SERVER['SERVER_NAME'] == 'osmand.net'
     || $_SERVER['SERVER_NAME'] == 'new.osmand.net') {
     header('HTTP/1.1 302 Found');
-    $var = rand(0, 7);
-    if($var == 6 ) {
-      header('Location: http://dl1.osmand.net/download.php?'.$query);
+    $var = rand(0, 10);
+    if($var < 5 ) {
+      // header('Location: http://dl1.osmand.net/download.php?'.$query);
+       header('Location: http://dl2.osmand.net/download.php?'.$query);
     //} else if($var == 5 ) {
     //  header('Location: http://builder.osmand.net/download.php?'.$query);
     } else {
