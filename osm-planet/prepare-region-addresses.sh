@@ -24,13 +24,10 @@ cd ${WORKDIR}
 for country in ${COUNTRIES}; do
     basecountry=${country%%:*}
     L1=${country#*:}
+    continent=${L1%%:*}
     urlpart=${L1#*:}
-    basecountry=${country%%:*}
-    VALUE=${animal#*:}
-    basecountry=$(basename ${country})
-    continent=$(dirname ${country})
     TARGETFILE=../${TARGETDIR}/${basecountry}_addresses-nationwide_${continent}.osm.pbf
-    MSG="address country ${basecountry} and the continent name ${continent} from ${URL_PREFIX}${urlpart}"
+    MSG="address country ${basecountry} and the continent name ${continent} from ${URL_PREFIX}${urlpart} to ${TARGETFILE}"
     
     if [ -f $TARGETFILE ]; then
        echo "Skip ${MSG}"
