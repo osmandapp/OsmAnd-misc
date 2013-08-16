@@ -80,3 +80,7 @@ convertFolder "$EXTRACT_DIR"/south-america.pbf  "polygons/south-america"
 #need to fix borders...
 #SOUTH_AMERICA="guyana paraguay peru suriname venezuela" 
 
+
+# 8. Oceania and Australia
+convert $PLANET_FILE "polygons/" "australia-oceania"
+convertFolder "$EXTRACT_DIR"/australia-oceania.pbf "polygons/australia-oceania"
