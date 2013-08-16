@@ -14,7 +14,7 @@ URL_PREFIX=$2
 WORKDIR=work
 TARGETDIR=osm
 rm -rf ${WORKDIR} 
-mkdir -p ${WORKDIR} 
+mkdir -p ${WORKDIR} ${TARGETDIR}
 cd ${WORKDIR}
 
 
