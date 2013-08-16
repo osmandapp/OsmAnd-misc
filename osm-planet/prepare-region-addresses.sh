@@ -33,7 +33,6 @@ for country in ${COUNTRIES}; do
     MSG="address country ${basecountry} and the continent name ${continent} from ${URL_SUFFIX}${urlpart}"
     
     if [ ! -f $TARGETFILE ]; then
-    then
        echo "Skip ${MSG}"
     else
        echo "Generate ${MSG}"
