@@ -30,14 +30,14 @@ for country in ${COUNTRIES}; do
     basecountry=$(basename ${country})
     continent=$(dirname ${country})
     TARGETFILE=../${TARGETDIR}/${basecountry}_addresses-nationwide_${continent}.osm.pbf
-    MSG="address country ${basecountry} and the continent name ${continent} from ${URL_SUFFIX}${urlpart}"
+    MSG="address country ${basecountry} and the continent name ${continent} from ${URL_PREFIX}${urlpart}"
     
-    if [ ! -f $TARGETFILE ]; then
+    if [ -f $TARGETFILE ]; then
        echo "Skip ${MSG}"
     else
        echo "Generate ${MSG}"
        # As the file was older then 8 days, or non-existent, we download the country again
-       wget -O ${basecountry}.osm.pbf -nv "${URL_SUFFIX}${urlpart}"
+       wget -O ${basecountry}.osm.pbf -nv "${URL_PREFIX}${urlpart}"
        # convert to fastest intermediate format
        osmconvert --drop-author ${basecountry}.osm.pbf --out-o5m -o=${basecountry}.o5m
        # filter only the necessary stuff out of the entire osm file
