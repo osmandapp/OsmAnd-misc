@@ -83,10 +83,10 @@ if __name__ == "__main__":
 	process_poly_folder('geo-polygons/north-america/us/', 'northamerica', 'Us')
 	process_poly_folder('geo-polygons/north-america/canada/', 'northamerica', 'Canada')
 
-	# TODO + bermuda
+	# TODO + osm bermuda
 	process_poly_folder('geo-polygons/north-america/', 'northamerica')
 
-	# TODO + guyana, paraguay, suriname, venezuela
+	# TODO + osm guyana, paraguay, suriname, venezuela
 	process_poly_folder('geo-polygons/south-america/', 'southamerica')
 
 	# TODO  osm central america
@@ -95,13 +95,12 @@ if __name__ == "__main__":
 	# TODO osmand asia
 	process_poly_folder('geo-polygons/asia/', 'asia')
 
-	# TODO australia-oceania whole region
-	# TODO osmand oceania
+	process_poly('polygons/australia-oceania/oceania.poly', 'oceania', '', 'australia-oceania')
+	process_poly('geo-polygons/australia-oceania.poly', 'australia-oceania', '', '')
 	process_poly_folder('geo-polygons/australia-oceania/', 'australia')
 	
-	
-	# TODO africa whole region
-	# TODO osmand AFRICA
+	# TODO osm africa
+	process_poly('geo-polygons/africa.poly', 'africa', '', '')
 	process_poly_folder('geo-polygons/africa/', 'africa')
 
 	print "</osm>"
