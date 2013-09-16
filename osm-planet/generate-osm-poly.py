@@ -92,6 +92,8 @@ if __name__ == "__main__":
 	# TODO  osm central america
 	process_poly_folder('geo-polygons/central-america/', 'centralamerica')
 	
+	# TODO osmand asia
+	process_poly_folder('geo-polygons/asia/', 'asia')
 
 	# TODO australia-oceania whole region
 	# TODO osmand oceania
