@@ -59,17 +59,47 @@ def process_poly(filename, country, prefix, suffix):
 				first_node = nid
 
 			match = parse.search(line)
-			print '<node id="%s" lat="%s" lon="%s">' % (nid, float(match.groups()[0]), float(match.groups()[1]))
+			print '<node id="%s" lat="%s" lon="%s"/>' % (nid, float(match.groups()[1]), float(match.groups()[0]))
 		way_cont += '\t<nd ref="%s" />\n' % (nid)
 
 
-def process_poly_folder(folder, suffix):
+def process_poly_folder(folder, suffix, prefix=''):
 	for filename in os.listdir (folder):
-		country = filename[:-5]
-		process_poly(folder + filename, country, '', suffix)
+		if filename.endswith('.poly') and not filename.startswith('_'):
+			country = filename[:-5]
+			process_poly(folder + filename, country, prefix, suffix)
 
 if __name__ == "__main__":
 	print "<osm generator='osm2poly' version='0.5'>"
-	#process_poly_folder('polygons/africa/', 'africa')
-	process_poly_folder('polygons/south-america/', 'southamerica')
+	# geo -polygons
+	process_poly_folder('geo-polygons/europe/', 'europe')
+	process_poly_folder('geo-polygons/europe/great-britain/', 'europe', 'Gb')
+	process_poly_folder('geo-polygons/europe/germany/', 'europe', 'Germany')
+	process_poly_folder('geo-polygons/europe/france/', 'europe', 'France')
+	# TODO shires from england (?)
+	# TODO Italy divisions (?)
+	# TODO Russia divisions (?)
+
+	process_poly_folder('geo-polygons/north-america/us/', 'northamerica', 'Us')
+	process_poly_folder('geo-polygons/north-america/canada/', 'northamerica', 'Canada')
+
+	# TODO + bermuda
+	process_poly_folder('geo-polygons/north-america/', 'northamerica')
+
+	# TODO + guyana, paraguay, suriname, venezuela
+	process_poly_folder('geo-polygons/south-america/', 'southamerica')
+
+	# TODO  osm central america
+	process_poly_folder('geo-polygons/central-america/', 'centralamerica')
+	
+
+	# TODO australia-oceania whole region
+	# TODO osmand oceania
+	process_poly_folder('geo-polygons/australia-oceania/', 'australia')
+	
+	
+	# TODO africa whole region
+	# TODO osmand AFRICA
+	process_poly_folder('geo-polygons/africa/', 'africa')
+
 	print "</osm>"
