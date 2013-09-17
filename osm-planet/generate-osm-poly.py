@@ -84,6 +84,7 @@ if __name__ == "__main__":
 
 	# TODO + osm bermuda
 	process_poly_folder('geo-polygons/north-america/', 'northamerica')
+	process_poly_folder('polygons/north-america/', 'northamerica')
 
 	process_poly_folder('geo-polygons/south-america/', 'southamerica')
 	# process_poly_folder('polygons/south-america/', 'southamerica')  # 100 kb 4 countries
