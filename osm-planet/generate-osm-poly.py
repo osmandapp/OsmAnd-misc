@@ -92,9 +92,9 @@ if __name__ == "__main__":
 	# TODO shires from england (?)
 	# TODO Italy divisions (?)
 
-	# TODO optimise Russia divisions (?)
-	#process_russia_divisions()
+	#process_russia_divisions() # too big replcae with russia-regions
 	process_poly_folder('polygons/russia/', 'asia', 'Russia')
+	process_poly_folder('polygons/russia-regions/', 'asia', 'Russia')
 
 	process_poly_folder('geo-polygons/north-america/us/', 'northamerica', 'Us')
 	process_poly_folder('geo-polygons/north-america/canada/', 'northamerica', 'Canada')
