@@ -71,7 +71,6 @@ def process_poly_folder(folder, suffix, prefix=''):
 
 if __name__ == "__main__":
 	print "<osm generator='osm2poly' version='0.5'>"
-	# geo -polygons
 	process_poly_folder('geo-polygons/europe/', 'europe')
 	process_poly_folder('geo-polygons/europe/great-britain/', 'europe', 'Gb')
 	process_poly_folder('geo-polygons/europe/germany/', 'europe', 'Germany')
@@ -86,11 +85,12 @@ if __name__ == "__main__":
 	# TODO + osm bermuda
 	process_poly_folder('geo-polygons/north-america/', 'northamerica')
 
-	# TODO + osm guyana, paraguay, suriname, venezuela
 	process_poly_folder('geo-polygons/south-america/', 'southamerica')
+	# process_poly_folder('polygons/south-america/', 'southamerica')  # 100 kb 4 countries
 
-	# TODO  osm central america
 	process_poly_folder('geo-polygons/central-america/', 'centralamerica')
+	# TODO osm
+	# process_poly_folder('polygons/central-america/', 'centralamerica') # 20kb  for islands
 	
 	# TODO osmand asia
 	process_poly_folder('geo-polygons/asia/', 'asia')
@@ -99,8 +99,9 @@ if __name__ == "__main__":
 	process_poly('geo-polygons/australia-oceania.poly', 'australia-oceania', '', '')
 	process_poly_folder('geo-polygons/australia-oceania/', 'australia')
 	
-	# TODO osm africa
 	process_poly('geo-polygons/africa.poly', 'africa', '', '')
 	process_poly_folder('geo-polygons/africa/', 'africa')
+	# TODO
+	#process_poly_folder('polygons/africa/', 'africa') # 30kb for 30 countries
 
 	print "</osm>"
