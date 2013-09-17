@@ -9,16 +9,19 @@ mkdir -p "$EXTRACT_DIR"
 
 generate()  {
 	FILE="$EXTRACT_DIR"/$3.pbf
-		if [[ ! -s $FILE ]] ; then 
-			if [ -f $FILE ]; then rm $FILE; 
-			fi
+	if [ ! -z $4 ]; then
+		FILE="$EXTRACT_DIR"/$4-$3.pbf
+	fi
+	if [[ ! -s $FILE ]] ; then 
+		if [ -f $FILE ]; then rm $FILE; 
 		fi
-		if [ -f $FILE ]; then
-			echo "Skipping $3 country from $1 $(date) ...";
-		else
-			echo "Extracting $3 country from $1 $(date) ..."
-			time osmconvert $1 -B=$2/$3.poly --complex-ways --complete-ways --drop-author -o=$FILE
-		fi
+	fi
+	if [ -f $FILE ]; then
+		echo "Skipping $3 country from $1 $(date) ...";
+	else
+		echo "Extracting $3 country from $1 $(date) ..."
+		time osmconvert $1 -B=$2/$3.poly --complex-ways --complete-ways --drop-author -o=$FILE
+	fi
 }
 
 convert() {
@@ -41,7 +44,6 @@ convertFolder() {
 }
 
 #sorted according to regions list in osmand-tools.
-#Geofabrik is not neded because those extracts are already processed.
 # 1. AFRICA
 convert $PLANET_FILE "polygons/" "africa"
 
@@ -58,28 +60,22 @@ convertFolder "$EXTRACT_DIR"/east-asia.pbf "polygons/east-asia/"
 convert $PLANET_FILE "polygons/" "ocean-asia"
 convertFolder "$EXTRACT_DIR"/ocean-asia.pbf "polygons/ocean-asia/"
 
-#need to fix borders...
-# OCEAN_ASIA2="bangladesh brunei cambodia east-timor hong-kong laos macao malaysia myanmar north-korea singapore south-korea vietnam"
-
 #4. Central America
 convert $PLANET_FILE "polygons/" "central-america"
 convertFolder "$EXTRACT_DIR"/central-america.pbf  "polygons/central-america" 
 convertFolder "$EXTRACT_DIR"/central-america.pbf  "polygons/north-america" 
 
-#need to fix borders...
-# CENTRAL_AMERICA2="dominica grenada netherlands-antilles nicaragua" 
+#5. Russia
+convert $PLANET_FILE "polygons/" "russia"
+convertFolder "$EXTRACT_DIR"/russia.pbf  "polygons/russia/" "russia"
 
-#5. Europe
+#6. Europe
 convert $PLANET_FILE "polygons/" "europe"
 convertFolder "$EXTRACT_DIR"/europe.pbf  "polygons/europe" 
-
 
 # 7. South America
 convert $PLANET_FILE "polygons/" "south-america"
 convertFolder "$EXTRACT_DIR"/south-america.pbf  "polygons/south-america" 
-#need to fix borders...
-#SOUTH_AMERICA="guyana paraguay peru suriname venezuela" 
-
 
 # 8. Oceania and Australia
 convert $PLANET_FILE "polygons/" "australia-oceania"
