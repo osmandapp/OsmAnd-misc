@@ -69,7 +69,21 @@ def process_poly_folder(folder, suffix, prefix=''):
 			country = filename[:-5]
 			process_poly(folder + filename, country, prefix, suffix)
 
+def process_russia_divisions():
+	with open('gislab-polygons/files', 'r') as f:
+		lines = f.readlines()
+	parse = re.compile('\s*([^\s]+)\s*([^\s]+)')
+	for line in lines:
+		match = parse.search(line)
+		fl = match.groups()[1]
+		country = match.groups()[0]
+		process_poly('gislab-polygons/'+fl+'.poly', country, 'Russia', 'asia')
+
+	
+
+
 if __name__ == "__main__":
+
 	print "<osm generator='osm2poly' version='0.5'>"
 	process_poly_folder('geo-polygons/europe/', 'europe')
 	process_poly_folder('geo-polygons/europe/great-britain/', 'europe', 'Gb')
@@ -77,17 +91,18 @@ if __name__ == "__main__":
 	process_poly_folder('geo-polygons/europe/france/', 'europe', 'France')
 	# TODO shires from england (?)
 	# TODO Italy divisions (?)
-	# TODO Russia divisions (?)
+	
+	# TODO optimise Russia divisions (?)
+	process_russia_divisions()
 
 	process_poly_folder('geo-polygons/north-america/us/', 'northamerica', 'Us')
 	process_poly_folder('geo-polygons/north-america/canada/', 'northamerica', 'Canada')
 
-	# TODO + osm bermuda
 	process_poly_folder('geo-polygons/north-america/', 'northamerica')
 	process_poly_folder('polygons/north-america/', 'northamerica')
 
 	process_poly_folder('geo-polygons/south-america/', 'southamerica')
-	# process_poly_folder('polygons/south-america/', 'southamerica')  # 100 kb 4 countries
+	process_poly_folder('polygons/south-america/', 'southamerica') 
 
 	process_poly_folder('geo-polygons/central-america/', 'centralamerica')
 	# TODO osm
