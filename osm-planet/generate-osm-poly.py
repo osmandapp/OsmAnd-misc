@@ -86,13 +86,15 @@ if __name__ == "__main__":
 
 	print "<osm generator='osm2poly' version='0.5'>"
 	process_poly_folder('geo-polygons/europe/', 'europe')
-	process_poly_folder('geo-polygons/europe/great-britain/', 'europe', 'Gb')
 	process_poly_folder('geo-polygons/europe/germany/', 'europe', 'Germany')
 	process_poly_folder('geo-polygons/europe/france/', 'europe', 'France')
-	# TODO shires from england (?)
+
+	process_poly('geo-polygons/europe/great-britain/england/greater-london.poly', 'greater-london', 'Gb_england', 'europe')
+	process_poly_folder('geo-polygons/europe/great-britain/', 'europe', 'Gb')
+	process_poly_folder('polygons/europe/gb-regions/', 'europe', 'Gb_england')
+	
 	# TODO Italy divisions (?)
 
-	#process_russia_divisions() # too big replcae with russia-regions
 	process_poly_folder('polygons/russia/', 'asia', 'Russia')
 	process_poly_folder('polygons/russia-regions/', 'asia', 'Russia')
 
@@ -106,7 +108,7 @@ if __name__ == "__main__":
 	process_poly_folder('polygons/south-america/', 'southamerica') 
 
 	process_poly_folder('geo-polygons/central-america/', 'centralamerica')
-	# TODO osm
+	# TODO osm (?)
 	# process_poly_folder('polygons/central-america/', 'centralamerica') # 20kb  for islands
 	
 	# TODO osmand asia
@@ -118,7 +120,6 @@ if __name__ == "__main__":
 	
 	process_poly('geo-polygons/africa.poly', 'africa', '', '')
 	process_poly_folder('geo-polygons/africa/', 'africa')
-	# TODO
-	#process_poly_folder('polygons/africa/', 'africa') # 30kb for 30 countries
+	process_poly_folder('polygons/africa/', 'africa')
 
 	print "</osm>"
