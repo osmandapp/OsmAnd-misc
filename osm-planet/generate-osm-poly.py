@@ -111,8 +111,9 @@ if __name__ == "__main__":
 	# TODO osm (?)
 	# process_poly_folder('polygons/central-america/', 'centralamerica') # 20kb  for islands
 	
-	# TODO osmand asia
 	process_poly_folder('geo-polygons/asia/', 'asia')
+	process_poly_folder('polygons/east-asia/', 'asia')
+	process_poly_folder('polygons/ocean-asia/', 'asia')
 
 	process_poly('polygons/australia-oceania/oceania.poly', 'oceania', '', 'australia-oceania')
 	process_poly('geo-polygons/australia-oceania.poly', 'australia-oceania', '', '')
