@@ -80,6 +80,19 @@
    }
 ?>
 </table>
+<h1><?php echo "Table of srtm countries hosted on osmand.net"; ?></h1>
+<table border="1">
+<?php
+   $res = $xpath->query('//srtmcountry[@local]');
+   if($res && $res->length > 0) {
+    foreach($res as $node) {
+      if (file_exists('srtm-countries/'.$node->getAttribute('name'))) {
+            printNode($node);
+      }
+    }
+  }     
+?>
+</table>
 <h1><?php echo "Table of hillshade hosted on osmand.net"; ?></h1>
 <table border="1">
 <?php

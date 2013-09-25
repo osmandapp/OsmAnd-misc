@@ -58,7 +58,7 @@ function dwFile($filename,$query) {
   if($_SERVER['SERVER_NAME'] == 'download.osmand.net' || $_SERVER['SERVER_NAME'] == 'osmand.net'
     || $_SERVER['SERVER_NAME'] == 'new.osmand.net') {
     header('HTTP/1.1 302 Found');
-    $var = rand(0, 10);
+    $var = rand(0, 9);
     if($var < 5 ) {
       // header('Location: http://dl1.osmand.net/download.php?'.$query);
        header('Location: http://dl3.osmand.net/download.php?'.$query);
@@ -119,6 +119,8 @@ function dwFile($filename,$query) {
     dwFile('indexes/'.$file, 'standard=yes&file='.$file);
  } else if(isset($_GET['srtm'])){
     dwFile('srtm/'.$file, 'srtm=yes&file='.$file);
+ } else if(isset($_GET['srtmcountry'])){
+    dwFile('srtm-countries/'.$file, 'srtm=yes&file='.$file);
  } else if(isset($_GET['road'])){
     dwFile('road-indexes/'.$file, 'road=yes&file='.$file);
  } else if(isset($_GET['hillshade'])){

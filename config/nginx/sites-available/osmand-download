@@ -29,6 +29,9 @@ server {
 
 	location = /download.php {
 		# add_header Content-Disposition "attachment; filename=$arg_file";
+		if ($arg_srtmcountry) {
+			rewrite ^ /srtm-countries/$arg_file last;
+		}
 		if ($arg_srtm) {
 			rewrite ^ /srtm/$arg_file last;
 		}
