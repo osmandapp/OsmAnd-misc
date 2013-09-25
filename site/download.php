@@ -120,7 +120,7 @@ function dwFile($filename,$query) {
  } else if(isset($_GET['srtm'])){
     dwFile('srtm/'.$file, 'srtm=yes&file='.$file);
  } else if(isset($_GET['srtmcountry'])){
-    dwFile('srtm-countries/'.$file, 'srtm=yes&file='.$file);
+    dwFile('srtm-countries/'.$file, 'srtmcountry=yes&file='.$file);
  } else if(isset($_GET['road'])){
     dwFile('road-indexes/'.$file, 'road=yes&file='.$file);
  } else if(isset($_GET['hillshade'])){
