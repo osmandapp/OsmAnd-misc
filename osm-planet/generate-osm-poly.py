@@ -93,7 +93,7 @@ if __name__ == "__main__":
 	process_poly_folder('geo-polygons/europe/great-britain/', 'europe', 'Gb')
 	process_poly_folder('polygons/europe/gb-regions/', 'europe', 'Gb_england')
 	
-	# TODO Italy divisions (?)
+	process_poly_folder('polygons/europe/italy-regions/', 'europe', 'Italy')
 
 	process_poly_folder('polygons/russia/', 'asia', 'Russia')
 	process_poly_folder('polygons/russia-regions/', 'asia', 'Russia')
