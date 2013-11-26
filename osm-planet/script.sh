@@ -74,7 +74,7 @@ convert $PLANET_FILE "polygons/" "europe"
 convertFolder "$EXTRACT_DIR"/europe.pbf  "polygons/europe" 
 convertFolder "$EXTRACT_DIR"/british-isles.pbf  "polygons/europe/gb-regions" "gb_england"
 convertFolder "$EXTRACT_DIR"/british-isles.pbf  "polygons/europe/gb-shires" 
-convertFolder "$EXTRACT_DIR"/Italy.pbf  "polygons/europe/italy-regions" "Italy"
+convertFolder "$EXTRACT_DIR"/italy.pbf  "polygons/europe/italy-regions" "Italy"
 
 # 7. South America
 convert $PLANET_FILE "polygons/" "south-america"
