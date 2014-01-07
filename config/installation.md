@@ -37,7 +37,7 @@ $ misc/sync_downloads_with_main.sh
 $ misc/sync_part_downloads_with_main.sh
 $ cd /var/www-download/ && chgrp -R www-data . && chmod -R g+w .
 
-#Update new site
+#UpdateNewSite job
 git://github.com/osmandapp/OsmAnd-manifest.git
 $ misc/update_site.sh
 

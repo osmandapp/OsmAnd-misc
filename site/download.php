@@ -54,18 +54,18 @@ function url_exists($url) {
     return is_array($hdrs) ? preg_match('/^HTTP\\/\\d+\\.\\d+\\s+2\\d\\d\\s+.*$/',$hdrs[0]) : false; 
 } 
 
-function dwFile($filename,$query) {
+function dwFile($filename,$query,$type) {
   if($_SERVER['SERVER_NAME'] == 'download.osmand.net' || $_SERVER['SERVER_NAME'] == 'osmand.net'
     || $_SERVER['SERVER_NAME'] == 'new.osmand.net') {
     header('HTTP/1.1 302 Found');
-    $var = rand(0, 9);
-    if($var < 5 ) {
-      // header('Location: http://dl1.osmand.net/download.php?'.$query);
-       header('Location: http://dl3.osmand.net/download.php?'.$query);
-    //} else if($var == 5 ) {
-    //  header('Location: http://builder.osmand.net/download.php?'.$query);
-    } else {
-      header('Location: http://dl2.osmand.net/download.php?'.$query);
+    $var = rand(0, 99);
+    $simple = $type == "road" or $type == "";
+    if($var < 50 ) {
+       header('Location: http://'.'dl3.osmand.net'.'/download.php?'.$query);
+    } else if($var < 60 and $simple) {
+       header('Location: http://'.'95.85.59.181'.'/download.php?'.$query);
+    } else if($var < 100 ){
+      header('Location: http://'.'dl2.osmand.net'.'/download.php?'.$query);
     }
   } else {
     downloadFile($filename);
@@ -116,15 +116,15 @@ function dwFile($filename,$query) {
  $xml = simplexml_load_file("indexes.xml");
  $res = $xml->xpath('//region[@name="'.$file.'"]');
  if($file ==  "World_basemap_2.obf.zip") {
-    dwFile('indexes/'.$file, 'standard=yes&file='.$file);
+    dwFile('indexes/'.$file, 'standard=yes&file='.$file, "");
  } else if(isset($_GET['srtm'])){
-    dwFile('srtm/'.$file, 'srtm=yes&file='.$file);
+    dwFile('srtm/'.$file, 'srtm=yes&file='.$file, "srtm");
  } else if(isset($_GET['srtmcountry'])){
-    dwFile('srtm-countries/'.$file, 'srtmcountry=yes&file='.$file);
+    dwFile('srtm-countries/'.$file, 'srtmcountry=yes&file='.$file, "srtm");
  } else if(isset($_GET['road'])){
-    dwFile('road-indexes/'.$file, 'road=yes&file='.$file);
+    dwFile('road-indexes/'.$file, 'road=yes&file='.$file, "road");
  } else if(isset($_GET['hillshade'])){
-    dwFile('hillshade/'.$file, 'hillshade=yes&file='.$file);
+    dwFile('hillshade/'.$file, 'hillshade=yes&file='.$file, "hillshade");
  } else if (count($res) > 0) {
  	 $node = $res[0];
    if($node["local"]) {
