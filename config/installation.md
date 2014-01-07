@@ -24,16 +24,17 @@ service vnstat restart #!
 
 # configure jenkins
 # install repo
-$ curl https://dl-ssl.google.com/dl/googlesource/git-repo/repo > /bin/repo && chmod a+x /bin/repo
+$ curl http://commondatastorage.googleapis.com/git-repo-downloads/repo > /bin/repo && chmod a+x /bin/repo
 
 http://dl2.osmand.net:8080/
 1. install gerrit repo
 2. setup user jenkins (std password)
 
 #CopyIndexes job
-   */15 * * * * 
-   git://github.com/osmandapp/OsmAnd-manifest.git
+*/15 * * * * 
+git://github.com/osmandapp/OsmAnd-manifest.git
 $ misc/sync_downloads_with_main.sh
+$ misc/sync_part_downloads_with_main.sh
 $ cd /var/www-download/ && chgrp -R www-data . && chmod -R g+w .
 
 #Update new site
