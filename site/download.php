@@ -59,10 +59,13 @@ function dwFile($filename,$query,$type) {
     || $_SERVER['SERVER_NAME'] == 'new.osmand.net') {
     header('HTTP/1.1 302 Found');
     $var = rand(0, 99);
-    $simple = $type == "road" or $type == "";
+    $simple = false
+    if($type == "road" or $type == "") {
+      $simple = true;
+    }
     if($var < 50 ) {
        header('Location: http://'.'dl3.osmand.net'.'/download.php?'.$query);
-    } else if($var < 60 and $simple) {
+    } else if($var < 100 and $simple) {
        header('Location: http://'.'95.85.59.181'.'/download.php?'.$query);
     } else if($var < 100 ){
       header('Location: http://'.'dl2.osmand.net'.'/download.php?'.$query);
@@ -128,7 +131,7 @@ function dwFile($filename,$query,$type) {
  } else if (count($res) > 0) {
  	 $node = $res[0];
    if($node["local"]) {
-      dwFile('indexes/'.$file, 'standard=yes&file='.$file);
+      dwFile('indexes/'.$file, 'standard=yes&file='.$file, "");
  	 } else {
   		header('HTTP/1.1 302 Found');
  	  	header('Location: http://osmand.googlecode.com/files/'.$file);
