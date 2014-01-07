@@ -59,7 +59,7 @@ function dwFile($filename,$query,$type) {
     || $_SERVER['SERVER_NAME'] == 'new.osmand.net') {
     header('HTTP/1.1 302 Found');
     $var = rand(0, 99);
-    $simple = false
+    $simple = false;
     if($type == "road" or $type == "") {
       $simple = true;
     }
