@@ -63,10 +63,18 @@ function dwFile($filename,$query,$type) {
     if($type == "road" or $type == "") {
       $simple = true;
     }
-    if($var < 50 ) {
+    if($var < 25 ) {
        header('Location: http://'.'dl3.osmand.net'.'/download.php?'.$query);
-    } else if($var < 60 and $simple) {
+    } else if($var < 35 and $simple) {
       header('Location: http://'.'95.85.59.181'.'/download.php?'.$query);
+    } else if($var < 45 and $simple) {
+      header('Location: http://'.'107.170.19.104'.'/download.php?'.$query);
+    } else if($var < 55 and $simple) {
+      header('Location: http://'.'95.85.2.4'.'/download.php?'.$query);
+    } else if($var < 65 and $simple) {
+      header('Location: http://'.'192.241.150.45'.'/download.php?'.$query);
+    } else if($var < 75 and $simple) {
+      header('Location: http://'.'95.85.55.34'.'/download.php?'.$query);
     } else if($var < 100 ){
       header('Location: http://'.'dl2.osmand.net'.'/download.php?'.$query);
     }
