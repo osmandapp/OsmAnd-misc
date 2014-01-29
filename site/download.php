@@ -63,7 +63,7 @@ function dwFile($filename,$query,$type) {
     if($type == "road" or $type == "") {
       $simple = true;
     }
-    $baseServer = 60 / 2;
+    $baseServer = 70 / 2;
     $helperServer = (100 - 2 * $baseServer) / 5;
     if($var < $baseServer ) {
        header('Location: http://'.'dl3.osmand.net'.'/download.php?'.$query);
