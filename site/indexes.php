@@ -27,23 +27,10 @@
    }
 ?>
 <body>
-<h1><?php echo "Table of multiindexes hosted on googlecode"; ?></h1>
-<table border="1">
-<?php
-
-   $res = $xpath->query('//multiregion');
-   if($res && $res->length > 0) { 	 
-	   
-		foreach($res as $node) {
-      printNode($node);
-    }
-  }		
-?>
-</table>
 <h1><?php echo "Table of indexes hosted on osmand.net"; ?></h1>
 <table border="1">
 <?php
-   $res = $xpath->query('//region[@local]');
+   $res = $xpath->query('//region');
    if($res && $res->length > 0) {
 		foreach($res as $node) {
 		  if (file_exists('indexes/'.$node->getAttribute('name'))) {
@@ -56,7 +43,7 @@
 <h1><?php echo "Table of road indexes hosted on osmand.net"; ?></h1>
 <table border="1">
 <?php
-   $res = $xpath->query('//road_region[@local]');
+   $res = $xpath->query('//road_region');
    if($res && $res->length > 0) {
     foreach($res as $node) {
       if (file_exists('road-indexes/'.$node->getAttribute('name'))) {
@@ -66,24 +53,10 @@
   }     
 ?>
 </table>
-<h1><?php echo "Table of  indexes on googlecode"; ?></h1>
-<table border="1">
-<?php
-   $res = $xpath->query('//region');
-   if($res && $res->length > 0) {
-
-   	foreach($res as $node) {
-   		if (!file_exists('indexes/'.$node->getAttribute('name')) || !$node->getAttribute('local')) {
-   			    printNode($node);
-   		}
-   	}
-   }
-?>
-</table>
 <h1><?php echo "Table of srtm countries hosted on osmand.net"; ?></h1>
 <table border="1">
 <?php
-   $res = $xpath->query('//srtmcountry[@local]');
+   $res = $xpath->query('//srtmcountry');
    if($res && $res->length > 0) {
     foreach($res as $node) {
       if (file_exists('srtm-countries/'.$node->getAttribute('name'))) {
@@ -96,7 +69,7 @@
 <h1><?php echo "Table of hillshade hosted on osmand.net"; ?></h1>
 <table border="1">
 <?php
-   $res = $xpath->query('//hillshade[@local]');
+   $res = $xpath->query('//hillshade');
    if($res && $res->length > 0) {
     foreach($res as $node) {
       if (file_exists('hillshade/'.$node->getAttribute('name'))) {
