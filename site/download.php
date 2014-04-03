@@ -134,15 +134,9 @@ function dwFile($filename,$query,$type) {
     dwFile('hillshade/'.$file, 'hillshade=yes&file='.$file, "hillshade");
  } else if (count($res) > 0) {
  	 $node = $res[0];
-   if($node["local"]) {
-      dwFile('indexes/'.$file, 'standard=yes&file='.$file, "");
- 	 } else {
-  		header('HTTP/1.1 302 Found');
- 	  	header('Location: http://osmand.googlecode.com/files/'.$file);
- 	}
+   dwFile('indexes/'.$file, 'standard=yes&file='.$file, ""); 	 
  } else {
-    header('HTTP/1.1 302 Found');
-    header('Location: http://osmand.googlecode.com/files/'.$file);
+    header('HTTP/1.1 404 Not Found');
  }
 
 ?>
