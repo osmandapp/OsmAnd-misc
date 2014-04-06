@@ -26,7 +26,7 @@ function loadIndexesFromDir($output, $outputIndexes, $dir, $elementName, $ftype)
 				if (strpos($file,'.voice') !== false) {
     				$type="voice";
 				} else  if (strpos($file,'.gitignore') !== false) {
-    				continue
+    				continue;
 				}
 
 				if(endsWith($file, ".sqlitedb")) {
