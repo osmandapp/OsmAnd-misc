@@ -9,12 +9,13 @@ function endsWith($haystack, $needle)
     return (substr($haystack, -$length) === $needle);
 }
 
-function loadIndexesFromDir($output, $outputIndexes, $dir, $elementName, $type){
+function loadIndexesFromDir($output, $outputIndexes, $dir, $elementName, $ftype){
 	$local_file = basename($_SERVER['PHP_SELF']) == basename(__FILE__);
 	if (is_dir($dir)) {
 		if ($dh = opendir($dir)) {
 			$zip = new ZipArchive();
 			while (($file = readdir($dh)) !== false) {
+				$type= $ftype;
 				$filename = $dir . $file ; //"./test112.zip";
 				//print("processing file:" . $filename . "\n");
 				$indexName=$file;
@@ -22,6 +23,12 @@ function loadIndexesFromDir($output, $outputIndexes, $dir, $elementName, $type){
 				$targetSize =$size;
 				$containerSize = filesize($filename);
 				$contentSize = filesize($filename);
+				if (strpos($file,'.voice') !== false) {
+    				$type="voice";
+				} else  if (strpos($file,'.gitignore') !== false) {
+    				continue
+				}
+
 				if(endsWith($file, ".sqlitedb")) {
 					$date= date('d.m.Y',filemtime($filename));
 					$timestamp = filemtime($filename);
