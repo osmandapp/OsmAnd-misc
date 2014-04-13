@@ -36,10 +36,10 @@ def initializeEntities(filename):
 		for ent in item.childNodes :
 			if ent.nodeName == 'tag' :
 				name = ent.attributes['k'].value
-				nameValue = ent.attributes['v'].value
-				tags[name] = nameValue
+				nameValue = ent.attributes['v'].value				
 				if name.startswith('name') :
 					names.add(nameValue)
+					tags[name] = nameValue
 		override = True
 		for name in names :
 			if name in result and override:
