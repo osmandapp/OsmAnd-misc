@@ -1,12 +1,59 @@
 #!/usr/bin/python
+# -*- coding: utf-8 -*-
 import sys
+import unicodedata as ud
+import codecs
 import pprint
 import re
 import sys
 import os.path
+from xml.dom import minidom
+
 
 node_id =-10000
 way_id = -1
+UTF8Writer = codecs.getwriter('utf8')
+sys.stdout = UTF8Writer(sys.stdout)
+
+import countryNamesNonStdMapping as cr
+
+
+def normalizeStr(str):
+	str = str.replace('_', ' ').replace('-', ' ').lower()
+	str = str.replace(u'è',u'e').replace(u'ê',u'e').replace(u'ë',u'e').replace(u'é', u'e')
+	str = str.replace(u'ü', u'u').replace(u'ô',u'o')
+	return str
+
+def initializeEntities(filename):
+	xmldoc  = minidom.parse(filename)
+	result = {}
+	for item in xmldoc.firstChild.childNodes :
+		if item.nodeName != 'node' and item.nodeName != 'relation':
+			continue
+		names = set()
+		tags = {}
+		tags['osm_id'] = item.attributes['id'].value
+		for ent in item.childNodes :
+			if ent.nodeName == 'tag' :
+				name = ent.attributes['k'].value
+				nameValue = ent.attributes['v'].value
+				tags[name] = nameValue
+				if name.startswith('name') :
+					names.add(nameValue)
+		override = True
+		for name in names :
+			if name in result and override:
+				# print "Error duplicate with name : " + tags['name']
+				result[normalizeStr(name)].update(tags)
+			else :
+				result[normalizeStr(name)] = tags
+	return result
+
+adminLevel2Xml =  initializeEntities('osm-data/countries_admin_level_2.osm')
+countriesPlacesXML =  initializeEntities('osm-data/countries_places.osm')
+statesPlacesXML =  initializeEntities('osm-data/states_places.osm')
+statesRegionsXML =  initializeEntities('osm-data/states_regions.osm')
+
 
 def process_poly(filename, country, prefix, suffix):
 	global node_id
@@ -27,6 +74,32 @@ def process_poly(filename, country, prefix, suffix):
 	way_tags  += '\t<tag k="download_name" v="%s" />\n' % full_name
 	way_tags  += '\t<tag k="region_prefix" v="%s" />\n' % prefix
 	way_tags  += '\t<tag k="region_suffix" v="%s" />\n' % suffix
+	countryAdopt = 	country.replace('_', ' ').replace('-', ' ')
+	if countryAdopt in cr.customRegionMapping:
+		countryAdopt = normalizeStr(cr.customRegionMapping[countryAdopt].decode("utf-8"))
+
+	if countryAdopt in countriesPlacesXML or countryAdopt in adminLevel2Xml: 
+		tagsMap = {}
+		if countryAdopt in adminLevel2Xml:
+			tagsMap.update(adminLevel2Xml[countryAdopt])
+		if countryAdopt in countriesPlacesXML:
+			tagsMap.update(countriesPlacesXML[countryAdopt])
+		for key in tagsMap :
+			way_tags  += '\t<tag k="%s" v="%s" />\n' % (key, tagsMap[key])
+	elif countryAdopt in statesPlacesXML : 
+		tagsMap = statesPlacesXML[countryAdopt]
+		for key in tagsMap :
+			way_tags  += '\t<tag k="%s" v="%s" />\n' % (key, tagsMap[key])
+	elif countryAdopt in statesRegionsXML : 
+		tagsMap = statesRegionsXML[countryAdopt]
+		for key in tagsMap :
+			way_tags  += '\t<tag k="%s" v="%s" />\n' % (key, tagsMap[key])
+	elif countryAdopt in cr.missingRegionNames :
+		way_tags  += '\t<tag k="name" v="%s" />\n' % cr.missingRegionNames[countryAdopt]
+	else :
+		raise Exception("Country name is missing %s (take a look at countryNamesNonStdMapping.py)!" % countryAdopt)
+
+	
 	way_cont = ""
 	i = 0
 	first_node = 0
@@ -64,7 +137,7 @@ def process_poly(filename, country, prefix, suffix):
 
 
 def process_poly_folder(folder, suffix, prefix=''):
-	for filename in os.listdir (folder):
+	for filename in os.listdir (folder):		
 		if filename.endswith('.poly') and not filename.startswith('_'):
 			country = filename[:-5]
 			process_poly(folder + filename, country, prefix, suffix)
