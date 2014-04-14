@@ -54,6 +54,9 @@ countriesPlacesXML =  initializeEntities('osm-data/countries_places.osm')
 statesPlacesXML =  initializeEntities('osm-data/states_places.osm')
 statesRegionsXML =  initializeEntities('osm-data/states_regions.osm')
 
+
+
+
 def addNames(country):
 	way_tags = ""
 	countryAdopt = 	country.replace('_', ' ').replace('-', ' ')
@@ -82,6 +85,18 @@ def addNames(country):
 		raise Exception("Country name is missing %s (take a look at countryNamesNonStdMapping.py)!" % countryAdopt)
 
 	return way_tags
+
+def addEmptyCountryForNames(suffix, country):
+	global node_id
+	global way_id
+	print '\n<node id="%s" lat="0" lon="0">' % (node_id)
+	print '\t<tag k="osmand_region" v="yes" />\n'
+	print '\t<tag k="download_name" v="%s" />\n' % (country+'_'+suffix)
+	print '\t<tag k="region_prefix" v="" />\n' 
+	print '\t<tag k="region_suffix" v="%s" />\n' % suffix
+	print addNames(country)
+	print '</node>\n'
+	node_id = node_id - 1
 
 
 def process_poly(filename, country, prefix, suffix):
@@ -163,6 +178,13 @@ def process_russia_divisions():
 if __name__ == "__main__":
 
 	print "<osm generator='osm2poly' version='0.5'>"
+	addEmptyCountryForNames('europe', 'france')
+	addEmptyCountryForNames('europe', 'germany')
+	addEmptyCountryForNames('northamerica', 'united-states')
+	addEmptyCountryForNames('northamerica', 'canada')
+	addEmptyCountryForNames('asia','russia')
+	
+
 	process_poly_folder('geo-polygons/europe/', 'europe')
 	process_poly_folder('geo-polygons/europe/germany/', 'europe', 'Germany')
 	process_poly_folder('geo-polygons/europe/france/', 'europe', 'France')
@@ -201,3 +223,4 @@ if __name__ == "__main__":
 	process_poly_folder('polygons/africa/', 'africa')
 
 	print "</osm>"
+

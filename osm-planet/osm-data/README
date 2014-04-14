@@ -17,7 +17,7 @@ OSM QUERIES :
 <query type="node">
   <has-kv k="place" v="state"/>
 </query>
-<print/>
+<print/>archipelago
 
 4. states_regions
 <!-- Russia districts -->
@@ -33,8 +33,16 @@ OSM QUERIES :
 <id-query ref="1075831" type="relation"/> <print/>
 <id-query ref="108082" type="relation"/> <print/>
 <id-query ref="140291" type="relation"/> <print/>
+
+<!-- France centre -->
+<id-query ref="1251610261" type="node"/> <print/>
+
  
 <!-- England regions -->
+<id-query ref="58447" type="relation"/> <print/>
+<id-query ref="58437" type="relation"/> <print/>
+<id-query ref="156393" type="relation"/> <print/>
+
 <id-query ref="151279" type="relation"/> <print/>
 <id-query ref="151336" type="relation"/> <print/>
 <id-query ref="175342" type="relation"/> <print/>
