@@ -70,7 +70,7 @@ function dwFile($filename,$query,$type) {
     } else if($var < ($baseServer + 1 * $helperServer) and $simple) {
           header('Location: http://'.'95.85.27.113'.'/download.php?'.$query);
     } else if($var < ($baseServer + 2 * $helperServer) and $simple) {
-      header('Location: http://'.'95.85.9.172'.'/download.php?'.$query)
+      header('Location: http://'.'95.85.9.172'.'/download.php?'.$query);
     } else if($var < 100 ){
       header('Location: http://'.'dl2.osmand.net'.'/download.php?'.$query);
     }
