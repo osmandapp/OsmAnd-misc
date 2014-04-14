@@ -70,10 +70,10 @@ function dwFile($filename,$query,$type) {
     $helpServersCount = count($helpServers);
     $mainServersCount = count($mainServers);
     if($helpServersCount > 0 and $simple and $var < (100 - $mainServersLoad)) {
-    	$url = $helpServers[$var % $helpServersCount]
+    	$url = $helpServers[$var % $helpServersCount];
     	header('Location: http://'.$url.'/download.php?'.$query);
     } else if($mainServersCount > 0) {
-    	$url = $mainServers[$var % $mainServersCount]
+    	$url = $mainServers[$var % $mainServersCount];
     	header('Location: http://'.$url.'/download.php?'.$query);
     } else {
         downloadFile($filename);
