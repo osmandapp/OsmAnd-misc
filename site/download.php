@@ -63,16 +63,20 @@ function dwFile($filename,$query,$type) {
     if($type == "road" or $type == "") {
       $simple = true;
     }
-    $baseServer = 50 / 2; // $baseServer = 100 / 2;
-    $helperServer = (100 - 2 * $baseServer) / 2;
-    if($var < $baseServer ) {
-       header('Location: http://'.'dl3.osmand.net'.'/download.php?'.$query);
-    } else if($var < ($baseServer + 1 * $helperServer) and $simple) {
-          header('Location: http://'.'95.85.27.113'.'/download.php?'.$query);
-    } else if($var < ($baseServer + 2 * $helperServer) and $simple) {
-      header('Location: http://'.'95.85.9.172'.'/download.php?'.$query);
-    } else if($var < 100 ){
-      header('Location: http://'.'dl2.osmand.net'.'/download.php?'.$query);
+    $helpServers = array("95.85.27.113", "95.85.9.172");
+    $mainServers = array("dl2.osmand.net", "dl3.osmand.net");
+    $mainServersLoad = 50;
+    
+    $helpServersCount = count($helpServers);
+    $mainServersCount = count($mainServers);
+    if($helpServersCount > 0 and $simple and $var < (100 - $mainServersLoad)) {
+    	$url = $helpServers[$var % $helpServersCount]
+    	header('Location: http://'.$url.'/download.php?'.$query);
+    } else if($mainServersCount > 0) {
+    	$url = $mainServers[$var % $mainServersCount]
+    	header('Location: http://'.$url.'/download.php?'.$query);
+    } else {
+        downloadFile($filename);
     }
   } else {
     downloadFile($filename);
