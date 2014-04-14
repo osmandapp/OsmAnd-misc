@@ -54,6 +54,35 @@ countriesPlacesXML =  initializeEntities('osm-data/countries_places.osm')
 statesPlacesXML =  initializeEntities('osm-data/states_places.osm')
 statesRegionsXML =  initializeEntities('osm-data/states_regions.osm')
 
+def addNames(country):
+	way_tags = ""
+	countryAdopt = 	country.replace('_', ' ').replace('-', ' ')
+	if countryAdopt in cr.customRegionMapping:
+		countryAdopt = normalizeStr(cr.customRegionMapping[countryAdopt].decode("utf-8"))
+
+	if countryAdopt in countriesPlacesXML or countryAdopt in adminLevel2Xml: 
+		tagsMap = {}
+		if countryAdopt in adminLevel2Xml:
+			tagsMap.update(adminLevel2Xml[countryAdopt])
+		if countryAdopt in countriesPlacesXML:
+			tagsMap.update(countriesPlacesXML[countryAdopt])
+		for key in tagsMap :
+			way_tags  += '\t<tag k="%s" v="%s" />\n' % (key, tagsMap[key])
+	elif countryAdopt in statesRegionsXML : 
+		tagsMap = statesRegionsXML[countryAdopt]
+		for key in tagsMap :
+			way_tags  += '\t<tag k="%s" v="%s" />\n' % (key, tagsMap[key])
+	elif countryAdopt in statesPlacesXML : 
+		tagsMap = statesPlacesXML[countryAdopt]
+		for key in tagsMap :
+			way_tags  += '\t<tag k="%s" v="%s" />\n' % (key, tagsMap[key])	
+	elif countryAdopt in cr.missingRegionNames :
+		way_tags  += '\t<tag k="name" v="%s" />\n' % cr.missingRegionNames[countryAdopt]
+	else :
+		raise Exception("Country name is missing %s (take a look at countryNamesNonStdMapping.py)!" % countryAdopt)
+
+	return way_tags
+
 
 def process_poly(filename, country, prefix, suffix):
 	global node_id
@@ -74,31 +103,7 @@ def process_poly(filename, country, prefix, suffix):
 	way_tags  += '\t<tag k="download_name" v="%s" />\n' % full_name
 	way_tags  += '\t<tag k="region_prefix" v="%s" />\n' % prefix
 	way_tags  += '\t<tag k="region_suffix" v="%s" />\n' % suffix
-	countryAdopt = 	country.replace('_', ' ').replace('-', ' ')
-	if countryAdopt in cr.customRegionMapping:
-		countryAdopt = normalizeStr(cr.customRegionMapping[countryAdopt].decode("utf-8"))
-
-	if countryAdopt in countriesPlacesXML or countryAdopt in adminLevel2Xml: 
-		tagsMap = {}
-		if countryAdopt in adminLevel2Xml:
-			tagsMap.update(adminLevel2Xml[countryAdopt])
-		if countryAdopt in countriesPlacesXML:
-			tagsMap.update(countriesPlacesXML[countryAdopt])
-		for key in tagsMap :
-			way_tags  += '\t<tag k="%s" v="%s" />\n' % (key, tagsMap[key])
-	elif countryAdopt in statesPlacesXML : 
-		tagsMap = statesPlacesXML[countryAdopt]
-		for key in tagsMap :
-			way_tags  += '\t<tag k="%s" v="%s" />\n' % (key, tagsMap[key])
-	elif countryAdopt in statesRegionsXML : 
-		tagsMap = statesRegionsXML[countryAdopt]
-		for key in tagsMap :
-			way_tags  += '\t<tag k="%s" v="%s" />\n' % (key, tagsMap[key])
-	elif countryAdopt in cr.missingRegionNames :
-		way_tags  += '\t<tag k="name" v="%s" />\n' % cr.missingRegionNames[countryAdopt]
-	else :
-		raise Exception("Country name is missing %s (take a look at countryNamesNonStdMapping.py)!" % countryAdopt)
-
+	way_tags  += addNames(country)
 	
 	way_cont = ""
 	i = 0
