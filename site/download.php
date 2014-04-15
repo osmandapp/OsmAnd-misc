@@ -63,9 +63,9 @@ function dwFile($filename,$query,$type) {
     if($type == "road" or $type == "") {
       $simple = true;
     }
-    $helpServers = array("95.85.27.113", "95.85.9.172");
+    $helpServers = array();
     $mainServers = array("dl2.osmand.net", "dl3.osmand.net");
-    $mainServersLoad = 50;
+    $mainServersLoad = 100;
     
     $helpServersCount = count($helpServers);
     $mainServersCount = count($mainServers);
