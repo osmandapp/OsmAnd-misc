@@ -59,7 +59,7 @@ function loadIndexesFromDir($output, $outputIndexes, $dir, $elementName, $ftype)
 				$out -> setAttribute("type", $type);
 				$out -> setAttribute("containerSize", $containerSize);
 				$out -> setAttribute("contentSize", $contentSize);
-				$out -> setAttribute("timestamp", $timestamp);
+				$out -> setAttribute("timestamp", $timestamp * 1000);
 				$out -> setAttribute("date", $date);
 				$out -> setAttribute("size", $size);
 				$out -> setAttribute("targetsize", $targetSize);
