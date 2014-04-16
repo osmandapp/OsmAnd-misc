@@ -106,6 +106,7 @@ function updateIndexes($update=false) {
     loadIndexesFromDir($output, $outputIndexes, 'road-indexes/', 'road_region', 'road_map');
     loadIndexesFromDir($output, $outputIndexes, 'srtm-countries/', 'srtmcountry', 'srtm_map');
     loadIndexesFromDir($output, $outputIndexes, 'hillshade/', 'hillshade', 'hillshade');
+    loadIndexesFromDir($output, $outputIndexes, 'tours/', 'tour', 'tour');
 	$output->save($localFileName);
 }
 
