@@ -7,4 +7,5 @@ sync /var/www-download/hillshade/
 sync /var/www-download/srtm/
 sync /var/www-download/srtm-countries/
 sync /var/www-download/road-indexes/
+sync /var/www-download/tours/
 

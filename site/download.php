@@ -136,6 +136,8 @@ function dwFile($filename,$query,$type) {
     dwFile('road-indexes/'.$file, 'road=yes&file='.$file, "road");
  } else if(isset($_GET['hillshade'])){
     dwFile('hillshade/'.$file, 'hillshade=yes&file='.$file, "hillshade");
+  } else if(isset($_GET['tour'])){
+    dwFile('tours/'.$file, 'tour=yes&file='.$file, "tour");
  } else if (count($res) > 0) {
  	 $node = $res[0];
    dwFile('indexes/'.$file, 'standard=yes&file='.$file, ""); 	 
