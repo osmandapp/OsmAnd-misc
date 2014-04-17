@@ -55,8 +55,7 @@ function url_exists($url) {
 } 
 
 function dwFile($filename,$query,$type) {
-  if($_SERVER['SERVER_NAME'] == 'download.osmand.net' || $_SERVER['SERVER_NAME'] == 'osmand.net'
-    || $_SERVER['SERVER_NAME'] == 'new.osmand.net') {
+  if($_SERVER['SERVER_NAME'] == 'download.osmand.net') {
     header('HTTP/1.1 302 Found');
     $var = rand(0, 99);
     $simple = false;
@@ -64,7 +63,7 @@ function dwFile($filename,$query,$type) {
       $simple = true;
     }
     $helpServers = array();
-    $mainServers = array("dl2.osmand.net", "dl3.osmand.net");
+    $mainServers = array("builder.osmand.net", "new.osmand.net");
     $mainServersLoad = 100;
     
     $helpServersCount = count($helpServers);
