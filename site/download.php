@@ -63,7 +63,7 @@ function dwFile($filename,$query,$type) {
       $simple = true;
     }
     $helpServers = array();
-    $mainServers = array("builder.osmand.net", "new.osmand.net");
+    $mainServers = array("dl2.osmand.net", "dl3.osmand.net");
     $mainServersLoad = 100;
     
     $helpServersCount = count($helpServers);
