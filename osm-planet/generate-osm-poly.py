@@ -185,7 +185,7 @@ if __name__ == "__main__":
 	addEmptyCountryForNames('asia','russia')
 	
 
-	process_poly_folder('polygons/europe/additional', 'europe')
+	process_poly_folder('polygons/europe/additional/', 'europe')
 	process_poly_folder('geo-polygons/europe/', 'europe')
 	process_poly_folder('geo-polygons/europe/germany/', 'europe', 'Germany')
 	process_poly_folder('geo-polygons/europe/france/', 'europe', 'France')

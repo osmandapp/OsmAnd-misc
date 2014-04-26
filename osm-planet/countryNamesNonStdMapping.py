@@ -10,15 +10,6 @@ missingRegionNames['netherlands antilles'] = 'Netherlands-antilles'
 missingRegionNames['channel islands'] = 'Channel islands'
 missingRegionNames['carribean archipelago all'] = 'Carribean Archipelago'
 
-# countries
-# missingRegionNames['israel and palestine']='Israel and Palestine'
-# missingRegionNames['ireland and northern ireland'] = 'Ireland and Northern Ireland'
-# missingRegionNames['malaysia singapore brunei'] = 'Malaysia Singapore Brunei'
-# missingRegionNames['south africa and lesotho'] = 'South Africa and Lesotho'
-
-# islands
-# missingRegionNames['haiti and domrep'] = 'Haiti and Dominican Republic'
-
 # islands
 global customRegionMapping
 customRegionMapping = {}
