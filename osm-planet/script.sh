@@ -56,9 +56,6 @@ convertFolder "$EXTRACT_DIR"/africa.pbf "polygons/africa/"
 convert $PLANET_FILE "polygons/" "east-asia"
 convertFolder "$EXTRACT_DIR"/east-asia.pbf "polygons/east-asia/"
 
-convert $PLANET_FILE "polygons/" "asia"
-convertFolder "$EXTRACT_DIR"/east-asia.pbf "polygons/asia/"
-
 # 2.1 ocean asia
 convert $PLANET_FILE "polygons/" "ocean-asia"
 convertFolder "$EXTRACT_DIR"/ocean-asia.pbf "polygons/ocean-asia/"
