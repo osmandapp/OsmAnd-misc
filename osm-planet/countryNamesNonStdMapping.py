@@ -9,7 +9,7 @@ missingRegionNames['australia oceania']='Australia and Ocenia'
 
 # countries
 missingRegionNames['israel and palestine']='Israel and Palestine'
-missingRegionNames['ireland and northern ireland'] = 'Ireland and Northern Ireland'
+# missingRegionNames['ireland and northern ireland'] = 'Ireland and Northern Ireland'
 missingRegionNames['malaysia singapore brunei'] = 'Malaysia Singapore Brunei'
 missingRegionNames['south africa and lesotho'] = 'South Africa and Lesotho'
 
