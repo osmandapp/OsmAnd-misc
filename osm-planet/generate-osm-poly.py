@@ -219,7 +219,7 @@ if __name__ == "__main__":
 
 	process_poly('polygons/australia-oceania/oceania.poly', 'oceania', '', 'australia-oceania')
 	process_poly('geo-polygons/australia-oceania.poly', 'australia-oceania', '', '')
-	process_poly_folder('geo-polygons/australia-oceania/', 'australia')
+	process_poly_folder('geo-polygons/australia-oceania/', 'australia-oceania')
 	
 	process_poly('geo-polygons/africa.poly', 'africa', '', '')
 	process_poly_folder('geo-polygons/africa/', 'africa')
