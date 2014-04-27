@@ -86,12 +86,12 @@ def addNames(country):
 
 	return way_tags
 
-def addEmptyCountryForNames(suffix, country):
+def addEmptyCountryForNames(suffix, dwName, country):
 	global node_id
 	global way_id
 	print '\n<node id="%s" lat="0" lon="0">' % (node_id)
 	print '\t<tag k="osmand_region" v="yes" />\n'
-	print '\t<tag k="download_name" v="%s" />\n' % (country+'_'+suffix)
+	print '\t<tag k="download_name" v="%s" />\n' % (dwName+'_'+suffix)
 	print '\t<tag k="region_prefix" v="" />\n' 
 	print '\t<tag k="region_suffix" v="%s" />\n' % suffix
 	print addNames(country)
@@ -178,11 +178,13 @@ def process_russia_divisions():
 if __name__ == "__main__":
 
 	print "<osm generator='osm2poly' version='0.5'>"
-	addEmptyCountryForNames('europe', 'france')
-	addEmptyCountryForNames('europe', 'germany')
-	addEmptyCountryForNames('northamerica', 'united-states')
-	addEmptyCountryForNames('northamerica', 'canada')
-	addEmptyCountryForNames('asia','russia')
+	addEmptyCountryForNames('europe', 'france', 'france')
+	addEmptyCountryForNames('europe', 'germany', 'germany')
+	addEmptyCountryForNames('europe', 'gb', 'united-kingdom')
+	addEmptyCountryForNames('northamerica', 'us','united-states')
+	addEmptyCountryForNames('northamerica', 'canada', 'canada')
+	addEmptyCountryForNames('asia','russia','russia')
+	addEmptyCountryForNames('australia-oceania','australia','australia')
 	
 
 	process_poly_folder('polygons/europe/additional/', 'europe')
