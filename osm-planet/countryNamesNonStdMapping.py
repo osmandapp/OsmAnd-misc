@@ -14,7 +14,7 @@ missingRegionNames['carribean archipelago all'] = 'Carribean Archipelago'
 global customRegionMapping
 customRegionMapping = {}
 # countries
-customRegionMapping['gcc states']="الإمارات العربية المتحدة"
+# customRegionMapping['gcc states']="الإمارات العربية المتحدة"
 customRegionMapping['congo democratic republic']="République Démocratique du Congo"
 
 customRegionMapping['virgin islands us']="United States Virgin Islands"
