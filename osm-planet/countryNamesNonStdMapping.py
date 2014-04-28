@@ -21,6 +21,7 @@ customRegionMapping['virgin islands us']="United States Virgin Islands"
 customRegionMapping['virgin islands british']="British Virgin Islands"
 
 # regions
+customRegionMapping['gb northern ireland']='Northern Ireland'
 customRegionMapping['baden wuerttemberg']='Baden-Württemberg'
 customRegionMapping['valle aosta']='Valle d\'Aosta'
 customRegionMapping['thueringen']='Thüringen'
