@@ -38,6 +38,9 @@ server {
 		if ($arg_road) {
 			rewrite ^ /road-indexes/$arg_file last;
 		}
+		if ($arg_tour) {
+			rewrite ^ /tours/$arg_file last;
+		}
 		if ($arg_hillshade) {
 			rewrite ^ /hillshade/$arg_file last;
 		}
