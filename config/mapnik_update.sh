@@ -1,10 +1,9 @@
 ID=`(date +"%d_%m_%H_%M")`
 $FOLDER/osmosis.run --rri workingDirectory=$FOLDER/osmosis-workdir --simplify-change --write-xml-change $FOLDER/changes$ID.osc.gz
 
-export PGPASS=gisuser
 osm2pgsql --append --style /usr/local/share/osm2pgsql/default.style \
 -k --flat-nodes /postgresql/flatnodes \
---number-processes 4 -C 25000 -d gis -U gisuser --slim  --expire-tiles 13-18 \
+--number-processes 4 -C 25000 -d gis -U jenkins --slim  --expire-tiles 13-18 \
 --expire-output $FOLDER/expired_tiles$ID.list $FOLDER/changes$ID.osc.gz
 
 ls -larh $FOLDER/changes$ID.osc.gz
