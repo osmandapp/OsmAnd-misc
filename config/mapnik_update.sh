@@ -10,5 +10,8 @@ ls -larh $FOLDER/changes$ID.osc.gz
 rm $FOLDER/changes$ID.osc.gz
 
 bzip2 $FOLDER/expired_tiles$ID.list
+bzcat $FOLDER/expired_tiles$ID.list.bz2 | render_expired --map=default --socket=/var/lib/tirex/modtile.sock --tile-dir=/var/lib/tirex/tiles/ --num-threads=4 --min-zoom=13
+rm $FOLDER/expired_tiles$ID.list.bz2
+
 # bzcat $FOLDER/expired_tiles$ID.list.bz2 | $FOLDER/mod_tile/render_expired --touch-from=13 --min-zoom=13
 #rm $FOLDER/expired_tiles$ID.list
