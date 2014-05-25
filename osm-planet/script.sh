@@ -68,6 +68,7 @@ convertFolder "$EXTRACT_DIR"/central-america.pbf  "polygons/north-america"
 #5. Russia
 convert $PLANET_FILE "polygons/" "russia"
 convertFolder "$EXTRACT_DIR"/russia.pbf  "polygons/russia/" "russia"
+convertFolder "$EXTRACT_DIR"/russia.pbf  "polygons/russia-regions/" "russia"
 
 #6. Europe
 convert $PLANET_FILE "polygons/" "europe"
