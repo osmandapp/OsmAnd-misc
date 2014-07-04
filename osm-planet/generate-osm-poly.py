@@ -91,6 +91,7 @@ def addEmptyCountryForNames(suffix, dwName, country):
 	global way_id
 	print '\n<node id="%s" lat="0" lon="0">' % (node_id)
 	print '\t<tag k="osmand_region" v="yes" />\n'
+	print '\t<tag k="key_name" v="%s" />\n' % dwName
 	print '\t<tag k="download_name" v="%s" />\n' % (dwName+'_'+suffix)
 	print '\t<tag k="region_prefix" v="" />\n' 
 	if dwName == "russia":
@@ -120,6 +121,7 @@ def process_poly(filename, country, prefix, suffix):
 
 	way_tags  += '\t<tag k="osmand_region" v="yes" />\n'
 	way_tags  += '\t<tag k="name" v="%s" />\n' % country
+	way_tags  += '\t<tag k="key_name" v="%s" />\n' % country
 	way_tags  += '\t<tag k="download_name" v="%s" />\n' % full_name
 	way_tags  += '\t<tag k="region_prefix" v="%s" />\n' % prefix
 	way_tags  += '\t<tag k="region_suffix" v="%s" />\n' % suffix
