@@ -4,9 +4,9 @@ PBF_FILES="/var/lib/jenkins/workspace/Planet_Update-Extract Osm Maps Downloads/e
 
 updateRegion() {
 	echo "Update ${1} using ${2}"
-	FILE=${BASE}/${1}.o5m
+	FILE="${BASE}/${1}.o5m"
 	if [ ! -f $FILE ]; then
-		osmconvert --out-o5m ${PBF_FILES}/${3}.pbf -B=misc/osm-planet/${2} > ${FILE} 
+		osmconvert --out-o5m "${PBF_FILES}/${3}.pbf" -B=misc/osm-planet/${2} > ${FILE} 
 	fi
     osmupdate $FILE ${BASE}/current-update.o5m -B=misc/osm-planet/${2} -v
     osmconvert --out-pbf $FILE > ${BASE}/${1}.osm.pbf
