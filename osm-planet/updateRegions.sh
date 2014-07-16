@@ -17,7 +17,7 @@ updateRegion() {
 
 rm current-update.o5m || true
 # Europe
-updateRegion England-london geo-polygons/europe/great-britain/england/greater-london europe.pbf
+updateRegion England-london geo-polygons/europe/great-britain/england/greater-london.poly europe.pbf
 
 # Russia
 updateRegion Russia-sankt-petersburg polygons/russia-regions/sankt-peterburg.poly russia.pbf
