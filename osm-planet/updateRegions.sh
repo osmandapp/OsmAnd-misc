@@ -6,7 +6,7 @@ updateRegion() {
 	echo "Update ${1} using ${2}"
 	FILE=${BASE}/${1}.o5m
 	if [ ! -f $FILE ]; then
-		osmconvert --out-o5m ${PBF_FILES}/${3 > ${FILE} -B=misc/osm-planet/${2}	
+		osmconvert --out-o5m ${PBF_FILES}/${3}.pbf -B=misc/osm-planet/${2} > ${FILE} 
 	fi
     osmupdate $FILE ${BASE}/current-update.o5m -B=misc/osm-planet/${2} -v
     osmconvert --out-pbf $FILE > ${BASE}/${1}.osm.pbf
@@ -25,5 +25,3 @@ updateRegion Russia-moscow polygons/russia-regions/moscow.poly russia.pbf
 updateRegion Russia-moscovskaya-oblast polygons/russia-regions/moskovskaya-oblast.poly russia.pbf
 
 ls -larh ${BASE}
-
-
