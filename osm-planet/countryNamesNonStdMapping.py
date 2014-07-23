@@ -8,6 +8,7 @@ missingRegionNames['oceania']='Oceania'
 missingRegionNames['australia oceania']='Australia and Ocenia'
 missingRegionNames['netherlands antilles'] = 'Netherlands-antilles'
 missingRegionNames['channel islands'] = 'Channel islands'
+
 missingRegionNames['carribean archipelago all'] = 'Carribean Archipelago'
 
 # islands
@@ -20,10 +21,19 @@ customRegionMapping['congo democratic republic']="République Démocratique du C
 customRegionMapping['virgin islands us']="United States Virgin Islands"
 customRegionMapping['virgin islands british']="British Virgin Islands"
 
+customRegionMapping['united states'] = 'United States of America'
+customRegionMapping['netherlands'] = 'The Netherlands'
+customRegionMapping['macao'] = 'Macau'
+customRegionMapping['ivory coast'] = 'Côte d\'Ivoire'
+customRegionMapping['bosnia herzegovina'] = 'Bosnia and Herzegovina'
+# customRegionMapping['russia'] = 'Russian Federation'
+
 # regions
+customRegionMapping['bremen'] = 'Freie Hansestadt Bremen'
 customRegionMapping['gb northern ireland']='Northern Ireland'
 customRegionMapping['baden wuerttemberg']='Baden-Württemberg'
 customRegionMapping['valle aosta']='Valle d\'Aosta'
+customRegionMapping['trentino alto adige'] = "Trentino-Alto Adige/Südtirol"
 customRegionMapping['thueringen']='Thüringen'
 customRegionMapping['provence alpes cote d azur']='Provence-Alpes-Côte d\'Azur'
 
@@ -46,12 +56,13 @@ customRegionMapping['ivanov']='Ивановская область'
 customRegionMapping['kabardino']='Кабардино-Балкария'
 customRegionMapping['kaliningrad']='Калининградская область'
 customRegionMapping['kaluga']='Калужская область'
+customRegionMapping['kamchatka']='Камчатка'
 customRegionMapping['karachaevo']='Карачаево-Черкессия'
 customRegionMapping['kemerovo']='Кемеровская область'
 customRegionMapping['khabarovsk']='Хабаровский край'
 customRegionMapping['khakasia']='Хакасия'
 customRegionMapping['khanty mansiisk']='Ханты-Мансийский автономный округ — Югра'
-customRegionMapping['kirov']='Кировоградская область'
+customRegionMapping['kirov']='Кировская область'
 customRegionMapping['kostroma']='Костромская область'
 customRegionMapping['krasnodar']='Краснодарский край'
 customRegionMapping['krasnoyarsk']='Красноярский край'
@@ -85,6 +96,7 @@ customRegionMapping['smolensk']='Смоленская область'
 customRegionMapping['stavropol']='Ставропольский край'
 customRegionMapping['sverdlovsk']='Свердловская область'
 customRegionMapping['tambov']='Тамбовская область'
+customRegionMapping['tomsk']='Томская область'
 customRegionMapping['tula']='Тульская область'
 customRegionMapping['tumen']='Тюменская область'
 customRegionMapping['tver']='Тверская область'

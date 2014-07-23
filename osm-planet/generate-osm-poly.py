@@ -37,8 +37,9 @@ def initializeEntities(filename):
 			if ent.nodeName == 'tag' :
 				name = ent.attributes['k'].value
 				nameValue = ent.attributes['v'].value				
-				if name.startswith('name') :
+				if name == 'name' or name == 'name:en' or name == 'name:simple' or name == 'int_name':				 
 					names.add(nameValue)
+				if name.startswith('name') or name == 'int_name':
 					tags[name] = nameValue
 		override = True
 		for name in names :
@@ -82,7 +83,8 @@ def addNames(country):
 	elif countryAdopt in cr.missingRegionNames :
 		way_tags  += '\t<tag k="name" v="%s" />\n' % cr.missingRegionNames[countryAdopt]
 	else :
-		raise Exception("Country name is missing %s (take a look at countryNamesNonStdMapping.py)!" % countryAdopt)
+		print country + countryAdopt + " ?"
+		raise Exception("Country name is missing %s <- %s (take a look at countryNamesNonStdMapping.py)!" % (countryAdopt, country))
 
 	return way_tags
 
