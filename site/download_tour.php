@@ -47,7 +47,7 @@ if(!isset($_GET['file']) ) {
  }
  set_time_limit(0);
  if (file_exists('tours/'.$file)) {
-    downloadFile($file);
+    downloadFile('tours/'.$file);
  } else if (isset($code) and file_exists('/var/lib/jenkins/tours/'.$code.'/'.$file)) {
     downloadFile('/var/lib/jenkins/tours/'.$code.'/'.$file);
  } else {
