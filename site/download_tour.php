@@ -4,11 +4,12 @@ include 'download_utils.php';
 use UnitedPrototype\GoogleAnalytics;
 
 
- if(!isset($_GET['file']) ) {
-   header('HTTP/1.0 404 Not Found');
-   die(1);
- }
+if(!isset($_GET['file']) ) {
+  header('HTTP/1.0 404 Not Found');
+  die(1);
+}
  $file = $_GET['file'];
+ $code = $_GET['code']
   // not used now
  if(!isset($_SERVER['HTTP_RANGE']) ) {
     // old version
@@ -35,7 +36,7 @@ use UnitedPrototype\GoogleAnalytics;
     $session = new GoogleAnalytics\Session();
 
     // Assemble Page information
-    $page = new GoogleAnalytics\Page('/download.php?'.$file);
+    $page = new GoogleAnalytics\Page('/download_tour.php?'.$code.'&'.$file);
     $page->setTitle('Download file '.$file);
 
     // Track page view
@@ -45,23 +46,10 @@ use UnitedPrototype\GoogleAnalytics;
     $tracker->trackEvent($event, $session, $visitor);
  }
  set_time_limit(0);
- $xml = simplexml_load_file("indexes.xml");
- $res = $xml->xpath('//region[@name="'.$file.'"]');
- if($file ==  "World_basemap_2.obf.zip") {
-    dwFile('indexes/'.$file, 'standard=yes&file='.$file, "");
- } else if(isset($_GET['srtm'])){
-    dwFile('srtm/'.$file, 'srtm=yes&file='.$file, "srtm");
- } else if(isset($_GET['srtmcountry'])){
-    dwFile('srtm-countries/'.$file, 'srtmcountry=yes&file='.$file, "srtm");
- } else if(isset($_GET['road'])){
-    dwFile('road-indexes/'.$file, 'road=yes&file='.$file, "road");
- } else if(isset($_GET['hillshade'])){
-    dwFile('hillshade/'.$file, 'hillshade=yes&file='.$file, "hillshade");
- } else if(isset($_GET['tour'])){
-    dwFile('tours/'.$file, 'tour=yes&file='.$file, "tour");
- } else if (count($res) > 0) {
- 	 $node = $res[0];
-   dwFile('indexes/'.$file, 'standard=yes&file='.$file, ""); 	 
+ if (file_exists('tours/'.$file)) {
+    downloadFile($file);
+ } else if (isset($code) and file_exists('/var/lib/jenkins/tours/'.$code.'/'.$file)) {
+    downloadFile('/var/lib/jenkins/tours/'.$code.'/'.$file);
  } else {
     header('HTTP/1.1 404 Not Found');
  }
