@@ -9,7 +9,7 @@ if(!isset($_GET['file']) ) {
   die(1);
 }
  $file = $_GET['file'];
- $code = $_GET['code']
+ $code = $_GET['code'];
   // not used now
  if(!isset($_SERVER['HTTP_RANGE']) ) {
     // old version
