@@ -44,7 +44,7 @@ updateRegion Russia-moscovskaya-oblast polygons/russia-regions/moskovskaya-oblas
 #updateRegion US-chicago-north-america metropolis-polygons/north-america/us/chicago.poly 
 #updateRegion US-houston-north-america metropolis-polygons/north-america/us/houston.poly
 #updateRegion US-los-angeles-north-america metropolis-polygons/north-america/us/los-angeles.poly
-#updateRegion US-new-york-north-america metropolis-polygons/north-america/us/new-york.poly
+#updateRegion US-new-york-north-america metropolis-polygons/north-america/us/new-york_philadelphia.poly
 
 
 ls -larh ${BASE}
