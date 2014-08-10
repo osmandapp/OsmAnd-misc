@@ -38,7 +38,7 @@ for country in ${COUNTRIES}; do
        # convert to fastest intermediate format
        osmconvert --drop-author ${basecountry}.osm.pbf --out-o5m -o=${basecountry}.o5m
        # filter only the necessary stuff out of the entire osm file
-       osmfilter ${basecountry}.o5m --keep="boundary=administrative addr:* place=* is_in=* highway=residential =unclassified =pedestrian =living_street =service =road =unclassified =tertiary" --keep-ways-relations="boundary=administrative" --keep-ways= --keep-nodes= --keep-relations= --out-o5m > ${basecountry}_addresses-nationwide_${continent}.o5m
+       osmfilter ${basecountry}.o5m --keep="boundary=administrative addr:* place=* is_in=* highway=residential =unclassified =pedestrian =living_street =service =road =unclassified =tertiary type=associatedStreet" --keep-ways-relations="boundary=administrative type=associatedStreet" --keep-ways= --keep-nodes= --keep-relations=  --out-o5m > ${basecountry}_addresses-nationwide_${continent}.o5m
        # convert back to format suitable for OsmAndMapCreator
        osmconvert ${basecountry}_addresses-nationwide_${continent}.o5m --out-pbf -o=$TARGETFILE
        rm -f ${basecountry}.o5m ${basecountry}_addresses-nationwide_${continent}.o5m
