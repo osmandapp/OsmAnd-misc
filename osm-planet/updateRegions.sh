@@ -29,7 +29,7 @@ updateRegion France-toulouse metropolis-polygons/europe/france/toulouse.poly eur
 updateRegion Germany-munich metropolis-polygons/europe/germany/munchen.poly europe.pbf
 updateRegion German-ruhregebiet-koln metropolis-polygons/europe/germany/ruhrgebiet-koln.poly europe.pbf
 
-updateRegion Italy-roma metropolis-polygons/europe/italy/italy.poly europe.pbf
+updateRegion Italy-roma metropolis-polygons/europe/italy/roma.poly europe.pbf
 
 updateRegion Spain-madrid metropolis-polygons/europe/spain/madrid.poly europe.pbf
 
