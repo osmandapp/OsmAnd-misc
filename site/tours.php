@@ -7,5 +7,5 @@ $dom->load('indexes.xml');
 $outputIndexes = $dom-> getElementsByTagName('indexes');
 loadIndexesFromDir($dom, $outputIndexes, '/var/lib/jenkins/tours/'.$code.'/', 'region', 'tour');
 
-$dom->saveXML();
+print $dom->saveXML();
 ?>
