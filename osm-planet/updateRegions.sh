@@ -26,14 +26,21 @@ updateRegion France-lyon metropolis-polygons/europe/france/lyon.poly europe.pbf
 updateRegion France-marseille metropolis-polygons/europe/france/marseille.poly europe.pbf
 updateRegion France-toulouse metropolis-polygons/europe/france/toulouse.poly europe.pbf
 
+updateRegion Germany-berlin geo-polygons/europe/germany/berlin.poly europe.pbf
+updateRegion Germany-hamburg geo-polygons/europe/hamburg.poly europe.pbf
 updateRegion Germany-munich metropolis-polygons/europe/germany/munchen.poly europe.pbf
-updateRegion German-ruhregebiet-koln metropolis-polygons/europe/germany/ruhrgebiet-koln.poly europe.pbf
+updateRegion Germany-ruhrgebiet-koln metropolis-polygons/europe/germany/ruhrgebiet-koln.poly europe.pbf
 
 updateRegion Italy-roma metropolis-polygons/europe/italy/roma.poly europe.pbf
 
 updateRegion Spain-madrid metropolis-polygons/europe/spain/madrid.poly europe.pbf
 
 updateRegion Sweden-Stockholm metropolis-polygons/europe/sweden/stockholm.poly europe.pbf
+
+
+# South-America
+updateRegion Brazil-rio-de-janeiro-south-america metropolis-polygons/south-america/brazil/rio-de-janeiro.poly south-america.pbf
+updateRegion Brazil-sao-paulo-south-america metropolis-polygons/south-america/brazil/sau-paulo.poly south-america.pbf
 
 # Russia
 updateRegion Russia-sankt-petersburg polygons/russia-regions/sankt-peterburg.poly russia.pbf
