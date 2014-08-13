@@ -9,7 +9,7 @@ if(!isset($_GET['file']) ) {
   die(1);
 }
  $file = $_GET['file'];
- $code = $_GET['code'];
+ $code = $_GET['code']; 
   // not used now
  if(!isset($_SERVER['HTTP_RANGE']) ) {
     // old version
@@ -26,7 +26,7 @@ if(!isset($_GET['file']) ) {
      $app = 'Download '.$_SERVER['HTTP_USER_AGENT'];
    }
       
-    $tracker = new GoogleAnalytics\Tracker('UA-28342846-1', 'download.osmand.net');
+    $tracker = new GoogleAnalytics\Tracker('UA-28342846-3', 'download.osmand.net');
     $visitor = new GoogleAnalytics\Visitor();
     $visitor->setIpAddress($_SERVER['REMOTE_ADDR']);
     $visitor->setUserAgent($_SERVER['HTTP_USER_AGENT']);
