@@ -17,6 +17,8 @@ updateRegion() {
 
 rm current-update.o5m || true
 # Europe
+updateRegion Austria-wien metropolis-polygons/europe/austria/wien.poly europe.pbf
+
 updateRegion England-london geo-polygons/europe/great-britain/england/greater-london.poly europe.pbf
 updateRegion England-birmingham metropolis-polygons/europe/great-britain/birmingham.poly europe.pbf
 updateRegion England-leeds metropolis-polygons/europe/great-britain/leeds.poly europe.pbf
@@ -31,12 +33,15 @@ updateRegion Germany-hamburg geo-polygons/europe/germany/hamburg.poly europe.pbf
 updateRegion Germany-munich metropolis-polygons/europe/germany/munchen.poly europe.pbf
 updateRegion Germany-ruhrgebiet-koln metropolis-polygons/europe/germany/ruhrgebiet-koln.poly europe.pbf
 
+updateRegion Greece-athens metropolis-polygons/europe/greece/athens.poly europe.pbf
+
 updateRegion Italy-roma metropolis-polygons/europe/italy/roma.poly europe.pbf
 
 updateRegion Spain-madrid metropolis-polygons/europe/spain/madrid.poly europe.pbf
 
 updateRegion Sweden-Stockholm metropolis-polygons/europe/sweden/stockholm.poly europe.pbf
 
+updateRegion Turkey-istanbul metropolis-polygons/europe/turkey/istanbul.poly europe.pbf
 
 # South-America
 updateRegion Brazil-rio-de-janeiro-south-america metropolis-polygons/south-america/brazil/rio-de-janeiro.poly south-america.pbf
@@ -48,10 +53,13 @@ updateRegion Russia-moscow polygons/russia-regions/moscow.poly russia.pbf
 updateRegion Russia-moscovskaya-oblast polygons/russia-regions/moskovskaya-oblast.poly russia.pbf
 
 # United States
-#updateRegion US-chicago-north-america metropolis-polygons/north-america/us/chicago.poly 
-#updateRegion US-houston-north-america metropolis-polygons/north-america/us/houston.poly
-#updateRegion US-los-angeles-north-america metropolis-polygons/north-america/us/los-angeles.poly
-#updateRegion US-new-york-north-america metropolis-polygons/north-america/us/new-york_philadelphia.poly
+updateRegion US-chicago-north-america metropolis-polygons/north-america/us/chicago.poly us.pbf
+updateRegion US-dallas-ford-worth-north-america metropolis-polygons/north-america/us/dallas-ford-worth.poly us.pbf
+updateRegion US-houston-north-america metropolis-polygons/north-america/us/houston.poly us.pbf
+updateRegion US-los-angeles-north-america metropolis-polygons/north-america/us/los-angeles.poly us.pbf
+updateRegion US-new-york-north-america metropolis-polygons/north-america/us/new-york_philadelphia.poly us.pbf
+updateRegion US-phoenix-north-america metropolis-polygons/north-america/us/phoenix.poly us.pbf
+updateRegion US-san-antonio-north-america metropolis-polygons/north-america/us/san-antonio.poly us.pbf
 
 
 ls -larh ${BASE}
