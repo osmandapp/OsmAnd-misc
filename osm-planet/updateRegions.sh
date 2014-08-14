@@ -40,7 +40,7 @@ updateRegion Sweden-Stockholm metropolis-polygons/europe/sweden/stockholm.poly e
 
 # South-America
 updateRegion Brazil-rio-de-janeiro-south-america metropolis-polygons/south-america/brazil/rio-de-janeiro.poly south-america.pbf
-updateRegion Brazil-sao-paulo-south-america metropolis-polygons/south-america/brazil/sau-paulo.poly south-america.pbf
+updateRegion Brazil-sao-paulo-south-america metropolis-polygons/south-america/brazil/sao-paulo.poly south-america.pbf
 
 # Russia
 updateRegion Russia-sankt-petersburg polygons/russia-regions/sankt-peterburg.poly russia.pbf
