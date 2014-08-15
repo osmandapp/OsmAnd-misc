@@ -53,13 +53,13 @@ updateRegion Russia-moscow polygons/russia-regions/moscow.poly russia.pbf
 updateRegion Russia-moscovskaya-oblast polygons/russia-regions/moskovskaya-oblast.poly russia.pbf
 
 # United States
-updateRegion US-chicago-north-america metropolis-polygons/north-america/us/chicago.poly us.pbf
-updateRegion US-dallas-ford-worth-north-america metropolis-polygons/north-america/us/dallas-ford-worth.poly us.pbf
-updateRegion US-houston-north-america metropolis-polygons/north-america/us/houston.poly us.pbf
-updateRegion US-los-angeles-north-america metropolis-polygons/north-america/us/los-angeles.poly us.pbf
-updateRegion US-new-york-north-america metropolis-polygons/north-america/us/new-york_philadelphia.poly us.pbf
-updateRegion US-phoenix-north-america metropolis-polygons/north-america/us/phoenix.poly us.pbf
-updateRegion US-san-antonio-north-america metropolis-polygons/north-america/us/san-antonio.poly us.pbf
+updateRegion US-chicago-north-america metropolis-polygons/north-america/us/chicago.poly north-america.pbf
+updateRegion US-dallas-ford-worth-north-america metropolis-polygons/north-america/us/dallas-ford-worth.poly north-america.pbf
+updateRegion US-houston-north-america metropolis-polygons/north-america/us/houston.poly north-america.pbf
+updateRegion US-los-angeles-north-america metropolis-polygons/north-america/us/los-angeles.poly north-america.pbf
+updateRegion US-new-york-north-america metropolis-polygons/north-america/us/new-york_philadelphia.poly north-america.pbf
+updateRegion US-phoenix-north-america metropolis-polygons/north-america/us/phoenix.poly north-america.pbf
+updateRegion US-san-antonio-north-america metropolis-polygons/north-america/us/san-antonio.poly north-america.pbf
 
 
 ls -larh ${BASE}
