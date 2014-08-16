@@ -18,11 +18,11 @@ updateRegion() {
 rm current-update.o5m || true
 
 # Canada
-updateRegion Canada-calgary metropolis-polygons/north-america/canada/calgary.poly canada.pbf
-updateRegion Canada-edmonton metropolis-polygons/north-america/canada/edmonton.poly canada.pbf
-updateRegion Canada-montreal metropolis-polygons/north-america/canada/montreal.poly canada.pbf
-updateRegion Canada-ottawa metropolis-polygons/north-america/canada/ottawa.poly canada.pbf
-updateRegion Canada-toronto metropolis-polygons/north-america/canada/toronto.poly canada.pbf
+updateRegion Canada-calgary-north-america metropolis-polygons/north-america/canada/calgary.poly canada.pbf
+updateRegion Canada-edmonton-north-america metropolis-polygons/north-america/canada/edmonton.poly canada.pbf
+updateRegion Canada-montreal-north-america metropolis-polygons/north-america/canada/montreal.poly canada.pbf
+updateRegion Canada-ottawa-north-america metropolis-polygons/north-america/canada/ottawa.poly canada.pbf
+updateRegion Canada-toronto-north-america metropolis-polygons/north-america/canada/toronto.poly canada.pbf
 # Vancouver needs north-america as the total metropolitan aread reaches into the USA
 updateRegion Canada-vancouver metropolis-polygons/north-america/canada/canvouver.poly north-america.pbf
 
