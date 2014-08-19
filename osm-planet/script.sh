@@ -88,4 +88,4 @@ convertFolder "$EXTRACT_DIR"/australia-oceania.pbf "polygons/australia-oceania"
 
 # 8. USA and Canada
 convert $PLANET_FILE "polygons/" "north-america"
-convert "$EXTRACT_DIR"/north-america.pbf "canada"
+convert "$EXTRACT_DIR"/north-america.pbf "polygons/" "canada"
