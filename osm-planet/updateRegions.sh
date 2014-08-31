@@ -29,6 +29,7 @@ updateRegion Canada-vancouver metropolis-polygons/north-america/canada/vancouver
 
 # Europe
 updateRegion Austria-wien metropolis-polygons/europe/austria/wien.poly europe.pbf
+updateRegion Czech-republic-praha metropolis-polygons/europe/czech-republic/praha.poly europe.pbf
 
 updateRegion England-london geo-polygons/europe/great-britain/england/greater-london.poly europe.pbf
 updateRegion England-birmingham metropolis-polygons/europe/great-britain/birmingham.poly europe.pbf
@@ -47,8 +48,12 @@ updateRegion Germany-ruhrgebiet-koln metropolis-polygons/europe/germany/ruhrgebi
 updateRegion Greece-athens metropolis-polygons/europe/greece/athens.poly europe.pbf
 
 updateRegion Italy-roma metropolis-polygons/europe/italy/roma.poly europe.pbf
+updateRegion Italy-milano metropolis-polygons/europe/italy/milano.poly europe.pbf
 
+updateRegion Spain-barcelona metropolis-polygons/europe/spain/barcelona.poly europe.pbf
 updateRegion Spain-madrid metropolis-polygons/europe/spain/madrid.poly europe.pbf
+updateRegion Spain-seville metropolis-polygons/europe/spain/seville.poly europe.pbf
+updateRegion Spain-valencia metropolis-polygons/europe/spain/valencia.poly europe.pbf
 
 updateRegion Sweden-Stockholm metropolis-polygons/europe/sweden/stockholm.poly europe.pbf
 
