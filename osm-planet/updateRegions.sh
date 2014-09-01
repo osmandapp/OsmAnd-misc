@@ -23,7 +23,7 @@ updateRegion Canada-edmonton-north-america metropolis-polygons/north-america/can
 updateRegion Canada-montreal-north-america metropolis-polygons/north-america/canada/montreal.poly canada.pbf
 updateRegion Canada-ottawa-north-america metropolis-polygons/north-america/canada/ottawa.poly canada.pbf
 updateRegion Canada-toronto-north-america metropolis-polygons/north-america/canada/toronto.poly canada.pbf
-# Vancouver needs north-america as the total metropolitan aread reaches into the USA
+# Vancouver needs north-america as the total metropolitan area reaches into the USA
 updateRegion Canada-vancouver metropolis-polygons/north-america/canada/vancouver.poly north-america.pbf
 
 
