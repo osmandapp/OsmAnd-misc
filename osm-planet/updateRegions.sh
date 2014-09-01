@@ -26,6 +26,9 @@ updateRegion Canada-toronto-north-america metropolis-polygons/north-america/cana
 # Vancouver needs north-america as the total metropolitan area reaches into the USA
 updateRegion Canada-vancouver metropolis-polygons/north-america/canada/vancouver.poly north-america.pbf
 
+# China
+updateRegion China-beijing metropolis-polygons/asia/china/beijing.poly asia.pbf
+updateRegion China-shanghai metropolis-polygons/asia/china/shanghai.poly asia.pbf
 
 # Europe
 updateRegion Austria-wien metropolis-polygons/europe/austria/wien.poly europe.pbf
@@ -63,6 +66,12 @@ updateRegion Spain-valencia metropolis-polygons/europe/spain/valencia.poly europ
 updateRegion Sweden-Stockholm metropolis-polygons/europe/sweden/stockholm.poly europe.pbf
 
 updateRegion Turkey-istanbul metropolis-polygons/europe/turkey/istanbul.poly europe.pbf
+
+# Japan
+updateRegion Japan-tokyo-yokohama metropolis-polygons/asia/japan/tokyo-yokohama.poly asia.pbf
+updateRegion Japan-nagoya metropolis-polygons/asia/japan/nagoya.poly asia.pbf
+updateRegion Japan-osaka metropolis-polygons/asia/japan/osaka.poly asia.pbf
+updateRegion Japan-sapporo metropolis-polygons/asia/japan/sapporo.poly asia.pbf
 
 # South-America
 updateRegion Brazil-rio-de-janeiro-south-america metropolis-polygons/south-america/brazil/rio-de-janeiro.poly south-america.pbf
