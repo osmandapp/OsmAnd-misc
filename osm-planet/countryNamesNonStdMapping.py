@@ -5,7 +5,7 @@ global missingRegionNames
 missingRegionNames = {}
 # continents
 missingRegionNames['oceania']='Oceania'
-missingRegionNames['australia oceania']='Australia and Ocenia'
+missingRegionNames['australia oceania']='Australia and Oceania'
 missingRegionNames['netherlands antilles'] = 'Netherlands-antilles'
 missingRegionNames['channel islands'] = 'Channel islands'
 
