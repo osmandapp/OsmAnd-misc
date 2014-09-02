@@ -51,6 +51,8 @@ convert $PLANET_FILE "polygons/" "africa"
 convertFolder "$EXTRACT_DIR"/africa.pbf "polygons/africa/"
 
 # 2. Asia
+convert $PLANET_FILE "polygons/" "asia"
+
 # 2.1 east asia
 #still work to be done, maybe put all in one regiona asia, and use smaller region in asia.poly file or just revise regions east&ocean boundary
 convert $PLANET_FILE "polygons/" "east-asia"
