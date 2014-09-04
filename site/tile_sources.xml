@@ -23,8 +23,8 @@
  
    <tile_source name="Public Transport" url_template="http://openptmap.org/tiles/{0}/{1}/{2}.png" ext=".png" min_zoom="1" max_zoom="17" tile_size="256" img_density="16" avg_img_size="5000"/> 
 
-   <tile_source name="Hike Bike Map" url_template="http://toolserver.org/tiles/hikebike/{0}/{1}/{2}.png" ext=".png" min_zoom="1" max_zoom="17" tile_size="256" img_density="8" avg_img_size="18000"/>
-   <tile_source name="Hike Bike Map (Hills Underlay)" url_template="http://toolserver.org/~cmarqu/hill/{0}/{1}/{2}.png" ext=".png" min_zoom="1" max_zoom="17" tile_size="256" img_density="16" avg_img_size="18000"/>
+   <tile_source name="Hike Bike Map" url_template="http://a.tiles.wmflabs.org/hikebike/{0}/{1}/{2}.png" ext=".png" min_zoom="1" max_zoom="17" tile_size="256" img_density="8" avg_img_size="18000"/>
+   <tile_source name="Hike Bike Map (Hills Underlay)" url_template="http://a.tiles.wmflabs.org/hillshading/{0}/{1}/{2}.png" ext=".png" min_zoom="1" max_zoom="17" tile_size="256" img_density="16" avg_img_size="18000"/>
 
 
    <tile_source name="OpenPisteMap" url_template="http://openpistemap.org/tiles/contours/{0}/{1}/{2}.png" ext=".png" min_zoom="5" max_zoom="17" tile_size="256" img_density="32" avg_img_size="18000"/>
