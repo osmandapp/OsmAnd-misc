@@ -111,4 +111,5 @@ customRegionMapping['yaroslavl']='Ярославская область'
 customRegionMapping['yamal']='Ямало-Ненецкий автономный округ'
 customRegionMapping['zabaikalie']='Забайкальский край'
 customRegionMapping['canarias']='Canary Islands'
+customRegionMapping['baleares']='Balearic Islands'
 
