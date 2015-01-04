@@ -1,4 +1,4 @@
-#!/usr/bin/python
+v#!/usr/bin/python
 # -*- coding: utf-8 -*-
 
 global missingRegionNames
@@ -110,3 +110,5 @@ customRegionMapping['yakutia']='Саха (Якутия)'
 customRegionMapping['yaroslavl']='Ярославская область'
 customRegionMapping['yamal']='Ямало-Ненецкий автономный округ'
 customRegionMapping['zabaikalie']='Забайкальский край'
+customRegionMapping['canarias']='Canary Islands'
+
