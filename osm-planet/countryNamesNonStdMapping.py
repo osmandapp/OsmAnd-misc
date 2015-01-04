@@ -110,6 +110,12 @@ customRegionMapping['yakutia']='Саха (Якутия)'
 customRegionMapping['yaroslavl']='Ярославская область'
 customRegionMapping['yamal']='Ямало-Ненецкий автономный округ'
 customRegionMapping['zabaikalie']='Забайкальский край'
+
+# Spain regions
 customRegionMapping['canarias']='Canary Islands'
 customRegionMapping['baleares']='Balearic Islands'
-
+customRegionMapping['asturias']='Asturies'
+customRegionMapping['navarra']='Comunidad Foral de Navarra'
+customRegionMapping['murcia']='Region of Murcia'
+customRegionMapping['castilla leon']='Castile and León'
+customRegionMapping['madrid']='Community of Madrid'
