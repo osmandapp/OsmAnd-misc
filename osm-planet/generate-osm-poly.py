@@ -206,6 +206,7 @@ if __name__ == "__main__":
 	process_poly_folder('polygons/europe/gb-regions/', 'europe', 'Gb_england')
 	
 	process_poly_folder('polygons/europe/italy-regions/', 'europe', 'Italy')
+	process_poly_folder('polygons/europe/spain-regions/', 'europe', 'Spain')
 
 	process_poly_folder('polygons/russia/', 'asia', 'Russia')
 	process_poly_folder('polygons/russia-regions/', 'asia', 'Russia')
