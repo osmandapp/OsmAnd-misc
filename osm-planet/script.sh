@@ -57,7 +57,7 @@ convert $PLANET_FILE "polygons/" "asia"
 #still work to be done, maybe put all in one regiona asia, and use smaller region in asia.poly file or just revise regions east&ocean boundary
 convert $PLANET_FILE "polygons/" "east-asia"
 convertFolder "$EXTRACT_DIR"/east-asia.pbf "polygons/east-asia/"
-convertFolder "$EXTRACT_DIR"/east-asia.pbf "polygons/asia-india/" "India"
+convertFolder "$EXTRACT_DIR"/india.pbf  "polygons/east-asia/india-regions" "India"
 
 # 2.1 ocean asia
 convert $PLANET_FILE "polygons/" "ocean-asia"
