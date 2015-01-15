@@ -119,3 +119,13 @@ customRegionMapping['navarra']='Comunidad Foral de Navarra'
 customRegionMapping['murcia']='Region of Murcia'
 customRegionMapping['castilla leon']='Castile and León'
 customRegionMapping['madrid']='Community of Madrid'
+
+# Japan regions
+customRegionMapping['hokkaido']='Hokkaido'
+customRegionMapping['tohoku']='Tōhoku'
+customRegionMapping['kanto']='Kantō'
+customRegionMapping['chubu']='Chūbu'
+customRegionMapping['kansai']='Kansai'
+customRegionMapping['chugoku']='Chūgoku'
+customRegionMapping['shikoku']='Shikoku'
+customRegionMapping['kyushu']='Kyushu'
