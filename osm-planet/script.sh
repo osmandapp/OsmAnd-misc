@@ -62,6 +62,7 @@ convertFolder "$EXTRACT_DIR"/india.pbf  "polygons/east-asia/india-regions" "Indi
 # 2.1 ocean asia
 convert $PLANET_FILE "polygons/" "ocean-asia"
 convertFolder "$EXTRACT_DIR"/ocean-asia.pbf "polygons/ocean-asia/"
+convertFolder "$EXTRACT_DIR"/ocean-asia.pbf "polygons/ocean-asia/japan-regions" "Japan"
 
 #4. Central America
 convert $PLANET_FILE "polygons/" "central-america"
