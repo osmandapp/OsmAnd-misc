@@ -197,6 +197,7 @@ if __name__ == "__main__":
 	
 
 	process_poly_folder('polygons/europe/additional/', 'europe')
+	process_poly_folder('polygons/europe/extract/', 'europe')
 	process_poly_folder('geo-polygons/europe/', 'europe')
 	process_poly_folder('geo-polygons/europe/germany/', 'europe', 'Germany')
 	process_poly_folder('geo-polygons/europe/france/', 'europe', 'France')
