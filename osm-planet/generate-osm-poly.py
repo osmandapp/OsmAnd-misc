@@ -230,10 +230,10 @@ if __name__ == "__main__":
 	process_poly_folder('polygons/ocean-asia/japan-regions/', 'asia', 'Japan')
 
 	process_poly('polygons/australia-oceania/oceania.poly', 'oceania', '', 'australia-oceania')
-	process_poly('geo-polygons/australia-oceania.poly', 'australia-oceania', '', '')
+	process_poly('polygons/australia-oceania.poly', 'australia-oceania', '', '')
 	process_poly_folder('geo-polygons/australia-oceania/', 'australia-oceania')
 	
-	process_poly('geo-polygons/africa.poly', 'africa', '', '')
+	process_poly('polygons/africa.poly', 'africa', '', '')
 	process_poly_folder('geo-polygons/africa/', 'africa')
 	process_poly_folder('polygons/africa/', 'africa')
 
