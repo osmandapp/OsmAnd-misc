@@ -130,4 +130,4 @@ customRegionMapping['chugoku']='Chugoku Region'
 customRegionMapping['shikoku']='Shikoku Region'
 customRegionMapping['kyushu']='Kyushu Region'
 
-customRegionMapping['saint-helena-ascension-and-tristan-da-cunha']='Saint Helena, Ascension and Tristan da Cunha'
+customRegionMapping['saint-helena-ascension-and-tristan-da-cunha']='Saint Helena Ascension and Tristan da Cunha'
