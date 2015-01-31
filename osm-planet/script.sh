@@ -83,6 +83,15 @@ convertFolder "$EXTRACT_DIR"/british-isles.pbf  "polygons/europe/gb-shires"
 convertFolder "$EXTRACT_DIR"/italy.pbf  "polygons/europe/italy-regions" "Italy"
 convertFolder "$EXTRACT_DIR"/spain.pbf  "polygons/europe/spain-regions" "Spain"
 
+#6.1. North Europe
+#convert $PLANET_FILE "polygons/" "north-europe"
+#convertFolder "$EXTRACT_DIR"/north-europe.pbf  "polygons/north-europe"
+
+#6.2. East Europe
+#convert $PLANET_FILE "polygons/" "east-europe"
+#convertFolder "$EXTRACT_DIR"/east-europe.pbf  "polygons/east-europe"
+
+
 # 7. South America
 convert $PLANET_FILE "polygons/" "south-america"
 convertFolder "$EXTRACT_DIR"/south-america.pbf  "polygons/south-america"

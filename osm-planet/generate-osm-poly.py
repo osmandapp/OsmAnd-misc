@@ -201,6 +201,8 @@ if __name__ == "__main__":
 	process_poly_folder('geo-polygons/europe/', 'europe')
 	process_poly_folder('geo-polygons/europe/germany/', 'europe', 'Germany')
 	process_poly_folder('geo-polygons/europe/france/', 'europe', 'France')
+# 	process_poly_folder('polygons/north-europe/', 'europe')
+# 	process_poly_folder('polygons/east-europe/', 'europe')
 
 	process_poly('geo-polygons/europe/great-britain/england/greater-london.poly', 'greater-london', 'Gb_england', 'europe')
 	process_poly_folder('geo-polygons/europe/great-britain/', 'europe', 'Gb')
