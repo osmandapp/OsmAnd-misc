@@ -201,8 +201,10 @@ if __name__ == "__main__":
 	process_poly_folder('geo-polygons/europe/', 'europe')
 	process_poly_folder('geo-polygons/europe/germany/', 'europe', 'Germany')
 	process_poly_folder('geo-polygons/europe/france/', 'europe', 'France')
-# 	process_poly_folder('polygons/north-europe/', 'europe')
-# 	process_poly_folder('polygons/east-europe/', 'europe')
+# 	process_poly_folder('polygons/north-europe/', 'europe', 'north-europe')
+# 	process_poly_folder('polygons/east-europe/', 'europe', 'east-europe')
+# 	process_poly_folder('polygons/south-europe/', 'europe', 'south-europe')
+# 	process_poly_folder('polygons/west-europe/', 'europe', 'west-europe')
 
 	process_poly('geo-polygons/europe/great-britain/england/greater-london.poly', 'greater-london', 'Gb_england', 'europe')
 	process_poly_folder('geo-polygons/europe/great-britain/', 'europe', 'Gb')
@@ -210,6 +212,8 @@ if __name__ == "__main__":
 	
 	process_poly_folder('polygons/europe/italy-regions/', 'europe', 'Italy')
 	process_poly_folder('polygons/europe/spain-regions/', 'europe', 'Spain')
+# 	process_poly_folder('polygons/south-europe/italy-regions/', 'europe', 'Italy')
+# 	process_poly_folder('polygons/south-europe/spain-regions/', 'europe', 'Spain')
 
 	process_poly_folder('polygons/russia/', 'asia', 'Russia')
 	process_poly_folder('polygons/russia-regions/', 'asia', 'Russia')
