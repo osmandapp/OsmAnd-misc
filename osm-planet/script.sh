@@ -94,8 +94,17 @@ convertFolder "$EXTRACT_DIR"/spain.pbf  "polygons/europe/spain-regions" "Spain"
 #6.3. South Europe
 #convert $PLANET_FILE "polygons/" "south-europe"
 #convertFolder "$EXTRACT_DIR"/south-europe.pbf  "polygons/south-europe"
+#convertFolder "$EXTRACT_DIR"/south-europe.pbf  "polygons/south-europe/additional"
 #convertFolder "$EXTRACT_DIR"/spain.pbf  "polygons/south-europe/spain-regions" "Spain"
 #convertFolder "$EXTRACT_DIR"/italy.pbf  "polygons/south-europe/italy-regions" "Italy"
+
+#6.4. West Europe
+#convert $PLANET_FILE "polygons/" "west-europe"
+#convertFolder "$EXTRACT_DIR"/west-europe.pbf  "polygons/west-europe/additional"
+#convertFolder "$EXTRACT_DIR"/france.pbf  "polygons/west-europe/france-regions" "France"
+#convertFolder "$EXTRACT_DIR"/germany.pbf  "polygons/west-europe/germany-regions" "Germany"
+#convertFolder "$EXTRACT_DIR"/netherlands.pbf  "polygons/west-europe/netherlands-regions" "Netherlands"
+#convertFolder "$EXTRACT_DIR"/great-britain.pbf  "polygons/west-europe/gb-regions" "gb_england"
 
 
 # 7. South America
