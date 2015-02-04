@@ -80,23 +80,23 @@ convertFolder "$EXTRACT_DIR"/europe.pbf  "polygons/europe"
 convertFolder "$EXTRACT_DIR"/europe.pbf  "polygons/europe/additional"
 convertFolder "$EXTRACT_DIR"/british-isles.pbf  "polygons/europe/gb-regions" "gb_england"
 convertFolder "$EXTRACT_DIR"/british-isles.pbf  "polygons/europe/gb-shires"
-convertFolder "$EXTRACT_DIR"/italy.pbf  "polygons/europe/italy-regions" "Italy"
-convertFolder "$EXTRACT_DIR"/spain.pbf  "polygons/europe/spain-regions" "Spain"
+# convertFolder "$EXTRACT_DIR"/italy.pbf  "polygons/europe/italy-regions" "Italy"
+# convertFolder "$EXTRACT_DIR"/spain.pbf  "polygons/europe/spain-regions" "Spain"
 
 #6.1. North Europe
 convert $PLANET_FILE "polygons/" "north-europe"
 convertFolder "$EXTRACT_DIR"/north-europe.pbf  "polygons/north-europe"
 
 #6.2. East Europe
-#convert $PLANET_FILE "polygons/" "east-europe"
-#convertFolder "$EXTRACT_DIR"/east-europe.pbf  "polygons/east-europe"
+convert $PLANET_FILE "polygons/" "east-europe"
+convertFolder "$EXTRACT_DIR"/east-europe.pbf  "polygons/east-europe"
 
 #6.3. South Europe
-#convert $PLANET_FILE "polygons/" "south-europe"
-#convertFolder "$EXTRACT_DIR"/south-europe.pbf  "polygons/south-europe"
-#convertFolder "$EXTRACT_DIR"/south-europe.pbf  "polygons/south-europe/additional"
-#convertFolder "$EXTRACT_DIR"/spain.pbf  "polygons/south-europe/spain-regions" "Spain"
-#convertFolder "$EXTRACT_DIR"/italy.pbf  "polygons/south-europe/italy-regions" "Italy"
+convert $PLANET_FILE "polygons/" "south-europe"
+convertFolder "$EXTRACT_DIR"/south-europe.pbf  "polygons/south-europe"
+convertFolder "$EXTRACT_DIR"/south-europe.pbf  "polygons/south-europe/additional"
+convertFolder "$EXTRACT_DIR"/spain.pbf  "polygons/south-europe/spain-regions" "Spain"
+convertFolder "$EXTRACT_DIR"/italy.pbf  "polygons/south-europe/italy-regions" "Italy"
 
 #6.4. West Europe
 #convert $PLANET_FILE "polygons/" "west-europe"
