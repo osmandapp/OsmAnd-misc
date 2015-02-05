@@ -105,7 +105,7 @@ convertFolder "$EXTRACT_DIR"/france.pbf  "polygons/west-europe/france-regions" "
 convertFolder "$EXTRACT_DIR"/germany.pbf  "polygons/west-europe/germany-regions" "Germany"
 convertFolder "$EXTRACT_DIR"/netherlands.pbf  "polygons/west-europe/netherlands-regions" "Netherlands"
 convertFolder "$EXTRACT_DIR"/great-britain.pbf  "polygons/west-europe/gb" "gb"
-convertFolder "$EXTRACT_DIR"/england.pbf  "polygons/west-europe/gb-england" "gb_england"
+convertFolder "$EXTRACT_DIR"/gb-england.pbf  "polygons/west-europe/gb-england" "gb_england"
 
 # 7. South America
 convert $PLANET_FILE "polygons/" "south-america"
