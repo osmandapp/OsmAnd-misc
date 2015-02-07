@@ -36,8 +36,8 @@ def initializeEntities(filename):
 		for ent in item.childNodes :
 			if ent.nodeName == 'tag' :
 				name = ent.attributes['k'].value
-				nameValue = ent.attributes['v'].value				
-				if name == 'name' or name == 'name:en' or name == 'name:simple' or name == 'int_name':				 
+				nameValue = ent.attributes['v'].value
+				if name == 'name' or name == 'name:en' or name == 'name:simple' or name == 'int_name':
 					names.add(nameValue)
 				if name.startswith('name') or name == 'int_name':
 					tags[name] = nameValue
@@ -189,10 +189,14 @@ if __name__ == "__main__":
 	print "<osm generator='osm2poly' version='0.5'>"
 	addEmptyCountryForNames('europe', 'france', 'france')
 	addEmptyCountryForNames('europe', 'germany', 'germany')
+	addEmptyCountryForNames('europe', 'italy', 'italy')
+	addEmptyCountryForNames('europe', 'spain', 'spain')
 	addEmptyCountryForNames('europe', 'gb', 'united-kingdom')
+	addEmptyCountryForNames('europe', 'england', 'england')
 	addEmptyCountryForNames('northamerica', 'us','united-states')
 	addEmptyCountryForNames('northamerica', 'canada', 'canada')
 	addEmptyCountryForNames('asia','russia','russia')
+	addEmptyCountryForNames('asia','japan','japan')
 	addEmptyCountryForNames('australia-oceania','australia','australia')
 	
 
@@ -216,7 +220,7 @@ if __name__ == "__main__":
 	process_poly_folder('polygons/south-europe/spain-regions/', 'europe', 'Spain')
 	process_poly_folder('polygons/west-europe/france-regions/', 'europe', 'France')
 	process_poly_folder('polygons/west-europe/gb/', 'europe', 'Gb')
-	process_poly_folder('polygons/west-europe/gb-england/', 'europe', 'Gb-england')
+	process_poly_folder('polygons/west-europe/gb-england/', 'europe', 'england')
 	process_poly_folder('polygons/west-europe/germany-regions/', 'europe', 'Germany')
 # 	process_poly_folder('polygons/west-europe/netherlands-regions/', 'europe', 'Netherlands')
 
