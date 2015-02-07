@@ -94,7 +94,6 @@ convertFolder "$EXTRACT_DIR"/east-europe.pbf  "polygons/east-europe"
 #6.3. South Europe
 convert "$EXTRACT_DIR"/europe.pbf "polygons/" "south-europe"
 convertFolder "$EXTRACT_DIR"/south-europe.pbf  "polygons/south-europe"
-convertFolder "$EXTRACT_DIR"/south-europe.pbf  "polygons/south-europe/additional"
 convertFolder "$EXTRACT_DIR"/spain.pbf  "polygons/south-europe/spain-regions" "Spain"
 convertFolder "$EXTRACT_DIR"/italy.pbf  "polygons/south-europe/italy-regions" "Italy"
 
