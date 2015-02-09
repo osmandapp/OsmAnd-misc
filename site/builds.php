@@ -19,10 +19,12 @@
 			}	
 			$size = round(filesize($file)/1048576, 1);
 			$date = date("d.m.Y", filemtime($file));
+			$timestamp = filemtime($file);
 			$build = $output->createElement( "build" );
 			$outputIndexes->appendChild( $build );
 			$build -> setAttribute("size", $size);
 			$build -> setAttribute("date", $date);
+			$build -> setAttribute("timestamp", $timestamp * 1000);
 			$build -> setAttribute("tag", $tag.$tag_suffix);
 			$build -> setAttribute("type", $type);
 			$build -> setAttribute("path", $file);	
