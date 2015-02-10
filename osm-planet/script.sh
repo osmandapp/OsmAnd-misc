@@ -99,6 +99,7 @@ convertFolder "$EXTRACT_DIR"/italy.pbf  "polygons/south-europe/italy-regions" "I
 
 #6.4. West Europe
 convert "$EXTRACT_DIR"/europe.pbf "polygons/" "west-europe"
+convertFolder "$EXTRACT_DIR"/west-europe.pbf  "polygons/west-europe"
 convertFolder "$EXTRACT_DIR"/west-europe.pbf  "polygons/west-europe/additional"
 convertFolder "$EXTRACT_DIR"/france.pbf  "polygons/west-europe/france-regions" "France"
 convertFolder "$EXTRACT_DIR"/germany.pbf  "polygons/west-europe/germany-regions" "Germany"
