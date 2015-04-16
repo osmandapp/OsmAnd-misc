@@ -42503,6 +42503,32 @@
     <tag k="wikidata" v="Q148"/>
     <tag k="wikipedia" v="en:China"/>
   </relation>
+  <relation id="1867188">
+    <member type="node" ref="1939592594" role="admin_centre"/>
+    <member type="way" ref="138665719" role="outer"/>
+    <member type="way" ref="307479619" role="outer"/>
+    <tag k="ISO3166-1" v="MO"/>
+    <tag k="ISO3166-2" v="CN-92"/>
+    <tag k="admin_level" v="4"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="is_in:continent" v="Asia"/>
+    <tag k="name" v="澳門 Macau"/>
+    <tag k="name:de" v="Macao"/>
+    <tag k="name:en" v="Macao"/>
+    <tag k="name:pl" v="Makau"/>
+    <tag k="name:pt" v="Macau"/>
+    <tag k="name:ru" v="Макао"/>
+    <tag k="name:vi" v="Ma Cao"/>
+    <tag k="name:zh" v="澳门特别行政区"/>
+    <tag k="note" v="Macau special administrative region"/>
+    <tag k="ref" v="澳"/>
+    <tag k="source" v="Guess from Bing"/>
+    <tag k="timezone" v="Asia/Macau"/>
+    <tag k="timezone:note" v="Incomplete object"/>
+    <tag k="type" v="boundary"/>
+    <tag k="wikidata" v="Q14773"/>
+    <tag k="wikipedia" v="en:Macau"/>
+  </relation>
   <relation id="272644">
     <member type="way" ref="249852705" role="outer"/>
     <member type="way" ref="257445144" role="outer"/>
@@ -62441,25 +62467,25 @@
     <tag k="wikipedia" v="en:Botswana"/>
   </relation>
   <relation id="1964272">
-    <member type="node" ref="293673697" role="admin_centre"/>
-    <member type="node" ref="1602894836" role="label"/>
     <member type="way" ref="216242947" role="outer"/>
     <member type="way" ref="216242938" role="outer"/>
     <member type="way" ref="216242961" role="outer"/>
     <member type="way" ref="216242936" role="outer"/>
     <member type="way" ref="216242976" role="outer"/>
     <member type="way" ref="216242937" role="outer"/>
-    <member type="way" ref="216242935" role="outer"/>
-    <member type="way" ref="216242977" role="outer"/>
     <member type="way" ref="216242945" role="outer"/>
+    <member type="way" ref="216242977" role="outer"/>
+    <member type="way" ref="216242935" role="outer"/>
     <member type="way" ref="216242940" role="outer"/>
     <member type="way" ref="216242967" role="outer"/>
     <member type="way" ref="216242955" role="outer"/>
     <member type="way" ref="216242943" role="outer"/>
     <member type="way" ref="216242942" role="outer"/>
-    <member type="way" ref="216242952" role="outer"/>
-    <member type="way" ref="216242973" role="outer"/>
     <member type="way" ref="216242941" role="outer"/>
+    <member type="way" ref="216242973" role="outer"/>
+    <member type="way" ref="216242952" role="outer"/>
+    <member type="node" ref="293673697" role="admin_centre"/>
+    <member type="node" ref="1602894836" role="label"/>
     <tag k="ISO3166-1" v="SH"/>
     <tag k="ISO3166-1:alpha2" v="SH"/>
     <tag k="ISO3166-1:alpha3" v="SHN"/>
@@ -62468,12 +62494,15 @@
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/0/00/Flag_of_Saint_Helena.svg"/>
     <tag k="name" v="Saint Helena, Ascension and Tristan da Cunha"/>
+    <tag k="name:cs" v="Svatá Helena, Ascension a Tristan da Cunha"/>
     <tag k="name:de" v="St. Helena, Ascension und Tristan da Cunha"/>
     <tag k="name:el" v="Αγία Ελένη, Ασενσιόν και Τριστάν ντα Κούνια"/>
-    <tag k="name:en" v="Saint Helena Ascension and Tristan da Cunha"/>
+    <tag k="name:en" v="Saint Helena, Ascension and Tristan da Cunha"/>
     <tag k="name:fr" v="Sainte-Hélène, Ascension et Tristan da Cunha"/>
     <tag k="name:lt" v="Šventoji Elena, Dangun Žengimo ir Tristanas da Kunja"/>
     <tag k="name:pt" v="Santa Helena, Ascensão e Tristão da Cunha"/>
+    <tag k="name:ru" v="Острова Святой Елены, Вознесения и Тристан-да-Кунья"/>
+    <tag k="name:sk" v="Svätá Helena, Ascension a Tristan da Cunha"/>
     <tag k="name:sr" v="Света Хелена, Асенсион, и Тристан да Куња"/>
     <tag k="name:uk" v="Острови Святої Єлени, Вознесіння і Тристан-да-Кунья"/>
     <tag k="name:vi" v="Saint Helena, Ascension và Tristan da Cunha"/>
