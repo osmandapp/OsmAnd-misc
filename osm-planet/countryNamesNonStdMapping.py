@@ -24,10 +24,11 @@ customRegionMapping['virgin islands british']="British Virgin Islands"
 customRegionMapping['united states'] = 'United States of America'
 customRegionMapping['netherlands'] = 'The Netherlands'
 customRegionMapping['zuid-holland'] = 'South Holland'
-customRegionMapping['macao'] = 'Macau'
+#customRegionMapping['macao'] = 'Macau'
 customRegionMapping['ivory coast'] = 'Côte d\'Ivoire'
 customRegionMapping['bosnia herzegovina'] = 'Bosnia and Herzegovina'
 # customRegionMapping['russia'] = 'Russian Federation'
+customRegionMapping['east-midlands'] = 'East Midlands'
 
 # regions
 customRegionMapping['bremen'] = 'Freie Hansestadt Bremen'
