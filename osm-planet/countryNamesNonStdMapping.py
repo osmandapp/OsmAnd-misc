@@ -28,7 +28,6 @@ customRegionMapping['zuid-holland'] = 'South Holland'
 customRegionMapping['ivory coast'] = 'Côte d\'Ivoire'
 customRegionMapping['bosnia herzegovina'] = 'Bosnia and Herzegovina'
 # customRegionMapping['russia'] = 'Russian Federation'
-customRegionMapping['east-midlands'] = 'East Midlands'
 
 # regions
 customRegionMapping['bremen'] = 'Freie Hansestadt Bremen'
