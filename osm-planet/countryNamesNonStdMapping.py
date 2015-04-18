@@ -133,3 +133,4 @@ customRegionMapping['kyushu']='Kyushu Region'
 
 customRegionMapping['saint-helena-ascension-and-tristan-da-cunha']='Saint Helena Ascension and Tristan da Cunha'
 customRegionMapping['australia oceania']='Australia and Oceania'
+customRegionMapping['carribean archipelago all']='Caribbean archipelago'
