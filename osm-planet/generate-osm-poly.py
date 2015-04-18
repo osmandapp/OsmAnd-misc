@@ -250,7 +250,7 @@ if __name__ == "__main__":
 	process_poly_folder('geo-polygons/asia/', 'asia')
 	process_poly_folder('polygons/east-asia/', 'asia')
 	process_poly_folder('polygons/ocean-asia/', 'asia')
-	process_poly('polygons/japan.poly', 'asia', '', 'Japan')
+	process_poly('polygons/japan.poly', 'japan', '', 'asia')
 	process_poly_folder('polygons/ocean-asia/japan-regions/', 'asia', 'Japan')
 
 	process_poly('polygons/australia-oceania/oceania.poly', 'oceania', '', 'australia-oceania')
