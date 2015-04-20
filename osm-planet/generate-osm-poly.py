@@ -222,7 +222,7 @@ if __name__ == "__main__":
 	process_poly_folder('polygons/west-europe/gb/', 'europe', 'Gb')
 	process_poly_folder('polygons/west-europe/gb-england/', 'europe', 'england')
 	process_poly_folder('polygons/west-europe/germany-regions/', 'europe', 'Germany')
-# 	process_poly_folder('polygons/west-europe/netherlands-regions/', 'europe', 'Netherlands')
+	process_poly_folder('polygons/west-europe/netherlands-regions/', 'europe', 'Netherlands')
 
 	process_poly_folder('polygons/russia/', 'asia', 'Russia')
 	process_poly_folder('polygons/russia-regions/', 'asia', 'Russia')
