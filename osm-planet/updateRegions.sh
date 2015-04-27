@@ -18,10 +18,6 @@ updateRegion() {
 
 rm current-update.o5m || true
 
-#HOT OSM
-updateRegion Nepal polygons/east-asia/nepal.poly nepal.pbf
-
-
 # Canada
 updateRegion Canada-calgary-north-america metropolis-polygons/north-america/canada/calgary.poly canada.pbf
 updateRegion Canada-edmonton-north-america metropolis-polygons/north-america/canada/edmonton.poly canada.pbf
@@ -88,8 +84,8 @@ updateRegion Russia-moscow polygons/russia-regions/moscow.poly russia.pbf
 updateRegion Russia-moscovskaya-oblast polygons/russia-regions/moskovskaya-oblast.poly russia.pbf
 
 # ukraine
-UpdateRegion Ukraine-kiev metropolis-polygons/europe/ukraine/kiev.poly europe.pbf
-UpdateRegion Ukraine-charkov metropolis-polygons/europe/ukraine/charkov.poly europe.pbf
+updateRegion Ukraine-kiev metropolis-polygons/europe/ukraine/kiev.poly europe.pbf
+updateRegion Ukraine-charkov metropolis-polygons/europe/ukraine/charkov.poly europe.pbf
 
 # United States
 updateRegion US-chicago-north-america metropolis-polygons/north-america/us/chicago.poly north-america.pbf
