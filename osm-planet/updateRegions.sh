@@ -2,6 +2,7 @@
 BASE=/var/lib/jenkins/osm-planet/regions
 PBF_FILES="/var/lib/jenkins/workspace/Planet_Update-Extract Osm Maps Downloads/extracted/"
 
+
 updateRegion() {
 	echo "Update ${1} using ${2}"
 	FILE="${BASE}/${1}.o5m"
@@ -16,6 +17,10 @@ updateRegion() {
 }
 
 rm current-update.o5m || true
+
+#HOT OSM
+updateRegion Nepal polygons/east-asia/nepal.poly nepal.pbf
+
 
 # Canada
 updateRegion Canada-calgary-north-america metropolis-polygons/north-america/canada/calgary.poly canada.pbf
@@ -94,6 +99,5 @@ updateRegion US-los-angeles-north-america metropolis-polygons/north-america/us/l
 updateRegion US-new-york-north-america metropolis-polygons/north-america/us/new-york_philadelphia.poly north-america.pbf
 updateRegion US-phoenix-north-america metropolis-polygons/north-america/us/phoenix.poly north-america.pbf
 updateRegion US-san-antonio-north-america metropolis-polygons/north-america/us/san-antonio.poly north-america.pbf
-
 
 ls -larh ${BASE}
