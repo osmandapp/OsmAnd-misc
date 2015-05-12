@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2015-05-12T21:35:02Z"/>
+<meta osm_base="2015-05-12T21:41:02Z"/>
 
   <node id="671022" lat="36.7014631" lon="-118.7559974">
     <tag k="alt_name:vi" v="California"/>
@@ -24894,6 +24894,22 @@
     <tag k="wikipedia" v="en:Basque Country (autonomous community)"/>
     <tag k="wikipedia:es" v="País Vasco"/>
     <tag k="wikipedia:fr" v="Pays basque"/>
+  </node>
+  <node id="3513476360" lat="35.8800104" lon="-5.3180669">
+    <tag k="admin_level" v="4"/>
+    <tag k="is_in" v="Spain"/>
+    <tag k="is_in:country" v="Spain"/>
+    <tag k="is_in:country_code" v="ES"/>
+    <tag k="name" v="Ceuta"/>
+    <tag k="name:ar" v="سبتة"/>
+    <tag k="name:be" v="Сеўта"/>
+    <tag k="name:en" v="Ceuta"/>
+    <tag k="name:es" v="Ceuta"/>
+    <tag k="name:ru" v="Сеута"/>
+    <tag k="place" v="state"/>
+    <tag k="ref" v="CE"/>
+    <tag k="state_code" v="CE"/>
+    <tag k="wikipedia" v="en:Ceuta"/>
   </node>
 
 </osm>
