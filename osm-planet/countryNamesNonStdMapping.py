@@ -6,7 +6,6 @@ missingRegionNames = {}
 # continents
 missingRegionNames['oceania']='Oceania'
 missingRegionNames['australia oceania']='Australia and Oceania'
-missingRegionNames['netherlands antilles'] = 'Netherlands-antilles'
 missingRegionNames['channel islands'] = 'Channel islands'
 
 missingRegionNames['carribean archipelago all'] = 'Carribean Archipelago'
@@ -24,14 +23,14 @@ customRegionMapping['virgin islands british']="British Virgin Islands"
 customRegionMapping['united states'] = 'United States of America'
 customRegionMapping['netherlands'] = 'The Netherlands'
 customRegionMapping['zuid-holland'] = 'South Holland'
-#customRegionMapping['macao'] = 'Macau'
-customRegionMapping['ivory coast'] = 'Côte d\'Ivoire'
+#customRegionMapping['ivory coast'] = 'Côte d\'Ivoire'
 customRegionMapping['bosnia herzegovina'] = 'Bosnia and Herzegovina'
 # customRegionMapping['russia'] = 'Russian Federation'
 
 # regions
 customRegionMapping['bremen'] = 'Freie Hansestadt Bremen'
 customRegionMapping['gb northern ireland']='Northern Ireland'
+customRegionMapping['south east england']='South East'
 customRegionMapping['baden wuerttemberg']='Baden-Württemberg'
 customRegionMapping['valle aosta']='Valle d\'Aosta'
 customRegionMapping['trentino alto adige'] = "Trentino-Alto Adige/Südtirol"
