@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2015-05-14T07:19:02Z"/>
+<meta osm_base="2015-05-15T20:27:02Z"/>
 
   <node id="671022" lat="36.7014631" lon="-118.7559974">
     <tag k="alt_name:vi" v="California"/>
@@ -8393,6 +8393,7 @@
     <tag k="wikipedia" v="fr:Wallis-et-Futuna"/>
   </node>
   <node id="424313764" lat="-12.1691894" lon="96.8301442">
+    <tag k="Schalansky_ref" v="56"/>
     <tag k="country_code_fips" v="CK"/>
     <tag k="country_code_iso3166_1_alpha_2" v="CC"/>
     <tag k="geonames:id" v="1547376"/>
@@ -8602,6 +8603,7 @@
     <tag k="wikipedia" v="fr:Terres australes et antarctiques françaises"/>
   </node>
   <node id="433483523" lat="-10.4878279" lon="105.6329821">
+    <tag k="Schalansky_ref" v="64"/>
     <tag k="alt_name:vi" v="Đảo Christmas"/>
     <tag k="country_code_fips" v="KT"/>
     <tag k="country_code_iso3166_1_alpha_2" v="CX"/>
@@ -10699,13 +10701,14 @@
     <tag k="ref" v="ES"/>
     <tag k="state_code" v="ES"/>
   </node>
-  <node id="504800252" lat="-29.4275951" lon="-53.2394566">
+  <node id="504800252" lat="-29.8518000" lon="-53.7672250">
     <tag k="is_in:country" v="Brasil"/>
     <tag k="is_in:country_code" v="BR"/>
     <tag k="name" v="Rio Grande do Sul"/>
     <tag k="name:abbreviation" v="RS"/>
     <tag k="name:ru" v="Южный Риу-Гранди"/>
     <tag k="name:uk" v="Ріу-Гранді-ду-Сул"/>
+    <tag k="note" v="Estudos apontaram ser este o centro geográfico do RS (-53.767225,-29.8518). Motivo ao qual Santa Maria é conhecida como coração do Rio Grande"/>
     <tag k="place" v="state"/>
     <tag k="ref" v="RS"/>
     <tag k="state_code" v="RS"/>
@@ -14451,6 +14454,7 @@
     <tag k="name:ku" v="Daxistan"/>
     <tag k="name:lbe" v="Дагъусттаннал Республика"/>
     <tag k="name:lez" v="Дагъустандин Республика"/>
+    <tag k="name:ru" v="Дагестан"/>
     <tag k="name:tt" v="Дагстан"/>
     <tag k="official_name" v="Республика Дагестан"/>
     <tag k="official_name:be" v="Рэспубліка Дагестан"/>
@@ -15762,7 +15766,6 @@
     <tag k="name:zh" v="勃艮第"/>
     <tag k="place" v="state"/>
     <tag k="population" v="1642734"/>
-    <tag k="ref:INSEE" v="26"/>
     <tag k="ref:NUTS" v="FR26"/>
     <tag k="source:population" v="INSEE 2014"/>
     <tag k="website" v="http://www.region-bourgogne.fr/"/>
@@ -24781,10 +24784,6 @@
     <tag k="short_name" v="SP"/>
     <tag k="state_code" v="SP"/>
     <tag k="wikipedia" v="pt:São Paulo"/>
-  </node>
-  <node id="3513142594" lat="45.7701891" lon="18.8616051">
-    <tag k="name" v="Liberland"/>
-    <tag k="place" v="state"/>
   </node>
   <node id="3513471344" lat="43.3133868" lon="-5.9419200">
     <tag k="admin_level" v="4"/>
