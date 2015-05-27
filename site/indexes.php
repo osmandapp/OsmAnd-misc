@@ -66,13 +66,13 @@
   }     
 ?>
 </table>
-<h1><?php echo "Table of hillshade hosted on osmand.net"; ?></h1>
+<h1><?php echo "Table of wiki hosted on osmand.net"; ?></h1>
 <table border="1">
 <?php
-   $res = $xpath->query('//hillshade');
+   $res = $xpath->query('//wiki');
    if($res && $res->length > 0) {
     foreach($res as $node) {
-      if (file_exists('hillshade/'.$node->getAttribute('name'))) {
+      if (file_exists('wiki/'.$node->getAttribute('name'))) {
             printNode($node);
       }
     }
