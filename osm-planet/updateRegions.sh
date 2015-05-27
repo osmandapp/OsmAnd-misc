@@ -2,6 +2,7 @@
 BASE=/var/lib/jenkins/osm-planet/regions
 PBF_FILES="/var/lib/jenkins/workspace/Planet_Update-Extract Osm Maps Downloads/extracted/"
 
+
 updateRegion() {
 	echo "Update ${1} using ${2}"
 	FILE="${BASE}/${1}.o5m"
@@ -83,8 +84,8 @@ updateRegion Russia-moscow polygons/russia-regions/moscow.poly russia.pbf
 updateRegion Russia-moscovskaya-oblast polygons/russia-regions/moskovskaya-oblast.poly russia.pbf
 
 # ukraine
-UpdateRegion Ukraine-kiev metropolis-polygons/europe/ukraine/kiev.poly europe.pbf
-UpdateRegion Ukraine-charkov metropolis-polygons/europe/ukraine/charkov.poly europe.pbf
+updateRegion Ukraine-kiev metropolis-polygons/europe/ukraine/kiev.poly europe.pbf
+updateRegion Ukraine-charkov metropolis-polygons/europe/ukraine/charkov.poly europe.pbf
 
 # United States
 updateRegion US-chicago-north-america metropolis-polygons/north-america/us/chicago.poly north-america.pbf
@@ -94,6 +95,5 @@ updateRegion US-los-angeles-north-america metropolis-polygons/north-america/us/l
 updateRegion US-new-york-north-america metropolis-polygons/north-america/us/new-york_philadelphia.poly north-america.pbf
 updateRegion US-phoenix-north-america metropolis-polygons/north-america/us/phoenix.poly north-america.pbf
 updateRegion US-san-antonio-north-america metropolis-polygons/north-america/us/san-antonio.poly north-america.pbf
-
 
 ls -larh ${BASE}

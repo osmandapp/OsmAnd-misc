@@ -4,4 +4,3 @@ function sync {
 }
 sync /var/www-download/indexes/
 sync /var/www-download/road-indexes/
-

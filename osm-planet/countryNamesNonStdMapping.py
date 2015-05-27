@@ -6,7 +6,6 @@ missingRegionNames = {}
 # continents
 missingRegionNames['oceania']='Oceania'
 missingRegionNames['australia oceania']='Australia and Oceania'
-missingRegionNames['netherlands antilles'] = 'Netherlands-antilles'
 missingRegionNames['channel islands'] = 'Channel islands'
 
 missingRegionNames['carribean archipelago all'] = 'Carribean Archipelago'
@@ -23,14 +22,17 @@ customRegionMapping['virgin islands british']="British Virgin Islands"
 
 customRegionMapping['united states'] = 'United States of America'
 customRegionMapping['netherlands'] = 'The Netherlands'
-customRegionMapping['macao'] = 'Macau'
-customRegionMapping['ivory coast'] = 'Côte d\'Ivoire'
+customRegionMapping['zuid-holland'] = 'South Holland'
+#customRegionMapping['ivory coast'] = 'Côte d\'Ivoire'
 customRegionMapping['bosnia herzegovina'] = 'Bosnia and Herzegovina'
 # customRegionMapping['russia'] = 'Russian Federation'
+customRegionMapping['kosovo']='Republic of Kosovo'
+customRegionMapping['western sahara']='Sahrawi Arab Democratic Republic'
 
 # regions
 customRegionMapping['bremen'] = 'Freie Hansestadt Bremen'
 customRegionMapping['gb northern ireland']='Northern Ireland'
+customRegionMapping['south east england']='South East'
 customRegionMapping['baden wuerttemberg']='Baden-Württemberg'
 customRegionMapping['valle aosta']='Valle d\'Aosta'
 customRegionMapping['trentino alto adige'] = "Trentino-Alto Adige/Südtirol"
@@ -49,7 +51,8 @@ customRegionMapping['belgorod']='Белгородская область'
 customRegionMapping['bryansk']='Брянская область'
 customRegionMapping['chechenskaya']='Чечня'
 customRegionMapping['cheliabinsk']='Челябинская область'
-customRegionMapping['crimea']='Крым'
+customRegionMapping['crimea']='Autonomous Republic of Crimea'
+customRegionMapping['dagestan']='Дагестан'
 customRegionMapping['evreyskaya']='Еврейская автономная область'
 customRegionMapping['irkutsk']='Иркутская область'
 customRegionMapping['ivanov']='Ивановская область'
@@ -110,3 +113,25 @@ customRegionMapping['yakutia']='Саха (Якутия)'
 customRegionMapping['yaroslavl']='Ярославская область'
 customRegionMapping['yamal']='Ямало-Ненецкий автономный округ'
 customRegionMapping['zabaikalie']='Забайкальский край'
+
+# Spain regions
+customRegionMapping['canarias']='Canary Islands'
+customRegionMapping['baleares']='Balearic Islands'
+customRegionMapping['asturias']='Asturies'
+customRegionMapping['navarra']='Comunidad Foral de Navarra'
+customRegionMapping['murcia']='Region of Murcia'
+customRegionMapping['castilla leon']='Castile and León'
+customRegionMapping['madrid']='Community of Madrid'
+
+# Japan regions
+customRegionMapping['hokkaido']='Hokkaido'
+customRegionMapping['tohoku']='Tohoku'
+customRegionMapping['kanto']='Kanto'
+customRegionMapping['chubu']='Chubu Region'
+customRegionMapping['kinki']='Kinki Region'
+customRegionMapping['chugoku']='Chugoku Region'
+customRegionMapping['shikoku']='Shikoku Region'
+customRegionMapping['kyushu']='Kyushu Region'
+
+customRegionMapping['australia oceania']='Australia and Oceania'
+customRegionMapping['carribean archipelago all']='Caribbean archipelago'

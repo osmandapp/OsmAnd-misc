@@ -57,32 +57,70 @@ convert $PLANET_FILE "polygons/" "asia"
 #still work to be done, maybe put all in one regiona asia, and use smaller region in asia.poly file or just revise regions east&ocean boundary
 convert $PLANET_FILE "polygons/" "east-asia"
 convertFolder "$EXTRACT_DIR"/east-asia.pbf "polygons/east-asia/"
+convertFolder "$EXTRACT_DIR"/india.pbf  "polygons/east-asia/india-regions" "India"
 
 # 2.1 ocean asia
 convert $PLANET_FILE "polygons/" "ocean-asia"
 convertFolder "$EXTRACT_DIR"/ocean-asia.pbf "polygons/ocean-asia/"
 
+# 2.1.2 japan
+convert "$EXTRACT_DIR"/ocean-asia.pbf "polygons/" "japan"
+convertFolder "$EXTRACT_DIR"/japan.pbf "polygons/ocean-asia/japan-regions" "Japan"
+
 #4. Central America
 convert $PLANET_FILE "polygons/" "central-america"
-convertFolder "$EXTRACT_DIR"/central-america.pbf  "polygons/central-america" 
-convertFolder "$EXTRACT_DIR"/central-america.pbf  "polygons/north-america" 
+convertFolder "$EXTRACT_DIR"/central-america.pbf  "polygons/central-america"
+convertFolder "$EXTRACT_DIR"/central-america.pbf  "polygons/north-america"
 
 #5. Russia
 convert $PLANET_FILE "polygons/" "russia"
 convertFolder "$EXTRACT_DIR"/russia.pbf  "polygons/russia/" "russia"
 convertFolder "$EXTRACT_DIR"/russia.pbf  "polygons/russia-regions/" "russia"
+convertFolder "$EXTRACT_DIR"/russia-central-federal-district.pbf  "polygons/russia-regions/central-federal-district" "russia"
+convertFolder "$EXTRACT_DIR"/russia-far-eastern-federal-district.pbf  "polygons/russia-regions/far-eastern-federal-district" "russia"
+convertFolder "$EXTRACT_DIR"/russia-north-caucasus-federal-district.pbf  "polygons/russia-regions/north-caucasus-federal-district" "russia"
+convertFolder "$EXTRACT_DIR"/russia-northwestern-federal-district.pbf  "polygons/russia-regions/northwestern-federal-district" "russia"
+convertFolder "$EXTRACT_DIR"/russia-siberian-federal-district.pbf  "polygons/russia-regions/siberian-federal-district" "russia"
+convertFolder "$EXTRACT_DIR"/russia-south-federal-district.pbf  "polygons/russia-regions/south-federal-district" "russia"
+convertFolder "$EXTRACT_DIR"/russia-ural-federal-district.pbf  "polygons/russia-regions/ural-federal-district" "russia"
+convertFolder "$EXTRACT_DIR"/russia-volga-federal-district.pbf  "polygons/russia-regions/volga-federal-district" "russia"
 
 #6. Europe
 convert $PLANET_FILE "polygons/" "europe"
-convertFolder "$EXTRACT_DIR"/europe.pbf  "polygons/europe" 
-convertFolder "$EXTRACT_DIR"/europe.pbf  "polygons/europe/additional" 
-convertFolder "$EXTRACT_DIR"/british-isles.pbf  "polygons/europe/gb-regions" "gb_england"
-convertFolder "$EXTRACT_DIR"/british-isles.pbf  "polygons/europe/gb-shires" 
-convertFolder "$EXTRACT_DIR"/italy.pbf  "polygons/europe/italy-regions" "Italy"
+# convertFolder "$EXTRACT_DIR"/europe.pbf  "polygons/europe"
+# convertFolder "$EXTRACT_DIR"/europe.pbf  "polygons/europe/additional"
+# convertFolder "$EXTRACT_DIR"/british-isles.pbf  "polygons/europe/gb-regions" "gb_england"
+# convertFolder "$EXTRACT_DIR"/british-isles.pbf  "polygons/europe/gb-shires"
+# convertFolder "$EXTRACT_DIR"/italy.pbf  "polygons/europe/italy-regions" "Italy"
+# convertFolder "$EXTRACT_DIR"/spain.pbf  "polygons/europe/spain-regions" "Spain"
+
+#6.1. North Europe
+convert "$EXTRACT_DIR"/europe.pbf "polygons/" "north-europe"
+convertFolder "$EXTRACT_DIR"/north-europe.pbf  "polygons/north-europe"
+
+#6.2. East Europe
+convert "$EXTRACT_DIR"/europe.pbf "polygons/" "east-europe"
+convertFolder "$EXTRACT_DIR"/east-europe.pbf  "polygons/east-europe"
+
+#6.3. South Europe
+convert "$EXTRACT_DIR"/europe.pbf "polygons/" "south-europe"
+convertFolder "$EXTRACT_DIR"/south-europe.pbf  "polygons/south-europe"
+convertFolder "$EXTRACT_DIR"/spain.pbf  "polygons/south-europe/spain-regions" "Spain"
+convertFolder "$EXTRACT_DIR"/italy.pbf  "polygons/south-europe/italy-regions" "Italy"
+
+#6.4. West Europe
+convert "$EXTRACT_DIR"/europe.pbf "polygons/" "west-europe"
+convertFolder "$EXTRACT_DIR"/west-europe.pbf  "polygons/west-europe"
+convertFolder "$EXTRACT_DIR"/west-europe.pbf  "polygons/west-europe/additional"
+convertFolder "$EXTRACT_DIR"/france.pbf  "polygons/west-europe/france-regions" "France"
+convertFolder "$EXTRACT_DIR"/germany.pbf  "polygons/west-europe/germany-regions" "Germany"
+convertFolder "$EXTRACT_DIR"/netherlands.pbf  "polygons/west-europe/netherlands-regions" "Netherlands"
+convertFolder "$EXTRACT_DIR"/great-britain.pbf  "polygons/west-europe/gb" "gb"
+convertFolder "$EXTRACT_DIR"/gb-england.pbf  "polygons/west-europe/gb-england" "gb_england"
 
 # 7. South America
 convert $PLANET_FILE "polygons/" "south-america"
-convertFolder "$EXTRACT_DIR"/south-america.pbf  "polygons/south-america" 
+convertFolder "$EXTRACT_DIR"/south-america.pbf  "polygons/south-america"
 
 # 8. Oceania and Australia
 convert $PLANET_FILE "polygons/" "australia-oceania"

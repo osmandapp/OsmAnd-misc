@@ -36,8 +36,8 @@ def initializeEntities(filename):
 		for ent in item.childNodes :
 			if ent.nodeName == 'tag' :
 				name = ent.attributes['k'].value
-				nameValue = ent.attributes['v'].value				
-				if name == 'name' or name == 'name:en' or name == 'name:simple' or name == 'int_name':				 
+				nameValue = ent.attributes['v'].value
+				if name == 'name' or name == 'name:en' or name == 'name:simple' or name == 'int_name':
 					names.add(nameValue)
 				if name.startswith('name') or name == 'int_name':
 					tags[name] = nameValue
@@ -189,26 +189,51 @@ if __name__ == "__main__":
 	print "<osm generator='osm2poly' version='0.5'>"
 	addEmptyCountryForNames('europe', 'france', 'france')
 	addEmptyCountryForNames('europe', 'germany', 'germany')
+	addEmptyCountryForNames('europe', 'italy', 'italy')
+	addEmptyCountryForNames('europe', 'spain', 'spain')
 	addEmptyCountryForNames('europe', 'gb', 'united-kingdom')
+	addEmptyCountryForNames('europe', 'england', 'england')
 	addEmptyCountryForNames('northamerica', 'us','united-states')
 	addEmptyCountryForNames('northamerica', 'canada', 'canada')
 	addEmptyCountryForNames('asia','russia','russia')
+	addEmptyCountryForNames('asia','japan','japan')
 	addEmptyCountryForNames('australia-oceania','australia','australia')
 	
 
-	process_poly_folder('polygons/europe/additional/', 'europe')
-	process_poly_folder('geo-polygons/europe/', 'europe')
-	process_poly_folder('geo-polygons/europe/germany/', 'europe', 'Germany')
-	process_poly_folder('geo-polygons/europe/france/', 'europe', 'France')
+# 	process_poly_folder('polygons/europe/additional/', 'europe')
+# 	process_poly_folder('polygons/europe/extract/', 'europe')
+# 	process_poly_folder('geo-polygons/europe/', 'europe')
+# 	process_poly_folder('geo-polygons/europe/germany/', 'europe', 'Germany')
+# 	process_poly_folder('geo-polygons/europe/france/', 'europe', 'France')
+	process_poly_folder('polygons/north-europe/', 'europe')
+	process_poly_folder('polygons/east-europe/', 'europe')
+	process_poly_folder('polygons/south-europe/', 'europe')
+	process_poly_folder('polygons/west-europe/', 'europe')
 
-	process_poly('geo-polygons/europe/great-britain/england/greater-london.poly', 'greater-london', 'Gb_england', 'europe')
-	process_poly_folder('geo-polygons/europe/great-britain/', 'europe', 'Gb')
-	process_poly_folder('polygons/europe/gb-regions/', 'europe', 'Gb_england')
+# 	process_poly('geo-polygons/europe/great-britain/england/greater-london.poly', 'greater-london', 'Gb_england', 'europe')
+# 	process_poly_folder('geo-polygons/europe/great-britain/', 'europe', 'Gb')
+# 	process_poly_folder('polygons/europe/gb-regions/', 'europe', 'Gb_england')
 	
-	process_poly_folder('polygons/europe/italy-regions/', 'europe', 'Italy')
+# 	process_poly_folder('polygons/europe/italy-regions/', 'europe', 'Italy')
+# 	process_poly_folder('polygons/europe/spain-regions/', 'europe', 'Spain')
+	process_poly_folder('polygons/south-europe/italy-regions/', 'europe', 'Italy')
+	process_poly_folder('polygons/south-europe/spain-regions/', 'europe', 'Spain')
+	process_poly_folder('polygons/west-europe/france-regions/', 'europe', 'France')
+	process_poly_folder('polygons/west-europe/gb/', 'europe', 'Gb')
+	process_poly_folder('polygons/west-europe/gb-england/', 'europe', 'england')
+	process_poly_folder('polygons/west-europe/germany-regions/', 'europe', 'Germany')
+	process_poly_folder('polygons/west-europe/netherlands-regions/', 'europe', 'Netherlands')
 
 	process_poly_folder('polygons/russia/', 'asia', 'Russia')
 	process_poly_folder('polygons/russia-regions/', 'asia', 'Russia')
+	process_poly_folder('polygons/russia-regions/central-federal-district/', 'asia', 'Russia')
+	process_poly_folder('polygons/russia-regions/far-eastern-federal-district/', 'asia', 'Russia')
+	process_poly_folder('polygons/russia-regions/north-caucasus-federal-district/', 'asia', 'Russia')
+	process_poly_folder('polygons/russia-regions/northwestern-federal-district/', 'asia', 'Russia')
+	process_poly_folder('polygons/russia-regions/siberian-federal-district/', 'asia', 'Russia')
+	process_poly_folder('polygons/russia-regions/south-federal-district/', 'asia', 'Russia')
+	process_poly_folder('polygons/russia-regions/ural-federal-district/', 'asia', 'Russia')
+	process_poly_folder('polygons/russia-regions/volga-federal-district/', 'asia', 'Russia')
 
 	process_poly_folder('geo-polygons/north-america/us/', 'northamerica', 'Us')
 	process_poly_folder('geo-polygons/north-america/canada/', 'northamerica', 'Canada')
@@ -217,20 +242,22 @@ if __name__ == "__main__":
 	process_poly_folder('polygons/north-america/', 'northamerica')
 
 	process_poly_folder('geo-polygons/south-america/', 'southamerica')
-	process_poly_folder('polygons/south-america/', 'southamerica') 
+	process_poly_folder('polygons/south-america/', 'southamerica')
 
 	process_poly_folder('geo-polygons/central-america/', 'centralamerica')
-	process_poly_folder('polygons/central-america/', 'centralamerica') 
+	process_poly_folder('polygons/central-america/', 'centralamerica')
 	
 	process_poly_folder('geo-polygons/asia/', 'asia')
 	process_poly_folder('polygons/east-asia/', 'asia')
 	process_poly_folder('polygons/ocean-asia/', 'asia')
+	process_poly('polygons/japan.poly', 'japan', '', 'asia')
+	process_poly_folder('polygons/ocean-asia/japan-regions/', 'asia', 'Japan')
 
 	process_poly('polygons/australia-oceania/oceania.poly', 'oceania', '', 'australia-oceania')
-	process_poly('geo-polygons/australia-oceania.poly', 'australia-oceania', '', '')
+	process_poly('polygons/australia-oceania.poly', 'australia-oceania', '', '')
 	process_poly_folder('geo-polygons/australia-oceania/', 'australia-oceania')
 	
-	process_poly('geo-polygons/africa.poly', 'africa', '', '')
+	process_poly('polygons/africa.poly', 'africa', '', '')
 	process_poly_folder('geo-polygons/africa/', 'africa')
 	process_poly_folder('polygons/africa/', 'africa')
 
