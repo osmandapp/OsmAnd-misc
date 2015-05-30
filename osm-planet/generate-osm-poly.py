@@ -220,7 +220,7 @@ if __name__ == "__main__":
 	process_poly_folder('polygons/south-europe/spain-regions/', 'europe', 'Spain')
 	process_poly_folder('polygons/west-europe/france-regions/', 'europe', 'France')
 	process_poly_folder('polygons/west-europe/gb/', 'europe', 'Gb')
-	process_poly_folder('polygons/west-europe/gb-england/', 'europe', 'england')
+	process_poly_folder('polygons/west-europe/gb-england/', 'europe', 'Gb_england')
 	process_poly_folder('polygons/west-europe/germany-regions/', 'europe', 'Germany')
 	process_poly_folder('polygons/west-europe/netherlands-regions/', 'europe', 'Netherlands')
 
