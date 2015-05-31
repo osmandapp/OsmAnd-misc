@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2015-05-13T20:52:01Z"/>
+<meta osm_base="2015-05-31T18:40:02Z"/>
 
   <relation id="1029256">
     <member type="way" ref="343669007" role="outer"/>
@@ -2617,6 +2617,7 @@
     <member type="way" ref="176719792" role="outer"/>
     <member type="way" ref="176719786" role="outer"/>
     <member type="way" ref="176719787" role="outer"/>
+    <member type="way" ref="345072830" role="outer"/>
     <member type="way" ref="176719790" role="outer"/>
     <member type="way" ref="176719793" role="outer"/>
     <member type="way" ref="211169556" role="outer"/>
@@ -4141,6 +4142,7 @@
     <member type="way" ref="291623898" role="outer"/>
     <member type="way" ref="245746808" role="outer"/>
     <member type="way" ref="130848831" role="outer"/>
+    <member type="way" ref="347665903" role="outer"/>
     <member type="way" ref="101202147" role="outer"/>
     <member type="way" ref="332817225" role="inner"/>
     <member type="way" ref="332821714" role="inner"/>
@@ -4443,7 +4445,6 @@
     <member type="way" ref="131762034" role="outer"/>
     <member type="way" ref="128409389" role="outer"/>
     <member type="way" ref="128409388" role="outer"/>
-    <member type="way" ref="60034280" role="outer"/>
     <member type="way" ref="128409387" role="outer"/>
     <member type="way" ref="36712069" role="outer"/>
     <member type="way" ref="71203427" role="outer"/>
@@ -4474,6 +4475,7 @@
     <member type="way" ref="220076680" role="outer"/>
     <member type="way" ref="45204540" role="outer"/>
     <member type="way" ref="34562551" role="outer"/>
+    <member type="way" ref="128409396" role="outer"/>
     <tag k="ISO3166-2" v="GB-ENG"/>
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
@@ -4486,6 +4488,7 @@
     <tag k="name:en" v="England"/>
     <tag k="name:es" v="Inglaterra"/>
     <tag k="name:fr" v="Angleterre"/>
+    <tag k="name:fy" v="Ingelân"/>
     <tag k="name:gd" v="Sasainn"/>
     <tag k="name:gv" v="Sostyn"/>
     <tag k="name:hsb" v="Jendźelska"/>
@@ -4496,7 +4499,9 @@
     <tag k="name:pl" v="Anglia"/>
     <tag k="name:pt" v="Inglaterra"/>
     <tag k="name:ru" v="Англия"/>
+    <tag k="name:sk" v="Anglicko"/>
     <tag k="name:sv" v="England"/>
+    <tag k="name:tzl" v="Anglatzara"/>
     <tag k="name:uk" v="Англія"/>
     <tag k="name:vi" v="Anh"/>
     <tag k="name:zh" v="英格蘭"/>
@@ -4556,7 +4561,6 @@
     <member type="way" ref="71203427" role="outer"/>
     <member type="way" ref="36712069" role="outer"/>
     <member type="way" ref="128409387" role="outer"/>
-    <member type="way" ref="60034280" role="outer"/>
     <member type="way" ref="128409388" role="outer"/>
     <member type="way" ref="128409389" role="outer"/>
     <member type="way" ref="131762034" role="outer"/>
@@ -4704,6 +4708,7 @@
     <member type="way" ref="338686049" role="outer"/>
     <member type="way" ref="262329315" role="outer"/>
     <member type="node" ref="2642288017" role="label"/>
+    <member type="way" ref="128409396" role="outer"/>
     <tag k="ISO3166-2" v="GB-WLS"/>
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
@@ -4786,29 +4791,111 @@
     <member type="way" ref="302147085" role="outer"/>
     <member type="way" ref="302147090" role="outer"/>
     <member type="way" ref="71615040" role="outer"/>
+    <member type="way" ref="347098559" role="outer"/>
     <member type="way" ref="71615038" role="outer"/>
+    <member type="way" ref="347100486" role="outer"/>
+    <member type="way" ref="347102691" role="outer"/>
+    <member type="way" ref="347104415" role="outer"/>
+    <member type="way" ref="347104411" role="outer"/>
+    <member type="way" ref="347104404" role="outer"/>
+    <member type="way" ref="347104413" role="outer"/>
+    <member type="way" ref="347104403" role="outer"/>
     <member type="way" ref="242825155" role="outer"/>
     <member type="way" ref="242825143" role="outer"/>
     <member type="way" ref="98751462" role="outer"/>
     <member type="way" ref="98751468" role="outer"/>
+    <member type="way" ref="347104405" role="outer"/>
+    <member type="way" ref="347126684" role="outer"/>
+    <member type="way" ref="347126672" role="outer"/>
+    <member type="way" ref="348379439" role="outer"/>
+    <member type="way" ref="348380739" role="outer"/>
+    <member type="way" ref="232283343" role="outer"/>
+    <member type="way" ref="348381285" role="outer"/>
+    <member type="way" ref="348404490" role="outer"/>
     <member type="way" ref="229231359" role="outer"/>
     <member type="way" ref="229231358" role="outer"/>
     <member type="way" ref="229231390" role="outer"/>
+    <member type="way" ref="348405142" role="outer"/>
+    <member type="way" ref="348405723" role="outer"/>
+    <member type="way" ref="348407644" role="outer"/>
+    <member type="way" ref="348409300" role="outer"/>
+    <member type="way" ref="348748525" role="outer"/>
+    <member type="way" ref="348746688" role="outer"/>
+    <member type="way" ref="348709106" role="outer"/>
+    <member type="way" ref="348412025" role="outer"/>
+    <member type="way" ref="348709098" role="outer"/>
+    <member type="way" ref="348713517" role="outer"/>
+    <member type="way" ref="348739829" role="outer"/>
+    <member type="way" ref="348987586" role="outer"/>
+    <member type="way" ref="348987591" role="outer"/>
+    <member type="way" ref="348896718" role="outer"/>
+    <member type="way" ref="348889648" role="outer"/>
+    <member type="way" ref="348888023" role="outer"/>
+    <member type="way" ref="348886152" role="outer"/>
+    <member type="way" ref="348884797" role="outer"/>
     <member type="way" ref="227916194" role="outer"/>
+    <member type="way" ref="348749886" role="outer"/>
+    <member type="way" ref="348749289" role="outer"/>
     <member type="way" ref="98748637" role="outer"/>
+    <member type="way" ref="348748843" role="outer"/>
     <member type="way" ref="98748642" role="outer"/>
+    <member type="way" ref="348748523" role="outer"/>
     <member type="way" ref="23613481" role="outer"/>
+    <member type="way" ref="348746159" role="outer"/>
+    <member type="way" ref="348744259" role="outer"/>
+    <member type="way" ref="348744258" role="outer"/>
+    <member type="way" ref="346635205" role="outer"/>
+    <member type="way" ref="346635207" role="outer"/>
+    <member type="way" ref="346635199" role="outer"/>
+    <member type="way" ref="348762552" role="outer"/>
+    <member type="way" ref="348763317" role="outer"/>
     <member type="way" ref="98748238" role="outer"/>
     <member type="way" ref="127532510" role="outer"/>
     <member type="way" ref="131493941" role="outer"/>
     <member type="way" ref="127533539" role="outer"/>
+    <member type="way" ref="348760990" role="outer"/>
+    <member type="way" ref="348959668" role="outer"/>
+    <member type="way" ref="348759618" role="outer"/>
+    <member type="way" ref="348757747" role="outer"/>
+    <member type="way" ref="348959667" role="outer"/>
+    <member type="way" ref="348972055" role="outer"/>
+    <member type="way" ref="348415406" role="outer"/>
     <member type="way" ref="127532908" role="outer"/>
+    <member type="way" ref="348415399" role="outer"/>
+    <member type="way" ref="348384853" role="outer"/>
+    <member type="way" ref="348384851" role="outer"/>
+    <member type="way" ref="347258678" role="outer"/>
+    <member type="way" ref="347258679" role="outer"/>
+    <member type="way" ref="349820379" role="outer"/>
+    <member type="way" ref="347258680" role="outer"/>
+    <member type="way" ref="348383523" role="outer"/>
+    <member type="way" ref="347257065" role="outer"/>
+    <member type="way" ref="347240813" role="outer"/>
+    <member type="way" ref="347240814" role="outer"/>
+    <member type="way" ref="349820387" role="outer"/>
+    <member type="way" ref="347238923" role="outer"/>
+    <member type="way" ref="347238922" role="outer"/>
+    <member type="way" ref="349840896" role="outer"/>
+    <member type="way" ref="346982775" role="outer"/>
+    <member type="way" ref="346982773" role="outer"/>
+    <member type="way" ref="349826590" role="outer"/>
+    <member type="way" ref="349528004" role="outer"/>
+    <member type="way" ref="346982778" role="outer"/>
+    <member type="way" ref="346980060" role="outer"/>
+    <member type="way" ref="349487279" role="outer"/>
+    <member type="way" ref="349137962" role="outer"/>
+    <member type="way" ref="346635171" role="outer"/>
     <member type="way" ref="227715734" role="outer"/>
+    <member type="way" ref="349890646" role="outer"/>
     <member type="way" ref="227717380" role="outer"/>
+    <member type="way" ref="349890647" role="outer"/>
     <member type="way" ref="227720556" role="outer"/>
     <member type="way" ref="227720554" role="outer"/>
     <member type="way" ref="227720553" role="outer"/>
+    <member type="way" ref="346629219" role="outer"/>
     <member type="way" ref="338143286" role="outer"/>
+    <member type="way" ref="346629221" role="outer"/>
+    <member type="way" ref="349150256" role="outer"/>
     <member type="way" ref="338143284" role="outer"/>
     <member type="way" ref="164769306" role="outer"/>
     <member type="way" ref="72864662" role="outer"/>
@@ -4828,6 +4915,7 @@
     <member type="way" ref="123809841" role="outer"/>
     <member type="way" ref="344703041" role="outer"/>
     <member type="way" ref="344515114" role="outer"/>
+    <member type="way" ref="346063220" role="outer"/>
     <member type="way" ref="344375423" role="outer"/>
     <member type="way" ref="344375418" role="outer"/>
     <member type="way" ref="344370559" role="outer"/>
@@ -5218,11 +5306,15 @@
     <tag k="name:ca" v="Irlanda del Nord"/>
     <tag k="name:cy" v="Gogledd Iwerddon"/>
     <tag k="name:en" v="Northern Ireland"/>
+    <tag k="name:fy" v="Noard-Ierlân"/>
     <tag k="name:ga" v="Tuaisceart Éireann"/>
     <tag k="name:gd" v="Èirinn a Tuath"/>
+    <tag k="name:nl" v="Noord-Ierland"/>
     <tag k="name:pt" v="Irlanda do Norte"/>
     <tag k="name:ru" v="Северная Ирландия"/>
+    <tag k="name:sk" v="Severné Írsko"/>
     <tag k="name:sv" v="Nordirland"/>
+    <tag k="name:tzl" v="Oira Septentrional"/>
     <tag k="name:vi" v="Bắc Ireland"/>
     <tag k="old_name:vi" v="Bắc Ái Nhĩ Lan"/>
     <tag k="ref:gss" v="N92000002"/>
@@ -5953,6 +6045,8 @@
     <member type="way" ref="193564003" role="outer"/>
     <member type="way" ref="193564047" role="outer"/>
     <member type="way" ref="193564050" role="outer"/>
+    <member type="way" ref="347636460" role="outer"/>
+    <member type="way" ref="347636464" role="outer"/>
     <member type="way" ref="175815426" role="outer"/>
     <member type="way" ref="175815427" role="outer"/>
     <member type="way" ref="175814610" role="outer"/>
@@ -6510,7 +6604,6 @@
     <member type="way" ref="308287975" role="outer"/>
     <member type="way" ref="212284794" role="outer"/>
     <member type="way" ref="212350107" role="outer"/>
-    <member type="way" ref="198968238" role="outer"/>
     <member type="way" ref="230244656" role="outer"/>
     <member type="way" ref="289327452" role="outer"/>
     <member type="way" ref="230244655" role="outer"/>
@@ -6605,6 +6698,8 @@
     <member type="way" ref="193564003" role="outer"/>
     <member type="way" ref="193564047" role="outer"/>
     <member type="way" ref="193564050" role="outer"/>
+    <member type="way" ref="347636460" role="outer"/>
+    <member type="way" ref="347636464" role="outer"/>
     <member type="way" ref="175815426" role="outer"/>
     <member type="way" ref="175815427" role="outer"/>
     <member type="way" ref="175814610" role="outer"/>
@@ -6775,6 +6870,7 @@
     <member type="way" ref="307772930" role="outer"/>
     <member type="way" ref="307772927" role="outer"/>
     <member type="way" ref="307772935" role="outer"/>
+    <member type="way" ref="345114829" role="outer"/>
     <member type="way" ref="307772926" role="outer"/>
     <member type="way" ref="307782818" role="outer"/>
     <member type="way" ref="307782820" role="outer"/>
@@ -6863,6 +6959,7 @@
     <member type="way" ref="316132185" role="outer"/>
     <member type="way" ref="316132184" role="outer"/>
     <member type="way" ref="316133790" role="outer"/>
+    <member type="way" ref="345120583" role="outer"/>
     <tag k="admin_level" v="5"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="South East"/>
@@ -7352,10 +7449,10 @@
     <member type="way" ref="308283816" role="outer"/>
     <member type="way" ref="308046098" role="outer"/>
     <member type="way" ref="212350107" role="outer"/>
-    <member type="way" ref="198968238" role="outer"/>
     <member type="way" ref="307782820" role="outer"/>
     <member type="way" ref="307782818" role="outer"/>
     <member type="way" ref="307772926" role="outer"/>
+    <member type="way" ref="345114829" role="outer"/>
     <member type="way" ref="307772935" role="outer"/>
     <member type="way" ref="307772927" role="outer"/>
     <member type="way" ref="307772930" role="outer"/>
@@ -7761,8 +7858,7 @@
     <member type="way" ref="236573368" role="outer"/>
     <member type="way" ref="236573360" role="outer"/>
     <member type="way" ref="236573355" role="outer"/>
-    <member type="way" ref="236573358" role="outer"/>
-    <member type="way" ref="3375052" role="outer"/>
+    <member type="way" ref="345207876" role="outer"/>
     <member type="way" ref="3375057" role="outer"/>
     <member type="way" ref="3375058" role="outer"/>
     <member type="way" ref="148488935" role="outer"/>
@@ -7788,11 +7884,16 @@
     <member type="way" ref="3375224" role="outer"/>
     <member type="way" ref="147152044" role="outer"/>
     <member type="way" ref="188708044" role="outer"/>
-    <member type="way" ref="188708045" role="outer"/>
-    <member type="way" ref="189517936" role="outer"/>
+    <member type="way" ref="348950156" role="outer"/>
+    <member type="way" ref="348950202" role="outer"/>
+    <member type="way" ref="348950268" role="outer"/>
     <member type="way" ref="236471135" role="outer"/>
-    <member type="way" ref="236471133" role="outer"/>
-    <member type="way" ref="189536539" role="outer"/>
+    <member type="way" ref="348950222" role="outer"/>
+    <member type="way" ref="349068882" role="outer"/>
+    <member type="way" ref="349068878" role="outer"/>
+    <member type="way" ref="349068908" role="outer"/>
+    <member type="way" ref="349564288" role="outer"/>
+    <member type="way" ref="349564287" role="outer"/>
     <member type="way" ref="147393950" role="outer"/>
     <member type="way" ref="3374962" role="outer"/>
     <member type="way" ref="190458390" role="outer"/>
@@ -8080,7 +8181,6 @@
     <member type="way" ref="3375185" role="outer"/>
     <member type="way" ref="33458784" role="outer"/>
     <member type="way" ref="33458789" role="outer"/>
-    <member type="way" ref="3374989" role="outer"/>
     <member type="way" ref="191627725" role="outer"/>
     <member type="way" ref="239035821" role="outer"/>
     <member type="way" ref="316123955" role="outer"/>
@@ -8092,6 +8192,7 @@
     <member type="way" ref="316132185" role="outer"/>
     <member type="way" ref="316132184" role="outer"/>
     <member type="way" ref="316133790" role="outer"/>
+    <member type="way" ref="345120583" role="outer"/>
     <tag k="admin_level" v="5"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="South West England"/>
@@ -8103,125 +8204,7 @@
     <tag k="wikipedia" v="de:South West England"/>
   </relation>
   <relation id="151283">
-    <member type="way" ref="97801139" role="outer"/>
-    <member type="way" ref="239231868" role="outer"/>
-    <member type="way" ref="239231867" role="outer"/>
-    <member type="way" ref="37409078" role="outer"/>
-    <member type="way" ref="239231870" role="outer"/>
-    <member type="way" ref="128303095" role="outer"/>
-    <member type="way" ref="307323890" role="outer"/>
-    <member type="way" ref="307323888" role="outer"/>
-    <member type="way" ref="4433522" role="outer"/>
-    <member type="way" ref="307201373" role="outer"/>
-    <member type="way" ref="209788179" role="outer"/>
-    <member type="way" ref="229004559" role="outer"/>
-    <member type="way" ref="4433523" role="outer"/>
-    <member type="way" ref="307107614" role="outer"/>
-    <member type="way" ref="307107613" role="outer"/>
-    <member type="way" ref="307108283" role="outer"/>
-    <member type="way" ref="209788130" role="outer"/>
-    <member type="way" ref="307104531" role="outer"/>
-    <member type="way" ref="209788182" role="outer"/>
-    <member type="way" ref="209788104" role="outer"/>
-    <member type="way" ref="209788185" role="outer"/>
-    <member type="way" ref="209788150" role="outer"/>
-    <member type="way" ref="209788176" role="outer"/>
-    <member type="way" ref="209788089" role="outer"/>
-    <member type="way" ref="209788174" role="outer"/>
-    <member type="way" ref="209788116" role="outer"/>
-    <member type="way" ref="60970248" role="outer"/>
-    <member type="way" ref="60970249" role="outer"/>
-    <member type="way" ref="60970252" role="outer"/>
-    <member type="way" ref="60970251" role="outer"/>
-    <member type="way" ref="60969640" role="outer"/>
-    <member type="way" ref="60968754" role="outer"/>
-    <member type="way" ref="128302956" role="outer"/>
-    <member type="way" ref="128302954" role="outer"/>
-    <member type="way" ref="128302951" role="outer"/>
-    <member type="way" ref="60968745" role="outer"/>
-    <member type="way" ref="60968767" role="outer"/>
-    <member type="way" ref="60968246" role="outer"/>
-    <member type="way" ref="60968474" role="outer"/>
-    <member type="way" ref="76231380" role="outer"/>
-    <member type="way" ref="60968013" role="outer"/>
-    <member type="way" ref="60968162" role="outer"/>
-    <member type="way" ref="75589273" role="outer"/>
-    <member type="way" ref="128303044" role="outer"/>
-    <member type="way" ref="128303033" role="outer"/>
-    <member type="way" ref="60968009" role="outer"/>
-    <member type="way" ref="60968023" role="outer"/>
-    <member type="way" ref="60960899" role="outer"/>
-    <member type="way" ref="60960611" role="outer"/>
-    <member type="way" ref="60960882" role="outer"/>
-    <member type="way" ref="60960884" role="outer"/>
-    <member type="way" ref="60960880" role="outer"/>
-    <member type="way" ref="60961164" role="outer"/>
-    <member type="way" ref="128303077" role="outer"/>
-    <member type="way" ref="128303063" role="outer"/>
-    <member type="way" ref="60961166" role="outer"/>
-    <member type="way" ref="32825624" role="outer"/>
-    <member type="way" ref="128303081" role="outer"/>
-    <member type="way" ref="97893291" role="outer"/>
-    <member type="way" ref="97904198" role="outer"/>
-    <member type="way" ref="97895443" role="outer"/>
-    <member type="way" ref="97904194" role="outer"/>
-    <member type="way" ref="97899039" role="outer"/>
-    <member type="way" ref="97905423" role="outer"/>
-    <member type="way" ref="97905821" role="outer"/>
-    <member type="way" ref="97906106" role="outer"/>
-    <member type="way" ref="128303101" role="outer"/>
-    <member type="way" ref="128303096" role="outer"/>
-    <member type="way" ref="97906300" role="outer"/>
-    <member type="way" ref="128303036" role="outer"/>
-    <member type="way" ref="128303098" role="outer"/>
-    <member type="way" ref="97906823" role="outer"/>
-    <member type="way" ref="335066149" role="outer"/>
-    <member type="way" ref="335066163" role="outer"/>
-    <member type="way" ref="335066131" role="outer"/>
-    <member type="way" ref="335066132" role="outer"/>
-    <member type="way" ref="335066142" role="outer"/>
-    <member type="way" ref="98310966" role="outer"/>
-    <member type="way" ref="98311173" role="outer"/>
-    <member type="way" ref="128282527" role="outer"/>
-    <member type="way" ref="98314637" role="outer"/>
-    <member type="way" ref="128282532" role="outer"/>
-    <member type="way" ref="98316813" role="outer"/>
-    <member type="way" ref="128282528" role="outer"/>
-    <member type="way" ref="98318475" role="outer"/>
-    <member type="way" ref="128282514" role="outer"/>
-    <member type="way" ref="98321679" role="outer"/>
-    <member type="way" ref="98383728" role="outer"/>
-    <member type="way" ref="98383858" role="outer"/>
-    <member type="way" ref="98384073" role="outer"/>
-    <member type="way" ref="328880389" role="outer"/>
-    <member type="way" ref="328881129" role="outer"/>
-    <member type="way" ref="98384156" role="outer"/>
-    <member type="way" ref="98384341" role="outer"/>
-    <member type="way" ref="128409403" role="outer"/>
-    <member type="way" ref="128409408" role="outer"/>
-    <member type="way" ref="329183368" role="outer"/>
-    <member type="way" ref="329182120" role="outer"/>
-    <member type="way" ref="329182125" role="outer"/>
-    <member type="way" ref="98384498" role="outer"/>
-    <member type="way" ref="98384543" role="outer"/>
-    <member type="way" ref="103244241" role="outer"/>
-    <member type="way" ref="103244094" role="outer"/>
-    <member type="way" ref="327567854" role="outer"/>
-    <member type="way" ref="329182119" role="outer"/>
-    <member type="way" ref="329182124" role="outer"/>
-    <member type="way" ref="327575521" role="outer"/>
-    <member type="way" ref="327652000" role="outer"/>
-    <member type="way" ref="327842339" role="outer"/>
-    <member type="way" ref="327842397" role="outer"/>
-    <member type="way" ref="327842395" role="outer"/>
-    <member type="way" ref="327842399" role="outer"/>
-    <member type="way" ref="327842396" role="outer"/>
-    <member type="way" ref="28344912" role="outer"/>
-    <member type="way" ref="131762020" role="outer"/>
-    <member type="way" ref="131762034" role="outer"/>
-    <member type="way" ref="128409389" role="outer"/>
-    <member type="way" ref="128409388" role="outer"/>
-    <member type="way" ref="60034280" role="outer"/>
+    <member type="way" ref="128409396" role="outer"/>
     <member type="way" ref="128409387" role="outer"/>
     <member type="way" ref="36712069" role="outer"/>
     <member type="way" ref="71203427" role="outer"/>
@@ -8489,6 +8472,124 @@
     <member type="way" ref="4902332" role="outer"/>
     <member type="way" ref="4902337" role="outer"/>
     <member type="way" ref="239526739" role="outer"/>
+    <member type="way" ref="97801139" role="outer"/>
+    <member type="way" ref="239231868" role="outer"/>
+    <member type="way" ref="239231867" role="outer"/>
+    <member type="way" ref="37409078" role="outer"/>
+    <member type="way" ref="239231870" role="outer"/>
+    <member type="way" ref="128303095" role="outer"/>
+    <member type="way" ref="307323890" role="outer"/>
+    <member type="way" ref="307323888" role="outer"/>
+    <member type="way" ref="4433522" role="outer"/>
+    <member type="way" ref="307201373" role="outer"/>
+    <member type="way" ref="209788179" role="outer"/>
+    <member type="way" ref="229004559" role="outer"/>
+    <member type="way" ref="4433523" role="outer"/>
+    <member type="way" ref="307107614" role="outer"/>
+    <member type="way" ref="307107613" role="outer"/>
+    <member type="way" ref="307108283" role="outer"/>
+    <member type="way" ref="209788130" role="outer"/>
+    <member type="way" ref="307104531" role="outer"/>
+    <member type="way" ref="209788182" role="outer"/>
+    <member type="way" ref="209788104" role="outer"/>
+    <member type="way" ref="209788185" role="outer"/>
+    <member type="way" ref="209788150" role="outer"/>
+    <member type="way" ref="209788176" role="outer"/>
+    <member type="way" ref="209788089" role="outer"/>
+    <member type="way" ref="209788174" role="outer"/>
+    <member type="way" ref="209788116" role="outer"/>
+    <member type="way" ref="60970248" role="outer"/>
+    <member type="way" ref="60970249" role="outer"/>
+    <member type="way" ref="60970252" role="outer"/>
+    <member type="way" ref="60970251" role="outer"/>
+    <member type="way" ref="60969640" role="outer"/>
+    <member type="way" ref="60968754" role="outer"/>
+    <member type="way" ref="128302956" role="outer"/>
+    <member type="way" ref="128302954" role="outer"/>
+    <member type="way" ref="128302951" role="outer"/>
+    <member type="way" ref="60968745" role="outer"/>
+    <member type="way" ref="60968767" role="outer"/>
+    <member type="way" ref="60968246" role="outer"/>
+    <member type="way" ref="60968474" role="outer"/>
+    <member type="way" ref="76231380" role="outer"/>
+    <member type="way" ref="60968013" role="outer"/>
+    <member type="way" ref="60968162" role="outer"/>
+    <member type="way" ref="75589273" role="outer"/>
+    <member type="way" ref="128303044" role="outer"/>
+    <member type="way" ref="128303033" role="outer"/>
+    <member type="way" ref="60968009" role="outer"/>
+    <member type="way" ref="60968023" role="outer"/>
+    <member type="way" ref="60960899" role="outer"/>
+    <member type="way" ref="60960611" role="outer"/>
+    <member type="way" ref="60960882" role="outer"/>
+    <member type="way" ref="60960884" role="outer"/>
+    <member type="way" ref="60960880" role="outer"/>
+    <member type="way" ref="60961164" role="outer"/>
+    <member type="way" ref="128303077" role="outer"/>
+    <member type="way" ref="128303063" role="outer"/>
+    <member type="way" ref="60961166" role="outer"/>
+    <member type="way" ref="32825624" role="outer"/>
+    <member type="way" ref="128303081" role="outer"/>
+    <member type="way" ref="97893291" role="outer"/>
+    <member type="way" ref="97904198" role="outer"/>
+    <member type="way" ref="97895443" role="outer"/>
+    <member type="way" ref="97904194" role="outer"/>
+    <member type="way" ref="97899039" role="outer"/>
+    <member type="way" ref="97905423" role="outer"/>
+    <member type="way" ref="97905821" role="outer"/>
+    <member type="way" ref="97906106" role="outer"/>
+    <member type="way" ref="128303101" role="outer"/>
+    <member type="way" ref="128303096" role="outer"/>
+    <member type="way" ref="97906300" role="outer"/>
+    <member type="way" ref="128303036" role="outer"/>
+    <member type="way" ref="128303098" role="outer"/>
+    <member type="way" ref="97906823" role="outer"/>
+    <member type="way" ref="335066149" role="outer"/>
+    <member type="way" ref="335066163" role="outer"/>
+    <member type="way" ref="335066131" role="outer"/>
+    <member type="way" ref="335066132" role="outer"/>
+    <member type="way" ref="335066142" role="outer"/>
+    <member type="way" ref="98310966" role="outer"/>
+    <member type="way" ref="98311173" role="outer"/>
+    <member type="way" ref="128282527" role="outer"/>
+    <member type="way" ref="98314637" role="outer"/>
+    <member type="way" ref="128282532" role="outer"/>
+    <member type="way" ref="98316813" role="outer"/>
+    <member type="way" ref="128282528" role="outer"/>
+    <member type="way" ref="98318475" role="outer"/>
+    <member type="way" ref="128282514" role="outer"/>
+    <member type="way" ref="98321679" role="outer"/>
+    <member type="way" ref="98383728" role="outer"/>
+    <member type="way" ref="98383858" role="outer"/>
+    <member type="way" ref="98384073" role="outer"/>
+    <member type="way" ref="328880389" role="outer"/>
+    <member type="way" ref="328881129" role="outer"/>
+    <member type="way" ref="98384156" role="outer"/>
+    <member type="way" ref="98384341" role="outer"/>
+    <member type="way" ref="128409403" role="outer"/>
+    <member type="way" ref="128409408" role="outer"/>
+    <member type="way" ref="329183368" role="outer"/>
+    <member type="way" ref="329182120" role="outer"/>
+    <member type="way" ref="329182125" role="outer"/>
+    <member type="way" ref="98384498" role="outer"/>
+    <member type="way" ref="98384543" role="outer"/>
+    <member type="way" ref="103244241" role="outer"/>
+    <member type="way" ref="103244094" role="outer"/>
+    <member type="way" ref="327567854" role="outer"/>
+    <member type="way" ref="329182119" role="outer"/>
+    <member type="way" ref="329182124" role="outer"/>
+    <member type="way" ref="327575521" role="outer"/>
+    <member type="way" ref="327652000" role="outer"/>
+    <member type="way" ref="327842339" role="outer"/>
+    <member type="way" ref="327842397" role="outer"/>
+    <member type="way" ref="327842395" role="outer"/>
+    <member type="way" ref="327842399" role="outer"/>
+    <member type="way" ref="327842396" role="outer"/>
+    <member type="way" ref="28344912" role="outer"/>
+    <member type="way" ref="131762020" role="outer"/>
+    <member type="way" ref="131762034" role="outer"/>
+    <member type="way" ref="128409389" role="outer"/>
+    <member type="way" ref="128409388" role="outer"/>
     <tag k="admin_level" v="5"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="West Midlands"/>
@@ -9501,12 +9602,16 @@
     <member type="way" ref="52946749" role="outer"/>
     <member type="way" ref="52941067" role="outer"/>
     <member type="way" ref="52945981" role="outer"/>
+    <member type="way" ref="346333231" role="outer"/>
+    <member type="way" ref="346333230" role="outer"/>
     <member type="way" ref="52721840" role="outer"/>
     <member type="way" ref="52955197" role="outer"/>
     <member type="way" ref="23352963" role="outer"/>
     <member type="way" ref="53120745" role="outer"/>
     <member type="way" ref="162825651" role="outer"/>
     <member type="way" ref="53117972" role="outer"/>
+    <member type="way" ref="348243908" role="outer"/>
+    <member type="way" ref="348243907" role="outer"/>
     <member type="way" ref="53183625" role="outer"/>
     <member type="way" ref="53124863" role="outer"/>
     <member type="way" ref="165638964" role="outer"/>
@@ -11393,6 +11498,10 @@
     <member type="way" ref="285854359" role="outer"/>
     <member type="way" ref="285865030" role="outer"/>
     <member type="way" ref="285866628" role="outer"/>
+    <member type="way" ref="349687943" role="outer"/>
+    <member type="way" ref="349687788" role="outer"/>
+    <member type="way" ref="348453529" role="outer"/>
+    <member type="way" ref="348453299" role="outer"/>
     <member type="way" ref="344189629" role="outer"/>
     <member type="way" ref="344188803" role="outer"/>
     <member type="way" ref="344186934" role="outer"/>
@@ -11793,7 +11902,12 @@
     <member type="way" ref="285973711" role="outer"/>
     <member type="way" ref="285854354" role="outer"/>
     <member type="way" ref="285854361" role="outer"/>
+    <member type="way" ref="347792125" role="outer"/>
     <member type="way" ref="200164381" role="outer"/>
+    <member type="way" ref="347792243" role="outer"/>
+    <member type="way" ref="347792192" role="outer"/>
+    <member type="way" ref="347792161" role="outer"/>
+    <member type="way" ref="347792235" role="outer"/>
     <member type="way" ref="200163460" role="outer"/>
     <member type="way" ref="200162979" role="outer"/>
     <member type="way" ref="266361374" role="outer"/>
@@ -12254,7 +12368,12 @@
     <member type="way" ref="285973711" role="outer"/>
     <member type="way" ref="285854354" role="outer"/>
     <member type="way" ref="285854361" role="outer"/>
+    <member type="way" ref="347792125" role="outer"/>
     <member type="way" ref="200164381" role="outer"/>
+    <member type="way" ref="347792243" role="outer"/>
+    <member type="way" ref="347792192" role="outer"/>
+    <member type="way" ref="347792161" role="outer"/>
+    <member type="way" ref="347792235" role="outer"/>
     <member type="way" ref="200163460" role="outer"/>
     <member type="way" ref="200162979" role="outer"/>
     <member type="way" ref="266361374" role="outer"/>
@@ -14099,6 +14218,1301 @@
     <tag k="wikidata" v="Q694"/>
     <tag k="wikipedia" v="nl:Zuid-Holland"/>
   </relation>
+  <relation id="55466">
+    <member type="way" ref="22063631" role="outer"/>
+    <member type="way" ref="22069764" role="outer"/>
+    <member type="way" ref="22069736" role="outer"/>
+    <member type="way" ref="22069732" role="outer"/>
+    <member type="way" ref="22077097" role="outer"/>
+    <member type="way" ref="22077142" role="outer"/>
+    <member type="way" ref="22077105" role="outer"/>
+    <member type="way" ref="22077101" role="outer"/>
+    <member type="way" ref="22077121" role="outer"/>
+    <member type="way" ref="22077160" role="outer"/>
+    <member type="way" ref="22077155" role="outer"/>
+    <member type="way" ref="22077169" role="outer"/>
+    <member type="way" ref="22063681" role="outer"/>
+    <member type="way" ref="22063645" role="outer"/>
+    <tag k="ISO3166-2" v="RO-BN"/>
+    <tag k="admin_level" v="4"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="is_in:country_code" v="RO"/>
+    <tag k="name" v="Bistrița-Năsăud"/>
+    <tag k="name:de" v="Bistritz-Nussdorf"/>
+    <tag k="name:hu" v="Beszterce-Naszód megye"/>
+    <tag k="name:ru" v="Бистрица-Нэсэуд"/>
+    <tag k="place" v="county"/>
+    <tag k="place:ro" v="județ"/>
+    <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="72481">
+    <member type="way" ref="128853218" role="outer"/>
+    <member type="way" ref="21861236" role="outer"/>
+    <member type="way" ref="21861278" role="outer"/>
+    <member type="way" ref="21861280" role="outer"/>
+    <member type="way" ref="21861273" role="outer"/>
+    <member type="way" ref="21861263" role="outer"/>
+    <member type="way" ref="21861259" role="outer"/>
+    <member type="way" ref="22069773" role="outer"/>
+    <member type="way" ref="22069777" role="outer"/>
+    <member type="way" ref="22069724" role="outer"/>
+    <member type="way" ref="22063640" role="outer"/>
+    <member type="way" ref="22069764" role="outer"/>
+    <member type="way" ref="22069736" role="outer"/>
+    <member type="way" ref="22069732" role="outer"/>
+    <member type="way" ref="22069714" role="outer"/>
+    <member type="way" ref="30691466" role="outer"/>
+    <member type="way" ref="30544226" role="outer"/>
+    <member type="way" ref="30541729" role="outer"/>
+    <member type="way" ref="77348189" role="outer"/>
+    <member type="way" ref="103195652" role="outer"/>
+    <member type="way" ref="233210000" role="outer"/>
+    <member type="way" ref="77348195" role="outer"/>
+    <member type="way" ref="103195656" role="outer"/>
+    <member type="way" ref="233210001" role="outer"/>
+    <member type="way" ref="237684011" role="outer"/>
+    <member type="way" ref="128853217" role="outer"/>
+    <member type="way" ref="237684010" role="outer"/>
+    <member type="node" ref="128510650" role="admin_centre"/>
+    <tag k="ISO3166-2" v="RO-MM"/>
+    <tag k="admin_level" v="4"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="is_in:country_code" v="RO"/>
+    <tag k="name" v="Maramureș"/>
+    <tag k="name:de" v="Maramuresch"/>
+    <tag k="name:hu" v="Máramaros megye"/>
+    <tag k="name:ru" v="Марамуреш"/>
+    <tag k="name:uk" v="Марамуреш"/>
+    <tag k="place" v="county"/>
+    <tag k="place:ro" v="județ"/>
+    <tag k="type" v="boundary"/>
+    <tag k="wikipedia" v="ro:Județul_Maramureș"/>
+  </relation>
+  <relation id="72482">
+    <member type="way" ref="30543960" role="outer"/>
+    <member type="way" ref="249615158" role="outer"/>
+    <member type="way" ref="128853219" role="outer"/>
+    <member type="way" ref="103433110" role="outer"/>
+    <member type="way" ref="103433108" role="outer"/>
+    <member type="way" ref="249615144" role="outer"/>
+    <member type="way" ref="5363200" role="outer"/>
+    <member type="way" ref="102165267" role="outer"/>
+    <member type="way" ref="102165254" role="outer"/>
+    <member type="way" ref="102165258" role="outer"/>
+    <member type="way" ref="102165269" role="outer"/>
+    <member type="way" ref="102165244" role="outer"/>
+    <member type="way" ref="102165256" role="outer"/>
+    <member type="way" ref="102573237" role="outer"/>
+    <member type="way" ref="102573236" role="outer"/>
+    <member type="way" ref="102573238" role="outer"/>
+    <member type="way" ref="102573239" role="outer"/>
+    <member type="way" ref="102143836" role="outer"/>
+    <member type="way" ref="102143837" role="outer"/>
+    <member type="way" ref="102143839" role="outer"/>
+    <member type="way" ref="102143833" role="outer"/>
+    <member type="way" ref="102143834" role="outer"/>
+    <member type="way" ref="102143835" role="outer"/>
+    <member type="way" ref="102143838" role="outer"/>
+    <member type="way" ref="101697390" role="outer"/>
+    <member type="way" ref="21850472" role="outer"/>
+    <member type="way" ref="21850510" role="outer"/>
+    <member type="way" ref="21850509" role="outer"/>
+    <member type="way" ref="21861247" role="outer"/>
+    <member type="way" ref="21861251" role="outer"/>
+    <member type="way" ref="22071524" role="outer"/>
+    <member type="way" ref="21861259" role="outer"/>
+    <member type="way" ref="21861263" role="outer"/>
+    <member type="way" ref="21861273" role="outer"/>
+    <member type="way" ref="21861280" role="outer"/>
+    <member type="way" ref="21861278" role="outer"/>
+    <member type="way" ref="21861236" role="outer"/>
+    <member type="node" ref="146881926" role="admin_centre"/>
+    <tag k="ISO3166-2" v="RO-SM"/>
+    <tag k="admin_level" v="4"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="is_in:country_code" v="RO"/>
+    <tag k="name" v="Satu Mare"/>
+    <tag k="name:de" v="Sathmar"/>
+    <tag k="name:hu" v="Szatmár megye"/>
+    <tag k="name:ru" v="Сату-Маре"/>
+    <tag k="place" v="county"/>
+    <tag k="place:ro" v="județ"/>
+    <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="91685">
+    <member type="way" ref="21850470" role="outer"/>
+    <member type="way" ref="21850506" role="outer"/>
+    <member type="way" ref="21850501" role="outer"/>
+    <member type="way" ref="22063634" role="outer"/>
+    <member type="way" ref="22063688" role="outer"/>
+    <member type="way" ref="22063674" role="outer"/>
+    <member type="way" ref="22063670" role="outer"/>
+    <member type="way" ref="22063696" role="outer"/>
+    <member type="way" ref="22063694" role="outer"/>
+    <member type="way" ref="22063662" role="outer"/>
+    <member type="way" ref="22069724" role="outer"/>
+    <member type="way" ref="22069777" role="outer"/>
+    <member type="way" ref="22069773" role="outer"/>
+    <member type="way" ref="22071524" role="outer"/>
+    <member type="way" ref="21861251" role="outer"/>
+    <member type="way" ref="21861247" role="outer"/>
+    <tag k="ISO3166-2" v="RO-SJ"/>
+    <tag k="admin_level" v="4"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="is_in:country_code" v="RO"/>
+    <tag k="name" v="Sălaj"/>
+    <tag k="name:hu" v="Szilágy megye"/>
+    <tag k="name:ru" v="Сэлаж"/>
+    <tag k="place" v="county"/>
+    <tag k="place:ro" v="județ"/>
+    <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="91731">
+    <member type="way" ref="5363217" role="outer"/>
+    <member type="way" ref="32004869" role="outer"/>
+    <member type="way" ref="21850472" role="outer"/>
+    <member type="way" ref="21850510" role="outer"/>
+    <member type="way" ref="21850509" role="outer"/>
+    <member type="way" ref="21850470" role="outer"/>
+    <member type="way" ref="21850506" role="outer"/>
+    <member type="way" ref="21850501" role="outer"/>
+    <member type="way" ref="32036774" role="outer"/>
+    <member type="way" ref="21850497" role="outer"/>
+    <member type="way" ref="21850493" role="outer"/>
+    <member type="way" ref="21850489" role="outer"/>
+    <member type="way" ref="21850475" role="outer"/>
+    <member type="way" ref="21889296" role="outer"/>
+    <member type="way" ref="21850486" role="outer"/>
+    <member type="way" ref="21846794" role="outer"/>
+    <member type="way" ref="21846788" role="outer"/>
+    <member type="way" ref="21846782" role="outer"/>
+    <member type="way" ref="21846778" role="outer"/>
+    <member type="way" ref="21846776" role="outer"/>
+    <member type="way" ref="21846772" role="outer"/>
+    <member type="way" ref="21846768" role="outer"/>
+    <member type="way" ref="21846766" role="outer"/>
+    <member type="way" ref="21846760" role="outer"/>
+    <member type="way" ref="57876639" role="outer"/>
+    <member type="way" ref="57878836" role="outer"/>
+    <member type="way" ref="57881430" role="outer"/>
+    <member type="way" ref="57874659" role="outer"/>
+    <member type="way" ref="57877610" role="outer"/>
+    <member type="way" ref="57882022" role="outer"/>
+    <member type="way" ref="57878418" role="outer"/>
+    <member type="way" ref="57874923" role="outer"/>
+    <member type="way" ref="57879941" role="outer"/>
+    <member type="way" ref="101356750" role="outer"/>
+    <member type="way" ref="101356745" role="outer"/>
+    <member type="way" ref="101356743" role="outer"/>
+    <member type="way" ref="101356749" role="outer"/>
+    <member type="way" ref="101333274" role="outer"/>
+    <member type="way" ref="101333287" role="outer"/>
+    <member type="way" ref="101333288" role="outer"/>
+    <member type="way" ref="101333281" role="outer"/>
+    <member type="way" ref="101341096" role="outer"/>
+    <member type="way" ref="102145344" role="outer"/>
+    <member type="way" ref="102145343" role="outer"/>
+    <member type="way" ref="101697383" role="outer"/>
+    <member type="way" ref="101697387" role="outer"/>
+    <tag k="ISO3166-2" v="RO-BH"/>
+    <tag k="admin_level" v="4"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="is_in:country_code" v="RO"/>
+    <tag k="name" v="Bihor"/>
+    <tag k="name:hu" v="Bihar megye"/>
+    <tag k="name:ru" v="Бихор"/>
+    <tag k="place" v="county"/>
+    <tag k="place:ro" v="județ"/>
+    <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="91733">
+    <member type="way" ref="21850475" role="outer"/>
+    <member type="way" ref="21850489" role="outer"/>
+    <member type="way" ref="21850493" role="outer"/>
+    <member type="way" ref="21850497" role="outer"/>
+    <member type="way" ref="21888046" role="outer"/>
+    <member type="way" ref="21888095" role="outer"/>
+    <member type="way" ref="21888097" role="outer"/>
+    <member type="way" ref="21888101" role="outer"/>
+    <member type="way" ref="22063631" role="outer"/>
+    <member type="way" ref="22063634" role="outer"/>
+    <member type="way" ref="22063640" role="outer"/>
+    <member type="way" ref="22063645" role="outer"/>
+    <member type="way" ref="22063651" role="outer"/>
+    <member type="way" ref="22063656" role="outer"/>
+    <member type="way" ref="22063662" role="outer"/>
+    <member type="way" ref="22063681" role="outer"/>
+    <member type="way" ref="22063688" role="outer"/>
+    <member type="way" ref="32036774" role="outer"/>
+    <member type="way" ref="22063674" role="outer"/>
+    <member type="way" ref="22063670" role="outer"/>
+    <member type="way" ref="22063696" role="outer"/>
+    <member type="way" ref="22063694" role="outer"/>
+    <tag k="ISO3166-2" v="RO-CJ"/>
+    <tag k="admin_level" v="4"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="is_in:country_code" v="RO"/>
+    <tag k="name" v="Cluj"/>
+    <tag k="name:de" v="Klausenburg"/>
+    <tag k="name:hu" v="Kolozsvár"/>
+    <tag k="name:la" v="Claudianopolis"/>
+    <tag k="name:ru" v="Клуж"/>
+    <tag k="place" v="county"/>
+    <tag k="place:ro" v="județ"/>
+    <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="194271">
+    <member type="way" ref="21853998" role="outer"/>
+    <member type="way" ref="21876336" role="outer"/>
+    <member type="way" ref="21876360" role="outer"/>
+    <member type="way" ref="21876358" role="outer"/>
+    <member type="way" ref="21876353" role="outer"/>
+    <member type="way" ref="21876348" role="outer"/>
+    <member type="way" ref="21876345" role="outer"/>
+    <member type="way" ref="21888049" role="outer"/>
+    <member type="way" ref="21888052" role="outer"/>
+    <member type="way" ref="21888054" role="outer"/>
+    <member type="way" ref="21888059" role="outer"/>
+    <member type="way" ref="21888067" role="outer"/>
+    <member type="way" ref="21888076" role="outer"/>
+    <member type="way" ref="21888082" role="outer"/>
+    <member type="way" ref="21888088" role="outer"/>
+    <member type="way" ref="21888089" role="outer"/>
+    <member type="way" ref="21888091" role="outer"/>
+    <member type="way" ref="21888095" role="outer"/>
+    <member type="way" ref="21888097" role="outer"/>
+    <member type="way" ref="21888101" role="outer"/>
+    <member type="way" ref="21888046" role="outer"/>
+    <member type="way" ref="21889296" role="outer"/>
+    <member type="way" ref="21850486" role="outer"/>
+    <tag k="ISO3166-2" v="RO-AB"/>
+    <tag k="admin_level" v="4"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="is_in:country_code" v="RO"/>
+    <tag k="name" v="Alba"/>
+    <tag k="name:hu" v="Fehér megye"/>
+    <tag k="name:ru" v="Алба"/>
+    <tag k="place" v="county"/>
+    <tag k="place:ro" v="județ"/>
+    <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="2077868">
+    <member type="way" ref="22113190" role="outer"/>
+    <member type="way" ref="128978155" role="outer"/>
+    <member type="way" ref="233208099" role="outer"/>
+    <member type="way" ref="157868145" role="outer"/>
+    <member type="way" ref="249690957" role="outer"/>
+    <member type="way" ref="227776906" role="outer"/>
+    <member type="way" ref="22113186" role="outer"/>
+    <member type="way" ref="22113239" role="outer"/>
+    <member type="way" ref="22113252" role="outer"/>
+    <member type="way" ref="22113242" role="outer"/>
+    <member type="way" ref="22113237" role="outer"/>
+    <member type="way" ref="22113233" role="outer"/>
+    <member type="way" ref="22113229" role="outer"/>
+    <member type="way" ref="22113210" role="outer"/>
+    <member type="way" ref="22113207" role="outer"/>
+    <member type="way" ref="39171427" role="outer"/>
+    <member type="way" ref="22113206" role="outer"/>
+    <member type="way" ref="22113204" role="outer"/>
+    <member type="way" ref="22113200" role="outer"/>
+    <member type="way" ref="22113194" role="outer"/>
+    <member type="way" ref="22106648" role="outer"/>
+    <member type="way" ref="22081963" role="outer"/>
+    <member type="way" ref="22077105" role="outer"/>
+    <member type="way" ref="22077142" role="outer"/>
+    <member type="way" ref="22077097" role="outer"/>
+    <member type="way" ref="22069714" role="outer"/>
+    <member type="way" ref="250290640" role="outer"/>
+    <member type="node" ref="128556778" role="admin_centre"/>
+    <tag k="ISO3166-2" v="RO-SV"/>
+    <tag k="admin_level" v="4"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="is_in:country_code" v="RO"/>
+    <tag k="name" v="Suceava"/>
+    <tag k="name:de" v="Suczawa"/>
+    <tag k="name:en" v="Suceava"/>
+    <tag k="name:pl" v="Suczawa"/>
+    <tag k="name:ru" v="Сучава"/>
+    <tag k="place" v="county"/>
+    <tag k="place:ro" v="județ"/>
+    <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="2248573">
+    <member type="way" ref="22063656" role="outer"/>
+    <member type="way" ref="22063651" role="outer"/>
+    <member type="way" ref="22077169" role="outer"/>
+    <member type="way" ref="22077155" role="outer"/>
+    <member type="way" ref="22077160" role="outer"/>
+    <member type="way" ref="22077121" role="outer"/>
+    <member type="way" ref="22077101" role="outer"/>
+    <member type="way" ref="22081963" role="outer"/>
+    <member type="way" ref="22081962" role="outer"/>
+    <member type="way" ref="22081982" role="outer"/>
+    <member type="way" ref="22081988" role="outer"/>
+    <member type="way" ref="22081999" role="outer"/>
+    <member type="way" ref="22081978" role="outer"/>
+    <member type="way" ref="22081975" role="outer"/>
+    <member type="way" ref="22082022" role="outer"/>
+    <member type="way" ref="22082002" role="outer"/>
+    <member type="way" ref="22082017" role="outer"/>
+    <member type="way" ref="21888089" role="outer"/>
+    <member type="way" ref="21888091" role="outer"/>
+    <tag k="ISO3166-2" v="RO-MS"/>
+    <tag k="admin_level" v="4"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="is_in:country_code" v="RO"/>
+    <tag k="name" v="Mureș"/>
+    <tag k="name:de" v="Mieresch"/>
+    <tag k="name:hu" v="Maros megye"/>
+    <tag k="name:ru" v="Муреш"/>
+    <tag k="place" v="county"/>
+    <tag k="place:ro" v="județ"/>
+    <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="2248586">
+    <member type="way" ref="22082022" role="outer"/>
+    <member type="way" ref="22082002" role="outer"/>
+    <member type="way" ref="22082017" role="outer"/>
+    <member type="way" ref="21888088" role="outer"/>
+    <member type="way" ref="21888082" role="outer"/>
+    <member type="way" ref="21888076" role="outer"/>
+    <member type="way" ref="21888067" role="outer"/>
+    <member type="way" ref="21888059" role="outer"/>
+    <member type="way" ref="21888054" role="outer"/>
+    <member type="way" ref="21888052" role="outer"/>
+    <member type="way" ref="22083601" role="outer"/>
+    <member type="way" ref="22083598" role="outer"/>
+    <member type="way" ref="22083586" role="outer"/>
+    <member type="way" ref="22083588" role="outer"/>
+    <member type="way" ref="22083590" role="outer"/>
+    <member type="way" ref="22083592" role="outer"/>
+    <member type="way" ref="22083585" role="outer"/>
+    <tag k="ISO3166-2" v="RO-SB"/>
+    <tag k="admin_level" v="4"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="is_in:country_code" v="RO"/>
+    <tag k="name" v="Sibiu"/>
+    <tag k="name:de" v="Hermannstadt"/>
+    <tag k="name:hu" v="Szeben megye"/>
+    <tag k="name:ru" v="Сибиу"/>
+    <tag k="place" v="county"/>
+    <tag k="place:ro" v="județ"/>
+    <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="2248612">
+    <member type="way" ref="22083590" role="outer"/>
+    <member type="way" ref="22083592" role="outer"/>
+    <member type="way" ref="22083585" role="outer"/>
+    <member type="way" ref="22081975" role="outer"/>
+    <member type="way" ref="22096584" role="outer"/>
+    <member type="way" ref="22096575" role="outer"/>
+    <member type="way" ref="22096655" role="outer"/>
+    <member type="way" ref="205970191" role="outer"/>
+    <member type="way" ref="205970205" role="outer"/>
+    <member type="way" ref="22096630" role="outer"/>
+    <member type="way" ref="22096591" role="outer"/>
+    <member type="way" ref="22096610" role="outer"/>
+    <member type="way" ref="121994061" role="outer"/>
+    <member type="way" ref="22096620" role="outer"/>
+    <member type="way" ref="22091800" role="outer"/>
+    <member type="way" ref="22091794" role="outer"/>
+    <member type="way" ref="22091793" role="outer"/>
+    <tag k="ISO3166-2" v="RO-BV"/>
+    <tag k="admin_level" v="4"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="is_in:country_code" v="RO"/>
+    <tag k="name" v="Brașov"/>
+    <tag k="name:de" v="Kronstadt"/>
+    <tag k="name:hu" v="Brassó"/>
+    <tag k="name:ru" v="Брашов"/>
+    <tag k="place" v="county"/>
+    <tag k="place:ro" v="județ"/>
+    <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="2248621">
+    <member type="way" ref="22096575" role="outer"/>
+    <member type="way" ref="22096655" role="outer"/>
+    <member type="way" ref="205970191" role="outer"/>
+    <member type="way" ref="205970205" role="outer"/>
+    <member type="way" ref="22096630" role="outer"/>
+    <member type="way" ref="22101256" role="outer"/>
+    <member type="way" ref="22101251" role="outer"/>
+    <member type="way" ref="22101253" role="outer"/>
+    <member type="way" ref="22101249" role="outer"/>
+    <member type="way" ref="22101264" role="outer"/>
+    <member type="way" ref="22101270" role="outer"/>
+    <member type="way" ref="22101267" role="outer"/>
+    <member type="way" ref="22101261" role="outer"/>
+    <member type="way" ref="22101250" role="outer"/>
+    <tag k="ISO3166-2" v="RO-CV"/>
+    <tag k="admin_level" v="4"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="is_in:country_code" v="RO"/>
+    <tag k="name" v="Covasna"/>
+    <tag k="name:de" v="Kovasna"/>
+    <tag k="name:hu" v="Kovászna megye"/>
+    <tag k="name:ru" v="Ковасна"/>
+    <tag k="place" v="county"/>
+    <tag k="place:ro" v="județ"/>
+    <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="2248660">
+    <member type="way" ref="22101264" role="outer"/>
+    <member type="way" ref="22101270" role="outer"/>
+    <member type="way" ref="22101267" role="outer"/>
+    <member type="way" ref="22101261" role="outer"/>
+    <member type="way" ref="22101250" role="outer"/>
+    <member type="way" ref="22096584" role="outer"/>
+    <member type="way" ref="22081978" role="outer"/>
+    <member type="way" ref="22081999" role="outer"/>
+    <member type="way" ref="22081988" role="outer"/>
+    <member type="way" ref="22081982" role="outer"/>
+    <member type="way" ref="22081962" role="outer"/>
+    <member type="way" ref="22106648" role="outer"/>
+    <member type="way" ref="22106640" role="outer"/>
+    <member type="way" ref="22106651" role="outer"/>
+    <member type="way" ref="22106664" role="outer"/>
+    <member type="way" ref="22106658" role="outer"/>
+    <member type="way" ref="22106644" role="outer"/>
+    <member type="way" ref="22106678" role="outer"/>
+    <member type="way" ref="22106670" role="outer"/>
+    <member type="way" ref="22106682" role="outer"/>
+    <member type="way" ref="22106690" role="outer"/>
+    <member type="way" ref="78314202" role="outer"/>
+    <tag k="ISO3166-2" v="RO-HR"/>
+    <tag k="admin_level" v="4"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="is_in:country_code" v="RO"/>
+    <tag k="name" v="Harghita"/>
+    <tag k="name:hu" v="Hargita megye"/>
+    <tag k="name:ru" v="Харгита"/>
+    <tag k="place" v="county"/>
+    <tag k="place:ro" v="județ"/>
+    <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="2248675">
+    <member type="way" ref="22137041" role="outer"/>
+    <member type="way" ref="22137023" role="outer"/>
+    <member type="way" ref="22137036" role="outer"/>
+    <member type="way" ref="22137030" role="outer"/>
+    <member type="way" ref="22137026" role="outer"/>
+    <member type="way" ref="22137017" role="outer"/>
+    <member type="way" ref="22128934" role="outer"/>
+    <member type="way" ref="22129004" role="outer"/>
+    <member type="way" ref="22129023" role="outer"/>
+    <member type="way" ref="22129015" role="outer"/>
+    <member type="way" ref="22113207" role="outer"/>
+    <member type="way" ref="39171427" role="outer"/>
+    <member type="way" ref="22113206" role="outer"/>
+    <member type="way" ref="22113204" role="outer"/>
+    <member type="way" ref="22113200" role="outer"/>
+    <member type="way" ref="22113194" role="outer"/>
+    <member type="way" ref="22106640" role="outer"/>
+    <member type="way" ref="22106651" role="outer"/>
+    <member type="way" ref="22106664" role="outer"/>
+    <member type="way" ref="22106658" role="outer"/>
+    <tag k="ISO3166-2" v="RO-NT"/>
+    <tag k="admin_level" v="4"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="is_in:country_code" v="RO"/>
+    <tag k="name" v="Neamț"/>
+    <tag k="name:ru" v="Нямц"/>
+    <tag k="place" v="county"/>
+    <tag k="place:ro" v="județ"/>
+    <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="2248681">
+    <member type="way" ref="22137041" role="outer"/>
+    <member type="way" ref="22137023" role="outer"/>
+    <member type="way" ref="22137036" role="outer"/>
+    <member type="way" ref="22137030" role="outer"/>
+    <member type="way" ref="22137026" role="outer"/>
+    <member type="way" ref="22140421" role="outer"/>
+    <member type="way" ref="22140449" role="outer"/>
+    <member type="way" ref="22140425" role="outer"/>
+    <member type="way" ref="22140439" role="outer"/>
+    <member type="way" ref="22140430" role="outer"/>
+    <member type="way" ref="22140446" role="outer"/>
+    <member type="way" ref="22101249" role="outer"/>
+    <member type="way" ref="78314202" role="outer"/>
+    <member type="way" ref="22106690" role="outer"/>
+    <member type="way" ref="22106682" role="outer"/>
+    <member type="way" ref="22106670" role="outer"/>
+    <member type="way" ref="22106678" role="outer"/>
+    <member type="way" ref="22106644" role="outer"/>
+    <tag k="ISO3166-2" v="RO-BC"/>
+    <tag k="admin_level" v="4"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="is_in:country_code" v="RO"/>
+    <tag k="name" v="Bacău"/>
+    <tag k="name:hu" v="Bákó megye"/>
+    <tag k="name:ru" v="Бакэу"/>
+    <tag k="place" v="county"/>
+    <tag k="place:ro" v="județ"/>
+    <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="2248721">
+    <member type="way" ref="21853998" role="outer"/>
+    <member type="way" ref="22104862" role="outer"/>
+    <member type="way" ref="21846795" role="outer"/>
+    <member type="way" ref="21846798" role="outer"/>
+    <member type="way" ref="21846800" role="outer"/>
+    <member type="way" ref="21846812" role="outer"/>
+    <member type="way" ref="21858266" role="outer"/>
+    <member type="way" ref="21846817" role="outer"/>
+    <member type="way" ref="21846827" role="outer"/>
+    <member type="way" ref="21846838" role="outer"/>
+    <member type="way" ref="57881622" role="outer"/>
+    <member type="way" ref="57876321" role="outer"/>
+    <member type="way" ref="57880941" role="outer"/>
+    <member type="way" ref="57877302" role="outer"/>
+    <member type="way" ref="57879492" role="outer"/>
+    <member type="way" ref="57879503" role="outer"/>
+    <member type="way" ref="57877745" role="outer"/>
+    <member type="way" ref="57881941" role="outer"/>
+    <member type="way" ref="66064015" role="outer"/>
+    <member type="way" ref="21846760" role="outer"/>
+    <member type="way" ref="21846766" role="outer"/>
+    <member type="way" ref="21846768" role="outer"/>
+    <member type="way" ref="21846772" role="outer"/>
+    <member type="way" ref="21846776" role="outer"/>
+    <member type="way" ref="21846778" role="outer"/>
+    <member type="way" ref="21846782" role="outer"/>
+    <member type="way" ref="21846788" role="outer"/>
+    <member type="way" ref="21846794" role="outer"/>
+    <tag k="ISO3166-2" v="RO-AR"/>
+    <tag k="admin_level" v="4"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="is_in:country_code" v="RO"/>
+    <tag k="name" v="Arad"/>
+    <tag k="name:hu" v="Arad megye"/>
+    <tag k="name:ru" v="Арад"/>
+    <tag k="place" v="county"/>
+    <tag k="place:ro" v="județ"/>
+    <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="2248737">
+    <member type="way" ref="22104862" role="outer"/>
+    <member type="way" ref="21846795" role="outer"/>
+    <member type="way" ref="21846798" role="outer"/>
+    <member type="way" ref="21846800" role="outer"/>
+    <member type="way" ref="21846812" role="outer"/>
+    <member type="way" ref="21854591" role="outer"/>
+    <member type="way" ref="21854612" role="outer"/>
+    <member type="way" ref="21854615" role="outer"/>
+    <member type="way" ref="21869524" role="outer"/>
+    <member type="way" ref="21869518" role="outer"/>
+    <member type="way" ref="21869513" role="outer"/>
+    <member type="way" ref="21876340" role="outer"/>
+    <member type="way" ref="21876341" role="outer"/>
+    <member type="way" ref="21876344" role="outer"/>
+    <member type="way" ref="21876332" role="outer"/>
+    <member type="way" ref="21876345" role="outer"/>
+    <member type="way" ref="21876348" role="outer"/>
+    <member type="way" ref="21876353" role="outer"/>
+    <member type="way" ref="21876358" role="outer"/>
+    <member type="way" ref="21876360" role="outer"/>
+    <member type="way" ref="21876336" role="outer"/>
+    <tag k="ISO3166-2" v="RO-HD"/>
+    <tag k="admin_level" v="4"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="is_in:country_code" v="RO"/>
+    <tag k="name" v="Hunedoara"/>
+    <tag k="name:hu" v="Hunyad megye"/>
+    <tag k="name:ru" v="Хунедоара"/>
+    <tag k="place" v="county"/>
+    <tag k="place:ro" v="județ"/>
+    <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="2256729">
+    <member type="way" ref="22113186" role="outer"/>
+    <member type="way" ref="154475265" role="outer"/>
+    <member type="way" ref="128995657" role="outer"/>
+    <member type="way" ref="22131859" role="outer"/>
+    <member type="way" ref="233208097" role="outer"/>
+    <member type="way" ref="227776896" role="outer"/>
+    <member type="way" ref="24721707" role="outer"/>
+    <member type="way" ref="29062901" role="outer"/>
+    <member type="way" ref="52348776" role="outer"/>
+    <member type="way" ref="96991386" role="outer"/>
+    <member type="way" ref="52564614" role="outer"/>
+    <member type="way" ref="22131829" role="outer"/>
+    <member type="way" ref="52489441" role="outer"/>
+    <member type="way" ref="29072011" role="outer"/>
+    <member type="way" ref="24943215" role="outer"/>
+    <member type="way" ref="29226322" role="outer"/>
+    <member type="way" ref="22131843" role="outer"/>
+    <member type="way" ref="116495241" role="outer"/>
+    <member type="way" ref="118293876" role="outer"/>
+    <member type="way" ref="118293872" role="outer"/>
+    <member type="way" ref="118293839" role="outer"/>
+    <member type="way" ref="22128990" role="outer"/>
+    <member type="way" ref="22128997" role="outer"/>
+    <member type="way" ref="22128929" role="outer"/>
+    <member type="way" ref="22113237" role="outer"/>
+    <member type="way" ref="22113242" role="outer"/>
+    <member type="way" ref="22113252" role="outer"/>
+    <member type="way" ref="22113239" role="outer"/>
+    <member type="node" ref="130388465" role="admin_centre"/>
+    <tag k="ISO3166-2" v="RO-BT"/>
+    <tag k="admin_level" v="4"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="is_in:country_code" v="RO"/>
+    <tag k="name" v="Botoșani"/>
+    <tag k="name:de" v="Botoschan"/>
+    <tag k="name:ru" v="Ботошани"/>
+    <tag k="place" v="county"/>
+    <tag k="place:ro" v="județ"/>
+    <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="2256747">
+    <member type="way" ref="22128990" role="outer"/>
+    <member type="way" ref="22128997" role="outer"/>
+    <member type="way" ref="22128929" role="outer"/>
+    <member type="way" ref="22113233" role="outer"/>
+    <member type="way" ref="22113229" role="outer"/>
+    <member type="way" ref="22113210" role="outer"/>
+    <member type="way" ref="22129015" role="outer"/>
+    <member type="way" ref="22129023" role="outer"/>
+    <member type="way" ref="22129004" role="outer"/>
+    <member type="way" ref="22128934" role="outer"/>
+    <member type="way" ref="22129074" role="outer"/>
+    <member type="way" ref="22129028" role="outer"/>
+    <member type="way" ref="22128975" role="outer"/>
+    <member type="way" ref="22128939" role="outer"/>
+    <member type="way" ref="29226236" role="outer"/>
+    <member type="way" ref="53752014" role="outer"/>
+    <member type="way" ref="22128952" role="outer"/>
+    <member type="way" ref="29226207" role="outer"/>
+    <member type="way" ref="121439508" role="outer"/>
+    <member type="way" ref="22128971" role="outer"/>
+    <member type="way" ref="121442117" role="outer"/>
+    <member type="way" ref="105034650" role="outer"/>
+    <member type="way" ref="119613486" role="outer"/>
+    <member type="way" ref="119611258" role="outer"/>
+    <member type="way" ref="105066807" role="outer"/>
+    <member type="way" ref="29226120" role="outer"/>
+    <member type="way" ref="123883309" role="outer"/>
+    <member type="way" ref="22129094" role="outer"/>
+    <member type="way" ref="123883317" role="outer"/>
+    <member type="way" ref="22128983" role="outer"/>
+    <member type="way" ref="123890265" role="outer"/>
+    <member type="way" ref="123890266" role="outer"/>
+    <member type="way" ref="123890267" role="outer"/>
+    <member type="way" ref="116495252" role="outer"/>
+    <member type="way" ref="22128945" role="outer"/>
+    <tag k="ISO3166-2" v="RO-IS"/>
+    <tag k="admin_level" v="4"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="is_in:country_code" v="RO"/>
+    <tag k="name" v="Iași"/>
+    <tag k="name:de" v="Jassy"/>
+    <tag k="name:ru" v="Яссы"/>
+    <tag k="place" v="county"/>
+    <tag k="place:ro" v="județ"/>
+    <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="2256753">
+    <member type="way" ref="22129074" role="outer"/>
+    <member type="way" ref="22129028" role="outer"/>
+    <member type="way" ref="22128975" role="outer"/>
+    <member type="way" ref="22128939" role="outer"/>
+    <member type="way" ref="22144001" role="outer"/>
+    <member type="way" ref="39675059" role="outer"/>
+    <member type="way" ref="31302931" role="outer"/>
+    <member type="way" ref="22144021" role="outer"/>
+    <member type="way" ref="53104668" role="outer"/>
+    <member type="way" ref="22144028" role="outer"/>
+    <member type="way" ref="53104662" role="outer"/>
+    <member type="way" ref="55600278" role="outer"/>
+    <member type="way" ref="22144016" role="outer"/>
+    <member type="way" ref="22144010" role="outer"/>
+    <member type="way" ref="22144009" role="outer"/>
+    <member type="way" ref="22144056" role="outer"/>
+    <member type="way" ref="22144048" role="outer"/>
+    <member type="way" ref="22144006" role="outer"/>
+    <member type="way" ref="22140449" role="outer"/>
+    <member type="way" ref="22140421" role="outer"/>
+    <member type="way" ref="22137017" role="outer"/>
+    <tag k="ISO3166-2" v="RO-VS"/>
+    <tag k="admin_level" v="4"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="is_in:country_code" v="RO"/>
+    <tag k="name" v="Vaslui"/>
+    <tag k="name:de" v="Wassluy"/>
+    <tag k="name:en" v="Vaslui"/>
+    <tag k="name:ru" v="Васлуй"/>
+    <tag k="place" v="county"/>
+    <tag k="place:ro" v="județ"/>
+    <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="2260187">
+    <member type="way" ref="22140425" role="outer"/>
+    <member type="way" ref="22140439" role="outer"/>
+    <member type="way" ref="22140430" role="outer"/>
+    <member type="way" ref="22140446" role="outer"/>
+    <member type="way" ref="22101253" role="outer"/>
+    <member type="way" ref="22327190" role="outer"/>
+    <member type="way" ref="22327186" role="outer"/>
+    <member type="way" ref="22327173" role="outer"/>
+    <member type="way" ref="22327171" role="outer"/>
+    <member type="way" ref="169772652" role="outer"/>
+    <member type="way" ref="22327180" role="outer"/>
+    <member type="way" ref="22327169" role="outer"/>
+    <member type="way" ref="22144006" role="outer"/>
+    <tag k="ISO3166-2" v="RO-VN"/>
+    <tag k="admin_level" v="4"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="is_in:country_code" v="RO"/>
+    <tag k="name" v="Vrancea"/>
+    <tag k="name:ru" v="Вранча"/>
+    <tag k="place" v="county"/>
+    <tag k="place:ro" v="județ"/>
+    <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="2260192">
+    <member type="way" ref="169772652" role="outer"/>
+    <member type="way" ref="22327180" role="outer"/>
+    <member type="way" ref="22327169" role="outer"/>
+    <member type="way" ref="22144048" role="outer"/>
+    <member type="way" ref="22144056" role="outer"/>
+    <member type="way" ref="22144009" role="outer"/>
+    <member type="way" ref="22327945" role="outer"/>
+    <member type="way" ref="22327949" role="outer"/>
+    <member type="way" ref="40615424" role="outer"/>
+    <member type="way" ref="107063053" role="outer"/>
+    <member type="way" ref="22327948" role="outer"/>
+    <member type="way" ref="69877913" role="outer"/>
+    <member type="way" ref="22327947" role="outer"/>
+    <member type="way" ref="22328440" role="outer"/>
+    <tag k="ISO3166-2" v="RO-GL"/>
+    <tag k="admin_level" v="4"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="is_in:country_code" v="RO"/>
+    <tag k="name" v="Galați"/>
+    <tag k="name:en" v="Galati"/>
+    <tag k="name:ru" v="Галац"/>
+    <tag k="place" v="county"/>
+    <tag k="place:ro" v="județ"/>
+    <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="2261275">
+    <member type="way" ref="21876340" role="outer"/>
+    <member type="way" ref="21876341" role="outer"/>
+    <member type="way" ref="21876344" role="outer"/>
+    <member type="way" ref="21881310" role="outer"/>
+    <member type="way" ref="21881312" role="outer"/>
+    <member type="way" ref="21881313" role="outer"/>
+    <member type="way" ref="21881317" role="outer"/>
+    <member type="way" ref="21881321" role="outer"/>
+    <member type="way" ref="44948689" role="outer"/>
+    <member type="way" ref="21881325" role="outer"/>
+    <member type="way" ref="21881328" role="outer"/>
+    <member type="way" ref="21883362" role="outer"/>
+    <member type="way" ref="21881331" role="outer"/>
+    <member type="way" ref="21881333" role="outer"/>
+    <member type="way" ref="21881336" role="outer"/>
+    <member type="way" ref="21881338" role="outer"/>
+    <member type="way" ref="21881341" role="outer"/>
+    <member type="way" ref="21869473" role="outer"/>
+    <tag k="ISO3166-2" v="RO-GJ"/>
+    <tag k="admin_level" v="4"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="is_in:country_code" v="RO"/>
+    <tag k="name" v="Gorj"/>
+    <tag k="name:ru" v="Горж"/>
+    <tag k="place" v="county"/>
+    <tag k="place:ro" v="județ"/>
+    <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="2261289">
+    <member type="way" ref="21881310" role="outer"/>
+    <member type="way" ref="21881312" role="outer"/>
+    <member type="way" ref="21881313" role="outer"/>
+    <member type="way" ref="21881317" role="outer"/>
+    <member type="way" ref="21881321" role="outer"/>
+    <member type="way" ref="22085224" role="outer"/>
+    <member type="way" ref="22085271" role="outer"/>
+    <member type="way" ref="22085261" role="outer"/>
+    <member type="way" ref="22085232" role="outer"/>
+    <member type="way" ref="22085239" role="outer"/>
+    <member type="way" ref="22085257" role="outer"/>
+    <member type="way" ref="22085251" role="outer"/>
+    <member type="way" ref="22085246" role="outer"/>
+    <member type="way" ref="22085215" role="outer"/>
+    <member type="way" ref="22083586" role="outer"/>
+    <member type="way" ref="22083598" role="outer"/>
+    <member type="way" ref="22083601" role="outer"/>
+    <member type="way" ref="21888049" role="outer"/>
+    <member type="way" ref="21876332" role="outer"/>
+    <tag k="ISO3166-2" v="RO-VL"/>
+    <tag k="admin_level" v="4"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="is_in:country_code" v="RO"/>
+    <tag k="name" v="Vâlcea"/>
+    <tag k="name:ru" v="Вылча"/>
+    <tag k="place" v="county"/>
+    <tag k="place:ro" v="județ"/>
+    <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="2261315">
+    <member type="way" ref="22085239" role="outer"/>
+    <member type="way" ref="22085257" role="outer"/>
+    <member type="way" ref="22085251" role="outer"/>
+    <member type="way" ref="22085246" role="outer"/>
+    <member type="way" ref="22085215" role="outer"/>
+    <member type="way" ref="22083588" role="outer"/>
+    <member type="way" ref="22091793" role="outer"/>
+    <member type="way" ref="22091794" role="outer"/>
+    <member type="way" ref="22091800" role="outer"/>
+    <member type="way" ref="22091792" role="outer"/>
+    <member type="way" ref="22091809" role="outer"/>
+    <member type="way" ref="22091810" role="outer"/>
+    <member type="way" ref="22091806" role="outer"/>
+    <member type="way" ref="22091803" role="outer"/>
+    <member type="way" ref="22089735" role="outer"/>
+    <member type="way" ref="22088342" role="outer"/>
+    <member type="way" ref="22088336" role="outer"/>
+    <member type="way" ref="22088326" role="outer"/>
+    <tag k="ISO3166-2" v="RO-AG"/>
+    <tag k="admin_level" v="4"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="is_in:country_code" v="RO"/>
+    <tag k="name" v="Argeș"/>
+    <tag k="name:ru" v="Арджеш"/>
+    <tag k="place" v="county"/>
+    <tag k="place:ro" v="județ"/>
+    <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="2355471">
+    <member type="way" ref="22091792" role="outer"/>
+    <member type="way" ref="22091809" role="outer"/>
+    <member type="way" ref="22091810" role="outer"/>
+    <member type="way" ref="22091806" role="outer"/>
+    <member type="way" ref="22091803" role="outer"/>
+    <member type="way" ref="22089737" role="outer"/>
+    <member type="way" ref="22146089" role="outer"/>
+    <member type="way" ref="22146073" role="outer"/>
+    <member type="way" ref="22146099" role="outer"/>
+    <member type="way" ref="22146080" role="outer"/>
+    <member type="way" ref="22096620" role="outer"/>
+    <tag k="ISO3166-2" v="RO-DB"/>
+    <tag k="admin_level" v="4"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="is_in:country_code" v="RO"/>
+    <tag k="name" v="Dâmbovița"/>
+    <tag k="name:ru" v="Дымбовица"/>
+    <tag k="place" v="county"/>
+    <tag k="place:ro" v="județ"/>
+    <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="2355507">
+    <member type="way" ref="22146099" role="outer"/>
+    <member type="way" ref="22146080" role="outer"/>
+    <member type="way" ref="121994061" role="outer"/>
+    <member type="way" ref="22096610" role="outer"/>
+    <member type="way" ref="22148703" role="outer"/>
+    <member type="way" ref="22148723" role="outer"/>
+    <member type="way" ref="24367213" role="outer"/>
+    <member type="way" ref="24367215" role="outer"/>
+    <member type="way" ref="22148718" role="outer"/>
+    <member type="way" ref="22148712" role="outer"/>
+    <tag k="ISO3166-2" v="RO-PH"/>
+    <tag k="admin_level" v="4"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="is_in:country_code" v="RO"/>
+    <tag k="name" v="Prahova"/>
+    <tag k="name:ru" v="Прахова"/>
+    <tag k="place" v="county"/>
+    <tag k="place:ro" v="județ"/>
+    <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="2355511">
+    <member type="way" ref="22148703" role="outer"/>
+    <member type="way" ref="22148723" role="outer"/>
+    <member type="way" ref="24367213" role="outer"/>
+    <member type="way" ref="24367215" role="outer"/>
+    <member type="way" ref="22154714" role="outer"/>
+    <member type="way" ref="22328104" role="outer"/>
+    <member type="way" ref="22327173" role="outer"/>
+    <member type="way" ref="22327186" role="outer"/>
+    <member type="way" ref="22327190" role="outer"/>
+    <member type="way" ref="22101251" role="outer"/>
+    <member type="way" ref="22101256" role="outer"/>
+    <member type="way" ref="22096591" role="outer"/>
+    <tag k="ISO3166-2" v="RO-BZ"/>
+    <tag k="admin_level" v="4"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="is_in:country_code" v="RO"/>
+    <tag k="name" v="Buzău"/>
+    <tag k="name:ru" v="Бузэу"/>
+    <tag k="place" v="county"/>
+    <tag k="place:ro" v="județ"/>
+    <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="2355512">
+    <member type="way" ref="22328104" role="outer"/>
+    <member type="way" ref="22154704" role="outer"/>
+    <member type="way" ref="22328105" role="outer"/>
+    <member type="way" ref="22328103" role="outer"/>
+    <member type="way" ref="22328440" role="outer"/>
+    <member type="way" ref="22327171" role="outer"/>
+    <tag k="ISO3166-2" v="RO-BR"/>
+    <tag k="admin_level" v="4"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="is_in:country_code" v="RO"/>
+    <tag k="name" v="Brăila"/>
+    <tag k="name:ru" v="Брэила"/>
+    <tag k="place" v="county"/>
+    <tag k="place:ro" v="județ"/>
+    <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="2355517">
+    <member type="way" ref="22154704" role="outer"/>
+    <member type="way" ref="22154718" role="outer"/>
+    <member type="way" ref="22152837" role="outer"/>
+    <member type="way" ref="22154709" role="outer"/>
+    <member type="way" ref="22148718" role="outer"/>
+    <member type="way" ref="22154714" role="outer"/>
+    <tag k="ISO3166-2" v="RO-IL"/>
+    <tag k="admin_level" v="4"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="is_in:country_code" v="RO"/>
+    <tag k="name" v="Ialomița"/>
+    <tag k="name:ru" v="Яломица"/>
+    <tag k="place" v="county"/>
+    <tag k="place:ro" v="județ"/>
+    <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="2366863">
+    <member type="way" ref="21858266" role="outer"/>
+    <member type="way" ref="21846817" role="outer"/>
+    <member type="way" ref="21846827" role="outer"/>
+    <member type="way" ref="21846838" role="outer"/>
+    <member type="way" ref="168864145" role="outer"/>
+    <member type="way" ref="57881497" role="outer"/>
+    <member type="way" ref="57874263" role="outer"/>
+    <member type="way" ref="57879679" role="outer"/>
+    <member type="way" ref="57879805" role="outer"/>
+    <member type="way" ref="57880891" role="outer"/>
+    <member type="way" ref="57876873" role="outer"/>
+    <member type="way" ref="85877809" role="outer"/>
+    <member type="way" ref="119211736" role="outer"/>
+    <member type="way" ref="21854593" role="outer"/>
+    <member type="way" ref="119211735" role="outer"/>
+    <member type="way" ref="119231661" role="outer"/>
+    <member type="way" ref="119231657" role="outer"/>
+    <member type="way" ref="21854595" role="outer"/>
+    <member type="way" ref="119204890" role="outer"/>
+    <member type="way" ref="119204903" role="outer"/>
+    <member type="way" ref="21854598" role="outer"/>
+    <member type="way" ref="269279877" role="outer"/>
+    <member type="way" ref="21854601" role="outer"/>
+    <member type="way" ref="21854603" role="outer"/>
+    <member type="way" ref="21854604" role="outer"/>
+    <member type="way" ref="21854606" role="outer"/>
+    <member type="way" ref="21854609" role="outer"/>
+    <member type="way" ref="21872698" role="outer"/>
+    <member type="way" ref="21854615" role="outer"/>
+    <member type="way" ref="21854612" role="outer"/>
+    <member type="way" ref="21854591" role="outer"/>
+    <tag k="ISO3166-2" v="RO-TM"/>
+    <tag k="admin_level" v="4"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="is_in:country_code" v="RO"/>
+    <tag k="name" v="Timiș"/>
+    <tag k="name:hu" v="Temes megye"/>
+    <tag k="name:ru" v="Тимиш"/>
+    <tag k="place" v="county"/>
+    <tag k="place:ro" v="județ"/>
+    <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="2366873">
+    <member type="way" ref="21869524" role="outer"/>
+    <member type="way" ref="21872698" role="outer"/>
+    <member type="way" ref="21854609" role="outer"/>
+    <member type="way" ref="21854606" role="outer"/>
+    <member type="way" ref="21854604" role="outer"/>
+    <member type="way" ref="21854603" role="outer"/>
+    <member type="way" ref="21854601" role="outer"/>
+    <member type="way" ref="119204900" role="outer"/>
+    <member type="way" ref="21869479" role="outer"/>
+    <member type="way" ref="10361137" role="outer"/>
+    <member type="way" ref="85797095" role="outer"/>
+    <member type="way" ref="32004449" role="outer"/>
+    <member type="way" ref="216656251" role="outer"/>
+    <member type="way" ref="21869489" role="outer"/>
+    <member type="way" ref="21869496" role="outer"/>
+    <member type="way" ref="21869500" role="outer"/>
+    <member type="way" ref="21869505" role="outer"/>
+    <member type="way" ref="21869509" role="outer"/>
+    <member type="way" ref="21882773" role="outer"/>
+    <member type="way" ref="21869473" role="outer"/>
+    <member type="way" ref="21869513" role="outer"/>
+    <member type="way" ref="21869518" role="outer"/>
+    <tag k="ISO3166-2" v="RO-CS"/>
+    <tag k="admin_level" v="4"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="is_in:country_code" v="RO"/>
+    <tag k="name" v="Caraș Severin"/>
+    <tag k="name:hu" v="Krassó-Szörény megye"/>
+    <tag k="name:ru" v="Караш-Северин"/>
+    <tag k="place" v="county"/>
+    <tag k="place:ro" v="județ"/>
+    <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="2366962">
+    <member type="way" ref="21883362" role="outer"/>
+    <member type="way" ref="21881331" role="outer"/>
+    <member type="way" ref="21881333" role="outer"/>
+    <member type="way" ref="21881336" role="outer"/>
+    <member type="way" ref="21881338" role="outer"/>
+    <member type="way" ref="21881341" role="outer"/>
+    <member type="way" ref="21882773" role="outer"/>
+    <member type="way" ref="21869509" role="outer"/>
+    <member type="way" ref="21869505" role="outer"/>
+    <member type="way" ref="21869500" role="outer"/>
+    <member type="way" ref="21869496" role="outer"/>
+    <member type="way" ref="21869489" role="outer"/>
+    <member type="way" ref="125693597" role="outer"/>
+    <member type="way" ref="125693598" role="outer"/>
+    <member type="way" ref="229047847" role="outer"/>
+    <member type="way" ref="32004397" role="outer"/>
+    <member type="way" ref="30853628" role="outer"/>
+    <member type="way" ref="149964808" role="outer"/>
+    <member type="way" ref="149964835" role="outer"/>
+    <member type="way" ref="21882598" role="outer"/>
+    <member type="way" ref="21882594" role="outer"/>
+    <tag k="ISO3166-2" v="RO-MH"/>
+    <tag k="admin_level" v="4"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="is_in:country_code" v="RO"/>
+    <tag k="name" v="Mehedinți"/>
+    <tag k="name:ru" v="Мехединци"/>
+    <tag k="place" v="county"/>
+    <tag k="place:ro" v="județ"/>
+    <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="2366970">
+    <member type="way" ref="44948689" role="outer"/>
+    <member type="way" ref="21881325" role="outer"/>
+    <member type="way" ref="21881328" role="outer"/>
+    <member type="way" ref="21882594" role="outer"/>
+    <member type="way" ref="21882598" role="outer"/>
+    <member type="way" ref="177197142" role="outer"/>
+    <member type="way" ref="229047846" role="outer"/>
+    <member type="way" ref="229047844" role="outer"/>
+    <member type="way" ref="149964804" role="outer"/>
+    <member type="way" ref="149964827" role="outer"/>
+    <member type="way" ref="222484898" role="outer"/>
+    <member type="way" ref="222484897" role="outer"/>
+    <member type="way" ref="149964811" role="outer"/>
+    <member type="way" ref="149964816" role="outer"/>
+    <member type="way" ref="149964823" role="outer"/>
+    <member type="way" ref="149964829" role="outer"/>
+    <member type="way" ref="22087398" role="outer"/>
+    <member type="way" ref="22085224" role="outer"/>
+    <tag k="ISO3166-2" v="RO-DJ"/>
+    <tag k="admin_level" v="4"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="is_in:country_code" v="RO"/>
+    <tag k="name" v="Dolj"/>
+    <tag k="name:ru" v="Долж"/>
+    <tag k="place" v="county"/>
+    <tag k="place:ro" v="județ"/>
+    <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="2366978">
+    <member type="way" ref="22085271" role="outer"/>
+    <member type="way" ref="22085261" role="outer"/>
+    <member type="way" ref="22085232" role="outer"/>
+    <member type="way" ref="22088326" role="outer"/>
+    <member type="way" ref="22088336" role="outer"/>
+    <member type="way" ref="22088342" role="outer"/>
+    <member type="way" ref="22088332" role="outer"/>
+    <member type="way" ref="22088360" role="outer"/>
+    <member type="way" ref="149964812" role="outer"/>
+    <member type="way" ref="149964833" role="outer"/>
+    <member type="way" ref="177198731" role="outer"/>
+    <member type="way" ref="22087398" role="outer"/>
+    <tag k="ISO3166-2" v="RO-OT"/>
+    <tag k="admin_level" v="4"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="is_in:country_code" v="RO"/>
+    <tag k="name" v="Olt"/>
+    <tag k="name:ru" v="Олт"/>
+    <tag k="place" v="county"/>
+    <tag k="place:ro" v="județ"/>
+    <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="2366986">
+    <member type="way" ref="22088332" role="outer"/>
+    <member type="way" ref="22088360" role="outer"/>
+    <member type="way" ref="149964807" role="outer"/>
+    <member type="way" ref="149964831" role="outer"/>
+    <member type="way" ref="149964819" role="outer"/>
+    <member type="way" ref="151636438" role="outer"/>
+    <member type="way" ref="151636445" role="outer"/>
+    <member type="way" ref="151636432" role="outer"/>
+    <member type="way" ref="22089739" role="outer"/>
+    <member type="way" ref="22089732" role="outer"/>
+    <member type="way" ref="22089737" role="outer"/>
+    <member type="way" ref="22089735" role="outer"/>
+    <tag k="ISO3166-2" v="RO-TR"/>
+    <tag k="admin_level" v="4"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="is_in:country_code" v="RO"/>
+    <tag k="name" v="Teleorman"/>
+    <tag k="name:ru" v="Телеорман"/>
+    <tag k="place" v="county"/>
+    <tag k="place:ro" v="județ"/>
+    <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="2366987">
+    <member type="way" ref="22089739" role="outer"/>
+    <member type="way" ref="22089732" role="outer"/>
+    <member type="way" ref="22146089" role="outer"/>
+    <member type="way" ref="22150471" role="outer"/>
+    <member type="way" ref="22150476" role="outer"/>
+    <member type="way" ref="151636434" role="outer"/>
+    <member type="way" ref="151636441" role="outer"/>
+    <member type="way" ref="151636435" role="outer"/>
+    <member type="way" ref="177199458" role="outer"/>
+    <tag k="ISO3166-2" v="RO-GR"/>
+    <tag k="admin_level" v="4"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="is_in:country_code" v="RO"/>
+    <tag k="name" v="Giurgiu"/>
+    <tag k="name:ru" v="Джурджу"/>
+    <tag k="place" v="county"/>
+    <tag k="place:ro" v="județ"/>
+    <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="2366996">
+    <member type="way" ref="22090768" role="inner"/>
+    <member type="way" ref="22150471" role="outer"/>
+    <member type="way" ref="22152830" role="outer"/>
+    <member type="way" ref="22154709" role="outer"/>
+    <member type="way" ref="22148712" role="outer"/>
+    <member type="way" ref="22146073" role="outer"/>
+    <tag k="ISO3166-2" v="RO-IF"/>
+    <tag k="admin_level" v="4"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="is_in:country_code" v="RO"/>
+    <tag k="name" v="Ilfov"/>
+    <tag k="name:ru" v="Илфов"/>
+    <tag k="place" v="county"/>
+    <tag k="place:ro" v="județ"/>
+    <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="2367015">
+    <member type="way" ref="22150476" role="outer"/>
+    <member type="way" ref="151636444" role="outer"/>
+    <member type="way" ref="151636439" role="outer"/>
+    <member type="way" ref="151636431" role="outer"/>
+    <member type="way" ref="151636433" role="outer"/>
+    <member type="way" ref="222485447" role="outer"/>
+    <member type="way" ref="22152824" role="outer"/>
+    <member type="way" ref="22152837" role="outer"/>
+    <member type="way" ref="22152830" role="outer"/>
+    <tag k="ISO3166-2" v="RO-CL"/>
+    <tag k="admin_level" v="4"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="is_in:country_code" v="RO"/>
+    <tag k="name" v="Călărași"/>
+    <tag k="name:ru" v="Кэлэраши"/>
+    <tag k="place" v="county"/>
+    <tag k="place:ro" v="județ"/>
+    <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="2367022">
+    <member type="way" ref="22154718" role="outer"/>
+    <member type="way" ref="22152824" role="outer"/>
+    <member type="way" ref="151636443" role="outer"/>
+    <member type="way" ref="222485513" role="outer"/>
+    <member type="way" ref="151738166" role="outer"/>
+    <member type="way" ref="222484443" role="outer"/>
+    <member type="way" ref="151738164" role="outer"/>
+    <member type="way" ref="349999472" role="outer"/>
+    <member type="way" ref="232113235" role="outer"/>
+    <member type="way" ref="151738170" role="outer"/>
+    <member type="way" ref="232113236" role="outer"/>
+    <member type="way" ref="232113237" role="outer"/>
+    <member type="way" ref="151738168" role="outer"/>
+    <member type="way" ref="42122867" role="outer"/>
+    <member type="way" ref="232113234" role="outer"/>
+    <member type="way" ref="46419598" role="outer"/>
+    <member type="way" ref="22328275" role="outer"/>
+    <member type="way" ref="185350512" role="outer"/>
+    <member type="way" ref="22328105" role="outer"/>
+    <tag k="ISO3166-2" v="RO-CT"/>
+    <tag k="admin_level" v="4"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="is_in:country_code" v="RO"/>
+    <tag k="name" v="Constanța"/>
+    <tag k="name:ar" v="كونستانتسا"/>
+    <tag k="name:bg" v="Констанца"/>
+    <tag k="name:de" v="Konstanza"/>
+    <tag k="name:el" v="Κωνστάντζα"/>
+    <tag k="name:eo" v="Konstanco"/>
+    <tag k="name:es" v="Constanza"/>
+    <tag k="name:he" v="קונסטנצה"/>
+    <tag k="name:hu" v="Konstanca"/>
+    <tag k="name:it" v="Costanza"/>
+    <tag k="name:la" v="Constantia"/>
+    <tag k="name:lt" v="Konstanca"/>
+    <tag k="name:lv" v="Konstanca"/>
+    <tag k="name:pl" v="Konstanca"/>
+    <tag k="name:pt" v="Constança"/>
+    <tag k="name:ru" v="Констанца"/>
+    <tag k="name:sr" v="Констанца"/>
+    <tag k="name:tr" v="Köstence"/>
+    <tag k="name:uk" v="Констанца"/>
+    <tag k="old_name:la" v="Tomis"/>
+    <tag k="place" v="county"/>
+    <tag k="place:ro" v="județ"/>
+    <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="2367044">
+    <member type="way" ref="317057348" role="outer"/>
+    <member type="way" ref="228651608" role="outer"/>
+    <member type="way" ref="316760299" role="outer"/>
+    <member type="way" ref="228651609" role="outer"/>
+    <member type="way" ref="42288415" role="outer"/>
+    <member type="way" ref="177201732" role="outer"/>
+    <member type="way" ref="22328275" role="outer"/>
+    <member type="way" ref="185350512" role="outer"/>
+    <member type="way" ref="22328103" role="outer"/>
+    <member type="way" ref="22327947" role="outer"/>
+    <member type="way" ref="29287542" role="outer"/>
+    <member type="way" ref="238230645" role="outer"/>
+    <member type="way" ref="238000839" role="outer"/>
+    <member type="way" ref="182404698" role="outer"/>
+    <member type="way" ref="130189905" role="outer"/>
+    <member type="way" ref="211689693" role="outer"/>
+    <member type="way" ref="211689695" role="outer"/>
+    <member type="way" ref="130189917" role="outer"/>
+    <member type="way" ref="182404678" role="outer"/>
+    <member type="way" ref="316760294" role="outer"/>
+    <member type="way" ref="316760300" role="outer"/>
+    <member type="way" ref="316760293" role="outer"/>
+    <member type="way" ref="316760296" role="outer"/>
+    <member type="way" ref="203099950" role="outer"/>
+    <member type="way" ref="316760295" role="outer"/>
+    <member type="way" ref="88129497" role="outer"/>
+    <member type="node" ref="128657320" role="admin_centre"/>
+    <tag k="ISO3166-2" v="RO-TL"/>
+    <tag k="admin_level" v="4"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="is_in:country_code" v="RO"/>
+    <tag k="name" v="Tulcea"/>
+    <tag k="name:en" v="Tulcea"/>
+    <tag k="name:ru" v="Тулча"/>
+    <tag k="place" v="county"/>
+    <tag k="place:ro" v="județ"/>
+    <tag k="type" v="boundary"/>
+  </relation>
   <relation id="2186658">
     <member type="way" ref="254655854" role="outer"/>
     <member type="way" ref="254655852" role="outer"/>
@@ -14418,6 +15832,32 @@
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q14773"/>
     <tag k="wikipedia" v="en:Macau"/>
+  </relation>
+  <relation id="1337397">
+    <member type="node" ref="269194842" role="admin_centre"/>
+    <member type="node" ref="269195852" role="label"/>
+    <member type="way" ref="91164013" role="outer"/>
+    <member type="way" ref="223870905" role="outer"/>
+    <member type="way" ref="91165843" role="outer"/>
+    <member type="way" ref="91166365" role="outer"/>
+    <member type="way" ref="91165347" role="outer"/>
+    <member type="way" ref="91164658" role="outer"/>
+    <tag k="ISO3166-2" v="NO-22"/>
+    <tag k="admin_level" v="4"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="Svalbard"/>
+    <tag k="name:de" v="Spitzbergen"/>
+    <tag k="name:fy" v="Spitsbergen"/>
+    <tag k="name:lt" v="Svalbardas"/>
+    <tag k="name:nl" v="Spitsbergen"/>
+    <tag k="name:pt" v="Esvalbarda"/>
+    <tag k="name:ru" v="Шпицберген"/>
+    <tag k="name:tzl" v="Svalbard"/>
+    <tag k="ref" v="21"/>
+    <tag k="timezone" v="Arctic/Longyearbyen"/>
+    <tag k="type" v="boundary"/>
+    <tag k="wikidata" v="Q25231"/>
+    <tag k="wikipedia" v="en:Svalbard"/>
   </relation>
 
 </osm>

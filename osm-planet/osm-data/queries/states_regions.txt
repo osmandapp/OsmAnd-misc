@@ -60,6 +60,14 @@
 <id-query ref="47806" type="relation"/> <print/> <!-- Zeeland -->
 <id-query ref="47772" type="relation"/> <print/> <!-- South Holland -->
 
+	<!-- Romania -->
+<query type="relation">
+  <has-kv k="admin_level" v="4"/>
+  <has-kv k="is_in:country_code" v="RO"/>
+</query>
+<print/>
+
 <id-query ref="2186658" type="relation"/> <print/> <!-- French Southern and Antarctic Lands -->
 <id-query ref="65335" type="relation"/> <print/> <!-- Transnistria -->
 <id-query ref="1867188" type="relation"/> <print/> <!-- Macao -->
+<id-query ref="1337397" type="relation"/> <print/> <!-- Svalbard (Шпицберген) -->
