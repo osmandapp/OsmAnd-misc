@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2015-06-01T16:12:02Z"/>
+<meta osm_base="2015-06-01T21:32:02Z"/>
 
   <node id="671022" lat="36.7014631" lon="-118.7559974">
     <tag k="alt_name:vi" v="California"/>
@@ -10361,6 +10361,26 @@
     <tag k="ref" v="ХАН"/>
     <tag k="ref:en" v="KHM"/>
     <tag k="wikipedia" v="ru:Ханты-Мансийский автономный округ — Югра"/>
+  </node>
+  <node id="503047594" lat="58.8206488" lon="70.3658837">
+    <tag k="is_in:country" v="Россия"/>
+    <tag k="name" v="Тюменская область"/>
+    <tag k="name:be" v="Цюменская вобласць"/>
+    <tag k="name:de" v="Oblast Tjumen"/>
+    <tag k="name:en" v="Tyumen Oblast"/>
+    <tag k="name:es" v="Óblast de Tiumén"/>
+    <tag k="name:fr" v="Oblast de Tioumen"/>
+    <tag k="name:hr" v="Tjumenjska oblast"/>
+    <tag k="name:lt" v="Tiumenės sritis"/>
+    <tag k="name:pl" v="Obwód tiumeński"/>
+    <tag k="name:ru" v="Тюменская область"/>
+    <tag k="name:sk" v="Ťumenská oblasť"/>
+    <tag k="name:tt" v="Төмән өлкәсе"/>
+    <tag k="name:uk" v="Тюменська область"/>
+    <tag k="place" v="state"/>
+    <tag k="ref" v="ТЮМ"/>
+    <tag k="ref:en" v="TYU"/>
+    <tag k="wikipedia" v="ru:Тюменская область"/>
   </node>
   <node id="503050374" lat="56.0935263" lon="73.5099936">
     <tag k="is_in" v="Россия"/>
@@ -24814,6 +24834,13 @@
     <tag k="note" v="An estimated location, please update if there's more accurate data."/>
     <tag k="place" v="state"/>
     <tag k="wikipedia" v="en:Pahang"/>
+  </node>
+  <node id="3393468065" lat="36.9310032" lon="98.4577312">
+    <tag k="int_name" v="Ulan"/>
+    <tag k="name" v="乌兰县"/>
+    <tag k="name:de" v="Ulan"/>
+    <tag k="name:en" v="Ulan"/>
+    <tag k="place" v="state"/>
   </node>
   <node id="3513471344" lat="43.3133868" lon="-5.9419200">
     <tag k="admin_level" v="4"/>
