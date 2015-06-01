@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2015-05-15T20:27:02Z"/>
+<meta osm_base="2015-06-01T16:12:02Z"/>
 
   <node id="671022" lat="36.7014631" lon="-118.7559974">
     <tag k="alt_name:vi" v="California"/>
@@ -404,7 +404,7 @@
     <tag k="openGeoDB:version" v="0.2.6.11 / 2007-12-04 / http://fa-technik.adfc.de/code/opengeodb/dump/"/>
     <tag k="place" v="state"/>
     <tag k="ref:at:gkz" v="2"/>
-    <tag k="wikipedia:de" v="Kärnten"/>
+    <tag k="wikipedia" v="de:Kärnten"/>
     <tag k="wikipedia:en" v="Carinthia (state)"/>
   </node>
   <node id="240054861" lat="47.4123960" lon="8.1948321">
@@ -619,7 +619,7 @@
     <tag k="openGeoDB:version" v="0.2.6.11 / 2007-12-04 / http://fa-technik.adfc.de/code/opengeodb/dump/"/>
     <tag k="place" v="state"/>
     <tag k="ref:at:gkz" v="5"/>
-    <tag k="wikipedia:de" v="Salzburg (Bundesland)"/>
+    <tag k="wikipedia" v="de:Salzburg (Bundesland)"/>
     <tag k="wikipedia:en" v="Salzburg (state)"/>
   </node>
   <node id="240108092" lat="46.7864413" lon="8.6420159">
@@ -1251,6 +1251,21 @@
     <tag k="ref:en" v="NM"/>
     <tag k="ref:vi" v="Mông"/>
     <tag k="wikipedia" v="en:Inner Mongolia"/>
+  </node>
+  <node id="244081456" lat="33.2183554" lon="82.5750687">
+    <tag k="alt_name:vi" v="A Lý; A Lí"/>
+    <tag k="gns:ADM1" v="14"/>
+    <tag k="gns:DSG" v="ADM2"/>
+    <tag k="gns:UFI" v="-1920126"/>
+    <tag k="gns:UNI" v="10074336"/>
+    <tag k="name" v="阿里地区"/>
+    <tag k="name:en" v="Ngari"/>
+    <tag k="name:ru" v="Нгари"/>
+    <tag k="name:uk" v="Нгарі"/>
+    <tag k="name:vi" v="Ngari"/>
+    <tag k="name:zh" v="阿里地区"/>
+    <tag k="name:zh_pinyin" v="Ngari Diqu"/>
+    <tag k="place" v="state"/>
   </node>
   <node id="244081488" lat="36.0000000" lon="96.0000000">
     <tag k="gns:UFI" v="-1922240"/>
@@ -3068,6 +3083,7 @@
     <tag k="name:en" v="Yukon Territory"/>
     <tag k="name:fr" v="Territoire du Yukon"/>
     <tag k="name:ru" v="Юкон"/>
+    <tag k="name:sk" v="Yukonské teritórium"/>
     <tag k="name:uk" v="Юкон"/>
     <tag k="place" v="state"/>
     <tag k="ref" v="YT"/>
@@ -4562,12 +4578,15 @@
     <tag k="is_in:country" v="Afghanistan"/>
     <tag k="is_in:country_code" v="AF"/>
     <tag k="name" v="غور"/>
+    <tag k="name:cn" v="古尔省"/>
     <tag k="name:de" v="Ghor"/>
     <tag k="name:en" v="Ghōr"/>
     <tag k="name:fa" v="غور"/>
     <tag k="name:fr" v="Ghôr"/>
     <tag k="name:ru" v="Гор"/>
     <tag k="name:uk" v="Гор"/>
+    <tag k="official_name:prs" v="ولایت غور"/>
+    <tag k="official_name:ps" v="غور ولايت"/>
     <tag k="place" v="state"/>
     <tag k="population" v="485000"/>
     <tag k="ref" v="GHO"/>
@@ -4890,7 +4909,7 @@
     <tag k="place" v="state"/>
     <tag k="ref" v="L"/>
     <tag k="source" v="GNS"/>
-    <tag k="wikipedia" v="es:Mérida_(estado)"/>
+    <tag k="wikipedia" v="es:Mérida (estado)"/>
   </node>
   <node id="313466839" lat="8.1666670" lon="-69.8333330">
     <tag k="gns:dsg" v="ADM1"/>
@@ -6027,7 +6046,7 @@
     <tag k="source" v="GNS"/>
     <tag k="state_capital" v="Quetta"/>
     <tag k="state_code" v="BA"/>
-    <tag k="wikipedia" v="en:Balochistan,_Pakistan"/>
+    <tag k="wikipedia" v="en:Balochistan, Pakistan"/>
   </node>
   <node id="316440978" lat="33.6666670" lon="73.1666670">
     <tag k="gns:dsg" v="ADM1"/>
@@ -6125,7 +6144,7 @@
     <tag k="source" v="GNS"/>
     <tag k="state_capital" v="Peshawar"/>
     <tag k="state_code" v="KP"/>
-    <tag k="wikipedia" v="en:Khyber_Pakhtunkhwa"/>
+    <tag k="wikipedia" v="en:Khyber Pakhtunkhwa"/>
   </node>
   <node id="316441063" lat="34.3752779" lon="73.4730602">
     <tag k="alt_name" v="Azad Jammu and Kashmir"/>
@@ -6328,7 +6347,7 @@
     <tag k="name:uk" v="Джорджія"/>
     <tag k="place" v="state"/>
     <tag k="ref" v="GA"/>
-    <tag k="wikipedia" v="en:Georgia_(U.S._state)"/>
+    <tag k="wikipedia" v="en:Georgia (U.S. state)"/>
   </node>
   <node id="316949921" lat="21.2160437" lon="-157.9752030">
     <tag k="alt_name:vi" v="Hạ Uy Di"/>
@@ -6688,7 +6707,7 @@
     <tag k="population" v="2059179"/>
     <tag k="ref" v="NM"/>
     <tag k="source:population" v="http://www.census.gov/popest/states/tables/NST-EST2009-01.csv 2009"/>
-    <tag k="wikipedia" v="en:New_Mexico"/>
+    <tag k="wikipedia" v="en:New Mexico"/>
   </node>
   <node id="316976734" lat="43.1561681" lon="-75.8449946">
     <tag k="is_in" v="USA"/>
@@ -6735,7 +6754,7 @@
     <tag k="name:vi" v="Bắc Carolina"/>
     <tag k="place" v="state"/>
     <tag k="ref" v="NC"/>
-    <tag k="wikipedia" v="en:North_Carolina"/>
+    <tag k="wikipedia" v="en:North Carolina"/>
   </node>
   <node id="316979718" lat="47.6201461" lon="-100.5407370">
     <tag k="is_in" v="USA"/>
@@ -6896,7 +6915,7 @@
     <tag k="name:vi" v="Nam Carolina"/>
     <tag k="place" v="state"/>
     <tag k="ref" v="SC"/>
-    <tag k="wikipedia" v="en:South_Carolina"/>
+    <tag k="wikipedia" v="en:South Carolina"/>
   </node>
   <node id="316990807" lat="44.6471761" lon="-100.3487610">
     <tag k="is_in" v="USA"/>
@@ -6926,7 +6945,6 @@
     <tag k="ref" v="SD"/>
     <tag k="source:population" v="http://www.census.gov/popest/states/tables/NST-EST2007-01.xls 2007"/>
     <tag k="wikipedia" v="en:South Dakota"/>
-    <tag k="wikipedia:de" v="South_Dakota"/>
   </node>
   <node id="316994008" lat="35.7730076" lon="-86.2820081">
     <tag k="is_in" v="USA"/>
@@ -7045,7 +7063,7 @@
     <tag k="name:vi" v="Tây Virginia"/>
     <tag k="place" v="state"/>
     <tag k="ref" v="WV"/>
-    <tag k="wikipedia" v="en:West_Virginia"/>
+    <tag k="wikipedia" v="en:West Virginia"/>
   </node>
   <node id="317007239" lat="44.4308975" lon="-89.6884637">
     <tag k="is_in" v="USA"/>
@@ -8706,7 +8724,10 @@
     <tag k="name:vi" v="Đảo Giáng Sinh"/>
     <tag k="name:wo" v="Dunu Christmas"/>
     <tag k="name:zh" v="圣诞岛"/>
+    <tag k="name:zh-classical" v="聖誕島"/>
     <tag k="name:zh-min-nan" v="Christmas-tó"/>
+    <tag k="name:zh-simplified" v="圣诞岛"/>
+    <tag k="name:zh-traditional" v="聖誕島"/>
     <tag k="name:zu" v="i-Christmas Island"/>
     <tag k="official_name" v="Territory of Christmas Island"/>
     <tag k="official_name:es" v="Territorio de la Isla de Navidad"/>
@@ -9104,7 +9125,7 @@
     <tag k="place" v="state"/>
     <tag k="ref" v="AZ"/>
     <tag k="source" v="GNS"/>
-    <tag k="wikipedia" v="http://en.wikipedia.org/wiki/Azuay_Province"/>
+    <tag k="wikipedia" v="en:Azuay Province"/>
   </node>
   <node id="470284543" lat="-2.5744840" lon="-78.9804678">
     <tag k="gns_classification" v="ADM1"/>
@@ -9127,8 +9148,8 @@
     <tag k="ref" v="SE"/>
     <tag k="source" v="GNS"/>
     <tag k="url" v="http://www.hcpse.gov.ec"/>
+    <tag k="wikipedia" v="es:Provincia de Santa Elena"/>
     <tag k="wikipedia:de" v="http://de.wikipedia.org/wiki/Santa_Elena_(Provinz)"/>
-    <tag k="wikipedia:es" v="http://es.wikipedia.org/wiki/Provincia_de_Santa_Elena"/>
   </node>
   <node id="470285642" lat="-1.9262626" lon="-78.7297799">
     <tag k="gns_classification" v="ADM1"/>
@@ -9476,6 +9497,7 @@
     <tag k="name:sk" v="Brandenbursko"/>
     <tag k="name:sr" v="Бранденбург"/>
     <tag k="name:zh" v="勃兰登堡"/>
+    <tag k="note" v="this node is not needed and should be deleted"/>
     <tag k="official_name" v="Land Brandenburg"/>
     <tag k="place" v="state"/>
     <tag k="population" v="2522000"/>
@@ -10102,7 +10124,7 @@
     <tag k="ref" v="HA"/>
     <tag k="wikipedia" v="fr:Province de Hamedan"/>
   </node>
-  <node id="495472876" lat="34.4766739" lon="46.9152968">
+  <node id="495472876" lat="34.4770583" lon="46.9150556">
     <tag k="is_in:country" v="Iran"/>
     <tag k="name" v="کرمانشاه‎"/>
     <tag k="name:de" v="Kermanschah"/>
@@ -10738,7 +10760,7 @@
     <tag k="population" v="3279000"/>
     <tag k="ref" v="MA"/>
     <tag k="state_code" v="MA"/>
-    <tag k="wikipedia" v="pl:Województwo_małopolskie"/>
+    <tag k="wikipedia" v="pl:Województwo małopolskie"/>
   </node>
   <node id="504970284" lat="49.9927121" lon="22.1771070">
     <tag k="is_in:continent" v="Europe"/>
@@ -10762,7 +10784,7 @@
     <tag k="place" v="state"/>
     <tag k="population" v="2097338"/>
     <tag k="ref" v="PK"/>
-    <tag k="wikipedia" v="pl:Województwo_podkarpackie"/>
+    <tag k="wikipedia" v="pl:Województwo podkarpackie"/>
   </node>
   <node id="504977488" lat="52.5461934" lon="21.2073404">
     <tag k="is_in:continent" v="Europe"/>
@@ -10828,7 +10850,7 @@
     <tag k="place" v="state"/>
     <tag k="population" v="3386882"/>
     <tag k="ref" v="PO"/>
-    <tag k="wikipedia" v="pl:Województwo_wielkopolskie"/>
+    <tag k="wikipedia" v="pl:Województwo wielkopolskie"/>
   </node>
   <node id="505006035" lat="50.9762290" lon="22.7991176">
     <tag k="name" v="województwo lubelskie"/>
@@ -10852,7 +10874,7 @@
     <tag k="place" v="state"/>
     <tag k="population" v="2166213"/>
     <tag k="ref" v="LU"/>
-    <tag k="wikipedia" v="pl:Województwo_lubelskie"/>
+    <tag k="wikipedia" v="pl:Województwo lubelskie"/>
   </node>
   <node id="505006802" lat="54.4226732" lon="40.5705246">
     <tag k="int_name" v="Ryazan Oblast"/>
@@ -10897,7 +10919,7 @@
     <tag k="place" v="state"/>
     <tag k="population" v="1192660"/>
     <tag k="ref" v="PD"/>
-    <tag k="wikipedia" v="pl:Województwo_podlaskie"/>
+    <tag k="wikipedia" v="pl:Województwo podlaskie"/>
   </node>
   <node id="505008682" lat="53.9311892" lon="21.1260808">
     <tag k="name" v="województwo warmińsko-mazurskie"/>
@@ -10939,7 +10961,7 @@
     <tag k="place" v="state"/>
     <tag k="population" v="2210920"/>
     <tag k="ref" v="PM"/>
-    <tag k="wikipedia" v="pl:Województwo_pomorskie"/>
+    <tag k="wikipedia" v="pl:Województwo pomorskie"/>
   </node>
   <node id="505016447" lat="52.1001754" lon="15.3605075">
     <tag k="is_in:continent" v="Europe"/>
@@ -10964,7 +10986,7 @@
     <tag k="population" v="1009000"/>
     <tag k="ref" v="LB"/>
     <tag k="state_code" v="LB"/>
-    <tag k="wikipedia" v="pl:Województwo_lubuskie"/>
+    <tag k="wikipedia" v="pl:Województwo lubuskie"/>
   </node>
   <node id="505025705" lat="51.3807987" lon="16.4330936">
     <tag k="is_in:continent" v="Europe"/>
@@ -11015,7 +11037,7 @@
     <tag k="population" v="1037000"/>
     <tag k="ref" v="OP"/>
     <tag k="state_code" v="OP"/>
-    <tag k="wikipedia" v="pl:Województwo_opolskie"/>
+    <tag k="wikipedia" v="pl:Województwo opolskie"/>
   </node>
   <node id="505034126" lat="50.5687422" lon="19.2343995">
     <tag k="name" v="województwo śląskie"/>
@@ -11061,7 +11083,7 @@
     <tag k="place" v="state"/>
     <tag k="population" v="2555898"/>
     <tag k="ref" v="LD"/>
-    <tag k="wikipedia" v="pl:Województwo_łódzkie"/>
+    <tag k="wikipedia" v="pl:Województwo łódzkie"/>
   </node>
   <node id="505045821" lat="53.0915932" lon="18.4463517">
     <tag k="name" v="województwo kujawsko-pomorskie"/>
@@ -15049,7 +15071,7 @@
     <tag k="place" v="state"/>
     <tag k="population" v="1281796"/>
     <tag k="ref" v="SK"/>
-    <tag k="wikipedia" v="pl:Województwo_świętokrzyskie"/>
+    <tag k="wikipedia" v="pl:Województwo świętokrzyskie"/>
   </node>
   <node id="1230774980" lat="-8.0000000" lon="-78.5000000">
     <tag k="gns_classification" v="ADM1"/>
@@ -18120,6 +18142,7 @@
     <tag k="name:pt" v="Calábria"/>
     <tag k="name:ru" v="Калабрия"/>
     <tag k="name:scn" v="Calabbrî"/>
+    <tag k="name:sk" v="Kalábria"/>
     <tag k="name:uk" v="Калабрія"/>
     <tag k="place" v="state"/>
     <tag k="population" v="2011395"/>
@@ -18137,6 +18160,7 @@
     <tag k="name:lt" v="Kampanija"/>
     <tag k="name:pl" v="Kampania"/>
     <tag k="name:ru" v="Кампания"/>
+    <tag k="name:sk" v="Kampánia"/>
     <tag k="name:uk" v="Кампанія"/>
     <tag k="place" v="state"/>
     <tag k="population" v="5834056"/>
@@ -18183,6 +18207,7 @@
     <tag k="name:pt" v="Friul-Veneza Júlia"/>
     <tag k="name:ro" v="Friuli-Veneția Giulia"/>
     <tag k="name:ru" v="Фриули-Венеция-Джулия"/>
+    <tag k="name:sk" v="Furlansko-Júlske Benátky"/>
     <tag k="name:sl" v="Furlanija Julijska Krajina"/>
     <tag k="name:uk" v="Фріулі-Венеція-Джулія"/>
     <tag k="old_name" v="Friuli-Venezia Giulia"/>
@@ -18226,6 +18251,7 @@
     <tag k="name:nl" v="Ligurië"/>
     <tag k="name:pt" v="Ligúria"/>
     <tag k="name:ru" v="Лигурия"/>
+    <tag k="name:sk" v="Ligúria"/>
     <tag k="name:sl" v="Ligurija"/>
     <tag k="name:sv" v="Ligurien"/>
     <tag k="name:uk" v="Лігурія"/>
@@ -18248,6 +18274,7 @@
     <tag k="name:lt" v="Lombardija"/>
     <tag k="name:ru" v="Ломбардия"/>
     <tag k="name:scn" v="Lummardia"/>
+    <tag k="name:sk" v="Lombardia"/>
     <tag k="name:uk" v="Ломбардія"/>
     <tag k="place" v="state"/>
     <tag k="population" v="9917714"/>
@@ -18269,6 +18296,7 @@
     <tag k="name:pt" v="Marcas"/>
     <tag k="name:ru" v="Марке"/>
     <tag k="name:scn" v="Marchi"/>
+    <tag k="name:sk" v="Marky"/>
     <tag k="name:sl" v="Marke"/>
     <tag k="name:uk" v="Марке"/>
     <tag k="place" v="state"/>
@@ -18333,6 +18361,7 @@
     <tag k="name:pt" v="Apúlia"/>
     <tag k="name:ru" v="Апулия"/>
     <tag k="name:scn" v="Pugghia"/>
+    <tag k="name:sk" v="Apúlia"/>
     <tag k="name:uk" v="Апулія"/>
     <tag k="place" v="state"/>
     <tag k="population" v="4091259"/>
@@ -18359,6 +18388,7 @@
     <tag k="name:ro" v="Sardinia"/>
     <tag k="name:ru" v="Сардиния"/>
     <tag k="name:scn" v="Sardigna"/>
+    <tag k="name:sk" v="Sardínia"/>
     <tag k="name:uk" v="Сардинія"/>
     <tag k="place" v="state"/>
     <tag k="population" v="1675411"/>
@@ -18381,6 +18411,7 @@
     <tag k="name:pl" v="Sycylia"/>
     <tag k="name:pt" v="Sicília"/>
     <tag k="name:ru" v="Сицилия"/>
+    <tag k="name:sk" v="Sicília"/>
     <tag k="name:sv" v="Sicilien"/>
     <tag k="place" v="state"/>
     <tag k="population" v="5051075"/>
@@ -18423,6 +18454,7 @@
     <tag k="name:it" v="Trentino-Alto Adige"/>
     <tag k="name:ru" v="Трентино - Альто-Адидже"/>
     <tag k="name:scn" v="Trintinu-Autu Adiggi"/>
+    <tag k="name:sk" v="Tridentsko-Horná Adiža/Južné Tirolsko"/>
     <tag k="name:uk" v="Трентіно-Альто-Адідже"/>
     <tag k="place" v="state"/>
     <tag k="population" v="1037114"/>
@@ -18483,6 +18515,7 @@
     <tag k="name:pt" v="Véneto"/>
     <tag k="name:ru" v="Венето"/>
     <tag k="name:scn" v="Venitu"/>
+    <tag k="name:sk" v="Benátsko"/>
     <tag k="name:sl" v="Benečija"/>
     <tag k="name:uk" v="Венето"/>
     <tag k="place" v="state"/>
@@ -18561,6 +18594,9 @@
   </node>
   <node id="1827474640" lat="38.3249599" lon="43.6589825">
     <tag k="is_in" v="Turkey"/>
+    <tag k="is_in:continent" v="Europe"/>
+    <tag k="is_in:country" v="Turkey"/>
+    <tag k="is_in:country_code" v="TR"/>
     <tag k="name" v="Van"/>
     <tag k="name:en" v="Van"/>
     <tag k="name:ku" v="Wan"/>
@@ -18742,6 +18778,9 @@
   </node>
   <node id="1827524661" lat="36.9666307" lon="37.4074178">
     <tag k="is_in" v="Turkey"/>
+    <tag k="is_in:continent" v="Europe"/>
+    <tag k="is_in:country" v="Turkey"/>
+    <tag k="is_in:country_code" v="TR"/>
     <tag k="name" v="Gaziantep"/>
     <tag k="name:en" v="Gaziantep"/>
     <tag k="name:ku" v="Entab"/>
@@ -18790,6 +18829,9 @@
   </node>
   <node id="1827540533" lat="39.4191717" lon="37.1012388">
     <tag k="is_in" v="Turkey"/>
+    <tag k="is_in:continent" v="Europe"/>
+    <tag k="is_in:country" v="Turkey"/>
+    <tag k="is_in:country_code" v="TR"/>
     <tag k="name" v="Sivas"/>
     <tag k="name:en" v="Sivas"/>
     <tag k="name:ku" v="Sêwas"/>
@@ -19269,7 +19311,7 @@
     <tag k="ref" v="KI"/>
     <tag k="wikipedia" v="id:Kalimantan Timur"/>
   </node>
-  <node id="1898293069" lat="-2.9472077" lon="115.3754532">
+  <node id="1898293069" lat="-2.9434835" lon="115.3756508">
     <tag k="is_in:continent" v="Asia"/>
     <tag k="is_in:country" v="Indonesia"/>
     <tag k="is_in:country_code" v="ID"/>
@@ -19736,21 +19778,21 @@
   </node>
   <node id="1937462502" lat="28.5273703" lon="-10.0315515">
     <tag k="admin_level" v="4"/>
-    <tag k="name" v="Guelmim-Es Semara كلميم ـ السمارة"/>
-    <tag k="name:en" v="Guelmim-Es Semara"/>
-    <tag k="name:fr" v="Guelmim-Es Smara"/>
-    <tag k="name:pl" v="Kulmim-Asmara"/>
-    <tag k="name:ru" v="Гулимим-Эс-Смара"/>
-    <tag k="name:uk" v="Гельмім-Ес-Смара"/>
+    <tag k="name" v="Guelmim-Oued Noun  كلميم-وادي نون"/>
+    <tag k="name:en" v="Guelmim-Oued Noun"/>
+    <tag k="name:fr" v="Guelmim-Oued Noun"/>
+    <tag k="name:pl" v="Kulmim-Oued Noun"/>
+    <tag k="name:ru" v="Гулимим-Эс"/>
+    <tag k="name:uk" v="Гельмім-"/>
     <tag k="place" v="state"/>
     <tag k="ref" v="14"/>
-    <tag k="wikipedia" v="en:Guelmim-Es Semara"/>
+    <tag k="wikipedia" v="fr:Guelmim-Oued_Noun"/>
   </node>
   <node id="1937463246" lat="26.7300936" lon="-12.9766773">
     <tag k="admin_level" v="4"/>
     <tag k="int_name" v="Laâyoune-Sakia El Hamra"/>
-    <tag k="name" v="Laâyoune-Sakia El Hamra العيون ـ"/>
-    <tag k="name:ar" v="العيون ـ"/>
+    <tag k="name" v="Laâyoune-Sakia El Hamra العيون الساقية الحمراء"/>
+    <tag k="name:ar" v="العيون الساقية الحمراء"/>
     <tag k="name:fr" v="Laâyoune-Sakia el Hamra"/>
     <tag k="name:lt" v="Alujuno-Sakija Alhamro regionas"/>
     <tag k="name:pl" v="Al-Ujun-Sakija al-Hamra"/>
@@ -19762,8 +19804,8 @@
   <node id="1937463971" lat="23.2837100" lon="-15.0202622">
     <tag k="admin_level" v="4"/>
     <tag k="int_name" v="Dakhla-Oued Ed-Dahab"/>
-    <tag k="name" v="Dakhla-Oued Ed-Dahab وادي الذهب"/>
-    <tag k="name:ar" v="وادي الذهب"/>
+    <tag k="name" v="Dakhla-Oued Ed-Dahab الداخلة وادي الذهب"/>
+    <tag k="name:ar" v="الداخلة وادي الذهب"/>
     <tag k="name:fr" v="Dakhla-Oued Ed-Dahab"/>
     <tag k="name:lt" v="Vadi ad-Dahabo-regionas"/>
     <tag k="name:pl" v="Wadi az-Zahab-"/>
@@ -19862,8 +19904,8 @@
   </node>
   <node id="1963671940" lat="33.8333136" lon="-4.8556382">
     <tag k="admin_level" v="4"/>
-    <tag k="int_name" v="Fès-Meknès"/>
-    <tag k="name" v="Fès-Meknès "/>
+    <tag k="int_name" v="Fès-Meknès "/>
+    <tag k="name" v="Fès-Meknès  فاس امکناس "/>
     <tag k="name:fr" v="Fès-Meknès"/>
     <tag k="name:pl" v="Fez-Meknès"/>
     <tag k="name:ru" v="Фес-"/>
@@ -19961,7 +20003,6 @@
     <tag k="source:population" v="http://www.statistik-bremen.de/aktuelle_statistiken/01b.htm, Oktober 2010"/>
     <tag k="state_code" v="HB"/>
     <tag k="wikipedia" v="de:Freie Hansestadt Bremen"/>
-    <tag k="wikipedia:de" v="Freie Hansestadt Bremen"/>
   </node>
   <node id="2050243275" lat="59.9606739" lon="30.1586551">
     <tag k="name" v="Санкт-Петербург"/>
@@ -23781,6 +23822,12 @@
     <tag k="unocha:pcode" v="LBR24060000665"/>
     <tag k="wikipedia" v="en:Margibi County"/>
   </node>
+  <node id="2912811859" lat="4.6355376" lon="-7.7281669">
+    <tag k="name" v="Maryland"/>
+    <tag k="place" v="state"/>
+    <tag k="unocha:pcode" v="LBR27100000020"/>
+    <tag k="wikipedia" v="en:Maryland County"/>
+  </node>
   <node id="2912811860" lat="6.4095537" lon="-10.6059403">
     <tag k="name" v="Montserrado"/>
     <tag k="place" v="state"/>
@@ -23911,7 +23958,7 @@
     <tag k="name:syr" v="ܐܪܒܝܠ"/>
     <tag k="name:uk" v="Ербіль"/>
     <tag k="place" v="state"/>
-    <tag k="wikipedia" v="en:Erbil_governorate"/>
+    <tag k="wikipedia" v="en:Erbil governorate"/>
   </node>
   <node id="2914855221" lat="35.2580676" lon="46.0123433">
     <tag k="name" v="Helebce"/>
@@ -24768,23 +24815,6 @@
     <tag k="place" v="state"/>
     <tag k="wikipedia" v="en:Pahang"/>
   </node>
-  <node id="3509364641" lat="-21.9549806" lon="-49.0232348">
-    <tag k="is_in:country" v="Brasil"/>
-    <tag k="is_in:country_code" v="BR"/>
-    <tag k="name" v="São Paulo"/>
-    <tag k="name:abbreviation" v="SP"/>
-    <tag k="name:fr" v="São Paulo"/>
-    <tag k="name:ja" v="サン・パウロ"/>
-    <tag k="name:ja_rm" v="san pauro"/>
-    <tag k="name:pt" v="São Paulo"/>
-    <tag k="name:ru" v="Сан-Паулу"/>
-    <tag k="name:uk" v="Сан-Паулу"/>
-    <tag k="place" v="state"/>
-    <tag k="ref" v="SP"/>
-    <tag k="short_name" v="SP"/>
-    <tag k="state_code" v="SP"/>
-    <tag k="wikipedia" v="pt:São Paulo"/>
-  </node>
   <node id="3513471344" lat="43.3133868" lon="-5.9419200">
     <tag k="admin_level" v="4"/>
     <tag k="description" v="Autonomous community within the kingdom of Spain"/>
@@ -24904,5 +24934,26 @@
     <tag k="state_code" v="CE"/>
     <tag k="wikipedia" v="en:Ceuta"/>
   </node>
+  <relation id="270332">
+    <member type="way" ref="275759231" role="outer"/>
+    <member type="way" ref="275759209" role="outer"/>
+    <member type="way" ref="275759219" role="outer"/>
+    <member type="way" ref="275759193" role="outer"/>
+    <member type="way" ref="275759179" role="outer"/>
+    <member type="way" ref="275759216" role="outer"/>
+    <member type="way" ref="275759171" role="outer"/>
+    <member type="way" ref="275759163" role="outer"/>
+    <member type="way" ref="107263949" role="outer"/>
+    <member type="way" ref="41264981" role="outer"/>
+    <member type="way" ref="41265019" role="outer"/>
+    <member type="way" ref="41264985" role="outer"/>
+    <tag k="ISO3166-2" v="BW-SE"/>
+    <tag k="admin_level" v="4"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="South-East District"/>
+    <tag k="name:en" v="South-East District"/>
+    <tag k="type" v="boundary"/>
+    <tag k="wikipedia" v="en:South-East District (Botswana)"/>
+  </relation>
 
 </osm>
