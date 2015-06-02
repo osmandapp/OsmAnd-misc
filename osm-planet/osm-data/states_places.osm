@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2015-06-01T21:32:02Z"/>
+<meta osm_base="2015-06-02T07:33:02Z"/>
 
   <node id="671022" lat="36.7014631" lon="-118.7559974">
     <tag k="alt_name:vi" v="California"/>
@@ -24961,26 +24961,5 @@
     <tag k="state_code" v="CE"/>
     <tag k="wikipedia" v="en:Ceuta"/>
   </node>
-  <relation id="270332">
-    <member type="way" ref="275759231" role="outer"/>
-    <member type="way" ref="275759209" role="outer"/>
-    <member type="way" ref="275759219" role="outer"/>
-    <member type="way" ref="275759193" role="outer"/>
-    <member type="way" ref="275759179" role="outer"/>
-    <member type="way" ref="275759216" role="outer"/>
-    <member type="way" ref="275759171" role="outer"/>
-    <member type="way" ref="275759163" role="outer"/>
-    <member type="way" ref="107263949" role="outer"/>
-    <member type="way" ref="41264981" role="outer"/>
-    <member type="way" ref="41265019" role="outer"/>
-    <member type="way" ref="41264985" role="outer"/>
-    <tag k="ISO3166-2" v="BW-SE"/>
-    <tag k="admin_level" v="4"/>
-    <tag k="boundary" v="administrative"/>
-    <tag k="name" v="South-East District"/>
-    <tag k="name:en" v="South-East District"/>
-    <tag k="type" v="boundary"/>
-    <tag k="wikipedia" v="en:South-East District (Botswana)"/>
-  </relation>
 
 </osm>
