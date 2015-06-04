@@ -124,7 +124,7 @@ convertFolder "$EXTRACT_DIR"/south-america.pbf  "polygons/south-america"
 
 # 8. Oceania and Australia
 convert $PLANET_FILE "polygons/" "australia-oceania"
-convertFolder "$EXTRACT_DIR"/australia-oceania.pbf "polygons/australia-oceania"
+convertFolder "$EXTRACT_DIR"/australia-oceania.pbf  "polygons/australia-oceania" "australia-oceania"
 
 # 8. USA and Canada
 convert $PLANET_FILE "polygons/" "north-america"
