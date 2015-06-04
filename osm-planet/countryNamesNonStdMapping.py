@@ -1,5 +1,6 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
+# DEPRECATED, see regions.xml
 
 global missingRegionNames
 missingRegionNames = {}
