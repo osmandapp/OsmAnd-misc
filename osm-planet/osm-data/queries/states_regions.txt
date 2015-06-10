@@ -15,6 +15,20 @@
 <id-query ref="1113276" type="relation"/> <print/> <!-- Ural Federal District -->
 <id-query ref="1075831" type="relation"/> <print/> <!-- Volga Federal District -->
 
+	<!-- Якутия -->
+  <id-query into="searchArea" ref="3600151234" type="area"/>
+  <union into="_">
+    <query into="_" type="node">
+      <has-kv k="admin_level" modv="" v="6"/>
+      <area-query from="searchArea" into="_" ref=""/>
+    </query>
+    <query into="_" type="relation">
+      <has-kv k="admin_level" modv="" v="6"/>
+      <area-query from="searchArea" into="_" ref=""/>
+    </query>
+  </union>
+  <print/>
+
 	<!-- Great Britain -->
 <id-query ref="151279" type="relation"/> <print/> <!-- East Midlands -->
 <id-query ref="151336" type="relation"/> <print/> <!-- East of England -->
