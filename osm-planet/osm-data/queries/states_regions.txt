@@ -18,10 +18,33 @@
 	<!-- Якутия -->
   <id-query into="searchArea" ref="3600151234" type="area"/>
   <union into="_">
-    <query into="_" type="node">
+    <query into="_" type="relation">
       <has-kv k="admin_level" modv="" v="6"/>
       <area-query from="searchArea" into="_" ref=""/>
     </query>
+  </union>
+  <print/>
+	<!-- Магаданская область -->
+  <id-query into="searchArea" ref="3600151228" type="area"/>
+  <union into="_">
+    <query into="_" type="relation">
+      <has-kv k="admin_level" modv="" v="6"/>
+      <area-query from="searchArea" into="_" ref=""/>
+    </query>
+  </union>
+  <print/>
+	<!-- Чукотка -->
+  <id-query into="searchArea" ref="3600151231" type="area"/>
+  <union into="_">
+    <query into="_" type="relation">
+      <has-kv k="admin_level" modv="" v="6"/>
+      <area-query from="searchArea" into="_" ref=""/>
+    </query>
+  </union>
+  <print/>
+	<!-- Республика Коми -->
+  <id-query into="searchArea" ref="3600115136" type="area"/>
+  <union into="_">
     <query into="_" type="relation">
       <has-kv k="admin_level" modv="" v="6"/>
       <area-query from="searchArea" into="_" ref=""/>
