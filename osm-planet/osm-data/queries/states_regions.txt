@@ -15,7 +15,7 @@
 <id-query ref="1113276" type="relation"/> <print/> <!-- Ural Federal District -->
 <id-query ref="1075831" type="relation"/> <print/> <!-- Volga Federal District -->
 
-	<!-- Якутия -->
+	<!-- Якутия Yakutia -->
   <id-query into="searchArea" ref="3600151234" type="area"/>
   <union into="_">
     <query into="_" type="relation">
@@ -24,7 +24,7 @@
     </query>
   </union>
   <print/>
-	<!-- Магаданская область -->
+	<!-- Магаданская область Magadan oblast -->
   <id-query into="searchArea" ref="3600151228" type="area"/>
   <union into="_">
     <query into="_" type="relation">
@@ -33,7 +33,7 @@
     </query>
   </union>
   <print/>
-	<!-- Чукотка -->
+	<!-- Чукотка Chukotka -->
   <id-query into="searchArea" ref="3600151231" type="area"/>
   <union into="_">
     <query into="_" type="relation">
@@ -42,8 +42,26 @@
     </query>
   </union>
   <print/>
-	<!-- Республика Коми -->
+	<!-- Komi Republic -->
   <id-query into="searchArea" ref="3600115136" type="area"/>
+  <union into="_">
+    <query into="_" type="relation">
+      <has-kv k="admin_level" modv="" v="6"/>
+      <area-query from="searchArea" into="_" ref=""/>
+    </query>
+  </union>
+  <print/>
+	<!-- Krasnoyarsk Krai -->
+  <id-query into="searchArea" ref="3600190090" type="area"/>
+  <union into="_">
+    <query into="_" type="relation">
+      <has-kv k="admin_level" modv="" v="6"/>
+      <area-query from="searchArea" into="_" ref=""/>
+    </query>
+  </union>
+  <print/>
+	<!-- khanty-mansiisk -->
+  <id-query into="searchArea" ref="3600140296" type="area"/>
   <union into="_">
     <query into="_" type="relation">
       <has-kv k="admin_level" modv="" v="6"/>
