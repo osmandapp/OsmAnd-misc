@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2015-05-13T20:51:02Z"/>
+<meta osm_base="2015-06-12T21:32:02Z"/>
 
   <node id="26036352" lat="12.7503486" lon="122.7312101">
     <tag k="alt_name:vi" v="Phi Luật Tân"/>
@@ -4064,7 +4064,7 @@
     <tag k="population" v="28334135"/>
     <tag k="wikipedia" v="en:Malaysia"/>
   </node>
-  <node id="249399402" lat="28.1083178" lon="84.0916787">
+  <node id="249399402" lat="28.1082107" lon="84.0917515">
     <tag k="capital_city" v="Kathmandu"/>
     <tag k="country_code_fips" v="NP"/>
     <tag k="country_code_iso3166_1_alpha_2" v="NP"/>
@@ -5243,7 +5243,7 @@
     <tag k="official_name:vi" v="Cộng hoà Trinidad và Tobago"/>
     <tag k="place" v="country"/>
     <tag k="population" v="1328019"/>
-    <tag k="wikipedia" v="en:Trinidad_and_Tobago"/>
+    <tag k="wikipedia" v="en:Trinidad and Tobago"/>
   </node>
   <node id="249399459" lat="16.3471243" lon="47.8915271">
     <tag k="alt_name" v="الجمهورية اليمنية"/>
@@ -5965,7 +5965,7 @@
     <tag k="official_name:vi" v="Vương quốc Na Uy"/>
     <tag k="place" v="country"/>
     <tag k="population" v="4785200"/>
-    <tag k="wikipedia:de" v="Norwegen"/>
+    <tag k="wikipedia" v="de:Norwegen"/>
     <tag k="wikipedia:en" v="Norway"/>
     <tag k="wikipedia:es" v="Noruega"/>
     <tag k="wikipedia:fr" v="Norvège"/>
@@ -8660,7 +8660,7 @@
     <tag k="name:zh-yue" v="立陶宛"/>
     <tag k="name:zh_pinyin" v="Lìtáowǎn"/>
     <tag k="name:zu" v="i-Lithuania"/>
-    <tag k="official_name" v="Republic of Lithuania"/>
+    <tag k="official_name" v="Lietuvos Respublika"/>
     <tag k="official_name:az" v="Litva Respublikası"/>
     <tag k="official_name:be" v="Літоўская Рэспубліка"/>
     <tag k="official_name:be-tarask" v="Летувіская Рэспубліка"/>
@@ -8680,6 +8680,7 @@
     <tag k="official_name:vi" v="Cộng hòa Litva"/>
     <tag k="place" v="country"/>
     <tag k="population" v="3565205"/>
+    <tag k="wikipedia" v="lt:Lietuva"/>
   </node>
   <node id="424297810" lat="41.6171214" lon="21.7168387">
     <tag k="ISO3166-1" v="MK"/>
@@ -8689,7 +8690,7 @@
     <tag k="country_code_fips" v="MK"/>
     <tag k="country_code_iso3166_1_alpha_2" v="MK"/>
     <tag k="geonames:id" v="718075"/>
-    <tag k="int_name" v="Macedonia"/>
+    <tag k="int_name" v="The former Yugoslav Republic of Macedonia"/>
     <tag k="is_in:continent" v="Europe"/>
     <tag k="name" v="Македонија"/>
     <tag k="name:UN:ar" v="جمهورية مقدونيا اليوغوسلافية السابقة"/>
@@ -9567,6 +9568,7 @@
     <tag k="name:to" v="Sūteni"/>
     <tag k="name:tr" v="Sudan"/>
     <tag k="name:tt" v="Судан"/>
+    <tag k="name:tzl" v="Sudan"/>
     <tag k="name:uk" v="Судан"/>
     <tag k="name:ur" v="سوڈان"/>
     <tag k="name:uz" v="Sudan"/>
@@ -18123,6 +18125,7 @@
     <tag k="name:tpi" v="Saipras"/>
     <tag k="name:tr" v="Kıbrıs Cumhuriyeti"/>
     <tag k="name:tt" v="Кипр Республикасы"/>
+    <tag k="name:tzl" v="Cüpris"/>
     <tag k="name:udm" v="Кипр"/>
     <tag k="name:ug" v="سىپرۇس"/>
     <tag k="name:uk" v="Кіпр"/>
@@ -27999,6 +28002,7 @@
     <tag k="name:tr" v="Tunus"/>
     <tag k="name:ts" v="Tunisia"/>
     <tag k="name:tt" v="Тунис"/>
+    <tag k="name:tzl" v="Tünis"/>
     <tag k="name:udm" v="Тунис"/>
     <tag k="name:ug" v="تۇنىس"/>
     <tag k="name:uk" v="Туніс"/>
@@ -35549,6 +35553,7 @@
     <tag k="name:es" v="Antártida"/>
     <tag k="name:fi" v="Etelämanner"/>
     <tag k="name:fr" v="Antarctique"/>
+    <tag k="name:fy" v="Antarktika"/>
     <tag k="name:gv" v="Yn Austrail"/>
     <tag k="name:he" v="אנטרקטיקה"/>
     <tag k="name:hr" v="Antartika"/>
@@ -38606,7 +38611,6 @@
     <tag k="status" v="unrecognized_state"/>
     <tag k="wikidata" v="Q244165"/>
     <tag k="wikipedia" v="en:Nagorno-Karabakh Republic"/>
-    <tag k="wikipedia:en" v="Nagorno-Karabakh Republic"/>
     <tag k="wikipedia:no" v="Nagorno-Karabakh"/>
     <tag k="wikipedia:ru" v="Нагорно-Карабахская Республика"/>
   </node>
@@ -39484,6 +39488,7 @@
     <tag k="name:tr" v="Malezya"/>
     <tag k="name:tt" v="Малайзия"/>
     <tag k="name:tw" v="Malaysia"/>
+    <tag k="name:tzl" v="Malaiçía"/>
     <tag k="name:udm" v="Малайзия"/>
     <tag k="name:ug" v="مالايسىيا"/>
     <tag k="name:uk" v="Малайзія"/>
@@ -40047,6 +40052,7 @@
     <tag k="name:tr" v="Brezilya"/>
     <tag k="name:tt" v="Бразилия"/>
     <tag k="name:ty" v="Brazil"/>
+    <tag k="name:tzl" v="Brasil"/>
     <tag k="name:ug" v="برازىلىيە"/>
     <tag k="name:uk" v="Бразилія"/>
     <tag k="name:ur" v="برازیلی"/>
@@ -40104,110 +40110,6 @@
   <node id="3512359690" lat="21.8662322" lon="33.6927830">
     <tag k="name" v="Kingdom of North Sudan"/>
     <tag k="place" v="country"/>
-  </node>
-  <node id="3515968256" lat="35.8953019" lon="14.5042850">
-    <tag k="capital_city" v="Valleta"/>
-    <tag k="country_code_fips" v="MT"/>
-    <tag k="country_code_iso3166_1_alpha_2" v="MT"/>
-    <tag k="geonames:id" v="2562770"/>
-    <tag k="int_name" v="Malta"/>
-    <tag k="is_in:continent" v="Europe"/>
-    <tag k="name" v="Malta"/>
-    <tag k="name:ak" v="Mɔlta"/>
-    <tag k="name:am" v="ማልታ"/>
-    <tag k="name:ar" v="مالطا"/>
-    <tag k="name:be" v="Мальта"/>
-    <tag k="name:bg" v="Малта"/>
-    <tag k="name:bm" v="Malti"/>
-    <tag k="name:bn" v="মাল্টা"/>
-    <tag k="name:bo" v="མལ་ཊ།"/>
-    <tag k="name:br" v="Malta"/>
-    <tag k="name:ca" v="Malta"/>
-    <tag k="name:chr" v="ᎹᎵᏔ"/>
-    <tag k="name:cs" v="Malta"/>
-    <tag k="name:de" v="Malta"/>
-    <tag k="name:dz" v="མཱལ་ཊ"/>
-    <tag k="name:ee" v="Malta nutome"/>
-    <tag k="name:el" v="Μάλτα"/>
-    <tag k="name:en" v="Malta"/>
-    <tag k="name:eo" v="Malto"/>
-    <tag k="name:es" v="Malta"/>
-    <tag k="name:fa" v="مالت"/>
-    <tag k="name:ff" v="Malte"/>
-    <tag k="name:fi" v="Malta"/>
-    <tag k="name:fr" v="Malte"/>
-    <tag k="name:ga" v="Málta"/>
-    <tag k="name:gu" v="માલ્ટા"/>
-    <tag k="name:gv" v="Yn Valta"/>
-    <tag k="name:haw" v="Malata"/>
-    <tag k="name:he" v="מלטה"/>
-    <tag k="name:hi" v="माल्टा"/>
-    <tag k="name:hr" v="Malta"/>
-    <tag k="name:hu" v="Málta"/>
-    <tag k="name:hy" v="Մալթա"/>
-    <tag k="name:is" v="Malta"/>
-    <tag k="name:it" v="Malta"/>
-    <tag k="name:ja" v="マルタ"/>
-    <tag k="name:ka" v="მალტა"/>
-    <tag k="name:kab" v="Malṭ"/>
-    <tag k="name:km" v="ម៉ាល់តា"/>
-    <tag k="name:kn" v="ಮಾಲ್ಟಾ"/>
-    <tag k="name:ko" v="몰타"/>
-    <tag k="name:ks" v="مالٹا"/>
-    <tag k="name:ku" v="Malta"/>
-    <tag k="name:la" v="Melita"/>
-    <tag k="name:lg" v="Malita"/>
-    <tag k="name:ln" v="Malitɛ"/>
-    <tag k="name:lo" v="ມັນຕາ"/>
-    <tag k="name:lv" v="Malta"/>
-    <tag k="name:mk" v="Малта"/>
-    <tag k="name:ml" v="മാൾട്ട"/>
-    <tag k="name:mn" v="Мальта"/>
-    <tag k="name:mr" v="माल्टा"/>
-    <tag k="name:ne" v="माल्टा"/>
-    <tag k="name:no" v="Malta"/>
-    <tag k="name:or" v="ମାଲ୍ଟା"/>
-    <tag k="name:pl" v="Malta"/>
-    <tag k="name:rn" v="Malita"/>
-    <tag k="name:ru" v="Мальта"/>
-    <tag k="name:se" v="Málta"/>
-    <tag k="name:sg" v="Mâlta"/>
-    <tag k="name:si" v="මෝල්ටාව"/>
-    <tag k="name:sk" v="Malta"/>
-    <tag k="name:so" v="Maalda"/>
-    <tag k="name:sq" v="Maltë"/>
-    <tag k="name:sr" v="Малта"/>
-    <tag k="name:sv" v="Malta"/>
-    <tag k="name:ta" v="மால்டா"/>
-    <tag k="name:te" v="మాల్టా"/>
-    <tag k="name:tg" v="Малта"/>
-    <tag k="name:th" v="ประเทศมอลตา"/>
-    <tag k="name:ti" v="ማልታ"/>
-    <tag k="name:to" v="Malita"/>
-    <tag k="name:uk" v="Мальта"/>
-    <tag k="name:ur" v="مالٹا"/>
-    <tag k="name:vi" v="Malta"/>
-    <tag k="name:yo" v="Orílẹ́ède Malata"/>
-    <tag k="name:zh" v="马尔他"/>
-    <tag k="name:zh_pinyin" v="Mǎěrtā"/>
-    <tag k="name:zu" v="i-Malta"/>
-    <tag k="official_name:be" v="Рэспубліка Мальта"/>
-    <tag k="official_name:ca" v="República de Malta"/>
-    <tag k="official_name:el" v="Δημοκρατία της Μάλτας"/>
-    <tag k="official_name:id" v="Republik Malta"/>
-    <tag k="official_name:ja" v="マルタ共和国"/>
-    <tag k="official_name:ku" v="Komara Maltayê"/>
-    <tag k="official_name:lb" v="Republik Malta"/>
-    <tag k="official_name:lt" v="Maltos Respublika"/>
-    <tag k="official_name:lv" v="Maltas Republika"/>
-    <tag k="official_name:no" v="Republikken Malta"/>
-    <tag k="official_name:ru" v="Республика Мальта"/>
-    <tag k="official_name:sk" v="Maltská republika"/>
-    <tag k="official_name:sr" v="Република Малта"/>
-    <tag k="official_name:sv" v="Republiken Malta"/>
-    <tag k="official_name:vi" v="Cộng hòa Malta"/>
-    <tag k="place" v="country"/>
-    <tag k="population" v="417608"/>
   </node>
   <node id="36966057" lat="2.0000003" lon="15.9999997">
     <tag k="alt_name:vi" v="Phi Châu"/>

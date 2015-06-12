@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2015-06-02T07:33:02Z"/>
+<meta osm_base="2015-06-12T21:34:02Z"/>
 
   <node id="671022" lat="36.7014631" lon="-118.7559974">
     <tag k="alt_name:vi" v="California"/>
@@ -2997,7 +2997,7 @@
     <tag k="ref" v="NS"/>
     <tag k="source" v="GNS"/>
     <tag k="state_code" v="NS"/>
-    <tag k="wikipedia:hu" v="Új-Skócia"/>
+    <tag k="wikipedia" v="hu:Új-Skócia"/>
   </node>
   <node id="305700705" lat="55.0000001" lon="-97.0000001">
     <tag k="gns:dsg" v="ADM1"/>
@@ -10732,9 +10732,7 @@
     <tag k="ref" v="RJ"/>
     <tag k="state_code" v="RJ"/>
   </node>
-  <node id="504800102" lat="-19.5687656" lon="-40.1721991">
-    <tag k="is_in:country" v="Brasil"/>
-    <tag k="is_in:country_code" v="BR"/>
+  <node id="504800102" lat="-19.5687682" lon="-40.1721991">
     <tag k="name" v="Espírito Santo"/>
     <tag k="name:abbreviation" v="ES"/>
     <tag k="name:ru" v="Эспириту-Санту"/>
@@ -12422,27 +12420,21 @@
   </node>
   <node id="618278412" lat="-37.2314643" lon="-65.3972948">
     <tag k="is_in" v="Argentina, South America"/>
-    <tag k="is_in:continent" v="South America"/>
     <tag k="is_in:country" v="Argentina"/>
     <tag k="is_in:country_code" v="AR"/>
     <tag k="name" v="La Pampa"/>
     <tag k="name:abbreviation" v="L"/>
     <tag k="name:ru" v="Ла-Пампа"/>
-    <tag k="name:uk" v="Ла-Пампа"/>
     <tag k="place" v="state"/>
     <tag k="ref" v="L"/>
   </node>
   <node id="618279734" lat="-36.3805040" lon="-60.3888875">
     <tag k="is_in" v="Argentina, South America"/>
-    <tag k="is_in:continent" v="South America"/>
     <tag k="is_in:country" v="Argentina"/>
     <tag k="is_in:country_code" v="AR"/>
     <tag k="name" v="Buenos Aires"/>
     <tag k="name:abbreviation" v="B"/>
-    <tag k="name:en" v="Buenos Aires"/>
-    <tag k="name:pl" v="Buenos Aires"/>
     <tag k="name:ru" v="Буэнос-Айрес"/>
-    <tag k="name:uk" v="Буенос-Айрес"/>
     <tag k="place" v="state"/>
     <tag k="ref" v="B"/>
   </node>
@@ -12453,7 +12445,6 @@
     <tag k="name" v="San Luis"/>
     <tag k="name:abbreviation" v="D"/>
     <tag k="name:ru" v="Сан-Луис"/>
-    <tag k="name:uk" v="Сан-Луїс"/>
     <tag k="place" v="state"/>
     <tag k="ref" v="D"/>
   </node>
@@ -12463,9 +12454,35 @@
     <tag k="is_in:country_code" v="AR"/>
     <tag k="name" v="Córdoba"/>
     <tag k="name:abbreviation" v="X"/>
+    <tag k="name:ar" v="كوردوبا"/>
+    <tag k="name:bat-smg" v="Kuorduoba"/>
+    <tag k="name:be" v="Горад Кордава"/>
+    <tag k="name:bg" v="Кордоба"/>
+    <tag k="name:ce" v="Кордова"/>
+    <tag k="name:el" v="Κόρδοβα"/>
+    <tag k="name:eo" v="Kordobo"/>
+    <tag k="name:fa" v="کوردوبا، آرژانتین"/>
+    <tag k="name:he" v="קורדובה"/>
+    <tag k="name:hy" v="Կորդովա"/>
+    <tag k="name:it" v="Cordova"/>
     <tag k="name:ja" v="コルドバ"/>
+    <tag k="name:ka" v="კორდოვა"/>
+    <tag k="name:ko" v="코르도바"/>
+    <tag k="name:la" v="Corduba"/>
+    <tag k="name:lmo" v="Còrdoba"/>
+    <tag k="name:lt" v="Kordoba"/>
+    <tag k="name:lv" v="Kordova"/>
+    <tag k="name:mn" v="Кордова"/>
+    <tag k="name:mr" v="कोर्दोबा"/>
+    <tag k="name:os" v="Кордовæ"/>
+    <tag k="name:pnb" v="کاردوبا"/>
     <tag k="name:ru" v="Кордова"/>
+    <tag k="name:sr" v="Кордоба"/>
+    <tag k="name:th" v="กอร์โดบา"/>
     <tag k="name:uk" v="Кордова"/>
+    <tag k="name:ur" v="قرطبہ"/>
+    <tag k="name:yi" v="קארדאבע"/>
+    <tag k="name:zh" v="科尔多瓦"/>
     <tag k="place" v="state"/>
     <tag k="ref" v="X"/>
   </node>
@@ -12475,6 +12492,8 @@
     <tag k="is_in:country_code" v="AR"/>
     <tag k="name" v="Mendoza"/>
     <tag k="name:abbreviation" v="M"/>
+    <tag k="name:en" v="Mendoza"/>
+    <tag k="name:he" v="מנדוסה"/>
     <tag k="name:ru" v="Мендоса"/>
     <tag k="name:uk" v="Мендоса"/>
     <tag k="place" v="state"/>
@@ -12486,13 +12505,10 @@
     <tag k="is_in:country_code" v="AR"/>
     <tag k="name" v="Neuquén"/>
     <tag k="name:abbreviation" v="NQN"/>
-    <tag k="name:ru" v="Неукен"/>
-    <tag k="name:uk" v="Неукен"/>
     <tag k="place" v="state"/>
     <tag k="ref" v="Q"/>
   </node>
   <node id="618300940" lat="-54.4071064" lon="-67.8974895">
-    <tag k="addr:country" v="AR"/>
     <tag k="is_in" v="Argentina, South America"/>
     <tag k="is_in:country" v="Argentina"/>
     <tag k="is_in:country_code" v="AR"/>
@@ -12501,10 +12517,8 @@
     <tag k="name:de" v="Feuerland"/>
     <tag k="name:fr" v="Terre de Feu"/>
     <tag k="name:it" v="Terra del Fuoco"/>
-    <tag k="name:pl" v="Ziemia Ognista"/>
     <tag k="name:pt" v="Terra do Fogo"/>
     <tag k="name:ru" v="Огненная Земля"/>
-    <tag k="name:uk" v="Вогняна Земля"/>
     <tag k="official_name" v="Provincia de Tierra del Fuego, Antártida e Islas del Atlántico Sur"/>
     <tag k="official_name:de" v="Provinz Feuerland, Antarktis und südatlantische Inseln"/>
     <tag k="place" v="state"/>
@@ -12512,14 +12526,12 @@
     <tag k="wikipedia" v="en:Tierra del Fuego Province, Argentina"/>
   </node>
   <node id="618300941" lat="-48.5693327" lon="-70.1606767">
-    <tag k="addr:country" v="AR"/>
     <tag k="is_in" v="Argentina, South America"/>
     <tag k="is_in:country" v="Argentina"/>
     <tag k="is_in:country_code" v="AR"/>
     <tag k="name" v="Santa Cruz"/>
     <tag k="name:abbreviation" v="Z"/>
     <tag k="name:ru" v="Санта-Крус"/>
-    <tag k="name:uk" v="Санта-Крус"/>
     <tag k="place" v="state"/>
     <tag k="ref" v="Z"/>
   </node>
@@ -12530,19 +12542,16 @@
     <tag k="name" v="Chubut"/>
     <tag k="name:abbreviation" v="U"/>
     <tag k="name:ru" v="Чубут"/>
-    <tag k="name:uk" v="Чубут"/>
     <tag k="place" v="state"/>
     <tag k="ref" v="U"/>
   </node>
   <node id="618300943" lat="-40.4811973" lon="-67.6145911">
-    <tag k="addr:country" v="AR"/>
     <tag k="is_in" v="Argentina, South America"/>
     <tag k="is_in:country" v="Argentina"/>
     <tag k="is_in:country_code" v="AR"/>
     <tag k="name" v="Río Negro"/>
     <tag k="name:abbreviation" v="R"/>
     <tag k="name:ru" v="Рио-Негро"/>
-    <tag k="name:uk" v="Ріо-Неґро"/>
     <tag k="place" v="state"/>
     <tag k="ref" v="R"/>
   </node>
@@ -12553,7 +12562,6 @@
     <tag k="name" v="San Juan"/>
     <tag k="name:abbreviation" v="J"/>
     <tag k="name:ru" v="Сан-Хуан"/>
-    <tag k="name:uk" v="Сан-Хуан"/>
     <tag k="place" v="state"/>
     <tag k="ref" v="J"/>
   </node>
@@ -12564,7 +12572,6 @@
     <tag k="name" v="La Rioja"/>
     <tag k="name:abbreviation" v="F"/>
     <tag k="name:ru" v="Ла-Риоха"/>
-    <tag k="name:uk" v="Ла-Ріоха"/>
     <tag k="place" v="state"/>
     <tag k="ref" v="F"/>
   </node>
@@ -12575,7 +12582,6 @@
     <tag k="name" v="Entre Ríos"/>
     <tag k="name:abbreviation" v="E"/>
     <tag k="name:ru" v="Междуречье"/>
-    <tag k="name:uk" v="Ентре-Ріос"/>
     <tag k="place" v="state"/>
     <tag k="ref" v="E"/>
   </node>
@@ -12585,6 +12591,8 @@
     <tag k="is_in:country_code" v="AR"/>
     <tag k="name" v="Santa Fe"/>
     <tag k="name:abbreviation" v="S"/>
+    <tag k="name:en" v="Santa Fe"/>
+    <tag k="name:he" v="סנטה פה"/>
     <tag k="name:ru" v="Санта-Фе"/>
     <tag k="name:uk" v="Санта-Фе"/>
     <tag k="place" v="state"/>
@@ -12596,8 +12604,6 @@
     <tag k="is_in:country_code" v="AR"/>
     <tag k="name" v="Corrientes"/>
     <tag k="name:abbreviation" v="W"/>
-    <tag k="name:ru" v="Корриентес"/>
-    <tag k="name:uk" v="Коррієнтес"/>
     <tag k="place" v="state"/>
     <tag k="ref" v="W"/>
   </node>
@@ -12608,7 +12614,6 @@
     <tag k="name" v="Catamarca"/>
     <tag k="name:abbreviation" v="K"/>
     <tag k="name:ru" v="Катамарка"/>
-    <tag k="name:uk" v="Катамарка"/>
     <tag k="place" v="state"/>
     <tag k="ref" v="K"/>
   </node>
@@ -12619,7 +12624,6 @@
     <tag k="name" v="Santiago del Estero"/>
     <tag k="name:abbreviation" v="G"/>
     <tag k="name:ru" v="Сантьяго-дель-Эстеро"/>
-    <tag k="name:uk" v="Сантьяго-дель-Естеро"/>
     <tag k="place" v="state"/>
     <tag k="ref" v="G"/>
   </node>
@@ -12630,7 +12634,6 @@
     <tag k="name" v="Salta"/>
     <tag k="name:abbreviation" v="A"/>
     <tag k="name:ru" v="Сальта"/>
-    <tag k="name:uk" v="Сальта"/>
     <tag k="place" v="state"/>
     <tag k="ref" v="A"/>
   </node>
@@ -12641,7 +12644,6 @@
     <tag k="name" v="Chaco"/>
     <tag k="name:abbreviation" v="H"/>
     <tag k="name:ru" v="Чако"/>
-    <tag k="name:uk" v="Чако"/>
     <tag k="place" v="state"/>
     <tag k="ref" v="H"/>
   </node>
@@ -12652,7 +12654,6 @@
     <tag k="name" v="Formosa"/>
     <tag k="name:abbreviation" v="P"/>
     <tag k="name:ru" v="Формоса"/>
-    <tag k="name:uk" v="Формоса"/>
     <tag k="place" v="state"/>
     <tag k="ref" v="P"/>
   </node>
@@ -12663,7 +12664,6 @@
     <tag k="name" v="Misiones"/>
     <tag k="name:abbreviation" v="N"/>
     <tag k="name:ru" v="Мисьонес"/>
-    <tag k="name:uk" v="Місьйонес"/>
     <tag k="place" v="state"/>
     <tag k="ref" v="N"/>
   </node>
@@ -16733,8 +16733,6 @@
     <tag k="is_in:country_code" v="AR"/>
     <tag k="name" v="Tucumán"/>
     <tag k="name:abbreviation" v="T"/>
-    <tag k="name:ru" v="Тукуман"/>
-    <tag k="name:uk" v="Тукуман"/>
     <tag k="place" v="state"/>
   </node>
   <node id="1366625254" lat="40.7447626" lon="72.3241535">
@@ -19925,11 +19923,12 @@
   <node id="1963671940" lat="33.8333136" lon="-4.8556382">
     <tag k="admin_level" v="4"/>
     <tag k="int_name" v="Fès-Meknès "/>
-    <tag k="name" v="Fès-Meknès  فاس امکناس "/>
+    <tag k="name" v="Fès-Meknès فاس - مكناس"/>
+    <tag k="name:ar" v="فاس - مكناس"/>
     <tag k="name:fr" v="Fès-Meknès"/>
     <tag k="name:pl" v="Fez-Meknès"/>
-    <tag k="name:ru" v="Фес-"/>
-    <tag k="name:uk" v="Фес-"/>
+    <tag k="name:ru" v="Фес-Мекне́с"/>
+    <tag k="name:uk" v="Фес-Мекне́с"/>
     <tag k="place" v="state"/>
     <tag k="ref" v="03"/>
   </node>
@@ -21381,7 +21380,7 @@
     <tag k="is_in" v="Senegal"/>
     <tag k="is_in:country" v="Senegal"/>
     <tag k="is_in:country_code" v="SN"/>
-    <tag k="name" v="Kédougou"/>
+    <tag k="name" v="Région de Kédougou"/>
     <tag k="place" v="state"/>
   </node>
   <node id="2242821244" lat="15.0028849" lon="-13.9240088">
@@ -24960,6 +24959,15 @@
     <tag k="ref" v="CE"/>
     <tag k="state_code" v="CE"/>
     <tag k="wikipedia" v="en:Ceuta"/>
+  </node>
+  <node id="3573560593" lat="-23.3161458" lon="-65.7595288">
+    <tag k="is_in" v="Argentina, South America"/>
+    <tag k="is_in:country" v="Argentina"/>
+    <tag k="is_in:country_code" v="AR"/>
+    <tag k="name" v="Jujuy"/>
+    <tag k="name:abbreviation" v="Y"/>
+    <tag k="place" v="state"/>
+    <tag k="ref" v="Y"/>
   </node>
 
 </osm>

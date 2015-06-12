@@ -90,6 +90,27 @@
 <id-query ref="151283" type="relation"/> <print/> <!-- West Midlands -->
 <id-query ref="151012" type="relation"/> <print/> <!-- Yorkshire and the Humber -->
 
+	<!-- China -->
+	<!-- Xinjiang  -->
+  <id-query into="searchArea" ref="3600153310" type="area"/>
+  <union into="_">
+    <query into="_" type="relation">
+      <has-kv k="admin_level" modv="" v="5"/>
+      <area-query from="searchArea" into="_" ref=""/>
+    </query>
+  </union>
+  <print/>
+	<!-- Xizang (Tibet Autonomous Region) -->
+  <id-query into="searchArea" ref="3600153292" type="area"/>
+  <union into="_">
+    <query into="_" type="relation">
+      <has-kv k="admin_level" modv="" v="5"/>
+      <area-query from="searchArea" into="_" ref=""/>
+    </query>
+  </union>
+  <print/>
+
+
 	<!-- Japan -->
 <id-query ref="1835900" type="relation"/> <print/> <!-- Tohoku -->
 <id-query ref="1847663" type="relation"/> <print/> <!-- Shikoku Region -->
