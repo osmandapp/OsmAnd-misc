@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2015-06-12T21:25:01Z" areas="2015-06-11T03:49:02Z"/>
+<meta osm_base="2015-06-13T16:16:02Z" areas="2015-06-12T01:53:02Z"/>
 
   <relation id="8636">
     <tag k="ISO3166-2" v="FR-A"/>
@@ -1039,6 +1039,7 @@
     <tag k="ref:ISTAT" v="19"/>
     <tag k="short_name" v="SIC"/>
     <tag k="type" v="boundary"/>
+    <tag k="wikidata" v="Q1460"/>
     <tag k="wikipedia" v="it:Sicilia"/>
   </relation>
   <relation id="40095">
@@ -18077,6 +18078,7 @@
     <tag k="name:os" v="Бетъырбух"/>
     <tag k="name:pl" v="Sankt Petersburg"/>
     <tag k="name:pt" v="São Petersburgo"/>
+    <tag k="name:ru" v="Санкт-Петербург"/>
     <tag k="name:sk" v="Petrohrad"/>
     <tag k="name:sl" v="Sankt Peterburg"/>
     <tag k="name:sr" v="Санкт Петербург"/>
@@ -18727,6 +18729,7 @@
     <tag k="name" v="량강도"/>
     <tag k="name:en" v="Ryanggang"/>
     <tag k="name:ko" v="량강도"/>
+    <tag k="name:ru" v="Янгандо"/>
     <tag k="type" v="boundary"/>
   </relation>
   <relation id="356386">
@@ -18768,6 +18771,7 @@
     <tag k="name" v="자강도"/>
     <tag k="name:en" v="Chagang"/>
     <tag k="name:ko" v="자강도"/>
+    <tag k="name:ru" v="Чагандо"/>
     <tag k="type" v="boundary"/>
   </relation>
   <relation id="356419">
@@ -18863,6 +18867,7 @@
     <tag k="name:en" v="Kumgang-gun/Kumgangsan Tourist Region"/>
     <tag k="name:ko" v="금강군/금강산관광지구"/>
     <tag k="name:ko_rm" v="Kŭmgang-san Kwanwang Chigu"/>
+    <tag k="name:ru" v="Туристический регион Кымгансан"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q495431"/>
   </relation>
@@ -45052,6 +45057,7 @@
     <tag k="name" v="Oğuz rayonu"/>
     <tag k="name:ru" v="Огузский район"/>
     <tag k="type" v="boundary"/>
+    <tag k="wikipedia" v="de:Oğuz (Rayon)"/>
   </relation>
   <relation id="3764565">
     <tag k="admin_level" v="4"/>
@@ -45066,6 +45072,7 @@
     <tag k="name" v="Qax rayonu"/>
     <tag k="name:ru" v="Кахский район"/>
     <tag k="type" v="boundary"/>
+    <tag k="wikipedia" v="de:Qax (Rayon)"/>
   </relation>
   <relation id="3764567">
     <tag k="ISO3166-2" v="AZ-QAZ"/>
@@ -45082,6 +45089,7 @@
     <tag k="name" v="Qobustan rayonu"/>
     <tag k="name:ru" v="Гобустанский район"/>
     <tag k="type" v="boundary"/>
+    <tag k="wikipedia" v="de:Qobustan (Rayon)"/>
   </relation>
   <relation id="3764569">
     <tag k="admin_level" v="4"/>
@@ -45096,6 +45104,7 @@
     <tag k="name" v="Quba rayonu"/>
     <tag k="name:ru" v="Кубинский район"/>
     <tag k="type" v="boundary"/>
+    <tag k="wikipedia" v="de:Quba (Rayon)"/>
   </relation>
   <relation id="3764571">
     <tag k="ISO3166-2" v="AZ-QUS"/>
@@ -45104,6 +45113,7 @@
     <tag k="name" v="Qusar rayonu"/>
     <tag k="name:ru" v="Кусарский район"/>
     <tag k="type" v="boundary"/>
+    <tag k="wikipedia" v="de:Qusar (Rayon)"/>
   </relation>
   <relation id="3764572">
     <tag k="ISO3166-2" v="AZ-QAB"/>
@@ -45112,6 +45122,7 @@
     <tag k="name" v="Qəbələ rayonu"/>
     <tag k="name:ru" v="Габалинский район"/>
     <tag k="type" v="boundary"/>
+    <tag k="wikipedia" v="de:Qəbələ (Rayon)"/>
   </relation>
   <relation id="3764573">
     <tag k="ISO3166-2" v="AZ-SAT"/>
@@ -45526,6 +45537,7 @@
     <tag k="name" v="Neftçala rayonu"/>
     <tag k="name:ru" v="Нефтечалинский район"/>
     <tag k="type" v="boundary"/>
+    <tag k="wikipedia" v="de:Neftçala (Rayon)"/>
   </relation>
   <relation id="3774662">
     <tag k="ISO3166-2" v="SD-DS"/>
@@ -46011,6 +46023,7 @@
     <tag k="name:ja" v="咸鏡北道"/>
     <tag k="name:ko" v="함경남도"/>
     <tag k="name:ko_rm" v="Hamgyŏng-pukto"/>
+    <tag k="name:ru" v="Хамгён-Пукто"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q109361"/>
   </relation>
@@ -47082,6 +47095,7 @@
     <tag k="name" v="Qazax rayonu"/>
     <tag k="name:ru" v="Казахский район"/>
     <tag k="type" v="boundary"/>
+    <tag k="wikipedia" v="de:Qazax (Rayon)"/>
   </relation>
   <relation id="3977580">
     <tag k="ISO3166-2" v="KE-21"/>
