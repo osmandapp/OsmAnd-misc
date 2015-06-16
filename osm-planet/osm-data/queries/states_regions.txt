@@ -1,3 +1,4 @@
+<osm-script output="xml" timeout="90">
 <query type="relation">
   <has-kv k="admin_level" v="4"/>
 </query>
@@ -110,6 +111,38 @@
   </union>
   <print/>
 
+	<!-- Canada -->
+	<!-- British Columbia -->
+<id-query ref="2218263" type="relation"/> <print/> <!-- Alberni-Clayoquot Regional District -->
+<id-query ref="2219755" type="relation"/> <print/> <!-- Regional District of Bulkley-Nechako -->
+<id-query ref="2217554" type="relation"/> <print/> <!-- Capital Regional District -->
+<id-query ref="2218434" type="relation"/> <print/> <!-- Cariboo Regional District -->
+<id-query ref="2219641" type="relation"/> <print/> <!-- Central Coast Regional District -->
+<id-query ref="2218360" type="relation"/> <print/> <!-- Regional District of Central Kootenay -->
+<id-query ref="2218288" type="relation"/> <print/> <!-- Regional District of Central Okanagan -->
+<id-query ref="2218398" type="relation"/> <print/> <!-- Columbia-Shuswap Regional District -->
+<id-query ref="2218264" type="relation"/> <print/> <!-- Comox Valley Regional District -->
+<id-query ref="2218177" type="relation"/> <print/> <!-- Cowichan Valley Regional District -->
+<id-query ref="2218392" type="relation"/> <print/> <!-- Regional District of East Kootenay -->
+<id-query ref="2219774" type="relation"/> <print/> <!-- Regional District of Fraser-Fort George -->
+<id-query ref="2218281" type="relation"/> <print/> <!-- Fraser Valley Regional District -->
+<id-query ref="2218280" type="relation"/> <print/> <!-- Greater Vancouver Regional District -->
+<id-query ref="2219740" type="relation"/> <print/> <!-- Regional District of Kitimat-Stikine -->
+<id-query ref="2218291" type="relation"/> <print/> <!-- Regional District of Kootenay Boundary -->
+<id-query ref="2219537" type="relation"/> <print/> <!-- Regional District of Mount Waddington -->
+<id-query ref="2218188" type="relation"/> <print/> <!-- Regional District of Nanaimo -->
+<id-query ref="2219984" type="relation"/> <print/> <!-- Northern Rockies Regional Municipality -->
+<id-query ref="2218289" type="relation"/> <print/> <!-- Regional District of North Okanagan -->
+<id-query ref="2218285" type="relation"/> <print/> <!-- Regional District of Okanagan-Similkameen -->
+<id-query ref="2219965" type="relation"/> <print/> <!-- Peace River Regional District -->
+<id-query ref="2218267" type="relation"/> <print/> <!-- Powell River Regional District -->
+<id-query ref="2219688" type="relation"/> <print/> <!-- Skeena-Queen Charlotte Regional District -->
+<id-query ref="2218277" type="relation"/> <print/> <!-- Squamish-Lillooet Regional District -->
+<id-query ref="2219985" type="relation"/> <print/> <!-- Stikine Region -->
+<id-query ref="2218266" type="relation"/> <print/> <!-- Strathcona Regional District -->
+<id-query ref="2218268" type="relation"/> <print/> <!-- Sunshine Coast Regional District -->
+<id-query ref="2218416" type="relation"/> <print/> <!-- Thompson-Nicola Regional District -->
+
 
 	<!-- Japan -->
 <id-query ref="1835900" type="relation"/> <print/> <!-- Tohoku -->
@@ -173,3 +206,4 @@
 <id-query ref="3770591" type="relation"/> <print/> <!-- South Central Coast (nam-trung-bo) -->
 <id-query ref="3770582" type="relation"/> <print/> <!-- Northwest (tay-bac) -->
 <id-query ref="3770609" type="relation"/> <print/> <!-- Central Highlands (tay-nguyen) -->
+</osm-script>

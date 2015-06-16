@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2015-06-13T16:16:02Z" areas="2015-06-12T01:53:02Z"/>
+<meta osm_base="2015-06-16T11:47:02Z" areas="2015-06-15T02:02:02Z"/>
 
   <relation id="8636">
     <tag k="ISO3166-2" v="FR-A"/>
@@ -4834,6 +4834,7 @@
     <tag k="wikipedia" v="ru:Нижегородская область"/>
   </relation>
   <relation id="72196">
+    <tag k="addr:country" v="RU"/>
     <tag k="admin_level" v="4"/>
     <tag k="border_type" v="region"/>
     <tag k="boundary" v="administrative"/>
@@ -5823,6 +5824,7 @@
     <tag k="type" v="boundary"/>
   </relation>
   <relation id="80513">
+    <tag k="addr:country" v="RU"/>
     <tag k="admin_level" v="4"/>
     <tag k="alt_name" v="Чувашская Республика"/>
     <tag k="border_type" v="region"/>
@@ -27723,7 +27725,7 @@
     <tag k="name:zh" v="巴达赫尚省"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q165376"/>
-    <tag k="wikipedia" v="en:Badakhshan_Province"/>
+    <tag k="wikipedia" v="en:Badakhshan Province"/>
   </relation>
   <relation id="1674541">
     <tag k="ISO3166-2" v="AF-TAK"/>
@@ -27737,7 +27739,7 @@
     <tag k="name:uk" v="Тахар"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q186395"/>
-    <tag k="wikipedia" v="en:Takhar_Province"/>
+    <tag k="wikipedia" v="en:Takhar Province"/>
   </relation>
   <relation id="1674544">
     <tag k="ISO3166-2" v="AF-NUR"/>
@@ -27762,7 +27764,7 @@
     <tag k="name:uk" v="Кундуз"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q186418"/>
-    <tag k="wikipedia" v="en:Kunduz_Province"/>
+    <tag k="wikipedia" v="en:Kunduz Province"/>
   </relation>
   <relation id="1674567">
     <tag k="ISO3166-2" v="AF-KAN"/>
@@ -27922,7 +27924,7 @@
     <tag k="name:uk" v="Балх"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q121104"/>
-    <tag k="wikipedia" v="en:Balkh_Province"/>
+    <tag k="wikipedia" v="en:Balkh Province"/>
   </relation>
   <relation id="1674800">
     <tag k="ISO3166-2" v="AF-JOW"/>
@@ -27937,7 +27939,7 @@
     <tag k="name:uk" v="Джаузджан"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q183036"/>
-    <tag k="wikipedia" v="en:Jowzjan_Province"/>
+    <tag k="wikipedia" v="en:Jowzjan Province"/>
   </relation>
   <relation id="1674802">
     <tag k="ISO3166-2" v="AF-FRA"/>
@@ -27966,7 +27968,7 @@
     <tag k="name:uk" v="Герат"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q182844"/>
-    <tag k="wikipedia" v="en:Herat_Province"/>
+    <tag k="wikipedia" v="en:Herat Province"/>
   </relation>
   <relation id="1674811">
     <tag k="ISO3166-2" v="AF-BDG"/>
@@ -27980,7 +27982,7 @@
     <tag k="name:uk" v="Бадгіс"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q172052"/>
-    <tag k="wikipedia" v="en:Badghis_Province"/>
+    <tag k="wikipedia" v="en:Badghis Province"/>
   </relation>
   <relation id="1674814">
     <tag k="ISO3166-2" v="AF-FYB"/>
@@ -27995,7 +27997,7 @@
     <tag k="name:uk" v="Фар'яб"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q173830"/>
-    <tag k="wikipedia" v="en:Faryab_Province"/>
+    <tag k="wikipedia" v="en:Faryab Province"/>
   </relation>
   <relation id="1674816">
     <tag k="ISO3166-2" v="AF-GHO"/>
@@ -45131,6 +45133,7 @@
     <tag k="name" v="Saatlı rayonu"/>
     <tag k="name:ru" v="Саатлинский район"/>
     <tag k="type" v="boundary"/>
+    <tag k="wikipedia" v="de:Saatlı (Rayon)"/>
   </relation>
   <relation id="3764574">
     <tag k="ISO3166-2" v="AZ-SAB"/>
@@ -45139,6 +45142,7 @@
     <tag k="name" v="Sabirabad rayonu"/>
     <tag k="name:ru" v="Сабирабадский район"/>
     <tag k="type" v="boundary"/>
+    <tag k="wikipedia" v="de:Sabirabad (Rayon)"/>
   </relation>
   <relation id="3764575">
     <tag k="ISO3166-2" v="AZ-SAL"/>
@@ -45162,6 +45166,7 @@
     <tag k="name" v="Samux rayonu"/>
     <tag k="name:ru" v="Самухский район"/>
     <tag k="type" v="boundary"/>
+    <tag k="wikipedia" v="de:Samux (Rayon)"/>
   </relation>
   <relation id="3764578">
     <tag k="ISO3166-2" v="AZ-SIY"/>
@@ -45188,6 +45193,7 @@
     <tag k="name" v="Tovuz rayonu"/>
     <tag k="name:ru" v="Товузский район"/>
     <tag k="type" v="boundary"/>
+    <tag k="wikipedia" v="de:Tovuz (Rayon)"/>
   </relation>
   <relation id="3764581">
     <tag k="ISO3166-2" v="AZ-TAR"/>
@@ -45204,6 +45210,7 @@
     <tag k="name" v="Ucar rayonu"/>
     <tag k="name:ru" v="Уджарский район"/>
     <tag k="type" v="boundary"/>
+    <tag k="wikipedia" v="de:Ucar (Rayon)"/>
   </relation>
   <relation id="3764583">
     <tag k="ISO3166-2" v="AZ-XAC"/>
@@ -45212,6 +45219,7 @@
     <tag k="name" v="Xaçmaz rayonu"/>
     <tag k="name:ru" v="Хачмазский район"/>
     <tag k="type" v="boundary"/>
+    <tag k="wikipedia" v="de:Xaçmaz (Rayon)"/>
   </relation>
   <relation id="3764584">
     <tag k="admin_level" v="4"/>
@@ -45227,6 +45235,7 @@
     <tag k="name" v="Xızı rayonu"/>
     <tag k="name:ru" v="Хызинский район"/>
     <tag k="type" v="boundary"/>
+    <tag k="wikipedia" v="de:Xızı (Rayon)"/>
   </relation>
   <relation id="3764586">
     <tag k="ISO3166-2" v="AZ-YAR"/>
@@ -45235,6 +45244,7 @@
     <tag k="name" v="Yardımlı rayonu"/>
     <tag k="name:ru" v="Ярдымлинский район"/>
     <tag k="type" v="boundary"/>
+    <tag k="wikipedia" v="de:Yardımlı (Rayon)"/>
   </relation>
   <relation id="3764587">
     <tag k="ISO3166-2" v="AZ-YEV"/>
@@ -45243,6 +45253,7 @@
     <tag k="name" v="Yevlax rayonu"/>
     <tag k="name:ru" v="Евлахский район"/>
     <tag k="type" v="boundary"/>
+    <tag k="wikipedia" v="de:Yevlax (Rayon)"/>
   </relation>
   <relation id="3764588">
     <tag k="ISO3166-2" v="AZ-ZAQ"/>
@@ -45251,6 +45262,7 @@
     <tag k="name" v="Zaqatala rayonu"/>
     <tag k="name:ru" v="Закатальский район"/>
     <tag k="type" v="boundary"/>
+    <tag k="wikipedia" v="de:Zaqatala (Rayon)"/>
   </relation>
   <relation id="3764589">
     <tag k="ISO3166-2" v="AZ-ZAR"/>
@@ -45259,6 +45271,7 @@
     <tag k="name" v="Zərdab rayonu"/>
     <tag k="name:ru" v="Зердабский район"/>
     <tag k="type" v="boundary"/>
+    <tag k="wikipedia" v="de:Zərdab (Rayon)"/>
   </relation>
   <relation id="3764590">
     <tag k="ISO3166-2" v="AZ-IMI"/>
@@ -45293,6 +45306,7 @@
     <tag k="name" v="Şamaxı rayonu"/>
     <tag k="name:ru" v="Шемахинский район"/>
     <tag k="type" v="boundary"/>
+    <tag k="wikipedia" v="de:Şamaxı (Rayon)"/>
   </relation>
   <relation id="3764594">
     <tag k="ISO3166-2" v="AZ-SR"/>
@@ -45324,6 +45338,7 @@
     <tag k="name" v="Şəmkir rayonu"/>
     <tag k="name:ru" v="Шамкирский район"/>
     <tag k="type" v="boundary"/>
+    <tag k="wikipedia" v="de:Şəmkir (Rayon)"/>
   </relation>
   <relation id="3765591">
     <tag k="ISO3166-2" v="VU-SAM"/>
@@ -46376,6 +46391,7 @@
     <tag k="name" v="Tərtər rayonu"/>
     <tag k="name:ru" v="Тертерский район"/>
     <tag k="type" v="boundary"/>
+    <tag k="wikipedia" v="de:Tərtər (Rayon)"/>
   </relation>
   <relation id="3795450">
     <tag k="ISO3166-2" v="AZ-FUZ"/>
@@ -46392,6 +46408,7 @@
     <tag k="name" v="Xocavənd rayonu"/>
     <tag k="name:ru" v="Ходжавендский район"/>
     <tag k="type" v="boundary"/>
+    <tag k="wikipedia" v="de:Xocavənd (Rayon)"/>
   </relation>
   <relation id="3795586">
     <tag k="ISO3166-2" v="RU-CR"/>
@@ -46698,6 +46715,7 @@
     <tag k="name:en" v="Chittagong Division"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q158087"/>
+    <tag k="wikipedia" v="en:Chittagong Division"/>
   </relation>
   <relation id="3825003">
     <tag k="ISO3166-2" v="BD-27"/>
@@ -47013,6 +47031,7 @@
     <tag k="name" v="Şəki rayonu"/>
     <tag k="name:ru" v="Шекинский район"/>
     <tag k="type" v="boundary"/>
+    <tag k="wikipedia" v="de:Şəki (Rayon)"/>
   </relation>
   <relation id="3917110">
     <tag k="admin_level" v="4"/>
@@ -48282,6 +48301,19 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="NH/ME Canada south to Salmon Falls River"/>
     <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="5279272">
+    <tag k="admin_level" v="4"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="int_ref" v="UZ-QA"/>
+    <tag k="iso3166-2" v="UZ-QA"/>
+    <tag k="name" v="Qashqadaryo Viloyati"/>
+    <tag k="name:de" v="Provinz Qashqadaryo"/>
+    <tag k="name:en" v="Qashqadaryo Province"/>
+    <tag k="name:ru" v="Кашкадарьинская область"/>
+    <tag k="timezone" v="Asia/Samarkand"/>
+    <tag k="type" v="boundary"/>
+    <tag k="wikipedia" v="ru:Кашкадарьинская_область"/>
   </relation>
   <relation id="2541341">
     <tag k="ISO3166-2:old" v="FI-LL"/>
@@ -49737,6 +49769,7 @@
     <tag k="admin_level" v="6"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Тюхтетский район"/>
+    <tag k="name:clw" v="Тӱхтет аймағы?"/>
     <tag k="name:en" v="Tyukhtetsky Rayon"/>
     <tag k="source" v="cadastre"/>
     <tag k="type" v="boundary"/>
@@ -49950,7 +49983,7 @@
     <tag k="admin_level" v="6"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Сургутский район"/>
-    <tag k="name:en" v="Surgutsky Rayon"/>
+    <tag k="name:en" v="Surgutsky District"/>
     <tag k="name:ru" v="Сургутский район"/>
     <tag k="official_status" v="ru:муниципальный район"/>
     <tag k="oktmo:user" v="71826000"/>
@@ -49966,7 +49999,7 @@
     <tag k="admin_level" v="6"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Белоярский район"/>
-    <tag k="name:en" v="Beloyarsky Rayon"/>
+    <tag k="name:en" v="Beloyarsky District"/>
     <tag k="name:ru" v="Белоярский район"/>
     <tag k="official_status" v="ru:муниципальный район"/>
     <tag k="oktmo:user" v="71811000"/>
@@ -49981,7 +50014,7 @@
     <tag k="admin_level" v="6"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Нефтеюганский район"/>
-    <tag k="name:en" v="Nefteyugansky Rayon"/>
+    <tag k="name:en" v="Nefteyugansky District"/>
     <tag k="name:ru" v="Нефтеюганский район"/>
     <tag k="official_status" v="ru:муниципальный район"/>
     <tag k="oktmo:user" v="71818000"/>
@@ -50009,7 +50042,7 @@
     <tag k="admin_level" v="6"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Нижневартовский район"/>
-    <tag k="name:en" v="Nizhnevartovsky Rayon"/>
+    <tag k="name:en" v="Nizhnevartovsky District"/>
     <tag k="name:ru" v="Нижневартовский район"/>
     <tag k="official_status" v="ru:муниципальный район"/>
     <tag k="oktmo:user" v="71819000"/>
@@ -50025,7 +50058,7 @@
     <tag k="admin_level" v="6"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Кондинский район"/>
-    <tag k="name:en" v="Kondinsky Rayon"/>
+    <tag k="name:en" v="Kondinsky District"/>
     <tag k="name:ru" v="Кондинский район"/>
     <tag k="official_status" v="ru:муниципальный район"/>
     <tag k="oktmo:user" v="71816000"/>
@@ -50040,7 +50073,7 @@
     <tag k="admin_level" v="6"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Берёзовский район"/>
-    <tag k="name:en" v="Beryozovsky Rayon"/>
+    <tag k="name:en" v="Beryozovsky District"/>
     <tag k="name:ru" v="Берёзовский район"/>
     <tag k="official_status" v="ru:муниципальный район"/>
     <tag k="oktmo:user" v="71812000"/>
@@ -50056,7 +50089,7 @@
     <tag k="admin_level" v="6"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Советский район"/>
-    <tag k="name:en" v="Sovetsky Rayon"/>
+    <tag k="name:en" v="Sovetsky District"/>
     <tag k="name:ru" v="Советский район"/>
     <tag k="official_status" v="ru:муниципальный район"/>
     <tag k="oktmo:user" v="71824000"/>
@@ -50072,7 +50105,7 @@
     <tag k="admin_level" v="6"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Октябрьский район"/>
-    <tag k="name:en" v="Oktyabrsky Rayon"/>
+    <tag k="name:en" v="Oktyabrsky District"/>
     <tag k="name:ru" v="Октябрьский район"/>
     <tag k="official_status" v="ru:муниципальный район"/>
     <tag k="oktmo:user" v="71821000"/>
@@ -50087,7 +50120,7 @@
     <tag k="admin_level" v="6"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Ханты-Мансийский район"/>
-    <tag k="name:en" v="Khanty-Mansiysky Rayon"/>
+    <tag k="name:en" v="Khanty-Mansiysky District"/>
     <tag k="name:ru" v="Ханты-Мансийский район"/>
     <tag k="official_status" v="ru:муниципальный район"/>
     <tag k="oktmo:user" v="71829000"/>
@@ -50790,6 +50823,212 @@
     <tag k="name:zh_pinyin" v="Lāsà Shì"/>
     <tag k="type" v="boundary"/>
   </relation>
+  <relation id="2218263">
+    <tag k="admin_level" v="6"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="Alberni-Clayoquot Regional District"/>
+    <tag k="source" v="DataBC TANTALIS REG_DSTRCT"/>
+    <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="2219755">
+    <tag k="admin_level" v="6"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="Regional District of Bulkley-Nechako"/>
+    <tag k="source" v="DataBC TANTALIS REG_DSTRCT"/>
+    <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="2217554">
+    <tag k="admin_level" v="6"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="Capital Regional District"/>
+    <tag k="source" v="DataBC TANTALIS REG_DSTRCT"/>
+    <tag k="type" v="boundary"/>
+    <tag k="wikipedia" v="en:Capital Regional District"/>
+  </relation>
+  <relation id="2218434">
+    <tag k="admin_level" v="6"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="Cariboo Regional District"/>
+    <tag k="source" v="DataBC TANTALIS REG_DSTRCT"/>
+    <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="2219641">
+    <tag k="admin_level" v="6"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="Central Coast Regional District"/>
+    <tag k="source" v="DataBC TANTALIS REG_DSTRCT"/>
+    <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="2218360">
+    <tag k="admin_level" v="6"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="Regional District of Central Kootenay"/>
+    <tag k="source" v="DataBC TANTALIS REG_DSTRCT"/>
+    <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="2218288">
+    <tag k="admin_level" v="6"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="Regional District of Central Okanagan"/>
+    <tag k="source" v="DataBC TANTALIS REG_DSTRCT"/>
+    <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="2218398">
+    <tag k="admin_level" v="6"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="Columbia-Shuswap Regional District"/>
+    <tag k="source" v="DataBC TANTALIS REG_DSTRCT"/>
+    <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="2218264">
+    <tag k="admin_level" v="6"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="Comox Valley Regional District"/>
+    <tag k="source" v="DataBC TANTALIS REG_DSTRCT"/>
+    <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="2218177">
+    <tag k="admin_level" v="6"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="Cowichan Valley Regional District"/>
+    <tag k="source" v="DataBC TANTALIS REG_DSTRCT"/>
+    <tag k="type" v="boundary"/>
+    <tag k="wikipedia" v="en:Cowichan Valley Regional District"/>
+  </relation>
+  <relation id="2218392">
+    <tag k="admin_level" v="6"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="Regional District of East Kootenay"/>
+    <tag k="source" v="DataBC TANTALIS REG_DSTRCT"/>
+    <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="2219774">
+    <tag k="admin_level" v="6"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="Regional District of Fraser-Fort George"/>
+    <tag k="source" v="DataBC TANTALIS REG_DSTRCT"/>
+    <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="2218281">
+    <tag k="admin_level" v="6"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="Fraser Valley Regional District"/>
+    <tag k="source" v="DataBC TANTALIS REG_DSTRCT"/>
+    <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="2218280">
+    <tag k="admin_level" v="6"/>
+    <tag k="alt_name" v="Metro Vancouver"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="Greater Vancouver Regional District"/>
+    <tag k="source" v="DataBC TANTALIS REG_DSTRCT"/>
+    <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="2219740">
+    <tag k="admin_level" v="6"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="Regional District of Kitimat-Stikine"/>
+    <tag k="source" v="DataBC TANTALIS REG_DSTRCT"/>
+    <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="2218291">
+    <tag k="admin_level" v="6"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="Regional District of Kootenay Boundary"/>
+    <tag k="source" v="DataBC TANTALIS REG_DSTRCT"/>
+    <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="2219537">
+    <tag k="admin_level" v="6"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="Regional District of Mount Waddington"/>
+    <tag k="source" v="DataBC TANTALIS REG_DSTRCT"/>
+    <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="2218188">
+    <tag k="admin_level" v="6"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="Regional District of Nanaimo"/>
+    <tag k="source" v="DataBC TANTALIS REG_DSTRCT"/>
+    <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="2219984">
+    <tag k="admin_level" v="6"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="Northern Rockies Regional Municipality"/>
+    <tag k="source" v="DataBC TANTALIS REG_DSTRCT"/>
+    <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="2218289">
+    <tag k="admin_level" v="6"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="Regional District of North Okanagan"/>
+    <tag k="source" v="DataBC TANTALIS REG_DSTRCT"/>
+    <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="2218285">
+    <tag k="admin_level" v="6"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="Regional District of Okanagan-Similkameen"/>
+    <tag k="source" v="DataBC TANTALIS REG_DSTRCT"/>
+    <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="2219965">
+    <tag k="admin_level" v="6"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="Peace River Regional District"/>
+    <tag k="source" v="DataBC TANTALIS REG_DSTRCT"/>
+    <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="2218267">
+    <tag k="admin_level" v="6"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="Powell River Regional District"/>
+    <tag k="source" v="DataBC TANTALIS REG_DSTRCT"/>
+    <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="2219688">
+    <tag k="admin_level" v="6"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="Skeena-Queen Charlotte Regional District"/>
+    <tag k="source" v="DataBC TANTALIS REG_DSTRCT"/>
+    <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="2218277">
+    <tag k="admin_level" v="6"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="Squamish-Lillooet Regional District"/>
+    <tag k="source" v="DataBC TANTALIS REG_DSTRCT"/>
+    <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="2219985">
+    <tag k="admin_level" v="6"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="Stikine Region"/>
+    <tag k="source" v="DataBC TANTALIS REG_DSTRCT"/>
+    <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="2218266">
+    <tag k="admin_level" v="6"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="Strathcona Regional District"/>
+    <tag k="source" v="DataBC TANTALIS REG_DSTRCT"/>
+    <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="2218268">
+    <tag k="admin_level" v="6"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="Sunshine Coast Regional District"/>
+    <tag k="source" v="DataBC TANTALIS REG_DSTRCT"/>
+    <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="2218416">
+    <tag k="admin_level" v="6"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="Thompson-Nicola Regional District"/>
+    <tag k="source" v="DataBC TANTALIS REG_DSTRCT"/>
+    <tag k="type" v="boundary"/>
+  </relation>
   <relation id="1835900">
     <tag k="admin_level" v="3"/>
     <tag k="boundary" v="administrative"/>
@@ -50922,7 +51161,9 @@
     <nd ref="237722229"/>
     <nd ref="237722225"/>
     <nd ref="237722220"/>
-    <nd ref="800006975"/>
+    <nd ref="3592759321"/>
+    <nd ref="3592759304"/>
+    <nd ref="3592759311"/>
     <nd ref="237722215"/>
     <nd ref="237722211"/>
     <nd ref="2617025672"/>
