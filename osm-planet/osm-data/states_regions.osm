@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2015-06-16T11:47:02Z" areas="2015-06-15T02:02:02Z"/>
+<meta osm_base="2015-06-16T19:51:02Z" areas="2015-06-15T02:02:02Z"/>
 
   <relation id="8636">
     <tag k="ISO3166-2" v="FR-A"/>
@@ -18258,7 +18258,6 @@
   </relation>
   <relation id="349027">
     <tag k="ISO3166-2" v="ES-NC"/>
-    <tag k="addr:country" v="ES"/>
     <tag k="admin_level" v="4"/>
     <tag k="border_type" v="region"/>
     <tag k="boundary" v="administrative"/>
@@ -34873,6 +34872,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="iso3166-2" v="NA-KU"/>
     <tag k="name" v="Kunene Region"/>
+    <tag k="name:en" v="Kunene Region"/>
     <tag k="name:ru" v="Кунене"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q834513"/>
@@ -48277,6 +48277,7 @@
   <relation id="4793625">
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="national_park"/>
+    <tag k="leisure" v="park"/>
     <tag k="name" v="Blake Island State Park"/>
     <tag k="protect_class" v="2"/>
     <tag k="source" v="http://www.parks.wa.gov/parks/thumbnailAndmaps/8150042.pdf"/>
@@ -50823,6 +50824,235 @@
     <tag k="name:zh_pinyin" v="Lāsà Shì"/>
     <tag k="type" v="boundary"/>
   </relation>
+  <relation id="2049312">
+    <tag k="admin_level" v="5"/>
+    <tag k="alt_name" v="Kardze;Kandze;Ganzi"/>
+    <tag k="alt_name:en" v="Garze"/>
+    <tag k="alt_name:vi" v="Cam Tư"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="int_name" v="Garzê"/>
+    <tag k="name" v="དཀར་མཛེས / 甘孜藏族自治州 / Garzê"/>
+    <tag k="name:bo" v="དཀར་མཛེས"/>
+    <tag k="name:en" v="Garzê Tibetan Autonomous Prefecture"/>
+    <tag k="name:ru" v="Гардзе-Тибетский автономный округ"/>
+    <tag k="name:vi" v="Garzê"/>
+    <tag k="name:zh" v="甘孜藏族自治州"/>
+    <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="2110264">
+    <tag k="admin_level" v="5"/>
+    <tag k="alt_name" v="成都;Chengdu"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="成都市 / Chengdu"/>
+    <tag k="name:en" v="Chengdu City"/>
+    <tag k="name:ru" v="Чэнду"/>
+    <tag k="name:vi" v="Thành Đô"/>
+    <tag k="name:zh" v="成都市"/>
+    <tag k="name:zh_pinyin" v="Chéngdū Shì"/>
+    <tag k="old_name" v="Chengtu"/>
+    <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="2110265">
+    <tag k="admin_level" v="5"/>
+    <tag k="alt_name:en" v="Ngawa"/>
+    <tag k="alt_name:vi" v="A Bá"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="རྔ་བ་བོད་རིགས་ཆ་བ༹ང་རིགས་རང་སྐྱོང་ཁུལ་ / 阿坝藏族羌族自治州 / Ngawa"/>
+    <tag k="name:bo" v="རྔ་བ་བོད་རིགས་ཆ་བ༹ང་རིགས་རང་སྐྱོང་ཁུལ་"/>
+    <tag k="name:en" v="Ngawa Tibetan and Qiang Autonomous Prefecture"/>
+    <tag k="name:ru" v="Нгава-Тибетско-Цянский автономный округ"/>
+    <tag k="name:vi" v="Ngawa"/>
+    <tag k="name:zh" v="阿坝藏族羌族自治州"/>
+    <tag k="type" v="boundary"/>
+    <tag k="wikipedia:en" v="Ngawa Tibetan and Qiang Autonomous Prefecture"/>
+  </relation>
+  <relation id="2785689">
+    <tag k="admin_level" v="5"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="攀枝花市 / Panzhihua"/>
+    <tag k="name:en" v="Panzhihua City"/>
+    <tag k="name:ru" v="Паньчжихуа"/>
+    <tag k="name:zh" v="攀枝花市"/>
+    <tag k="name:zh_pinyin" v="Pānzhīhūa Shì"/>
+    <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="2785750">
+    <tag k="admin_level" v="5"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="凉山彝族自治州 / Liangshan"/>
+    <tag k="name:en" v="Liangshan Yi Autonomous Prefecture"/>
+    <tag k="name:vi" v="Lương Sơn"/>
+    <tag k="name:zh" v="凉山彝族自治州"/>
+    <tag k="name:zh_pinyin" v="Liángshān Yízú Zìzhìzhōu"/>
+    <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="2787464">
+    <tag k="admin_level" v="5"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="绵阳市 / Mianyang"/>
+    <tag k="name:en" v="Mianyang City"/>
+    <tag k="name:ru" v="Мяньян"/>
+    <tag k="name:zh" v="绵阳市"/>
+    <tag k="name:zh_pinyin" v="Miányáng Shì"/>
+    <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="2787561">
+    <tag k="admin_level" v="5"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="德阳市 / Deyang"/>
+    <tag k="name:en" v="Deyang City"/>
+    <tag k="name:ru" v="Дэян"/>
+    <tag k="name:zh" v="德阳市"/>
+    <tag k="name:zh_pinyin" v="Déyáng Shì"/>
+    <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="2787606">
+    <tag k="admin_level" v="5"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="广元市 / Guangyuan"/>
+    <tag k="name:en" v="Guangyuan City"/>
+    <tag k="name:ru" v="Гуанъюань"/>
+    <tag k="name:zh" v="广元市"/>
+    <tag k="name:zh_pinyin" v="Gǔangyúan Shì"/>
+    <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="2787658">
+    <tag k="admin_level" v="5"/>
+    <tag k="alt_name" v="巴中;Bazhong"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="巴中市 / Bazhong"/>
+    <tag k="name:en" v="Bazhong City"/>
+    <tag k="name:ru" v="Бачжун"/>
+    <tag k="name:zh" v="巴中市"/>
+    <tag k="name:zh_pinyin" v="Bāzhōng Shì"/>
+    <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="2787741">
+    <tag k="admin_level" v="5"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="达州市 / Deyang"/>
+    <tag k="name:en" v="Dazhou City"/>
+    <tag k="name:ru" v="Дэян"/>
+    <tag k="name:vi" v="Đạt Châu"/>
+    <tag k="name:zh" v="达州市"/>
+    <tag k="name:zh_pinyin" v="Dázhōu Shì"/>
+    <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="2787851">
+    <tag k="admin_level" v="5"/>
+    <tag k="alt_name" v="广安;Guang'an"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="division_code" v="511600"/>
+    <tag k="name" v="广安市 / Guang'an"/>
+    <tag k="name:en" v="Guang'an City"/>
+    <tag k="name:ru" v="Гуанъань"/>
+    <tag k="name:zh" v="广安市"/>
+    <tag k="name:zh_pinyin" v="Guǎng'ān Shì"/>
+    <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="2787937">
+    <tag k="admin_level" v="5"/>
+    <tag k="alt_name" v="南充;Nanchong"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="南充市 / Nanchong"/>
+    <tag k="name:en" v="Nanchong City"/>
+    <tag k="name:ru" v="Наньчун"/>
+    <tag k="name:vi" v="Nam Sung"/>
+    <tag k="name:zh" v="南充市"/>
+    <tag k="name:zh_pinyin" v="Nánchōng Shì"/>
+    <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="2788710">
+    <tag k="admin_level" v="5"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="遂宁市 / Suining"/>
+    <tag k="name:en" v="Suining City"/>
+    <tag k="name:ru" v="Суйнин"/>
+    <tag k="name:zh" v="遂宁市"/>
+    <tag k="name:zh_pinyin" v="Sùiníng Shì"/>
+    <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="2788724">
+    <tag k="admin_level" v="5"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="资阳市 / Ziyang"/>
+    <tag k="name:en" v="Ziyang City"/>
+    <tag k="name:ru" v="Цзыян"/>
+    <tag k="name:zh" v="资阳市"/>
+    <tag k="name:zh_pinyin" v="Zīyáng Shì"/>
+    <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="2789344">
+    <tag k="admin_level" v="5"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="泸州市 / Luzhou"/>
+    <tag k="name:en" v="Luzhou City"/>
+    <tag k="name:ru" v="Лучжоу"/>
+    <tag k="name:zh" v="泸州市"/>
+    <tag k="name:zh_pinyin" v="Lúzhōu Shì"/>
+    <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="2789481">
+    <tag k="admin_level" v="5"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="内江市 / Neijiang"/>
+    <tag k="name:en" v="Neijiang City"/>
+    <tag k="name:ru" v="Нэйцзян"/>
+    <tag k="name:zh" v="内江市"/>
+    <tag k="name:zh_pinyin" v="Nèijiāng Shì"/>
+    <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="2789731">
+    <tag k="admin_level" v="5"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="雅安市 / Ya'an"/>
+    <tag k="name:en" v="Ya'an City"/>
+    <tag k="name:ru" v="Яань"/>
+    <tag k="name:zh" v="雅安市"/>
+    <tag k="name:zh_pinyin" v="Yǎ'ān Shì"/>
+    <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="2789892">
+    <tag k="admin_level" v="5"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="乐山市 / Leshan"/>
+    <tag k="name:en" v="Leshan City"/>
+    <tag k="name:ru" v="Лэшань"/>
+    <tag k="name:vi" v="Lạc Sơn"/>
+    <tag k="name:zh" v="乐山市"/>
+    <tag k="name:zh_pinyin" v="Lèshān Shì"/>
+    <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="2789926">
+    <tag k="admin_level" v="5"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="眉山市 / Meishan"/>
+    <tag k="name:en" v="Meishan City"/>
+    <tag k="name:ru" v="Мэйшань"/>
+    <tag k="name:zh" v="眉山市"/>
+    <tag k="name:zh_pinyin" v="Méishān Shì"/>
+    <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="2791218">
+    <tag k="admin_level" v="5"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="自贡市 / Zigong"/>
+    <tag k="name:en" v="Zigong City"/>
+    <tag k="name:ru" v="Цзыгун"/>
+    <tag k="name:zh" v="自贡市"/>
+    <tag k="name:zh_pinyin" v="Zìgòng Shì"/>
+    <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="2791229">
+    <tag k="admin_level" v="5"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="宜宾市 / Yibin"/>
+    <tag k="name:en" v="Yibin City"/>
+    <tag k="name:ru" v="Ибинь"/>
+    <tag k="name:zh" v="宜宾市"/>
+    <tag k="name:zh_pinyin" v="Yíbīn Shì"/>
+    <tag k="type" v="boundary"/>
+  </relation>
   <relation id="2218263">
     <tag k="admin_level" v="6"/>
     <tag k="boundary" v="administrative"/>
@@ -51029,6 +51259,327 @@
     <tag k="source" v="DataBC TANTALIS REG_DSTRCT"/>
     <tag k="type" v="boundary"/>
   </relation>
+  <relation id="2605235">
+    <tag k="admin_level" v="6"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="Wrangell"/>
+    <tag k="nist:fips_code" v="02275"/>
+    <tag k="nist:state_fips" v="02"/>
+    <tag k="official_name" v="Wrangell City and Borough"/>
+    <tag k="type" v="boundary"/>
+    <tag k="website" v="http://www.wrangell.com/"/>
+    <tag k="wikipedia" v="en:Wrangell, Alaska"/>
+  </relation>
+  <relation id="2605248">
+    <tag k="admin_level" v="6"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="Ketchikan Gateway"/>
+    <tag k="nist:fips_code" v="02130"/>
+    <tag k="nist:state_fips" v="02"/>
+    <tag k="official_name" v="Ketchikan Gateway Borough"/>
+    <tag k="type" v="boundary"/>
+    <tag k="website" v="http://www.borough.ketchikan.ak.us/"/>
+    <tag k="wikipedia" v="en:Ketchikan Gateway Borough, Alaska"/>
+  </relation>
+  <relation id="2605249">
+    <tag k="admin_level" v="6"/>
+    <tag k="alt_name" v="Prince of Wales-Hyder (CA)"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="Prince of Wales-Hyder"/>
+    <tag k="nist:fips_code" v="02198"/>
+    <tag k="nist:state_fips" v="02"/>
+    <tag k="official_name" v="Prince of Wales-Hyder Census Area"/>
+    <tag k="type" v="boundary"/>
+    <tag k="wikipedia" v="en:Prince of Wales – Hyder Census Area, Alaska"/>
+  </relation>
+  <relation id="2605253">
+    <tag k="admin_level" v="6"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="Aleutians East"/>
+    <tag k="nist:fips_code" v="02013"/>
+    <tag k="nist:state_fips" v="02"/>
+    <tag k="official_name" v="Aleutians East Borough"/>
+    <tag k="type" v="boundary"/>
+    <tag k="website" v="http://www.aleutianseast.org/"/>
+    <tag k="wikipedia" v="en:Aleutians East Borough, Alaska"/>
+  </relation>
+  <relation id="2605254">
+    <tag k="admin_level" v="6"/>
+    <tag k="alt_name" v="Aleutians West (CA)"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="Aleutians West Census Area"/>
+    <tag k="name:de" v="Aleutians West Census Area"/>
+    <tag k="name:es" v="Área censal de Aleutianas Occidentales"/>
+    <tag k="name:fr" v="Région de recensement des Aléoutiennes occidentales"/>
+    <tag k="name:it" v="Census Area delle Aleutine occidentali"/>
+    <tag k="name:nl" v="Aleutians West Census Area"/>
+    <tag k="name:pl" v="Okręg Aleutians West"/>
+    <tag k="name:pt" v="Região Censitária de Aleutians West"/>
+    <tag k="name:ru" v="Алеушианс-Уэст"/>
+    <tag k="name:sq" v="Aleutians West (Alaska)"/>
+    <tag k="name:sv" v="Aleutians West Census Area"/>
+    <tag k="name:tr" v="Aleutians West Census Area"/>
+    <tag k="name:zh" v="西阿留申人口普查區"/>
+    <tag k="nist:fips_code" v="02016"/>
+    <tag k="nist:state_fips" v="02"/>
+    <tag k="official_name" v="Aleutians West Census Area"/>
+    <tag k="short_name" v="Aleutians West"/>
+    <tag k="type" v="boundary"/>
+    <tag k="wikipedia" v="en:Aleutians West Census Area, Alaska"/>
+  </relation>
+  <relation id="2605259">
+    <tag k="admin_level" v="6"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="Anchorage"/>
+    <tag k="nist:fips_code" v="02020"/>
+    <tag k="nist:state_fips" v="02"/>
+    <tag k="official_name" v="Municipality of Anchorage"/>
+    <tag k="type" v="boundary"/>
+    <tag k="website" v="http://www.muni.org"/>
+    <tag k="wikipedia" v="en:Anchorage, Alaska"/>
+  </relation>
+  <relation id="2605260">
+    <tag k="admin_level" v="6"/>
+    <tag k="alt_name" v="Bethel (CA)"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="Bethel"/>
+    <tag k="nist:fips_code" v="02050"/>
+    <tag k="nist:state_fips" v="02"/>
+    <tag k="official_name" v="Bethel Census Area"/>
+    <tag k="type" v="boundary"/>
+    <tag k="wikipedia" v="en:Bethel Census Area, Alaska"/>
+  </relation>
+  <relation id="2605269">
+    <tag k="admin_level" v="6"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="Denali"/>
+    <tag k="nist:fips_code" v="02068"/>
+    <tag k="nist:state_fips" v="02"/>
+    <tag k="official_name" v="Denali Borough"/>
+    <tag k="type" v="boundary"/>
+    <tag k="website" v="http://www.denaliborough.govoffice.com/"/>
+    <tag k="wikipedia" v="en:Denali Borough, Alaska"/>
+  </relation>
+  <relation id="2605270">
+    <tag k="admin_level" v="6"/>
+    <tag k="alt_name" v="Dillingham (CA)"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="Dillingham"/>
+    <tag k="nist:fips_code" v="02070"/>
+    <tag k="nist:state_fips" v="02"/>
+    <tag k="official_name" v="Dillingham Census Area"/>
+    <tag k="type" v="boundary"/>
+    <tag k="wikipedia" v="en:Dillingham Census Area, Alaska"/>
+  </relation>
+  <relation id="2605273">
+    <tag k="admin_level" v="6"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="Fairbanks North Star"/>
+    <tag k="nist:fips_code" v="02090"/>
+    <tag k="nist:state_fips" v="02"/>
+    <tag k="official_name" v="Fairbanks North Star Borough"/>
+    <tag k="type" v="boundary"/>
+    <tag k="website" v="http://www.co.fairbanks.ak.us/"/>
+    <tag k="wikipedia" v="en:Fairbanks North Star Borough, Alaska"/>
+  </relation>
+  <relation id="2605277">
+    <tag k="admin_level" v="6"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="Haines"/>
+    <tag k="nist:fips_code" v="02100"/>
+    <tag k="nist:state_fips" v="02"/>
+    <tag k="official_name" v="Haines Borough"/>
+    <tag k="type" v="boundary"/>
+    <tag k="website" v="http://www.hainesalaska.gov/"/>
+    <tag k="wikipedia" v="en:Haines Borough, Alaska"/>
+  </relation>
+  <relation id="2605280">
+    <tag k="admin_level" v="6"/>
+    <tag k="alt_name" v="Hoonah-Angoon (CA)"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="Hoonah-Angoon"/>
+    <tag k="nist:fips_code" v="02105"/>
+    <tag k="nist:state_fips" v="02"/>
+    <tag k="official_name" v="Hoonah-Angoon Census Area"/>
+    <tag k="type" v="boundary"/>
+    <tag k="wikipedia" v="en:Hoonah-Angoon Census Area, Alaska"/>
+  </relation>
+  <relation id="2605281">
+    <tag k="admin_level" v="6"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="Juneau"/>
+    <tag k="nist:fips_code" v="02110"/>
+    <tag k="nist:state_fips" v="02"/>
+    <tag k="official_name" v="City and Borough of Juneau"/>
+    <tag k="type" v="boundary"/>
+    <tag k="website" v="http://www.juneau.org/"/>
+    <tag k="wikipedia" v="en:Juneau, Alaska"/>
+  </relation>
+  <relation id="2605284">
+    <tag k="admin_level" v="6"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="Kodiak Island"/>
+    <tag k="nist:fips_code" v="02150"/>
+    <tag k="nist:state_fips" v="02"/>
+    <tag k="official_name" v="Kodiak Island Borough"/>
+    <tag k="type" v="boundary"/>
+    <tag k="website" v="http://www.kodiakak.us/"/>
+    <tag k="wikipedia" v="en:Kodiak Island Borough, Alaska"/>
+  </relation>
+  <relation id="2605288">
+    <tag k="admin_level" v="6"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="Lake and Peninsula"/>
+    <tag k="nist:fips_code" v="02164"/>
+    <tag k="nist:state_fips" v="02"/>
+    <tag k="official_name" v="Lake and Peninsula Borough"/>
+    <tag k="type" v="boundary"/>
+    <tag k="website" v="http://www.lakeandpen.com/"/>
+    <tag k="wikipedia" v="en:Lake and Peninsula Borough, Alaska"/>
+  </relation>
+  <relation id="2605292">
+    <tag k="admin_level" v="6"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="Matanuska-Susitna"/>
+    <tag k="nist:fips_code" v="02170"/>
+    <tag k="nist:state_fips" v="02"/>
+    <tag k="official_name" v="Matanuska-Susitna Borough"/>
+    <tag k="type" v="boundary"/>
+    <tag k="website" v="http://www.matsugov.us/"/>
+    <tag k="wikipedia" v="en:Matanuska-Susitna Borough, Alaska"/>
+  </relation>
+  <relation id="2605295">
+    <tag k="admin_level" v="6"/>
+    <tag k="alt_name" v="Nome (CA)"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="Nome"/>
+    <tag k="nist:fips_code" v="02180"/>
+    <tag k="nist:state_fips" v="02"/>
+    <tag k="official_name" v="Nome Census Area"/>
+    <tag k="type" v="boundary"/>
+    <tag k="wikipedia" v="en:Nome Census Area, Alaska"/>
+  </relation>
+  <relation id="2605296">
+    <tag k="admin_level" v="6"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="North Slope"/>
+    <tag k="nist:fips_code" v="02185"/>
+    <tag k="nist:state_fips" v="02"/>
+    <tag k="official_name" v="North Slope Borough"/>
+    <tag k="type" v="boundary"/>
+    <tag k="website" v="http://www.north-slope.org/"/>
+    <tag k="wikipedia" v="en:North Slope Borough, Alaska"/>
+  </relation>
+  <relation id="2605297">
+    <tag k="admin_level" v="6"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="Northwest Arctic"/>
+    <tag k="nist:fips_code" v="02188"/>
+    <tag k="nist:state_fips" v="02"/>
+    <tag k="official_name" v="Northwest Arctic Borough"/>
+    <tag k="type" v="boundary"/>
+    <tag k="website" v="http://www.nwabor.org/"/>
+    <tag k="wikipedia" v="en:Northwest Arctic Borough, Alaska"/>
+  </relation>
+  <relation id="2605308">
+    <tag k="admin_level" v="6"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="Petersburg Borough"/>
+    <tag k="name:ru" v="Питерсберг"/>
+    <tag k="nist:fips_code" v="02195"/>
+    <tag k="nist:state_fips" v="02"/>
+    <tag k="type" v="boundary"/>
+    <tag k="wikipedia" v="en:Petersburg, Alaska"/>
+  </relation>
+  <relation id="2605309">
+    <tag k="admin_level" v="6"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="Sitka"/>
+    <tag k="nist:fips_code" v="02220"/>
+    <tag k="nist:state_fips" v="02"/>
+    <tag k="official_name" v="Sitka City and Borough"/>
+    <tag k="type" v="boundary"/>
+    <tag k="website" v="http://www.cityofsitka.com/"/>
+    <tag k="wikipedia" v="en:Sitka, Alaska"/>
+  </relation>
+  <relation id="2605310">
+    <tag k="admin_level" v="6"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="Skagway"/>
+    <tag k="nist:fips_code" v="02230"/>
+    <tag k="nist:state_fips" v="02"/>
+    <tag k="official_name" v="Skagway Municipality"/>
+    <tag k="type" v="boundary"/>
+    <tag k="website" v="http://www.skagway.org/"/>
+    <tag k="wikipedia" v="en:Skagway, Alaska"/>
+  </relation>
+  <relation id="2605314">
+    <tag k="admin_level" v="6"/>
+    <tag k="alt_name" v="Southeast Fairbanks (CA)"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="Southeast Fairbanks"/>
+    <tag k="name:en" v="Southeast Fairbanks"/>
+    <tag k="name:lt" v="Pietryčių Ferbanksas"/>
+    <tag k="nist:fips_code" v="02240"/>
+    <tag k="nist:state_fips" v="02"/>
+    <tag k="official_name" v="Southeast Fairbanks Census Area"/>
+    <tag k="type" v="boundary"/>
+    <tag k="wikipedia" v="en:Southeast Fairbanks Census Area, Alaska"/>
+  </relation>
+  <relation id="2605315">
+    <tag k="admin_level" v="6"/>
+    <tag k="alt_name" v="Valdez-Cordova (CA)"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="Valdez-Cordova"/>
+    <tag k="nist:fips_code" v="02261"/>
+    <tag k="nist:state_fips" v="02"/>
+    <tag k="official_name" v="Valdez-Cordova Census Area"/>
+    <tag k="type" v="boundary"/>
+    <tag k="wikipedia" v="en:Valdez-Cordova Census Area, Alaska"/>
+  </relation>
+  <relation id="2605316">
+    <tag k="admin_level" v="6"/>
+    <tag k="alt_name" v="Wade Hampton (CA)"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="Wade Hampton"/>
+    <tag k="nist:fips_code" v="02270"/>
+    <tag k="nist:state_fips" v="02"/>
+    <tag k="official_name" v="Wade Hampton Census Area"/>
+    <tag k="type" v="boundary"/>
+    <tag k="wikipedia" v="en:Wade Hampton Census Area, Alaska"/>
+  </relation>
+  <relation id="2605317">
+    <tag k="admin_level" v="6"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="Yakutat"/>
+    <tag k="nist:fips_code" v="02282"/>
+    <tag k="nist:state_fips" v="02"/>
+    <tag k="official_name" v="Yakutat City and Borough"/>
+    <tag k="type" v="boundary"/>
+    <tag k="wikipedia" v="en:Yakutat City and Borough, Alaska"/>
+  </relation>
+  <relation id="2605325">
+    <tag k="admin_level" v="6"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="Kenai Peninsula"/>
+    <tag k="nist:fips_code" v="02122"/>
+    <tag k="nist:state_fips" v="02"/>
+    <tag k="official_name" v="Kenai Peninsula Borough"/>
+    <tag k="type" v="boundary"/>
+    <tag k="website" v="http://www.borough.kenai.ak.us/"/>
+    <tag k="wikipedia" v="en:Kenai Peninsula Borough, Alaska"/>
+  </relation>
+  <relation id="2605326">
+    <tag k="admin_level" v="6"/>
+    <tag k="alt_name" v="Yukon-Koyukuk (CA)"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="Yukon-Koyukuk"/>
+    <tag k="nist:fips_code" v="02290"/>
+    <tag k="nist:state_fips" v="02"/>
+    <tag k="official_name" v="Yukon-Koyukuk Census Area"/>
+    <tag k="type" v="boundary"/>
+    <tag k="wikipedia" v="en:Yukon-Koyukuk Census Area, Alaska"/>
+  </relation>
   <relation id="1835900">
     <tag k="admin_level" v="3"/>
     <tag k="boundary" v="administrative"/>
@@ -51153,380 +51704,6 @@
     <tag k="wikidata" v="Q134638"/>
     <tag k="wikipedia" v="ja:中部地方"/>
   </relation>
-  <way id="22090768">
-    <nd ref="237720063"/>
-    <nd ref="237722243"/>
-    <nd ref="237722238"/>
-    <nd ref="237722234"/>
-    <nd ref="237722229"/>
-    <nd ref="237722225"/>
-    <nd ref="237722220"/>
-    <nd ref="3592759321"/>
-    <nd ref="3592759304"/>
-    <nd ref="3592759311"/>
-    <nd ref="237722215"/>
-    <nd ref="237722211"/>
-    <nd ref="2617025672"/>
-    <nd ref="2617025671"/>
-    <nd ref="2617025673"/>
-    <nd ref="2617025670"/>
-    <nd ref="2617025669"/>
-    <nd ref="2617025668"/>
-    <nd ref="2617025667"/>
-    <nd ref="2617025666"/>
-    <nd ref="237722208"/>
-    <nd ref="237722203"/>
-    <nd ref="237722200"/>
-    <nd ref="237722197"/>
-    <nd ref="237722193"/>
-    <nd ref="2297908255"/>
-    <nd ref="237722188"/>
-    <nd ref="237722120"/>
-    <nd ref="237722115"/>
-    <nd ref="2617025665"/>
-    <nd ref="2617025664"/>
-    <nd ref="237722110"/>
-    <nd ref="2509427022"/>
-    <nd ref="2509427021"/>
-    <nd ref="2509427020"/>
-    <nd ref="2509427023"/>
-    <nd ref="237722107"/>
-    <nd ref="237722103"/>
-    <nd ref="237722100"/>
-    <nd ref="237722096"/>
-    <nd ref="237722091"/>
-    <nd ref="237722087"/>
-    <nd ref="237722083"/>
-    <nd ref="2617025651"/>
-    <nd ref="237722077"/>
-    <nd ref="255652203"/>
-    <nd ref="237722018"/>
-    <nd ref="237722014"/>
-    <nd ref="237722009"/>
-    <nd ref="2617025650"/>
-    <nd ref="2617025649"/>
-    <nd ref="237721946"/>
-    <nd ref="237721941"/>
-    <nd ref="2617025648"/>
-    <nd ref="237721882"/>
-    <nd ref="2617025647"/>
-    <nd ref="237721878"/>
-    <nd ref="2617025646"/>
-    <nd ref="237721874"/>
-    <nd ref="237721871"/>
-    <nd ref="237721868"/>
-    <nd ref="237721865"/>
-    <nd ref="237721859"/>
-    <nd ref="2617025645"/>
-    <nd ref="237721855"/>
-    <nd ref="237721850"/>
-    <nd ref="237721846"/>
-    <nd ref="237721841"/>
-    <nd ref="237721835"/>
-    <nd ref="237721832"/>
-    <nd ref="237721829"/>
-    <nd ref="237721826"/>
-    <nd ref="237721822"/>
-    <nd ref="237721817"/>
-    <nd ref="2617025644"/>
-    <nd ref="237721813"/>
-    <nd ref="2617025643"/>
-    <nd ref="237721811"/>
-    <nd ref="237721808"/>
-    <nd ref="237721805"/>
-    <nd ref="237721801"/>
-    <nd ref="237721797"/>
-    <nd ref="237721792"/>
-    <nd ref="2617025642"/>
-    <nd ref="237721787"/>
-    <nd ref="2817384193"/>
-    <nd ref="2817384194"/>
-    <nd ref="2817384195"/>
-    <nd ref="2817384196"/>
-    <nd ref="268245739"/>
-    <nd ref="237721783"/>
-    <nd ref="3575454021"/>
-    <nd ref="3575454020"/>
-    <nd ref="237721777"/>
-    <nd ref="237721773"/>
-    <nd ref="237721763"/>
-    <nd ref="2617025641"/>
-    <nd ref="237721760"/>
-    <nd ref="237721755"/>
-    <nd ref="2617025638"/>
-    <nd ref="237721751"/>
-    <nd ref="2617025633"/>
-    <nd ref="2617025635"/>
-    <nd ref="2617025634"/>
-    <nd ref="237721748"/>
-    <nd ref="2617025636"/>
-    <nd ref="2617025637"/>
-    <nd ref="237721695"/>
-    <nd ref="237721627"/>
-    <nd ref="237721624"/>
-    <nd ref="237721619"/>
-    <nd ref="237721614"/>
-    <nd ref="2283863923"/>
-    <nd ref="237721610"/>
-    <nd ref="2976318184"/>
-    <nd ref="2976318183"/>
-    <nd ref="237721606"/>
-    <nd ref="2617025629"/>
-    <nd ref="237721552"/>
-    <nd ref="2617025628"/>
-    <nd ref="237721549"/>
-    <nd ref="237721544"/>
-    <nd ref="3289596782"/>
-    <nd ref="3418247223"/>
-    <nd ref="3418247232"/>
-    <nd ref="2617025623"/>
-    <nd ref="237721540"/>
-    <nd ref="2692455656"/>
-    <nd ref="2617025622"/>
-    <nd ref="2692455654"/>
-    <nd ref="2692455657"/>
-    <nd ref="2692455655"/>
-    <nd ref="237721456"/>
-    <nd ref="2428511318"/>
-    <nd ref="2428511323"/>
-    <nd ref="2516056883"/>
-    <nd ref="2516056893"/>
-    <nd ref="2516056890"/>
-    <nd ref="237721451"/>
-    <nd ref="2388117835"/>
-    <nd ref="2516056884"/>
-    <nd ref="2393264699"/>
-    <nd ref="803447749"/>
-    <nd ref="2516056889"/>
-    <nd ref="803447590"/>
-    <nd ref="237721446"/>
-    <nd ref="237721441"/>
-    <nd ref="237721436"/>
-    <nd ref="237721350"/>
-    <nd ref="237721344"/>
-    <nd ref="2617025612"/>
-    <nd ref="2617025614"/>
-    <nd ref="237721339"/>
-    <nd ref="237721335"/>
-    <nd ref="237721331"/>
-    <nd ref="237721325"/>
-    <nd ref="2617025611"/>
-    <nd ref="2617025613"/>
-    <nd ref="2617025615"/>
-    <nd ref="2617025616"/>
-    <nd ref="2617025617"/>
-    <nd ref="2617025619"/>
-    <nd ref="2617025618"/>
-    <nd ref="237721245"/>
-    <nd ref="237721241"/>
-    <nd ref="2617025620"/>
-    <nd ref="2617025621"/>
-    <nd ref="237721239"/>
-    <nd ref="237721237"/>
-    <nd ref="2617025624"/>
-    <nd ref="2617025625"/>
-    <nd ref="2617025626"/>
-    <nd ref="2617025627"/>
-    <nd ref="237721233"/>
-    <nd ref="237721227"/>
-    <nd ref="237721222"/>
-    <nd ref="2298679299"/>
-    <nd ref="237721217"/>
-    <nd ref="237721211"/>
-    <nd ref="803270730"/>
-    <nd ref="2617025630"/>
-    <nd ref="2617025631"/>
-    <nd ref="2617025632"/>
-    <nd ref="237721204"/>
-    <nd ref="237721201"/>
-    <nd ref="2298679297"/>
-    <nd ref="237721195"/>
-    <nd ref="237721190"/>
-    <nd ref="237721186"/>
-    <nd ref="237721181"/>
-    <nd ref="2298679298"/>
-    <nd ref="237721178"/>
-    <nd ref="237721172"/>
-    <nd ref="2298679296"/>
-    <nd ref="237721166"/>
-    <nd ref="254433581"/>
-    <nd ref="237721162"/>
-    <nd ref="237721160"/>
-    <nd ref="237721157"/>
-    <nd ref="237721152"/>
-    <nd ref="237721147"/>
-    <nd ref="237721142"/>
-    <nd ref="237721137"/>
-    <nd ref="237721132"/>
-    <nd ref="237721047"/>
-    <nd ref="237721039"/>
-    <nd ref="2617025640"/>
-    <nd ref="2617025639"/>
-    <nd ref="237720962"/>
-    <nd ref="237720957"/>
-    <nd ref="237720954"/>
-    <nd ref="237720951"/>
-    <nd ref="237720945"/>
-    <nd ref="237720940"/>
-    <nd ref="237720935"/>
-    <nd ref="237720930"/>
-    <nd ref="237720926"/>
-    <nd ref="237720922"/>
-    <nd ref="237720854"/>
-    <nd ref="237720851"/>
-    <nd ref="237720837"/>
-    <nd ref="237720833"/>
-    <nd ref="237720831"/>
-    <nd ref="237720828"/>
-    <nd ref="237720825"/>
-    <nd ref="237720822"/>
-    <nd ref="237720819"/>
-    <nd ref="237720818"/>
-    <nd ref="237720816"/>
-    <nd ref="237720811"/>
-    <nd ref="803270652"/>
-    <nd ref="237720808"/>
-    <nd ref="237720804"/>
-    <nd ref="237720801"/>
-    <nd ref="237720796"/>
-    <nd ref="237720792"/>
-    <nd ref="237720787"/>
-    <nd ref="237720781"/>
-    <nd ref="237720777"/>
-    <nd ref="237720774"/>
-    <nd ref="237720768"/>
-    <nd ref="237720765"/>
-    <nd ref="237720762"/>
-    <nd ref="237720758"/>
-    <nd ref="237720693"/>
-    <nd ref="237720691"/>
-    <nd ref="237720686"/>
-    <nd ref="237720680"/>
-    <nd ref="237720674"/>
-    <nd ref="237720668"/>
-    <nd ref="237720663"/>
-    <nd ref="237720659"/>
-    <nd ref="237720653"/>
-    <nd ref="237720647"/>
-    <nd ref="237720642"/>
-    <nd ref="237720639"/>
-    <nd ref="237720637"/>
-    <nd ref="237720633"/>
-    <nd ref="237720627"/>
-    <nd ref="237720623"/>
-    <nd ref="237720616"/>
-    <nd ref="237720522"/>
-    <nd ref="237720516"/>
-    <nd ref="237720513"/>
-    <nd ref="237720509"/>
-    <nd ref="237720506"/>
-    <nd ref="237720502"/>
-    <nd ref="237720496"/>
-    <nd ref="237720490"/>
-    <nd ref="237720485"/>
-    <nd ref="237720480"/>
-    <nd ref="237720475"/>
-    <nd ref="237720470"/>
-    <nd ref="237720467"/>
-    <nd ref="237720461"/>
-    <nd ref="237720455"/>
-    <nd ref="237720445"/>
-    <nd ref="237720441"/>
-    <nd ref="237720438"/>
-    <nd ref="237720432"/>
-    <nd ref="237720428"/>
-    <nd ref="237720425"/>
-    <nd ref="237720420"/>
-    <nd ref="237720418"/>
-    <nd ref="237720415"/>
-    <nd ref="237720410"/>
-    <nd ref="237720404"/>
-    <nd ref="237720399"/>
-    <nd ref="237720394"/>
-    <nd ref="237720328"/>
-    <nd ref="237720322"/>
-    <nd ref="237720317"/>
-    <nd ref="237720313"/>
-    <nd ref="237720309"/>
-    <nd ref="237720306"/>
-    <nd ref="237720303"/>
-    <nd ref="237720300"/>
-    <nd ref="2083520351"/>
-    <nd ref="237720298"/>
-    <nd ref="237720294"/>
-    <nd ref="237720291"/>
-    <nd ref="2022927698"/>
-    <nd ref="237720286"/>
-    <nd ref="237720284"/>
-    <nd ref="237720280"/>
-    <nd ref="257093199"/>
-    <nd ref="237720275"/>
-    <nd ref="801861056"/>
-    <nd ref="237720270"/>
-    <nd ref="237720264"/>
-    <nd ref="237720260"/>
-    <nd ref="237720255"/>
-    <nd ref="237720250"/>
-    <nd ref="2617025652"/>
-    <nd ref="237720247"/>
-    <nd ref="2617025653"/>
-    <nd ref="237720245"/>
-    <nd ref="2617025654"/>
-    <nd ref="2617025655"/>
-    <nd ref="2617025656"/>
-    <nd ref="237720242"/>
-    <nd ref="2617025657"/>
-    <nd ref="237720237"/>
-    <nd ref="2617025659"/>
-    <nd ref="2617025660"/>
-    <nd ref="237720234"/>
-    <nd ref="2617025658"/>
-    <nd ref="237720159"/>
-    <nd ref="237720117"/>
-    <nd ref="237720113"/>
-    <nd ref="237720109"/>
-    <nd ref="2617025661"/>
-    <nd ref="2617025662"/>
-    <nd ref="237720105"/>
-    <nd ref="2294767251"/>
-    <nd ref="2617025663"/>
-    <nd ref="237720102"/>
-    <nd ref="801861057"/>
-    <nd ref="237720099"/>
-    <nd ref="237720097"/>
-    <nd ref="237720093"/>
-    <nd ref="237720087"/>
-    <nd ref="2297908260"/>
-    <nd ref="237720083"/>
-    <nd ref="237720079"/>
-    <nd ref="237720075"/>
-    <nd ref="237720072"/>
-    <nd ref="237720068"/>
-    <nd ref="237720067"/>
-    <nd ref="2282484687"/>
-    <nd ref="237720063"/>
-    <tag k="ISO3166-2" v="RO-B"/>
-    <tag k="admin_level" v="4"/>
-    <tag k="boundary" v="administrative"/>
-    <tag k="is_in" v="Romania"/>
-    <tag k="is_in:country_code" v="RO"/>
-    <tag k="left:county" v="Municipiul București"/>
-    <tag k="name" v="București"/>
-    <tag k="name:de" v="Bukarest"/>
-    <tag k="name:en" v="Bucharest"/>
-    <tag k="name:es" v="Bucarest"/>
-    <tag k="name:fr" v="Bucarest"/>
-    <tag k="name:hu" v="Bukarest"/>
-    <tag k="name:ia" v="Bucarest"/>
-    <tag k="name:it" v="Bucarest"/>
-    <tag k="name:pt" v="Bucareste"/>
-    <tag k="name:ro" v="București"/>
-    <tag k="place" v="city"/>
-    <tag k="place_name" v="Municipiul București"/>
-    <tag k="right:county" v="Ilfov"/>
-    <tag k="source" v="geospatial.org"/>
-    <tag k="wikidata" v="Q19660"/>
-  </way>
   <relation id="958517">
     <tag k="ISO3166-2" v="GR-K"/>
     <tag k="admin_level" v="5"/>

@@ -1,4 +1,4 @@
-<osm-script output="xml" timeout="90">
+<osm-script output="xml" timeout="220">
 <query type="relation">
   <has-kv k="admin_level" v="4"/>
 </query>
@@ -110,6 +110,15 @@
     </query>
   </union>
   <print/>
+	<!-- Sichuan -->
+  <id-query into="searchArea" ref="3600913068" type="area"/>
+  <union into="_">
+    <query into="_" type="relation">
+      <has-kv k="admin_level" modv="" v="5"/>
+      <area-query from="searchArea" into="_" ref=""/>
+    </query>
+  </union>
+  <print/>
 
 	<!-- Canada -->
 	<!-- British Columbia -->
@@ -143,6 +152,35 @@
 <id-query ref="2218268" type="relation"/> <print/> <!-- Sunshine Coast Regional District -->
 <id-query ref="2218416" type="relation"/> <print/> <!-- Thompson-Nicola Regional District -->
 
+	<!-- Alaska -->
+<id-query ref="2605235" type="relation"/> <print/>
+<id-query ref="2605248" type="relation"/> <print/>
+<id-query ref="2605249" type="relation"/> <print/>
+<id-query ref="2605253" type="relation"/> <print/>
+<id-query ref="2605254" type="relation"/> <print/>
+<id-query ref="2605259" type="relation"/> <print/>
+<id-query ref="2605260" type="relation"/> <print/>
+<id-query ref="2605269" type="relation"/> <print/>
+<id-query ref="2605270" type="relation"/> <print/>
+<id-query ref="2605273" type="relation"/> <print/>
+<id-query ref="2605277" type="relation"/> <print/>
+<id-query ref="2605280" type="relation"/> <print/>
+<id-query ref="2605281" type="relation"/> <print/>
+<id-query ref="2605284" type="relation"/> <print/>
+<id-query ref="2605288" type="relation"/> <print/>
+<id-query ref="2605292" type="relation"/> <print/>
+<id-query ref="2605295" type="relation"/> <print/>
+<id-query ref="2605296" type="relation"/> <print/>
+<id-query ref="2605297" type="relation"/> <print/>
+<id-query ref="2605308" type="relation"/> <print/>
+<id-query ref="2605309" type="relation"/> <print/>
+<id-query ref="2605310" type="relation"/> <print/>
+<id-query ref="2605314" type="relation"/> <print/>
+<id-query ref="2605315" type="relation"/> <print/>
+<id-query ref="2605316" type="relation"/> <print/>
+<id-query ref="2605317" type="relation"/> <print/>
+<id-query ref="2605325" type="relation"/> <print/>
+<id-query ref="2605326" type="relation"/> <print/>
 
 	<!-- Japan -->
 <id-query ref="1835900" type="relation"/> <print/> <!-- Tohoku -->
@@ -155,7 +193,7 @@
 <id-query ref="532759" type="relation"/> <print/> <!-- Chubu Region -->
 
 	<!-- Romania -->
-<id-query ref="22090768" type="way"/> <print/> <!-- Bucharest -->
+<!-- <id-query ref="22090768" type="way"/> <print/> --> <!-- Bucharest -->
 
 	<!-- Greece -->
 <id-query ref="958517" type="relation"/> <print/> <!-- North Aegean Region  -  voreio_aigaio.poly -->
