@@ -106,4 +106,11 @@
 	// WMS layers : http://whoots.mapwarper.net/tms/{$z}/{$x}/{$y}/ {layer}/{Path}
 	// 1. Landsat http://onearth.jpl.nasa.gov/wms.cgi global_mosaic (NOT WORK)
 	// 2. Genshtab http://wms.latlon.org gshtab -->
+
+
+   <tile_source name="LISTMap Topographic (AU)" url_template="http://services.thelist.tas.gov.au/arcgis/rest/services/Basemaps/Topographic/ImageServer/tile/{0}/{2}/{1}" ext=".png" min_zoom="3" max_zoom="18" tile_size="256" img_density="16" avg_img_size="18000"/> 
+   <tile_source name="LISTMap Scanned (AU)" url_template="http://services.thelist.tas.gov.au/arcgis/rest/services/Basemaps/ESgisMapBookPUBLIC/ImageServer/tile/{0}/{2}/{1}" ext=".png" min_zoom="6" max_zoom="16" tile_size="256" img_density="16" avg_img_size="18000"/> 
+   <tile_source name="LISTMap ESgisMapBook (AU)" url_template="http://services.thelist.tas.gov.au/arcgis/rest/services/Basemaps/Topographic/ImageServer/tile/{0}/{2}/{1}" ext=".png" min_zoom="6" max_zoom="15" tile_size="256" img_density="16" avg_img_size="18000"/> 
+   <tile_source name="LISTMap Orthophoto (AU)" url_template="http://services.thelist.tas.gov.au/arcgis/rest/services/Basemaps/Orthophoto/ImageServer/tile/{0}/{2}/{1}" ext=".jpg" min_zoom="6" max_zoom="19" tile_size="256" img_density="16" avg_img_size="18000"/> 
+   
 </tile_sources>
