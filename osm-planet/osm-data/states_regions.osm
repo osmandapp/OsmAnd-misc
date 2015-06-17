@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2015-06-17T09:44:02Z" areas="2015-06-16T02:06:02Z"/>
+<meta osm_base="2015-06-17T20:20:02Z" areas="2015-06-16T02:06:02Z"/>
 
   <relation id="8636">
     <tag k="ISO3166-2" v="FR-A"/>
@@ -7977,11 +7977,12 @@
     <tag k="cladr:code" v="1800000000000"/>
     <tag k="int_ref" v="RU-UD"/>
     <tag k="iso3166-2" v="RU-UD"/>
-    <tag k="name" v="Удмуртская республика"/>
+    <tag k="name" v="Удмуртская Республика"/>
     <tag k="name:ca" v="Udmúrtia"/>
     <tag k="name:en" v="Udmurt Republic"/>
     <tag k="name:lt" v="Udmurtija"/>
-    <tag k="name:ru" v="Удмуртская республика"/>
+    <tag k="name:ru" v="Удмуртская Республика"/>
+    <tag k="name:udm" v="Удмурт Республика"/>
     <tag k="oktmo:user" v="94000000"/>
     <tag k="ref" v="18"/>
     <tag k="timezone" v="Europe/Samara"/>
@@ -8546,7 +8547,7 @@
     <tag k="int_ref" v="RU-AL"/>
     <tag k="iso3166-2" v="RU-AL"/>
     <tag k="name" v="Республика Алтай"/>
-    <tag k="name:alt" v="Алтай Республика"/>
+    <tag k="name:atv" v="Алтай Республика"/>
     <tag k="name:az" v="Altay Respublikası"/>
     <tag k="name:ba" v="Алтай Республикаһы"/>
     <tag k="name:bxr" v="Алтай Республика"/>
@@ -8584,7 +8585,7 @@
     <tag k="addr:country" v="RU"/>
     <tag k="admin_level" v="4"/>
     <tag k="alt_name" v="Тува"/>
-    <tag k="alt_name:ru" v="Тыва"/>
+    <tag k="alt_name:ru" v="Тува"/>
     <tag k="boundary" v="administrative"/>
     <tag k="cladr:code" v="1700000000000"/>
     <tag k="int_ref" v="RU-TY"/>
@@ -8635,7 +8636,7 @@
     <tag k="name:pl" v="Tuwa"/>
     <tag k="name:pt" v="Tuva"/>
     <tag k="name:ro" v="Tuva"/>
-    <tag k="name:ru" v="Республика Тыва"/>
+    <tag k="name:ru" v="Тыва"/>
     <tag k="name:se" v="Tuva"/>
     <tag k="name:sk" v="Tuviansko"/>
     <tag k="name:sl" v="Tuva"/>
@@ -22188,6 +22189,8 @@
   </relation>
   <relation id="913110">
     <tag k="ISO3166-1" v="HK"/>
+    <tag k="ISO3166-1:alpha2" v="HK"/>
+    <tag k="ISO3166-1:alpha3" v="HKG"/>
     <tag k="ISO3166-2" v="CN-91"/>
     <tag k="admin_level" v="4"/>
     <tag k="alt_name:vi" v="Hương Cảng"/>
@@ -51284,6 +51287,177 @@
     <tag k="name:ru" v="Ибинь"/>
     <tag k="name:zh" v="宜宾市"/>
     <tag k="name:zh_pinyin" v="Yíbīn Shì"/>
+    <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="2402650">
+    <tag k="admin_level" v="5"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="昭通市"/>
+    <tag k="name:en" v="Zhaotong"/>
+    <tag k="name:vi" v="Chiêu Thông"/>
+    <tag k="name:zh" v="昭通市"/>
+    <tag k="name:zh_pinyin" v="zhāotōng shì"/>
+    <tag k="place" v="city"/>
+    <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="2715398">
+    <tag k="admin_level" v="5"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="西双版纳傣族自治州 (Xishuangbanna)"/>
+    <tag k="name:en" v="Xishuangbanna Dai Autonomous Prefecture"/>
+    <tag k="name:th" v="สิบสองปันนา"/>
+    <tag k="name:zh" v="西双版纳傣族自治州"/>
+    <tag k="name:zh_pinyin" v="Xīshuāngbǎnnà Dǎizú Zìzhìzhōu"/>
+    <tag k="postal_code" v="666100"/>
+    <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="2716205">
+    <tag k="admin_level" v="5"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="普洱市 (Pu'er)"/>
+    <tag k="name:de" v="Pu’er"/>
+    <tag k="name:en" v="Pu'er City"/>
+    <tag k="name:vi" v="Phổ Nhĩ"/>
+    <tag k="name:zh" v="普洱市"/>
+    <tag k="old_name" v="Simao"/>
+    <tag k="old_name:vi" v="Tư Mao"/>
+    <tag k="postal_code" v="665000"/>
+    <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="2717249">
+    <tag k="admin_level" v="5"/>
+    <tag k="alt_name" v="德宏州"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="德宏傣族景颇族自治州 (Dehong)"/>
+    <tag k="name:en" v="Dehong Dai and Jingpo Autonomous Prefecture"/>
+    <tag k="name:zh" v="德宏傣族景颇族自治州"/>
+    <tag k="old_name" v="Simao"/>
+    <tag k="postal_code" v="665000"/>
+    <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="2718030">
+    <tag k="admin_level" v="5"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="曲靖市 (Qujing)"/>
+    <tag k="name:en" v="Qujing"/>
+    <tag k="name:vi" v="Khúc Tĩnh"/>
+    <tag k="name:zh" v="曲靖市"/>
+    <tag k="place" v="city"/>
+    <tag k="type" v="boundary"/>
+    <tag k="wikipedia:en" v="Qujing"/>
+  </relation>
+  <relation id="2718941">
+    <tag k="admin_level" v="5"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="文山州 (Wenshan)"/>
+    <tag k="name:en" v="Wenshan Zhuang and Miao Autonomous Prefecture"/>
+    <tag k="name:vi" v="Văn Sơn"/>
+    <tag k="name:zh" v="文山壮族苗族自治州"/>
+    <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="2723404">
+    <tag k="admin_level" v="5"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="红河州 (Honghe)"/>
+    <tag k="name:en" v="Honghe Hani and Yi Autonomous Prefecture"/>
+    <tag k="name:vi" v="Hồng Hà"/>
+    <tag k="name:zh" v="红河哈尼族彝族自治州"/>
+    <tag k="name:zh_pinyin" v="Hónghé Hānízú Yízú Zìzhìzhōu"/>
+    <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="2723502">
+    <tag k="admin_level" v="5"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="玉溪市 (Yuxi)"/>
+    <tag k="name:en" v="Yuxi"/>
+    <tag k="name:zh" v="玉溪市"/>
+    <tag k="name:zh_pinyin" v="Yùxī Shì"/>
+    <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="2723597">
+    <tag k="admin_level" v="5"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="昆明市 (Kunming)"/>
+    <tag k="name:en" v="Kunming"/>
+    <tag k="name:vi" v="Côn Minh"/>
+    <tag k="name:zh" v="昆明市"/>
+    <tag k="name:zh_pinyin" v="Yùxī Shì"/>
+    <tag k="old_name" v="云南府"/>
+    <tag k="old_name:en" v="Yunnan-Fou"/>
+    <tag k="old_name:vi" v="Vân Nam phủ"/>
+    <tag k="old_name:zh_pinyin" v="Yúnnánfǔ"/>
+    <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="2725393">
+    <tag k="admin_level" v="5"/>
+    <tag k="alt_name" v="德宏州"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="int_name" v="Lincang"/>
+    <tag k="name" v="临沧市 (Lincang)"/>
+    <tag k="name:de" v="Lincang"/>
+    <tag k="name:en" v="Lincang"/>
+    <tag k="name:zh" v="临沧市"/>
+    <tag k="name:zh_pinyin" v="Líncāng Shì"/>
+    <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="2727146">
+    <tag k="admin_level" v="5"/>
+    <tag k="alt_name" v="德宏州"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="保山市 (Baoshan)"/>
+    <tag k="name:en" v="Baoshan"/>
+    <tag k="name:zh" v="保山市"/>
+    <tag k="name:zh_pinyin" v="Bǎoshān Shì"/>
+    <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="2727342">
+    <tag k="admin_level" v="5"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="楚雄州 (Chuxiong)"/>
+    <tag k="name:en" v="Chuxiong Yi Autonomous Prefecture"/>
+    <tag k="name:zh" v="楚雄彝族自治州"/>
+    <tag k="name:zh_pinyin" v="Chǔxióng Yízú Zìzhìzhōu"/>
+    <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="2727745">
+    <tag k="admin_level" v="5"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="大理州 (Dali)"/>
+    <tag k="name:en" v="Dali"/>
+    <tag k="name:zh" v="大理白族自治州"/>
+    <tag k="name:zh_pinyin" v="Dàlǐ Báizú Zìzhìzhōu"/>
+    <tag k="old_name" v="云南府"/>
+    <tag k="old_name:en" v="Yunnan-Fou"/>
+    <tag k="old_name:zh_pinyin" v="Yúnnánfǔ"/>
+    <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="2729695">
+    <tag k="admin_level" v="5"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="迪庆藏族自治州 (Dêqên)"/>
+    <tag k="name:bo" v="བདེ་ཆེན་བོད་རིགས་རང་སྐྱོང་ཁུལ་"/>
+    <tag k="name:en" v="Dêqên Tibetan Autonomous Prefecture"/>
+    <tag k="name:zh" v="迪庆藏族自治州"/>
+    <tag k="name:zh_pinyin" v="Díqìng Zàngzú Zìzhìzhōu"/>
+    <tag k="type" v="boundary"/>
+    <tag k="wikidata" v="Q766073"/>
+  </relation>
+  <relation id="2729768">
+    <tag k="admin_level" v="5"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="怒江傈僳族自治州 (Nujiang)"/>
+    <tag k="name:en" v="Nujiang Lisu Autonomous Prefecture"/>
+    <tag k="name:zh" v="怒江傈僳族自治州"/>
+    <tag k="name:zh_pinyin" v="Nùjiāng Lìsùzú Zìzhìzhōu"/>
+    <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="2729779">
+    <tag k="admin_level" v="5"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="丽江市 (Lijiang)"/>
+    <tag k="name:en" v="Lijiang City"/>
+    <tag k="name:zh" v="丽江市"/>
+    <tag k="name:zh_pinyin" v="Lìjiāng Shì"/>
     <tag k="type" v="boundary"/>
   </relation>
   <relation id="2218263">
