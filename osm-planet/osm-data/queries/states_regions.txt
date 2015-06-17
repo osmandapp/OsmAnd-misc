@@ -79,6 +79,15 @@
     </query>
   </union>
   <print/>
+	<!-- Khabarovsk Krai  -->
+  <id-query into="searchArea" ref="3600151223" type="area"/>
+  <union into="_">
+    <query into="_" type="relation">
+      <has-kv k="admin_level" modv="" v="6"/>
+      <area-query from="searchArea" into="_" ref=""/>
+    </query>
+  </union>
+  <print/>
 
 	<!-- Great Britain -->
 <id-query ref="151279" type="relation"/> <print/> <!-- East Midlands -->

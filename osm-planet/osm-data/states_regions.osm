@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2015-06-16T19:51:02Z" areas="2015-06-15T02:02:02Z"/>
+<meta osm_base="2015-06-17T09:44:02Z" areas="2015-06-16T02:06:02Z"/>
 
   <relation id="8636">
     <tag k="ISO3166-2" v="FR-A"/>
@@ -50428,6 +50428,239 @@
     <tag k="source" v="Генеральный план г. Ноябрьск"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Ноябрьск"/>
+  </relation>
+  <relation id="1650419">
+    <tag k="addr:country" v="RU"/>
+    <tag k="addr:region" v="Хабаровский край"/>
+    <tag k="admin_level" v="6"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="Охотский район"/>
+    <tag k="name:en" v="Okhotsky Rayon"/>
+    <tag k="official_status" v="ru:муниципальный район"/>
+    <tag k="type" v="boundary"/>
+    <tag k="wikipedia" v="ru:Охотский район"/>
+  </relation>
+  <relation id="1650458">
+    <tag k="addr:country" v="RU"/>
+    <tag k="addr:region" v="Хабаровский край"/>
+    <tag k="admin_level" v="6"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="Аяно-Майский район"/>
+    <tag k="name:en" v="Ayano-Maysky Rayon"/>
+    <tag k="official_status" v="ru:муниципальный район"/>
+    <tag k="population" v="2053"/>
+    <tag k="population:date" v="2014-01-01"/>
+    <tag k="type" v="boundary"/>
+    <tag k="wikipedia" v="ru:Аяно-Майский район"/>
+  </relation>
+  <relation id="1651609">
+    <tag k="addr:country" v="RU"/>
+    <tag k="addr:region" v="Хабаровский край"/>
+    <tag k="admin_level" v="6"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="Николаевский район"/>
+    <tag k="name:en" v="Nikolayevsky District"/>
+    <tag k="official_status" v="ru:муниципальный район"/>
+    <tag k="source" v="Rosreestr:Кадастровый номер:27:10"/>
+    <tag k="type" v="boundary"/>
+    <tag k="wikipedia" v="ru:Николаевский район (Хабаровский край)"/>
+  </relation>
+  <relation id="1651684">
+    <tag k="addr:country" v="RU"/>
+    <tag k="addr:region" v="Хабаровский край"/>
+    <tag k="admin_level" v="6"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="Амурский район"/>
+    <tag k="name:en" v="Amursky Rayon"/>
+    <tag k="official_status" v="ru:муниципальный район"/>
+    <tag k="type" v="boundary"/>
+    <tag k="wikipedia" v="ru:Амурский район"/>
+  </relation>
+  <relation id="1651685">
+    <tag k="addr:country" v="RU"/>
+    <tag k="addr:region" v="Хабаровский край"/>
+    <tag k="admin_level" v="6"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="Верхнебуреинский район"/>
+    <tag k="name:de" v="Rajon Werchnebureinski"/>
+    <tag k="name:en" v="Verkhnebureinsky District"/>
+    <tag k="official_status" v="ru:муниципальный район"/>
+    <tag k="type" v="boundary"/>
+    <tag k="wikipedia" v="ru:Верхнебуреинский район"/>
+  </relation>
+  <relation id="1651686">
+    <tag k="addr:country" v="RU"/>
+    <tag k="addr:region" v="Хабаровский край"/>
+    <tag k="admin_level" v="6"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="район имени Полины Осипенко"/>
+    <tag k="name:en" v="imeni Poliny Osipenko Rayon"/>
+    <tag k="official_status" v="ru:муниципальный район"/>
+    <tag k="type" v="boundary"/>
+    <tag k="wikipedia" v="ru:Район имени Полины Осипенко"/>
+  </relation>
+  <relation id="1651687">
+    <tag k="addr:country" v="RU"/>
+    <tag k="addr:region" v="Хабаровский край"/>
+    <tag k="admin_level" v="6"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="Солнечный район"/>
+    <tag k="name:en" v="Solnechny Rayon"/>
+    <tag k="official_status" v="ru:муниципальный район"/>
+    <tag k="type" v="boundary"/>
+    <tag k="wikipedia" v="ru:Солнечный район"/>
+  </relation>
+  <relation id="1651688">
+    <tag k="addr:country" v="RU"/>
+    <tag k="addr:region" v="Хабаровский край"/>
+    <tag k="admin_level" v="6"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="Тугуро-Чумиканский район"/>
+    <tag k="name:en" v="Tuguro-Chumikansky Rayon"/>
+    <tag k="official_status" v="ru:муниципальный район"/>
+    <tag k="population" v="2036"/>
+    <tag k="population:date" v="2014-01-01"/>
+    <tag k="type" v="boundary"/>
+    <tag k="wikipedia" v="ru:Тугуро-Чумиканский район"/>
+  </relation>
+  <relation id="1651689">
+    <tag k="addr:country" v="RU"/>
+    <tag k="addr:region" v="Хабаровский край"/>
+    <tag k="admin_level" v="6"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="Ульчский район"/>
+    <tag k="name:en" v="Ulchsky Rayon"/>
+    <tag k="official_status" v="ru:муниципальный район"/>
+    <tag k="population" v="17088"/>
+    <tag k="population:date" v="2014-01-01"/>
+    <tag k="type" v="boundary"/>
+    <tag k="wikipedia" v="ru:Ульчский район"/>
+  </relation>
+  <relation id="1651725">
+    <tag k="addr:country" v="RU"/>
+    <tag k="addr:region" v="Хабаровский край"/>
+    <tag k="admin_level" v="6"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="Ванинский район"/>
+    <tag k="name:en" v="Vaninsky Rayon"/>
+    <tag k="official_status" v="ru:муниципальный район"/>
+    <tag k="population" v="35291"/>
+    <tag k="population:date" v="2014-01-01"/>
+    <tag k="type" v="boundary"/>
+    <tag k="wikipedia" v="ru:Ванинский район"/>
+  </relation>
+  <relation id="1651726">
+    <tag k="addr:country" v="RU"/>
+    <tag k="addr:region" v="Хабаровский край"/>
+    <tag k="admin_level" v="6"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="Комсомольский район"/>
+    <tag k="name:en" v="Komsomolsky"/>
+    <tag k="official_status" v="ru:муниципальный район"/>
+    <tag k="type" v="boundary"/>
+    <tag k="wikipedia" v="ru:Комсомольский район (Хабаровский край)"/>
+  </relation>
+  <relation id="1651727">
+    <tag k="addr:country" v="RU"/>
+    <tag k="addr:region" v="Хабаровский край"/>
+    <tag k="admin_level" v="6"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="Нанайский район"/>
+    <tag k="name:en" v="Nanaysky Rayon"/>
+    <tag k="official_status" v="ru:муниципальный район"/>
+    <tag k="population" v="16886"/>
+    <tag k="population:date" v="2014-01-01"/>
+    <tag k="type" v="boundary"/>
+    <tag k="wikipedia" v="ru:Нанайский район"/>
+  </relation>
+  <relation id="1651728">
+    <tag k="addr:country" v="RU"/>
+    <tag k="addr:region" v="Хабаровский край"/>
+    <tag k="admin_level" v="6"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="Советско-Гаванский район"/>
+    <tag k="name:en" v="Sovetsko-Gavansky Rayon"/>
+    <tag k="official_status" v="ru:муниципальный район"/>
+    <tag k="type" v="boundary"/>
+    <tag k="wikipedia" v="ru:Советско-Гаванский район"/>
+  </relation>
+  <relation id="1651729">
+    <tag k="addr:country" v="RU"/>
+    <tag k="addr:region" v="Хабаровский край"/>
+    <tag k="admin_level" v="6"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="Хабаровский район"/>
+    <tag k="name:en" v="Khabarovsky Rayon"/>
+    <tag k="official_status" v="ru:муниципальный район"/>
+    <tag k="type" v="boundary"/>
+    <tag k="wikipedia" v="ru:Хабаровский район"/>
+  </relation>
+  <relation id="1651737">
+    <tag k="addr:country" v="RU"/>
+    <tag k="addr:region" v="Хабаровский край"/>
+    <tag k="admin_level" v="6"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="Бикинский район"/>
+    <tag k="name:en" v="Bikinsky Rayon"/>
+    <tag k="official_status" v="ru:муниципальный район"/>
+    <tag k="type" v="boundary"/>
+    <tag k="wikipedia" v="ru:Бикинский район"/>
+  </relation>
+  <relation id="1651738">
+    <tag k="addr:country" v="RU"/>
+    <tag k="addr:region" v="Хабаровский край"/>
+    <tag k="admin_level" v="6"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="Вяземский район"/>
+    <tag k="name:en" v="Vyazemsky Rayon"/>
+    <tag k="official_status" v="ru:муниципальный район"/>
+    <tag k="type" v="boundary"/>
+    <tag k="wikipedia" v="ru:Вяземский район (Хабаровский край)"/>
+  </relation>
+  <relation id="1651739">
+    <tag k="addr:country" v="RU"/>
+    <tag k="addr:region" v="Хабаровский край"/>
+    <tag k="admin_level" v="6"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="район имени Лазо"/>
+    <tag k="name:en" v="imeni Lazo Rayon"/>
+    <tag k="official_status" v="ru:муниципальный район"/>
+    <tag k="type" v="boundary"/>
+    <tag k="wikipedia" v="ru:Район имени Лазо"/>
+  </relation>
+  <relation id="1782064">
+    <tag k="addr:country" v="RU"/>
+    <tag k="addr:region" v="Хабаровский край"/>
+    <tag k="admin_level" v="6"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="городской округ Хабаровск"/>
+    <tag k="name:en" v="Khabarovsk"/>
+    <tag k="official_name" v="городской округ Город Хабаровск"/>
+    <tag k="official_status" v="ru:городской округ"/>
+    <tag k="source" v="Росреестр"/>
+    <tag k="type" v="boundary"/>
+    <tag k="wikipedia" v="ru:Хабаровск"/>
+  </relation>
+  <relation id="1788811">
+    <tag k="addr:country" v="RU"/>
+    <tag k="addr:region" v="Хабаровский край"/>
+    <tag k="admin_level" v="6"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="int_name" v="Komsomolsk-on-Amur"/>
+    <tag k="name" v="городской округ Комсомольск-на-Амуре"/>
+    <tag k="name:cs" v="Komsomolsk na Amuru"/>
+    <tag k="name:de" v="Komsomolsk am Amur"/>
+    <tag k="name:en" v="Komsomolsk-on-Amur"/>
+    <tag k="name:es" v="Komsomolsk del Amur"/>
+    <tag k="name:fr" v="Komsomolsk-sur-l'Amour"/>
+    <tag k="name:it" v="Komsomol'sk-na-Amure"/>
+    <tag k="name:pl" v="Komsomolsk nad Amurem"/>
+    <tag k="name:ru" v="городской округ Комсомольск-на-Амуре"/>
+    <tag k="official_name" v="городской округ Город Комсомольск-на-Амуре"/>
+    <tag k="official_status" v="ru:городской округ"/>
+    <tag k="source" v="Росреестр"/>
+    <tag k="type" v="boundary"/>
+    <tag k="wikipedia" v="ru:Комсомольск-на-Амуре"/>
   </relation>
   <relation id="151279">
     <tag k="admin_level" v="5"/>
