@@ -224,7 +224,7 @@
 <id-query ref="2135921" type="relation"/> <print/> <!-- Autonomous Monastic State of the Holy Mountain  -  ayion-oros.poly -->
 <id-query ref="554424" type="relation"/> <print/> <!-- Epirus Region  -  ipeiros.poly -->
 <id-query ref="957830" type="relation"/> <print/> <!-- Ionian Islands Region  -  ionioi_nisoi.poly -->
- <!-- <id-query ref="956701" type="relation"/> <print/> West Macedonia Region  -  dytiki_makedonia.poly -->
+<id-query ref="956701" type="relation"/> <print/> <!-- West Macedonia Region  -  dytiki_makedonia.poly -->
 <id-query ref="910919" type="relation"/> <print/> <!-- West Greece Region  -  dytiki_ellada.poly -->
 <id-query ref="957716" type="relation"/> <print/> <!-- Attica  -  attiki.poly -->
 <id-query ref="937937" type="relation"/> <print/> <!-- East Macedonia and Thrace Region  -  anatoliki_makedonia_kai_thraki.poly -->
@@ -262,4 +262,14 @@
 <id-query ref="3770591" type="relation"/> <print/> <!-- South Central Coast (nam-trung-bo) -->
 <id-query ref="3770582" type="relation"/> <print/> <!-- Northwest (tay-bac) -->
 <id-query ref="3770609" type="relation"/> <print/> <!-- Central Highlands (tay-nguyen) -->
+
+	<!-- Turkey admin_level=3 -->
+<id-query ref="2094170" type="relation"/> <print/> <!-- Aegean Region -->
+<id-query ref="1726294" type="relation"/> <print/> <!-- Black Sea Region -->
+<id-query ref="2094194" type="relation"/> <print/> <!-- Central Anatolia Region -->
+<id-query ref="2094154" type="relation"/> <print/> <!-- Eastern Anatolia Region -->
+<id-query ref="2094193" type="relation"/> <print/> <!-- Marmara Region -->
+<id-query ref="2092903" type="relation"/> <print/> <!-- Mediterranean Region -->
+<id-query ref="2094155" type="relation"/> <print/> <!-- Southeastern Anatolia Region -->
+
 </osm-script>
