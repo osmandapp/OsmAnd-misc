@@ -19,4 +19,4 @@ updateRegion() {
 rm current-update.o5m || true
 
 #HOT OSM
-updateRegion Nepal polygons/east-asia/nepal.poly nepal.pbf
+# updateRegion Nepal polygons/east-asia/nepal.poly nepal.pbf

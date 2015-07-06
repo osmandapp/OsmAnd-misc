@@ -1,3 +1,11 @@
+<osm-script output="xml" timeout="220">
+<query type="relation">
+  <has-kv k="admin_level" v="4"/>
+</query>
+<print/>
+<id-query ref="2541341" type="relation"/> <print/> <!-- Lapland -->
+<id-query ref="2541118" type="relation"/> <print/> <!-- Regional State Administrative Agency for Northern Finland -->
+
 	<!-- Russian Federation -->
 <id-query ref="1029256" type="relation"/> <print/> <!-- Central Federal District -->
 <id-query ref="1221185" type="relation"/> <print/> <!-- Far Eastern Federal District -->
@@ -7,13 +15,81 @@
 <id-query ref="1059500" type="relation"/> <print/> <!-- South federal district -->
 <id-query ref="1113276" type="relation"/> <print/> <!-- Ural Federal District -->
 <id-query ref="1075831" type="relation"/> <print/> <!-- Volga Federal District -->
-<id-query ref="108082" type="relation"/> <print/> <!-- Krasnodar Krai -->
-<id-query ref="140291" type="relation"/> <print/> <!-- Тюменская_область -->
+
+	<!-- Якутия Yakutia -->
+  <id-query into="searchArea" ref="3600151234" type="area"/>
+  <union into="_">
+    <query into="_" type="relation">
+      <has-kv k="admin_level" modv="" v="6"/>
+      <area-query from="searchArea" into="_" ref=""/>
+    </query>
+  </union>
+  <print/>
+	<!-- Магаданская область Magadan oblast -->
+  <id-query into="searchArea" ref="3600151228" type="area"/>
+  <union into="_">
+    <query into="_" type="relation">
+      <has-kv k="admin_level" modv="" v="6"/>
+      <area-query from="searchArea" into="_" ref=""/>
+    </query>
+  </union>
+  <print/>
+	<!-- Чукотка Chukotka -->
+  <id-query into="searchArea" ref="3600151231" type="area"/>
+  <union into="_">
+    <query into="_" type="relation">
+      <has-kv k="admin_level" modv="" v="6"/>
+      <area-query from="searchArea" into="_" ref=""/>
+    </query>
+  </union>
+  <print/>
+	<!-- Komi Republic -->
+  <id-query into="searchArea" ref="3600115136" type="area"/>
+  <union into="_">
+    <query into="_" type="relation">
+      <has-kv k="admin_level" modv="" v="6"/>
+      <area-query from="searchArea" into="_" ref=""/>
+    </query>
+  </union>
+  <print/>
+	<!-- Krasnoyarsk Krai -->
+  <id-query into="searchArea" ref="3600190090" type="area"/>
+  <union into="_">
+    <query into="_" type="relation">
+      <has-kv k="admin_level" modv="" v="6"/>
+      <area-query from="searchArea" into="_" ref=""/>
+    </query>
+  </union>
+  <print/>
+	<!-- khanty-mansiisk -->
+  <id-query into="searchArea" ref="3600140296" type="area"/>
+  <union into="_">
+    <query into="_" type="relation">
+      <has-kv k="admin_level" modv="" v="6"/>
+      <area-query from="searchArea" into="_" ref=""/>
+    </query>
+  </union>
+  <print/>
+	<!-- Yamalo-Nenets Autonomous Okrug  -->
+  <id-query into="searchArea" ref="3600191706" type="area"/>
+  <union into="_">
+    <query into="_" type="relation">
+      <has-kv k="admin_level" modv="" v="6"/>
+      <area-query from="searchArea" into="_" ref=""/>
+    </query>
+  </union>
+  <print/>
+	<!-- Khabarovsk Krai  -->
+  <id-query into="searchArea" ref="3600151223" type="area"/>
+  <union into="_">
+    <query into="_" type="relation">
+      <has-kv k="admin_level" modv="" v="6"/>
+      <area-query from="searchArea" into="_" ref=""/>
+    </query>
+  </union>
+  <print/>
 
 	<!-- Great Britain -->
-<id-query ref="58447" type="relation"/> <print/> <!-- England -->
-<id-query ref="58437" type="relation"/> <print/> <!-- Wales -->
-<id-query ref="156393" type="relation"/> <print/> <!-- Northern Ireland -->
 <id-query ref="151279" type="relation"/> <print/> <!-- East Midlands -->
 <id-query ref="151336" type="relation"/> <print/> <!-- East of England -->
 <id-query ref="175342" type="relation"/> <print/> <!-- Greater London -->
@@ -24,17 +100,105 @@
 <id-query ref="151283" type="relation"/> <print/> <!-- West Midlands -->
 <id-query ref="151012" type="relation"/> <print/> <!-- Yorkshire and the Humber -->
 
-<id-query ref="1629146" type="relation"/> <print/> <!-- Azores -->
-<id-query ref="2146410" type="relation"/> <print/> <!-- Canary Islands -->
-<id-query ref="286898" type="relation"/> <print/> <!-- United States Virgin Islands -->
-<id-query ref="162069" type="relation"/> <print/> <!-- District of Columbia -->
+	<!-- China -->
+	<!-- Xinjiang  -->
+  <id-query into="searchArea" ref="3600153310" type="area"/>
+  <union into="_">
+    <query into="_" type="relation">
+      <has-kv k="admin_level" modv="" v="5"/>
+      <area-query from="searchArea" into="_" ref=""/>
+    </query>
+  </union>
+  <print/>
+	<!-- Xizang (Tibet Autonomous Region) -->
+  <id-query into="searchArea" ref="3600153292" type="area"/>
+  <union into="_">
+    <query into="_" type="relation">
+      <has-kv k="admin_level" modv="" v="5"/>
+      <area-query from="searchArea" into="_" ref=""/>
+    </query>
+  </union>
+  <print/>
+	<!-- Sichuan -->
+  <id-query into="searchArea" ref="3600913068" type="area"/>
+  <union into="_">
+    <query into="_" type="relation">
+      <has-kv k="admin_level" modv="" v="5"/>
+      <area-query from="searchArea" into="_" ref=""/>
+    </query>
+  </union>
+  <print/>
+	<!-- Yunnan -->
+  <id-query into="searchArea" ref="3600913094" type="area"/>
+  <union into="_">
+    <query into="_" type="relation">
+      <has-kv k="admin_level" modv="" v="5"/>
+      <area-query from="searchArea" into="_" ref=""/>
+    </query>
+  </union>
+  <print/>
 
-	<!-- Spain -->
-<id-query ref="348981" type="relation"/> <print/> <!-- Balearic Islands -->
-<id-query ref="349027" type="relation"/> <print/> <!-- Comunidad Foral de Navarra -->
-<id-query ref="348991" type="relation"/> <print/> <!-- Rioja -->
-<id-query ref="349042" type="relation"/> <print/> <!-- Basque Country -->
-<id-query ref="349055" type="relation"/> <print/> <!-- Community of Madrid -->
+	<!-- Canada -->
+	<!-- British Columbia -->
+<id-query ref="2218263" type="relation"/> <print/> <!-- Alberni-Clayoquot Regional District -->
+<id-query ref="2219755" type="relation"/> <print/> <!-- Regional District of Bulkley-Nechako -->
+<id-query ref="2217554" type="relation"/> <print/> <!-- Capital Regional District -->
+<id-query ref="2218434" type="relation"/> <print/> <!-- Cariboo Regional District -->
+<id-query ref="2219641" type="relation"/> <print/> <!-- Central Coast Regional District -->
+<id-query ref="2218360" type="relation"/> <print/> <!-- Regional District of Central Kootenay -->
+<id-query ref="2218288" type="relation"/> <print/> <!-- Regional District of Central Okanagan -->
+<id-query ref="2218398" type="relation"/> <print/> <!-- Columbia-Shuswap Regional District -->
+<id-query ref="2218264" type="relation"/> <print/> <!-- Comox Valley Regional District -->
+<id-query ref="2218177" type="relation"/> <print/> <!-- Cowichan Valley Regional District -->
+<id-query ref="2218392" type="relation"/> <print/> <!-- Regional District of East Kootenay -->
+<id-query ref="2219774" type="relation"/> <print/> <!-- Regional District of Fraser-Fort George -->
+<id-query ref="2218281" type="relation"/> <print/> <!-- Fraser Valley Regional District -->
+<id-query ref="2218280" type="relation"/> <print/> <!-- Greater Vancouver Regional District -->
+<id-query ref="2219740" type="relation"/> <print/> <!-- Regional District of Kitimat-Stikine -->
+<id-query ref="2218291" type="relation"/> <print/> <!-- Regional District of Kootenay Boundary -->
+<id-query ref="2219537" type="relation"/> <print/> <!-- Regional District of Mount Waddington -->
+<id-query ref="2218188" type="relation"/> <print/> <!-- Regional District of Nanaimo -->
+<id-query ref="2219984" type="relation"/> <print/> <!-- Northern Rockies Regional Municipality -->
+<id-query ref="2218289" type="relation"/> <print/> <!-- Regional District of North Okanagan -->
+<id-query ref="2218285" type="relation"/> <print/> <!-- Regional District of Okanagan-Similkameen -->
+<id-query ref="2219965" type="relation"/> <print/> <!-- Peace River Regional District -->
+<id-query ref="2218267" type="relation"/> <print/> <!-- Powell River Regional District -->
+<id-query ref="2219688" type="relation"/> <print/> <!-- Skeena-Queen Charlotte Regional District -->
+<id-query ref="2218277" type="relation"/> <print/> <!-- Squamish-Lillooet Regional District -->
+<id-query ref="2219985" type="relation"/> <print/> <!-- Stikine Region -->
+<id-query ref="2218266" type="relation"/> <print/> <!-- Strathcona Regional District -->
+<id-query ref="2218268" type="relation"/> <print/> <!-- Sunshine Coast Regional District -->
+<id-query ref="2218416" type="relation"/> <print/> <!-- Thompson-Nicola Regional District -->
+
+	<!-- Alaska -->
+<id-query ref="2605235" type="relation"/> <print/>
+<id-query ref="2605248" type="relation"/> <print/>
+<id-query ref="2605249" type="relation"/> <print/>
+<id-query ref="2605253" type="relation"/> <print/>
+<id-query ref="2605254" type="relation"/> <print/>
+<id-query ref="2605259" type="relation"/> <print/>
+<id-query ref="2605260" type="relation"/> <print/>
+<id-query ref="2605269" type="relation"/> <print/>
+<id-query ref="2605270" type="relation"/> <print/>
+<id-query ref="2605273" type="relation"/> <print/>
+<id-query ref="2605277" type="relation"/> <print/>
+<id-query ref="2605280" type="relation"/> <print/>
+<id-query ref="2605281" type="relation"/> <print/>
+<id-query ref="2605284" type="relation"/> <print/>
+<id-query ref="2605288" type="relation"/> <print/>
+<id-query ref="2605292" type="relation"/> <print/>
+<id-query ref="2605295" type="relation"/> <print/>
+<id-query ref="2605296" type="relation"/> <print/>
+<id-query ref="2605297" type="relation"/> <print/>
+<id-query ref="2605308" type="relation"/> <print/>
+<id-query ref="2605309" type="relation"/> <print/>
+<id-query ref="2605310" type="relation"/> <print/>
+<id-query ref="2605314" type="relation"/> <print/>
+<id-query ref="2605315" type="relation"/> <print/>
+<id-query ref="2605316" type="relation"/> <print/>
+<id-query ref="2605317" type="relation"/> <print/>
+<id-query ref="2605325" type="relation"/> <print/>
+<id-query ref="2605326" type="relation"/> <print/>
 
 	<!-- Japan -->
 <id-query ref="1835900" type="relation"/> <print/> <!-- Tohoku -->
@@ -42,24 +206,70 @@
 <id-query ref="1842245" type="relation"/> <print/> <!-- Kyushu Region -->
 <id-query ref="357113" type="relation"/> <print/> <!-- Kinki Region -->
 <id-query ref="1803923" type="relation"/> <print/> <!-- Kanto -->
-<id-query ref="3795658" type="relation"/> <print/> <!-- Hokkaido -->
+<!-- <id-query ref="3795658" type="relation"/> <print/> Hokkaido -->
 <id-query ref="1842114" type="relation"/> <print/> <!-- Chugoku Region -->
 <id-query ref="532759" type="relation"/> <print/> <!-- Chubu Region -->
 
-	<!-- Netherlands -->
-<id-query ref="47540" type="relation"/> <print/> <!-- Drenthe -->
-<id-query ref="47407" type="relation"/> <print/> <!-- Flevoland -->
-<id-query ref="47381" type="relation"/> <print/> <!-- Friesland -->
-<id-query ref="47554" type="relation"/> <print/> <!-- Gelderland -->
-<id-query ref="47826" type="relation"/> <print/> <!-- Groningen -->
-<id-query ref="53142" type="relation"/> <print/> <!-- Limburg -->
-<id-query ref="47696" type="relation"/> <print/> <!-- North Brabant -->
-<id-query ref="47654" type="relation"/> <print/> <!-- North Holland -->
-<id-query ref="47608" type="relation"/> <print/> <!-- Overijssel -->
-<id-query ref="47667" type="relation"/> <print/> <!-- Utrecht -->
-<id-query ref="47806" type="relation"/> <print/> <!-- Zeeland -->
-<id-query ref="47772" type="relation"/> <print/> <!-- South Holland -->
+	<!-- Romania -->
+<!-- <id-query ref="22090768" type="way"/> <print/> --> <!-- Bucharest -->
 
-<id-query ref="2186658" type="relation"/> <print/> <!-- French Southern and Antarctic Lands -->
+	<!-- Greece -->
+<id-query ref="958517" type="relation"/> <print/> <!-- North Aegean Region  -  voreio_aigaio.poly -->
+<id-query ref="958236" type="relation"/> <print/> <!-- Thessaly Region  -  thessalia.poly -->
+<id-query ref="910915" type="relation"/> <print/> <!-- Central Greece Region  -  sterea_ellada.poly -->
+<id-query ref="957717" type="relation"/> <print/> <!-- Peloponnese Region  -  peloponnisos.poly -->
+<id-query ref="1851752" type="relation"/> <print/> <!-- South Aegean Region  -  notio_aigaio.poly -->
+<id-query ref="282436" type="relation"/> <print/> <!-- Crete Region  -  kriti.poly -->
+<id-query ref="937958" type="relation"/> <print/> <!-- Central Macedonia Region  -  kentriki_makedonia.poly -->
+<id-query ref="2135921" type="relation"/> <print/> <!-- Autonomous Monastic State of the Holy Mountain  -  ayion-oros.poly -->
+<id-query ref="554424" type="relation"/> <print/> <!-- Epirus Region  -  ipeiros.poly -->
+<id-query ref="957830" type="relation"/> <print/> <!-- Ionian Islands Region  -  ionioi_nisoi.poly -->
+<id-query ref="956701" type="relation"/> <print/> <!-- West Macedonia Region  -  dytiki_makedonia.poly -->
+<id-query ref="910919" type="relation"/> <print/> <!-- West Greece Region  -  dytiki_ellada.poly -->
+<id-query ref="957716" type="relation"/> <print/> <!-- Attica  -  attiki.poly -->
+<id-query ref="937937" type="relation"/> <print/> <!-- East Macedonia and Thrace Region  -  anatoliki_makedonia_kai_thraki.poly -->
+
+<!-- <id-query ref="2186658" type="relation"/> <print/>  French Southern and Antarctic Lands -->
 <id-query ref="65335" type="relation"/> <print/> <!-- Transnistria -->
-<id-query ref="1867188" type="relation"/> <print/> <!-- Macao -->
+<!-- <id-query ref="1867188" type="relation"/> <print/>  Macao -->
+<!-- <id-query ref="1337397" type="relation"/> <print/>  Svalbard (Шпицберген) -->
+
+	<!-- Philippines -->
+<id-query ref="3561455" type="relation"/> <print/> <!-- Bicol Region -->
+<id-query ref="1552192" type="relation"/> <print/> <!-- Cagayan Valley -->
+<id-query ref="1552120" type="relation"/> <print/> <!-- Calabarzon -->
+<id-query ref="3870502" type="relation"/> <print/> <!-- Caraga -->
+<id-query ref="1552195" type="relation"/> <print/> <!-- Central Luzon -->
+<id-query ref="3625910" type="relation"/> <print/> <!-- Central Visayas -->
+<id-query ref="1552190" type="relation"/> <print/> <!-- Cordillera Administrative Region -->
+<id-query ref="3936842" type="relation"/> <print/> <!-- Davao -->
+<id-query ref="3759193" type="relation"/> <print/> <!-- Eastern Visayas -->
+<id-query ref="1552186" type="relation"/> <print/> <!-- Ilocos Region -->
+<id-query ref="147488" type="relation"/> <print/> <!-- Metro Manila -->
+<id-query ref="1552261" type="relation"/> <print/> <!-- Mimaropa -->
+<id-query ref="3821409" type="relation"/> <print/> <!-- Autonomous Region in Muslim Mindanao -->
+<id-query ref="3873457" type="relation"/> <print/> <!-- Northern Mindanao -->
+<id-query ref="3851570" type="relation"/> <print/> <!-- Soccsksargen -->
+<id-query ref="3589982" type="relation"/> <print/> <!-- Western Visayas -->
+<id-query ref="3777290" type="relation"/> <print/> <!-- Zamboanga Peninsula -->
+
+	<!-- Vietnam admin_level=3 -->
+<id-query ref="3770501" type="relation"/> <print/> <!-- North Central Coast (bac-trung-bo) -->
+<id-query ref="3770517" type="relation"/> <print/> <!-- Northeast (dong-bac) -->
+<id-query ref="3771291" type="relation"/> <print/> <!-- Mekong Delta (dong-bang-song-cuu-long) -->
+<id-query ref="3769301" type="relation"/> <print/> <!-- Red River Delta (dong-bang-song-hong) -->
+<id-query ref="3770621" type="relation"/> <print/> <!-- Southeast (dong-nam-bo) -->
+<id-query ref="3770591" type="relation"/> <print/> <!-- South Central Coast (nam-trung-bo) -->
+<id-query ref="3770582" type="relation"/> <print/> <!-- Northwest (tay-bac) -->
+<id-query ref="3770609" type="relation"/> <print/> <!-- Central Highlands (tay-nguyen) -->
+
+	<!-- Turkey admin_level=3 -->
+<id-query ref="2094170" type="relation"/> <print/> <!-- Aegean Region -->
+<id-query ref="1726294" type="relation"/> <print/> <!-- Black Sea Region -->
+<id-query ref="2094194" type="relation"/> <print/> <!-- Central Anatolia Region -->
+<id-query ref="2094154" type="relation"/> <print/> <!-- Eastern Anatolia Region -->
+<id-query ref="2094193" type="relation"/> <print/> <!-- Marmara Region -->
+<id-query ref="2092903" type="relation"/> <print/> <!-- Mediterranean Region -->
+<id-query ref="2094155" type="relation"/> <print/> <!-- Southeastern Anatolia Region -->
+
+</osm-script>
