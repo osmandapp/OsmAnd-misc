@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2015-06-12T21:32:02Z"/>
+<meta osm_base="2015-07-16T15:46:02Z"/>
 
   <node id="26036352" lat="12.7503486" lon="122.7312101">
     <tag k="alt_name:vi" v="Phi Luật Tân"/>
@@ -713,6 +713,7 @@
     <tag k="ISO3166-1:numeric" v="020"/>
     <tag k="alt_name:el" v="Ανδόρα"/>
     <tag k="capital_city" v="Andorra la Vella"/>
+    <tag k="country_code_iso3166_1_alpha_2" v="AD"/>
     <tag k="is_in:continent" v="Europe"/>
     <tag k="name" v="Andorra"/>
     <tag k="name:ak" v="Andora"/>
@@ -1660,6 +1661,7 @@
     <tag k="ISO3166-1:numeric" v="032"/>
     <tag k="capital_city" v="Buenos Aires"/>
     <tag k="country_code_fips" v="AR"/>
+    <tag k="country_code_iso3166_1_alpha_2" v="AR"/>
     <tag k="geonames:id" v="3865483"/>
     <tag k="int_name" v="Argentina"/>
     <tag k="is_in" v="Argentina, South America"/>
@@ -3473,9 +3475,10 @@
     <tag k="ISO3166-1:alpha3" v="KOR"/>
     <tag k="ISO3166-1:numeric" v="410"/>
     <tag k="alt_name:ru" v="Южная Корея"/>
-    <tag k="alt_name:vi" v="Nam Hàn; Nam Triều Tiên; Đại Hàn"/>
+    <tag k="alt_name:vi" v="Nam Hàn;Nam Triều Tiên;Đại Hàn"/>
     <tag k="capital_city" v="Seoul"/>
     <tag k="country_code_fips" v="KS"/>
+    <tag k="country_code_iso3166_1_alpha_2" v="KR"/>
     <tag k="geonames:id" v="1835841"/>
     <tag k="int_name" v="Republic of Korea"/>
     <tag k="is_in:continent" v="Asia"/>
@@ -5965,7 +5968,7 @@
     <tag k="official_name:vi" v="Vương quốc Na Uy"/>
     <tag k="place" v="country"/>
     <tag k="population" v="4785200"/>
-    <tag k="wikipedia" v="de:Norwegen"/>
+    <tag k="wikipedia:de" v="Norwegen"/>
     <tag k="wikipedia:en" v="Norway"/>
     <tag k="wikipedia:es" v="Noruega"/>
     <tag k="wikipedia:fr" v="Norvège"/>
@@ -6270,7 +6273,6 @@
     <tag k="population" v="16645313"/>
     <tag k="source" v="Wikipedia"/>
     <tag k="wikipedia" v="nl:Nederland"/>
-    <tag k="wikipedia:fr" v="Pays-Bas"/>
   </node>
   <node id="424297281" lat="19.1399952" lon="-72.3570972">
     <tag k="addr:country" v="HT"/>
@@ -9598,7 +9600,6 @@
     <tag k="place" v="country"/>
     <tag k="population" v="39379358"/>
     <tag k="wikipedia" v="en:Sudan"/>
-    <tag k="wikipedia:fr" v="Soudan"/>
   </node>
   <node id="424298019" lat="49.8158683" lon="6.1296751">
     <tag k="capital_city" v="Luxembourg"/>
@@ -11690,7 +11691,7 @@
     <tag k="place" v="country"/>
     <tag k="population" v="3619778"/>
     <tag k="source" v="CIA World Factbook"/>
-    <tag k="wikipedia" v="en:Albania"/>
+    <tag k="wikipedia:en" v="Albania"/>
     <tag k="wikipedia:fr" v="Albanie"/>
   </node>
   <node id="424310680" lat="-26.5624806" lon="31.3991317">
@@ -17281,8 +17282,8 @@
     <tag k="place" v="country"/>
     <tag k="population" v="237512352"/>
     <tag k="ref" v="ID"/>
-    <tag k="wikipedia" v="id:Indonesia"/>
     <tag k="wikipedia:fr" v="Indonésie"/>
+    <tag k="wikipedia:id" v="Indonesia"/>
   </node>
   <node id="424311955" lat="6.9518742" lon="170.9985095">
     <tag k="alt_name:el" v="Νησιά Μάρσαλ"/>
@@ -17922,7 +17923,6 @@
     <tag k="place" v="country"/>
     <tag k="population" v="9276509"/>
     <tag k="wikipedia" v="sv:Sverige"/>
-    <tag k="wikipedia:no" v="Sverige"/>
   </node>
   <node id="424313406" lat="34.9823018" lon="33.1451285">
     <tag k="ISO3166-1" v="CY"/>
@@ -20344,7 +20344,7 @@
     <tag k="geonames:id" v="3077311"/>
     <tag k="int_name" v="Czech Republic"/>
     <tag k="is_in:continent" v="Europe"/>
-    <tag k="name" v="Česko"/>
+    <tag k="name" v="Česká republika"/>
     <tag k="name:ab" v="Чехиа"/>
     <tag k="name:ace" v="Rèpublik Cèkô"/>
     <tag k="name:af" v="Tsjeggië"/>
@@ -28867,7 +28867,7 @@
     <tag k="country_code_iso3166_1_alpha_2" v="DZ"/>
     <tag k="is_in" v="Africa"/>
     <tag k="is_in:continent" v="Africa"/>
-    <tag k="name" v="الجزائر  Algérie"/>
+    <tag k="name" v="الجزائر Algérie"/>
     <tag k="name:ace" v="Aljazair"/>
     <tag k="name:af" v="Algerië"/>
     <tag k="name:als" v="Algerie"/>
@@ -29105,8 +29105,7 @@
     <tag k="place" v="country"/>
     <tag k="population" v="33769669"/>
     <tag k="source" v="CIA World Factbook"/>
-    <tag k="wikipedia" v="en:Algeria"/>
-    <tag k="wikipedia:fr" v="Algérie"/>
+    <tag k="wikipedia" v="fr:Algérie"/>
   </node>
   <node id="432424929" lat="17.0791280" lon="-61.8222516">
     <tag k="capital_city" v="Saint John's"/>
@@ -31468,7 +31467,7 @@
     <tag k="name:hr" v="Madagaskar"/>
     <tag k="name:hsb" v="Madagaskar"/>
     <tag k="name:ht" v="Madagaskar"/>
-    <tag k="name:hu" v="Madagaszkár"/>
+    <tag k="name:hu" v="Madagaszkári Köztársaság"/>
     <tag k="name:hy" v="Մադագասկար"/>
     <tag k="name:ia" v="Madagascar"/>
     <tag k="name:id" v="Madagaskar"/>
@@ -35386,7 +35385,7 @@
     <tag k="official_name:vi" v="Cộng Hòa Montenegro"/>
     <tag k="place" v="country"/>
     <tag k="population" v="678177"/>
-    <tag k="wikipedia" v="en:Montenegro"/>
+    <tag k="wikipedia:en" v="Montenegro"/>
     <tag k="wikipedia:fr" v="Monténégro"/>
   </node>
   <node id="466507355" lat="43.1500226" lon="41.2299786">
@@ -35598,6 +35597,7 @@
     <tag k="name:gv" v="Samoa Americaanagh"/>
     <tag k="name:he" v="סמואה האמריקנית"/>
     <tag k="name:hr" v="Američka Samoa"/>
+    <tag k="name:hu" v="Amerikai Szamoa"/>
     <tag k="name:is" v="Bandaríska Samóa"/>
     <tag k="name:it" v="Samoa Americane"/>
     <tag k="name:ja" v="アメリカ領サモア"/>
@@ -35633,6 +35633,7 @@
     <tag k="name:fr" v="Guam"/>
     <tag k="name:gv" v="Guam"/>
     <tag k="name:he" v="גואם"/>
+    <tag k="name:hu" v="Guam"/>
     <tag k="name:it" v="Guam"/>
     <tag k="name:ja" v="グアム"/>
     <tag k="name:ku" v="Guam"/>
@@ -35972,7 +35973,7 @@
     <tag k="place" v="country"/>
     <tag k="population" v="61792000"/>
     <tag k="source:population" v="http://www.statistics.gov.uk/cci/nugget.asp?id=6 mid 2009"/>
-    <tag k="wikipedia" v="de:Vereinigtes_Königreich"/>
+    <tag k="wikipedia" v="de:Vereinigtes Königreich"/>
   </node>
   <node id="1356260631" lat="7.8699431" lon="29.6667897">
     <tag k="capital_city" v="Juba"/>
@@ -36755,7 +36756,7 @@
     <tag k="name:rw" v="Irilande"/>
     <tag k="name:sah" v="Ирландия Республиката"/>
     <tag k="name:sc" v="Irlanda"/>
-    <tag k="name:scn" v="Irlanda"/>
+    <tag k="name:scn" v="Repubblica d'Irlanda"/>
     <tag k="name:sco" v="Republic o Ireland"/>
     <tag k="name:se" v="Irlánda"/>
     <tag k="name:sg" v="Irlânde"/>
@@ -36811,11 +36812,11 @@
     <tag k="note" v="official name according to the Irish Constitution is &quot;Éire&quot; (in Irish) or &quot;Ireland&quot; (in English): &quot;Republic of Ireland&quot; is NOT an official name, but termed the &quot;description&quot; of the state"/>
     <tag k="official_name" v="Ireland"/>
     <tag k="official_name:la" v="Hibernia"/>
-    <tag k="official_name:scn" v="Repubblica d'Irlanda"/>
+    <tag k="official_name:scn" v="Irlanda"/>
     <tag k="old_name:ku" v="Komara Îrlandê"/>
     <tag k="old_name:vi" v="Ái Nhĩ Lan"/>
     <tag k="place" v="country"/>
-    <tag k="population" v="4422100"/>
+    <tag k="population" v="4580000 (2011)"/>
     <tag k="wheelchair" v="limited"/>
     <tag k="wikipedia" v="en:Republic of Ireland"/>
   </node>
@@ -37057,6 +37058,7 @@
     <tag k="name:gl" v="Palau"/>
     <tag k="name:gv" v="Palau"/>
     <tag k="name:he" v="פלאו"/>
+    <tag k="name:hu" v="Palau"/>
     <tag k="name:it" v="Palau"/>
     <tag k="name:ja" v="パラオ"/>
     <tag k="name:ku" v="Palau"/>
@@ -37222,6 +37224,7 @@
     <tag k="name:fr" v="Sainte-Hélène, Ascension et Tristan da Cunha"/>
     <tag k="name:gv" v="Ellan Helena Noo, Ellan ny Frastyl as Tristan da Cunha"/>
     <tag k="name:he" v="סנט הלנה, אסנשן וטריסטן דה קונה"/>
+    <tag k="name:hu" v="Szent Ilona-sziget"/>
     <tag k="name:ku" v="Saint Helena, Ascension û Tristan da Cunha"/>
     <tag k="name:lt" v="Šventoji Elena, Dangun Žengimo ir Tristanas da Kunja"/>
     <tag k="name:nl" v="Sint-Helena, Ascension en Tristan da Cunha"/>
@@ -39277,6 +39280,7 @@
     <tag k="name:gv" v="Yn Palasteen"/>
     <tag k="name:he" v="הרשות הפלסטינית"/>
     <tag k="name:hr" v="Palestina"/>
+    <tag k="name:hu" v="Palesztina"/>
     <tag k="name:is" v="Palestína"/>
     <tag k="name:it" v="Palestina"/>
     <tag k="name:ja" v="パレスチナ自治区"/>
@@ -39789,6 +39793,7 @@
     <tag k="name:de" v="Demokratische Arabische Republik Sahara"/>
     <tag k="name:en" v="Sahrawi Arab Democratic Republic"/>
     <tag k="name:fr" v="République sahraouie"/>
+    <tag k="name:hu" v="Szaharai Arab Demokratikus Köztársaság"/>
     <tag k="note" v="partially recognized state"/>
     <tag k="official_name:af" v="Arabiese Demokratiese Republiek Sahara"/>
     <tag k="official_name:ar" v="الجمهورية العربية الصحراوية الديمقراطية"/>
@@ -39820,6 +39825,7 @@
     <tag k="ISO3166-1" v="LS"/>
     <tag k="is_in:continent" v="Africa"/>
     <tag k="name" v="Lesotho"/>
+    <tag k="name:hu" v="Lesotho"/>
     <tag k="place" v="country"/>
     <tag k="wikidata" v="Q1013"/>
     <tag k="wikipedia" v="en:Lesotho"/>
@@ -40107,10 +40113,6 @@
     <tag k="source" v="IBGE"/>
     <tag k="wikipedia" v="pt:Brasil"/>
   </node>
-  <node id="3512359690" lat="21.8662322" lon="33.6927830">
-    <tag k="name" v="Kingdom of North Sudan"/>
-    <tag k="place" v="country"/>
-  </node>
   <node id="36966057" lat="2.0000003" lon="15.9999997">
     <tag k="alt_name:vi" v="Phi Châu"/>
     <tag k="name" v="Africa"/>
@@ -40167,11 +40169,6 @@
     <tag k="population" v="1100000000"/>
     <tag k="sqkm" v="30221532"/>
     <tag k="wikipedia" v="en:Africa"/>
-  </node>
-  <node id="3027436882" lat="9.9577965" lon="115.1818499">
-    <tag k="name" v="Spratly Islands"/>
-    <tag k="name:vi" v="Quần Đảo Trường Sa"/>
-    <tag k="place" v="town"/>
   </node>
 
 </osm>

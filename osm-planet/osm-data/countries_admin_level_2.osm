@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2015-06-12T21:49:02Z"/>
+<meta osm_base="2015-07-16T15:46:02Z"/>
 
   <relation id="9407">
     <tag k="ISO3166-1" v="AD"/>
@@ -1943,6 +1943,7 @@
     <tag k="name:cv" v="Польша"/>
     <tag k="name:cy" v="Gwlad Pwyl"/>
     <tag k="name:da" v="Polen"/>
+    <tag k="name:dative" v="Polsce"/>
     <tag k="name:de" v="Polen"/>
     <tag k="name:diq" v="Polonya"/>
     <tag k="name:dsb" v="Pólska"/>
@@ -3532,7 +3533,7 @@
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/c/cb/Flag_of_the_Czech_Republic.svg"/>
     <tag k="int_name" v="Czech Republic"/>
     <tag k="is_in:continent" v="Europe"/>
-    <tag k="name" v="Česko"/>
+    <tag k="name" v="Česká republika"/>
     <tag k="name:ab" v="Чехиа"/>
     <tag k="name:ace" v="Rèpublik Cèkô"/>
     <tag k="name:af" v="Tsjeggië"/>
@@ -9065,7 +9066,6 @@
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q258"/>
     <tag k="wikipedia" v="en:South Africa"/>
-    <tag k="wikipedia:fr" v="Afrique du Sud"/>
   </relation>
   <relation id="88210">
     <tag k="ISO3166-1" v="SZ"/>
@@ -9255,7 +9255,6 @@
     <tag k="ISO3166-1:alpha3" v="ROU"/>
     <tag k="ISO3166-1:numeric" v="642"/>
     <tag k="admin_level" v="2"/>
-    <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/7/73/Flag_of_Romania.svg"/>
     <tag k="int_name" v="Romania"/>
     <tag k="name" v="România"/>
@@ -10588,6 +10587,7 @@
     <tag k="name:zh" v="蒙古国"/>
     <tag k="name:zh-min-nan" v="Bông-kó͘"/>
     <tag k="name:zh-yue" v="蒙古國"/>
+    <tag k="timezone" v="Asia/Choibalsan"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q711"/>
     <tag k="wikipedia" v="en:Mongolia"/>
@@ -16652,7 +16652,7 @@
     <tag k="name:fi" v="Nigeria"/>
     <tag k="name:fiu-vro" v="Nigeeriä"/>
     <tag k="name:fo" v="Nigeria"/>
-    <tag k="name:fr" v="Nigeria"/>
+    <tag k="name:fr" v="Nigéria"/>
     <tag k="name:frp" v="Nig·èria"/>
     <tag k="name:fy" v="Nigearia"/>
     <tag k="name:ga" v="An Nigéir"/>
@@ -18139,30 +18139,6 @@
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q1036"/>
     <tag k="wikipedia" v="en:Uganda"/>
-  </relation>
-  <relation id="192797">
-    <tag k="admin_level" v="2"/>
-    <tag k="boundary" v="administrative"/>
-    <tag k="name" v="Elemi Triangle"/>
-    <tag k="name:be" v="Трохвугольнік Ілемі"/>
-    <tag k="name:ca" v="Triangle d'Ilemi"/>
-    <tag k="name:cs" v="Trojúhelník Ilemi"/>
-    <tag k="name:de" v="Ilemi-Dreieck"/>
-    <tag k="name:en" v="Ilemi Triangle"/>
-    <tag k="name:es" v="Triángulo de Ilemi"/>
-    <tag k="name:fr" v="Triangle d'Ilemi"/>
-    <tag k="name:it" v="Triangolo di Ilemi"/>
-    <tag k="name:ja" v="イレミ・トライアングル"/>
-    <tag k="name:ka" v="ილემის სამკუთხედი"/>
-    <tag k="name:ko" v="일레미 삼각지구"/>
-    <tag k="name:nl" v="Ilemi-driehoek"/>
-    <tag k="name:pl" v="Trójkąt Ilemi"/>
-    <tag k="name:pt" v="Triângulo de Ilemi"/>
-    <tag k="name:ru" v="Треугольник Илеми"/>
-    <tag k="name:sr" v="Илемијски троугао"/>
-    <tag k="name:uk" v="Ілемський трикутник"/>
-    <tag k="note" v="disputed area - see http://en.wikipedia.org/wiki/Ilemi_Triangle"/>
-    <tag k="type" v="boundary"/>
   </relation>
   <relation id="192798">
     <tag k="ISO3166-1" v="KE"/>
@@ -22208,7 +22184,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/f/fa/Flag_of_the_People%27s_Republic_of_China.svg"/>
     <tag k="int_name" v="People's Republic of China"/>
-    <tag k="name" v="中华人民共和国"/>
+    <tag k="name" v="中国"/>
     <tag k="name:UN:ar" v="الصين"/>
     <tag k="name:UN:en" v="China"/>
     <tag k="name:UN:es" v="China"/>
@@ -22216,39 +22192,25 @@
     <tag k="name:UN:ru" v="Китай"/>
     <tag k="name:UN:zh" v="中国"/>
     <tag k="name:ab" v="Ачынҭатәи Ажәлартә Республика"/>
-    <tag k="name:ace" v="Rèpublik Rakyat Cina"/>
-    <tag k="name:af" v="Volksrepubliek van Sjina"/>
-    <tag k="name:als" v="Volksrepublik China"/>
     <tag k="name:am" v="የቻይና ሕዝባዊ ሪፐብሊክ"/>
-    <tag k="name:an" v="Republica Popular de China"/>
     <tag k="name:ang" v="Cīnan Folclicu Cynewīse"/>
     <tag k="name:ar" v="الصين"/>
     <tag k="name:arc" v="ܩܘܛܢܝܘܬܐ ܥܡܡܝܬܐ ܕܨܝܢ"/>
     <tag k="name:arz" v="الصين"/>
     <tag k="name:ast" v="China"/>
-    <tag k="name:ay" v="Markani Republika China"/>
-    <tag k="name:az" v="Çin Xalq Respublikası"/>
     <tag k="name:ba" v="Ҡытай"/>
     <tag k="name:bar" v="Kina"/>
-    <tag k="name:bat-smg" v="Kėnėjės Liaudėis Respoblėka"/>
-    <tag k="name:bcl" v="Republikang Popular kan Tsina"/>
     <tag k="name:be" v="Кітай"/>
     <tag k="name:be-x-old" v="Кітай"/>
-    <tag k="name:bg" v="Китайска народна република"/>
     <tag k="name:bh" v="चीन"/>
     <tag k="name:bi" v="China"/>
-    <tag k="name:bjn" v="Ripublik Rakyat Cina"/>
     <tag k="name:bm" v="China"/>
     <tag k="name:bn" v="গণচীন"/>
     <tag k="name:bo" v="ཀྲུང་ཧྭ་མི་དམངས་སྤྱི་མཐུན་རྒྱལ་ཁབ།"/>
     <tag k="name:bpy" v="গণচীন"/>
-    <tag k="name:br" v="Republik Pobl Sina"/>
-    <tag k="name:bs" v="Narodna Republika Kina"/>
     <tag k="name:bxr" v="Хитад Улас"/>
-    <tag k="name:ca" v="República Popular de la Xina"/>
     <tag k="name:cbk-zam" v="China"/>
     <tag k="name:ce" v="Китайн Халкъан Республика"/>
-    <tag k="name:ceb" v="Republikang Popular sa Tsina"/>
     <tag k="name:chr" v="ᏥᎾ"/>
     <tag k="name:chy" v="China"/>
     <tag k="name:ckb" v="کۆماری گەلی چین"/>
@@ -22258,16 +22220,13 @@
     <tag k="name:cu" v="Срѣдинꙗнє"/>
     <tag k="name:cv" v="Китай Халăх Республики"/>
     <tag k="name:cy" v="Gweriniaeth Pobl Tsieina"/>
-    <tag k="name:da" v="Folkerepublikken Kina"/>
-    <tag k="name:de" v="Volksrepublik China"/>
     <tag k="name:diq" v="Cumhuriyetê Şariê Çini"/>
     <tag k="name:dsb" v="Chinska ludowa republika"/>
     <tag k="name:dv" v="ސީނުކަރަ"/>
     <tag k="name:ee" v="China"/>
     <tag k="name:el" v="Λαϊκή Δημοκρατία της Κίνας"/>
     <tag k="name:eml" v="Cina"/>
-    <tag k="name:en" v="People's Republic of China"/>
-    <tag k="name:eo" v="Ĉina Popola Respubliko"/>
+    <tag k="name:en" v="China"/>
     <tag k="name:es" v="República Popular China"/>
     <tag k="name:et" v="Hiina"/>
     <tag k="name:eu" v="Txinako Herri Errepublika"/>
@@ -22284,7 +22243,6 @@
     <tag k="name:gag" v="Kitay Halk Respublikası"/>
     <tag k="name:gan" v="中華人民共和國"/>
     <tag k="name:gd" v="Sluagh-Phoblachd na Sìne"/>
-    <tag k="name:gl" v="República Popular da China"/>
     <tag k="name:gn" v="China Tekoha Tetã"/>
     <tag k="name:gu" v="ચીન"/>
     <tag k="name:gv" v="Deynphobblaght ny Sheen"/>
@@ -22294,21 +22252,17 @@
     <tag k="name:he" v="הרפובליקה העממית של סין"/>
     <tag k="name:hi" v="चीनी जनवादी गणराज्य"/>
     <tag k="name:hif" v="China"/>
-    <tag k="name:hr" v="Narodna Republika Kina"/>
-    <tag k="name:hsb" v="Ludowa republika China"/>
     <tag k="name:hu" v="Kínai Népköztársaság"/>
     <tag k="name:hy" v="Չինաստանի Ժողովրդական Հանրապետություն"/>
     <tag k="name:ia" v="China"/>
     <tag k="name:id" v="Republik Rakyat Cina"/>
     <tag k="name:ie" v="China"/>
     <tag k="name:ilo" v="Tsína"/>
-    <tag k="name:io" v="Populala Republiko di Chinia"/>
     <tag k="name:is" v="Alþýðulýðveldið Kína"/>
     <tag k="name:it" v="Cina"/>
     <tag k="name:iu" v="China"/>
-    <tag k="name:ja" v="中華人民共和国"/>
+    <tag k="name:ja" v="中国"/>
     <tag k="name:jbo" v=".djunguos."/>
-    <tag k="name:jv" v="Républik Rakyat Cina"/>
     <tag k="name:ka" v="ჩინეთი"/>
     <tag k="name:kaa" v="Qıtay"/>
     <tag k="name:kab" v="Ccinwa"/>
@@ -22326,18 +22280,14 @@
     <tag k="name:kv" v="Китай"/>
     <tag k="name:kw" v="Repoblek Werin China"/>
     <tag k="name:ky" v="Кытай"/>
-    <tag k="name:la" v="Res Publica Popularis Sinarum"/>
-    <tag k="name:lad" v="Repuvlika Popular de Kina"/>
     <tag k="name:lb" v="Volleksrepublik China"/>
     <tag k="name:lez" v="Китайдин Халкьдин Республика"/>
-    <tag k="name:li" v="Volksrepubliek China"/>
     <tag k="name:lmo" v="Cina"/>
     <tag k="name:ln" v="Sína"/>
     <tag k="name:lo" v="ປະເທດຈີນ"/>
     <tag k="name:lt" v="Kinijos Liaudies Respublika"/>
     <tag k="name:lv" v="Ķīna"/>
     <tag k="name:mdf" v="Китай"/>
-    <tag k="name:mg" v="Repoblika Entim-bahoakan'i Sina"/>
     <tag k="name:mhr" v="Китай"/>
     <tag k="name:mi" v="Haina"/>
     <tag k="name:min" v="Cino"/>
@@ -22345,7 +22295,6 @@
     <tag k="name:ml" v="ചൈന"/>
     <tag k="name:mn" v="Бүгд Найрамдах Хятад Ард Улс"/>
     <tag k="name:mr" v="चीन"/>
-    <tag k="name:ms" v="Republik Rakyat China"/>
     <tag k="name:mt" v="Ċina"/>
     <tag k="name:mwl" v="República Popular de la China"/>
     <tag k="name:my" v="တရုတ်ပြည်သူ့သမ္မတနိုင်ငံ"/>
@@ -22353,26 +22302,14 @@
     <tag k="name:na" v="Tsiene"/>
     <tag k="name:nah" v="China"/>
     <tag k="name:nap" v="Cina"/>
-    <tag k="name:nds" v="Volksrepubliek China"/>
-    <tag k="name:nds-nl" v="Volksrippebliek China"/>
     <tag k="name:ne" v="जनबादी गणतन्त्र चीन"/>
     <tag k="name:new" v="चीन"/>
-    <tag k="name:nl" v="Volksrepubliek China"/>
-    <tag k="name:nn" v="Folkerepublikken Kina"/>
-    <tag k="name:no" v="Folkerepublikken Kina"/>
-    <tag k="name:nov" v="Populen Republike de China"/>
-    <tag k="name:nrm" v="Républyique du Peupl'ye d'la Chinne"/>
     <tag k="name:nso" v="Tšhaena"/>
-    <tag k="name:oc" v="Republica Populara de China"/>
     <tag k="name:or" v="ଚୀନ"/>
     <tag k="name:os" v="Китай"/>
     <tag k="name:pa" v="ਚੀਨ ਦਾ ਲੋਕ ਰਾਜੀ ਗਣਤੰਤਰ"/>
-    <tag k="name:pag" v="Republika ya Too na Jhina"/>
-    <tag k="name:pam" v="Maldang Republika ning Tsina"/>
     <tag k="name:pap" v="China"/>
-    <tag k="name:pcd" v="Républike populére Kine"/>
     <tag k="name:pih" v="Shiina"/>
-    <tag k="name:pl" v="Chińska Republika Ludowa"/>
     <tag k="name:pms" v="Cin-a"/>
     <tag k="name:pnb" v="چین"/>
     <tag k="name:pnt" v="Κίνα"/>
@@ -22387,14 +22324,10 @@
     <tag k="name:sah" v="Кытай Дьон Республиката"/>
     <tag k="name:sc" v="Cina"/>
     <tag k="name:scn" v="Cina"/>
-    <tag k="name:sco" v="Fowkrepublic o Cheenae"/>
     <tag k="name:se" v="Kiinná"/>
     <tag k="name:sg" v="Sînä"/>
-    <tag k="name:sh" v="Narodna Republika Kina"/>
     <tag k="name:si" v="චීනය"/>
-    <tag k="name:simple" v="People's Republic of China"/>
     <tag k="name:sk" v="Čínska ľudová republika"/>
-    <tag k="name:sl" v="Ljudska republika Kitajska"/>
     <tag k="name:sm" v="Saina"/>
     <tag k="name:sn" v="China"/>
     <tag k="name:so" v="Shiinaha"/>
@@ -22403,8 +22336,6 @@
     <tag k="name:srn" v="Sneysa"/>
     <tag k="name:ss" v="IShayina"/>
     <tag k="name:st" v="Tjhaena"/>
-    <tag k="name:stq" v="Foulksrepublik China"/>
-    <tag k="name:sv" v="Folkrepubliken Kina"/>
     <tag k="name:sw" v="Jamhuri ya Watu wa China"/>
     <tag k="name:szl" v="Chińsko Ludowo Republika"/>
     <tag k="name:ta" v="சீன மக்கள் குடியரசு"/>
@@ -22431,21 +22362,70 @@
     <tag k="name:vo" v="Tsyinän"/>
     <tag k="name:war" v="Kanan Katawhan Republika han Tsina"/>
     <tag k="name:wo" v="Réewum Popileer bu Siin"/>
-    <tag k="name:wuu" v="中华人民共和国"/>
     <tag k="name:xal" v="Китдин Улс Орн"/>
     <tag k="name:xmf" v="ჩინეთი"/>
     <tag k="name:yi" v="כינע"/>
-    <tag k="name:yo" v="Orílẹ̀-èdè Olómìnira àwọn Ará ilẹ̀ Ṣáínà"/>
-    <tag k="name:za" v="Cunghvaz Yinzminz Gunghozgoz"/>
-    <tag k="name:zea" v="Volksrepubliek China"/>
-    <tag k="name:zh" v="中华人民共和国"/>
-    <tag k="name:zh-classical" v="中華人民共和國"/>
+    <tag k="name:zh" v="中国"/>
+    <tag k="name:zh-classical" v="中國"/>
     <tag k="name:zh-min-nan" v="Tiong-hoâ Jîn-bîn Kiōng-hô-kok"/>
-    <tag k="name:zh-simplified" v="中华人民共和国"/>
-    <tag k="name:zh-traditional" v="中華人民共和國"/>
-    <tag k="name:zh-yue" v="中華人民共和國"/>
+    <tag k="name:zh-simplified" v="中国"/>
+    <tag k="name:zh-traditional" v="中國"/>
     <tag k="name:zu" v="IShayina"/>
+    <tag k="official_name" v="中华人民共和国"/>
+    <tag k="official_name:ace" v="Rèpublik Rakyat Cina"/>
+    <tag k="official_name:af" v="Volksrepubliek van Sjina"/>
+    <tag k="official_name:als" v="Volksrepublik China"/>
+    <tag k="official_name:an" v="Republica Popular de China"/>
+    <tag k="official_name:ay" v="Markani Republika China"/>
+    <tag k="official_name:az" v="Çin Xalq Respublikası"/>
+    <tag k="official_name:bat-smg" v="Kėnėjės Liaudėis Respoblėka"/>
+    <tag k="official_name:bcl" v="Republikang Popular kan Tsina"/>
+    <tag k="official_name:bg" v="Китайска народна република"/>
+    <tag k="official_name:bjn" v="Ripublik Rakyat Cina"/>
+    <tag k="official_name:br" v="Republik Pobl Sina"/>
+    <tag k="official_name:bs" v="Narodna Republika Kina"/>
+    <tag k="official_name:ca" v="República Popular de la Xina"/>
+    <tag k="official_name:ceb" v="Republikang Popular sa Tsina"/>
+    <tag k="official_name:da" v="Folkerepublikken Kina"/>
+    <tag k="official_name:de" v="Volksrepublik China"/>
+    <tag k="official_name:en" v="People's Republic of China"/>
+    <tag k="official_name:eo" v="Ĉina Popola Respubliko"/>
+    <tag k="official_name:gl" v="República Popular da China"/>
+    <tag k="official_name:hr" v="Narodna Republika Kina"/>
+    <tag k="official_name:hsb" v="Ludowa republika China"/>
+    <tag k="official_name:io" v="Populala Republiko di Chinia"/>
+    <tag k="official_name:jv" v="Républik Rakyat Cina"/>
+    <tag k="official_name:la" v="Res Publica Popularis Sinarum"/>
+    <tag k="official_name:lad" v="Repuvlika Popular de Kina"/>
+    <tag k="official_name:li" v="Volksrepubliek China"/>
+    <tag k="official_name:mg" v="Repoblika Entim-bahoakan'i Sina"/>
+    <tag k="official_name:ms" v="Republik Rakyat China"/>
+    <tag k="official_name:nds" v="Volksrepubliek China"/>
+    <tag k="official_name:nds-nl" v="Volksrippebliek China"/>
+    <tag k="official_name:nl" v="Volksrepubliek China"/>
+    <tag k="official_name:nn" v="Folkerepublikken Kina"/>
+    <tag k="official_name:no" v="Folkerepublikken Kina"/>
+    <tag k="official_name:nov" v="Populen Republike de China"/>
+    <tag k="official_name:nrm" v="Républyique du Peupl'ye d'la Chinne"/>
+    <tag k="official_name:oc" v="Republica Populara de China"/>
+    <tag k="official_name:pag" v="Republika ya Too na Jhina"/>
+    <tag k="official_name:pam" v="Maldang Republika ning Tsina"/>
+    <tag k="official_name:pcd" v="Républike populére Kine"/>
+    <tag k="official_name:pl" v="Chińska Republika Ludowa"/>
+    <tag k="official_name:sco" v="Fowkrepublic o Cheenae"/>
+    <tag k="official_name:sh" v="Narodna Republika Kina"/>
+    <tag k="official_name:simple" v="People's Republic of China"/>
+    <tag k="official_name:sl" v="Ljudska republika Kitajska"/>
     <tag k="official_name:sr" v="Народна Република Кина"/>
+    <tag k="official_name:stq" v="Foulksrepublik China"/>
+    <tag k="official_name:sv" v="Folkrepubliken Kina"/>
+    <tag k="official_name:wuu" v="中华人民共和国"/>
+    <tag k="official_name:yo" v="Orílẹ̀-èdè Olómìnira àwọn Ará ilẹ̀ Ṣáínà"/>
+    <tag k="official_name:za" v="Cunghvaz Yinzminz Gunghozgoz"/>
+    <tag k="official_name:zea" v="Volksrepubliek China"/>
+    <tag k="official_name:zh" v="中华人民共和国"/>
+    <tag k="official_name:zh-simplified" v="中华人民共和国"/>
+    <tag k="official_name:zh-traditional" v="中華人民共和國"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q148"/>
     <tag k="wikipedia" v="en:China"/>
@@ -22686,16 +22666,16 @@
     <tag k="wikipedia" v="en:British Virgin Islands"/>
   </relation>
   <relation id="286393">
+    <tag k="ISO3166-1" v="AR"/>
+    <tag k="ISO3166-1:alpha2" v="AR"/>
+    <tag k="ISO3166-1:alpha3" v="ARG"/>
+    <tag k="ISO3166-1:numeric" v="032"/>
     <tag k="admin_level" v="2"/>
     <tag k="boundary" v="administrative"/>
     <tag k="capital_city" v="Buenos Aires"/>
     <tag k="country_code_fips" v="AR"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/1/1a/Flag_of_Argentina.svg"/>
     <tag k="geonames:id" v="3865483"/>
-    <tag k="iso3166-1" v="AR"/>
-    <tag k="iso3166-1:alpha2" v="AR"/>
-    <tag k="iso3166-1:alpha3" v="ARG"/>
-    <tag k="iso3166-1:numeric" v="032"/>
     <tag k="name" v="Argentina"/>
     <tag k="name:ace" v="Argentina"/>
     <tag k="name:af" v="Argentinië"/>
@@ -29849,7 +29829,6 @@
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q233"/>
     <tag k="wikipedia" v="en:Malta"/>
-    <tag k="wikipedia:ru" v="Мальта"/>
   </relation>
   <relation id="365331">
     <tag k="ISO3166-1" v="IT"/>
@@ -30923,18 +30902,61 @@
     <tag k="ISO3166-1:numeric" v="158"/>
     <tag k="admin_level" v="2"/>
     <tag k="alt_name" v="臺灣"/>
+    <tag k="alt_name:ace" v="Taywan"/>
+    <tag k="alt_name:bcl" v="Taiwan"/>
     <tag k="alt_name:be" v="Тайвань"/>
+    <tag k="alt_name:bs" v="Tajvan"/>
+    <tag k="alt_name:csb" v="Tajwan"/>
+    <tag k="alt_name:cv" v="Тайвань"/>
+    <tag k="alt_name:cy" v="Taiwan"/>
+    <tag k="alt_name:da" v="Taiwan"/>
+    <tag k="alt_name:de" v="Taiwan"/>
+    <tag k="alt_name:ee" v="Taiwan"/>
     <tag k="alt_name:en" v="Taiwan"/>
+    <tag k="alt_name:eu" v="Taiwan"/>
+    <tag k="alt_name:fo" v="Teivan"/>
+    <tag k="alt_name:fy" v="Taiwan"/>
+    <tag k="alt_name:ga" v="An Téaváin"/>
+    <tag k="alt_name:gl" v="Taiwán"/>
+    <tag k="alt_name:hu" v="Tajvan"/>
+    <tag k="alt_name:ilo" v="Taiwan"/>
+    <tag k="alt_name:it" v="Taiwan"/>
+    <tag k="alt_name:kk" v="Тайвань"/>
+    <tag k="alt_name:ku" v="Taywan"/>
+    <tag k="alt_name:lb" v="Taiwan"/>
+    <tag k="alt_name:lij" v="Taiwan"/>
+    <tag k="alt_name:ln" v="Taiwan"/>
+    <tag k="alt_name:lt" v="Taivanas"/>
+    <tag k="alt_name:mg" v="Taiwan"/>
+    <tag k="alt_name:mhr" v="Тайван"/>
+    <tag k="alt_name:mi" v="Taiwana"/>
+    <tag k="alt_name:nah" v="Taihuan"/>
+    <tag k="alt_name:pcd" v="Taïwan"/>
+    <tag k="alt_name:pms" v="Taiwan"/>
+    <tag k="alt_name:ro" v="Taiwan"/>
     <tag k="alt_name:ru" v="Тайвань"/>
+    <tag k="alt_name:rw" v="Tayiwani"/>
+    <tag k="alt_name:se" v="Taiwan"/>
+    <tag k="alt_name:sk" v="Taiwan"/>
+    <tag k="alt_name:sl" v="Tajvan"/>
+    <tag k="alt_name:so" v="Taywan"/>
+    <tag k="alt_name:ss" v="IThayiwani"/>
+    <tag k="alt_name:sv" v="Taiwan"/>
+    <tag k="alt_name:tg" v="Тайван"/>
+    <tag k="alt_name:tk" v="Taýwan"/>
     <tag k="alt_name:uz" v="Tayvan"/>
+    <tag k="alt_name:vo" v="Tayvän"/>
+    <tag k="alt_name:wo" v="Taaywaan"/>
+    <tag k="alt_name:zea" v="Taiwan"/>
     <tag k="alt_name:zh" v="臺灣"/>
     <tag k="alt_name:zh-classical" v="臺灣"/>
     <tag k="alt_name:zh-simplified" v="台湾"/>
     <tag k="alt_name:zh-traditional" v="臺灣"/>
+    <tag k="alt_name_1" v="Тайвань"/>
+    <tag k="alt_name_2" v="Taiwan"/>
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/7/72/Flag_of_the_Republic_of_China.svg"/>
     <tag k="name" v="中華民國"/>
-    <tag k="name:ace" v="Taywan"/>
     <tag k="name:af" v="Republiek van Sjina"/>
     <tag k="name:als" v="Republik China"/>
     <tag k="name:am" v="የቻይና ሪፐብሊክ"/>
@@ -30944,7 +30966,6 @@
     <tag k="name:ast" v="República de China"/>
     <tag k="name:az" v="Çin Respublikası"/>
     <tag k="name:bar" v="Republik China"/>
-    <tag k="name:bcl" v="Taiwan"/>
     <tag k="name:be" v="Рэспубліка Кітай"/>
     <tag k="name:be-x-old" v="Рэспубліка Кітай"/>
     <tag k="name:bg" v="Република Китай"/>
@@ -30953,7 +30974,6 @@
     <tag k="name:bo" v="ཐའེ་ཝན།"/>
     <tag k="name:bpy" v="তাইৱান"/>
     <tag k="name:br" v="Republik Sina"/>
-    <tag k="name:bs" v="Tajvan"/>
     <tag k="name:ca" v="República de la Xina"/>
     <tag k="name:cdo" v="Dài-uăng"/>
     <tag k="name:ceb" v="Republika sa Tsina"/>
@@ -30961,35 +30981,24 @@
     <tag k="name:ckb" v="کۆماری چین"/>
     <tag k="name:crh" v="Çin Cumhuriyeti"/>
     <tag k="name:cs" v="Čínská republika (Taiwan)"/>
-    <tag k="name:csb" v="Tajwan"/>
-    <tag k="name:cv" v="Тайвань"/>
-    <tag k="name:cy" v="Taiwan"/>
-    <tag k="name:da" v="Taiwan"/>
-    <tag k="name:de" v="Taiwan"/>
     <tag k="name:diq" v="Cumhuriyetê Çini"/>
     <tag k="name:dsb" v="Republika Chinskeje"/>
     <tag k="name:dv" v="ޖުމްހޫރީ ޗައިނާ"/>
     <tag k="name:dz" v="ཏའི་ཝཱན་"/>
-    <tag k="name:ee" v="Taiwan"/>
     <tag k="name:el" v="Δημοκρατία της Κίνας"/>
     <tag k="name:en" v="Republic of China"/>
     <tag k="name:eo" v="Respubliko Ĉinio"/>
     <tag k="name:es" v="República de China"/>
     <tag k="name:et" v="Hiina Vabariik"/>
-    <tag k="name:eu" v="Taiwan"/>
     <tag k="name:ext" v="Repúbrica de China"/>
     <tag k="name:fa" v="تایوان"/>
     <tag k="name:fi" v="Kiinan tasavalta"/>
     <tag k="name:fiu-vro" v="Hiina Vabariik"/>
-    <tag k="name:fo" v="Teivan"/>
     <tag k="name:fr" v="République de Chine (Taïwan)"/>
     <tag k="name:frp" v="Rèpublica de Ch·ina"/>
-    <tag k="name:fy" v="Taiwan"/>
-    <tag k="name:ga" v="An Téaváin"/>
     <tag k="name:gag" v="Kitay Respublikası (Tayvan)"/>
     <tag k="name:gan" v="中華民國"/>
     <tag k="name:gd" v="Poblachd na Sìne"/>
-    <tag k="name:gl" v="Taiwán"/>
     <tag k="name:gu" v="ચીની ગણતંત્ર"/>
     <tag k="name:gv" v="Pobblaght ny Sheen"/>
     <tag k="name:hak" v="Chûng-fà Mìn-koet"/>
@@ -31002,30 +31011,19 @@
     <tag k="name:hy" v="Չինաստանի Հանրապետություն"/>
     <tag k="name:ia" v="Republica de China"/>
     <tag k="name:id" v="Republik Cina"/>
-    <tag k="name:ilo" v="Taiwan"/>
     <tag k="name:io" v="Republiko di Chinia"/>
     <tag k="name:is" v="Lýðveldið Kína"/>
-    <tag k="name:it" v="Taiwan"/>
     <tag k="name:ja" v="中華民国"/>
     <tag k="name:jv" v="Républik Cina"/>
     <tag k="name:ka" v="ტაივანი"/>
     <tag k="name:kbd" v="Хъутей Республикэ"/>
-    <tag k="name:kk" v="Тайвань"/>
     <tag k="name:kn" v="ಚೀನಿ ಗಣರಾಜ್ಯ"/>
     <tag k="name:ko" v="중화민국"/>
-    <tag k="name:ku" v="Taywan"/>
     <tag k="name:la" v="Res publica Sinarum"/>
     <tag k="name:lad" v="Repuvlika de Kina"/>
-    <tag k="name:lb" v="Taiwan"/>
     <tag k="name:li" v="Republiek China"/>
-    <tag k="name:lij" v="Taiwan"/>
     <tag k="name:lmo" v="Taiwan"/>
-    <tag k="name:ln" v="Taiwan"/>
-    <tag k="name:lt" v="Taivanas"/>
     <tag k="name:lv" v="Ķīnas Republika"/>
-    <tag k="name:mg" v="Taiwan"/>
-    <tag k="name:mhr" v="Тайван"/>
-    <tag k="name:mi" v="Taiwana"/>
     <tag k="name:mk" v="Република Кина"/>
     <tag k="name:ml" v="തായ്‌വാൻ"/>
     <tag k="name:mn" v="Бүгд Найрамдах Хятад Улс"/>
@@ -31033,7 +31031,6 @@
     <tag k="name:ms" v="Republik China di Taiwan"/>
     <tag k="name:my" v="တရုတ်သမ္မတနိုင်ငံ"/>
     <tag k="name:na" v="Republik Tsiene"/>
-    <tag k="name:nah" v="Taihuan"/>
     <tag k="name:nds" v="Republiek China"/>
     <tag k="name:nl" v="Republiek China"/>
     <tag k="name:nn" v="Republikken Kina"/>
@@ -31045,56 +31042,39 @@
     <tag k="name:pa" v="ਚੀਨ ਗਣਰਾਜ"/>
     <tag k="name:pam" v="Republika ning Tsina"/>
     <tag k="name:pap" v="Republika di China"/>
-    <tag k="name:pcd" v="Taïwan"/>
     <tag k="name:pl" v="Republika Chińska"/>
-    <tag k="name:pms" v="Taiwan"/>
     <tag k="name:pnb" v="تائیوان"/>
     <tag k="name:ps" v="د چين جمهوريت"/>
     <tag k="name:pt" v="República da China"/>
     <tag k="name:qu" v="Chunwa Republika"/>
-    <tag k="name:ro" v="Taiwan"/>
     <tag k="name:ru" v="Китайская Республика"/>
-    <tag k="name:rw" v="Tayiwani"/>
     <tag k="name:sa" v="तैवान"/>
     <tag k="name:sah" v="Кытай Республиката"/>
-    <tag k="name:scn" v="Taiwan"/>
     <tag k="name:sco" v="Republic o Cheenae"/>
-    <tag k="name:se" v="Taiwan"/>
     <tag k="name:sh" v="Republika Kina"/>
     <tag k="name:simple" v="Republic of China"/>
-    <tag k="name:sk" v="Taiwan"/>
-    <tag k="name:sl" v="Tajvan"/>
     <tag k="name:sm" v="Saina Taipei"/>
-    <tag k="name:so" v="Taywan"/>
     <tag k="name:sq" v="Republika e Kinës"/>
     <tag k="name:sr" v="Република Кина"/>
-    <tag k="name:ss" v="IThayiwani"/>
-    <tag k="name:sv" v="Taiwan"/>
     <tag k="name:sw" v="Jamhuri ya China"/>
     <tag k="name:szl" v="Republika Chińsko"/>
     <tag k="name:ta" v="சீனக் குடியரசு"/>
     <tag k="name:te" v="తైవాన్"/>
-    <tag k="name:tg" v="Тайван"/>
     <tag k="name:th" v="สาธารณรัฐจีน"/>
-    <tag k="name:tk" v="Taýwan"/>
     <tag k="name:tl" v="Republika ng Tsina"/>
     <tag k="name:tpi" v="Ripablik bilong Saina"/>
     <tag k="name:tr" v="Çin Cumhuriyeti"/>
     <tag k="name:tt" v="Кытай Җөмһүрияте"/>
-    <tag k="name:udm" v="Тайвань"/>
     <tag k="name:ug" v="تەيۋەن"/>
     <tag k="name:uk" v="Республіка Китай"/>
     <tag k="name:ur" v="جمہوریۂ چین"/>
     <tag k="name:vec" v="Republica de Cina"/>
     <tag k="name:vi" v="Trung Hoa Dân Quốc"/>
-    <tag k="name:vo" v="Tayvän"/>
     <tag k="name:war" v="Republika han Tsina"/>
-    <tag k="name:wo" v="Taaywaan"/>
     <tag k="name:xal" v="Китдин Орн"/>
     <tag k="name:yi" v="רעפובליק פון כינע"/>
     <tag k="name:yo" v="Orílẹ̀-èdè Olómìnira ilẹ̀ Ṣáínà"/>
     <tag k="name:za" v="Cunghvaz Minzgoz"/>
-    <tag k="name:zea" v="Taiwan"/>
     <tag k="name:zh" v="中華民國"/>
     <tag k="name:zh-classical" v="中華民國"/>
     <tag k="name:zh-min-nan" v="Tiong-hoâ Bîn-kok"/>
@@ -33521,6 +33501,7 @@
     <tag k="alt_name:oc" v="Africa del Sud"/>
     <tag k="alt_name:wo" v="Afrig gu Bëj-gànnaar"/>
     <tag k="border_type" v="country"/>
+    <tag k="boundary" v="administrative"/>
     <tag k="capital_city" v="Cape Town"/>
     <tag k="country_code_fips" v="SF"/>
     <tag k="country_code_iso3166_1_alpha_2" v="ZA"/>
@@ -33925,7 +33906,6 @@
     <tag k="timezone" v="Africa/Johannesburg"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="en:South Africa"/>
-    <tag k="wikipedia:fr" v="Afrique du Sud"/>
   </relation>
   <relation id="1278736">
     <tag k="ISO3166-1" v="GI"/>
@@ -36826,6 +36806,7 @@
     <tag k="name:zh" v="科索沃"/>
     <tag k="name:zh-yue" v="科索沃"/>
     <tag k="note" v="If you should have any objections/reasonable arguments against the country status of Kosovo please start a thread at http://forum.openstreetmap.org/viewforum.php?id=10"/>
+    <tag k="short_name:en" v="Kosovo"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q1246"/>
     <tag k="wikipedia" v="en:Republic of Kosovo"/>
@@ -36836,6 +36817,7 @@
     <tag k="ISO3166-1:alpha3" v="LSO"/>
     <tag k="ISO3166-1:numeric" v="426"/>
     <tag k="admin_level" v="2"/>
+    <tag k="alt_name:gl" v="Lesotho"/>
     <tag k="border_type" v="country"/>
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/4/4a/Flag_of_Lesotho.svg"/>
@@ -36875,13 +36857,13 @@
     <tag k="name:cv" v="Лесото"/>
     <tag k="name:cy" v="Lesotho"/>
     <tag k="name:da" v="Lesotho"/>
-    <tag k="name:de" v="Königreich Lesotho"/>
+    <tag k="name:de" v="Lesotho"/>
     <tag k="name:diq" v="Lesoto"/>
     <tag k="name:dsb" v="Lesotho"/>
     <tag k="name:dv" v="ލެސޯތޯ"/>
     <tag k="name:ee" v="Lesotho"/>
     <tag k="name:el" v="Λεσότο"/>
-    <tag k="name:en" v="Kingdom of Lesotho"/>
+    <tag k="name:en" v="Lesotho"/>
     <tag k="name:eo" v="Lesoto"/>
     <tag k="name:es" v="Lesoto"/>
     <tag k="name:et" v="Lesotho"/>
@@ -36891,13 +36873,13 @@
     <tag k="name:fi" v="Lesotho"/>
     <tag k="name:fiu-vro" v="Lesotho"/>
     <tag k="name:fo" v="Lesoto"/>
-    <tag k="name:fr" v="Royaume du Lesotho"/>
+    <tag k="name:fr" v="Lesotho"/>
     <tag k="name:frp" v="Lesothô"/>
     <tag k="name:fy" v="Lesoto"/>
     <tag k="name:ga" v="Leosóta"/>
     <tag k="name:gag" v="Lesoto"/>
     <tag k="name:gd" v="Leasoto"/>
-    <tag k="name:gl" v="Lesoto - Lesotho"/>
+    <tag k="name:gl" v="Lesoto"/>
     <tag k="name:gv" v="Lesoto"/>
     <tag k="name:hak" v="Lòi-sò-thok"/>
     <tag k="name:he" v="לסוטו"/>
@@ -36961,7 +36943,7 @@
     <tag k="name:pl" v="Lesotho"/>
     <tag k="name:pms" v="Lesotho"/>
     <tag k="name:pnb" v="لیسوتھو"/>
-    <tag k="name:pt" v="Reino do Lesoto"/>
+    <tag k="name:pt" v="Lesoto"/>
     <tag k="name:qu" v="Suthusuyu"/>
     <tag k="name:ro" v="Lesotho"/>
     <tag k="name:ru" v="Лесото"/>
@@ -36981,10 +36963,10 @@
     <tag k="name:sq" v="Lesoto"/>
     <tag k="name:sr" v="Лесото"/>
     <tag k="name:ss" v="ÉLusûtfu"/>
-    <tag k="name:st" v="Muso oa Lesotho"/>
+    <tag k="name:st" v="Lesotho"/>
     <tag k="name:stq" v="Lesoto"/>
     <tag k="name:su" v="Lésotho"/>
-    <tag k="name:sv" v="Kungariket Lesotho"/>
+    <tag k="name:sv" v="Lesotho"/>
     <tag k="name:sw" v="Lesotho"/>
     <tag k="name:szl" v="Lesotho"/>
     <tag k="name:ta" v="லெசோத்தோ"/>
@@ -37009,7 +36991,6 @@
     <tag k="name:vo" v="Sutuvän"/>
     <tag k="name:war" v="Lesoto"/>
     <tag k="name:wo" v="Lesoto"/>
-    <tag k="name:xal" v="Лесотин Нутг"/>
     <tag k="name:yi" v="לעסאטא"/>
     <tag k="name:yo" v="Lèsóthò"/>
     <tag k="name:zea" v="Lesotho"/>
@@ -37017,6 +36998,13 @@
     <tag k="name:zh-min-nan" v="Lesotho"/>
     <tag k="name:zh-yue" v="萊索托"/>
     <tag k="name:zu" v="OSotho"/>
+    <tag k="official_name:de" v="Königreich Lesotho"/>
+    <tag k="official_name:en" v="Kingdom of Lesotho"/>
+    <tag k="official_name:fr" v="Royaume du Lesotho"/>
+    <tag k="official_name:pt" v="Reino do Lesoto"/>
+    <tag k="official_name:st" v="Muso oa Lesotho"/>
+    <tag k="official_name:sv" v="Kungariket Lesotho"/>
+    <tag k="official_name:xal" v="Лесотин Нутг"/>
     <tag k="timezone" v="Africa/Maseru"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q1013"/>
@@ -37254,20 +37242,6 @@
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q833"/>
     <tag k="wikipedia" v="en:Malaysia"/>
-  </relation>
-  <relation id="2127079">
-    <tag k="ISO3166-2" v="TW-KHH"/>
-    <tag k="admin_level" v="2"/>
-    <tag k="boundary" v="administrative"/>
-    <tag k="name" v="高雄市"/>
-    <tag k="name:ar" v="كواسي يونغ"/>
-    <tag k="name:de" v="Kaohsiung"/>
-    <tag k="name:en" v="Kaohsiung City"/>
-    <tag k="name:ko" v="가오슝"/>
-    <tag k="name:ru" v="Гаосюн"/>
-    <tag k="name:vi" v="Cao Hùng"/>
-    <tag k="name:zh" v="高雄市"/>
-    <tag k="type" v="boundary"/>
   </relation>
   <relation id="2171347">
     <tag k="ISO3166-1" v="LU"/>
@@ -38223,10 +38197,10 @@
     <tag k="country_code" v="FLK"/>
     <tag k="disputed" v="yes"/>
     <tag k="flag" v="administrative"/>
-    <tag k="int_name" v="Falkland Islands (Malvinas)"/>
+    <tag k="int_name" v="Falkland Islands"/>
     <tag k="is_in:continent" v="South America"/>
     <tag k="maritime" v="yes"/>
-    <tag k="name" v="Falkland Islands (Malvinas)"/>
+    <tag k="name" v="Falkland Islands"/>
     <tag k="name:af" v="Falklandeilande"/>
     <tag k="name:ak" v="Fɔlkman Aeland"/>
     <tag k="name:am" v="ፎክላንድ ደሴቶች (ኢስላስ ማልቪናስ)"/>
@@ -39580,6 +39554,7 @@
     <tag k="border_type" v="territorial"/>
     <tag k="boundary" v="maritime"/>
     <tag k="maritime" v="yes"/>
+    <tag k="name" v="Philippines maritime boundary"/>
     <tag k="source" v="UNCLOS 12 n.mile Territorial Sea"/>
     <tag k="type" v="boundary"/>
   </relation>
@@ -40037,37 +40012,13 @@
     <tag k="wikidata" v="Q1028"/>
     <tag k="wikipedia" v="fr:Maroc"/>
   </relation>
-  <relation id="3777248">
-    <tag k="ISO 3166-2" v="TW"/>
-    <tag k="admin_level" v="2"/>
-    <tag k="boundary" v="administrative"/>
-    <tag k="name" v="臺灣省"/>
-    <tag k="name:de" v="Provinz Taiwan"/>
-    <tag k="name:en" v="Taiwan Province"/>
-    <tag k="name:zh" v="臺灣省"/>
-    <tag k="type" v="boundary"/>
-    <tag k="wikidata" v="Q32081"/>
-  </relation>
-  <relation id="3777250">
-    <tag k="ISO3166-2" v="TW"/>
-    <tag k="admin_level" v="2"/>
-    <tag k="alt_name:en" v="Fukien Province;Fukien;Fujian"/>
-    <tag k="boundary" v="administrative"/>
-    <tag k="name" v="福建省"/>
-    <tag k="name:de" v="Provinz Fujian"/>
-    <tag k="name:en" v="Fujian Province"/>
-    <tag k="name:zh" v="福建省"/>
-    <tag k="note" v="There are two Fujian Provinces which are controlled by Taiwan and China separately."/>
-    <tag k="type" v="boundary"/>
-    <tag k="wikidata" v="Q63698"/>
-    <tag k="wikipedia" v="en:Fujian Province, Republic of China"/>
-  </relation>
   <relation id="4112727">
     <tag k="admin_level" v="2"/>
     <tag k="boundary" v="administrative"/>
     <tag k="disputed" v="yes"/>
     <tag k="name" v="Acuerdo para precisar el recorrido del límite desde el Monte Fitz Roy hasta el Cerro Daudet"/>
     <tag k="note" v="Límite pendiente de asignación y demarcación final en conformidad con un acuerdo celebrado en 1998 entre Argentina y Chile."/>
+    <tag k="ref" v="*"/>
     <tag k="type" v="boundary"/>
     <tag k="website" v="http://en.wikipedia.org/wiki/Argentina%E2%80%93Chile_relations#Border_issues"/>
     <tag k="wikipedia" v="es:Litigio del campo de hielo Patagónico Sur"/>
@@ -40140,18 +40091,6 @@
     <tag k="admin_level" v="2"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Argentina"/>
-    <tag k="type" v="boundary"/>
-  </relation>
-  <relation id="5128312">
-    <tag k="admin_level" v="2"/>
-    <tag k="boundary" v="administrative"/>
-    <tag k="name" v="Burundi"/>
-    <tag k="type" v="boundary"/>
-  </relation>
-  <relation id="5128322">
-    <tag k="admin_level" v="2"/>
-    <tag k="boundary" v="administrative"/>
-    <tag k="name" v="Rwanda"/>
     <tag k="type" v="boundary"/>
   </relation>
 
