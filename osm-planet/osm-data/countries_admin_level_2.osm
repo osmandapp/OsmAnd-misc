@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2015-07-16T15:46:02Z"/>
+<meta osm_base="2015-07-19T13:13:02Z"/>
 
   <relation id="9407">
     <tag k="ISO3166-1" v="AD"/>
@@ -22220,6 +22220,7 @@
     <tag k="name:cu" v="Срѣдинꙗнє"/>
     <tag k="name:cv" v="Китай Халăх Республики"/>
     <tag k="name:cy" v="Gweriniaeth Pobl Tsieina"/>
+    <tag k="name:de" v="China"/>
     <tag k="name:diq" v="Cumhuriyetê Şariê Çini"/>
     <tag k="name:dsb" v="Chinska ludowa republika"/>
     <tag k="name:dv" v="ސީނުކަރަ"/>
@@ -33501,7 +33502,6 @@
     <tag k="alt_name:oc" v="Africa del Sud"/>
     <tag k="alt_name:wo" v="Afrig gu Bëj-gànnaar"/>
     <tag k="border_type" v="country"/>
-    <tag k="boundary" v="administrative"/>
     <tag k="capital_city" v="Cape Town"/>
     <tag k="country_code_fips" v="SF"/>
     <tag k="country_code_iso3166_1_alpha_2" v="ZA"/>
@@ -40093,6 +40093,143 @@
     <tag k="name" v="Argentina"/>
     <tag k="type" v="boundary"/>
   </relation>
+  <way id="52947809">
+    <nd ref="670927410"/>
+    <nd ref="670927403"/>
+    <nd ref="670927407"/>
+    <nd ref="670927405"/>
+    <nd ref="670927402"/>
+    <nd ref="670927380"/>
+    <nd ref="670927383"/>
+    <nd ref="670927382"/>
+    <nd ref="670927388"/>
+    <nd ref="670927389"/>
+    <nd ref="670927385"/>
+    <nd ref="670927386"/>
+    <nd ref="670927439"/>
+    <nd ref="670927440"/>
+    <nd ref="670927437"/>
+    <nd ref="670927450"/>
+    <nd ref="670927445"/>
+    <nd ref="670927447"/>
+    <nd ref="670927449"/>
+    <nd ref="670927442"/>
+    <nd ref="670927443"/>
+    <nd ref="670927458"/>
+    <nd ref="670927460"/>
+    <nd ref="670927455"/>
+    <nd ref="670927457"/>
+    <nd ref="670927454"/>
+    <nd ref="670927452"/>
+    <nd ref="670927466"/>
+    <nd ref="670927465"/>
+    <nd ref="670927463"/>
+    <nd ref="670927462"/>
+    <nd ref="670927473"/>
+    <nd ref="670927471"/>
+    <nd ref="670927470"/>
+    <nd ref="670927468"/>
+    <nd ref="670927477"/>
+    <nd ref="670927476"/>
+    <nd ref="670927474"/>
+    <nd ref="670927482"/>
+    <nd ref="670927480"/>
+    <nd ref="670927479"/>
+    <nd ref="670927484"/>
+    <nd ref="670927487"/>
+    <nd ref="670927485"/>
+    <nd ref="670927498"/>
+    <nd ref="670927497"/>
+    <nd ref="670927505"/>
+    <nd ref="670927503"/>
+    <nd ref="670927500"/>
+    <nd ref="670927502"/>
+    <nd ref="670927508"/>
+    <nd ref="670927506"/>
+    <nd ref="670927517"/>
+    <nd ref="670927516"/>
+    <nd ref="670927514"/>
+    <nd ref="670927513"/>
+    <nd ref="670927511"/>
+    <nd ref="670927510"/>
+    <nd ref="670927519"/>
+    <nd ref="670927528"/>
+    <nd ref="670927525"/>
+    <nd ref="670927527"/>
+    <nd ref="670927522"/>
+    <nd ref="670927524"/>
+    <nd ref="670927521"/>
+    <nd ref="670927619"/>
+    <nd ref="670927630"/>
+    <nd ref="670927631"/>
+    <nd ref="670927627"/>
+    <nd ref="670927628"/>
+    <nd ref="670927623"/>
+    <nd ref="670927625"/>
+    <nd ref="670927620"/>
+    <nd ref="670927622"/>
+    <nd ref="670927643"/>
+    <nd ref="670927641"/>
+    <nd ref="670927639"/>
+    <nd ref="670927638"/>
+    <nd ref="670927634"/>
+    <nd ref="670927633"/>
+    <nd ref="670927636"/>
+    <nd ref="670927614"/>
+    <nd ref="670927613"/>
+    <nd ref="670927617"/>
+    <nd ref="670927616"/>
+    <nd ref="670927610"/>
+    <nd ref="670927609"/>
+    <nd ref="670927604"/>
+    <nd ref="670927602"/>
+    <nd ref="670927607"/>
+    <nd ref="670927606"/>
+    <nd ref="670927586"/>
+    <nd ref="670927588"/>
+    <nd ref="670927590"/>
+    <nd ref="670927591"/>
+    <nd ref="670927580"/>
+    <nd ref="670927582"/>
+    <nd ref="670927583"/>
+    <nd ref="670927585"/>
+    <nd ref="670927574"/>
+    <nd ref="670927576"/>
+    <nd ref="670927577"/>
+    <nd ref="670927579"/>
+    <nd ref="670927572"/>
+    <nd ref="670927568"/>
+    <nd ref="670927569"/>
+    <nd ref="670927571"/>
+    <nd ref="670927566"/>
+    <nd ref="670927564"/>
+    <nd ref="670927562"/>
+    <nd ref="670927560"/>
+    <nd ref="670927541"/>
+    <nd ref="670927539"/>
+    <nd ref="670927538"/>
+    <nd ref="670927536"/>
+    <nd ref="670927411"/>
+    <nd ref="670927415"/>
+    <nd ref="670927414"/>
+    <nd ref="670927413"/>
+    <nd ref="670927408"/>
+    <nd ref="670927410"/>
+    <tag k="admin_level" v="2"/>
+    <tag k="border_type" v="territorial"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="maritime" v="yes"/>
+    <tag k="name" v="Prince Edward Islands"/>
+    <tag k="name:af" v="Prins Eduard-eilande"/>
+    <tag k="name:de" v="Prinz-Edward-Inseln"/>
+    <tag k="name:es" v="Islas del Príncipe Eduardo"/>
+    <tag k="name:fr" v="Archipel du Prince-Édouard"/>
+    <tag k="name:it" v="Isole del Principe Edoardo"/>
+    <tag k="name:pt" v="Ilhas do Príncipe Eduardo"/>
+    <tag k="name:sv" v="Prins Edwardöarna"/>
+    <tag k="place" v="island"/>
+    <tag k="source" v="Calculated from coastline and fixed baselines"/>
+  </way>
 
 
   <relation id="-65335">
