@@ -9,7 +9,7 @@ EOL
 
 cat >cron_replicate_minute_updates.sh  <<EOL
 #!/bin/sh
-osmupdate update_empty.osm --minute -v --keep-tempfiles --tempfiles=minutes/m -b=0.5,0.5,0.5,0.5 update_empty_upd.osm
+osmupdate update_empty.osm --minute -v --keep-tempfiles --tempfiles=_minutes/m -b=0.5,0.5,0.5,0.5 update_empty_upd.osm
 mv update_empty_upd.osm update_empty.osm || echo "Not updated"
 EOL
 
@@ -17,4 +17,7 @@ crontab -e
 * * * * * su jenkins && cd /home/osm-planet/osmc/ && ./cron_replicate_minute_updates.sh
 schedule it with cron cron_replicate_minute_updates.sh
 
-# 2.
+# 2. Job http://builder.osmand.net:8080/view/Generate%20Maps/job/MapsDaily_GenerateIndexIdBbbox/
+Updates /postgresql/jenkins/bboxid.sqlite (global world id to bbox index) and splits to /home/osm-planet/osmc/$COUNTRY.
+It creates 3 files:
+1) osc.gz - patch 2) osc.txt - text file 3) ids.txt (ids of objects which related to $COUNTRY)
