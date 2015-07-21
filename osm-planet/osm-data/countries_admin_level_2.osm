@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2015-07-19T13:13:02Z"/>
+<meta osm_base="2015-07-21T14:19:02Z"/>
 
   <relation id="9407">
     <tag k="ISO3166-1" v="AD"/>
@@ -3533,7 +3533,7 @@
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/c/cb/Flag_of_the_Czech_Republic.svg"/>
     <tag k="int_name" v="Czech Republic"/>
     <tag k="is_in:continent" v="Europe"/>
-    <tag k="name" v="Česká republika"/>
+    <tag k="name" v="Česko"/>
     <tag k="name:ab" v="Чехиа"/>
     <tag k="name:ace" v="Rèpublik Cèkô"/>
     <tag k="name:af" v="Tsjeggië"/>
@@ -19576,7 +19576,6 @@
     <tag k="wikipedia" v="en:Burundi"/>
   </relation>
   <relation id="195270">
-    <tag k="ISO3166-1" v="TZ"/>
     <tag k="ISO3166-1:alpha2" v="TZ"/>
     <tag k="ISO3166-1:alpha3" v="TZA"/>
     <tag k="ISO3166-1:numeric" v="834"/>
@@ -33322,6 +33321,7 @@
     <tag k="wikipedia" v="fr:Monaco"/>
   </relation>
   <relation id="1152720">
+    <tag k="addr:country" v="AB"/>
     <tag k="admin_level" v="2"/>
     <tag k="border_type" v="nation"/>
     <tag k="boundary" v="administrative"/>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2015-07-19T15:42:02Z" areas="2015-07-18T05:36:03Z"/>
+<meta osm_base="2015-07-21T14:20:02Z" areas="2015-07-20T15:54:02Z"/>
 
   <relation id="8636">
     <tag k="ISO3166-2" v="FR-A"/>
@@ -5766,6 +5766,7 @@
     <tag k="name:lt" v="Tatarstanas"/>
     <tag k="name:pl" v="Tatarstan"/>
     <tag k="name:ru" v="Татарстан"/>
+    <tag k="name:tt" v="Татарстан"/>
     <tag k="name:udm" v="Татарстан"/>
     <tag k="official_name" v="Республика Татарстан"/>
     <tag k="oktmo:user" v="92000000"/>
@@ -16527,7 +16528,6 @@
   <relation id="301079">
     <tag k="IBGE:GEOCODIGO" v="24"/>
     <tag k="ISO3166-2" v="BR-RN"/>
-    <tag k="addr:state" v="RN"/>
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="https://upload.wikimedia.org/wikipedia/commons/3/30/Bandeira_do_Rio_Grande_do_Norte.svg"/>
@@ -16710,7 +16710,6 @@
   <relation id="302819">
     <tag k="IBGE:GEOCODIGO" v="22"/>
     <tag k="ISO3166-2" v="BR-PI"/>
-    <tag k="addr:state" v="PI"/>
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="https://upload.wikimedia.org/wikipedia/commons/3/33/Bandeira_do_Piau%C3%AD.svg"/>
@@ -18054,6 +18053,7 @@
     <tag k="name:os" v="Бетъырбух"/>
     <tag k="name:pl" v="Sankt Petersburg"/>
     <tag k="name:pt" v="São Petersburgo"/>
+    <tag k="name:ru" v="Санкт-Петербург"/>
     <tag k="name:sk" v="Petrohrad"/>
     <tag k="name:sl" v="Sankt Peterburg"/>
     <tag k="name:sr" v="Санкт Петербург"/>
@@ -18275,6 +18275,7 @@
     <tag k="name:pl" v="Księstwo Asturii"/>
     <tag k="name:pt" v="Principado das Astúrias"/>
     <tag k="name:ru" v="Астурийское княжество"/>
+    <tag k="official_name" v="Principado de Asturias"/>
     <tag k="official_name:ast" v="Principáu d'Asturies"/>
     <tag k="official_name:es" v="Principado de Asturias"/>
     <tag k="source" v="BDLL25, EGRN, Instituto Geográfico Nacional"/>
@@ -30002,7 +30003,7 @@
     <tag k="capital" v="yes"/>
     <tag k="is_capital" v="country"/>
     <tag k="is_in" v="Cuba"/>
-    <tag k="name" v="Ciudad de La Habana"/>
+    <tag k="name" v="La Habana"/>
     <tag k="name:ca" v="l'Havana"/>
     <tag k="name:de" v="Havanna"/>
     <tag k="name:en" v="Havana"/>
@@ -49386,6 +49387,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="городской округ Якутск"/>
     <tag k="name:en" v="Yakutsk Urban District"/>
+    <tag k="name:ru" v="городской округ Якутск"/>
     <tag k="official_status" v="ru:городской округ"/>
     <tag k="timezone" v="Asia/Yakutsk"/>
     <tag k="type" v="boundary"/>
@@ -49500,6 +49502,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="городской округ Магадан"/>
     <tag k="name:en" v="Magadan Urban District"/>
+    <tag k="name:ru" v="городской округ Магадан"/>
     <tag k="official_name" v="городской округ Город Магадан"/>
     <tag k="official_status" v="ru:городской округ"/>
     <tag k="type" v="boundary"/>
@@ -49587,6 +49590,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="городской округ Сыктывкар"/>
     <tag k="name:en" v="Syktyvkar Urban Okrug"/>
+    <tag k="name:ru" v="городской округ Сыктывкар"/>
     <tag k="official_status" v="ru:городской округ"/>
     <tag k="population" v="257921"/>
     <tag k="population:date" v="2014"/>
@@ -49601,6 +49605,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Троицко-Печорский район"/>
     <tag k="name:en" v="Troitsko-Pechorsky District"/>
+    <tag k="name:ru" v="Троицко-Печорский район"/>
     <tag k="official_status" v="ru:муниципальный район"/>
     <tag k="population" v="12435"/>
     <tag k="population:date" v="2014"/>
@@ -49612,6 +49617,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Корткеросский район"/>
     <tag k="name:en" v="Kortkerossky District"/>
+    <tag k="name:ru" v="Корткеросский район"/>
     <tag k="official_status" v="ru:муниципальный район"/>
     <tag k="population" v="19169"/>
     <tag k="population:date" v="2014"/>
@@ -49623,6 +49629,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="городской округ Усинск"/>
     <tag k="name:en" v="Usinsk Urban Okrug"/>
+    <tag k="name:ru" v="городской округ Усинск"/>
     <tag k="official_status" v="ru:городской округ"/>
     <tag k="population" v="45754"/>
     <tag k="population:date" v="2014"/>
@@ -49634,6 +49641,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Усть-Куломский район"/>
     <tag k="name:en" v="Ust-Kulomsky District"/>
+    <tag k="name:ru" v="Усть-Куломский район"/>
     <tag k="official_status" v="ru:муниципальный район"/>
     <tag k="population" v="25520"/>
     <tag k="population:date" v="2014"/>
@@ -49646,6 +49654,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="городской округ Воркута"/>
     <tag k="name:en" v="Vorkuta Urban Okrug"/>
+    <tag k="name:ru" v="городской округ Воркута"/>
     <tag k="official_status" v="ru:городской округ"/>
     <tag k="population" v="84707"/>
     <tag k="population:date" v="2014"/>
@@ -49657,6 +49666,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Удорский район"/>
     <tag k="name:en" v="Udorsky District"/>
+    <tag k="name:ru" v="Удорский район"/>
     <tag k="official_status" v="ru:муниципальный район"/>
     <tag k="population" v="19058"/>
     <tag k="population:date" v="2014"/>
@@ -49668,6 +49678,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Ижемский район"/>
     <tag k="name:en" v="Izhemsky District"/>
+    <tag k="name:ru" v="Ижемский район"/>
     <tag k="official_status" v="ru:муниципальный район"/>
     <tag k="population" v="17716"/>
     <tag k="population:date" v="2014"/>
@@ -49680,6 +49691,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Койгородский район"/>
     <tag k="name:en" v="Koygorodsky District"/>
+    <tag k="name:ru" v="Койгородский район"/>
     <tag k="official_status" v="ru:муниципальный район"/>
     <tag k="population" v="7972"/>
     <tag k="population:date" v="2014"/>
@@ -49691,6 +49703,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Сыктывдинский район"/>
     <tag k="name:en" v="Syktyvdinsky District"/>
+    <tag k="name:ru" v="Сыктывдинский район"/>
     <tag k="official_status" v="ru:муниципальный район"/>
     <tag k="population" v="23631"/>
     <tag k="population:date" v="2014"/>
@@ -49703,6 +49716,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Прилузский район"/>
     <tag k="name:en" v="Priluzsky District"/>
+    <tag k="name:ru" v="Прилузский район"/>
     <tag k="official_status" v="ru:муниципальный район"/>
     <tag k="population" v="19037"/>
     <tag k="population:date" v="2014"/>
@@ -49714,6 +49728,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="городской округ Ухта"/>
     <tag k="name:en" v="Ukhta Urban Okrug"/>
+    <tag k="name:ru" v="городской округ Ухта"/>
     <tag k="official_status" v="ru:городской округ"/>
     <tag k="oktmo:user" v="87725000"/>
     <tag k="population" v="120800"/>
@@ -49726,6 +49741,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="район Печора"/>
     <tag k="name:en" v="Pechora Municipal District"/>
+    <tag k="name:ru" v="район Печора"/>
     <tag k="official_status" v="ru:муниципальный район"/>
     <tag k="population" v="54288"/>
     <tag k="population:date" v="2014"/>
@@ -49737,6 +49753,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Усть-Цилемский район"/>
     <tag k="name:en" v="Ust-Tsilemsky District"/>
+    <tag k="name:ru" v="Усть-Цилемский район"/>
     <tag k="official_status" v="ru:муниципальный район"/>
     <tag k="population" v="12122"/>
     <tag k="population:date" v="2014"/>
@@ -49750,6 +49767,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="городской округ Инта"/>
     <tag k="name:en" v="Inta Urban Okrug"/>
+    <tag k="name:ru" v="городской округ Инта"/>
     <tag k="official_status" v="ru:городской округ"/>
     <tag k="population" v="31344"/>
     <tag k="population:date" v="2014"/>
@@ -49761,6 +49779,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Усть-Вымский район"/>
     <tag k="name:en" v="Ust-Vymsky District"/>
+    <tag k="name:ru" v="Усть-Вымский район"/>
     <tag k="official_status" v="ru:муниципальный район"/>
     <tag k="population" v="27547"/>
     <tag k="population:date" v="2014"/>
@@ -49772,6 +49791,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="район Вуктыл"/>
     <tag k="name:en" v="Vuktyl Municipal District"/>
+    <tag k="name:ru" v="район Вуктыл"/>
     <tag k="official_status" v="ru:муниципальный район"/>
     <tag k="population" v="13261"/>
     <tag k="population:date" v="2014"/>
@@ -49783,6 +49803,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Сысольский район"/>
     <tag k="name:en" v="Sysolsky District"/>
+    <tag k="name:ru" v="Сысольский район"/>
     <tag k="official_status" v="ru:муниципальный район"/>
     <tag k="population" v="13386"/>
     <tag k="population:date" v="2014"/>
@@ -49794,6 +49815,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Княжпогостский район"/>
     <tag k="name:en" v="Knyazhpogostsky District"/>
+    <tag k="name:ru" v="Княжпогостский район"/>
     <tag k="official_status" v="ru:муниципальный район"/>
     <tag k="population" v="21213"/>
     <tag k="population:date" v="2014"/>
@@ -49805,6 +49827,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="район Сосногорск"/>
     <tag k="name:en" v="Sosnogorsk Municipal District"/>
+    <tag k="name:ru" v="район Сосногорск"/>
     <tag k="official_status" v="ru:муниципальный район"/>
     <tag k="population" v="45176"/>
     <tag k="population:date" v="2014"/>
@@ -49828,6 +49851,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Назаровский район"/>
     <tag k="name:en" v="Nazarovsky Rayon"/>
+    <tag k="name:ru" v="Назаровский район"/>
     <tag k="source" v="cadastre"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Назаровский район"/>
@@ -49837,6 +49861,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Ужурский район"/>
     <tag k="name:en" v="Uzhursky Rayon"/>
+    <tag k="name:ru" v="Ужурский район"/>
     <tag k="source" v="cadastre"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Ужурский район"/>
@@ -49846,6 +49871,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Шарыповский район"/>
     <tag k="name:en" v="Sharypovsky Rayon"/>
+    <tag k="name:ru" v="Шарыповский район"/>
     <tag k="official_status" v="ru:муниципальный район"/>
     <tag k="source" v="cadastre"/>
     <tag k="type" v="boundary"/>
@@ -49856,6 +49882,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Балахтинский район"/>
     <tag k="name:en" v="Balakhtinsky Rayon"/>
+    <tag k="name:ru" v="Балахтинский район"/>
     <tag k="source" v="cadastre"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Балахтинский район"/>
@@ -49865,6 +49892,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Боготольский район"/>
     <tag k="name:en" v="Bogotolsky Rayon"/>
+    <tag k="name:ru" v="Боготольский район"/>
     <tag k="source" v="cadastre;генплан"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Боготольский район"/>
@@ -49874,6 +49902,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Ачинский район"/>
     <tag k="name:en" v="Achinsky Rayon"/>
+    <tag k="name:ru" v="Ачинский район"/>
     <tag k="source" v="cadastre"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Ачинский район"/>
@@ -49883,6 +49912,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Козульский район"/>
     <tag k="name:en" v="Kozulsky Rayon"/>
+    <tag k="name:ru" v="Козульский район"/>
     <tag k="source" v="cadastre"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Козульский район"/>
@@ -49892,6 +49922,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Новосёловский район"/>
     <tag k="name:en" v="Novosyolovsky Rayon"/>
+    <tag k="name:ru" v="Новосёловский район"/>
     <tag k="source" v="cadastre"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Новосёловский район"/>
@@ -49901,6 +49932,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Краснотуранский район"/>
     <tag k="name:en" v="Krasnoturansky Rayon"/>
+    <tag k="name:ru" v="Краснотуранский район"/>
     <tag k="source" v="cadastre"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Краснотуранский район"/>
@@ -49910,6 +49942,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Курагинский район"/>
     <tag k="name:en" v="Kuraginsky Rayon"/>
+    <tag k="name:ru" v="Курагинский район"/>
     <tag k="source" v="cadastre"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Курагинский район"/>
@@ -49919,6 +49952,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Идринский район"/>
     <tag k="name:en" v="Idrinsky Rayon"/>
+    <tag k="name:ru" v="Идринский район"/>
     <tag k="source" v="cadastre"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Идринский район"/>
@@ -49928,6 +49962,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Минусинский район"/>
     <tag k="name:en" v="Minusinsky Rayon"/>
+    <tag k="name:ru" v="Минусинский район"/>
     <tag k="source" v="cadastre"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Минусинский район"/>
@@ -49937,6 +49972,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Шушенский район"/>
     <tag k="name:en" v="Shushensky Rayon"/>
+    <tag k="name:ru" v="Шушенский район"/>
     <tag k="official_status" v="ru:муниципальный район"/>
     <tag k="source" v="cadastre"/>
     <tag k="type" v="boundary"/>
@@ -49947,6 +49983,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Каратузский район"/>
     <tag k="name:en" v="Karatuzsky Rayon"/>
+    <tag k="name:ru" v="Каратузский район"/>
     <tag k="source" v="cadastre"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Каратузский район"/>
@@ -49956,6 +49993,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Ермаковский район"/>
     <tag k="name:en" v="Yermakovsky Rayon"/>
+    <tag k="name:ru" v="Ермаковский район"/>
     <tag k="source" v="cadastre"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Ермаковский район"/>
@@ -49964,6 +50002,7 @@
     <tag k="admin_level" v="6"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="городской округ Сосновоборск"/>
+    <tag k="name:ru" v="городской округ Сосновоборск"/>
     <tag k="official_name" v="городской округ Город Сосновоборск"/>
     <tag k="official_status" v="ru:городской округ"/>
     <tag k="source" v="cadastre"/>
@@ -49974,13 +50013,12 @@
     <tag k="addr:country" v="RU"/>
     <tag k="addr:region" v="Красноярский край"/>
     <tag k="admin_level" v="6"/>
-    <tag k="amenity" v="rescue-station"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="городской округ Дивногорск"/>
     <tag k="name:en" v="Divnogorsk Urban Okrug"/>
+    <tag k="name:ru" v="городской округ Дивногорск"/>
     <tag k="official_name" v="городской округ Город Дивногорск"/>
     <tag k="official_status" v="ru:городской округ"/>
-    <tag k="operator" v="RU-KYA-30-29"/>
     <tag k="source" v="cadastre"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Городской округ город Дивногорск"/>
@@ -49989,6 +50027,7 @@
     <tag k="admin_level" v="6"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="городской округ Лесосибирск"/>
+    <tag k="name:ru" v="городской округ Лесосибирск"/>
     <tag k="official_name" v="городской округ Город Лесосибирск"/>
     <tag k="official_status" v="ru:городской округ"/>
     <tag k="source" v="cadastre; генплан"/>
@@ -49999,6 +50038,7 @@
     <tag k="admin_level" v="6"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="городской округ Ачинск"/>
+    <tag k="name:ru" v="городской округ Ачинск"/>
     <tag k="official_name" v="городской округ Город Ачинск"/>
     <tag k="official_status" v="ru:городской округ"/>
     <tag k="source" v="cadastre"/>
@@ -50012,6 +50052,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Емельяновский район"/>
     <tag k="name:en" v="Yemelyanovsky Rayon"/>
+    <tag k="name:ru" v="Емельяновский район"/>
     <tag k="source" v="cadastre"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Емельяновский район"/>
@@ -50025,6 +50066,7 @@
     <tag k="name" v="городской округ Красноярск"/>
     <tag k="name:de" v="Stadtkreis Krasnojarsk"/>
     <tag k="name:en" v="Krasnoyarsk Urban Okrug"/>
+    <tag k="name:ru" v="городской округ Красноярск"/>
     <tag k="official_name" v="городской округ Город Красноярск"/>
     <tag k="official_status" v="ru:городской округ"/>
     <tag k="type" v="boundary"/>
@@ -50035,6 +50077,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Сухобузимский район"/>
     <tag k="name:en" v="Sukhobuzimsky Rayon"/>
+    <tag k="name:ru" v="Сухобузимский район"/>
     <tag k="source" v="cadastre"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Сухобузимский район"/>
@@ -50044,6 +50087,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Канский район"/>
     <tag k="name:en" v="Kansky Rayon"/>
+    <tag k="name:ru" v="Канский район"/>
     <tag k="source" v="cadastre"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Канский район"/>
@@ -50052,6 +50096,7 @@
     <tag k="admin_level" v="6"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="городской округ Канск"/>
+    <tag k="name:ru" v="городской округ Канск"/>
     <tag k="official_name" v="городской округ Город Канск"/>
     <tag k="official_status" v="ru:городской округ"/>
     <tag k="source" v="cadastre"/>
@@ -50063,6 +50108,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Иланский район"/>
     <tag k="name:en" v="Ilansky Rayon"/>
+    <tag k="name:ru" v="Иланский район"/>
     <tag k="source" v="cadastre"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Иланский район"/>
@@ -50072,6 +50118,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Нижнеингашский район"/>
     <tag k="name:en" v="Nizhneingashsky Rayon"/>
+    <tag k="name:ru" v="Нижнеингашский район"/>
     <tag k="source" v="cadastre"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Нижнеингашский район"/>
@@ -50081,6 +50128,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Рыбинский район"/>
     <tag k="name:en" v="Rybinsky Rayon"/>
+    <tag k="name:ru" v="Рыбинский район"/>
     <tag k="source" v="cadastre"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Рыбинский район (Красноярский край)"/>
@@ -50090,6 +50138,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Уярский район"/>
     <tag k="name:en" v="Uyarsky Rayon"/>
+    <tag k="name:ru" v="Уярский район"/>
     <tag k="source" v="cadastre"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Уярский район"/>
@@ -50101,6 +50150,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Берёзовский район"/>
     <tag k="name:en" v="Beryozovsky Rayon"/>
+    <tag k="name:ru" v="Берёзовский район"/>
     <tag k="official_status" v="ru:муниципальный район"/>
     <tag k="source" v="cadastre"/>
     <tag k="type" v="boundary"/>
@@ -50111,6 +50161,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Манский район"/>
     <tag k="name:en" v="Mansky Rayon"/>
+    <tag k="name:ru" v="Манский район"/>
     <tag k="source" v="cadastre"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Манский район"/>
@@ -50120,6 +50171,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Партизанский район"/>
     <tag k="name:en" v="Partizansky Rayon"/>
+    <tag k="name:ru" v="Партизанский район"/>
     <tag k="source" v="cadastre"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Партизанский район (Красноярский край)"/>
@@ -50129,6 +50181,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Саянский район"/>
     <tag k="name:en" v="Sayansky Rayon"/>
+    <tag k="name:ru" v="Саянский район"/>
     <tag k="source" v="cadastre"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Саянский район"/>
@@ -50138,6 +50191,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Ирбейский район"/>
     <tag k="name:en" v="Irbeysky Rayon"/>
+    <tag k="name:ru" v="Ирбейский район"/>
     <tag k="source" v="cadastre"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Ирбейский район"/>
@@ -50147,6 +50201,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Абанский район"/>
     <tag k="name:en" v="Abansky Rayon"/>
+    <tag k="name:ru" v="Абанский район"/>
     <tag k="source" v="cadastre"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Абанский район"/>
@@ -50156,6 +50211,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Дзержинский район"/>
     <tag k="name:en" v="Dzerzhinsky Rayon"/>
+    <tag k="name:ru" v="Дзержинский район"/>
     <tag k="source" v="cadastre"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Дзержинский район (Красноярский край)"/>
@@ -50165,6 +50221,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Большемуртинский район"/>
     <tag k="name:en" v="Bolshemurtinsky Rayon"/>
+    <tag k="name:ru" v="Большемуртинский район"/>
     <tag k="source" v="cadastre"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Большемуртинский район"/>
@@ -50174,6 +50231,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Казачинский район"/>
     <tag k="name:en" v="Kazachinsky Rayon"/>
+    <tag k="name:ru" v="Казачинский район"/>
     <tag k="source" v="cadastre"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Казачинский район"/>
@@ -50183,6 +50241,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Пировский район"/>
     <tag k="name:en" v="Pirovsky Rayon"/>
+    <tag k="name:ru" v="Пировский район"/>
     <tag k="source" v="cadastre"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Пировский район"/>
@@ -50192,6 +50251,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Большеулуйский район"/>
     <tag k="name:en" v="Bolsheuluysky Rayon"/>
+    <tag k="name:ru" v="Большеулуйский район"/>
     <tag k="source" v="cadastre"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Большеулуйский район"/>
@@ -50204,6 +50264,7 @@
     <tag k="name" v="Тюхтетский район"/>
     <tag k="name:clw" v="Тӱхтет аймағы?"/>
     <tag k="name:en" v="Tyukhtetsky Rayon"/>
+    <tag k="name:ru" v="Тюхтетский район"/>
     <tag k="source" v="cadastre"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Тюхтетский район"/>
@@ -50213,6 +50274,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Бирилюсский район"/>
     <tag k="name:en" v="Birilyussky Rayon"/>
+    <tag k="name:ru" v="Бирилюсский район"/>
     <tag k="source" v="cadastre"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Бирилюсский район"/>
@@ -50222,6 +50284,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Мотыгинский район"/>
     <tag k="name:en" v="Motyginsky Rayon"/>
+    <tag k="name:ru" v="Мотыгинский район"/>
     <tag k="source" v="cadastre"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Мотыгинский район"/>
@@ -50231,6 +50294,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Тасеевский район"/>
     <tag k="name:en" v="Taseyevsky Rayon"/>
+    <tag k="name:ru" v="Тасеевский район"/>
     <tag k="source" v="cadastre"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Тасеевский район"/>
@@ -50242,6 +50306,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Кежемский район"/>
     <tag k="name:en" v="Kezhemsky Rayon"/>
+    <tag k="name:ru" v="Кежемский район"/>
     <tag k="official_status" v="ru:муниципальный район"/>
     <tag k="source" v="cadastre"/>
     <tag k="type" v="boundary"/>
@@ -50254,6 +50319,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Богучанский район"/>
     <tag k="name:en" v="Boguchansky Rayon"/>
+    <tag k="name:ru" v="Богучанский район"/>
     <tag k="official_status" v="ru:муниципальный район"/>
     <tag k="source" v="cadastre"/>
     <tag k="type" v="boundary"/>
@@ -50264,6 +50330,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Северо-Енисейский район"/>
     <tag k="name:en" v="Severo-Yeniseysky Rayon"/>
+    <tag k="name:ru" v="Северо-Енисейский район"/>
     <tag k="source" v="cadastre"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Северо-Енисейский район"/>
@@ -50273,6 +50340,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Туруханский район"/>
     <tag k="name:en" v="Turukhansky District"/>
+    <tag k="name:ru" v="Туруханский район"/>
     <tag k="source" v="cadastre"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Туруханский район"/>
@@ -50281,6 +50349,7 @@
     <tag k="admin_level" v="6"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="городской округ Енисейск"/>
+    <tag k="name:ru" v="городской округ Енисейск"/>
     <tag k="official_name" v="городской округ Город Енисейск"/>
     <tag k="official_status" v="ru:городской округ"/>
     <tag k="source" v="cadastre"/>
@@ -50292,6 +50361,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Эвенкийский район"/>
     <tag k="name:en" v="Evenkiysky Rayon"/>
+    <tag k="name:ru" v="Эвенкийский район"/>
     <tag k="official_status" v="ru:муниципальный район"/>
     <tag k="oktmo:user" v="04911000"/>
     <tag k="source" v="cadastre"/>
@@ -50308,6 +50378,7 @@
     <tag k="name" v="ЗАТО Железногорск"/>
     <tag k="name:de" v="Geschlossenes administrativ-territoriales Gebilde Schelesnogorsk"/>
     <tag k="name:en" v="Closed administrative-territorial formation of Zheleznogorsk"/>
+    <tag k="name:ru" v="ЗАТО Железногорск"/>
     <tag k="official_status" v="ru:ЗАТО"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:ЗАТО Железногорск"/>
@@ -50317,6 +50388,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Таймырский Долгано-Ненецкий район"/>
     <tag k="name:en" v="Taymyrsky Dolgano-Nenetsky District"/>
+    <tag k="name:ru" v="Таймырский Долгано-Ненецкий район"/>
     <tag k="official_status" v="ru:муниципальный район"/>
     <tag k="oktmo:user" v="04811000"/>
     <tag k="source" v="cadastre"/>
@@ -50327,6 +50399,7 @@
     <tag k="admin_level" v="6"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="ЗАТО Солнечный"/>
+    <tag k="name:ru" v="ЗАТО Солнечный"/>
     <tag k="official_status" v="ru:ЗАТО"/>
     <tag k="source" v="cadastre"/>
     <tag k="type" v="boundary"/>
@@ -50336,6 +50409,7 @@
     <tag k="admin_level" v="6"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="городской округ Шарыпово"/>
+    <tag k="name:ru" v="городской округ Шарыпово"/>
     <tag k="official_name" v="городской округ Город Шарыпово"/>
     <tag k="official_status" v="ru:городской округ"/>
     <tag k="source" v="cadastre"/>
@@ -50346,6 +50420,7 @@
     <tag k="admin_level" v="6"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="городской округ Минусинск"/>
+    <tag k="name:ru" v="городской округ Минусинск"/>
     <tag k="official_name" v="городской округ Город Минусинск"/>
     <tag k="official_status" v="ru:городской округ"/>
     <tag k="source" v="cadastre"/>
@@ -50357,6 +50432,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="городской округ Норильск"/>
     <tag k="name:de" v="Norilsk"/>
+    <tag k="name:ru" v="городской округ Норильск"/>
     <tag k="official_name" v="городской округ Город Норильск"/>
     <tag k="official_status" v="ru:городской округ"/>
     <tag k="oktmo:user" v="04729000"/>
@@ -50367,6 +50443,7 @@
     <tag k="admin_level" v="6"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="ЗАТО Зеленогорск"/>
+    <tag k="name:ru" v="ЗАТО Зеленогорск"/>
     <tag k="official_status" v="ru:ЗАТО"/>
     <tag k="source" v="cadastre"/>
     <tag k="type" v="boundary"/>
@@ -50376,6 +50453,7 @@
     <tag k="admin_level" v="6"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="городской округ Назарово"/>
+    <tag k="name:ru" v="городской округ Назарово"/>
     <tag k="official_name" v="городской округ Город Назарово"/>
     <tag k="official_status" v="ru:городской округ"/>
     <tag k="source" v="cadastre"/>
@@ -50386,6 +50464,7 @@
     <tag k="admin_level" v="6"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="городской округ Кедровый"/>
+    <tag k="name:ru" v="городской округ Кедровый"/>
     <tag k="official_name" v="городской округ Посёлок Кедровый"/>
     <tag k="official_status" v="ru:городской округ"/>
     <tag k="type" v="boundary"/>
@@ -50395,6 +50474,7 @@
     <tag k="admin_level" v="6"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="городской округ Боготол"/>
+    <tag k="name:ru" v="городской округ Боготол"/>
     <tag k="official_name" v="городской округ Город Боготол"/>
     <tag k="official_status" v="ru:городской округ"/>
     <tag k="source" v="cadastre;генплан"/>
@@ -50405,6 +50485,7 @@
     <tag k="admin_level" v="6"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="городской округ Бородино"/>
+    <tag k="name:ru" v="городской округ Бородино"/>
     <tag k="official_name" v="городской округ Город Бородино"/>
     <tag k="official_status" v="ru:городской округ"/>
     <tag k="type" v="boundary"/>
@@ -50847,6 +50928,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="городской округ Салехард"/>
     <tag k="name:en" v="Salekhard Urban Okrug"/>
+    <tag k="name:ru" v="городской округ Салехард"/>
     <tag k="official_status" v="ru:городской округ"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Салехард"/>
@@ -50868,6 +50950,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Охотский район"/>
     <tag k="name:en" v="Okhotsky Rayon"/>
+    <tag k="name:ru" v="Охотский район"/>
     <tag k="official_status" v="ru:муниципальный район"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Охотский район"/>
@@ -50879,6 +50962,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Аяно-Майский район"/>
     <tag k="name:en" v="Ayano-Maysky Rayon"/>
+    <tag k="name:ru" v="Аяно-Майский район"/>
     <tag k="official_status" v="ru:муниципальный район"/>
     <tag k="population" v="2053"/>
     <tag k="population:date" v="2014-01-01"/>
@@ -50892,6 +50976,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Николаевский район"/>
     <tag k="name:en" v="Nikolayevsky District"/>
+    <tag k="name:ru" v="Николаевский район"/>
     <tag k="official_status" v="ru:муниципальный район"/>
     <tag k="source" v="Rosreestr:Кадастровый номер:27:10"/>
     <tag k="type" v="boundary"/>
@@ -50904,6 +50989,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Амурский район"/>
     <tag k="name:en" v="Amursky Rayon"/>
+    <tag k="name:ru" v="Амурский район"/>
     <tag k="official_status" v="ru:муниципальный район"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Амурский район"/>
@@ -50916,6 +51002,7 @@
     <tag k="name" v="Верхнебуреинский район"/>
     <tag k="name:de" v="Rajon Werchnebureinski"/>
     <tag k="name:en" v="Verkhnebureinsky District"/>
+    <tag k="name:ru" v="Верхнебуреинский район"/>
     <tag k="official_status" v="ru:муниципальный район"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Верхнебуреинский район"/>
@@ -50927,6 +51014,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="район имени Полины Осипенко"/>
     <tag k="name:en" v="imeni Poliny Osipenko Rayon"/>
+    <tag k="name:ru" v="район имени Полины Осипенко"/>
     <tag k="official_status" v="ru:муниципальный район"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Район имени Полины Осипенко"/>
@@ -50938,6 +51026,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Солнечный район"/>
     <tag k="name:en" v="Solnechny Rayon"/>
+    <tag k="name:ru" v="Солнечный район"/>
     <tag k="official_status" v="ru:муниципальный район"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Солнечный район"/>
@@ -50949,6 +51038,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Тугуро-Чумиканский район"/>
     <tag k="name:en" v="Tuguro-Chumikansky Rayon"/>
+    <tag k="name:ru" v="Тугуро-Чумиканский район"/>
     <tag k="official_status" v="ru:муниципальный район"/>
     <tag k="population" v="2036"/>
     <tag k="population:date" v="2014-01-01"/>
@@ -50962,6 +51052,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Ульчский район"/>
     <tag k="name:en" v="Ulchsky Rayon"/>
+    <tag k="name:ru" v="Ульчский район"/>
     <tag k="official_status" v="ru:муниципальный район"/>
     <tag k="population" v="17088"/>
     <tag k="population:date" v="2014-01-01"/>
@@ -50975,6 +51066,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Ванинский район"/>
     <tag k="name:en" v="Vaninsky Rayon"/>
+    <tag k="name:ru" v="Ванинский район"/>
     <tag k="official_status" v="ru:муниципальный район"/>
     <tag k="population" v="35291"/>
     <tag k="population:date" v="2014-01-01"/>
@@ -50988,6 +51080,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Комсомольский район"/>
     <tag k="name:en" v="Komsomolsky"/>
+    <tag k="name:ru" v="Комсомольский район"/>
     <tag k="official_status" v="ru:муниципальный район"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Комсомольский район (Хабаровский край)"/>
@@ -50999,6 +51092,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Нанайский район"/>
     <tag k="name:en" v="Nanaysky Rayon"/>
+    <tag k="name:ru" v="Нанайский район"/>
     <tag k="official_status" v="ru:муниципальный район"/>
     <tag k="population" v="16886"/>
     <tag k="population:date" v="2014-01-01"/>
@@ -51012,6 +51106,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Советско-Гаванский район"/>
     <tag k="name:en" v="Sovetsko-Gavansky Rayon"/>
+    <tag k="name:ru" v="Советско-Гаванский район"/>
     <tag k="official_status" v="ru:муниципальный район"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Советско-Гаванский район"/>
@@ -51023,6 +51118,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Хабаровский район"/>
     <tag k="name:en" v="Khabarovsky Rayon"/>
+    <tag k="name:ru" v="Хабаровский район"/>
     <tag k="official_status" v="ru:муниципальный район"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Хабаровский район"/>
@@ -51034,6 +51130,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Бикинский район"/>
     <tag k="name:en" v="Bikinsky Rayon"/>
+    <tag k="name:ru" v="Бикинский район"/>
     <tag k="official_status" v="ru:муниципальный район"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Бикинский район"/>
@@ -51045,6 +51142,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Вяземский район"/>
     <tag k="name:en" v="Vyazemsky Rayon"/>
+    <tag k="name:ru" v="Вяземский район"/>
     <tag k="official_status" v="ru:муниципальный район"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Вяземский район (Хабаровский край)"/>
@@ -51056,6 +51154,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="район имени Лазо"/>
     <tag k="name:en" v="imeni Lazo Rayon"/>
+    <tag k="name:ru" v="район имени Лазо"/>
     <tag k="official_status" v="ru:муниципальный район"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Район имени Лазо"/>
@@ -51067,6 +51166,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="городской округ Хабаровск"/>
     <tag k="name:en" v="Khabarovsk"/>
+    <tag k="name:ru" v="городской округ Хабаровск"/>
     <tag k="official_name" v="городской округ Город Хабаровск"/>
     <tag k="official_status" v="ru:городской округ"/>
     <tag k="source" v="Росреестр"/>

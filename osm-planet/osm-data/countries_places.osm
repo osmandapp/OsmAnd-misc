@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2015-07-16T15:46:02Z"/>
+<meta osm_base="2015-07-21T14:19:02Z"/>
 
   <node id="26036352" lat="12.7503486" lon="122.7312101">
     <tag k="alt_name:vi" v="Phi Luật Tân"/>
@@ -19925,6 +19925,7 @@
     <tag k="name:tr" v="Brezilya"/>
     <tag k="name:tt" v="Бразилия"/>
     <tag k="name:ty" v="Brazil"/>
+    <tag k="name:tzl" v="Brasil"/>
     <tag k="name:ug" v="برازىلىيە"/>
     <tag k="name:uk" v="Бразилія"/>
     <tag k="name:ur" v="برازیلی"/>
@@ -20344,7 +20345,7 @@
     <tag k="geonames:id" v="3077311"/>
     <tag k="int_name" v="Czech Republic"/>
     <tag k="is_in:continent" v="Europe"/>
-    <tag k="name" v="Česká republika"/>
+    <tag k="name" v="Česko"/>
     <tag k="name:ab" v="Чехиа"/>
     <tag k="name:ace" v="Rèpublik Cèkô"/>
     <tag k="name:af" v="Tsjeggië"/>
@@ -35597,7 +35598,6 @@
     <tag k="name:gv" v="Samoa Americaanagh"/>
     <tag k="name:he" v="סמואה האמריקנית"/>
     <tag k="name:hr" v="Američka Samoa"/>
-    <tag k="name:hu" v="Amerikai Szamoa"/>
     <tag k="name:is" v="Bandaríska Samóa"/>
     <tag k="name:it" v="Samoa Americane"/>
     <tag k="name:ja" v="アメリカ領サモア"/>
@@ -39829,289 +39829,6 @@
     <tag k="place" v="country"/>
     <tag k="wikidata" v="Q1013"/>
     <tag k="wikipedia" v="en:Lesotho"/>
-  </node>
-  <node id="3509305055" lat="-10.3333333" lon="-53.2000000">
-    <tag k="alt_name:vi" v="Brazil; Bra-xin"/>
-    <tag k="capital_city" v="Brasília"/>
-    <tag k="country_code_fips" v="BR"/>
-    <tag k="country_code_iso3166_1_alpha_2" v="BR"/>
-    <tag k="geonames:id" v="3469034"/>
-    <tag k="int_name" v="Brazil"/>
-    <tag k="is_in:continent" v="South America"/>
-    <tag k="name" v="Brasil"/>
-    <tag k="name:aa" v="Brazil"/>
-    <tag k="name:ace" v="Brasil"/>
-    <tag k="name:af" v="Brasilië"/>
-    <tag k="name:ak" v="Brazil"/>
-    <tag k="name:als" v="Brasilien"/>
-    <tag k="name:am" v="ብራዚል"/>
-    <tag k="name:an" v="Brasil"/>
-    <tag k="name:ang" v="Brasil"/>
-    <tag k="name:ar" v="البرازيل"/>
-    <tag k="name:arc" v="ܒܪܐܙܝܠ"/>
-    <tag k="name:arz" v="البرازيل"/>
-    <tag k="name:as" v="ব্ৰাজিল"/>
-    <tag k="name:ast" v="Brasil"/>
-    <tag k="name:ay" v="Wrasil"/>
-    <tag k="name:az" v="Braziliya"/>
-    <tag k="name:ba" v="Бразилия"/>
-    <tag k="name:bar" v="Brasilien"/>
-    <tag k="name:bat-smg" v="Brazilėjė"/>
-    <tag k="name:bcl" v="Brasil"/>
-    <tag k="name:be" v="Бразілія"/>
-    <tag k="name:be-x-old" v="Бразылія"/>
-    <tag k="name:bg" v="Бразилия"/>
-    <tag k="name:bi" v="Brazil"/>
-    <tag k="name:bm" v="Berezili"/>
-    <tag k="name:bn" v="ব্রাজিল"/>
-    <tag k="name:bo" v="བ་རཱ་ཛིལ།"/>
-    <tag k="name:bpy" v="ব্রাজিল"/>
-    <tag k="name:br" v="Brazil"/>
-    <tag k="name:brx" v="ब्राज़ील"/>
-    <tag k="name:bs" v="Brazil"/>
-    <tag k="name:bxr" v="Бразил"/>
-    <tag k="name:ca" v="Brasil"/>
-    <tag k="name:cbk-zam" v="Brasil"/>
-    <tag k="name:cdo" v="Brazil"/>
-    <tag k="name:ce" v="Бразилия"/>
-    <tag k="name:ceb" v="Brasil"/>
-    <tag k="name:chr" v="ᏆᏏᎵᎢ"/>
-    <tag k="name:ckb" v="بەڕازیل"/>
-    <tag k="name:co" v="Brasile"/>
-    <tag k="name:crh" v="Brazil"/>
-    <tag k="name:cs" v="Brazílie"/>
-    <tag k="name:csb" v="Brazylskô"/>
-    <tag k="name:cu" v="Браꙁїлїꙗ"/>
-    <tag k="name:cv" v="Бразили"/>
-    <tag k="name:cy" v="Brasil"/>
-    <tag k="name:da" v="Brasilien"/>
-    <tag k="name:de" v="Brasilien"/>
-    <tag k="name:diq" v="Brezilya"/>
-    <tag k="name:dsb" v="Brazilska"/>
-    <tag k="name:dv" v="ބުރެޒިލް"/>
-    <tag k="name:dz" v="བྲ་ཛིལ"/>
-    <tag k="name:ee" v="Brazil nutome"/>
-    <tag k="name:el" v="Βραζιλία"/>
-    <tag k="name:eml" v="Brasil"/>
-    <tag k="name:en" v="Brazil"/>
-    <tag k="name:eo" v="Brazilo"/>
-    <tag k="name:es" v="Brasil"/>
-    <tag k="name:et" v="Brasiilia"/>
-    <tag k="name:eu" v="Brasil"/>
-    <tag k="name:ext" v="Brasil"/>
-    <tag k="name:fa" v="برزیل"/>
-    <tag k="name:ff" v="Beresiil"/>
-    <tag k="name:fi" v="Brasilia"/>
-    <tag k="name:fiu-vro" v="Brasiilia"/>
-    <tag k="name:fo" v="Brasilia"/>
-    <tag k="name:fr" v="Brésil"/>
-    <tag k="name:frp" v="Brèsil"/>
-    <tag k="name:frr" v="Brasiilien"/>
-    <tag k="name:fur" v="Brasîl"/>
-    <tag k="name:fy" v="Brazylje"/>
-    <tag k="name:ga" v="An Bhrasaíl"/>
-    <tag k="name:gag" v="Braziliya"/>
-    <tag k="name:gan" v="巴西"/>
-    <tag k="name:gd" v="Braisil"/>
-    <tag k="name:gl" v="Brasil"/>
-    <tag k="name:gn" v="Pindorama"/>
-    <tag k="name:gu" v="બ્રાઝિલ"/>
-    <tag k="name:gv" v="Yn Vrasseel"/>
-    <tag k="name:ha" v="Birazil"/>
-    <tag k="name:hak" v="Pâ-sî"/>
-    <tag k="name:haw" v="Palakila"/>
-    <tag k="name:he" v="ברזיל"/>
-    <tag k="name:hi" v="ब्राजील"/>
-    <tag k="name:hif" v="Brazil"/>
-    <tag k="name:hr" v="Brazil"/>
-    <tag k="name:hsb" v="Brazilska"/>
-    <tag k="name:ht" v="Brezil"/>
-    <tag k="name:hu" v="Brazília"/>
-    <tag k="name:hy" v="Բրազիլիա"/>
-    <tag k="name:ia" v="Brasil"/>
-    <tag k="name:id" v="Brasil"/>
-    <tag k="name:ie" v="Brasil"/>
-    <tag k="name:ig" v="Brazil"/>
-    <tag k="name:ii" v="ꀠꑭ"/>
-    <tag k="name:ilo" v="Brasil"/>
-    <tag k="name:io" v="Brazilia"/>
-    <tag k="name:is" v="Brasilía"/>
-    <tag k="name:it" v="Brasile"/>
-    <tag k="name:ja" v="ブラジル"/>
-    <tag k="name:jbo" v="razgu'e"/>
-    <tag k="name:jv" v="Brasil"/>
-    <tag k="name:ka" v="ბრაზილია"/>
-    <tag k="name:kaa" v="Braziliya"/>
-    <tag k="name:kab" v="Brizil"/>
-    <tag k="name:kbd" v="Бразил"/>
-    <tag k="name:kg" v="Brazil"/>
-    <tag k="name:ki" v="Brazili"/>
-    <tag k="name:kk" v="Бразилия"/>
-    <tag k="name:kl" v="Brazil"/>
-    <tag k="name:km" v="ប្រេស៊ីល"/>
-    <tag k="name:kn" v="ಬ್ರೆಜಿಲ್"/>
-    <tag k="name:ko" v="브라질"/>
-    <tag k="name:krc" v="Бразилия"/>
-    <tag k="name:ks" v="برٛازِل"/>
-    <tag k="name:ksh" v="Brasilije"/>
-    <tag k="name:ku" v="Brazîl"/>
-    <tag k="name:kv" v="Бразилия"/>
-    <tag k="name:kw" v="Brasil"/>
-    <tag k="name:ky" v="Бразилия"/>
-    <tag k="name:la" v="Brasilia"/>
-    <tag k="name:lad" v="Brasil"/>
-    <tag k="name:lb" v="Brasilien"/>
-    <tag k="name:lez" v="Бразилия"/>
-    <tag k="name:lg" v="Buraziiri"/>
-    <tag k="name:li" v="'t Braziel"/>
-    <tag k="name:lij" v="Braxî"/>
-    <tag k="name:lmo" v="Brasil"/>
-    <tag k="name:ln" v="Brezílɛ"/>
-    <tag k="name:lo" v="ບຼາຊິວ"/>
-    <tag k="name:lt" v="Brazilija"/>
-    <tag k="name:ltg" v="Brazileja"/>
-    <tag k="name:lv" v="Brazīlija"/>
-    <tag k="name:mdf" v="Бразилие"/>
-    <tag k="name:mg" v="Brezila"/>
-    <tag k="name:mhr" v="Бразилий"/>
-    <tag k="name:mi" v="Parīhi"/>
-    <tag k="name:mk" v="Бразил"/>
-    <tag k="name:ml" v="ബ്രസീൽ"/>
-    <tag k="name:mn" v="Бразил"/>
-    <tag k="name:mr" v="ब्राझिल"/>
-    <tag k="name:mrj" v="Бразили"/>
-    <tag k="name:ms" v="Brazil"/>
-    <tag k="name:mt" v="Brażil"/>
-    <tag k="name:mwl" v="Brasil"/>
-    <tag k="name:my" v="ဘရာဇီး"/>
-    <tag k="name:mzn" v="برزیل"/>
-    <tag k="name:na" v="Bradir"/>
-    <tag k="name:nah" v="Brasil"/>
-    <tag k="name:nap" v="Brasile"/>
-    <tag k="name:nds" v="Brasilien"/>
-    <tag k="name:nds-nl" v="Brazilië"/>
-    <tag k="name:ne" v="ब्राजिल"/>
-    <tag k="name:new" v="ब्राजिल"/>
-    <tag k="name:nl" v="Brazilië"/>
-    <tag k="name:nn" v="Brasil"/>
-    <tag k="name:no" v="Brasil"/>
-    <tag k="name:nov" v="Brasilia"/>
-    <tag k="name:nrm" v="Brési"/>
-    <tag k="name:nv" v="Bwazííl"/>
-    <tag k="name:oc" v="Brasil"/>
-    <tag k="name:om" v="Brazil"/>
-    <tag k="name:or" v="ବ୍ରାଜିଲ୍"/>
-    <tag k="name:os" v="Бразили"/>
-    <tag k="name:pa" v="ਬ੍ਰਾਜ਼ੀਲ"/>
-    <tag k="name:pag" v="Brazil"/>
-    <tag k="name:pam" v="Brasil"/>
-    <tag k="name:pap" v="Brazil"/>
-    <tag k="name:pcd" v="Brésil"/>
-    <tag k="name:pdc" v="Brasilien"/>
-    <tag k="name:pih" v="Bresel"/>
-    <tag k="name:pl" v="Brazylia"/>
-    <tag k="name:pms" v="Brasil"/>
-    <tag k="name:pnb" v="برازیل"/>
-    <tag k="name:ps" v="برازیل"/>
-    <tag k="name:pt" v="Brasil"/>
-    <tag k="name:qu" v="Brasil"/>
-    <tag k="name:rm" v="Brasila"/>
-    <tag k="name:rmy" v="Brazil"/>
-    <tag k="name:rn" v="Burezili"/>
-    <tag k="name:ro" v="Brazilia"/>
-    <tag k="name:roa-tara" v="Brasile"/>
-    <tag k="name:ru" v="Бразилия"/>
-    <tag k="name:rue" v="Бразілія"/>
-    <tag k="name:rw" v="Burezile"/>
-    <tag k="name:sa" v="संस्कृतम्"/>
-    <tag k="name:sah" v="Бразилия"/>
-    <tag k="name:sc" v="Brasile"/>
-    <tag k="name:scn" v="Brasili"/>
-    <tag k="name:sco" v="Brazil"/>
-    <tag k="name:se" v="Brasilia"/>
-    <tag k="name:sg" v="Brezîli"/>
-    <tag k="name:sh" v="Brazil"/>
-    <tag k="name:si" v="බ්‍රසීලය"/>
-    <tag k="name:simple" v="Brazil"/>
-    <tag k="name:sk" v="Brazília"/>
-    <tag k="name:sl" v="Brazilija"/>
-    <tag k="name:sn" v="Brazil"/>
-    <tag k="name:so" v="Braasiil"/>
-    <tag k="name:sq" v="Brazili"/>
-    <tag k="name:sr" v="Бразил"/>
-    <tag k="name:srn" v="Brasilkondre"/>
-    <tag k="name:st" v="Brazil"/>
-    <tag k="name:stq" v="Brasilien"/>
-    <tag k="name:su" v="Brasil"/>
-    <tag k="name:sv" v="Brasilien"/>
-    <tag k="name:sw" v="Brazili"/>
-    <tag k="name:szl" v="Brazylijo"/>
-    <tag k="name:ta" v="பிரேஸில்"/>
-    <tag k="name:te" v="బ్రజిల్"/>
-    <tag k="name:tet" v="Brazíl"/>
-    <tag k="name:tg" v="Бразилия"/>
-    <tag k="name:th" v="บราซิล"/>
-    <tag k="name:ti" v="ብራዚል"/>
-    <tag k="name:tk" v="Braziliýa"/>
-    <tag k="name:tl" v="Brasil"/>
-    <tag k="name:to" v="Palāsili"/>
-    <tag k="name:tr" v="Brezilya"/>
-    <tag k="name:tt" v="Бразилия"/>
-    <tag k="name:ty" v="Brazil"/>
-    <tag k="name:tzl" v="Brasil"/>
-    <tag k="name:ug" v="برازىلىيە"/>
-    <tag k="name:uk" v="Бразилія"/>
-    <tag k="name:ur" v="برازیلی"/>
-    <tag k="name:uz" v="Braziliya"/>
-    <tag k="name:vec" v="Braxil"/>
-    <tag k="name:vep" v="Brazilii"/>
-    <tag k="name:vi" v="Brazil"/>
-    <tag k="name:vls" v="Brazilië"/>
-    <tag k="name:vo" v="Brasilän"/>
-    <tag k="name:wa" v="Braezi"/>
-    <tag k="name:war" v="Brasil"/>
-    <tag k="name:wo" v="Breesil"/>
-    <tag k="name:wuu" v="巴西"/>
-    <tag k="name:xal" v="Ниицәтә Бразилмудин Орн"/>
-    <tag k="name:xh" v="Brasil"/>
-    <tag k="name:xmf" v="ბრაზილია"/>
-    <tag k="name:yi" v="בראזיל"/>
-    <tag k="name:yo" v="Orílẹ́ède Bàràsílì"/>
-    <tag k="name:za" v="Bahsih"/>
-    <tag k="name:zea" v="Brezilië"/>
-    <tag k="name:zh" v="巴西"/>
-    <tag k="name:zh-classical" v="巴西"/>
-    <tag k="name:zh-min-nan" v="Pa-se"/>
-    <tag k="name:zh-yue" v="巴西"/>
-    <tag k="name:zu" v="i-Brazil"/>
-    <tag k="note" v="Centro geográfico oficial, não mover."/>
-    <tag k="note:en" v="Official geographical centre, do not move."/>
-    <tag k="official_name" v="República Federativa do Brasil"/>
-    <tag k="official_name:be" v="Федэратыўная Рэспубліка Бразілія"/>
-    <tag k="official_name:cy" v="Gweriniaeth Ffederal Brasil"/>
-    <tag k="official_name:el" v="Ομοσπονδιακή Δημοκρατία της Βραζιλίας"/>
-    <tag k="official_name:en" v="Federative Republic of Brazil"/>
-    <tag k="official_name:es" v="República Federativa del Brasil"/>
-    <tag k="official_name:fi" v="Brasilian liittotasavalta"/>
-    <tag k="official_name:fr" v="République fédérative du Brésil"/>
-    <tag k="official_name:id" v="Republik Federal Brasil"/>
-    <tag k="official_name:ku" v="Komara Federal a Brazîlê"/>
-    <tag k="official_name:lt" v="Brazilijos Federacinė Respublika"/>
-    <tag k="official_name:lv" v="Brazīlijas Federatīvā Republika"/>
-    <tag k="official_name:no" v="Forbundsrepublikken Brasil"/>
-    <tag k="official_name:pl" v="Federacyjna Republika Brazylii"/>
-    <tag k="official_name:ru" v="Федеративная Республика Бразилия"/>
-    <tag k="official_name:sr" v="Савезна Република Бразил"/>
-    <tag k="official_name:sv" v="Förbundsrepubliken Brasilien"/>
-    <tag k="official_name:tl" v="Pederatibong Republika ng Brasil"/>
-    <tag k="official_name:uz" v="Braziliya Federativ Respublikasi"/>
-    <tag k="official_name:vi" v="Cộng Hòa Liên Bang Brazil"/>
-    <tag k="official_name:zh" v="巴西联邦共和国"/>
-    <tag k="old_name:vi" v="Ba Tây"/>
-    <tag k="place" v="country"/>
-    <tag k="population" v="191043661"/>
-    <tag k="source" v="IBGE"/>
-    <tag k="wikipedia" v="pt:Brasil"/>
   </node>
   <node id="36966057" lat="2.0000003" lon="15.9999997">
     <tag k="alt_name:vi" v="Phi Châu"/>

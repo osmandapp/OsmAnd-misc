@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2015-07-16T15:46:02Z"/>
+<meta osm_base="2015-07-21T14:20:02Z"/>
 
   <node id="671022" lat="36.7014631" lon="-118.7559974">
     <tag k="alt_name:vi" v="California"/>
@@ -5321,6 +5321,7 @@
     <tag k="source" v="GNS"/>
   </node>
   <node id="313467058" lat="10.5053491" lon="-66.9147206">
+    <tag k="ISO3166-2" v="VE-A"/>
     <tag k="description" v="Shares same state level as Estados"/>
     <tag k="gns:dsg" v="ADM1"/>
     <tag k="gns:uni" v="-1394207"/>
@@ -5333,6 +5334,7 @@
     <tag k="place" v="state"/>
     <tag k="population" v="2284921"/>
     <tag k="source" v="GNS"/>
+    <tag k="wikipedia" v="en:Capital District (Venezuela)"/>
   </node>
   <node id="313467066" lat="10.2500000" lon="-66.4166670">
     <tag k="gns:dsg" v="ADM1"/>
@@ -8366,7 +8368,6 @@
     <tag k="is_in:state" v="Goiás"/>
     <tag k="is_in:state_code" v="GO"/>
     <tag k="name" v="Goiás"/>
-    <tag k="name:hu" v="Goiás"/>
     <tag k="name:uk" v="Гояс"/>
     <tag k="place" v="state"/>
     <tag k="population" v="24605"/>
@@ -10487,7 +10488,6 @@
     <tag k="is_in:country_code" v="BR"/>
     <tag k="name" v="Minas Gerais"/>
     <tag k="name:abbreviation" v="MG"/>
-    <tag k="name:hu" v="Minas Gerais"/>
     <tag k="name:ru" v="Минас-Жерайс"/>
     <tag k="name:uk" v="Мінас-Жерайс"/>
     <tag k="place" v="state"/>
@@ -11012,7 +11012,6 @@
     <tag k="name" v="São Paulo"/>
     <tag k="name:abbreviation" v="SP"/>
     <tag k="name:fr" v="São Paulo"/>
-    <tag k="name:hu" v="São Paulo"/>
     <tag k="name:ja" v="サン・パウロ"/>
     <tag k="name:ja_rm" v="san pauro"/>
     <tag k="name:pt" v="São Paulo"/>
@@ -11029,7 +11028,6 @@
     <tag k="is_in:country_code" v="BR"/>
     <tag k="name" v="Rio de Janeiro"/>
     <tag k="name:abbreviation" v="RJ"/>
-    <tag k="name:hu" v="Rio de Janeiro"/>
     <tag k="name:ru" v="Рио-де-Жанейро"/>
     <tag k="name:uk" v="Ріо-де-Жанейро"/>
     <tag k="place" v="state"/>
@@ -11050,7 +11048,6 @@
     <tag k="is_in:country_code" v="BR"/>
     <tag k="name" v="Rio Grande do Sul"/>
     <tag k="name:abbreviation" v="RS"/>
-    <tag k="name:hu" v="Rio Grande do Sul"/>
     <tag k="name:ru" v="Южный Риу-Гранди"/>
     <tag k="name:uk" v="Ріу-Гранді-ду-Сул"/>
     <tag k="note" v="Estudos apontaram ser este o centro geográfico do RS (-53.767225,-29.8518). Motivo ao qual Santa Maria é conhecida como coração do Rio Grande"/>
@@ -11844,7 +11841,6 @@
     <tag k="is_in:country_code" v="BR"/>
     <tag k="name" v="Santa Catarina"/>
     <tag k="name:abbreviation" v="SC"/>
-    <tag k="name:hu" v="Santa Catarina"/>
     <tag k="name:ru" v="Санта-Катарина"/>
     <tag k="name:uk" v="Санта-Катаріна"/>
     <tag k="place" v="state"/>
@@ -11856,7 +11852,6 @@
     <tag k="is_in:country_code" v="BR"/>
     <tag k="name" v="Paraná"/>
     <tag k="name:abbreviation" v="PR"/>
-    <tag k="name:hu" v="Paraná"/>
     <tag k="name:ru" v="Парана"/>
     <tag k="name:uk" v="Парана"/>
     <tag k="place" v="state"/>
@@ -11868,7 +11863,6 @@
     <tag k="is_in:country_code" v="BR"/>
     <tag k="name" v="Pará"/>
     <tag k="name:abbreviation" v="PA"/>
-    <tag k="name:hu" v="Pará"/>
     <tag k="name:ru" v="Пара"/>
     <tag k="name:uk" v="Пара"/>
     <tag k="place" v="state"/>
@@ -11883,7 +11877,6 @@
     <tag k="is_in:state_code" v="AP"/>
     <tag k="name" v="Amapá"/>
     <tag k="name:abbreviation" v="AP"/>
-    <tag k="name:hu" v="Amapá"/>
     <tag k="name:ru" v="Амапа"/>
     <tag k="name:uk" v="Амапа"/>
     <tag k="place" v="state"/>
@@ -11894,7 +11887,6 @@
     <tag k="is_in:country_code" v="BR"/>
     <tag k="name" v="Roraima"/>
     <tag k="name:abbreviation" v="RR"/>
-    <tag k="name:hu" v="Roraima"/>
     <tag k="name:ru" v="Рорайма"/>
     <tag k="name:uk" v="Рорайма"/>
     <tag k="place" v="state"/>
@@ -11906,14 +11898,12 @@
     <tag k="is_in:country_code" v="BR"/>
     <tag k="name" v="Bahia"/>
     <tag k="name:abbreviation" v="BA"/>
-    <tag k="name:hu" v="Bahia"/>
     <tag k="name:ru" v="Баия"/>
     <tag k="name:uk" v="Баїя"/>
     <tag k="place" v="state"/>
     <tag k="ref" v="BA"/>
     <tag k="state_code" v="BA"/>
-    <tag k="wikipedia" v="http://pt.wikipedia.org/wiki/Bahia"/>
-    <tag k="wikipedia:uk" v="Баїя"/>
+    <tag k="wikipedia" v="pt:Bahia"/>
   </node>
   <node id="539693378" lat="-19.5852564" lon="-54.4794731">
     <tag k="is_in:country" v="Brasil"/>
@@ -11930,7 +11920,6 @@
     <tag k="name:gl" v="Mato Groso do Sur"/>
     <tag k="name:he" v="מאטו גרוסו דו סול"/>
     <tag k="name:hi" v="मातो ग्रोसो दो सुल"/>
-    <tag k="name:hu" v="Mato Grosso do Sul"/>
     <tag k="name:hy" v="Մատու Գրոսու դու Սուլ"/>
     <tag k="name:ja" v="マットグロッソ・ド・スル州"/>
     <tag k="name:ka" v="მატუ-გროსუ-დუ-სული"/>
@@ -11954,7 +11943,6 @@
     <tag k="is_in:country_code" v="BR"/>
     <tag k="name" v="Paraíba"/>
     <tag k="name:abbreviation" v="PB"/>
-    <tag k="name:hu" v="Paraíba"/>
     <tag k="name:ru" v="Параиба"/>
     <tag k="name:uk" v="Параїба"/>
     <tag k="place" v="state"/>
@@ -11967,7 +11955,6 @@
     <tag k="is_in:country_code" v="BR"/>
     <tag k="name" v="Rio Grande do Norte"/>
     <tag k="name:abbreviation" v="RN"/>
-    <tag k="name:hu" v="Rio Grande do Norte"/>
     <tag k="name:ru" v="Северный Риу-Гранде"/>
     <tag k="name:uk" v="Ріу-Гранді-ду-Норті"/>
     <tag k="place" v="state"/>
@@ -11981,7 +11968,6 @@
     <tag k="name" v="Pernambuco"/>
     <tag k="name:abbreviation" v="PE"/>
     <tag k="name:fr" v="Pernambouc"/>
-    <tag k="name:hu" v="Pernambuco"/>
     <tag k="name:lt" v="Pernambukas"/>
     <tag k="name:pl" v="Parana"/>
     <tag k="name:ru" v="Пернамбуку"/>
@@ -11997,7 +11983,6 @@
     <tag k="is_in:country_code" v="BR"/>
     <tag k="name" v="Ceará"/>
     <tag k="name:abbreviation" v="CE"/>
-    <tag k="name:hu" v="Ceará"/>
     <tag k="name:ru" v="Сеара"/>
     <tag k="name:uk" v="Сеара"/>
     <tag k="place" v="state"/>
@@ -12031,7 +12016,6 @@
     <tag k="is_in:country_code" v="BR"/>
     <tag k="name" v="Piauí"/>
     <tag k="name:abbreviation" v="PI"/>
-    <tag k="name:hu" v="Piauí"/>
     <tag k="name:ru" v="Пиауи"/>
     <tag k="name:uk" v="Піауї"/>
     <tag k="place" v="state"/>
@@ -12044,7 +12028,6 @@
     <tag k="is_in:country_code" v="BR"/>
     <tag k="name" v="Maranhão"/>
     <tag k="name:abbreviation" v="MA"/>
-    <tag k="name:hu" v="Maranhão"/>
     <tag k="name:ru" v="Мараньян"/>
     <tag k="name:uk" v="Мараньян"/>
     <tag k="place" v="state"/>
@@ -12057,7 +12040,6 @@
     <tag k="is_in:country_code" v="BR"/>
     <tag k="name" v="Alagoas"/>
     <tag k="name:abbreviation" v="AL"/>
-    <tag k="name:hu" v="Alagoas"/>
     <tag k="name:ru" v="Алагоас"/>
     <tag k="name:uk" v="Алагоас"/>
     <tag k="place" v="state"/>
@@ -12069,7 +12051,6 @@
     <tag k="is_in:country_code" v="BR"/>
     <tag k="name" v="Sergipe"/>
     <tag k="name:abbreviation" v="SE"/>
-    <tag k="name:hu" v="Sergipe"/>
     <tag k="name:ru" v="Сержипи"/>
     <tag k="name:uk" v="Сержипі"/>
     <tag k="place" v="state"/>
@@ -12144,7 +12125,6 @@
     <tag k="is_in:country_code" v="BR"/>
     <tag k="name" v="Rondônia"/>
     <tag k="name:abbreviation" v="RO"/>
-    <tag k="name:hu" v="Rondônia"/>
     <tag k="name:ru" v="Рондония"/>
     <tag k="name:uk" v="Рондонія"/>
     <tag k="place" v="state"/>
@@ -12156,7 +12136,6 @@
     <tag k="is_in:country_code" v="BR"/>
     <tag k="name" v="Mato Grosso"/>
     <tag k="name:abbreviation" v="MT"/>
-    <tag k="name:hu" v="Mato Grosso"/>
     <tag k="name:ru" v="Мату-Гросу"/>
     <tag k="name:uk" v="Мату-Гросу"/>
     <tag k="place" v="state"/>
@@ -12168,7 +12147,6 @@
     <tag k="is_in:country_code" v="BR"/>
     <tag k="name" v="Tocantins"/>
     <tag k="name:abbreviation" v="TO"/>
-    <tag k="name:hu" v="Tocantins"/>
     <tag k="name:ru" v="Токантинс"/>
     <tag k="name:uk" v="Токантінс"/>
     <tag k="place" v="state"/>
@@ -20048,7 +20026,9 @@
     <tag k="name:id" v="Jeju"/>
     <tag k="name:io" v="Jeju insulo"/>
     <tag k="name:it" v="Jeju-do"/>
+    <tag k="name:ja" v="済州特別自治道"/>
     <tag k="name:jv" v="Jejudo"/>
+    <tag k="name:ko" v="제주특별자치도"/>
     <tag k="name:lt" v="Čedžu"/>
     <tag k="name:ms" v="Jeju"/>
     <tag k="name:nl" v="Jeju-do"/>
@@ -22427,7 +22407,6 @@
     <tag k="is_in:country_code" v="BR"/>
     <tag k="name" v="Amazonas"/>
     <tag k="name:abbreviation" v="AM"/>
-    <tag k="name:hu" v="Amazonas"/>
     <tag k="name:ru" v="Амазонас"/>
     <tag k="name:uk" v="Амазонас"/>
     <tag k="place" v="state"/>
@@ -22459,7 +22438,6 @@
     <tag k="name:fr" v="District fédéral"/>
     <tag k="name:he" v="המחוז הפדרלי"/>
     <tag k="name:hr" v="Federalni distrikt"/>
-    <tag k="name:hu" v="Distrito Federal"/>
     <tag k="name:hy" v="Դաշնային շրջան"/>
     <tag k="name:ia" v="Districto Federal"/>
     <tag k="name:id" v="Distrik Federal"/>
