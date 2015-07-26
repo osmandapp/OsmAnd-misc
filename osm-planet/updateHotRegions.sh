@@ -1,6 +1,6 @@
 #!/bin/bash
 BASE=/var/lib/jenkins/osm-planet/regions
-PBF_FILES="/var/lib/jenkins/workspace/Planet_Update-Extract Osm Maps Downloads/extracted/"
+PBF_FILES="/home/osm-planet/osmc/"
 
 
 updateRegion() {
