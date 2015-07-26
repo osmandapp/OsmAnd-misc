@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2015-07-21T14:20:02Z" areas="2015-07-20T15:54:02Z"/>
+<meta osm_base="2015-07-26T17:20:02Z" areas="2015-07-25T14:28:02Z"/>
 
   <relation id="8636">
     <tag k="ISO3166-2" v="FR-A"/>
@@ -282,6 +282,7 @@
     <tag k="name:eo" v="Franĉkonteo"/>
     <tag k="name:es" v="Franco Condado"/>
     <tag k="name:eu" v="Franche-Comté"/>
+    <tag k="name:fr" v="Franche-Comté"/>
     <tag k="name:it" v="Franca Contea"/>
     <tag k="name:la" v="Liber Comitatus"/>
     <tag k="name:oc" v="Franca Comtat"/>
@@ -312,7 +313,7 @@
     <tag k="name:oc" v="Lengadòc-Rosselhon"/>
     <tag k="name:pl" v="Langwedocja-Roussillon"/>
     <tag k="name:pt" v="Languedoque-Rossilhão"/>
-    <tag k="name:ru" v="Лангедок- Руссильон"/>
+    <tag k="name:ru" v="Лангедок-Руссильон"/>
     <tag k="name:uk" v="Лангедок-Руссільйон"/>
     <tag k="population" v="2670046"/>
     <tag k="ref:INSEE" v="91"/>
@@ -614,6 +615,7 @@
     <tag k="name:eo" v="Pikardio"/>
     <tag k="name:es" v="Picardía"/>
     <tag k="name:eu" v="Pikardia"/>
+    <tag k="name:fr" v="Picardie"/>
     <tag k="name:it" v="Piccardia"/>
     <tag k="name:la" v="Picardia"/>
     <tag k="name:nl" v="Picardië"/>
@@ -726,6 +728,7 @@
     <tag k="name:es" v="Alta Normandía"/>
     <tag k="name:et" v="Ülem-Normandia"/>
     <tag k="name:eu" v="Normandia Garaia"/>
+    <tag k="name:fr" v="Haute-Normandie"/>
     <tag k="name:he" v="נורמנדי עילית"/>
     <tag k="name:it" v="Alta Normandia"/>
     <tag k="name:la" v="Normannia Superior"/>
@@ -2450,6 +2453,7 @@
     <tag k="name:ru" v="Англия"/>
     <tag k="name:sk" v="Anglicko"/>
     <tag k="name:sv" v="England"/>
+    <tag k="name:tr" v="İngiltere"/>
     <tag k="name:tzl" v="Anglatzara"/>
     <tag k="name:uk" v="Англія"/>
     <tag k="name:vi" v="Anh"/>
@@ -3330,9 +3334,10 @@
     <tag k="name:prefix" v="Bundesland"/>
     <tag k="name:ru" v="Бремен"/>
     <tag k="name:uk" v="Бремен"/>
-    <tag k="official_name" v="Freie und Hansestadt Bremen"/>
+    <tag k="official_name" v="Freie Hansestadt Bremen"/>
     <tag k="official_name:de" v="Freie Hansestadt Bremen"/>
     <tag k="official_name:en" v="Free Hanseatic City of Bremen"/>
+    <tag k="official_name:nds" v="Free Hansestadt Bremen"/>
     <tag k="official_name:pl" v="Wolne Hanzeatyckie Miasto Brema"/>
     <tag k="official_name:ru" v="Вольный ганзейский город Бремен"/>
     <tag k="ref" v="HB"/>
@@ -16082,6 +16087,7 @@
     <tag k="iso3166-2" v="VE-V"/>
     <tag k="name" v="Zulia"/>
     <tag k="type" v="boundary"/>
+    <tag k="wikipedia" v="es:Zulia"/>
   </relation>
   <relation id="272633">
     <tag k="admin_level" v="4"/>
@@ -18526,7 +18532,6 @@
     <tag k="name:sv" v="Kanarieöarna"/>
     <tag k="natural" v="archipelago"/>
     <tag k="official_name" v="Canarias"/>
-    <tag k="place" v="archipelago"/>
     <tag k="source" v="BDLL25, EGRN, Instituto Geográfico Nacional"/>
     <tag k="timezone" v="Atlantic/Canary"/>
     <tag k="type" v="boundary"/>
@@ -21158,6 +21163,7 @@
     <tag k="name" v="Střední Morava"/>
     <tag k="name:cs" v="Střední Morava"/>
     <tag k="name:de" v="Mittelmähren"/>
+    <tag k="name:en" v="Central Moravia"/>
     <tag k="name:ru" v="Центральная Моравия"/>
     <tag k="population" v="1225302"/>
     <tag k="ref" v="CZ07"/>
@@ -21173,6 +21179,7 @@
     <tag k="name" v="Jihovýchod"/>
     <tag k="name:cs" v="Jihovýchod"/>
     <tag k="name:de" v="Südosten"/>
+    <tag k="name:en" v="Southeast"/>
     <tag k="name:ru" v="Юго-Восток"/>
     <tag k="population" v="1679857"/>
     <tag k="ref" v="CZ06"/>
@@ -21188,6 +21195,7 @@
     <tag k="name" v="Jihozápad"/>
     <tag k="name:cs" v="Jihozápad"/>
     <tag k="name:de" v="Südwesten"/>
+    <tag k="name:en" v="Southwest"/>
     <tag k="name:ru" v="Юго-Запад"/>
     <tag k="population" v="1209298"/>
     <tag k="ref" v="CZ03"/>
@@ -21203,6 +21211,7 @@
     <tag k="name" v="Moravskoslezsko"/>
     <tag k="name:cs" v="Moravskoslezsko"/>
     <tag k="name:de" v="Mährisch-Schlesien"/>
+    <tag k="name:en" v="Moravia-Silesia"/>
     <tag k="name:ru" v="Мораво-Силезия"/>
     <tag k="population" v="1226602"/>
     <tag k="ref" v="CZ08"/>
@@ -21218,6 +21227,7 @@
     <tag k="name" v="Severovýchod"/>
     <tag k="name:cs" v="Severovýchod"/>
     <tag k="name:de" v="Nordosten"/>
+    <tag k="name:en" v="Northeast"/>
     <tag k="name:ru" v="Северо-Восток"/>
     <tag k="population" v="1507980"/>
     <tag k="ref" v="CZ05"/>
@@ -21233,6 +21243,7 @@
     <tag k="name" v="Střední Čechy"/>
     <tag k="name:cs" v="Střední Čechy"/>
     <tag k="name:de" v="Mittelböhmen"/>
+    <tag k="name:en" v="Central Bohemia"/>
     <tag k="name:ru" v="Центральная Чехия"/>
     <tag k="population" v="1291816"/>
     <tag k="ref" v="CZ02"/>
@@ -21248,6 +21259,7 @@
     <tag k="name" v="Severozápad"/>
     <tag k="name:cs" v="Severozápad"/>
     <tag k="name:de" v="Nordwesten"/>
+    <tag k="name:en" v="Northwest"/>
     <tag k="name:ru" v="Северо-Запад"/>
     <tag k="population" v="1128490"/>
     <tag k="ref" v="CZ04"/>
@@ -21264,6 +21276,7 @@
     <tag k="name" v="Praha"/>
     <tag k="name:cs" v="Praha"/>
     <tag k="name:de" v="Prag"/>
+    <tag k="name:en" v="Prague"/>
     <tag k="name:fr" v="Prague"/>
     <tag k="name:pl" v="Praga"/>
     <tag k="name:ru" v="Прага"/>
@@ -33621,7 +33634,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Kidal"/>
     <tag k="type" v="boundary"/>
-    <tag k="wikipedia" v="fr:Région de Gao"/>
+    <tag k="wikipedia" v="fr:Région de Kidal"/>
   </relation>
   <relation id="2096898">
     <tag k="ISO3166-2" v="ML-2"/>
@@ -33836,6 +33849,7 @@
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Районы и округа Воронежской области"/>
+    <tag k="name:ru" v="Районы и округа Воронежской области"/>
     <tag k="type" v="collection"/>
     <tag k="wikipedia" v="ru:Административно-территориальное деление Воронежской области"/>
   </relation>
@@ -34817,6 +34831,7 @@
     <tag k="iso3166-2" v="VE-O"/>
     <tag k="name" v="Nueva Esparta"/>
     <tag k="type" v="boundary"/>
+    <tag k="wikipedia" v="es:Nueva Esparta"/>
   </relation>
   <relation id="2269792">
     <tag k="admin_level" v="4"/>
@@ -39348,7 +39363,11 @@
   <relation id="2939672">
     <tag k="ISO3166-2" v="MY-14"/>
     <tag k="admin_level" v="4"/>
+    <tag k="border_type" v="city"/>
+    <tag k="boundary" v="administrative"/>
     <tag k="boundary_type" v="state"/>
+    <tag k="is_in:country" v="Malaysia"/>
+    <tag k="is_in:state" v="Selangor"/>
     <tag k="name" v="Kuala Lumpur"/>
     <tag k="name:zh" v="吉隆坡"/>
     <tag k="place" v="state"/>
@@ -39356,6 +39375,7 @@
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q1865"/>
     <tag k="wikipedia" v="ms:Kuala Lumpur"/>
+    <tag k="wikipedia_1" v="https://en.wikipedia.org/wiki/Kuala_Lumpur"/>
   </relation>
   <relation id="2939673">
     <tag k="ISO3166-2" v="MY-04"/>
@@ -42195,6 +42215,7 @@
     <tag k="name:de" v="Bundesterritorien"/>
     <tag k="name:en" v="Federal Dependencies"/>
     <tag k="type" v="boundary"/>
+    <tag k="wikipedia" v="es:Dependencias Federales de Venezuela"/>
   </relation>
   <relation id="3399113">
     <tag k="ISO3166-2" v="GN-NZ"/>
@@ -44691,9 +44712,12 @@
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
     <tag k="fixme" v="please"/>
+    <tag k="name" v="الأقصر / Luxor"/>
+    <tag k="name:ar" v="‏محافظة الأقصر‎"/>
     <tag k="name:de" v="Luxor"/>
     <tag k="name:en" v="Luxor Governate"/>
     <tag k="type" v="boundary"/>
+    <tag k="wikipedia" v="de:Gouvernement al-Uqsur"/>
   </relation>
   <relation id="3726424">
     <tag k="admin_level" v="4"/>
@@ -46103,6 +46127,7 @@
     <tag k="border_type" v="province"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="خیبر پختونخوا"/>
+    <tag k="name:de" v="Khyber Pakhtunkhwa"/>
     <tag k="name:en" v="Khyber Pakhtunkhwa"/>
     <tag k="name:pl" v="Chajber Pasztunchwa"/>
     <tag k="name:ru" v="Хайбер-Пахтунхва"/>
@@ -47771,6 +47796,7 @@
     <tag k="name" v="Αποκεντρωμένη Διοίκηση Ηπείρου - Δυτικής Μακεδονίας"/>
     <tag k="name:el" v="Αποκεντρωμένη Διοίκηση Ηπείρου - Δυτικής Μακεδονίας"/>
     <tag k="name:en" v="Epirus - Western Macedonia Administration"/>
+    <tag k="name:ru" v="Децентрализованная администрация Эпира и Западной Македонии"/>
     <tag k="population" v="620545"/>
     <tag k="source" v="geodata.gov.gr"/>
     <tag k="source:population" v="ΕΛΣΤΑΤ 2011"/>
@@ -47823,6 +47849,7 @@
     <tag k="name" v="Αποκεντρωμένη Διοίκηση Πελοποννήσου, Δυτικής Ελλάδας και Ιονίου"/>
     <tag k="name:el" v="Αποκεντρωμένη Διοίκηση Πελοποννήσου, Δυτικής Ελλάδας και Ιονίου"/>
     <tag k="name:en" v="Peloponnese, West Greece and Ionian Sea Administration"/>
+    <tag k="name:ru" v="Децентрализованная администрация Пелопоннеса, Западной Греции и Ионии"/>
     <tag k="population" v="1465554"/>
     <tag k="source:population" v="ΕΛΣΤΑΤ 2011"/>
     <tag k="type" v="boundary"/>
@@ -47963,7 +47990,7 @@
   </relation>
   <relation id="4579478">
     <tag k="admin_level" v="4"/>
-    <tag k="alt_name:en" v="Capital; Al Kuwayt"/>
+    <tag k="alt_name:en" v="Capital;Al Kuwayt"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="العاصمه"/>
     <tag k="name:de" v="al-Asima"/>
@@ -51230,7 +51257,6 @@
     <tag k="ref:nuts:1" v="UKI"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="de:Greater London"/>
-    <tag k="wikipedia:uk" v="Великий_Лондон"/>
   </relation>
   <relation id="151164">
     <tag k="admin_level" v="5"/>
@@ -52766,6 +52792,7 @@
     <tag k="heritage:operator" v="whc"/>
     <tag k="name" v="Αυτόνομη Μοναστική Πολιτεία Αγίου Όρους"/>
     <tag k="name:en" v="Autonomous Monastic State of the Holy Mountain"/>
+    <tag k="name:fr" v="République monastique du mont Athos"/>
     <tag k="ref:whc" v="454"/>
     <tag k="type" v="boundary"/>
     <tag k="whc:inscription_date" v="1988"/>
