@@ -1,6 +1,11 @@
 <?php
 
-function loadIndexesFromDir($output, $outputIndexes, $dir, $fileFilter, $timestamp){
+function startsWith($haystack, $needle) {
+    // search backwards starting from haystack length characters from the end
+    return $needle === "" || strrpos($haystack, $needle, -strlen($haystack)) !== FALSE;
+}
+
+function loadUpdatesFromDir($output, $outputIndexes, $dir, $fileFilter, $timestamp){
   if (is_dir($dir)) {
     if ($dh = opendir($dir)) {
       while (($file = readdir($dh)) !== false) {
@@ -12,9 +17,10 @@ function loadIndexesFromDir($output, $outputIndexes, $dir, $fileFilter, $timesta
             $contentSize = filesize($filename);
             $date= date('d.m.Y',filemtime($filename));
             $timestampF = filemtime($filename);
-            if($timestampF * 1000 > $timestamp) {
-              $out = $output->createElement( $elementName);
+            if($timestampF > int_val(substr($timestamp, 0, -3))) {
+              $out = $output->createElement('update');
               $outputIndexes->appendChild($out);
+              $out -> setAttribute("updateDate", substr("abcdef", -strlen('.obf.gz') - 8, -strlen('.obf.gz')));
               $out -> setAttribute("containerSize", $containerSize);
               $out -> setAttribute("contentSize", $contentSize);
               $out -> setAttribute("timestamp", $timestampF * 1000);
