@@ -17,10 +17,10 @@ function loadUpdatesFromDir($output, $outputIndexes, $dir, $fileFilter, $timesta
             $contentSize = filesize($filename);
             $date= date('d.m.Y',filemtime($filename));
             $timestampF = filemtime($filename);
-            if($timestampF > int_val(substr($timestamp, 0, -3))) {
+            if($timestampF > intval(substr($timestamp, 0, -3))) {
               $out = $output->createElement('update');
               $outputIndexes->appendChild($out);
-              $out -> setAttribute("updateDate", substr("abcdef", -strlen('.obf.gz') - 8, -strlen('.obf.gz')));
+              $out -> setAttribute("updateDate", substr($file, -strlen('.obf.gz') - 8, -strlen('.obf.gz')));
               $out -> setAttribute("containerSize", $containerSize);
               $out -> setAttribute("contentSize", $contentSize);
               $out -> setAttribute("timestamp", $timestampF * 1000);
