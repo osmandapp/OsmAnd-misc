@@ -26,3 +26,28 @@ It creates 3 files:
 # 3. Update country.pbf and generates rich osm changes
 Job http://builder.osmand.net:8080/job/MapsDaily_GenerateOsmPerCountry/.
 It iterates over all downloadable maps and if $FOLDER_NAME.pbf (!) is present in the folder, it applies all minute updates in the folder and create osm.gz file with current day timestamp  (where all changed osm objects are included + all descendentant). For example, if the way was changed osm.gz will contain all the nodes of it, if the relation was changed it will contain all members, if the node was changed it will contain all ways enclosing it.
+
+
+
+
+# 6. Update main polygons
+#!/bin/bash
+REPO=`pwd`
+cd /home/osm-planet/osmc/
+rm *.n.o5m || true
+ 
+for polyFile in "$REPO"/misc/osm-planet/polygons/*.poly; do
+BN=$polyFile
+BN="${BN##*/}"
+BN="${BN%.poly}"
+echo "Processing $BN file.."
+cp "$REPO"/misc/osm-planet/polygons/$BN.poly .
+if [ ! -f "${BN}.o5m" ]; then
+    echo "File not found!"
+else
+	osmupdate --keep-tempfiles ${BN}.o5m -B=$BN.poly $BN.n.o5m -v
+	rm ${BN}.o5m || true
+	mv $BN.n.o5m $BN.o5m
+fi
+done
+rm -rf osmupdate_temp/*
