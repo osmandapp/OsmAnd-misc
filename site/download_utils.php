@@ -65,7 +65,9 @@ function dwFile($filename,$query,$type) {
     
     $helpServersCount = count($helpServers);
     $mainServersCount = count($mainServers);
-    if($helpServersCount > 0 and $simple and $var < (100 - $mainServersLoad)) {
+    if($type == "osmc" ) {
+		downloadFile($filename);
+    } else if($helpServersCount > 0 and $simple and $var < (100 - $mainServersLoad)) {
     	$url = $helpServers[$var % $helpServersCount];
     	header('Location: http://'.$url.'/download.php?'.$query);
     } else if($mainServersCount > 0) {
@@ -75,7 +77,7 @@ function dwFile($filename,$query,$type) {
         downloadFile($filename);
     }
   } else {
-    downloadFile($filename);
+    	downloadFile($filename);
   }
 }
 

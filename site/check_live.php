@@ -9,7 +9,7 @@ function loadUpdatesFromDir($output, $outputIndexes, $dir, $fileFilter, $timesta
   if (is_dir($dir)) {
     if ($dh = opendir($dir)) {
       while (($file = readdir($dh)) !== false) {
-        if(startsWith($file, $fileFilter)) {
+        if(startsWith(strtolower($file), strtolower($fileFilter))) {
             $indexName=$file;
             $filename = $dir . $file ; //"./test112.zip";
             $size =  number_format((filesize($filename) / (1024.0*1024.0)), 1, '.', '');

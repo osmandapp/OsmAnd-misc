@@ -55,6 +55,8 @@ use UnitedPrototype\GoogleAnalytics;
     dwFile('srtm-countries/'.$file, 'srtmcountry=yes&file='.$file, "srtm");
  } else if(isset($_GET['road'])){
     dwFile('road-indexes/'.$file, 'road=yes&file='.$file, "road");
+} else if(isset($_GET['osmc'])){
+    dwFile('osmc/'.$file, 'osmc=yes&file='.$file, "osmc");
  } else if(isset($_GET['wiki'])){
     dwFile('wiki/'.$file, 'wiki=yes&file='.$file, "wiki");
  } else if(isset($_GET['hillshade'])){
