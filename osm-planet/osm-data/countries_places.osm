@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2015-07-21T14:19:02Z"/>
+<meta osm_base="2015-08-21T09:03:02Z"/>
 
   <node id="26036352" lat="12.7503486" lon="122.7312101">
     <tag k="alt_name:vi" v="Phi Luật Tân"/>
@@ -553,6 +553,14 @@
     <tag k="population" v="8205533"/>
     <tag k="source" v="CIA World Factbook (2009-07)"/>
     <tag k="wikipedia" v="de:Österreich"/>
+  </node>
+  <node id="26847717" lat="-27.0000000" lon="133.0000000">
+    <tag k="is_in" v="Australia"/>
+    <tag k="name" v="Australia"/>
+    <tag k="name:de" v="Australien"/>
+    <tag k="name:en" v="Australia"/>
+    <tag k="place" v="country"/>
+    <tag k="source" v="CIA World Factbook"/>
   </node>
   <node id="148332300" lat="40.0028028" lon="-4.0031040">
     <tag k="ISO3166-1" v="ES"/>
@@ -2234,7 +2242,6 @@
     <tag k="country_code_iso3166_1_alpha_2" v="BY"/>
     <tag k="geonames:id" v="630336"/>
     <tag k="int_name" v="Belaruś"/>
-    <tag k="is_in:continent" v="Europe"/>
     <tag k="name" v="Беларусь"/>
     <tag k="name:af" v="Wit-Rusland"/>
     <tag k="name:ak" v="Bɛlarus"/>
@@ -12149,6 +12156,7 @@
     <tag k="name:dz" v="སེནཊ་ ཀིཊས་ དང་ ནེ་བིས"/>
     <tag k="name:ee" v="Saint Kitis kple Nevis nutome"/>
     <tag k="name:el" v="Άγιος Χριστόφορος και Νέβις"/>
+    <tag k="name:en" v="Saint Kitts and Nevis"/>
     <tag k="name:eo" v="Sankta-Kito kaj Neviso"/>
     <tag k="name:es" v="San Cristóbal y Nieves"/>
     <tag k="name:et" v="Saint Kitts ja Nevis"/>
@@ -18694,6 +18702,7 @@
     <tag k="name:dz" v="ཝ་ནུ་ཨ་ཏུ"/>
     <tag k="name:ee" v="Vanuatu nutome"/>
     <tag k="name:el" v="Βανουάτου"/>
+    <tag k="name:en" v="Vanuatu"/>
     <tag k="name:eo" v="Vanuatuo"/>
     <tag k="name:es" v="Vanuatu"/>
     <tag k="name:fa" v="وانواتو"/>
@@ -19110,6 +19119,7 @@
     <tag k="name:dz" v="ཇཱ་མཻ་ཀ"/>
     <tag k="name:ee" v="Dzamaika nutome"/>
     <tag k="name:el" v="Τζαμάικα"/>
+    <tag k="name:en" v="Jamaica"/>
     <tag k="name:eo" v="Jamajko"/>
     <tag k="name:es" v="Jamaica"/>
     <tag k="name:eu" v="Jamaika"/>
@@ -19195,7 +19205,7 @@
     <tag k="population" v="2804332"/>
     <tag k="wikipedia" v="fr:Jamaïque"/>
   </node>
-  <node id="424313675" lat="40.1636668" lon="47.8207429">
+  <node id="424313675" lat="40.3936294" lon="47.7872508">
     <tag k="capital_city" v="Baku"/>
     <tag k="country_code_fips" v="AJ"/>
     <tag k="country_code_iso3166_1_alpha_2" v="AZ"/>
@@ -35390,10 +35400,8 @@
     <tag k="wikipedia:fr" v="Monténégro"/>
   </node>
   <node id="466507355" lat="43.1500226" lon="41.2299786">
-    <tag k="addr:country" v="Abkhazia"/>
+    <tag k="addr:country" v="AB"/>
     <tag k="int_name" v="Abkhazia"/>
-    <tag k="is_in:continent" v="Asia"/>
-    <tag k="is_in:continent:note" v="depends on point of view about border between Europe and Asia"/>
     <tag k="name" v="Аҧсны - Абхазия"/>
     <tag k="name:ab" v="Аҧсны"/>
     <tag k="name:af" v="Abkasië"/>
@@ -35592,7 +35600,9 @@
     <tag k="name:da" v="Amerikansk Samoa"/>
     <tag k="name:de" v="Amerikanisch-Samoa"/>
     <tag k="name:el" v="Αμερικανικές Σαμόα"/>
+    <tag k="name:en" v="American Samoa"/>
     <tag k="name:es" v="Samoa Americana"/>
+    <tag k="name:fa" v="ساموآی آمریکا"/>
     <tag k="name:fi" v="Amerikan Samoa"/>
     <tag k="name:fr" v="Samoa Américaines"/>
     <tag k="name:gv" v="Samoa Americaanagh"/>
@@ -36816,7 +36826,7 @@
     <tag k="old_name:ku" v="Komara Îrlandê"/>
     <tag k="old_name:vi" v="Ái Nhĩ Lan"/>
     <tag k="place" v="country"/>
-    <tag k="population" v="4580000 (2011)"/>
+    <tag k="population" v="4580000"/>
     <tag k="wheelchair" v="limited"/>
     <tag k="wikipedia" v="en:Republic of Ireland"/>
   </node>
@@ -37219,6 +37229,7 @@
     <tag k="name:ca" v="Santa Helena, Ascensió i Tristan da Cunha"/>
     <tag k="name:de" v="St. Helena, Ascension und Tristan da Cunha"/>
     <tag k="name:el" v="Αγία Ελένη, Ασενσιόν και Τριστάν ντα Κούνια"/>
+    <tag k="name:en" v="Saint Helena, Ascension and Tristan da Cunha"/>
     <tag k="name:es" v="Santa Elena, Ascensión y Tristán de Acuña"/>
     <tag k="name:fi" v="Saint Helena, Ascension ja Tristan da Cunha"/>
     <tag k="name:fr" v="Sainte-Hélène, Ascension et Tristan da Cunha"/>
@@ -37251,6 +37262,7 @@
     <tag k="name:ca" v="Guernsey"/>
     <tag k="name:de" v="Guernsey"/>
     <tag k="name:el" v="Γκέρνσεϊ"/>
+    <tag k="name:en" v="Guernsey"/>
     <tag k="name:es" v="Guernsey"/>
     <tag k="name:fi" v="Guernsey"/>
     <tag k="name:fr" v="Guernesey"/>
@@ -39771,6 +39783,7 @@
     <tag k="name:ca" v="Portugal"/>
     <tag k="name:de" v="Portugal"/>
     <tag k="name:el" v="Πορτογαλία"/>
+    <tag k="name:en" v="Portugal"/>
     <tag k="name:fa" v="پرتغال"/>
     <tag k="name:fr" v="Portugal"/>
     <tag k="name:gv" v="Yn Phortiugal"/>
@@ -39825,10 +39838,38 @@
     <tag k="ISO3166-1" v="LS"/>
     <tag k="is_in:continent" v="Africa"/>
     <tag k="name" v="Lesotho"/>
+    <tag k="name:en" v="Lesotho"/>
     <tag k="name:hu" v="Lesotho"/>
     <tag k="place" v="country"/>
     <tag k="wikidata" v="Q1013"/>
     <tag k="wikipedia" v="en:Lesotho"/>
+  </node>
+  <node id="3696525426" lat="47.1416307" lon="9.5531527">
+    <tag k="ISO3166-1" v="LI"/>
+    <tag k="ISO3166-1:alpha3" v="LIE"/>
+    <tag k="ISO3166-1:numeric" v="438"/>
+    <tag k="capital_city" v="Vaduz"/>
+    <tag k="country_code_iso3166_1_alpha_2" v="LI"/>
+    <tag k="int_name" v="Liechtenstein"/>
+    <tag k="is_in" v="Europe"/>
+    <tag k="is_in:continent" v="Europe"/>
+    <tag k="name" v="Liechtenstein"/>
+    <tag k="nat_name" v="Liechtenstein"/>
+    <tag k="official_name" v="Fürstentum Liechtenstein"/>
+    <tag k="place" v="country"/>
+    <tag k="population" v="37132"/>
+    <tag k="source" v="Wikipedia"/>
+  </node>
+  <node id="3706307973" lat="57.9157027" lon="15.0338704">
+    <tag k="amenity" v="cafe"/>
+    <tag k="cuisine" v="regional"/>
+    <tag k="name" v="Brostorp"/>
+    <tag k="opening_hours" v="Fr-Su 11:00-17:00"/>
+    <tag k="place" v="country"/>
+  </node>
+  <node id="3706307977" lat="58.0005895" lon="15.0364142">
+    <tag k="name" v="Gransbo"/>
+    <tag k="place" v="country"/>
   </node>
   <node id="36966057" lat="2.0000003" lon="15.9999997">
     <tag k="alt_name:vi" v="Phi Châu"/>

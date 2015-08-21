@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2015-07-21T14:20:02Z"/>
+<meta osm_base="2015-08-21T09:03:02Z"/>
 
   <node id="671022" lat="36.7014631" lon="-118.7559974">
     <tag k="alt_name:vi" v="California"/>
@@ -567,7 +567,7 @@
     <tag k="place" v="state"/>
     <tag k="ref:at:gkz" v="4"/>
   </node>
-  <node id="240086063" lat="47.3932966" lon="9.3606581">
+  <node id="240086063" lat="47.3960076" lon="9.3705839">
     <tag k="is_in" v="Schweiz,Europe"/>
     <tag k="is_in:continent" v="Europe"/>
     <tag k="is_in:country" v="Switzerland"/>
@@ -1838,6 +1838,43 @@
     <tag k="name:hu" v="Penang"/>
     <tag k="name:ru" v="Пулау-Пинанг"/>
     <tag k="place" v="state"/>
+  </node>
+  <node id="251073791" lat="44.5547288" lon="33.4720239">
+    <tag k="addr:postcode" v="299000-299699"/>
+    <tag k="addr:region" v="Севастополь"/>
+    <tag k="addr:region:ru" v="Севастополь"/>
+    <tag k="addr:region:uk" v="Севастополь"/>
+    <tag k="int_name" v="Sevastopol"/>
+    <tag k="koatuu" v="8500000000"/>
+    <tag k="name" v="Севастополь"/>
+    <tag k="name:ca" v="Sebastòpol"/>
+    <tag k="name:crh" v="Aqyar"/>
+    <tag k="name:cs" v="Sevastopol"/>
+    <tag k="name:de" v="Sewastopol"/>
+    <tag k="name:el" v="Σεβαστούπολη"/>
+    <tag k="name:en" v="Sevastopol"/>
+    <tag k="name:es" v="Sebastopol"/>
+    <tag k="name:fr" v="Sébastopol"/>
+    <tag k="name:hr" v="Sevastopolj"/>
+    <tag k="name:hu" v="Szevasztopol"/>
+    <tag k="name:it" v="Sebastopoli"/>
+    <tag k="name:kn" v="ಸೆವಸ್ತೋಪೊಲ್"/>
+    <tag k="name:la" v="Sebastopolis"/>
+    <tag k="name:lt" v="Sevastopolis"/>
+    <tag k="name:lv" v="Sevastopole"/>
+    <tag k="name:nl" v="Sebastopol"/>
+    <tag k="name:pl" v="Sewastopol"/>
+    <tag k="name:prefix" v="город"/>
+    <tag k="name:pt" v="Sebastopol"/>
+    <tag k="name:ro" v="Sevastopol"/>
+    <tag k="name:ru" v="Севастополь"/>
+    <tag k="name:sk" v="Sevastopoľ"/>
+    <tag k="name:tr" v="Sivastopol"/>
+    <tag k="name:uk" v="Севастополь"/>
+    <tag k="place" v="state"/>
+    <tag k="population" v="402135"/>
+    <tag k="population:date" v="2015"/>
+    <tag k="ref" v="СВС"/>
   </node>
   <node id="256756054" lat="7.4393793" lon="151.8515538">
     <tag k="is_in" v="Federates States of Micronesia"/>
@@ -4453,7 +4490,7 @@
     <tag k="place" v="state"/>
     <tag k="population" v="1200000"/>
     <tag k="source" v="GNS"/>
-    <tag k="wikipedia" v="http://en.wikipedia.org/wiki/Karakalpakstan"/>
+    <tag k="wikipedia:en" v="Karakalpakstan"/>
   </node>
   <node id="312470029" lat="34.7833330" lon="70.1833330">
     <tag k="gns:dsg" v="ADM1"/>
@@ -10176,7 +10213,7 @@
     <tag k="name" v="آذربایجان شرقی"/>
     <tag k="name:az" v="Doğu Azərbaycan ostanı"/>
     <tag k="name:de" v="Ost-Aserbaidschan"/>
-    <tag k="name:en" v="East Azerbaijan"/>
+    <tag k="name:en" v="East Azarbaijan"/>
     <tag k="name:fr" v="Azerbaïdjan oriental"/>
     <tag k="name:hr" v="Istočni Azerbejdžan"/>
     <tag k="name:hu" v="Kelet-Azerbajdzsán"/>
@@ -10386,13 +10423,8 @@
   </node>
   <node id="494596154" lat="34.9733210" lon="48.6555779">
     <tag k="name" v="همدان‎"/>
-    <tag k="name:de" v="Hamadan"/>
-    <tag k="name:en" v="Hamadan"/>
-    <tag k="name:fr" v="Hamedan"/>
-    <tag k="name:hr" v="Hamadan"/>
-    <tag k="name:hu" v="Hamadán"/>
+    <tag k="name:en" v="Hamedan"/>
     <tag k="name:ku" v="Hemedan"/>
-    <tag k="name:pl" v="Hamadan"/>
     <tag k="name:ru" v="Хамадан"/>
     <tag k="name:uk" v="Хамадан"/>
     <tag k="place" v="state"/>
@@ -10442,7 +10474,7 @@
     <tag k="name" v="آذربایجان غربی‎"/>
     <tag k="name:az" v="Qərbi Azərbaycan ostanı"/>
     <tag k="name:de" v="West-Aserbaidschan"/>
-    <tag k="name:en" v="West Azerbaijan"/>
+    <tag k="name:en" v="West Azarbaijan"/>
     <tag k="name:fr" v="Azerbaïdjan occidental"/>
     <tag k="name:hr" v="Zapadni Azerbejdžan"/>
     <tag k="name:hu" v="Nyugat-Azerbajdzsán"/>
@@ -10762,8 +10794,6 @@
     <tag k="addr:country" v="RU"/>
     <tag k="addr:postcode" v="649000"/>
     <tag k="addr:region" v="Республика Алтай"/>
-    <tag k="cladr:code" v="0400000000000"/>
-    <tag k="cladr:suffix" v="Республика"/>
     <tag k="name" v="Республика Алтай"/>
     <tag k="name:be" v="Алтай"/>
     <tag k="name:de" v="Republik Altai"/>
@@ -12078,9 +12108,6 @@
   </node>
   <node id="559621143" lat="63.9881421" lon="54.3326073">
     <tag k="addr:country" v="RU"/>
-    <tag k="cladr:code" v="1100000000000"/>
-    <tag k="cladr:name" v="Коми"/>
-    <tag k="cladr:suffix" v="Республика"/>
     <tag k="name" v="Коми"/>
     <tag k="name:be" v="Комі"/>
     <tag k="name:de" v="Republik Komi"/>
@@ -12285,9 +12312,6 @@
   <node id="567535537" lat="62.6194031" lon="33.4920267">
     <tag k="addr:country" v="RU"/>
     <tag k="addr:region" v="Карелия республика"/>
-    <tag k="cladr:code" v="1000000000000"/>
-    <tag k="cladr:name" v="Карелия"/>
-    <tag k="cladr:suffix" v="Республика"/>
     <tag k="name" v="Карелия"/>
     <tag k="name:be" v="Карэлія"/>
     <tag k="name:da" v="Karelen"/>
@@ -14100,12 +14124,13 @@
     <tag k="name:fr" v="Oblast de Tchernivtsi"/>
     <tag k="name:pl" v="obwód czerniowiecki"/>
     <tag k="name:pt" v="Oblast de Chernivtsi"/>
+    <tag k="name:ro" v="Regiunea Cernăuți"/>
     <tag k="name:ru" v="Черновицкая область"/>
     <tag k="name:uk" v="Чернівецька область"/>
     <tag k="place" v="state"/>
-    <tag k="ref" v="ЧРВ"/>
     <tag k="ref:en" v="CRV"/>
     <tag k="ref:ru" v="ЧРВ"/>
+    <tag k="ref:uk" v="ЧРВ"/>
   </node>
   <node id="683681613" lat="49.2723647" lon="38.9152782">
     <tag k="is_in:country" v="Україна"/>
@@ -16019,6 +16044,7 @@
     <tag k="name:la" v="Liber Comitatus"/>
     <tag k="name:oc" v="Franca Comtat"/>
     <tag k="name:pt" v="Franco-Condado"/>
+    <tag k="name:ro" v="Comitatul Liber"/>
     <tag k="name:ru" v="Франш-Конте"/>
     <tag k="name:uk" v="Франш-Конте"/>
     <tag k="place" v="state"/>
@@ -16028,6 +16054,7 @@
     <tag k="source:population" v="INSEE 2014"/>
     <tag k="website" v="http://www.cr-franche-comte.fr/"/>
     <tag k="wikipedia" v="fr:Franche-Comté"/>
+    <tag k="wikipedia:ro" v="Franche-Comté"/>
   </node>
   <node id="1251610250" lat="48.3705824" lon="4.3128168">
     <tag k="ISO3166-2" v="FR-G"/>
@@ -16256,7 +16283,7 @@
     <tag k="name:ja" v="ローヌ＝アルプ"/>
     <tag k="name:oc" v="Ròse-Aups"/>
     <tag k="name:pt" v="Ródano-Alpes"/>
-    <tag k="name:ro" v="Ron-Alpi"/>
+    <tag k="name:ro" v="Ron - Alpi"/>
     <tag k="name:ru" v="Рона — Альпы"/>
     <tag k="name:uk" v="Рона-Альпи"/>
     <tag k="place" v="state"/>
@@ -16280,6 +16307,7 @@
     <tag k="name:eu" v="Auvernia"/>
     <tag k="name:ja" v="オーヴェルニュ"/>
     <tag k="name:oc" v="Auvèrnhe"/>
+    <tag k="name:ro" v="Arvernia"/>
     <tag k="name:ru" v="Овернь"/>
     <tag k="name:uk" v="Овернь"/>
     <tag k="place" v="state"/>
@@ -16289,6 +16317,7 @@
     <tag k="source:population" v="INSEE 2014"/>
     <tag k="website" v="http://www.auvergne.fr/"/>
     <tag k="wikipedia" v="fr:Auvergne"/>
+    <tag k="wikipedia:ro" v="Auvergne"/>
   </node>
   <node id="1251610256" lat="43.2896315" lon="3.0314215">
     <tag k="ISO3166-2" v="FR-K"/>
@@ -16331,7 +16360,7 @@
     <tag k="name:lt" v="Provansas-Alpės-Žydrasis Krantas"/>
     <tag k="name:oc" v="Provença-Aups-Còsta d'Azur"/>
     <tag k="name:pt" v="Provença-Alpes-Costa Azul"/>
-    <tag k="name:ro" v="Provența-Alpi-Coasta de Azur"/>
+    <tag k="name:ro" v="Provența - Alpi - Coasta de Azur"/>
     <tag k="name:ru" v="Прованс — Альпы — Лазурный Берег"/>
     <tag k="name:sl" v="Provansa-Alpe-Azurna obala"/>
     <tag k="name:uk" v="Прованс-Альпи-Лазурний берег"/>
@@ -16342,6 +16371,7 @@
     <tag k="source:population" v="INSEE 2014"/>
     <tag k="website" v="http://www.regionpaca.fr/"/>
     <tag k="wikipedia" v="fr:Provence-Alpes-Côte d'Azur"/>
+    <tag k="wikipedia:ro" v="Provența-Alpi-Coasta_de_Azur"/>
   </node>
   <node id="1251610258" lat="48.5716633" lon="2.5670187">
     <tag k="ISO3166-2" v="FR-J"/>
@@ -16419,7 +16449,7 @@
     <tag k="name:pms" v="Mesdì-Pirené"/>
     <tag k="name:pnb" v="وشکارلا پیرینیز"/>
     <tag k="name:pt" v="Midi-Pirinéus"/>
-    <tag k="name:ro" v="Midi-Pirinei"/>
+    <tag k="name:ro" v="Midi - Pirinei"/>
     <tag k="name:ru" v="Юг-Пиренеи"/>
     <tag k="name:scn" v="Midi-Pirinei"/>
     <tag k="name:sl" v="Jug-Pireneji"/>
@@ -16436,6 +16466,7 @@
     <tag k="source:population" v="INSEE 2014"/>
     <tag k="website" v="http://www.midipyrenees.fr/"/>
     <tag k="wikipedia" v="fr:Midi-Pyrénées"/>
+    <tag k="wikipedia:ro" v="Midi-Pirinei"/>
   </node>
   <node id="1251610260" lat="48.2640845" lon="-2.9202408">
     <tag k="ISO3166-2" v="FR-E"/>
@@ -16486,7 +16517,7 @@
     <tag k="name:la" v="Centrum"/>
     <tag k="name:oc" v="Centre"/>
     <tag k="name:pt" v="Centro"/>
-    <tag k="name:ro" v="Centru"/>
+    <tag k="name:ro" v="Centru - Valea Loarei"/>
     <tag k="name:ru" v="Центр"/>
     <tag k="name:uk" v="Центр"/>
     <tag k="old_name" v="Centre"/>
@@ -16498,6 +16529,7 @@
     <tag k="source:population" v="INSEE 2014"/>
     <tag k="website" v="http://www.regioncentre.fr/"/>
     <tag k="wikipedia" v="fr:Centre-Val de Loire"/>
+    <tag k="wikipedia:ro" v="Centre-Val_de_Loire"/>
   </node>
   <node id="1251610262" lat="48.8177569" lon="-0.4382331">
     <tag k="ISO3166-2" v="FR-P"/>
@@ -16608,6 +16640,7 @@
     <tag k="name:pms" v="Pais ëd la Lòira"/>
     <tag k="name:pnb" v="لوائیر وادی"/>
     <tag k="name:pt" v="País do Loire"/>
+    <tag k="name:ro" v="Ținuturile Loarei"/>
     <tag k="name:ru" v="Земли Луары"/>
     <tag k="name:scn" v="Paisi dâ Loira"/>
     <tag k="name:sl" v="Regija Loire"/>
@@ -16623,6 +16656,7 @@
     <tag k="source:population" v="INSEE 2014"/>
     <tag k="website" v="http://www.paysdelaloire.eu/"/>
     <tag k="wikipedia" v="fr:Pays de la Loire"/>
+    <tag k="wikipedia:ro" v="Pays de la Loire"/>
   </node>
   <node id="1251610265" lat="48.1835410" lon="7.3795231">
     <tag k="ISO3166-2" v="FR-A"/>
@@ -16736,6 +16770,7 @@
     <tag k="name:lt" v="Šiaurė-Pa de Kalė"/>
     <tag k="name:oc" v="Nòrd-Pas de Calais"/>
     <tag k="name:pt" v="Norte-Passo-de-Calais"/>
+    <tag k="name:ro" v="Nord - Pasul Calais"/>
     <tag k="name:ru" v="Нор — Па-де-Кале"/>
     <tag k="name:uk" v="Нор-Па-де-Кале"/>
     <tag k="place" v="state"/>
@@ -16745,6 +16780,7 @@
     <tag k="source:population" v="INSEE 2014"/>
     <tag k="website" v="http://www.nordpasdecalais.fr/"/>
     <tag k="wikipedia" v="fr:Nord-Pas-de-Calais"/>
+    <tag k="wikipedia:ro" v="Nord-Pas-de-Calais"/>
   </node>
   <node id="1251670424" lat="14.6113732" lon="-60.9620777">
     <tag k="ISO3166-1" v="MQ"/>
@@ -18293,8 +18329,7 @@
     <tag k="place" v="state"/>
     <tag k="ref" v="EX"/>
     <tag k="state_code" v="EX"/>
-    <tag k="wikipedia" v="en:Extremadura"/>
-    <tag k="wikipedia:es" v="Extremadura"/>
+    <tag k="wikipedia" v="es:Extremadura"/>
   </node>
   <node id="1721119369" lat="35.3555963" lon="-2.8385924">
     <tag k="admin_level" v="4"/>
@@ -18335,8 +18370,7 @@
     <tag k="place" v="state"/>
     <tag k="ref" v="MC"/>
     <tag k="state_code" v="MC"/>
-    <tag k="wikipedia" v="en:Region of Murcia"/>
-    <tag k="wikipedia:es" v="Región de Murcia"/>
+    <tag k="wikipedia" v="es:Región de Murcia"/>
   </node>
   <node id="1732058641" lat="34.5000000" lon="69.4166670">
     <tag k="gns:dsg" v="ADM1"/>
@@ -19914,19 +19948,6 @@
     <tag k="ref" v="NT"/>
     <tag k="wikipedia" v="fr:Petites Îles de la Sonde orientales"/>
   </node>
-  <node id="1898346558" lat="-8.7486281" lon="117.2586534">
-    <tag k="is_in:continent" v="Asia"/>
-    <tag k="is_in:country" v="Indonesia"/>
-    <tag k="is_in:country_code" v="ID"/>
-    <tag k="name" v="Nusa Tenggara Barat"/>
-    <tag k="name:de" v="West-Nusa Tenggara"/>
-    <tag k="name:en" v="West Nusa Tenggara"/>
-    <tag k="name:fr" v="Petites Îles de la Sonde occidentales"/>
-    <tag k="name:hu" v="Nyugat Nusa Tenggara"/>
-    <tag k="place" v="state"/>
-    <tag k="ref" v="NB"/>
-    <tag k="wikipedia" v="fr:Petites Îles de la Sonde occidentales"/>
-  </node>
   <node id="1898352059" lat="-3.1188370" lon="129.4207759">
     <tag k="is_in:continent" v="Asia"/>
     <tag k="is_in:country" v="Indonesia"/>
@@ -20469,14 +20490,15 @@
     <tag k="name:fr" v="Brême"/>
     <tag k="name:he" v="ברמן"/>
     <tag k="name:it" v="Brema"/>
+    <tag k="name:nds" v="Free Hansestadt Bremen"/>
     <tag k="name:ru" v="Вольный ганзейский город Бремен"/>
     <tag k="name:sk" v="Brémy"/>
     <tag k="name:sr" v="Бремен"/>
     <tag k="name:uk" v="Бремен"/>
     <tag k="place" v="state"/>
-    <tag k="population" v="546427"/>
+    <tag k="population" v="661312"/>
     <tag k="ref" v="HB"/>
-    <tag k="source:population" v="http://www.statistik-bremen.de/aktuelle_statistiken/01b.htm, Oktober 2010"/>
+    <tag k="source:population" v="http://www.statistik-bremen.de/aktuelle_statistiken/01b.htm, November 2014"/>
     <tag k="state_code" v="HB"/>
     <tag k="wikipedia" v="de:Freie Hansestadt Bremen"/>
   </node>
@@ -22741,14 +22763,15 @@
     <tag k="place" v="state"/>
   </node>
   <node id="2652225267" lat="18.5140239" lon="-71.3303393">
-    <tag k="name" v="Baoruco"/>
+    <tag k="alt_name" v="Baoruco"/>
+    <tag k="name" v="Bahoruco"/>
     <tag k="place" v="state"/>
   </node>
   <node id="2652225268" lat="18.1714805" lon="-71.2095300">
     <tag k="name" v="Barahona"/>
     <tag k="place" v="state"/>
   </node>
-  <node id="2652225269" lat="19.4394799" lon="-71.5971073">
+  <node id="2652225269" lat="19.4586934" lon="-71.6022958">
     <tag k="name" v="Dajabón"/>
     <tag k="place" v="state"/>
   </node>
@@ -22768,7 +22791,7 @@
     <tag k="name" v="Hato Mayor"/>
     <tag k="place" v="state"/>
   </node>
-  <node id="2652225276" lat="19.4089749" lon="-70.3665162">
+  <node id="2652225276" lat="19.4089668" lon="-70.3928405">
     <tag k="name" v="Hermanas Mirabal"/>
     <tag k="place" v="state"/>
   </node>
@@ -22832,7 +22855,7 @@
     <tag k="name" v="San Juan"/>
     <tag k="place" v="state"/>
   </node>
-  <node id="2652225326" lat="18.5020474" lon="-69.3632608">
+  <node id="2652225326" lat="18.4795445" lon="-69.3636900">
     <tag k="name" v="San Pedro de Macorís"/>
     <tag k="place" v="state"/>
   </node>
@@ -22852,7 +22875,7 @@
     <tag k="name" v="Sánchez Ramírez"/>
     <tag k="place" v="state"/>
   </node>
-  <node id="2652225342" lat="19.5817270" lon="-71.0345934">
+  <node id="2652225342" lat="19.5820464" lon="-71.0461119">
     <tag k="name" v="Valverde"/>
     <tag k="place" v="state"/>
   </node>
@@ -24146,7 +24169,7 @@
     <tag k="ref" v="32"/>
     <tag k="wikipedia" v="tr:Isparta (il)"/>
   </node>
-  <node id="2874047958" lat="38.6119959" lon="29.3240072">
+  <node id="2874047958" lat="38.6096660" lon="29.3306506">
     <tag k="is_in" v="Turkey"/>
     <tag k="name" v="Uşak"/>
     <tag k="name:en" v="Uşak"/>
@@ -25540,6 +25563,76 @@
     <tag k="addr:street" v="Winchester Avenue"/>
     <tag k="name" v="Civil Aviation Authority"/>
     <tag k="place" v="state"/>
+  </node>
+  <node id="3665372243" lat="3.2083304" lon="101.3041460">
+    <tag k="is_in:country" v="Malaysia"/>
+    <tag k="name" v="Selangor"/>
+    <tag k="place" v="state"/>
+    <tag k="source" v="wikipedia"/>
+    <tag k="wikipedia" v="en:Selangor"/>
+  </node>
+  <node id="3679338874" lat="49.8299582" lon="36.3788957">
+    <tag k="is_in:country" v="Україна"/>
+    <tag k="is_in:country_code" v="UA"/>
+    <tag k="name" v="Харківська область"/>
+    <tag k="name:ar" v="خاركيف أوبلاست"/>
+    <tag k="name:az" v="Kharkiv vilayəti"/>
+    <tag k="name:be" v="Харкаўская вобласць"/>
+    <tag k="name:be-x-old" v="Харкаўская вобласьць"/>
+    <tag k="name:bg" v="Харков област"/>
+    <tag k="name:ca" v="Província de Kharkiv"/>
+    <tag k="name:crh" v="Kharkiv vilâyeti"/>
+    <tag k="name:cs" v="Charkov oblast"/>
+    <tag k="name:cv" v="Харков облаҫӗ"/>
+    <tag k="name:de" v="Oblast Kharkiv"/>
+    <tag k="name:en" v="Kharkiv Oblast"/>
+    <tag k="name:eo" v="Kharkiv provinco"/>
+    <tag k="name:es" v="Óblast de Kharkiv"/>
+    <tag k="name:et" v="Kharkiv oblast"/>
+    <tag k="name:eu" v="Kharkiv oblasta"/>
+    <tag k="name:fa" v="استان خارکف"/>
+    <tag k="name:fi" v="Harkova alue"/>
+    <tag k="name:fr" v="Oblast de Kharkiv"/>
+    <tag k="name:gl" v="Oblast de Kharkiv"/>
+    <tag k="name:hr" v="Kharkivska oblast"/>
+    <tag k="name:hu" v="Kharkiv terület"/>
+    <tag k="name:hy" v="Խարկով մարզ"/>
+    <tag k="name:id" v="Oblast Kharkiv"/>
+    <tag k="name:it" v="Oblast' di Kharkiv"/>
+    <tag k="name:ja" v="ハリコフ州"/>
+    <tag k="name:ka" v="ხარკოვის ოლქი"/>
+    <tag k="name:ko" v="하르키우 주"/>
+    <tag k="name:lt" v="Kharkiv sritis"/>
+    <tag k="name:lv" v="Charkovas apgabals"/>
+    <tag k="name:mk" v="Харков област"/>
+    <tag k="name:mr" v="खार्कीव्ह ओब्लास्त"/>
+    <tag k="name:nl" v="Oblast Kharkiv"/>
+    <tag k="name:nn" v="Kharkiv oblast"/>
+    <tag k="name:no" v="Kharkiv oblast"/>
+    <tag k="name:pl" v="Obwód Charkowa"/>
+    <tag k="name:pnb" v="اوبلاست Kharkiv"/>
+    <tag k="name:pt" v="Oblast de Kharkiv"/>
+    <tag k="name:ro" v="Regiunea Kharkiv"/>
+    <tag k="name:ru" v="Харьковская область"/>
+    <tag k="name:rue" v="Харковска область"/>
+    <tag k="name:sco" v="Kharkiv Oblast"/>
+    <tag k="name:sh" v="Kharkivska oblast"/>
+    <tag k="name:sk" v="Kharkivská oblasť"/>
+    <tag k="name:sr" v="Кхаркив област"/>
+    <tag k="name:sv" v="Kharkiv oblast"/>
+    <tag k="name:tr" v="Kharkiv Oblastı"/>
+    <tag k="name:uk" v="Харківська область"/>
+    <tag k="name:vi" v="Kharkiv (tỉnh)"/>
+    <tag k="name:war" v="Kharkiv Oblast"/>
+    <tag k="name:xmf" v="ხარკოვის ოლქი"/>
+    <tag k="name:zh" v="哈爾科夫地州"/>
+    <tag k="name:zh-min-nan" v="Kharkiv séng"/>
+    <tag k="note" v="Точка позначає місце, де на карті буде напис &quot;Харківська область&quot;, який інакше на деяких рівнях масштабування перекриває назву обласного центру"/>
+    <tag k="place" v="state"/>
+    <tag k="ref" v="ХАР"/>
+    <tag k="ref:en" v="KHR"/>
+    <tag k="ref:ru" v="ХАР"/>
+    <tag k="wikipedia" v="uk:Харківська_область"/>
   </node>
 
 </osm>
