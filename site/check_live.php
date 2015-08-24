@@ -15,7 +15,7 @@ function loadUpdatesFromDir($output, $outputIndexes, $dir, $fileFilter, $timesta
             $size =  number_format((filesize($filename) / (1024.0*1024.0)), 1, '.', '');
             $containerSize = filesize($filename);
             $contentSize = filesize($filename);
-            $date= date('d.m.Y',filemtime($filename));
+            $date = date('d.m.Y',filemtime($filename));
             $timestampF = filemtime($filename);
             if($timestampF > intval(substr($timestamp, 0, -3))) {
               $out = $output->createElement('update');
