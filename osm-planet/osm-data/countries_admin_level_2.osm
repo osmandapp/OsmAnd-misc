@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2015-07-21T14:19:02Z"/>
+<meta osm_base="2015-08-21T09:04:02Z"/>
 
   <relation id="9407">
     <tag k="ISO3166-1" v="AD"/>
@@ -1898,7 +1898,6 @@
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/1/12/Flag_of_Poland.svg"/>
     <tag k="int_name" v="Polska"/>
-    <tag k="is_in:continent" v="Europe"/>
     <tag k="name" v="Polska"/>
     <tag k="name:ab" v="Полша"/>
     <tag k="name:ace" v="Polandia"/>
@@ -5955,7 +5954,6 @@
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/8/85/Flag_of_Belarus.svg"/>
     <tag k="int_name" v="Belarus"/>
     <tag k="int_ref" v="BY"/>
-    <tag k="is_in:continent" v="Europe"/>
     <tag k="name" v="Беларусь"/>
     <tag k="name:ace" v="Bèlarusia"/>
     <tag k="name:af" v="Wit-Rusland"/>
@@ -6467,7 +6465,6 @@
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/f/f3/Flag_of_Russia.svg"/>
     <tag k="int_name" v="Russia"/>
     <tag k="int_ref" v="RU"/>
-    <tag k="is_in:continent" v="Europe;Asia"/>
     <tag k="name" v="Российская Федерация"/>
     <tag k="name:UN:ar" v="الاتحاد الروسي"/>
     <tag k="name:UN:en" v="Russian Federation (the)"/>
@@ -6694,7 +6691,7 @@
     <tag k="name:st" v="Russia"/>
     <tag k="name:stq" v="Ruslound"/>
     <tag k="name:su" v="Rusia"/>
-    <tag k="name:sv" v="Ryska Fedrationen"/>
+    <tag k="name:sv" v="Ryska Federationen"/>
     <tag k="name:sw" v="Shirikisho la Urusi"/>
     <tag k="name:szl" v="Rusyjo"/>
     <tag k="name:ta" v="உருசியா"/>
@@ -9255,6 +9252,7 @@
     <tag k="ISO3166-1:alpha3" v="ROU"/>
     <tag k="ISO3166-1:numeric" v="642"/>
     <tag k="admin_level" v="2"/>
+    <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/7/73/Flag_of_Romania.svg"/>
     <tag k="int_name" v="Romania"/>
     <tag k="name" v="România"/>
@@ -11856,8 +11854,7 @@
     <tag k="admin_level" v="2"/>
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/f/f9/Flag_of_Bangladesh.svg"/>
-    <tag k="name" v="বাংলাদেশ"/>
-    <tag k="name:ace" v="Bangladesh"/>
+    <tag k="name" v="dinajpur"/>
     <tag k="name:af" v="Bangladesj"/>
     <tag k="name:als" v="Bangladesch"/>
     <tag k="name:am" v="ባንግላዴሽ"/>
@@ -20544,10 +20541,6 @@
     <tag k="wikipedia" v="en:Malawi"/>
   </relation>
   <relation id="195838">
-    <tag k="ISO3166-1" v="EH"/>
-    <tag k="ISO3166-1:alpha2" v="EH"/>
-    <tag k="ISO3166-1:alpha3" v="ESH"/>
-    <tag k="ISO3166-1:numeric" v="732"/>
     <tag k="admin_level" v="2"/>
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="https://upload.wikimedia.org/wikipedia/commons/2/26/Flag_of_the_Sahrawi_Arab_Democratic_Republic.svg"/>
@@ -22904,7 +22897,7 @@
     <tag k="official_name:tl" v="Republikang Arhentino"/>
     <tag k="official_name:vi" v="Cộng hòa Argentina"/>
     <tag k="old_name:vi" v="Á Căn Đình"/>
-    <tag k="population" v="40677348"/>
+    <tag k="population" v="40117096"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q414"/>
     <tag k="wikipedia" v="es:Argentina"/>
@@ -25767,19 +25760,6 @@
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/4/41/Flag_of_India.svg"/>
     <tag k="int_name" v="India"/>
     <tag k="name" v="India"/>
-    <tag k="name:ace" v="India"/>
-    <tag k="name:af" v="Indië"/>
-    <tag k="name:als" v="Indien"/>
-    <tag k="name:am" v="ህንድ"/>
-    <tag k="name:an" v="India"/>
-    <tag k="name:ang" v="Indea"/>
-    <tag k="name:ar" v="الهند"/>
-    <tag k="name:arc" v="ܗܢܕܘ"/>
-    <tag k="name:arz" v="الهند"/>
-    <tag k="name:as" v="ভাৰত"/>
-    <tag k="name:ast" v="India"/>
-    <tag k="name:av" v="Хиндистан"/>
-    <tag k="name:ay" v="Indya"/>
     <tag k="name:az" v="Hindistan"/>
     <tag k="name:ba" v="Һиндостан"/>
     <tag k="name:bar" v="Indien"/>
@@ -33321,7 +33301,6 @@
     <tag k="wikipedia" v="fr:Monaco"/>
   </relation>
   <relation id="1152720">
-    <tag k="addr:country" v="AB"/>
     <tag k="admin_level" v="2"/>
     <tag k="border_type" v="nation"/>
     <tag k="boundary" v="administrative"/>
@@ -35615,7 +35594,7 @@
     <tag k="ISO3166-1:alpha3" v="PSE"/>
     <tag k="ISO3166-1:numeric" v="275"/>
     <tag k="admin_level" v="2"/>
-    <tag k="boundary" v="administrative"/>
+    <tag k="boundary" v="disputed"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/0/00/Flag_of_Palestine.svg"/>
     <tag k="is_in:continent" v="Asia"/>
     <tag k="name:bs" v="Palestina"/>
@@ -39831,7 +39810,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/2/2c/Flag_of_Morocco.svg"/>
     <tag k="int_name" v="Morocco"/>
-    <tag k="name" v="المغرب Maroc ⵍⵎⴰⵖⵔⵉⴱ"/>
+    <tag k="name" v="Maroc المغرب"/>
     <tag k="name:ar" v="المغرب"/>
     <tag k="name:arz" v="المغرب"/>
     <tag k="name:ast" v="Marruecos"/>
@@ -39841,6 +39820,7 @@
     <tag k="name:bcl" v="Moroko"/>
     <tag k="name:be" v="Марока"/>
     <tag k="name:be-x-old" v="Марока"/>
+    <tag k="name:ber" v="ⵍⵎⴰⵖⵔⵉⴱ"/>
     <tag k="name:bg" v="Мароко"/>
     <tag k="name:bjn" v="Maroko"/>
     <tag k="name:bm" v="Maroko"/>
@@ -39880,7 +39860,7 @@
     <tag k="name:ga" v="Maracó"/>
     <tag k="name:gag" v="Marokko"/>
     <tag k="name:gd" v="Maroco"/>
-    <tag k="name:gl" v="Marrocos - المغرب"/>
+    <tag k="name:gl" v="Marrocos"/>
     <tag k="name:gv" v="Yn Varoc"/>
     <tag k="name:he" v="מרוקו"/>
     <tag k="name:hi" v="मोरक्को"/>
@@ -40015,12 +39995,10 @@
   <relation id="4112727">
     <tag k="admin_level" v="2"/>
     <tag k="boundary" v="administrative"/>
-    <tag k="disputed" v="yes"/>
-    <tag k="name" v="Acuerdo para precisar el recorrido del límite desde el Monte Fitz Roy hasta el Cerro Daudet"/>
-    <tag k="note" v="Límite pendiente de asignación y demarcación final en conformidad con un acuerdo celebrado en 1998 entre Argentina y Chile."/>
-    <tag k="ref" v="*"/>
+    <tag k="description" v="Límite pendiente de asignación y demarcación final en conformidad con un acuerdo celebrado en 1998 entre Argentina y Chile"/>
+    <tag k="name" v="Acuerdo de Campos de Hielo"/>
     <tag k="type" v="boundary"/>
-    <tag k="website" v="http://en.wikipedia.org/wiki/Argentina%E2%80%93Chile_relations#Border_issues"/>
+    <tag k="website" v="https://es.wikisource.org/wiki/Acuerdo_para_precisar_el_recorrido_del_l%C3%ADmite_desde_el_Monte_Fitz_Roy_hasta_el_Cerro_Daudet_de_1998"/>
     <tag k="wikipedia" v="es:Litigio del campo de hielo Patagónico Sur"/>
   </relation>
   <relation id="4263589">
