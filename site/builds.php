@@ -15,7 +15,7 @@
 			if (stripos($fname, "-nb-") !== false) {
 				$tag = preg_replace("/[^-]*-(.*)-nb.*/i", "$1", $fname);
 			} else {
-				$tag = preg_replace("/[^-]*-(.*)-\..*/i", "$1", $fname);
+				$tag = preg_replace("/[^-]*-(.*)\..*/i", "$1", $fname);
 			}	
 			$size = round(filesize($file)/1048576, 1);
 			$date = date("d.m.Y", filemtime($file));
