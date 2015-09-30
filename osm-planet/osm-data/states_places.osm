@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2015-09-03T11:36:02Z"/>
+<meta osm_base="2015-09-30T12:32:02Z"/>
 
   <node id="671022" lat="36.7014631" lon="-118.7559974">
     <tag k="alt_name:vi" v="California"/>
@@ -1291,21 +1291,6 @@
     <tag k="ref:vi" v="Mông"/>
     <tag k="wikipedia" v="en:Inner Mongolia"/>
   </node>
-  <node id="244081456" lat="33.2183554" lon="82.5750687">
-    <tag k="alt_name:vi" v="A Lý; A Lí"/>
-    <tag k="gns:ADM1" v="14"/>
-    <tag k="gns:DSG" v="ADM2"/>
-    <tag k="gns:UFI" v="-1920126"/>
-    <tag k="gns:UNI" v="10074336"/>
-    <tag k="name" v="阿里地区"/>
-    <tag k="name:en" v="Ngari"/>
-    <tag k="name:ru" v="Нгари"/>
-    <tag k="name:uk" v="Нгарі"/>
-    <tag k="name:vi" v="Ngari"/>
-    <tag k="name:zh" v="阿里地区"/>
-    <tag k="name:zh_pinyin" v="Ngari Diqu"/>
-    <tag k="place" v="state"/>
-  </node>
   <node id="244081488" lat="36.0000000" lon="96.0000000">
     <tag k="gns:UFI" v="-1922240"/>
     <tag k="gns:UNI" v="9309948"/>
@@ -1558,7 +1543,7 @@
     <tag k="ref:en" v="YN"/>
     <tag k="ref:vi" v="Vân"/>
     <tag k="wikipedia" v="fr:Yunnan"/>
-    <tag k="wikipedia:zh" v="http://zh.wikipedia.org/wiki/云南省"/>
+    <tag k="wikipedia:zh" v="云南省"/>
   </node>
   <node id="244083009" lat="29.0000001" lon="119.9999999">
     <tag k="gns:ADM1" v="02"/>
@@ -12761,6 +12746,7 @@
     <tag k="name" v="Buenos Aires"/>
     <tag k="name:abbreviation" v="B"/>
     <tag k="name:ru" v="Буэнос-Айрес"/>
+    <tag k="official_name" v="Provincia de Buenos Aires"/>
     <tag k="place" v="state"/>
     <tag k="ref" v="B"/>
   </node>
@@ -12771,6 +12757,7 @@
     <tag k="name" v="San Luis"/>
     <tag k="name:abbreviation" v="D"/>
     <tag k="name:ru" v="Сан-Луис"/>
+    <tag k="official_name" v="Provincia de San Luis"/>
     <tag k="place" v="state"/>
     <tag k="ref" v="D"/>
   </node>
@@ -12921,6 +12908,7 @@
     <tag k="name:he" v="סנטה פה"/>
     <tag k="name:ru" v="Санта-Фе"/>
     <tag k="name:uk" v="Санта-Фе"/>
+    <tag k="official_name" v="Provincia de Santa Fe"/>
     <tag k="place" v="state"/>
     <tag k="ref" v="S"/>
   </node>
@@ -13417,19 +13405,72 @@
   <node id="658312593" lat="55.5043158" lon="38.0353929">
     <tag k="is_in" v="Российская Федерация"/>
     <tag k="name" v="Московская область"/>
+    <tag k="name:af" v="Moskou-oblast"/>
+    <tag k="name:ar" v="محافظة موسكو"/>
+    <tag k="name:az" v="Moskva vilayəti"/>
+    <tag k="name:ba" v="Мәскәү өлкәһе"/>
     <tag k="name:be" v="Маскоўская вобласць"/>
+    <tag k="name:bg" v="Московска област"/>
+    <tag k="name:bs" v="Moskovska oblast"/>
+    <tag k="name:ca" v="Província de Moscou"/>
+    <tag k="name:ce" v="Москван область"/>
+    <tag k="name:cs" v="Moskevská oblast"/>
+    <tag k="name:cu" v="Москъвьска область"/>
+    <tag k="name:cv" v="Мускав облаçĕ"/>
+    <tag k="name:cy" v="Oblast Moscfa"/>
     <tag k="name:da" v="Moskva oblast"/>
     <tag k="name:de" v="Oblast Moskau"/>
+    <tag k="name:el" v="Περιφέρεια Μόσχας"/>
     <tag k="name:en" v="Moscow Oblast"/>
+    <tag k="name:eo" v="Moskva provinco"/>
     <tag k="name:es" v="Óblast de Moscú"/>
+    <tag k="name:et" v="Moskva oblast"/>
     <tag k="name:eu" v="Moscow Oblast"/>
+    <tag k="name:fa" v="استان مسکو"/>
+    <tag k="name:fi" v="Moskovan alue"/>
     <tag k="name:fr" v="Oblast de Moscou"/>
+    <tag k="name:ga" v="Cúige Mhoscó"/>
+    <tag k="name:he" v="מחוז מוסקבה"/>
+    <tag k="name:hr" v="Moskovska oblast"/>
+    <tag k="name:hu" v="Moszkvai terület"/>
+    <tag k="name:hy" v="Մոսկվայի մարզ"/>
+    <tag k="name:id" v="Oblast Moskwa"/>
+    <tag k="name:it" v="Oblast' di Mosca"/>
+    <tag k="name:ja" v="モスクワ州"/>
+    <tag k="name:ka" v="მოსკოვის ოლქი"/>
+    <tag k="name:ko" v="모스크바 주"/>
+    <tag k="name:kv" v="Мӧскуа обласьт"/>
+    <tag k="name:ky" v="Москва областы"/>
+    <tag k="name:la" v="Regio Moscuensis"/>
     <tag k="name:lt" v="Maskvos sritis"/>
+    <tag k="name:lv" v="Maskavas apgabals"/>
+    <tag k="name:mk" v="Московска област"/>
+    <tag k="name:mn" v="Москва муж"/>
+    <tag k="name:mr" v="मॉस्को ओब्लास्त"/>
+    <tag k="name:ms" v="Wilayah Moscow"/>
+    <tag k="name:nl" v="Oblast Moskou"/>
+    <tag k="name:nn" v="Moskva oblast"/>
+    <tag k="name:no" v="Moskva oblast"/>
+    <tag k="name:os" v="Мæскуыйы облæст"/>
     <tag k="name:pl" v="Obwód moskiewski"/>
+    <tag k="name:pt" v="Oblast de Moscou"/>
+    <tag k="name:ro" v="Regiunea Moscova"/>
     <tag k="name:ru" v="Московская область"/>
+    <tag k="name:se" v="Moskva oblast"/>
     <tag k="name:sk" v="Moskovská oblasť"/>
+    <tag k="name:sl" v="Moskovska oblast"/>
+    <tag k="name:sr" v="Московска област"/>
+    <tag k="name:sv" v="Moskva oblast"/>
+    <tag k="name:sw" v="Moscow Oblast"/>
+    <tag k="name:tg" v="Вилояти Маскав"/>
+    <tag k="name:tl" v="Moscow Oblast"/>
+    <tag k="name:tr" v="Moskova Oblastı"/>
     <tag k="name:tt" v="Мәскәү өлкәсе"/>
     <tag k="name:uk" v="Московська область"/>
+    <tag k="name:ur" v="ماسکو اوبلاست"/>
+    <tag k="name:uz" v="Moskva viloyati"/>
+    <tag k="name:vi" v="Moskva (tỉnh)"/>
+    <tag k="name:zh" v="莫斯科州"/>
     <tag k="place" v="state"/>
     <tag k="ref" v="МОЯ"/>
     <tag k="ref:en" v="MOS"/>
@@ -17285,6 +17326,7 @@
   <node id="1390170739" lat="46.6789116" lon="7.1027113">
     <tag k="name" v="Fribourg - Freiburg"/>
     <tag k="name:be" v="Фрыбур"/>
+    <tag k="name:ca" v="Friburg"/>
     <tag k="name:de" v="Freiburg"/>
     <tag k="name:fr" v="Fribourg"/>
     <tag k="name:it" v="Friburgo"/>
@@ -17327,7 +17369,7 @@
     <tag k="ref" v="QZ"/>
     <tag k="state_code" v="QZ"/>
   </node>
-  <node id="1491974656" lat="35.0185296" lon="135.7638411">
+  <node id="1491974656" lat="35.0184485" lon="135.7636518">
     <tag k="is_in" v="日本 (Japan)"/>
     <tag k="is_in:continent" v="Asia"/>
     <tag k="is_in:country" v="Japan"/>
@@ -17430,7 +17472,7 @@
     <tag k="ref" v="CM"/>
     <tag k="wikipedia" v="en:Ca Mau province"/>
   </node>
-  <node id="1527010188" lat="9.9773514" lon="105.2565697">
+  <node id="1527010188" lat="9.9776598" lon="105.2566062">
     <tag k="name" v="Kiên Giang"/>
     <tag k="name:fr" v="Province de Kiên Giang"/>
     <tag k="name:uk" v="Кьєнзянг"/>
@@ -20327,6 +20369,9 @@
     <tag k="name:pt" v="Macau"/>
     <tag k="name:vi" v="Ma Cao"/>
     <tag k="name:zh" v="澳门"/>
+    <tag k="name:zh-classical" v="澳門"/>
+    <tag k="name:zh-simplified" v="澳门"/>
+    <tag k="name:zh-traditional" v="澳門"/>
     <tag k="name:zh_pinyin" v="Àomén"/>
     <tag k="official_name:en" v="Macau Special Administrative Region of the People's Republic of China"/>
     <tag k="official_name:es" v="Región Administrativa Especial de Macao de la República Popular China"/>
@@ -22205,7 +22250,7 @@
     <tag k="place" v="state"/>
     <tag k="wikipedia" v="en:Hela Province"/>
   </node>
-  <node id="2504817264" lat="-5.6969186" lon="144.6187975">
+  <node id="2504817264" lat="-5.5797604" lon="144.6137520">
     <tag k="name" v="Jiwaka Province"/>
     <tag k="name:es" v="Jiwaka"/>
     <tag k="name:fr" v="Jiwaka"/>
@@ -22766,7 +22811,7 @@
     <tag k="name" v="Duarte"/>
     <tag k="place" v="state"/>
   </node>
-  <node id="2652225273" lat="19.0082712" lon="-71.6612466">
+  <node id="2652225273" lat="18.9952542" lon="-71.6959479">
     <tag k="name" v="Elías Piña"/>
     <tag k="place" v="state"/>
   </node>
@@ -22802,7 +22847,7 @@
     <tag k="name" v="María Trinidad Sánchez"/>
     <tag k="place" v="state"/>
   </node>
-  <node id="2652225292" lat="18.8926235" lon="-70.4183769">
+  <node id="2652225292" lat="18.8820257" lon="-70.4180980">
     <tag k="name" v="Monseñor Nouel"/>
     <tag k="place" v="state"/>
   </node>
@@ -22842,7 +22887,7 @@
     <tag k="name" v="San Juan"/>
     <tag k="place" v="state"/>
   </node>
-  <node id="2652225326" lat="18.4795445" lon="-69.3636900">
+  <node id="2652225326" lat="18.5116478" lon="-69.4799563">
     <tag k="name" v="San Pedro de Macorís"/>
     <tag k="place" v="state"/>
   </node>
@@ -25396,13 +25441,6 @@
     <tag k="place" v="state"/>
     <tag k="wikipedia" v="en:Pahang"/>
   </node>
-  <node id="3393468065" lat="36.9310032" lon="98.4577312">
-    <tag k="int_name" v="Ulan"/>
-    <tag k="name" v="乌兰县"/>
-    <tag k="name:de" v="Ulan"/>
-    <tag k="name:en" v="Ulan"/>
-    <tag k="place" v="state"/>
-  </node>
   <node id="3513471344" lat="43.3133868" lon="-5.9419200">
     <tag k="admin_level" v="4"/>
     <tag k="description" v="Autonomous community within the kingdom of Spain"/>
@@ -25531,11 +25569,6 @@
     <tag k="name:abbreviation" v="Y"/>
     <tag k="place" v="state"/>
     <tag k="ref" v="Y"/>
-  </node>
-  <node id="3603415969" lat="18.0107260" lon="-76.7919380">
-    <tag k="addr:street" v="Winchester Avenue"/>
-    <tag k="name" v="Civil Aviation Authority"/>
-    <tag k="place" v="state"/>
   </node>
   <node id="3665372243" lat="3.2083304" lon="101.3041460">
     <tag k="is_in:country" v="Malaysia"/>
