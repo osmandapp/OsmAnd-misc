@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2015-09-30T12:32:02Z"/>
+<meta osm_base="2015-10-20T11:39:01Z"/>
 
   <relation id="9407">
     <tag k="ISO3166-1" v="AD"/>
@@ -5740,7 +5740,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/2/27/Flag_of_Moldova.svg"/>
     <tag k="int_name" v="Moldova"/>
-    <tag k="name" v="Moldova"/>
+    <tag k="name" v="Молдова"/>
     <tag k="name:ab" v="Молдова"/>
     <tag k="name:ace" v="Moldova"/>
     <tag k="name:af" v="Moldowa"/>
@@ -5882,10 +5882,10 @@
     <tag k="name:pnt" v="Μολδαβία"/>
     <tag k="name:pt" v="Moldávia"/>
     <tag k="name:qu" v="Mulduwa"/>
-    <tag k="name:ro" v="Republica Moldova"/>
+    <tag k="name:ro" v="Moldova"/>
     <tag k="name:roa-rup" v="Moldova"/>
     <tag k="name:roa-tara" v="Moldavie"/>
-    <tag k="name:ru" v="Молдова"/>
+    <tag k="name:ru" v="Молдавия"/>
     <tag k="name:rue" v="Молдавія"/>
     <tag k="name:rw" v="Molidova"/>
     <tag k="name:sa" v="मोल्दोवा"/>
@@ -6747,7 +6747,7 @@
     <tag k="population" v="143666931"/>
     <tag k="population:date" v="2014-01-01"/>
     <tag k="short_name" v="Россия"/>
-    <tag k="source" v="Bing"/>
+    <tag k="source" v="bing"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q159"/>
     <tag k="wikipedia" v="ru:Россия"/>
@@ -30906,6 +30906,7 @@
     <tag k="alt_name:bg" v="Тайван"/>
     <tag k="alt_name:bh" v="ताइवान"/>
     <tag k="alt_name:bm" v="Tayiwani"/>
+    <tag k="alt_name:bn" v="তাইওয়ান"/>
     <tag k="alt_name:br" v="Taiwan"/>
     <tag k="alt_name:bs" v="Tajvan"/>
     <tag k="alt_name:ca" v="Taiwan"/>
@@ -30922,13 +30923,22 @@
     <tag k="alt_name:es" v="Taiwán"/>
     <tag k="alt_name:et" v="Taiwan"/>
     <tag k="alt_name:eu" v="Taiwan"/>
+    <tag k="alt_name:ff" v="Taywaan"/>
+    <tag k="alt_name:fi" v="Taiwan"/>
     <tag k="alt_name:fo" v="Teivan"/>
+    <tag k="alt_name:fr" v="Taïwan"/>
+    <tag k="alt_name:fur" v="Taiwan"/>
     <tag k="alt_name:fy" v="Taiwan"/>
     <tag k="alt_name:ga" v="An Téaváin"/>
+    <tag k="alt_name:gd" v="Tai-Bhàn"/>
     <tag k="alt_name:gl" v="Taiwán"/>
+    <tag k="alt_name:hr" v="Tajvan"/>
     <tag k="alt_name:hu" v="Tajvan"/>
+    <tag k="alt_name:ia" v="Taiwan"/>
+    <tag k="alt_name:id" v="Taiwan"/>
     <tag k="alt_name:ilo" v="Taiwan"/>
     <tag k="alt_name:it" v="Taiwan"/>
+    <tag k="alt_name:ja" v="台湾"/>
     <tag k="alt_name:kk" v="Тайвань"/>
     <tag k="alt_name:ku" v="Taywan"/>
     <tag k="alt_name:lb" v="Taiwan"/>
@@ -33670,6 +33680,7 @@
     <tag k="currency" v="EUR"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/3/32/Flag_of_Spain_%28Civil%29.svg"/>
     <tag k="int_name" v="España"/>
+    <tag k="is_in:continent" v="Europe"/>
     <tag k="name" v="España"/>
     <tag k="name:ace" v="Seupanyo"/>
     <tag k="name:af" v="Spanje"/>
@@ -35214,8 +35225,7 @@
     <tag k="ISO3166-1:alpha3" v="PSE"/>
     <tag k="ISO3166-1:numeric" v="275"/>
     <tag k="admin_level" v="2"/>
-    <tag k="boundary" v="administrative"/>
-    <tag k="disputed" v="yes"/>
+    <tag k="boundary" v="disputed"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/0/00/Flag_of_Palestine.svg"/>
     <tag k="is_in:continent" v="Asia"/>
     <tag k="name:bs" v="Palestina"/>
@@ -35997,6 +36007,7 @@
     <tag k="name:ja" v="サウスジョージア・サウスサンドウィッチ諸島"/>
     <tag k="name:nl" v="Zuid-Georgia en de Zuidelijke Sandwicheilanden"/>
     <tag k="name:nn" v="Sør-Georgia og Sør-Sandwichøyane"/>
+    <tag k="name:ru" v="Южная Георгия и Южные Сандвичевы Острова"/>
     <tag k="name:sk" v="Južná Georgia a Južné Sandwichove ostrovy"/>
     <tag k="name:sr" v="Јужна Џорџија и Јужна Сендвичка Острва"/>
     <tag k="name:ta" v="தெற்கு யோர்சியா மற்றும் தெற்கு சண்ட்விச் தீவுகள்"/>

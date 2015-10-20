@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2015-09-30T12:32:02Z" areas="2015-09-29T12:24:02Z"/>
+<meta osm_base="2015-10-20T11:40:02Z" areas="2015-10-19T09:40:02Z"/>
 
   <relation id="8636">
     <tag k="ISO3166-2" v="FR-A"/>
@@ -691,7 +691,6 @@
     <tag k="type" v="boundary"/>
     <tag k="website" v="http://www.regionpaca.fr/"/>
     <tag k="wikipedia" v="fr:Provence-Alpes-Côte d'Azur"/>
-    <tag k="wikipedia:ro" v="Provența-Alpi-Coasta_de_Azur"/>
   </relation>
   <relation id="8655">
     <tag k="ISO3166-2" v="FR-V"/>
@@ -1028,9 +1027,9 @@
     <tag k="type" v="boundary"/>
   </relation>
   <relation id="39152">
+    <tag k="ISO3166-2" v="IT-82"/>
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
-    <tag k="iso3166-2" v="IT-82"/>
     <tag k="name" v="Sicilia"/>
     <tag k="name:ca" v="Sicília"/>
     <tag k="name:de" v="Sizilien"/>
@@ -1055,9 +1054,9 @@
     <tag k="wikipedia" v="it:Sicilia"/>
   </relation>
   <relation id="40095">
+    <tag k="ISO3166-2" v="IT-75"/>
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
-    <tag k="iso3166-2" v="IT-75"/>
     <tag k="name" v="Puglia"/>
     <tag k="name:ca" v="Pulla"/>
     <tag k="name:cs" v="Apulie"/>
@@ -1080,9 +1079,9 @@
     <tag k="wikipedia" v="it:Puglia"/>
   </relation>
   <relation id="40137">
+    <tag k="ISO3166-2" v="IT-77"/>
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
-    <tag k="iso3166-2" v="IT-77"/>
     <tag k="name" v="Basilicata"/>
     <tag k="name:ca" v="Basilicata"/>
     <tag k="name:de" v="Basilikata"/>
@@ -1098,9 +1097,9 @@
     <tag k="wikipedia" v="it:Basilicata"/>
   </relation>
   <relation id="40218">
+    <tag k="ISO3166-2" v="IT-72"/>
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
-    <tag k="iso3166-2" v="IT-72"/>
     <tag k="name" v="Campania"/>
     <tag k="name:ca" v="Campània"/>
     <tag k="name:de" v="Kampanien"/>
@@ -1116,9 +1115,9 @@
     <tag k="wikipedia" v="it:Campania"/>
   </relation>
   <relation id="40784">
+    <tag k="ISO3166-2" v="IT-62"/>
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
-    <tag k="iso3166-2" v="IT-62"/>
     <tag k="name" v="Lazio"/>
     <tag k="name:ca" v="Laci"/>
     <tag k="name:de" v="Latium"/>
@@ -1135,9 +1134,9 @@
     <tag k="wikipedia" v="it:Lazio"/>
   </relation>
   <relation id="41256">
+    <tag k="ISO3166-2" v="IT-67"/>
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
-    <tag k="iso3166-2" v="IT-67"/>
     <tag k="name" v="Molise"/>
     <tag k="name:ca" v="Molise"/>
     <tag k="name:fr" v="Molise"/>
@@ -1151,14 +1150,15 @@
     <tag k="wikipedia" v="it:Molise"/>
   </relation>
   <relation id="41977">
+    <tag k="ISO3166-2" v="IT-52"/>
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
-    <tag k="iso3166-2" v="IT-52"/>
     <tag k="name" v="Toscana"/>
     <tag k="name:cs" v="Toskánsko"/>
     <tag k="name:de" v="Toskana"/>
     <tag k="name:en" v="Tuscany"/>
     <tag k="name:eo" v="Toskanio"/>
+    <tag k="name:es" v="Toscana"/>
     <tag k="name:fr" v="Toscane"/>
     <tag k="name:fur" v="Toscane"/>
     <tag k="name:la" v="Tuscia"/>
@@ -1173,9 +1173,9 @@
     <tag k="wikipedia" v="it:Toscana"/>
   </relation>
   <relation id="42004">
+    <tag k="ISO3166-2" v="IT-55"/>
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
-    <tag k="iso3166-2" v="IT-55"/>
     <tag k="name" v="Umbria"/>
     <tag k="name:ca" v="Úmbria"/>
     <tag k="name:de" v="Umbrien"/>
@@ -1192,9 +1192,9 @@
     <tag k="wikipedia" v="it:Umbria"/>
   </relation>
   <relation id="42611">
+    <tag k="ISO3166-2" v="IT-45"/>
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
-    <tag k="iso3166-2" v="IT-45"/>
     <tag k="name" v="Emilia-Romagna"/>
     <tag k="name:ca" v="Emília-Romanya"/>
     <tag k="name:en" v="Emilia-Romagna"/>
@@ -1210,9 +1210,9 @@
     <tag k="wikipedia" v="it:Emilia-Romagna"/>
   </relation>
   <relation id="43648">
+    <tag k="ISO3166-2" v="IT-34"/>
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
-    <tag k="iso3166-2" v="IT-34"/>
     <tag k="name" v="Veneto"/>
     <tag k="name:bar" v="Venezien"/>
     <tag k="name:ca" v="Vèneto"/>
@@ -1237,9 +1237,9 @@
     <tag k="wikipedia" v="it:Veneto"/>
   </relation>
   <relation id="44874">
+    <tag k="ISO3166-2" v="IT-21"/>
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
-    <tag k="iso3166-2" v="IT-21"/>
     <tag k="name" v="Piemonte"/>
     <tag k="name:ca" v="Piemont"/>
     <tag k="name:de" v="Piemont"/>
@@ -1278,9 +1278,9 @@
     <tag k="wikipedia" v="it:Lombardia"/>
   </relation>
   <relation id="45155">
+    <tag k="ISO3166-2" v="IT-23"/>
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
-    <tag k="iso3166-2" v="IT-23"/>
     <tag k="name" v="Valle d'Aosta/Vallée d'Aoste"/>
     <tag k="name:ca" v="Vall d'Aosta"/>
     <tag k="name:de" v="Aostatal"/>
@@ -1298,9 +1298,9 @@
     <tag k="wikipedia" v="it:Valle d'Aosta"/>
   </relation>
   <relation id="45757">
+    <tag k="ISO3166-2" v="IT-32"/>
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
-    <tag k="iso3166-2" v="IT-32"/>
     <tag k="name" v="Trentino-Alto Adige - Südtirol"/>
     <tag k="name:ca" v="Trentino - Tirol del Sud"/>
     <tag k="name:de" v="Trentino-Südtirol"/>
@@ -1327,6 +1327,8 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Friesland"/>
     <tag k="name:ca" v="Frísia"/>
+    <tag k="name:de" v="Friesland"/>
+    <tag k="name:en" v="Friesland"/>
     <tag k="name:es" v="Frisia"/>
     <tag k="name:fr" v="Frise"/>
     <tag k="name:fy" v="Fryslân"/>
@@ -1335,6 +1337,8 @@
     <tag k="name:tzl" v="Früs"/>
     <tag k="note" v="Fryslân is official name now, also in dutch."/>
     <tag k="note:ISO3166-2" v="Friesland is a subset (type Province) of the Kingdom of the Netherlands (ISO3166-1 country code NL)"/>
+    <tag k="official_name" v="Fryslân"/>
+    <tag k="old_name:en" v="Frisia"/>
     <tag k="ref" v="FR"/>
     <tag k="ref:provinciecode" v="21"/>
     <tag k="type" v="boundary"/>
@@ -1644,7 +1648,7 @@
     <tag k="official_status" v="ru:область"/>
     <tag k="population" v="7133620"/>
     <tag k="population:date" v="2014-01-01"/>
-    <tag k="ref" v="46"/>
+    <tag k="ref" v="RU-MOS"/>
     <tag k="ssrf:code" v="50"/>
     <tag k="timezone" v="Europe/Moscow"/>
     <tag k="type" v="boundary"/>
@@ -1907,9 +1911,9 @@
     <tag k="wikipedia" v="sv:Dalarnas län"/>
   </relation>
   <relation id="53060">
+    <tag k="ISO3166-2" v="IT-57"/>
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
-    <tag k="iso3166-2" v="IT-57"/>
     <tag k="name" v="Marche"/>
     <tag k="name:ca" v="Marques"/>
     <tag k="name:de" v="Marken"/>
@@ -1990,9 +1994,9 @@
     <tag k="wikipedia" v="es:Distrito Nacional"/>
   </relation>
   <relation id="53937">
+    <tag k="ISO3166-2" v="IT-65"/>
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
-    <tag k="iso3166-2" v="IT-65"/>
     <tag k="name" v="Abruzzo"/>
     <tag k="name:ca" v="Abruços"/>
     <tag k="name:de" v="Abruzzen"/>
@@ -3464,6 +3468,7 @@
     <tag k="name:en" v="Lower Saxony"/>
     <tag k="name:es" v="Baja Sajonia"/>
     <tag k="name:fr" v="Basse-Saxe"/>
+    <tag k="name:fy" v="Nedersaksen"/>
     <tag k="name:hr" v="Donja Saska"/>
     <tag k="name:hsb" v="Delnja Sakska"/>
     <tag k="name:lt" v="Žemutinė Saksonija"/>
@@ -3513,7 +3518,6 @@
     <tag k="description:sk" v="Šlezvicko-Holštajnsko"/>
     <tag k="description:sr" v="Шлезвиг-Холштајн"/>
     <tag k="land_area" v="administrative"/>
-    <tag k="name" v="Schleswig-Holstein (Landmasse)"/>
     <tag k="note" v="Schleswig-Holstein (Landmasse)"/>
     <tag k="note:TMC" v="Grenze am damm geschlossen, damit der ring geschlossen ist."/>
     <tag k="type" v="land_area"/>
@@ -4292,7 +4296,7 @@
     <tag k="ref:ru" v="ХАР"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q170666"/>
-    <tag k="wikipedia" v="uk:Харківська_область"/>
+    <tag k="wikipedia" v="uk:Харківська область"/>
   </relation>
   <relation id="71950">
     <tag k="addr:country" v="RU"/>
@@ -4309,7 +4313,7 @@
     <tag k="name:lt" v="Riazanės sritis"/>
     <tag k="name:pl" v="Obwód riazański"/>
     <tag k="name:ru" v="Рязанская область"/>
-    <tag k="ref" v="62"/>
+    <tag k="ref" v="RU-RYA"/>
     <tag k="source" v="Bing"/>
     <tag k="timezone" v="Europe/Moscow"/>
     <tag k="type" v="boundary"/>
@@ -4450,7 +4454,7 @@
     <tag k="ref:ru" v="ДОН"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q2012050"/>
-    <tag k="wikipedia" v="ru:Донецкая область"/>
+    <tag k="wikipedia" v="uk:Донецька область"/>
   </relation>
   <relation id="71980">
     <tag k="ISO3166-2" v="UA-23"/>
@@ -4548,7 +4552,7 @@
     <tag k="official_status" v="ru:область"/>
     <tag k="oktmo:user" v="42000000"/>
     <tag k="population" v="1159796"/>
-    <tag k="ref" v="42"/>
+    <tag k="ref" v="RU-LIP"/>
     <tag k="timezone" v="Europe/Moscow"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Липецкая область"/>
@@ -4602,7 +4606,7 @@
     <tag k="name:uz" v="Tambov viloyati"/>
     <tag k="name:xal" v="Тамбова төгәлң"/>
     <tag k="name:zh" v="坦波夫州"/>
-    <tag k="ref" v="68"/>
+    <tag k="ref" v="RU-TAM"/>
     <tag k="timezone" v="Europe/Moscow"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Тамбовская область"/>
@@ -4653,7 +4657,7 @@
     <tag k="name:xal" v="Воронежа төгәлң"/>
     <tag k="official_status" v="ru:область"/>
     <tag k="population" v="2328008"/>
-    <tag k="ref" v="20"/>
+    <tag k="ref" v="RU-VOR"/>
     <tag k="timezone" v="Europe/Moscow"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Воронежская область"/>
@@ -4687,7 +4691,7 @@
     <tag k="name:tt" v="Пенза өлкәсе"/>
     <tag k="name:uk" v="Пензенська область"/>
     <tag k="name:xal" v="Пенса төгәлң"/>
-    <tag k="ref" v="58"/>
+    <tag k="ref" v="RU-PNZ"/>
     <tag k="timezone" v="Europe/Moscow"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Пензенская область"/>
@@ -4707,7 +4711,7 @@
     <tag k="name:ru" v="Ульяновская область"/>
     <tag k="population" v="1262549"/>
     <tag k="population:date" v="2015"/>
-    <tag k="ref" v="73"/>
+    <tag k="ref" v="RU-ULY"/>
     <tag k="timezone" v="Europe/Moscow"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Ульяновская область"/>
@@ -4766,7 +4770,7 @@
     <tag k="name:uk" v="Саратовська область"/>
     <tag k="name:xal" v="Саратова төгәлң"/>
     <tag k="name:zh" v="萨拉托夫州"/>
-    <tag k="ref" v="64"/>
+    <tag k="ref" v="RU-SAR"/>
     <tag k="timezone" v="Europe/Volgograd"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Саратовская область"/>
@@ -4799,7 +4803,7 @@
     <tag k="name:tt" v="Самара өлкәсе"/>
     <tag k="name:uk" v="Самарська область"/>
     <tag k="name:xal" v="Самара төгәлң"/>
-    <tag k="ref" v="63"/>
+    <tag k="ref" v="RU-SAM"/>
     <tag k="timezone" v="Europe/Samara"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Самарская область"/>
@@ -4841,7 +4845,7 @@
     <tag k="name:tt" v="Түбән Новгород өлкәсе"/>
     <tag k="name:uk" v="Нижньогородська область"/>
     <tag k="name:zh" v="下诺夫哥罗德州"/>
-    <tag k="ref" v="52"/>
+    <tag k="ref" v="RU-NIZ"/>
     <tag k="timezone" v="Europe/Moscow"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Нижегородская область"/>
@@ -4866,7 +4870,7 @@
     <tag k="name:pl" v="Republika Mordowii"/>
     <tag k="name:ru" v="Мордовия"/>
     <tag k="official_status" v="ru:Республика (Россия)"/>
-    <tag k="ref" v="13"/>
+    <tag k="ref" v="RU-MO"/>
     <tag k="source" v="Bing"/>
     <tag k="timezone" v="Europe/Moscow"/>
     <tag k="type" v="boundary"/>
@@ -4885,7 +4889,7 @@
     <tag k="name:lt" v="Vladimiro sritis"/>
     <tag k="name:pl" v="Obwód włodzimierski"/>
     <tag k="name:ru" v="Владимирская область"/>
-    <tag k="ref" v="17"/>
+    <tag k="ref" v="RU-VLA"/>
     <tag k="timezone" v="Europe/Moscow"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Владимирская_область"/>
@@ -4928,7 +4932,7 @@
     <tag k="name:tt" v="Курск өлкәсе"/>
     <tag k="name:uk" v="Курська область"/>
     <tag k="name:xal" v="Курска төгәлң"/>
-    <tag k="ref" v="38"/>
+    <tag k="ref" v="RU-KRS"/>
     <tag k="timezone" v="Europe/Moscow"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Курская область"/>
@@ -4968,7 +4972,7 @@
     <tag k="name:tt" v="Орел өлкәсе"/>
     <tag k="name:uk" v="Орловська область"/>
     <tag k="name:xal" v="Орлова төгәлң"/>
-    <tag k="ref" v="54"/>
+    <tag k="ref" v="RU-ORL"/>
     <tag k="timezone" v="Europe/Moscow"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Орловская область"/>
@@ -5688,7 +5692,7 @@
     <tag k="note" v="В соответствии со спецификацией Relation:boundary, collection_of_member Дороги (rel 1783981) не может быть ее членом. Удаляю отношение 1783981, так как нарушение спецификации ведет к невозможности получения GeoJSON для Волгоградской области."/>
     <tag k="official_status" v="ru:область"/>
     <tag k="population" v="2611200"/>
-    <tag k="ref" v="34"/>
+    <tag k="ref" v="RU-VGG"/>
     <tag k="timezone" v="Europe/Volgograd"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Волгоградская область"/>
@@ -5716,7 +5720,7 @@
     <tag k="name:sah" v="Оренбург уобалаһа"/>
     <tag k="name:tt" v="Ырынбур өлкәсе"/>
     <tag k="name:xal" v="Оренбурһа төгәлң"/>
-    <tag k="ref" v="56"/>
+    <tag k="ref" v="RU-ORE"/>
     <tag k="timezone" v="Asia/Yekaterinburg"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Оренбургская область"/>
@@ -5747,7 +5751,7 @@
     <tag k="name:tt" v="Башкортстан"/>
     <tag k="official_name" v="Республика Башкортостан"/>
     <tag k="oktmo:user" v="80000000"/>
-    <tag k="ref" v="02"/>
+    <tag k="ref" v="RU-BA"/>
     <tag k="timezone" v="Asia/Yekaterinburg"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Башкортостан"/>
@@ -5769,7 +5773,7 @@
     <tag k="name:pl" v="Obwód czelabiński"/>
     <tag k="name:ru" v="Челябинская область"/>
     <tag k="oktmo:user" v="75000000"/>
-    <tag k="ref" v="74"/>
+    <tag k="ref" v="RU-CHE"/>
     <tag k="timezone" v="Asia/Yekaterinburg"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Челябинская область"/>
@@ -5793,7 +5797,7 @@
     <tag k="name:udm" v="Татарстан"/>
     <tag k="official_name" v="Республика Татарстан"/>
     <tag k="oktmo:user" v="92000000"/>
-    <tag k="ref" v="16"/>
+    <tag k="ref" v="RU-TA"/>
     <tag k="timezone" v="Europe/Moscow"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Татарстан"/>
@@ -5813,7 +5817,7 @@
     <tag k="name:lt" v="Sverdlovsko sritis"/>
     <tag k="name:pl" v="Obwód swierdłowski"/>
     <tag k="name:ru" v="Свердловская область"/>
-    <tag k="ref" v="66"/>
+    <tag k="ref" v="RU-SVE"/>
     <tag k="timezone" v="Asia/Yekaterinburg"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Свердловская_область"/>
@@ -5869,7 +5873,7 @@
     <tag k="oktmo:user" v="97000000"/>
     <tag k="population" v="1239984"/>
     <tag k="population:date" v="2014"/>
-    <tag k="ref" v="21"/>
+    <tag k="ref" v="RU-CU"/>
     <tag k="timezone" v="Europe/Moscow"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Чувашия"/>
@@ -5904,7 +5908,7 @@
     <tag k="name:tt" v="Тула өлкәсе"/>
     <tag k="name:uk" v="Тульська область"/>
     <tag k="name:xal" v="Тула төгәлң"/>
-    <tag k="ref" v="71"/>
+    <tag k="ref" v="RU-TUL"/>
     <tag k="timezone" v="Europe/Moscow"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Тульская область"/>
@@ -5961,7 +5965,7 @@
     <tag k="name:xal" v="Ярославла төгәлң"/>
     <tag k="oktmo:user" v="78000000"/>
     <tag k="population" v="1271672"/>
-    <tag k="ref" v="78"/>
+    <tag k="ref" v="RU-YAR"/>
     <tag k="timezone" v="Europe/Moscow"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Ярославская область"/>
@@ -6009,7 +6013,7 @@
     <tag k="name:uz" v="Kaluga viloyati"/>
     <tag k="name:xal" v="Калуга төгәлң"/>
     <tag k="name:zh" v="卡卢加州"/>
-    <tag k="ref" v="40"/>
+    <tag k="ref" v="RU-KLU"/>
     <tag k="timezone" v="Europe/Moscow"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Калужская область"/>
@@ -6055,7 +6059,7 @@
     <tag k="name:tt" v="Смоленск өлкәсе"/>
     <tag k="name:uk" v="Смоленська область"/>
     <tag k="name:uz" v="Smolensk viloyati"/>
-    <tag k="ref" v="66"/>
+    <tag k="ref" v="RU-SMO"/>
     <tag k="timezone" v="Europe/Moscow"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Смоленская область"/>
@@ -6104,7 +6108,7 @@
     <tag k="name:uk" v="Брянська область"/>
     <tag k="name:xal" v="Бряна төгәлң"/>
     <tag k="name:zh" v="布良斯克州"/>
-    <tag k="ref" v="15"/>
+    <tag k="ref" v="RU-BRY"/>
     <tag k="timezone" v="Europe/Moscow"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Брянская область"/>
@@ -6166,7 +6170,7 @@
     <tag k="official_status" v="ru:область"/>
     <tag k="population" v="1547936"/>
     <tag k="population:date" v="2015"/>
-    <tag k="ref" v="31"/>
+    <tag k="ref" v="RU-BEL"/>
     <tag k="timezone" v="Europe/Moscow"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Белгородская область"/>
@@ -6232,7 +6236,7 @@
     <tag k="name:zh" v="罗斯托夫州"/>
     <tag k="official_status" v="ru:область"/>
     <tag k="population" v="4245598"/>
-    <tag k="ref" v="61"/>
+    <tag k="ref" v="RU-ROS"/>
     <tag k="timezone" v="Europe/Moscow"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Ростовская область"/>
@@ -6282,7 +6286,7 @@
     <tag k="name:xal" v="Иванова төгәлң"/>
     <tag k="name:zh" v="伊万诺沃州"/>
     <tag k="population" v="1048961"/>
-    <tag k="ref" v="24"/>
+    <tag k="ref" v="RU-IVA"/>
     <tag k="timezone" v="Europe/Moscow"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Ивановская область"/>
@@ -6330,7 +6334,7 @@
     <tag k="name:uk" v="Костромська область"/>
     <tag k="name:xal" v="Косторма төгәлң"/>
     <tag k="name:zh" v="科斯特罗马州"/>
-    <tag k="ref" v="34"/>
+    <tag k="ref" v="RU-KOS"/>
     <tag k="timezone" v="Europe/Moscow"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Костромская область"/>
@@ -6378,6 +6382,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Eastern Cape"/>
     <tag k="name:de" v="Ostkap"/>
+    <tag k="name:ru" v="Восточно-Капская провинция"/>
     <tag k="type" v="boundary"/>
   </relation>
   <relation id="89331">
@@ -6406,7 +6411,7 @@
     <tag k="name:zh" v="諾夫哥羅德州"/>
     <tag k="population" v="625855"/>
     <tag k="population:date" v="2013-01-01"/>
-    <tag k="ref" v="53"/>
+    <tag k="ref" v="RU-NGR"/>
     <tag k="timezone" v="Europe/Moscow"/>
     <tag k="type" v="boundary"/>
     <tag k="website" v="http://region.adm.nov.ru/"/>
@@ -6771,8 +6776,11 @@
     <tag k="land_area" v="administrative"/>
     <tag k="name" v="Free State"/>
     <tag k="name:de" v="Freistaat"/>
+    <tag k="name:en" v="Free State"/>
+    <tag k="name:ru" v="Фри-Стейт"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q160284"/>
+    <tag k="wikipedia" v="en:Free State (province)"/>
   </relation>
   <relation id="96905">
     <tag k="ISO3166-2" v="IN-TN"/>
@@ -6951,8 +6959,7 @@
     <tag k="name:tzl" v="Moscal"/>
     <tag k="official_status" v="ru:город федерального значения"/>
     <tag k="omkte:code" v="0001"/>
-    <tag k="ref" v="45"/>
-    <tag k="route" v="road"/>
+    <tag k="ref" v="RU-MOW"/>
     <tag k="ssrf:code" v="77"/>
     <tag k="timezone" v="Europe/Moscow"/>
     <tag k="type" v="boundary"/>
@@ -7075,7 +7082,7 @@
     <tag k="name:zh" v="加里宁格勒州"/>
     <tag k="population" v="954773"/>
     <tag k="population:date" v="2013-01-01"/>
-    <tag k="ref" v="39"/>
+    <tag k="ref" v="RU-KGD"/>
     <tag k="timezone" v="Europe/Kaliningrad"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Калининградская область"/>
@@ -7102,6 +7109,7 @@
     <tag k="name:szl" v="zachodńopůmorske wojewůdztwo"/>
     <tag k="name:uk" v="Західнопоморське воєводство"/>
     <tag k="ref" v="ZP"/>
+    <tag k="short_name" v="zachodniopomorskie"/>
     <tag k="teryt:terc" v="32"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="pl:Województwo zachodniopomorskie"/>
@@ -7183,7 +7191,7 @@
     <tag k="name:zh" v="斯塔夫罗波尔边疆区"/>
     <tag k="official_status" v="ru:край"/>
     <tag k="population" v="2794458"/>
-    <tag k="ref" v="26"/>
+    <tag k="ref" v="RU-STA"/>
     <tag k="short_name" v="Ставрополье"/>
     <tag k="timezone" v="Europe/Moscow"/>
     <tag k="type" v="boundary"/>
@@ -7251,7 +7259,7 @@
     <tag k="official_status" v="ru:край"/>
     <tag k="place" v="region"/>
     <tag k="population" v="5402609"/>
-    <tag k="ref" v="23"/>
+    <tag k="ref" v="RU-KDA"/>
     <tag k="timezone" v="Europe/Moscow"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Краснодарский_край"/>
@@ -7301,7 +7309,7 @@
     <tag k="official_name:ru" v="Республика Калмыкия"/>
     <tag k="official_name:tt" v="Калмыкия Республикасы"/>
     <tag k="oktmo:user" v="85000000"/>
-    <tag k="ref" v="08"/>
+    <tag k="ref" v="RU-KL"/>
     <tag k="timezone" v="Europe/Moscow"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Калмыкия"/>
@@ -7497,7 +7505,7 @@
     <tag k="official_name:lez" v="Республика Дагъустан"/>
     <tag k="official_name:ru" v="Республика Дагестан"/>
     <tag k="oktmo:user" v="82000000"/>
-    <tag k="ref" v="05"/>
+    <tag k="ref" v="RU-DA"/>
     <tag k="timezone" v="Europe/Moscow"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Дагестан"/>
@@ -7547,7 +7555,7 @@
     <tag k="official_name:en" v="Chechen Republic"/>
     <tag k="official_name:ru" v="Чеченская республика"/>
     <tag k="oktmo:user" v="96000000"/>
-    <tag k="ref" v="20"/>
+    <tag k="ref" v="RU-CE"/>
     <tag k="timezone" v="Europe/Moscow"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Чечня"/>
@@ -7575,7 +7583,7 @@
     <tag k="name:zh" v="卡拉恰伊-切尔克斯共和国"/>
     <tag k="official_name" v="Карачаево-Черкесская республика"/>
     <tag k="oktmo:user" v="91000000"/>
-    <tag k="ref" v="09"/>
+    <tag k="ref" v="RU-KC"/>
     <tag k="timezone" v="Europe/Moscow"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Карачаево-Черкесия"/>
@@ -7607,7 +7615,7 @@
     <tag k="note" v="&quot;Наименования Кабардино-Балкарская Республика и Кабардино-Балкария равнозначны.&quot; статья 1 конституции Кабардино-Балкарии"/>
     <tag k="official_name:ru" v="Кабардино-Балкарская республика"/>
     <tag k="oktmo:user" v="83000000"/>
-    <tag k="ref" v="07"/>
+    <tag k="ref" v="RU-KB"/>
     <tag k="timezone" v="Europe/Moscow"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Кабардино-Балкария"/>
@@ -7630,7 +7638,7 @@
     <tag k="name:sl" v="Severna Osetija-Alanija"/>
     <tag k="note" v="225 штук addr:region=Северная Осетия - Алания"/>
     <tag k="oktmo:user" v="90000000"/>
-    <tag k="ref" v="15"/>
+    <tag k="ref" v="RU-SE"/>
     <tag k="timezone" v="Europe/Moscow"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Северная Осетия"/>
@@ -7692,7 +7700,7 @@
     <tag k="name:uz" v="Astraxan viloyati"/>
     <tag k="name:xal" v="Әәдрхнә төгәлң"/>
     <tag k="name:zh" v="阿斯特拉罕州"/>
-    <tag k="ref" v="30"/>
+    <tag k="ref" v="RU-AST"/>
     <tag k="timezone" v="Europe/Volgograd"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Астраханская область"/>
@@ -7908,7 +7916,7 @@
     <tag k="name:ru" v="Кировская область"/>
     <tag k="population" v="1310929"/>
     <tag k="population:date" v="2014"/>
-    <tag k="ref" v="43"/>
+    <tag k="ref" v="RU-KIR"/>
     <tag k="timezone" v="Europe/Volgograd"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Кировская область"/>
@@ -7961,7 +7969,7 @@
     <tag k="official_status" v="ru:область"/>
     <tag k="population" v="1196196"/>
     <tag k="population:date" v="2013-01-01"/>
-    <tag k="ref" v="35"/>
+    <tag k="ref" v="RU-VLG"/>
     <tag k="timezone" v="Europe/Moscow"/>
     <tag k="type" v="boundary"/>
     <tag k="website" v="http://vologda-oblast.ru/"/>
@@ -8001,7 +8009,7 @@
     <tag k="name:zh" v="马里埃尔共和国"/>
     <tag k="official_status" v="ru:республика"/>
     <tag k="oktmo:user" v="88000000"/>
-    <tag k="ref" v="12"/>
+    <tag k="ref" v="RU-ME"/>
     <tag k="timezone" v="Europe/Moscow"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Марий Эл"/>
@@ -8023,7 +8031,7 @@
     <tag k="name:ru" v="Удмуртская Республика"/>
     <tag k="name:udm" v="Удмурт Республика"/>
     <tag k="oktmo:user" v="94000000"/>
-    <tag k="ref" v="18"/>
+    <tag k="ref" v="RU-UD"/>
     <tag k="timezone" v="Europe/Samara"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Удмуртия"/>
@@ -8032,7 +8040,6 @@
     <tag k="addr:country" v="RU"/>
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
-    <tag k="cladr:code" v="5900000000000"/>
     <tag k="int_ref" v="RU-PER"/>
     <tag k="iso3166-2" v="RU-PER"/>
     <tag k="name" v="Пермский край"/>
@@ -8045,7 +8052,7 @@
     <tag k="oktmo:user" v="57000000"/>
     <tag k="population" v="2637032"/>
     <tag k="population:date" v="2015"/>
-    <tag k="ref" v="59"/>
+    <tag k="ref" v="RU-PER"/>
     <tag k="timezone" v="Asia/Yekaterinburg"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Пермский край"/>
@@ -8069,7 +8076,7 @@
     <tag k="oktmo:user" v="87000000"/>
     <tag k="population" v="872057"/>
     <tag k="population:date" v="2014"/>
-    <tag k="ref" v="87"/>
+    <tag k="ref" v="RU-KO"/>
     <tag k="timezone" v="Europe/Moscow"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Республика Коми"/>
@@ -8135,6 +8142,7 @@
     <tag k="name:szl" v="śwjyntokrziske wojewůdztwo"/>
     <tag k="name:uk" v="Свентокшиське воєводство"/>
     <tag k="ref" v="SK"/>
+    <tag k="short_name" v="świętokrzyskie"/>
     <tag k="teryt:terc" v="26"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="pl:Województwo świętokrzyskie"/>
@@ -8166,6 +8174,7 @@
     <tag k="name:uk" v="Люблінське воєводство"/>
     <tag k="name:zh" v="卢布林省"/>
     <tag k="ref" v="LU"/>
+    <tag k="short_name" v="lubelskie"/>
     <tag k="teryt:terc" v="06"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="pl:Województwo lubelskie"/>
@@ -8192,6 +8201,7 @@
     <tag k="name:szl" v="wojewůdztwo mazowjecke"/>
     <tag k="name:uk" v="Мазовецьке воєводство"/>
     <tag k="ref" v="MA"/>
+    <tag k="short_name" v="mazowieckie"/>
     <tag k="teryt:terc" v="14"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="pl:Województwo mazowieckie"/>
@@ -8218,6 +8228,7 @@
     <tag k="name:szl" v="wojewůdztwo podkarpacke"/>
     <tag k="name:uk" v="Підкарпатське воєводство"/>
     <tag k="ref" v="PK"/>
+    <tag k="short_name" v="podkarpackie"/>
     <tag k="teryt:terc" v="18"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="pl:Województwo podkarpackie"/>
@@ -8245,6 +8256,7 @@
     <tag k="name:szl" v="wojewůdztwo lubuske"/>
     <tag k="name:uk" v="Любуське воєводство"/>
     <tag k="ref" v="LB"/>
+    <tag k="short_name" v="lubuskie"/>
     <tag k="teryt:terc" v="08"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="pl:Województwo lubuskie"/>
@@ -8266,6 +8278,7 @@
     <tag k="name:ru" v="Великопольское воеводство"/>
     <tag k="name:uk" v="Великопольське воєводство"/>
     <tag k="ref" v="WP"/>
+    <tag k="short_name" v="wielkopolskie"/>
     <tag k="teryt:terc" v="30"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="pl:Województwo wielkopolskie"/>
@@ -8292,6 +8305,7 @@
     <tag k="name:szl" v="wojewůdztwo půmorske"/>
     <tag k="name:uk" v="Поморське воєводство"/>
     <tag k="ref" v="PM"/>
+    <tag k="short_name" v="pomorskie"/>
     <tag k="teryt:terc" v="22"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="pl:Województwo pomorskie"/>
@@ -8331,7 +8345,7 @@
     <tag k="name:uk" v="Курганська область"/>
     <tag k="name:uz" v="Koʻrgan viloyati"/>
     <tag k="name:xal" v="Хүрһна төгәлң"/>
-    <tag k="ref" v="45"/>
+    <tag k="ref" v="RU-KGN"/>
     <tag k="timezone" v="Asia/Yekaterinburg"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Курганская_область"/>
@@ -8382,8 +8396,9 @@
     <tag k="name:uk" v="Тюменська область"/>
     <tag k="name:uz" v="Tyumen viloyati"/>
     <tag k="name:xal" v="Түмнә төгәлң"/>
-    <tag k="population" v="1385008"/>
-    <tag k="ref" v="72"/>
+    <tag k="population" v="1429232"/>
+    <tag k="population:date" v="2015-01-01"/>
+    <tag k="ref" v="RU-TYU"/>
     <tag k="timezone" v="Asia/Yekaterinburg"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Тюменская_область"/>
@@ -8403,7 +8418,7 @@
     <tag k="name:ru" v="Омская область"/>
     <tag k="population" v="1973876"/>
     <tag k="population:date" v="2014-01-01"/>
-    <tag k="ref" v="55"/>
+    <tag k="ref" v="RU-OMS"/>
     <tag k="timezone" v="Asia/Omsk"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Омская область"/>
@@ -8473,16 +8488,16 @@
     <tag k="name:zh" v="新西伯利亚州"/>
     <tag k="population" v="2731176"/>
     <tag k="population:date" v="2014-01-01"/>
-    <tag k="ref" v="54"/>
+    <tag k="ref" v="RU-NVS"/>
     <tag k="timezone" v="Asia/Novosibirsk"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Новосибирская область"/>
   </relation>
   <relation id="140295">
-    <tag k="addr:country" v="RU"/>
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
     <tag k="int_ref" v="RU-TOM"/>
+    <tag k="is_in:country_code" v="RU"/>
     <tag k="iso3166-2" v="RU-TOM"/>
     <tag k="name" v="Томская область"/>
     <tag k="name:ca" v="Província de Tomsk"/>
@@ -8492,7 +8507,7 @@
     <tag k="name:pl" v="Obwód tomski"/>
     <tag k="name:ru" v="Томская область"/>
     <tag k="name_int" v="Tomsk Oblast"/>
-    <tag k="ref" v="70"/>
+    <tag k="ref" v="RU-TOM"/>
     <tag k="timezone" v="Asia/Novosibirsk"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Томская область"/>
@@ -8512,9 +8527,9 @@
     <tag k="name:ru" v="Ханты-Мансийский автономный округ - Югра"/>
     <tag k="official_name:ca" v="Districte Autònom Khanti-Mansi"/>
     <tag k="oktmo:user" v="71800000"/>
-    <tag k="population" v="1597248"/>
-    <tag k="population:date" v="2014-01-01"/>
-    <tag k="ref" v="86"/>
+    <tag k="population" v="1612076"/>
+    <tag k="population:date" v="2015-01-01"/>
+    <tag k="ref" v="RU-KHM"/>
     <tag k="timezone" v="Asia/Yekaterinburg"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Ханты-Мансийский автономный округ — Югра"/>
@@ -8535,7 +8550,7 @@
     <tag k="name:sv" v="Archangelsk oblast"/>
     <tag k="population" v="1202295"/>
     <tag k="population:date" v="2013-01-01"/>
-    <tag k="ref" v="11"/>
+    <tag k="ref" v="RU-ARK"/>
     <tag k="timezone" v="Europe/Moscow"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Архангельская_область"/>
@@ -8552,7 +8567,7 @@
     <tag k="name:en" v="Kemerovo Oblast"/>
     <tag k="name:pl" v="Obwód kemerowski"/>
     <tag k="name:ru" v="Кемеровская область"/>
-    <tag k="ref" v="42"/>
+    <tag k="ref" v="RU-KEM"/>
     <tag k="timezone" v="Asia/Novokuznetsk"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Кемеровская область"/>
@@ -8571,7 +8586,7 @@
     <tag k="name:pl" v="Kraj Ałtajski"/>
     <tag k="name:ru" v="Алтайский край"/>
     <tag k="oktmo:user" v="01000000"/>
-    <tag k="ref" v="22"/>
+    <tag k="ref" v="RU-ALT"/>
     <tag k="timezone" v="Asia/Omsk"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Алтайский_край"/>
@@ -8612,7 +8627,7 @@
     <tag k="name:udm" v="Алтай Республика"/>
     <tag k="name:uk" v="Республіка Алтай"/>
     <tag k="oktmo:user" v="84000000"/>
-    <tag k="ref" v="04"/>
+    <tag k="ref" v="RU-AL"/>
     <tag k="timezone" v="Asia/Omsk"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Республика_Алтай"/>
@@ -8689,12 +8704,13 @@
     <tag k="name:zh" v="图瓦共和国"/>
     <tag k="official_name" v="Республика Тыва"/>
     <tag k="oktmo:user" v="93000000"/>
-    <tag k="ref" v="17"/>
+    <tag k="ref" v="RU-TY"/>
     <tag k="timezone" v="Asia/Krasnoyarsk"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Тыва"/>
   </relation>
   <relation id="145454">
+    <tag k="addr:country" v="RU"/>
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
     <tag k="int_name" v="Irkutsk Oblast"/>
@@ -8727,7 +8743,7 @@
     <tag k="name:vi" v="Irkutsk (tỉnh)"/>
     <tag k="name:zh" v="伊尔库茨克州"/>
     <tag k="population" v="2417801"/>
-    <tag k="ref" v="38"/>
+    <tag k="ref" v="RU-IRK"/>
     <tag k="timezone" v="Asia/Irkutsk"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Иркутская область"/>
@@ -8782,7 +8798,7 @@
     <tag k="official_name:tt" v="Бурят Республикасы"/>
     <tag k="oktmo:user" v="81000000"/>
     <tag k="population" v="973982"/>
-    <tag k="ref" v="03"/>
+    <tag k="ref" v="RU-BU"/>
     <tag k="timezone" v="Asia/Irkutsk"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Бурятия"/>
@@ -8819,7 +8835,7 @@
     <tag k="oktmo:user" v="76000000"/>
     <tag k="old_name" v="Читинская область"/>
     <tag k="population" v="1090419"/>
-    <tag k="ref" v="75"/>
+    <tag k="ref" v="RU-ZAB"/>
     <tag k="timezone" v="Asia/Yakutsk"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Забайкальский_край"/>
@@ -8852,7 +8868,7 @@
     <tag k="official_status" v="ru:область"/>
     <tag k="population" v="811274"/>
     <tag k="population:date" v="2014-01-01"/>
-    <tag k="ref" v="28"/>
+    <tag k="ref" v="RU-AMU"/>
     <tag k="source:url" v="http://gis-lab.info/qa/rusbounds-rosreestr.html"/>
     <tag k="timezone" v="Asia/Yakutsk"/>
     <tag k="type" v="boundary"/>
@@ -8886,7 +8902,7 @@
     <tag k="official_status" v="ru:автономная область"/>
     <tag k="population" v="170377"/>
     <tag k="population:date" v="2014-01-01"/>
-    <tag k="ref" v="79"/>
+    <tag k="ref" v="RU-YEV"/>
     <tag k="source:url" v="http://gis-lab.info/qa/rusbounds-rosreestr.html"/>
     <tag k="timezone" v="Asia/Vladivostok"/>
     <tag k="type" v="boundary"/>
@@ -8919,7 +8935,7 @@
     <tag k="official_status" v="ru:край"/>
     <tag k="population" v="1339912"/>
     <tag k="population:date" v="2014-01-01"/>
-    <tag k="ref" v="08"/>
+    <tag k="ref" v="RU-KHA"/>
     <tag k="timezone" v="Asia/Vladivostok"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Хабаровский край"/>
@@ -8956,7 +8972,7 @@
     <tag k="population" v="1938516"/>
     <tag k="population:date" v="2014-01-01"/>
     <tag k="population:source" v="http://www.gks.ru/bgd/regl/b10_109/Main.htm"/>
-    <tag k="ref" v="05"/>
+    <tag k="ref" v="RU-PRI"/>
     <tag k="timezone" v="Asia/Vladivostok"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Приморский_край"/>
@@ -8990,7 +9006,7 @@
     <tag k="official_status" v="ru:область"/>
     <tag k="population" v="150312"/>
     <tag k="population:date" v="2014-01-01"/>
-    <tag k="ref" v="44"/>
+    <tag k="ref" v="RU-MAG"/>
     <tag k="timezone" v="Asia/Magadan"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Магаданская область"/>
@@ -9022,7 +9038,7 @@
     <tag k="official_status" v="ru:автономный округ"/>
     <tag k="population" v="50555"/>
     <tag k="population:date" v="2014-01-01"/>
-    <tag k="ref" v="77"/>
+    <tag k="ref" v="RU-CHU"/>
     <tag k="short_name" v="Чукотка"/>
     <tag k="timezone" v="Asia/Anadyr"/>
     <tag k="type" v="boundary"/>
@@ -9059,7 +9075,7 @@
     <tag k="official_status" v="ru:край"/>
     <tag k="population" v="319864"/>
     <tag k="population:date" v="2014-01-01"/>
-    <tag k="ref" v="30"/>
+    <tag k="ref" v="RU-KAM"/>
     <tag k="timezone" v="Asia/Kamchatka"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Камчатский край"/>
@@ -9099,7 +9115,7 @@
     <tag k="official_name:ca" v="República de Sakhà"/>
     <tag k="population" v="954803"/>
     <tag k="population:date" v="2014-01-01"/>
-    <tag k="ref" v="14"/>
+    <tag k="ref" v="RU-SA"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Якутия"/>
   </relation>
@@ -9233,7 +9249,6 @@
     <tag k="name:uk" v="Сан-Луїс"/>
     <tag k="official_name" v="Provincia de San Luis"/>
     <tag k="ref" v="SL"/>
-    <tag k="short_name" v="SL"/>
     <tag k="timezone" v="America/Argentina/San_Luis"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q44818"/>
@@ -9246,6 +9261,7 @@
     <tag k="is_in:country" v="Argentina"/>
     <tag k="name" v="San Juan"/>
     <tag k="name:he" v="סן חואן"/>
+    <tag k="name:ru" v="Сан-Хуан"/>
     <tag k="ref" v="SJ"/>
     <tag k="short_name" v="SJ"/>
     <tag k="timezone" v="America/Argentina/San_Juan"/>
@@ -9405,8 +9421,9 @@
     <tag k="name" v="Entre Ríos"/>
     <tag k="name:he" v="אנטרה ריוס"/>
     <tag k="name:ru" v="Междуречье"/>
+    <tag k="official_name" v="Provincia de Entre Ríos"/>
     <tag k="ref" v="ER"/>
-    <tag k="short_name" v="ER"/>
+    <tag k="short_name" v="ER."/>
     <tag k="timezone" v="America/Argentina/Cordoba"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="es:Provincia de Entre Ríos"/>
@@ -9590,7 +9607,7 @@
     <tag k="name:ru" v="Псковская область"/>
     <tag k="population" v="661507"/>
     <tag k="population:date" v="2013-01-01"/>
-    <tag k="ref" v="60"/>
+    <tag k="ref" v="RU-PSK"/>
     <tag k="timezone" v="Europe/Moscow"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Псковская область"/>
@@ -11716,7 +11733,7 @@
     <tag k="official_status" v="ru:область"/>
     <tag k="population" v="1763924"/>
     <tag k="population:date" v="2014-01-01"/>
-    <tag k="ref" v="41"/>
+    <tag k="ref" v="RU-LEN"/>
     <tag k="timezone" v="Europe/Moscow"/>
     <tag k="type" v="boundary"/>
     <tag k="website" v="http://www.lenobl.ru/"/>
@@ -11826,9 +11843,9 @@
     <tag k="type" v="boundary"/>
   </relation>
   <relation id="179296">
+    <tag k="ISO3166-2" v="IT-36"/>
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
-    <tag k="iso3166-2" v="IT-36"/>
     <tag k="name" v="Friuli Venezia Giulia"/>
     <tag k="name:ca" v="Friül - Venècia Júlia"/>
     <tag k="name:cs" v="Furlansko-Julské Benátsko"/>
@@ -11888,16 +11905,6 @@
     <tag k="park:type" v="state_park"/>
     <tag k="type" v="boundary"/>
   </relation>
-  <relation id="184349">
-    <tag k="admin_level" v="4"/>
-    <tag k="attribution" v="CASIL CSP_Opbdys072008"/>
-    <tag k="boundary" v="national_park"/>
-    <tag k="csp:globalid" v="{77E28E1D-AF1A-413A-85DF-A110183E3544}"/>
-    <tag k="csp:unitcode" v="119"/>
-    <tag k="name" v="Humboldt Redwoods State Park"/>
-    <tag k="park:type" v="state_park"/>
-    <tag k="type" v="boundary"/>
-  </relation>
   <relation id="184350">
     <tag k="admin_level" v="4"/>
     <tag k="attribution" v="CASIL CSP_Opbdys072008"/>
@@ -11926,6 +11933,7 @@
     <tag k="name" v="Deir ez-Zor"/>
     <tag k="name:de" v="Deir ez-Zor"/>
     <tag k="name:en" v="Deir ez-Zor"/>
+    <tag k="name:ru" v="Дайр-эз-Заур"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="en:Deir ez-Zor Governorate"/>
   </relation>
@@ -11936,6 +11944,7 @@
     <tag k="name" v="حمص"/>
     <tag k="name:de" v="Homs"/>
     <tag k="name:en" v="Homs"/>
+    <tag k="name:ru" v="Хомс"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="en:Homs Governorate"/>
   </relation>
@@ -11968,6 +11977,7 @@
     <tag k="name" v="Hama"/>
     <tag k="name:de" v="Hama"/>
     <tag k="name:en" v="Hama"/>
+    <tag k="name:ru" v="Хама"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="en:Hama Governorate"/>
   </relation>
@@ -11989,6 +11999,7 @@
     <tag k="name" v="Tartus"/>
     <tag k="name:de" v="Tartus"/>
     <tag k="name:en" v="Tartus"/>
+    <tag k="name:ru" v="Тартус"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="en:Tartus Governorate"/>
   </relation>
@@ -12010,6 +12021,7 @@
     <tag k="name" v="ريف دمشق"/>
     <tag k="name:de" v="Rif Dimaschq"/>
     <tag k="name:en" v="Rif Dimashq"/>
+    <tag k="name:ru" v="Дамаск"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="en:Rif Dimashq Governorate"/>
   </relation>
@@ -12020,6 +12032,7 @@
     <tag k="name" v="Quneitra"/>
     <tag k="name:de" v="Quneitra"/>
     <tag k="name:en" v="Quneitra"/>
+    <tag k="name:ru" v="Эль-Кунейтра"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="en:Quneitra Governorate"/>
   </relation>
@@ -12030,6 +12043,7 @@
     <tag k="name" v="Daraa"/>
     <tag k="name:de" v="Dar'a"/>
     <tag k="name:en" v="Daraa"/>
+    <tag k="name:ru" v="Даръа"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="en:Daraa Governorate"/>
   </relation>
@@ -12040,6 +12054,7 @@
     <tag k="name" v="As-Suwayda"/>
     <tag k="name:de" v="As-Suwaida"/>
     <tag k="name:en" v="As-Suwayda"/>
+    <tag k="name:ru" v="Эс-Сувайда"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="en:As-Suwayda Governorate"/>
   </relation>
@@ -12358,7 +12373,7 @@
     <tag k="name:en" v="Krasnoyarsk Krai"/>
     <tag k="name:lt" v="Krasnojarsko kraštas"/>
     <tag k="name:ru" v="Красноярский край"/>
-    <tag k="ref" v="24"/>
+    <tag k="ref" v="RU-KYA"/>
     <tag k="timezone" v="Asia/Krasnoyarsk"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Красноярский край"/>
@@ -12376,7 +12391,7 @@
     <tag k="name:pl" v="Republika Chakasji"/>
     <tag k="name:ru" v="Республика Хакасия"/>
     <tag k="oktmo:user" v="95000000"/>
-    <tag k="ref" v="19"/>
+    <tag k="ref" v="RU-KK"/>
     <tag k="timezone" v="Asia/Krasnoyarsk"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Хакасия"/>
@@ -12395,9 +12410,9 @@
     <tag k="name:ru" v="Ямало-Ненецкий автономный округ"/>
     <tag k="official_name:ca" v="Districte Autònom Iamalo-Nenets"/>
     <tag k="oktmo:user" v="71900000"/>
-    <tag k="population" v="539671"/>
-    <tag k="population:date" v="2014-01-01"/>
-    <tag k="ref" v="71"/>
+    <tag k="population" v="539985"/>
+    <tag k="population:date" v="2015-01-01"/>
+    <tag k="ref" v="RU-YAN"/>
     <tag k="timezone" v="Asia/Yekaterinburg"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Ямало-Ненецкий_автономный_округ"/>
@@ -12409,6 +12424,7 @@
     <tag k="name" v="Kasaï-Occidental"/>
     <tag k="name:de" v="Westkasai"/>
     <tag k="name:en" v="Western Kasai"/>
+    <tag k="name:ru" v="Западное Касаи"/>
     <tag k="type" v="boundary"/>
   </relation>
   <relation id="193088">
@@ -12417,6 +12433,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Kasaï-Oriental"/>
     <tag k="name:de" v="Ostkasai"/>
+    <tag k="name:ru" v="Восточное Касаи"/>
     <tag k="type" v="boundary"/>
   </relation>
   <relation id="193089">
@@ -12438,6 +12455,8 @@
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Maniema"/>
+    <tag k="name:en" v="Maniema"/>
+    <tag k="name:ru" v="Маниема"/>
     <tag k="type" v="boundary"/>
   </relation>
   <relation id="193098">
@@ -12778,7 +12797,7 @@
     <tag k="ISO3166-2" v="GT-RE"/>
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
-    <tag k="name" v="Retalhulenu"/>
+    <tag k="name" v="Retalhuleu"/>
     <tag k="source" v="maplibrary.org"/>
     <tag k="type" v="boundary"/>
   </relation>
@@ -12970,6 +12989,7 @@
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Северо-Казахстанская область"/>
+    <tag k="name:de" v="Gebiet Nordkasachstan"/>
     <tag k="name:en" v="North Kazakhstan"/>
     <tag k="name:kk" v="Солтүстік Қазақстан облысы"/>
     <tag k="name:lt" v="Šiaurės Kazachstano sritis"/>
@@ -13100,7 +13120,7 @@
     <tag k="ISO3166-2" v="TR-33"/>
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
-    <tag k="name" v="Mersin"/>
+    <tag k="name" v="Mersin İli"/>
     <tag k="name:en" v="Mersin"/>
     <tag k="name:ru" v="Мерсин"/>
     <tag k="name:tr" v="Mersin"/>
@@ -13363,6 +13383,7 @@
     <tag k="population" v="2098370"/>
     <tag k="population:date" v="2011-12-31"/>
     <tag k="ref" v="KP"/>
+    <tag k="short_name" v="kujawsko-pomorskie"/>
     <tag k="source:population" v="http://www.stat.gov.pl/gus/5840_13211_PLK_HTML.htm"/>
     <tag k="teryt:terc" v="04"/>
     <tag k="type" v="boundary"/>
@@ -13399,6 +13420,7 @@
     <tag k="name:szl" v="wojewůdztwo warmińsko-mazurske"/>
     <tag k="name:uk" v="Вармінсько-Мазурське воєводство"/>
     <tag k="ref" v="WM"/>
+    <tag k="short_name" v="warmińsko-mazurskie"/>
     <tag k="teryt:terc" v="28"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="pl:Województwo warmińsko-mazurskie"/>
@@ -13633,10 +13655,10 @@
     <tag k="ISO3166-2" v="TR-12"/>
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
-    <tag k="name" v="Bingöl"/>
+    <tag k="name" v="Bingöl İli"/>
     <tag k="name:en" v="Bingöl"/>
     <tag k="name:ru" v="Бингёль"/>
-    <tag k="name:tr" v="Bingöl"/>
+    <tag k="name:tr" v="Bingöl İli"/>
     <tag k="name:uk" v="Бінґель"/>
     <tag k="network" v="TR-provinces"/>
     <tag k="ref:NUTS" v="TRB13"/>
@@ -14014,6 +14036,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="İstanbul"/>
     <tag k="name:en" v="Istanbul"/>
+    <tag k="name:es" v="Estambul"/>
     <tag k="name:ru" v="Стамбул"/>
     <tag k="name:tr" v="İstanbul"/>
     <tag k="name:uk" v="Стамбул"/>
@@ -14337,6 +14360,7 @@
     <tag k="population" v="2916577"/>
     <tag k="population:date" v="2011-12-31"/>
     <tag k="ref" v="DS"/>
+    <tag k="short_name" v="dolnośląskie"/>
     <tag k="source:population" v="http://www.stat.gov.pl/gus/5840_13211_PLK_HTML.htm"/>
     <tag k="teryt:terc" v="02"/>
     <tag k="type" v="boundary"/>
@@ -14364,6 +14388,7 @@
     <tag k="name:szl" v="Łůdzke wojewůdztwo"/>
     <tag k="name:uk" v="Лодзьке воєводство"/>
     <tag k="ref" v="LD"/>
+    <tag k="short_name" v="łódzkie"/>
     <tag k="teryt:terc" v="10"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="pl:Województwo łódzkie"/>
@@ -14390,6 +14415,7 @@
     <tag k="name:szl" v="wojewůwdztwo mauopolske"/>
     <tag k="name:uk" v="Малопольське воєводство"/>
     <tag k="ref" v="MP"/>
+    <tag k="short_name" v="małopolskie"/>
     <tag k="teryt:terc" v="12"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="pl:Województwo małopolskie"/>
@@ -14421,6 +14447,7 @@
     <tag k="name:uk" v="Опольське воєводство"/>
     <tag k="name:zh" v="奧波萊省"/>
     <tag k="ref" v="OP"/>
+    <tag k="short_name" v="opolskie"/>
     <tag k="teryt:terc" v="16"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="pl:Województwo opolskie"/>
@@ -14448,6 +14475,7 @@
     <tag k="name:szl" v="Podlaske wojewůdztwo‎"/>
     <tag k="name:uk" v="Підляське воєводство"/>
     <tag k="ref" v="PD"/>
+    <tag k="short_name" v="podlaskie"/>
     <tag k="teryt:terc" v="20"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="pl:Województwo podlaskie"/>
@@ -14516,6 +14544,7 @@
     <tag k="name:zea" v="Woiwodschap Silezië"/>
     <tag k="name:zh" v="西里西亚省"/>
     <tag k="ref" v="SL"/>
+    <tag k="short_name" v="śląskie"/>
     <tag k="teryt:terc" v="24"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="pl:Województwo śląskie"/>
@@ -15141,6 +15170,7 @@
     <tag k="name" v="စစ်ကိုင်းတိုင်း (Sagaing)"/>
     <tag k="name:en" v="Sagaing"/>
     <tag k="name:my" v="စစ်ကိုင်းတိုင်း"/>
+    <tag k="name:ru" v="Сикайн"/>
     <tag k="type" v="boundary"/>
   </relation>
   <relation id="237480">
@@ -15151,6 +15181,7 @@
     <tag k="name" v="Shan"/>
     <tag k="name:en" v="Shan"/>
     <tag k="name:my" v="ရှမ်းပြည်နယ်"/>
+    <tag k="name:ru" v="Шан"/>
     <tag k="type" v="boundary"/>
   </relation>
   <relation id="237518">
@@ -15216,6 +15247,7 @@
     <tag k="name" v="Kayah"/>
     <tag k="name:en" v="Kayah"/>
     <tag k="name:my" v="ကယားပြည်နယ်‌"/>
+    <tag k="name:ru" v="Кая"/>
     <tag k="type" v="boundary"/>
   </relation>
   <relation id="237692">
@@ -15237,6 +15269,7 @@
     <tag k="name" v="Tanintharyi"/>
     <tag k="name:en" v="Tanintharyi"/>
     <tag k="name:my" v="တနင်္သာရီတိုင်း"/>
+    <tag k="name:ru" v="Танинтайи"/>
     <tag k="type" v="boundary"/>
   </relation>
   <relation id="237733">
@@ -15247,6 +15280,7 @@
     <tag k="name" v="Mon"/>
     <tag k="name:en" v="Mon"/>
     <tag k="name:my" v="မွန်ပြည်နယ်"/>
+    <tag k="name:ru" v="Мон"/>
     <tag k="type" v="boundary"/>
   </relation>
   <relation id="237815">
@@ -15329,6 +15363,7 @@
     <tag k="name:en" v="Champasak"/>
     <tag k="name:lo" v="ຈໍາປາສັກ"/>
     <tag k="name:lo_rm" v="Champasak"/>
+    <tag k="name:ru" v="Тямпасак"/>
     <tag k="name:vi" v="Chăm-pa-sắc"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="en:Champasak Province"/>
@@ -15353,6 +15388,7 @@
     <tag k="name:en" v="Khammouane"/>
     <tag k="name:lo" v="ຄໍາມ່ວນ"/>
     <tag k="name:lo_rm" v="Khammon"/>
+    <tag k="name:ru" v="Кхаммуан"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="en:Khammouane Province"/>
   </relation>
@@ -15364,6 +15400,7 @@
     <tag k="name:en" v="Savannakhet"/>
     <tag k="name:lo" v="ສະຫວັນນະເຂດ"/>
     <tag k="name:lo_rm" v="Savannakhét"/>
+    <tag k="name:ru" v="Саваннакхет"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="en:Savannakhet Province"/>
   </relation>
@@ -15375,6 +15412,7 @@
     <tag k="name:en" v="Salavan"/>
     <tag k="name:lo" v="ສາລະວັນ"/>
     <tag k="name:lo_rm" v="Salavan"/>
+    <tag k="name:ru" v="Сараван"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="en:Salavan Province"/>
   </relation>
@@ -15386,6 +15424,7 @@
     <tag k="name:en" v="Bolikhamsai"/>
     <tag k="name:lo" v="ບໍລິຄໍາໄຊ"/>
     <tag k="name:lo_rm" v="Bolikhamxai"/>
+    <tag k="name:ru" v="Боликхамсай"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="en:Bolikhamsai Province"/>
   </relation>
@@ -15397,6 +15436,7 @@
     <tag k="name:en" v="Vientiane Capital"/>
     <tag k="name:lo" v="ນະຄອນຫຼວງວຽງຈັນ"/>
     <tag k="name:lo_rm" v="Nakhonlouang Viangchan"/>
+    <tag k="name:ru" v="Вьентьян"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="en:Vientiane Prefecture"/>
   </relation>
@@ -15443,6 +15483,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="dpachile:id" v="02"/>
     <tag k="name" v="II Región de Antofagasta"/>
+    <tag k="name:ru" v="II Антофагаста"/>
     <tag k="ref" v="II"/>
     <tag k="type" v="boundary"/>
   </relation>
@@ -15677,6 +15718,7 @@
     <tag k="official_name:ru" v="Республика Ингушетия"/>
     <tag k="official_status" v="ru:республика"/>
     <tag k="oktmo:user" v="82000000"/>
+    <tag k="ref" v="RU-IN"/>
     <tag k="timezone" v="Europe/Moscow"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Ингушетия"/>
@@ -15716,7 +15758,7 @@
     <tag k="official_name:fr" v="République d'Adyguée"/>
     <tag k="official_name:ru" v="Республика Адыгея"/>
     <tag k="oktmo:user" v="79000000"/>
-    <tag k="ref" v="01"/>
+    <tag k="ref" v="RU-AD"/>
     <tag k="timezone" v="Europe/Moscow"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Адыгея"/>
@@ -16105,6 +16147,7 @@
     <tag k="name" v="Central District"/>
     <tag k="name:de" v="Zentral-Distrikt"/>
     <tag k="name:en" v="Central District"/>
+    <tag k="name:ru" v="Центральный округ"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="en:Central District (Botswana)"/>
   </relation>
@@ -16114,6 +16157,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Ghanzi District"/>
     <tag k="name:en" v="Ghanzi District"/>
+    <tag k="name:ru" v="Ганзи"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="en:Ghanzi District"/>
   </relation>
@@ -16142,6 +16186,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Kgalagadi District"/>
     <tag k="name:en" v="Kgalagadi District"/>
+    <tag k="name:ru" v="Кгалагади"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="en:Kgalagadi District"/>
   </relation>
@@ -16280,7 +16325,7 @@
     <tag k="oktmo:user" v="11800000"/>
     <tag k="population" v="42789"/>
     <tag k="population:date" v="2013-01-01"/>
-    <tag k="ref" v="11"/>
+    <tag k="ref" v="RU-NEN"/>
     <tag k="timezone" v="Europe/Moscow"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Ненецкий автономный округ"/>
@@ -16305,9 +16350,9 @@
     <tag k="wikidata" v="Q2178"/>
   </relation>
   <relation id="279816">
+    <tag k="ISO3166-2" v="IT-88"/>
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
-    <tag k="iso3166-2" v="IT-88"/>
     <tag k="name" v="Sardigna/Sardegna"/>
     <tag k="name:ca" v="Sardenya"/>
     <tag k="name:cs" v="Sardinie"/>
@@ -16703,9 +16748,9 @@
     <tag k="wikipedia" v="pt:Paraíba"/>
   </relation>
   <relation id="301482">
+    <tag k="ISO3166-2" v="IT-42"/>
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
-    <tag k="iso3166-2" v="IT-42"/>
     <tag k="name" v="Liguria"/>
     <tag k="name:ca" v="Ligúria"/>
     <tag k="name:cs" v="Ligurie"/>
@@ -16733,6 +16778,7 @@
     <tag k="name" v="XII Región de Magallanes y de la Antártica Chilena"/>
     <tag k="name:de" v="XII Region von Magellan und der chilenischen Antarktis"/>
     <tag k="name:en" v="XII Region of Magallanes and Chilean Antarctica"/>
+    <tag k="name:ru" v="XII Магальянес-и-ла-Антарктика-Чилена"/>
     <tag k="ref" v="XII"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q2189"/>
@@ -16983,6 +17029,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="dpachile:id" v="11"/>
     <tag k="name" v="Región Aysén del General Carlos Ibáñez del Campo"/>
+    <tag k="name:ru" v="XI Айсен-дель-Хенераль-Карлос-Ибаньес-дель-Кампо"/>
     <tag k="ref" v="XI"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q2181"/>
@@ -17357,6 +17404,7 @@
     <tag k="name:ar" v="قضاء بعلبك"/>
     <tag k="name:en" v="Qada Baalbak"/>
     <tag k="name:fr" v="Qada Baalbak"/>
+    <tag k="name:ru" v="Баальбек"/>
     <tag k="type" v="boundary"/>
   </relation>
   <relation id="317259">
@@ -17368,6 +17416,7 @@
     <tag k="name:ar" v="قضاء الهرمل"/>
     <tag k="name:en" v="Qada al Hirmil"/>
     <tag k="name:fr" v="Qada al Hirmil"/>
+    <tag k="name:ru" v="Хермель"/>
     <tag k="type" v="boundary"/>
   </relation>
   <relation id="317263">
@@ -17379,6 +17428,7 @@
     <tag k="name:ar" v="قضاء زحلة"/>
     <tag k="name:en" v="Qada Zahlah"/>
     <tag k="name:fr" v="Qada Zahlah"/>
+    <tag k="name:ru" v="Захле"/>
     <tag k="type" v="boundary"/>
   </relation>
   <relation id="317271">
@@ -17388,6 +17438,7 @@
     <tag k="name" v="قضاء عكار"/>
     <tag k="name:en" v="Qada Akkar"/>
     <tag k="name:fr" v="Qada Akkar"/>
+    <tag k="name:ru" v="Аккар"/>
     <tag k="type" v="boundary"/>
   </relation>
   <relation id="317277">
@@ -17399,6 +17450,7 @@
     <tag k="name:ar" v="قضاء راشيا"/>
     <tag k="name:en" v="Qada Rashayya"/>
     <tag k="name:fr" v="Qada Rashayya"/>
+    <tag k="name:ru" v="Рашайя"/>
     <tag k="type" v="boundary"/>
   </relation>
   <relation id="317278">
@@ -17540,6 +17592,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Western Province"/>
     <tag k="name:de" v="Westprovinz"/>
+    <tag k="name:ru" v="Западная провинция"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="en:Western Province (Zambia)"/>
   </relation>
@@ -17549,6 +17602,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="North-Western Province"/>
     <tag k="name:de" v="Nordwestprovinz"/>
+    <tag k="name:ru" v="Северо-Западная провинция"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="en:North-Western Province (Zambia)"/>
   </relation>
@@ -17567,6 +17621,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Central Province"/>
     <tag k="name:de" v="Zentralprovinz"/>
+    <tag k="name:ru" v="Центральная провинция"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="en:Central Province (Zambia)"/>
   </relation>
@@ -18149,7 +18204,7 @@
     <tag k="place" v="state"/>
     <tag k="population" v="5131942"/>
     <tag k="population:date" v="2014-01-01"/>
-    <tag k="ref" v="40"/>
+    <tag k="ref" v="RU-SPE"/>
     <tag k="timezone" v="Europe/Moscow"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Санкт-Петербург"/>
@@ -18750,6 +18805,7 @@
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="KwaZulu-Natal"/>
+    <tag k="name:ru" v="Квазулу-Наталь"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q81725"/>
   </relation>
@@ -18759,6 +18815,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="North West"/>
     <tag k="name:de" v="Nordwest"/>
+    <tag k="name:ru" v="Северо-Западная провинция"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q165956"/>
   </relation>
@@ -18767,6 +18824,7 @@
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Limpopo"/>
+    <tag k="name:ru" v="Лимпопо"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q134907"/>
   </relation>
@@ -20137,6 +20195,8 @@
     <tag k="boundary" v="administrative"/>
     <tag k="is_in:country" v="Paraguay"/>
     <tag k="name" v="Boquerón"/>
+    <tag k="name:en" v="Boquerón"/>
+    <tag k="name:ru" v="Бокерон"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q741017"/>
   </relation>
@@ -20291,6 +20351,7 @@
     <tag k="name:pl" v="Nowa Szkocja"/>
     <tag k="name:pt" v="Nova Escócia"/>
     <tag k="name:ro" v="Noua Scoție"/>
+    <tag k="name:ru" v="Новая Шотландия"/>
     <tag k="population" v="913462"/>
     <tag k="ref" v="NS"/>
     <tag k="timezone" v="America/Halifax"/>
@@ -20372,6 +20433,7 @@
     <tag k="name:lt" v="Britų Kolumbija"/>
     <tag k="name:pt" v="Colúmbia Britânica"/>
     <tag k="name:ro" v="Columbia Britanică"/>
+    <tag k="name:ru" v="Британская Колумбия"/>
     <tag k="ref" v="BC"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="en:British Columbia"/>
@@ -20404,6 +20466,7 @@
     <tag k="name:en" v="Saskatchewan"/>
     <tag k="name:fr" v="Saskatchewan"/>
     <tag k="name:lt" v="Saskačevanas"/>
+    <tag k="name:ru" v="Саскачеван"/>
     <tag k="ref" v="SK"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="en:Saskatchewan"/>
@@ -20417,6 +20480,7 @@
     <tag k="name:en" v="Alberta"/>
     <tag k="name:fr" v="Alberta"/>
     <tag k="name:lt" v="Alberta"/>
+    <tag k="name:ru" v="Альберта"/>
     <tag k="ref" v="AB"/>
     <tag k="timezone" v="America/Edmonton"/>
     <tag k="type" v="boundary"/>
@@ -20431,6 +20495,7 @@
     <tag k="name:ca" v="Terranova i Labrador"/>
     <tag k="name:en" v="Newfoundland and Labrador"/>
     <tag k="name:fr" v="Terre-Neuve et Labrador"/>
+    <tag k="name:ru" v="Ньюфаундленд и Лабрадор"/>
     <tag k="name:vi" v="Newfoundland và Labrador"/>
     <tag k="ref" v="NL"/>
     <tag k="timezone" v="America/St_Johns"/>
@@ -20446,6 +20511,7 @@
     <tag k="name:ca" v="Territoris del Nord-oest"/>
     <tag k="name:en" v="Northwest Territories"/>
     <tag k="name:lt" v="Šiaurės Vakarų teritorijos"/>
+    <tag k="name:ru" v="Северо-Западные территории"/>
     <tag k="name:vi" v="Các Lãnh thổ Tây Bắc"/>
     <tag k="ref" v="NWT"/>
     <tag k="type" v="boundary"/>
@@ -20459,6 +20525,7 @@
     <tag k="name" v="Yukon"/>
     <tag k="name:en" v="Yukon"/>
     <tag k="name:lt" v="Jukonas"/>
+    <tag k="name:ru" v="Юкон"/>
     <tag k="ref" v="YT"/>
     <tag k="timezone" v="America/Whitehorse"/>
     <tag k="timezone:note" v="WP also mentions America/Dawson for North Yukon"/>
@@ -20645,7 +20712,7 @@
     <tag k="name:vep" v="Karjalan Tazovaldkund"/>
     <tag k="population" v="634402"/>
     <tag k="population:date" v="2014-01-01"/>
-    <tag k="ref" v="86"/>
+    <tag k="ref" v="RU-KR"/>
     <tag k="timezone" v="Europe/Moscow"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Республика Карелия"/>
@@ -20665,7 +20732,7 @@
     <tag k="name:ru" v="Сахалинская область"/>
     <tag k="population" v="491027"/>
     <tag k="population:date" v="2014-01-01"/>
-    <tag k="ref" v="64"/>
+    <tag k="ref" v="RU-SAK"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Сахалинская_область"/>
   </relation>
@@ -20783,6 +20850,7 @@
     <tag k="is_in:country" v="Bolivia"/>
     <tag k="is_in:country_code" v="BO"/>
     <tag k="name" v="La Paz"/>
+    <tag k="name:ru" v="Ла-Пас"/>
     <tag k="official_name" v="Departamento de La Paz"/>
     <tag k="official_name:en" v="La Paz Departament"/>
     <tag k="place" v="state"/>
@@ -20875,6 +20943,7 @@
     <tag k="is_in:country" v="Bolivia"/>
     <tag k="is_in:country_code" v="BO"/>
     <tag k="name" v="Beni"/>
+    <tag k="name:ru" v="Бени"/>
     <tag k="official_name" v="Departamento del Beni"/>
     <tag k="official_name:en" v="Beni Departament"/>
     <tag k="place" v="state"/>
@@ -21192,7 +21261,6 @@
     <tag k="name:tzl" v="Kíiv"/>
     <tag k="name:uk" v="Київ"/>
     <tag k="name:vi" v="Kiev"/>
-    <tag k="official_name" v="Україна"/>
     <tag k="place" v="city"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q1899"/>
@@ -23708,6 +23776,7 @@
     <tag k="name:ber" v="ⴱⴻⵛⴰⵔ"/>
     <tag k="name:en" v="Béchar"/>
     <tag k="name:fr" v="Béchar"/>
+    <tag k="name:ru" v="Бешар"/>
     <tag k="old_name" v="Colomb-Béchar"/>
     <tag k="ref" v="08"/>
     <tag k="type" v="boundary"/>
@@ -23747,6 +23816,7 @@
     <tag k="name:ar" v="البيض"/>
     <tag k="name:en" v="El Bayadh"/>
     <tag k="name:fr" v="El Bayadh"/>
+    <tag k="name:ru" v="Эль-Баяд"/>
     <tag k="old_name" v="Géryville"/>
     <tag k="ref" v="32"/>
     <tag k="type" v="boundary"/>
@@ -23792,6 +23862,7 @@
     <tag k="name:en" v="Tindouf"/>
     <tag k="name:es" v="Tinduf"/>
     <tag k="name:fr" v="Tindouf"/>
+    <tag k="name:ru" v="Тиндуф"/>
     <tag k="ref" v="37"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="fr:Wilaya de Tindouf"/>
@@ -24204,6 +24275,7 @@
     <tag k="name:en" v="Ghardaia"/>
     <tag k="name:fr" v="Ghardaïa"/>
     <tag k="name:lt" v="Gardaja"/>
+    <tag k="name:ru" v="Гардая"/>
     <tag k="ref" v="47"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="fr:Wilaya de Ghardaïa"/>
@@ -24253,6 +24325,7 @@
     <tag k="name:ar" v="ورقلة"/>
     <tag k="name:en" v="Ouargla"/>
     <tag k="name:fr" v="Ouargla"/>
+    <tag k="name:ru" v="Уаргла"/>
     <tag k="ref" v="30"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="fr:Wilaya d'Ouargla"/>
@@ -24272,6 +24345,7 @@
     <tag k="name:ar" v="إلـيـزي"/>
     <tag k="name:en" v="Illizi"/>
     <tag k="name:fr" v="Illizi"/>
+    <tag k="name:ru" v="Иллизи"/>
     <tag k="old_name" v="Fort-Polignac"/>
     <tag k="population" v="52333"/>
     <tag k="population:date" v="2008"/>
@@ -24549,7 +24623,6 @@
   </relation>
   <relation id="1283457">
     <tag k="ISO3166-2" v="DZ-41"/>
-    <tag k="addr:country_code" v="DZ"/>
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
     <tag k="is_in:continent" v="Africa"/>
@@ -24745,6 +24818,7 @@
     <tag k="name" v="Amazonas"/>
     <tag k="name:de" v="Amazonas"/>
     <tag k="name:en" v="Amazonas"/>
+    <tag k="name:ru" v="Амасонас"/>
     <tag k="name:source:en" v="en.wikipedia"/>
     <tag k="ref" v="AMA"/>
     <tag k="source" v="OCHA - SIGOT"/>
@@ -24990,10 +25064,10 @@
     <tag k="wikipedia" v="da:Region Nordjylland"/>
   </relation>
   <relation id="1319978">
+    <tag k="ISO3166-2" v="DK-83"/>
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
     <tag k="is_in:country_code" v="DK"/>
-    <tag k="iso3166-2" v="DK-83"/>
     <tag k="name" v="Region Syddanmark"/>
     <tag k="name:bg" v="Южна Дания"/>
     <tag k="name:br" v="Danmark ar Su"/>
@@ -25045,10 +25119,10 @@
     <tag k="wikipedia" v="da:Region Syddanmark"/>
   </relation>
   <relation id="1320370">
+    <tag k="ISO3166-2" v="DK-85"/>
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
     <tag k="is_in:country_code" v="DK"/>
-    <tag k="iso3166-2" v="DK-85"/>
     <tag k="name" v="Region Sjælland"/>
     <tag k="name:ca" v="Regió de Sjælland"/>
     <tag k="name:de" v="Region Seeland"/>
@@ -25285,6 +25359,7 @@
     <tag k="clcfile" v="MunicipiosDepartamentos/ADM_Departamentos.shp"/>
     <tag k="is_in:country" v="Colombia"/>
     <tag k="name" v="Vichada"/>
+    <tag k="name:ru" v="Вичада"/>
     <tag k="ref" v="VID"/>
     <tag k="source" v="OCHA - SIGOT"/>
     <tag k="state_code" v="VID"/>
@@ -26488,6 +26563,7 @@
     <tag k="type" v="boundary"/>
   </relation>
   <relation id="1506669">
+    <tag k="ISO3166-2" v="PH-PLW"/>
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Palawan"/>
@@ -27275,6 +27351,7 @@
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Bali"/>
+    <tag k="name:id" v="Provinsi Bali"/>
     <tag k="name:lt" v="Balio provincija"/>
     <tag k="population" v="3383572"/>
     <tag k="ref" v="BA"/>
@@ -27341,6 +27418,7 @@
     <tag k="is_in:country" v="Ecuador"/>
     <tag k="name" v="Provincia de Galápagos"/>
     <tag k="name:en" v="Galápagos Province"/>
+    <tag k="name:ru" v="Галапагос"/>
     <tag k="place" v="state"/>
     <tag k="state_code" v="20"/>
     <tag k="timezone" v="Pacific/Galapagos"/>
@@ -27520,6 +27598,7 @@
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Canterbury"/>
+    <tag k="name:ru" v="Кентербери"/>
     <tag k="population" v="574300"/>
     <tag k="ref" v="CAN"/>
     <tag k="source:population" v="Statistics NZ 2014"/>
@@ -27538,8 +27617,10 @@
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Southland"/>
+    <tag k="name:ru" v="Саутленд"/>
     <tag k="ref" v="STL"/>
     <tag k="type" v="boundary"/>
+    <tag k="wikipedia" v="ru:Саутленд"/>
   </relation>
   <relation id="1640982">
     <tag k="ISO3166-2" v="UY-TT"/>
@@ -29805,9 +29886,9 @@
     <tag k="wikipedia" v="lv:Vidzeme"/>
   </relation>
   <relation id="1783980">
+    <tag k="ISO3166-2" v="IT-78"/>
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
-    <tag k="iso3166-2" v="IT-78"/>
     <tag k="name" v="Calabria"/>
     <tag k="name:ca" v="Calàbria"/>
     <tag k="name:de" v="Kalabrien"/>
@@ -31886,7 +31967,7 @@
     <tag k="ref" v="RNG"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q236802"/>
-    <tag k="wikipedia" v="en:Ranong_Province"/>
+    <tag k="wikipedia" v="en:Ranong Province"/>
   </relation>
   <relation id="1908811">
     <tag k="ISO3166-2" v="TH-70"/>
@@ -32935,13 +33016,17 @@
     <tag k="name:en" v="Ho Chi Minh City"/>
     <tag k="name:eo" v="Ho-Ĉi-Min-urbo"/>
     <tag k="name:hu" v="Ho Si Minh-város"/>
+    <tag k="name:ko" v="호찌민 시"/>
     <tag k="name:la" v="Hochiminhopolis"/>
     <tag k="name:nl" v="Ho Chi Minhstad"/>
     <tag k="name:vi" v="Thành phố Hồ Chí Minh"/>
+    <tag k="name:zh" v="胡志明市"/>
     <tag k="old_name" v="Sài Gòn"/>
     <tag k="old_name:de" v="Saigon"/>
     <tag k="old_name:en" v="Saigon"/>
+    <tag k="old_name:ko" v="사이공"/>
     <tag k="old_name:la" v="Saigonia"/>
+    <tag k="old_name:zh" v="西贡"/>
     <tag k="population" v="7521100"/>
     <tag k="type" v="boundary"/>
   </relation>
@@ -33817,7 +33902,7 @@
     <tag k="name:lt" v="Tverės sritis"/>
     <tag k="name:pl" v="Obwód twerski"/>
     <tag k="name:ru" v="Тверская область"/>
-    <tag k="ref" v="69"/>
+    <tag k="ref" v="RU-TVE"/>
     <tag k="timezone" v="Europe/Moscow"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Тверская область"/>
@@ -33927,7 +34012,7 @@
     <tag k="name:sv" v="Murmansk oblast"/>
     <tag k="population" v="780401"/>
     <tag k="population:date" v="2013-01-01"/>
-    <tag k="ref" v="47"/>
+    <tag k="ref" v="RU-MUR"/>
     <tag k="ref:en" v="MUR"/>
     <tag k="timezone" v="Europe/Moscow"/>
     <tag k="type" v="boundary"/>
@@ -33954,6 +34039,7 @@
     <tag k="name" v="North-West District"/>
     <tag k="name:de" v="Nordwest-Distrikt"/>
     <tag k="name:en" v="North-West District"/>
+    <tag k="name:ru" v="Северо-Западный округ"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="en:North-West District (Botswana)"/>
   </relation>
@@ -34460,13 +34546,16 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Stung Treng"/>
     <tag k="type" v="boundary"/>
+    <tag k="wikipedia" v="de:Stung Treng (Provinz)"/>
   </relation>
   <relation id="2198922">
     <tag k="ISO3166-2" v="KH-13"/>
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Preah Vihear"/>
+    <tag k="name:ru" v="Прэахвихеа"/>
     <tag k="type" v="boundary"/>
+    <tag k="wikipedia" v="de:Preah Vihear (Provinz)"/>
   </relation>
   <relation id="2198944">
     <tag k="ISO3166-2" v="KH-6"/>
@@ -34474,6 +34563,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Kampong Thom"/>
     <tag k="type" v="boundary"/>
+    <tag k="wikipedia" v="de:Kampong Thom (Provinz)"/>
   </relation>
   <relation id="2199033">
     <tag k="ISO3166-2" v="KH-12"/>
@@ -34488,10 +34578,12 @@
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Koh Kong"/>
+    <tag k="name:ru" v="Кохконг"/>
     <tag k="type" v="boundary"/>
+    <tag k="wikipedia" v="de:Koh Kong (Provinz)"/>
   </relation>
   <relation id="2200024">
-    <tag k="ISO3155-2" v="KH-23"/>
+    <tag k="ISO3166-2" v="KH-23"/>
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Kep"/>
@@ -34505,6 +34597,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Kampot"/>
     <tag k="type" v="boundary"/>
+    <tag k="wikipedia" v="de:Kampot (Provinz)"/>
   </relation>
   <relation id="2200220">
     <tag k="ISO3166-2" v="KH-21"/>
@@ -34512,6 +34605,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Takeo"/>
     <tag k="type" v="boundary"/>
+    <tag k="wikipedia" v="de:Takeo (Provinz)"/>
   </relation>
   <relation id="2200251">
     <tag k="ISO3166-2" v="KH-8"/>
@@ -34519,13 +34613,16 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Kandal"/>
     <tag k="type" v="boundary"/>
+    <tag k="wikipedia" v="de:Kandal"/>
   </relation>
   <relation id="2200278">
     <tag k="ISO3166-2" v="KH-15"/>
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Pursat"/>
+    <tag k="name:ru" v="Поусат"/>
     <tag k="type" v="boundary"/>
+    <tag k="wikipedia" v="de:Pursat (Provinz)"/>
   </relation>
   <relation id="2200301">
     <tag k="ISO3166-2" v="KH-16"/>
@@ -34534,6 +34631,7 @@
     <tag k="name" v="Ratanakiri"/>
     <tag k="name:en" v="Ratanikiri"/>
     <tag k="type" v="boundary"/>
+    <tag k="wikipedia" v="de:Ratanakiri"/>
   </relation>
   <relation id="2200303">
     <tag k="ISO3166-2" v="KH-4"/>
@@ -34541,6 +34639,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Kampong Chhnang"/>
     <tag k="type" v="boundary"/>
+    <tag k="wikipedia" v="de:Kampong Chhnang (Provinz)"/>
   </relation>
   <relation id="2200321">
     <tag k="ISO3166-2" v="KH-2"/>
@@ -34560,7 +34659,9 @@
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Battambang"/>
+    <tag k="name:ru" v="Баттамбанг"/>
     <tag k="type" v="boundary"/>
+    <tag k="wikipedia" v="de:Battambang (Provinz)"/>
   </relation>
   <relation id="2200322">
     <tag k="ISO3166-2" v="KH-24"/>
@@ -34580,6 +34681,7 @@
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Pailin"/>
+    <tag k="name:ru" v="Пайлин"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="de:Pailin"/>
   </relation>
@@ -34601,6 +34703,7 @@
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Bantey Meanchey"/>
+    <tag k="name:ru" v="Бантеаймеантьей"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="de:Banteay Meanchey"/>
   </relation>
@@ -34610,6 +34713,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Siem Reap"/>
     <tag k="type" v="boundary"/>
+    <tag k="wikipedia" v="de:Siem Reap (Provinz)"/>
   </relation>
   <relation id="2200402">
     <tag k="ISO3166-2" v="KH-22"/>
@@ -34629,7 +34733,9 @@
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Otdar Meanchey"/>
+    <tag k="name:ru" v="Оддармеантьей"/>
     <tag k="type" v="boundary"/>
+    <tag k="wikipedia" v="de:Oddar Meanchey"/>
   </relation>
   <relation id="2200442">
     <tag k="ISO3166-2" v="KH-3"/>
@@ -34637,6 +34743,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Kampong Cham"/>
     <tag k="type" v="boundary"/>
+    <tag k="wikipedia" v="de:Kampong Cham (Provinz)"/>
   </relation>
   <relation id="2200450">
     <tag k="ISO3166-2" v="KH-11"/>
@@ -34644,6 +34751,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Mondulkiri"/>
     <tag k="type" v="boundary"/>
+    <tag k="wikipedia" v="de:Mondulkiri"/>
   </relation>
   <relation id="2200456">
     <tag k="ISO3166-2" v="KH-10"/>
@@ -34652,6 +34760,7 @@
     <tag k="name" v="Kratie"/>
     <tag k="name:en" v="Kratie"/>
     <tag k="type" v="boundary"/>
+    <tag k="wikipedia" v="de:Kratie (Provinz)"/>
   </relation>
   <relation id="2200477">
     <tag k="ISO3166-2" v="KH-14"/>
@@ -34659,6 +34768,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Prey Veng"/>
     <tag k="type" v="boundary"/>
+    <tag k="wikipedia" v="de:Prey Veng (Provinz)"/>
   </relation>
   <relation id="2209344">
     <tag k="admin_level" v="4"/>
@@ -34680,6 +34790,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Kampong Speu"/>
     <tag k="type" v="boundary"/>
+    <tag k="wikipedia" v="de:Kampong Speu (Provinz)"/>
   </relation>
   <relation id="2216724">
     <tag k="addr:country" v="UZ"/>
@@ -35046,6 +35157,7 @@
     <tag k="iso3166-2" v="VE-F"/>
     <tag k="name" v="Estado Bolívar"/>
     <tag k="name:es" v="Estado Bolívar"/>
+    <tag k="name:ru" v="Боливар"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="es:Bolívar (Venezuela)"/>
   </relation>
@@ -35075,6 +35187,7 @@
     <tag k="name" v="Amazonas"/>
     <tag k="name:en" v="Amazonas State"/>
     <tag k="name:es" v="Estado Amazonas"/>
+    <tag k="name:ru" v="Амасонас"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="en:Amazonas, Venezuela"/>
   </relation>
@@ -35377,6 +35490,7 @@
     <tag k="name" v="Svay Rieng"/>
     <tag k="name:en" v="Svay Rieng"/>
     <tag k="type" v="boundary"/>
+    <tag k="wikipedia" v="de:Svay Rieng (Provinz)"/>
   </relation>
   <relation id="2304454">
     <tag k="ISO3166-2" v="KR-47"/>
@@ -35579,6 +35693,7 @@
     <tag k="name" v="New South Wales"/>
     <tag k="name:de" v="Neusüdwales"/>
     <tag k="name:lt" v="Naujasis Pietų Velsas"/>
+    <tag k="name:ru" v="Новый Южный Уэльс"/>
     <tag k="name:sl" v="Novi južni Wales"/>
     <tag k="ref" v="NSW"/>
     <tag k="timezone" v="Australia/Sydney"/>
@@ -35593,6 +35708,7 @@
     <tag k="name" v="Northern Territory"/>
     <tag k="name:de" v="Nordterritorium"/>
     <tag k="name:lt" v="Šiaurinė Teritorija"/>
+    <tag k="name:ru" v="Северная территория"/>
     <tag k="name:sl" v="Severno ozemlje"/>
     <tag k="ref" v="NT"/>
     <tag k="timezone" v="Australia/Darwin"/>
@@ -35607,6 +35723,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Queensland"/>
     <tag k="name:lt" v="Kvinslandas"/>
+    <tag k="name:ru" v="Квинсленд"/>
     <tag k="ref" v="QLD"/>
     <tag k="timezone" v="Australia/Brisbane"/>
     <tag k="type" v="boundary"/>
@@ -35620,6 +35737,7 @@
     <tag k="name" v="South Australia"/>
     <tag k="name:de" v="Südaustralien"/>
     <tag k="name:lt" v="Pietų Australija"/>
+    <tag k="name:ru" v="Южная Австралия"/>
     <tag k="ref" v="SA"/>
     <tag k="timezone" v="Australia/Adelaide"/>
     <tag k="type" v="boundary"/>
@@ -35633,6 +35751,7 @@
     <tag k="name" v="Western Australia"/>
     <tag k="name:de" v="Westaustralien"/>
     <tag k="name:lt" v="Vakarų Australija"/>
+    <tag k="name:ru" v="Западная Австралия"/>
     <tag k="ref" v="WA"/>
     <tag k="timezone" v="Australia/Perth"/>
     <tag k="type" v="boundary"/>
@@ -35645,6 +35764,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Victoria"/>
     <tag k="name:lt" v="Viktorija"/>
+    <tag k="name:ru" v="Виктория"/>
     <tag k="note" v="border to be separated from riverbank (OSM community recommendation)"/>
     <tag k="ref" v="VIC"/>
     <tag k="timezone" v="Australia/Melbourne"/>
@@ -36242,40 +36362,13 @@
     <tag k="name" v="Tasmania"/>
     <tag k="name:de" v="Tasmanien"/>
     <tag k="name:lt" v="Tasmanija"/>
+    <tag k="name:ru" v="Тасмания"/>
     <tag k="name:sl" v="Tasmanija"/>
     <tag k="ref" v="TAS"/>
     <tag k="timezone" v="Australia/Hobart"/>
     <tag k="type" v="boundary"/>
     <tag k="website" v="www.tas.gov.au"/>
     <tag k="wikipedia" v="en:Tasmania"/>
-  </relation>
-  <relation id="2374762">
-    <tag k="admin_level" v="4"/>
-    <tag k="alt_name:ca" v="República de l'Alt Karabakh"/>
-    <tag k="boundary" v="administrative"/>
-    <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/8/8d/Flag_of_Nagorno-Karabakh.svg"/>
-    <tag k="int_name" v="Nagorno-Karabakh Republic"/>
-    <tag k="name" v="Լեռնային Ղարաբաղի Հանրապետություն"/>
-    <tag k="name:av" v="МугІрузул Карабах Республика"/>
-    <tag k="name:az" v="Dağlıq Qarabağ"/>
-    <tag k="name:ca" v="República d'Artsakh"/>
-    <tag k="name:de" v="Republik Bergkarabach"/>
-    <tag k="name:diq" v="Cumhuriyetê Qerebağê Kohıstani"/>
-    <tag k="name:en" v="Nagorno-Karabakh Republic"/>
-    <tag k="name:es" v="República de Nagorno Karabaj"/>
-    <tag k="name:fr" v="République de Haut-Karabagh"/>
-    <tag k="name:hy" v="Լեռնային Ղարաբաղի Հանրապետություն"/>
-    <tag k="name:ka" v="მთიანი ყარაბაღის რესპუბლიკა"/>
-    <tag k="name:pl" v="Republika Górskiego Karabachu"/>
-    <tag k="name:pt" v="República do Nagorno-Karabakh"/>
-    <tag k="name:ro" v="Republica Karabahul de Munte"/>
-    <tag k="name:ru" v="Нагорно-Карабахская Республика"/>
-    <tag k="name:tr" v="Dağlık Karabağ"/>
-    <tag k="name:uk" v="Нагірно-Карабаська Республіка"/>
-    <tag k="name:uz" v="Togʻli Qorabogʻ Respublikasi"/>
-    <tag k="type" v="boundary"/>
-    <tag k="wikidata" v="Q244165"/>
-    <tag k="wikipedia" v="en:Nagorno-Karabakh Republic"/>
   </relation>
   <relation id="2374831">
     <tag k="ISO3166-2" v="AZ-KAL"/>
@@ -36566,6 +36659,7 @@
     <tag k="name:de" v="Zentral-Java"/>
     <tag k="name:en" v="Central Java"/>
     <tag k="name:es" v="Java Central"/>
+    <tag k="name:ru" v="Центральная Ява"/>
     <tag k="ref" v="JT"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q3557"/>
@@ -36598,6 +36692,7 @@
     <tag k="name" v="Kalimantan Tengah"/>
     <tag k="name:de" v="Zentral-Kalimantan"/>
     <tag k="name:en" v="Central Kalimantan"/>
+    <tag k="name:ru" v="Центральный Калимантан"/>
     <tag k="ref" v="KT"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q3891"/>
@@ -36609,6 +36704,7 @@
     <tag k="name" v="Kalimantan Selatan"/>
     <tag k="name:de" v="Süd-Kalimantan"/>
     <tag k="name:en" v="South Kalimantan"/>
+    <tag k="name:ru" v="Южный Калимантан"/>
     <tag k="ref" v="KS"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q3906"/>
@@ -36620,6 +36716,7 @@
     <tag k="name" v="Kalimantan Barat"/>
     <tag k="name:de" v="West-Kalimantan"/>
     <tag k="name:en" v="West Kalimantan"/>
+    <tag k="name:ru" v="Западный Калимантан"/>
     <tag k="ref" v="KB"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q3916"/>
@@ -36647,6 +36744,7 @@
     <tag k="name" v="Sulawesi Tengah"/>
     <tag k="name:de" v="Zentral-Sulawesi"/>
     <tag k="name:en" v="Central Sulawesi"/>
+    <tag k="name:ru" v="Центральный Сулавеси"/>
     <tag k="ref" v="ST"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q5065"/>
@@ -36667,6 +36765,7 @@
     <tag k="name" v="Sulawesi Utara"/>
     <tag k="name:de" v="Nord-Sulawesi"/>
     <tag k="name:en" v="North Sulawesi"/>
+    <tag k="name:ru" v="Северный Сулавеси"/>
     <tag k="ref" v="SA"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q5068"/>
@@ -36678,6 +36777,7 @@
     <tag k="name" v="Sulawesi Selatan"/>
     <tag k="name:de" v="Süd-Sulawesi"/>
     <tag k="name:en" v="South Sulawesi"/>
+    <tag k="name:ru" v="Южный Сулавеси"/>
     <tag k="ref" v="SN"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q5078"/>
@@ -36689,6 +36789,7 @@
     <tag k="name" v="Sulawesi Tenggara"/>
     <tag k="name:de" v="Südost-Sulawesi"/>
     <tag k="name:en" v="Southeast Sulawesi"/>
+    <tag k="name:ru" v="Юго-Восточный Сулавеси"/>
     <tag k="ref" v="SG"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q5075"/>
@@ -36709,6 +36810,7 @@
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Aceh"/>
+    <tag k="name:ru" v="Ачех"/>
     <tag k="ref" v="AC"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q1823"/>
@@ -36745,6 +36847,7 @@
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Riau"/>
+    <tag k="name:ru" v="Риау"/>
     <tag k="ref" v="RI"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="id:Riau"/>
@@ -36756,6 +36859,7 @@
     <tag k="name" v="Sumatera Barat"/>
     <tag k="name:de" v="West-Sumatra"/>
     <tag k="name:en" v="West Sumatra"/>
+    <tag k="name:ru" v="Западная Суматра"/>
     <tag k="ref" v="SB"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q2772"/>
@@ -36778,6 +36882,7 @@
     <tag k="name" v="Sumatera Utara"/>
     <tag k="name:de" v="Nord-Sumatra"/>
     <tag k="name:en" v="North Sumatra"/>
+    <tag k="name:ru" v="Северная Суматра"/>
     <tag k="ref" v="SU"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q2140"/>
@@ -37027,6 +37132,7 @@
     <tag k="name" v="Nusa Tenggara Timur"/>
     <tag k="name:de" v="Ost-Nusa Tenggara"/>
     <tag k="name:en" v="East Nusa Tenggara"/>
+    <tag k="name:ru" v="Восточные Малые Зондские острова"/>
     <tag k="ref" v="NT"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q5061"/>
@@ -37036,6 +37142,7 @@
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Maluku"/>
+    <tag k="name:ru" v="Малуку"/>
     <tag k="ref" v="MA"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q5093"/>
@@ -37047,6 +37154,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Maluku Utara"/>
     <tag k="name:en" v="North Maluku"/>
+    <tag k="name:ru" v="Северное Малуку"/>
     <tag k="ref" v="MU"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q5094"/>
@@ -39005,6 +39113,7 @@
     <tag k="name" v="Est"/>
     <tag k="name:de" v="Ost"/>
     <tag k="name:en" v="East"/>
+    <tag k="name:ru" v="Восточный регион"/>
     <tag k="ref:COG" v="ES"/>
     <tag k="short_name" v="ES"/>
     <tag k="source" v="Institut National de Cartographie"/>
@@ -39380,6 +39489,7 @@
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Niassa"/>
+    <tag k="name:ru" v="Ньяса"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="pt:Niassa (província)"/>
   </relation>
@@ -39429,6 +39539,7 @@
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Tete"/>
+    <tag k="name:ru" v="Тете"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="pt:Tete (província)"/>
   </relation>
@@ -39472,6 +39583,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Mafraq"/>
     <tag k="name:ar" v="المفرق‎"/>
+    <tag k="name:ru" v="Эль-Мафрак"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q854871"/>
   </relation>
@@ -39487,6 +39599,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Irbid"/>
     <tag k="name:he" v="אירביד"/>
+    <tag k="name:ru" v="Ирбид"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="en:Irbid Governorate"/>
   </relation>
@@ -39502,6 +39615,7 @@
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Aqaba"/>
+    <tag k="name:ru" v="Акаба"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="en:Aqaba Governorate"/>
   </relation>
@@ -40006,6 +40120,7 @@
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Zambézia"/>
+    <tag k="name:ru" v="Замбезия"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="pt:Zambézia"/>
   </relation>
@@ -40857,6 +40972,7 @@
     <tag k="name" v="Coral Sea Islands Territory"/>
     <tag k="name:de" v="Korallenmeerinseln"/>
     <tag k="name:fr" v="Territoire des Îles de la Mer de Corail"/>
+    <tag k="name:ru" v="Острова Кораллового моря"/>
     <tag k="type" v="boundary"/>
   </relation>
   <relation id="3227316">
@@ -40871,6 +40987,8 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Eastern Province"/>
     <tag k="name:de" v="Östliche Provinz"/>
+    <tag k="name:en" v="Eastern Province"/>
+    <tag k="name:lt" v="Rytų provincija"/>
     <tag k="name:ru" v="Восточная провинция"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="en:Eastern Province, Sierra Leone"/>
@@ -41154,6 +41272,7 @@
     <tag k="name:hi" v="तेलंगाना"/>
     <tag k="name:kn" v="ತೆಲಂಗಾಣ"/>
     <tag k="name:mr" v="तेलंगणा"/>
+    <tag k="name:ru" v="Телангана"/>
     <tag k="name:ta" v="தெலுங்கானா"/>
     <tag k="name:te" v="తెలంగాణ"/>
     <tag k="ref" v="TG"/>
@@ -41707,6 +41826,8 @@
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Lofa County"/>
+    <tag k="name:en" v="Lofa County"/>
+    <tag k="name:lt" v="Lofos apskritis"/>
     <tag k="ref" v="LO"/>
     <tag k="state_code" v="LO"/>
     <tag k="type" v="boundary"/>
@@ -42061,6 +42182,7 @@
     <tag k="is_in:country" v="Bolivia"/>
     <tag k="is_in:country_code" v="BO"/>
     <tag k="name" v="Santa Cruz"/>
+    <tag k="name:ru" v="Санта-Крус"/>
     <tag k="official_name" v="Departamento de Santa Cruz"/>
     <tag k="official_name:en" v="Santa Cruz Department"/>
     <tag k="place" v="state"/>
@@ -42517,6 +42639,8 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Région de Nzérékoré"/>
     <tag k="name:en" v="Nzérékoré Region"/>
+    <tag k="name:fr" v="Région de Nzérékoré"/>
+    <tag k="name:lt" v="Nzerekorės regionas"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="fr:Région de Nzérékoré"/>
   </relation>
@@ -42875,6 +42999,7 @@
     <tag k="name" v="Jawa Timur"/>
     <tag k="name:de" v="Ost-Java"/>
     <tag k="name:en" v="East Java"/>
+    <tag k="name:ru" v="Восточная Ява"/>
     <tag k="population" v="37476757"/>
     <tag k="ref" v="JI"/>
     <tag k="source:population" v="http://id.wikipedia.org/wiki/Provinsi_Indonesia"/>
@@ -43823,6 +43948,7 @@
     <tag k="ISO3166-2" v="AR-X"/>
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
+    <tag k="is_in:country" v="Argentina"/>
     <tag k="name" v="Córdoba"/>
     <tag k="name:de" v="Provinz Córdoba"/>
     <tag k="name:en" v="Córdoba"/>
@@ -44051,6 +44177,7 @@
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Équateur"/>
+    <tag k="name:ru" v="Экваториальная провинция"/>
     <tag k="type" v="boundary"/>
   </relation>
   <relation id="3652285">
@@ -44058,6 +44185,7 @@
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Orientale"/>
+    <tag k="name:ru" v="Восточная провинция"/>
     <tag k="type" v="boundary"/>
   </relation>
   <relation id="3652335">
@@ -44065,6 +44193,8 @@
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Bandundu"/>
+    <tag k="name:en" v="Bandundu"/>
+    <tag k="name:ru" v="Бандунду"/>
     <tag k="type" v="boundary"/>
   </relation>
   <relation id="3652419">
@@ -44072,6 +44202,7 @@
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Katanga"/>
+    <tag k="name:ru" v="Катанга"/>
     <tag k="type" v="boundary"/>
   </relation>
   <relation id="3654543">
@@ -44209,8 +44340,10 @@
     <tag k="name" v="تبوك"/>
     <tag k="name:de" v="Provinz Tabuk"/>
     <tag k="name:en" v="Tabuk Region"/>
+    <tag k="name:hu" v="Tabúk tartomány"/>
     <tag k="name:ru" v="Табук"/>
     <tag k="type" v="boundary"/>
+    <tag k="wikipedia" v="en:Tabuk Region"/>
   </relation>
   <relation id="3679869">
     <tag k="ISO3166-2" v="SA-03"/>
@@ -44524,6 +44657,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Tbong Khmum"/>
     <tag k="type" v="boundary"/>
+    <tag k="wikipedia" v="de:Tbong Khmum (Provinz)"/>
   </relation>
   <relation id="3715359">
     <tag k="ISO3166-2" v="NG-AK"/>
@@ -44964,6 +45098,7 @@
     <tag k="name" v="محافظة الفيوم"/>
     <tag k="name:de" v="Faiyum"/>
     <tag k="name:en" v="Faiyum Governorate"/>
+    <tag k="name:hu" v="Fajjúm Kormányzóság"/>
     <tag k="name:ru" v="Файюм"/>
     <tag k="type" v="boundary"/>
   </relation>
@@ -45972,6 +46107,7 @@
     <tag k="name" v="Janub Kurdufan"/>
     <tag k="name:ar" v="جنوب كردفان"/>
     <tag k="name:en" v="South Kordofan"/>
+    <tag k="name:ru" v="Южный Кордофан"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q465490"/>
   </relation>
@@ -46000,6 +46136,8 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Nahr an-Nil"/>
     <tag k="name:ar" v="ولاية نهر النيل"/>
+    <tag k="name:en" v="River Nile"/>
+    <tag k="name:ru" v="Нил"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q849297"/>
   </relation>
@@ -46022,6 +46160,7 @@
     <tag k="name" v="Shamal Darfur"/>
     <tag k="name:ar" v="شمال دارفور"/>
     <tag k="name:en" v="North Darfur State"/>
+    <tag k="name:ru" v="Северный Дарфур"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q688306"/>
   </relation>
@@ -46031,6 +46170,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Shamal Kurdufan"/>
     <tag k="name:ar" v="شمال كردفان"/>
+    <tag k="name:ru" v="Северный Кордофан"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q864093"/>
   </relation>
@@ -46057,11 +46197,13 @@
   <relation id="3774672">
     <tag k="ISO3166-2" v="SD-RS"/>
     <tag k="admin_level" v="4"/>
+    <tag k="alt_name:en" v="al-Bahr al-ahmar"/>
     <tag k="boundary" v="administrative"/>
     <tag k="is_in" v="Sudan"/>
     <tag k="name" v="Al Baḩr al Aḩmar"/>
     <tag k="name:ar" v="البحر الأحمر"/>
-    <tag k="name:en" v="al-Bahr al-ahmar"/>
+    <tag k="name:en" v="Red Sea"/>
+    <tag k="name:ru" v="Красное Море"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q310120"/>
   </relation>
@@ -46118,6 +46260,8 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="ash-Shamaliyah"/>
     <tag k="name:ar" v="الشمالية"/>
+    <tag k="name:en" v="Northern State"/>
+    <tag k="name:ru" v="Северная провинция"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q310118"/>
   </relation>
@@ -46449,6 +46593,7 @@
     <tag k="name" v="محافظة ظفار"/>
     <tag k="name:de" v="Dhofar"/>
     <tag k="name:en" v="Dhofar"/>
+    <tag k="name:ru" v="Дофар"/>
     <tag k="ref" v="ZU"/>
     <tag k="state_code" v="ZU"/>
     <tag k="type" v="boundary"/>
@@ -46497,7 +46642,6 @@
     <tag k="name:uk" v="Севастополь"/>
     <tag k="note" v="administrative unit of Russia, not to be confused with claimed administrative unit of Ukraine"/>
     <tag k="official_status" v="ru:город федерального значения"/>
-    <tag k="ref" v="92"/>
     <tag k="timezone" v="Europe/Simferopol"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Административно-территориальное деление города федерального значения Севастополя"/>
@@ -46897,7 +47041,6 @@
     <tag k="name:tr" v="Kırım Cumhuriyeti"/>
     <tag k="name:uk" v="Республіка Крим"/>
     <tag k="note" v="administrative unit of Russia, not to be confused with Autonomous Republic of Crimea - claimed administrative unit of Ukraine"/>
-    <tag k="ref" v="82"/>
     <tag k="timezone" v="Europe/Simferopol"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q15966495"/>
@@ -46959,6 +47102,8 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Kepulauan Bangka Belitung"/>
     <tag k="name:de" v="Bangka-Belitung"/>
+    <tag k="name:en" v="Bangka-Belitung Islands"/>
+    <tag k="name:ru" v="Банка-Белитунг"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q1866"/>
   </relation>
@@ -46968,6 +47113,8 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Kepulauan Riau"/>
     <tag k="name:de" v="Riauinseln"/>
+    <tag k="name:en" v="Riau Islands"/>
+    <tag k="name:ru" v="Острова Риау"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q2223"/>
   </relation>
@@ -47332,6 +47479,8 @@
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Sarawak"/>
+    <tag k="name:en" v="Sarawak"/>
+    <tag k="name:ru" v="Саравак"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q170462"/>
   </relation>
@@ -47931,6 +48080,7 @@
     <tag k="name" v="Kelantan / کلنتن دار النعيم"/>
     <tag k="name:en" v="Kelantan"/>
     <tag k="name:ms" v="Negeri Kelantan"/>
+    <tag k="name:ru" v="Келантан"/>
     <tag k="name:th" v="รัฐกลันตัน"/>
     <tag k="place" v="state"/>
     <tag k="type" v="boundary"/>
@@ -47984,6 +48134,7 @@
     <tag k="name" v="Kedah / قدح"/>
     <tag k="name:en" v="Kedah"/>
     <tag k="name:ms" v="Negeri Kedah"/>
+    <tag k="name:ru" v="Кедах"/>
     <tag k="name:th" v="รัฐเกดะห์"/>
     <tag k="name:zh" v="吉打"/>
     <tag k="old_name" v="Kadaram"/>
@@ -48157,6 +48308,7 @@
     <tag k="contact:website" v="http://www.potosi.gob.bo/"/>
     <tag k="flag" v="https://upload.wikimedia.org/wikipedia/commons/9/94/Flag_of_potosi.svg"/>
     <tag k="name" v="Potosí"/>
+    <tag k="name:ru" v="Потоси"/>
     <tag k="official_name" v="Departamento de Potosí"/>
     <tag k="place" v="state"/>
     <tag k="population" v="823517"/>
@@ -48174,6 +48326,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Papua"/>
     <tag k="name:en" v="Papua"/>
+    <tag k="name:ru" v="Папуа"/>
     <tag k="ref" v="PA"/>
     <tag k="source" v="http://en.wikipedia.org/wiki/File:Irjabar.jpg"/>
     <tag k="type" v="boundary"/>
@@ -48184,6 +48337,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Papua Barat"/>
     <tag k="name:en" v="West Papua"/>
+    <tag k="name:ru" v="Западное Папуа"/>
     <tag k="ref" v="PB"/>
     <tag k="source" v="http://en.wikipedia.org/wiki/File:Irjabar.jpg"/>
     <tag k="type" v="boundary"/>
@@ -48368,6 +48522,13 @@
     <tag k="scgis-shp:source" v="DNR SCDBASE PRK"/>
     <tag k="scgis-shp:uuid" v="5ac00053-d81a-4c20-8606-f41b069938c8"/>
     <tag k="type" v="multipolygon"/>
+  </relation>
+  <relation id="4604142">
+    <tag k="admin_level" v="4"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="Vahe Hihifo"/>
+    <tag k="source" v="DISTRICT AND TOWN OFFICERS ACT"/>
+    <tag k="type" v="boundary"/>
   </relation>
   <relation id="4604461">
     <tag k="admin_level" v="4"/>
@@ -48909,8 +49070,8 @@
     <tag k="wikipedia" v="fr:Béni Mellal-Khénifra"/>
   </relation>
   <relation id="4782250">
+    <tag k="ISO3166-2" v="ZA-EC"/>
     <tag k="admin_level" v="4"/>
-    <tag k="iso3166-2" v="ZA-EC"/>
     <tag k="land_area" v="administrative"/>
     <tag k="name" v="Eastern Cape"/>
     <tag k="name:de" v="Ostkap"/>
@@ -48918,15 +49079,17 @@
     <tag k="wikidata" v="Q130840"/>
   </relation>
   <relation id="4782251">
+    <tag k="ISO3166-2" v="ZA-NL"/>
     <tag k="admin_level" v="4"/>
-    <tag k="iso3166-2" v="ZA-NL"/>
     <tag k="land_area" v="administrative"/>
     <tag k="name" v="KwaZulu-Natal"/>
+    <tag k="name:ru" v="Квазулу-Наталь"/>
     <tag k="type" v="boundary"/>
+    <tag k="wikipedia" v="en:KwaZulu–Natal"/>
   </relation>
   <relation id="4782252">
+    <tag k="ISO3166-2" v="ZA-NC"/>
     <tag k="admin_level" v="4"/>
-    <tag k="iso3166-2" v="ZA-NC"/>
     <tag k="land_area" v="administrative"/>
     <tag k="name" v="Northern Cape"/>
     <tag k="name:de" v="Nordkap"/>
@@ -48935,8 +49098,8 @@
     <tag k="type" v="land_area"/>
   </relation>
   <relation id="4782253">
+    <tag k="ISO3166-2" v="ZA-WC"/>
     <tag k="admin_level" v="4"/>
-    <tag k="iso3166-2" v="ZA-WC"/>
     <tag k="land_area" v="administrative"/>
     <tag k="name" v="Western Cape"/>
     <tag k="name:de" v="Westkap"/>
@@ -48947,7 +49110,6 @@
   <relation id="4793625">
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="national_park"/>
-    <tag k="leisure" v="park"/>
     <tag k="name" v="Blake Island State Park"/>
     <tag k="protect_class" v="2"/>
     <tag k="source" v="http://www.parks.wa.gov/parks/thumbnailAndmaps/8150042.pdf"/>
@@ -49018,7 +49180,7 @@
     <tag k="name:lt" v="Šiaurės"/>
     <tag k="name:nl" v="Norte"/>
     <tag k="name:nn" v="Norte i Portugal"/>
-    <tag k="name:ru" v="Регион"/>
+    <tag k="name:ru" v="Северный регион"/>
     <tag k="name:sk" v="Norte"/>
     <tag k="name:sv" v="Norra"/>
     <tag k="name:tr" v="Norte bölgesi"/>
@@ -49036,6 +49198,7 @@
     <tag k="border_type" v="região"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Centro"/>
+    <tag k="name:ru" v="Центральный регион"/>
     <tag k="note" v="Enquanto não é oficialmente uma divisão administativa este elemento está mapeado devido à sua grande utilização pelo público em geral."/>
     <tag k="note:en" v="While not officially an administrative division it is mapped because of its current usage by the general public."/>
     <tag k="official_name" v="Região do Centro"/>
@@ -49057,15 +49220,28 @@
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="pt:Região de Lisboa"/>
   </relation>
+  <relation id="5411047">
+    <tag k="admin_level" v="4"/>
+    <tag k="boundary" v="national_park"/>
+    <tag k="ele" v="31"/>
+    <tag k="gnis:county_id" v="055"/>
+    <tag k="gnis:created" v="07/01/1990"/>
+    <tag k="gnis:feature_id" v="1513248"/>
+    <tag k="gnis:state_id" v="53"/>
+    <tag k="name" v="Jones Island State Park"/>
+    <tag k="type" v="boundary"/>
+  </relation>
   <relation id="5449459">
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Kalimantan Timur"/>
     <tag k="name:de" v="Ost-Kalimantan"/>
     <tag k="name:en" v="East Kalimantan"/>
+    <tag k="name:ru" v="Восточный Калимантан"/>
     <tag k="ref" v="KI"/>
     <tag k="source" v="https://en.wikipedia.org/wiki/East_Kalimantan"/>
     <tag k="type" v="boundary"/>
+    <tag k="wikipedia" v="id:Kalimantan Timur"/>
   </relation>
   <relation id="5449460">
     <tag k="admin_level" v="4"/>
@@ -49076,6 +49252,7 @@
     <tag k="ref" v="KU"/>
     <tag k="source" v="https://en.wikipedia.org/wiki/North_Kalimantan"/>
     <tag k="type" v="boundary"/>
+    <tag k="wikipedia" v="de:Nordkalimantan"/>
   </relation>
   <relation id="5466483">
     <tag k="admin_level" v="4"/>
@@ -49119,6 +49296,49 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Tỉnh Lạng Sơn"/>
     <tag k="name:en" v="Lang Son province"/>
+    <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="5559852">
+    <tag k="admin_level" v="4"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="Region de Anosy"/>
+    <tag k="name:fr" v="Region de Anosy"/>
+    <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="5583311">
+    <tag k="admin_level" v="4"/>
+    <tag k="boundary" v="national_park"/>
+    <tag k="leisure" v="nature_reserve"/>
+    <tag k="name" v="Burrows Island State Park"/>
+    <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="5583312">
+    <tag k="admin_level" v="4"/>
+    <tag k="boundary" v="national_park"/>
+    <tag k="leisure" v="nature_reserve"/>
+    <tag k="name" v="Iceberg Island State Park"/>
+    <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="5583313">
+    <tag k="admin_level" v="4"/>
+    <tag k="boundary" v="national_park"/>
+    <tag k="ele" v="22"/>
+    <tag k="gnis:county_id" v="055"/>
+    <tag k="gnis:created" v="09/10/1979"/>
+    <tag k="gnis:feature_id" v="1513937"/>
+    <tag k="gnis:state_id" v="53"/>
+    <tag k="name" v="James Island State Park"/>
+    <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="5583319">
+    <tag k="admin_level" v="4"/>
+    <tag k="boundary" v="national_park"/>
+    <tag k="ele" v="7"/>
+    <tag k="gnis:county_id" v="055"/>
+    <tag k="gnis:created" v="02/01/1991"/>
+    <tag k="gnis:feature_id" v="1513964"/>
+    <tag k="gnis:state_id" v="53"/>
+    <tag k="name" v="Posey Island State Park"/>
     <tag k="type" v="boundary"/>
   </relation>
   <relation id="2541341">
@@ -49195,7 +49415,7 @@
     <tag k="population:date" v="2015"/>
     <tag k="ref" v="ЦФО"/>
     <tag k="short_name" v="ЦФО"/>
-    <tag k="source" v="Bing"/>
+    <tag k="source" v="bing"/>
     <tag k="timezone" v="Asia/Kamchatka"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Центральный федеральный округ"/>
@@ -49359,7 +49579,7 @@
     <tag k="name:ru" v="Приволжский федеральный округ"/>
     <tag k="population" v="29736199"/>
     <tag k="ref" v="ПФО"/>
-    <tag k="source" v="Bing"/>
+    <tag k="source" v="bing"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Приволжский федеральный округ"/>
   </relation>
@@ -49419,6 +49639,7 @@
     <tag k="name:en" v="Olyokminsky Ulus"/>
     <tag k="name:ru" v="Олёкминский улус"/>
     <tag k="official_status" v="ru:муниципальный район"/>
+    <tag k="ref" v="98 241"/>
     <tag k="timezone" v="Asia/Yakutsk"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Олёкминский улус"/>
@@ -49926,11 +50147,10 @@
     <tag k="addr:country" v="RU"/>
     <tag k="addr:region" v="Чукотский автономный округ"/>
     <tag k="admin_level" v="6"/>
+    <tag k="alt_name" v="Иультинский район"/>
     <tag k="boundary" v="administrative"/>
-    <tag k="name" v="Иультинский район"/>
-    <tag k="name:en" v="Iultinsky District"/>
-    <tag k="name:ru" v="Иультинский район"/>
-    <tag k="official_status" v="ru:муниципальный район"/>
+    <tag k="name" v="городской округ Эгвекинот"/>
+    <tag k="official_status" v="ru:городской округ"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Иультинский район"/>
   </relation>
@@ -50371,6 +50591,7 @@
     <tag k="name:en" v="Shushensky Rayon"/>
     <tag k="name:ru" v="Шушенский район"/>
     <tag k="official_status" v="ru:муниципальный район"/>
+    <tag k="ref" v="04 259 551"/>
     <tag k="source" v="cadastre"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Шушенский район"/>
@@ -50913,8 +51134,8 @@
     <tag k="name:ru" v="Белоярский район"/>
     <tag k="official_status" v="ru:муниципальный район"/>
     <tag k="oktmo:user" v="71811000"/>
-    <tag k="population" v="29876"/>
-    <tag k="population:date" v="2014-01-01"/>
+    <tag k="population" v="29683"/>
+    <tag k="population:date" v="2015-01-01"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Белоярский район"/>
   </relation>
@@ -51034,8 +51255,8 @@
     <tag k="name:ru" v="Ханты-Мансийский район"/>
     <tag k="official_status" v="ru:муниципальный район"/>
     <tag k="oktmo:user" v="71829000"/>
-    <tag k="population" v="20056"/>
-    <tag k="population:date" v="2014-01-01"/>
+    <tag k="population" v="19727"/>
+    <tag k="population:date" v="2015-01-01"/>
     <tag k="type" v="boundary"/>
     <tag k="website" v="http://hmrn.ru/"/>
     <tag k="wikipedia" v="ru:Ханты-Мансийский район"/>
@@ -51327,6 +51548,8 @@
     <tag k="name:en" v="Salekhard Urban Okrug"/>
     <tag k="name:ru" v="городской округ Салехард"/>
     <tag k="official_status" v="ru:городской округ"/>
+    <tag k="population" v="48607"/>
+    <tag k="population:date" v="2015-01-01"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Салехард"/>
   </relation>
@@ -52182,6 +52405,7 @@
     <tag k="name:zh" v="资阳市"/>
     <tag k="name:zh_pinyin" v="Zīyáng Shì"/>
     <tag k="type" v="boundary"/>
+    <tag k="wikipedia" v="de:Ziyang"/>
   </relation>
   <relation id="2789344">
     <tag k="admin_level" v="5"/>
@@ -52248,6 +52472,7 @@
     <tag k="name:zh" v="自贡市"/>
     <tag k="name:zh_pinyin" v="Zìgòng Shì"/>
     <tag k="type" v="boundary"/>
+    <tag k="wikipedia" v="de:Zigong"/>
   </relation>
   <relation id="2791229">
     <tag k="admin_level" v="5"/>
@@ -53050,6 +53275,7 @@
     <tag k="name:en" v="Kanto"/>
     <tag k="name:ja" v="関東地方"/>
     <tag k="name:ja_kana" v="かんとうちほう"/>
+    <tag k="name:lt" v="Kanto regionas"/>
     <tag k="name:pl" v="Region Kantō"/>
     <tag k="name:ru" v="Канто"/>
     <tag k="name:uk" v="Регіон Канто"/>
@@ -53099,7 +53325,7 @@
     <tag k="name" v="Περιφέρεια Βόρειου Αιγαίου"/>
     <tag k="name:el" v="Περιφέρεια Βόρειου Αιγαίου"/>
     <tag k="name:en" v="North Aegean Region"/>
-    <tag k="name:ru" v="Северные Эгейские острова"/>
+    <tag k="name:ru" v="периферия Северные Эгейские острова"/>
     <tag k="population" v="199231"/>
     <tag k="source:population" v="ΕΛΣΤΑΤ 2011"/>
     <tag k="type" v="boundary"/>
@@ -53114,7 +53340,7 @@
     <tag k="name" v="Περιφέρεια Θεσσαλίας"/>
     <tag k="name:el" v="Περιφέρεια Θεσσαλίας"/>
     <tag k="name:en" v="Thessaly Region"/>
-    <tag k="name:ru" v="Фессалия"/>
+    <tag k="name:ru" v="периферия Фессалия"/>
     <tag k="population" v="732762"/>
     <tag k="source" v="geodata.gov.gr"/>
     <tag k="source:population" v="ΕΛΣΤΑΤ 2011"/>
@@ -53130,7 +53356,7 @@
     <tag k="name" v="Περιφέρεια Στερεάς Ελλάδας"/>
     <tag k="name:el" v="Περιφέρεια Στερεάς Ελλάδας"/>
     <tag k="name:en" v="Central Greece Region"/>
-    <tag k="name:ru" v="Центральная Греция"/>
+    <tag k="name:ru" v="периферия Центральная Греция"/>
     <tag k="population" v="547390"/>
     <tag k="source" v="geodata.gov.gr"/>
     <tag k="source:population" v="ΕΛΣΤΑΤ 2011"/>
@@ -53146,7 +53372,7 @@
     <tag k="name" v="Περιφέρεια Πελοποννήσου"/>
     <tag k="name:el" v="Περιφέρεια Πελοποννήσου"/>
     <tag k="name:en" v="Peloponnese Region"/>
-    <tag k="name:ru" v="Пелопоннес"/>
+    <tag k="name:ru" v="периферия Пелопоннес"/>
     <tag k="population" v="577903"/>
     <tag k="source" v="geodata.gov.gr"/>
     <tag k="source:population" v="ΕΛΣΤΑΤ 2011"/>
@@ -53161,7 +53387,7 @@
     <tag k="name" v="Περιφέρεια Νοτίου Αιγαίου"/>
     <tag k="name:el" v="Περιφέρεια Νοτίου Αιγαίου"/>
     <tag k="name:en" v="South Aegean Region"/>
-    <tag k="name:ru" v="Южные Эгейские острова"/>
+    <tag k="name:ru" v="периферия Южные Эгейские острова"/>
     <tag k="population" v="309015"/>
     <tag k="source:population" v="ΕΛΣΤΑΤ 2011"/>
     <tag k="type" v="boundary"/>
@@ -53176,7 +53402,7 @@
     <tag k="name" v="Περιφέρεια Κρήτης"/>
     <tag k="name:el" v="Περιφέρεια Κρήτης"/>
     <tag k="name:en" v="Crete Region"/>
-    <tag k="name:ru" v="Крит"/>
+    <tag k="name:ru" v="периферия Крит"/>
     <tag k="population" v="623065"/>
     <tag k="source:population" v="ΕΛΣΤΑΤ 2011"/>
     <tag k="type" v="boundary"/>
@@ -53190,7 +53416,7 @@
     <tag k="name" v="Περιφέρεια Κεντρικής Μακεδονίας"/>
     <tag k="name:el" v="Περιφέρεια Κεντρικής Μακεδονίας"/>
     <tag k="name:en" v="Central Macedonia Region"/>
-    <tag k="name:ru" v="Центральная Македония"/>
+    <tag k="name:ru" v="периферия Центральная Македония"/>
     <tag k="population" v="1882108"/>
     <tag k="source:population" v="ΕΛΣΤΑΤ 2011"/>
     <tag k="type" v="boundary"/>
@@ -53217,7 +53443,7 @@
     <tag k="name" v="Περιφέρεια Ηπείρου"/>
     <tag k="name:el" v="Περιφέρεια Ηπείρου"/>
     <tag k="name:en" v="Epirus Region"/>
-    <tag k="name:ru" v="Эпир"/>
+    <tag k="name:ru" v="периферия Эпир"/>
     <tag k="population" v="336856"/>
     <tag k="source" v="geodata.gov.gr"/>
     <tag k="source:population" v="ΕΛΣΤΑΤ 2011"/>
@@ -53234,7 +53460,7 @@
     <tag k="name" v="Περιφέρεια Ιόνιων νησιών"/>
     <tag k="name:el" v="Περιφέρεια Ιόνιων νησιών"/>
     <tag k="name:en" v="Ionian Islands Region"/>
-    <tag k="name:ru" v="Ионические острова"/>
+    <tag k="name:ru" v="периферия Ионические острова"/>
     <tag k="population" v="207855"/>
     <tag k="source:population" v="ΕΛΣΤΑΤ 2011"/>
     <tag k="type" v="boundary"/>
@@ -53249,7 +53475,7 @@
     <tag k="name" v="Περιφέρεια Δυτικής Μακεδονίας"/>
     <tag k="name:el" v="Περιφέρεια Δυτικής Μακεδονίας"/>
     <tag k="name:en" v="West Macedonia Region"/>
-    <tag k="name:ru" v="Западная Македония"/>
+    <tag k="name:ru" v="периферия Западная Македония"/>
     <tag k="population" v="283689"/>
     <tag k="source" v="geodata.gov.gr"/>
     <tag k="source:population" v="ΕΛΣΤΑΤ 2011"/>
@@ -53265,7 +53491,7 @@
     <tag k="name" v="Περιφέρεια Δυτικής Ελλάδας"/>
     <tag k="name:el" v="Περιφέρεια Δυτικής Ελλάδας"/>
     <tag k="name:en" v="West Greece Region"/>
-    <tag k="name:ru" v="Западная Греция"/>
+    <tag k="name:ru" v="периферия Западная Греция"/>
     <tag k="population" v="679796"/>
     <tag k="source" v="geodata.gov.gr"/>
     <tag k="source:population" v="ΕΛΣΤΑΤ 2011"/>
@@ -53281,7 +53507,7 @@
     <tag k="name:de" v="Attika"/>
     <tag k="name:el" v="Περιφέρεια Αττικής"/>
     <tag k="name:en" v="Attica"/>
-    <tag k="name:ru" v="Аттика"/>
+    <tag k="name:ru" v="периферия Аттика"/>
     <tag k="population" v="3828434"/>
     <tag k="source:population" v="ΕΛΣΤΑΤ 2011"/>
     <tag k="type" v="boundary"/>
@@ -53295,7 +53521,7 @@
     <tag k="name" v="Περιφέρεια Ανατολικής Μακεδονίας και Θράκης"/>
     <tag k="name:el" v="Περιφέρεια Ανατολικής Μακεδονίας και Θράκης"/>
     <tag k="name:en" v="East Macedonia and Thrace Region"/>
-    <tag k="name:ru" v="Восточная Македония и Фракия"/>
+    <tag k="name:ru" v="периферия Восточная Македония и Фракия"/>
     <tag k="population" v="608182"/>
     <tag k="source:population" v="ΕΛΣΤΑΤ 2011"/>
     <tag k="type" v="boundary"/>
@@ -53396,6 +53622,7 @@
     <tag k="wikipedia:hu" v="Dnyeszter Menti Köztársaság"/>
   </relation>
   <relation id="3561455">
+    <tag k="ISO3166-2" v="PH-05"/>
     <tag k="admin_level" v="3"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Bicol Region"/>
@@ -53403,24 +53630,28 @@
     <tag k="wikipedia" v="en:Bicol Region"/>
   </relation>
   <relation id="1552192">
+    <tag k="ISO3166-2" v="PH-02"/>
     <tag k="admin_level" v="3"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Cagayan Valley"/>
     <tag k="type" v="boundary"/>
   </relation>
   <relation id="1552120">
+    <tag k="ISO3166-2" v="PH-40"/>
     <tag k="admin_level" v="3"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Calabarzon"/>
     <tag k="type" v="boundary"/>
   </relation>
   <relation id="3870502">
+    <tag k="ISO3166-2" v="PH-13"/>
     <tag k="admin_level" v="3"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Caraga"/>
     <tag k="type" v="boundary"/>
   </relation>
   <relation id="1552195">
+    <tag k="ISO3166-2" v="PH-03"/>
     <tag k="admin_level" v="3"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Central Luzon"/>
@@ -53428,6 +53659,7 @@
     <tag k="wikipedia" v="en:Central Luzon"/>
   </relation>
   <relation id="3625910">
+    <tag k="ISO3166-2" v="PH-07"/>
     <tag k="admin_level" v="3"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Central Visayas"/>
@@ -53435,12 +53667,14 @@
     <tag k="wikidata" v="Q13669"/>
   </relation>
   <relation id="1552190">
+    <tag k="ISO3166-2" v="PH-15"/>
     <tag k="admin_level" v="3"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Cordillera Administrative Region"/>
     <tag k="type" v="boundary"/>
   </relation>
   <relation id="3936842">
+    <tag k="ISO3166-2" v="PH-11"/>
     <tag k="admin_level" v="3"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Davao"/>
@@ -53448,6 +53682,7 @@
     <tag k="wikidata" v="Q13694"/>
   </relation>
   <relation id="3759193">
+    <tag k="ISO3166-2" v="PH-08"/>
     <tag k="admin_level" v="3"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Eastern Visayas"/>
@@ -53455,6 +53690,7 @@
     <tag k="wikidata" v="Q13675"/>
   </relation>
   <relation id="1552186">
+    <tag k="ISO3166-2" v="PH-01"/>
     <tag k="admin_level" v="3"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Ilocos Region"/>
@@ -53468,6 +53704,7 @@
     <tag k="type" v="boundary"/>
   </relation>
   <relation id="1552261">
+    <tag k="ISO3166-2" v="PH-41"/>
     <tag k="admin_level" v="3"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Mimaropa"/>
@@ -53475,24 +53712,28 @@
     <tag k="wikipedia" v="en:MIMAROPA"/>
   </relation>
   <relation id="3821409">
+    <tag k="ISO3166-2" v="PH-14"/>
     <tag k="admin_level" v="3"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Autonomous Region in Muslim Mindanao"/>
     <tag k="type" v="boundary"/>
   </relation>
   <relation id="3873457">
+    <tag k="ISO3166-2" v="PH-10"/>
     <tag k="admin_level" v="3"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Northern Mindanao"/>
     <tag k="type" v="boundary"/>
   </relation>
   <relation id="3851570">
+    <tag k="ISO3166-2" v="PH-12"/>
     <tag k="admin_level" v="3"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Soccsksargen"/>
     <tag k="type" v="boundary"/>
   </relation>
   <relation id="3589982">
+    <tag k="ISO3166-2" v="PH-06"/>
     <tag k="admin_level" v="3"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Western Visayas"/>
@@ -53500,6 +53741,7 @@
     <tag k="wikidata" v="Q13665"/>
   </relation>
   <relation id="3777290">
+    <tag k="ISO3166-2" v="PH-09"/>
     <tag k="admin_level" v="3"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Zamboanga Peninsula"/>
@@ -53671,7 +53913,7 @@
     <tag k="name:tr" v="Doğu Anadolu Bölgesi"/>
     <tag k="name:uk" v="Східна Анатолія"/>
     <tag k="type" v="boundary"/>
-    <tag k="wikipedia" v="tr:Doğu_Anadolu_Bölgesi"/>
+    <tag k="wikipedia" v="tr:Doğu Anadolu Bölgesi"/>
   </relation>
   <relation id="2094193">
     <tag k="admin_level" v="3"/>

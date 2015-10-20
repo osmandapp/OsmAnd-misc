@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2015-09-30T12:32:02Z"/>
+<meta osm_base="2015-10-20T11:40:02Z"/>
 
   <node id="671022" lat="36.7014631" lon="-118.7559974">
     <tag k="alt_name:vi" v="California"/>
@@ -1918,14 +1918,6 @@
     <tag k="is_in:country_code" v="SN"/>
     <tag k="name" v="Fatick"/>
     <tag k="name:ru" v="Фатик"/>
-    <tag k="place" v="state"/>
-  </node>
-  <node id="293776140" lat="12.7159094" lon="-16.3297894">
-    <tag k="is_in" v="Senegal"/>
-    <tag k="is_in:country" v="Senegal"/>
-    <tag k="is_in:country_code" v="SN"/>
-    <tag k="name" v="Ziguinchor"/>
-    <tag k="name:ru" v="Зигиншор"/>
     <tag k="place" v="state"/>
   </node>
   <node id="304951004" lat="-31.8759835" lon="147.2869493">
@@ -9853,6 +9845,7 @@
     <tag k="wikipedia" v="en:Alaska"/>
   </node>
   <node id="474842895" lat="-29.5734020" lon="21.2051361">
+    <tag k="ISO3166-2" v="ZA-NC"/>
     <tag k="is_in" v="South Africa"/>
     <tag k="is_in:continent" v="Africa"/>
     <tag k="is_in:country" v="South Africa"/>
@@ -9876,6 +9869,7 @@
     <tag k="wikipedia" v="en:Northern Cape"/>
   </node>
   <node id="474842900" lat="-33.5469770" lon="20.7275300">
+    <tag k="ISO3166-2" v="ZA-WC"/>
     <tag k="is_in" v="South Africa"/>
     <tag k="is_in:continent" v="Africa"/>
     <tag k="is_in:country" v="South Africa"/>
@@ -9895,6 +9889,7 @@
     <tag k="ref" v="WC"/>
   </node>
   <node id="474842905" lat="-32.2171831" lon="26.6386401">
+    <tag k="ISO3166-2" v="ZA-EC"/>
     <tag k="is_in" v="South Africa"/>
     <tag k="is_in:continent" v="Africa"/>
     <tag k="is_in:country" v="South Africa"/>
@@ -12182,10 +12177,10 @@
     <tag k="wikipedia" v="de:Baden-Württemberg"/>
   </node>
   <node id="565666208" lat="53.5437641" lon="10.0099133">
+    <tag k="ISO3166-2" v="DE-HH"/>
     <tag k="is_in:continent" v="Europe"/>
     <tag k="is_in:country" v="Germany"/>
     <tag k="is_in:country_code" v="DE"/>
-    <tag k="iso3166-2" v="DE-HH"/>
     <tag k="name" v="Hamburg"/>
     <tag k="name:be" v="Гамбург"/>
     <tag k="name:cs" v="Hamburg"/>
@@ -13232,7 +13227,7 @@
     <tag k="population" v="2328959"/>
     <tag k="ref" v="ВОР"/>
     <tag k="ref:en" v="VOR"/>
-    <tag k="wikipedia" v="en:Voronezh Oblast"/>
+    <tag k="wikipedia" v="ru:Воронежская область"/>
   </node>
   <node id="648753999" lat="52.9019574" lon="41.3578918">
     <tag k="name" v="Тамбовская область"/>
@@ -14031,6 +14026,7 @@
     <tag k="ref" v="ДОН"/>
     <tag k="ref:en" v="DON"/>
     <tag k="ref:ru" v="ДОН"/>
+    <tag k="wikipedia" v="uk:Донецька область"/>
   </node>
   <node id="683681601" lat="49.2686240" lon="27.0635998">
     <tag k="is_in:country" v="Україна"/>
@@ -14531,7 +14527,7 @@
     <tag k="place" v="state"/>
     <tag k="ref" v="ВОГ"/>
     <tag k="ref:en" v="VGG"/>
-    <tag k="wikipedia" v="en:Volgograd Oblast"/>
+    <tag k="wikipedia" v="ru:Волгоградская область"/>
   </node>
   <node id="786882072" lat="47.1878186" lon="47.6088510">
     <tag k="is_in" v="Россия"/>
@@ -18575,9 +18571,9 @@
     <tag k="wikipedia" v="en:Sabah"/>
   </node>
   <node id="1781917313" lat="42.2276810" lon="13.8549830">
+    <tag k="ISO3166-2" v="IT-65"/>
     <tag k="is_in:country" v="Italy"/>
     <tag k="is_in:country_code" v="IT"/>
-    <tag k="iso3166-2" v="IT-65"/>
     <tag k="name" v="Abruzzo"/>
     <tag k="name:be" v="Абруца"/>
     <tag k="name:de" v="Abruzzen"/>
@@ -18596,9 +18592,9 @@
     <tag k="wikipedia" v="it:Abruzzo"/>
   </node>
   <node id="1781917314" lat="40.5005710" lon="16.0819530">
+    <tag k="ISO3166-2" v="IT-77"/>
     <tag k="is_in:country" v="Italy"/>
     <tag k="is_in:country_code" v="IT"/>
-    <tag k="iso3166-2" v="IT-77"/>
     <tag k="name" v="Basilicata"/>
     <tag k="name:be" v="Базіліката"/>
     <tag k="name:de" v="Basilikata"/>
@@ -18613,9 +18609,9 @@
     <tag k="short_name" v="BAS"/>
   </node>
   <node id="1781917315" lat="39.0565974" lon="16.5249864">
+    <tag k="ISO3166-2" v="IT-78"/>
     <tag k="is_in:country" v="Italy"/>
     <tag k="is_in:country_code" v="IT"/>
-    <tag k="iso3166-2" v="IT-78"/>
     <tag k="name" v="Calabria"/>
     <tag k="name:be" v="Калабрыя"/>
     <tag k="name:de" v="Kalabrien"/>
@@ -18634,9 +18630,9 @@
     <tag k="short_name" v="CAL"/>
   </node>
   <node id="1781917317" lat="40.8606720" lon="14.8439840">
+    <tag k="ISO3166-2" v="IT-72"/>
     <tag k="is_in:country" v="Italy"/>
     <tag k="is_in:country_code" v="IT"/>
-    <tag k="iso3166-2" v="IT-72"/>
     <tag k="name" v="Campania"/>
     <tag k="name:be" v="Кампанія"/>
     <tag k="name:de" v="Kampanien"/>
@@ -18653,9 +18649,9 @@
     <tag k="wikipedia" v="it:Campania"/>
   </node>
   <node id="1781917318" lat="44.5256960" lon="11.0394370">
+    <tag k="ISO3166-2" v="IT-45"/>
     <tag k="is_in:country" v="Italy"/>
     <tag k="is_in:country_code" v="IT"/>
-    <tag k="iso3166-2" v="IT-45"/>
     <tag k="name" v="Emilia-Romagna"/>
     <tag k="name:be" v="Эмілія-Раманья"/>
     <tag k="name:en" v="Emilia-Romagna"/>
@@ -18675,9 +18671,9 @@
     <tag k="wikipedia" v="it:Emilia-Romagna"/>
   </node>
   <node id="1781917320" lat="46.1510420" lon="13.0559040">
+    <tag k="ISO3166-2" v="IT-36"/>
     <tag k="is_in:country" v="Italy"/>
     <tag k="is_in:country_code" v="IT"/>
-    <tag k="iso3166-2" v="IT-36"/>
     <tag k="name" v="Friuli Venezia Giulia"/>
     <tag k="name:be" v="Фрыўлі-Венецыя-Джулія"/>
     <tag k="name:cs" v="Furlansko-Julské Benátsko"/>
@@ -18701,9 +18697,9 @@
     <tag k="short_name" v="FVG"/>
   </node>
   <node id="1781917321" lat="41.9808038" lon="12.7662312">
+    <tag k="ISO3166-2" v="IT-62"/>
     <tag k="is_in:country" v="Italy"/>
     <tag k="is_in:country_code" v="IT"/>
-    <tag k="iso3166-2" v="IT-62"/>
     <tag k="name" v="Lazio"/>
     <tag k="name:be" v="Лацыё"/>
     <tag k="name:de" v="Latium"/>
@@ -18723,9 +18719,9 @@
     <tag k="wikipedia" v="it:Lazio"/>
   </node>
   <node id="1781917322" lat="44.4777617" lon="8.7026296">
+    <tag k="ISO3166-2" v="IT-42"/>
     <tag k="is_in:country" v="Italy"/>
     <tag k="is_in:country_code" v="IT"/>
-    <tag k="iso3166-2" v="IT-42"/>
     <tag k="name" v="Liguria"/>
     <tag k="name:be" v="Лігурыя"/>
     <tag k="name:cs" v="Ligurie"/>
@@ -18745,9 +18741,9 @@
     <tag k="short_name" v="LIG"/>
   </node>
   <node id="1781917324" lat="45.6209000" lon="9.7688930">
+    <tag k="ISO3166-2" v="IT-25"/>
     <tag k="is_in:country" v="Italy"/>
     <tag k="is_in:country_code" v="IT"/>
-    <tag k="iso3166-2" v="IT-25"/>
     <tag k="name" v="Lombardia"/>
     <tag k="name:be" v="Ламбардыя"/>
     <tag k="name:de" v="Lombardei"/>
@@ -18767,9 +18763,9 @@
     <tag k="wikipedia" v="it:Lombardia"/>
   </node>
   <node id="1781917325" lat="43.3458388" lon="13.1415872">
+    <tag k="ISO3166-2" v="IT-57"/>
     <tag k="is_in:country" v="Italy"/>
     <tag k="is_in:country_code" v="IT"/>
-    <tag k="iso3166-2" v="IT-57"/>
     <tag k="name" v="Marche"/>
     <tag k="name:be" v="Марке"/>
     <tag k="name:de" v="Marken"/>
@@ -18789,9 +18785,9 @@
     <tag k="short_name" v="MAR"/>
   </node>
   <node id="1781917326" lat="41.6846720" lon="14.5956140">
+    <tag k="ISO3166-2" v="IT-67"/>
     <tag k="is_in:country" v="Italy"/>
     <tag k="is_in:country_code" v="IT"/>
-    <tag k="iso3166-2" v="IT-67"/>
     <tag k="name" v="Molise"/>
     <tag k="name:be" v="Малізэ"/>
     <tag k="name:de" v="Molise"/>
@@ -18811,9 +18807,9 @@
     <tag k="wikipedia" v="it:Molise"/>
   </node>
   <node id="1781917328" lat="45.0607350" lon="7.9235490">
+    <tag k="ISO3166-2" v="IT-21"/>
     <tag k="is_in:country" v="Italy"/>
     <tag k="is_in:country_code" v="IT"/>
-    <tag k="iso3166-2" v="IT-21"/>
     <tag k="name" v="Piemonte"/>
     <tag k="name:be" v="П'емонт"/>
     <tag k="name:de" v="Piemont"/>
@@ -18830,9 +18826,9 @@
     <tag k="short_name" v="PIE"/>
   </node>
   <node id="1781917329" lat="40.9842660" lon="16.6210360">
+    <tag k="ISO3166-2" v="IT-75"/>
     <tag k="is_in:country" v="Italy"/>
     <tag k="is_in:country_code" v="IT"/>
-    <tag k="iso3166-2" v="IT-75"/>
     <tag k="name" v="Puglia"/>
     <tag k="name:be" v="Апулія"/>
     <tag k="name:cs" v="Apulie"/>
@@ -18853,9 +18849,9 @@
     <tag k="short_name" v="PUG"/>
   </node>
   <node id="1781917331" lat="40.0912813" lon="9.0305773">
+    <tag k="ISO3166-2" v="IT-88"/>
     <tag k="is_in:country" v="Italy"/>
     <tag k="is_in:country_code" v="IT"/>
-    <tag k="iso3166-2" v="IT-88"/>
     <tag k="name" v="Sardegna"/>
     <tag k="name:be" v="Сардзінія"/>
     <tag k="name:cs" v="Sardinie"/>
@@ -18880,9 +18876,9 @@
     <tag k="short_name" v="SAR"/>
   </node>
   <node id="1781917332" lat="37.5877940" lon="14.1550480">
+    <tag k="ISO3166-2" v="IT-82"/>
     <tag k="is_in:country" v="Italy"/>
     <tag k="is_in:country_code" v="IT"/>
-    <tag k="iso3166-2" v="IT-82"/>
     <tag k="name" v="Sicilia"/>
     <tag k="name:be" v="Сіцылія"/>
     <tag k="name:de" v="Sizilien"/>
@@ -18903,9 +18899,9 @@
     <tag k="short_name" v="SIC"/>
   </node>
   <node id="1781917334" lat="43.4586541" lon="11.1389204">
+    <tag k="ISO3166-2" v="IT-52"/>
     <tag k="is_in:country" v="Italy"/>
     <tag k="is_in:country_code" v="IT"/>
-    <tag k="iso3166-2" v="IT-52"/>
     <tag k="name" v="Toscana"/>
     <tag k="name:be" v="Таскана"/>
     <tag k="name:cs" v="Toskánsko"/>
@@ -18927,9 +18923,9 @@
     <tag k="short_name" v="TOS"/>
   </node>
   <node id="1781917335" lat="46.4414720" lon="11.2821210">
+    <tag k="ISO3166-2" v="IT-32"/>
     <tag k="is_in:country" v="Italy"/>
     <tag k="is_in:country_code" v="IT"/>
-    <tag k="iso3166-2" v="IT-32"/>
     <tag k="name" v="Trentino-Alto Adige/Südtirol"/>
     <tag k="name:be" v="Трэнціна-Альта-Адыджэ"/>
     <tag k="name:de" v="Trentino-Südtirol"/>
@@ -18947,9 +18943,9 @@
     <tag k="wikipedia" v="it:Trentino-Alto Adige"/>
   </node>
   <node id="1781917337" lat="42.9659160" lon="12.4902360">
+    <tag k="ISO3166-2" v="IT-55"/>
     <tag k="is_in:country" v="Italy"/>
     <tag k="is_in:country_code" v="IT"/>
-    <tag k="iso3166-2" v="IT-55"/>
     <tag k="name" v="Umbria"/>
     <tag k="name:be" v="Умбрыя"/>
     <tag k="name:de" v="Umbrien"/>
@@ -18966,9 +18962,9 @@
     <tag k="short_name" v="UMB"/>
   </node>
   <node id="1781917338" lat="45.7300990" lon="7.3874260">
+    <tag k="ISO3166-2" v="IT-23"/>
     <tag k="is_in:country" v="Italy"/>
     <tag k="is_in:country_code" v="IT"/>
-    <tag k="iso3166-2" v="IT-23"/>
     <tag k="name" v="Valle d'Aosta"/>
     <tag k="name:be" v="Вале-д’Аоста"/>
     <tag k="name:de" v="Aostatal"/>
@@ -18983,9 +18979,9 @@
     <tag k="short_name" v="VDA"/>
   </node>
   <node id="1781917344" lat="45.6476663" lon="11.8665254">
+    <tag k="ISO3166-2" v="IT-34"/>
     <tag k="is_in:country" v="Italy"/>
     <tag k="is_in:country_code" v="IT"/>
-    <tag k="iso3166-2" v="IT-34"/>
     <tag k="name" v="Veneto"/>
     <tag k="name:bar" v="Venezien"/>
     <tag k="name:be" v="Венета"/>
@@ -21580,6 +21576,7 @@
     <tag k="name:en" v="Arunachal Pradesh"/>
     <tag k="name:hi" v="अरुणाचल प्रदेश"/>
     <tag k="name:hu" v="Arunácsal Prades"/>
+    <tag k="name:kn" v="ಅರುಣಾಚಲ ಪ್ರದೇಶ"/>
     <tag k="name:ru" v="Аруначал-Прадеш"/>
     <tag k="name:uk" v="Аруначал-Прадеш"/>
     <tag k="name:zh" v="藏南地区"/>
@@ -21590,6 +21587,8 @@
     <tag k="place" v="state"/>
     <tag k="ref" v="AR"/>
     <tag k="state_code" v="AR"/>
+    <tag k="wikidata" v="Q1162"/>
+    <tag k="wikipedia:en" v="Arunachal Pradesh"/>
   </node>
   <node id="2240851570" lat="26.4073841" lon="93.2551303">
     <tag k="is_in:continent" v="Asia"/>
@@ -21613,14 +21612,88 @@
     <tag k="is_in:country" v="India"/>
     <tag k="is_in:country_code" v="IN"/>
     <tag k="name" v="Manipur"/>
+    <tag k="name:ace" v="Manipur"/>
+    <tag k="name:af" v="Manipoer"/>
+    <tag k="name:ar" v="مانيبور"/>
+    <tag k="name:as" v="মণিপুৰ"/>
+    <tag k="name:be" v="Маніпур"/>
+    <tag k="name:bg" v="Манипур"/>
+    <tag k="name:bh" v="मणिपुर"/>
+    <tag k="name:bn" v="মণিপুর"/>
+    <tag k="name:bo" v="མཱ་ནི་པུར།"/>
+    <tag k="name:bpy" v="মণিপুর"/>
+    <tag k="name:br" v="Manipur"/>
+    <tag k="name:ca" v="Manipur"/>
+    <tag k="name:ce" v="Манипу́р"/>
+    <tag k="name:cs" v="Manípur"/>
+    <tag k="name:cy" v="Manipur"/>
+    <tag k="name:da" v="Manipur"/>
+    <tag k="name:dv" v="މަނިޕޫރު"/>
+    <tag k="name:el" v="Μανιπούρ"/>
     <tag k="name:en" v="Manipur"/>
+    <tag k="name:eo" v="Manipuro"/>
+    <tag k="name:es" v="Manipur"/>
+    <tag k="name:et" v="Manipur"/>
+    <tag k="name:eu" v="Manipur"/>
+    <tag k="name:fa" v="مانیپور"/>
+    <tag k="name:fi" v="Manipur"/>
     <tag k="name:fr" v="Manipur"/>
+    <tag k="name:ga" v="Manipur"/>
+    <tag k="name:gu" v="મણિપુર"/>
+    <tag k="name:he" v="מניפור"/>
     <tag k="name:hi" v="मणिपुर"/>
+    <tag k="name:hif" v="Manipur"/>
+    <tag k="name:hr" v="Manipur"/>
     <tag k="name:hu" v="Manipur"/>
+    <tag k="name:id" v="Manipur"/>
+    <tag k="name:is" v="Kanglapak"/>
+    <tag k="name:it" v="Manipur"/>
+    <tag k="name:ja" v="マニプル州"/>
+    <tag k="name:ka" v="მანიპური"/>
     <tag k="name:kn" v="ಮಣಿಪುರ"/>
-    <tag k="name:mni" v="মণিপুর"/>
+    <tag k="name:ko" v="마니푸르 주"/>
+    <tag k="name:ks" v="منی پور"/>
+    <tag k="name:la" v="Maṇipura"/>
+    <tag k="name:lt" v="Manipuras"/>
+    <tag k="name:lv" v="Manipura"/>
+    <tag k="name:mg" v="Manipur"/>
+    <tag k="name:mk" v="Манипур"/>
+    <tag k="name:ml" v="മണിപ്പൂർ"/>
+    <tag k="name:mr" v="मणिपूर"/>
+    <tag k="name:ms" v="Manipur"/>
+    <tag k="name:my" v="မဏိပူရပြည်နယ်"/>
+    <tag k="name:ne" v="मणिपुर"/>
+    <tag k="name:new" v="मणिपुर"/>
+    <tag k="name:nl" v="Manipur"/>
+    <tag k="name:nn" v="Manipur"/>
+    <tag k="name:no" v="Manipur"/>
+    <tag k="name:oc" v="Manipor"/>
+    <tag k="name:or" v="ମଣିପୁର"/>
+    <tag k="name:pa" v="ਮਨੀਪੁਰ"/>
+    <tag k="name:pam" v="Manipur"/>
+    <tag k="name:pl" v="Manipur"/>
+    <tag k="name:pnb" v="منیپور"/>
+    <tag k="name:pt" v="Manipur"/>
+    <tag k="name:ro" v="Manipur"/>
     <tag k="name:ru" v="Манипур"/>
+    <tag k="name:sa" v="मणिपुरराज्यम्"/>
+    <tag k="name:sh" v="Manipur"/>
+    <tag k="name:sk" v="Manípur"/>
+    <tag k="name:sr" v="Манипур"/>
+    <tag k="name:sv" v="Manipur"/>
+    <tag k="name:sw" v="Manipur"/>
+    <tag k="name:ta" v="மணிப்பூர்"/>
+    <tag k="name:te" v="మణిపూర్"/>
+    <tag k="name:th" v="รัฐมณีปุระ"/>
+    <tag k="name:tr" v="Manipur"/>
     <tag k="name:uk" v="Маніпур"/>
+    <tag k="name:ur" v="منی پور"/>
+    <tag k="name:uz" v="Manipur"/>
+    <tag k="name:vi" v="Manipur"/>
+    <tag k="name:war" v="Manipur"/>
+    <tag k="name:xmf" v="მანიპური"/>
+    <tag k="name:yo" v="Manipur"/>
+    <tag k="name:zh" v="曼尼普尔邦"/>
     <tag k="place" v="state"/>
     <tag k="ref" v="MN"/>
     <tag k="state_code" v="MN"/>
@@ -21909,13 +21982,6 @@
     <tag k="is_in:country" v="Senegal"/>
     <tag k="is_in:country_code" v="SN"/>
     <tag k="name" v="Kaolack"/>
-    <tag k="place" v="state"/>
-  </node>
-  <node id="2242821242" lat="12.9595085" lon="-14.5858583">
-    <tag k="is_in" v="Senegal"/>
-    <tag k="is_in:country" v="Senegal"/>
-    <tag k="is_in:country_code" v="SN"/>
-    <tag k="name" v="Kolda"/>
     <tag k="place" v="state"/>
   </node>
   <node id="2242821243" lat="12.9961531" lon="-12.3145112">
@@ -24241,7 +24307,7 @@
   </node>
   <node id="2894839376" lat="40.3321222" lon="36.3844640">
     <tag k="is_in" v="Turkey"/>
-    <tag k="name" v="Tokat"/>
+    <tag k="name" v="Tokat İli"/>
     <tag k="name:en" v="Tokat"/>
     <tag k="name:ru" v="Токат"/>
     <tag k="name:tr" v="Tokat"/>
