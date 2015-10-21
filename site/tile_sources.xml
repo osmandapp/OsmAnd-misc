@@ -101,6 +101,12 @@
   <tile_source name="OpenRailwayMap maxspeed" url_template="http://tiles.openrailwaymap.org/maxspeed/{0}/{1}/{2}.png" ext=".png" min_zoom="4" max_zoom="19" tile_size="512" img_density="16" avg_img_size="32000"/>
   <tile_source name="OpenRailwayMap signalling" url_template="http://tiles.openrailwaymap.org/signals/{0}/{1}/{2}.png" ext=".png" min_zoom="4" max_zoom="19" tile_size="512" img_density="16" avg_img_size="32000"/>
 
+  <tile_source name="Waymarkedtrails Hiking" url_template="http://tile.waymarkedtrails.org/hiking/{0}/{1}/{2}.png" ext=".png" min_zoom="1" max_zoom="18" tile_size="256" img_density="16" avg_img_size="2000"/>
+  <tile_source name="Waymarkedtrails Cycling" url_template="http://tile.waymarkedtrails.org/cycling/{0}/{1}/{2}.png" ext=".png" min_zoom="1" max_zoom="18" tile_size="256" img_density="16" avg_img_size="2000"/>
+  <tile_source name="Waymarkedtrails MTB" url_template="http://tile.waymarkedtrails.org/mtb/{0}/{1}/{2}.png" ext=".png" min_zoom="1" max_zoom="18" tile_size="256" img_density="16" avg_img_size="2000"/>
+  <tile_source name="Waymarkedtrails Riding" url_template="http://tile.waymarkedtrails.org/riding/{0}/{1}/{2}.png" ext=".png" min_zoom="1" max_zoom="18" tile_size="256" img_density="16" avg_img_size="2000"/>
+  <tile_source name="Waymarkedtrails Winter Sports" url_template="http://tile.waymarkedtrails.org/slopemap/{0}/{1}/{2}.png" ext=".png" min_zoom="1" max_zoom="18" tile_size="256" img_density="16" avg_img_size="2000"/>
+  
 
 <!--
 	// WMS layers : http://whoots.mapwarper.net/tms/{$z}/{$x}/{$y}/ {layer}/{Path}
