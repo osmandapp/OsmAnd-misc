@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2015-10-20T11:40:02Z" areas="2015-10-19T09:40:02Z"/>
+<meta osm_base="2015-10-23T18:01:02Z" areas="2015-10-22T19:22:02Z"/>
 
   <relation id="8636">
     <tag k="ISO3166-2" v="FR-A"/>
@@ -4448,7 +4448,7 @@
     <tag k="name:zh" v="顿涅茨克州"/>
     <tag k="name:zh-min-nan" v="Doneczk séng"/>
     <tag k="place" v="state"/>
-    <tag k="population" v="4356392"/>
+    <tag k="population" v="4275935"/>
     <tag k="ref" v="ДОН"/>
     <tag k="ref:en" v="DON"/>
     <tag k="ref:ru" v="ДОН"/>
@@ -6181,6 +6181,7 @@
     <tag k="border_type" v="region"/>
     <tag k="boundary" v="administrative"/>
     <tag k="cladr:code" v="6100000000000"/>
+    <tag k="gost_7.67-2003" v="РОФ-РОС"/>
     <tag k="int_name" v="Rostov Oblast"/>
     <tag k="int_ref" v="RU-ROS"/>
     <tag k="is_in:continent" v="Europe"/>
@@ -6236,7 +6237,9 @@
     <tag k="name:zh" v="罗斯托夫州"/>
     <tag k="official_status" v="ru:область"/>
     <tag k="population" v="4245598"/>
-    <tag k="ref" v="RU-ROS"/>
+    <tag k="ref" v="РОС"/>
+    <tag k="ref:en" v="ROS"/>
+    <tag k="ref:ru" v="РОС"/>
     <tag k="timezone" v="Europe/Moscow"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Ростовская область"/>
@@ -6860,6 +6863,7 @@
     <tag k="name:zh" v="第聂伯罗彼得罗夫斯克州"/>
     <tag k="name:zh-min-nan" v="Dnipropetrovsk séng"/>
     <tag k="place" v="state"/>
+    <tag k="population" v="3261974"/>
     <tag k="ref" v="ДНП"/>
     <tag k="ref:en" v="DNP"/>
     <tag k="ref:ru" v="ДНП"/>
@@ -8494,6 +8498,7 @@
     <tag k="wikipedia" v="ru:Новосибирская область"/>
   </relation>
   <relation id="140295">
+    <tag k="addr:country" v="RU"/>
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
     <tag k="int_ref" v="RU-TOM"/>
@@ -13414,6 +13419,7 @@
     <tag k="name:ja" v="ヴァルミア＝マズールィ県"/>
     <tag k="name:lt" v="Varmijos Mozūrų vaivadija"/>
     <tag k="name:nl" v="Ermland-Mazurië"/>
+    <tag k="name:pl" v="województwo warmińsko-mazurskie"/>
     <tag k="name:pt" v="Voivodia da Vármia-Masúria"/>
     <tag k="name:ru" v="Варминско-Мазурское воеводство"/>
     <tag k="name:sl" v="Varminsko-Mazursko vojvodstvo"/>
@@ -29742,8 +29748,9 @@
     <tag k="ISO3166-2" v="GW-BL"/>
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
-    <tag k="name" v="Bolama"/>
+    <tag k="name" v="Região de Bolama"/>
     <tag k="type" v="boundary"/>
+    <tag k="wikipedia" v="pt:Bolama"/>
   </relation>
   <relation id="1761582">
     <tag k="ISO3166-2" v="GW-CA"/>
@@ -29763,14 +29770,14 @@
     <tag k="ISO3166-2" v="GW-OI"/>
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
-    <tag k="name" v="Oio"/>
+    <tag k="name" v="Região de Oio"/>
     <tag k="type" v="boundary"/>
   </relation>
   <relation id="1761585">
     <tag k="ISO3166-2" v="GW-QU"/>
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
-    <tag k="name" v="Quinara"/>
+    <tag k="name" v="Região de Quinara"/>
     <tag k="type" v="boundary"/>
   </relation>
   <relation id="1761586">
@@ -39561,6 +39568,8 @@
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Balqa"/>
+    <tag k="name:en" v="Balqa"/>
+    <tag k="name:ru" v="Эль-Балка"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="en:Balqa Governorate"/>
   </relation>
@@ -39568,6 +39577,8 @@
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Zarqa"/>
+    <tag k="name:en" v="Zarqa"/>
+    <tag k="name:ru" v="Эз-Зарка"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q721445"/>
   </relation>
@@ -39575,6 +39586,8 @@
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Jarash"/>
+    <tag k="name:en" v="Jerash"/>
+    <tag k="name:ru" v="Джараш"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q750270"/>
   </relation>
@@ -39583,6 +39596,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Mafraq"/>
     <tag k="name:ar" v="المفرق‎"/>
+    <tag k="name:en" v="Mafraq"/>
     <tag k="name:ru" v="Эль-Мафрак"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q854871"/>
@@ -39591,6 +39605,8 @@
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Ajloun"/>
+    <tag k="name:en" v="Ajlun"/>
+    <tag k="name:ru" v="Аджлун"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="en:Ajloun Governorate"/>
   </relation>
@@ -39598,6 +39614,7 @@
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Irbid"/>
+    <tag k="name:en" v="Irbid"/>
     <tag k="name:he" v="אירביד"/>
     <tag k="name:ru" v="Ирбид"/>
     <tag k="type" v="boundary"/>
@@ -39608,6 +39625,8 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Amman"/>
     <tag k="name:ar" v="‏محافظة العاصمة‎"/>
+    <tag k="name:en" v="Amman"/>
+    <tag k="name:ru" v="Амман"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q472788"/>
   </relation>
@@ -39615,6 +39634,7 @@
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Aqaba"/>
+    <tag k="name:en" v="Aqaba"/>
     <tag k="name:ru" v="Акаба"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="en:Aqaba Governorate"/>
@@ -39623,7 +39643,9 @@
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Karak"/>
+    <tag k="name:en" v="Kerak"/>
     <tag k="name:he" v="כרכ"/>
+    <tag k="name:ru" v="Эль-Карак"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="en:Karak Governorate"/>
   </relation>
@@ -39631,7 +39653,9 @@
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Ma'an"/>
+    <tag k="name:en" v="Ma’an"/>
     <tag k="name:he" v="מעאן"/>
+    <tag k="name:ru" v="Маан"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="en:Ma'an Governorate"/>
   </relation>
@@ -39641,6 +39665,7 @@
     <tag k="name" v="Madaba"/>
     <tag k="name:en" v="Madaba"/>
     <tag k="name:he" v="מידבא"/>
+    <tag k="name:ru" v="Мадаба"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="en:Madaba Governorate"/>
   </relation>
@@ -39650,6 +39675,8 @@
     <tag k="name" v="Tafilah"/>
     <tag k="name:ar" v="الطفيلة‎"/>
     <tag k="name:de" v="Tafila"/>
+    <tag k="name:en" v="Tafilah"/>
+    <tag k="name:ru" v="Эт-Тафила"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q750259"/>
   </relation>
@@ -47422,7 +47449,7 @@
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Malé"/>
-    <tag k="name:div" v="މާލެ"/>
+    <tag k="name:dv" v="މާލެ"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q9347"/>
   </relation>
@@ -48216,7 +48243,7 @@
     <tag k="contact:website" v="http://www.apdattikis.gov.gr/"/>
     <tag k="name" v="Αποκεντρωμένη Διοίκηση Αττικής"/>
     <tag k="name:el" v="Αποκεντρωμένη Διοίκηση Αττικής"/>
-    <tag k="name:en" v="Attica Administration"/>
+    <tag k="name:en" v="Decentralized Administration of Attica"/>
     <tag k="name:ru" v="Децентрализованная администрация Аттики"/>
     <tag k="population" v="3828434"/>
     <tag k="source:population" v="ΕΛΣΤΑΤ 2011"/>
@@ -48230,7 +48257,7 @@
     <tag k="contact:website" v="http://www.apdthest.gov.gr"/>
     <tag k="name" v="Αποκεντρωμένη Διοίκηση Θεσσαλίας - Στερεάς Ελλάδας"/>
     <tag k="name:el" v="Αποκεντρωμένη Διοίκηση Θεσσαλίας - Στερεάς Ελλάδας"/>
-    <tag k="name:en" v="Thessaly - Central Greece Administration"/>
+    <tag k="name:en" v="Decentralized Administration of Thessaly - Central Greece"/>
     <tag k="name:ru" v="Децентрализованная администрация Фессалии и Центральной Греции"/>
     <tag k="population" v="1280152"/>
     <tag k="source" v="geodata.gov.gr"/>
@@ -53339,7 +53366,7 @@
     <tag k="contact:website" v="http://www.pthes.gov.gr/"/>
     <tag k="name" v="Περιφέρεια Θεσσαλίας"/>
     <tag k="name:el" v="Περιφέρεια Θεσσαλίας"/>
-    <tag k="name:en" v="Thessaly Region"/>
+    <tag k="name:en" v="Region of Thessaly"/>
     <tag k="name:ru" v="периферия Фессалия"/>
     <tag k="population" v="732762"/>
     <tag k="source" v="geodata.gov.gr"/>
@@ -53355,7 +53382,7 @@
     <tag k="contact:website" v="http://www.pste.gov.gr"/>
     <tag k="name" v="Περιφέρεια Στερεάς Ελλάδας"/>
     <tag k="name:el" v="Περιφέρεια Στερεάς Ελλάδας"/>
-    <tag k="name:en" v="Central Greece Region"/>
+    <tag k="name:en" v="Region of Central Greece"/>
     <tag k="name:ru" v="периферия Центральная Греция"/>
     <tag k="population" v="547390"/>
     <tag k="source" v="geodata.gov.gr"/>
@@ -53506,13 +53533,12 @@
     <tag k="name" v="Περιφέρεια Αττικής"/>
     <tag k="name:de" v="Attika"/>
     <tag k="name:el" v="Περιφέρεια Αττικής"/>
-    <tag k="name:en" v="Attica"/>
+    <tag k="name:en" v="Region of Attica"/>
     <tag k="name:ru" v="периферия Аттика"/>
     <tag k="population" v="3828434"/>
     <tag k="source:population" v="ΕΛΣΤΑΤ 2011"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q758056"/>
-    <tag k="wikipedia" v="el:Αποκεντρωμένη Διοίκηση Αττικής"/>
   </relation>
   <relation id="937937">
     <tag k="ISO3166-2" v="GR-A"/>

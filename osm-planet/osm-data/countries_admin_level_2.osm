@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2015-10-20T11:39:01Z"/>
+<meta osm_base="2015-10-23T18:01:02Z"/>
 
   <relation id="9407">
     <tag k="ISO3166-1" v="AD"/>
@@ -35225,7 +35225,8 @@
     <tag k="ISO3166-1:alpha3" v="PSE"/>
     <tag k="ISO3166-1:numeric" v="275"/>
     <tag k="admin_level" v="2"/>
-    <tag k="boundary" v="disputed"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="disputed" v="yes"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/0/00/Flag_of_Palestine.svg"/>
     <tag k="is_in:continent" v="Asia"/>
     <tag k="name:bs" v="Palestina"/>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2015-10-20T11:40:02Z"/>
+<meta osm_base="2015-10-23T18:01:02Z"/>
 
   <node id="671022" lat="36.7014631" lon="-118.7559974">
     <tag k="alt_name:vi" v="California"/>
@@ -1778,10 +1778,10 @@
     <tag k="wikipedia" v="fr:Mayotte"/>
   </node>
   <node id="249420307" lat="-0.0606899" lon="-90.6738980">
+    <tag k="ISO3166-2" v="EC-W"/>
     <tag k="gns_classification" v="ADM1"/>
     <tag k="is_in:country" v="Ecuador"/>
     <tag k="is_in:country_code" v="EC"/>
-    <tag k="iso3166-2" v="EC-W"/>
     <tag k="name" v="Galápagos"/>
     <tag k="name:cs" v="Galapágy"/>
     <tag k="name:ku" v="Giravên Galapagosê"/>
@@ -1793,10 +1793,10 @@
     <tag k="state_code" v="GA"/>
   </node>
   <node id="249420312" lat="-2.0000000" lon="-80.0000000">
+    <tag k="ISO3166-2" v="EC-G"/>
     <tag k="gns_classification" v="ADM1"/>
     <tag k="is_in:country" v="Ecuador"/>
     <tag k="is_in:country_code" v="EC"/>
-    <tag k="iso3166-2" v="EC-G"/>
     <tag k="name" v="Guayas"/>
     <tag k="name:ru" v="Гуаяс"/>
     <tag k="place" v="state"/>
@@ -1804,10 +1804,10 @@
     <tag k="source" v="GNS"/>
   </node>
   <node id="249420393" lat="-1.9166670" lon="-77.0000000">
+    <tag k="ISO3166-2" v="EC-Y"/>
     <tag k="gns_classification" v="ADM1"/>
     <tag k="is_in:country" v="Ecuador"/>
     <tag k="is_in:country_code" v="EC"/>
-    <tag k="iso3166-2" v="EC-Y"/>
     <tag k="name" v="Pastaza"/>
     <tag k="name:ru" v="Пастаса"/>
     <tag k="place" v="state"/>
@@ -1815,10 +1815,10 @@
     <tag k="source" v="GNS"/>
   </node>
   <node id="249420465" lat="-0.0391380" lon="-76.5119678">
+    <tag k="ISO3166-2" v="EC-U"/>
     <tag k="gns_classification" v="ADM1"/>
     <tag k="is_in:country" v="Ecuador"/>
     <tag k="is_in:country_code" v="EC"/>
-    <tag k="iso3166-2" v="EC-U"/>
     <tag k="name" v="Sucumbíos"/>
     <tag k="name:ru" v="Сукумбиос"/>
     <tag k="place" v="state"/>
@@ -9294,10 +9294,10 @@
     <tag k="wikipedia" v="fr:Polynésie française"/>
   </node>
   <node id="470256961" lat="-0.7626471" lon="-77.9701878">
+    <tag k="ISO3166-2" v="EC-N"/>
     <tag k="gns_classification" v="ADM1"/>
     <tag k="is_in:country" v="Ecuador"/>
     <tag k="is_in:country_code" v="EC"/>
-    <tag k="iso3166-2" v="EC-N"/>
     <tag k="name" v="Napo"/>
     <tag k="name:ru" v="Напо"/>
     <tag k="place" v="state"/>
@@ -9305,10 +9305,10 @@
     <tag k="source" v="GNS"/>
   </node>
   <node id="470257133" lat="-0.7861800" lon="-76.4803184">
+    <tag k="ISO3166-2" v="EC-D"/>
     <tag k="gns_classification" v="ADM1"/>
     <tag k="is_in:country" v="Ecuador"/>
     <tag k="is_in:country_code" v="EC"/>
-    <tag k="iso3166-2" v="EC-D"/>
     <tag k="name" v="Orellana"/>
     <tag k="name:ru" v="Орельяна"/>
     <tag k="place" v="state"/>
@@ -9316,10 +9316,10 @@
     <tag k="source" v="GNS"/>
   </node>
   <node id="470260937" lat="-2.6232969" lon="-78.0048106">
+    <tag k="ISO3166-2" v="EC-S"/>
     <tag k="gns_classification" v="ADM1"/>
     <tag k="is_in:country" v="Ecuador"/>
     <tag k="is_in:country_code" v="EC"/>
-    <tag k="iso3166-2" v="EC-S"/>
     <tag k="name" v="Morona Santiago"/>
     <tag k="name:ru" v="Морона-Сантьяго"/>
     <tag k="place" v="state"/>
@@ -9327,10 +9327,10 @@
     <tag k="source" v="GNS"/>
   </node>
   <node id="470261838" lat="-4.0620183" lon="-78.7751588">
+    <tag k="ISO3166-2" v="EC-Z"/>
     <tag k="gns_classification" v="ADM1"/>
     <tag k="is_in:country" v="Ecuador"/>
     <tag k="is_in:country_code" v="EC"/>
-    <tag k="iso3166-2" v="EC-Z"/>
     <tag k="name" v="Zamora Chinchipe"/>
     <tag k="name:ru" v="Самора-Чинчипе"/>
     <tag k="place" v="state"/>
@@ -9338,10 +9338,10 @@
     <tag k="source" v="GNS"/>
   </node>
   <node id="470265002" lat="-4.0528506" lon="-79.8053425">
+    <tag k="ISO3166-2" v="EC-L"/>
     <tag k="gns_classification" v="ADM1"/>
     <tag k="is_in:country" v="Ecuador"/>
     <tag k="is_in:country_code" v="EC"/>
-    <tag k="iso3166-2" v="EC-L"/>
     <tag k="name" v="Loja"/>
     <tag k="name:ru" v="Лоха"/>
     <tag k="place" v="state"/>
@@ -9349,10 +9349,10 @@
     <tag k="source" v="GNS"/>
   </node>
   <node id="470265571" lat="-3.5311093" lon="-79.8333234">
+    <tag k="ISO3166-2" v="EC-O"/>
     <tag k="gns_classification" v="ADM1"/>
     <tag k="is_in:country" v="Ecuador"/>
     <tag k="is_in:country_code" v="EC"/>
-    <tag k="iso3166-2" v="EC-O"/>
     <tag k="name" v="El Oro"/>
     <tag k="name:ru" v="Эль-Оро"/>
     <tag k="place" v="state"/>
@@ -9360,10 +9360,10 @@
     <tag k="source" v="GNS"/>
   </node>
   <node id="470265856" lat="-3.0524451" lon="-79.2395135">
+    <tag k="ISO3166-2" v="EC-A"/>
     <tag k="gns_classification" v="ADM1"/>
     <tag k="is_in:country" v="Ecuador"/>
     <tag k="is_in:country_code" v="EC"/>
-    <tag k="iso3166-2" v="EC-A"/>
     <tag k="name" v="Azuay"/>
     <tag k="name:ru" v="Асуай"/>
     <tag k="place" v="state"/>
@@ -9372,10 +9372,10 @@
     <tag k="wikipedia" v="en:Azuay Province"/>
   </node>
   <node id="470284543" lat="-2.5744840" lon="-78.9804678">
+    <tag k="ISO3166-2" v="EC-F"/>
     <tag k="gns_classification" v="ADM1"/>
     <tag k="is_in:country" v="Ecuador"/>
     <tag k="is_in:country_code" v="EC"/>
-    <tag k="iso3166-2" v="EC-F"/>
     <tag k="name" v="Cañar"/>
     <tag k="name:ru" v="Каньяр"/>
     <tag k="place" v="state"/>
@@ -9396,10 +9396,10 @@
     <tag k="wikipedia:de" v="http://de.wikipedia.org/wiki/Santa_Elena_(Provinz)"/>
   </node>
   <node id="470285642" lat="-1.9262626" lon="-78.7297799">
+    <tag k="ISO3166-2" v="EC-H"/>
     <tag k="gns_classification" v="ADM1"/>
     <tag k="is_in:country" v="Ecuador"/>
     <tag k="is_in:country_code" v="EC"/>
-    <tag k="iso3166-2" v="EC-H"/>
     <tag k="name" v="Chimborazo"/>
     <tag k="name:ru" v="Чимборасо"/>
     <tag k="place" v="state"/>
@@ -9407,10 +9407,10 @@
     <tag k="source" v="GNS"/>
   </node>
   <node id="470286087" lat="-1.3866800" lon="-79.0427155">
+    <tag k="ISO3166-2" v="EC-B"/>
     <tag k="gns_classification" v="ADM1"/>
     <tag k="is_in:country" v="Ecuador"/>
     <tag k="is_in:country_code" v="EC"/>
-    <tag k="iso3166-2" v="EC-B"/>
     <tag k="name" v="Bolívar"/>
     <tag k="name:ru" v="Боливар"/>
     <tag k="place" v="state"/>
@@ -9418,10 +9418,10 @@
     <tag k="source" v="GNS"/>
   </node>
   <node id="470287016" lat="-1.2765895" lon="-78.4754667">
+    <tag k="ISO3166-2" v="EC-T"/>
     <tag k="gns_classification" v="ADM1"/>
     <tag k="is_in:country" v="Ecuador"/>
     <tag k="is_in:country_code" v="EC"/>
-    <tag k="iso3166-2" v="EC-T"/>
     <tag k="name" v="Tungurahua"/>
     <tag k="name:ru" v="Тункурагуа"/>
     <tag k="place" v="state"/>
@@ -9429,10 +9429,10 @@
     <tag k="source" v="GNS"/>
   </node>
   <node id="470287322" lat="-0.8268521" lon="-78.8937757">
+    <tag k="ISO3166-2" v="EC-X"/>
     <tag k="gns_classification" v="ADM1"/>
     <tag k="is_in:country" v="Ecuador"/>
     <tag k="is_in:country_code" v="EC"/>
-    <tag k="iso3166-2" v="EC-X"/>
     <tag k="name" v="Cotopaxi"/>
     <tag k="name:ru" v="Котопакси"/>
     <tag k="place" v="state"/>
@@ -9440,10 +9440,10 @@
     <tag k="source" v="bing, own surveys, locals"/>
   </node>
   <node id="470287874" lat="0.7343619" lon="-79.3858867">
+    <tag k="ISO3166-2" v="EC-E"/>
     <tag k="gns_classification" v="ADM1"/>
     <tag k="is_in:country" v="Ecuador"/>
     <tag k="is_in:country_code" v="EC"/>
-    <tag k="iso3166-2" v="EC-E"/>
     <tag k="name" v="Esmeraldas"/>
     <tag k="name:ru" v="Эсмеральдас"/>
     <tag k="place" v="state"/>
@@ -9451,10 +9451,10 @@
     <tag k="source" v="GNS"/>
   </node>
   <node id="470290033" lat="-0.0584893" lon="-78.3284371">
+    <tag k="ISO3166-2" v="EC-P"/>
     <tag k="gns_classification" v="ADM1"/>
     <tag k="is_in:country" v="Ecuador"/>
     <tag k="is_in:country_code" v="EC"/>
-    <tag k="iso3166-2" v="EC-P"/>
     <tag k="name" v="Pichincha"/>
     <tag k="name:ru" v="Пичинча"/>
     <tag k="place" v="state"/>
@@ -9462,10 +9462,10 @@
     <tag k="source" v="GNS"/>
   </node>
   <node id="470293880" lat="0.3753621" lon="-78.3556810">
+    <tag k="ISO3166-2" v="EC-I"/>
     <tag k="gns_classification" v="ADM1"/>
     <tag k="is_in:country" v="Ecuador"/>
     <tag k="is_in:country_code" v="EC"/>
-    <tag k="iso3166-2" v="EC-I"/>
     <tag k="name" v="Imbabura"/>
     <tag k="name:ru" v="Имбабура"/>
     <tag k="place" v="state"/>
@@ -9473,10 +9473,10 @@
     <tag k="source" v="GNS"/>
   </node>
   <node id="470295913" lat="0.8375163" lon="-78.2075154">
+    <tag k="ISO3166-2" v="EC-C"/>
     <tag k="gns_classification" v="ADM1"/>
     <tag k="is_in:country" v="Ecuador"/>
     <tag k="is_in:country_code" v="EC"/>
-    <tag k="iso3166-2" v="EC-C"/>
     <tag k="name" v="Carchi"/>
     <tag k="name:ru" v="Карчи"/>
     <tag k="place" v="state"/>
@@ -9484,10 +9484,10 @@
     <tag k="source" v="GNS"/>
   </node>
   <node id="470298090" lat="-1.4941273" lon="-79.5542485">
+    <tag k="ISO3166-2" v="EC-R"/>
     <tag k="gns_classification" v="ADM1"/>
     <tag k="is_in:country" v="Ecuador"/>
     <tag k="is_in:country_code" v="EC"/>
-    <tag k="iso3166-2" v="EC-R"/>
     <tag k="name" v="Los Ríos"/>
     <tag k="name:ru" v="Лос-Риос"/>
     <tag k="place" v="state"/>
@@ -9495,10 +9495,10 @@
     <tag k="source" v="GNS"/>
   </node>
   <node id="470298798" lat="-0.7588025" lon="-80.0612131">
+    <tag k="ISO3166-2" v="EC-M"/>
     <tag k="gns_classification" v="ADM1"/>
     <tag k="is_in:country" v="Ecuador"/>
     <tag k="is_in:country_code" v="EC"/>
-    <tag k="iso3166-2" v="EC-M"/>
     <tag k="name" v="Manabí"/>
     <tag k="name:ru" v="Манаби"/>
     <tag k="place" v="state"/>
@@ -14900,7 +14900,7 @@
   <node id="869576948" lat="43.0574916" lon="47.1332224">
     <tag k="is_in" v="Россия"/>
     <tag k="name" v="Дагестан"/>
-    <tag k="name:ava" v="Дагъистаналъул Республика"/>
+    <tag k="name:av" v="Дагъистаналъул Республика"/>
     <tag k="name:be" v="Дагестан"/>
     <tag k="name:de" v="Dagestan"/>
     <tag k="name:en" v="Dagestan"/>
@@ -22124,6 +22124,7 @@
     <tag k="name:it" v="Isole Ashmore e Cartier"/>
     <tag k="name:pt" v="Ilhas Ashmore e Cartier"/>
     <tag k="name:ro" v="Insulele Ashmore și Cartier"/>
+    <tag k="name:ru" v="Острова Ашмор и Картье"/>
     <tag k="name:vi" v="Quần đảo Ashmore và Cartier"/>
     <tag k="place" v="state"/>
   </node>
