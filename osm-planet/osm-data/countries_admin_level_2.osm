@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2015-10-23T18:01:02Z"/>
+<meta osm_base="2015-11-07T16:05:02Z"/>
 
   <relation id="9407">
     <tag k="ISO3166-1" v="AD"/>
@@ -1433,7 +1433,10 @@
     <tag k="name:zh" v="格鲁吉亚"/>
     <tag k="name:zh-min-nan" v="Sakartvelo"/>
     <tag k="name:zh-yue" v="格魯吉亞"/>
+    <tag k="population" v="3729500"/>
+    <tag k="population:date" v="2015"/>
     <tag k="relation" v="nation"/>
+    <tag k="source:population" v="wikipedia"/>
     <tag k="timezone" v="Asia/Tbilisi"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q230"/>
@@ -5938,6 +5941,7 @@
     <tag k="name:zh-min-nan" v="Moldova"/>
     <tag k="name:zh-yue" v="摩爾多瓦"/>
     <tag k="official_name" v="Republica Moldova"/>
+    <tag k="population" v="4128047"/>
     <tag k="timezone" v="Europe/Chisinau"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q217"/>
@@ -7635,7 +7639,9 @@
     <tag k="official_name:pt" v="República da Irlanda"/>
     <tag k="old_name:ku" v="Komara Îrlandê"/>
     <tag k="old_name:vi" v="Ái Nhĩ Lan"/>
-    <tag k="population" v="4422100"/>
+    <tag k="population" v="4635400"/>
+    <tag k="population:date" v="2015"/>
+    <tag k="source:population" v="http://www.cso.ie/en/releasesandpublications/er/pme/populationandmigrationestimatesapril2015/#.U_xczvldWSo"/>
     <tag k="timezone" v="Europe/Dublin"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q27"/>
@@ -12442,6 +12448,9 @@
     <tag k="name:zh" v="叙利亚"/>
     <tag k="name:zh-min-nan" v="Su-lī-a"/>
     <tag k="name:zh-yue" v="敘利亞"/>
+    <tag k="population" v="17951639"/>
+    <tag k="population:date" v="2014"/>
+    <tag k="source:population" v="wikipedia"/>
     <tag k="timezone" v="Asia/Damascus"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q858"/>
@@ -15635,6 +15644,7 @@
     <tag k="name:zh-min-nan" v="Ghana"/>
     <tag k="name:zh-yue" v="加納"/>
     <tag k="name:zu" v="IGana"/>
+    <tag k="population" v="25241998"/>
     <tag k="timezone" v="Africa/Accra"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q117"/>
@@ -16408,6 +16418,7 @@
     <tag k="name:zh-min-nan" v="Mali"/>
     <tag k="name:zh-yue" v="馬里"/>
     <tag k="name:zu" v="IMali"/>
+    <tag k="population" v="14517176"/>
     <tag k="timezone" v="Africa/Bamako"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q912"/>
@@ -19781,6 +19792,7 @@
     <tag k="name:zh-min-nan" v="Tanzania"/>
     <tag k="name:zh-yue" v="坦桑尼亞"/>
     <tag k="name:zu" v="ITanzania"/>
+    <tag k="population" v="41048532"/>
     <tag k="timezone" v="Africa/Dar_es_Salaam"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q924"/>
@@ -23328,7 +23340,9 @@
     <tag k="name:zh-min-nan" v="Paraguay"/>
     <tag k="name:zh-yue" v="巴拉圭"/>
     <tag k="place" v="country"/>
-    <tag k="population" v="742023"/>
+    <tag k="population" v="7012433"/>
+    <tag k="population:date" v="2015"/>
+    <tag k="source:population" v="wikipedia"/>
     <tag k="timezone" v="America/Asuncion"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q733"/>
@@ -25519,6 +25533,7 @@
     <tag k="official_name:en" v="Republic of Iceland"/>
     <tag k="official_name:is" v="Lýðveldið Ísland"/>
     <tag k="official_name:pt" v="República da Islândia"/>
+    <tag k="population" v="320000"/>
     <tag k="timezone" v="Atlantic/Reykjavik"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q189"/>
@@ -28700,6 +28715,7 @@
     <tag k="name:zh" v="多明尼加共和國"/>
     <tag k="name:zh-min-nan" v="Dominic Kiōng-hô-kok"/>
     <tag k="name:zh-yue" v="多明尼加"/>
+    <tag k="population" v="10464474"/>
     <tag k="timezone" v="America/Santo_Domingo"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q786"/>
@@ -30678,6 +30694,8 @@
     <tag k="official_name" v="Repúblika ng Pilipinas"/>
     <tag k="official_name:en" v="Republic of the Philippines"/>
     <tag k="official_name:pt" v="República das Filipinas"/>
+    <tag k="population" v="101562300"/>
+    <tag k="source:population" v="Philippine Statistics Authority 2015 Estimate (https://psa.gov.ph/sites/default/files/attachments/hsd/pressrelease/Table1_8.pdf)"/>
     <tag k="timezone" v="Asia/Manila"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q928"/>
@@ -30997,6 +31015,7 @@
     <tag k="name:ckb" v="کۆماری چین"/>
     <tag k="name:crh" v="Çin Cumhuriyeti"/>
     <tag k="name:cs" v="Čínská republika"/>
+    <tag k="name:de" v="Republik China"/>
     <tag k="name:diq" v="Cumhuriyetê Çini"/>
     <tag k="name:dsb" v="Republika Chinskeje"/>
     <tag k="name:dv" v="ޖުމްހޫރީ ޗައިނާ"/>
@@ -32026,6 +32045,7 @@
     <tag k="name:zh" v="安提瓜和巴布达"/>
     <tag k="name:zh-min-nan" v="Antigua kap Barbuda"/>
     <tag k="name:zh-yue" v="安提瓜巴布達"/>
+    <tag k="population" v="69842"/>
     <tag k="timezone" v="America/Antigua"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q781"/>
@@ -33664,7 +33684,10 @@
     <tag k="name:zh-yue" v="直布羅陀"/>
     <tag k="note" v="maritime boundary may be wrong;is an approximate equidistance line"/>
     <tag k="official_name" v="Gibraltar"/>
+    <tag k="population" v="32194"/>
+    <tag k="population:date" v="2015"/>
     <tag k="source" v="CIA World Databank II (+Yahoo images)"/>
+    <tag k="source:population" v="wikipedia"/>
     <tag k="timezone" v="Europe/Gibraltar"/>
     <tag k="type" v="boundary"/>
     <tag k="wdb:source" v="CIA World database II - europe-bdy.txt - segment 81"/>
@@ -34820,6 +34843,7 @@
     <tag k="name:zh-min-nan" v="El Salvador"/>
     <tag k="name:zh-yue" v="薩爾瓦多"/>
     <tag k="name:zu" v="El Salvador"/>
+    <tag k="population" v="6000000"/>
     <tag k="timezone" v="America/El_Salvador"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q792"/>
@@ -37538,6 +37562,7 @@
     <tag k="name:zh-classical" v="格陵蘭"/>
     <tag k="name:zh-min-nan" v="Chheⁿ-tē"/>
     <tag k="name:zh-yue" v="格陵蘭"/>
+    <tag k="population" v="57564"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q223"/>
     <tag k="wikipedia" v="en:Greenland"/>
@@ -39402,6 +39427,9 @@
     <tag k="note" v="This relation represents the full country, including its dependencies; different timezones are observed"/>
     <tag k="official_name" v="Kongeriket Norge"/>
     <tag k="official_name:fr" v="Royaume de Norvège"/>
+    <tag k="population" v="5165802"/>
+    <tag k="population:date" v="2013"/>
+    <tag k="source:population" v="wikipedia"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q20"/>
     <tag k="wikipedia" v="no:Norge"/>

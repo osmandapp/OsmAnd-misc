@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2015-10-23T18:01:02Z"/>
+<meta osm_base="2015-11-07T16:05:02Z"/>
 
   <node id="671022" lat="36.7014631" lon="-118.7559974">
     <tag k="alt_name:vi" v="California"/>
@@ -4237,13 +4237,13 @@
     <tag k="state_code" v="RIS"/>
   </node>
   <node id="309346337" lat="40.0000000" lon="64.0000000">
+    <tag k="ISO3166-2" v="UZ-BU"/>
     <tag k="alt_name" v="Bukhara"/>
     <tag k="capital_city" v="Buxoro"/>
     <tag k="gns:dsg" v="ADM1"/>
     <tag k="gns:uni" v="9091820"/>
     <tag k="is_in:country" v="Uzbekistan"/>
     <tag k="is_in:country_code" v="UZ"/>
-    <tag k="iso3166-2" v="UZ-BU"/>
     <tag k="name" v="Buxoro Viloyati"/>
     <tag k="name:de" v="Provinz Buchara"/>
     <tag k="name:en" v="Bukhara Province"/>
@@ -4255,12 +4255,12 @@
     <tag k="source" v="GNS"/>
   </node>
   <node id="309346339" lat="42.0000000" lon="64.0000000">
+    <tag k="ISO3166-2" v="UZ-NW"/>
     <tag k="capital_city" v="Navoiy"/>
     <tag k="gns:dsg" v="ADM1"/>
     <tag k="gns:uni" v="9092982"/>
     <tag k="is_in:country" v="Uzbekistan"/>
     <tag k="is_in:country_code" v="UZ"/>
-    <tag k="iso3166-2" v="UZ-NW"/>
     <tag k="name" v="Navoiy Viloyati"/>
     <tag k="name:de" v="Provinz Navoiy"/>
     <tag k="name:en" v="Navoiy Province"/>
@@ -4303,12 +4303,12 @@
     <tag k="source" v="GNS"/>
   </node>
   <node id="309346342" lat="40.3412705" lon="67.6592856">
+    <tag k="ISO3166-2" v="UZ-JI"/>
     <tag k="capital_city" v="Jizzax"/>
     <tag k="gns:dsg" v="ADM1"/>
     <tag k="gns:uni" v="9091826"/>
     <tag k="is_in:country" v="Uzbekistan"/>
     <tag k="is_in:country_code" v="UZ"/>
-    <tag k="iso3166-2" v="UZ-JI"/>
     <tag k="name" v="Jizzax Viloyati"/>
     <tag k="name:de" v="Provinz Jizzax"/>
     <tag k="name:en" v="Jizzakh Province"/>
@@ -4336,12 +4336,12 @@
     <tag k="source" v="GNS"/>
   </node>
   <node id="309346344" lat="40.5018473" lon="68.7426643">
+    <tag k="ISO3166-2" v="UZ-SI"/>
     <tag k="capital_city" v="Guliston"/>
     <tag k="gns:dsg" v="ADM1"/>
     <tag k="gns:uni" v="9091827"/>
     <tag k="is_in:country" v="Uzbekistan"/>
     <tag k="is_in:country_code" v="UZ"/>
-    <tag k="iso3166-2" v="UZ-SI"/>
     <tag k="name" v="Sirdaryo Viloyati"/>
     <tag k="name:de" v="Provinz Sirdaryo"/>
     <tag k="name:en" v="Sirdarya Province"/>
@@ -4354,12 +4354,12 @@
     <tag k="wikipedia" v="ru:Сырдарьинская_область_(Узбекистан)"/>
   </node>
   <node id="309346345" lat="41.0000000" lon="69.6666670">
+    <tag k="ISO3166-2" v="UZ-TO"/>
     <tag k="capital_city" v="Toshkent (Tashkent)"/>
     <tag k="gns:dsg" v="ADM1"/>
     <tag k="gns:uni" v="9091828"/>
     <tag k="is_in:country" v="Uzbekistan"/>
     <tag k="is_in:country_code" v="UZ"/>
-    <tag k="iso3166-2" v="UZ-TO"/>
     <tag k="name" v="Toshkent Viloyati"/>
     <tag k="name:de" v="Provinz Taschkent"/>
     <tag k="name:en" v="Tashkent Province"/>
@@ -4372,13 +4372,13 @@
     <tag k="wikipedia" v="ru:Ташкентская область"/>
   </node>
   <node id="309346346" lat="39.5833330" lon="66.5833330">
+    <tag k="ISO3166-2" v="UZ-SA"/>
     <tag k="alt_name" v="Samarkand Province"/>
     <tag k="capital_city" v="Samarqand (Samarkand)"/>
     <tag k="gns:dsg" v="ADM1"/>
     <tag k="gns:uni" v="9091822"/>
     <tag k="is_in:country" v="Uzbekistan"/>
     <tag k="is_in:country_code" v="UZ"/>
-    <tag k="iso3166-2" v="UZ-SA"/>
     <tag k="name" v="Samarqand Viloyati"/>
     <tag k="name:de" v="Provinz Samarkand"/>
     <tag k="name:en" v="Samarkand Province"/>
@@ -4387,15 +4387,16 @@
     <tag k="place" v="state"/>
     <tag k="population" v="2322000"/>
     <tag k="source" v="GNS"/>
+    <tag k="wikipedia" v="ru:Самаркандская область"/>
   </node>
   <node id="309346350" lat="38.0000000" lon="67.5000000">
+    <tag k="ISO3166-2" v="UZ-SU"/>
     <tag k="alt_name" v="Surkhandarya"/>
     <tag k="capital_city" v="Termez"/>
     <tag k="gns:dsg" v="ADM1"/>
     <tag k="gns:uni" v="9091816"/>
     <tag k="is_in:country" v="Uzbekistan"/>
     <tag k="is_in:country_code" v="UZ"/>
-    <tag k="iso3166-2" v="UZ-SU"/>
     <tag k="name" v="Surxondaryo Viloyati"/>
     <tag k="name:de" v="Provinz Surxondaryo"/>
     <tag k="name:en" v="Surxondaryo Province"/>
@@ -4406,15 +4407,15 @@
     <tag k="place" v="state"/>
     <tag k="population" v="1676000"/>
     <tag k="source" v="GNS"/>
-    <tag k="wikipedia:ru" v="Сурхандарьинская_область"/>
+    <tag k="wikipedia" v="ru:Сурхандарьинская_область"/>
   </node>
   <node id="309346354" lat="38.5833330" lon="66.0000000">
+    <tag k="ISO3166-2" v="UZ-QA"/>
     <tag k="capital_city" v="Qarshi"/>
     <tag k="gns:dsg" v="ADM1"/>
     <tag k="gns:uni" v="9091818"/>
     <tag k="is_in:country" v="Uzbekistan"/>
     <tag k="is_in:country_code" v="UZ"/>
-    <tag k="iso3166-2" v="UZ-QA"/>
     <tag k="name" v="Qashqadaryo Viloyati"/>
     <tag k="name:de" v="Provinz Qashqadaryo"/>
     <tag k="name:en" v="Qashqadaryo province"/>
@@ -4424,6 +4425,7 @@
     <tag k="place" v="state"/>
     <tag k="population" v="2029000"/>
     <tag k="source" v="GNS"/>
+    <tag k="wikipedia" v="ru:Кашкадарьинская область"/>
   </node>
   <node id="309346358" lat="43.0000000" lon="59.0000000">
     <tag k="alt_name" v="Qoraqalpog‘iston Respublikasi"/>
@@ -5191,6 +5193,7 @@
     <tag k="source" v="GNS"/>
   </node>
   <node id="313466992" lat="3.5000000" lon="-66.0000000">
+    <tag k="ISO3166-2" v="VE-Z"/>
     <tag k="gns:dsg" v="ADM1"/>
     <tag k="gns:uni" v="567517"/>
     <tag k="is_in:country" v="Venezuela"/>
@@ -5201,6 +5204,7 @@
     <tag k="population" v="142200"/>
     <tag k="ref" v="X"/>
     <tag k="source" v="GNS"/>
+    <tag k="wikipedia" v="en:Amazonas, Venezuela"/>
   </node>
   <node id="313466993" lat="9.0000000" lon="-64.5000000">
     <tag k="gns:dsg" v="ADM1"/>
@@ -14575,21 +14579,6 @@
     <tag k="ref:en" v="KL"/>
     <tag k="wikipedia" v="ru:Калмыкия"/>
   </node>
-  <node id="791264036" lat="35.9413239" lon="50.7884216">
-    <tag k="is_in:country" v="Iran"/>
-    <tag k="name" v="البرز"/>
-    <tag k="name:de" v="Alborz"/>
-    <tag k="name:en" v="Alborz"/>
-    <tag k="name:fr" v="Alborz"/>
-    <tag k="name:hu" v="Alborz"/>
-    <tag k="name:ku" v="Elburz"/>
-    <tag k="name:pl" v="Alborz"/>
-    <tag k="name:ru" v="Альборз"/>
-    <tag k="name:uk" v="Альборз"/>
-    <tag k="place" v="state"/>
-    <tag k="ref" v="AL"/>
-    <tag k="wikipedia" v="fr:Province d'Alborz"/>
-  </node>
   <node id="792588864" lat="50.7080119" lon="37.5837615">
     <tag k="name" v="Белгородская область"/>
     <tag k="name:be" v="Белгародская вобласць"/>
@@ -17455,6 +17444,7 @@
   <node id="1526807576" lat="9.3244786" lon="105.6252075">
     <tag k="name" v="Bạc Liêu"/>
     <tag k="name:fr" v="Province de Bạc Liêu"/>
+    <tag k="name:ja" v="バクリエウ"/>
     <tag k="name:uk" v="Бакльєу"/>
     <tag k="place" v="state"/>
     <tag k="ref" v="BL"/>
@@ -17463,6 +17453,7 @@
   <node id="1526807581" lat="9.2679829" lon="105.1822931">
     <tag k="name" v="Cà Mau"/>
     <tag k="name:fr" v="Province de Cà Mau"/>
+    <tag k="name:ja" v="カマウ"/>
     <tag k="name:uk" v="Камау"/>
     <tag k="place" v="state"/>
     <tag k="ref" v="CM"/>
@@ -17504,6 +17495,7 @@
     <tag k="name" v="Vĩnh Long"/>
     <tag k="name:en" v="Vinh Long province"/>
     <tag k="name:fr" v="Province de Vĩnh Long"/>
+    <tag k="name:ja" v="ヴィンロン"/>
     <tag k="name:uk" v="Віньфук"/>
     <tag k="name:vi" v="Tỉnh Vĩnh Long"/>
     <tag k="place" v="state"/>
@@ -17514,6 +17506,7 @@
     <tag k="name" v="Bến Tre"/>
     <tag k="name:en" v="Ben Tre province"/>
     <tag k="name:fr" v="Province de Bến Tre"/>
+    <tag k="name:ja" v="ベンチェ"/>
     <tag k="name:uk" v="Бенче"/>
     <tag k="name:vi" v="Tỉnh Bến Tre"/>
     <tag k="place" v="state"/>
@@ -17533,6 +17526,7 @@
     <tag k="name" v="Kon Tum"/>
     <tag k="name:en" v="Kon Tum province"/>
     <tag k="name:fr" v="Province de Kon Tum"/>
+    <tag k="name:ja" v="コントゥム"/>
     <tag k="name:uk" v="Контум"/>
     <tag k="name:vi" v="Tỉnh Kon Tum"/>
     <tag k="place" v="state"/>
@@ -17678,6 +17672,7 @@
     <tag k="name" v="Hà Tĩnh"/>
     <tag k="name:en" v="Ha Tinh province"/>
     <tag k="name:fr" v="Province de Hà Tĩnh"/>
+    <tag k="name:ja" v="ハティン"/>
     <tag k="name:uk" v="Хатінь"/>
     <tag k="name:vi" v="Tỉnh Hà Tĩnh"/>
     <tag k="place" v="state"/>
@@ -17700,6 +17695,7 @@
     <tag k="name:ar" v="مقاطعة ثانه هوا"/>
     <tag k="name:en" v="Thanh Hoa province"/>
     <tag k="name:fr" v="Province de Thanh Hóa"/>
+    <tag k="name:ja" v="タインホア"/>
     <tag k="name:vi" v="Tỉnh Thanh Hóa"/>
     <tag k="place" v="state"/>
     <tag k="ref" v="TH"/>
@@ -17736,6 +17732,7 @@
     <tag k="name" v="Nam Định"/>
     <tag k="name:en" v="Nam Dinh province"/>
     <tag k="name:fr" v="Province de Nam Định"/>
+    <tag k="name:ja" v="ナムディン"/>
     <tag k="name:uk" v="Намдінь"/>
     <tag k="name:vi" v="Tỉnh Nam Định"/>
     <tag k="place" v="state"/>
@@ -17755,6 +17752,7 @@
     <tag k="name" v="Thái Bình"/>
     <tag k="name:en" v="Thai Binh province"/>
     <tag k="name:fr" v="Province de Thái Bình"/>
+    <tag k="name:ja" v="タイビン"/>
     <tag k="name:uk" v="Тхайбінь"/>
     <tag k="name:vi" v="Tỉnh Thái Bình"/>
     <tag k="place" v="state"/>
@@ -17765,6 +17763,7 @@
     <tag k="name" v="Hưng Yên"/>
     <tag k="name:en" v="Hung Yen province"/>
     <tag k="name:fr" v="Province de Hưng Yên"/>
+    <tag k="name:ja" v="フンイエン"/>
     <tag k="name:uk" v="Хинг'єн"/>
     <tag k="name:vi" v="Tỉnh Hưng Yên"/>
     <tag k="place" v="state"/>
@@ -17775,6 +17774,7 @@
     <tag k="name" v="Hải Dương"/>
     <tag k="name:en" v="Hai Duong province"/>
     <tag k="name:fr" v="Province de Hải Dương"/>
+    <tag k="name:ja" v="ハイズオン"/>
     <tag k="name:vi" v="Tỉnh Hải Dương"/>
     <tag k="place" v="state"/>
     <tag k="ref" v="HD"/>
@@ -17784,6 +17784,7 @@
     <tag k="name" v="Bắc Ninh"/>
     <tag k="name:en" v="Bac Ninh province"/>
     <tag k="name:fr" v="Province de Bắc Ninh"/>
+    <tag k="name:ja" v="バクニン"/>
     <tag k="name:vi" v="Tỉnh Bắc Ninh"/>
     <tag k="place" v="state"/>
     <tag k="ref" v="BN"/>
@@ -17811,6 +17812,7 @@
     <tag k="name" v="Bắc Giang"/>
     <tag k="name:en" v="Bac Giang province"/>
     <tag k="name:fr" v="Province de Bắc Giang"/>
+    <tag k="name:ja" v="バクザン"/>
     <tag k="name:vi" v="Tỉnh Bắc Giang"/>
     <tag k="place" v="state"/>
     <tag k="ref" v="BG"/>
@@ -17828,6 +17830,7 @@
     <tag k="name" v="Lạng Sơn"/>
     <tag k="name:en" v="Lang Son province"/>
     <tag k="name:fr" v="Province de Lạng Sơn"/>
+    <tag k="name:ja" v="ランソン"/>
     <tag k="name:vi" v="Tỉnh Lạng Sơn"/>
     <tag k="place" v="state"/>
     <tag k="ref" v="LS"/>
@@ -17846,6 +17849,7 @@
     <tag k="name:ar" v="مقاطعة هوا بنه"/>
     <tag k="name:en" v="Hoa Binh province"/>
     <tag k="name:fr" v="Province de Hòa Bình"/>
+    <tag k="name:ja" v="ホアビン"/>
     <tag k="name:vi" v="Tỉnh Hòa Bình"/>
     <tag k="place" v="state"/>
     <tag k="ref" v="HB"/>
@@ -17855,6 +17859,7 @@
     <tag k="name" v="Yên Bái"/>
     <tag k="name:en" v="Yen Bai province"/>
     <tag k="name:fr" v="Province de Yên Bái"/>
+    <tag k="name:ja" v="イエンバイ"/>
     <tag k="name:vi" v="Tỉnh Yên Bái"/>
     <tag k="place" v="state"/>
     <tag k="ref" v="YB"/>
@@ -17864,6 +17869,7 @@
     <tag k="name" v="Sơn La"/>
     <tag k="name:en" v="Son La province"/>
     <tag k="name:fr" v="Province de Sơn La"/>
+    <tag k="name:ja" v="ソンラ"/>
     <tag k="name:vi" v="Tỉnh Sơn La"/>
     <tag k="place" v="state"/>
     <tag k="wikipedia" v="en:Son La province"/>
@@ -17890,6 +17896,7 @@
     <tag k="name" v="Lào Cai"/>
     <tag k="name:en" v="Lao Cai province"/>
     <tag k="name:fr" v="Province de Lào Cai"/>
+    <tag k="name:ja" v="ラオカイ"/>
     <tag k="name:vi" v="Tỉnh Lào Cai"/>
     <tag k="place" v="state"/>
     <tag k="ref" v="LCa"/>
@@ -17899,6 +17906,7 @@
     <tag k="name" v="Tuyên Quang"/>
     <tag k="name:en" v="Tuyen Quang province"/>
     <tag k="name:fr" v="Tuyên Quang"/>
+    <tag k="name:ja" v="トゥエンクアン"/>
     <tag k="name:vi" v="Tỉnh Tuyên Quang"/>
     <tag k="place" v="state"/>
     <tag k="ref" v="TQ"/>
@@ -17957,11 +17965,13 @@
     <tag k="wikipedia" v="en:Binh Duong province"/>
   </node>
   <node id="1600326740" lat="14.6407452" lon="-90.5133434">
+    <tag k="ISO3166-2" v="GT-GU"/>
     <tag k="is_in:country" v="Guatemala"/>
     <tag k="name" v="Guatemala"/>
     <tag k="name:hu" v="Guatemala"/>
     <tag k="name:lt" v="Gvatemala"/>
     <tag k="place" v="state"/>
+    <tag k="wikipedia" v="en:Guatemala Department"/>
   </node>
   <node id="1602893650" lat="-15.9919551" lon="-5.6999094">
     <tag k="name" v="Saint Helena"/>
@@ -21402,7 +21412,7 @@
     <tag k="is_in:continent" v="Asia"/>
     <tag k="is_in:country" v="India"/>
     <tag k="is_in:country_code" v="IN"/>
-    <tag k="name" v="Tamil Nadu"/>
+    <tag k="name" v="தமிழ்நாடு"/>
     <tag k="name:en" v="Tamil Nadu"/>
     <tag k="name:hi" v="तमिल नाडु"/>
     <tag k="name:hu" v="Tamilnádu"/>
@@ -22112,7 +22122,10 @@
     <tag k="name" v="Heard Island and McDonald Islands"/>
     <tag k="name:lt" v="Herdo ir Makdonaldo salos"/>
     <tag k="place" v="state"/>
+    <tag k="population" v="0"/>
+    <tag k="population:date" v="2011"/>
     <tag k="ref" v="HIMI"/>
+    <tag k="source:population" v="wikipedia"/>
   </node>
   <node id="2294591720" lat="-12.2354389" lon="123.0851206">
     <tag k="name" v="Ashmore and Cartier Islands"/>
@@ -22447,6 +22460,7 @@
     <tag k="name:en" v="Clipperton Island"/>
     <tag k="official_name" v="Clipperton"/>
     <tag k="place" v="state"/>
+    <tag k="population" v="0"/>
     <tag k="ref:INSEE" v="98-9"/>
     <tag k="timezone" v="Pacific/Pitcairn"/>
     <tag k="wikipedia" v="fr:Île de Clipperton"/>
@@ -24120,6 +24134,7 @@
     <tag k="is_in:country" v="Vietnam"/>
     <tag k="name" v="Bến Tre"/>
     <tag k="name:en" v="Ben Tre Province"/>
+    <tag k="name:ja" v="ベンチェ"/>
     <tag k="name:vi" v="Bến Tre"/>
     <tag k="name:zh" v="槟椥省"/>
     <tag k="official_name" v="Tỉnh Bến Tre"/>
@@ -24146,6 +24161,7 @@
     <tag k="is_in:country_code" v="VN"/>
     <tag k="name" v="Vĩnh Long"/>
     <tag k="name:en" v="Vinh Long Province"/>
+    <tag k="name:ja" v="ヴィンロン"/>
     <tag k="name:vi" v="Vĩnh Long"/>
     <tag k="name:zh" v="永隆省"/>
     <tag k="official_name" v="Tỉnh Vĩnh Long"/>
@@ -24156,6 +24172,7 @@
   <node id="2847413951" lat="9.5348587" lon="105.9892536">
     <tag k="name" v="Sóc Trăng"/>
     <tag k="name:en" v="Soc Trang"/>
+    <tag k="name:ja" v="ソクチャン"/>
     <tag k="name:km" v="ខេត្តឃ្លាំង"/>
     <tag k="name:vi" v="Sóc Trăng"/>
     <tag k="name:zh" v="朔莊省"/>
@@ -25245,6 +25262,7 @@
     <tag k="name:en" v="Tra Vinh Province"/>
     <tag k="name:fr" v="Province de Tra Vinh"/>
     <tag k="name:id" v="Provinsi Tra Vinh"/>
+    <tag k="name:ja" v="チャーヴィン"/>
     <tag k="name:ru" v="Чавинь"/>
     <tag k="name:vi" v="Trà Vinh"/>
     <tag k="name:zh" v="茶榮省"/>

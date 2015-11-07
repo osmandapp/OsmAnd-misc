@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2015-10-23T18:01:02Z"/>
+<meta osm_base="2015-11-07T16:05:02Z"/>
 
   <node id="26036352" lat="12.7503486" lon="122.7312101">
     <tag k="alt_name:vi" v="Phi Luật Tân"/>
@@ -33478,6 +33478,7 @@
     <tag k="name:ckb" v="کۆماری چین"/>
     <tag k="name:crh" v="Çin Cumhuriyeti"/>
     <tag k="name:cs" v="Čínská republika"/>
+    <tag k="name:de" v="Republik China"/>
     <tag k="name:diq" v="Cumhuriyetê Çini"/>
     <tag k="name:dsb" v="Republika Chinskeje"/>
     <tag k="name:dv" v="ޖުމްހޫރީ ޗައިނާ"/>
@@ -36607,7 +36608,9 @@
     <tag k="old_name:ku" v="Komara Îrlandê"/>
     <tag k="old_name:vi" v="Ái Nhĩ Lan"/>
     <tag k="place" v="country"/>
-    <tag k="population" v="4580000"/>
+    <tag k="population" v="4635400"/>
+    <tag k="population:date" v="2015"/>
+    <tag k="source:population" v="http://www.cso.ie/en/releasesandpublications/er/pme/populationandmigrationestimatesapril2015/#.U_xczvldWSo"/>
     <tag k="wheelchair" v="limited"/>
     <tag k="wikipedia" v="en:Republic of Ireland"/>
   </node>
@@ -37001,37 +37004,6 @@
     <tag k="place" v="country"/>
     <tag k="population" v="84497"/>
     <tag k="wikipedia" v="en:Isle of Man"/>
-  </node>
-  <node id="1602894836" lat="-16.6754836" lon="-4.9721717">
-    <tag k="is_in:continent" v="Africa"/>
-    <tag k="name" v="Saint Helena, Ascension and Tristan da Cunha"/>
-    <tag k="name:be" v="Астравы Святой Алены, Ушэсця і Трыстан-да-Кунья"/>
-    <tag k="name:br" v="Saint Helena, Ascension ha Tristan da Cunha"/>
-    <tag k="name:ca" v="Santa Helena, Ascensió i Tristan da Cunha"/>
-    <tag k="name:de" v="St. Helena, Ascension und Tristan da Cunha"/>
-    <tag k="name:el" v="Αγία Ελένη, Ασενσιόν και Τριστάν ντα Κούνια"/>
-    <tag k="name:en" v="Saint Helena, Ascension and Tristan da Cunha"/>
-    <tag k="name:es" v="Santa Elena, Ascensión y Tristán de Acuña"/>
-    <tag k="name:fi" v="Saint Helena, Ascension ja Tristan da Cunha"/>
-    <tag k="name:fr" v="Sainte-Hélène, Ascension et Tristan da Cunha"/>
-    <tag k="name:gv" v="Ellan Helena Noo, Ellan ny Frastyl as Tristan da Cunha"/>
-    <tag k="name:he" v="סנט הלנה, אסנשן וטריסטן דה קונה"/>
-    <tag k="name:hu" v="Szent Ilona-sziget"/>
-    <tag k="name:ku" v="Saint Helena, Ascension û Tristan da Cunha"/>
-    <tag k="name:lt" v="Šventoji Elena, Dangun Žengimo ir Tristanas da Kunja"/>
-    <tag k="name:nl" v="Sint-Helena, Ascension en Tristan da Cunha"/>
-    <tag k="name:no" v="St. Helena, Ascension og Tristan da Cunha"/>
-    <tag k="name:ru" v="Острова Святой Елены, Вознесения и Тристан-да-Кунья"/>
-    <tag k="name:sr" v="Света Јелена, Асенсион и Тристан да Куња"/>
-    <tag k="name:sv" v="Sankta Helena, Ascension och Tristan da Cunha"/>
-    <tag k="name:uk" v="Острови Святої Єлени, Вознесіння та Трістан-да-Кунья"/>
-    <tag k="name:vi" v="Saint Helena, Ascension và Tristan da Cunha"/>
-    <tag k="name:zh" v="圣赫勒拿、阿森松与特里斯坦达库尼亚"/>
-    <tag k="old_name" v="Saint Helena and Dependencies"/>
-    <tag k="old_name:vi" v="Saint Helena và những lãnh thổ phụ thuộc"/>
-    <tag k="place" v="country"/>
-    <tag k="population" v="6563"/>
-    <tag k="wikipedia:en" v="Saint_Helena,_Ascension_and_Tristan_da_Cunha"/>
   </node>
   <node id="1607605918" lat="49.5804370" lon="-2.4848540">
     <tag k="alt_name:el" v="Γκέρνσι"/>
@@ -37621,7 +37593,9 @@
     <tag k="official_name:no" v="Republikken Paraguay"/>
     <tag k="official_name:ru" v="Республика Парагвай"/>
     <tag k="place" v="country"/>
-    <tag k="population" v="6375830"/>
+    <tag k="population" v="7012433"/>
+    <tag k="population:date" v="2015"/>
+    <tag k="source:population" v="wikipedia"/>
   </node>
   <node id="1648342273" lat="49.4871968" lon="31.2718321">
     <tag k="country_code_fips" v="UP"/>
@@ -39676,6 +39650,7 @@
     <tag k="name:li" v="Afrika"/>
     <tag k="name:lt" v="Afrika"/>
     <tag k="name:mi" v="Āwherika"/>
+    <tag k="name:ms" v="Afrika"/>
     <tag k="name:nb" v="Afrika"/>
     <tag k="name:nl" v="Afrika"/>
     <tag k="name:nn" v="Afrika"/>
