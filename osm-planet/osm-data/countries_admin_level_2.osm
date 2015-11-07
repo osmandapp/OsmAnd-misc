@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2015-08-21T09:04:02Z"/>
+<meta osm_base="2015-11-07T16:05:02Z"/>
 
   <relation id="9407">
     <tag k="ISO3166-1" v="AD"/>
@@ -1433,7 +1433,10 @@
     <tag k="name:zh" v="格鲁吉亚"/>
     <tag k="name:zh-min-nan" v="Sakartvelo"/>
     <tag k="name:zh-yue" v="格魯吉亞"/>
+    <tag k="population" v="3729500"/>
+    <tag k="population:date" v="2015"/>
     <tag k="relation" v="nation"/>
+    <tag k="source:population" v="wikipedia"/>
     <tag k="timezone" v="Asia/Tbilisi"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q230"/>
@@ -3527,6 +3530,7 @@
     <tag k="TMC:cid_58:tabcd_1:LCLversion" v="8.00"/>
     <tag k="TMC:cid_58:tabcd_1:LocationCode" v="7"/>
     <tag k="admin_level" v="2"/>
+    <tag k="alt_name:de" v="Tschechei"/>
     <tag k="boundary" v="administrative"/>
     <tag k="currency" v="CZK"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/c/cb/Flag_of_the_Czech_Republic.svg"/>
@@ -5739,7 +5743,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/2/27/Flag_of_Moldova.svg"/>
     <tag k="int_name" v="Moldova"/>
-    <tag k="name" v="Moldova"/>
+    <tag k="name" v="Молдова"/>
     <tag k="name:ab" v="Молдова"/>
     <tag k="name:ace" v="Moldova"/>
     <tag k="name:af" v="Moldowa"/>
@@ -5881,10 +5885,10 @@
     <tag k="name:pnt" v="Μολδαβία"/>
     <tag k="name:pt" v="Moldávia"/>
     <tag k="name:qu" v="Mulduwa"/>
-    <tag k="name:ro" v="Republica Moldova"/>
+    <tag k="name:ro" v="Moldova"/>
     <tag k="name:roa-rup" v="Moldova"/>
     <tag k="name:roa-tara" v="Moldavie"/>
-    <tag k="name:ru" v="Молдова"/>
+    <tag k="name:ru" v="Молдавия"/>
     <tag k="name:rue" v="Молдавія"/>
     <tag k="name:rw" v="Molidova"/>
     <tag k="name:sa" v="मोल्दोवा"/>
@@ -5937,6 +5941,7 @@
     <tag k="name:zh-min-nan" v="Moldova"/>
     <tag k="name:zh-yue" v="摩爾多瓦"/>
     <tag k="official_name" v="Republica Moldova"/>
+    <tag k="population" v="4128047"/>
     <tag k="timezone" v="Europe/Chisinau"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q217"/>
@@ -6746,7 +6751,7 @@
     <tag k="population" v="143666931"/>
     <tag k="population:date" v="2014-01-01"/>
     <tag k="short_name" v="Россия"/>
-    <tag k="source" v="Bing"/>
+    <tag k="source" v="bing"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q159"/>
     <tag k="wikipedia" v="ru:Россия"/>
@@ -7634,7 +7639,9 @@
     <tag k="official_name:pt" v="República da Irlanda"/>
     <tag k="old_name:ku" v="Komara Îrlandê"/>
     <tag k="old_name:vi" v="Ái Nhĩ Lan"/>
-    <tag k="population" v="4422100"/>
+    <tag k="population" v="4635400"/>
+    <tag k="population:date" v="2015"/>
+    <tag k="source:population" v="http://www.cso.ie/en/releasesandpublications/er/pme/populationandmigrationestimatesapril2015/#.U_xczvldWSo"/>
     <tag k="timezone" v="Europe/Dublin"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q27"/>
@@ -12441,6 +12448,9 @@
     <tag k="name:zh" v="叙利亚"/>
     <tag k="name:zh-min-nan" v="Su-lī-a"/>
     <tag k="name:zh-yue" v="敘利亞"/>
+    <tag k="population" v="17951639"/>
+    <tag k="population:date" v="2014"/>
+    <tag k="source:population" v="wikipedia"/>
     <tag k="timezone" v="Asia/Damascus"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q858"/>
@@ -13336,7 +13346,13 @@
     <tag k="ISO3166-1:numeric" v="012"/>
     <tag k="admin_level" v="2"/>
     <tag k="boundary" v="administrative"/>
+    <tag k="currency" v="DZD"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/7/77/Flag_of_Algeria.svg"/>
+    <tag k="int_name" v="Algeria"/>
+    <tag k="is_in:continent" v="Africa"/>
+    <tag k="long_name" v="الجمهورية الجزائرية الديمقراطية الشعبية"/>
+    <tag k="long_name:ar" v="الجمهورية الجزائرية الديمقراطية الشعبية"/>
+    <tag k="long_name:fr" v="République Algérienne Démocratique et Populaire"/>
     <tag k="name" v="Algérie الجزائر"/>
     <tag k="name:ace" v="Aljazair"/>
     <tag k="name:af" v="Algerië"/>
@@ -13545,11 +13561,13 @@
     <tag k="name:zh-min-nan" v="Algeria"/>
     <tag k="name:zh-yue" v="阿爾及利亞"/>
     <tag k="name:zu" v="IAljiriya"/>
-    <tag k="official_name:fr" v="République algérienne démocratique et populaire"/>
+    <tag k="official_name" v="الجمهورية الجزائرية الديمقراطية الشعبية"/>
+    <tag k="official_name:ar" v="الجمهورية الجزائرية الديمقراطية الشعبية"/>
+    <tag k="official_name:fr" v="République Algérienne Démocratique et Populaire"/>
     <tag k="timezone" v="Africa/Algiers"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q262"/>
-    <tag k="wikipedia" v="fr:Algérie"/>
+    <tag k="wikipedia" v="ar:الجزائر"/>
   </relation>
   <relation id="192757">
     <tag k="ISO3166-1" v="TN"/>
@@ -15626,6 +15644,7 @@
     <tag k="name:zh-min-nan" v="Ghana"/>
     <tag k="name:zh-yue" v="加納"/>
     <tag k="name:zu" v="IGana"/>
+    <tag k="population" v="25241998"/>
     <tag k="timezone" v="Africa/Accra"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q117"/>
@@ -16399,6 +16418,7 @@
     <tag k="name:zh-min-nan" v="Mali"/>
     <tag k="name:zh-yue" v="馬里"/>
     <tag k="name:zu" v="IMali"/>
+    <tag k="population" v="14517176"/>
     <tag k="timezone" v="Africa/Bamako"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q912"/>
@@ -19772,6 +19792,7 @@
     <tag k="name:zh-min-nan" v="Tanzania"/>
     <tag k="name:zh-yue" v="坦桑尼亞"/>
     <tag k="name:zu" v="ITanzania"/>
+    <tag k="population" v="41048532"/>
     <tag k="timezone" v="Africa/Dar_es_Salaam"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q924"/>
@@ -21422,6 +21443,7 @@
     <tag k="ISO3166-1:numeric" v="705"/>
     <tag k="admin_level" v="2"/>
     <tag k="boundary" v="administrative"/>
+    <tag k="currency" v="EUR"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/f/f0/Flag_of_Slovenia.svg"/>
     <tag k="int_name" v="Slovenia"/>
     <tag k="is_in" v="EU;European Union;Europe"/>
@@ -22417,6 +22439,7 @@
     <tag k="official_name:za" v="Cunghvaz Yinzminz Gunghozgoz"/>
     <tag k="official_name:zea" v="Volksrepubliek China"/>
     <tag k="official_name:zh" v="中华人民共和国"/>
+    <tag k="official_name:zh-classical" v="中華人民共和國"/>
     <tag k="official_name:zh-simplified" v="中华人民共和国"/>
     <tag k="official_name:zh-traditional" v="中華人民共和國"/>
     <tag k="type" v="boundary"/>
@@ -23317,7 +23340,9 @@
     <tag k="name:zh-min-nan" v="Paraguay"/>
     <tag k="name:zh-yue" v="巴拉圭"/>
     <tag k="place" v="country"/>
-    <tag k="population" v="742023"/>
+    <tag k="population" v="7012433"/>
+    <tag k="population:date" v="2015"/>
+    <tag k="source:population" v="wikipedia"/>
     <tag k="timezone" v="America/Asuncion"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q733"/>
@@ -25508,6 +25533,7 @@
     <tag k="official_name:en" v="Republic of Iceland"/>
     <tag k="official_name:is" v="Lýðveldið Ísland"/>
     <tag k="official_name:pt" v="República da Islândia"/>
+    <tag k="population" v="320000"/>
     <tag k="timezone" v="Atlantic/Reykjavik"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q189"/>
@@ -25754,6 +25780,7 @@
     <tag k="ISO3166-1:alpha3" v="IND"/>
     <tag k="ISO3166-1:numeric" v="356"/>
     <tag k="admin_level" v="2"/>
+    <tag k="alt_name" v="Hindustan"/>
     <tag k="alt_name:vi" v="Thiên Trúc;Quyên Độc"/>
     <tag k="border_type" v="nation"/>
     <tag k="boundary" v="administrative"/>
@@ -26662,7 +26689,7 @@
     <tag k="border_type" v="nation"/>
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/8/89/Flag_of_Yemen.svg"/>
-    <tag k="name" v="‏اليمن‎"/>
+    <tag k="name" v="‏خارطة المساعدات الانسانية"/>
     <tag k="name:ace" v="Yaman"/>
     <tag k="name:af" v="Jemen"/>
     <tag k="name:als" v="Jemen"/>
@@ -27821,7 +27848,7 @@
     <tag k="alt_name:vi" v="Nam Hàn;Nam Triều Tiên;Đại Hàn"/>
     <tag k="boundary" v="administrative"/>
     <tag k="capital_city" v="Seoul"/>
-    <tag k="country_code_fips" v="KS"/>
+    <tag k="country_code_fips" v="KR"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/0/09/Flag_of_South_Korea.svg"/>
     <tag k="geonames:id" v="1835841"/>
     <tag k="int_name" v="대한민국"/>
@@ -27841,7 +27868,7 @@
     <tag k="name:az" v="Cənubi Koreya"/>
     <tag k="name:ba" v="Көньяҡ Корея"/>
     <tag k="name:bar" v="Südkorea"/>
-    <tag k="name:bat-smg" v="Pėitū Kuoriejė"/>
+    <tag k="name:bat" v="Pėitū Kuoriejė"/>
     <tag k="name:bcl" v="Sur nin Korea"/>
     <tag k="name:be" v="Паўднёвая Карэя"/>
     <tag k="name:be-x-old" v="Рэспубліка Карэя"/>
@@ -27887,7 +27914,7 @@
     <tag k="name:fy" v="Súd-Korea"/>
     <tag k="name:ga" v="An Chóiré Theas"/>
     <tag k="name:gag" v="Üülen Koreya"/>
-    <tag k="name:gan" v="韓國"/>
+    <tag k="name:gan" v="South Korea"/>
     <tag k="name:gd" v="Coirea a Deas"/>
     <tag k="name:gl" v="Corea do Sur"/>
     <tag k="name:gn" v="Yvykorea"/>
@@ -28688,6 +28715,7 @@
     <tag k="name:zh" v="多明尼加共和國"/>
     <tag k="name:zh-min-nan" v="Dominic Kiōng-hô-kok"/>
     <tag k="name:zh-yue" v="多明尼加"/>
+    <tag k="population" v="10464474"/>
     <tag k="timezone" v="America/Santo_Domingo"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q786"/>
@@ -28892,7 +28920,6 @@
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/b/bd/Flag_of_Cuba.svg"/>
     <tag k="maritime" v="yes"/>
-    <tag k="name" v="Cuba"/>
     <tag k="name:ace" v="Kuba"/>
     <tag k="name:af" v="Kuba"/>
     <tag k="name:als" v="Kuba"/>
@@ -30667,6 +30694,8 @@
     <tag k="official_name" v="Repúblika ng Pilipinas"/>
     <tag k="official_name:en" v="Republic of the Philippines"/>
     <tag k="official_name:pt" v="República das Filipinas"/>
+    <tag k="population" v="101562300"/>
+    <tag k="source:population" v="Philippine Statistics Authority 2015 Estimate (https://psa.gov.ph/sites/default/files/attachments/hsd/pressrelease/Table1_8.pdf)"/>
     <tag k="timezone" v="Asia/Manila"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q928"/>
@@ -30881,11 +30910,26 @@
     <tag k="ISO3166-1:alpha3" v="TWN"/>
     <tag k="ISO3166-1:numeric" v="158"/>
     <tag k="admin_level" v="2"/>
-    <tag k="alt_name" v="臺灣"/>
+    <tag k="alt_name" v="台灣"/>
     <tag k="alt_name:ace" v="Taywan"/>
+    <tag k="alt_name:af" v="Taiwan"/>
+    <tag k="alt_name:ak" v="Taiwan"/>
+    <tag k="alt_name:am" v="ታይዋን"/>
+    <tag k="alt_name:ar" v="تايوان"/>
+    <tag k="alt_name:arz" v="تايوان"/>
+    <tag k="alt_name:ast" v="Taiwán"/>
+    <tag k="alt_name:az" v="tayvan"/>
     <tag k="alt_name:bcl" v="Taiwan"/>
     <tag k="alt_name:be" v="Тайвань"/>
+    <tag k="alt_name:bg" v="Тайван"/>
+    <tag k="alt_name:bh" v="ताइवान"/>
+    <tag k="alt_name:bm" v="Tayiwani"/>
+    <tag k="alt_name:bn" v="তাইওয়ান"/>
+    <tag k="alt_name:br" v="Taiwan"/>
     <tag k="alt_name:bs" v="Tajvan"/>
+    <tag k="alt_name:ca" v="Taiwan"/>
+    <tag k="alt_name:cdo" v="Dài-uăng"/>
+    <tag k="alt_name:cs" v="Tchaj-wan"/>
     <tag k="alt_name:csb" v="Tajwan"/>
     <tag k="alt_name:cv" v="Тайвань"/>
     <tag k="alt_name:cy" v="Taiwan"/>
@@ -30893,14 +30937,26 @@
     <tag k="alt_name:de" v="Taiwan"/>
     <tag k="alt_name:ee" v="Taiwan"/>
     <tag k="alt_name:en" v="Taiwan"/>
+    <tag k="alt_name:eo" v="Tajvano"/>
+    <tag k="alt_name:es" v="Taiwán"/>
+    <tag k="alt_name:et" v="Taiwan"/>
     <tag k="alt_name:eu" v="Taiwan"/>
+    <tag k="alt_name:ff" v="Taywaan"/>
+    <tag k="alt_name:fi" v="Taiwan"/>
     <tag k="alt_name:fo" v="Teivan"/>
+    <tag k="alt_name:fr" v="Taïwan"/>
+    <tag k="alt_name:fur" v="Taiwan"/>
     <tag k="alt_name:fy" v="Taiwan"/>
     <tag k="alt_name:ga" v="An Téaváin"/>
+    <tag k="alt_name:gd" v="Tai-Bhàn"/>
     <tag k="alt_name:gl" v="Taiwán"/>
+    <tag k="alt_name:hr" v="Tajvan"/>
     <tag k="alt_name:hu" v="Tajvan"/>
+    <tag k="alt_name:ia" v="Taiwan"/>
+    <tag k="alt_name:id" v="Taiwan"/>
     <tag k="alt_name:ilo" v="Taiwan"/>
     <tag k="alt_name:it" v="Taiwan"/>
+    <tag k="alt_name:ja" v="台湾"/>
     <tag k="alt_name:kk" v="Тайвань"/>
     <tag k="alt_name:ku" v="Taywan"/>
     <tag k="alt_name:lb" v="Taiwan"/>
@@ -30932,8 +30988,6 @@
     <tag k="alt_name:zh-classical" v="臺灣"/>
     <tag k="alt_name:zh-simplified" v="台湾"/>
     <tag k="alt_name:zh-traditional" v="臺灣"/>
-    <tag k="alt_name_1" v="Тайвань"/>
-    <tag k="alt_name_2" v="Taiwan"/>
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/7/72/Flag_of_the_Republic_of_China.svg"/>
     <tag k="name" v="中華民國"/>
@@ -30941,7 +30995,7 @@
     <tag k="name:als" v="Republik China"/>
     <tag k="name:am" v="የቻይና ሪፐብሊክ"/>
     <tag k="name:an" v="Republica de China"/>
-    <tag k="name:ar" v="تايوان"/>
+    <tag k="name:ar" v="جمهورية الصين"/>
     <tag k="name:arz" v="جمهورية الصين"/>
     <tag k="name:ast" v="República de China"/>
     <tag k="name:az" v="Çin Respublikası"/>
@@ -30960,7 +31014,8 @@
     <tag k="name:chy" v="Republic of China"/>
     <tag k="name:ckb" v="کۆماری چین"/>
     <tag k="name:crh" v="Çin Cumhuriyeti"/>
-    <tag k="name:cs" v="Čínská republika (Taiwan)"/>
+    <tag k="name:cs" v="Čínská republika"/>
+    <tag k="name:de" v="Republik China"/>
     <tag k="name:diq" v="Cumhuriyetê Çini"/>
     <tag k="name:dsb" v="Republika Chinskeje"/>
     <tag k="name:dv" v="ޖުމްހޫރީ ޗައިނާ"/>
@@ -31061,11 +31116,18 @@
     <tag k="name:zh-simplified" v="中华民国"/>
     <tag k="name:zh-traditional" v="中華民國"/>
     <tag k="name:zh-yue" v="中華民國"/>
+    <tag k="official_name" v="中華民國"/>
     <tag k="official_name:en" v="Republic of China"/>
+    <tag k="official_name:zh" v="中華民國"/>
+    <tag k="official_name:zh-classical" v="中華民國"/>
+    <tag k="official_name:zh-min-nan" v="Tiong-hoâ Bîn-kok"/>
+    <tag k="official_name:zh-simplified" v="中华民国"/>
+    <tag k="official_name:zh-traditional" v="中華民國"/>
     <tag k="timezone" v="Asia/Taipei"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q865"/>
-    <tag k="wikipedia" v="en:Taiwan"/>
+    <tag k="wikipedia" v="zh:臺灣"/>
+    <tag k="wikipedia:en" v="Taiwan"/>
   </relation>
   <relation id="535774">
     <tag k="ISO3166-1" v="CV"/>
@@ -31983,6 +32045,7 @@
     <tag k="name:zh" v="安提瓜和巴布达"/>
     <tag k="name:zh-min-nan" v="Antigua kap Barbuda"/>
     <tag k="name:zh-yue" v="安提瓜巴布達"/>
+    <tag k="population" v="69842"/>
     <tag k="timezone" v="America/Antigua"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q781"/>
@@ -32106,7 +32169,6 @@
     <tag k="admin_level" v="2"/>
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/9/93/Flag_of_the_Bahamas.svg"/>
-    <tag k="name" v="The Bahamas"/>
     <tag k="name:ca" v="Bahames"/>
     <tag k="name:cs" v="Bahamy"/>
     <tag k="name:de" v="Bahamas"/>
@@ -32801,6 +32863,7 @@
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/b/ba/Flag_of_Germany.svg"/>
     <tag k="int_name" v="Deutschland"/>
     <tag k="long_name" v="Bundesrepublik Deutschland"/>
+    <tag k="long_name:da" v="Forbundsrepublikken Tyskland"/>
     <tag k="long_name:de" v="Bundesrepublik Deutschland"/>
     <tag k="long_name:en" v="Federal Republic of Germany"/>
     <tag k="long_name:es" v="República Federal de Alemania"/>
@@ -33473,419 +33536,6 @@
     <tag k="wikidata" v="Q347"/>
     <tag k="wikipedia" v="de:Liechtenstein"/>
   </relation>
-  <relation id="1252792">
-    <tag k="ISO3166-1" v="ZA"/>
-    <tag k="admin_level" v="2"/>
-    <tag k="alt_name:gl" v="África do Sur"/>
-    <tag k="alt_name:ln" v="Afríka ya Súdi"/>
-    <tag k="alt_name:oc" v="Africa del Sud"/>
-    <tag k="alt_name:wo" v="Afrig gu Bëj-gànnaar"/>
-    <tag k="border_type" v="country"/>
-    <tag k="capital_city" v="Cape Town"/>
-    <tag k="country_code_fips" v="SF"/>
-    <tag k="country_code_iso3166_1_alpha_2" v="ZA"/>
-    <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/a/af/Flag_of_South_Africa.svg"/>
-    <tag k="int_name" v="South Africa"/>
-    <tag k="is_in:continent" v="Africa"/>
-    <tag k="land_area" v="administrative"/>
-    <tag k="name" v="South Africa"/>
-    <tag k="name:ace" v="Afrika Seulatan"/>
-    <tag k="name:af" v="Suid-Afrika"/>
-    <tag k="name:ak" v="Afrika Anaafo"/>
-    <tag k="name:als" v="Südafrika"/>
-    <tag k="name:am" v="ደቡብ አፍሪካ"/>
-    <tag k="name:an" v="Sudafrica"/>
-    <tag k="name:ang" v="Sūðaffrica"/>
-    <tag k="name:ar" v="جنوب أفريقيا"/>
-    <tag k="name:arz" v="جنوب افريقيا"/>
-    <tag k="name:ast" v="Sudáfrica"/>
-    <tag k="name:az" v="Cənub Afrika"/>
-    <tag k="name:bar" v="Südafrika"/>
-    <tag k="name:be" v="Паўднёва-Афрыканская Рэспубліка"/>
-    <tag k="name:bg" v="Южна Африка"/>
-    <tag k="name:bjn" v="Aprika Salatan"/>
-    <tag k="name:bm" v="Worodugu Afriki"/>
-    <tag k="name:bn" v="দক্ষিণ আফ্রিকা"/>
-    <tag k="name:bo" v="ལྷོ་ ཨཕྲི་ཀ།"/>
-    <tag k="name:bpy" v="খা আফ্রিকা"/>
-    <tag k="name:br" v="Suafrika"/>
-    <tag k="name:bs" v="Južna Afrika"/>
-    <tag k="name:ca" v="Sud-àfrica"/>
-    <tag k="name:ceb" v="Habagatang Aprika"/>
-    <tag k="name:chy" v="Mo'hetaneho'e hánêsóvóne"/>
-    <tag k="name:ckb" v="ئەفریقای باشوور"/>
-    <tag k="name:crh" v="Cenübiy Afrika"/>
-    <tag k="name:cs" v="Jižní Afrika"/>
-    <tag k="name:cv" v="Кăнтăр Африка"/>
-    <tag k="name:cy" v="De Affrica"/>
-    <tag k="name:da" v="Sydafrika"/>
-    <tag k="name:de" v="Südafrika"/>
-    <tag k="name:diq" v="Afrikaya Veroci"/>
-    <tag k="name:dsb" v="Pódpołdnjowa Afrika"/>
-    <tag k="name:dv" v="ދެކުނު އެފްރިކާ"/>
-    <tag k="name:dz" v="སཱའུཐ་ ཨཕ་རི་ཀ"/>
-    <tag k="name:ee" v="Anyiehe Afrika nutome"/>
-    <tag k="name:el" v="Νότια Αφρική"/>
-    <tag k="name:en" v="South Africa"/>
-    <tag k="name:eo" v="Sudafriko"/>
-    <tag k="name:es" v="Sudáfrica"/>
-    <tag k="name:et" v="Lõuna-Aafrika"/>
-    <tag k="name:eu" v="Hegoafrika"/>
-    <tag k="name:ext" v="Sudáfrica"/>
-    <tag k="name:fa" v="آفریقای جنوبی"/>
-    <tag k="name:ff" v="Afrik bŋ Worgo"/>
-    <tag k="name:fi" v="Etelä-Afrikka"/>
-    <tag k="name:fo" v="Suðurafrika"/>
-    <tag k="name:fr" v="Afrique du Sud"/>
-    <tag k="name:frp" v="Africa du Sud"/>
-    <tag k="name:fur" v="Sud Afriche"/>
-    <tag k="name:fy" v="Súd-Afrika"/>
-    <tag k="name:ga" v="An Afraic Theas"/>
-    <tag k="name:gag" v="Üülen Afrika Respublikası"/>
-    <tag k="name:gan" v="南非"/>
-    <tag k="name:gd" v="Afraga a Deas"/>
-    <tag k="name:gl" v="Sudáfrica"/>
-    <tag k="name:gn" v="Yvyafrika"/>
-    <tag k="name:gu" v="દક્ષિણ આફ્રિકા"/>
-    <tag k="name:gv" v="Yn Affrick Yiass"/>
-    <tag k="name:ha" v="Afirka ta Kudu"/>
-    <tag k="name:hak" v="Nàm-fî"/>
-    <tag k="name:haw" v="ʻApelika Hema"/>
-    <tag k="name:he" v="דרום אפריקה"/>
-    <tag k="name:hi" v="दक्षिण अफ़्रीका"/>
-    <tag k="name:hif" v="South Africa"/>
-    <tag k="name:hr" v="Južna Afrika"/>
-    <tag k="name:ht" v="Afrik disid"/>
-    <tag k="name:hu" v="Dél-Afrika"/>
-    <tag k="name:hy" v="Հարավային Աֆրիկա"/>
-    <tag k="name:ia" v="Africa del Sud"/>
-    <tag k="name:id" v="Afrika Selatan"/>
-    <tag k="name:ie" v="Sudafrica"/>
-    <tag k="name:ilo" v="Abagatan nga Áprika"/>
-    <tag k="name:io" v="Sud-Afrika"/>
-    <tag k="name:is" v="Suður-Afríka"/>
-    <tag k="name:it" v="Sudafrica"/>
-    <tag k="name:ja" v="南アフリカ"/>
-    <tag k="name:jbo" v="nanfi'ogu'e"/>
-    <tag k="name:jv" v="Afrika Kidul"/>
-    <tag k="name:ka" v="სამხრეთ აფრიკა"/>
-    <tag k="name:kaa" v="Qubla Afrika"/>
-    <tag k="name:kab" v="Tafriqt Wadda"/>
-    <tag k="name:kg" v="Afelika ya Sudi"/>
-    <tag k="name:ki" v="Abĩrika Kusini"/>
-    <tag k="name:kk" v="Оңтүстік Африка"/>
-    <tag k="name:km" v="អាព្រិក​ភាគ​ខាង​ត្បូង"/>
-    <tag k="name:kn" v="ದಕ್ಷಿಣ ಆಫ್ರಿಕಾ"/>
-    <tag k="name:ko" v="남아프리카"/>
-    <tag k="name:krc" v="Къыбыла-Африкан Республика"/>
-    <tag k="name:ks" v="جَنوٗبی اَفریٖکا"/>
-    <tag k="name:ksh" v="Södaffrika"/>
-    <tag k="name:ku" v="Afrîkaya Başûr"/>
-    <tag k="name:kv" v="Лунвыв Африкаса Республика"/>
-    <tag k="name:kw" v="Afrika Dhyhow"/>
-    <tag k="name:ky" v="Африкаанс тили"/>
-    <tag k="name:la" v="Africa Australis"/>
-    <tag k="name:lad" v="Sud-Afrika"/>
-    <tag k="name:lb" v="Südafrika"/>
-    <tag k="name:lg" v="Sawusafirika"/>
-    <tag k="name:li" v="Zuud-Afrika"/>
-    <tag k="name:lij" v="Sudafrica"/>
-    <tag k="name:lmo" v="Südafrica"/>
-    <tag k="name:ln" v="Sidafríka"/>
-    <tag k="name:lo" v="ອາຟະລິກາໃຕ້"/>
-    <tag k="name:lt" v="Pietų Afrika"/>
-    <tag k="name:ltg" v="Dīnavydu Afrikys"/>
-    <tag k="name:lv" v="Dienvidāfrika"/>
-    <tag k="name:mdf" v="Лямбеширень Африк"/>
-    <tag k="name:mg" v="Afrika Atsimo"/>
-    <tag k="name:mi" v="Āwherika-ki-te-tonga"/>
-    <tag k="name:min" v="Afrika Selatan"/>
-    <tag k="name:mk" v="Јужна Африка"/>
-    <tag k="name:ml" v="ദക്ഷിണാഫ്രിക്ക"/>
-    <tag k="name:mn" v="Өмнөд Африк"/>
-    <tag k="name:mr" v="दक्षिण अफ्रिका"/>
-    <tag k="name:ms" v="Afrika Selatan"/>
-    <tag k="name:mt" v="Afrika t’Isfel"/>
-    <tag k="name:my" v="တောင်အာဖရိက"/>
-    <tag k="name:mzn" v="جنوبی آفریخا"/>
-    <tag k="name:nah" v="Africa Huitztlāmpa"/>
-    <tag k="name:nan" v="Lâm-hui"/>
-    <tag k="name:nds" v="Süüdafrika"/>
-    <tag k="name:nds-nl" v="Zuud-Afrika"/>
-    <tag k="name:ne" v="दक्षिण अफ्रिका"/>
-    <tag k="name:new" v="दक्षिण अफ्रिका"/>
-    <tag k="name:nl" v="Zuid-Afrika"/>
-    <tag k="name:nn" v="Sør-Afrika"/>
-    <tag k="name:no" v="Sør-Afrika"/>
-    <tag k="name:nov" v="Sud Afrika"/>
-    <tag k="name:nso" v="Afrika Borwa"/>
-    <tag k="name:oc" v="Sud-Africa"/>
-    <tag k="name:or" v="ଦକ୍ଷିଣ ଆଫ୍ରିକା"/>
-    <tag k="name:os" v="Хуссар Африкæйы"/>
-    <tag k="name:pa" v="ਦੱਖਣੀ ਅਫ਼ਰੀਕਾ"/>
-    <tag k="name:pam" v="Mauling Aprika"/>
-    <tag k="name:pap" v="Sur Afrika"/>
-    <tag k="name:pdc" v="Saut Afrikaa"/>
-    <tag k="name:pih" v="Sowth Afreka"/>
-    <tag k="name:pl" v="Republika Południowej Afryki"/>
-    <tag k="name:pms" v="Sudàfrica"/>
-    <tag k="name:pnb" v="دکھنی افریقہ"/>
-    <tag k="name:ps" v="سویلي افریقا"/>
-    <tag k="name:pt" v="África do Sul"/>
-    <tag k="name:qu" v="Urin Aphrika"/>
-    <tag k="name:rm" v="Africa dal Sid"/>
-    <tag k="name:rn" v="Afurika y'Epfo"/>
-    <tag k="name:ro" v="Africa de Sud"/>
-    <tag k="name:ru" v="Южная Африка"/>
-    <tag k="name:rue" v="Южна Африка"/>
-    <tag k="name:rw" v="Afurika y’Epfo"/>
-    <tag k="name:sa" v="दक्षिण-आफ्रिका"/>
-    <tag k="name:sah" v="Соҕуруу Африка"/>
-    <tag k="name:sc" v="Sudàfrica"/>
-    <tag k="name:scn" v="Àfrica dû Sud"/>
-    <tag k="name:sco" v="Sooth Africae"/>
-    <tag k="name:se" v="Lulli-Afrihká"/>
-    <tag k="name:sg" v="Afrîka-Mbongo"/>
-    <tag k="name:sh" v="Južna Afrika"/>
-    <tag k="name:si" v="දකුණු අප්‍රිකාව"/>
-    <tag k="name:sk" v="Južná Afrika"/>
-    <tag k="name:sl" v="Južna Afrika"/>
-    <tag k="name:so" v="Koonfur Afrika"/>
-    <tag k="name:sq" v="Afrika e Jugut"/>
-    <tag k="name:sr" v="Јужна Африка"/>
-    <tag k="name:ss" v="INingizimu Afrika"/>
-    <tag k="name:st" v="Afrika Borwa"/>
-    <tag k="name:stq" v="Suud-Afrikoa"/>
-    <tag k="name:su" v="Afrika Kidul"/>
-    <tag k="name:sv" v="Sydafrika"/>
-    <tag k="name:sw" v="Afrika Kusini"/>
-    <tag k="name:szl" v="Połedńowyj Afriki"/>
-    <tag k="name:ta" v="தென் ஆப்பிரிக்கா"/>
-    <tag k="name:te" v="దక్షిణ ఆఫ్రికా రాజ్యం"/>
-    <tag k="name:tg" v="Африқои Ҷанубӣ"/>
-    <tag k="name:th" v="แอฟริกาใต้"/>
-    <tag k="name:ti" v="ደቡብ አፍሪካ"/>
-    <tag k="name:tk" v="Günorta Afrika"/>
-    <tag k="name:tn" v="Aferika Borwa"/>
-    <tag k="name:to" v="ʻAfilika tonga"/>
-    <tag k="name:tr" v="Güney Afrika"/>
-    <tag k="name:ts" v="Afrika-Dzonga"/>
-    <tag k="name:tt" v="Көньяк Африка"/>
-    <tag k="name:tzl" v="Südafrica"/>
-    <tag k="name:ug" v="جەنۇبىي ئافرىقا"/>
-    <tag k="name:uk" v="Південний Африки"/>
-    <tag k="name:ur" v="جنوبی افریقہ"/>
-    <tag k="name:uz" v="Janubiy Afrika"/>
-    <tag k="name:ve" v="Afurika Tshipembe"/>
-    <tag k="name:vec" v="Sudàfrica"/>
-    <tag k="name:vi" v="Nam Phi"/>
-    <tag k="name:vo" v="Sulüdafrikän"/>
-    <tag k="name:wa" v="Nonne-Afrike"/>
-    <tag k="name:war" v="Salatan nga Apriká"/>
-    <tag k="name:wo" v="Afrig gu Bëj-saalum"/>
-    <tag k="name:wu" v="南非"/>
-    <tag k="name:xal" v="Өмн Априкин"/>
-    <tag k="name:xh" v="uMzantsi Afrika"/>
-    <tag k="name:xmf" v="ობჟათე აფრიკა"/>
-    <tag k="name:yi" v="דרום אפריקע"/>
-    <tag k="name:yo" v="Gúúsù Áfríkà"/>
-    <tag k="name:yue" v="南非"/>
-    <tag k="name:zea" v="Zuud-Afrika"/>
-    <tag k="name:zh" v="南非"/>
-    <tag k="name:zh_pinyin" v="Nán Fēi"/>
-    <tag k="name:zu" v="iNingizimu Afrika"/>
-    <tag k="note" v="Three capitals: Pretoria (executive and administrative), Bloemfontein (judicial), Cape Town (legislative)"/>
-    <tag k="official_name" v="Republic of South Africa"/>
-    <tag k="official_name:ace" v="Republik Afrika Seulatan"/>
-    <tag k="official_name:af" v="Zuid-Afrikaansche Republiek"/>
-    <tag k="official_name:als" v="Republik Südafrika"/>
-    <tag k="official_name:am" v="የደቡብ አፍሪካ ሬፑብሊክ"/>
-    <tag k="official_name:an" v="Republica de Sudafrica"/>
-    <tag k="official_name:ang" v="Cynewīse Sūþaffrice"/>
-    <tag k="official_name:ar" v="جمهورية جنوب أفريقيا"/>
-    <tag k="official_name:arz" v="جمهورية جنوب افريقيا"/>
-    <tag k="official_name:ast" v="República Sudafricana"/>
-    <tag k="official_name:az" v="Cənubi Afrika Respublikası"/>
-    <tag k="official_name:bar" v="Republik Südafrika"/>
-    <tag k="official_name:be" v="Паўднёва-Афрыканская Рэспубліка"/>
-    <tag k="official_name:bg" v="Република Южна Африка"/>
-    <tag k="official_name:bjn" v="Republik Aprika Salatan"/>
-    <tag k="official_name:bm" v="Worodugu Afrika ka Fasojamana"/>
-    <tag k="official_name:bn" v="রিপাবলিক অফ সাউথ আফ্রিকা"/>
-    <tag k="official_name:bpy" v="প্রজাতন্ত্রি খা আফ্রিকা"/>
-    <tag k="official_name:br" v="Republik Suafrika"/>
-    <tag k="official_name:bs" v="Južnoafrička Republika"/>
-    <tag k="official_name:ca" v="República de Sud-àfrica"/>
-    <tag k="official_name:ceb" v="Republikang Habagatang Aprikano"/>
-    <tag k="official_name:ckb" v="کۆماری ئافریقای باشوور"/>
-    <tag k="official_name:crh" v="Cenübiy Afrika Cumhuriyeti"/>
-    <tag k="official_name:cs" v="Jihoafrická republika"/>
-    <tag k="official_name:cv" v="Кăнтăр Африка Республики"/>
-    <tag k="official_name:cy" v="Gweriniaeth De Affrica"/>
-    <tag k="official_name:da" v="Republikken Sydafrika"/>
-    <tag k="official_name:de" v="Republik Südafrika"/>
-    <tag k="official_name:diq" v="Cumhuriyetê Afrikaya Veroci"/>
-    <tag k="official_name:dsb" v="Pódpołdnjowa Afrika Republika"/>
-    <tag k="official_name:el" v="Δημοκρατία της Νοτίου Αφρικής"/>
-    <tag k="official_name:en" v="Republic of South Africa"/>
-    <tag k="official_name:eo" v="Respubliko de Sud-Afriko"/>
-    <tag k="official_name:es" v="República de Sudáfrica"/>
-    <tag k="official_name:et" v="Lõuna-Aafrika Vabariik"/>
-    <tag k="official_name:eu" v="Hegoafrikako Errepublika"/>
-    <tag k="official_name:ext" v="Repúbrica de Sudáfrica"/>
-    <tag k="official_name:fa" v="جمهوری آفریقای جنوبی"/>
-    <tag k="official_name:fi" v="Etelä-Afrikan tasavalta"/>
-    <tag k="official_name:fo" v="Tjóðveldið Suðurafrika"/>
-    <tag k="official_name:fr" v="République d'Afrique du Sud"/>
-    <tag k="official_name:frp" v="Rèpublica de l'Africa du Sud"/>
-    <tag k="official_name:fy" v="Súd-Afrikaanske Republyk"/>
-    <tag k="official_name:ga" v="Poblacht na hAfraice Theas"/>
-    <tag k="official_name:gag" v="Üülen Afrika Respublikası"/>
-    <tag k="official_name:gan" v="南非共和國"/>
-    <tag k="official_name:gd" v="Poblachd Afraga a Deas"/>
-    <tag k="official_name:gl" v="República de Sudáfrica"/>
-    <tag k="official_name:gn" v="Tetã Yvyafrika"/>
-    <tag k="official_name:gu" v="દક્ષિણ આફ્રિકાનું ગણરાજ્ય"/>
-    <tag k="official_name:gv" v="Pobblaght yn Affrick Yiass"/>
-    <tag k="official_name:ha" v="Jamhuriyar Afrika ta Kudu"/>
-    <tag k="official_name:he" v="רפובליקת דרום אפריקה"/>
-    <tag k="official_name:hi" v="दक्षिण अफ़्रीका गणराज्य"/>
-    <tag k="official_name:hif" v="Republic of South Africa"/>
-    <tag k="official_name:hr" v="Južnoafrička Republika"/>
-    <tag k="official_name:hsb" v="Republika Južna Afrika"/>
-    <tag k="official_name:ht" v="Repiblik Afrik disid"/>
-    <tag k="official_name:hu" v="Dél-Afrikai Köztársaság"/>
-    <tag k="official_name:ia" v="Republica del Africa del Sud"/>
-    <tag k="official_name:id" v="Republik Afrika Selatan"/>
-    <tag k="official_name:ie" v="Republic de Sudafrica"/>
-    <tag k="official_name:ilo" v="Republika iti Abagatan nga Áprika"/>
-    <tag k="official_name:io" v="Republiko di Sud-Afrika"/>
-    <tag k="official_name:is" v="Lýðveldið Suður-Afríku"/>
-    <tag k="official_name:it" v="Repubblica del Sudafrica"/>
-    <tag k="official_name:ja" v="南アフリカ共和国"/>
-    <tag k="official_name:jv" v="Republik Afrika Kidul"/>
-    <tag k="official_name:ka" v="სამხრეთ აფრიკის რესპუბლიკა"/>
-    <tag k="official_name:kaa" v="Qubla Afrika Respublikası"/>
-    <tag k="official_name:kbd" v="Ипшъэ Африкэ Республикэ"/>
-    <tag k="official_name:kg" v="Repubilika ya Afelika ya Sudi"/>
-    <tag k="official_name:kk" v="Оңтүстік Африка Республикасы"/>
-    <tag k="official_name:krc" v="Къыбыла-Африкан Республика"/>
-    <tag k="official_name:ku" v="Komara Afrîkaya Başûr"/>
-    <tag k="official_name:kv" v="Лунвыв Африкаса Республика"/>
-    <tag k="official_name:ky" v="Түштүк-Африка Республикасы"/>
-    <tag k="official_name:la" v="Res Publica Africae Australis"/>
-    <tag k="official_name:lad" v="Repuvlika de Sud-Afrika"/>
-    <tag k="official_name:lb" v="Republik Südafrika"/>
-    <tag k="official_name:lmo" v="Repübliga de Südafrica"/>
-    <tag k="official_name:ln" v="Republíki ya Sidafríka"/>
-    <tag k="official_name:lt" v="Pietų Afrikos Respublika"/>
-    <tag k="official_name:ltg" v="Dīnavydu Afrikys Republika"/>
-    <tag k="official_name:lv" v="Dienvidāfrikas Republika"/>
-    <tag k="official_name:mdf" v="Лямбеширень Африконь Республик"/>
-    <tag k="official_name:mk" v="Јужноафриканска Република"/>
-    <tag k="official_name:ml" v="റിപബ്ലിക്ക് ഓഫ് സൗത്ത് ആഫ്രിക്ക"/>
-    <tag k="official_name:mn" v="Өмнөд Африкийн Бүгд Найрамдах Улс"/>
-    <tag k="official_name:mr" v="दक्षिण आफ्रिकेचे गणराज्य"/>
-    <tag k="official_name:ms" v="Republik Afrika Selatan"/>
-    <tag k="official_name:mt" v="Repubblika tal-Afrika t'Isfel"/>
-    <tag k="official_name:my" v="တောင်အာဖရိက သမ္မတနိုင်ငံ"/>
-    <tag k="official_name:nah" v="Tlācatlahtohcāyōtl Africa Huitztlāmpa"/>
-    <tag k="official_name:nan" v="Lâm-hui Kiōng-hô-kok"/>
-    <tag k="official_name:nds" v="Süüdafrikaansche Republiek"/>
-    <tag k="official_name:nds-nl" v="Rippebliek Zuud-Afrika"/>
-    <tag k="official_name:nl" v="Republiek Zuid-Afrika"/>
-    <tag k="official_name:nn" v="Sørafrikanske republikken"/>
-    <tag k="official_name:no" v="Republikken Sør-Afrika"/>
-    <tag k="official_name:nov" v="Sud Afrikani Republike"/>
-    <tag k="official_name:nr" v="iRiphabliki yeSewula Afrika"/>
-    <tag k="official_name:nso" v="Repabliki le Afrika Borwa"/>
-    <tag k="official_name:nv" v="Kéyah Naakai Łizhinii Bikéyah Shádiʼááhjí Siʼánígíí"/>
-    <tag k="official_name:oc" v="Republica Sud-Africana"/>
-    <tag k="official_name:os" v="Хуссар Африкæйы Республикæ"/>
-    <tag k="official_name:pa" v="ਦੱਖਣ ਅਫ਼ਰੀਕਾ ਗਣਰਾਜ"/>
-    <tag k="official_name:pam" v="Republika ning Mauling Aprika"/>
-    <tag k="official_name:pap" v="Republika di Sur Afrika"/>
-    <tag k="official_name:pdc" v="Republik vun Saut Afrikaa"/>
-    <tag k="official_name:pih" v="Sowth Afrekan Repablik"/>
-    <tag k="official_name:pl" v="Republika Południowej Afryki"/>
-    <tag k="official_name:pms" v="Repùblica Sudafrican-a‎"/>
-    <tag k="official_name:pt" v="República da África do Sul"/>
-    <tag k="official_name:qu" v="Urin Aphrika Republika"/>
-    <tag k="official_name:rm" v="Republica Sidafricana"/>
-    <tag k="official_name:ro" v="Republica Africa de Sud"/>
-    <tag k="official_name:ru" v="Южно-Африканская Республика"/>
-    <tag k="official_name:rw" v="Repubulika ’Afurika y ’Epfo"/>
-    <tag k="official_name:sah" v="Соҕуруу Африка Республиката"/>
-    <tag k="official_name:sc" v="Repubblica de su Sudàfrica"/>
-    <tag k="official_name:scn" v="Ripùbbrica dû Àfrica dû Sud"/>
-    <tag k="official_name:sco" v="Sooth African Republic"/>
-    <tag k="official_name:se" v="Lulli-Afrihká dásseváldi"/>
-    <tag k="official_name:sg" v="Ködörösêse tî Afrîka-Mbongo"/>
-    <tag k="official_name:sh" v="Južnoafrička Republika;Republika Južna Afrika"/>
-    <tag k="official_name:sk" v="Juhoafrická republika"/>
-    <tag k="official_name:sl" v="Južnoafriška republika;Republika Južna Afrika"/>
-    <tag k="official_name:so" v="Jamhuuriyadda Koonfur Afrika"/>
-    <tag k="official_name:sq" v="Republika Jugafrikane"/>
-    <tag k="official_name:sr" v="Јужноафричка Република;Република Јужна Африка"/>
-    <tag k="official_name:ss" v="iRiphabhulikhi yeNingizimu Afrika"/>
-    <tag k="official_name:st" v="Rephabliki ya Afrika Borwa"/>
-    <tag k="official_name:stq" v="Suud-afrikoanske Republik"/>
-    <tag k="official_name:su" v="Republik Afrika Kidul"/>
-    <tag k="official_name:sv" v="Republiken Sydafrika"/>
-    <tag k="official_name:sw" v="Jamhuri ya Afrika Kusini"/>
-    <tag k="official_name:szl" v="Połedńowoafrikańsko Republika‎;Republika Połedńowyj Afriki"/>
-    <tag k="official_name:tg" v="Ҷазираҳои Африқои Ҷанубӣ"/>
-    <tag k="official_name:th" v="ประเทศแอฟริกาใต้"/>
-    <tag k="official_name:tk" v="Günorta Afrika Respublikasy"/>
-    <tag k="official_name:tn" v="Rephaboliki ya Aforika Borwa"/>
-    <tag k="official_name:ts" v="Riphabliki ya Afrika-Dzonga"/>
-    <tag k="official_name:tt" v="Көньяк Африка Җөмһүрияте"/>
-    <tag k="official_name:uk" v="Південно-Африканська Республіка"/>
-    <tag k="official_name:uz" v="Janubiy Afrika Respublikasi"/>
-    <tag k="official_name:ve" v="Riphabuḽiki ya Afurika Tshipembe"/>
-    <tag k="official_name:vec" v="Republica Sudafricana"/>
-    <tag k="official_name:vi" v="Cộng hòa Nam Phi"/>
-    <tag k="official_name:vo" v="Repüblikän Sulüdafrikäna"/>
-    <tag k="official_name:wa" v="Republike di Nonne-Afrike"/>
-    <tag k="official_name:war" v="Republika han Salatan nga Aprika"/>
-    <tag k="official_name:wo" v="Republik bu Afrig gu Bëj-saalum"/>
-    <tag k="official_name:xal" v="Өмн Априкин Орн"/>
-    <tag k="official_name:xh" v="iRiphabliki yaseMzantsi Afrika"/>
-    <tag k="official_name:xmf" v="ობჟათე აფრიკაშ რესპუბლიკა"/>
-    <tag k="official_name:yi" v="רעפובליק פון דרום אפריקע"/>
-    <tag k="official_name:yo" v="Orílẹ̀-èdè Olómìnira ilẹ̀ Gúúsù Áfríkà"/>
-    <tag k="official_name:yue" v="南非共和國"/>
-    <tag k="official_name:zea" v="Zuud-Afrikaonse Republiek"/>
-    <tag k="official_name:zh" v="南非共和国"/>
-    <tag k="official_name:zu" v="iRiphabliki yaseNingizimu Afrika"/>
-    <tag k="place" v="country"/>
-    <tag k="population" v="49991300"/>
-    <tag k="short_name:af" v="ZAR"/>
-    <tag k="short_name:be" v="ПАР"/>
-    <tag k="short_name:bg" v="РЮА"/>
-    <tag k="short_name:cv" v="КАР"/>
-    <tag k="short_name:en" v="RSA"/>
-    <tag k="short_name:fr" v="RSA"/>
-    <tag k="short_name:kbd" v="ИАР"/>
-    <tag k="short_name:krc" v="КъАР"/>
-    <tag k="short_name:kv" v="ЛАР"/>
-    <tag k="short_name:ky" v="ТАР"/>
-    <tag k="short_name:mdf" v="ЛАР"/>
-    <tag k="short_name:mn" v="ӨАБНУ"/>
-    <tag k="short_name:os" v="ХАР"/>
-    <tag k="short_name:pl" v="RPA"/>
-    <tag k="short_name:ru" v="ЮАР"/>
-    <tag k="short_name:sah" v="САР"/>
-    <tag k="short_name:sl" v="JAR"/>
-    <tag k="short_name:tk" v="GAR"/>
-    <tag k="short_name:tt" v="КАҖ"/>
-    <tag k="short_name:uk" v="ПАР"/>
-    <tag k="short_name:uz" v="JAR"/>
-    <tag k="source:population" v="http://www.statssa.gov.za/publications/P0302/P03022010.pdf 2010-08-10"/>
-    <tag k="timezone" v="Africa/Johannesburg"/>
-    <tag k="type" v="boundary"/>
-    <tag k="wikipedia" v="en:South Africa"/>
-  </relation>
   <relation id="1278736">
     <tag k="ISO3166-1" v="GI"/>
     <tag k="ISO3166-1:alpha2" v="GI"/>
@@ -34034,7 +33684,10 @@
     <tag k="name:zh-yue" v="直布羅陀"/>
     <tag k="note" v="maritime boundary may be wrong;is an approximate equidistance line"/>
     <tag k="official_name" v="Gibraltar"/>
+    <tag k="population" v="32194"/>
+    <tag k="population:date" v="2015"/>
     <tag k="source" v="CIA World Databank II (+Yahoo images)"/>
+    <tag k="source:population" v="wikipedia"/>
     <tag k="timezone" v="Europe/Gibraltar"/>
     <tag k="type" v="boundary"/>
     <tag k="wdb:source" v="CIA World database II - europe-bdy.txt - segment 81"/>
@@ -34050,6 +33703,7 @@
     <tag k="currency" v="EUR"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/3/32/Flag_of_Spain_%28Civil%29.svg"/>
     <tag k="int_name" v="España"/>
+    <tag k="is_in:continent" v="Europe"/>
     <tag k="name" v="España"/>
     <tag k="name:ace" v="Seupanyo"/>
     <tag k="name:af" v="Spanje"/>
@@ -35189,6 +34843,7 @@
     <tag k="name:zh-min-nan" v="El Salvador"/>
     <tag k="name:zh-yue" v="薩爾瓦多"/>
     <tag k="name:zu" v="El Salvador"/>
+    <tag k="population" v="6000000"/>
     <tag k="timezone" v="America/El_Salvador"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q792"/>
@@ -35594,7 +35249,8 @@
     <tag k="ISO3166-1:alpha3" v="PSE"/>
     <tag k="ISO3166-1:numeric" v="275"/>
     <tag k="admin_level" v="2"/>
-    <tag k="boundary" v="disputed"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="disputed" v="yes"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/0/00/Flag_of_Palestine.svg"/>
     <tag k="is_in:continent" v="Asia"/>
     <tag k="name:bs" v="Palestina"/>
@@ -36376,6 +36032,7 @@
     <tag k="name:ja" v="サウスジョージア・サウスサンドウィッチ諸島"/>
     <tag k="name:nl" v="Zuid-Georgia en de Zuidelijke Sandwicheilanden"/>
     <tag k="name:nn" v="Sør-Georgia og Sør-Sandwichøyane"/>
+    <tag k="name:ru" v="Южная Георгия и Южные Сандвичевы Острова"/>
     <tag k="name:sk" v="Južná Georgia a Južné Sandwichove ostrovy"/>
     <tag k="name:sr" v="Јужна Џорџија и Јужна Сендвичка Острва"/>
     <tag k="name:ta" v="தெற்கு யோர்சியா மற்றும் தெற்கு சண்ட்விச் தீவுகள்"/>
@@ -37905,6 +37562,7 @@
     <tag k="name:zh-classical" v="格陵蘭"/>
     <tag k="name:zh-min-nan" v="Chheⁿ-tē"/>
     <tag k="name:zh-yue" v="格陵蘭"/>
+    <tag k="population" v="57564"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q223"/>
     <tag k="wikipedia" v="en:Greenland"/>
@@ -39769,6 +39427,9 @@
     <tag k="note" v="This relation represents the full country, including its dependencies; different timezones are observed"/>
     <tag k="official_name" v="Kongeriket Norge"/>
     <tag k="official_name:fr" v="Royaume de Norvège"/>
+    <tag k="population" v="5165802"/>
+    <tag k="population:date" v="2013"/>
+    <tag k="source:population" v="wikipedia"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q20"/>
     <tag k="wikipedia" v="no:Norge"/>
@@ -40065,11 +39726,202 @@
     <tag k="name" v="Extent of Pakistani Claim"/>
     <tag k="type" v="boundary"/>
   </relation>
-  <relation id="5119164">
+  <relation id="5466491">
+    <tag k="ISO3166-1" v="UZ"/>
+    <tag k="ISO3166-1:alpha2" v="UZ"/>
+    <tag k="ISO3166-1:alpha3" v="UZB"/>
+    <tag k="ISO3166-1:numeric" v="860"/>
     <tag k="admin_level" v="2"/>
+    <tag k="alt_name:vi" v="U-dơ-bê-kít-xtan; Uzbekstan; Ozbekistan"/>
     <tag k="boundary" v="administrative"/>
-    <tag k="name" v="Argentina"/>
+    <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/8/84/Flag_of_Uzbekistan.svg"/>
+    <tag k="name" v="Uzbekistan"/>
+    <tag k="name:ace" v="Uzbèkistan"/>
+    <tag k="name:af" v="Oesbekistan"/>
+    <tag k="name:als" v="Usbekistan"/>
+    <tag k="name:am" v="ኡዝቤኪስታን"/>
+    <tag k="name:an" v="Uzbekistán"/>
+    <tag k="name:ang" v="Usbecastan"/>
+    <tag k="name:ar" v="أوزبكستان"/>
+    <tag k="name:arc" v="ܐܘܙܒܩܣܛܐܢ"/>
+    <tag k="name:arz" v="اوزبيكيستان"/>
+    <tag k="name:ast" v="Uzbequistán"/>
+    <tag k="name:az" v="Özbəkistan"/>
+    <tag k="name:ba" v="Үзбәкстан"/>
+    <tag k="name:bar" v="Usbekistan"/>
+    <tag k="name:bat-smg" v="Ozbėkistans"/>
+    <tag k="name:bcl" v="Usbekistan"/>
+    <tag k="name:be" v="Узбекістан"/>
+    <tag k="name:be-x-old" v="Узбэкістан"/>
+    <tag k="name:bg" v="Узбекистан"/>
+    <tag k="name:bn" v="উজবেকিস্তান"/>
+    <tag k="name:bo" v="ཨུ་ཟ་བྷེ་ཁི་སི་ཐན།"/>
+    <tag k="name:bpy" v="উজবেকিস্তান"/>
+    <tag k="name:br" v="Ouzbekistan"/>
+    <tag k="name:bs" v="Uzbekistan"/>
+    <tag k="name:bug" v="Uzbekistan"/>
+    <tag k="name:bxr" v="Узбекистан"/>
+    <tag k="name:ca" v="Uzbekistan"/>
+    <tag k="name:ce" v="Узбекистан"/>
+    <tag k="name:ceb" v="Uzbekistan"/>
+    <tag k="name:chr" v="ᎤᏍᏇᎩᏍᏔᏂ"/>
+    <tag k="name:ckb" v="ئۆزبەکستان"/>
+    <tag k="name:crh" v="Özbekistan"/>
+    <tag k="name:cs" v="Uzbekistán"/>
+    <tag k="name:csb" v="Ùzbekistan"/>
+    <tag k="name:cv" v="Ӳспекстан"/>
+    <tag k="name:cy" v="Uzbekistan"/>
+    <tag k="name:da" v="Usbekistan"/>
+    <tag k="name:de" v="Usbekistan"/>
+    <tag k="name:diq" v="Ozbekıstan"/>
+    <tag k="name:dsb" v="Usbekska"/>
+    <tag k="name:dv" v="އުޒްބެކިސްތާން"/>
+    <tag k="name:dz" v="ཨུཛ་བེ་ཀིསི་ཏཱན་"/>
+    <tag k="name:ee" v="Uzbekistan"/>
+    <tag k="name:el" v="Ουζμπεκιστάν"/>
+    <tag k="name:en" v="Uzbekistan"/>
+    <tag k="name:eo" v="Uzbekujo"/>
+    <tag k="name:es" v="Uzbekistán"/>
+    <tag k="name:et" v="Usbekistan"/>
+    <tag k="name:eu" v="Uzbekistan"/>
+    <tag k="name:ext" v="Uzbequistán"/>
+    <tag k="name:fa" v="ازبکستان"/>
+    <tag k="name:fi" v="Uzbekistan"/>
+    <tag k="name:fiu-vro" v="Usbekistan"/>
+    <tag k="name:fo" v="Usbekistan"/>
+    <tag k="name:fr" v="Ouzbékistan"/>
+    <tag k="name:frp" v="Ozbèquistan"/>
+    <tag k="name:fy" v="Oezbekistan"/>
+    <tag k="name:ga" v="An Úisbéiceastáin"/>
+    <tag k="name:gag" v="Özbekistan"/>
+    <tag k="name:gd" v="Usbagastàn"/>
+    <tag k="name:gl" v="Uzbequistán"/>
+    <tag k="name:gu" v="ઉઝબેકિસ્તાન"/>
+    <tag k="name:gv" v="Yn Oosbeckistaan"/>
+    <tag k="name:hak" v="Vû-tsṳ̂-phe̍t-khiet-sṳ̂-thán"/>
+    <tag k="name:he" v="אוזבקיסטן"/>
+    <tag k="name:hi" v="उज़्बेकिस्तान"/>
+    <tag k="name:hif" v="Uzbekistan"/>
+    <tag k="name:hr" v="Uzbekistan"/>
+    <tag k="name:hsb" v="Uzbekistan"/>
+    <tag k="name:ht" v="Ouzbekistan"/>
+    <tag k="name:hu" v="Üzbegisztán"/>
+    <tag k="name:hy" v="Ուզբեկստան"/>
+    <tag k="name:ia" v="Uzbekistan"/>
+    <tag k="name:id" v="Uzbekistan"/>
+    <tag k="name:ie" v="Uzbekistan"/>
+    <tag k="name:ilo" v="Uzbekistan"/>
+    <tag k="name:io" v="Uzbekistan"/>
+    <tag k="name:is" v="Úsbekistan"/>
+    <tag k="name:it" v="Uzbekistan"/>
+    <tag k="name:ja" v="ウズベキスタン"/>
+    <tag k="name:jv" v="Uzbekistan"/>
+    <tag k="name:ka" v="უზბეკეთი"/>
+    <tag k="name:kaa" v="O'zbekstan"/>
+    <tag k="name:kbd" v="Узбэчыстэн"/>
+    <tag k="name:kk" v="Өзбекстан"/>
+    <tag k="name:kn" v="ಉಜ್ಬೇಕಿಸ್ಥಾನ್"/>
+    <tag k="name:ko" v="우즈베키스탄"/>
+    <tag k="name:ku" v="Ûzbêkistan"/>
+    <tag k="name:kv" v="Узбекистан"/>
+    <tag k="name:kw" v="Pow Ousbek"/>
+    <tag k="name:ky" v="Өзбекстан"/>
+    <tag k="name:la" v="Uzbecia"/>
+    <tag k="name:lad" v="Uzbekistan"/>
+    <tag k="name:lb" v="Usbekistan"/>
+    <tag k="name:lez" v="Узбекистан"/>
+    <tag k="name:li" v="Oesbekistan"/>
+    <tag k="name:lij" v="Uzbekistan"/>
+    <tag k="name:lmo" v="Uzbekistan"/>
+    <tag k="name:ln" v="Uzbekistáni"/>
+    <tag k="name:lt" v="Uzbekija"/>
+    <tag k="name:lv" v="Uzbekistāna"/>
+    <tag k="name:mdf" v="Узбекистан"/>
+    <tag k="name:mhr" v="Узбекистан"/>
+    <tag k="name:min" v="Uzbekistan"/>
+    <tag k="name:mk" v="Узбекистан"/>
+    <tag k="name:ml" v="ഉസ്ബെക്കിസ്ഥാൻ"/>
+    <tag k="name:mn" v="Узбекистан"/>
+    <tag k="name:mr" v="उझबेकिस्तान"/>
+    <tag k="name:ms" v="Uzbekistan"/>
+    <tag k="name:my" v="ဥဇဘက်ကစ္စတန်နိုင်ငံ"/>
+    <tag k="name:na" v="Uzbekistan"/>
+    <tag k="name:nah" v="Uzbequistan"/>
+    <tag k="name:nds" v="Usbekistan"/>
+    <tag k="name:new" v="उज्बेकिस्तान"/>
+    <tag k="name:nl" v="Oezbekistan"/>
+    <tag k="name:nn" v="Usbekistan"/>
+    <tag k="name:no" v="Usbekistan"/>
+    <tag k="name:nov" v="Uzbekistan"/>
+    <tag k="name:nv" v="Ózbeʼ Bikéyah"/>
+    <tag k="name:oc" v="Ozbequistan"/>
+    <tag k="name:or" v="ଉଜବେକିସ୍ଥାନ"/>
+    <tag k="name:os" v="Узбекистан"/>
+    <tag k="name:pa" v="ਉਜ਼ਬੇਕਿਸਤਾਨ"/>
+    <tag k="name:pam" v="Uzbekistan"/>
+    <tag k="name:pap" v="Uzbekistan"/>
+    <tag k="name:pl" v="Uzbekistan"/>
+    <tag k="name:pms" v="Uzbekistan"/>
+    <tag k="name:pnb" v="ازبکستان"/>
+    <tag k="name:ps" v="اوزبکستان"/>
+    <tag k="name:pt" v="Uzbequistão"/>
+    <tag k="name:qu" v="Usbiksuyu"/>
+    <tag k="name:ro" v="Uzbekistan"/>
+    <tag k="name:ru" v="Узбекистан"/>
+    <tag k="name:rue" v="Узбекістан"/>
+    <tag k="name:rw" v="Uzubekisitani"/>
+    <tag k="name:sa" v="उजबेकिस्थान"/>
+    <tag k="name:sah" v="Узбекистаан"/>
+    <tag k="name:scn" v="Uzbekistan"/>
+    <tag k="name:sco" v="Uzbekistan"/>
+    <tag k="name:se" v="Usbekistan"/>
+    <tag k="name:sh" v="Uzbekistan"/>
+    <tag k="name:simple" v="Uzbekistan"/>
+    <tag k="name:sk" v="Uzbekistan"/>
+    <tag k="name:sl" v="Uzbekistan"/>
+    <tag k="name:so" v="Usbekistan"/>
+    <tag k="name:sq" v="Uzbekistani"/>
+    <tag k="name:sr" v="Узбекистан"/>
+    <tag k="name:ss" v="IZubekhi"/>
+    <tag k="name:su" v="Uzbékistan"/>
+    <tag k="name:sv" v="Uzbekistan"/>
+    <tag k="name:sw" v="Uzbekistan"/>
+    <tag k="name:szl" v="Uzbekistůn"/>
+    <tag k="name:ta" v="உசுபெக்கிசுத்தான்"/>
+    <tag k="name:te" v="ఉజ్బెకిస్తాన్"/>
+    <tag k="name:tg" v="Ӯзбакистон"/>
+    <tag k="name:th" v="ประเทศอุซเบกิสถาน"/>
+    <tag k="name:tk" v="Özbegistan"/>
+    <tag k="name:tl" v="Uzbekistan"/>
+    <tag k="name:tr" v="Özbekistan"/>
+    <tag k="name:tt" v="Үзбәкстан"/>
+    <tag k="name:udm" v="Узбекистан"/>
+    <tag k="name:ug" v="ئۆزبېكىستان"/>
+    <tag k="name:uk" v="Узбекистан"/>
+    <tag k="name:ur" v="ازبکستان"/>
+    <tag k="name:uz" v="Oʻzbekiston"/>
+    <tag k="name:vec" v="Uzbekistan"/>
+    <tag k="name:vep" v="Uzbekistan"/>
+    <tag k="name:vi" v="Uzbekistan"/>
+    <tag k="name:vo" v="Lusbekän"/>
+    <tag k="name:war" v="Usbekistan"/>
+    <tag k="name:wo" v="Usbekistaan"/>
+    <tag k="name:wuu" v="乌兹别克斯坦"/>
+    <tag k="name:xal" v="Сартин Орн"/>
+    <tag k="name:yi" v="אוזבעקיסטאן"/>
+    <tag k="name:yo" v="Ùsbẹ̀kìstán"/>
+    <tag k="name:zea" v="Oezbekistan"/>
+    <tag k="name:zh" v="乌兹别克斯坦"/>
+    <tag k="name:zh-min-nan" v="Uzbekistan"/>
+    <tag k="name:zh-yue" v="月即別"/>
+    <tag k="official_name" v="O‘zbekiston Respublikasi"/>
+    <tag k="population" v="29735700"/>
+    <tag k="source" v="maplibrary.org"/>
+    <tag k="timezone" v="Asia/Tashkent"/>
+    <tag k="timezone:note" v="There is also a time zone Asia/Samarkand, which currently has the same rules."/>
     <tag k="type" v="boundary"/>
+    <tag k="wikidata" v="Q265"/>
+    <tag k="wikipedia" v="en:Uzbekistan"/>
   </relation>
   <way id="52947809">
     <nd ref="670927410"/>

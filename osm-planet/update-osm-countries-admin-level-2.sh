@@ -1,3 +1,4 @@
+#!/bin/bash
 NAME="countries_admin_level_2"
 wget -O osm-data/$NAME.osm --post-file=osm-data/queries/$NAME.txt "http://overpass-api.de/api/interpreter"
 
