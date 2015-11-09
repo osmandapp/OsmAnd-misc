@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2015-11-07T16:05:02Z"/>
+<meta osm_base="2015-11-09T09:32:02Z"/>
 
   <node id="671022" lat="36.7014631" lon="-118.7559974">
     <tag k="alt_name:vi" v="California"/>
@@ -2949,6 +2949,7 @@
     <tag k="ref" v="BC"/>
     <tag k="source" v="GNS"/>
     <tag k="state_code" v="BC"/>
+    <tag k="wikipedia" v="en:British Columbia"/>
   </node>
   <node id="305700700" lat="70.0000073" lon="-90.0000000">
     <tag k="gns:dsg" v="ADM1"/>
@@ -2968,6 +2969,7 @@
     <tag k="ref" v="NU"/>
     <tag k="source" v="GNS"/>
     <tag k="state_code" v="NU"/>
+    <tag k="wikipedia" v="en:Nunavut"/>
   </node>
   <node id="305700701" lat="54.0000000" lon="-72.0000000">
     <tag k="gns:dsg" v="ADM1"/>
@@ -2991,6 +2993,7 @@
     <tag k="source" v="GNS"/>
     <tag k="state" v="Québec"/>
     <tag k="state_code" v="QC"/>
+    <tag k="wikipedia" v="fr:Québec"/>
   </node>
   <node id="305700702" lat="50.0000002" lon="-86.0000001">
     <tag k="gns:dsg" v="ADM1"/>
@@ -3011,6 +3014,7 @@
     <tag k="ref" v="ON"/>
     <tag k="source" v="GNS"/>
     <tag k="state_code" v="ON"/>
+    <tag k="wikipedia" v="en:Ontario"/>
   </node>
   <node id="305700703" lat="55.0000000" lon="-114.9999999">
     <tag k="gns:dsg" v="ADM1"/>
@@ -3042,6 +3046,7 @@
     <tag k="ref" v="AB"/>
     <tag k="source" v="GNS"/>
     <tag k="state_code" v="AB"/>
+    <tag k="wikipedia" v="en:Alberta"/>
   </node>
   <node id="305700704" lat="45.0000002" lon="-62.9999999">
     <tag k="gns:dsg" v="ADM1"/>
@@ -3100,6 +3105,7 @@
     <tag k="ref" v="MB"/>
     <tag k="source" v="GNS"/>
     <tag k="state_code" v="MB"/>
+    <tag k="wikipedia" v="en:Manitoba"/>
   </node>
   <node id="305700706" lat="52.0000002" lon="-56.0000001">
     <tag k="gns:dsg" v="ADM1"/>
@@ -3141,6 +3147,7 @@
     <tag k="ref" v="NL"/>
     <tag k="source" v="GNS"/>
     <tag k="state_code" v="NL"/>
+    <tag k="wikipedia" v="en:Newfoundland and Labrador"/>
   </node>
   <node id="305700707" lat="63.0000001" lon="-136.0000001">
     <tag k="gns:dsg" v="ADM1"/>
@@ -3160,6 +3167,7 @@
     <tag k="ref" v="YT"/>
     <tag k="source" v="GNS"/>
     <tag k="state_code" v="YT"/>
+    <tag k="wikipedia" v="en:Yukon"/>
   </node>
   <node id="305704361" lat="14.1666670" lon="122.7500000">
     <tag k="gns:dsg" v="ADM1"/>
@@ -9659,6 +9667,7 @@
     <tag k="population" v="12520000"/>
     <tag k="ref" v="BY"/>
     <tag k="state_code" v="BY"/>
+    <tag k="wikipedia" v="de:Bayern"/>
   </node>
   <node id="473849775" lat="38.7604815" lon="-92.5617875">
     <tag k="ISO3166-2" v="US-MO"/>
@@ -9718,6 +9727,7 @@
     <tag k="population" v="1680000"/>
     <tag k="ref" v="MV"/>
     <tag k="state_code" v="MV"/>
+    <tag k="wikipedia" v="de:Mecklenburg-Vorpommern"/>
   </node>
   <node id="473862587" lat="52.8455492" lon="13.2461296">
     <tag k="comment" v="Please do not move this label closer to the center of Brandenburg, or it will be printed over Berlin's label"/>
@@ -9752,6 +9762,7 @@
     <tag k="population" v="2522000"/>
     <tag k="ref" v="BB"/>
     <tag k="state_code" v="BB"/>
+    <tag k="wikipedia" v="de:Brandenburg"/>
   </node>
   <node id="473883922" lat="50.7333163" lon="11.0747905">
     <tag k="is_in:continent" v="Europe"/>
@@ -9793,6 +9804,7 @@
     <tag k="population" v="2268000"/>
     <tag k="ref" v="TH"/>
     <tag k="state_code" v="TH"/>
+    <tag k="wikipedia" v="de:Thüringen"/>
   </node>
   <node id="473890961" lat="54.1853998" lon="9.8220089">
     <tag k="is_in:continent" v="Europe"/>
@@ -11252,6 +11264,7 @@
     <tag k="population" v="1426000"/>
     <tag k="ref" v="WN"/>
     <tag k="state_code" v="WN"/>
+    <tag k="wikipedia" v="pl:Województwo warmińsko-mazurskie"/>
   </node>
   <node id="505013148" lat="54.1431480" lon="17.9057338">
     <tag k="name" v="województwo pomorskie"/>
@@ -18136,6 +18149,7 @@
     <tag k="place" v="state"/>
     <tag k="ref" v="NB"/>
     <tag k="source" v="GNS"/>
+    <tag k="wikipedia" v="en:New Brunswick"/>
   </node>
   <node id="1673514242" lat="52.6368397" lon="9.8456838">
     <tag k="is_in:continent" v="Europe"/>
@@ -18551,6 +18565,7 @@
     <tag k="ref" v="PE"/>
     <tag k="source" v="GNS"/>
     <tag k="state_code" v="PE"/>
+    <tag k="wikipedia" v="en:Prince Edward Island"/>
   </node>
   <node id="1757670352" lat="48.7481718" lon="24.5207477">
     <tag k="is_in:country" v="Україна"/>
@@ -18617,6 +18632,7 @@
     <tag k="population" v="587517"/>
     <tag k="ref:ISTAT" v="17"/>
     <tag k="short_name" v="BAS"/>
+    <tag k="wikipedia" v="it:Basilicata"/>
   </node>
   <node id="1781917315" lat="39.0565974" lon="16.5249864">
     <tag k="ISO3166-2" v="IT-78"/>
@@ -18638,6 +18654,7 @@
     <tag k="population" v="2011395"/>
     <tag k="ref:ISTAT" v="18"/>
     <tag k="short_name" v="CAL"/>
+    <tag k="wikipedia" v="it:Reggio Calabria"/>
   </node>
   <node id="1781917317" lat="40.8606720" lon="14.8439840">
     <tag k="ISO3166-2" v="IT-72"/>
@@ -18705,6 +18722,7 @@
     <tag k="population" v="1235808"/>
     <tag k="ref:ISTAT" v="06"/>
     <tag k="short_name" v="FVG"/>
+    <tag k="wikipedia" v="it:Friuli-Venezia Giulia"/>
   </node>
   <node id="1781917321" lat="41.9808038" lon="12.7662312">
     <tag k="ISO3166-2" v="IT-62"/>
@@ -18749,6 +18767,7 @@
     <tag k="population" v="1616788"/>
     <tag k="ref:ISTAT" v="07"/>
     <tag k="short_name" v="LIG"/>
+    <tag k="wikipedia" v="it:Liguria"/>
   </node>
   <node id="1781917324" lat="45.6209000" lon="9.7688930">
     <tag k="ISO3166-2" v="IT-25"/>
@@ -18834,6 +18853,7 @@
     <tag k="population" v="4457335"/>
     <tag k="ref:ISTAT" v="01"/>
     <tag k="short_name" v="PIE"/>
+    <tag k="wikipedia" v="it:Piemonte"/>
   </node>
   <node id="1781917329" lat="40.9842660" lon="16.6210360">
     <tag k="ISO3166-2" v="IT-75"/>
@@ -18857,6 +18877,7 @@
     <tag k="population" v="4091259"/>
     <tag k="ref:ISTAT" v="16"/>
     <tag k="short_name" v="PUG"/>
+    <tag k="wikipedia" v="it:Puglia"/>
   </node>
   <node id="1781917331" lat="40.0912813" lon="9.0305773">
     <tag k="ISO3166-2" v="IT-88"/>
@@ -18872,6 +18893,7 @@
     <tag k="name:eu" v="Sardinia"/>
     <tag k="name:fr" v="Sardaigne"/>
     <tag k="name:fur" v="Sardegne"/>
+    <tag k="name:it" v="Sardegna"/>
     <tag k="name:la" v="Sardinia"/>
     <tag k="name:pl" v="Sardynia"/>
     <tag k="name:pt" v="Sardenha"/>
@@ -18884,6 +18906,7 @@
     <tag k="population" v="1675411"/>
     <tag k="ref:ISTAT" v="20"/>
     <tag k="short_name" v="SAR"/>
+    <tag k="wikipedia" v="it:Sardegna"/>
   </node>
   <node id="1781917332" lat="37.5877940" lon="14.1550480">
     <tag k="ISO3166-2" v="IT-82"/>
@@ -18907,6 +18930,7 @@
     <tag k="population" v="5051075"/>
     <tag k="ref:ISTAT" v="19"/>
     <tag k="short_name" v="SIC"/>
+    <tag k="wikipedia" v="it:Sicilia"/>
   </node>
   <node id="1781917334" lat="43.4586541" lon="11.1389204">
     <tag k="ISO3166-2" v="IT-52"/>
@@ -18970,6 +18994,7 @@
     <tag k="population" v="906486"/>
     <tag k="ref:ISTAT" v="10"/>
     <tag k="short_name" v="UMB"/>
+    <tag k="wikipedia" v="it:Umbria"/>
   </node>
   <node id="1781917338" lat="45.7300990" lon="7.3874260">
     <tag k="ISO3166-2" v="IT-23"/>
@@ -18987,6 +19012,7 @@
     <tag k="population" v="128230"/>
     <tag k="ref:ISTAT" v="02"/>
     <tag k="short_name" v="VDA"/>
+    <tag k="wikipedia" v="it:Valle d'Aosta"/>
   </node>
   <node id="1781917344" lat="45.6476663" lon="11.8665254">
     <tag k="ISO3166-2" v="IT-34"/>
@@ -19012,6 +19038,7 @@
     <tag k="population" v="4937854"/>
     <tag k="ref:ISTAT" v="05"/>
     <tag k="short_name" v="VEN"/>
+    <tag k="wikipedia" v="it:Veneto"/>
   </node>
   <node id="1806706046" lat="56.9167446" lon="41.4352137">
     <tag k="is_in" v="Российская Федерация"/>
@@ -22269,6 +22296,7 @@
     <tag k="population" v="6018000"/>
     <tag k="ref" v="HE"/>
     <tag k="state_code" v="HE"/>
+    <tag k="wikipedia" v="de:Hessen"/>
   </node>
   <node id="2504653240" lat="38.3492457" lon="72.9988168">
     <tag k="name" v="Вилояти Мухтори Кӯҳистони Бадахшон"/>
@@ -22658,6 +22686,7 @@
     <tag k="ref" v="SK"/>
     <tag k="source" v="GNS"/>
     <tag k="state_code" v="SK"/>
+    <tag k="wikipedia" v="en:Saskatchewan"/>
   </node>
   <node id="2651758325" lat="-12.4254942" lon="39.4168743">
     <tag k="name" v="Cabo Delgado"/>

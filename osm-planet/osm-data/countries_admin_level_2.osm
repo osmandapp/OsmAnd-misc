@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2015-11-07T16:05:02Z"/>
+<meta osm_base="2015-11-09T09:32:02Z"/>
 
   <relation id="9407">
     <tag k="ISO3166-1" v="AD"/>
@@ -24635,12 +24635,11 @@
     <tag k="ISO3166-1:alpha3" v="PER"/>
     <tag k="ISO3166-1:numeric" v="604"/>
     <tag k="admin_level" v="2"/>
-    <tag k="border_type" v="nation"/>
-    <tag k="boundary" v="administrative"/>
+    <tag k="boundary" v="maritime"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/c/cf/Flag_of_Peru.svg"/>
     <tag k="int_name" v="Peru"/>
     <tag k="is_in:continent" v="South America"/>
-    <tag k="name" v="Perú"/>
+    <tag k="name" v="Perú (eez)"/>
     <tag k="name:ab" v="Перу"/>
     <tag k="name:ace" v="Pèru"/>
     <tag k="name:af" v="Peru"/>
@@ -32049,6 +32048,7 @@
     <tag k="timezone" v="America/Antigua"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q781"/>
+    <tag k="wikipedia" v="fr:Antigua-et-Barbuda"/>
   </relation>
   <relation id="537257">
     <tag k="ISO3166-1" v="MS"/>
@@ -33362,150 +33362,6 @@
     <tag k="website" v="http://www.gouv.mc/"/>
     <tag k="wikidata" v="Q235"/>
     <tag k="wikipedia" v="fr:Monaco"/>
-  </relation>
-  <relation id="1152720">
-    <tag k="admin_level" v="2"/>
-    <tag k="border_type" v="nation"/>
-    <tag k="boundary" v="administrative"/>
-    <tag k="cg_ref" v="AB"/>
-    <tag k="cg_ref:note" v="this is used for extracting CG maps, please do not delete"/>
-    <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/2/27/Flag_of_Abkhazia.svg"/>
-    <tag k="name" v="Абхазия - Аҧсны"/>
-    <tag k="name:ab" v="Аҧсны"/>
-    <tag k="name:af" v="Abchasië"/>
-    <tag k="name:an" v="Abkhasia"/>
-    <tag k="name:ar" v="أبخازيا"/>
-    <tag k="name:ast" v="Abkhasia"/>
-    <tag k="name:az" v="Abxaziya"/>
-    <tag k="name:ba" v="Абхазия"/>
-    <tag k="name:bar" v="Abchasien"/>
-    <tag k="name:bat-smg" v="Abkazėjė"/>
-    <tag k="name:be" v="Абхазія"/>
-    <tag k="name:be-x-old" v="Абхазія"/>
-    <tag k="name:bg" v="Абхазия"/>
-    <tag k="name:bn" v="আবখাজিয়া"/>
-    <tag k="name:bs" v="Abhazija"/>
-    <tag k="name:ca" v="Abkhàzia"/>
-    <tag k="name:cbk-zam" v="Abjasia"/>
-    <tag k="name:ce" v="Абхази"/>
-    <tag k="name:ceb" v="Abkhazia"/>
-    <tag k="name:ckb" v="ئەبخازیا"/>
-    <tag k="name:crh" v="Abhaziya"/>
-    <tag k="name:cs" v="Abcházie"/>
-    <tag k="name:cu" v="Абхаꙁїꙗ"/>
-    <tag k="name:cv" v="Абхази"/>
-    <tag k="name:da" v="Abkhasien"/>
-    <tag k="name:de" v="Abchasien"/>
-    <tag k="name:diq" v="Abxazya"/>
-    <tag k="name:el" v="Αμπχαζία"/>
-    <tag k="name:en" v="Abkhazia"/>
-    <tag k="name:eo" v="Abĥazio"/>
-    <tag k="name:es" v="Abjasia"/>
-    <tag k="name:et" v="Abhaasia"/>
-    <tag k="name:eu" v="Abkhazia"/>
-    <tag k="name:fa" v="آبخاز"/>
-    <tag k="name:fi" v="Abhasia"/>
-    <tag k="name:fr" v="Abkhazie"/>
-    <tag k="name:frp" v="Abkhazie"/>
-    <tag k="name:ga" v="An Abcáis"/>
-    <tag k="name:gag" v="Abhaziya"/>
-    <tag k="name:gl" v="Abkhazia"/>
-    <tag k="name:gv" v="Yn Abcaaish"/>
-    <tag k="name:he" v="אבחזיה"/>
-    <tag k="name:hi" v="अबख़ाज़िया"/>
-    <tag k="name:hif" v="Abkhazia"/>
-    <tag k="name:hr" v="Abhazija"/>
-    <tag k="name:hu" v="Abházia"/>
-    <tag k="name:hy" v="Աբխազիա"/>
-    <tag k="name:id" v="Abkhazia"/>
-    <tag k="name:ie" v="Abkhazia"/>
-    <tag k="name:io" v="Abkhazia"/>
-    <tag k="name:is" v="Abkasía"/>
-    <tag k="name:it" v="Abcasia"/>
-    <tag k="name:ja" v="アブハジア"/>
-    <tag k="name:jv" v="Abkhazia"/>
-    <tag k="name:ka" v="აფხაზეთი"/>
-    <tag k="name:kab" v="Abxazya"/>
-    <tag k="name:kbd" v="Азгъей"/>
-    <tag k="name:kk" v="Абхазия"/>
-    <tag k="name:ko" v="압하스"/>
-    <tag k="name:krc" v="Хачыпсы"/>
-    <tag k="name:ku" v="Abxazya"/>
-    <tag k="name:kv" v="Абхазия"/>
-    <tag k="name:la" v="Abascia"/>
-    <tag k="name:lad" v="Abhazia"/>
-    <tag k="name:lez" v="Абхазия"/>
-    <tag k="name:lmo" v="Abcasia"/>
-    <tag k="name:lt" v="Abchazija"/>
-    <tag k="name:lv" v="Abhāzija"/>
-    <tag k="name:mhr" v="Абхазий"/>
-    <tag k="name:mk" v="Апхазија"/>
-    <tag k="name:ml" v="അബ്ഖാസിയ"/>
-    <tag k="name:mn" v="Абхаз"/>
-    <tag k="name:mr" v="अबखाझिया"/>
-    <tag k="name:mrj" v="Абхази"/>
-    <tag k="name:ms" v="Abkhazia"/>
-    <tag k="name:mzn" v="آبخازیا"/>
-    <tag k="name:nl" v="Abchazië"/>
-    <tag k="name:nn" v="Abkhasia"/>
-    <tag k="name:no" v="Abkhasia"/>
-    <tag k="name:oc" v="Abcazia"/>
-    <tag k="name:or" v="ଆବାଖାଜିଆ"/>
-    <tag k="name:os" v="Абхази"/>
-    <tag k="name:pa" v="ਅਬਖ਼ਾਜ਼ੀਆ"/>
-    <tag k="name:pam" v="Abhasya"/>
-    <tag k="name:pl" v="Abchazja"/>
-    <tag k="name:pnb" v="ابخازیہ"/>
-    <tag k="name:pt" v="Abecásia"/>
-    <tag k="name:ro" v="Abhazia"/>
-    <tag k="name:ru" v="Абхазия"/>
-    <tag k="name:rw" v="Abukaziya"/>
-    <tag k="name:sah" v="Абхазия"/>
-    <tag k="name:scn" v="Abkhàzzia"/>
-    <tag k="name:sco" v="Abkhazie"/>
-    <tag k="name:sh" v="Abhazija"/>
-    <tag k="name:simple" v="Abkhazia"/>
-    <tag k="name:sk" v="Abcházsko"/>
-    <tag k="name:sl" v="Abhazija"/>
-    <tag k="name:so" v="Abkhazia"/>
-    <tag k="name:sq" v="Abkhazia"/>
-    <tag k="name:sr" v="Абхазија"/>
-    <tag k="name:su" v="Abkhazia"/>
-    <tag k="name:sv" v="Abchazien"/>
-    <tag k="name:sw" v="Abkhazia"/>
-    <tag k="name:szl" v="Abchazyjo"/>
-    <tag k="name:ta" v="அப்காசியா"/>
-    <tag k="name:te" v="అబ్‌ఖజియా"/>
-    <tag k="name:th" v="อับฮาเซีย"/>
-    <tag k="name:tk" v="Abhaziýa"/>
-    <tag k="name:tl" v="Abkasya"/>
-    <tag k="name:tr" v="Abhazya"/>
-    <tag k="name:tt" v="Абхазия"/>
-    <tag k="name:uk" v="Абхазія"/>
-    <tag k="name:ur" v="ابخازيا"/>
-    <tag k="name:uz" v="Abxaziya"/>
-    <tag k="name:vep" v="Abhazii"/>
-    <tag k="name:vi" v="Abkhazia"/>
-    <tag k="name:vo" v="Labkasän"/>
-    <tag k="name:war" v="Abkhazia"/>
-    <tag k="name:xal" v="Апсин Таңһч"/>
-    <tag k="name:xmf" v="აფხაზეთი"/>
-    <tag k="name:xmz" v="აბჟუა;სააფხაზო"/>
-    <tag k="name:yo" v="Abkhazia"/>
-    <tag k="name:zh" v="阿布哈茲"/>
-    <tag k="name:zh-yue" v="阿布哈茲"/>
-    <tag k="official_name" v="Республика Абхазия - Аҧсны Аҳәынҭқарра"/>
-    <tag k="official_name:ab" v="Аҧсны Аҳәынҭқарра"/>
-    <tag k="official_name:en" v="Republic of Abkhazia"/>
-    <tag k="official_name:ru" v="Республика Абхазия"/>
-    <tag k="short_name:ab" v="Аҧсны"/>
-    <tag k="short_name:de" v="Abchasien"/>
-    <tag k="short_name:en" v="Abkhazia"/>
-    <tag k="short_name:ru" v="Абхазия"/>
-    <tag k="type" v="boundary"/>
-    <tag k="wikidata" v="Q23334"/>
-    <tag k="wikipedia" v="ab:Аҧсны"/>
-    <tag k="wikipedia:en" v="Abkhazia"/>
   </relation>
   <relation id="1155955">
     <tag k="ISO3166-1" v="LI"/>
@@ -40122,6 +39978,7 @@
     <tag k="name:sr" v="Океанија"/>
     <tag k="name:sv" v="Oceanien"/>
     <tag k="name:uk" v="Океанія"/>
+    <tag k="wikipedia" v="en:Oceania"/>
   </relation>
 
   <relation id="-65337">
@@ -40153,6 +40010,7 @@
     <tag k="name:sr" v="Кариби архипелаг"/>
     <tag k="name:sv" v="Caribbean skärgården"/>
     <tag k="name:uk" v="Карибський архіпелаг"/>
+    <tag k="wikipedia" v="en:Caribbean"/>
   </relation>
   <relation id="-65338">
     <tag k="name" v="Netherlands Antilles"/>
@@ -40182,4 +40040,5 @@
     <tag k="name:sr" v="Холандски Антили"/>
     <tag k="name:sv" v="Nederländska Antillerna"/>
     <tag k="name:uk" v="Нідерландські Антильські острови"/>
+    <tag k="wikipedia" v="nl:Nederlandse Antillen"/>
   </relation></osm>
