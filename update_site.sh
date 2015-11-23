@@ -20,8 +20,10 @@ cp -vu help/website/help/legacy/HowToArticles.html $LOCAL_SITE_DIR/help/HowToArt
 chgrp -R www-data $LOCAL_SITE_DIR/*
 chmod g+w $LOCAL_SITE_DIR/indexes.xml 
 
-cp -vur help/dvr/* $DVR_SITE_DIR
-chgrp -R www-data $DVR_SITE_DIR/*
+if [ -d "$DVR_SITE_DIR" ]; then 
+	cp -vur help/dvr/* $DVR_SITE_DIR
+	chgrp -R www-data $DVR_SITE_DIR/*
+fi
 
 
 
