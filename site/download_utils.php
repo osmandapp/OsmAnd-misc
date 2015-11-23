@@ -21,8 +21,8 @@ function downloadFile($filename) {
 	    header('HTTP/1.1 206 Partial Content');
 	    header('Content-Range: bytes ' . $from . '-' . $to.'/'.filesize($filename));
 	} else {
-            header('HTTP/1.1 200 Ok');
-        }
+        header('HTTP/1.1 200 Ok');
+    }
 
 	$size= $to - $from + 1;
 	header('Accept-Ranges: bytes');
@@ -61,11 +61,19 @@ function dwFile($filename,$query,$type) {
       $simple = true;
     }
     $helpServers = array();
+    $helpServersUS = array();
     $mainServers = array("dl2.osmand.net", "dl3.osmand.net");
     $mainServersLoad = 100;
     
     $helpServersCount = count($helpServers);
+    $helpServersUSCount = count($helpServersUS);
     $mainServersCount = count($mainServers);
+    $record = geoip_record_by_name($_SERVER['REMOTE_ADDR'])
+    if($record['country_code'] == 'NL' and $simple ) {
+    	$url = "dl3.osmand.net";
+    	header('Location: http://'.$url.'/download.php?'.$query);
+    }
+    
     if($type == "osmc" ) {
 		downloadFile($filename);
     } else if($helpServersCount > 0 and $simple and $var < (100 - $mainServersLoad)) {
