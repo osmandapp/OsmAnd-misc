@@ -56,7 +56,8 @@ function dwFile($filename,$query,$type) {
     header('HTTP/1.1 302 Found');
     $var = rand(0, 99);
     $simple = false;
-    if($type == "road" or $type == "" or $type == "wiki") {
+    //if($type == "road" or $type == "" or $type == "wiki") {
+    if($type == "") {
       $simple = true;
     }
     $helpServers = array();
