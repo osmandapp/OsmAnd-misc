@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2015-11-07T16:06:02Z" areas="2015-11-06T06:19:02Z"/>
+<meta osm_base="2015-11-11T06:53:03Z" areas="2015-11-09T23:27:02Z"/>
 
   <relation id="8636">
     <tag k="ISO3166-2" v="FR-A"/>
@@ -642,6 +642,7 @@
     <tag k="wikipedia" v="fr:Picardie"/>
   </relation>
   <relation id="8652">
+    <tag k="ISO3166-2" v="FR-T"/>
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
     <tag k="end_date" v="2015-12-31"/>
@@ -661,6 +662,7 @@
     <tag k="type" v="boundary"/>
     <tag k="website" v="http://www.poitou-charentes.fr/"/>
     <tag k="wikipedia" v="fr:Poitou-Charentes"/>
+    <tag k="wikipedia:en" v="Poitou-Charentes"/>
   </relation>
   <relation id="8654">
     <tag k="ISO3166-2" v="FR-U"/>
@@ -11873,6 +11875,7 @@
     <tag k="name:ky" v="Баткен областы"/>
     <tag k="name:ru" v="Баткенская область"/>
     <tag k="type" v="boundary"/>
+    <tag k="wikidata" v="Q487631"/>
   </relation>
   <relation id="178020">
     <tag k="ISO3166-2" v="KG-O"/>
@@ -11884,6 +11887,7 @@
     <tag k="name:ky" v="Ош областы"/>
     <tag k="name:ru" v="Ошская область"/>
     <tag k="type" v="boundary"/>
+    <tag k="wikidata" v="Q231987"/>
   </relation>
   <relation id="178023">
     <tag k="ISO3166-2" v="KG-T"/>
@@ -11894,12 +11898,14 @@
     <tag k="name:ky" v="Талас областы"/>
     <tag k="name:ru" v="Таласская область"/>
     <tag k="type" v="boundary"/>
+    <tag k="wikidata" v="Q109838"/>
   </relation>
   <relation id="178024">
     <tag k="ISO3166-2" v="KG-J"/>
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Джалал-Абадская область"/>
+    <tag k="name:de" v="Gebiet Dschalalabat"/>
     <tag k="name:en" v="Jalal-Abad"/>
     <tag k="name:ky" v="Жалалабат областы"/>
     <tag k="name:ru" v="Джалал-Абадская область"/>
@@ -11911,20 +11917,24 @@
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Иссык-Кульская область"/>
+    <tag k="name:de" v="Gebiet Yssykköl"/>
     <tag k="name:en" v="Issyk-Kul"/>
     <tag k="name:ky" v="Ысык-Көл областы"/>
     <tag k="name:ru" v="Иссык-Кульская область"/>
     <tag k="type" v="boundary"/>
+    <tag k="wikidata" v="Q487413"/>
   </relation>
   <relation id="178026">
     <tag k="ISO3166-2" v="KG-C"/>
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Чуйская область"/>
+    <tag k="name:de" v="Gebiet Tschüi"/>
     <tag k="name:en" v="Chui Province"/>
     <tag k="name:ky" v="Чүй областы"/>
     <tag k="name:ru" v="Чуйская область"/>
     <tag k="type" v="boundary"/>
+    <tag k="wikidata" v="Q486370"/>
   </relation>
   <relation id="179296">
     <tag k="ISO3166-2" v="IT-36"/>
@@ -12531,7 +12541,7 @@
     <tag k="ISO3166-2" v="CD-BC"/>
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
-    <tag k="name" v="Kongo-Central"/>
+    <tag k="name" v="Bas-Congo"/>
     <tag k="type" v="boundary"/>
   </relation>
   <relation id="193097">
@@ -19740,7 +19750,7 @@
     <tag k="wikidata" v="Q388291"/>
   </relation>
   <relation id="383892">
-    <tag k="ISO3166-2" v="YE-HU"/>
+    <tag k="ISO3166-2" v="YE-LA"/>
     <tag k="admin_level" v="4"/>
     <tag k="alt_name" v="Muḩāfaz̧at Laḩij"/>
     <tag k="boundary" v="administrative"/>
@@ -19759,6 +19769,7 @@
     <tag k="source" v="GNS"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="de:Gouvernement Lahidsch"/>
+    <tag k="wikipedia:en" v="Lahij_Governorate"/>
   </relation>
   <relation id="383893">
     <tag k="ISO3166-2" v="YE-AD"/>
@@ -19822,7 +19833,7 @@
     <tag k="wikidata" v="Q388330"/>
   </relation>
   <relation id="383896">
-    <tag k="ISO3166-2" v="YE-SD"/>
+    <tag k="ISO3166-2" v="YE-SH"/>
     <tag k="admin_level" v="4"/>
     <tag k="alt_name" v="Muḩāfaz̧at Shabwah"/>
     <tag k="boundary" v="administrative"/>
@@ -19841,6 +19852,7 @@
     <tag k="source" v="GNS"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia:de" v="Gouvernement Schabwa"/>
+    <tag k="wikipedia:en" v="Shabwah_Governorate"/>
   </relation>
   <relation id="383897">
     <tag k="ISO3166-2" v="YE-HD"/>
@@ -20352,12 +20364,13 @@
     <tag k="wikipedia" v="es:Departamento de Cordillera"/>
   </relation>
   <relation id="389890">
-    <tag k="ISO3166-2" v="PY-6"/>
+    <tag k="ISO3166-2" v="PY-5"/>
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
     <tag k="is_in:country" v="Paraguay"/>
     <tag k="name" v="Caaguazú"/>
     <tag k="type" v="boundary"/>
+    <tag k="wikipedia:en" v="Caaguazú_Department"/>
   </relation>
   <relation id="389891">
     <tag k="ISO3166-2" v="PY-10"/>
@@ -23063,6 +23076,133 @@
     <tag k="wikidata" v="Q23427"/>
     <tag k="wikipedia" v="os:Хуссар Ирыстон"/>
   </relation>
+  <relation id="1152720">
+    <tag k="admin_level" v="4"/>
+    <tag k="border_type" v="region"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="cg_ref" v="AB"/>
+    <tag k="cg_ref:note" v="this is used for extracting CG maps, please do not delete"/>
+    <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/2/27/Flag_of_Abkhazia.svg"/>
+    <tag k="name" v="აფხაზეთი (Apkhazeti)"/>
+    <tag k="name:ab" v="Аҧсны"/>
+    <tag k="name:ckb" v="ئەبخازیا"/>
+    <tag k="name:crh" v="Abhaziya"/>
+    <tag k="name:cs" v="Abcházie"/>
+    <tag k="name:cu" v="Абхаꙁїꙗ"/>
+    <tag k="name:cv" v="Абхази"/>
+    <tag k="name:da" v="Abkhasien"/>
+    <tag k="name:de" v="Abchasien"/>
+    <tag k="name:diq" v="Abxazya"/>
+    <tag k="name:el" v="Αμπχαζία"/>
+    <tag k="name:en" v="Abkhazia"/>
+    <tag k="name:eo" v="Abĥazio"/>
+    <tag k="name:es" v="Abjasia"/>
+    <tag k="name:et" v="Abhaasia"/>
+    <tag k="name:eu" v="Abkhazia"/>
+    <tag k="name:fa" v="آبخاز"/>
+    <tag k="name:fi" v="Abhasia"/>
+    <tag k="name:fr" v="Abkhazie"/>
+    <tag k="name:frp" v="Abkhazie"/>
+    <tag k="name:ga" v="An Abcáis"/>
+    <tag k="name:gag" v="Abhaziya"/>
+    <tag k="name:gl" v="Abkhazia"/>
+    <tag k="name:gv" v="Yn Abcaaish"/>
+    <tag k="name:he" v="אבחזיה"/>
+    <tag k="name:hi" v="अबख़ाज़िया"/>
+    <tag k="name:hif" v="Abkhazia"/>
+    <tag k="name:hr" v="Abhazija"/>
+    <tag k="name:hu" v="Abházia"/>
+    <tag k="name:hy" v="Աբխազիա"/>
+    <tag k="name:id" v="Abkhazia"/>
+    <tag k="name:ie" v="Abkhazia"/>
+    <tag k="name:io" v="Abkhazia"/>
+    <tag k="name:is" v="Abkasía"/>
+    <tag k="name:it" v="Abcasia"/>
+    <tag k="name:ja" v="アブハジア"/>
+    <tag k="name:jv" v="Abkhazia"/>
+    <tag k="name:ka" v="აფხაზეთი"/>
+    <tag k="name:kab" v="Abxazya"/>
+    <tag k="name:kbd" v="Азгъей"/>
+    <tag k="name:kk" v="Абхазия"/>
+    <tag k="name:ko" v="압하스"/>
+    <tag k="name:krc" v="Хачыпсы"/>
+    <tag k="name:ku" v="Abxazya"/>
+    <tag k="name:kv" v="Абхазия"/>
+    <tag k="name:la" v="Abascia"/>
+    <tag k="name:lad" v="Abhazia"/>
+    <tag k="name:lez" v="Абхазия"/>
+    <tag k="name:lmo" v="Abcasia"/>
+    <tag k="name:lt" v="Abchazija"/>
+    <tag k="name:lv" v="Abhāzija"/>
+    <tag k="name:mhr" v="Абхазий"/>
+    <tag k="name:mk" v="Апхазија"/>
+    <tag k="name:ml" v="അബ്ഖാസിയ"/>
+    <tag k="name:mn" v="Абхаз"/>
+    <tag k="name:mr" v="अबखाझिया"/>
+    <tag k="name:mrj" v="Абхази"/>
+    <tag k="name:ms" v="Abkhazia"/>
+    <tag k="name:mzn" v="آبخازیا"/>
+    <tag k="name:nl" v="Abchazië"/>
+    <tag k="name:nn" v="Abkhasia"/>
+    <tag k="name:no" v="Abkhasia"/>
+    <tag k="name:oc" v="Abcazia"/>
+    <tag k="name:or" v="ଆବାଖାଜିଆ"/>
+    <tag k="name:os" v="Абхази"/>
+    <tag k="name:pa" v="ਅਬਖ਼ਾਜ਼ੀਆ"/>
+    <tag k="name:pam" v="Abhasya"/>
+    <tag k="name:pl" v="Abchazja"/>
+    <tag k="name:pnb" v="ابخازیہ"/>
+    <tag k="name:pt" v="Abecásia"/>
+    <tag k="name:ro" v="Abhazia"/>
+    <tag k="name:ru" v="Абхазия"/>
+    <tag k="name:rw" v="Abukaziya"/>
+    <tag k="name:sah" v="Абхазия"/>
+    <tag k="name:scn" v="Abkhàzzia"/>
+    <tag k="name:sco" v="Abkhazie"/>
+    <tag k="name:sh" v="Abhazija"/>
+    <tag k="name:simple" v="Abkhazia"/>
+    <tag k="name:sk" v="Abcházsko"/>
+    <tag k="name:sl" v="Abhazija"/>
+    <tag k="name:so" v="Abkhazia"/>
+    <tag k="name:sq" v="Abkhazia"/>
+    <tag k="name:sr" v="Абхазија"/>
+    <tag k="name:su" v="Abkhazia"/>
+    <tag k="name:sv" v="Abchazien"/>
+    <tag k="name:sw" v="Abkhazia"/>
+    <tag k="name:szl" v="Abchazyjo"/>
+    <tag k="name:ta" v="அப்காசியா"/>
+    <tag k="name:te" v="అబ్‌ఖజియా"/>
+    <tag k="name:th" v="อับฮาเซีย"/>
+    <tag k="name:tk" v="Abhaziýa"/>
+    <tag k="name:tl" v="Abkasya"/>
+    <tag k="name:tr" v="Abhazya"/>
+    <tag k="name:tt" v="Абхазия"/>
+    <tag k="name:uk" v="Абхазія"/>
+    <tag k="name:ur" v="ابخازيا"/>
+    <tag k="name:uz" v="Abxaziya"/>
+    <tag k="name:vep" v="Abhazii"/>
+    <tag k="name:vi" v="Abkhazia"/>
+    <tag k="name:vo" v="Labkasän"/>
+    <tag k="name:war" v="Abkhazia"/>
+    <tag k="name:xal" v="Апсин Таңһч"/>
+    <tag k="name:xmf" v="აფხაზეთი"/>
+    <tag k="name:xmz" v="აბჟუა;სააფხაზო"/>
+    <tag k="name:yo" v="Abkhazia"/>
+    <tag k="name:zh" v="阿布哈茲"/>
+    <tag k="name:zh-yue" v="阿布哈茲"/>
+    <tag k="official_name" v="Республика Абхазия - Аҧсны Аҳәынҭқарра"/>
+    <tag k="official_name:ab" v="Аҧсны Аҳәынҭқарра"/>
+    <tag k="official_name:en" v="Republic of Abkhazia"/>
+    <tag k="official_name:ru" v="Республика Абхазия"/>
+    <tag k="short_name:ab" v="Аҧсны"/>
+    <tag k="short_name:de" v="Abchasien"/>
+    <tag k="short_name:en" v="Abkhazia"/>
+    <tag k="short_name:ru" v="Абхазия"/>
+    <tag k="type" v="boundary"/>
+    <tag k="wikidata" v="Q23334"/>
+    <tag k="wikipedia" v="ab:Аҧсны"/>
+    <tag k="wikipedia:en" v="Abkhazia"/>
+  </relation>
   <relation id="1154756">
     <tag k="ISO3166-2" v="ES-CE"/>
     <tag k="addr:country_code" v="ES"/>
@@ -23775,6 +23915,7 @@
     <tag k="name:ky" v="Нарын областы"/>
     <tag k="name:ru" v="Нарынская область"/>
     <tag k="type" v="boundary"/>
+    <tag k="wikidata" v="Q486375"/>
   </relation>
   <relation id="1253032">
     <tag k="ISO3166-2" v="SZ-MA"/>
@@ -26415,11 +26556,12 @@
     <tag k="type" v="boundary"/>
   </relation>
   <relation id="1504427">
-    <tag k="ISO3166-2" v="PH-BTN"/>
+    <tag k="ISO3166-2" v="PH-BTG"/>
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Batangas"/>
     <tag k="type" v="boundary"/>
+    <tag k="wikipedia:en" v="Batangas"/>
   </relation>
   <relation id="1504500">
     <tag k="ISO3166-2" v="PH-QUE"/>
@@ -37603,6 +37745,7 @@
     <tag k="wikipedia" v="fr:Drâa-Tafilalet"/>
   </relation>
   <relation id="2424036">
+    <tag k="ISO3166-2" v="MA-13"/>
     <tag k="admin_level" v="4"/>
     <tag k="border_type" v="region"/>
     <tag k="boundary" v="administrative"/>
@@ -37618,8 +37761,10 @@
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q264529"/>
     <tag k="wikipedia" v="en:Souss-Massa"/>
+    <tag k="wikipedia:en" v="Souss-Massa-Drâa"/>
   </relation>
   <relation id="2424040">
+    <tag k="ISO3166-2" v="MA-14"/>
     <tag k="admin_level" v="4"/>
     <tag k="border_type" v="region"/>
     <tag k="boundary" v="administrative"/>
@@ -37634,6 +37779,7 @@
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q529796"/>
     <tag k="wikipedia" v="en:Guelmim-Oued Noun"/>
+    <tag k="wikipedia:en" v="Guelmim-Es_Semara"/>
   </relation>
   <relation id="2424085">
     <tag k="admin_level" v="4"/>
@@ -37676,6 +37822,7 @@
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q19951088"/>
     <tag k="wikipedia" v="fr:Laâyoune-Sakia El Hamra"/>
+    <tag k="wikipedia:en" v="Laâyoune-Boujdour-Sakia_El_Hamra"/>
   </relation>
   <relation id="2425963">
     <tag k="ISO3166-1" v="BV"/>
@@ -38131,6 +38278,7 @@
     <tag k="type" v="boundary"/>
   </relation>
   <relation id="2528143">
+    <tag k="ISO3166-2" v="BA-BRC"/>
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Brčko distrikt Bosne i Hercegovine"/>
@@ -38145,6 +38293,7 @@
     <tag k="wikipedia" v="en:Brčko District"/>
   </relation>
   <relation id="2528144">
+    <tag k="ISO3166-2" v="BA-BIH"/>
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Federacija Bosne i Hercegovine"/>
@@ -38161,8 +38310,10 @@
     <tag k="source" v="combination of data from 1991 census &amp; data after the war, for complete image"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="de:Föderation Bosnien und Herzegowina"/>
+    <tag k="wikipedia:en" v="Federation_of_Bosnia_and_Herzegovina"/>
   </relation>
   <relation id="2528145">
+    <tag k="ISO3166-2" v="BA-SRP"/>
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Republika Srpska"/>
@@ -38177,6 +38328,7 @@
     <tag k="source" v="combination of data from 1991 census &amp; data after the war, for complete image"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="de:Republika Srpska"/>
+    <tag k="wikipedia:en" v="Republika_Srpska"/>
   </relation>
   <relation id="2529822">
     <tag k="ISO3166-2" v="MX-OAX"/>
@@ -39628,15 +39780,17 @@
     <tag k="wikipedia" v="zh:臺中市"/>
   </relation>
   <relation id="2925596">
+    <tag k="ISO3166-2" v="JO-BA"/>
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Balqa"/>
     <tag k="name:en" v="Balqa"/>
     <tag k="name:ru" v="Эль-Балка"/>
     <tag k="type" v="boundary"/>
-    <tag k="wikipedia" v="en:Balqa Governorate"/>
+    <tag k="wikipedia:en" v="Balqa_Governorate"/>
   </relation>
   <relation id="2925597">
+    <tag k="ISO3166-2" v="JO-AZ"/>
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Zarqa"/>
@@ -39644,8 +39798,10 @@
     <tag k="name:ru" v="Эз-Зарка"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q721445"/>
+    <tag k="wikipedia:en" v="Zarqa_Governorate"/>
   </relation>
   <relation id="2925599">
+    <tag k="ISO3166-2" v="JO-JA"/>
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Jarash"/>
@@ -39653,8 +39809,10 @@
     <tag k="name:ru" v="Джараш"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q750270"/>
+    <tag k="wikipedia:en" v="Jerash_Governorate"/>
   </relation>
   <relation id="2925608">
+    <tag k="ISO3166-2" v="JO-MA"/>
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Mafraq"/>
@@ -39663,17 +39821,20 @@
     <tag k="name:ru" v="Эль-Мафрак"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q854871"/>
+    <tag k="wikipedia:en" v="Mafraq_Governorate"/>
   </relation>
   <relation id="2925616">
+    <tag k="ISO3166-2" v="JO-AJ"/>
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Ajloun"/>
     <tag k="name:en" v="Ajlun"/>
     <tag k="name:ru" v="Аджлун"/>
     <tag k="type" v="boundary"/>
-    <tag k="wikipedia" v="en:Ajloun Governorate"/>
+    <tag k="wikipedia:en" v="Ajloun_Governorate"/>
   </relation>
   <relation id="2925617">
+    <tag k="ISO3166-2" v="JO-IR"/>
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Irbid"/>
@@ -39681,9 +39842,10 @@
     <tag k="name:he" v="אירביד"/>
     <tag k="name:ru" v="Ирбид"/>
     <tag k="type" v="boundary"/>
-    <tag k="wikipedia" v="en:Irbid Governorate"/>
+    <tag k="wikipedia:en" v="Irbid_Governorate"/>
   </relation>
   <relation id="2926344">
+    <tag k="ISO3166-2" v="JO-AM"/>
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Amman"/>
@@ -39692,17 +39854,20 @@
     <tag k="name:ru" v="Амман"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q472788"/>
+    <tag k="wikipedia:en" v="Amman_Governorate"/>
   </relation>
   <relation id="2926345">
+    <tag k="ISO3166-2" v="JO-AQ"/>
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Aqaba"/>
     <tag k="name:en" v="Aqaba"/>
     <tag k="name:ru" v="Акаба"/>
     <tag k="type" v="boundary"/>
-    <tag k="wikipedia" v="en:Aqaba Governorate"/>
+    <tag k="wikipedia:en" v="Aqaba Governorate"/>
   </relation>
   <relation id="2926346">
+    <tag k="ISO3166-2" v="JO-KA"/>
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Karak"/>
@@ -39710,9 +39875,10 @@
     <tag k="name:he" v="כרכ"/>
     <tag k="name:ru" v="Эль-Карак"/>
     <tag k="type" v="boundary"/>
-    <tag k="wikipedia" v="en:Karak Governorate"/>
+    <tag k="wikipedia:en" v="Karak_Governorate"/>
   </relation>
   <relation id="2926347">
+    <tag k="ISO3166-2" v="JO-MN"/>
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Ma'an"/>
@@ -39720,9 +39886,10 @@
     <tag k="name:he" v="מעאן"/>
     <tag k="name:ru" v="Маан"/>
     <tag k="type" v="boundary"/>
-    <tag k="wikipedia" v="en:Ma'an Governorate"/>
+    <tag k="wikipedia:en" v="Ma%27an_Governorate"/>
   </relation>
   <relation id="2926348">
+    <tag k="ISO3166-2" v="JO-MD"/>
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Madaba"/>
@@ -39730,9 +39897,10 @@
     <tag k="name:he" v="מידבא"/>
     <tag k="name:ru" v="Мадаба"/>
     <tag k="type" v="boundary"/>
-    <tag k="wikipedia" v="en:Madaba Governorate"/>
+    <tag k="wikipedia:en" v="Madaba_Governorate"/>
   </relation>
   <relation id="2926349">
+    <tag k="ISO3166-2" v="JO-AT"/>
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Tafilah"/>
@@ -39742,6 +39910,7 @@
     <tag k="name:ru" v="Эт-Тафила"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q750259"/>
+    <tag k="wikipedia:en" v="Tafilah_Governorate"/>
   </relation>
   <relation id="2932285">
     <tag k="ISO3166-2" v="MY-10"/>
@@ -41369,6 +41538,7 @@
     <tag k="type" v="boundary"/>
   </relation>
   <relation id="3250963">
+    <tag k="ISO3166-2" v="IN-TG"/>
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Telangana"/>
@@ -41382,7 +41552,7 @@
     <tag k="name:te" v="తెలంగాణ"/>
     <tag k="ref" v="TG"/>
     <tag k="type" v="boundary"/>
-    <tag k="wikipedia" v="en:Telangana"/>
+    <tag k="wikipedia:en" v="en:Telangana"/>
   </relation>
   <relation id="3263726">
     <tag k="ISO3166-2" v="CY"/>
@@ -42729,7 +42899,7 @@
     <tag k="type" v="boundary"/>
   </relation>
   <relation id="3399075">
-    <tag k="ISO3166-2" v="VE-Z"/>
+    <tag k="ISO3166-2" v="VE-W"/>
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
     <tag k="is_in:country" v="Venezuela"/>
@@ -42739,6 +42909,7 @@
     <tag k="name:en" v="Federal Dependencies"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="es:Dependencias Federales de Venezuela"/>
+    <tag k="wikipedia:en" v="Federal_Dependencies_of_Venezuela"/>
   </relation>
   <relation id="3399113">
     <tag k="ISO3166-2" v="GN-NZ"/>
@@ -42786,6 +42957,7 @@
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q693528"/>
     <tag k="wikipedia" v="fr:Dakhla-Oued Ed Dahab"/>
+    <tag k="wikipedia:en" v="Dakhla-Oued_Ed-Dahab"/>
   </relation>
   <relation id="3411021">
     <tag k="ISO3166-2" v="DO-15"/>
@@ -46563,6 +46735,7 @@
     <tag k="wikipedia" v="en:West_New_Britain_Province"/>
   </relation>
   <relation id="3778575">
+    <tag k="ISO3166-2" v="PG-HEL"/>
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Hela"/>
@@ -46572,9 +46745,10 @@
     <tag k="source" v="gadm.org"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q1382499"/>
-    <tag k="wikipedia" v="en:Hela_Province"/>
+    <tag k="wikipedia:en" v="Hela_Province"/>
   </relation>
   <relation id="3778576">
+    <tag k="ISO3166-2" v="PG-JWK"/>
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Jiwaka"/>
@@ -46584,7 +46758,7 @@
     <tag k="source" v="gadm.org"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q1400625"/>
-    <tag k="wikipedia" v="en:Jiwaka_Province"/>
+    <tag k="wikipedia:en" v="Jiwaka_Province"/>
   </relation>
   <relation id="3780130">
     <tag k="ISO3166-2" v="PK-JK"/>
@@ -47482,61 +47656,77 @@
     <tag k="wikipedia" v="en:Halabja Governorate"/>
   </relation>
   <relation id="3826123">
+    <tag k="ISO3166-2" v="MV-SU"/>
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Dhekunu Province"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q7568276"/>
+    <tag k="wikipedia:en" v="South_Province,_Maldives"/>
   </relation>
   <relation id="3826124">
+    <tag k="ISO3166-2" v="MV-US"/>
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Mathi-Dhekunu Province"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q7898928"/>
+    <tag k="wikipedia:en" v="Upper_South_Province,_Maldives"/>
   </relation>
   <relation id="3826125">
+    <tag k="ISO3166-2" v="MV-UN"/>
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Mathi-Uthuru Province"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q7898827"/>
+    <tag k="wikipedia:en" v="Upper_North_Province,_Maldives"/>
   </relation>
   <relation id="3826126">
+    <tag k="ISO3166-2" v="MV-CE"/>
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Medhu Province"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q5061718"/>
+    <tag k="wikipedia:en" v="Central_Province,_Maldives"/>
   </relation>
   <relation id="3826127">
+    <tag k="ISO3166-2" v="MV-SC"/>
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Medhu-Dhekunu Province"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q7566772"/>
+    <tag k="wikipedia:en" v="South_Central_Province,_Maldives"/>
   </relation>
   <relation id="3826128">
+    <tag k="ISO3166-2" v="MV-NC"/>
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Medhu-Uthuru Province"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q13365881"/>
+    <tag k="wikipedia:en" v="North_Central_Province,_Maldives"/>
   </relation>
   <relation id="3826129">
+    <tag k="ISO3166-2" v="MV-NO"/>
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Uthuru Province"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q13365882"/>
+    <tag k="wikipedia:en" v="North_Province,_Maldives"/>
   </relation>
   <relation id="3826142">
+    <tag k="ISO3166-2" v="MV-MLE"/>
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Malé"/>
     <tag k="name:dv" v="މާލެ"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q9347"/>
+    <tag k="wikipedia:en" v="Malé"/>
   </relation>
   <relation id="3829288">
     <tag k="admin_level" v="4"/>
@@ -48127,6 +48317,20 @@
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="en:Kuntaur_%28Gambia%29"/>
   </relation>
+  <relation id="4200009">
+    <tag k="admin_level" v="4"/>
+    <tag k="boundary" v="national_park"/>
+    <tag k="leisure" v="nature_reserve"/>
+    <tag k="name" v="Allegheny Islands State Park"/>
+    <tag k="operator" v="Pennsylvania Dept. of Conservation and Resources"/>
+    <tag k="ownership" v="state"/>
+    <tag k="protect_class" v="2"/>
+    <tag k="protection_title" v="state_park"/>
+    <tag k="ref:IUCN" v="5"/>
+    <tag k="source" v="DCNR (Pennsylvania Dept. of Conservation and Resources)"/>
+    <tag k="type" v="multipolygon"/>
+    <tag k="wikipedia" v="en:Allegheny Islands State Park"/>
+  </relation>
   <relation id="4266962">
     <tag k="ISO3166-2" v="NZ-NSN"/>
     <tag k="admin_level" v="4"/>
@@ -48169,6 +48373,7 @@
     <tag k="is_in:continent" v="North America"/>
     <tag k="is_in:country" v="United States"/>
     <tag k="name" v="Puerto Rico"/>
+    <tag k="name:en" v="Puerto Rico"/>
     <tag k="name:ru" v="Пуэрто-Рико"/>
     <tag k="name:sk" v="Portoriko"/>
     <tag k="name:sr" v="Порторико"/>
@@ -48442,6 +48647,7 @@
     <tag k="wikipedia" v="es:Departamento de Potosí"/>
   </relation>
   <relation id="4521144">
+    <tag k="ISO3166-2" v="ID-PA"/>
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Papua"/>
@@ -48453,6 +48659,7 @@
     <tag k="wikipedia" v="en:Papua_(province)"/>
   </relation>
   <relation id="4521145">
+    <tag k="ISO3166-2" v="ID-PB"/>
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Papua Barat"/>
@@ -49082,6 +49289,7 @@
     <tag k="wikipedia" v="en:Viqueque District"/>
   </relation>
   <relation id="4632579">
+    <tag k="ISO3166-2" v="FJ-C"/>
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Central"/>
@@ -49089,27 +49297,30 @@
     <tag k="wikipedia" v="en:Central Division, Fiji"/>
   </relation>
   <relation id="4632580">
+    <tag k="ISO3166-2" v="FJ-E"/>
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Eastern"/>
     <tag k="type" v="boundary"/>
-    <tag k="wikipedia" v="en:Eastern Division, Fiji"/>
+    <tag k="wikipedia:en" v="Eastern_Division,_Fiji"/>
   </relation>
   <relation id="4632581">
+    <tag k="ISO3166-2" v="FJ-N"/>
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Northern"/>
     <tag k="type" v="boundary"/>
-    <tag k="wikipedia" v="en:Northern Division, Fiji"/>
+    <tag k="wikipedia:en" v="Northern Division, Fiji"/>
   </relation>
   <relation id="4632582">
+    <tag k="ISO3166-2" v="FJ-W"/>
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Western"/>
     <tag k="name:en" v="Western"/>
     <tag k="name:lt" v="Vakarinis Fidžio padalinys"/>
     <tag k="type" v="boundary"/>
-    <tag k="wikipedia" v="en:Western Division, Fiji"/>
+    <tag k="wikipedia:en" v="Western Division, Fiji"/>
   </relation>
   <relation id="4669671">
     <tag k="ISO3166-2" v="PH-PLW"/>
@@ -49352,6 +49563,7 @@
     <tag k="type" v="boundary"/>
   </relation>
   <relation id="5449459">
+    <tag k="ISO3166-2" v="ID-KI"/>
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Kalimantan Timur"/>
@@ -49362,8 +49574,10 @@
     <tag k="source" v="https://en.wikipedia.org/wiki/East_Kalimantan"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="id:Kalimantan Timur"/>
+    <tag k="wikipedia:en" v="East_Kalimantan"/>
   </relation>
   <relation id="5449460">
+    <tag k="ISO3166-2" v="ID-KU"/>
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Kalimantan Utara"/>
@@ -49373,6 +49587,7 @@
     <tag k="source" v="https://en.wikipedia.org/wiki/North_Kalimantan"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="de:Nordkalimantan"/>
+    <tag k="wikipedia:en" v="North_Kalimantan"/>
   </relation>
   <relation id="5466483">
     <tag k="ISO3166-2" v="UZ-QA"/>
@@ -50132,6 +50347,16 @@
     <tag k="timezone" v="Asia/Yakutsk"/>
     <tag k="type" v="boundary"/>
     <tag k="wikipedia" v="ru:Якутск"/>
+  </relation>
+  <relation id="1748895">
+    <tag k="addr:country" v="RU"/>
+    <tag k="addr:region" v="Амурская область"/>
+    <tag k="admin_level" v="6"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="Тындинский район"/>
+    <tag k="official_status" v="ru:муниципальный район"/>
+    <tag k="type" v="boundary"/>
+    <tag k="wikipedia" v="ru:Тындинский район"/>
   </relation>
   <relation id="3506777">
     <tag k="admin_level" v="6"/>
