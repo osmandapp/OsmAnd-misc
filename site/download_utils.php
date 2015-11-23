@@ -68,11 +68,11 @@ function dwFile($filename,$query,$type) {
     $helpServersCount = count($helpServers);
     $helpServersUSCount = count($helpServersUS);
     $mainServersCount = count($mainServers);
-    $record = geoip_record_by_name($_SERVER['REMOTE_ADDR'])
-    if($record['country_code'] == 'NL' and $simple ) {
-    	$url = "dl3.osmand.net";
-    	header('Location: http://'.$url.'/download.php?'.$query);
-    }
+    // $record = geoip_record_by_name($_SERVER['REMOTE_ADDR'])
+    // if($record['country_code'] == 'NL' and $simple ) {
+    // 	$url = "dl3.osmand.net";
+    // 	header('Location: http://'.$url.'/download.php?'.$query);
+    // }
     
     if($type == "osmc" ) {
 		downloadFile($filename);
