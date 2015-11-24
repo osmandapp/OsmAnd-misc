@@ -63,7 +63,7 @@ function dwFile($filename,$query,$type) {
     $helpServers = array("188.226.193.54");
     $helpServersUS = array();
     $mainServers = array("dl2.osmand.net", "dl3.osmand.net");
-    $mainServersLoad = 100;
+    $mainServersLoad = 80;
     
     $helpServersCount = count($helpServers);
     $helpServersUSCount = count($helpServersUS);
