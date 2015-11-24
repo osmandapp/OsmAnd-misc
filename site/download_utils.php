@@ -58,24 +58,25 @@ function dwFile($filename,$query,$type) {
     $simple = false;
     //if($type == "road" or $type == "" or $type == "wiki") {
     if($type == "wiki" or $type == "") {
-      $simple = true;
+      	$simple = true;
     }
-    $helpServers = array("188.226.193.54", "95.85.22.35", "162.243.111.59");
-    $helpServersUS = array();
+    $helpServers = array("188.226.193.54", "95.85.22.35");
+    $helpServersUS = array("162.243.111.59");
     $mainServers = array("dl2.osmand.net", "dl3.osmand.net");
     $mainServersLoad = 60;
     
     $helpServersCount = count($helpServers);
     $helpServersUSCount = count($helpServersUS);
     $mainServersCount = count($mainServers);
-    // $record = geoip_record_by_name($_SERVER['REMOTE_ADDR'])
-    // if($record['country_code'] == 'NL' and $simple ) {
-    // 	$url = "dl3.osmand.net";
-    // 	header('Location: http://'.$url.'/download.php?'.$query);
-    // }
+    $record = @geoip_record_by_name($_SERVER['REMOTE_ADDR']);
+    
     
     if($type == "osmc" ) {
 		downloadFile($filename);
+	} else if($record and $record['country_code'] == 'US' and $simple and 
+						$helpServersUSCount > 0 and $var < (100 - $mainServersLoad)) {
+		$url = $helpServersUS[$var % $helpServersUSCount];
+    	header('Location: http://'.$url.'/download.php?'.$query);
     } else if($helpServersCount > 0 and $simple and $var < (100 - $mainServersLoad)) {
     	$url = $helpServers[$var % $helpServersCount];
     	header('Location: http://'.$url.'/download.php?'.$query);
