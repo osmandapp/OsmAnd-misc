@@ -60,10 +60,10 @@ function dwFile($filename,$query,$type) {
     if($type == "wiki" or $type == "") {
       $simple = true;
     }
-    $helpServers = array("188.226.193.54");
+    $helpServers = array("188.226.193.54", "95.85.22.35", "162.243.111.59");
     $helpServersUS = array();
     $mainServers = array("dl2.osmand.net", "dl3.osmand.net");
-    $mainServersLoad = 80;
+    $mainServersLoad = 60;
     
     $helpServersCount = count($helpServers);
     $helpServersUSCount = count($helpServersUS);
