@@ -63,7 +63,9 @@ function dwFile($filename,$query,$type) {
     $helpServers = array("188.226.193.54", "95.85.22.35");
     $helpServersUS = array("162.243.111.59");
     $mainServers = array("dl2.osmand.net", "dl3.osmand.net");
-    $mainServersLoad = 60;
+    $mainServersLoad = 90;
+    $mainServersUSLoad = 50;
+
     
     $helpServersCount = count($helpServers);
     $helpServersUSCount = count($helpServersUS);
@@ -74,7 +76,7 @@ function dwFile($filename,$query,$type) {
     if($type == "osmc" ) {
 		downloadFile($filename);
 	} else if($record and $record['country_code'] == 'US' and $simple and 
-						$helpServersUSCount > 0 and $var < (100 - $mainServersLoad)) {
+						$helpServersUSCount > 0 and $var < (100 - $mainServersUSLoad)) {
 		$url = $helpServersUS[$var % $helpServersUSCount];
     	header('Location: http://'.$url.'/download.php?'.$query);
     } else if($helpServersCount > 0 and $simple and $var < (100 - $mainServersLoad)) {
