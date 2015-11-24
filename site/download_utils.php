@@ -57,10 +57,10 @@ function dwFile($filename,$query,$type) {
     $var = rand(0, 99);
     $simple = false;
     //if($type == "road" or $type == "" or $type == "wiki") {
-    if($type == "") {
+    if($type == "wiki" or $type == "") {
       $simple = true;
     }
-    $helpServers = array();
+    $helpServers = array("188.226.193.54");
     $helpServersUS = array();
     $mainServers = array("dl2.osmand.net", "dl3.osmand.net");
     $mainServersLoad = 100;
