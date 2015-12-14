@@ -60,8 +60,8 @@ function dwFile($filename,$query,$type) {
     if($type == "wiki" or $type == "") {
       	$simple = true;
     }
-    //$helpServers = array("188.226.193.54", "95.85.22.35", "188.226.131.11", "146.185.178.41");
-    $helpServers = array("188.226.193.54", "95.85.22.35");
+    $helpServers = array("188.226.193.54", "95.85.22.35", "188.226.131.11", "146.185.178.41");
+    //$helpServers = array("188.226.193.54", "95.85.22.35");
     $helpServersUS = array("162.243.111.59");
     $mainServers = array("dl2.osmand.net", "dl3.osmand.net");
     $mainServersLoad = 50;
