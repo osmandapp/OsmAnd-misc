@@ -13,12 +13,12 @@ def parseLine(var, line):
 file = open( '/var/log/apache2/' + os.environ['LOG_FILE'])
 ## Create a database
 
-conn = sqlite3.connect(os.environ['LOG_FILE']+'.sqlite')
+conn = sqlite3.connect('logs.sqlite')
 c = conn.cursor()
 
 # Build the SQLite database if needed
 c.execute('''CREATE TABLE requests (ip text, 
-      date text, requested_url text, response_code int, referer text, agent text);''')
+      date text, aid text, ns int, nd int, version text);''')
 conn.commit()
 
 ## Prepare data
@@ -41,10 +41,10 @@ for line in file:
     nd = parseLine("nd", requested_url)
     #response_code = unquoted_data[6]
 
-    print "Ip " + ip + " date " + date + " aid=" + aid + " ns=" + ns+ " nd" + nd + " ver="+ version
+    #print "Ip " + ip + " date " + date + " aid=" + aid + " ns=" + ns+ " nd=" + nd + " ver="+ version
 
     ## Insert elements into rows
-    #c.execute("INSERT INTO requests VALUES (?, ?, ?, ?, ?, ?)", [ip, date, requested_url, response_code, referer, agent])
+    c.execute("INSERT INTO requests VALUES (?, ?, ?, ?, ?, ?)", [ip, date, aid, ns, nd, version])
 
 conn.commit()
 
