@@ -54,7 +54,7 @@ for line in file:
     unquoted_data = unquoted_data_stream.split(" ")
     ip = unquoted_data[0]
     version = parseLine("osmandver", requested_url)
-    file = parseLine("osmandver", requested_url)
+    file = parseLine("file", requested_url)
     aid = parseLine("aid", requested_url)
     ns = parseLine("ns", requested_url)
     nd = parseLine("nd", requested_url)
@@ -69,7 +69,7 @@ for line in file:
     ## Insert elements into rows
     if "get_indexes" in line:
         c.execute("INSERT INTO requests VALUES (?, ?, ?, ?, ?, ?, ?)", [ip, country, tm, aid, ns, nd, version])
-    else
+    else:
         c.execute("INSERT INTO downloads VALUES (?, ?, ?, ?, ?)", [ip, country, tm, file, version])
 
 conn.commit()
