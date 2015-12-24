@@ -83,11 +83,16 @@ for line in file:
         day = "%s" % tm;
         day = day[0:10]
         ## Insert elements into rows
-        print "INSERT INTO requests VALUES ('%s', '%s', '%s', '%s','%s', '%s', '%s', '%s')" % [ip, country, tm, day, aid, ns, nd, version]
         if "get_indexes" in line:
-            c.execute("INSERT INTO requests VALUES (?, ?, ?, ?, ?, ?, ?)", [ip, country, tm, day, aid, ns, nd, version])
+            if postgres:
+                c.execute("INSERT INTO requests VALUES (%s, %s, %s, %s, %s, %s, %s, %s)", (ip, country, tm.strftime('%Y-%m-%d %H:%M:%S'), day, aid, ns, nd, version))
+            else:
+                c.execute("INSERT INTO requests VALUES (?, ?, ?, ?, ?, ?, ?, ?)", [ip, country, tm, day, aid, ns, nd, version])
         else:
-            c.execute("INSERT INTO downloads VALUES (?, ?, ?, ?, ?)", [ip, country, tm, day, file, version])
+            if postgres:
+                c.execute("INSERT INTO downloads VALUES (%s, %s, %s, %s, %s, %s)", (ip, country, tm.strftime('%Y-%m-%d %H:%M:%S'), day, file, version))
+            else:
+                c.execute("INSERT INTO downloads VALUES (?, ?, ?, ?, ?, ?)", [ip, country, tm, day, file, version])
     except:
         print line
         print "Unexpected error:", sys.exc_info()[0]
