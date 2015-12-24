@@ -83,7 +83,7 @@ for line in file:
         day = "%s" % tm;
         day = day[0:10]
         ## Insert elements into rows
-        print "INSERT INTO requests VALUES ('%s', '%s', '%s', '%s','%s', '%s', '%s')" % [ip, country, tm, day, aid, ns, nd, version]
+        print "INSERT INTO requests VALUES ('%s', '%s', '%s', '%s','%s', '%s', '%s', '%s')" % [ip, country, tm, day, aid, ns, nd, version]
         if "get_indexes" in line:
             c.execute("INSERT INTO requests VALUES (?, ?, ?, ?, ?, ?, ?)", [ip, country, tm, day, aid, ns, nd, version])
         else:
