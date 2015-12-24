@@ -89,6 +89,8 @@ for line in file:
             c.execute("INSERT INTO downloads VALUES (?, ?, ?, ?, ?)", [ip, country, tm, day, file, version])
     except:
         print line
+        print "Unexpected error:", sys.exc_info()[0]
+
 
 conn.commit()
 if postgres:
