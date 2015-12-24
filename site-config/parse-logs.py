@@ -15,7 +15,7 @@ def parseLine(var, line):
       return ""
 
 
-postgres = os.environ['DB_TYPE'] == postgres;
+postgres = os.environ['DB_TYPE'] == 'postgres';
 
 if 'gz' in os.environ['LOG_FILE']:
    file = gzip.open( '/var/log/apache2/' + os.environ['LOG_FILE'], 'rb')
