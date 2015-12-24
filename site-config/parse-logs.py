@@ -85,7 +85,7 @@ for line in file:
         ## Insert elements into rows
         if "get_indexes" in line:
             if postgres:
-                c.execute("INSERT INTO requests VALUES (%s, %s, %s, %s, %s, %%s, %%s, %s)", (ip, country, tm.strftime('%Y-%m-%d %H:%M:%S'), day, aid, ns, nd, version))
+                c.execute("INSERT INTO requests VALUES (%s, %s, %s, %s, %s, %s, %s, %s)", (ip, country, tm.strftime('%Y-%m-%d %H:%M:%S'), day, aid, ns, nd, version))
             else:
                 c.execute("INSERT INTO requests VALUES (?, ?, ?, ?, ?, ?, ?, ?)", [ip, country, tm, day, aid, ns, nd, version])
         else:
