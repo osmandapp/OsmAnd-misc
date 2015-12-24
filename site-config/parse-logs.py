@@ -6,7 +6,7 @@ import sqlite3
 import datetime
 import gzip
 import sys
-import psyscopg2
+import psycopg2
 
 ## Load in the log file
 def parseLine(var, line):
