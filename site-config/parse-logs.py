@@ -82,9 +82,9 @@ for line in file:
         tm = datetime.datetime.strptime(date[:-6], "%d/%b/%Y:%H:%M:%S")
         day = "%s" % tm;
         day = day[0:10]
-        if ns = "":
+        if ns == "":
             ns = None
-        if nd = "":
+        if nd == "":
             nd = None
         ## Insert elements into rows
         if "get_indexes" in line:
