@@ -55,6 +55,7 @@ for line in file:
     if ind % 10000 == 0:
         print "Lines %d" % (ind / 10000)
         sys.stdout.flush()
+        conn.commit()
     if "get_indexes" not in line and "/download" not in line :
         continue;
     try:
@@ -124,10 +125,8 @@ if not postgres:
     c.execute('''CREATE INDEX requests_aid on requests (aid);''')
     
     conn.commit()
-
-## Check to see if it worked
-for row in c.execute("SELECT count(*) from requests"):
-    print row
+    for row in c.execute("SELECT count(*) from requests"):
+        print row
 
 # CREATE INDEX requests_ip on requests (ip);
 # CREATE INDEX downloads_ip on downloads (ip);
