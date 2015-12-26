@@ -99,17 +99,17 @@ psql -d $DB_NAME -U $DB_USER -c "SELECT $SELECT_DATE date, COUNT(ip) allUsers, S
 from (SELECT ip, min(to_date(day,'YYYY-MM-DD')) minday, max(to_date(day,'YYYY-MM-DD')) maxday, \
 		count(*) count from requests where $VERSION group by ip HAVING min(day) >= '$START_DATE') D \
 group by $SELECT_DATE order by 1 desc; " > $FOLDER/report_retention_${INF}_1_$VERSION_P
-	echo "2-$i. $(date)"
-psql -d $DB_NAME -U $DB_USER -c "SELECT $SELECT_DATE date, COUNT(ip) allUsers, SUM(count) allFreq,  \
- SUM( CASE WHEN maxday >= minday + 7 THEN 1 ELSE 0 END ) weekRetUsers, \
- SUM( CASE WHEN maxday >= minday + 7 THEN count ELSE 0 END ) weekRetFreq, \
- SUM( CASE WHEN maxday >= minday + 30 THEN 1 ELSE 0 END ) monthRetUsers, \
- SUM( CASE WHEN maxday >= minday + 30 THEN count ELSE 0 END ) monthRetFreq, \
- SUM( CASE WHEN maxday >= minday + 180 THEN 1 ELSE 0 END ) month6RetUsers, \
- SUM( CASE WHEN maxday >= minday + 180 THEN count ELSE 0 END ) month6RetFreq \
-from (SELECT ip, min(to_date(day,'YYYY-MM-DD')) minday, max(to_date(day,'YYYY-MM-DD')) maxday, \
-	count(*) count from downloads where $VERSION  group by ip HAVING min(day) >= '$START_DATE') D \
- group by $SELECT_DATE order by 1 desc; " > $FOLDER/report_retention_${INF}_2_$VERSION_P
+	# echo "2-$i. $(date)"
+# psql -d $DB_NAME -U $DB_USER -c "SELECT $SELECT_DATE date, COUNT(ip) allUsers, SUM(count) allFreq,  \
+#  SUM( CASE WHEN maxday >= minday + 7 THEN 1 ELSE 0 END ) weekRetUsers, \
+#  SUM( CASE WHEN maxday >= minday + 7 THEN count ELSE 0 END ) weekRetFreq, \
+#  SUM( CASE WHEN maxday >= minday + 30 THEN 1 ELSE 0 END ) monthRetUsers, \
+#  SUM( CASE WHEN maxday >= minday + 30 THEN count ELSE 0 END ) monthRetFreq, \
+#  SUM( CASE WHEN maxday >= minday + 180 THEN 1 ELSE 0 END ) month6RetUsers, \
+#  SUM( CASE WHEN maxday >= minday + 180 THEN count ELSE 0 END ) month6RetFreq \
+# from (SELECT ip, min(to_date(day,'YYYY-MM-DD')) minday, max(to_date(day,'YYYY-MM-DD')) maxday, \
+# 	count(*) count from downloads where $VERSION  group by ip HAVING min(day) >= '$START_DATE') D \
+#  group by $SELECT_DATE order by 1 desc; " > $FOLDER/report_retention_${INF}_2_$VERSION_P
 	echo "3-$i. $(date)"
 psql -d $DB_NAME -U $DB_USER -c "SELECT $SELECT_DATE date, COUNT(aid) allUsers, round( AVG(starts), 2) avgSt, round(AVG(numberdays), 2) avgNd,  \
  SUM( CASE WHEN maxday >= minday + 7 THEN 1 ELSE 0 END ) wRetUsers, \
