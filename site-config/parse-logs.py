@@ -101,9 +101,6 @@ for line in file:
     except:
         print line
         print "Unexpected error:", sys.exc_info()[0]
-        if postgres:
-            raise
-
 
 
 conn.commit()
@@ -127,14 +124,18 @@ if not postgres:
     conn.commit()
     for row in c.execute("SELECT count(*) from requests"):
         print row
-
-# CREATE INDEX requests_ip on requests (ip);
-# CREATE INDEX downloads_ip on downloads (ip);
-# CREATE INDEX requests_date on requests (date);
-# CREATE INDEX downloads_date on downloads (date);
 # CREATE INDEX requests_day on requests (day);
 # CREATE INDEX downloads_day on downloads (day);
+# ALTER TABLE requests CLUSTER ON requests_day;
+# ALTER TABLE downloads CLUSTER ON downloads_day;
+
+# CREATE INDEX requests_date on requests (date);
+# CREATE INDEX downloads_date on downloads (date);
 # CREATE INDEX downloads_dw on downloads (download);
+############
+# CREATE INDEX requests_ip on requests (ip);
+# CREATE INDEX downloads_ip on downloads (ip);
+# CREATE INDEX requests_aid on requests (aid);
+##########
 # CREATE INDEX requests_version on requests (version);
 # CREATE INDEX downloads_version on downloads (version);
-# CREATE INDEX requests_aid on requests (aid);
