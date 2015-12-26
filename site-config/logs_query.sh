@@ -6,6 +6,40 @@ if [ -z "$START_DATE" ]; then
 	START_DATE='01-01-2012'
 fi
 DATE_CONDITION=" and day >= '$START_DATE'"
+echo "Calculate General activity"
+for i in `seq 1 4`; do
+	if (($i == 1)) || (($i == 2)); then
+		VERSION="version like 'OsmAnd%%2B%'"
+		VERSION_P="plus"
+	else
+		VERSION="version like 'OsmAnd+%'"
+		VERSION_P="free"
+	fi
+	echo "$i. $(date)"
+	if (($i == 1)) || (($i == 3)); then
+		SELECT_DATE="D.minday"
+		SELECT_SUBDATE="day"
+		INF="day"
+	else
+		SELECT_DATE="to_char(D.minday, 'YYYY-MM')"
+		SELECT_SUBDATE="substr(day, 0, 8)"
+		INF="month"
+	fi
+	echo "1-$i. $(date)"
+	psql -d $DB_NAME -U $DB_USER -c "select count(distinct ip), $SELECT_SUBDATE date \
+		from requests WHERE $VERSION $DATE_CONDITION group by date order by date desc;" > $FOLDER/report_ga_${INF}_1_$VERSION_P
+
+	echo "2-$i. $(date)"
+	psql -d $DB_NAME -U $DB_USER -c "select count(distinct aid), $SELECT_SUBDATE date \
+	    from requests WHERE $VERSION $DATE_CONDITION group by date order by date desc;" > $FOLDER/report_ga_${INF}_2_$VERSION_P
+	
+	echo "3-$i. $(date)"
+	psql -d $DB_NAME -U $DB_USER -c "select count(distinct ip) users, \
+		count(*) total_downloads, count(*) ::float / count(distinct ip) average_per_user, $SELECT_SUBDATE date \
+		from downloads WHERE $VERSION $DATE_CONDITION group by date order by date desc;" > $FOLDER/report_ga_${INF}_3_$VERSION_P
+done
+
+
 
 echo "Calculate User acquisition"
 for i in `seq 1 4`; do
@@ -18,20 +52,23 @@ for i in `seq 1 4`; do
 	fi
 	if (($i == 1)) || (($i == 3)); then
 		SELECT_DATE="D.minday"
+		SELECT_SUBDATE="day"
 		INF="day"
 	else
 		SELECT_DATE="to_char(D.minday, 'YYYY-MM')"
+		SELECT_SUBDATE="substr(day, 0, 8)"
 		INF="month"
 	fi
-
-	psql -d $DB_NAME -U $DB_USER -c "SELECT count(distinct AID), day \
+	echo "1-$i. $(date)"
+	psql -d $DB_NAME -U $DB_USER -c "SELECT count(distinct AID), $SELECT_SUBDATE date \
 		from requests where $VERSION and ns=1 $DATE_CONDITION \
-		group by day order by 2 desc;" > $FOLDER/report_ua_${INF}_1_$VERSION_P
+		group by date order by date desc;" > $FOLDER/report_ua_${INF}_1_$VERSION_P
 
-	psql -d $DB_NAME -U $DB_USER -c "SELECT COUNT(ip), D.minday \
+	echo "2-$i. $(date)"
+	psql -d $DB_NAME -U $DB_USER -c "SELECT COUNT(ip), $SELECT_DATE date \
 	    from (SELECT ip, min(day) minday, max(day) maxday from requests \
 	    	  where $VERSION group by ip HAVING min(day) >= '$START_DATE') D \
-        group by D.minday order by D.minday desc;" > $FOLDER/report_ua_${INF}_2_$VERSION_P
+        group by date order by date desc;" > $FOLDER/report_ua_${INF}_2_$VERSION_P
 	
 done
 
@@ -51,7 +88,7 @@ for i in `seq 1 4`; do
 		SELECT_DATE="to_char(D.minday, 'YYYY-MM')"
 		INF="month"
 	fi
-
+	echo "1-$i. $(date)"
 psql -d $DB_NAME -U $DB_USER -c "SELECT $SELECT_DATE date, COUNT(ip) allUsers, SUM(count) allFreq,  \
  SUM( CASE WHEN maxday >= minday + 7 THEN 1 ELSE 0 END ) weekRetUsers, \
  SUM( CASE WHEN maxday >= minday + 7 THEN count ELSE 0 END ) weekRetFreq, \
@@ -62,7 +99,7 @@ psql -d $DB_NAME -U $DB_USER -c "SELECT $SELECT_DATE date, COUNT(ip) allUsers, S
 from (SELECT ip, min(to_date(day,'YYYY-MM-DD')) minday, max(to_date(day,'YYYY-MM-DD')) maxday, \
 		count(*) count from requests where $VERSION group by ip HAVING min(day) >= '$START_DATE') D \
 group by date order by 1 desc; " > $FOLDER/report_retention_${INF}_1_$VERSION_P
-
+	echo "2-$i. $(date)"
 psql -d $DB_NAME -U $DB_USER -c "SELECT $SELECT_DATE date, COUNT(ip) allUsers, SUM(count) allFreq,  \
  SUM( CASE WHEN maxday >= minday + 7 THEN 1 ELSE 0 END ) weekRetUsers, \
  SUM( CASE WHEN maxday >= minday + 7 THEN count ELSE 0 END ) weekRetFreq, \
@@ -73,8 +110,7 @@ psql -d $DB_NAME -U $DB_USER -c "SELECT $SELECT_DATE date, COUNT(ip) allUsers, S
 from (SELECT ip, min(to_date(day,'YYYY-MM-DD')) minday, max(to_date(day,'YYYY-MM-DD')) maxday, \
 	count(*) count from downloads where $VERSION  group by ip HAVING min(day) >= '$START_DATE') D \
  group by date order by 1 desc; " > $FOLDER/report_retention_${INF}_2_$VERSION_P
-
-
+	echo "3-$i. $(date)"
 psql -d $DB_NAME -U $DB_USER -c "SELECT $SELECT_DATE date, COUNT(aid) allUsers, round( AVG(starts), 2) avgSt, round(AVG(numberdays), 2) avgNd,  \
  SUM( CASE WHEN maxday >= minday + 7 THEN 1 ELSE 0 END ) wRetUsers, \
  SUM( CASE WHEN maxday >= minday + 7 THEN starts ELSE 0 END ) wRetSt, \
