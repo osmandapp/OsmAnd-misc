@@ -7,7 +7,7 @@ if [ -z "$START_DATE" ]; then
 fi
 DATE_CONDITION=" and day >= '$START_DATE'"
 
-echo "Calculate User acquisiition"
+echo "Calculate User acquisition"
 for i in `seq 1 4`; do
 	if (($i == 1)) || (($i == 2)); then
 		VERSION="version like 'OsmAnd%%2B%'"
@@ -24,6 +24,16 @@ for i in `seq 1 4`; do
 		INF="month"
 	fi
 
+	psql -d $DB_NAME -U $DB_USER -c "SELECT count(distinct AID), day \
+		from requests where $VERSION and ns=1 $DATE_CONDITION \
+		group by day order by 2 desc;" > $FOLDER/report_ua_${INF}_1_$VERSION_P
+
+	psql -d $DB_NAME -U $DB_USER -c "SELECT COUNT(ip), D.minday \
+	    from (SELECT ip, min(day) minday, max(day) maxday from requests \
+	    	  where $VERSION group by ip HAVING minday >= '$START_DATE') D \
+        group by D.minday order by D.minday desc;" > $FOLDER/report_ua_${INF}_2_$VERSION_P
+	
+done
 
 echo "Calculate Retention"
 for i in `seq 1 4`; do
