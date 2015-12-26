@@ -66,7 +66,7 @@ for i in `seq 1 4`; do
 
 	echo "2-$i. $(date)"
 	psql -d $DB_NAME -U $DB_USER -c "SELECT COUNT(ip), $SELECT_DATE date \
-	    from (SELECT ip, min(day) minday, max(day) maxday from requests \
+	    from (SELECT ip, min(to_date(day,'YYYY-MM-DD')) minday from requests \
 	    	  where $VERSION group by ip HAVING min(day) >= '$START_DATE') D \
         group by $SELECT_DATE order by date desc;" > $FOLDER/report_ua_${INF}_2_$VERSION_P
 	
