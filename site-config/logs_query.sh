@@ -6,7 +6,7 @@ if [ -z "$START_DATE" ]; then
 	START_DATE='2012-01-01'
 fi
 DATE_CONDITION=" and day >= '$START_DATE'"
-echo "Calculate General activity"
+echo "Calculate General activity users"
 for i in `seq 1 4`; do
 	if (($i == 1)) || (($i == 2)); then
 		VERSION="version like 'OsmAnd%%2B%'"
@@ -15,7 +15,6 @@ for i in `seq 1 4`; do
 		VERSION="version like 'OsmAnd+%'"
 		VERSION_P="free"
 	fi
-	echo "$i. $(date)"
 	if (($i == 1)) || (($i == 3)); then
 		SELECT_DATE="D.minday"
 		SELECT_SUBDATE="day"
@@ -32,11 +31,30 @@ for i in `seq 1 4`; do
 	echo "2-$i. $(date)"
 	psql -d $DB_NAME -U $DB_USER -c "select count(distinct aid), $SELECT_SUBDATE date \
 	    from requests WHERE $VERSION $DATE_CONDITION group by $SELECT_SUBDATE order by date desc;" > $FOLDER/report_ga_${INF}_2_$VERSION_P
-	
-	echo "3-$i. $(date)"
+done
+
+echo "Calculate General activity downloads"
+for i in `seq 1 4`; do
+	if (($i == 1)) || (($i == 2)); then
+		VERSION="version like 'OsmAnd%%2B%'"
+		VERSION_P="plus"
+	else
+		VERSION="version like 'OsmAnd+%'"
+		VERSION_P="free"
+	fi
+	if (($i == 1)) || (($i == 3)); then
+		SELECT_DATE="D.minday"
+		SELECT_SUBDATE="day"
+		INF="day"
+	else
+		SELECT_DATE="to_char(D.minday, 'YYYY-MM')"
+		SELECT_SUBDATE="substr(day, 0, 8)"
+		INF="month"
+	fi
+	echo "1-$i. $(date)"
 	psql -d $DB_NAME -U $DB_USER -c "select count(distinct ip) users, \
 		count(*) total_downloads, count(*) ::float / count(distinct ip) average_per_user, $SELECT_SUBDATE date \
-		from downloads WHERE $VERSION $DATE_CONDITION group by $SELECT_SUBDATE order by date desc;" > $FOLDER/report_ga_${INF}_3_$VERSION_P
+		from downloads WHERE $VERSION $DATE_CONDITION group by $SELECT_SUBDATE order by date desc;" > $FOLDER/report_ga_downloads_${INF}_3_$VERSION_P
 done
 
 
