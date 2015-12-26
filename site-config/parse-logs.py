@@ -132,10 +132,9 @@ if not postgres:
  # CLUSTER requests;
  # DELETE FROM requests r USING requests r2 WHERE r.day = r2.day AND r.date = r2.date AND r.ip = r2.ip AND r.ctid < r2.ctid ; 
 
- # CREATE INDEX downloads_date on downloads (date);
- # ALTER TABLE downloads CLUSTER ON downloads_date;
- # CLUSTER downloads;
  # CREATE INDEX downloads_day on downloads (day);
+ # ALTER TABLE downloads CLUSTER ON downloads_day;
+ # CLUSTER downloads;
  # DELETE FROM downloads r USING downloads r2 WHERE r.day = r2.day AND r.date = r2.date AND r.ip = r2.ip AND r.ctid < r2.ctid ;
 ############
 # CREATE INDEX downloads_dw on downloads (download);
