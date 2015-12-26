@@ -108,8 +108,8 @@ for line in file:
 conn.commit()
 if postgres and os.environ['DELETE_DUPLICATES'] == 'true':
     print "Delete duplicates"
-    c.execute('''DELETE FROM requests r USING requests r2 WHERE r.date = r2.date AND r.ip = r2.ip AND r.ctid < r2.ctid ;''')
-    c.execute('''DELETE FROM downloads r USING downloads r2 WHERE r.date = r2.date AND r.ip = r2.ip AND r.ctid < r2.ctid ;''')
+    c.execute('''DELETE FROM requests r USING requests r2 WHERE r.day = r2.day AND r.date = r2.date AND r.ip = r2.ip AND r.ctid < r2.ctid ;''')
+    c.execute('''DELETE FROM downloads r USING downloads r2 WHERE r.day = r2.day AND r.date = r2.date AND r.ip = r2.ip AND r.ctid < r2.ctid ;''')
     conn.commit()
 
 if not postgres:
@@ -126,16 +126,17 @@ if not postgres:
     conn.commit()
     for row in c.execute("SELECT count(*) from requests"):
         print row
- # CREATE INDEX requests_date on requests (date);
- # ALTER TABLE requests CLUSTER ON requests_date;
- # CLUSTER requests;
- # CREATE INDEX requests_day on requests (day);
  
+ # CREATE INDEX requests_day on requests (day);
+ # ALTER TABLE requests CLUSTER ON requests_day;
+ # CLUSTER requests;
+ # DELETE FROM requests r USING requests r2 WHERE r.day = r2.day AND r.date = r2.date AND r.ip = r2.ip AND r.ctid < r2.ctid ; 
 
  # CREATE INDEX downloads_date on downloads (date);
  # ALTER TABLE downloads CLUSTER ON downloads_date;
  # CLUSTER downloads;
  # CREATE INDEX downloads_day on downloads (day);
+ # DELETE FROM downloads r USING downloads r2 WHERE r.day = r2.day AND r.date = r2.date AND r.ip = r2.ip AND r.ctid < r2.ctid ;
 ############
 # CREATE INDEX downloads_dw on downloads (download);
 # CREATE INDEX requests_ip on requests (ip);
