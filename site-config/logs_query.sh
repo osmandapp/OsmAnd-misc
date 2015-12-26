@@ -143,5 +143,5 @@ psql -d $DB_NAME -U $DB_USER -c "SELECT $SELECT_DATE date, COUNT(aid) allUsers, 
 from (SELECT aid, min(to_date(day,'YYYY-MM-DD')) minday, max(to_date(day,'YYYY-MM-DD')) maxday, \
       max(ns) starts, max(nd) numberdays from requests \
       where aid <> '' and $VERSION group by aid HAVING min(day) >= '$START_DATE') D \
-group by $SELECT_DATE order by 1 desc; " > $FOLDER/report_retention_${INF}_3_$VERSION_P
+group by $SELECT_DATE order by 1 desc; " > $FOLDER/report_retention_${INF}_$VERSION_P
 done
