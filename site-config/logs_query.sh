@@ -11,10 +11,10 @@ echo "Calculate User acquisition"
 for i in `seq 1 4`; do
 	if (($i == 1)) || (($i == 2)); then
 		VERSION="version like 'OsmAnd%%2B%'"
-		VERSION_P="_plus"
+		VERSION_P="plus"
 	else
 		VERSION="version like 'OsmAnd+%'"
-		VERSION_P="_free"
+		VERSION_P="free"
 	fi
 	if (($i == 1)) || (($i == 3)); then
 		SELECT_DATE="D.minday"
@@ -30,7 +30,7 @@ for i in `seq 1 4`; do
 
 	psql -d $DB_NAME -U $DB_USER -c "SELECT COUNT(ip), D.minday \
 	    from (SELECT ip, min(day) minday, max(day) maxday from requests \
-	    	  where $VERSION group by ip HAVING minday >= '$START_DATE') D \
+	    	  where $VERSION group by ip HAVING min(day) >= '$START_DATE') D \
         group by D.minday order by D.minday desc;" > $FOLDER/report_ua_${INF}_2_$VERSION_P
 	
 done
@@ -39,10 +39,10 @@ echo "Calculate Retention"
 for i in `seq 1 4`; do
 	if (($i == 1)) || (($i == 2)); then
 		VERSION="version like 'OsmAnd%%2B%'"
-		VERSION_P="_plus"
+		VERSION_P="plus"
 	else
 		VERSION="version like 'OsmAnd+%'"
-		VERSION_P="_free"
+		VERSION_P="free"
 	fi
 	if (($i == 1)) || (($i == 3)); then
 		SELECT_DATE="D.minday"
@@ -60,7 +60,7 @@ psql -d $DB_NAME -U $DB_USER -c "SELECT $SELECT_DATE date, COUNT(ip) allUsers, S
  SUM( CASE WHEN maxday >= minday + 180 THEN 1 ELSE 0 END ) month6RetUsers, \
  SUM( CASE WHEN maxday >= minday + 180 THEN count ELSE 0 END ) month6RetFreq \
 from (SELECT ip, min(to_date(day,'YYYY-MM-DD')) minday, max(to_date(day,'YYYY-MM-DD')) maxday, \
-		count(*) count from requests where $VERSION group by ip HAVING minday >= '$START_DATE') D \
+		count(*) count from requests where $VERSION group by ip HAVING min(day) >= '$START_DATE') D \
 group by date order by 1 desc; " > $FOLDER/report_retention_${INF}_1_$VERSION_P
 
 psql -d $DB_NAME -U $DB_USER -c "SELECT $SELECT_DATE date, COUNT(ip) allUsers, SUM(count) allFreq,  \
@@ -71,7 +71,7 @@ psql -d $DB_NAME -U $DB_USER -c "SELECT $SELECT_DATE date, COUNT(ip) allUsers, S
  SUM( CASE WHEN maxday >= minday + 180 THEN 1 ELSE 0 END ) month6RetUsers, \
  SUM( CASE WHEN maxday >= minday + 180 THEN count ELSE 0 END ) month6RetFreq \
 from (SELECT ip, min(to_date(day,'YYYY-MM-DD')) minday, max(to_date(day,'YYYY-MM-DD')) maxday, \
-	count(*) count from downloads where $VERSION  group by ip HAVING minday >= '$START_DATE') D \
+	count(*) count from downloads where $VERSION  group by ip HAVING min(day) >= '$START_DATE') D \
  group by date order by 1 desc; " > $FOLDER/report_retention_${INF}_2_$VERSION_P
 
 
@@ -87,6 +87,6 @@ psql -d $DB_NAME -U $DB_USER -c "SELECT $SELECT_DATE date, COUNT(aid) allUsers, 
  SUM( CASE WHEN maxday >= minday + 180 THEN numberdays ELSE 0 END ) m6RetNd \
 from (SELECT aid, min(to_date(day,'YYYY-MM-DD')) minday, max(to_date(day,'YYYY-MM-DD')) maxday, \
       max(ns) starts, max(nd) numberdays from requests \
-      where aid <> '' and $VERSION group by aid HAVING minday >= '$START_DATE') D \
+      where aid <> '' and $VERSION group by aid HAVING min(day) >= '$START_DATE') D \
 group by date order by 1 desc; " > $FOLDER/report_retention_${INF}_3_$VERSION_P
 done
