@@ -88,17 +88,18 @@ for i in `seq 1 4`; do
 		SELECT_DATE="to_char(D.minday, 'YYYY-MM')"
 		INF="month"
 	fi
-	echo "1-$i. $(date)"
-psql -d $DB_NAME -U $DB_USER -c "SELECT $SELECT_DATE date, COUNT(ip) allUsers, SUM(count) allFreq,  \
- SUM( CASE WHEN maxday >= minday + 7 THEN 1 ELSE 0 END ) weekRetUsers, \
- SUM( CASE WHEN maxday >= minday + 7 THEN count ELSE 0 END ) weekRetFreq, \
- SUM( CASE WHEN maxday >= minday + 30 THEN 1 ELSE 0 END ) monthRetUsers, \
- SUM( CASE WHEN maxday >= minday + 30 THEN count ELSE 0 END ) monthRetFreq, \
- SUM( CASE WHEN maxday >= minday + 180 THEN 1 ELSE 0 END ) month6RetUsers, \
- SUM( CASE WHEN maxday >= minday + 180 THEN count ELSE 0 END ) month6RetFreq \
-from (SELECT ip, min(to_date(day,'YYYY-MM-DD')) minday, max(to_date(day,'YYYY-MM-DD')) maxday, \
-		count(*) count from requests where $VERSION group by ip HAVING min(day) >= '$START_DATE') D \
-group by $SELECT_DATE order by 1 desc; " > $FOLDER/report_retention_${INF}_1_$VERSION_P
+	# Not working
+# 	echo "1-$i. $(date)"
+# psql -d $DB_NAME -U $DB_USER -c "SELECT $SELECT_DATE date, COUNT(ip) allUsers, SUM(count) allFreq,  \
+#  SUM( CASE WHEN maxday >= minday + 7 THEN 1 ELSE 0 END ) weekRetUsers, \
+#  SUM( CASE WHEN maxday >= minday + 7 THEN count ELSE 0 END ) weekRetFreq, \
+#  SUM( CASE WHEN maxday >= minday + 30 THEN 1 ELSE 0 END ) monthRetUsers, \
+#  SUM( CASE WHEN maxday >= minday + 30 THEN count ELSE 0 END ) monthRetFreq, \
+#  SUM( CASE WHEN maxday >= minday + 180 THEN 1 ELSE 0 END ) month6RetUsers, \
+#  SUM( CASE WHEN maxday >= minday + 180 THEN count ELSE 0 END ) month6RetFreq \
+# from (SELECT ip, min(to_date(day,'YYYY-MM-DD')) minday, max(to_date(day,'YYYY-MM-DD')) maxday, \
+# 		count(*) count from requests where $VERSION group by ip HAVING min(day) >= '$START_DATE') D \
+# group by $SELECT_DATE order by 1 desc; " > $FOLDER/report_retention_${INF}_1_$VERSION_P
 	# echo "2-$i. $(date)"
 # psql -d $DB_NAME -U $DB_USER -c "SELECT $SELECT_DATE date, COUNT(ip) allUsers, SUM(count) allFreq,  \
 #  SUM( CASE WHEN maxday >= minday + 7 THEN 1 ELSE 0 END ) weekRetUsers, \
@@ -110,17 +111,17 @@ group by $SELECT_DATE order by 1 desc; " > $FOLDER/report_retention_${INF}_1_$VE
 # from (SELECT ip, min(to_date(day,'YYYY-MM-DD')) minday, max(to_date(day,'YYYY-MM-DD')) maxday, \
 # 	count(*) count from downloads where $VERSION  group by ip HAVING min(day) >= '$START_DATE') D \
 #  group by $SELECT_DATE order by 1 desc; " > $FOLDER/report_retention_${INF}_2_$VERSION_P
-	echo "3-$i. $(date)"
+	echo "1-$i. $(date)"
 psql -d $DB_NAME -U $DB_USER -c "SELECT $SELECT_DATE date, COUNT(aid) allUsers, round( AVG(starts), 2) avgSt, round(AVG(numberdays), 2) avgNd,  \
  SUM( CASE WHEN maxday >= minday + 7 THEN 1 ELSE 0 END ) wRetUsers, \
- SUM( CASE WHEN maxday >= minday + 7 THEN starts ELSE 0 END ) wRetSt, \
- SUM( CASE WHEN maxday >= minday + 7 THEN numberdays ELSE 0 END ) wRetNd, \
+ SUM( CASE WHEN maxday >= minday + 7 THEN starts ELSE 0 END ) / (SUM( CASE WHEN maxday >= minday + 7 THEN 1 ELSE 0 END ) + 1) wRetSt, \
+ SUM( CASE WHEN maxday >= minday + 7 THEN numberdays ELSE 0 END )  / (SUM( CASE WHEN maxday >= minday + 7 THEN 1 ELSE 0 END ) + 1) wRetNd, \
  SUM( CASE WHEN maxday >= minday + 30 THEN 1 ELSE 0 END ) mRetUsers, \
- SUM( CASE WHEN maxday >= minday + 30 THEN starts ELSE 0 END ) mRetSt, \
- SUM( CASE WHEN maxday >= minday + 30 THEN numberdays ELSE 0 END ) mRetNd, \
+ SUM( CASE WHEN maxday >= minday + 30 THEN starts ELSE 0 END ) / (SUM( CASE WHEN maxday >= minday + 30 THEN starts ELSE 0 END ) + 1) mRetSt, \
+ SUM( CASE WHEN maxday >= minday + 30 THEN numberdays ELSE 0 END ) / (SUM( CASE WHEN maxday >= minday + 30 THEN numberdays ELSE 0 END ) + 1) mRetNd, \
  SUM( CASE WHEN maxday >= minday + 180 THEN 1 ELSE 0 END ) m6RetUsers, \
- SUM( CASE WHEN maxday >= minday + 180 THEN starts ELSE 0 END ) m6RetSt, \
- SUM( CASE WHEN maxday >= minday + 180 THEN numberdays ELSE 0 END ) m6RetNd \
+ SUM( CASE WHEN maxday >= minday + 180 THEN starts ELSE 0 END ) / (SUM( CASE WHEN maxday >= minday + 180 THEN 1 ELSE 0 END ) + 1) m6RetSt, \
+ SUM( CASE WHEN maxday >= minday + 180 THEN numberdays ELSE 0 END ) / (SUM( CASE WHEN maxday >= minday + 180 THEN numberdays ELSE 0 END ) + 1) m6RetNd \
 from (SELECT aid, min(to_date(day,'YYYY-MM-DD')) minday, max(to_date(day,'YYYY-MM-DD')) maxday, \
       max(ns) starts, max(nd) numberdays from requests \
       where aid <> '' and $VERSION group by aid HAVING min(day) >= '$START_DATE') D \
