@@ -3,7 +3,7 @@
 
 FOLDER=/var/lib/jenkins/
 if [ -z "$START_DATE" ]; then
-	START_DATE='01-01-2012'
+	START_DATE='2012-01-01'
 fi
 DATE_CONDITION=" and day >= '$START_DATE'"
 echo "Calculate General activity"
