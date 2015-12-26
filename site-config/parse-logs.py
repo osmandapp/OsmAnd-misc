@@ -56,8 +56,8 @@ for line in file:
         print "Lines %d" % (ind / 10000)
         sys.stdout.flush()
         conn.commit()
-    if (ind / 10000) < 3918:
-        continue;
+    # if (ind / 10000) < 3918:
+    #     continue;
     if "get_indexes" not in line and "/download" not in line :
         continue;
     try:
@@ -136,9 +136,8 @@ if not postgres:
  # ALTER TABLE downloads CLUSTER ON downloads_date;
  # CLUSTER downloads;
  # CREATE INDEX downloads_day on downloads (day);
- 
- # CREATE INDEX downloads_dw on downloads (download);
 ############
+# CREATE INDEX downloads_dw on downloads (download);
 # CREATE INDEX requests_ip on requests (ip);
 # CREATE INDEX downloads_ip on downloads (ip);
 # CREATE INDEX requests_aid on requests (aid);
