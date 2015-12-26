@@ -135,11 +135,11 @@ psql -d $DB_NAME -U $DB_USER -c "SELECT $SELECT_DATE date, COUNT(aid) allUsers, 
  SUM( CASE WHEN maxday >= minday + 7 THEN starts ELSE 0 END ) / (SUM( CASE WHEN maxday >= minday + 7 THEN 1 ELSE 0 END ) + 1) wRetSt, \
  SUM( CASE WHEN maxday >= minday + 7 THEN numberdays ELSE 0 END )  / (SUM( CASE WHEN maxday >= minday + 7 THEN 1 ELSE 0 END ) + 1) wRetNd, \
  SUM( CASE WHEN maxday >= minday + 30 THEN 1 ELSE 0 END ) mRetUsers, \
- SUM( CASE WHEN maxday >= minday + 30 THEN starts ELSE 0 END ) / (SUM( CASE WHEN maxday >= minday + 30 THEN starts ELSE 0 END ) + 1) mRetSt, \
- SUM( CASE WHEN maxday >= minday + 30 THEN numberdays ELSE 0 END ) / (SUM( CASE WHEN maxday >= minday + 30 THEN numberdays ELSE 0 END ) + 1) mRetNd, \
+ SUM( CASE WHEN maxday >= minday + 30 THEN starts ELSE 0 END ) / (SUM( CASE WHEN maxday >= minday + 30 THEN 1 ELSE 0 END ) + 1) mRetSt, \
+ SUM( CASE WHEN maxday >= minday + 30 THEN numberdays ELSE 0 END ) / (SUM( CASE WHEN maxday >= minday + 30 THEN 1 ELSE 0 END ) + 1) mRetNd, \
  SUM( CASE WHEN maxday >= minday + 180 THEN 1 ELSE 0 END ) m6RetUsers, \
  SUM( CASE WHEN maxday >= minday + 180 THEN starts ELSE 0 END ) / (SUM( CASE WHEN maxday >= minday + 180 THEN 1 ELSE 0 END ) + 1) m6RetSt, \
- SUM( CASE WHEN maxday >= minday + 180 THEN numberdays ELSE 0 END ) / (SUM( CASE WHEN maxday >= minday + 180 THEN numberdays ELSE 0 END ) + 1) m6RetNd \
+ SUM( CASE WHEN maxday >= minday + 180 THEN numberdays ELSE 0 END ) / (SUM( CASE WHEN maxday >= minday + 180 THEN 1 ELSE 0 END ) + 1) m6RetNd \
 from (SELECT aid, min(to_date(day,'YYYY-MM-DD')) minday, max(to_date(day,'YYYY-MM-DD')) maxday, \
       max(ns) starts, max(nd) numberdays from requests \
       where aid <> '' and $VERSION group by aid HAVING min(day) >= '$START_DATE') D \
