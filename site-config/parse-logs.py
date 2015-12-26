@@ -104,7 +104,7 @@ for line in file:
 
 
 conn.commit()
-if postgres and os.environ['DELETE_DUPLICATES']='true':
+if postgres and os.environ['DELETE_DUPLICATES'] == 'true':
     print "Delete duplicates"
     c.execute('''DELETE FROM requests r USING requests r2 WHERE r.date = r2.date AND r.ip = r2.ip AND r.ctid < r2.ctid ;''')
     c.execute('''DELETE FROM downloads r USING downloads r2 WHERE r.date = r2.date AND r.ip = r2.ip AND r.ctid < r2.ctid ;''')
