@@ -78,16 +78,16 @@ for i in `seq 1 4`; do
 		INF="month"
 	fi
 	echo "1-$i. $(date)"
-	psql -d $DB_NAME -U $DB_USER -c "SELECT count(distinct AID), $SELECT_SUBDATE date \
-		from requests where $VERSION and ns=1 $DATE_CONDITION \
-		group by $SELECT_SUBDATE order by date desc;" > $FOLDER/report_ua_${INF}_1_$VERSION_P
-
-	echo "2-$i. $(date)"
 	psql -d $DB_NAME -U $DB_USER -c "SELECT COUNT(ip), $SELECT_DATE date \
 	    from (SELECT ip, min(to_date(day,'YYYY-MM-DD')) minday from requests \
 	    	  where $VERSION group by ip HAVING min(day) >= '$START_DATE') D \
         group by $SELECT_DATE order by date desc;" > $FOLDER/report_ua_${INF}_2_$VERSION_P
-	
+        
+	echo "2-$i. $(date)"
+	psql -d $DB_NAME -U $DB_USER -c "SELECT count(distinct AID), $SELECT_SUBDATE date \
+		from requests where $VERSION and ns=1 $DATE_CONDITION \
+		group by $SELECT_SUBDATE order by date desc;" > $FOLDER/report_ua_${INF}_1_$VERSION_P
+
 done
 
 echo "Calculate Retention"
