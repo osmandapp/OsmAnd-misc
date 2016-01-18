@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2015-11-11T06:52:02Z"/>
+<meta osm_base="2016-01-18T14:32:01Z"/>
 
   <node id="26036352" lat="12.7503486" lon="122.7312101">
     <tag k="alt_name:vi" v="Phi Luật Tân"/>
@@ -261,7 +261,7 @@
     <tag k="name:bat-smg" v="Afganėstans"/>
     <tag k="name:bcl" v="Apganistan"/>
     <tag k="name:be" v="Афганістан"/>
-    <tag k="name:be-x-old" v="Аўганістан"/>
+    <tag k="name:be-tarask" v="Аўганістан"/>
     <tag k="name:bg" v="Афганистан"/>
     <tag k="name:bm" v="Afiganistaŋ"/>
     <tag k="name:bn" v="আফগানিস্তান"/>
@@ -553,16 +553,6 @@
     <tag k="population" v="8205533"/>
     <tag k="source" v="CIA World Factbook (2009-07)"/>
     <tag k="wikipedia" v="de:Österreich"/>
-  </node>
-  <node id="26847717" lat="-27.0000000" lon="133.0000000">
-    <tag k="is_in" v="Australia"/>
-    <tag k="name" v="Australia"/>
-    <tag k="name:de" v="Australien"/>
-    <tag k="name:en" v="Australia"/>
-    <tag k="name:ru" v="Австралия"/>
-    <tag k="place" v="country"/>
-    <tag k="source" v="CIA World Factbook"/>
-    <tag k="wikipedia" v="en:Australia"/>
   </node>
   <node id="148332300" lat="40.0028028" lon="-4.0031040">
     <tag k="ISO3166-1" v="ES"/>
@@ -1010,7 +1000,7 @@
     <tag k="name:bat-smg" v="Duomėnėkas Respoblėka"/>
     <tag k="name:bcl" v="Dominikanang Republika"/>
     <tag k="name:be" v="Дамініканская Рэспубліка"/>
-    <tag k="name:be-x-old" v="Дамініканская Рэспубліка"/>
+    <tag k="name:be-tarask" v="Дамініканская Рэспубліка"/>
     <tag k="name:bg" v="Доминиканска република"/>
     <tag k="name:bm" v="Dɔmimiki republiki"/>
     <tag k="name:bn" v="ডোমিনিকান প্রজাতন্ত্র"/>
@@ -1209,7 +1199,7 @@
     <tag k="name:bat-smg" v="Naujuojė Zelandėjė"/>
     <tag k="name:bcl" v="Nueva Zelanda"/>
     <tag k="name:be" v="Новая Зеландыя"/>
-    <tag k="name:be-x-old" v="Новая Зэляндыя"/>
+    <tag k="name:be-tarask" v="Новая Зэляндыя"/>
     <tag k="name:bg" v="Нова Зеландия"/>
     <tag k="name:bi" v="Niu Zilan"/>
     <tag k="name:bm" v="Zelandi Koura"/>
@@ -1437,7 +1427,7 @@
     <tag k="name:bat-smg" v="Armienėjė"/>
     <tag k="name:bcl" v="Armenya"/>
     <tag k="name:be" v="Арменія"/>
-    <tag k="name:be-x-old" v="Армэнія"/>
+    <tag k="name:be-tarask" v="Армэнія"/>
     <tag k="name:bg" v="Армения"/>
     <tag k="name:bi" v="Armenia"/>
     <tag k="name:bm" v="Arimeni"/>
@@ -1930,7 +1920,7 @@
     <tag k="name:bat-smg" v="Borkėna Fasos"/>
     <tag k="name:bcl" v="Burkina Faso"/>
     <tag k="name:be" v="Буркіна-Фасо"/>
-    <tag k="name:be-x-old" v="Буркіна-Фасо"/>
+    <tag k="name:be-tarask" v="Буркіна-Фасо"/>
     <tag k="name:bg" v="Буркина Фасо"/>
     <tag k="name:bjn" v="Burkina Paso"/>
     <tag k="name:bm" v="Burukina Faso"/>
@@ -2725,7 +2715,7 @@
     <tag k="name:ast" v="Islles Xeorxa del Sur y Sandwich del Sur"/>
     <tag k="name:az" v="Cənub Gürcüstan və Cənub Sandvilç Adaları"/>
     <tag k="name:be" v="Паўднёвая Георгія і Паўднёвыя Сэндвічавы астравы"/>
-    <tag k="name:be-x-old" v="Паўднёвая Георгія і Паўднёвыя Сэндвічавыя выспы"/>
+    <tag k="name:be-tarask" v="Паўднёвая Георгія і Паўднёвыя Сэндвічавыя выспы"/>
     <tag k="name:bg" v="Южна Джорджия и Южни Сандвичеви острови"/>
     <tag k="name:bn" v="দক্ষিণ জর্জিয়া ও দক্ষিণ স্যান্ডউইচ দ্বীপপুঞ"/>
     <tag k="name:br" v="Jorjia ar Su hag Inizi Sandwich ar Su"/>
@@ -2850,7 +2840,7 @@
     <tag k="name:bat-smg" v="Vengrėjė"/>
     <tag k="name:bcl" v="Hungriya"/>
     <tag k="name:be" v="Венгрыя"/>
-    <tag k="name:be-x-old" v="Вугоршчына"/>
+    <tag k="name:be-tarask" v="Вугоршчына"/>
     <tag k="name:bg" v="Унгария"/>
     <tag k="name:bi" v="Hungary"/>
     <tag k="name:bm" v="Hɔngri"/>
@@ -3262,7 +3252,7 @@
     <tag k="name:bat-smg" v="Šiaurės Kuoriejė"/>
     <tag k="name:bcl" v="North Korea"/>
     <tag k="name:be" v="Паўночная Карэя"/>
-    <tag k="name:be-x-old" v="Паўночная Карэя"/>
+    <tag k="name:be-tarask" v="Паўночная Карэя"/>
     <tag k="name:bg" v="Северна Корея"/>
     <tag k="name:bjn" v="Korea Utara"/>
     <tag k="name:bm" v="Kɛɲɛka Kore"/>
@@ -3512,7 +3502,7 @@
     <tag k="name:bat-smg" v="Pėitū Kuoriejė"/>
     <tag k="name:bcl" v="Sur nin Korea"/>
     <tag k="name:be" v="Паўднёвая Карэя"/>
-    <tag k="name:be-x-old" v="Рэспубліка Карэя"/>
+    <tag k="name:be-tarask" v="Рэспубліка Карэя"/>
     <tag k="name:bg" v="Южна Корея"/>
     <tag k="name:bi" v="Saot Koria"/>
     <tag k="name:bm" v="Worodugu Kore"/>
@@ -3883,7 +3873,7 @@
     <tag k="name:bat-smg" v="Malaizėjė"/>
     <tag k="name:bcl" v="Malasya"/>
     <tag k="name:be" v="Малайзія"/>
-    <tag k="name:be-x-old" v="Малайзія"/>
+    <tag k="name:be-tarask" v="Малайзія"/>
     <tag k="name:bg" v="Малайзия"/>
     <tag k="name:bjn" v="Malaysia"/>
     <tag k="name:bm" v="Malɛzi"/>
@@ -4103,7 +4093,7 @@
     <tag k="name:bat-smg" v="Nepals"/>
     <tag k="name:bcl" v="Nepal"/>
     <tag k="name:be" v="Непал"/>
-    <tag k="name:be-x-old" v="Нэпал"/>
+    <tag k="name:be-tarask" v="Нэпал"/>
     <tag k="name:bg" v="Непал"/>
     <tag k="name:bh" v="नेपाल"/>
     <tag k="name:bjn" v="Nepal"/>
@@ -4329,7 +4319,7 @@
     <tag k="name:bat-smg" v="Perū"/>
     <tag k="name:bcl" v="Peru"/>
     <tag k="name:be" v="Перу"/>
-    <tag k="name:be-x-old" v="Пэру"/>
+    <tag k="name:be-tarask" v="Пэру"/>
     <tag k="name:bg" v="Перу"/>
     <tag k="name:bi" v="Peru"/>
     <tag k="name:bm" v="Peru"/>
@@ -4571,7 +4561,7 @@
     <tag k="name:bat-smg" v="Sauda Arabėjė"/>
     <tag k="name:bcl" v="Arabya Saudita"/>
     <tag k="name:be" v="Саудаўская Аравія"/>
-    <tag k="name:be-x-old" v="Саудаўская Арабія"/>
+    <tag k="name:be-tarask" v="Саудаўская Арабія"/>
     <tag k="name:bg" v="Саудитска Арабия"/>
     <tag k="name:bm" v="Arabiya Sawudiya"/>
     <tag k="name:bn" v="সাউদি আরব"/>
@@ -4942,7 +4932,7 @@
     <tag k="name:bat-smg" v="Torkmienėstans"/>
     <tag k="name:bcl" v="Turkmenistan"/>
     <tag k="name:be" v="Туркменістан"/>
-    <tag k="name:be-x-old" v="Туркмэністан"/>
+    <tag k="name:be-tarask" v="Туркмэністан"/>
     <tag k="name:bg" v="Туркменистан"/>
     <tag k="name:bm" v="Turikimenisitani"/>
     <tag k="name:bn" v="তুর্কমেনিয়া"/>
@@ -5287,7 +5277,7 @@
     <tag k="name:bat-smg" v="Jemens"/>
     <tag k="name:bcl" v="Yemen"/>
     <tag k="name:be" v="Йемен"/>
-    <tag k="name:be-x-old" v="Емэн"/>
+    <tag k="name:be-tarask" v="Емэн"/>
     <tag k="name:bg" v="Йемен"/>
     <tag k="name:bm" v="Yemɛni"/>
     <tag k="name:bn" v="ইমেন"/>
@@ -5540,7 +5530,7 @@
     <tag k="name:bat-smg" v="Belėzos"/>
     <tag k="name:bcl" v="Belisa"/>
     <tag k="name:be" v="Беліз"/>
-    <tag k="name:be-x-old" v="Бэліз"/>
+    <tag k="name:be-tarask" v="Бэліз"/>
     <tag k="name:bg" v="Белиз"/>
     <tag k="name:bm" v="Belizi"/>
     <tag k="name:bn" v="বেলিয"/>
@@ -5982,10 +5972,6 @@
     <tag k="place" v="country"/>
     <tag k="population" v="4785200"/>
     <tag k="wikipedia" v="no:Norge"/>
-    <tag k="wikipedia:de" v="Norwegen"/>
-    <tag k="wikipedia:en" v="Norway"/>
-    <tag k="wikipedia:es" v="Noruega"/>
-    <tag k="wikipedia:fr" v="Norvège"/>
   </node>
   <node id="424297207" lat="26.1551249" lon="50.5344606">
     <tag k="capital_city" v="Manama"/>
@@ -6309,7 +6295,7 @@
     <tag k="name:bat-smg" v="Haitės"/>
     <tag k="name:bcl" v="Haiti"/>
     <tag k="name:be" v="Гаіці"/>
-    <tag k="name:be-x-old" v="Гаіці"/>
+    <tag k="name:be-tarask" v="Гаіці"/>
     <tag k="name:bg" v="Хаити"/>
     <tag k="name:bjn" v="Haiti"/>
     <tag k="name:bm" v="Ayiti"/>
@@ -6521,7 +6507,7 @@
     <tag k="name:bat-smg" v="Benins"/>
     <tag k="name:bcl" v="Benin"/>
     <tag k="name:be" v="Бенін"/>
-    <tag k="name:be-x-old" v="Бэнін"/>
+    <tag k="name:be-tarask" v="Бэнін"/>
     <tag k="name:bg" v="Бенин"/>
     <tag k="name:bjn" v="Benin"/>
     <tag k="name:bm" v="Benɛn"/>
@@ -6746,7 +6732,7 @@
     <tag k="name:bat-smg" v="Kuosta Rėka"/>
     <tag k="name:bcl" v="Kosta Rika"/>
     <tag k="name:be" v="Коста Рыка"/>
-    <tag k="name:be-x-old" v="Коста-Рыка"/>
+    <tag k="name:be-tarask" v="Коста-Рыка"/>
     <tag k="name:bg" v="Коста Рика"/>
     <tag k="name:bm" v="Kɔsitarika"/>
     <tag k="name:bn" v="কোস্টারিকা"/>
@@ -7079,7 +7065,7 @@
     <tag k="name:bat-smg" v="Gambėjė"/>
     <tag k="name:bcl" v="Gambya"/>
     <tag k="name:be" v="Гамбія"/>
-    <tag k="name:be-x-old" v="Гамбія"/>
+    <tag k="name:be-tarask" v="Гамбія"/>
     <tag k="name:bg" v="Гамбия"/>
     <tag k="name:bjn" v="Gambia"/>
     <tag k="name:bm" v="Ganbi"/>
@@ -7299,7 +7285,7 @@
     <tag k="name:bat-smg" v="Gvėniejė"/>
     <tag k="name:bcl" v="Guineya"/>
     <tag k="name:be" v="Гвінея"/>
-    <tag k="name:be-x-old" v="Гвінэя"/>
+    <tag k="name:be-tarask" v="Гвінэя"/>
     <tag k="name:bg" v="Гвинея"/>
     <tag k="name:bjn" v="Guinea"/>
     <tag k="name:bm" v="Gine"/>
@@ -7519,7 +7505,7 @@
     <tag k="name:bat-smg" v="Bisau Gvinėjė"/>
     <tag k="name:bcl" v="Guineya-Bisau"/>
     <tag k="name:be" v="Гвінея-Бісаў"/>
-    <tag k="name:be-x-old" v="Гвінэя-Бісаў"/>
+    <tag k="name:be-tarask" v="Гвінэя-Бісаў"/>
     <tag k="name:bg" v="Гвинея-Бисау"/>
     <tag k="name:bjn" v="Guinea-Bissau"/>
     <tag k="name:bm" v="Gine Bisawo"/>
@@ -7739,7 +7725,7 @@
     <tag k="name:bat-smg" v="Huondūrs"/>
     <tag k="name:bcl" v="Honduras"/>
     <tag k="name:be" v="Гандурас"/>
-    <tag k="name:be-x-old" v="Гандурас"/>
+    <tag k="name:be-tarask" v="Гандурас"/>
     <tag k="name:bg" v="Хондурас"/>
     <tag k="name:bm" v="Hɔndirasi"/>
     <tag k="name:bn" v="হণ্ডুরাস"/>
@@ -7949,7 +7935,7 @@
     <tag k="name:bat-smg" v="Izraelis"/>
     <tag k="name:bcl" v="Israel"/>
     <tag k="name:be" v="Ізраіль"/>
-    <tag k="name:be-x-old" v="Ізраіль"/>
+    <tag k="name:be-tarask" v="Ізраіль"/>
     <tag k="name:bg" v="Израел"/>
     <tag k="name:bm" v="Isirayeli"/>
     <tag k="name:bn" v="ইস্রায়েল"/>
@@ -8208,7 +8194,7 @@
     <tag k="name:bat-smg" v="Lėbans"/>
     <tag k="name:bcl" v="Lebanon"/>
     <tag k="name:be" v="Ліван"/>
-    <tag k="name:be-x-old" v="Лібан"/>
+    <tag k="name:be-tarask" v="Лібан"/>
     <tag k="name:bg" v="Ливан"/>
     <tag k="name:bm" v="Libaŋ"/>
     <tag k="name:bn" v="লেবানন"/>
@@ -8732,7 +8718,7 @@
     <tag k="name:bat-smg" v="Makeduonėjė"/>
     <tag k="name:bcl" v="Republika kan Masedonya"/>
     <tag k="name:be" v="Македонія"/>
-    <tag k="name:be-x-old" v="Рэспубліка Македонія"/>
+    <tag k="name:be-tarask" v="Рэспубліка Македонія"/>
     <tag k="name:bg" v="Македония"/>
     <tag k="name:bi" v="Macedonia"/>
     <tag k="name:bm" v="Macedɔni"/>
@@ -8978,7 +8964,7 @@
     <tag k="name:bat-smg" v="Malis"/>
     <tag k="name:bcl" v="Mali"/>
     <tag k="name:be" v="Малі"/>
-    <tag k="name:be-x-old" v="Малі"/>
+    <tag k="name:be-tarask" v="Малі"/>
     <tag k="name:bg" v="Мали"/>
     <tag k="name:bjn" v="Mali"/>
     <tag k="name:bm" v="Mali"/>
@@ -9296,7 +9282,7 @@
     <tag k="name:bat-smg" v="Papua Naujuojė Gvėniejė"/>
     <tag k="name:bcl" v="Papua Bagong Guineya"/>
     <tag k="name:be" v="Папуа-Новая Гвінея"/>
-    <tag k="name:be-x-old" v="Папуа-Новая Гвінэя"/>
+    <tag k="name:be-tarask" v="Папуа-Новая Гвінэя"/>
     <tag k="name:bg" v="Папуа Нова Гвинея"/>
     <tag k="name:bi" v="Papua New Guinea"/>
     <tag k="name:bm" v="Papuwasi-Gine-Koura"/>
@@ -9782,7 +9768,7 @@
     <tag k="name:bat-smg" v="Čads"/>
     <tag k="name:bcl" v="Tsad"/>
     <tag k="name:be" v="Чад"/>
-    <tag k="name:be-x-old" v="Чад"/>
+    <tag k="name:be-tarask" v="Чад"/>
     <tag k="name:bg" v="Чад"/>
     <tag k="name:bjn" v="Chad"/>
     <tag k="name:bm" v="Cadi"/>
@@ -10006,7 +9992,7 @@
     <tag k="name:bat-smg" v="Vietnams"/>
     <tag k="name:bcl" v="Bietnam"/>
     <tag k="name:be" v="В'етнам"/>
-    <tag k="name:be-x-old" v="Віетнам"/>
+    <tag k="name:be-tarask" v="Віетнам"/>
     <tag k="name:bg" v="Виетнам"/>
     <tag k="name:bi" v="Vietnam"/>
     <tag k="name:bjn" v="Vietnam"/>
@@ -10286,7 +10272,7 @@
     <tag k="name:bar" v="Südafrika"/>
     <tag k="name:bat-smg" v="Pėitū Afrėkas Respoblėka"/>
     <tag k="name:be" v="Паўднёва-Афрыканская Рэспубліка"/>
-    <tag k="name:be-x-old" v="Паўднёва-Афрыканская Рэспубліка"/>
+    <tag k="name:be-tarask" v="Паўднёва-Афрыканская Рэспубліка"/>
     <tag k="name:bg" v="Южна Африка"/>
     <tag k="name:bjn" v="Aprika Salatan"/>
     <tag k="name:bm" v="Worodugu Afriki"/>
@@ -10714,7 +10700,7 @@
     <tag k="name:bat-smg" v="Ekvaduors"/>
     <tag k="name:bcl" v="Ekwador"/>
     <tag k="name:be" v="Эквадор"/>
-    <tag k="name:be-x-old" v="Эквадор"/>
+    <tag k="name:be-tarask" v="Эквадор"/>
     <tag k="name:bg" v="Еквадор"/>
     <tag k="name:bm" v="Ekwatɔr"/>
     <tag k="name:bn" v="ইকুয়েডর"/>
@@ -11099,7 +11085,7 @@
     <tag k="name:bat-smg" v="Irans"/>
     <tag k="name:bcl" v="Iran"/>
     <tag k="name:be" v="Іран"/>
-    <tag k="name:be-x-old" v="Іран"/>
+    <tag k="name:be-tarask" v="Іран"/>
     <tag k="name:bg" v="Иран"/>
     <tag k="name:bm" v="Iraŋ"/>
     <tag k="name:bn" v="ইরান"/>
@@ -11339,7 +11325,7 @@
     <tag k="country_code_iso3166_1_alpha_2" v="TR"/>
     <tag k="geonames:id" v="298795"/>
     <tag k="int_name" v="Turkey"/>
-    <tag k="is_in:continent" v="Europe; Asia"/>
+    <tag k="is_in:continent" v="Eurasia"/>
     <tag k="name" v="Türkiye"/>
     <tag k="name:af" v="Turkye"/>
     <tag k="name:ak" v="Tɛɛki"/>
@@ -11734,7 +11720,7 @@
     <tag k="name:bat-smg" v="Svazėlands"/>
     <tag k="name:bcl" v="Swasilandya"/>
     <tag k="name:be" v="Свазіленд"/>
-    <tag k="name:be-x-old" v="Сўазілэнд"/>
+    <tag k="name:be-tarask" v="Сўазілэнд"/>
     <tag k="name:bg" v="Суазиленд"/>
     <tag k="name:bjn" v="Swaziland"/>
     <tag k="name:bm" v="Swazilandi"/>
@@ -11952,7 +11938,7 @@
     <tag k="name:bat-smg" v="Jongtėnē Arabu Emīratā"/>
     <tag k="name:bcl" v="Emiratong Arabe Unidos"/>
     <tag k="name:be" v="Аб'яднаныя Арабскія Эміраты"/>
-    <tag k="name:be-x-old" v="Аб’яднаныя Арабскія Эміраты"/>
+    <tag k="name:be-tarask" v="Аб’яднаныя Арабскія Эміраты"/>
     <tag k="name:bg" v="Обединени Арабски Емирства"/>
     <tag k="name:bjn" v="Syarikat Amiriah Arab"/>
     <tag k="name:bm" v="Arabu mara kafoli"/>
@@ -12510,7 +12496,7 @@
     <tag k="name:bat-smg" v="Butans"/>
     <tag k="name:bcl" v="Butan"/>
     <tag k="name:be" v="Бутан"/>
-    <tag k="name:be-x-old" v="Бутан"/>
+    <tag k="name:be-tarask" v="Бутан"/>
     <tag k="name:bg" v="Бутан"/>
     <tag k="name:bh" v="भूटान"/>
     <tag k="name:bi" v="Bhutan"/>
@@ -12741,7 +12727,7 @@
     <tag k="name:bat-smg" v="Čilė"/>
     <tag k="name:bcl" v="Tsile"/>
     <tag k="name:be" v="Чылі"/>
-    <tag k="name:be-x-old" v="Чылі"/>
+    <tag k="name:be-tarask" v="Чылі"/>
     <tag k="name:bg" v="Чили"/>
     <tag k="name:bi" v="Chile"/>
     <tag k="name:bm" v="Sili"/>
@@ -13397,7 +13383,7 @@
     <tag k="name:bat-smg" v="Gabuons"/>
     <tag k="name:bcl" v="Gabon"/>
     <tag k="name:be" v="Габон"/>
-    <tag k="name:be-x-old" v="Габон"/>
+    <tag k="name:be-tarask" v="Габон"/>
     <tag k="name:bg" v="Габон"/>
     <tag k="name:bjn" v="Gabon"/>
     <tag k="name:bm" v="Gabɔŋ"/>
@@ -13621,7 +13607,7 @@
     <tag k="name:bat-smg" v="Gajana"/>
     <tag k="name:bcl" v="Guyana"/>
     <tag k="name:be" v="Гаяна"/>
-    <tag k="name:be-x-old" v="Гаяна"/>
+    <tag k="name:be-tarask" v="Гаяна"/>
     <tag k="name:bg" v="Гвиана"/>
     <tag k="name:bm" v="Gwiyana"/>
     <tag k="name:bn" v="গিয়ানা"/>
@@ -14154,7 +14140,7 @@
     <tag k="name:bat-smg" v="Liberėjė"/>
     <tag k="name:bcl" v="Libirya"/>
     <tag k="name:be" v="Ліберыя"/>
-    <tag k="name:be-x-old" v="Лібэрыя"/>
+    <tag k="name:be-tarask" v="Лібэрыя"/>
     <tag k="name:bg" v="Либерия"/>
     <tag k="name:bjn" v="Liberia"/>
     <tag k="name:bm" v="Liberiya"/>
@@ -14399,7 +14385,7 @@
     <tag k="name:ig" v="Maldivesa"/>
     <tag k="name:is" v="Maldíveyjar"/>
     <tag k="name:it" v="Maldive"/>
-    <tag k="name:ja" v="モルジブ"/>
+    <tag k="name:ja" v="モルディブ"/>
     <tag k="name:ka" v="მალდივის კუნძულები"/>
     <tag k="name:kab" v="Maldib"/>
     <tag k="name:ki" v="Modivu"/>
@@ -14494,7 +14480,7 @@
     <tag k="name:bat-smg" v="Malavis"/>
     <tag k="name:bcl" v="Malawi"/>
     <tag k="name:be" v="Малаві"/>
-    <tag k="name:be-x-old" v="Малаві"/>
+    <tag k="name:be-tarask" v="Малаві"/>
     <tag k="name:bg" v="Малави"/>
     <tag k="name:bjn" v="Malawi"/>
     <tag k="name:bm" v="Malawi"/>
@@ -14702,7 +14688,7 @@
     <tag k="name:bat-smg" v="Mozambėks"/>
     <tag k="name:bcl" v="Mosambik"/>
     <tag k="name:be" v="Мазамбік"/>
-    <tag k="name:be-x-old" v="Мазамбік"/>
+    <tag k="name:be-tarask" v="Мазамбік"/>
     <tag k="name:bg" v="Мозамбик"/>
     <tag k="name:bjn" v="Mozambik"/>
     <tag k="name:bm" v="Mozanbiki"/>
@@ -14925,7 +14911,7 @@
     <tag k="name:bat-smg" v="Namibėjė"/>
     <tag k="name:bcl" v="Namibya"/>
     <tag k="name:be" v="Намібія"/>
-    <tag k="name:be-x-old" v="Намібія"/>
+    <tag k="name:be-tarask" v="Намібія"/>
     <tag k="name:bg" v="Намибия"/>
     <tag k="name:bjn" v="Namibia"/>
     <tag k="name:bm" v="Namibi"/>
@@ -15150,7 +15136,7 @@
     <tag k="name:bat-smg" v="Nigeris"/>
     <tag k="name:bcl" v="Niger"/>
     <tag k="name:be" v="Нігер"/>
-    <tag k="name:be-x-old" v="Нігер"/>
+    <tag k="name:be-tarask" v="Нігер"/>
     <tag k="name:bg" v="Нигер"/>
     <tag k="name:bjn" v="Niger"/>
     <tag k="name:bm" v="Nizɛri"/>
@@ -15474,7 +15460,7 @@
     <tag k="name:bat-smg" v="Ruanda"/>
     <tag k="name:bcl" v="Ruanda"/>
     <tag k="name:be" v="Руанда"/>
-    <tag k="name:be-x-old" v="Руанда"/>
+    <tag k="name:be-tarask" v="Руанда"/>
     <tag k="name:bg" v="Руанда"/>
     <tag k="name:bjn" v="Rwanda"/>
     <tag k="name:bm" v="Ruwanda"/>
@@ -15691,7 +15677,7 @@
     <tag k="name:bat-smg" v="Salvaduors"/>
     <tag k="name:bcl" v="El Salvador"/>
     <tag k="name:be" v="Эль-Сальвадор"/>
-    <tag k="name:be-x-old" v="Сальвадор"/>
+    <tag k="name:be-tarask" v="Сальвадор"/>
     <tag k="name:bg" v="Ел Салвадор"/>
     <tag k="name:bm" v="Salivadɔr"/>
     <tag k="name:bn" v="এল সালভেদর"/>
@@ -15870,6 +15856,241 @@
     <tag k="population" v="6000000"/>
     <tag k="wikipedia" v="en:El Salvador"/>
   </node>
+  <node id="424311806" lat="34.6401861" lon="39.0494106">
+    <tag k="country_code_fips" v="SY"/>
+    <tag k="country_code_iso3166_1_alpha_2" v="SY"/>
+    <tag k="int_name" v="Syria"/>
+    <tag k="is_in" v="Asia"/>
+    <tag k="is_in:continent" v="Asia"/>
+    <tag k="name" v="سورية"/>
+    <tag k="name:ace" v="Suriyah"/>
+    <tag k="name:af" v="Sirië"/>
+    <tag k="name:ak" v="Siria"/>
+    <tag k="name:als" v="Syrien"/>
+    <tag k="name:am" v="ሲሪያ"/>
+    <tag k="name:an" v="Siria"/>
+    <tag k="name:ang" v="Syria"/>
+    <tag k="name:ar" v="سورية"/>
+    <tag k="name:arc" v="ܣܘܪܝܐ"/>
+    <tag k="name:arz" v="سوريا"/>
+    <tag k="name:ast" v="Siria"/>
+    <tag k="name:av" v="Сирия"/>
+    <tag k="name:az" v="siriya"/>
+    <tag k="name:ba" v="Сирия"/>
+    <tag k="name:bar" v="Syrien"/>
+    <tag k="name:bat-smg" v="Sėrėjė"/>
+    <tag k="name:bcl" v="Sirya"/>
+    <tag k="name:be" v="Сірыя"/>
+    <tag k="name:be-x-old" v="Сырыя"/>
+    <tag k="name:bg" v="Сирия"/>
+    <tag k="name:bm" v="Siri"/>
+    <tag k="name:bn" v="সিরিয়া"/>
+    <tag k="name:bo" v="སི་རི་ཡ།"/>
+    <tag k="name:bpy" v="সিরিয়া"/>
+    <tag k="name:br" v="Siria"/>
+    <tag k="name:bs" v="Sirija"/>
+    <tag k="name:bug" v="Suriah"/>
+    <tag k="name:bxr" v="Сири"/>
+    <tag k="name:ca" v="Síria"/>
+    <tag k="name:cdo" v="Sṳ̆-lê-ā"/>
+    <tag k="name:ce" v="Сири"/>
+    <tag k="name:ceb" v="Siria"/>
+    <tag k="name:ckb" v="سووریا"/>
+    <tag k="name:crh" v="Suriye"/>
+    <tag k="name:cs" v="Sýrie"/>
+    <tag k="name:cu" v="Сѷрїꙗ"/>
+    <tag k="name:cv" v="Сири"/>
+    <tag k="name:cy" v="Syria"/>
+    <tag k="name:da" v="Syrien"/>
+    <tag k="name:de" v="Syrien"/>
+    <tag k="name:diq" v="Suriya"/>
+    <tag k="name:dsb" v="Syriska"/>
+    <tag k="name:dv" v="ސޫރިޔާ"/>
+    <tag k="name:dz" v="སི་རི་ཡ"/>
+    <tag k="name:ee" v="Siria nutome"/>
+    <tag k="name:el" v="Συρία"/>
+    <tag k="name:en" v="Syria"/>
+    <tag k="name:eo" v="Sirio"/>
+    <tag k="name:es" v="Siria"/>
+    <tag k="name:et" v="Süüria"/>
+    <tag k="name:eu" v="Siria"/>
+    <tag k="name:ext" v="Síria"/>
+    <tag k="name:fa" v="سوریه"/>
+    <tag k="name:ff" v="Sirii"/>
+    <tag k="name:fi" v="Syyria"/>
+    <tag k="name:fiu-vro" v="Süüria"/>
+    <tag k="name:fo" v="Syria"/>
+    <tag k="name:fr" v="Syrie"/>
+    <tag k="name:frp" v="Sirie"/>
+    <tag k="name:fur" v="Sirie"/>
+    <tag k="name:fy" v="Syrje"/>
+    <tag k="name:ga" v="An tSiria"/>
+    <tag k="name:gag" v="Siriya"/>
+    <tag k="name:gd" v="Siria"/>
+    <tag k="name:gl" v="Siria"/>
+    <tag k="name:glk" v="سوری"/>
+    <tag k="name:gu" v="સીરિયા"/>
+    <tag k="name:gv" v="Yn Teer"/>
+    <tag k="name:ha" v="Sham, Siriya"/>
+    <tag k="name:hak" v="Si-li-â"/>
+    <tag k="name:haw" v="Suria"/>
+    <tag k="name:he" v="סוריה"/>
+    <tag k="name:hi" v="सीरिया"/>
+    <tag k="name:hif" v="Syria"/>
+    <tag k="name:hr" v="Sirija"/>
+    <tag k="name:hsb" v="Syriska"/>
+    <tag k="name:ht" v="Siri"/>
+    <tag k="name:hu" v="Szíria"/>
+    <tag k="name:hy" v="Սիրիա"/>
+    <tag k="name:ia" v="Syria"/>
+    <tag k="name:id" v="Suriah"/>
+    <tag k="name:ie" v="Siria"/>
+    <tag k="name:ilo" v="Siria"/>
+    <tag k="name:io" v="Siria"/>
+    <tag k="name:is" v="Sýrland"/>
+    <tag k="name:it" v="Siria"/>
+    <tag k="name:ja" v="シリア"/>
+    <tag k="name:jbo" v="sixygu'e"/>
+    <tag k="name:jv" v="Suriah"/>
+    <tag k="name:ka" v="სირია"/>
+    <tag k="name:kab" v="Surya"/>
+    <tag k="name:kbd" v="Шам"/>
+    <tag k="name:ki" v="Siria"/>
+    <tag k="name:kk" v="Сирия"/>
+    <tag k="name:kl" v="Syria"/>
+    <tag k="name:km" v="ស៊ីរី"/>
+    <tag k="name:kn" v="ಸಿರಿಯಾ"/>
+    <tag k="name:ko" v="시리아"/>
+    <tag k="name:ks" v="شام"/>
+    <tag k="name:ksh" v="Sürije"/>
+    <tag k="name:ku" v="Sûrî"/>
+    <tag k="name:kv" v="Сирия"/>
+    <tag k="name:kw" v="Syri"/>
+    <tag k="name:ky" v="Сирия"/>
+    <tag k="name:la" v="Syria"/>
+    <tag k="name:lb" v="Syrien"/>
+    <tag k="name:lez" v="Сирия"/>
+    <tag k="name:lg" v="Siriya"/>
+    <tag k="name:li" v="Syrië"/>
+    <tag k="name:lij" v="Sciria"/>
+    <tag k="name:lmo" v="Siria"/>
+    <tag k="name:ln" v="Sirí"/>
+    <tag k="name:lo" v="ຊິເລຍ"/>
+    <tag k="name:lt" v="Sirija"/>
+    <tag k="name:lv" v="Sīrija"/>
+    <tag k="name:mdf" v="Сирие"/>
+    <tag k="name:mg" v="Syria"/>
+    <tag k="name:mhr" v="Сирий"/>
+    <tag k="name:mi" v="Hiria"/>
+    <tag k="name:mk" v="Сирија"/>
+    <tag k="name:ml" v="സിറിയ"/>
+    <tag k="name:mn" v="Сири"/>
+    <tag k="name:mr" v="सीरिया"/>
+    <tag k="name:ms" v="Syria"/>
+    <tag k="name:mt" v="Sirja"/>
+    <tag k="name:my" v="ဆီးရီးယား"/>
+    <tag k="name:mzn" v="سوریه"/>
+    <tag k="name:na" v="Syria"/>
+    <tag k="name:nah" v="Siria"/>
+    <tag k="name:nds" v="Syrien"/>
+    <tag k="name:nds-nl" v="Syrië"/>
+    <tag k="name:ne" v="सिरिया"/>
+    <tag k="name:nl" v="Syrië"/>
+    <tag k="name:nn" v="Syria"/>
+    <tag k="name:no" v="Syria"/>
+    <tag k="name:nov" v="Siria"/>
+    <tag k="name:nv" v="Sííwiya"/>
+    <tag k="name:oc" v="Siria"/>
+    <tag k="name:or" v="ସିରିଆ"/>
+    <tag k="name:os" v="Сири"/>
+    <tag k="name:pa" v="ਸੀਰੀਆ"/>
+    <tag k="name:pam" v="Siria"/>
+    <tag k="name:pih" v="Siriya"/>
+    <tag k="name:pl" v="Syria"/>
+    <tag k="name:pms" v="Siria"/>
+    <tag k="name:pnb" v="شام"/>
+    <tag k="name:pnt" v="Συρία"/>
+    <tag k="name:ps" v="سوریه"/>
+    <tag k="name:pt" v="Síria"/>
+    <tag k="name:qu" v="Sirya"/>
+    <tag k="name:rm" v="Siria"/>
+    <tag k="name:rn" v="Siriya"/>
+    <tag k="name:ro" v="Siria"/>
+    <tag k="name:ru" v="Сирия"/>
+    <tag k="name:rw" v="Siriya"/>
+    <tag k="name:sa" v="सिरिया"/>
+    <tag k="name:sah" v="Сирия"/>
+    <tag k="name:sc" v="Siria"/>
+    <tag k="name:scn" v="Siria"/>
+    <tag k="name:sco" v="Sirie"/>
+    <tag k="name:se" v="Syria"/>
+    <tag k="name:sg" v="Sirïi"/>
+    <tag k="name:sh" v="Sirija"/>
+    <tag k="name:si" v="සිරියාව"/>
+    <tag k="name:simple" v="Syria"/>
+    <tag k="name:sk" v="Sýria"/>
+    <tag k="name:sl" v="Sirija"/>
+    <tag k="name:sn" v="Syria"/>
+    <tag k="name:so" v="Suuriya"/>
+    <tag k="name:sq" v="Siri"/>
+    <tag k="name:sr" v="Сирија"/>
+    <tag k="name:ss" v="ISiriya"/>
+    <tag k="name:su" v="Suriah"/>
+    <tag k="name:sv" v="Syrien"/>
+    <tag k="name:sw" v="Siria"/>
+    <tag k="name:szl" v="Syryjo"/>
+    <tag k="name:ta" v="சிரியா"/>
+    <tag k="name:te" v="సిరియా"/>
+    <tag k="name:tg" v="Сурия"/>
+    <tag k="name:th" v="ประเทศซีเรีย"/>
+    <tag k="name:ti" v="ሲሪያ"/>
+    <tag k="name:tk" v="Siriýa"/>
+    <tag k="name:tl" v="Sirya"/>
+    <tag k="name:to" v="Sīlia"/>
+    <tag k="name:tr" v="Suriye"/>
+    <tag k="name:tt" v="Сүрия"/>
+    <tag k="name:udm" v="Сирия"/>
+    <tag k="name:ug" v="سۇرىيە"/>
+    <tag k="name:uk" v="Сирія"/>
+    <tag k="name:ur" v="شام"/>
+    <tag k="name:uz" v="Suriya"/>
+    <tag k="name:vi" v="Syria"/>
+    <tag k="name:vo" v="Süriyän"/>
+    <tag k="name:wa" v="Sireye"/>
+    <tag k="name:war" v="Sirya"/>
+    <tag k="name:wo" v="Siri"/>
+    <tag k="name:wuu" v="叙利亚"/>
+    <tag k="name:xal" v="Сирмудин Араб Орн"/>
+    <tag k="name:yi" v="סיריע"/>
+    <tag k="name:yo" v="Orílẹ́ède Siria"/>
+    <tag k="name:zea" v="Syrië"/>
+    <tag k="name:zh" v="叙利亚"/>
+    <tag k="name:zh-min-nan" v="Su-lī-a"/>
+    <tag k="name:zh-yue" v="敘利亞"/>
+    <tag k="name:zh_pinyin" v="Xùlìyà"/>
+    <tag k="name:zu" v="i-Syria"/>
+    <tag k="official_name" v="الجمهورية العربية السورية"/>
+    <tag k="official_name:ar" v="الجمهورية العربية السورية"/>
+    <tag k="official_name:be" v="Сірыйская Арабская Рэспубліка"/>
+    <tag k="official_name:br" v="Republik Arab Siria"/>
+    <tag k="official_name:ca" v="República Àrab Siriana"/>
+    <tag k="official_name:cy" v="Gweriniaeth Arabaidd Syria"/>
+    <tag k="official_name:el" v="Αραβική Δημοκρατία της Συρίας"/>
+    <tag k="official_name:en" v="Syrian Arab Republic"/>
+    <tag k="official_name:gd" v="Poblachd Arabach Shirianach"/>
+    <tag k="official_name:id" v="Republik Arab Suriah"/>
+    <tag k="official_name:it" v="Repubblica Araba di Siria"/>
+    <tag k="official_name:ku" v="Komara Erebî ya Sûriyê"/>
+    <tag k="official_name:lb" v="Arabesch Republik Syrien"/>
+    <tag k="official_name:lt" v="Sirijos Arabų Respublika"/>
+    <tag k="official_name:pl" v="Syryjska Republika Arabska"/>
+    <tag k="official_name:pt" v="República Árabe da Síria"/>
+    <tag k="official_name:ru" v="Сирийская Арабская Республика"/>
+    <tag k="official_name:sr" v="Сиријска Арапска Република"/>
+    <tag k="official_name:sv" v="Arabrepubliken Syrien"/>
+    <tag k="place" v="country"/>
+    <tag k="population" v="18860588"/>
+  </node>
   <node id="424311814" lat="21.7214683" lon="-71.6201783">
     <tag k="alt_name:el" v="Νησιά Τερκς και Κάικος"/>
     <tag k="capital_city" v="Cockburn Town"/>
@@ -15887,7 +16108,7 @@
     <tag k="name:ast" v="Islles Turques y Caicos"/>
     <tag k="name:az" v="Türk və Kaykos Adaları"/>
     <tag k="name:be" v="Тэркс і Кайкас астравы"/>
-    <tag k="name:be-x-old" v="Тэркс і Кэйкас"/>
+    <tag k="name:be-tarask" v="Тэркс і Кэйкас"/>
     <tag k="name:bg" v="Търкс и Кайкос"/>
     <tag k="name:bm" v="Turiki Gun ni Kayiki"/>
     <tag k="name:bn" v="টার্কস্‌ ও কেইকোস দ্বীপপুঞ্জ"/>
@@ -16022,7 +16243,7 @@
     <tag k="name:bat-smg" v="Togs"/>
     <tag k="name:bcl" v="Togo"/>
     <tag k="name:be" v="Тога"/>
-    <tag k="name:be-x-old" v="Тога"/>
+    <tag k="name:be-tarask" v="Тога"/>
     <tag k="name:bg" v="Того"/>
     <tag k="name:bjn" v="Togo"/>
     <tag k="name:bm" v="Togo"/>
@@ -16228,7 +16449,7 @@
     <tag k="name:bat-smg" v="Tuonga"/>
     <tag k="name:bcl" v="Tonga"/>
     <tag k="name:be" v="Тонга"/>
-    <tag k="name:be-x-old" v="Тонга"/>
+    <tag k="name:be-tarask" v="Тонга"/>
     <tag k="name:bg" v="Тонга"/>
     <tag k="name:bjn" v="Tonga"/>
     <tag k="name:bn" v="টোঙ্গা"/>
@@ -16400,7 +16621,6 @@
     <tag k="place" v="country"/>
     <tag k="population" v="104000"/>
     <tag k="wikipedia" v="en:Tonga"/>
-    <tag k="wikipedia:no" v="Tonga"/>
   </node>
   <node id="424311883" lat="41.9034912" lon="12.4528349">
     <tag k="admin_level" v="2"/>
@@ -16425,7 +16645,7 @@
     <tag k="name:bat-smg" v="Vatikans"/>
     <tag k="name:bcl" v="Ciudad nin Vaticano"/>
     <tag k="name:be" v="Ватыкан"/>
-    <tag k="name:be-x-old" v="Ватыкан"/>
+    <tag k="name:be-tarask" v="Ватыкан"/>
     <tag k="name:bg" v="Свещено море [Ватиканска държава]"/>
     <tag k="name:bi" v="Vatican Siti"/>
     <tag k="name:bm" v="Vatikaŋ"/>
@@ -16842,7 +17062,7 @@
     <tag k="name:bat-smg" v="Induonezėjė"/>
     <tag k="name:bcl" v="Indonesya"/>
     <tag k="name:be" v="Інданэзія"/>
-    <tag k="name:be-x-old" v="Інданэзія"/>
+    <tag k="name:be-tarask" v="Інданэзія"/>
     <tag k="name:bg" v="Индонезия"/>
     <tag k="name:bi" v="Indonesia"/>
     <tag k="name:bjn" v="Indunisia"/>
@@ -17075,8 +17295,6 @@
     <tag k="population" v="237512352"/>
     <tag k="ref" v="ID"/>
     <tag k="wikipedia" v="en:Indonesia"/>
-    <tag k="wikipedia:fr" v="Indonésie"/>
-    <tag k="wikipedia:id" v="Indonesia"/>
   </node>
   <node id="424311955" lat="6.9518742" lon="170.9985095">
     <tag k="alt_name:el" v="Νησιά Μάρσαλ"/>
@@ -17235,7 +17453,7 @@
     <tag k="name:bar" v="Grönland"/>
     <tag k="name:bat-smg" v="Grenlandėjė"/>
     <tag k="name:be" v="Грэнландыя"/>
-    <tag k="name:be-x-old" v="Грэнляндыя"/>
+    <tag k="name:be-tarask" v="Грэнляндыя"/>
     <tag k="name:bg" v="Гренландия"/>
     <tag k="name:bm" v="Gɔrɔhenelandi"/>
     <tag k="name:bn" v="গ্রিনল্যান্ড"/>
@@ -17427,7 +17645,7 @@
     <tag k="name:az" v="Farer adaları"/>
     <tag k="name:bar" v="Färöer"/>
     <tag k="name:be" v="Фарэрскія астравы"/>
-    <tag k="name:be-x-old" v="Фарэрскія выспы"/>
+    <tag k="name:be-tarask" v="Фарэрскія выспы"/>
     <tag k="name:bg" v="Фарьорски острови"/>
     <tag k="name:bi" v="Faroe aelan"/>
     <tag k="name:bn" v="ফ্যারও দ্বীপপুঞ্জ"/>
@@ -17739,7 +17957,7 @@
     <tag k="name:bat-smg" v="Kėpros"/>
     <tag k="name:bcl" v="Siprus"/>
     <tag k="name:be" v="Кіпр"/>
-    <tag k="name:be-x-old" v="Кіпр"/>
+    <tag k="name:be-tarask" v="Кіпр"/>
     <tag k="name:bg" v="Кипър"/>
     <tag k="name:bi" v="Cyprus"/>
     <tag k="name:bm" v="Cipri"/>
@@ -17989,7 +18207,7 @@
     <tag k="name:bat-smg" v="Singapūrs"/>
     <tag k="name:bcl" v="Singapore"/>
     <tag k="name:be" v="Сінгапур"/>
-    <tag k="name:be-x-old" v="Сынгапур"/>
+    <tag k="name:be-tarask" v="Сынгапур"/>
     <tag k="name:bg" v="Сингапур"/>
     <tag k="name:bi" v="Singapore"/>
     <tag k="name:bjn" v="Singapura"/>
@@ -18231,7 +18449,7 @@
     <tag k="name:bat-smg" v="Japuonėjė"/>
     <tag k="name:bcl" v="Hapon"/>
     <tag k="name:be" v="Японія"/>
-    <tag k="name:be-x-old" v="Японія"/>
+    <tag k="name:be-tarask" v="Японія"/>
     <tag k="name:bg" v="Япония"/>
     <tag k="name:bjn" v="Japang"/>
     <tag k="name:bm" v="Zapɔn"/>
@@ -18618,7 +18836,7 @@
     <tag k="name:bat-smg" v="Kėnėjės Liaudėis Respoblėka"/>
     <tag k="name:bcl" v="Republikang Popular kan Tsina"/>
     <tag k="name:be" v="Кітай"/>
-    <tag k="name:be-x-old" v="Кітай"/>
+    <tag k="name:be-tarask" v="Кітай"/>
     <tag k="name:bg" v="Китай"/>
     <tag k="name:bh" v="चीन"/>
     <tag k="name:bi" v="China"/>
@@ -19018,7 +19236,7 @@
     <tag k="name:bat-smg" v="Azėrbaidžians"/>
     <tag k="name:bcl" v="Aserbayhan"/>
     <tag k="name:be" v="Азербайджан"/>
-    <tag k="name:be-x-old" v="Азэрбайджан"/>
+    <tag k="name:be-tarask" v="Азэрбайджан"/>
     <tag k="name:bg" v="Азербейджан"/>
     <tag k="name:bi" v="Azerbaijan"/>
     <tag k="name:bm" v="Azɛrbayjaŋ"/>
@@ -19281,7 +19499,7 @@
     <tag k="name:bat-smg" v="Buolėvėjė"/>
     <tag k="name:bcl" v="Bolibya"/>
     <tag k="name:be" v="Балівія"/>
-    <tag k="name:be-x-old" v="Балівія"/>
+    <tag k="name:be-tarask" v="Балівія"/>
     <tag k="name:bg" v="Боливия"/>
     <tag k="name:bi" v="Bolivia"/>
     <tag k="name:bm" v="Bolivi"/>
@@ -19522,7 +19740,7 @@
     <tag k="name:bat-smg" v="Brazilėjė"/>
     <tag k="name:bcl" v="Brasil"/>
     <tag k="name:be" v="Бразілія"/>
-    <tag k="name:be-x-old" v="Бразылія"/>
+    <tag k="name:be-tarask" v="Бразылія"/>
     <tag k="name:bg" v="Бразилия"/>
     <tag k="name:bi" v="Brazil"/>
     <tag k="name:bm" v="Berezili"/>
@@ -19799,7 +20017,7 @@
     <tag k="name:bat-smg" v="Botsvana"/>
     <tag k="name:bcl" v="Botswana"/>
     <tag k="name:be" v="Батсвана"/>
-    <tag k="name:be-x-old" v="Батсвана"/>
+    <tag k="name:be-tarask" v="Батсвана"/>
     <tag k="name:bg" v="Ботсуана"/>
     <tag k="name:bjn" v="Botswana"/>
     <tag k="name:bm" v="Bɔtisiwana"/>
@@ -20160,7 +20378,7 @@
     <tag k="name:bat-smg" v="Čekėjė"/>
     <tag k="name:bcl" v="Tsekang Republika"/>
     <tag k="name:be" v="Чэхія"/>
-    <tag k="name:be-x-old" v="Чэхія"/>
+    <tag k="name:be-tarask" v="Чэхія"/>
     <tag k="name:bg" v="Чешката република"/>
     <tag k="name:bi" v="Czech Republic"/>
     <tag k="name:bm" v="Ceki republiki"/>
@@ -20705,7 +20923,7 @@
     <tag k="name:bat-smg" v="Gana"/>
     <tag k="name:bcl" v="Gana"/>
     <tag k="name:be" v="Гана"/>
-    <tag k="name:be-x-old" v="Гана"/>
+    <tag k="name:be-tarask" v="Гана"/>
     <tag k="name:bg" v="Гана"/>
     <tag k="name:bjn" v="Ghana"/>
     <tag k="name:bm" v="Gana"/>
@@ -20933,7 +21151,7 @@
     <tag k="name:bat-smg" v="Ekvatuorė Gvinėjė"/>
     <tag k="name:bcl" v="Guineyang Ekwatoryal"/>
     <tag k="name:be" v="Экватарыяльная Гвінея"/>
-    <tag k="name:be-x-old" v="Экватарыяльная Ґвінэя"/>
+    <tag k="name:be-tarask" v="Экватарыяльная Ґвінэя"/>
     <tag k="name:bg" v="Екваториална Гвинея"/>
     <tag k="name:bjn" v="Guinea Katulistiwa"/>
     <tag k="name:bm" v="Cemajan Gine"/>
@@ -21141,7 +21359,7 @@
     <tag k="name:ast" v="Territoriu Británicu del Océanu Índicu"/>
     <tag k="name:az" v="Britaniya-Hindistan Okeanik territoriyası"/>
     <tag k="name:be" v="Брытанскія Індыйска-акіянскія тэрыторыі"/>
-    <tag k="name:be-x-old" v="Брытанская тэрыторыя ў Індыйскім акіяне"/>
+    <tag k="name:be-tarask" v="Брытанская тэрыторыя ў Індыйскім акіяне"/>
     <tag k="name:bg" v="Британска индоокеанска територия"/>
     <tag k="name:bm" v="Angilɛ ka ɛndu dugukolo"/>
     <tag k="name:bn" v="ব্রিটিশ ভারত মহাসাগরীয় অঞ্চল"/>
@@ -21262,7 +21480,7 @@
     <tag k="name:bat-smg" v="Kėnėjė"/>
     <tag k="name:bcl" v="Kenya"/>
     <tag k="name:be" v="Кенія"/>
-    <tag k="name:be-x-old" v="Кенія"/>
+    <tag k="name:be-tarask" v="Кенія"/>
     <tag k="name:bg" v="Кения"/>
     <tag k="name:bjn" v="Kenya"/>
     <tag k="name:bm" v="Keniya"/>
@@ -21488,7 +21706,7 @@
     <tag k="name:bat-smg" v="Kovėits"/>
     <tag k="name:bcl" v="Kuwait"/>
     <tag k="name:be" v="Кувейт"/>
-    <tag k="name:be-x-old" v="Кувэйт"/>
+    <tag k="name:be-tarask" v="Кувэйт"/>
     <tag k="name:bg" v="Кувейт"/>
     <tag k="name:bm" v="Kowɛti"/>
     <tag k="name:bn" v="কুয়েত"/>
@@ -21708,7 +21926,7 @@
     <tag k="name:az" v="Montserat"/>
     <tag k="name:ba" v="Монтсеррат"/>
     <tag k="name:be" v="Мансерат"/>
-    <tag k="name:be-x-old" v="Мансэрат"/>
+    <tag k="name:be-tarask" v="Мансэрат"/>
     <tag k="name:bg" v="Монсерат"/>
     <tag k="name:bm" v="Moŋsera"/>
     <tag k="name:bn" v="মন্টসেরাট"/>
@@ -21857,7 +22075,7 @@
     <tag k="name:bat-smg" v="Pakėstans"/>
     <tag k="name:bcl" v="Pakistan"/>
     <tag k="name:be" v="Пакістан"/>
-    <tag k="name:be-x-old" v="Пакістан"/>
+    <tag k="name:be-tarask" v="Пакістан"/>
     <tag k="name:bg" v="Пакистан"/>
     <tag k="name:bh" v="पाकिस्तान"/>
     <tag k="name:bjn" v="Pakistan"/>
@@ -22103,7 +22321,7 @@
     <tag k="name:bat-smg" v="Sėira Leuonė"/>
     <tag k="name:bcl" v="Sierra Leona"/>
     <tag k="name:be" v="С’ера-Леоне"/>
-    <tag k="name:be-x-old" v="Сьера-Леонэ"/>
+    <tag k="name:be-tarask" v="Сьера-Леонэ"/>
     <tag k="name:bg" v="Сиера Леоне"/>
     <tag k="name:bjn" v="Sierra Leone"/>
     <tag k="name:bm" v="Siyera Lewɔni"/>
@@ -22313,7 +22531,7 @@
     <tag k="name:bat-smg" v="Indėjė"/>
     <tag k="name:bcl" v="Indya"/>
     <tag k="name:be" v="Індыя"/>
-    <tag k="name:be-x-old" v="Індыя"/>
+    <tag k="name:be-tarask" v="Індыя"/>
     <tag k="name:bg" v="Индия"/>
     <tag k="name:bh" v="भारत"/>
     <tag k="name:bi" v="India"/>
@@ -22584,7 +22802,7 @@
     <tag k="name:bat-smg" v="Tadžikistans"/>
     <tag k="name:bcl" v="Tayikistan"/>
     <tag k="name:be" v="Таджыкістан"/>
-    <tag k="name:be-x-old" v="Таджыкістан"/>
+    <tag k="name:be-tarask" v="Таджыкістан"/>
     <tag k="name:bg" v="Таджикистан"/>
     <tag k="name:bm" v="Tajikisitani"/>
     <tag k="name:bn" v="তাজিকস্থান"/>
@@ -22807,7 +23025,7 @@
     <tag k="name:bat-smg" v="Tanzanėjė"/>
     <tag k="name:bcl" v="Tansaniya"/>
     <tag k="name:be" v="Танзанія"/>
-    <tag k="name:be-x-old" v="Танзанія"/>
+    <tag k="name:be-tarask" v="Танзанія"/>
     <tag k="name:bg" v="Танзания"/>
     <tag k="name:bjn" v="Tanzania"/>
     <tag k="name:bm" v="Tanzani"/>
@@ -23201,7 +23419,7 @@
     <tag k="name:az" v="İvori Sahili"/>
     <tag k="name:bat-smg" v="Dramblė Kaula Kronts"/>
     <tag k="name:be" v="Кот д’Івуар"/>
-    <tag k="name:be-x-old" v="Кот д’Івуар"/>
+    <tag k="name:be-tarask" v="Кот д’Івуар"/>
     <tag k="name:bg" v="Кот д'Ивоар"/>
     <tag k="name:bjn" v="Pantai Gading"/>
     <tag k="name:bm" v="Kodiwari"/>
@@ -23423,7 +23641,7 @@
     <tag k="name:bat-smg" v="Islandėjė"/>
     <tag k="name:bcl" v="Islanda"/>
     <tag k="name:be" v="Ісландыя"/>
-    <tag k="name:be-x-old" v="Ісьляндыя"/>
+    <tag k="name:be-tarask" v="Ісьляндыя"/>
     <tag k="name:bg" v="Исландия"/>
     <tag k="name:bi" v="Iceland"/>
     <tag k="name:bm" v="Isilandi"/>
@@ -23663,7 +23881,7 @@
     <tag k="country_code_fips" v="RS"/>
     <tag k="country_code_iso3166_1_alpha_2" v="RU"/>
     <tag k="int_name" v="Russian Federation"/>
-    <tag k="is_in:continent" v="Europe; Asia"/>
+    <tag k="is_in:continent" v="Eurasia"/>
     <tag k="name" v="Россия"/>
     <tag k="name:UN:ar" v="الاتحاد الروسي"/>
     <tag k="name:UN:en" v="Russian Federation (the)"/>
@@ -23692,7 +23910,7 @@
     <tag k="name:bat-smg" v="Rosėjė"/>
     <tag k="name:bcl" v="Rusya"/>
     <tag k="name:be" v="Расія"/>
-    <tag k="name:be-x-old" v="Расея"/>
+    <tag k="name:be-tarask" v="Расея"/>
     <tag k="name:bg" v="Русия"/>
     <tag k="name:bi" v="Rusia"/>
     <tag k="name:bjn" v="Rusia"/>
@@ -23994,7 +24212,7 @@
     <tag k="name:bat-smg" v="Omans"/>
     <tag k="name:bcl" v="Oman"/>
     <tag k="name:be" v="Аман"/>
-    <tag k="name:be-x-old" v="Аман"/>
+    <tag k="name:be-tarask" v="Аман"/>
     <tag k="name:bg" v="Оман"/>
     <tag k="name:bm" v="Omaŋ"/>
     <tag k="name:bn" v="ওমান"/>
@@ -24503,7 +24721,7 @@
     <tag k="name:bat-smg" v="Kamerūns"/>
     <tag k="name:bcl" v="Kameron"/>
     <tag k="name:be" v="Камерун"/>
-    <tag k="name:be-x-old" v="Камэрун"/>
+    <tag k="name:be-tarask" v="Камэрун"/>
     <tag k="name:bg" v="Камерун"/>
     <tag k="name:bjn" v="Kamerun"/>
     <tag k="name:bm" v="Kameruni"/>
@@ -24733,7 +24951,7 @@
     <tag k="name:bat-smg" v="Egėpts"/>
     <tag k="name:bcl" v="Ehipto"/>
     <tag k="name:be" v="Егіпет"/>
-    <tag k="name:be-x-old" v="Эгіпет"/>
+    <tag k="name:be-tarask" v="Эгіпет"/>
     <tag k="name:bg" v="Египет"/>
     <tag k="name:bm" v="Misra"/>
     <tag k="name:bn" v="মিশর"/>
@@ -24966,7 +25184,7 @@
     <tag k="name:bat-smg" v="Eritrėjė"/>
     <tag k="name:bcl" v="Eritreya"/>
     <tag k="name:be" v="Эрытрэя"/>
-    <tag k="name:be-x-old" v="Эрытрэя"/>
+    <tag k="name:be-tarask" v="Эрытрэя"/>
     <tag k="name:bg" v="Еритрея"/>
     <tag k="name:bjn" v="Eritrea"/>
     <tag k="name:bm" v="Eritere"/>
@@ -25288,7 +25506,7 @@
     <tag k="name:bat-smg" v="Iraks"/>
     <tag k="name:bcl" v="Iraq"/>
     <tag k="name:be" v="Ірак"/>
-    <tag k="name:be-x-old" v="Ірак"/>
+    <tag k="name:be-tarask" v="Ірак"/>
     <tag k="name:bg" v="Ирак"/>
     <tag k="name:bm" v="Iraki"/>
     <tag k="name:bn" v="ইরাক"/>
@@ -25535,7 +25753,7 @@
     <tag k="name:bat-smg" v="Juordanėjė"/>
     <tag k="name:bcl" v="Yordanya"/>
     <tag k="name:be" v="Іарданія"/>
-    <tag k="name:be-x-old" v="Ярданія"/>
+    <tag k="name:be-tarask" v="Ярданія"/>
     <tag k="name:bg" v="Йордания"/>
     <tag k="name:bjn" v="Yordania"/>
     <tag k="name:bm" v="Zɔrdani"/>
@@ -26053,7 +26271,7 @@
     <tag k="name:bat-smg" v="Moldavėjė"/>
     <tag k="name:bcl" v="Moldoba"/>
     <tag k="name:be" v="Малдова"/>
-    <tag k="name:be-x-old" v="Малдова"/>
+    <tag k="name:be-tarask" v="Малдова"/>
     <tag k="name:bg" v="Молдова"/>
     <tag k="name:bi" v="Moldova"/>
     <tag k="name:bm" v="Molidavi"/>
@@ -26296,7 +26514,7 @@
     <tag k="name:bat-smg" v="Mianmars"/>
     <tag k="name:bcl" v="Myanmar"/>
     <tag k="name:be" v="М'янма"/>
-    <tag k="name:be-x-old" v="М’янма"/>
+    <tag k="name:be-tarask" v="М’янма"/>
     <tag k="name:bg" v="Мианмар [Бирма]"/>
     <tag k="name:bi" v="Burma"/>
     <tag k="name:bm" v="Myanimari"/>
@@ -26697,7 +26915,7 @@
     <tag k="name:bat-smg" v="Nigerėjė"/>
     <tag k="name:bcl" v="Nigerya"/>
     <tag k="name:be" v="Нігерыя"/>
-    <tag k="name:be-x-old" v="Нігерыя"/>
+    <tag k="name:be-tarask" v="Нігерыя"/>
     <tag k="name:bg" v="Нигерия"/>
     <tag k="name:bjn" v="Nigeria"/>
     <tag k="name:bm" v="Nizeriya"/>
@@ -26924,7 +27142,7 @@
     <tag k="name:bat-smg" v="Nėkaragva"/>
     <tag k="name:bcl" v="Nikaragua"/>
     <tag k="name:be" v="Нікарагуа"/>
-    <tag k="name:be-x-old" v="Нікарагуа"/>
+    <tag k="name:be-tarask" v="Нікарагуа"/>
     <tag k="name:bg" v="Никарагуа"/>
     <tag k="name:bm" v="Nikaragwa"/>
     <tag k="name:bn" v="নিকারাগুয়া"/>
@@ -27127,7 +27345,7 @@
     <tag k="name:bat-smg" v="Panama"/>
     <tag k="name:bcl" v="Panama"/>
     <tag k="name:be" v="Панама"/>
-    <tag k="name:be-x-old" v="Панама"/>
+    <tag k="name:be-tarask" v="Панама"/>
     <tag k="name:bg" v="Панама"/>
     <tag k="name:bm" v="Panama"/>
     <tag k="name:bn" v="পানামা"/>
@@ -27443,7 +27661,7 @@
     <tag k="name:bat-smg" v="Suomalis"/>
     <tag k="name:bcl" v="Somalya"/>
     <tag k="name:be" v="Самалі"/>
-    <tag k="name:be-x-old" v="Самалі"/>
+    <tag k="name:be-tarask" v="Самалі"/>
     <tag k="name:bg" v="Сомалия"/>
     <tag k="name:bjn" v="Somalia"/>
     <tag k="name:bm" v="Somali"/>
@@ -27666,7 +27884,7 @@
     <tag k="name:az" v="Tunis"/>
     <tag k="name:bcl" v="Tunisya"/>
     <tag k="name:be" v="Туніс"/>
-    <tag k="name:be-x-old" v="Туніс"/>
+    <tag k="name:be-tarask" v="Туніс"/>
     <tag k="name:bg" v="Тунис"/>
     <tag k="name:bm" v="Tunizi"/>
     <tag k="name:bn" v="তিউনিসিয়া"/>
@@ -27922,8 +28140,7 @@
     <tag k="old_name" v="Ellice Islands"/>
     <tag k="place" v="country"/>
     <tag k="population" v="10000"/>
-    <tag k="wikipedia:de" v="Tuvalu"/>
-    <tag k="wikipedia:en" v="Tuvalu"/>
+    <tag k="wikipedia" v="en:Tuvalu"/>
   </node>
   <node id="424317406" lat="1.5333554" lon="32.2166578">
     <tag k="capital_city" v="Kampala"/>
@@ -27946,7 +28163,7 @@
     <tag k="name:bat-smg" v="Uganda"/>
     <tag k="name:bcl" v="Uganda"/>
     <tag k="name:be" v="Уганда"/>
-    <tag k="name:be-x-old" v="Уганда"/>
+    <tag k="name:be-tarask" v="Уганда"/>
     <tag k="name:bg" v="Уганда"/>
     <tag k="name:bm" v="Uganda"/>
     <tag k="name:bn" v="উগান্ডা"/>
@@ -28137,6 +28354,7 @@
     <tag k="official_name:tl" v="Republika ng Uganda"/>
     <tag k="place" v="country"/>
     <tag k="population" v="34509205"/>
+    <tag k="wikidata" v="Q1036"/>
     <tag k="wikipedia" v="en:Uganda"/>
   </node>
   <node id="424317428" lat="41.3237300" lon="63.9528098">
@@ -28144,6 +28362,7 @@
     <tag k="ISO3166-1:alpha2" v="UZ"/>
     <tag k="ISO3166-1:alpha3" v="UZB"/>
     <tag k="ISO3166-1:numeric" v="860"/>
+    <tag k="alt_name:uz" v="Ўзбекистон"/>
     <tag k="alt_name:vi" v="Ozbekistan"/>
     <tag k="capital_city" v="Tashkent"/>
     <tag k="country_code_fips" v="UZ"/>
@@ -28167,7 +28386,7 @@
     <tag k="name:bat-smg" v="Ozbėkistans"/>
     <tag k="name:bcl" v="Usbekistan"/>
     <tag k="name:be" v="Узбекістан"/>
-    <tag k="name:be-x-old" v="Узбэкістан"/>
+    <tag k="name:be-tarask" v="Узбэкістан"/>
     <tag k="name:bg" v="Узбекистан"/>
     <tag k="name:bm" v="Uzebekisitani"/>
     <tag k="name:bn" v="উজ্বেকিস্থান"/>
@@ -28338,7 +28557,6 @@
     <tag k="name:uk" v="Узбекистан"/>
     <tag k="name:ur" v="ازبکستان"/>
     <tag k="name:uz" v="O‘zbekiston"/>
-    <tag k="name:uz@cyrillic" v="Ўзбекистон"/>
     <tag k="name:vec" v="Uzbekistan"/>
     <tag k="name:vep" v="Uzbekistan"/>
     <tag k="name:vi" v="Uzbekistan"/>
@@ -28411,7 +28629,7 @@
     <tag k="name:bat-smg" v="JAV"/>
     <tag k="name:bcl" v="Estados Unidos"/>
     <tag k="name:be" v="Злучаныя Штаты Амерыкі"/>
-    <tag k="name:be-x-old" v="Злучаныя Штаты Амэрыкі"/>
+    <tag k="name:be-tarask" v="Злучаныя Штаты Амэрыкі"/>
     <tag k="name:bg" v="Съединени американски щати"/>
     <tag k="name:bi" v="Yunaeted Stet blong Amerika"/>
     <tag k="name:bm" v="Ameriki"/>
@@ -28689,7 +28907,7 @@
     <tag k="name:bat-smg" v="Alžīrs"/>
     <tag k="name:bcl" v="Algerya"/>
     <tag k="name:be" v="Алжыр"/>
-    <tag k="name:be-x-old" v="Альжыр"/>
+    <tag k="name:be-tarask" v="Альжыр"/>
     <tag k="name:ber" v="ⴷⵥⴰⵢⴻⵔ (Dzayer)"/>
     <tag k="name:bg" v="Алжир"/>
     <tag k="name:bjn" v="Aljajair"/>
@@ -28935,7 +29153,7 @@
     <tag k="name:bat-smg" v="Antėgva ė Barbuda"/>
     <tag k="name:bcl" v="Antigwa asin Barbuda"/>
     <tag k="name:be" v="Антыгуа і Барбуда"/>
-    <tag k="name:be-x-old" v="Антыгуа і Барбуда"/>
+    <tag k="name:be-tarask" v="Антыгуа і Барбуда"/>
     <tag k="name:bg" v="Антигуа и Барбуда"/>
     <tag k="name:bm" v="Antiga-ni-Barbuda"/>
     <tag k="name:bn" v="এন্টিগুয়া ও বারবুডা"/>
@@ -29127,7 +29345,7 @@
     <tag k="name:bat-smg" v="Bangladešos"/>
     <tag k="name:bcl" v="Banglades"/>
     <tag k="name:be" v="Бангладэш"/>
-    <tag k="name:be-x-old" v="Банглядэш"/>
+    <tag k="name:be-tarask" v="Банглядэш"/>
     <tag k="name:bg" v="Бангладеш"/>
     <tag k="name:bjn" v="Bangladesh"/>
     <tag k="name:bm" v="Bɛngiladɛsi"/>
@@ -29349,7 +29567,7 @@
     <tag k="geonames:id" v="1831722"/>
     <tag k="int_name" v="Cambodia"/>
     <tag k="is_in:continent" v="Asia"/>
-    <tag k="name" v="កម្ពុជា"/>
+    <tag k="name" v="កម្ពុជា (Cambodia)"/>
     <tag k="name:ace" v="Kamboja"/>
     <tag k="name:af" v="Kambodja"/>
     <tag k="name:ak" v="Kambodia"/>
@@ -29366,7 +29584,7 @@
     <tag k="name:bat-smg" v="Kambuodža"/>
     <tag k="name:bcl" v="Kambodya"/>
     <tag k="name:be" v="Камбоджа"/>
-    <tag k="name:be-x-old" v="Камбоджа"/>
+    <tag k="name:be-tarask" v="Камбоджа"/>
     <tag k="name:bg" v="Камбоджа"/>
     <tag k="name:bm" v="Kamboji"/>
     <tag k="name:bn" v="কাম্বোজ"/>
@@ -29550,13 +29768,15 @@
     <tag k="name:zu" v="i-Cambodia"/>
     <tag k="official_name:af" v="Koninkryk van Kambodja"/>
     <tag k="official_name:be" v="Каралеўства Камбо́джа"/>
-    <tag k="official_name:de" v="Königreich Kambodsch"/>
+    <tag k="official_name:de" v="Königreich Kambodscha"/>
     <tag k="official_name:el" v="Βασίλειο της Καμπότζης"/>
+    <tag k="official_name:en" v="Kingdom of Cambodia"/>
     <tag k="official_name:es" v="Reino de Camboya"/>
     <tag k="official_name:eu" v="Kanbodiako Erresuma"/>
     <tag k="official_name:id" v="Kerajaan Kamboja"/>
     <tag k="official_name:it" v="Regno di Cambogia"/>
     <tag k="official_name:ja" v="カンボジア王国"/>
+    <tag k="official_name:km" v="ព្រះរាជាណាចក្រកម្ពុជា"/>
     <tag k="official_name:lt" v="Kambodžos Karalystė"/>
     <tag k="official_name:lv" v="Kambodžas Karaliste"/>
     <tag k="official_name:pl" v="Królestwo Kambodży"/>
@@ -29594,7 +29814,7 @@
     <tag k="name:bat-smg" v="Cėntrėnės Afrėkas Respoblėka"/>
     <tag k="name:bcl" v="Sentral na Aprikanong Republika"/>
     <tag k="name:be" v="Цэнтральна-Афрыканская Рэспубліка"/>
-    <tag k="name:be-x-old" v="Цэнтральна-Афрыканская Рэспубліка"/>
+    <tag k="name:be-tarask" v="Цэнтральна-Афрыканская Рэспубліка"/>
     <tag k="name:bg" v="Централноафриканска Република"/>
     <tag k="name:bjn" v="Ripublik Aprika Tangah"/>
     <tag k="name:bm" v="Santarafiriki"/>
@@ -30311,7 +30531,7 @@
     <tag k="name:az" v="Gürcüstan"/>
     <tag k="name:bat-smg" v="Grozėjė"/>
     <tag k="name:be" v="Грузія"/>
-    <tag k="name:be-x-old" v="Грузія"/>
+    <tag k="name:be-tarask" v="Грузія"/>
     <tag k="name:bg" v="Грузия"/>
     <tag k="name:bm" v="Zeyɔrzi"/>
     <tag k="name:bn" v="জর্জিয়া"/>
@@ -30504,7 +30724,7 @@
     <tag k="name:bat-smg" v="Graikėjė"/>
     <tag k="name:bcl" v="Gresya"/>
     <tag k="name:be" v="Грэцыя"/>
-    <tag k="name:be-x-old" v="Грэцыя"/>
+    <tag k="name:be-tarask" v="Грэцыя"/>
     <tag k="name:bg" v="Гърция"/>
     <tag k="name:bm" v="Gɛrɛsi"/>
     <tag k="name:bn" v="গ্রীস"/>
@@ -30974,7 +31194,7 @@
     <tag k="name:bat-smg" v="Lėbėjė"/>
     <tag k="name:bcl" v="Libya"/>
     <tag k="name:be" v="Лівія"/>
-    <tag k="name:be-x-old" v="Лібія"/>
+    <tag k="name:be-tarask" v="Лібія"/>
     <tag k="name:bg" v="Либия"/>
     <tag k="name:bjn" v="Libya"/>
     <tag k="name:bm" v="Libya"/>
@@ -31215,7 +31435,7 @@
     <tag k="name:bat-smg" v="Madagaskars"/>
     <tag k="name:bcl" v="Madagaskar"/>
     <tag k="name:be" v="Мадагаскар"/>
-    <tag k="name:be-x-old" v="Мадагаскар"/>
+    <tag k="name:be-tarask" v="Мадагаскар"/>
     <tag k="name:bg" v="Мадагаскар"/>
     <tag k="name:bjn" v="Madagaskar"/>
     <tag k="name:bm" v="Madagasikari"/>
@@ -31449,7 +31669,7 @@
     <tag k="name:bat-smg" v="Meksėka"/>
     <tag k="name:bcl" v="Mehiko"/>
     <tag k="name:be" v="Мексіка"/>
-    <tag k="name:be-x-old" v="Мэксыка"/>
+    <tag k="name:be-tarask" v="Мэксыка"/>
     <tag k="name:bg" v="Мексико"/>
     <tag k="name:bi" v="Mexico"/>
     <tag k="name:bm" v="Meksiki"/>
@@ -31817,7 +32037,7 @@
     <tag k="geonames:id" v="2542007"/>
     <tag k="int_name" v="Morocco"/>
     <tag k="is_in:continent" v="Africa"/>
-    <tag k="name" v="Maroc  المغرب ⵍⵎⴰⵖⵔⵉⴱ"/>
+    <tag k="name" v="Maroc ⵍⵎⴰⵖⵔⵉⴱ المغرب"/>
     <tag k="name:ace" v="Maghribi"/>
     <tag k="name:af" v="Marokko"/>
     <tag k="name:ak" v="Moroko"/>
@@ -31834,7 +32054,7 @@
     <tag k="name:bat-smg" v="Maruoks"/>
     <tag k="name:bcl" v="Moroko"/>
     <tag k="name:be" v="Марока"/>
-    <tag k="name:be-x-old" v="Марока"/>
+    <tag k="name:be-tarask" v="Марока"/>
     <tag k="name:bg" v="Мароко"/>
     <tag k="name:bjn" v="Maroko"/>
     <tag k="name:bm" v="Maroko"/>
@@ -31975,7 +32195,6 @@
     <tag k="name:sg" v="Marôko"/>
     <tag k="name:sh" v="Maroko"/>
     <tag k="name:si" v="මොරොක්කෝව"/>
-    <tag k="name:simple" v="Morocco"/>
     <tag k="name:sk" v="Maroko"/>
     <tag k="name:sl" v="Maroko"/>
     <tag k="name:sn" v="Morocco"/>
@@ -32020,7 +32239,7 @@
     <tag k="name:zh-yue" v="摩洛哥"/>
     <tag k="name:zh_pinyin" v="Móluògē"/>
     <tag k="name:zu" v="i-Morocco"/>
-    <tag k="official_name" v="المملكة المغربية"/>
+    <tag k="official_name:ar" v="المملكة المغربية"/>
     <tag k="official_name:be" v="Каралеўства Марока"/>
     <tag k="official_name:br" v="Rouantelezh Maroko"/>
     <tag k="official_name:el" v="Βασίλειο του Μαρόκου"/>
@@ -32034,7 +32253,8 @@
     <tag k="official_name:sv" v="Konungariket Marocko"/>
     <tag k="official_name:vi" v="Vương quốc Maroc"/>
     <tag k="place" v="country"/>
-    <tag k="population" v="34435719"/>
+    <tag k="population" v="33848242"/>
+    <tag k="population:date" v="2014"/>
     <tag k="wikipedia" v="fr:Maroc"/>
   </node>
   <node id="432425060" lat="52.0977181" lon="19.0258159">
@@ -32374,7 +32594,7 @@
     <tag k="name:bat-smg" v="Kuongs"/>
     <tag k="name:bcl" v="Republika kan Kongo"/>
     <tag k="name:be" v="Рэспубліка Конга"/>
-    <tag k="name:be-x-old" v="Рэспубліка Конга"/>
+    <tag k="name:be-tarask" v="Рэспубліка Конга"/>
     <tag k="name:bg" v="Конго [Република]"/>
     <tag k="name:bm" v="Kongo"/>
     <tag k="name:bn" v="কঙ্গো [প্রজাতন্ত্র]"/>
@@ -32823,7 +33043,7 @@
     <tag k="name:bat-smg" v="Senegals"/>
     <tag k="name:bcl" v="Senegal"/>
     <tag k="name:be" v="Сенегал"/>
-    <tag k="name:be-x-old" v="Сэнэгал"/>
+    <tag k="name:be-tarask" v="Сэнэгал"/>
     <tag k="name:bg" v="Сенегал"/>
     <tag k="name:bjn" v="Senegal"/>
     <tag k="name:bm" v="Senegali"/>
@@ -33188,7 +33408,7 @@
     <tag k="name:bat-smg" v="Sorėnams"/>
     <tag k="name:bcl" v="Surinam"/>
     <tag k="name:be" v="Сурынам"/>
-    <tag k="name:be-x-old" v="Сурынам"/>
+    <tag k="name:be-tarask" v="Сурынам"/>
     <tag k="name:bg" v="Суринам"/>
     <tag k="name:bm" v="Surinami"/>
     <tag k="name:bn" v="সুরিনাম"/>
@@ -33385,6 +33605,7 @@
     <tag k="alt_name:az" v="tayvan"/>
     <tag k="alt_name:bcl" v="Taiwan"/>
     <tag k="alt_name:be" v="Тайвань"/>
+    <tag k="alt_name:be-tarask" v="Тайвань"/>
     <tag k="alt_name:bg" v="Тайван"/>
     <tag k="alt_name:bh" v="ताइवान"/>
     <tag k="alt_name:bm" v="Tayiwani"/>
@@ -33501,7 +33722,7 @@
     <tag k="name:az" v="Çin Respublikası"/>
     <tag k="name:bar" v="Republik China"/>
     <tag k="name:be" v="Рэспубліка Кітай"/>
-    <tag k="name:be-x-old" v="Рэспубліка Кітай"/>
+    <tag k="name:be-tarask" v="Рэспубліка Кітай"/>
     <tag k="name:bg" v="Република Китай"/>
     <tag k="name:bh" v="चीन (गणराज्य)"/>
     <tag k="name:bn" v="প্রজাতন্ত্রী চীন"/>
@@ -33634,7 +33855,7 @@
     <tag k="name:bat-smg" v="Urugvajos"/>
     <tag k="name:bcl" v="Uruguay"/>
     <tag k="name:be" v="Уругвай"/>
-    <tag k="name:be-x-old" v="Уругвай"/>
+    <tag k="name:be-tarask" v="Уругвай"/>
     <tag k="name:bg" v="Уругвай"/>
     <tag k="name:bi" v="Uruguay"/>
     <tag k="name:bm" v="Urugwayi"/>
@@ -33856,7 +34077,7 @@
     <tag k="name:bat-smg" v="Zambėjė"/>
     <tag k="name:bcl" v="Sambya"/>
     <tag k="name:be" v="Замбія"/>
-    <tag k="name:be-x-old" v="Замбія"/>
+    <tag k="name:be-tarask" v="Замбія"/>
     <tag k="name:bg" v="Замбия"/>
     <tag k="name:bjn" v="Zambia"/>
     <tag k="name:bm" v="Zanbi"/>
@@ -34073,7 +34294,7 @@
     <tag k="name:az" v="Angilya"/>
     <tag k="name:ba" v="Ангилья"/>
     <tag k="name:be" v="Ангілья"/>
-    <tag k="name:be-x-old" v="Ангілья"/>
+    <tag k="name:be-tarask" v="Ангілья"/>
     <tag k="name:bg" v="Ангуила"/>
     <tag k="name:bm" v="Angiya"/>
     <tag k="name:bn" v="এ্যাঙ্গুইলা"/>
@@ -34564,7 +34785,7 @@
     <tag k="name:bat-smg" v="Kuonga Demuokratėnė Respoblėka"/>
     <tag k="name:bcl" v="Demokratikong Republika kan Kongo"/>
     <tag k="name:be" v="Дэмакратычная Рэспубліка Конга"/>
-    <tag k="name:be-x-old" v="Дэмакратычная Рэспубліка Конга"/>
+    <tag k="name:be-tarask" v="Дэмакратычная Рэспубліка Конга"/>
     <tag k="name:bg" v="Конго [ДРК]"/>
     <tag k="name:bjn" v="Ripublik Demokratik Kongo"/>
     <tag k="name:bm" v="Kongo ka republiki demɔkratiki"/>
@@ -34785,7 +35006,7 @@
     <tag k="name:bat-smg" v="Tailands"/>
     <tag k="name:bcl" v="Tailandya"/>
     <tag k="name:be" v="Тайланд"/>
-    <tag k="name:be-x-old" v="Тайлянд"/>
+    <tag k="name:be-tarask" v="Тайлянд"/>
     <tag k="name:bg" v="Тайланд"/>
     <tag k="name:bm" v="Tayilandi"/>
     <tag k="name:bn" v="থাইল্যান্ড"/>
@@ -35021,7 +35242,7 @@
     <tag k="name:bat-smg" v="Joudkalnėjė"/>
     <tag k="name:bcl" v="Montenegro"/>
     <tag k="name:be" v="Чарнагорыя"/>
-    <tag k="name:be-x-old" v="Чарнагорыя"/>
+    <tag k="name:be-tarask" v="Чарнагорыя"/>
     <tag k="name:bg" v="Черна гора"/>
     <tag k="name:bi" v="Montenegro"/>
     <tag k="name:bn" v="মন্টিনিগ্রো"/>
@@ -35030,7 +35251,6 @@
     <tag k="name:br" v="Montenegro"/>
     <tag k="name:bs" v="Crna Gora"/>
     <tag k="name:bxr" v="Монтенегро"/>
-    <tag k="name:by" v="Чарнагорыя"/>
     <tag k="name:ca" v="Montenegro"/>
     <tag k="name:ce" v="Черногори"/>
     <tag k="name:ceb" v="Montenegro"/>
@@ -35233,7 +35453,7 @@
     <tag k="name:bar" v="Abchasien"/>
     <tag k="name:bat-smg" v="Abkazėjė"/>
     <tag k="name:be" v="Абхазія"/>
-    <tag k="name:be-x-old" v="Абхазія"/>
+    <tag k="name:be-tarask" v="Абхазія"/>
     <tag k="name:bg" v="Абхазия"/>
     <tag k="name:bn" v="আবখাজিয়া"/>
     <tag k="name:br" v="Abkhazia"/>
@@ -35480,6 +35700,7 @@
     <tag k="old_name:es" v="Guaján"/>
     <tag k="place" v="country"/>
     <tag k="population" v="185427"/>
+    <tag k="wikipedia" v="en:Guam"/>
   </node>
   <node id="823750101" lat="-9.7354344" lon="162.8288542">
     <tag k="ISO3166-1" v="SB"/>
@@ -35503,7 +35724,7 @@
     <tag k="name:bat-smg" v="Saliamuona Salas"/>
     <tag k="name:bcl" v="Islas Solomon"/>
     <tag k="name:be" v="Саламонавы Астравы"/>
-    <tag k="name:be-x-old" v="Саламонавы астравы"/>
+    <tag k="name:be-tarask" v="Саламонавы астравы"/>
     <tag k="name:bg" v="Соломонови острови"/>
     <tag k="name:bm" v="Salomo Gun"/>
     <tag k="name:bn" v="সলোমন দ্বীপপুঞ্জ"/>
@@ -35827,7 +36048,7 @@
     <tag k="name:bat-smg" v="Pėitū Sudans"/>
     <tag k="name:bcl" v="Habagatan Sudan"/>
     <tag k="name:be" v="Паўднёвы Судан"/>
-    <tag k="name:be-x-old" v="Паўднёвы Судан"/>
+    <tag k="name:be-tarask" v="Паўднёвы Судан"/>
     <tag k="name:bg" v="Южен Судан"/>
     <tag k="name:bn" v="দক্ষিন সুদান"/>
     <tag k="name:br" v="Soudan ar Su"/>
@@ -36416,7 +36637,7 @@
     <tag k="int_name" v="Ireland"/>
     <tag k="is_in:continent" v="Europe"/>
     <tag k="is_in:ocean" v="Atlantic"/>
-    <tag k="name" v="Ireland"/>
+    <tag k="name" v="Éire - Ireland"/>
     <tag k="name:ace" v="Irlandia"/>
     <tag k="name:af" v="Ierland"/>
     <tag k="name:ak" v="Aereland"/>
@@ -36434,7 +36655,7 @@
     <tag k="name:bar" v="Irland"/>
     <tag k="name:bat-smg" v="Airėjė"/>
     <tag k="name:be" v="Ірландыя"/>
-    <tag k="name:be-x-old" v="Ірляндыя"/>
+    <tag k="name:be-tarask" v="Ірляндыя"/>
     <tag k="name:bg" v="Ирландия"/>
     <tag k="name:bi" v="Ireland"/>
     <tag k="name:bm" v="Irilandi"/>
@@ -36678,7 +36899,7 @@
     <tag k="name:bat-smg" v="Šveicarėjė"/>
     <tag k="name:bcl" v="Suisa"/>
     <tag k="name:be" v="Швейцарыя"/>
-    <tag k="name:be-x-old" v="Швейцарыя"/>
+    <tag k="name:be-tarask" v="Швейцарыя"/>
     <tag k="name:bg" v="Швейцария"/>
     <tag k="name:bm" v="Suwisi"/>
     <tag k="name:bn" v="সুইজারল্যান্ড"/>
@@ -37091,7 +37312,7 @@
     <tag k="name:bat-smg" v="Zėmbabvė"/>
     <tag k="name:bcl" v="Simbabwe"/>
     <tag k="name:be" v="Зімбабвэ"/>
-    <tag k="name:be-x-old" v="Зымбабвэ"/>
+    <tag k="name:be-tarask" v="Зымбабвэ"/>
     <tag k="name:bg" v="Зимбабве"/>
     <tag k="name:bjn" v="Zimbabwe"/>
     <tag k="name:bm" v="Zimbabuwe"/>
@@ -37297,7 +37518,7 @@
     <tag k="name:bat-smg" v="Gvatemala"/>
     <tag k="name:bcl" v="Guatemala"/>
     <tag k="name:be" v="Гватэмала"/>
-    <tag k="name:be-x-old" v="Гватэмала"/>
+    <tag k="name:be-tarask" v="Гватэмала"/>
     <tag k="name:bg" v="Гватемала"/>
     <tag k="name:bm" v="Gatemala"/>
     <tag k="name:bn" v="গুয়াতেমালা"/>
@@ -37474,7 +37695,7 @@
     <tag k="name:bat-smg" v="Paragvajos"/>
     <tag k="name:bcl" v="Paraguay"/>
     <tag k="name:be" v="Парагвай"/>
-    <tag k="name:be-x-old" v="Парагвай"/>
+    <tag k="name:be-tarask" v="Парагвай"/>
     <tag k="name:bg" v="Парагвай"/>
     <tag k="name:bi" v="Paraguay"/>
     <tag k="name:bn" v="প্যারাগুয়ে"/>
@@ -37962,7 +38183,7 @@
     <tag k="name:bat-smg" v="Belgėjė"/>
     <tag k="name:bcl" v="Belhika"/>
     <tag k="name:be" v="Бельгія"/>
-    <tag k="name:be-x-old" v="Бэльґія"/>
+    <tag k="name:be-tarask" v="Бэльґія"/>
     <tag k="name:bg" v="Белгия"/>
     <tag k="name:bi" v="Belgium"/>
     <tag k="name:bm" v="Bɛliziki"/>
@@ -38392,7 +38613,7 @@
   </node>
   <node id="1696853468" lat="39.8079192" lon="46.6977209">
     <tag k="alt_name:vi" v="Cộng hoà Nagorno-Karabakh"/>
-    <tag k="is_in:continent" v="Europe;Asia"/>
+    <tag k="is_in:continent" v="Eurasia"/>
     <tag k="name" v="Լեռնային Ղարաբաղի Հանրապետությու (Nagorno-Karabakh Republic)"/>
     <tag k="name:az" v="Dağlıq Qarabağ Respublikası"/>
     <tag k="name:be" v="Нагорна-Карабахская Рэспубліка"/>
@@ -38407,6 +38628,7 @@
     <tag k="name:hu" v="Azeri Hegyi-Karabah / Arcak"/>
     <tag k="name:hy" v="Լեռնային Ղարաբաղի Հանրապետությու"/>
     <tag k="name:it" v="Nagorno Karabakh"/>
+    <tag k="name:ja" v="ナゴルノ・カラバフ共和国"/>
     <tag k="name:ku" v="Komara Qerebaxa Jorîn"/>
     <tag k="name:nl" v="Nagorno-Karabach"/>
     <tag k="name:no" v="Nagorno-Karabakh"/>
@@ -38422,8 +38644,6 @@
     <tag k="status" v="unrecognized_state"/>
     <tag k="wikidata" v="Q244165"/>
     <tag k="wikipedia" v="en:Nagorno-Karabakh Republic"/>
-    <tag k="wikipedia:no" v="Nagorno-Karabakh"/>
-    <tag k="wikipedia:ru" v="Нагорно-Карабахская Республика"/>
   </node>
   <node id="1696874354" lat="35.2245313" lon="33.6252379">
     <tag k="alt_name:ru" v="Северный Кипр"/>
@@ -38756,6 +38976,7 @@
     <tag k="is_in" v="Kingdom of the Netherlands"/>
     <tag k="is_in:continent" v="North America"/>
     <tag k="name" v="Aruba"/>
+    <tag k="name:ar" v="أروبا"/>
     <tag k="name:be" v="Аруба"/>
     <tag k="name:br" v="Aruba"/>
     <tag k="name:ca" v="Aruba"/>
@@ -38812,9 +39033,9 @@
     <tag k="name:bat-smg" v="Bosnėjė ėr Hercuogovėna"/>
     <tag k="name:bcl" v="Bosnya asin Hersegobina"/>
     <tag k="name:be" v="Боснія і Герцагавіна"/>
-    <tag k="name:be-x-old" v="Босьнія і Герцагавіна"/>
+    <tag k="name:be-tarask" v="Босьнія і Герцагавіна"/>
     <tag k="name:bg" v="Босна и Херцеговина"/>
-    <tag k="name:bi" v="Bosnia &amp;amp; Herzegovina"/>
+    <tag k="name:bi" v="Bosnia &amp;amp;Herzegovina"/>
     <tag k="name:bm" v="Bozni-Ɛrizigovini"/>
     <tag k="name:bn" v="বসনিয়া ও হার্জেগোভিনা"/>
     <tag k="name:bo" v="བོསྣི་ཡ་དང་ཧརྫོ་གོ་ཝི་ན།"/>
@@ -38955,7 +39176,7 @@
     <tag k="name:qu" v="Busna-Hirsiquwina"/>
     <tag k="name:rm" v="Bosnia-Erzegovina"/>
     <tag k="name:rn" v="Bosiniya na Herigozevine"/>
-    <tag k="name:ro" v="Bosnia şi Herţegovina"/>
+    <tag k="name:ro" v="Bosnia și Herțegovina"/>
     <tag k="name:roa-rup" v="Bosna shi Hertsegovina"/>
     <tag k="name:roa-tara" v="Bosnie-Erzegovine"/>
     <tag k="name:ru" v="Босния и Герцеговина"/>
@@ -39133,7 +39354,7 @@
     <tag k="name:bat-smg" v="Malaizėjė"/>
     <tag k="name:bcl" v="Malasya"/>
     <tag k="name:be" v="Малайзія"/>
-    <tag k="name:be-x-old" v="Малайзія"/>
+    <tag k="name:be-tarask" v="Малайзія"/>
     <tag k="name:bg" v="Малайзия"/>
     <tag k="name:bjn" v="Malaysia"/>
     <tag k="name:bm" v="Malɛzi"/>
@@ -39355,7 +39576,7 @@
     <tag k="name:bat-smg" v="Etiuopėjė"/>
     <tag k="name:bcl" v="Etyopya"/>
     <tag k="name:be" v="Эфіопія"/>
-    <tag k="name:be-x-old" v="Этыёпія"/>
+    <tag k="name:be-tarask" v="Этыёпія"/>
     <tag k="name:bg" v="Етиопия"/>
     <tag k="name:bjn" v="Ethiopia"/>
     <tag k="name:bm" v="Etiopi"/>
