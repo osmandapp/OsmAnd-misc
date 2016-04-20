@@ -58,7 +58,7 @@ gunzip -f osc_tmp/*.gz
 echo Applying OSC...
 time osmconvert $PLANET_FULL_PATH $(find osc_tmp/ -name *.osc) --out-o5m > "$PLANET_DIR/$PLANET_FILENAME.o5mtmp"
 if [[ $? != 0 ]] ; then
-	echo Error applying OSC... ($?)
+	echo Error applying OSC... $?
 else
 	mv -f "$PLANET_DIR/$PLANET_FILENAME.o5mtmp" "$PLANET_DIR/$PLANET_FILENAME.o5m"
 	NEW_PLANET_TIMESTAMP=$(osmconvert $PLANET_DIR/$PLANET_FILENAME.o5m --out-statistics | grep "timestamp max" | sed 's/timestamp max: //g')
