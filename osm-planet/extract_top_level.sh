@@ -2,7 +2,7 @@
 cd /home/osm-planet/osm-extract
 extract () {
 	echo Extracting $1 from $2
-	if [[ $2 == planet-latest ]] ; then DIR="../"
+	if [[ $2 == planet-latest ]] ; then DIR="../" ; fi
 	osmconvert $DIR$2.o5m -B=$1.poly -o=$1.o5m
 	touch -d "$(osmconvert --out-timestamp $1.o5m)" $1.o5m
 }
