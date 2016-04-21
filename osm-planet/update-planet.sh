@@ -61,9 +61,9 @@ if [[ $? != 0 ]] ; then
 	echo Error applying OSC... $?
 else
 	mv -f "$PLANET_DIR/$PLANET_FILENAME.o5mtmp" "$PLANET_DIR/$PLANET_FILENAME.o5m"
-	NEW_PLANET_TIMESTAMP=$(osmconvert $PLANET_DIR/$PLANET_FILENAME.o5m --out-statistics | grep "timestamp max" | sed 's/timestamp max: //g')
-	touch -d "$NEW_PLANET_TIMESTAMP" $PLANET_DIR/$PLANET_FILENAME.o5m
-	echo Planet ${PLANET_DIR}/${PLANET_FILENAME}.o5m updated to $NEW_PLANET_TIMESTAMP
+#	NEW_PLANET_TIMESTAMP=$(osmconvert $PLANET_DIR/$PLANET_FILENAME.o5m --out-statistics | grep "timestamp max" | sed 's/timestamp max: //g')
+	touch -d "$FIRST_DAY_TIMESTAMP" $PLANET_DIR/$PLANET_FILENAME.o5m
+	echo Planet ${PLANET_DIR}/${PLANET_FILENAME}.o5m updated to $FIRST_DAY_TIMESTAMP
 	rm osc_tmp/*
 	rm listing_tmp/*
 fi
