@@ -57,6 +57,9 @@ use UnitedPrototype\GoogleAnalytics;
     dwFile('road-indexes/'.$file, 'road=yes&file='.$file, "road");
 } else if(isset($_GET['osmc'])){
     dwFile('osmc/'.$file, 'osmc=yes&file='.$file, "osmc");
+} else if(isset($_GET['aosmc'])){
+    $folder = strtolower(substr($file, 0, - strlen('_16_04_01.obf.gz')));
+    dwFile('aosmc/'.$file, 'aosmc=yes&file='.$file, "aosmc");
  } else if(isset($_GET['wiki'])){
     dwFile('wiki/'.$file, 'wiki=yes&file='.$file, "wiki");
  } else if(isset($_GET['hillshade'])){
