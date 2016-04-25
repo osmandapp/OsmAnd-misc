@@ -4,8 +4,8 @@
 #echo "2016-04-01 00:00" > /home/osm-planet/aosmc/.proc_timestamp
 #echo "2016-04-02 00:00" > /home/osm-planet/aosmc/.current_timestamp
 ### BEGIN
-START="$1"
-END="$2"
+START=($1)
+END=($2)
 echo "Current timestamp $END"
 echo "Processed timestamp $START"
 END_DAY=${END[0]}
@@ -15,7 +15,7 @@ START_TIME=${START[1]}
 while [ ! "$END_DAY $END_TIME" ==  "$START_DAY $START_TIME" ]; do
 
 START_DATE="${START_DAY}T${START_TIME}:00Z"
-FILENAME="$(echo $START_DAY | tr '-' _)-$(echo $START_TIME| tr ':' _)"
+FILENAME="$(echo $START_DAY | tr '-' _)-$(echo $START_TIME | tr ':' _)"
 NEXT="$START_DAY $START_TIME 30 minutes"
 NSTART_TIME=$(date +'%H' -d "$NEXT"):$(date +'%M' -d "$NEXT")
 NSTART_DAY=$(date +'%Y' -d "$NEXT")-$(date +'%m' -d "$NEXT")-$(date +'%d' -d "$NEXT")
