@@ -6,7 +6,7 @@ extract () {
 		DIR="/home/osm-planet/"
 	fi
 	time osmconvert $DIR$2.o5m -B=$1.poly -o=$1.o5m
-	touch -d "$(osmconvert --out-timestamp $1.o5m)" $1.o5m
+	TZ=UTC touch -c -d "$(osmconvert --out-timestamp $1.o5m)" $1.o5m
 	DIR=
 }
 
