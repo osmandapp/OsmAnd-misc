@@ -52,7 +52,12 @@ $outputIndexes = $output->createElement( "updates" );
 $outputIndexes->setAttribute('file', $_GET['file']);
 $outputIndexes->setAttribute('timestamp', $_GET['timestamp']);
 $output->appendChild( $outputIndexes );
-loadUpdatesFromDir($output, $outputIndexes, 'osmc/', $_GET['file'], $_GET['timestamp']);
+if(isset($_GET['aosmc'])) {
+  $folder = strtolower($_GET['file']);
+  loadUpdatesFromDir($output, $outputIndexes, 'aosmc/'.$folder.'/', $_GET['file'], $_GET['timestamp']);
+} else {
+  loadUpdatesFromDir($output, $outputIndexes, 'osmc/', $_GET['file'], $_GET['timestamp']);
+}
 
 echo $output->saveXML();   
 ?>

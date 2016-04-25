@@ -76,11 +76,11 @@ function dwFile($filename,$query,$type) {
     $record = @geoip_record_by_name($_SERVER['REMOTE_ADDR']);
     
     
-    if($type == "osmc" ) {
-	downloadFile($filename);
+    if($type == "osmc" or $type == "aosmc") {
+		downloadFile($filename);
     } else if($record and $record['country_code'] == 'US' and 
-	$helpServersUSCount > 0 and $simple and $var < (100 - $mainServersUSLoad)) {
-	$url = $helpServersUS[$var % $helpServersUSCount];
+		$helpServersUSCount > 0 and $simple and $var < (100 - $mainServersUSLoad)) {
+		$url = $helpServersUS[$var % $helpServersUSCount];
     	header('Location: http://'.$url.'/download.php?'.$query);
     } else if($helpServersCount > 0 and $simple and $var < (100 - $mainServersLoad)) {
     	$url = $helpServers[$var % $helpServersCount];

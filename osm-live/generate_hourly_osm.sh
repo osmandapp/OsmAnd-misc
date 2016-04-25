@@ -40,4 +40,4 @@ net.osmand.data.diff.AugmentedDiffsInspector \
 START_DAY=$NSTART_DAY
 START_TIME=$NSTART_TIME
 done
-echo "$END_DAY $END_DAY" > /home/osm-planet/aosmc/.proc_timestamp
+echo "$END_DAY $END_TIME" > /home/osm-planet/aosmc/.proc_timestamp
