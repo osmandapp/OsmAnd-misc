@@ -4,8 +4,10 @@
 #echo "2016-04-01 00:00" > /home/osm-planet/aosmc/.proc_timestamp
 #echo "2016-04-02 00:00" > /home/osm-planet/aosmc/.current_timestamp
 ### BEGIN
-END=( $(cat /home/osm-planet/aosmc/.current_timestamp) )
-START=( $(cat /home/osm-planet/aosmc/.proc_timestamp) )
+START="$1"
+END="$2"
+echo "Current timestamp $END"
+echo "Processed timestamp $START"
 END_DAY=${END[0]}
 END_TIME=${END[1]}
 START_DAY=${START[0]}
@@ -40,4 +42,4 @@ net.osmand.data.diff.AugmentedDiffsInspector \
 START_DAY=$NSTART_DAY
 START_TIME=$NSTART_TIME
 done
-echo "$END_DAY $END_TIME" > /home/osm-planet/aosmc/.proc_timestamp
+
