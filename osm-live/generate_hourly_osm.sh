@@ -42,7 +42,7 @@ QUERY="
 
 echo $QUERY | /home/overpass/osm3s/bin/osm3s_query | gzip -vc > /home/osm-planet/aosmc/$FILENAME.osm.gz 
 
-java -XX:+UseParallelGC -Xmx2096M -Xmn256M \
+java -XX:+UseParallelGC -Xmx8096M -Xmn256M \
 -Djava.util.logging.config.file=tools/obf-generation/batch-logging.properties \
 -cp "OsmAndMapCreator/OsmAndMapCreator.jar:OsmAndMapCreator/lib/OsmAnd-core.jar:OsmAndMapCreator/lib/*.jar" \
 net.osmand.data.diff.AugmentedDiffsInspector \
