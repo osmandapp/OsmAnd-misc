@@ -41,6 +41,8 @@ QUERY="
 "
 
 echo $QUERY | /home/overpass/osm3s/bin/osm3s_query | gzip -vc > /home/osm-planet/aosmc/$FILENAME.osm.gz 
+TZ=UTC touch -c -d "$START_DATE" /home/osm-planet/aosmc/$FILENAME.osm.gz
+
 
 java -XX:+UseParallelGC -Xmx8096M -Xmn256M \
 -Djava.util.logging.config.file=tools/obf-generation/batch-logging.properties \
