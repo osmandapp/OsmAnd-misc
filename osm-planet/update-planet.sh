@@ -13,10 +13,10 @@ echo Planet timestamp max: $PLANET_TIMESTAMP
 PLANET_TIMESTAMP=${PLANET_TIMESTAMP:0:10}
 FIRST_DAY_TIMESTAMP=$(date +%Y-%m)-01
 
-if [[ -d "listing_tmp" ]] ; then rm listing_tmp/* ; fi
-if [[ ! -d "listing_tmp" ]] ; then mkdir listing_tmp ; fi
-if [[ -d "osc_tmp" ]] ; then rm osc_tmp/* ; fi
-if [[ ! -d "osc_tmp" ]] ; then mkdir osc_tmp ; fi
+if [[ -d "listing_tmp" ]] ; then rm listing_tmp/* || true; fi
+if [[ ! -d "listing_tmp" ]] ; then mkdir listing_tmp; fi
+if [[ -d "osc_tmp" ]] ; then rm osc_tmp/* || true; fi
+if [[ ! -d "osc_tmp" ]] ; then mkdir osc_tmp; fi
 
 echo Getting file list from http://planet.openstreetmap.org/replication/day...
 for (( num=0; num<=999; num++ )) ; do
@@ -51,18 +51,24 @@ done
 echo Downloading OSC from $PLANET_RDIR/$PLANET_TIMESTAMP_FILENAME to $FIRST_DAY_RDIR/$FIRST_DAY_TIMESTAMP_FILENAME
 for (( osc=$(echo $PLANET_RDIR$PLANET_TIMESTAMP_FILENAME | sed 's/^0*//g'); osc<=$(echo $FIRST_DAY_RDIR$FIRST_DAY_TIMESTAMP_FILENAME | sed 's/^0*//g'); osc++ )) ; do
 	osc_seq="$(printf "%06d" $osc)"
-	wget --directory-prefix=osc_tmp/ -nc -c http://planet.openstreetmap.org/replication/day/000/${osc_seq:0:3}/${osc_seq:3:6}.osc.gz
+	echo ${osc_seq:0:3}/${osc_seq:3:6}
+	wget -q --directory-prefix=osc_tmp/ -nc -c http://planet.openstreetmap.org/replication/day/000/${osc_seq:0:3}/${osc_seq:3:6}.osc.gz
 done
 echo Unpacking...
 gunzip -f osc_tmp/*.gz
+echo Copying planet...
+cp -f $PLANET_FULL_PATH ${PLANET_FULL_PATH}_bak
 echo Applying OSC...
-time osmconvert $PLANET_FULL_PATH $(find osc_tmp/ -name *.osc) --out-o5m > "$PLANET_DIR/$PLANET_FILENAME.o5mtmp"
+time osmconvert $PLANET_FULL_PATH $(find osc_tmp/ -name *.osc) --timestamp=$(echo $FIRST_DAY_TIMESTAMP) --out-o5m > "$PLANET_DIR/$PLANET_FILENAME.o5mtmp"
 if [[ $? != 0 ]] ; then
 	echo Error applying OSC... $?
 else
 	mv -f "$PLANET_DIR/$PLANET_FILENAME.o5mtmp" "$PLANET_DIR/$PLANET_FILENAME.o5m"
-#	NEW_PLANET_TIMESTAMP=$(osmconvert $PLANET_DIR/$PLANET_FILENAME.o5m --out-statistics | grep "timestamp max" | sed 's/timestamp max: //g')
-	TZ=UTC touch -c -d "$FIRST_DAY_TIMESTAMP" $PLANET_DIR/$PLANET_FILENAME.o5m
+# 	echo Setting timestamp...
+# 	NEW_PLANET_TIMESTAMP=$(osmconvert $PLANET_DIR/$PLANET_FILENAME.o5m --out-statistics | grep "timestamp max" | sed 's/timestamp max: //g')
+# 	TZ=UTC touch -c -d "$NEW_PLANET_TIMESTAMP" $PLANET_DIR/$PLANET_FILENAME.o5m
+# 	osmconvert --timestamp=$(echo $NEW_PLANET_TIMESTAMP) $PLANET_DIR/$PLANET_FILENAME.o5m --out-o5m > "$PLANET_DIR/$PLANET_FILENAME.o5mtmp"
+# 	mv -f "$PLANET_DIR/$PLANET_FILENAME.o5mtmp" $PLANET_FULL_PATH
 	echo Planet ${PLANET_DIR}/${PLANET_FILENAME}.o5m updated to $FIRST_DAY_TIMESTAMP
 	rm osc_tmp/*
 	rm listing_tmp/*
