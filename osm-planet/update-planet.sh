@@ -66,9 +66,9 @@ else
 	mv -f "$PLANET_DIR/$PLANET_FILENAME.o5mtmp" "$PLANET_DIR/$PLANET_FILENAME.o5m"
 # 	echo Setting timestamp...
 # 	NEW_PLANET_TIMESTAMP=$(osmconvert $PLANET_DIR/$PLANET_FILENAME.o5m --out-statistics | grep "timestamp max" | sed 's/timestamp max: //g')
-# 	TZ=UTC touch -c -d "$NEW_PLANET_TIMESTAMP" $PLANET_DIR/$PLANET_FILENAME.o5m
 # 	osmconvert --timestamp=$(echo $NEW_PLANET_TIMESTAMP) $PLANET_DIR/$PLANET_FILENAME.o5m --out-o5m > "$PLANET_DIR/$PLANET_FILENAME.o5mtmp"
 # 	mv -f "$PLANET_DIR/$PLANET_FILENAME.o5mtmp" $PLANET_FULL_PATH
+	TZ=UTC touch -c -d "$FIRST_DAY_TIMESTAMP" $PLANET_DIR/$PLANET_FILENAME.o5m
 	echo Planet ${PLANET_DIR}/${PLANET_FILENAME}.o5m updated to $FIRST_DAY_TIMESTAMP
 	rm osc_tmp/*
 	rm listing_tmp/*
