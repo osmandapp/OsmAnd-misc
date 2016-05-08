@@ -1,7 +1,7 @@
 #!/bin/bash
 #countries=(ukraine india  italy  germany france netherlands canada)
 #suffixes=( europe  asia   europe europe  europe europe      northamerica)
-countries=(germany)
+countries=(ukraine)
 suffixes=(europe)
 
 base_dir=$(pwd)
