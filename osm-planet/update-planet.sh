@@ -59,7 +59,7 @@ gunzip -f osc_tmp/*.gz
 echo Copying planet...
 cp -f $PLANET_FULL_PATH ${PLANET_FULL_PATH}_bak
 echo Applying OSC...
-time osmconvert $PLANET_FULL_PATH $(find osc_tmp/ -name *.osc) --timestamp=$(echo $FIRST_DAY_TIMESTAMP) --out-o5m > "$PLANET_DIR/$PLANET_FILENAME.o5mtmp"
+time osmconvert -v $PLANET_FULL_PATH $(find osc_tmp/ -name *.osc) --timestamp=$(echo $FIRST_DAY_TIMESTAMP) --out-o5m > "$PLANET_DIR/$PLANET_FILENAME.o5mtmp"
 if [[ $? != 0 ]] ; then
 	echo Error applying OSC... $?
 else
