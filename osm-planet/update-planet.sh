@@ -54,12 +54,12 @@ for (( osc=$(echo $PLANET_RDIR$PLANET_TIMESTAMP_FILENAME | sed 's/^0*//g'); osc<
 	echo ${osc_seq:0:3}/${osc_seq:3:6}
 	wget -q --directory-prefix=osc_tmp/ -nc -c http://planet.openstreetmap.org/replication/day/000/${osc_seq:0:3}/${osc_seq:3:6}.osc.gz
 done
-echo Unpacking...
-gunzip -f osc_tmp/*.gz
+#echo Unpacking...
+#gunzip -f osc_tmp/*.gz
 echo Copying planet...
 cp -f $PLANET_FULL_PATH ${PLANET_FULL_PATH}_bak
 echo Applying OSC...
-time osmconvert -v $PLANET_FULL_PATH $(find osc_tmp/ -name *.osc) --timestamp=$(echo $FIRST_DAY_TIMESTAMP) --out-o5m > "$PLANET_DIR/$PLANET_FILENAME.o5mtmp"
+time osmconvert -v $PLANET_FULL_PATH osc_tmp/*.osc.gz --timestamp=$(echo $FIRST_DAY_TIMESTAMP) --out-o5m > "$PLANET_DIR/$PLANET_FILENAME.o5mtmp"
 if [[ $? != 0 ]] ; then
 	echo Error applying OSC... $?
 else
