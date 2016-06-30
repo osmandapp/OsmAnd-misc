@@ -57,9 +57,9 @@ done
 echo Copying planet...
 cp -f $PLANET_FULL_PATH ${PLANET_FULL_PATH}_bak
 echo Merging OSC...
-time osmconvert -v --merge-versions "osc_tmp/*.osc.gz" --out-o5c > "osc_tmp/update.o5c"
+time osmconvert -v --merge-versions osc_tmp/*.osc.gz --out-o5c > "osc_tmp/update.o5c"
 echo Applying OSC...
-time osmconvert -v $PLANET_FULL_PATH "osc_tmp/update.o5c" --timestamp=$(echo $FIRST_DAY_TIMESTAMP) --out-o5m > "$PLANET_DIR/$PLANET_FILENAME.o5mtmp"
+time osmconvert -v $PLANET_FULL_PATH osc_tmp/update.o5c --timestamp=$(echo $FIRST_DAY_TIMESTAMP) --out-o5m > "$PLANET_DIR/$PLANET_FILENAME.o5mtmp"
 if [[ $? != 0 ]] ; then
 	echo Error applying OSC... $?
 else
