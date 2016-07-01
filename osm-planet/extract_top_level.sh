@@ -5,7 +5,7 @@ extract () {
 	if [[ $2 == planet-latest ]] ; then
 		DIR="/home/osm-planet/"
 	fi
-	time osmconvert $DIR$2.o5m -B=$1.poly -o=$1.o5m
+	time osmconvert --complex-ways --complete-ways $DIR$2.o5m -B=$1.poly -o=$1.o5m
 	TZ=UTC touch -c -d "$(date +%Y-%m)-01" $1.o5m
 	DIR=
 }
