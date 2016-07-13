@@ -2,8 +2,12 @@
 DIRECTORY=$(cd `dirname $0` && pwd)
 
 GIT_SITE_DIR=$DIRECTORY/site/
-LOCAL_SITE_DIR=/var/www-download/
-DVR_SITE_DIR=/var/www-dvr/
+if [ -z "$LOCAL_SITE_DIR" ]; then
+	LOCAL_SITE_DIR=/var/www-download/
+fi
+if [ -z "$DVR_SITE_DIR" ]; then
+	DVR_SITE_DIR=/var/www-dvr/
+fi
 
 
 mkdir -p $LOCAL_SITE_DIR/
