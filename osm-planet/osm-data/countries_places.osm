@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2016-04-01T12:42:02Z"/>
+<meta osm_base="2016-07-13T13:37:02Z"/>
 
   <node id="26036352" lat="12.7503486" lon="122.7312101">
     <tag k="alt_name:vi" v="Phi Luật Tân"/>
@@ -3698,6 +3698,7 @@
     <tag k="name:yi" v="דרום קארעע"/>
     <tag k="name:yo" v="Orílẹ́ède Ariwa Kọria"/>
     <tag k="name:za" v="Hanzgoz"/>
+    <tag k="name:zh" v="韩国"/>
     <tag k="name:zh-classical" v="大韓民國"/>
     <tag k="name:zh-hant" v="大韓民國"/>
     <tag k="name:zh-min-nan" v="Hân-kok"/>
@@ -10473,7 +10474,6 @@
     <tag k="name:wa" v="Nonne-Afrike"/>
     <tag k="name:war" v="Salatan nga Apriká"/>
     <tag k="name:wo" v="Afrig gu Bëj-saalum"/>
-    <tag k="name:wu" v="南非"/>
     <tag k="name:wuu" v="南非"/>
     <tag k="name:xal" v="Өмн Априкин"/>
     <tag k="name:xh" v="uMzantsi Afrika"/>
@@ -13944,6 +13944,7 @@
     <tag k="wikipedia" v="en:Croatia"/>
   </node>
   <node id="424311521" lat="47.2286086" lon="65.2093197">
+    <tag k="capital" v="astana"/>
     <tag k="country_code_fips" v="KZ"/>
     <tag k="country_code_iso3166_1_alpha_2" v="KZ"/>
     <tag k="geonames:id" v="1522867"/>
@@ -16823,6 +16824,7 @@
     <tag k="official_name:vi" v="Thành Quốc Vatican"/>
     <tag k="place" v="country"/>
     <tag k="population" v="824"/>
+    <tag k="wikidata" v="Q237"/>
     <tag k="wikipedia" v="en:Vatican City"/>
   </node>
   <node id="424311890" lat="8.0018709" lon="-66.1109318">
@@ -19997,7 +19999,8 @@
     <tag k="official_name:zh" v="巴西联邦共和国"/>
     <tag k="old_name:vi" v="Ba Tây"/>
     <tag k="place" v="country"/>
-    <tag k="population" v="191043661"/>
+    <tag k="population" v="204450649"/>
+    <tag k="population:date" v="2015-07-01"/>
     <tag k="source" v="IBGE"/>
     <tag k="wikipedia" v="pt:Brasil"/>
   </node>
@@ -28901,7 +28904,8 @@
     <tag k="country_code_iso3166_1_alpha_2" v="DZ"/>
     <tag k="is_in" v="Africa"/>
     <tag k="is_in:continent" v="Africa"/>
-    <tag k="name" v="الجزائر Algérie"/>
+    <tag k="name" v="Algérie ⴷⵥⴰⵢⴻⵔ الجزائر"/>
+    <tag k="name:Tamazight" v="ⴷⵥⴰⵢⴻⵔ"/>
     <tag k="name:ace" v="Aljazair"/>
     <tag k="name:af" v="Algerië"/>
     <tag k="name:als" v="Algerie"/>
@@ -28918,7 +28922,7 @@
     <tag k="name:bcl" v="Algerya"/>
     <tag k="name:be" v="Алжыр"/>
     <tag k="name:be-tarask" v="Альжыр"/>
-    <tag k="name:ber" v="ⴷⵥⴰⵢⴻⵔ (Dzayer)"/>
+    <tag k="name:ber" v="ⴷⵥⴰⵢⴻⵔ"/>
     <tag k="name:bg" v="Алжир"/>
     <tag k="name:bjn" v="Aljajair"/>
     <tag k="name:bm" v="Aljeri"/>
@@ -29770,7 +29774,7 @@
     <tag k="name:yi" v="קאמבאדיע"/>
     <tag k="name:yo" v="Orílẹ́ède Kàmùbódíà"/>
     <tag k="name:zea" v="Cambodja"/>
-    <tag k="name:zh" v="高棉"/>
+    <tag k="name:zh" v="柬埔寨"/>
     <tag k="name:zh-classical" v="柬埔寨"/>
     <tag k="name:zh-min-nan" v="Kampuchea"/>
     <tag k="name:zh-yue" v="柬埔寨"/>
@@ -30710,7 +30714,7 @@
     <tag k="population" v="4630841"/>
     <tag k="wikipedia" v="en:Georgia (country)"/>
   </node>
-  <node id="432424989" lat="39.0000410" lon="21.9999569">
+  <node id="432424989" lat="38.9953683" lon="21.9877132">
     <tag k="alt_name:br" v="Hellaz"/>
     <tag k="alt_name:en" v="Hellas"/>
     <tag k="capital_city" v="Athens"/>
@@ -32041,11 +32045,22 @@
     <tag k="wikipedia" v="en:Mongolia"/>
   </node>
   <node id="432425041" lat="31.1728192" lon="-7.3366043">
+    <tag k="ISO3166-1" v="MA"/>
+    <tag k="ISO3166-1:alpha2" v="MA"/>
+    <tag k="ISO3166-1:alpha3" v="MAR"/>
+    <tag k="ISO3166-1:numeric" v="504"/>
+    <tag k="alt_name" v="Maroc ⵍⵎⴰⵖⵔⵉⴱ المغرب"/>
+    <tag k="alt_name:Tamazight" v="ⵍⵎⴰⵖⵔⵉⴱ"/>
+    <tag k="alt_name:ber" v="ⵍⵎⴰⵖⵔⵉⴱ"/>
     <tag k="alt_name:vi" v="Ma-rốc"/>
+    <tag k="capital_city" v="Rabat"/>
     <tag k="country_code_fips" v="MO"/>
     <tag k="country_code_iso3166_1_alpha_2" v="MA"/>
     <tag k="geonames:id" v="2542007"/>
-    <tag k="name" v="Maroc ⵍⵎⴰⵖⵔⵉⴱ المغرب"/>
+    <tag k="is_in" v="Africa"/>
+    <tag k="is_in:continent" v="Africa"/>
+    <tag k="name" v="Maroc ⴰⵎⵔⵔⵓⴽ المغرب"/>
+    <tag k="name:Tamazight" v="ⴰⵎⵔⵔⵓⴽ"/>
     <tag k="name:ace" v="Maghribi"/>
     <tag k="name:af" v="Marokko"/>
     <tag k="name:ak" v="Moroko"/>
@@ -32063,6 +32078,7 @@
     <tag k="name:bcl" v="Moroko"/>
     <tag k="name:be" v="Марока"/>
     <tag k="name:be-tarask" v="Марока"/>
+    <tag k="name:ber" v="ⴰⵎⵔⵔⵓⴽ"/>
     <tag k="name:bg" v="Мароко"/>
     <tag k="name:bjn" v="Maroko"/>
     <tag k="name:bm" v="Maroko"/>
@@ -32261,6 +32277,9 @@
     <tag k="official_name:sv" v="Konungariket Marocko"/>
     <tag k="official_name:vi" v="Vương quốc Maroc"/>
     <tag k="place" v="country"/>
+    <tag k="population" v="33848242"/>
+    <tag k="population:date" v="2014"/>
+    <tag k="wikidata" v="Q1028"/>
   </node>
   <node id="432425060" lat="52.0977181" lon="19.0258159">
     <tag k="ISO3166-1" v="PL"/>
@@ -33603,223 +33622,225 @@
     <tag k="wikipedia" v="nl:Suriname"/>
   </node>
   <node id="432425099" lat="23.9739374" lon="120.9820179">
-    <tag k="alt_name" v="台灣"/>
-    <tag k="alt_name:ace" v="Taywan"/>
-    <tag k="alt_name:af" v="Taiwan"/>
-    <tag k="alt_name:ak" v="Taiwan"/>
-    <tag k="alt_name:am" v="ታይዋን"/>
-    <tag k="alt_name:ar" v="تايوان"/>
-    <tag k="alt_name:arz" v="تايوان"/>
-    <tag k="alt_name:ast" v="Taiwán"/>
-    <tag k="alt_name:az" v="tayvan"/>
-    <tag k="alt_name:bcl" v="Taiwan"/>
-    <tag k="alt_name:be" v="Тайвань"/>
-    <tag k="alt_name:be-tarask" v="Тайвань"/>
-    <tag k="alt_name:bg" v="Тайван"/>
-    <tag k="alt_name:bh" v="ताइवान"/>
-    <tag k="alt_name:bm" v="Tayiwani"/>
-    <tag k="alt_name:bn" v="তাইওয়ান"/>
-    <tag k="alt_name:br" v="Taiwan"/>
-    <tag k="alt_name:bs" v="Tajvan"/>
-    <tag k="alt_name:ca" v="Taiwan"/>
-    <tag k="alt_name:cdo" v="Dài-uăng"/>
-    <tag k="alt_name:cs" v="Tchaj-wan"/>
-    <tag k="alt_name:csb" v="Tajwan"/>
-    <tag k="alt_name:cv" v="Тайвань"/>
-    <tag k="alt_name:cy" v="Taiwan"/>
-    <tag k="alt_name:da" v="Taiwan"/>
-    <tag k="alt_name:de" v="Taiwan"/>
-    <tag k="alt_name:ee" v="Taiwan"/>
-    <tag k="alt_name:en" v="Taiwan"/>
-    <tag k="alt_name:eo" v="Tajvano"/>
-    <tag k="alt_name:es" v="Taiwán"/>
-    <tag k="alt_name:et" v="Taiwan"/>
-    <tag k="alt_name:eu" v="Taiwan"/>
-    <tag k="alt_name:ff" v="Taywaan"/>
-    <tag k="alt_name:fi" v="Taiwan"/>
-    <tag k="alt_name:fo" v="Teivan"/>
-    <tag k="alt_name:fr" v="Taïwan"/>
-    <tag k="alt_name:fur" v="Taiwan"/>
-    <tag k="alt_name:fy" v="Taiwan"/>
-    <tag k="alt_name:ga" v="An Téaváin"/>
-    <tag k="alt_name:gd" v="Tai-Bhàn"/>
-    <tag k="alt_name:gl" v="Taiwán"/>
-    <tag k="alt_name:hr" v="Tajvan"/>
-    <tag k="alt_name:hu" v="Tajvan"/>
-    <tag k="alt_name:ia" v="Taiwan"/>
-    <tag k="alt_name:id" v="Taiwan"/>
-    <tag k="alt_name:ilo" v="Taiwan"/>
-    <tag k="alt_name:it" v="Taiwan"/>
-    <tag k="alt_name:ja" v="台湾"/>
-    <tag k="alt_name:kab" v="Ṭaywan"/>
-    <tag k="alt_name:ki" v="Taiwani"/>
-    <tag k="alt_name:kk" v="Тайвань"/>
-    <tag k="alt_name:kl" v="Taiwan"/>
-    <tag k="alt_name:ksh" v="Taiwan"/>
-    <tag k="alt_name:ku" v="Taywan"/>
-    <tag k="alt_name:la" v="Taivania"/>
-    <tag k="alt_name:lb" v="Taiwan"/>
-    <tag k="alt_name:lg" v="Tayiwani"/>
-    <tag k="alt_name:lij" v="Taiwan"/>
-    <tag k="alt_name:lmo" v="Taiwan"/>
-    <tag k="alt_name:ln" v="Taiwanin"/>
-    <tag k="alt_name:lt" v="Taivanas"/>
-    <tag k="alt_name:lv" v="Taivāna"/>
-    <tag k="alt_name:mg" v="Taioana"/>
-    <tag k="alt_name:mhr" v="Тайван"/>
-    <tag k="alt_name:mi" v="Taiwana"/>
-    <tag k="alt_name:mk" v="Тајван"/>
-    <tag k="alt_name:mn" v="Тайвань"/>
-    <tag k="alt_name:ms" v="Taiwan"/>
-    <tag k="alt_name:mt" v="Tajwan"/>
-    <tag k="alt_name:nah" v="Taihuan"/>
-    <tag k="alt_name:nl" v="Taiwan"/>
-    <tag k="alt_name:nn" v="Taiwan"/>
-    <tag k="alt_name:no" v="Taiwan"/>
-    <tag k="alt_name:pcd" v="Taïwan"/>
-    <tag k="alt_name:pl" v="Tajwan"/>
-    <tag k="alt_name:pms" v="Taiwan"/>
-    <tag k="alt_name:pt" v="Taiwan"/>
-    <tag k="alt_name:rm" v="Taiwan"/>
-    <tag k="alt_name:rn" v="Tayiwani"/>
-    <tag k="alt_name:ro" v="Taiwan"/>
-    <tag k="alt_name:ru" v="Тайвань"/>
-    <tag k="alt_name:rw" v="Tayiwani"/>
-    <tag k="alt_name:scn" v="Taiwan"/>
-    <tag k="alt_name:se" v="Taiwan"/>
-    <tag k="alt_name:sg" v="Tâiwâni"/>
-    <tag k="alt_name:sk" v="Taiwan"/>
-    <tag k="alt_name:sl" v="Tajvan"/>
-    <tag k="alt_name:sn" v="Taiwan"/>
-    <tag k="alt_name:so" v="Taywaan"/>
-    <tag k="alt_name:sq" v="Tajvan"/>
-    <tag k="alt_name:sr" v="Тајван"/>
-    <tag k="alt_name:ss" v="IThayiwani"/>
-    <tag k="alt_name:sv" v="Taiwan"/>
-    <tag k="alt_name:sw" v="Taiwani"/>
-    <tag k="alt_name:tg" v="Тайван"/>
-    <tag k="alt_name:tk" v="Taýwan"/>
-    <tag k="alt_name:tl" v="Taiwan"/>
-    <tag k="alt_name:to" v="Taiuani"/>
-    <tag k="alt_name:tr" v="Tayvan"/>
-    <tag k="alt_name:udm" v="Тайвань"/>
-    <tag k="alt_name:uk" v="Тайвань"/>
-    <tag k="alt_name:uz" v="Tayvan"/>
-    <tag k="alt_name:vi" v="Đài Loan"/>
-    <tag k="alt_name:vo" v="Tayvän"/>
-    <tag k="alt_name:wo" v="Taaywaan"/>
-    <tag k="alt_name:yo" v="Orílẹ́ède Taiwani"/>
-    <tag k="alt_name:zea" v="Taiwan"/>
-    <tag k="alt_name:zh" v="台灣"/>
-    <tag k="alt_name:zh-Hant" v="台灣"/>
-    <tag k="alt_name:zh-classical" v="台灣"/>
-    <tag k="alt_name:zh-simplified" v="台湾"/>
-    <tag k="alt_name:zh_pinyin" v="Táiwān"/>
-    <tag k="alt_name:zu" v="i-Taiwan"/>
+    <tag k="alt_name" v="中華民國"/>
+    <tag k="alt_name:af" v="Republiek van Sjina"/>
+    <tag k="alt_name:als" v="Republik China"/>
+    <tag k="alt_name:am" v="የቻይና ሪፐብሊክ"/>
+    <tag k="alt_name:an" v="Republica de China"/>
+    <tag k="alt_name:ar" v="جمهورية الصين"/>
+    <tag k="alt_name:arz" v="جمهورية الصين"/>
+    <tag k="alt_name:ast" v="República de China"/>
+    <tag k="alt_name:az" v="Çin Respublikası"/>
+    <tag k="alt_name:bar" v="Republik China"/>
+    <tag k="alt_name:be" v="Рэспубліка Кітай"/>
+    <tag k="alt_name:be-tarask" v="Рэспубліка Кітай"/>
+    <tag k="alt_name:bg" v="Република Китай"/>
+    <tag k="alt_name:bh" v="चीन (गणराज्य)"/>
+    <tag k="alt_name:bn" v="প্রজাতন্ত্রী চীন"/>
+    <tag k="alt_name:bo" v="ཐའེ་ཝན།"/>
+    <tag k="alt_name:bpy" v="তাইৱান"/>
+    <tag k="alt_name:ceb" v="Republika sa Tsina"/>
+    <tag k="alt_name:chy" v="Republic of China"/>
+    <tag k="alt_name:ckb" v="کۆماری چین"/>
+    <tag k="alt_name:crh" v="Çin Cumhuriyeti"/>
+    <tag k="alt_name:cs" v="Čínská republika"/>
+    <tag k="alt_name:de" v="Republik China"/>
+    <tag k="alt_name:diq" v="Cumhuriyetê Çini"/>
+    <tag k="alt_name:dsb" v="Republika Chinskeje"/>
+    <tag k="alt_name:dv" v="ޖުމްހޫރީ ޗައިނާ"/>
+    <tag k="alt_name:dz" v="ཊཱའི་ཝཱན"/>
+    <tag k="alt_name:el" v="Δημοκρατία της Κίνας"/>
+    <tag k="alt_name:en" v="Republic of China"/>
+    <tag k="alt_name:ext" v="Repúbrica de China"/>
+    <tag k="alt_name:fa" v="تایوان"/>
+    <tag k="alt_name:fiu-vro" v="Hiina Vabariik"/>
+    <tag k="alt_name:frp" v="Rèpublica de Ch·ina"/>
+    <tag k="alt_name:gag" v="Kitay Respublikası (Tayvan)"/>
+    <tag k="alt_name:gan" v="臺灣省"/>
+    <tag k="alt_name:gu" v="તાઇવાન"/>
+    <tag k="alt_name:gv" v="Pobblaght ny Sheen"/>
+    <tag k="alt_name:ha" v="Taiwan"/>
+    <tag k="alt_name:hak" v="Chûng-fà Mìn-koet"/>
+    <tag k="alt_name:he" v="טייואן"/>
+    <tag k="alt_name:hi" v="ताइवान"/>
+    <tag k="alt_name:hif" v="Republic of China"/>
+    <tag k="alt_name:hsb" v="Chinska republika"/>
+    <tag k="alt_name:hy" v="Թայվան"/>
+    <tag k="alt_name:io" v="Republiko di Chinia"/>
+    <tag k="alt_name:is" v="Lýðveldið Kína"/>
+    <tag k="alt_name:jv" v="Républik Cina"/>
+    <tag k="alt_name:ka" v="ტაივანი"/>
+    <tag k="alt_name:kbd" v="Хъутей Республикэ"/>
+    <tag k="alt_name:km" v="តៃវ៉ាន់"/>
+    <tag k="alt_name:kn" v="ಥೈವಾನ್"/>
+    <tag k="alt_name:ko" v="대만"/>
+    <tag k="alt_name:ks" v="تایوان"/>
+    <tag k="alt_name:lad" v="Repuvlika de Kina"/>
+    <tag k="alt_name:li" v="Republiek China"/>
+    <tag k="alt_name:lo" v="ໄຕ້ຫວັນ"/>
+    <tag k="alt_name:ml" v="തായ്‌വാൻ"/>
+    <tag k="alt_name:mr" v="तैवान"/>
+    <tag k="alt_name:my" v="ထိုင်ဝမ်"/>
+    <tag k="alt_name:na" v="Republik Tsiene"/>
+    <tag k="alt_name:nds" v="Republiek China"/>
+    <tag k="alt_name:ne" v="ताइवान"/>
+    <tag k="alt_name:nov" v="Republike de China"/>
+    <tag k="alt_name:oc" v="Republica de China (Taiwan)"/>
+    <tag k="alt_name:or" v="ତାଇୱାନ୍"/>
+    <tag k="alt_name:os" v="Китайы Республикæ"/>
+    <tag k="alt_name:pa" v="ਚੀਨ ਗਣਰਾਜ"/>
+    <tag k="alt_name:pam" v="Republika ning Tsina"/>
+    <tag k="alt_name:pap" v="Republika di China"/>
+    <tag k="alt_name:pnb" v="تائیوان"/>
+    <tag k="alt_name:ps" v="د چين جمهوريت"/>
+    <tag k="alt_name:qu" v="Chunwa Republika"/>
+    <tag k="alt_name:ru" v="Китайская Республика"/>
+    <tag k="alt_name:sa" v="तैवान"/>
+    <tag k="alt_name:sah" v="Кытай Республиката"/>
+    <tag k="alt_name:sco" v="Republic o Cheenae"/>
+    <tag k="alt_name:sh" v="Republika Kina"/>
+    <tag k="alt_name:si" v="තායිවානය"/>
+    <tag k="alt_name:simple" v="Republic of China"/>
+    <tag k="alt_name:sm" v="Saina Taipei"/>
+    <tag k="alt_name:szl" v="Republika Chińsko"/>
+    <tag k="alt_name:ta" v="தைவான்"/>
+    <tag k="alt_name:te" v="తైవాన్"/>
+    <tag k="alt_name:th" v="ไต้หวัน"/>
+    <tag k="alt_name:ti" v="ታይዋን"/>
+    <tag k="alt_name:tpi" v="Ripablik bilong Saina"/>
+    <tag k="alt_name:tt" v="Кытай Җөмһүрияте"/>
+    <tag k="alt_name:ug" v="تەيۋەن"/>
+    <tag k="alt_name:ur" v="تائیوان"/>
+    <tag k="alt_name:vec" v="Republica de Cina"/>
+    <tag k="alt_name:war" v="Republika han Tsina"/>
+    <tag k="alt_name:xal" v="Китдин Орн"/>
+    <tag k="alt_name:yi" v="רעפובליק פון כינע"/>
+    <tag k="alt_name:za" v="Cunghvaz Minzgoz"/>
+    <tag k="alt_name:zh" v="中華民國"/>
+    <tag k="alt_name:zh-Hans" v="台湾省"/>
+    <tag k="alt_name:zh-Hant" v="中華民國"/>
+    <tag k="alt_name:zh-classical" v="中華民國"/>
+    <tag k="alt_name:zh-min-nan" v="Tiong-hoâ Bîn-kok"/>
+    <tag k="alt_name:zh-yue" v="中華民國"/>
     <tag k="country_code_fips" v="TW"/>
     <tag k="country_code_iso3166_1_alpha_2" v="TW"/>
     <tag k="int_name" v="Taiwan"/>
     <tag k="is_in:continent" v="Asia"/>
-    <tag k="name" v="中華民國"/>
-    <tag k="name:af" v="Republiek van Sjina"/>
-    <tag k="name:als" v="Republik China"/>
-    <tag k="name:am" v="የቻይና ሪፐብሊክ"/>
-    <tag k="name:an" v="Republica de China"/>
-    <tag k="name:ar" v="جمهورية الصين"/>
-    <tag k="name:arz" v="جمهورية الصين"/>
-    <tag k="name:ast" v="República de China"/>
-    <tag k="name:az" v="Çin Respublikası"/>
-    <tag k="name:bar" v="Republik China"/>
-    <tag k="name:be" v="Рэспубліка Кітай"/>
-    <tag k="name:be-tarask" v="Рэспубліка Кітай"/>
-    <tag k="name:bg" v="Република Китай"/>
-    <tag k="name:bh" v="चीन (गणराज्य)"/>
-    <tag k="name:bn" v="প্রজাতন্ত্রী চীন"/>
-    <tag k="name:bo" v="ཐའེ་ཝན།"/>
-    <tag k="name:bpy" v="তাইৱান"/>
-    <tag k="name:ceb" v="Republika sa Tsina"/>
-    <tag k="name:chy" v="Republic of China"/>
-    <tag k="name:ckb" v="کۆماری چین"/>
-    <tag k="name:crh" v="Çin Cumhuriyeti"/>
-    <tag k="name:cs" v="Čínská republika"/>
-    <tag k="name:de" v="Republik China"/>
-    <tag k="name:diq" v="Cumhuriyetê Çini"/>
-    <tag k="name:dsb" v="Republika Chinskeje"/>
-    <tag k="name:dv" v="ޖުމްހޫރީ ޗައިނާ"/>
-    <tag k="name:dz" v="ཊཱའི་ཝཱན"/>
-    <tag k="name:el" v="Δημοκρατία της Κίνας"/>
-    <tag k="name:en" v="Republic of China"/>
-    <tag k="name:ext" v="Repúbrica de China"/>
-    <tag k="name:fa" v="تایوان"/>
-    <tag k="name:fiu-vro" v="Hiina Vabariik"/>
-    <tag k="name:frp" v="Rèpublica de Ch·ina"/>
-    <tag k="name:gag" v="Kitay Respublikası (Tayvan)"/>
-    <tag k="name:gan" v="中華民國"/>
-    <tag k="name:gu" v="તાઇવાન"/>
-    <tag k="name:gv" v="Pobblaght ny Sheen"/>
-    <tag k="name:ha" v="Taiwan"/>
-    <tag k="name:hak" v="Chûng-fà Mìn-koet"/>
-    <tag k="name:he" v="טייואן"/>
-    <tag k="name:hi" v="ताइवान"/>
-    <tag k="name:hif" v="Republic of China"/>
-    <tag k="name:hsb" v="Chinska republika"/>
-    <tag k="name:hy" v="Թայվան"/>
-    <tag k="name:io" v="Republiko di Chinia"/>
-    <tag k="name:is" v="Lýðveldið Kína"/>
-    <tag k="name:jv" v="Républik Cina"/>
-    <tag k="name:ka" v="ტაივანი"/>
-    <tag k="name:kbd" v="Хъутей Республикэ"/>
-    <tag k="name:km" v="តៃវ៉ាន់"/>
-    <tag k="name:kn" v="ಥೈವಾನ್"/>
-    <tag k="name:ko" v="대만"/>
-    <tag k="name:ks" v="تایوان"/>
-    <tag k="name:lad" v="Repuvlika de Kina"/>
-    <tag k="name:li" v="Republiek China"/>
-    <tag k="name:lo" v="ໄຕ້ຫວັນ"/>
-    <tag k="name:ml" v="തായ്‌വാൻ"/>
-    <tag k="name:mr" v="तैवान"/>
-    <tag k="name:my" v="ထိုင်ဝမ်"/>
-    <tag k="name:na" v="Republik Tsiene"/>
-    <tag k="name:nds" v="Republiek China"/>
-    <tag k="name:ne" v="ताइवान"/>
-    <tag k="name:nov" v="Republike de China"/>
-    <tag k="name:oc" v="Republica de China (Taiwan)"/>
-    <tag k="name:or" v="ତାଇୱାନ୍"/>
-    <tag k="name:os" v="Китайы Республикæ"/>
-    <tag k="name:pa" v="ਚੀਨ ਗਣਰਾਜ"/>
-    <tag k="name:pam" v="Republika ning Tsina"/>
-    <tag k="name:pap" v="Republika di China"/>
-    <tag k="name:pnb" v="تائیوان"/>
-    <tag k="name:ps" v="د چين جمهوريت"/>
-    <tag k="name:qu" v="Chunwa Republika"/>
-    <tag k="name:ru" v="Китайская Республика"/>
-    <tag k="name:sa" v="तैवान"/>
-    <tag k="name:sah" v="Кытай Республиката"/>
-    <tag k="name:sco" v="Republic o Cheenae"/>
-    <tag k="name:sh" v="Republika Kina"/>
-    <tag k="name:si" v="තායිවානය"/>
-    <tag k="name:simple" v="Republic of China"/>
-    <tag k="name:sm" v="Saina Taipei"/>
-    <tag k="name:szl" v="Republika Chińsko"/>
-    <tag k="name:ta" v="தைவான்"/>
-    <tag k="name:te" v="తైవాన్"/>
-    <tag k="name:th" v="ไต้หวัน"/>
-    <tag k="name:ti" v="ታይዋን"/>
-    <tag k="name:tpi" v="Ripablik bilong Saina"/>
-    <tag k="name:tt" v="Кытай Җөмһүрияте"/>
-    <tag k="name:ug" v="تەيۋەن"/>
-    <tag k="name:ur" v="تائیوان"/>
-    <tag k="name:vec" v="Republica de Cina"/>
-    <tag k="name:war" v="Republika han Tsina"/>
-    <tag k="name:xal" v="Китдин Орн"/>
-    <tag k="name:yi" v="רעפובליק פון כינע"/>
-    <tag k="name:za" v="Cunghvaz Minzgoz"/>
-    <tag k="name:zh" v="中華民國"/>
-    <tag k="name:zh-Hans" v="台湾"/>
-    <tag k="name:zh-Hant" v="中華民國"/>
-    <tag k="name:zh-classical" v="中華民國"/>
-    <tag k="name:zh-min-nan" v="Tiong-hoâ Bîn-kok"/>
-    <tag k="name:zh-yue" v="中華民國"/>
+    <tag k="name" v="臺灣"/>
+    <tag k="name:ace" v="Taywan"/>
+    <tag k="name:af" v="Taiwan"/>
+    <tag k="name:ak" v="Taiwan"/>
+    <tag k="name:am" v="ታይዋን"/>
+    <tag k="name:ar" v="تايوان"/>
+    <tag k="name:arz" v="تايوان"/>
+    <tag k="name:ast" v="Taiwán"/>
+    <tag k="name:az" v="tayvan"/>
+    <tag k="name:bcl" v="Taiwan"/>
+    <tag k="name:be" v="Тайвань"/>
+    <tag k="name:be-tarask" v="Тайвань"/>
+    <tag k="name:bg" v="Тайван"/>
+    <tag k="name:bh" v="ताइवान"/>
+    <tag k="name:bm" v="Tayiwani"/>
+    <tag k="name:bn" v="তাইওয়ান"/>
+    <tag k="name:br" v="Taiwan"/>
+    <tag k="name:bs" v="Tajvan"/>
+    <tag k="name:ca" v="Taiwan"/>
+    <tag k="name:cdo" v="Dài-uăng"/>
+    <tag k="name:cs" v="Tchaj-wan"/>
+    <tag k="name:csb" v="Tajwan"/>
+    <tag k="name:cv" v="Тайвань"/>
+    <tag k="name:cy" v="Taiwan"/>
+    <tag k="name:da" v="Taiwan"/>
+    <tag k="name:de" v="Taiwan"/>
+    <tag k="name:ee" v="Taiwan"/>
+    <tag k="name:en" v="Taiwan"/>
+    <tag k="name:eo" v="Tajvano"/>
+    <tag k="name:es" v="Taiwán"/>
+    <tag k="name:et" v="Taiwan"/>
+    <tag k="name:eu" v="Taiwan"/>
+    <tag k="name:ff" v="Taywaan"/>
+    <tag k="name:fi" v="Taiwan"/>
+    <tag k="name:fo" v="Teivan"/>
+    <tag k="name:fr" v="Taïwan"/>
+    <tag k="name:fur" v="Taiwan"/>
+    <tag k="name:fy" v="Taiwan"/>
+    <tag k="name:ga" v="An Téaváin"/>
+    <tag k="name:gd" v="Tai-Bhàn"/>
+    <tag k="name:gl" v="Taiwán"/>
+    <tag k="name:hr" v="Tajvan"/>
+    <tag k="name:hu" v="Tajvan"/>
+    <tag k="name:ia" v="Taiwan"/>
+    <tag k="name:id" v="Taiwan"/>
+    <tag k="name:ilo" v="Taiwan"/>
+    <tag k="name:it" v="Taiwan"/>
+    <tag k="name:ja" v="台湾"/>
+    <tag k="name:kab" v="Ṭaywan"/>
+    <tag k="name:ki" v="Taiwani"/>
+    <tag k="name:kk" v="Тайвань"/>
+    <tag k="name:kl" v="Taiwan"/>
+    <tag k="name:ksh" v="Taiwan"/>
+    <tag k="name:ku" v="Taywan"/>
+    <tag k="name:la" v="Taivania"/>
+    <tag k="name:lb" v="Taiwan"/>
+    <tag k="name:lg" v="Tayiwani"/>
+    <tag k="name:lij" v="Taiwan"/>
+    <tag k="name:lmo" v="Taiwan"/>
+    <tag k="name:ln" v="Taiwanin"/>
+    <tag k="name:lt" v="Taivanas"/>
+    <tag k="name:lv" v="Taivāna"/>
+    <tag k="name:mg" v="Taioana"/>
+    <tag k="name:mhr" v="Тайван"/>
+    <tag k="name:mi" v="Taiwana"/>
+    <tag k="name:mk" v="Тајван"/>
+    <tag k="name:mn" v="Тайвань"/>
+    <tag k="name:ms" v="Taiwan"/>
+    <tag k="name:mt" v="Tajwan"/>
+    <tag k="name:nah" v="Taihuan"/>
+    <tag k="name:nl" v="Taiwan"/>
+    <tag k="name:nn" v="Taiwan"/>
+    <tag k="name:no" v="Taiwan"/>
+    <tag k="name:pcd" v="Taïwan"/>
+    <tag k="name:pl" v="Tajwan"/>
+    <tag k="name:pms" v="Taiwan"/>
+    <tag k="name:pt" v="Taiwan"/>
+    <tag k="name:rm" v="Taiwan"/>
+    <tag k="name:rn" v="Tayiwani"/>
+    <tag k="name:ro" v="Taiwan"/>
+    <tag k="name:ru" v="Тайвань"/>
+    <tag k="name:rw" v="Tayiwani"/>
+    <tag k="name:scn" v="Taiwan"/>
+    <tag k="name:se" v="Taiwan"/>
+    <tag k="name:sg" v="Tâiwâni"/>
+    <tag k="name:sk" v="Taiwan"/>
+    <tag k="name:sl" v="Tajvan"/>
+    <tag k="name:sn" v="Taiwan"/>
+    <tag k="name:so" v="Taywaan"/>
+    <tag k="name:sq" v="Tajvan"/>
+    <tag k="name:sr" v="Тајван"/>
+    <tag k="name:ss" v="IThayiwani"/>
+    <tag k="name:sv" v="Taiwan"/>
+    <tag k="name:sw" v="Taiwani"/>
+    <tag k="name:tg" v="Тайван"/>
+    <tag k="name:tk" v="Taýwan"/>
+    <tag k="name:tl" v="Taiwan"/>
+    <tag k="name:to" v="Taiuani"/>
+    <tag k="name:tr" v="Tayvan"/>
+    <tag k="name:udm" v="Тайвань"/>
+    <tag k="name:uk" v="Тайвань"/>
+    <tag k="name:uz" v="Tayvan"/>
+    <tag k="name:vi" v="Đài Loan"/>
+    <tag k="name:vo" v="Tayvän"/>
+    <tag k="name:wo" v="Taaywaan"/>
+    <tag k="name:yo" v="Orílẹ́ède Taiwani"/>
+    <tag k="name:zea" v="Taiwan"/>
+    <tag k="name:zh" v="臺灣"/>
+    <tag k="name:zh-CN" v="台湾省"/>
+    <tag k="name:zh-Hant" v="臺灣"/>
+    <tag k="name:zh-classical" v="臺灣"/>
+    <tag k="name:zh-simplified" v="台湾"/>
+    <tag k="name:zh-traditional" v="臺灣"/>
+    <tag k="name:zh_pinyin" v="Táiwān"/>
+    <tag k="name:zu" v="i-Taiwan"/>
     <tag k="official_name:be" v="Кітайская Рэспубліка"/>
     <tag k="official_name:ca" v="República de la Xina"/>
     <tag k="official_name:de" v="Republik China"/>
@@ -33838,6 +33859,13 @@
     <tag k="official_name:ru" v="Китайская Республика"/>
     <tag k="official_name:tl" v="Republika ng Tsina"/>
     <tag k="official_name:vi" v="Trung Hoa Dân Quốc"/>
+    <tag k="official_name:za" v="Cunghvaz Minzgoz"/>
+    <tag k="official_name:zh" v="中華民國"/>
+    <tag k="official_name:zh-Hans" v="中华民国"/>
+    <tag k="official_name:zh-Hant" v="中華民國"/>
+    <tag k="official_name:zh-classical" v="中華民國"/>
+    <tag k="official_name:zh-min-nan" v="Tiong-hoâ Bîn-kok"/>
+    <tag k="official_name:zh-yue" v="中華民國"/>
     <tag k="place" v="country"/>
     <tag k="population" v="23127845"/>
     <tag k="wikipedia" v="en:Taiwan"/>
@@ -35198,7 +35226,6 @@
     <tag k="name:vo" v="Tayän"/>
     <tag k="name:war" v="Thailand"/>
     <tag k="name:wo" v="Taaylaand"/>
-    <tag k="name:wu" v="泰国"/>
     <tag k="name:wuu" v="泰国"/>
     <tag k="name:xal" v="Тагилмудин Нутг"/>
     <tag k="name:yi" v="טיילאנד"/>
@@ -38603,6 +38630,7 @@
     <tag k="name:it" v="Ossezia del Sud"/>
     <tag k="name:ka" v="სამხრეთ ოსეთი"/>
     <tag k="name:ku" v="Osetyaya Başûr"/>
+    <tag k="name:lt" v="Pietų Osetija"/>
     <tag k="name:nl" v="Zuid-Ossetië"/>
     <tag k="name:no" v="Sør-Ossetia"/>
     <tag k="name:note" v="there are 2 state languages in Republic of South Ossetia"/>
@@ -39287,6 +39315,7 @@
     <tag k="name:sr" v="Придњестровље"/>
     <tag k="name:sv" v="Transnistrien"/>
     <tag k="name:uk" v="Придністров’я"/>
+    <tag k="name:zh" v="德涅斯特河沿岸"/>
     <tag k="note" v="not to be confused with Autonomous Territorial Unit with a Special Legal Status Transnistria!"/>
     <tag k="official_name" v="Република Молдовеняскэ Нистрянэ - Приднестровская Молдавская Республика - Придністровська Молдавська Республіка"/>
     <tag k="official_name:de" v="Transnistrische Moldauische Republik"/>
@@ -39840,6 +39869,7 @@
     <tag k="name" v="Lesotho"/>
     <tag k="name:en" v="Lesotho"/>
     <tag k="name:hu" v="Lesotho"/>
+    <tag k="name:lt" v="Lesotas"/>
     <tag k="name:ru" v="Лесото"/>
     <tag k="place" v="country"/>
     <tag k="wikidata" v="Q1013"/>
@@ -39856,11 +39886,11 @@
     <tag k="is_in:continent" v="Europe"/>
     <tag k="name" v="Liechtenstein"/>
     <tag k="name:ru" v="Лихтенштейн"/>
+    <tag k="name:zh" v="列支敦士登"/>
     <tag k="nat_name" v="Liechtenstein"/>
     <tag k="official_name" v="Fürstentum Liechtenstein"/>
     <tag k="place" v="country"/>
     <tag k="population" v="37132"/>
-    <tag k="source" v="Wikipedia"/>
     <tag k="wikipedia" v="en:Liechtenstein"/>
   </node>
   <node id="3997635385" lat="7.2371480" lon="80.8209230">
@@ -40093,11 +40123,13 @@
     <tag k="name:sl" v="Afrika"/>
     <tag k="name:sr" v="Африка"/>
     <tag k="name:sv" v="Afrika"/>
+    <tag k="name:ta" v="ஆப்பிரிக்கா"/>
     <tag k="name:tl" v="Aprika"/>
     <tag k="name:tt" v="Африка"/>
     <tag k="name:tzl" v="Abrica"/>
     <tag k="name:uk" v="Африка"/>
     <tag k="name:vi" v="Châu Phi"/>
+    <tag k="name:vo" v="Frikop"/>
     <tag k="name:zea" v="Afrika"/>
     <tag k="name:zh" v="非洲"/>
     <tag k="name:zh-classical" v="非洲"/>
