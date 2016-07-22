@@ -17,7 +17,7 @@ DB_SEC=$(date -u --date="$(curl http://builder.osmand.net:8081/api/timestamp)" "
 END_SEC=$(date -u --date="$END_DAY $END_TIME" "+%s")
 if [ $END_SEC \> $DB_SEC ]; then      
 	echo "END date is in the future of database!!!"
-	exit 0;
+	exit 1;
 fi;
 
 while [ ! "$END_DAY $END_TIME" ==  "$START_DAY $START_TIME" ]; do
