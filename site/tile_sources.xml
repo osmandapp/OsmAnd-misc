@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <tile_sources>
 
-   <tile_source name="Cloudmade" url_template="http://tile.cloudmade.com/7ded028e030c5929b28bf823486ce84f/1/256/{0}/{1}/{2}.png" ext=".png" min_zoom="1" max_zoom="18" tile_size="256" img_density="16" avg_img_size="18000"/> 
+   
    <!-- Remove Google maps because of license issue and because Google filters some requests -->
    <!--
    <tile_source name="GoogleMaps" url_template="http://mt3.google.com/vt/v=w2.97&amp;x={1}&amp;y={2}&amp;z={0}" ext=".png" min_zoom="1" max_zoom="19" tile_size="256" img_density="16" avg_img_size="18000"/>
