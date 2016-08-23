@@ -49,7 +49,7 @@ else:
     c.execute('''CREATE TABLE geoip(ip text, land text,
         date time, day text);''')
     c.execute('''CREATE TABLE motd (ip text, land text,
-        date time, day text);''')
+        date time, day text, version text);''')
     conn.commit()
 
 print "Prepare data"
