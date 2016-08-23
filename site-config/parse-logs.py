@@ -39,11 +39,17 @@ else:
     # Build the SQLite database if needed
     c.execute('''DROP TABLE IF EXISTS requests;''')
     c.execute('''DROP TABLE IF EXISTS downloads;''')
+    c.execute('''DROP TABLE IF EXISTS geoip;''')
+    c.execute('''DROP TABLE IF EXISTS motd;''')
     c.execute('''VACUUM FULL;''')
     c.execute('''CREATE TABLE requests (ip text, land text,
         date time, day text, aid text, ns int, nd int, version text);''')
     c.execute('''CREATE TABLE downloads (ip text, land text,
         date time, day text, download text, version text);''')
+    c.execute('''CREATE TABLE geoip(ip text, land text,
+        date time, day text);''')
+    c.execute('''CREATE TABLE motd (ip text, land text,
+        date time, day text);''')
     conn.commit()
 
 print "Prepare data"
@@ -58,7 +64,8 @@ for line in file:
         conn.commit()
     # if (ind / 10000) < 3918:
     #     continue;
-    if "get_indexes" not in line and "/download" not in line :
+    if ( "/get_indexes" not in line and "/download" not in line 
+        and "/motd" not in line and "/geo-ip" not in line ):
         continue;
     try:
         date = re.findall("\[.*?\]", line)[0][1:-1]
@@ -95,11 +102,21 @@ for line in file:
                 c.execute("INSERT INTO requests VALUES (%s, %s, %s, %s, %s, %s, %s, %s)", (ip, country, tm.strftime('%Y-%m-%d %H:%M:%S'), day, aid, ns, nd, version))
             else:
                 c.execute("INSERT INTO requests VALUES (?, ?, ?, ?, ?, ?, ?, ?)", [ip, country, tm, day, aid, ns, nd, version])
-        else:
+        elif "/download" in line:
             if postgres:
                 c.execute("INSERT INTO downloads VALUES (%s, %s, %s, %s, %s, %s)", (ip, country, tm.strftime('%Y-%m-%d %H:%M:%S'), day, file, version))
             else:
                 c.execute("INSERT INTO downloads VALUES (?, ?, ?, ?, ?, ?)", [ip, country, tm, day, file, version])
+        elif "/motd" in line:
+            if postgres:
+                c.execute("INSERT INTO motd VALUES (%s, %s, %s, %s, %s)", (ip, country, tm.strftime('%Y-%m-%d %H:%M:%S'), day, version))
+            else:
+                c.execute("INSERT INTO motd VALUES (?, ?, ?, ?, ?)", [ip, country, tm, day, version])
+        elif "/geo-ip" in line:
+            if postgres:
+                c.execute("INSERT INTO geoip VALUES (%s, %s, %s, %s)", (ip, country, tm.strftime('%Y-%m-%d %H:%M:%S'), day))
+            else:
+                c.execute("INSERT INTO geoip VALUES (?, ?, ?, ?)", [ip, country, tm, day])                
     except:
         print line
         print "Unexpected error:", sys.exc_info()[0]
@@ -122,6 +139,10 @@ if not postgres:
     c.execute('''CREATE INDEX requests_version on requests (version);''')
     c.execute('''CREATE INDEX downloads_version on downloads (version);''')
     c.execute('''CREATE INDEX requests_aid on requests (aid);''')
+    c.execute('''CREATE INDEX geoip_ip on geoip (ip);''')
+    c.execute('''CREATE INDEX geoip_day on geoip (day);''')
+    c.execute('''CREATE INDEX motd_day on motd (day);''')
+    c.execute('''CREATE INDEX motd_ip on motd (ip);''')
     
     conn.commit()
     for row in c.execute("SELECT count(*) from requests"):
