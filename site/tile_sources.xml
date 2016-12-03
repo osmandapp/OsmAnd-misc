@@ -95,7 +95,7 @@
 
   <tile_source name="OSM FR" url_template="http://a.tile.openstreetmap.fr/osmfr/{0}/{1}/{2}.png" ext=".png" min_zoom="1" max_zoom="20" tile_size="256" img_density="16" avg_img_size="18000"/>
   
-  <tile_source name="OpenTopoMap" url_template="http://a.tile.opentopomap.org/{0}/{1}/{2}.png" ext=".png" min_zoom="1" max_zoom="15" tile_size="256" img_density="16" avg_img_size="56000"/>
+  <tile_source name="OpenTopoMap" url_template="https://a.tile.opentopomap.org/{0}/{1}/{2}.png" ext=".png" min_zoom="1" max_zoom="15" tile_size="256" img_density="16" avg_img_size="56000"/>
 
   <tile_source name="OpenRailwayMap" url_template="http://tiles.openrailwaymap.org/standard/{0}/{1}/{2}.png" ext=".png" min_zoom="4" max_zoom="19" tile_size="512" img_density="16" avg_img_size="32000"/>
   <tile_source name="OpenRailwayMap maxspeed" url_template="http://tiles.openrailwaymap.org/maxspeed/{0}/{1}/{2}.png" ext=".png" min_zoom="4" max_zoom="19" tile_size="512" img_density="16" avg_img_size="32000"/>
