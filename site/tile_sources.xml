@@ -56,6 +56,7 @@
    <tile_source rule="beanshell" name="Top Wikimapia" min_zoom="1" max_zoom="18" tile_size="256" img_density="16" avg_img_size="18000" ext="png"
    url_template='String getTileUrl(int z, int x, int y) {  return "https://"+"i"+(x%4 + (y%4)*4)+".wikimapia.org/?x="+x+"&amp;y="+y+"&amp;zoom="+z+"&amp;type=hybrid";}'/>
    
+   <tile_source name="2GIS" url_template='Random r=new Random(); String getTileUrl(int z, int x, int y) {  return "https://tile"+r.nextInt(4)+".maps.2gis.com/tiles?x="+x+"&amp;y="+y+"&amp;z="+z+"&amp;type=1.2";}' ext=".png" min_zoom="0" max_zoom="18" tile_size="256" img_density="16" avg_img_size="26000"/>
 
    <tile_source name="OpenFietskaart (NL)" url_template="http://overlay.openstreetmap.nl/openfietskaart-overlay/{0}/{1}/{2}.png" ext=".png" min_zoom="7" max_zoom="18" tile_size="256" img_density="16" avg_img_size="18000"/> 
    <tile_source name="OpenFietskaartBaseLayer (NL)" url_template="http://overlay.openstreetmap.nl/basemap/{0}/{1}/{2}.png" ext=".png" min_zoom="1" max_zoom="18" tile_size="256" img_density="16" avg_img_size="18000"/> 
