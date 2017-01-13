@@ -28,7 +28,8 @@
 
 
    <tile_source name="OpenPisteMap" url_template="http://openpistemap.org/tiles/contours/{0}/{1}/{2}.png" ext=".png" min_zoom="5" max_zoom="17" tile_size="256" img_density="32" avg_img_size="18000"/>
-   <tile_source name="Relief" url_template="http://www.maps-for-free.com/layer/relief/z{0}/row{2}/{0}_{1}-{2}.jpg" ext=".jpg" min_zoom="1" max_zoom="12" tile_size="256" img_density="32" avg_img_size="24000"/>
+<!-- Does not work -->
+<!--   <tile_source name="Relief" url_template="http://www.maps-for-free.com/layer/relief/z{0}/row{2}/{0}_{1}-{2}.jpg" ext=".jpg" min_zoom="1" max_zoom="12" tile_size="256" img_density="32" avg_img_size="24000"/>-->
 
    <tile_source name="Fire Hydrants" url_template="http://openfiremap.org/hytiles/{0}/{1}/{2}.png" ext=".png" min_zoom="1" max_zoom="17" tile_size="256" img_density="16" avg_img_size="2000"/> 
    <tile_source name="Mapillary" url_template="https://d6a1v2w10ny40.cloudfront.net/v0.1/{0}/{1}/{2}.png" ext=".png" min_zoom="0" max_zoom="17" tile_size="256" img_density="16" avg_img_size="32000"/> 
@@ -45,16 +46,17 @@
 
    <tile_source name="Yandex RU" url_template="https://vec01.maps.yandex.net/tiles?l=map&amp;x={1}&amp;y={2}&amp;z={0}" ext=".jpg" min_zoom="1" max_zoom="18" tile_size="256" img_density="16" avg_img_size="18000" ellipsoid="true"/>
    <tile_source name="Top Yandex RU" url_template="https://vec01.maps.yandex.net/tiles?l=skl&amp;x={1}&amp;y={2}&amp;z={0}" ext=".jpg" min_zoom="1" max_zoom="18" tile_size="256" img_density="16" avg_img_size="18000" ellipsoid="true"/>
-   <tile_source name="Yandex NK" url_template="https://wvec.maps.yandex.net/?l=wmap&amp;x={1}&amp;y={2}&amp;z={0}" ext=".jpg" min_zoom="1" max_zoom="18" tile_size="256" img_density="16" avg_img_size="18000" ellipsoid="true"/>
-   <tile_source name="Top Yandex NK" url_template="https://wvec.maps.yandex.net/?l=wskl&amp;x={1}&amp;y={2}&amp;z={0}" ext=".jpg" min_zoom="1" max_zoom="18" tile_size="256" img_density="16" avg_img_size="18000" ellipsoid="true"/>
+   <tile_source name="Yandex NK" url_template="https://01.pvec.maps.yandex.net/?l=wmap&amp;x={1}&amp;y={2}&amp;z={0}" ext=".jpg" min_zoom="1" max_zoom="18" tile_size="256" img_density="16" avg_img_size="18000" ellipsoid="true"/>
+<!--   <tile_source name="Top Yandex NK" url_template="https://wvec.maps.yandex.net/?l=wskl&amp;x={1}&amp;y={2}&amp;z={0}" ext=".jpg" min_zoom="1" max_zoom="18" tile_size="256" img_density="16" avg_img_size="18000" ellipsoid="true"/>-->
    <tile_source name="Yandex Satellite RU" url_template="https://sat01.maps.yandex.net/tiles?l=sat&amp;x={1}&amp;y={2}&amp;z={0}" ext=".jpg" min_zoom="1" max_zoom="16" tile_size="256" img_density="32" avg_img_size="18000" ellipsoid="true"/>
    <tile_source rule="yandex_traffic" name="Yandex Traffic RU"/>
-   
-   <tile_source rule="beanshell" name="Wikimapia" min_zoom="1" max_zoom="18" tile_size="256" img_density="16" avg_img_size="18000" ext="png"
+
+<!-- Does not work -->
+<!--   <tile_source rule="beanshell" name="Wikimapia" min_zoom="1" max_zoom="18" tile_size="256" img_density="16" avg_img_size="18000" ext="png"
    url_template='String getTileUrl(int z, int x, int y) {  return "https://"+"i"+(x%4 + (y%4)*4)+".wikimapia.org/?x="+x+"&amp;y="+y+"&amp;zoom="+z;}'/>
    
    <tile_source rule="beanshell" name="Top Wikimapia" min_zoom="1" max_zoom="18" tile_size="256" img_density="16" avg_img_size="18000" ext="png"
-   url_template='String getTileUrl(int z, int x, int y) {  return "https://"+"i"+(x%4 + (y%4)*4)+".wikimapia.org/?x="+x+"&amp;y="+y+"&amp;zoom="+z+"&amp;type=hybrid";}'/>
+   url_template='String getTileUrl(int z, int x, int y) {  return "https://"+"i"+(x%4 + (y%4)*4)+".wikimapia.org/?x="+x+"&amp;y="+y+"&amp;zoom="+z+"&amp;type=hybrid";}'/>-->
    
 
    <tile_source name="OpenFietskaart (NL)" url_template="http://overlay.openstreetmap.nl/openfietskaart-overlay/{0}/{1}/{2}.png" ext=".png" min_zoom="7" max_zoom="18" tile_size="256" img_density="16" avg_img_size="18000"/> 
@@ -71,7 +73,8 @@
    <tile_source name="OpenWandelkaartRoads (BE,NL)" url_template="http://overlay.openstreet.nl/roads/{0}/{1}/{2}.png" ext=".png" min_zoom="7" max_zoom="18" tile_size="256" img_density="16" avg_img_size="18000"/>
 
    <tile_source name="Statkart Topo (NO)" url_template="https://opencache.statkart.no/gatekeeper/gk/gk.open_gmaps?layers=topo2&amp;zoom={0}&amp;x={1}&amp;y={2}" ext=".png" min_zoom="5" max_zoom="17" tile_size="256" img_density="32" avg_img_size="18000"/>
-   <tile_source name="Statkart Nautical (NO)" url_template="https://opencache.statkart.no/gatekeeper/gk/gk.open_gmaps?layers=sjo_hovedkart2&amp;zoom={0}&amp;x={1}&amp;y={2}" ext=".png" min_zoom="3" max_zoom="14" tile_size="256" img_density="32" avg_img_size="18000"/>
+<!-- Does not work -->
+<!--   <tile_source name="Statkart Nautical (NO)" url_template="https://opencache.statkart.no/gatekeeper/gk/gk.open_gmaps?layers=sjo_hovedkart2&amp;zoom={0}&amp;x={1}&amp;y={2}" ext=".png" min_zoom="3" max_zoom="14" tile_size="256" img_density="32" avg_img_size="18000"/>-->
    
    <tile_source name="Eniro Map (NO,SE,FI,DK,PL))" rule="beanshell" ext=".png" min_zoom="2" max_zoom="20" tile_size="256" img_density="16" avg_img_size="18000"
    		url_template='String getTileUrl(int z, int x, int y) {return "https://map.eniro.com/geowebcache/service/tms1.0.0/map/"+z+"/"+x+"/"+((1 &lt;&lt; z) - 1 - y) + ".png";}'/>
@@ -90,7 +93,8 @@
    <tile_source rule="wms_tile" url_template="http://wms.latlon.org" name="Genshtab (BLR)" layer="gshtab" ext=".jpg" min_zoom="5" max_zoom="17" tile_size="256" img_density="32" avg_img_size="18000"/>  NOT WORK ?-->
 
   <tile_source name="Geofabrik.routing_eu" url_template="https://tools.geofabrik.de/osmi/tiles/routing/{0}/{1}/{2}.png" ext=".png" min_zoom="1" max_zoom="16" tile_size="256" img_density="16" avg_img_size="18000" />
-  <tile_source name="Geofabrik.routing_non_eu" url_template="https://tools.geofabrik.de/osmi/tiles/routing_non_eu/{0}/{1}/{2}.png" ext=".png" min_zoom="1" max_zoom="16" tile_size="256" img_density="16" avg_img_size="18000" />
+<!-- Does not work -->
+<!--  <tile_source name="Geofabrik.routing_non_eu" url_template="https://tools.geofabrik.de/osmi/tiles/routing_non_eu/{0}/{1}/{2}.png" ext=".png" min_zoom="1" max_zoom="16" tile_size="256" img_density="16" avg_img_size="18000" />-->
   <tile_source name="Geofabrik.addresses_eu" url_template="https://tools.geofabrik.de/osmi/tiles/addresses/{0}/{1}/{2}.png" ext=".png" min_zoom="1" max_zoom="16" tile_size="256" img_density="16" avg_img_size="18000" />
   <tile_source name="Geofabrik.highways_eu" url_template="https://tools.geofabrik.de/osmi/tiles/highways/{0}/{1}/{2}.png" ext=".png" min_zoom="1" max_zoom="16" tile_size="256" img_density="16" avg_img_size="18000" />
 
@@ -106,7 +110,8 @@
   <tile_source name="Waymarkedtrails Cycling" url_template="https://tile.waymarkedtrails.org/cycling/{0}/{1}/{2}.png" ext=".png" min_zoom="1" max_zoom="18" tile_size="256" img_density="16" avg_img_size="2000"/>
   <tile_source name="Waymarkedtrails MTB" url_template="https://tile.waymarkedtrails.org/mtb/{0}/{1}/{2}.png" ext=".png" min_zoom="1" max_zoom="18" tile_size="256" img_density="16" avg_img_size="2000"/>
   <tile_source name="Waymarkedtrails Riding" url_template="https://tile.waymarkedtrails.org/riding/{0}/{1}/{2}.png" ext=".png" min_zoom="1" max_zoom="18" tile_size="256" img_density="16" avg_img_size="2000"/>
-  <tile_source name="Waymarkedtrails Winter Sports" url_template="https://tile.waymarkedtrails.org/slopemap/{0}/{1}/{2}.png" ext=".png" min_zoom="1" max_zoom="18" tile_size="256" img_density="16" avg_img_size="2000"/>
+<!-- Does not work -->
+<!--  <tile_source name="Waymarkedtrails Winter Sports" url_template="https://tile.waymarkedtrails.org/slopemap/{0}/{1}/{2}.png" ext=".png" min_zoom="1" max_zoom="18" tile_size="256" img_density="16" avg_img_size="2000"/>-->
   
 
 <!--
