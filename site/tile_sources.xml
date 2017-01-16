@@ -115,6 +115,7 @@
 <!--  <tile_source name="Waymarkedtrails Winter Sports" url_template="https://tile.waymarkedtrails.org/slopemap/{0}/{1}/{2}.png" ext=".png" min_zoom="1" max_zoom="18" tile_size="256" img_density="16" avg_img_size="2000"/>-->
   
 
+  <tile_source name="Hitta.se Outdoor (SE)" rule="beanshell" ext="png" min_zoom="5" max_zoom="18" tile_size="256" img_density="32" avg_img_size="18000" url_template='String getTileUrl(int z, int x, int y) {return "http://static.hitta.se/tile/v3/4/"+z+"/"+x+"/"+((1 &lt;&lt; z) - 1 - y);}'/>
 <!--
 	// WMS layers : http://whoots.mapwarper.net/tms/{$z}/{$x}/{$y}/ {layer}/{Path}
 	// 1. Landsat http://onearth.jpl.nasa.gov/wms.cgi global_mosaic (NOT WORK)
