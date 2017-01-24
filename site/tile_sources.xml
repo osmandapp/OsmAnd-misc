@@ -13,6 +13,7 @@
    <tile_source name="GoogleMaps Terrain" url_template="https://mt3.google.com/vt/v=w2p.111&amp;hl=en&amp;x={1}&amp;y={2}&amp;z={0}" ext=".jpg" min_zoom="5" max_zoom="15" tile_size="256" img_density="32" avg_img_size="18000"/>
    -->
 
+<!-- Bing Maps-->
    <tile_source rule="beanshell" name="Microsoft Maps" min_zoom="1" max_zoom="19" tile_size="256" img_density="16" avg_img_size="18000" ext=".png"
    url_template="public static String eqt(int z, int x, int y) {static final char[] NUM_CHAR = { &apos;0&apos;, &apos;1&apos;, &apos;2&apos;, &apos;3&apos; };char[] tn = new char[z];for (int i = z - 1; i &gt;= 0; i--) {int num = (x % 2) | ((y % 2) &lt;&lt; 1);tn[i] = NUM_CHAR[num];x &gt;&gt;= 1;y &gt;&gt;= 1;}return new String(tn);} String getTileUrl(int z, int x, int y) { return &quot;http://&quot; + &quot;r&quot; + &quot;0&quot; + &quot;.ortho.tiles.virtualearth.net/tiles/&quot; + &quot;r&quot; + eqt(z,x,y) + &quot;.png&quot; + &quot;?g=45&quot;;}"/>
    <tile_source rule="beanshell" name="Microsoft Hybrid" min_zoom="1" max_zoom="19" tile_size="256" img_density="32" avg_img_size="18000" ext=".jpg"
@@ -20,7 +21,6 @@
    <tile_source rule="beanshell" name="Microsoft Earth" min_zoom="1" max_zoom="19" tile_size="256" img_density="32" avg_img_size="18000" ext=".jpg"
    url_template="public static String eqt(int z, int x, int y) {static final char[] NUM_CHAR = { &apos;0&apos;, &apos;1&apos;, &apos;2&apos;, &apos;3&apos; };char[] tn = new char[z];for (int i = z - 1; i &gt;= 0; i--) {int num = (x % 2) | ((y % 2) &lt;&lt; 1);tn[i] = NUM_CHAR[num];x &gt;&gt;= 1;y &gt;&gt;= 1;}return new String(tn);} String getTileUrl(int z, int x, int y) { return &quot;http://&quot; + &quot;a&quot; + &quot;0&quot; + &quot;.ortho.tiles.virtualearth.net/tiles/&quot; + &quot;a&quot; + eqt(z,x,y) + &quot;.jpg&quot; + &quot;?g=45&quot;;}"/>
    
- 
    <tile_source name="Public Transport" url_template="http://openptmap.org/tiles/{0}/{1}/{2}.png" ext=".png" min_zoom="1" max_zoom="17" tile_size="256" img_density="16" avg_img_size="5000"/> 
 
    <tile_source name="Hike Bike Map" url_template="http://a.tiles.wmflabs.org/hikebike/{0}/{1}/{2}.png" ext=".png" min_zoom="1" max_zoom="17" tile_size="256" img_density="8" avg_img_size="18000"/>
@@ -44,7 +44,7 @@
    <tile_source name="MTB Map CZ" url_template="http://tile.mtbmap.cz/mtbmap_tiles/{0}/{1}/{2}.png" ext=".png" min_zoom="7" max_zoom="16" tile_size="256" img_density="32" avg_img_size="18000"/>
 
    <tile_source name="basemap.at (AT)" url_template="http://maps.wien.gv.at/basemap/bmaphidpi/normal/google3857/{0}/{2}/{1}.jpg" ext=".jpg" min_zoom="1" max_zoom="19" tile_size="512" img_density="16" avg_img_size="32000"/>
-
+   <!-- Yandex maps -->
    <tile_source name="Yandex RU" url_template="https://vec01.maps.yandex.net/tiles?l=map&amp;x={1}&amp;y={2}&amp;z={0}" ext=".jpg" min_zoom="1" max_zoom="18" tile_size="256" img_density="16" avg_img_size="18000" ellipsoid="true"/>
    <tile_source name="Top Yandex RU" url_template="https://vec01.maps.yandex.net/tiles?l=skl&amp;x={1}&amp;y={2}&amp;z={0}" ext=".jpg" min_zoom="1" max_zoom="18" tile_size="256" img_density="16" avg_img_size="18000" ellipsoid="true"/>
    <tile_source name="Yandex NK" url_template="https://01.pvec.maps.yandex.net/?l=wmap&amp;x={1}&amp;y={2}&amp;z={0}" ext=".jpg" min_zoom="1" max_zoom="18" tile_size="256" img_density="16" avg_img_size="18000" ellipsoid="true"/>
@@ -88,8 +88,15 @@
    <tile_source name="Freemap.sk-hiking" url_template="http://t1.freemap.sk/T/{0}/{1}/{2}.png" ext=".png" min_zoom="1" max_zoom="16" tile_size="256" img_density="16" avg_img_size="18000" />
    <tile_source name="Freemap.sk-cycle" url_template="http://t1.freemap.sk/C/{0}/{1}/{2}.png" ext=".png" min_zoom="1" max_zoom="16" tile_size="256" img_density="16" avg_img_size="18000" />
    <tile_source name="Bilingual Southeast Asia" url_template="http://tile.osm-tools.org/osm_then/{0}/{1}/{2}.png" ext=".png" min_zoom="1" max_zoom="19" tile_size="256" img_density="16" avg_img_size="18000"/>
+   <!-- Poland maps-->
    <tile_source name="OSM Poland (contour lines)" url_template="http://osm.trail.pl/osmapa.pl/{0}/{1}/{2}.png" ext=".png" min_zoom="1" max_zoom="18" tile_size="256" img_density="16" avg_img_size="18000"/> 
 <tile_source name="OSM Poland" url_template="http://osm.trail.pl/bezpoziomic/{0}/{1}/{2}.png" ext=".png" min_zoom="1" max_zoom="18" tile_size="256" img_density="16" avg_img_size="18000"/> 
+<tile_source name="Geoportal" url_template="http://sdi.geoportal.gov.pl/WMS_ORTO/WMService.aspx?FORMAT=image/jpeg&VERSION=1.1.1&SERVICE=WMS&REQUEST=GetMap&Layers=ORTOFOTO&styles=&SRS={proj}&WIDTH={width}&height={height}&BBOX={bbox} "  ext=".png" min_zoom="1" max_zoom="18" tile_size="256" img_density="16" avg_img_size="18000"/> 
+<tile_source name="Geoportal 2" url_template="wms:http://mapy.geoportal.gov.pl/wss/service/img/guest/ORTO/MapServer/WMSServer?FORMAT=image/jpeg&VERSION=1.1.1&SERVICE=WMS&REQUEST=GetMap&LAYERS=Raster&STYLES=&SRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}"  ext=".png" min_zoom="1" max_zoom="23" tile_size="256" img_density="16" avg_img_size="18000"/> 
+<tile_source name="PRG (PL)" url_template="http://sdi.geoportal.gov.pl/WMS_PRG/WMService.aspx?FORMAT=image/jpeg&VERSION=1.1.1&SERVICE=WMS&REQUEST=GetMap&Layers=Nazwa_gminy,Nazwa_powiatu,Gminy,Powiaty&styles=&SRS={proj}&WIDTH={width}&height={height}&BBOX={bbox}"  ext=".png" min_zoom="1" max_zoom="18" tile_size="256" img_density="16" avg_img_size="18000"/> 
+<tile_source name="BDOT (PL)" url_template="http://sdi.geoportal.gov.pl/WMS_Budynki_BDOT_2010/Request.aspx?FORMAT=image/jpeg&VERSION=1.1.1&SERVICE=WMS&REQUEST=GetMap&Layers=Skroty_kartograficzne,Budynki_biurowe,Budynki_gospodarcze_lub_gospodarczo-produkcyjne,Budynki_handlowe_lub_uslugowe,Inne_budynki_niemieszkalne,Budynki_oswiaty__nauki__kultury_lub_sportu,Budynki_mieszkalne,Budynki_przemyslowe,Budynki_magazynowe_lub_zbiorniki__silosy_,Budynki_transportu_lub_lacznosci,Budynki_ochrony_zdrowia_lub_opieki_socjalnej,Budynki_sakralne,Numery_budynkow,Punkty_adresowe&SRS={proj}&WIDTH={width}&height={height}&BBOX={bbox}"  ext=".png" min_zoom="1" max_zoom="18" tile_size="256" img_density="16" avg_img_size="18000"/> 
+<tile_source name="PRNG (PL)" url_template="http://sdi.geoportal.gov.pl/WMS_PRNG/service.svc/get?FORMAT=image/png&VERSION=1.1.1&SERVICE=WMS&REQUEST=GetMap&LAYERS=Miasta_wojewodzkie,Miasta_pozostale,Inne_miejscowosci,Czesci_miejscowosci,Wsie,Hydrografia,Fizjografia&STYLES=&SRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}"  ext=".png" min_zoom="1" max_zoom="18" tile_size="256" img_density="16" avg_img_size="18000"/> 
+
 <!--
    <tile_source rule="wms_tile" url_template="http://wms.latlon.org" name="Genshtab (BLR)" layer="gshtab" ext=".jpg" min_zoom="5" max_zoom="17" tile_size="256" img_density="32" avg_img_size="18000"/>  NOT WORK ?-->
 
