@@ -138,4 +138,8 @@
    <tile_source name="LPI NSW Imagery (AU)" url_template="https://maps.six.nsw.gov.au/arcgis/rest/services/public/NSW_Imagery/MapServer/tile/{0}/{2}/{1}" ext=".jpg" min_zoom="5" max_zoom="20" tile_size="256" img_density="16" avg_img_size="18000"/> 
    <tile_source name="LPI NSW Topo Map (AU)" url_template="https://maps.six.nsw.gov.au/arcgis/rest/services/public/NSW_Topo_Map/MapServer/tile/{0}/{2}/{1}" ext=".png" min_zoom="5" max_zoom="16" tile_size="256" img_density="16" avg_img_size="18000"/> 
    <tile_source name="LPI NSW Base Map (AU)" url_template="https://maps.six.nsw.gov.au/arcgis/rest/services/public/NSW_Base_Map/MapServer/tile/{0}/{2}/{1}" ext=".png" min_zoom="5" max_zoom="19" tile_size="256" img_density="16" avg_img_size="18000"/> 
+
+
+   <tile_source name="Snowmobile trails overlay (SE)" url_template="https://tiles.skoterleder.org/tiles/{0}/{1}/{2}.png" ext=".png" min_zoom="5" max_zoom="15" tile_size="256" img_density="16" avg_img_size="3000" />
+
 </tile_sources>
