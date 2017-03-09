@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2016-07-13T13:37:02Z"/>
+<meta osm_base="2017-03-09T08:32:02Z"/>
 
   <relation id="9407">
     <tag k="ISO3166-1" v="AD"/>
@@ -12,6 +12,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/1/19/Flag_of_Andorra.svg"/>
     <tag k="int_name" v="Andorra"/>
+    <tag k="is_in:continent" v="Europe"/>
     <tag k="name" v="Andorra"/>
     <tag k="name:ace" v="Andorra"/>
     <tag k="name:af" v="Andorra"/>
@@ -513,6 +514,7 @@
     <tag k="official_name:sl" v="Francoska republika"/>
     <tag k="official_name:sv" v="Republiken Frankrike"/>
     <tag k="type" v="boundary"/>
+    <tag k="wikidata" v="Q142"/>
     <tag k="wikipedia" v="fr:France"/>
   </relation>
   <relation id="14296">
@@ -738,6 +740,7 @@
     <tag k="official_name:eo" v="Slovaka Respubliko"/>
     <tag k="official_name:nds" v="Slowaaksche Republiek"/>
     <tag k="official_name:uk" v="Словацька республіка"/>
+    <tag k="place" v="country"/>
     <tag k="timezone" v="Europe/Bratislava"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q214"/>
@@ -756,8 +759,8 @@
     <tag k="boundary" v="administrative"/>
     <tag k="currency" v="EUR"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/4/41/Flag_of_Austria.svg"/>
-    <tag k="int_name" v="Österreich"/>
-    <tag k="is_in" v="Europe"/>
+    <tag k="int_name" v="Austria"/>
+    <tag k="is_in:continent" v="Europe"/>
     <tag k="name" v="Österreich"/>
     <tag k="name:ace" v="Austria"/>
     <tag k="name:af" v="Oostenryk"/>
@@ -1006,6 +1009,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/c/c1/Flag_of_Hungary.svg"/>
     <tag k="int_name" v="Hungary"/>
+    <tag k="is_in:continent" v="Europe"/>
     <tag k="name" v="Magyarország"/>
     <tag k="name:ab" v="Мадиартәыла"/>
     <tag k="name:ace" v="Hongaria"/>
@@ -1081,7 +1085,7 @@
     <tag k="name:he" v="הונגריה"/>
     <tag k="name:hi" v="हंगरी"/>
     <tag k="name:hif" v="Hungary"/>
-    <tag k="name:hr" v="Madžarska"/>
+    <tag k="name:hr" v="Mađarska"/>
     <tag k="name:hsb" v="Madźarska"/>
     <tag k="name:ht" v="Ongri"/>
     <tag k="name:hu" v="Magyarország"/>
@@ -1462,8 +1466,9 @@
     <tag k="currency" v="EUR"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/0/00/Flag_of_the_Vatican_City.svg"/>
     <tag k="int_name" v="Vatican City"/>
+    <tag k="is_in:continent" v="Europe"/>
     <tag k="landuse" v="religious"/>
-    <tag k="name" v="Civitatis Vaticanæ"/>
+    <tag k="name" v="Città del Vaticano"/>
     <tag k="name:ace" v="Vatikan"/>
     <tag k="name:af" v="Vatikaanstad"/>
     <tag k="name:als" v="Vatikan"/>
@@ -1536,7 +1541,7 @@
     <tag k="name:he" v="קריית הוותיקן"/>
     <tag k="name:hi" v="वैटिकन सिटी"/>
     <tag k="name:hif" v="Vatican City"/>
-    <tag k="name:hr" v="Grad Vatikan"/>
+    <tag k="name:hr" v="Vatikan"/>
     <tag k="name:hsb" v="Vatikanske město"/>
     <tag k="name:ht" v="Vatikan"/>
     <tag k="name:hu" v="Vatikán"/>
@@ -1675,17 +1680,18 @@
     <tag k="name:zh-min-nan" v="Vaticano"/>
     <tag k="name:zh-yue" v="梵蒂岡"/>
     <tag k="name:zu" v="Indolobha yaseVathikhani"/>
-    <tag k="official_name" v="Status Civitatis Vaticanæ"/>
-    <tag k="official_name:it" v="Stato della Città del Vaticano"/>
+    <tag k="official_name" v="Stato della Città del Vaticano"/>
+    <tag k="official_name:la" v="Status Civitatis Vaticanæ"/>
     <tag k="place" v="country"/>
     <tag k="population" v="836"/>
     <tag k="timezone" v="Europe/Vatican"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q237"/>
-    <tag k="wikipedia" v="en:Vatican City"/>
+    <tag k="wikipedia" v="it:Città del Vaticano"/>
   </relation>
   <relation id="36990">
     <tag k="ISO3166-1" v="MC"/>
+    <tag k="ISO3166-1:alpha3" v="MCO"/>
     <tag k="admin_level" v="2"/>
     <tag k="boundary" v="land_area"/>
     <tag k="currency" v="EUR"/>
@@ -1897,6 +1903,7 @@
     <tag k="timezone" v="Europe/Monaco"/>
     <tag k="type" v="boundary"/>
     <tag k="website" v="http://www.gouv.mc/"/>
+    <tag k="wikidata" v="Q235"/>
     <tag k="wikipedia" v="fr:Monaco"/>
   </relation>
   <relation id="49715">
@@ -1912,6 +1919,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/1/12/Flag_of_Poland.svg"/>
     <tag k="int_name" v="Polska"/>
+    <tag k="is_in:continent" v="Europe"/>
     <tag k="name" v="Polska"/>
     <tag k="name:ab" v="Полша"/>
     <tag k="name:ace" v="Polandia"/>
@@ -2167,7 +2175,9 @@
     <tag k="admin_level" v="2"/>
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/8/83/Flag_of_Cambodia.svg"/>
-    <tag k="name" v="ព្រះរាជាណាចក្រកម្ពុជា"/>
+    <tag k="int_name" v="Cambodia"/>
+    <tag k="is_in:continent" v="Asia"/>
+    <tag k="name" v="ព្រះរាជាណាចក្រ​កម្ពុជា"/>
     <tag k="name:ace" v="Kamboja"/>
     <tag k="name:af" v="Kambodja"/>
     <tag k="name:als" v="Kambodscha"/>
@@ -2360,6 +2370,8 @@
     <tag k="admin_level" v="2"/>
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/5/56/Flag_of_Laos.svg"/>
+    <tag k="int_name" v="Laos"/>
+    <tag k="is_in:continent" v="Asia"/>
     <tag k="name" v="ປະເທດລາວ"/>
     <tag k="name:UN:ar" v="جمهورية لاو الديمقراطية الشعبية"/>
     <tag k="name:UN:en" v="Lao People's Democratic Republic (the)"/>
@@ -2561,6 +2573,8 @@
     <tag k="alt_name:eo" v="Vjetnamujo"/>
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/2/21/Flag_of_Vietnam.svg"/>
+    <tag k="int_name" v="Việt Nam"/>
+    <tag k="is_in:continent" v="Asia"/>
     <tag k="name" v="Việt Nam"/>
     <tag k="name:ace" v="Viètnam"/>
     <tag k="name:af" v="Viëtnam"/>
@@ -2821,6 +2835,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/9/9c/Flag_of_Denmark.svg"/>
     <tag k="int_name" v="Danmark"/>
+    <tag k="is_in:continent" v="Europe"/>
     <tag k="name" v="Danmark"/>
     <tag k="name:ace" v="Denmark"/>
     <tag k="name:af" v="Denemarke"/>
@@ -3055,7 +3070,9 @@
     <tag k="admin_level" v="2"/>
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/8/8c/Flag_of_Myanmar.svg"/>
-    <tag k="name" v="မြန်မာနိုင်ငံ"/>
+    <tag k="int_name" v="Myanmar"/>
+    <tag k="is_in:continent" v="Asia"/>
+    <tag k="name" v="မြန်မာ"/>
     <tag k="name:ace" v="Myanmar"/>
     <tag k="name:af" v="Mianmar"/>
     <tag k="name:als" v="Myanmar"/>
@@ -3089,7 +3106,7 @@
     <tag k="name:csb" v="Myanmar"/>
     <tag k="name:cv" v="Мьянма"/>
     <tag k="name:cy" v="Myanmar"/>
-    <tag k="name:da" v="Burma"/>
+    <tag k="name:da" v="Myanmar"/>
     <tag k="name:de" v="Myanmar"/>
     <tag k="name:diq" v="Myanmar"/>
     <tag k="name:dsb" v="Myanmar"/>
@@ -3113,7 +3130,7 @@
     <tag k="name:gag" v="Myanmar"/>
     <tag k="name:gan" v="緬甸"/>
     <tag k="name:gd" v="Mianmar"/>
-    <tag k="name:gl" v="Myanmar - ဴမန္မာ"/>
+    <tag k="name:gl" v="Myanmar"/>
     <tag k="name:gu" v="બર્મા"/>
     <tag k="name:gv" v="Myanmar"/>
     <tag k="name:hak" v="Mién-thien"/>
@@ -3121,7 +3138,7 @@
     <tag k="name:he" v="מיאנמר"/>
     <tag k="name:hi" v="म्यान्मार"/>
     <tag k="name:hif" v="Myanmar"/>
-    <tag k="name:hr" v="Mjanmar"/>
+    <tag k="name:hr" v="Mijanmar"/>
     <tag k="name:hsb" v="Myanmar"/>
     <tag k="name:ht" v="Bimani"/>
     <tag k="name:hu" v="Mianmar"/>
@@ -3137,7 +3154,7 @@
     <tag k="name:jv" v="Myanmar"/>
     <tag k="name:ka" v="მიანმარი"/>
     <tag k="name:kbd" v="Миянмэ"/>
-    <tag k="name:ki" v="Burma"/>
+    <tag k="name:ki" v="Myanmar"/>
     <tag k="name:kk" v="Мианма"/>
     <tag k="name:km" v="មីយ៉ាន់ម៉ា"/>
     <tag k="name:kn" v="ಮಯನ್ಮಾರ್"/>
@@ -3148,7 +3165,7 @@
     <tag k="name:ky" v="Мьянма"/>
     <tag k="name:la" v="Birmania"/>
     <tag k="name:lb" v="Myanmar"/>
-    <tag k="name:li" v="Burma"/>
+    <tag k="name:li" v="Myanmar"/>
     <tag k="name:lij" v="Myanmar"/>
     <tag k="name:lmo" v="Myanmar"/>
     <tag k="name:lo" v="ປະເທດມຽນມາ"/>
@@ -3161,8 +3178,8 @@
     <tag k="name:mn" v="Мьянмар"/>
     <tag k="name:mr" v="म्यानमार"/>
     <tag k="name:ms" v="Myanmar"/>
-    <tag k="name:mt" v="Burma"/>
-    <tag k="name:my" v="မြန်မာပြည်"/>
+    <tag k="name:mt" v="Myanmar"/>
+    <tag k="name:my" v="မြန်မာ"/>
     <tag k="name:mzn" v="میونمار"/>
     <tag k="name:na" v="Miyanmar"/>
     <tag k="name:nah" v="Mianma"/>
@@ -3193,14 +3210,14 @@
     <tag k="name:sah" v="Мьянмар"/>
     <tag k="name:sc" v="Birmania"/>
     <tag k="name:scn" v="Myanmar"/>
-    <tag k="name:sco" v="Burma"/>
+    <tag k="name:sco" v="Myanmar"/>
     <tag k="name:se" v="Myanmar"/>
     <tag k="name:sh" v="Mianmar"/>
     <tag k="name:si" v="බුරුමය"/>
     <tag k="name:simple" v="Myanmar"/>
     <tag k="name:sk" v="Mjanmarsko"/>
     <tag k="name:sl" v="Mjanmar"/>
-    <tag k="name:so" v="Burma"/>
+    <tag k="name:so" v="Myanmar"/>
     <tag k="name:sq" v="Birmania"/>
     <tag k="name:sr" v="Мјанмар"/>
     <tag k="name:ss" v="IMayanima"/>
@@ -3241,10 +3258,11 @@
     <tag k="name:zh-yue" v="緬甸"/>
     <tag k="old_name:fi" v="Burma"/>
     <tag k="old_name:vi" v="Miến Điện;Diến Điện"/>
+    <tag k="source" v="generated from SRTM"/>
     <tag k="timezone" v="Asia/Rangoon"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q836"/>
-    <tag k="wikipedia" v="my:မြန်မာပြည်"/>
+    <tag k="wikipedia" v="my:မြန်မာနိုင်ငံ"/>
   </relation>
   <relation id="51477">
     <tag k="ISO3166-1" v="DE"/>
@@ -3259,7 +3277,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="currency" v="EUR"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/b/ba/Flag_of_Germany.svg"/>
-    <tag k="int_name" v="Deutschland"/>
+    <tag k="int_name" v="Germany"/>
     <tag k="is_in:continent" v="Europe"/>
     <tag k="long_name" v="Bundesrepublik Deutschland"/>
     <tag k="long_name:de" v="Bundesrepublik Deutschland"/>
@@ -3537,6 +3555,8 @@
     <tag k="official_name:el" v="Ομοσπονδιακή Δημοκρατία της Γερμανίας"/>
     <tag k="official_name:eo" v="Federacia Respubliko Germanujo"/>
     <tag k="official_name:fr" v="République fédérale d'Allemagne"/>
+    <tag k="official_name:ru" v="Федеративная Республика Германия"/>
+    <tag k="short_name:ru" v="ФРГ"/>
     <tag k="timezone" v="Europe/Berlin"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q183"/>
@@ -3674,7 +3694,7 @@
     <tag k="name:lv" v="Čehija"/>
     <tag k="name:mdf" v="Чехмастор"/>
     <tag k="name:mhr" v="Чехий"/>
-    <tag k="name:mi" v="Whenua Tīeke"/>
+    <tag k="name:mi" v="Tīekia"/>
     <tag k="name:mk" v="Чешка"/>
     <tag k="name:ml" v="ചെക്ക്‌ റിപ്പബ്ലിക്ക്‌"/>
     <tag k="name:mn" v="Бүгд Найрамдах Чех Улс"/>
@@ -3828,8 +3848,6 @@
     <tag k="country_code_fips" v="SZ"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/f/f3/Flag_of_Switzerland.svg"/>
     <tag k="int_name" v="Schweiz"/>
-    <tag k="is_in" v="Europe"/>
-    <tag k="is_in:continent" v="Europe"/>
     <tag k="name" v="Schweiz, Suisse, Svizzera, Svizra"/>
     <tag k="name:ace" v="Swiss"/>
     <tag k="name:af" v="Switserland"/>
@@ -4090,6 +4108,7 @@
     <tag k="currency" v="EUR"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/6/65/Flag_of_Belgium.svg"/>
     <tag k="int_name" v="België"/>
+    <tag k="is_in:continent" v="Europe"/>
     <tag k="name" v="België - Belgique - Belgien"/>
     <tag k="name:ace" v="Bèlgia"/>
     <tag k="name:af" v="België"/>
@@ -4397,7 +4416,7 @@
     <tag k="timezone" v="Europe/Brussels"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q31"/>
-    <tag k="wikipedia" v="fr:Belgique"/>
+    <tag k="wikipedia" v="en:Belgium"/>
   </relation>
   <relation id="52822">
     <tag k="ISO3166-1" v="SE"/>
@@ -4409,6 +4428,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/4/4c/Flag_of_Sweden.svg"/>
     <tag k="int_name" v="Sweden"/>
+    <tag k="is_in:continent" v="Europe"/>
     <tag k="name" v="Sverige"/>
     <tag k="name:ab" v="Швециа"/>
     <tag k="name:ace" v="Swèdia"/>
@@ -4655,6 +4675,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/3/3c/Flag_of_the_Faroe_Islands.svg"/>
     <tag k="int_name" v="Faroe Islands"/>
+    <tag k="is_in:continent" v="Europe"/>
     <tag k="name" v="Føroyar"/>
     <tag k="name:ace" v="Pulo-pulo Faroe"/>
     <tag k="name:af" v="Faroëreilande"/>
@@ -4707,7 +4728,7 @@
     <tag k="name:gv" v="Ellanyn ny Geyrragh"/>
     <tag k="name:he" v="איי פארו"/>
     <tag k="name:hi" v="फ़रो द्वीपसमूह"/>
-    <tag k="name:hr" v="Føroyar"/>
+    <tag k="name:hr" v="Ferojski Otoci"/>
     <tag k="name:hsb" v="Fereje"/>
     <tag k="name:hu" v="Feröer"/>
     <tag k="name:hy" v="Ֆարերյան կղզիներ"/>
@@ -4812,6 +4833,7 @@
     <tag k="capital" v="Tirana"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/3/36/Flag_of_Albania.svg"/>
     <tag k="int_name" v="Albania"/>
+    <tag k="is_in:continent" v="Europe"/>
     <tag k="name" v="Shqipëria"/>
     <tag k="name:ab" v="Арнауыҭтәыла"/>
     <tag k="name:ace" v="Albania"/>
@@ -5036,6 +5058,7 @@
     <tag k="official_name:el" v="Δημοκρατία της Αλβανίας"/>
     <tag k="official_name:eo" v="Respubliko Albanio"/>
     <tag k="official_name:fr" v="République d'Albanie"/>
+    <tag k="official_name:pl" v="Republika Albanii"/>
     <tag k="timezone" v="Europe/Tirane"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q222"/>
@@ -5050,6 +5073,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/f/f8/Flag_of_Macedonia.svg"/>
     <tag k="int_name" v="Macedonia"/>
+    <tag k="is_in:continent" v="Europe"/>
     <tag k="name" v="Македонија"/>
     <tag k="name:UN:ar" v="جمهورية مقدونيا اليوغوسلافية السابقة"/>
     <tag k="name:UN:en" v="The former Yugoslav Republic of Macedonia"/>
@@ -5264,6 +5288,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/6/64/Flag_of_Montenegro.svg"/>
     <tag k="int_name" v="Montenegro"/>
+    <tag k="is_in:continent" v="Europe"/>
     <tag k="name" v="Црна Гора / Crna Gora"/>
     <tag k="name:ace" v="Monténègrô"/>
     <tag k="name:af" v="Montenegro"/>
@@ -5473,6 +5498,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/b/bc/Flag_of_Finland.svg"/>
     <tag k="int_name" v="Finland"/>
+    <tag k="is_in:continent" v="Europe"/>
     <tag k="name" v="Suomi"/>
     <tag k="name:ab" v="Суоми"/>
     <tag k="name:ace" v="Finlandia"/>
@@ -5746,6 +5772,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/b/b1/Flag_of_San_Marino.svg"/>
     <tag k="int_name" v="San Marino"/>
+    <tag k="is_in:continent" v="Europe"/>
     <tag k="name" v="San Marino"/>
     <tag k="name:be" v="Сан-Марына"/>
     <tag k="name:bg" v="Сан Марино"/>
@@ -5782,6 +5809,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/2/27/Flag_of_Moldova.svg"/>
     <tag k="int_name" v="Moldova"/>
+    <tag k="is_in:continent" v="Europe"/>
     <tag k="name" v="Moldova"/>
     <tag k="name:ab" v="Молдова"/>
     <tag k="name:ace" v="Moldova"/>
@@ -6000,6 +6028,7 @@
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/8/85/Flag_of_Belarus.svg"/>
     <tag k="int_name" v="Belarus"/>
     <tag k="int_ref" v="BY"/>
+    <tag k="is_in:continent" v="Europe"/>
     <tag k="name" v="Беларусь"/>
     <tag k="name:ace" v="Bèlarusia"/>
     <tag k="name:af" v="Wit-Rusland"/>
@@ -6229,6 +6258,7 @@
     <tag k="currency" v="BRL"/>
     <tag k="driving_side" v="right"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/0/05/Flag_of_Brazil.svg"/>
+    <tag k="is_in:continent" v="South America"/>
     <tag k="name" v="Brasil"/>
     <tag k="name:ace" v="Brasil"/>
     <tag k="name:af" v="Brasilië"/>
@@ -6792,9 +6822,15 @@
     <tag k="official_name:pl" v="Federacja Rosyjska"/>
     <tag k="official_name:pt" v="Federação Russa"/>
     <tag k="official_name:ru" v="Российская Федерация"/>
+    <tag k="old_name" v="Русь;Золотая Орда;Русское Царство;Российская Империя;Союз Советских Социалистических Республик"/>
+    <tag k="old_name:ru" v="Русь;Золотая Орда;Русское Царство;Российская Империя;Союз Советских Социалистических Республик"/>
+    <tag k="old_short_name" v="СССР"/>
+    <tag k="old_short_name:en" v="USSR"/>
+    <tag k="old_short_name:ru" v="СССР"/>
     <tag k="population" v="143666931"/>
     <tag k="population:date" v="2014-01-01"/>
-    <tag k="short_name" v="Россия"/>
+    <tag k="short_name" v="РФ"/>
+    <tag k="short_name:ru" v="РФ"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q159"/>
     <tag k="wikipedia" v="ru:Россия"/>
@@ -6810,6 +6846,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/4/49/Flag_of_Ukraine.svg"/>
     <tag k="int_name" v="Ukraine"/>
+    <tag k="is_in:continent" v="Europe"/>
     <tag k="name" v="Україна"/>
     <tag k="name:ab" v="Украина"/>
     <tag k="name:ace" v="Ukraina"/>
@@ -7049,6 +7086,7 @@
     <tag k="driving_side" v="left"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/a/ae/Flag_of_the_United_Kingdom.svg"/>
     <tag k="int_name" v="United Kingdom"/>
+    <tag k="is_in:continent" v="Europe"/>
     <tag k="name" v="United Kingdom"/>
     <tag k="name:ab" v="Британиа Ду"/>
     <tag k="name:af" v="Verenigde Koninkryk"/>
@@ -7094,7 +7132,7 @@
     <tag k="name:cv" v="Аслă Британи"/>
     <tag k="name:cy" v="Deyrnas Unedig"/>
     <tag k="name:da" v="Storbritannien"/>
-    <tag k="name:de" v="Vereinigtes Königreich Großbritannien und Nordirland"/>
+    <tag k="name:de" v="Vereinigtes Königreich"/>
     <tag k="name:diq" v="Qraliya Yewbiyayiye"/>
     <tag k="name:dsb" v="Wjelika Britaniska"/>
     <tag k="name:dv" v="ޔުނައިޓެޑް ކިންގްޑަމް"/>
@@ -7131,7 +7169,7 @@
     <tag k="name:he" v="הממלכה המאוחדת"/>
     <tag k="name:hi" v="यूनाइटेड किंगडम"/>
     <tag k="name:hif" v="United Kingdom"/>
-    <tag k="name:hr" v="Ujedinjeno Kraljevstvo Velike Britanije i Sjeverne Irske"/>
+    <tag k="name:hr" v="Ujedinjeno Kraljevstvo"/>
     <tag k="name:hsb" v="Zjednoćene kralestwo"/>
     <tag k="name:ht" v="Wayòm Ini"/>
     <tag k="name:hu" v="Egyesült Királyság"/>
@@ -7288,9 +7326,11 @@
     <tag k="native_name:es" v="Reino Unido de Gran Bretaña e Irlanda del Norte"/>
     <tag k="native_name:vi" v="Vương quốc Liên hiệp Anh và Bắc Ireland"/>
     <tag k="official_name:ca" v="Regne Unit de Gran Bretanya i Irlanda del Nord"/>
+    <tag k="official_name:de" v="Vereinigtes Königreich Großbritannien und Nordirland"/>
     <tag k="official_name:el" v="Ηνωμένο Βασίλειο της Μεγάλης Βρετανίας και της Βόρειας Ιρλανδίας"/>
     <tag k="official_name:en" v="United Kingdom of Great Britain and Northern Ireland"/>
     <tag k="official_name:eo" v="Unuiĝinta Reĝlando de Granda Britio kaj Nord-Irlando"/>
+    <tag k="official_name:hr" v="Ujedinjeno Kraljevstvo Velike Britanije i Sjeverne Irske"/>
     <tag k="official_name:it" v="Regno Unito di Gran Bretagna e Irlanda del Nord"/>
     <tag k="ref:gss" v="K02000001"/>
     <tag k="short_name" v="UK"/>
@@ -7455,6 +7495,7 @@
     <tag k="country_code_fips" v="EI"/>
     <tag k="currency" v="EUR"/>
     <tag k="description" v="Republic of Ireland"/>
+    <tag k="driving_side" v="left"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/4/45/Flag_of_Ireland.svg"/>
     <tag k="geonames:id" v="2963597"/>
     <tag k="int_name" v="Ireland"/>
@@ -7717,6 +7758,7 @@
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/8/84/Flag_of_Latvia.svg"/>
     <tag k="geonames:id" v="458258"/>
     <tag k="int_name" v="Latvia"/>
+    <tag k="is_in:continent" v="Europe"/>
     <tag k="name" v="Latvija"/>
     <tag k="name:ace" v="Latvia"/>
     <tag k="name:af" v="Letland"/>
@@ -7961,6 +8003,7 @@
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/1/11/Flag_of_Lithuania.svg"/>
     <tag k="geonames:id" v="597427"/>
     <tag k="int_name" v="Lithuania"/>
+    <tag k="is_in:continent" v="Europe"/>
     <tag k="name" v="Lietuva"/>
     <tag k="name:ab" v="Литва"/>
     <tag k="name:ace" v="Lithuania"/>
@@ -8228,6 +8271,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/8/8f/Flag_of_Estonia.svg"/>
     <tag k="int_name" v="Estonia"/>
+    <tag k="is_in:continent" v="Europe"/>
     <tag k="name" v="Eesti"/>
     <tag k="name:ace" v="Èstonia"/>
     <tag k="name:af" v="Estland"/>
@@ -8466,6 +8510,7 @@
     <tag k="border_type" v="territorial"/>
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/b/b9/Flag_of_Australia.svg"/>
+    <tag k="is_in:continent" v="Oceania"/>
     <tag k="maritime" v="yes"/>
     <tag k="name" v="Australia"/>
     <tag k="name:ab" v="Австралиа"/>
@@ -8694,6 +8739,7 @@
     <tag k="name:zh-min-nan" v="Australia"/>
     <tag k="name:zh-yue" v="澳洲"/>
     <tag k="name:zu" v="I-Ostreliya"/>
+    <tag k="sqkm" v="7692024"/>
     <tag k="type" v="boundary"/>
     <tag k="website" v="http://australia.gov.au"/>
     <tag k="wikidata" v="Q408"/>
@@ -9141,8 +9187,9 @@
     <tag k="border_type" v="country"/>
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/1/1e/Flag_of_Swaziland.svg"/>
+    <tag k="is_in:continent" v="Africa"/>
     <tag k="land_area" v="administrative"/>
-    <tag k="name" v="Swatini"/>
+    <tag k="name" v="Swaziland"/>
     <tag k="name:ace" v="Swaziland"/>
     <tag k="name:af" v="Swaziland"/>
     <tag k="name:als" v="Swasiland"/>
@@ -9277,7 +9324,7 @@
     <tag k="name:so" v="Swasiland"/>
     <tag k="name:sq" v="Suazilendi"/>
     <tag k="name:sr" v="Свазиленд"/>
-    <tag k="name:ss" v="Umbuso weSwatini"/>
+    <tag k="name:ss" v="eSwatini"/>
     <tag k="name:stq" v="Swasilound"/>
     <tag k="name:su" v="Swaziland"/>
     <tag k="name:sv" v="Swaziland"/>
@@ -9305,10 +9352,14 @@
     <tag k="name:xal" v="Свазилендин Нутг"/>
     <tag k="name:yi" v="סוואזילאנד"/>
     <tag k="name:yo" v="Swásílándì"/>
-    <tag k="name:zh" v="斯威士蘭"/>
+    <tag k="name:zh" v="斯威士兰/斯威士蘭/史瓦濟蘭"/>
+    <tag k="name:zh-Hans-cn" v="斯威士兰"/>
+    <tag k="name:zh-Hant-hk" v="斯威士蘭"/>
+    <tag k="name:zh-Hant-tw" v="史瓦濟蘭"/>
     <tag k="name:zh-min-nan" v="Swazi-tē"/>
     <tag k="name:zh-yue" v="斯威士蘭"/>
     <tag k="name:zu" v="ISwazilandi"/>
+    <tag k="source:name:zh-Hant-tw" v="http://www.mofa.gov.tw/CountryInfo.aspx?CASN=D33B55D537402BAA&amp;n=1C6028CA080A27B3&amp;sms=26470E539B6FA395&amp;s=29B3D06675FAF607"/>
     <tag k="timezone" v="Africa/Mbabane"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q1050"/>
@@ -9324,6 +9375,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/7/73/Flag_of_Romania.svg"/>
     <tag k="int_name" v="Romania"/>
+    <tag k="is_in:continent" v="Europe"/>
     <tag k="name" v="România"/>
     <tag k="name:ace" v="Rumania"/>
     <tag k="name:af" v="Roemenië"/>
@@ -9554,6 +9606,7 @@
     <tag k="border_type" v="nation"/>
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/e/e8/Flag_of_Ecuador.svg"/>
+    <tag k="is_in:continent" v="South America"/>
     <tag k="name" v="Ecuador"/>
     <tag k="name:als" v="Ecuador"/>
     <tag k="name:am" v="ኤኳዶር"/>
@@ -9748,6 +9801,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="currency" v="MXN"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/f/fc/Flag_of_Mexico.svg"/>
+    <tag k="is_in:continent" v="North America"/>
     <tag k="name" v="México"/>
     <tag k="name:ace" v="Meksiko"/>
     <tag k="name:af" v="Meksiko"/>
@@ -9964,7 +10018,6 @@
     <tag k="name:zh-min-nan" v="Be̍k-se-ko"/>
     <tag k="name:zh-yue" v="墨西哥"/>
     <tag k="name:zu" v="IMekisiko"/>
-    <tag k="timezone" v="America/Mexico_City"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q96"/>
     <tag k="wikipedia" v="es:México"/>
@@ -9978,6 +10031,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/2/21/Flag_of_Colombia.svg"/>
     <tag k="int_name" v="Colombia"/>
+    <tag k="is_in:continent" v="South America"/>
     <tag k="name" v="Colombia"/>
     <tag k="name:ace" v="Kolombia"/>
     <tag k="name:af" v="Colombia"/>
@@ -10449,8 +10503,11 @@
     <tag k="name:zh-yue" v="即美利堅合眾國"/>
     <tag k="name:zu" v="IMelika"/>
     <tag k="official_name:vi" v="Hợp chúng quốc Hoa Kỳ;Hợp chúng quốc Hoa Kì;Hợp chủng quốc Hoa Kỳ;Hợp chủng quốc Hoa Kì"/>
+    <tag k="old_name:ru" v="Северо-Американские Соединённые Штаты"/>
     <tag k="old_name:vi" v="Mỹ Lợi Kiên;Ma Ly Căn;Nhã Di Lý"/>
+    <tag k="old_short_name:ru" v="САСШ"/>
     <tag k="short_name:eo" v="Usono"/>
+    <tag k="short_name:ru" v="США"/>
     <tag k="short_name:vi" v="Mỹ"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q30"/>
@@ -10669,6 +10726,7 @@
     <tag k="admin_level" v="2"/>
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/7/78/Flag_of_Chile.svg"/>
+    <tag k="is_in:continent" v="South America"/>
     <tag k="name" v="Chile"/>
     <tag k="name:ab" v="Чили"/>
     <tag k="name:ace" v="Chili"/>
@@ -10901,6 +10959,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="currency" v="RWF"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/1/17/Flag_of_Rwanda.svg"/>
+    <tag k="is_in:continent" v="Africa"/>
     <tag k="name" v="Rwanda"/>
     <tag k="name:ace" v="Rwanda"/>
     <tag k="name:af" v="Rwanda"/>
@@ -11094,6 +11153,8 @@
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/b/b4/Flag_of_Turkey.svg"/>
     <tag k="int_name" v="Turkey"/>
+    <tag k="is_in:continent" v="Asia"/>
+    <tag k="is_in:continent_1" v="Europe"/>
     <tag k="name" v="Türkiye"/>
     <tag k="name:ab" v="Ҭырқәтәыла"/>
     <tag k="name:ace" v="Turuki"/>
@@ -11341,6 +11402,7 @@
     <tag k="official_name:fr" v="République de Turquie"/>
     <tag k="official_name:he" v="הרפובליקה הטורקית"/>
     <tag k="official_name:ku" v="Komara Tirkiyeyê"/>
+    <tag k="population" v="74814871"/>
     <tag k="timezone" v="Europe/Istanbul"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q43"/>
@@ -11358,6 +11420,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/c/c7/Flag_of_Kyrgyzstan.svg"/>
     <tag k="int_ref" v="KG"/>
+    <tag k="is_in:continent" v="Asia"/>
     <tag k="name" v="Кыргызстан"/>
     <tag k="name:ab" v="Ҟырҕызсҭан"/>
     <tag k="name:ace" v="Kyrgyzstan"/>
@@ -11550,6 +11613,7 @@
     <tag k="admin_level" v="2"/>
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/9/91/Flag_of_Bhutan.svg"/>
+    <tag k="is_in:continent" v="Asia"/>
     <tag k="name" v="འབྲུག་ཡུལ་"/>
     <tag k="name:ace" v="Bhutan"/>
     <tag k="name:af" v="Bhoetan"/>
@@ -11615,7 +11679,7 @@
     <tag k="name:he" v="בהוטן"/>
     <tag k="name:hi" v="भूटान"/>
     <tag k="name:hif" v="Bhutan"/>
-    <tag k="name:hr" v="Kraljevina Butan"/>
+    <tag k="name:hr" v="Butan"/>
     <tag k="name:hsb" v="Bhutan"/>
     <tag k="name:ht" v="Boutan"/>
     <tag k="name:hu" v="Bhután"/>
@@ -11740,6 +11804,7 @@
     <tag k="admin_level" v="2"/>
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/9/9b/Flag_of_Nepal.svg"/>
+    <tag k="is_in:continent" v="Asia"/>
     <tag k="name" v="नेपाल"/>
     <tag k="name:ace" v="Nepal"/>
     <tag k="name:af" v="Nepal"/>
@@ -11936,6 +12001,7 @@
     <tag k="admin_level" v="2"/>
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/f/f9/Flag_of_Bangladesh.svg"/>
+    <tag k="is_in:continent" v="Asia"/>
     <tag k="name" v="বাংলাদেশ"/>
     <tag k="name:af" v="Bangladesj"/>
     <tag k="name:als" v="Bangladesch"/>
@@ -11955,6 +12021,7 @@
     <tag k="name:be-tarask" v="Банглядэш"/>
     <tag k="name:bg" v="Бангладеш"/>
     <tag k="name:bjn" v="Bangladesh"/>
+    <tag k="name:bn" v="বাংলাদেশ"/>
     <tag k="name:bo" v="བྷང་ལ་རྡེ་ཤུ།"/>
     <tag k="name:bpy" v="বাংলাদেশ"/>
     <tag k="name:br" v="Bangladesh"/>
@@ -12142,6 +12209,7 @@
     <tag k="border_type" v="administrative"/>
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/c/c0/Flag_of_Jordan.svg"/>
+    <tag k="is_in:continent" v="Asia"/>
     <tag k="name" v="الأردن"/>
     <tag k="name:ace" v="Yordania"/>
     <tag k="name:af" v="Jordanië"/>
@@ -12342,6 +12410,7 @@
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/5/53/Flag_of_Syria.svg"/>
     <tag k="full_name:ar" v="الجمهورية العربية السورية"/>
     <tag k="int_name" v="Syria"/>
+    <tag k="is_in:continent" v="Asia"/>
     <tag k="name" v="سوريا"/>
     <tag k="name:ace" v="Suriyah"/>
     <tag k="name:af" v="Sirië"/>
@@ -12547,6 +12616,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/5/59/Flag_of_Lebanon.svg"/>
     <tag k="int_name" v="Lebanon"/>
+    <tag k="is_in:continent" v="Asia"/>
     <tag k="name" v="لبنان"/>
     <tag k="name:ace" v="Lebanon"/>
     <tag k="name:af" v="Libanon"/>
@@ -12745,6 +12815,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/9/9a/Flag_of_Bulgaria.svg"/>
     <tag k="int_name" v="Bulgaria"/>
+    <tag k="is_in:continent" v="Europe"/>
     <tag k="name" v="България"/>
     <tag k="name:ab" v="Былгариа"/>
     <tag k="name:ace" v="Bulgaria"/>
@@ -12990,6 +13061,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_Greece.svg"/>
     <tag k="int_name" v="Greece"/>
+    <tag k="is_in:continent" v="Europe"/>
     <tag k="name" v="Ελλάδα"/>
     <tag k="name:ab" v="Барзентәыла"/>
     <tag k="name:ace" v="Yunani"/>
@@ -13230,6 +13302,7 @@
     <tag k="alt_name:vi" v="Cộng hòa Dân chủ Nhân dân Triều Tiên"/>
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/5/51/Flag_of_North_Korea.svg"/>
+    <tag k="is_in:continent" v="Asia"/>
     <tag k="name" v="조선민주주의인민공화국"/>
     <tag k="name:UN:ar" v="جمهورية كوريا الشعبية الديمقراطية"/>
     <tag k="name:UN:en" v="Democratic People's Republic of Korea (the)"/>
@@ -13420,6 +13493,7 @@
     <tag k="name:zh-min-nan" v="Tiâu-sián"/>
     <tag k="name:zh-yue" v="朝鮮民主主義人民共和國"/>
     <tag k="official_name:eo" v="Korea Demokratia Popola Respubliko"/>
+    <tag k="short_name:ru" v="КНДР"/>
     <tag k="timezone" v="Asia/Pyongyang"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q423"/>
@@ -13438,9 +13512,8 @@
     <tag k="is_in:continent" v="Africa"/>
     <tag k="long_name" v="الجمهورية الجزائرية الديمقراطية الشعبية"/>
     <tag k="long_name:ar" v="الجمهورية الجزائرية الديمقراطية الشعبية"/>
-    <tag k="long_name:fr" v="République Algérienne Démocratique et Populaire"/>
+    <tag k="long_name:fr" v="République algérienne démocratique et populaire"/>
     <tag k="name" v="Algérie ⵍⵣⵣⴰⵢⴻⵔ الجزائر"/>
-    <tag k="name:Tamazight" v="ⵍⵣⵣⴰⵢⴻⵔ"/>
     <tag k="name:ace" v="Aljazair"/>
     <tag k="name:af" v="Algerië"/>
     <tag k="name:als" v="Algerien"/>
@@ -13449,6 +13522,7 @@
     <tag k="name:ang" v="Algeria"/>
     <tag k="name:ar" v="الجزائر"/>
     <tag k="name:arc" v="ܓܙܐܐܪ"/>
+    <tag k="name:arq" v="الدزاير - الجازاير - لدزاير"/>
     <tag k="name:arz" v="الجزاير"/>
     <tag k="name:ast" v="Arxelia"/>
     <tag k="name:az" v="Əlcəzair"/>
@@ -13651,7 +13725,12 @@
     <tag k="name:zu" v="IAljiriya"/>
     <tag k="official_name" v="الجمهورية الجزائرية الديمقراطية الشعبية"/>
     <tag k="official_name:ar" v="الجمهورية الجزائرية الديمقراطية الشعبية"/>
-    <tag k="official_name:fr" v="République Algérienne Démocratique et Populaire"/>
+    <tag k="official_name:ber" v="ⵜⴰⴳⴷⵓⴷⴰ ⵜⴰⵎⴻⴳⴷⴰⵢⵜ ⵜⴰⵖⴻⵔⴼⴰⵏⵜ ⵜⴰⵣⵣⴰⵢⵔⵉⵜ"/>
+    <tag k="official_name:fr" v="République algérienne démocratique et populaire"/>
+    <tag k="official_name:kab" v="Tagduda tamegdayt taɣerfant tazzayrit"/>
+    <tag k="short_name" v="RADP"/>
+    <tag k="short_name:en" v="RDPA"/>
+    <tag k="short_name:fr" v="RADP"/>
     <tag k="timezone" v="Africa/Algiers"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q262"/>
@@ -13669,7 +13748,6 @@
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/c/ce/Flag_of_Tunisia.svg"/>
     <tag k="is_in:continent" v="Africa"/>
     <tag k="name" v="Tunisie ⵜⵓⵏⵙ تونس"/>
-    <tag k="name:Tamazight" v="ⵜⵓⵏⵙ"/>
     <tag k="name:ace" v="Tunisia"/>
     <tag k="name:af" v="Tunisië"/>
     <tag k="name:als" v="Tunesien"/>
@@ -13844,6 +13922,7 @@
     <tag k="name:wuu" v="突尼斯"/>
     <tag k="name:yi" v="טוניסיע"/>
     <tag k="name:yo" v="Tùnísíà"/>
+    <tag k="name:zgh" v="ⵜⵓⵏⵙ"/>
     <tag k="name:zh" v="突尼西亞"/>
     <tag k="name:zh-min-nan" v="Tunisia"/>
     <tag k="name:zh-yue" v="突尼西亞"/>
@@ -13862,8 +13941,8 @@
     <tag k="alt_name:vi" v="Libi"/>
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/0/05/Flag_of_Libya.svg"/>
+    <tag k="is_in:continent" v="Africa"/>
     <tag k="name" v="Libya ⵍⵉⴱⵢⴰ ليبيا"/>
-    <tag k="name:Tamazight" v="ⵍⵉⴱⵢⴰ"/>
     <tag k="name:ace" v="Libya"/>
     <tag k="name:af" v="Libië"/>
     <tag k="name:als" v="Libyen"/>
@@ -14060,6 +14139,7 @@
     <tag k="name:yi" v="ליביע"/>
     <tag k="name:yo" v="Líbyà"/>
     <tag k="name:zea" v="Libië"/>
+    <tag k="name:zgh" v="ⵍⵉⴱⵢⴰ"/>
     <tag k="name:zh" v="利比亚"/>
     <tag k="name:zh-classical" v="利比亞"/>
     <tag k="name:zh-min-nan" v="Libya"/>
@@ -14078,8 +14158,8 @@
     <tag k="admin_level" v="2"/>
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/4/43/Flag_of_Mauritania.svg"/>
+    <tag k="is_in:continent" v="Africa"/>
     <tag k="name" v="Mauritanie موريتانيا"/>
-    <tag k="name:Tamazight" v="ⵎⵓⵔⵉⵜⴰⵏⵢⴰ"/>
     <tag k="name:af" v="Mauritanië"/>
     <tag k="name:am" v="ሞሪታኒያ"/>
     <tag k="name:an" v="Mauritania"/>
@@ -14207,6 +14287,7 @@
     <tag k="name:xh" v="Mauritania"/>
     <tag k="name:yi" v="מאריטאניע"/>
     <tag k="name:yo" v="Mauritáníà"/>
+    <tag k="name:zgh" v="ⵎⵓⵔⵉⵜⴰⵏⵢⴰ"/>
     <tag k="name:zh" v="毛里塔尼亚"/>
     <tag k="name:zu" v="IMoritaniya"/>
     <tag k="official_name" v="الجمهورية الإسلامية الموريتانية"/>
@@ -14223,6 +14304,7 @@
     <tag k="admin_level" v="2"/>
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/7/77/Flag_of_The_Gambia.svg"/>
+    <tag k="is_in:continent" v="Africa"/>
     <tag k="name" v="Gambia"/>
     <tag k="name:ace" v="Gambia"/>
     <tag k="name:af" v="Gambië"/>
@@ -14263,7 +14345,7 @@
     <tag k="name:dz" v="གྷེམ་བི་ཡ"/>
     <tag k="name:ee" v="Gambia"/>
     <tag k="name:el" v="Γκάμπια"/>
-    <tag k="name:en" v="The Gambia"/>
+    <tag k="name:en" v="Gambia"/>
     <tag k="name:eo" v="Gambio"/>
     <tag k="name:es" v="Gambia"/>
     <tag k="name:et" v="Gambia"/>
@@ -14414,6 +14496,7 @@
     <tag k="admin_level" v="2"/>
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/f/fd/Flag_of_Senegal.svg"/>
+    <tag k="is_in:continent" v="Africa"/>
     <tag k="name" v="Sénégal"/>
     <tag k="name:ace" v="Senegal"/>
     <tag k="name:af" v="Senegal"/>
@@ -14604,6 +14687,7 @@
     <tag k="admin_level" v="2"/>
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/0/01/Flag_of_Guinea-Bissau.svg"/>
+    <tag k="is_in:continent" v="Africa"/>
     <tag k="name" v="Guiné-Bissau"/>
     <tag k="name:ace" v="Guinea Bissau"/>
     <tag k="name:af" v="Guinee-Bissau"/>
@@ -14785,6 +14869,7 @@
     <tag k="admin_level" v="2"/>
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/1/17/Flag_of_Sierra_Leone.svg"/>
+    <tag k="is_in:continent" v="Africa"/>
     <tag k="name" v="Sierra Leone"/>
     <tag k="name:ace" v="Sierra Leone"/>
     <tag k="name:af" v="Sierra Leone"/>
@@ -14840,7 +14925,7 @@
     <tag k="name:ga" v="Siarra Leon"/>
     <tag k="name:gag" v="Syerra Leone"/>
     <tag k="name:gd" v="Siarra Leòmhann"/>
-    <tag k="name:gl" v="Serra Leoa - Sierra Leone"/>
+    <tag k="name:gl" v="Serra Leoa"/>
     <tag k="name:gv" v="Sierra Leone"/>
     <tag k="name:he" v="סיירה לאונה"/>
     <tag k="name:hi" v="सिएरा लियोन"/>
@@ -14966,6 +15051,7 @@
     <tag k="alt_name:fr" v="Guinée-Conakry"/>
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/e/ed/Flag_of_Guinea.svg"/>
+    <tag k="is_in:continent" v="Africa"/>
     <tag k="name" v="Guinée"/>
     <tag k="name:ace" v="Guinea"/>
     <tag k="name:af" v="Guinee"/>
@@ -15153,6 +15239,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="currency" v="XOF"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/f/fe/Flag_of_C%C3%B4te_d%27Ivoire.svg"/>
+    <tag k="is_in:continent" v="Africa"/>
     <tag k="name" v="Côte d’Ivoire"/>
     <tag k="name:UN:ar" v="كوت ديفوار"/>
     <tag k="name:UN:en" v="Côte d'Ivoire"/>
@@ -15356,6 +15443,7 @@
     <tag k="alt_name" v="الأقصر"/>
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/b/b8/Flag_of_Liberia.svg"/>
+    <tag k="is_in:continent" v="Africa"/>
     <tag k="name" v="Liberia"/>
     <tag k="name:ace" v="Liberia"/>
     <tag k="name:af" v="Liberië"/>
@@ -15545,6 +15633,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="currency" v="GHS"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/1/19/Flag_of_Ghana.svg"/>
+    <tag k="is_in:continent" v="Africa"/>
     <tag k="name" v="Ghana"/>
     <tag k="name:ace" v="Ghana"/>
     <tag k="name:af" v="Ghana"/>
@@ -15752,6 +15841,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="currency" v="XOF"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/6/68/Flag_of_Togo.svg"/>
+    <tag k="is_in:continent" v="Africa"/>
     <tag k="name" v="Togo"/>
     <tag k="name:ace" v="Togo"/>
     <tag k="name:af" v="Togo"/>
@@ -16133,6 +16223,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="currency" v="XOF"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/0/0a/Flag_of_Benin.svg"/>
+    <tag k="is_in:continent" v="Africa"/>
     <tag k="name" v="Bénin"/>
     <tag k="name:ace" v="Benin"/>
     <tag k="name:af" v="Benin"/>
@@ -16331,8 +16422,8 @@
     <tag k="boundary" v="administrative"/>
     <tag k="currency" v="XOF"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/9/92/Flag_of_Mali.svg"/>
+    <tag k="is_in:continent" v="Africa"/>
     <tag k="name" v="Mali"/>
-    <tag k="name:Tamazight" v="ⵎⴰⵍⵉ"/>
     <tag k="name:ace" v="Mali"/>
     <tag k="name:af" v="Mali"/>
     <tag k="name:als" v="Mali"/>
@@ -16509,6 +16600,7 @@
     <tag k="name:xal" v="Малудин Орн"/>
     <tag k="name:yi" v="מאלי"/>
     <tag k="name:yo" v="Málì"/>
+    <tag k="name:zgh" v="ⵎⴰⵍⵉ"/>
     <tag k="name:zh" v="马里共和国"/>
     <tag k="name:zh-min-nan" v="Mali"/>
     <tag k="name:zh-yue" v="馬里"/>
@@ -16527,6 +16619,7 @@
     <tag k="admin_level" v="2"/>
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/f/f4/Flag_of_Niger.svg"/>
+    <tag k="is_in:continent" v="Africa"/>
     <tag k="name" v="Niger"/>
     <tag k="name:ace" v="Niger"/>
     <tag k="name:af" v="Niger"/>
@@ -16711,6 +16804,7 @@
     <tag k="admin_level" v="2"/>
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/7/79/Flag_of_Nigeria.svg"/>
+    <tag k="is_in:continent" v="Africa"/>
     <tag k="name" v="Nigeria"/>
     <tag k="name:ace" v="Nigeria"/>
     <tag k="name:af" v="Nigerië"/>
@@ -16771,7 +16865,7 @@
     <tag k="name:gag" v="Nigeriya"/>
     <tag k="name:gan" v="尼日利亞"/>
     <tag k="name:gd" v="Nìgeiria"/>
-    <tag k="name:gl" v="Nixeria - Nigeria"/>
+    <tag k="name:gl" v="Nixeria"/>
     <tag k="name:gn" v="Niheria"/>
     <tag k="name:gu" v="નાઈજેરિયા"/>
     <tag k="name:gv" v="Yn Naigeer"/>
@@ -16826,7 +16920,7 @@
     <tag k="name:nah" v="Nigeria"/>
     <tag k="name:nds" v="Nigeria"/>
     <tag k="name:ne" v="नाइजेरिया"/>
-    <tag k="name:nl" v="Nigerië"/>
+    <tag k="name:nl" v="Nigeria"/>
     <tag k="name:nn" v="Nigeria"/>
     <tag k="name:no" v="Nigeria"/>
     <tag k="name:nov" v="Nigeria"/>
@@ -16919,7 +17013,6 @@
     <tag k="int_name" v="Sudan"/>
     <tag k="is_in:continent" v="Africa"/>
     <tag k="name" v="Sudan السودان"/>
-    <tag k="name:Tamazight" v="ⵙⵓⴷⴰⵏ"/>
     <tag k="name:ace" v="Sudan"/>
     <tag k="name:af" v="Soedan"/>
     <tag k="name:ak" v="Sudan"/>
@@ -17109,6 +17202,7 @@
     <tag k="name:xal" v="Суданмудин Орн"/>
     <tag k="name:yi" v="סודאן"/>
     <tag k="name:yo" v="Sudan"/>
+    <tag k="name:zgh" v="ⵙⵓⴷⴰⵏ"/>
     <tag k="name:zh" v="苏丹共和国"/>
     <tag k="name:zh-classical" v="蘇丹"/>
     <tag k="name:zh-min-nan" v="Sudan"/>
@@ -17132,6 +17226,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="currency" v="XAF"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/6/6f/Flag_of_the_Central_African_Republic.svg"/>
+    <tag k="is_in:continent" v="Africa"/>
     <tag k="name" v="Ködörösêse tî Bêafrîka - République Centrafricaine"/>
     <tag k="name:ace" v="Republik Afrika Teungoh"/>
     <tag k="name:af" v="Sentraal-Afrikaanse Republiek"/>
@@ -17192,7 +17287,7 @@
     <tag k="name:he" v="הרפובליקה המרכז-אפריקאית"/>
     <tag k="name:hi" v="मध्य अफ़्रीकी गणराज्य"/>
     <tag k="name:hif" v="Central African Republic"/>
-    <tag k="name:hr" v="Centralno-Afrička Republika"/>
+    <tag k="name:hr" v="Srednjoafrička Republika"/>
     <tag k="name:hsb" v="Centralnoafriska republika"/>
     <tag k="name:ht" v="Repiblik santafrik"/>
     <tag k="name:hu" v="Közép-afrikai Köztársaság"/>
@@ -17315,6 +17410,7 @@
     <tag k="admin_level" v="2"/>
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/3/31/Flag_of_Equatorial_Guinea.svg"/>
+    <tag k="is_in:continent" v="Africa"/>
     <tag k="name" v="Guinea Ecuatorial"/>
     <tag k="name:af" v="Ekwatoriaal-Guinee"/>
     <tag k="name:als" v="Äquatorialguinea"/>
@@ -17492,6 +17588,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="currency" v="XAF"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/0/04/Flag_of_Gabon.svg"/>
+    <tag k="is_in:continent" v="Africa"/>
     <tag k="name" v="Gabon"/>
     <tag k="name:af" v="Gaboen"/>
     <tag k="name:als" v="Gabun"/>
@@ -17691,6 +17788,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="currency" v="XAF"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/9/92/Flag_of_the_Republic_of_the_Congo.svg"/>
+    <tag k="is_in:continent" v="Africa"/>
     <tag k="name" v="République du Congo"/>
     <tag k="name:af" v="Republiek van die Kongo"/>
     <tag k="name:als" v="Republik Kongo"/>
@@ -17871,6 +17969,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="currency" v="CDF"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/6/6f/Flag_of_the_Democratic_Republic_of_the_Congo.svg"/>
+    <tag k="is_in:continent" v="Africa"/>
     <tag k="name" v="République démocratique du Congo"/>
     <tag k="name:ace" v="Republik Demokratik Kongo"/>
     <tag k="name:af" v="Demokratiese Republiek van die Kongo"/>
@@ -17911,7 +18010,7 @@
     <tag k="name:dsb" v="Demokratiska republika Kongo"/>
     <tag k="name:dv" v="ކޮންގޯ (ދިމިޤްރާޠީ ޖުމްހޫރިއްޔާ)"/>
     <tag k="name:el" v="Λαϊκή Δημοκρατία του Κονγκό"/>
-    <tag k="name:en" v="Congo-Kinshasa"/>
+    <tag k="name:en" v="Democratic Republic of the Congo"/>
     <tag k="name:eo" v="Demokratia Respubliko Kongo"/>
     <tag k="name:es" v="República Democrática del Congo"/>
     <tag k="name:et" v="Kongo Demokraatlik Vabariik"/>
@@ -18071,6 +18170,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="currency" v="UGX"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/4/4e/Flag_of_Uganda.svg"/>
+    <tag k="is_in:continent" v="Africa"/>
     <tag k="name" v="Uganda"/>
     <tag k="name:ace" v="Uganda"/>
     <tag k="name:af" v="Uganda"/>
@@ -18180,7 +18280,7 @@
     <tag k="name:mzn" v="اوگاندا"/>
     <tag k="name:nah" v="Uganda"/>
     <tag k="name:nds" v="Uganda"/>
-    <tag k="name:nl" v="Uganda"/>
+    <tag k="name:nl" v="Oeganda"/>
     <tag k="name:nn" v="Uganda"/>
     <tag k="name:no" v="Uganda"/>
     <tag k="name:nov" v="Uganda"/>
@@ -18263,6 +18363,7 @@
     <tag k="admin_level" v="2"/>
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/4/49/Flag_of_Kenya.svg"/>
+    <tag k="is_in:continent" v="Africa"/>
     <tag k="name" v="Kenya"/>
     <tag k="name:ace" v="Kenya"/>
     <tag k="name:af" v="Kenia"/>
@@ -18465,6 +18566,7 @@
     <tag k="admin_level" v="2"/>
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/a/a0/Flag_of_Somalia.svg"/>
+    <tag k="is_in:continent" v="Africa"/>
     <tag k="name" v="Soomaaliya"/>
     <tag k="name:ace" v="Somalia"/>
     <tag k="name:af" v="Somalië"/>
@@ -18557,6 +18659,7 @@
     <tag k="name:lv" v="Somālija"/>
     <tag k="name:mg" v="Somalia"/>
     <tag k="name:mhr" v="Сомали"/>
+    <tag k="name:mi" v="Hūmārie"/>
     <tag k="name:mk" v="Сомалија"/>
     <tag k="name:ml" v="സൊമാലിയ"/>
     <tag k="name:mn" v="Сомали"/>
@@ -18660,7 +18763,8 @@
     <tag k="alt_name:vi" v="Ê-ti-ô-pi-a"/>
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/7/71/Flag_of_Ethiopia.svg"/>
-    <tag k="name" v="ኢትዮጵያ Ethiopia"/>
+    <tag k="is_in:continent" v="Africa"/>
+    <tag k="name" v="ኢትዮጵያ"/>
     <tag k="name:ace" v="Ethiopia"/>
     <tag k="name:af" v="Ethiopië"/>
     <tag k="name:als" v="Äthiopien"/>
@@ -19067,6 +19171,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="currency" v="XAF"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/4/4f/Flag_of_Cameroon.svg"/>
+    <tag k="is_in:continent" v="Africa"/>
     <tag k="name" v="Cameroun"/>
     <tag k="name:af" v="Kameroen"/>
     <tag k="name:als" v="Kamerun"/>
@@ -19265,6 +19370,7 @@
     <tag k="admin_level" v="2"/>
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/0/00/Flag_of_Namibia.svg"/>
+    <tag k="is_in:continent" v="Africa"/>
     <tag k="name" v="Namibia"/>
     <tag k="name:ace" v="Namibia"/>
     <tag k="name:af" v="Namibië"/>
@@ -19461,6 +19567,7 @@
     <tag k="admin_level" v="2"/>
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/9/9d/Flag_of_Angola.svg"/>
+    <tag k="is_in:continent" v="Africa"/>
     <tag k="name" v="Angola"/>
     <tag k="name:af" v="Angola"/>
     <tag k="name:als" v="Angola"/>
@@ -19676,6 +19783,7 @@
     <tag k="admin_level" v="2"/>
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/5/50/Flag_of_Burundi.svg"/>
+    <tag k="is_in:continent" v="Africa"/>
     <tag k="name" v="Burundi"/>
     <tag k="name:cs" v="Burundi"/>
     <tag k="name:de" v="Burundi"/>
@@ -19700,12 +19808,14 @@
     <tag k="wikipedia" v="en:Burundi"/>
   </relation>
   <relation id="195270">
+    <tag k="ISO3166-1" v="TZ"/>
     <tag k="ISO3166-1:alpha2" v="TZ"/>
     <tag k="ISO3166-1:alpha3" v="TZA"/>
     <tag k="ISO3166-1:numeric" v="834"/>
     <tag k="admin_level" v="2"/>
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/3/38/Flag_of_Tanzania.svg"/>
+    <tag k="is_in:continent" v="Africa"/>
     <tag k="name" v="Tanzania"/>
     <tag k="name:ace" v="Tanzania"/>
     <tag k="name:af" v="Tanzanië"/>
@@ -19913,6 +20023,7 @@
     <tag k="admin_level" v="2"/>
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/0/06/Flag_of_Zambia.svg"/>
+    <tag k="is_in:continent" v="Africa"/>
     <tag k="name" v="Zambia"/>
     <tag k="name:ace" v="Zambia"/>
     <tag k="name:af" v="Zambië"/>
@@ -20104,6 +20215,7 @@
     <tag k="admin_level" v="2"/>
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/6/6a/Flag_of_Zimbabwe.svg"/>
+    <tag k="is_in:continent" v="Africa"/>
     <tag k="name" v="Zimbabwe"/>
     <tag k="name:af" v="Zimbabwe"/>
     <tag k="name:als" v="Simbabwe"/>
@@ -20300,6 +20412,7 @@
     <tag k="admin_level" v="2"/>
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/d/d0/Flag_of_Mozambique.svg"/>
+    <tag k="is_in:continent" v="Africa"/>
     <tag k="name" v="Moçambique"/>
     <tag k="name:ace" v="Mozambik"/>
     <tag k="name:af" v="Mosambiek"/>
@@ -20492,6 +20605,7 @@
     <tag k="admin_level" v="2"/>
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/d/d1/Flag_of_Malawi.svg"/>
+    <tag k="is_in:continent" v="Africa"/>
     <tag k="name" v="Malawi"/>
     <tag k="name:ace" v="Malawi"/>
     <tag k="name:af" v="Malawi"/>
@@ -20678,6 +20792,7 @@
     <tag k="alt_name:vi" v="U-dơ-bê-kít-xtan;Uzbekstan;Ozbekistan"/>
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/8/84/Flag_of_Uzbekistan.svg"/>
+    <tag k="is_in:continent" v="Asia"/>
     <tag k="name" v="Oʻzbekiston"/>
     <tag k="name:ace" v="Uzbèkistan"/>
     <tag k="name:af" v="Oesbekistan"/>
@@ -20843,6 +20958,7 @@
     <tag k="name:uk" v="Узбекистан"/>
     <tag k="name:ur" v="ازبکستان"/>
     <tag k="name:uz" v="Oʻzbekiston"/>
+    <tag k="name:uz-cyr" v="Ўзбекистон"/>
     <tag k="name:vec" v="Uzbekistan"/>
     <tag k="name:vep" v="Uzbekistan"/>
     <tag k="name:vi" v="Uzbekistan"/>
@@ -20878,6 +20994,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/d/d0/Flag_of_Tajikistan.svg"/>
     <tag k="int_ref" v="TJ"/>
+    <tag k="is_in:continent" v="Asia"/>
     <tag k="land_area" v="administrative"/>
     <tag k="name" v="Тоҷикистон"/>
     <tag k="name:ace" v="Tajikistan"/>
@@ -21298,6 +21415,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/1/1b/Flag_of_Croatia.svg"/>
     <tag k="int_name" v="Croatia"/>
+    <tag k="is_in:continent" v="Europe"/>
     <tag k="name" v="Hrvatska"/>
     <tag k="name:ab" v="Хорватиа"/>
     <tag k="name:ace" v="Kroasia"/>
@@ -21752,6 +21870,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/1/1b/Flag_of_Turkmenistan.svg"/>
     <tag k="int_name" v="Türkmenistan"/>
+    <tag k="is_in:continent" v="Asia"/>
     <tag k="name" v="Türkmenistan"/>
     <tag k="name:ace" v="Turkmènistan"/>
     <tag k="name:af" v="Turkmenistan"/>
@@ -21945,6 +22064,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="currency" v="BOB"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/4/48/Flag_of_Bolivia.svg"/>
+    <tag k="is_in:continent" v="South America"/>
     <tag k="name" v="Bolivia"/>
     <tag k="name:ab" v="Боливиа"/>
     <tag k="name:ace" v="Bolivia"/>
@@ -22145,6 +22265,7 @@
     <tag k="official_name:gn" v="Tetã Volívia"/>
     <tag k="official_name:it" v="Stato Plurinazionale della Bolivia"/>
     <tag k="official_name:nl" v="Plurinationale Staat Bolivia"/>
+    <tag k="official_name:pl" v="Wielonarodowe Państwo Boliwia"/>
     <tag k="official_name:pt" v="Estado Plurinacional da Bolívia"/>
     <tag k="official_name:qu" v="Buliwya Mamallaqta"/>
     <tag k="official_name:ru" v="Многонациона́льное Госуда́рство Боли́вия"/>
@@ -22286,6 +22407,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/f/fa/Flag_of_the_People%27s_Republic_of_China.svg"/>
     <tag k="int_name" v="People's Republic of China"/>
+    <tag k="is_in:continent" v="Asia"/>
     <tag k="name" v="中国"/>
     <tag k="name:UN:ar" v="الصين"/>
     <tag k="name:UN:en" v="China"/>
@@ -22415,6 +22537,7 @@
     <tag k="name:pa" v="ਚੀਨ ਦਾ ਲੋਕ ਰਾਜੀ ਗਣਤੰਤਰ"/>
     <tag k="name:pap" v="China"/>
     <tag k="name:pih" v="Shiina"/>
+    <tag k="name:pl" v="Chiny"/>
     <tag k="name:pms" v="Cin-a"/>
     <tag k="name:pnb" v="چین"/>
     <tag k="name:pnt" v="Κίνα"/>
@@ -22475,6 +22598,7 @@
     <tag k="name:zh-min-nan" v="Tiong-hoâ Jîn-bîn Kiōng-hô-kok"/>
     <tag k="name:zh-simplified" v="中国"/>
     <tag k="name:zh-traditional" v="中國"/>
+    <tag k="name:zh_pinyin" v="Zhōngguó"/>
     <tag k="name:zu" v="IShayina"/>
     <tag k="official_name" v="中华人民共和国"/>
     <tag k="official_name:ace" v="Rèpublik Rakyat Cina"/>
@@ -22533,9 +22657,10 @@
     <tag k="official_name:zh-classical" v="中華人民共和國"/>
     <tag k="official_name:zh-simplified" v="中华人民共和国"/>
     <tag k="official_name:zh-traditional" v="中華人民共和國"/>
+    <tag k="short_name:ru" v="КНР"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q148"/>
-    <tag k="wikipedia" v="en:China"/>
+    <tag k="wikipedia" v="en:People's Republic of China"/>
   </relation>
   <relation id="272644">
     <tag k="ISO3166-1" v="VE"/>
@@ -22546,6 +22671,7 @@
     <tag k="border_type" v="nation"/>
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/0/06/Flag_of_Venezuela.svg"/>
+    <tag k="is_in:continent" v="South America"/>
     <tag k="name" v="Venezuela"/>
     <tag k="name:ace" v="Vènèzuèla"/>
     <tag k="name:af" v="Venezuela"/>
@@ -22756,6 +22882,7 @@
     <tag k="admin_level" v="2"/>
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/4/42/Flag_of_the_British_Virgin_Islands.svg"/>
+    <tag k="is_in:continent" v="North America"/>
     <tag k="name" v="British Virgin Islands"/>
     <tag k="name:cs" v="Britské Panenské ostrovy"/>
     <tag k="name:de" v="Britische Jungferninseln"/>
@@ -22787,6 +22914,7 @@
     <tag k="country_code_fips" v="AR"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/1/1a/Flag_of_Argentina.svg"/>
     <tag k="geonames:id" v="3865483"/>
+    <tag k="is_in:continent" v="South America"/>
     <tag k="name" v="Argentina"/>
     <tag k="name:ace" v="Argentina"/>
     <tag k="name:af" v="Argentinië"/>
@@ -23029,7 +23157,7 @@
     <tag k="border_type" v="nation"/>
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/f/fe/Flag_of_Uruguay.svg"/>
-    <tag k="is_in" v="South America"/>
+    <tag k="is_in:continent" v="South America"/>
     <tag k="name" v="Uruguay"/>
     <tag k="name:ace" v="Uruguay"/>
     <tag k="name:af" v="Uruguay"/>
@@ -23451,7 +23579,7 @@
     <tag k="border_type" v="nation"/>
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/6/60/Flag_of_Suriname.svg"/>
-    <tag k="is_in" v="South America"/>
+    <tag k="is_in:continent" v="South America"/>
     <tag k="name" v="Suriname"/>
     <tag k="name:ace" v="Suriname"/>
     <tag k="name:af" v="Suriname"/>
@@ -23632,8 +23760,9 @@
     <tag k="admin_level" v="2"/>
     <tag k="border_type" v="nation"/>
     <tag k="boundary" v="administrative"/>
+    <tag k="driving_side" v="left"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/9/99/Flag_of_Guyana.svg"/>
-    <tag k="is_in" v="South America"/>
+    <tag k="is_in:continent" v="South America"/>
     <tag k="name" v="Guyana"/>
     <tag k="name:ace" v="Guyana"/>
     <tag k="name:af" v="Guyana"/>
@@ -23818,6 +23947,7 @@
     <tag k="border_type" v="nation"/>
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/1/19/Flag_of_Nicaragua.svg"/>
+    <tag k="is_in:continent" v="North America"/>
     <tag k="name" v="Nicaragua"/>
     <tag k="name:ace" v="Nikaragua"/>
     <tag k="name:af" v="Nicaragua"/>
@@ -23995,6 +24125,7 @@
     <tag k="border_type" v="nation"/>
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/f/f2/Flag_of_Costa_Rica.svg"/>
+    <tag k="is_in:continent" v="North America"/>
     <tag k="name" v="Costa Rica"/>
     <tag k="name:ace" v="Kosta Rika"/>
     <tag k="name:af" v="Costa Rica"/>
@@ -24179,6 +24310,7 @@
     <tag k="border_type" v="nation"/>
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/a/ab/Flag_of_Panama.svg"/>
+    <tag k="is_in:continent" v="North America"/>
     <tag k="name" v="Panamá"/>
     <tag k="name:ace" v="Panama"/>
     <tag k="name:af" v="Panama"/>
@@ -24369,6 +24501,7 @@
     <tag k="border_type" v="nation"/>
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/8/82/Flag_of_Honduras.svg"/>
+    <tag k="is_in:continent" v="North America"/>
     <tag k="name" v="Honduras"/>
     <tag k="name:ace" v="Honduras"/>
     <tag k="name:af" v="Honduras"/>
@@ -24551,6 +24684,7 @@
     <tag k="border_type" v="nation"/>
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/e/e7/Flag_of_Belize.svg"/>
+    <tag k="is_in:continent" v="North America"/>
     <tag k="name" v="Belize"/>
     <tag k="name:ace" v="Belize"/>
     <tag k="name:af" v="Belize"/>
@@ -24725,6 +24859,7 @@
     <tag k="wikipedia" v="en:Belize"/>
   </relation>
   <relation id="288247">
+    <tag k="ISO3166-1" v="PE"/>
     <tag k="ISO3166-1:alpha2" v="PE"/>
     <tag k="ISO3166-1:alpha3" v="PER"/>
     <tag k="ISO3166-1:numeric" v="604"/>
@@ -24965,8 +25100,8 @@
     <tag k="driving_side" v="right"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_Portugal.svg"/>
     <tag k="int_name" v="Portugal"/>
+    <tag k="is_in:continent" v="Europe"/>
     <tag k="name" v="Portugal"/>
-    <tag k="name:ace" v="Portugéh"/>
     <tag k="name:af" v="Portugal"/>
     <tag k="name:als" v="Portugal"/>
     <tag k="name:am" v="ፖርቱጋል"/>
@@ -25198,7 +25333,6 @@
     <tag k="population" v="10562178"/>
     <tag k="population:date" v="2011"/>
     <tag k="source" v="DGT - CAOP 2015"/>
-    <tag k="timezone" v="Europe/Lisbon"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q45"/>
     <tag k="wikipedia" v="pt:Portugal"/>
@@ -25211,7 +25345,8 @@
     <tag k="admin_level" v="2"/>
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/2/29/Flag_of_Eritrea.svg"/>
-    <tag k="name" v="Eritrea"/>
+    <tag k="is_in:continent" v="Africa"/>
+    <tag k="name" v="ኤርትራ"/>
     <tag k="name:ace" v="Eritrea"/>
     <tag k="name:af" v="Eritrea"/>
     <tag k="name:als" v="Eritrea"/>
@@ -25404,6 +25539,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/c/ce/Flag_of_Iceland.svg"/>
     <tag k="int_name" v="Iceland"/>
+    <tag k="is_in:continent" v="Europe"/>
     <tag k="name" v="Ísland"/>
     <tag k="name:ace" v="Islandia"/>
     <tag k="name:af" v="Ysland"/>
@@ -25886,6 +26022,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/4/41/Flag_of_India.svg"/>
     <tag k="int_name" v="India"/>
+    <tag k="is_in:continent" v="Asia"/>
     <tag k="name" v="India"/>
     <tag k="name:am" v="ህንድ"/>
     <tag k="name:az" v="Hindistan"/>
@@ -26123,6 +26260,7 @@
     <tag k="border_type" v="nation"/>
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/9/9f/Flag_of_Indonesia.svg"/>
+    <tag k="is_in:continent" v="Oceania"/>
     <tag k="name" v="Indonesia"/>
     <tag k="name:ace" v="Indônèsia"/>
     <tag k="name:af" v="Indonesië"/>
@@ -26354,6 +26492,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/f/f6/Flag_of_Iraq.svg"/>
     <tag k="int_name" v="Iraq"/>
+    <tag k="is_in:continent" v="Asia"/>
     <tag k="name" v="العراق"/>
     <tag k="name:ace" v="Irak"/>
     <tag k="name:af" v="Irak"/>
@@ -26564,16 +26703,17 @@
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/c/ca/Flag_of_Iran.svg"/>
     <tag k="int_name" v="Iran"/>
-    <tag k="name" v="‏ايران‎"/>
+    <tag k="is_in:continent" v="Asia"/>
+    <tag k="name" v="‏ایران‎"/>
     <tag k="name:ace" v="Iran"/>
     <tag k="name:af" v="Iran"/>
     <tag k="name:als" v="Iran"/>
     <tag k="name:am" v="ፋርስ"/>
     <tag k="name:an" v="Irán"/>
     <tag k="name:ang" v="Persealand"/>
-    <tag k="name:ar" v="إيران"/>
+    <tag k="name:ar" v="إیران"/>
     <tag k="name:arc" v="ܐܝܪܐܢ"/>
-    <tag k="name:arz" v="ايران"/>
+    <tag k="name:arz" v="ایران"/>
     <tag k="name:ast" v="Irán"/>
     <tag k="name:az" v="İran"/>
     <tag k="name:ba" v="Иран"/>
@@ -26581,7 +26721,7 @@
     <tag k="name:bat-smg" v="Irans"/>
     <tag k="name:bcl" v="Iran"/>
     <tag k="name:be" v="Іран"/>
-    <tag k="name:be-x-old" v="Іран"/>
+    <tag k="name:be-tarask" v="Іран"/>
     <tag k="name:bg" v="Иран"/>
     <tag k="name:bn" v="ইরান"/>
     <tag k="name:bo" v="ཡི་ལང་།"/>
@@ -26711,7 +26851,7 @@
     <tag k="name:pl" v="Iran"/>
     <tag k="name:pms" v="Iran"/>
     <tag k="name:pnb" v="ایران"/>
-    <tag k="name:ps" v="ايران"/>
+    <tag k="name:ps" v="ایران"/>
     <tag k="name:pt" v="Irão"/>
     <tag k="name:pt-br" v="Irã"/>
     <tag k="name:qu" v="Iran"/>
@@ -26789,8 +26929,8 @@
     <tag k="border_type" v="nation"/>
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/8/89/Flag_of_Yemen.svg"/>
+    <tag k="is_in:continent" v="Asia"/>
     <tag k="name" v="اليمن"/>
-    <tag k="name:Tamazight" v="ⵢⴰⵎⴰⵏ"/>
     <tag k="name:ace" v="Yaman"/>
     <tag k="name:af" v="Jemen"/>
     <tag k="name:als" v="Jemen"/>
@@ -26808,6 +26948,7 @@
     <tag k="name:bcl" v="Yemen"/>
     <tag k="name:be" v="Емен"/>
     <tag k="name:be-tarask" v="Емэн"/>
+    <tag k="name:ber" v="ⵢⴰⵎⴰⵏ"/>
     <tag k="name:bg" v="Йемен"/>
     <tag k="name:bn" v="ইয়েমেন"/>
     <tag k="name:bo" v="ཡེ་མེན།"/>
@@ -26991,10 +27132,12 @@
     <tag k="boundary" v="administrative"/>
     <tag k="capital" v="Doha"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/6/65/Flag_of_Qatar.svg"/>
+    <tag k="is_in:continent" v="Asia"/>
     <tag k="name" v="‏قطر‎"/>
     <tag k="name:af" v="Katar"/>
     <tag k="name:am" v="ቃጣር"/>
     <tag k="name:an" v="Qatar"/>
+    <tag k="name:ar" v="‏قطر‎"/>
     <tag k="name:as" v="কাটাৰ"/>
     <tag k="name:az" v="Qətər"/>
     <tag k="name:be" v="Катар"/>
@@ -27125,6 +27268,7 @@
     <tag k="border_type" v="nation"/>
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/a/aa/Flag_of_Kuwait.svg"/>
+    <tag k="is_in:continent" v="Asia"/>
     <tag k="name" v="‏الكويت‎"/>
     <tag k="name:ace" v="Kuwait"/>
     <tag k="name:af" v="Koeweit"/>
@@ -27312,6 +27456,7 @@
     <tag k="border_type" v="nation"/>
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/d/dd/Flag_of_Oman.svg"/>
+    <tag k="is_in:continent" v="Asia"/>
     <tag k="name" v="عمان"/>
     <tag k="name:ace" v="Oman"/>
     <tag k="name:af" v="Oman"/>
@@ -27498,6 +27643,7 @@
     <tag k="border_type" v="nation"/>
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/2/26/Flag_of_East_Timor.svg"/>
+    <tag k="is_in:continent" v="Asia"/>
     <tag k="name" v="Timór Loro Sa'e"/>
     <tag k="name:af" v="Oos-Timor"/>
     <tag k="name:cs" v="Východní Timor"/>
@@ -27505,6 +27651,7 @@
     <tag k="name:el" v="Ανατολικό Τιμόρ"/>
     <tag k="name:en" v="East Timor"/>
     <tag k="name:fr" v="Timor oriental"/>
+    <tag k="name:hr" v="Istočni Timor"/>
     <tag k="name:lt" v="Rytų Timoras"/>
     <tag k="name:no" v="Øst-Timor"/>
     <tag k="name:pl" v="Timor Wschodni"/>
@@ -27527,6 +27674,7 @@
     <tag k="border_type" v="nation"/>
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/3/32/Flag_of_Pakistan.svg"/>
+    <tag k="is_in:continent" v="Asia"/>
     <tag k="name" v="‏پاکستان‎"/>
     <tag k="name:ace" v="Pakistan"/>
     <tag k="name:af" v="Pakistan"/>
@@ -27746,7 +27894,8 @@
     <tag k="border_type" v="nation"/>
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/0/0d/Flag_of_Saudi_Arabia.svg"/>
-    <tag k="name" v="‏المملكة العربية السعودية‎"/>
+    <tag k="is_in:continent" v="Asia"/>
+    <tag k="name" v="السعودية"/>
     <tag k="name:ace" v="Arab Saudi"/>
     <tag k="name:af" v="Saoedi-Arabië"/>
     <tag k="name:als" v="Saudi-Arabien"/>
@@ -27935,6 +28084,7 @@
     <tag k="name:zh-classical" v="沙特阿拉伯"/>
     <tag k="name:zh-min-nan" v="Saud ê A-la-pek"/>
     <tag k="name:zh-yue" v="沙地阿拉伯"/>
+    <tag k="official_name" v="‏المملكة العربية السعودية‎"/>
     <tag k="timezone" v="Asia/Riyadh"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q851"/>
@@ -28051,6 +28201,7 @@
     <tag k="name:km" v="កូរ៉េខាងត្បូង"/>
     <tag k="name:kn" v="ದಕ್ಷಿಣ ಕೊರಿಯಾ"/>
     <tag k="name:ko" v="대한민국"/>
+    <tag k="name:ko_rm" v="Daehan-minguk"/>
     <tag k="name:krc" v="Корея Республика"/>
     <tag k="name:ks" v="दक्षिण कोरिया"/>
     <tag k="name:ku" v="Korêya Başûr"/>
@@ -28203,6 +28354,7 @@
     <tag k="border_type" v="nation"/>
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/c/cb/Flag_of_the_United_Arab_Emirates.svg"/>
+    <tag k="is_in:continent" v="Asia"/>
     <tag k="name" v="الإمارات العربيّة المتّحدة"/>
     <tag k="name:ace" v="Uni Emirat Arab"/>
     <tag k="name:af" v="Verenigde Arabiese Emirate"/>
@@ -28378,8 +28530,9 @@
     <tag k="name:zh" v="阿拉伯联合酋长国"/>
     <tag k="name:zh-min-nan" v="A-la-pek Liân-ha̍p Thâu-lâng-kok"/>
     <tag k="name:zh-yue" v="阿拉伯聯合酋長國"/>
-    <tag k="old_name:vi" v="Các quốc gia ngừng bắn; Oman ngừng bắn"/>
+    <tag k="old_name:vi" v="Các quốc gia ngừng bắn;Oman ngừng bắn"/>
     <tag k="ref" v="AE"/>
+    <tag k="short_name:ru" v="ОАЭ"/>
     <tag k="state_code" v="AE"/>
     <tag k="timezone" v="Asia/Dubai"/>
     <tag k="type" v="boundary"/>
@@ -28395,6 +28548,7 @@
     <tag k="border_type" v="nation"/>
     <tag k="boundary" v="administrative"/>
     <tag k="description" v="This is the full country, de jure, as recognized by the United Nations"/>
+    <tag k="driving_side" v="left"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/d/d4/Flag_of_Cyprus.svg"/>
     <tag k="is_in:continent" v="Asia"/>
     <tag k="name" v="Κύπρος - Kıbrıs"/>
@@ -28637,6 +28791,7 @@
     <tag k="border_type" v="nation"/>
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/c/c4/Flag_of_Dominica.svg"/>
+    <tag k="is_in:continent" v="North America"/>
     <tag k="name" v="Dominica"/>
     <tag k="name:cs" v="Dominika"/>
     <tag k="name:de" v="Dominica"/>
@@ -28644,6 +28799,7 @@
     <tag k="name:eo" v="Dominiko"/>
     <tag k="name:fr" v="Dominique"/>
     <tag k="name:fy" v="Dominika"/>
+    <tag k="name:hr" v="Dominika"/>
     <tag k="name:lt" v="Dominika"/>
     <tag k="name:nl" v="Dominica"/>
     <tag k="name:ru" v="Доминика"/>
@@ -28668,6 +28824,7 @@
     <tag k="border_type" v="nation"/>
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/9/9f/Flag_of_the_Dominican_Republic.svg"/>
+    <tag k="is_in:continent" v="North America"/>
     <tag k="name" v="República Dominicana"/>
     <tag k="name:af" v="Dominikaanse Republiek"/>
     <tag k="name:als" v="Dominikanische Republik"/>
@@ -28840,6 +28997,7 @@
     <tag k="border_type" v="nation"/>
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/5/56/Flag_of_Haiti.svg"/>
+    <tag k="is_in:continent" v="North America"/>
     <tag k="name" v="Ayiti"/>
     <tag k="name:af" v="Haïti"/>
     <tag k="name:als" v="Haiti"/>
@@ -29030,6 +29188,7 @@
     <tag k="border_type" v="nation"/>
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/b/bd/Flag_of_Cuba.svg"/>
+    <tag k="is_in:continent" v="North America"/>
     <tag k="maritime" v="yes"/>
     <tag k="name" v="Cuba"/>
     <tag k="name:ace" v="Kuba"/>
@@ -29239,6 +29398,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/e/e3/Flag_of_Papua_New_Guinea.svg"/>
     <tag k="int_name" v="Papua New Guinea"/>
+    <tag k="is_in:continent" v="Oceania"/>
     <tag k="name" v="Papua Niugini"/>
     <tag k="name:ace" v="Papua New Guinea"/>
     <tag k="name:af" v="Papoea-Nieu-Guinee"/>
@@ -29403,6 +29563,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/2/2f/Flag_of_Armenia.svg"/>
     <tag k="int_ref" v="AM"/>
+    <tag k="is_in:continent" v="Europe"/>
     <tag k="name" v="Հայաստան"/>
     <tag k="name:ab" v="Ермантәыла"/>
     <tag k="name:ace" v="Armenia"/>
@@ -29630,6 +29791,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/d/dd/Flag_of_Azerbaijan.svg"/>
     <tag k="int_ref" v="AZ"/>
+    <tag k="is_in:continent" v="Europe"/>
     <tag k="name" v="Azərbaycan"/>
     <tag k="name:ab" v="Азербаиџьан"/>
     <tag k="name:ace" v="Azèrbaijan"/>
@@ -29854,6 +30016,7 @@
     <tag k="ISO3166-1:numeric" v="470"/>
     <tag k="admin_level" v="2"/>
     <tag k="boundary" v="administrative"/>
+    <tag k="driving_side" v="left"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/7/73/Flag_of_Malta.svg"/>
     <tag k="int_name" v="Malta"/>
     <tag k="is_in:continent" v="Europe"/>
@@ -29972,7 +30135,7 @@
     <tag k="currency" v="EUR"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/0/03/Flag_of_Italy.svg"/>
     <tag k="int_name" v="Italia"/>
-    <tag k="is_in" v="Europe"/>
+    <tag k="is_in:continent" v="Europe"/>
     <tag k="name" v="Italia"/>
     <tag k="name:ab" v="Италиа"/>
     <tag k="name:ace" v="Itali"/>
@@ -30235,6 +30398,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/1/1c/Flag_of_Jersey.svg"/>
     <tag k="int_name" v="Jersey"/>
+    <tag k="is_in:continent" v="Europe"/>
     <tag k="name" v="Jersey"/>
     <tag k="name:ace" v="Jersey"/>
     <tag k="name:af" v="Jersey"/>
@@ -30351,15 +30515,19 @@
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/2/2c/Flag_of_Bahrain.svg"/>
     <tag k="int_name" v="al-Baḥrayn"/>
+    <tag k="is_in:continent" v="Asia"/>
     <tag k="name" v="‏البحرين‎"/>
+    <tag k="name:ar" v="‏البحرين‎"/>
     <tag k="name:cs" v="Bahrajn"/>
     <tag k="name:de" v="Bahrain"/>
     <tag k="name:en" v="Bahrain"/>
     <tag k="name:fr" v="Bahreïn"/>
     <tag k="name:fy" v="Bachrein"/>
     <tag k="name:hi" v="बहरीन"/>
+    <tag k="name:hr" v="Bahrein"/>
     <tag k="name:kn" v="ಬಹರೇನ್"/>
     <tag k="name:nl" v="Bahrein"/>
+    <tag k="name:pl" v="Bahrajn"/>
     <tag k="name:pt" v="Bahrein"/>
     <tag k="name:ru" v="Бахрейн"/>
     <tag k="name:sk" v="Bahrajn"/>
@@ -30380,7 +30548,9 @@
     <tag k="alt_name:eo" v="Japanujo"/>
     <tag k="alt_name:vi" v="Nhật"/>
     <tag k="boundary" v="administrative"/>
+    <tag k="driving_side" v="left"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/9/9e/Flag_of_Japan.svg"/>
+    <tag k="is_in:continent" v="Asia"/>
     <tag k="name" v="日本"/>
     <tag k="name:ab" v="Иапониа"/>
     <tag k="name:ace" v="Jeupun"/>
@@ -30629,6 +30799,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/9/99/Flag_of_the_Philippines.svg"/>
     <tag k="history" v="retrieved using undelete JOSM plugin"/>
+    <tag k="is_in:continent" v="Asia"/>
     <tag k="name" v="Philippines"/>
     <tag k="name:ace" v="Filipina"/>
     <tag k="name:af" v="Filippyne"/>
@@ -30834,6 +31005,7 @@
     <tag k="admin_level" v="2"/>
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/b/bc/Flag_of_Madagascar.svg"/>
+    <tag k="is_in:continent" v="Africa"/>
     <tag k="maritime" v="yes"/>
     <tag k="name" v="Madagasikara"/>
     <tag k="name:ace" v="Madagaskar"/>
@@ -31098,7 +31270,7 @@
     <tag k="alt_name:ka" v="ტაივანი"/>
     <tag k="alt_name:kbd" v="Хъутей Республикэ"/>
     <tag k="alt_name:kn" v="ಚೀನಿ ಗಣರಾಜ್ಯ"/>
-    <tag k="alt_name:ko" v="중화민국"/>
+    <tag k="alt_name:ko" v="대만"/>
     <tag k="alt_name:la" v="Res publica Sinarum"/>
     <tag k="alt_name:lad" v="Repuvlika de Kina"/>
     <tag k="alt_name:li" v="Republiek China"/>
@@ -31163,6 +31335,7 @@
     <tag k="alt_name:zh-yue" v="中華民國"/>
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/7/72/Flag_of_the_Republic_of_China.svg"/>
+    <tag k="is_in:continent" v="Asia"/>
     <tag k="name" v="臺灣"/>
     <tag k="name:ace" v="Taywan"/>
     <tag k="name:af" v="Taiwan"/>
@@ -31212,6 +31385,7 @@
     <tag k="name:it" v="Taiwan"/>
     <tag k="name:ja" v="台湾"/>
     <tag k="name:kk" v="Тайвань"/>
+    <tag k="name:ko" v="타이완"/>
     <tag k="name:ku" v="Taywan"/>
     <tag k="name:lb" v="Taiwan"/>
     <tag k="name:lij" v="Taiwan"/>
@@ -31383,6 +31557,7 @@
     <tag k="admin_level" v="2"/>
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/3/38/Flag_of_Cape_Verde.svg"/>
+    <tag k="is_in:continent" v="Africa"/>
     <tag k="long_name" v="República de Cabo Verde"/>
     <tag k="name" v="Cabo Verde"/>
     <tag k="name:cs" v="Kapverdy"/>
@@ -31391,6 +31566,7 @@
     <tag k="name:eo" v="Kabo-Verdo"/>
     <tag k="name:fr" v="Cap-Vert"/>
     <tag k="name:fy" v="Kaapverdje"/>
+    <tag k="name:hr" v="Zelenortski Otoci"/>
     <tag k="name:hu" v="Zöld-foki Köztársaság"/>
     <tag k="name:nl" v="Kaapverdië"/>
     <tag k="name:ru" v="Кабо-Верде"/>
@@ -31412,11 +31588,16 @@
     <tag k="admin_level" v="2"/>
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/9/94/Flag_of_the_Comoros.svg"/>
+    <tag k="is_in:continent" v="Africa"/>
     <tag k="name" v="Komori"/>
+    <tag k="name:ar" v="جزر القمر"/>
+    <tag k="name:bnt" v="قمر"/>
+    <tag k="name:bnt_rm" v="Komori"/>
     <tag k="name:cs" v="Komory"/>
     <tag k="name:de" v="Komoren"/>
     <tag k="name:en" v="Comoros"/>
     <tag k="name:fr" v="Comores"/>
+    <tag k="name:hr" v="Komori"/>
     <tag k="name:ru" v="Коморские острова"/>
     <tag k="name:sk" v="Komory"/>
     <tag k="name:sr" v="Комори"/>
@@ -31436,6 +31617,7 @@
     <tag k="admin_level" v="2"/>
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/7/77/Flag_of_Mauritius.svg"/>
+    <tag k="is_in:continent" v="Africa"/>
     <tag k="name" v="Mauritius"/>
     <tag k="name:am" v="ሞሪሸስ"/>
     <tag k="name:an" v="Mauricio"/>
@@ -31540,12 +31722,14 @@
     <tag k="admin_level" v="2"/>
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/4/4f/Flag_of_Sao_Tome_and_Principe.svg"/>
+    <tag k="is_in:continent" v="Africa"/>
     <tag k="name" v="São Tomé e Príncipe"/>
     <tag k="name:cs" v="Svatý Tomáš a Princův ostrov"/>
     <tag k="name:de" v="São Tomé und Príncipe"/>
     <tag k="name:en" v="São Tomé and Príncipe"/>
     <tag k="name:fr" v="Sao Tomé-et-Principe"/>
     <tag k="name:fy" v="Sao Tomee en Prinsipe"/>
+    <tag k="name:hr" v="Sveti Toma i Princip"/>
     <tag k="name:nl" v="Sao Tomé en Principe"/>
     <tag k="name:ru" v="Сан-Томе и Принсипи"/>
     <tag k="name:sk" v="Svätý Tomáš a Princov ostrov"/>
@@ -31553,6 +31737,9 @@
     <tag k="name:ta" v="சாவோ தொமே மற்றும் பிரின்சிப்பி"/>
     <tag k="name:tzl" v="Sant-Tomás-es-Prinç"/>
     <tag k="name:uk" v="Сан-Томе і Принсіпі"/>
+    <tag k="name:zh" v="圣多美和普林西比/聖多美普林西比"/>
+    <tag k="name:zh-CN" v="圣多美和普林西比"/>
+    <tag k="name:zh-TW" v="聖多美普林西比"/>
     <tag k="timezone" v="Africa/Sao_Tome"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q1039"/>
@@ -31568,6 +31755,7 @@
     <tag k="alt_name:pt" v="Seicheles"/>
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/f/fc/Flag_of_Seychelles.svg"/>
+    <tag k="is_in:continent" v="Africa"/>
     <tag k="name" v="Sesel"/>
     <tag k="name:af" v="Seychelle"/>
     <tag k="name:am" v="ሲሸልስ"/>
@@ -31701,20 +31889,127 @@
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/0/0f/Flag_of_Maldives.svg"/>
     <tag k="is_in:continent" v="Asia"/>
     <tag k="name" v="ދިވެހިރާއްޖެ"/>
+    <tag k="name:af" v="Maldive"/>
+    <tag k="name:am" v="ማልዲቭስ"/>
+    <tag k="name:ar" v="ملديف"/>
+    <tag k="name:ast" v="Les Maldives"/>
+    <tag k="name:az" v="Maldiv"/>
+    <tag k="name:be" v="Мальдзівы"/>
+    <tag k="name:bg" v="Малдиви"/>
+    <tag k="name:bm" v="Maldivi"/>
+    <tag k="name:bn" v="মালদ্বীপ"/>
+    <tag k="name:bo" v="མལ་དྭིབ།"/>
+    <tag k="name:br" v="Maldivez"/>
+    <tag k="name:bs" v="Maldivi"/>
+    <tag k="name:ca" v="Maldives"/>
+    <tag k="name:chr" v="ᎹᎵᏗᏫᏍ"/>
     <tag k="name:cs" v="Maledivy"/>
+    <tag k="name:da" v="Maldiverne"/>
     <tag k="name:de" v="Malediven"/>
     <tag k="name:dv" v="ދިވެހިރާއްޖެ"/>
+    <tag k="name:dz" v="མཱལ་དིབས"/>
+    <tag k="name:ee" v="maldivesdukɔ"/>
+    <tag k="name:el" v="Μαλδίβες"/>
     <tag k="name:en" v="Maldives"/>
+    <tag k="name:eo" v="Maldivoj"/>
+    <tag k="name:es" v="Maldivas"/>
+    <tag k="name:et" v="Maldiivid"/>
+    <tag k="name:eu" v="Maldivak"/>
+    <tag k="name:fa" v="مالدیو"/>
+    <tag k="name:ff" v="Maldiiwe"/>
+    <tag k="name:fi" v="Malediivit"/>
+    <tag k="name:fo" v="Maldivuoyggjarnar"/>
     <tag k="name:fr" v="Maldives"/>
-    <tag k="name:fy" v="Maldiven"/>
+    <tag k="name:fur" v="Maldivis"/>
+    <tag k="name:fy" v="de Maldiven"/>
+    <tag k="name:ga" v="Oileáin Mhaildíve"/>
+    <tag k="name:gd" v="Na h-Eileanan Mhaladaibh"/>
+    <tag k="name:gl" v="Maldivas"/>
+    <tag k="name:gu" v="માલદિવ્સ"/>
+    <tag k="name:gv" v="Ny Maldeevaghyn"/>
+    <tag k="name:ha" v="Maldibi"/>
+    <tag k="name:haw" v="Maladiwa"/>
+    <tag k="name:he" v="מלדיבים"/>
+    <tag k="name:hi" v="मालदीव"/>
+    <tag k="name:hr" v="Maldivi"/>
+    <tag k="name:hu" v="Maldív-szigetek"/>
+    <tag k="name:hy" v="Մալդիվներ"/>
+    <tag k="name:id" v="Maladewa"/>
+    <tag k="name:ig" v="Maldivesa"/>
+    <tag k="name:is" v="Maldíveyjar"/>
+    <tag k="name:it" v="Maldive"/>
     <tag k="name:ja" v="モルディブ"/>
-    <tag k="name:nl" v="Maldiven"/>
+    <tag k="name:ka" v="მალდივის კუნძულები"/>
+    <tag k="name:kab" v="Maldib"/>
+    <tag k="name:ki" v="Modivu"/>
+    <tag k="name:km" v="ម៉ាល់ឌីវ"/>
+    <tag k="name:kn" v="ಮಾಲ್ಡಿವ್ಸ್"/>
+    <tag k="name:ko" v="몰디브"/>
+    <tag k="name:ks" v="مالدیٖو"/>
+    <tag k="name:ksh" v="de Mallediive"/>
+    <tag k="name:ku" v="Maldîv"/>
+    <tag k="name:la" v="Insulae Maldivae"/>
+    <tag k="name:lb" v="Malediven"/>
+    <tag k="name:lg" v="Bizinga by'eMalidive"/>
+    <tag k="name:ln" v="Madívɛ"/>
+    <tag k="name:lo" v="ມັນດິຟ"/>
+    <tag k="name:lt" v="Maldyvai"/>
+    <tag k="name:lv" v="Maldīvija"/>
+    <tag k="name:mg" v="Maldiva"/>
+    <tag k="name:mk" v="Малдиви"/>
+    <tag k="name:ml" v="മാലിദ്വീപ്"/>
+    <tag k="name:mn" v="Мальдив"/>
+    <tag k="name:mr" v="मालदीव्ज"/>
+    <tag k="name:ms" v="Maldiv"/>
+    <tag k="name:my" v="မော်လဒိုက်"/>
+    <tag k="name:ne" v="माल्दिभ्स"/>
+    <tag k="name:nl" v="Malediven"/>
+    <tag k="name:nn" v="Maldivane"/>
+    <tag k="name:no" v="Maldivene"/>
+    <tag k="name:or" v="ମାଳଦ୍ବୀପ"/>
+    <tag k="name:pl" v="Malediwy"/>
     <tag k="name:pt" v="Maldivas"/>
+    <tag k="name:rm" v="Maldivas"/>
+    <tag k="name:rn" v="Moludave"/>
+    <tag k="name:ro" v="Maldive"/>
     <tag k="name:ru" v="Мальдивы"/>
+    <tag k="name:se" v="Malediivvat"/>
+    <tag k="name:sg" v="Maldîva"/>
+    <tag k="name:si" v="මාල දිවයින"/>
     <tag k="name:sk" v="Maledivy"/>
-    <tag k="name:ta" v="மாலைத்தீவுகள்"/>
+    <tag k="name:sl" v="Maldivi"/>
+    <tag k="name:so" v="Maaldiqeen"/>
+    <tag k="name:sq" v="Maldivit"/>
+    <tag k="name:sr" v="Малдиви"/>
+    <tag k="name:sv" v="Maldiverna"/>
+    <tag k="name:sw" v="Modivu"/>
+    <tag k="name:ta" v="மாலத்தீவு"/>
+    <tag k="name:te" v="మాల్దీవులు"/>
+    <tag k="name:th" v="ประเทศมัลดีฟส์"/>
+    <tag k="name:ti" v="ማልዲቭስ"/>
+    <tag k="name:to" v="Malativisi"/>
+    <tag k="name:tr" v="Maldivler"/>
+    <tag k="name:tt" v="Мальдивлар"/>
     <tag k="name:tzl" v="Divehins"/>
     <tag k="name:uk" v="Мальдіви"/>
+    <tag k="name:ur" v="مالدیو"/>
+    <tag k="name:vi" v="Maldives"/>
+    <tag k="name:yo" v="Orílẹ́ède Maladifi"/>
+    <tag k="name:zh" v="马尔代夫"/>
+    <tag k="name:zh_pinyin" v="Mǎěrdàifū"/>
+    <tag k="name:zu" v="i-Maldives"/>
+    <tag k="official_name:be" v="Мальдыўская Рэспубліка"/>
+    <tag k="official_name:et" v="Maldiivi Vabariik"/>
+    <tag k="official_name:id" v="Republik Maladewa"/>
+    <tag k="official_name:it" v="Repubblica delle Maledive"/>
+    <tag k="official_name:ku" v="Komara Maldîvan"/>
+    <tag k="official_name:lb" v="Republik Malediven"/>
+    <tag k="official_name:lt" v="Maldyvų Respublika"/>
+    <tag k="official_name:lv" v="Maldīvijas Republika"/>
+    <tag k="official_name:pl" v="Republika Malediwów"/>
+    <tag k="official_name:ru" v="Мальдивская Республика"/>
+    <tag k="official_name:sv" v="Republiken Maldiverna"/>
+    <tag k="population" v="328536"/>
     <tag k="timezone" v="Indian/Maldives"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q826"/>
@@ -31729,6 +32024,7 @@
     <tag k="border_type" v="nation"/>
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/4/48/Flag_of_Singapore.svg"/>
+    <tag k="is_in:continent" v="Asia"/>
     <tag k="name" v="Singapore"/>
     <tag k="name:ace" v="Singapura"/>
     <tag k="name:af" v="Singapoer"/>
@@ -32124,6 +32420,7 @@
     <tag k="admin_level" v="2"/>
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/f/fe/Flag_of_Saint_Kitts_and_Nevis.svg"/>
+    <tag k="is_in:continent" v="North America"/>
     <tag k="name" v="Saint Kitts and Nevis"/>
     <tag k="name:cs" v="Svatý Kryštof a Nevis"/>
     <tag k="name:de" v="St. Kitts und Nevis"/>
@@ -32131,6 +32428,7 @@
     <tag k="name:en" v="Saint Kitts and Nevis"/>
     <tag k="name:eo" v="Sankta-Kito kaj Neviso"/>
     <tag k="name:fr" v="Saint-Christophe-et-Niévès"/>
+    <tag k="name:hr" v="Sveti Kristofor i Nevis"/>
     <tag k="name:hu" v="Saint Kitts és Nevis"/>
     <tag k="name:lt" v="Sent Kitsas ir Nevis"/>
     <tag k="name:ru" v="Сент-Китс и Невис"/>
@@ -32150,6 +32448,7 @@
     <tag k="admin_level" v="2"/>
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/8/89/Flag_of_Antigua_and_Barbuda.svg"/>
+    <tag k="is_in:continent" v="North America"/>
     <tag k="name" v="Antigua and Barbuda"/>
     <tag k="name:ace" v="Antigua ngon Barbuda"/>
     <tag k="name:af" v="Antigua en Barbuda"/>
@@ -32206,7 +32505,7 @@
     <tag k="name:he" v="אנטיגואה וברבודה"/>
     <tag k="name:hi" v="अण्टीगुआ और बारबूडा"/>
     <tag k="name:hif" v="Antigua and Barbuda"/>
-    <tag k="name:hr" v="Antigua i Barbuda"/>
+    <tag k="name:hr" v="Antigva i Barbuda"/>
     <tag k="name:hsb" v="Antigua a Barbuda"/>
     <tag k="name:ht" v="Antigwa ak Babouda"/>
     <tag k="name:hu" v="Antigua és Barbuda"/>
@@ -32316,6 +32615,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="description" v="british overseas territory"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/d/d0/Flag_of_Montserrat.svg"/>
+    <tag k="is_in:continent" v="North America"/>
     <tag k="name" v="Montserrat"/>
     <tag k="name:af" v="Montserrat"/>
     <tag k="name:als" v="Montserrat"/>
@@ -32427,6 +32727,7 @@
     <tag k="alt_name:eo" v="Bahama Insularo"/>
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/9/93/Flag_of_the_Bahamas.svg"/>
+    <tag k="is_in:continent" v="North America"/>
     <tag k="name" v="The Bahamas"/>
     <tag k="name:ca" v="Bahames"/>
     <tag k="name:cs" v="Bahamy"/>
@@ -32435,6 +32736,7 @@
     <tag k="name:eo" v="Bahamoj"/>
     <tag k="name:es" v="Las Bahamas"/>
     <tag k="name:fr" v="Bahamas"/>
+    <tag k="name:hr" v="Bahama"/>
     <tag k="name:hu" v="Bahama-szigetek"/>
     <tag k="name:ru" v="Багамские Острова"/>
     <tag k="name:uk" v="Багамські Острови"/>
@@ -32454,12 +32756,14 @@
     <tag k="boundary" v="administrative"/>
     <tag k="description" v="british overseas territory"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/a/a0/Flag_of_the_Turks_and_Caicos_Islands.svg"/>
+    <tag k="is_in:continent" v="North America"/>
     <tag k="name" v="Turks and Caicos Islands"/>
     <tag k="name:cs" v="Turks a Caicos"/>
     <tag k="name:de" v="Turks- und Caicosinseln"/>
     <tag k="name:en" v="Turks and Caicos Islands"/>
     <tag k="name:eo" v="Turkoj kaj Kajkoj"/>
     <tag k="name:fr" v="Îles Turques-et-Caïques"/>
+    <tag k="name:hr" v="Otočje Turks i Caicos"/>
     <tag k="name:lt" v="Terksas ir Kaikosas"/>
     <tag k="name:ru" v="Тёркс и Кайкос"/>
     <tag k="name:sk" v="Turks a Caicos"/>
@@ -32478,6 +32782,7 @@
     <tag k="admin_level" v="2"/>
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/e/ef/Flag_of_Barbados.svg"/>
+    <tag k="is_in:continent" v="North America"/>
     <tag k="name" v="Barbados"/>
     <tag k="name:botanical" v="Barbados"/>
     <tag k="name:cs" v="Barbados"/>
@@ -32486,6 +32791,7 @@
     <tag k="name:eo" v="Barbado"/>
     <tag k="name:fr" v="Barbade"/>
     <tag k="name:fy" v="Barbados"/>
+    <tag k="name:hr" v="Barbados"/>
     <tag k="name:nl" v="Barbados"/>
     <tag k="name:ru" v="Барбадос"/>
     <tag k="name:sl" v="Barbados"/>
@@ -32505,6 +32811,7 @@
     <tag k="admin_level" v="2"/>
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/6/6d/Flag_of_Saint_Vincent_and_the_Grenadines.svg"/>
+    <tag k="is_in:continent" v="North America"/>
     <tag k="name" v="Saint Vincent and the Grenadines"/>
     <tag k="name:cs" v="Svatý Vincent a Grenadiny"/>
     <tag k="name:de" v="St. Vincent und die Grenadinen"/>
@@ -32512,6 +32819,7 @@
     <tag k="name:en" v="Saint Vincent and the Grenadines"/>
     <tag k="name:eo" v="Sankta-Vincento kaj Grenadinoj"/>
     <tag k="name:fr" v="Saint-Vincent-et-les Grenadines"/>
+    <tag k="name:hr" v="Sveti Vincent i Grenadini"/>
     <tag k="name:lt" v="Sent Vinsentas ir Grenadinai"/>
     <tag k="name:nl" v="Saint Vincent en de Grenadines"/>
     <tag k="name:ru" v="Сент-Винсент и Гренадины"/>
@@ -32531,6 +32839,7 @@
     <tag k="admin_level" v="2"/>
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/b/bc/Flag_of_Grenada.svg"/>
+    <tag k="is_in:continent" v="North America"/>
     <tag k="name" v="Grenada"/>
     <tag k="name:cs" v="Grenada"/>
     <tag k="name:de" v="Grenada"/>
@@ -32538,6 +32847,7 @@
     <tag k="name:eo" v="Grenado"/>
     <tag k="name:fr" v="Grenade"/>
     <tag k="name:fy" v="Grenada"/>
+    <tag k="name:hr" v="Grenada"/>
     <tag k="name:nl" v="Grenada"/>
     <tag k="name:ru" v="Гренада"/>
     <tag k="name:sl" v="Grenada"/>
@@ -32557,6 +32867,7 @@
     <tag k="admin_level" v="2"/>
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/9/9f/Flag_of_Saint_Lucia.svg"/>
+    <tag k="is_in:continent" v="North America"/>
     <tag k="name" v="Saint Lucia"/>
     <tag k="name:cs" v="Svatá Lucie"/>
     <tag k="name:de" v="St. Lucia"/>
@@ -32565,6 +32876,7 @@
     <tag k="name:eo" v="Sankta-Lucio"/>
     <tag k="name:es" v="Santa Lucía"/>
     <tag k="name:fr" v="Sainte-Lucie"/>
+    <tag k="name:hr" v="Sveta Lucija"/>
     <tag k="name:lt" v="Sent Lusija"/>
     <tag k="name:nl" v="Saint Lucia"/>
     <tag k="name:ru" v="Сент-Люсия"/>
@@ -32585,6 +32897,7 @@
     <tag k="border_type" v="nation"/>
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/0/0a/Flag_of_Jamaica.svg"/>
+    <tag k="is_in:continent" v="North America"/>
     <tag k="name" v="Jamaica"/>
     <tag k="name:cs" v="Jamajka"/>
     <tag k="name:de" v="Jamaika"/>
@@ -32592,6 +32905,7 @@
     <tag k="name:eo" v="Jamajko"/>
     <tag k="name:fr" v="Jamaïque"/>
     <tag k="name:fy" v="Jamaika"/>
+    <tag k="name:hr" v="Jamajka"/>
     <tag k="name:nl" v="Jamaica"/>
     <tag k="name:pt" v="Jamaica"/>
     <tag k="name:ru" v="Ямайка"/>
@@ -32612,6 +32926,7 @@
     <tag k="admin_level" v="2"/>
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/6/64/Flag_of_Trinidad_and_Tobago.svg"/>
+    <tag k="is_in:continent" v="North America"/>
     <tag k="name" v="Trinidad and Tobago"/>
     <tag k="name:cs" v="Trinidad a Tobago"/>
     <tag k="name:de" v="Trinidad und Tobago"/>
@@ -32620,6 +32935,7 @@
     <tag k="name:es" v="Trinidad y Tobago"/>
     <tag k="name:fr" v="Trinité-et-Tobago"/>
     <tag k="name:fy" v="Trinidad en Tobago"/>
+    <tag k="name:hr" v="Trinidad i Tobago"/>
     <tag k="name:lt" v="Trinidadas ir Tobagas"/>
     <tag k="name:nl" v="Trinidad en Tobago"/>
     <tag k="name:pt" v="Trindade e Tobago"/>
@@ -32642,6 +32958,7 @@
     <tag k="admin_level" v="2"/>
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/3/3e/Flag_of_New_Zealand.svg"/>
+    <tag k="is_in:continent" v="Oceania"/>
     <tag k="name" v="New Zealand/Aotearoa"/>
     <tag k="name:ace" v="Seulandia Barô"/>
     <tag k="name:af" v="Nieu-Seeland"/>
@@ -32849,12 +33166,14 @@
     <tag k="admin_level" v="2"/>
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/d/d3/Flag_of_Kiribati.svg"/>
+    <tag k="is_in:continent" v="Oceania"/>
     <tag k="name" v="Kiribati"/>
     <tag k="name:cs" v="Kiribati"/>
     <tag k="name:de" v="Kiribati"/>
     <tag k="name:en" v="Kiribati"/>
     <tag k="name:eo" v="Kiribato"/>
     <tag k="name:fr" v="Kiribati"/>
+    <tag k="name:hr" v="Kiribati"/>
     <tag k="name:lt" v="Kiribatis"/>
     <tag k="name:ru" v="Кирибати"/>
     <tag k="name:uk" v="Кірибаті"/>
@@ -32870,6 +33189,7 @@
     <tag k="admin_level" v="2"/>
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/b/ba/Flag_of_Fiji.svg"/>
+    <tag k="is_in:continent" v="Oceania"/>
     <tag k="name" v="Viti"/>
     <tag k="name:ace" v="Fiji"/>
     <tag k="name:af" v="Fidji"/>
@@ -33052,6 +33372,7 @@
     <tag k="name:eo" v="Marŝalaj Insuloj"/>
     <tag k="name:es" v="Islas Marshall"/>
     <tag k="name:fr" v="Îles Marshall"/>
+    <tag k="name:hr" v="Maršalovi Otoci"/>
     <tag k="name:hu" v="Marshall-szigetek"/>
     <tag k="name:ru" v="Маршалловы Острова"/>
     <tag k="name:sk" v="Mashallove ostrovy"/>
@@ -33070,12 +33391,15 @@
     <tag k="admin_level" v="2"/>
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/e/e4/Flag_of_the_Federated_States_of_Micronesia.svg"/>
+    <tag k="is_in:continent" v="Oceania"/>
     <tag k="name" v="Federated States of Micronesia"/>
     <tag k="name:cs" v="Federativní státy Mikronésie"/>
     <tag k="name:de" v="Föderierte Staaten von Mikronesien"/>
     <tag k="name:en" v="Federated States of Micronesia"/>
     <tag k="name:eo" v="Mikronezio"/>
     <tag k="name:fr" v="États fédérés de Micronésie"/>
+    <tag k="name:hr" v="Mikronezija"/>
+    <tag k="name:pl" v="Mikronezja"/>
     <tag k="name:ru" v="Федеративные Штаты Микронезии"/>
     <tag k="name:sk" v="Mikronézia"/>
     <tag k="name:sr" v="Микронезија"/>
@@ -33084,6 +33408,7 @@
     <tag k="name:uk" v="Федеративні Штати Мікронезії"/>
     <tag k="name:vi" v="Liên bang Micronesia"/>
     <tag k="official_name:eo" v="Federaciaj Ŝtatoj de Mikronezio;Federacio de Mikronezio"/>
+    <tag k="official_name:pl" v="Sfederowane Stany Mikronezji"/>
     <tag k="official_name:sk" v="Mikronézske federatívne štáty"/>
     <tag k="official_name:sr" v="Федералне Државе Микронезије"/>
     <tag k="type" v="boundary"/>
@@ -33098,6 +33423,7 @@
     <tag k="admin_level" v="2"/>
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/3/30/Flag_of_Nauru.svg"/>
+    <tag k="is_in:continent" v="Oceania"/>
     <tag k="name" v="Naoero"/>
     <tag k="name:am" v="ናውሩ"/>
     <tag k="name:ar" v="ناورو"/>
@@ -33114,6 +33440,7 @@
     <tag k="name:ga" v="Nárú"/>
     <tag k="name:he" v="נאורו"/>
     <tag k="name:hi" v="नाउरु"/>
+    <tag k="name:hr" v="Nauru"/>
     <tag k="name:is" v="Nárú"/>
     <tag k="name:ml" v="നൗറു"/>
     <tag k="name:mt" v="Nawru"/>
@@ -33136,12 +33463,14 @@
     <tag k="admin_level" v="2"/>
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/4/48/Flag_of_Palau.svg"/>
+    <tag k="is_in:continent" v="Oceania"/>
     <tag k="name" v="Belau"/>
     <tag k="name:cs" v="Palau"/>
     <tag k="name:de" v="Palau"/>
     <tag k="name:en" v="Palau"/>
     <tag k="name:eo" v="Palaŭo"/>
     <tag k="name:fr" v="Palaos"/>
+    <tag k="name:hr" v="Palau"/>
     <tag k="name:lt" v="Palau"/>
     <tag k="name:ru" v="Палау"/>
     <tag k="name:sl" v="Palau"/>
@@ -33688,8 +34017,10 @@
     <tag k="name:en" v="Liechtenstein"/>
     <tag k="name:eo" v="Liĥtenŝtejno"/>
     <tag k="name:fo" v="Liktinstein"/>
-    <tag k="name:fr" v="Principauté du Liechtenstein"/>
+    <tag k="name:fr" v="Liechtenstein"/>
     <tag k="name:fy" v="Lychtenstein"/>
+    <tag k="name:hr" v="Lihtenštajn"/>
+    <tag k="name:it" v="Liechtenstein"/>
     <tag k="name:nds" v="Liechtensteen"/>
     <tag k="name:nl" v="Liechtenstein"/>
     <tag k="name:ru" v="Лихтенштейн"/>
@@ -33699,6 +34030,7 @@
     <tag k="name:uk" v="Ліхтенштейн"/>
     <tag k="official_name" v="Fürstentum Liechtenstein"/>
     <tag k="official_name:eo" v="Princlando Liĥtenŝtejno"/>
+    <tag k="official_name:fr" v="Principauté du Liechtenstein"/>
     <tag k="timezone" v="Europe/Vaduz"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q347"/>
@@ -33871,7 +34203,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="currency" v="EUR"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/3/32/Flag_of_Spain_%28Civil%29.svg"/>
-    <tag k="int_name" v="España"/>
+    <tag k="int_name" v="Spain"/>
     <tag k="is_in:continent" v="Europe"/>
     <tag k="name" v="España"/>
     <tag k="name:ace" v="Seupanyo"/>
@@ -34117,7 +34449,6 @@
     <tag k="official_name:el" v="Βασίλειο της Ισπανίας"/>
     <tag k="official_name:eo" v="Reĝlando Hispanio"/>
     <tag k="official_name:pt" v="Reino de Espanha"/>
-    <tag k="timezone" v="Europe/Madrid"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q29"/>
     <tag k="wikipedia" v="es:España"/>
@@ -34389,6 +34720,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/d/d4/Flag_of_Israel.svg"/>
     <tag k="int_name" v="ישראל"/>
+    <tag k="is_in:continent" v="Asia"/>
     <tag k="name" v="מדינת ישראל"/>
     <tag k="name:ace" v="Israel"/>
     <tag k="name:af" v="Israel"/>
@@ -34440,7 +34772,7 @@
     <tag k="name:et" v="Iisrael"/>
     <tag k="name:eu" v="Israel"/>
     <tag k="name:ext" v="Israel"/>
-    <tag k="name:fa" v="فلسطین اشغالی"/>
+    <tag k="name:fa" v="اسرائیل"/>
     <tag k="name:fi" v="Israel"/>
     <tag k="name:fiu-vro" v="Iisrael"/>
     <tag k="name:fj" v="Isireli"/>
@@ -34489,7 +34821,7 @@
     <tag k="name:ko" v="이스라엘"/>
     <tag k="name:koi" v="Исраэль"/>
     <tag k="name:ksh" v="Israel"/>
-    <tag k="name:ku" v="Îsrael"/>
+    <tag k="name:ku" v="Îsraêl"/>
     <tag k="name:kv" v="Израиль"/>
     <tag k="name:kw" v="Ysrael"/>
     <tag k="name:ky" v="Израиль"/>
@@ -34618,11 +34950,11 @@
     <tag k="alt_name:eo" v="Egiptujo"/>
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/f/fe/Flag_of_Egypt.svg"/>
-    <tag k="int_name" v="Egypten"/>
+    <tag k="int_name" v="Egypt"/>
+    <tag k="is_in:continent" v="Africa"/>
     <tag k="long_name:ar" v="جمهورية مصر العربية"/>
     <tag k="long_name:fr" v="République Arabe d'Égypte"/>
     <tag k="name" v="Egypt مصر"/>
-    <tag k="name:Tamazight" v="ⵎⵉⵙⵔ"/>
     <tag k="name:ab" v="Мысры"/>
     <tag k="name:ace" v="Meusé"/>
     <tag k="name:af" v="Egipte"/>
@@ -34840,6 +35172,7 @@
     <tag k="name:yi" v="עגיפטן"/>
     <tag k="name:yo" v="Ẹ́gíptì"/>
     <tag k="name:zea" v="Ehypte"/>
+    <tag k="name:zgh" v="ⵎⵉⵙⵔ"/>
     <tag k="name:zh" v="埃及"/>
     <tag k="name:zh-classical" v="埃及"/>
     <tag k="name:zh-min-nan" v="Ai-ki̍p"/>
@@ -34861,6 +35194,7 @@
     <tag k="admin_level" v="2"/>
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/3/34/Flag_of_El_Salvador.svg"/>
+    <tag k="is_in:continent" v="North America"/>
     <tag k="name" v="El Salvador"/>
     <tag k="name:Nawat" v="Ne Tamakishtiani"/>
     <tag k="name:ace" v="Èl Salvador"/>
@@ -35039,6 +35373,7 @@
     <tag k="admin_level" v="2"/>
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/e/ec/Flag_of_Guatemala.svg"/>
+    <tag k="is_in:continent" v="North America"/>
     <tag k="name" v="Guatemala"/>
     <tag k="name:ace" v="Guatemala"/>
     <tag k="name:af" v="Guatemala"/>
@@ -35221,6 +35556,7 @@
     <tag k="admin_level" v="2"/>
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/0/01/Flag_of_Niue.svg"/>
+    <tag k="is_in:continent" v="Oceania"/>
     <tag k="name" v="Niuē"/>
     <tag k="name:ar" v="نييوي"/>
     <tag k="name:be" v="Ніуэ"/>
@@ -35231,9 +35567,11 @@
     <tag k="name:el" v="Νιούε"/>
     <tag k="name:en" v="Niue"/>
     <tag k="name:eo" v="Niuo"/>
+    <tag k="name:es" v="Niue"/>
     <tag k="name:fa" v="نیووی"/>
     <tag k="name:fr" v="Niue"/>
     <tag k="name:he" v="ניואה"/>
+    <tag k="name:hr" v="Niue"/>
     <tag k="name:ja" v="ニウエ"/>
     <tag k="name:ka" v="ნიუე"/>
     <tag k="name:kk" v="Ниуе"/>
@@ -35268,6 +35606,7 @@
     <tag k="alt_name:vi" v="Nam Xu-đăng"/>
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/7/7a/Flag_of_South_Sudan.svg"/>
+    <tag k="is_in:continent" v="Africa"/>
     <tag k="name" v="South Sudan"/>
     <tag k="name:af" v="Suid-Soedan"/>
     <tag k="name:als" v="Südsudan"/>
@@ -35431,36 +35770,45 @@
     <tag k="ISO3166-1:alpha3" v="PSE"/>
     <tag k="ISO3166-1:numeric" v="275"/>
     <tag k="admin_level" v="2"/>
+    <tag k="alt_name:ar" v="الأراضي الفلسطينية"/>
+    <tag k="alt_name:ca" v="Territoris Palestins"/>
+    <tag k="alt_name:de" v="Palästinensische Autonomiegebiete"/>
+    <tag k="alt_name:en" v="Palestinian Territories"/>
+    <tag k="alt_name:es" v="Territorios Palestinos"/>
+    <tag k="alt_name:fi" v="Israelin arabien itsehallintoalueet"/>
+    <tag k="alt_name:fr" v="Territoires Palestiniens"/>
+    <tag k="alt_name:pt" v="Territórios Palestinianos"/>
+    <tag k="alt_name:ro" v="Teritoriile palestiniene"/>
+    <tag k="alt_name:ru" v="Территории Палестины"/>
     <tag k="boundary" v="administrative"/>
     <tag k="disputed" v="yes"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/0/00/Flag_of_Palestine.svg"/>
     <tag k="is_in:continent" v="Asia"/>
-    <tag k="name" v="West Bank"/>
-    <tag k="name:ar" v="فلسطین"/>
-    <tag k="name:bs" v="Palestina"/>
+    <tag k="name" v="الأراضي الفلسطينية"/>
+    <tag k="name:ar" v="فلسطين"/>
     <tag k="name:ca" v="Palestina"/>
-    <tag k="name:cs" v="Palestina"/>
     <tag k="name:de" v="Palästina"/>
-    <tag k="name:en" v="West Bank"/>
+    <tag k="name:en" v="Palestine"/>
     <tag k="name:es" v="Palestina"/>
-    <tag k="name:fa" v="فلسطین"/>
+    <tag k="name:fi" v="Palestiina"/>
     <tag k="name:fr" v="Palestine"/>
-    <tag k="name:hr" v="Palestina"/>
-    <tag k="name:nl" v="Palestina"/>
     <tag k="name:pt" v="Palestina"/>
     <tag k="name:ro" v="Palestina"/>
     <tag k="name:ru" v="Палестина"/>
-    <tag k="name:sk" v="Palestína"/>
-    <tag k="name:sl" v="Palestina"/>
-    <tag k="name:sr" v="Палестина"/>
-    <tag k="name:ta" v="பலத்தீன் நாடு"/>
-    <tag k="name:tzl" v="Filastì"/>
-    <tag k="name:uk" v="Палестина"/>
-    <tag k="note" v="http://en.wikipedia.org/wiki/State_of_Palestine#2013_change_of_name"/>
+    <tag k="official_name:ar" v="دولة فلسطين"/>
+    <tag k="official_name:ca" v="Estat de Palestina"/>
+    <tag k="official_name:de" v="Bundesstaat Palästina"/>
+    <tag k="official_name:en" v="State of Palestine"/>
+    <tag k="official_name:es" v="Estado de Palestina"/>
+    <tag k="official_name:fi" v="Palestiinan valtion"/>
+    <tag k="official_name:fr" v="État de Palestine"/>
+    <tag k="official_name:pt" v="Estado da Palestina"/>
+    <tag k="official_name:ro" v="Stat din Palestina"/>
+    <tag k="official_name:ru" v="Государство Палестина"/>
     <tag k="timezone" v="Asia/Gaza"/>
     <tag k="type" v="boundary"/>
-    <tag k="wikidata" v="Q219060"/>
-    <tag k="wikipedia" v="en:West Bank"/>
+    <tag k="wikidata" v="Q407199"/>
+    <tag k="wikipedia" v="en:State of Palestine"/>
   </relation>
   <relation id="1741311">
     <tag k="ISO3166-1" v="RS"/>
@@ -35472,6 +35820,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/f/ff/Flag_of_Serbia.svg"/>
     <tag k="int_name" v="Serbia"/>
+    <tag k="is_in:continent" v="Europe"/>
     <tag k="name" v="Србија"/>
     <tag k="name:ace" v="Sèrbia"/>
     <tag k="name:af" v="Serwië"/>
@@ -35693,6 +36042,7 @@
     <tag k="official_name:sr-Latn" v="Republika Srbija"/>
     <tag k="timezone" v="Europe/Belgrade"/>
     <tag k="type" v="boundary"/>
+    <tag k="wikidata" v="Q403"/>
   </relation>
   <relation id="1857436">
     <tag k="ISO3166-1" v="SB"/>
@@ -35703,6 +36053,7 @@
     <tag k="border_type" v="nation"/>
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/7/74/Flag_of_the_Solomon_Islands.svg"/>
+    <tag k="is_in:continent" v="Oceania"/>
     <tag k="name" v="Solomon Islands"/>
     <tag k="name:ace" v="Pulo-pulo Solomon"/>
     <tag k="name:af" v="Solomoneilande"/>
@@ -35758,7 +36109,7 @@
     <tag k="name:he" v="איי שלמה"/>
     <tag k="name:hi" v="सोलोमन द्वीपसमूह"/>
     <tag k="name:hif" v="Solomon Islands"/>
-    <tag k="name:hr" v="Salomonski Otoci"/>
+    <tag k="name:hr" v="Solomonski Otoci"/>
     <tag k="name:hsb" v="Salomony"/>
     <tag k="name:ht" v="Salomon"/>
     <tag k="name:hu" v="Salamon-szigetek"/>
@@ -35861,7 +36212,8 @@
     <tag k="ISO3166-1:numeric" v="882"/>
     <tag k="admin_level" v="2"/>
     <tag k="boundary" v="administrative"/>
-    <tag k="flag" v="http://commons.wikimedia.org/wiki/File:Flag_of_Samoa.svg"/>
+    <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/3/31/Flag_of_Samoa.svg"/>
+    <tag k="is_in:continent" v="Oceania"/>
     <tag k="name" v="Sāmoa"/>
     <tag k="name:am" v="ሳሞአ"/>
     <tag k="name:ar" v="ساموا"/>
@@ -35894,6 +36246,7 @@
     <tag k="name:ha" v="Samowa"/>
     <tag k="name:he" v="סמואה"/>
     <tag k="name:hi" v="समोआ"/>
+    <tag k="name:hr" v="Samoa"/>
     <tag k="name:hu" v="Szamoa"/>
     <tag k="name:hy" v="Սամոա"/>
     <tag k="name:is" v="Samóa"/>
@@ -35965,6 +36318,7 @@
     <tag k="admin_level" v="2"/>
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/f/fa/Flag_of_Botswana.svg"/>
+    <tag k="is_in:continent" v="Africa"/>
     <tag k="name" v="Botswana"/>
     <tag k="name:ace" v="Botswana"/>
     <tag k="name:af" v="Botswana"/>
@@ -36176,6 +36530,7 @@
     <tag k="name:el" v="Αγία Ελένη, Ασενσιόν και Τριστάν ντα Κούνια"/>
     <tag k="name:en" v="Saint Helena, Ascension and Tristan da Cunha"/>
     <tag k="name:fr" v="Sainte-Hélène, Ascension et Tristan da Cunha"/>
+    <tag k="name:hr" v="Sveta Helena"/>
     <tag k="name:lt" v="Šventoji Elena, Dangun Žengimo ir Tristanas da Kunja"/>
     <tag k="name:pt" v="Santa Helena, Ascensão e Tristão da Cunha"/>
     <tag k="name:ru" v="Острова Святой Елены, Вознесения и Тристан-да-Кунья"/>
@@ -36198,6 +36553,7 @@
     <tag k="admin_level" v="2"/>
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/e/ed/Flag_of_South_Georgia_and_the_South_Sandwich_Islands.svg"/>
+    <tag k="is_in:continent" v="South America"/>
     <tag k="name" v="South Georgia and South Sandwich Islands"/>
     <tag k="name:az" v="Cənubi Georgiya və Cənubi Sandviç adaları"/>
     <tag k="name:be" v="Паўднёвая Джорджыя і Паўднёвыя Сандвічавы астравы"/>
@@ -36216,6 +36572,7 @@
     <tag k="name:fr" v="Géorgie du Sud-et-les Îles Sandwich du Sud"/>
     <tag k="name:fy" v="Súd-Georgje en de Súdlike Sandwicheilannen"/>
     <tag k="name:hi" v="दक्षिण जॉर्जिया एवं दक्षिण सैंडविच द्वीप समूह"/>
+    <tag k="name:hr" v="Južna Georgija i Otočje Južni Sandwich"/>
     <tag k="name:ja" v="サウスジョージア・サウスサンドウィッチ諸島"/>
     <tag k="name:nl" v="Zuid-Georgia en de Zuidelijke Sandwicheilanden"/>
     <tag k="name:nn" v="Sør-Georgia og Sør-Sandwichøyane"/>
@@ -36226,6 +36583,7 @@
     <tag k="name:tr" v="Güney Georgia ve Güney Sandwich Adaları"/>
     <tag k="name:uk" v="Південна Джорджія та Південні Сандвічеві острови"/>
     <tag k="name:zh" v="南喬治亞和南桑威奇群島"/>
+    <tag k="timezone" v="Atlantic/South_Georgia"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q35086"/>
     <tag k="wikipedia" v="en:South Georgia and the South Sandwich Islands"/>
@@ -36239,11 +36597,13 @@
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/b/bf/Flag_of_Bermuda.svg"/>
     <tag k="is_in:archipelago" v="Bermuda Islands"/>
+    <tag k="is_in:continent" v="North America"/>
     <tag k="name" v="Bermuda"/>
     <tag k="name:cs" v="Bermudy"/>
     <tag k="name:de" v="Bermuda"/>
     <tag k="name:en" v="Bermuda"/>
     <tag k="name:fr" v="Bermudes"/>
+    <tag k="name:hr" v="Bermudski Otoci"/>
     <tag k="name:lt" v="Bermuda"/>
     <tag k="name:ru" v="Бермудские острова"/>
     <tag k="name:sr" v="Бермуди"/>
@@ -36312,7 +36672,7 @@
     <tag k="name:ha" v="Yankin Birtaniya Na Tekun Indiya"/>
     <tag k="name:he" v="טריטוריה בריטית באוקיאנוס ההודי"/>
     <tag k="name:hi" v="ब्रिटिश हिंद महासागर क्षेत्र"/>
-    <tag k="name:hr" v="Britanski indijskooceanski teritoriji"/>
+    <tag k="name:hr" v="Britanski Indijskooceanski Teritoriji"/>
     <tag k="name:hu" v="Brit Indiai-óceáni Terület"/>
     <tag k="name:ia" v="Territorio oceanic britanno-indian"/>
     <tag k="name:id" v="Teritorial Britania di Samudra Hindia"/>
@@ -36386,6 +36746,7 @@
     <tag k="admin_level" v="2"/>
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/a/a9/Flag_of_Thailand.svg"/>
+    <tag k="is_in:continent" v="Asia"/>
     <tag k="name" v="ประเทศไทย"/>
     <tag k="name:ace" v="Muang Thai"/>
     <tag k="name:af" v="Thailand"/>
@@ -36493,6 +36854,7 @@
     <tag k="name:map-bms" v="Thailand"/>
     <tag k="name:mg" v="Tailandy"/>
     <tag k="name:mhr" v="Таиланд"/>
+    <tag k="name:mi" v="Tairana"/>
     <tag k="name:min" v="Thailand"/>
     <tag k="name:mk" v="Тајланд"/>
     <tag k="name:ml" v="തായ്‌ലാന്റ്"/>
@@ -36588,29 +36950,35 @@
     <tag k="wikipedia" v="en:Thailand"/>
   </relation>
   <relation id="2088990">
+    <tag k="ISO3166-1" v="XK"/>
     <tag k="ISO3166-1:alpha2" v="XK"/>
     <tag k="ISO3166-1:alpha3" v="XXK"/>
     <tag k="admin_level" v="2"/>
-    <tag k="border_type" v="country"/>
+    <tag k="alt_name" v="Dardania"/>
     <tag k="boundary" v="administrative"/>
     <tag k="capital" v="Prishtina"/>
-    <tag k="currency" v="EUR"/>
-    <tag k="flag" v="https://upload.wikimedia.org/wikipedia/commons/1/1f/Flag_of_Kosovo.svg"/>
+    <tag k="currency" v="Euro"/>
+    <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/1/1f/Flag_of_Kosovo.svg"/>
     <tag k="int_name" v="Kosovo"/>
     <tag k="is_in:continent" v="Europe"/>
-    <tag k="long_name" v="Republika e Kosovës"/>
-    <tag k="long_name:de" v="Republik Kosovo"/>
-    <tag k="long_name:en" v="Republic of Kosovo"/>
-    <tag k="name" v="Kosovë"/>
+    <tag k="name" v="Kosova"/>
+    <tag k="name:am" v="ኮሶቮ"/>
     <tag k="name:ar" v="كوسوفو"/>
+    <tag k="name:az" v="Kosovo"/>
+    <tag k="name:bg" v="Косово"/>
+    <tag k="name:bn" v="কসোভো"/>
     <tag k="name:bo" v="ཁོ་སོ་ཝོ།"/>
+    <tag k="name:bs" v="Kosovo"/>
     <tag k="name:ca" v="Kosovo"/>
     <tag k="name:ce" v="Косово"/>
+    <tag k="name:ceb" v="Kosovo"/>
     <tag k="name:cv" v="Косово"/>
+    <tag k="name:da" v="Kosovo"/>
     <tag k="name:de" v="Kosovo"/>
     <tag k="name:el" v="Κόσοβο"/>
     <tag k="name:en" v="Kosovo"/>
     <tag k="name:eo" v="Kosovo"/>
+    <tag k="name:eu" v="Kosovo"/>
     <tag k="name:fr" v="Kosovo"/>
     <tag k="name:fy" v="Kosovo"/>
     <tag k="name:ga" v="An Chosaiv"/>
@@ -36618,12 +36986,15 @@
     <tag k="name:he" v="קוסובו"/>
     <tag k="name:hr" v="Kosovo"/>
     <tag k="name:hu" v="Koszovó"/>
+    <tag k="name:hy" v="Կոսովոն"/>
     <tag k="name:ja" v="コソボ"/>
     <tag k="name:ka" v="კოსოვო"/>
     <tag k="name:kbd" v="Косово"/>
     <tag k="name:kn" v="ಕೊಸೊವೊ"/>
     <tag k="name:mk" v="Косово"/>
+    <tag k="name:my" v="ကိုဆိုဗို"/>
     <tag k="name:nl" v="Kosovo"/>
+    <tag k="name:ny" v="Kosovo"/>
     <tag k="name:pt" v="Kosovo"/>
     <tag k="name:ru" v="Косово"/>
     <tag k="name:sk" v="Kosovo"/>
@@ -36643,11 +37014,8 @@
     <tag k="official_name:de" v="Republik Kosovo"/>
     <tag k="official_name:eo" v="Respubliko Kosovo"/>
     <tag k="official_name:sq" v="Republika e Kosovës"/>
-    <tag k="place" v="country"/>
-    <tag k="population" v="1.800.000"/>
-    <tag k="short_name" v="Kosovë"/>
+    <tag k="short_name" v="Kosova"/>
     <tag k="short_name:en" v="Kosovo"/>
-    <tag k="timezone" v="Europe/Berlin"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q1246"/>
     <tag k="wikipedia" v="en:Kosovo"/>
@@ -36835,7 +37203,9 @@
     <tag k="name:yi" v="לעסאטא"/>
     <tag k="name:yo" v="Lèsóthò"/>
     <tag k="name:zea" v="Lesotho"/>
-    <tag k="name:zh" v="莱索托"/>
+    <tag k="name:zh" v="莱索托/賴索托"/>
+    <tag k="name:zh-Hans-cn" v="莱索托"/>
+    <tag k="name:zh-Hant-tw" v="賴索托"/>
     <tag k="name:zh-min-nan" v="Lesotho"/>
     <tag k="name:zh-yue" v="萊索托"/>
     <tag k="name:zu" v="OSotho"/>
@@ -36863,6 +37233,7 @@
     <tag k="driving_side" v="left"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/9/9c/Flag_of_Brunei.svg"/>
     <tag k="int_name" v="Brunei"/>
+    <tag k="is_in:continent" v="Asia"/>
     <tag k="name" v="Brunei Darussalam"/>
     <tag k="name:ar" v="بروناي"/>
     <tag k="name:cs" v="Brunej"/>
@@ -36870,6 +37241,7 @@
     <tag k="name:en" v="Brunei"/>
     <tag k="name:es" v="Brunéi"/>
     <tag k="name:fr" v="Brunei"/>
+    <tag k="name:hr" v="Brunej"/>
     <tag k="name:ja" v="ブルネイ"/>
     <tag k="name:ms" v="Brunei Darussalam"/>
     <tag k="name:ms-jawi" v="بروني دارالسلام"/>
@@ -37336,6 +37708,7 @@
     <tag k="admin_level" v="2"/>
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/b/b4/Flag_of_Anguilla.svg"/>
+    <tag k="is_in:continent" v="North America"/>
     <tag k="name" v="Anguilla"/>
     <tag k="name:af" v="Anguilla"/>
     <tag k="name:als" v="Anguilla"/>
@@ -37433,6 +37806,7 @@
     <tag k="name:zh" v="安圭拉"/>
     <tag k="name:zh-min-nan" v="Anguilla"/>
     <tag k="name:zh-yue" v="安圭拉"/>
+    <tag k="timezone" v="America/Anguilla"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q25228"/>
     <tag k="wikipedia" v="en:Anguilla"/>
@@ -37445,6 +37819,7 @@
     <tag k="admin_level" v="2"/>
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/b/bc/Flag_of_Vanuatu.svg"/>
+    <tag k="is_in:continent" v="Oceania"/>
     <tag k="maritime" v="yes"/>
     <tag k="name" v="Vanuatu"/>
     <tag k="name:ab" v="Вануату"/>
@@ -37465,6 +37840,7 @@
     <tag k="name:gd" v="Bhanuatu"/>
     <tag k="name:he" v="ונואטו"/>
     <tag k="name:hi" v="वानूअतु"/>
+    <tag k="name:hr" v="Vanuatu"/>
     <tag k="name:ht" v="Vanwatou"/>
     <tag k="name:hy" v="Վանուատու"/>
     <tag k="name:is" v="Vanúatú"/>
@@ -37510,6 +37886,7 @@
     <tag k="official_name:ru" v="Республика Вануату"/>
     <tag k="population" v="234023"/>
     <tag k="population:date" v="2009"/>
+    <tag k="timezone" v="Pacific/Efate"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q686"/>
     <tag k="wikipedia" v="bi:Ripablik blong Vanuatu"/>
@@ -37557,6 +37934,7 @@
     <tag k="name:ha" v="Tubalu"/>
     <tag k="name:he" v="טובלו"/>
     <tag k="name:hi" v="तुवालु"/>
+    <tag k="name:hr" v="Tuvalu"/>
     <tag k="name:hu" v="Tuvalu"/>
     <tag k="name:hy" v="Տուվալու"/>
     <tag k="name:is" v="Túvalú"/>
@@ -37600,12 +37978,11 @@
     <tag k="name:zu" v="i-Tuvalu"/>
     <tag k="old_name" v="Ellice Islands"/>
     <tag k="population" v="10000"/>
+    <tag k="timezone" v="Pacific/Funafuti"/>
     <tag k="type" v="boundary"/>
     <tag k="url" v="http://www.timelesstuvalu.com/"/>
     <tag k="wikidata" v="Q672"/>
-    <tag k="wikipedia" v="en:Tuvalu"/>
-    <tag k="wikipedia:de" v="Tuvalu"/>
-    <tag k="wikipedia:en" v="Tuvalu"/>
+    <tag k="wikipedia" v="de:Tuvalu"/>
   </relation>
   <relation id="2184073">
     <tag k="ISO3166-1" v="GL"/>
@@ -37617,6 +37994,7 @@
     <tag k="alt_name:pt" v="Groenlândia"/>
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/0/09/Flag_of_Greenland.svg"/>
+    <tag k="is_in:continent" v="North America"/>
     <tag k="name" v="Kalaallit Nunaat"/>
     <tag k="name:af" v="Groenland"/>
     <tag k="name:als" v="Grönland"/>
@@ -37773,6 +38151,7 @@
     <tag k="name:zh-min-nan" v="Chheⁿ-tē"/>
     <tag k="name:zh-yue" v="格陵蘭"/>
     <tag k="population" v="57564"/>
+    <tag k="sqkm" v="2166086"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q223"/>
     <tag k="wikipedia" v="en:Greenland"/>
@@ -37835,7 +38214,7 @@
     <tag k="name:ha" v="Tsibiran Kuku"/>
     <tag k="name:he" v="איי קוק"/>
     <tag k="name:hi" v="कुक द्वीपसमूह"/>
-    <tag k="name:hr" v="Cookovi otoci"/>
+    <tag k="name:hr" v="Cookovi Otoci"/>
     <tag k="name:hu" v="Cook-szigetek"/>
     <tag k="name:ia" v="Insulas Cook"/>
     <tag k="name:id" v="Kepulauan Cook"/>
@@ -37965,7 +38344,7 @@
     <tag k="name:ha" v="Tsibiran Kaiman"/>
     <tag k="name:he" v="איי קיימן"/>
     <tag k="name:hi" v="केमैन द्वीपसमूह"/>
-    <tag k="name:hr" v="Kajmanski otoci"/>
+    <tag k="name:hr" v="Kajmanski Otoci"/>
     <tag k="name:hu" v="Kajmán-szigetek"/>
     <tag k="name:ia" v="Insulas de Caiman"/>
     <tag k="name:id" v="Kepulauan Cayman"/>
@@ -38027,6 +38406,7 @@
     <tag k="name:zh" v="开曼群岛"/>
     <tag k="name:zu" v="i-Cayman Islands"/>
     <tag k="population" v="49035"/>
+    <tag k="timezone" v="America/Cayman"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q5785"/>
     <tag k="wikipedia" v="en:Cayman Islands"/>
@@ -38041,11 +38421,11 @@
     <tag k="capital_city" v="Stanley"/>
     <tag k="country_code" v="FLK"/>
     <tag k="disputed" v="yes"/>
-    <tag k="flag" v="administrative"/>
-    <tag k="int_name" v="Islas Malvinas"/>
+    <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/8/83/Flag_of_the_Falkland_Islands.svg"/>
+    <tag k="int_name" v="Falkland Islands (Malvinas)"/>
     <tag k="is_in:continent" v="South America"/>
     <tag k="maritime" v="yes"/>
-    <tag k="name" v="Islas Malvinas"/>
+    <tag k="name" v="Falkland Islands"/>
     <tag k="name:af" v="Falklandeilande"/>
     <tag k="name:ak" v="Fɔlkman Aeland"/>
     <tag k="name:am" v="ፎክላንድ ደሴቶች (ኢስላስ ማልቪናስ)"/>
@@ -38155,7 +38535,7 @@
     <tag k="name:zh" v="福克兰群岛"/>
     <tag k="name:zu" v="i-Falkland Islands (i-Islas Malvinas)"/>
     <tag k="note:name" v="OSM policy is that the 'name' to be used is that spoken by the inhabitants. Plural. Malvinas is the Spanish name, and is entered in name:es. The UN naming convention is shown as 'int_name'"/>
-    <tag k="official_name" v="Islas Malvinas"/>
+    <tag k="official_name" v="Falkland Islands"/>
     <tag k="official_name:en" v="Falkland Islands"/>
     <tag k="official_name:es" v="Islas Malvinas"/>
     <tag k="official_name:fr" v="Îles Falkland (Îles Malouines)"/>
@@ -38174,6 +38554,7 @@
     <tag k="admin_level" v="2"/>
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/8/88/Flag_of_the_Pitcairn_Islands.svg"/>
+    <tag k="is_in:continent" v="Oceania"/>
     <tag k="maritime" v="yes"/>
     <tag k="name" v="Pitcairn Islands"/>
     <tag k="name:cs" v="Pitcairnovy ostrovy"/>
@@ -38181,10 +38562,12 @@
     <tag k="name:en" v="Pitcairn Islands"/>
     <tag k="name:eo" v="Pitkarna Insularo"/>
     <tag k="name:fr" v="Îles Pitcairn"/>
+    <tag k="name:hr" v="Pitcairnovo Otočje"/>
     <tag k="name:lt" v="Pitkerno salos"/>
     <tag k="name:ru" v="Острова Питкэрн"/>
     <tag k="name:uk" v="Острови Піткерн"/>
     <tag k="place" v="archipelago"/>
+    <tag k="timezone" v="Pacific/Pitcairn"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q35672"/>
     <tag k="wikipedia" v="en:Pitcairn Islands"/>
@@ -38232,6 +38615,7 @@
     <tag k="name:ha" v="Takelau"/>
     <tag k="name:he" v="טוקלאו"/>
     <tag k="name:hi" v="तोकेलाउ"/>
+    <tag k="name:hr" v="Tokelau"/>
     <tag k="name:hu" v="Tokelau-szigetek"/>
     <tag k="name:is" v="Tókelá"/>
     <tag k="name:ja" v="トケラウ"/>
@@ -38255,6 +38639,7 @@
     <tag k="name:no" v="Tokelau"/>
     <tag k="name:or" v="ଟୋକେଲାଉ"/>
     <tag k="name:pl" v="Tokelau"/>
+    <tag k="name:pt" v="Toquelau"/>
     <tag k="name:rn" v="Tokelawu"/>
     <tag k="name:ru" v="Токелау"/>
     <tag k="name:si" v="ටොකලාවු"/>
@@ -38283,6 +38668,7 @@
     <tag k="admin_level" v="2"/>
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/9/9a/Flag_of_Tonga.svg"/>
+    <tag k="is_in:continent" v="Oceania"/>
     <tag k="maratine" v="yes"/>
     <tag k="name" v="Tonga"/>
     <tag k="name:ace" v="Tonga"/>
@@ -38725,6 +39111,7 @@
     <tag k="official_name:lt" v="Prancūzijos Respublika"/>
     <tag k="official_name:nl" v="Franse Republiek"/>
     <tag k="official_name:pt" v="República Francesa"/>
+    <tag k="official_name:ru" v="Французская Республика"/>
     <tag k="official_name:sk" v="Francúzska republika"/>
     <tag k="official_name:sl" v="Francoska republika"/>
     <tag k="official_name:sr" v="Република Француска"/>
@@ -38884,7 +39271,7 @@
     <tag k="name:nds-nl" v="Nederlaand"/>
     <tag k="name:ne" v="नेदरल्याण्ड्स"/>
     <tag k="name:new" v="नेदरल्यान्द्स्"/>
-    <tag k="name:nl" v="Koninkrijk der Nederlanden"/>
+    <tag k="name:nl" v="Nederland"/>
     <tag k="name:nn" v="Nederland"/>
     <tag k="name:no" v="Nederland"/>
     <tag k="name:nov" v="Nederlande"/>
@@ -38995,9 +39382,9 @@
     <tag k="boundary" v="administrative"/>
     <tag k="currency" v="XAF"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/4/4b/Flag_of_Chad.svg"/>
+    <tag k="is_in:continent" v="Africa"/>
     <tag k="long_name:ar" v="جمهوريّة تشاد"/>
     <tag k="name" v="Tchad تشاد"/>
-    <tag k="name:Tamazight" v="ⵜⵛⴰⴷ"/>
     <tag k="name:ace" v="Chad"/>
     <tag k="name:af" v="Tsjad"/>
     <tag k="name:als" v="Tschad"/>
@@ -39176,6 +39563,7 @@
     <tag k="name:xal" v="Чадигин Орн"/>
     <tag k="name:yi" v="טשאד"/>
     <tag k="name:yo" v="Tsad"/>
+    <tag k="name:zgh" v="ⵜⵛⴰⴷ"/>
     <tag k="name:zh" v="乍得"/>
     <tag k="name:zh-min-nan" v="Tchad"/>
     <tag k="name:zh-yue" v="乍得"/>
@@ -39195,6 +39583,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/b/bf/Flag_of_Bosnia_and_Herzegovina.svg"/>
     <tag k="int_name" v="Bosnia / Herzegovina"/>
+    <tag k="is_in:continent" v="Europe"/>
     <tag k="name" v="Bosna i Hercegovina"/>
     <tag k="name:ace" v="Bosnia Hèrzègovina"/>
     <tag k="name:af" v="Bosnië-Herzegowina"/>
@@ -39405,6 +39794,20 @@
     <tag k="wikidata" v="Q225"/>
     <tag k="wikipedia" v="en:Bosnia and Herzegovina"/>
   </relation>
+  <relation id="2713465">
+    <tag k="admin_level" v="2"/>
+    <tag k="boundary" v="disputed"/>
+    <tag k="claimed_by" v="IN"/>
+    <tag k="name" v="阿克赛钦 / Aksai Chin / अक्साई चिन"/>
+    <tag k="name:en" v="Aksai Chin"/>
+    <tag k="name:hi" v="अक्साई चिन"/>
+    <tag k="name:ur" v="اکسائی چن"/>
+    <tag k="name:zh" v="阿克赛钦"/>
+    <tag k="name:zh_pinyin" v="Ākèsàiqīn"/>
+    <tag k="type" v="boundary"/>
+    <tag k="wikidata" v="Q230830"/>
+    <tag k="wikipedia" v="en:Aksai Chin"/>
+  </relation>
   <relation id="2850940">
     <tag k="admin_level" v="2"/>
     <tag k="border_type" v="territorial"/>
@@ -39423,7 +39826,7 @@
     <tag k="alt_name:eo" v="Norvegujo"/>
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/d/d9/Flag_of_Norway.svg"/>
-    <tag k="int_name" v="Norge"/>
+    <tag k="int_name" v="Norway"/>
     <tag k="name" v="Norge"/>
     <tag k="name:ace" v="Norwègia"/>
     <tag k="name:af" v="Noorweë"/>
@@ -39665,6 +40068,8 @@
     <tag k="alt_name:ru" v="Акротири и Декелия"/>
     <tag k="alt_name:tr" v="Ağrotur ve Dikelya"/>
     <tag k="boundary" v="administrative"/>
+    <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/a/ae/Flag_of_the_United_Kingdom.svg"/>
+    <tag k="is_in:continent" v="Europe"/>
     <tag k="is_in:country" v="United Kingdom"/>
     <tag k="name" v="British Sovereign Base Areas"/>
     <tag k="name:ast" v="Bases soberanes d'Acrotiri y Dhekelia"/>
@@ -39680,9 +40085,137 @@
     <tag k="official_name:ru" v="Военные базы Акротири и Декелия"/>
     <tag k="official_name:tr" v="Ağrotur ve Dikelya İngiliz Egemen Üsleri"/>
     <tag k="short_name:en" v="SBA"/>
+    <tag k="timezone" v="Asia/Nicosia"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q37362"/>
     <tag k="wikipedia" v="en:Akrotiri and Dhekelia"/>
+  </relation>
+  <relation id="3407643">
+    <tag k="ISO3166-1" v="NC"/>
+    <tag k="ISO3166-1:alpha2" v="NC"/>
+    <tag k="ISO3166-1:alpha3" v="NCL"/>
+    <tag k="ISO3166-1:numeric" v="540"/>
+    <tag k="ISO3166-2" v="FR-NC"/>
+    <tag k="admin_level" v="2"/>
+    <tag k="border_type" v="territorial"/>
+    <tag k="boundary" v="territorial"/>
+    <tag k="currency" v="XPF"/>
+    <tag k="description" v="France, territoires régis par les articles 76 et 77 de la Constitution"/>
+    <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/2/23/Flag_of_New_Caledonia.svg"/>
+    <tag k="int_name" v="New Caledonia"/>
+    <tag k="is_in:continent" v="Oceania"/>
+    <tag k="is_in:country" v="France"/>
+    <tag k="is_in:country_code" v="FR"/>
+    <tag k="is_in:ocean" v="Pacific"/>
+    <tag k="name" v="Nouvelle-Calédonie"/>
+    <tag k="name:af" v="Nieu-Caledonia"/>
+    <tag k="name:ak" v="Kaledonia Foforo"/>
+    <tag k="name:am" v="ኒው ካሌዶኒያ"/>
+    <tag k="name:ar" v="كاليدونيا الجديدة"/>
+    <tag k="name:ast" v="Nueva Caledonia"/>
+    <tag k="name:az" v="Yeni Kaledoniya"/>
+    <tag k="name:be" v="Новая Каледонія"/>
+    <tag k="name:bg" v="Нова Каледония"/>
+    <tag k="name:bm" v="Kaledoni Koura"/>
+    <tag k="name:bn" v="নিউ ক্যালেডোনিয়া"/>
+    <tag k="name:br" v="Kaledonia Nevez"/>
+    <tag k="name:bs" v="Nova Kaledonija"/>
+    <tag k="name:ca" v="Nova Caledònia"/>
+    <tag k="name:chr" v="ᎢᏤ ᎧᎵᏙᏂᎠᏂ"/>
+    <tag k="name:cs" v="Nová Kaledonie"/>
+    <tag k="name:cy" v="Caledonia Newydd"/>
+    <tag k="name:da" v="Ny Kaledonien"/>
+    <tag k="name:de" v="Neukaledonien"/>
+    <tag k="name:dz" v="ནིའུ་ཀ་ལི་དོ་ནི་ཡ"/>
+    <tag k="name:ee" v="New Kaledonia nutome"/>
+    <tag k="name:el" v="Νέα Καληδονία"/>
+    <tag k="name:en" v="New Caledonia"/>
+    <tag k="name:eo" v="Nov-Kaledonio"/>
+    <tag k="name:es" v="Nueva Caledonia"/>
+    <tag k="name:et" v="Uus-Kaledoonia"/>
+    <tag k="name:eu" v="Kaledonia Berria"/>
+    <tag k="name:fa" v="کالدونیای جدید"/>
+    <tag k="name:ff" v="Nuwel Kaledonii"/>
+    <tag k="name:fi" v="Uusi-Kaledonia"/>
+    <tag k="name:fo" v="Ný-Kaledonia"/>
+    <tag k="name:fr" v="Nouvelle-Calédonie"/>
+    <tag k="name:fur" v="Gnove Caledonie"/>
+    <tag k="name:ga" v="An Nua-Chaladóin"/>
+    <tag k="name:gd" v="Cailleann Nuadh"/>
+    <tag k="name:gl" v="Nova Caledonia"/>
+    <tag k="name:gu" v="ન્યુ સેલેડોનિયા"/>
+    <tag k="name:ha" v="Kaledoniya Sabuwa"/>
+    <tag k="name:he" v="קלדוניה החדשה"/>
+    <tag k="name:hi" v="न्यू कैलेडोनिया"/>
+    <tag k="name:hr" v="Nova Kaledonija"/>
+    <tag k="name:hu" v="Új-Kaledónia"/>
+    <tag k="name:ia" v="Nove Caledonia"/>
+    <tag k="name:id" v="Kaledonia Baru"/>
+    <tag k="name:is" v="Nýja-Kaledónía"/>
+    <tag k="name:it" v="Nuova Caledonia"/>
+    <tag k="name:ja" v="ニューカレドニア"/>
+    <tag k="name:ka" v="ახალი კალედონია"/>
+    <tag k="name:kab" v="Kalidunya Tamaynut"/>
+    <tag k="name:ki" v="Nyukaledonia"/>
+    <tag k="name:kl" v="Nutaaq Caledonia"/>
+    <tag k="name:km" v="ញូកាឡេដូនៀ"/>
+    <tag k="name:kn" v="ನ್ಯೂ ಕ್ಯಾಲಿಡೋನಿಯಾ"/>
+    <tag k="name:ko" v="뉴 칼레도니아"/>
+    <tag k="name:ks" v="نِو کیلِڑونِیا"/>
+    <tag k="name:ksh" v="Neuschottland"/>
+    <tag k="name:ku" v="Kaledonyaya Nû"/>
+    <tag k="name:la" v="Nova Caledonia"/>
+    <tag k="name:lg" v="Kaledonya mupya"/>
+    <tag k="name:ln" v="Kaledoni ya sika"/>
+    <tag k="name:lo" v="ນິວຄາລິໂດເນຍ"/>
+    <tag k="name:lt" v="Naujoji Kaledonija"/>
+    <tag k="name:lv" v="Jaunkaledonija"/>
+    <tag k="name:mk" v="Нова Каледонија"/>
+    <tag k="name:ml" v="പുതിയ കാലിഡോണിയ"/>
+    <tag k="name:mn" v="Шинэ Каледони"/>
+    <tag k="name:mr" v="न्यू कॅलेडोनिया"/>
+    <tag k="name:ms" v="New Caledonia"/>
+    <tag k="name:mt" v="New Caledonia"/>
+    <tag k="name:my" v="နယူး ကယ်လီဒိုနီးယား"/>
+    <tag k="name:ne" v="नयाँ कालेडोनिया"/>
+    <tag k="name:nl" v="Nieuw-Caledonië"/>
+    <tag k="name:nn" v="Ny-Caledonia"/>
+    <tag k="name:no" v="Ny-Caledonia"/>
+    <tag k="name:or" v="ନୂତନ କାଲେଡୋନିଆ"/>
+    <tag k="name:pl" v="Nowa Kaledonia"/>
+    <tag k="name:pt" v="Nova Caledônia"/>
+    <tag k="name:rm" v="Nova Caledonia"/>
+    <tag k="name:rn" v="Niyukaledoniya"/>
+    <tag k="name:ro" v="Noua Caledonie"/>
+    <tag k="name:ru" v="Новая Каледония"/>
+    <tag k="name:se" v="Ođđa-Kaledonia"/>
+    <tag k="name:sg" v="Finî Kaledonïi"/>
+    <tag k="name:si" v="නව කැලිඩෝනියාව"/>
+    <tag k="name:sk" v="Nová Kaledónia"/>
+    <tag k="name:sl" v="Nova Kaledonija"/>
+    <tag k="name:sn" v="New Caledonia"/>
+    <tag k="name:so" v="New Caledonia"/>
+    <tag k="name:sr" v="Нова Каледонија"/>
+    <tag k="name:sv" v="Nya Kaledonien"/>
+    <tag k="name:sw" v="Nyukaledonia"/>
+    <tag k="name:ta" v="நியூ கேலிடோனியா"/>
+    <tag k="name:te" v="క్రొత్త కాలెడోనియా"/>
+    <tag k="name:th" v="นิวแคลิโดเนีย"/>
+    <tag k="name:ti" v="ኒው ካሌዶኒያ"/>
+    <tag k="name:to" v="Niu Kaletōnia"/>
+    <tag k="name:tr" v="Yeni Kaledonya"/>
+    <tag k="name:uk" v="Нова Каледонія"/>
+    <tag k="name:ur" v="نیو کلیڈونیا"/>
+    <tag k="name:vi" v="Tân Đảo"/>
+    <tag k="name:yo" v="Orílẹ́ède Kaledonia Titun"/>
+    <tag k="name:zh" v="新喀里多尼亚"/>
+    <tag k="name:zu" v="i-New Caledonia"/>
+    <tag k="population" v="245580"/>
+    <tag k="ref:INSEE" v="988"/>
+    <tag k="timezone" v="Pacific/Noumea"/>
+    <tag k="type" v="boundary"/>
+    <tag k="wikidata" v="Q33788"/>
+    <tag k="wikipedia" v="fr:Nouvelle-Calédonie"/>
   </relation>
   <relation id="3630439">
     <tag k="ISO3166-1" v="MA"/>
@@ -39691,14 +40224,14 @@
     <tag k="ISO3166-1:numeric" v="504"/>
     <tag k="admin_level" v="2"/>
     <tag k="alt_name" v="Maroc ⴰⵎⵔⵔⵓⴽ المغرب"/>
-    <tag k="alt_name:Tamazight" v="ⵍⵎⵖⵔⵉⴱ"/>
     <tag k="alt_name:ber" v="ⵍⵎⵖⵔⵉⴱ"/>
     <tag k="alt_name:vi" v="Ma Rốc"/>
+    <tag k="alt_name:zgh" v="ⵍⵎⵖⵔⵉⴱ"/>
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/2/2c/Flag_of_Morocco.svg"/>
     <tag k="int_name" v="Morocco ⴰⵎⵔⵔⵓⴽ المغرب"/>
+    <tag k="is_in:continent" v="Africa"/>
     <tag k="name" v="Maroc ⵍⵎⵖⵔⵉⴱ المغرب"/>
-    <tag k="name:Tamazight" v="ⴰⵎⵔⵔⵓⴽ"/>
     <tag k="name:ar" v="المغرب"/>
     <tag k="name:arz" v="المغرب"/>
     <tag k="name:ast" v="Marruecos"/>
@@ -39869,6 +40402,7 @@
     <tag k="name:yi" v="מאראקא"/>
     <tag k="name:yo" v="Mòrókò"/>
     <tag k="name:zea" v="Marokko"/>
+    <tag k="name:zgh" v="ⴰⵎⵔⵔⵓⴽ"/>
     <tag k="name:zh" v="摩洛哥"/>
     <tag k="name:zh-classical" v="摩洛哥"/>
     <tag k="name:zh-min-nan" v="Morocco"/>
@@ -39903,7 +40437,7 @@
     <tag k="claimed_by" v="IN"/>
     <tag k="dispute" v="yes"/>
     <tag k="disputed_by" v="PK;CN"/>
-    <tag k="name" v="Extent of Indian Claim"/>
+    <tag k="name" v="Extent of Rightful Indian Claim"/>
     <tag k="name:de" v="Größe des indischen Anspruchs"/>
     <tag k="type" v="boundary"/>
   </relation>
@@ -39923,6 +40457,26 @@
     <tag k="name" v="Extent of Pakistani Claim"/>
     <tag k="type" v="boundary"/>
   </relation>
+  <relation id="5441968">
+    <tag k="admin_level" v="2"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="fixme" v="raw guess, has to be fixed later"/>
+    <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/2/26/Flag_of_the_Sahrawi_Arab_Democratic_Republic.svg"/>
+    <tag k="is_in:continent" v="Africa"/>
+    <tag k="name" v="Sahrawi Arab Democratic Republic"/>
+    <tag k="name:ar" v="الجمهورية العربية الصحراوية الديمقراطية‎‎"/>
+    <tag k="name:de" v="Demokratische Arabische Republik Sahara"/>
+    <tag k="name:en" v="Sahrawi Arab Democratic Republic"/>
+    <tag k="name:es" v="República Árabe Saharaui Democrática"/>
+    <tag k="name:fr" v="République arabe sahraouie démocratique"/>
+    <tag k="name:it" v="Repubblica Araba Democratica dei Sahrawi"/>
+    <tag k="name:lt" v="Sacharos Arabų Demokratinė Respublika"/>
+    <tag k="name:nl" v="Arabische Democratische Republiek Sahara"/>
+    <tag k="name:ru" v="Сахарская Арабская Демократическая Республика"/>
+    <tag k="type" v="boundary"/>
+    <tag k="wikidata" v="Q40362"/>
+    <tag k="wikipedia" v="en:Sahrawi Arab Democratic Republic"/>
+  </relation>
   <relation id="5993770">
     <tag k="admin_level" v="2"/>
     <tag k="boundary" v="aboriginal_lands"/>
@@ -39933,18 +40487,37 @@
     <tag k="source" v="GeoBase"/>
     <tag k="type" v="boundary"/>
     <tag k="website" v="http://clss.nrcan.gc.ca/map-carte-eng.php?can=69078RB"/>
+    <tag k="wikidata" v="Q4426709"/>
     <tag k="wikipedia" v="en:Nunavut_Land_Claims_Agreement"/>
   </relation>
   <relation id="6094952">
     <tag k="admin_level" v="2"/>
-    <tag k="boundary" v="Disputed"/>
+    <tag k="boundary" v="disputed"/>
     <tag k="name" v="extent of Indian claim"/>
     <tag k="type" v="boundary"/>
   </relation>
   <relation id="6094953">
     <tag k="admin_level" v="2"/>
-    <tag k="boundary" v="Disputed"/>
+    <tag k="boundary" v="disputed"/>
     <tag k="name" v="extent of Nepalese claim"/>
+    <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="6858045">
+    <tag k="admin_level" v="2"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="currency" v="BTC"/>
+    <tag k="name" v="Liberland"/>
+    <tag k="notes" v="unrecognized"/>
+    <tag k="official_name" v="Free Republic of Liberland"/>
+    <tag k="place" v="country"/>
+    <tag k="type" v="boundary"/>
+    <tag k="wikidata" v="Q19801186"/>
+    <tag k="wikipedia" v="en:Liberland"/>
+  </relation>
+  <relation id="7048537">
+    <tag k="admin_level" v="2"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="中国"/>
     <tag k="type" v="boundary"/>
   </relation>
   <way id="52947809">
