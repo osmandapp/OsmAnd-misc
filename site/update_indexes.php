@@ -31,7 +31,7 @@ function updateIndexes($update=false) {
 		// Open a known directory, and proceed to read its contents
 	
     loadIndexesFromDir($output, $outputIndexes, 'indexes/', 'region', 'map');
-    loadIndexesFromDir($output, $outputIndexes, 'fonts/', 'fonts', 'fonts');
+    loadIndexesFromDir($output, $outputIndexes, 'indexes/fonts/', 'fonts', 'fonts');
 
     loadIndexesFromDir($output, $outputIndexes, 'wiki/', 'wiki', 'wikimap');
     loadIndexesFromDir($output, $outputIndexes, 'road-indexes/', 'road_region', 'road_map');
