@@ -76,8 +76,8 @@ function dwFile($filename,$query,$type) {
     $record = @geoip_record_by_name($_SERVER['REMOTE_ADDR']);
     
     
-    if($type == "osmc" or $type == "aosmc") {
-	downloadFile($filename);
+    if($type == "osmc" or $type == "aosmc" or $type == "fonts" or $type == "inapp") {
+		downloadFile($filename);
     } else if($record and $record['country_code'] == 'US' and 
 		$helpServersUSCount > 0 and $simple and $var < (100 - $mainServersUSLoad)) {
 		$url = $helpServersUS[$var % $helpServersUSCount];

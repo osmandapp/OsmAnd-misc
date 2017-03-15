@@ -68,6 +68,10 @@ use UnitedPrototype\GoogleAnalytics;
     dwFile('hillshade/'.$file, 'hillshade=yes&file='.$file, "hillshade");
  } else if(isset($_GET['tour'])){
     dwFile('tours/'.$file, 'tour=yes&file='.$file, "tour");
+ } else if(isset($_GET['inapp'])){
+    dwFile('indexes/inapp/'.$_GET['inapp'].'/'.$file, 'inapp='.$_GET['inapp'].'&file='.$file, "inapp");   
+ } else if(isset($_GET['fonts'])){
+    dwFile('indexes/fonts/'.$file, 'fonts=yes&file='.$file, "fonts");      
  } else if (count($res) > 0) {
  	 $node = $res[0];
    dwFile('indexes/'.$file, 'standard=yes&file='.$file, ""); 	 
