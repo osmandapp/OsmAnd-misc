@@ -32,7 +32,7 @@ function updateIndexes($update=false) {
 	
     loadIndexesFromDir($output, $outputIndexes, 'indexes/', 'region', 'map');
     loadIndexesFromDir($output, $outputIndexes, 'indexes/fonts/', 'fonts', 'fonts');
-    loadIndexesFromDir($output, $outputIndexes, 'indexes/inapp/depth/', 'depth', 'inapp');
+    loadIndexesFromDir($output, $outputIndexes, 'indexes/inapp/depth/', 'inapp', 'depth');
 
     loadIndexesFromDir($output, $outputIndexes, 'wiki/', 'wiki', 'wikimap');
     loadIndexesFromDir($output, $outputIndexes, 'road-indexes/', 'road_region', 'road_map');
