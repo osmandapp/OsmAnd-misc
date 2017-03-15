@@ -65,7 +65,7 @@ function dwFile($filename,$query,$type) {
     //$helpServersUS = array("162.243.111.59");
     $helpServers= array();
     $helpServersUS= array();
-    $mainServers = array("dl2.osmand.net", "dl3.osmand.net");
+    $mainServers = array( "dl3.osmand.net"); // "dl2.osmand.net",
     $mainServersLoad = 100;
     $mainServersUSLoad = 100;
 
@@ -76,7 +76,7 @@ function dwFile($filename,$query,$type) {
     $record = @geoip_record_by_name($_SERVER['REMOTE_ADDR']);
     
     
-    if($type == "osmc" or $type == "aosmc" or true) {
+    if($type == "osmc" or $type == "aosmc") {
 	downloadFile($filename);
     } else if($record and $record['country_code'] == 'US' and 
 		$helpServersUSCount > 0 and $simple and $var < (100 - $mainServersUSLoad)) {
