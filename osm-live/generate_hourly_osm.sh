@@ -30,7 +30,7 @@ NSTART_DAY=$(date +'%Y' -d "$NEXT")-$(date +'%m' -d "$NEXT")-$(date +'%d' -d "$N
 END_DATE="${NSTART_DAY}T${NSTART_TIME}:00Z"
 echo "Query between $START_DATE and $END_DATE"
 QUERY="
-[timeout:1800]
+[timeout:1800][maxsize:2000000000]
 [adiff:\"$START_DATE\",\"$END_DATE\"];
 (
 	node(changed:\"$START_DATE\",\"$END_DATE\");
@@ -43,6 +43,11 @@ QUERY="
 echo $QUERY | /home/overpass/osm3s/bin/osm3s_query | gzip -vc > /home/osm-planet/aosmc/$FILENAME.osm.gz 
 TZ=UTC touch -c -d "$START_DATE" /home/osm-planet/aosmc/$FILENAME.osm.gz
 
+gunzip -c /home/osm-planet/aosmc/$FILENAME.osm.gz | grep "<\/osm>" > /dev/null
+if [ $? = 1 ]; then
+	echo "Overpass query /home/osm-planet/aosmc/$FILENAME.osm.gz failed!"
+	exit 1;
+fi
 
 java -XX:+UseParallelGC -Xmx8096M -Xmn256M \
 -Djava.util.logging.config.file=tools/obf-generation/batch-logging.properties \
