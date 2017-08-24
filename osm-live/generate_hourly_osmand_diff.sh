@@ -26,6 +26,8 @@ NSTART_TIME=$(date +'%H' -d "$NEXT"):$(date +'%M' -d "$NEXT")
 NSTART_DAY=$(date +'%Y' -d "$NEXT")-$(date +'%m' -d "$NEXT")-$(date +'%d' -d "$NEXT")
 END_DATE="${NSTART_DAY}T${NSTART_TIME}:00Z"
 FILENAME_END="$(echo $END_DATE | tr '-' _)"
+FILENAME_START=start
+FILENAME_END=start
 echo "Query between $START_DATE and $END_DATE"
 QUERY_START="
 [timeout:1800][maxsize:2000000000]
