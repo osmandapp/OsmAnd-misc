@@ -14,7 +14,7 @@ while [ ! "$END_DAY $END_TIME" ==  "$START_DAY $START_TIME" ]; do
 
 
 START_DATE="${START_DAY}T${START_TIME}:00Z"
-NEXT="$START_DAY $START_TIME 5 minutes"
+NEXT="$START_DAY $START_TIME 30 minutes"
 
 NSTART_TIME=$(date +'%H' -d "$NEXT"):$(date +'%M' -d "$NEXT")
 NSTART_DAY=$(date +'%Y' -d "$NEXT")-$(date +'%m' -d "$NEXT")-$(date +'%d' -d "$NEXT")
@@ -25,6 +25,7 @@ END_DATE="${NSTART_DAY}T${NSTART_TIME}:00Z"
 FILENAME_START=Diff-start
 FILENAME_END=Diff-end
 FILENAME_DIFF="$(echo $START_DAY-${START_TIME} | tr '-' _ | tr ':' _ )"
+FINAL_FILE=$RESULT_DIR/diff/$START_DAY/$FILENAME_DIFF.obf.gz
 
 DB_SEC=$(date -u --date="$(curl http://builder.osmand.net:8081/api/timestamp)" "+%s")
 END_SEC=$(date -u --date="$END_DATE" "+%s")
@@ -85,7 +86,9 @@ OsmAndMapCreator/utilities.sh generate-map $FILENAME_END.osm
 OsmAndMapCreator/utilities.sh generate-obf-diff \
 $FILENAME_START.obf $FILENAME_END.obf $FILENAME_DIFF.diff.obf
 
-mv $FILENAME_DIFF.diff.obf $RESULT_DIR/
+gzip -c $FILENAME_DIFF.diff.obf > $FINAL_FILE
+TZ=UTC touch -c -d "$START_DATE" $FINAL_FILE
+
 rm -r *.osm
 rm -r *.obf
 
