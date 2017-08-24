@@ -62,8 +62,8 @@ QUERY_END="
 (node(w.a);.a) ->.a;
 	.a out geom meta;
 "
-mkdir $BUFFER_DIR/start/$FOLDERNAME
-mkdir $BUFFER_DIR/end/$FOLDERNAME
+mkdir -p $BUFFER_DIR/start/$FOLDERNAME
+mkdir -p $BUFFER_DIR/end/$FOLDERNAME
 echo $QUERY_START | /home/overpass/osm3s/bin/osm3s_query | gzip -vc > $BUFFER_DIR/start/$FOLDERNAME/$FILENAME_START.osm.gz 
 TZ=UTC touch -c -d "$START_DATE" $BUFFER_DIR/start/$FOLDERNAME/$FILENAME_START.osm.gz
 
