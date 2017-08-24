@@ -26,7 +26,7 @@ FILENAME_START=start
 FILENAME_END=end
 
 DB_SEC=$(date -u --date="$(curl http://builder.osmand.net:8081/api/timestamp)" "+%s")
-END_SEC=$(date -u --date="$END_DAY $END_TIME" "+%s")
+END_SEC=$(date -u --date="$END_DATE" "+%s")
 if [ $END_SEC \> $DB_SEC ]; then      
   echo "END date is in the future of database!!!"
   exit 1;
