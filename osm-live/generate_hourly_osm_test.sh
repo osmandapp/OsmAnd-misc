@@ -76,20 +76,8 @@ if [ $? = 1 ]; then
 	echo "Overpass query /home/osm-planet/aosmc/$FILENAME_END.osm.gz failed!"		
 	exit 1;
 fi
-
-java -XX:+UseParallelGC -Xmx8096M -Xmn256M \
--Djava.util.logging.config.file=tools/obf-generation/batch-logging.properties \
--cp "OsmAndMapCreator/OsmAndMapCreator.jar:OsmAndMapCreator/lib/OsmAnd-core.jar:OsmAndMapCreator/lib/*.jar" \
-net.osmand.MainUtilities \
-generate_map \
-$BUFFER_DIR/$FILENAME_START.osm
-
-java -XX:+UseParallelGC -Xmx8096M -Xmn256M \
--Djava.util.logging.config.file=tools/obf-generation/batch-logging.properties \
--cp "OsmAndMapCreator/OsmAndMapCreator.jar:OsmAndMapCreator/lib/OsmAnd-core.jar:OsmAndMapCreator/lib/*.jar" \
-net.osmand.MainUtilities \
-generate_map \
-$BUFFER_DIR/$FILENAME_END.osm
+OsmAndMapCreator/utilities.sh generate_map $BUFFER_DIR/$FILENAME_START.osm
+OsmAndMapCreator/utilities.sh generate_map $BUFFER_DIR/$FILENAME_END.osm
 
 gunzip -c $BUFFER_DIR/$FILENAME_START.obf.gz
 gunzip -c $BUFFER_DIR/$FILENAME_END.obf.gz
@@ -104,7 +92,6 @@ $BUFFER_DIR/$FOLDERNAME_END/$FILENAME_END.obf \
 $RESULT_DIR
 
 rm -r $BUFFER_DIR
-
 
 START_DAY=$NSTART_DAY
 START_TIME=$NSTART_TIME
