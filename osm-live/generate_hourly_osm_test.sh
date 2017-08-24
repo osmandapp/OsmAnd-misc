@@ -30,8 +30,6 @@ NSTART_TIME=$(date +'%H' -d "$NEXT"):$(date +'%M' -d "$NEXT")
 NSTART_DAY=$(date +'%Y' -d "$NEXT")-$(date +'%m' -d "$NEXT")-$(date +'%d' -d "$NEXT")
 END_DATE="${NSTART_DAY}T${NSTART_TIME}:00Z"
 FILELENAME_END="$(echo $END_DATE | tr '-' _)"
-FOLDERNAME_START="$(echo $FILENAME_START | cut -c1-10)"
-FOLDERNAME_END="$(echo $FOLDERNAME_START | sed s/7/8/4)"
 echo "Query between $START_DATE and $END_DATE"
 QUERY_START="
 [timeout:1800][maxsize:2000000000]
@@ -63,16 +61,16 @@ QUERY_END="
 (node(w.a);.a) ->.a;
 	.a out geom meta;
 "
-mkdir -p $BUFFER_DIR/$FOLDERNAME_START
-mkdir -p $BUFFER_DIR/$FOLDERNAME_END
-echo $QUERY_START | /home/overpass/osm3s/bin/osm3s_query | gzip -vc > $BUFFER_DIR/$FOLDERNAME_START/$FILENAME_START.osm.gz 
+mkdir -p $BUFFER_DIR
+
+echo $QUERY_START | /home/overpass/osm3s/bin/osm3s_query | gzip -vc > $BUFFER_DIR/$FILENAME_START.osm.gz 
 TZ=UTC touch -c -d "$START_DATE" $BUFFER_DIR/$FOLDERNAME_START/$FILENAME_START.osm.gz
 
-echo $QUERY_END | /home/overpass/osm3s/bin/osm3s_query | gzip -vc > $BUFFER_DIR/$FOLDERNAME_END/$FILENAME_END.osm.gz 
+echo $QUERY_END | /home/overpass/osm3s/bin/osm3s_query | gzip -vc > $BUFFER_DIR/$FILENAME_END.osm.gz 
 TZ=UTC touch -c -d "$END_DATE" $BUFFER_DIR/$FOLDERNAME_END/$FILENAME_END.osm.gz 
 
-#gunzip -c $BUFFER_DIR/$FOLDERNAME/$FILENAME_START.osm.gz | grep "<\/osm>" > /dev/null
-#gunzip -c $BUFFER_DIR/$FOLDERNAME/$FILENAME_END.osm.gz | grep "<\/osm>" > /dev/null
+gunzip -c $BUFFER_DIR/$FILENAME_START.osm.gz | grep "<\/osm>" > /dev/null
+gunzip -c $BUFFER_DIR/$FILENAME_END.osm.gz | grep "<\/osm>" > /dev/null
 if [ $? = 1 ]; then
 	echo "Overpass query /home/osm-planet/aosmc/$FILENAME_START.osm.gz failed!"
 	echo "Overpass query /home/osm-planet/aosmc/$FILENAME_END.osm.gz failed!"		
@@ -82,21 +80,27 @@ fi
 java -XX:+UseParallelGC -Xmx8096M -Xmn256M \
 -Djava.util.logging.config.file=tools/obf-generation/batch-logging.properties \
 -cp "OsmAndMapCreator/OsmAndMapCreator.jar:OsmAndMapCreator/lib/OsmAnd-core.jar:OsmAndMapCreator/lib/*.jar" \
-net.osmand.data.diff.GenerateDailyObf \
-/var/lib/overpass_queries/
+net.osmand.MainUtilities \
+generate_map \
+$BUFFER_DIR/$FILENAME_START.osm
 
-OBF_NAME_START="Osmlive_$(echo $FOLDERNAME_START | cut -c3-4)_$(echo $FOLDERNAME | cut -c5-10).obf.gz"
-OBF_NAME_END="Osmlive_$(echo $FOLDERNAME_END | cut -c3-4)_$(echo $FOLDERNAME | cut -c5-10).obf.gz"
-gunzip -c $BUFFER_DIR/$FOLDERNAME_START/$OBF_NAME_START.obf.gz
-gunzip -c $BUFFER_DIR/$FOLDERNAME_END/$OBF_NAME_END.obf.gz
+java -XX:+UseParallelGC -Xmx8096M -Xmn256M \
+-Djava.util.logging.config.file=tools/obf-generation/batch-logging.properties \
+-cp "OsmAndMapCreator/OsmAndMapCreator.jar:OsmAndMapCreator/lib/OsmAnd-core.jar:OsmAndMapCreator/lib/*.jar" \
+net.osmand.MainUtilities \
+generate_map \
+$BUFFER_DIR/$FILENAME_END.osm
+
+gunzip -c $BUFFER_DIR/$FILENAME_START.obf.gz
+gunzip -c $BUFFER_DIR/$FILENAME_END.obf.gz
 
 java -XX:+UseParallelGC -Xmx8096M -Xmn256M \
 -Djava.util.logging.config.file=tools/obf-generation/batch-logging.properties \
 -cp "OsmAndMapCreator/OsmAndMapCreator.jar:OsmAndMapCreator/lib/OsmAnd-core.jar:OsmAndMapCreator/lib/*.jar" \
 net.osmand.data.diff.DailyDiffGenerator \
 -gen \
-$BUFFER_DIR/$FOLDERNAME_START/$OBF_NAME_START.obf \
-$BUFFER_DIR/$FOLDERNAME_END/$OBF_NAME_END.obf \
+$BUFFER_DIR/$FOLDERNAME_START/$FILENAME_START.obf \
+$BUFFER_DIR/$FOLDERNAME_END/$FILENAME_END.obf \
 $RESULT_DIR
 
 rm -r $BUFFER_DIR
