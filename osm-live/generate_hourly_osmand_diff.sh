@@ -25,7 +25,9 @@ END_DATE="${NSTART_DAY}T${NSTART_TIME}:00Z"
 FILENAME_START=Diff-start
 FILENAME_END=Diff-end
 FILENAME_DIFF="$(echo $START_DAY-${START_TIME} | tr '-' _ | tr ':' _ )"
-FINAL_FILE=$RESULT_DIR/diff/$START_DAY/$FILENAME_DIFF.obf.gz
+FINAL_FOLDER=$RESULT_DIR/diff/$START_DAY/
+FINAL_FILE=$FINAL_FOLDER/$FILENAME_DIFF.obf.gz
+mkdir -p $FINAL_FOLDER
 
 DB_SEC=$(date -u --date="$(curl http://builder.osmand.net:8081/api/timestamp)" "+%s")
 END_SEC=$(date -u --date="$END_DATE" "+%s")
@@ -90,6 +92,7 @@ gzip -c $FILENAME_DIFF.diff.obf > $FINAL_FILE
 TZ=UTC touch -c -d "$START_DATE" $FINAL_FILE
 
 rm -r *.osm
+rm -r *.rtree*
 rm -r *.obf
 
 START_DAY=$NSTART_DAY
