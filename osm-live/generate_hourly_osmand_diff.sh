@@ -9,25 +9,30 @@ END_TIME=${END[1]}
 START_DAY=${START[0]}
 START_TIME=${START[1]}
 
-DB_SEC=$(date -u --date="$(curl http://builder.osmand.net:8081/api/timestamp)" "+%s")
-END_SEC=$(date -u --date="$END_DAY $END_TIME" "+%s")
-if [ $END_SEC \> $DB_SEC ]; then      
-	echo "END date is in the future of database!!!"
-	exit 1;
-fi;
 chmod +x OsmAndMapCreator/utilities.sh
 while [ ! "$END_DAY $END_TIME" ==  "$START_DAY $START_TIME" ]; do
 
 
 START_DATE="${START_DAY}T${START_TIME}:00Z"
-FILENAME_START="$(echo $START_DATE | tr '-' _)"
-NEXT="$START_DAY $START_TIME 5 minutes"
+
+NEXT="$START_DAY $START_TIME 2 minutes"
 NSTART_TIME=$(date +'%H' -d "$NEXT"):$(date +'%M' -d "$NEXT")
 NSTART_DAY=$(date +'%Y' -d "$NEXT")-$(date +'%m' -d "$NEXT")-$(date +'%d' -d "$NEXT")
 END_DATE="${NSTART_DAY}T${NSTART_TIME}:00Z"
-FILENAME_END="$(echo $END_DATE | tr '-' _)"
+
+#FILENAME_START="$(echo $START_DATE | tr '-' _)"
+#FILENAME_END="$(echo $END_DATE | tr '-' _)"
 FILENAME_START=start
-FILENAME_END=start
+FILENAME_END=end
+
+DB_SEC=$(date -u --date="$(curl http://builder.osmand.net:8081/api/timestamp)" "+%s")
+END_SEC=$(date -u --date="$END_DAY $END_TIME" "+%s")
+if [ $END_SEC \> $DB_SEC ]; then      
+  echo "END date is in the future of database!!!"
+  exit 1;
+fi;
+
+
 echo "Query between $START_DATE and $END_DATE"
 QUERY_START="
 [timeout:1800][maxsize:2000000000]
