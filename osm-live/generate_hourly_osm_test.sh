@@ -31,7 +31,7 @@ NSTART_DAY=$(date +'%Y' -d "$NEXT")-$(date +'%m' -d "$NEXT")-$(date +'%d' -d "$N
 END_DATE="${NSTART_DAY}T${NSTART_TIME}:00Z"
 FILELENAME_END="$(echo $END_DATE | tr '-' _)"
 FOLDERNAME_START="$(echo $FILENAME_START | cut -c1-10)"
-FOLDERNAME_END=echo $FOLDERNAME_START | sed s/7/8/10
+FOLDERNAME_END="echo $FOLDERNAME_START | sed s/7/8/4"
 echo "Query between $START_DATE and $END_DATE"
 QUERY_START="
 [timeout:1800][maxsize:2000000000]
