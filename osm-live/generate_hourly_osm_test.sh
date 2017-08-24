@@ -83,7 +83,7 @@ java -XX:+UseParallelGC -Xmx8096M -Xmn256M \
 -Djava.util.logging.config.file=tools/obf-generation/batch-logging.properties \
 -cp "OsmAndMapCreator/OsmAndMapCreator.jar:OsmAndMapCreator/lib/OsmAnd-core.jar:OsmAndMapCreator/lib/*.jar" \
 net.osmand.data.diff.GenerateDailyObf \
-/var/lib/overpass_queries/
+/var/lib/jenkins/overpass_queries
 
 OBF_NAME_START="Osmlive_$(echo $FOLDERNAME_START | cut -c3-4)_$(echo $FOLDERNAME | cut -c5-10).obf.gz"
 OBF_NAME_END="Osmlive_$(echo $FOLDERNAME_END | cut -c3-4)_$(echo $FOLDERNAME | cut -c5-10).obf.gz"
