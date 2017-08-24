@@ -1,4 +1,4 @@
-#!/bin/bash -x
+#!/bin/bash -xe
 # INITIAL
 #rm -rf /home/osm-planet/aosmc/*
 #echo "2016-04-01 00:00" > /home/osm-planet/aosmc/.proc_timestamp
