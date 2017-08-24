@@ -91,9 +91,9 @@ $FILENAME_START.obf $FILENAME_END.obf $FILENAME_DIFF.diff.obf
 gzip -c $FILENAME_DIFF.diff.obf > $FINAL_FILE
 TZ=UTC touch -c -d "$START_DATE" $FINAL_FILE
 
-rm -r *.osm
-rm -r *.rtree*
-rm -r *.obf
+rm -r *.osm || true
+rm -r *.rtree* || true
+rm -r *.obf || true
 
 START_DAY=$NSTART_DAY
 START_TIME=$NSTART_TIME
