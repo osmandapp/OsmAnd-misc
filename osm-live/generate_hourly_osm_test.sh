@@ -1,4 +1,5 @@
 #!/bin/bash -xe
+RESULT_DIR="/home/osm-planet/osmlive_test"
 START=($1)
 END=($2)
 echo "Current timestamp $END"
@@ -14,12 +15,13 @@ if [ $END_SEC \> $DB_SEC ]; then
 	echo "END date is in the future of database!!!"
 	exit 1;
 fi;
-
+chmod +x OsmAndMapCreator/utilities.sh
 while [ ! "$END_DAY $END_TIME" ==  "$START_DAY $START_TIME" ]; do
-RESULT_DIR="/home/osm-planet/osmlive_test"
+
+
 START_DATE="${START_DAY}T${START_TIME}:00Z"
 FILENAME_START="$(echo $START_DATE | tr '-' _)"
-NEXT="$START_DAY $START_TIME 30 minutes"
+NEXT="$START_DAY $START_TIME 5 minutes"
 NSTART_TIME=$(date +'%H' -d "$NEXT"):$(date +'%M' -d "$NEXT")
 NSTART_DAY=$(date +'%Y' -d "$NEXT")-$(date +'%m' -d "$NEXT")-$(date +'%d' -d "$NEXT")
 END_DATE="${NSTART_DAY}T${NSTART_TIME}:00Z"
