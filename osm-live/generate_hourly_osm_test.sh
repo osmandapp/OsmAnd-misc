@@ -56,14 +56,14 @@ QUERY_END="
 	.a out geom meta;
 "
 
-echo $QUERY_START | /home/overpass/osm3s/bin/osm3s_query | gzip -vc > $BUFFER_DIR/$FILENAME_START.osm.gz 
+echo $QUERY_START | /home/overpass/osm3s/bin/osm3s_query | gzip -vc > $FILENAME_START.osm.gz 
 TZ=UTC touch -c -d "$START_DATE" $FILENAME_START.osm.gz
 
-echo $QUERY_END | /home/overpass/osm3s/bin/osm3s_query | gzip -vc > $BUFFER_DIR/$FILENAME_END.osm.gz 
+echo $QUERY_END | /home/overpass/osm3s/bin/osm3s_query | gzip -vc > $FILENAME_END.osm.gz 
 TZ=UTC touch -c -d "$END_DATE" $FILENAME_END.osm.gz 
 
-gunzip -c $BUFFER_DIR/$FILENAME_START.osm.gz | grep "<\/osm>" > /dev/null
-gunzip -c $BUFFER_DIR/$FILENAME_END.osm.gz | grep "<\/osm>" > /dev/null
+gunzip -c $FILENAME_START.osm.gz | grep "<\/osm>" > /dev/null
+gunzip -c $FILENAME_END.osm.gz | grep "<\/osm>" > /dev/null
 if [ $? = 1 ]; then
 	echo "Overpass query /home/osm-planet/aosmc/$FILENAME_START.osm.gz failed!"
 	echo "Overpass query /home/osm-planet/aosmc/$FILENAME_END.osm.gz failed!"		
