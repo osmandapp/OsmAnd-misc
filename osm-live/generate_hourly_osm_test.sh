@@ -71,8 +71,8 @@ fi
 if ! grep -q "<\/osm>"  $FILENAME_END.osm; then
    exit 1;
 fi
-OsmAndMapCreator/utilities.sh generate_map $FILENAME_START.osm
-OsmAndMapCreator/utilities.sh generate_map $FILENAME_END.osm
+OsmAndMapCreator/utilities.sh generate-map $FILENAME_START.osm
+OsmAndMapCreator/utilities.sh generate-map $FILENAME_END.osm
 
 java -XX:+UseParallelGC -Xmx8096M -Xmn256M \
 -Djava.util.logging.config.file=tools/obf-generation/batch-logging.properties \
