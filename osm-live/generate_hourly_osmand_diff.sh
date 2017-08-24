@@ -24,7 +24,7 @@ END_DATE="${NSTART_DAY}T${NSTART_TIME}:00Z"
 #FILENAME_END="$(echo $END_DATE | tr '-' _)"
 FILENAME_START=Diff-start
 FILENAME_END=Diff-end
-FILENAME_DIFF="$(echo $START_DATE | tr '-' _)"
+FILENAME_DIFF="$(echo $START_DAY-${START_TIME} | tr '-' _ | tr ':' _ )"
 
 DB_SEC=$(date -u --date="$(curl http://builder.osmand.net:8081/api/timestamp)" "+%s")
 END_SEC=$(date -u --date="$END_DATE" "+%s")
