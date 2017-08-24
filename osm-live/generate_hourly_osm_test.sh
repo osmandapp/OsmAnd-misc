@@ -30,7 +30,8 @@ NSTART_TIME=$(date +'%H' -d "$NEXT"):$(date +'%M' -d "$NEXT")
 NSTART_DAY=$(date +'%Y' -d "$NEXT")-$(date +'%m' -d "$NEXT")-$(date +'%d' -d "$NEXT")
 END_DATE="${NSTART_DAY}T${NSTART_TIME}:00Z"
 FILELENAME_END="$(echo $END_DATE | tr '-' _)"
-FOLDERNAME="$(echo $FILENAME_START | cut -c1-10)"
+FOLDERNAME_START="$(echo $FILENAME_START | cut -c1-10)"
+FOLDERNAME_END=echo $FOLDERNAME_START | sed s/7/8/10
 echo "Query between $START_DATE and $END_DATE"
 QUERY_START="
 [timeout:1800][maxsize:2000000000]
@@ -62,7 +63,7 @@ QUERY_END="
 (node(w.a);.a) ->.a;
 	.a out geom meta;
 "
-mkdir -p $BUFFER_DIR/start/$FOLDERNAME
+mkdir -p $BUFFER_DIR/$FOLDERNAME_START
 mkdir -p $BUFFER_DIR/end/$FOLDERNAME
 echo $QUERY_START | /home/overpass/osm3s/bin/osm3s_query | gzip -vc > $BUFFER_DIR/start/$FOLDERNAME/$FILENAME_START.osm.gz 
 TZ=UTC touch -c -d "$START_DATE" $BUFFER_DIR/start/$FOLDERNAME/$FILENAME_START.osm.gz
@@ -83,21 +84,22 @@ java -XX:+UseParallelGC -Xmx8096M -Xmn256M \
 -cp "OsmAndMapCreator/OsmAndMapCreator.jar:OsmAndMapCreator/lib/OsmAnd-core.jar:OsmAndMapCreator/lib/*.jar" \
 net.osmand.data.diff.GenerateDailyObf \
 /var/lib/overpass_queries/
+
 OBF_NAME="Osmlive_$(echo $FOLDERNAME | cut -c3-4)_$(echo $FOLDERNAME | cut -c5-10).obf.gz"
-gunzip -c $BUFFER_DIR/start/$OBF_NAME.obf.gz
-gunzip -c $BUFFER_DIR/end/$OBF_NAME.obf.gz
+gunzip -c $BUFFER_DIR/$FOLDERNAME_START/$OBF_NAME.obf.gz
+gunzip -c $BUFFER_DIR/$FOLDERNAME_END/$OBF_NAME.obf.gz
 
 java -XX:+UseParallelGC -Xmx8096M -Xmn256M \
 -Djava.util.logging.config.file=tools/obf-generation/batch-logging.properties \
 -cp "OsmAndMapCreator/OsmAndMapCreator.jar:OsmAndMapCreator/lib/OsmAnd-core.jar:OsmAndMapCreator/lib/*.jar" \
 net.osmand.data.diff.DailyDiffGenerator \
 -gen \
-$BUFFER_DIR/start/$OBF_NAME.obf \
-$BUFFER_DIR/end/$OBF_NAME.obf \
+$BUFFER_DIR/$FOLDERNAME_START/$OBF_NAME.obf \
+$BUFFER_DIR/$FOLDERNAME_END/$OBF_NAME.obf \
 $RESULT_DIR
 
-rm -r /var/lib/overpass_queries/start/
-rm -r /var/lib/overpass_queries/end/
+rm -r $BUFFER_DIR
+
 
 START_DAY=$NSTART_DAY
 START_TIME=$NSTART_TIME
