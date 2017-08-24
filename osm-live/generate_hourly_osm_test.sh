@@ -1,9 +1,4 @@
 #!/bin/bash -xe
-# INITIAL
-#rm -rf /home/osm-planet/aosmc/*
-#echo "2016-04-01 00:00" > /home/osm-planet/aosmc/.proc_timestamp
-#echo "2016-04-02 00:00" > /home/osm-planet/aosmc/.current_timestamp
-### BEGIN
 START=($1)
 END=($2)
 echo "Current timestamp $END"
@@ -21,7 +16,6 @@ if [ $END_SEC \> $DB_SEC ]; then
 fi;
 
 while [ ! "$END_DAY $END_TIME" ==  "$START_DAY $START_TIME" ]; do
-BUFFER_DIR="/var/lib/jenkins/overpass_queries/buff"
 RESULT_DIR="/home/osm-planet/osmlive_test"
 START_DATE="${START_DAY}T${START_TIME}:00Z"
 FILENAME_START="$(echo $START_DATE | tr '-' _)"
@@ -61,13 +55,12 @@ QUERY_END="
 (node(w.a);.a) ->.a;
 	.a out geom meta;
 "
-mkdir -p $BUFFER_DIR
 
 echo $QUERY_START | /home/overpass/osm3s/bin/osm3s_query | gzip -vc > $BUFFER_DIR/$FILENAME_START.osm.gz 
-TZ=UTC touch -c -d "$START_DATE" $BUFFER_DIR/$FOLDERNAME_START/$FILENAME_START.osm.gz
+TZ=UTC touch -c -d "$START_DATE" $FILENAME_START.osm.gz
 
 echo $QUERY_END | /home/overpass/osm3s/bin/osm3s_query | gzip -vc > $BUFFER_DIR/$FILENAME_END.osm.gz 
-TZ=UTC touch -c -d "$END_DATE" $BUFFER_DIR/$FOLDERNAME_END/$FILENAME_END.osm.gz 
+TZ=UTC touch -c -d "$END_DATE" $FILENAME_END.osm.gz 
 
 gunzip -c $BUFFER_DIR/$FILENAME_START.osm.gz | grep "<\/osm>" > /dev/null
 gunzip -c $BUFFER_DIR/$FILENAME_END.osm.gz | grep "<\/osm>" > /dev/null
@@ -86,12 +79,10 @@ java -XX:+UseParallelGC -Xmx8096M -Xmn256M \
 -Djava.util.logging.config.file=tools/obf-generation/batch-logging.properties \
 -cp "OsmAndMapCreator/OsmAndMapCreator.jar:OsmAndMapCreator/lib/OsmAnd-core.jar:OsmAndMapCreator/lib/*.jar" \
 net.osmand.data.diff.DailyDiffGenerator \
--gen \
-$BUFFER_DIR/$FOLDERNAME_START/$FILENAME_START.obf \
-$BUFFER_DIR/$FOLDERNAME_END/$FILENAME_END.obf \
-$RESULT_DIR
+-gen $FILENAME_START.obf $FILENAME_END.obf $RESULT_DIR
 
-rm -r $BUFFER_DIR
+rm -r *.osm.gz
+rm -r *.obf
 
 START_DAY=$NSTART_DAY
 START_TIME=$NSTART_TIME
