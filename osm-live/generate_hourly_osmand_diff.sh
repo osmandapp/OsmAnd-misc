@@ -15,7 +15,7 @@ while [ ! "$END_DAY $END_TIME" ==  "$START_DAY $START_TIME" ]; do
 
 START_DATE="${START_DAY}T${START_TIME}:00Z"
 
-NEXT="$START_DAY $START_TIME 2 minutes"
+NEXT="$START_DAY $START_TIME 5 minutes"
 NSTART_TIME=$(date +'%H' -d "$NEXT"):$(date +'%M' -d "$NEXT")
 NSTART_DAY=$(date +'%Y' -d "$NEXT")-$(date +'%m' -d "$NEXT")-$(date +'%d' -d "$NEXT")
 END_DATE="${NSTART_DAY}T${NSTART_TIME}:00Z"
