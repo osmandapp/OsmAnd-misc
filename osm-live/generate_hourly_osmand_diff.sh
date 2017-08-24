@@ -36,8 +36,9 @@ if [ $END_SEC \> $DB_SEC ]; then
   exit 1;
 fi;
 
+if [ ! -f $FINAL_FILE ]; then
 
-echo "Query between $START_DATE and $END_DATE"
+  echo "Query between $START_DATE and $END_DATE"
 QUERY_START="
 [timeout:1800][maxsize:2000000000]
 [date:\"$START_DATE\"];
@@ -69,31 +70,32 @@ QUERY_END="
 	.a out geom meta;
 "
 
-echo $QUERY_START | /home/overpass/osm3s/bin/osm3s_query > $FILENAME_START.osm
-TZ=UTC touch -c -d "$START_DATE" $FILENAME_START.osm
+  echo $QUERY_START | /home/overpass/osm3s/bin/osm3s_query > $FILENAME_START.osm
+  TZ=UTC touch -c -d "$START_DATE" $FILENAME_START.osm
 
-echo $QUERY_END | /home/overpass/osm3s/bin/osm3s_query  > $FILENAME_END.osm
-TZ=UTC touch -c -d "$END_DATE" $FILENAME_END.osm 
+  echo $QUERY_END | /home/overpass/osm3s/bin/osm3s_query  > $FILENAME_END.osm
+  TZ=UTC touch -c -d "$END_DATE" $FILENAME_END.osm 
 
-if ! grep -q "<\/osm>"  $FILENAME_START.osm; then
-   exit 1;
-fi
+  if ! grep -q "<\/osm>"  $FILENAME_START.osm; then
+     exit 1;
+  fi
 
-if ! grep -q "<\/osm>"  $FILENAME_END.osm; then
-   exit 1;
-fi
-OsmAndMapCreator/utilities.sh generate-map $FILENAME_START.osm
-OsmAndMapCreator/utilities.sh generate-map $FILENAME_END.osm
+  if ! grep -q "<\/osm>"  $FILENAME_END.osm; then
+     exit 1;
+  fi
+  OsmAndMapCreator/utilities.sh generate-map $FILENAME_START.osm
+  OsmAndMapCreator/utilities.sh generate-map $FILENAME_END.osm
 
-OsmAndMapCreator/utilities.sh generate-obf-diff \
-$FILENAME_START.obf $FILENAME_END.obf $FILENAME_DIFF.diff.obf
+  OsmAndMapCreator/utilities.sh generate-obf-diff \
+  $FILENAME_START.obf $FILENAME_END.obf $FILENAME_DIFF.diff.obf
 
-gzip -c $FILENAME_DIFF.diff.obf > $FINAL_FILE
-TZ=UTC touch -c -d "$START_DATE" $FINAL_FILE
+  gzip -c $FILENAME_DIFF.diff.obf > $FINAL_FILE
+  TZ=UTC touch -c -d "$START_DATE" $FINAL_FILE
 
-rm -r *.osm || true
-rm -r *.rtree* || true
-rm -r *.obf || true
+  rm -r *.osm || true
+  rm -r *.rtree* || true
+  rm -r *.obf || true
+fi 
 
 START_DAY=$NSTART_DAY
 START_TIME=$NSTART_TIME
