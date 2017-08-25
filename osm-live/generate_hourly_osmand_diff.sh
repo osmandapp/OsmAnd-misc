@@ -93,7 +93,9 @@ QUERY_END="
   TZ=UTC touch -c -d "$START_DATE" $FINAL_FILE
   gzip -c $FILENAME_START.obf > $FINAL_FOLDER/${FILENAME_DIFF}_before.obf.gz
   gzip -c $FILENAME_END.obf > $FINAL_FOLDER/${FILENAME_DIFF}_after.obf.gz
-  
+  gzip -c $FILENAME_START.osm > $FINAL_FOLDER/${FILENAME_DIFF}_before.osm.gz
+  gzip -c $FILENAME_END.osm > $FINAL_FOLDER/${FILENAME_DIFF}_after.osm.gz
+
 
   rm -r *.osm || true
   rm -r *.rtree* || true
