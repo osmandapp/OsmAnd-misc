@@ -24,8 +24,8 @@ END_DATE="${NSTART_DAY}T${NSTART_TIME}:00Z"
 #FILENAME_END="$(echo $END_DATE | tr '-' _)"
 FILENAME_START=Diff-start
 FILENAME_END=Diff-end
-FILENAME_DIFF="$(echo $START_DAY-${START_TIME} | tr '-' _ | tr ':' _ )"
-FINAL_FOLDER=$RESULT_DIR/diff/$START_DAY/
+FILENAME_DIFF="$(echo $NSTART_DAY-${NSTART_TIME} | tr '-' _ | tr ':' _ )"
+FINAL_FOLDER=$RESULT_DIR/diff/$NSTART_DAY/
 FINAL_FILE=$FINAL_FOLDER/$FILENAME_DIFF.obf.gz
 mkdir -p $FINAL_FOLDER
 
@@ -90,7 +90,7 @@ QUERY_END="
   $FILENAME_START.obf $FILENAME_END.obf $FILENAME_DIFF.diff.obf
 
   gzip -c $FILENAME_DIFF.diff.obf > $FINAL_FILE
-  TZ=UTC touch -c -d "$START_DATE" $FINAL_FILE
+  TZ=UTC touch -c -d "$END_DATE" $FINAL_FILE
   gzip -c $FILENAME_START.obf > $FINAL_FOLDER/${FILENAME_DIFF}_before.obf.gz
   gzip -c $FILENAME_END.obf > $FINAL_FOLDER/${FILENAME_DIFF}_after.obf.gz
   gzip -c $FILENAME_START.osm > $FINAL_FOLDER/${FILENAME_DIFF}_before.osm.gz
