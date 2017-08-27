@@ -28,7 +28,7 @@ FILENAME_DIFF="$(echo $NSTART_DAY-${NSTART_TIME} | tr '-' _ | tr ':' _ )"
 DATE_FOLDER_NAME="$(echo $NSTART_DAY | tr '-' _ | tr ':' _ )"
 TIME_FILE_SUFFIX="$(echo $NSTART_TIME | tr '-' _ | tr ':' _ )"
 
-FINAL_FOLDER=$RESULT_DIR/diff/$NSTART_DAY/
+FINAL_FOLDER=$RESULT_DIR/_diff/$NSTART_DAY/
 FINAL_FILE=$FINAL_FOLDER/$FILENAME_DIFF.obf.gz
 mkdir -p $FINAL_FOLDER
 
