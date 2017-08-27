@@ -86,6 +86,8 @@ QUERY_END="
   if ! grep -q "<\/osm>"  $FILENAME_END.osm; then
      exit 1;
   fi
+  TZ=UTC touch -c -d "$END_DATE" $FILENAME_START.osm
+  TZ=UTC touch -c -d "$END_DATE" $FILENAME_END.osm
   OsmAndMapCreator/utilities.sh generate-map $FILENAME_START.osm
   OsmAndMapCreator/utilities.sh generate-map $FILENAME_END.osm
 
