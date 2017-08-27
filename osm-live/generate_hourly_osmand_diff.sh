@@ -96,6 +96,9 @@ QUERY_END="
   gzip -c $FILENAME_START.osm > $FINAL_FOLDER/${FILENAME_DIFF}_before.osm.gz
   gzip -c $FILENAME_END.osm > $FINAL_FOLDER/${FILENAME_DIFF}_after.osm.gz
 
+  OsmAndMapCreator/utilities.sh generate-obf-diff \
+   $FILENAME_DIFF.diff.obf $RESULT_DIR  OsmAndMapCreator/regions.ocbf
+
 
   rm -r *.osm || true
   rm -r *.rtree* || true
