@@ -1,5 +1,5 @@
 #!/bin/bash -xe
-RESULT_DIR="/home/osm-planet/osmlive_test"
+RESULT_DIR="/home/osm-planet/osmlive"
 START=($1)
 END=($2)
 echo "Current timestamp $END"
