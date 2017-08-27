@@ -25,6 +25,9 @@ END_DATE="${NSTART_DAY}T${NSTART_TIME}:00Z"
 FILENAME_START=Diff-start
 FILENAME_END=Diff-end
 FILENAME_DIFF="$(echo $NSTART_DAY-${NSTART_TIME} | tr '-' _ | tr ':' _ )"
+DATE_FOLDER_NAME="$(echo $NSTART_DAY | tr '-' _ | tr ':' _ )"
+TIME_FILE_SUFFIX="$(echo $NSTART_TIME | tr '-' _ | tr ':' _ )"
+
 FINAL_FOLDER=$RESULT_DIR/diff/$NSTART_DAY/
 FINAL_FILE=$FINAL_FOLDER/$FILENAME_DIFF.obf.gz
 mkdir -p $FINAL_FOLDER
@@ -96,8 +99,10 @@ QUERY_END="
   gzip -c $FILENAME_START.osm > $FINAL_FOLDER/${FILENAME_DIFF}_before.osm.gz
   gzip -c $FILENAME_END.osm > $FINAL_FOLDER/${FILENAME_DIFF}_after.osm.gz
 
+
   OsmAndMapCreator/utilities.sh split-obf \
-   $FILENAME_DIFF.diff.obf $RESULT_DIR  OsmAndMapCreator/regions.ocbf
+   $FILENAME_DIFF.diff.obf $RESULT_DIR  \
+   OsmAndMapCreator/regions.ocbf "$DATE_FOLDER_NAME" "_$TIME_FILE_SUFFIX"
 
 
   rm -r *.osm || true
