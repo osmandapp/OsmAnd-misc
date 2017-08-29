@@ -26,7 +26,7 @@ END_DATE="${NSTART_DAY}T${NSTART_TIME}:00Z"
 FILENAME_START=Diff-start
 FILENAME_END=Diff-end
 FILENAME_DIFF="$(echo $NSTART_DAY-${NSTART_TIME} | tr '-' _ | tr ':' _ )"
-DATE_FOLDER_NAME="$(echo $NSTART_DAY | tr '-' _ | tr ':' _ )"
+DATE_FOLDER_NAME="$(echo ${NSTART_DAY:2} | tr '-' _ | tr ':' _ )"
 TIME_FILE_SUFFIX="$(echo $NSTART_TIME | tr '-' _ | tr ':' _ )"
 
 FINAL_FOLDER=$RESULT_DIR/_diff/$NSTART_DAY/
