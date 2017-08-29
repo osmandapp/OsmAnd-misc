@@ -77,20 +77,21 @@ if [ ! -f $FILENAME_START.osm ]; then
   echo $QUERY_START | /home/overpass/osm3s/bin/osm3s_query > $FILENAME_START.osm
   TZ=UTC touch -c -d "$START_DATE" $FILENAME_START.osm
 fi
+if ! grep -q "<\/osm>"  $FILENAME_START.osm; then
+    rm $FILENAME_START.osm;
+    exit 1;
+fi
 if [ ! -f $FILENAME_END.osm ]; then
   echo $QUERY_END | /home/overpass/osm3s/bin/osm3s_query  > $FILENAME_END.osm
   TZ=UTC touch -c -d "$END_DATE" $FILENAME_END.osm 
 fi
-
-  if ! grep -q "<\/osm>"  $FILENAME_START.osm; then
-     rm $FILENAME_START.osm;
-     exit 1;
-  fi
-
-  if ! grep -q "<\/osm>"  $FILENAME_END.osm; then
+if ! grep -q "<\/osm>"  $FILENAME_END.osm; then
     rm $FILENAME_END.osm;
-     exit 1;
-  fi
+    exit 1;
+fi
+  
+
+  
   TZ=UTC touch -c -d "$END_DATE" $FILENAME_START.osm
   TZ=UTC touch -c -d "$END_DATE" $FILENAME_END.osm
   OsmAndMapCreator/utilities.sh generate-map $FILENAME_START.osm
