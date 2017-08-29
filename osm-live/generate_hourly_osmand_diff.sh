@@ -8,7 +8,7 @@ END_DAY=${END[0]}
 END_TIME=${END[1]}
 START_DAY=${START[0]}
 START_TIME=${START[1]}
-JAVA_OPTS="-Xms128M -Xmx2014M"
+export JAVA_OPTS="-Xms128M -Xmx2014M"
 
 chmod +x OsmAndMapCreator/utilities.sh
 while [ ! "$END_DAY $END_TIME" ==  "$START_DAY $START_TIME" ]; do
@@ -73,12 +73,14 @@ QUERY_END="
 (node(w.a);.a) ->.a;
 	.a out geom meta;
 "
-
+if [ ! -f $FILENAME_START.osm ]; then
   echo $QUERY_START | /home/overpass/osm3s/bin/osm3s_query > $FILENAME_START.osm
   TZ=UTC touch -c -d "$START_DATE" $FILENAME_START.osm
-
+fi
+if [ ! -f $FILENAME_END.osm ]; then
   echo $QUERY_END | /home/overpass/osm3s/bin/osm3s_query  > $FILENAME_END.osm
   TZ=UTC touch -c -d "$END_DATE" $FILENAME_END.osm 
+fi
 
   if ! grep -q "<\/osm>"  $FILENAME_START.osm; then
      exit 1;
