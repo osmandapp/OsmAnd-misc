@@ -83,10 +83,12 @@ if [ ! -f $FILENAME_END.osm ]; then
 fi
 
   if ! grep -q "<\/osm>"  $FILENAME_START.osm; then
+     rm $FILENAME_START.osm;
      exit 1;
   fi
 
   if ! grep -q "<\/osm>"  $FILENAME_END.osm; then
+    rm $FILENAME_END.osm;
      exit 1;
   fi
   TZ=UTC touch -c -d "$END_DATE" $FILENAME_START.osm
