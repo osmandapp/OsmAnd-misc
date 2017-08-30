@@ -94,8 +94,8 @@ fi
   
   TZ=UTC touch -c -d "$END_DATE" $FILENAME_START.osm
   TZ=UTC touch -c -d "$END_DATE" $FILENAME_END.osm
-  OsmAndMapCreator/utilities.sh generate-map $FILENAME_START.osm
-  OsmAndMapCreator/utilities.sh generate-map $FILENAME_END.osm
+  OsmAndMapCreator/utilities.sh generate-obf-no-address $FILENAME_START.osm
+  OsmAndMapCreator/utilities.sh generate-obf-no-address $FILENAME_END.osm
 
   OsmAndMapCreator/utilities.sh generate-obf-diff \
   $FILENAME_START.obf $FILENAME_END.obf $FILENAME_DIFF.diff.obf
