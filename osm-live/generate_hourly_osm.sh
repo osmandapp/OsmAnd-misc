@@ -39,12 +39,13 @@ QUERY="
 )->.changed;
 .changed out geom meta;
 "
-
+if [ ! -f "/home/osm-planet/aosmc/$FILENAME.osm.split.proc" ]; then
 echo $QUERY | /home/overpass/osm3s/bin/osm3s_query | gzip -vc > /home/osm-planet/aosmc/$FILENAME.osm.gz 
 TZ=UTC touch -c -d "$START_DATE" /home/osm-planet/aosmc/$FILENAME.osm.gz
 
 gunzip -c /home/osm-planet/aosmc/$FILENAME.osm.gz | grep "<\/osm>" > /dev/null
 if [ $? = 1 ]; then
+	rm "/home/osm-planet/aosmc/$FILENAME.osm.gz"
 	echo "Overpass query /home/osm-planet/aosmc/$FILENAME.osm.gz failed!"
 	exit 1;
 fi
@@ -54,7 +55,11 @@ java -XX:+UseParallelGC -Xmx8096M -Xmn256M \
 -cp "OsmAndMapCreator/OsmAndMapCreator.jar:OsmAndMapCreator/lib/OsmAnd-core.jar:OsmAndMapCreator/lib/*.jar" \
 net.osmand.data.diff.AugmentedDiffsInspector \
 /home/osm-planet/aosmc/$FILENAME.osm.gz /home/osm-planet/aosmc OsmAndMapCreator/regions.ocbf
+
+	touch "/home/osm-planet/aosmc/$FILENAME.osm.split.proc" 
+fi 
 START_DAY=$NSTART_DAY
 START_TIME=$NSTART_TIME
 done
 
+rm /home/osm-planet/aosmc/*.split.proc
