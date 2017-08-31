@@ -9,7 +9,8 @@ DB_SEC=$(date -u --date="$(curl http://builder.osmand.net:8081/api/timestamp)" "
 # CURRENT_SEC=$(date -u "+%s")
 START=$(cat /home/osm-planet/osmlive/.proc_timestamp)
 echo "Begin with timestamp: $START"
-
+START_DAY=${START[0]}
+START_TIME=${START[1]}
 while true; do
 
   START_DATE="${START_DAY}T${START_TIME}:00Z"
