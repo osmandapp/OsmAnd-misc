@@ -40,9 +40,9 @@ while true; do
     exit 0;
   fi;
 
-  if [ -f $FINAL_FILE ]; then
-    echo "$FINAL_FILE already exists"
-  elif [ -f "$FINAL_FOLDER/src/${FILENAME_DIFF}_before.obf.gz" ]; then
+  #if [ -f $FINAL_FILE ]; then
+  #  echo "$FINAL_FILE already exists"
+  if [ -f "$FINAL_FOLDER/src/${FILENAME_DIFF}_before.obf.gz" ]; then
     # this path to speedup generation 10 times (if obf were generated before)
     OsmAndMapCreator/utilities.sh generate-obf-diff \
     "$FINAL_FOLDER/src/${FILENAME_DIFF}_before.obf.gz" \
