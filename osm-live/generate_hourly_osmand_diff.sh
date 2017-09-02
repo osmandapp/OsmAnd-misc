@@ -40,8 +40,26 @@ while true; do
     exit 0;
   fi;
 
-  if [ ! -f $FINAL_FILE ]; then
-
+  if [ -f $FINAL_FILE ]; then
+    echo "$FINAL_FILE already exists"
+  elif [ -f "$FINAL_FOLDER/src/${FILENAME_DIFF}_before.obf.gz" ]; then
+    OsmAndMapCreator/utilities.sh generate-obf-diff \
+    "$FINAL_FOLDER/src/${FILENAME_DIFF}_before.obf.gz" \
+    "$FINAL_FOLDER/src/${FILENAME_DIFF}_after.obf.gz" \
+    $FILENAME_DIFF.diff.obf
+    
+    gzip -c $FILENAME_DIFF.diff.obf > $FINAL_FILE
+    TZ=UTC touch -c -d "$END_DATE" $FINAL_FILE
+  
+    OsmAndMapCreator/utilities.sh split-obf \
+    $FILENAME_DIFF.diff.obf $RESULT_DIR  \
+    OsmAndMapCreator/regions.ocbf "$DATE_NAME" "_$TIME_NAME"
+  
+  
+    rm -r *.osm || true
+    rm -r *.rtree* || true
+    rm -r *.obf || true
+  else
     echo "Query between $START_DATE and $END_DATE"
     QUERY_START="
 [timeout:1800][maxsize:2000000000]
@@ -97,16 +115,18 @@ while true; do
     OsmAndMapCreator/utilities.sh generate-obf-no-address $FILENAME_START.osm
     OsmAndMapCreator/utilities.sh generate-obf-no-address $FILENAME_END.osm
   
-    OsmAndMapCreator/utilities.sh generate-obf-diff \
-    $FILENAME_START.obf $FILENAME_END.obf $FILENAME_DIFF.diff.obf
-  
-    gzip -c $FILENAME_DIFF.diff.obf > $FINAL_FILE
-    TZ=UTC touch -c -d "$END_DATE" $FINAL_FILE
+    
     gzip -c $FILENAME_START.obf > $FINAL_FOLDER/src/${FILENAME_DIFF}_before.obf.gz
     gzip -c $FILENAME_END.obf > $FINAL_FOLDER/src/${FILENAME_DIFF}_after.obf.gz
     #gzip -c $FILENAME_START.osm > $FINAL_FOLDER/src/${FILENAME_DIFF}_before.osm.gz
     #gzip -c $FILENAME_END.osm > $FINAL_FOLDER/src/${FILENAME_DIFF}_after.osm.gz
   
+  
+    OsmAndMapCreator/utilities.sh generate-obf-diff \
+    $FILENAME_START.obf $FILENAME_END.obf $FILENAME_DIFF.diff.obf
+
+    gzip -c $FILENAME_DIFF.diff.obf > $FINAL_FILE
+    TZ=UTC touch -c -d "$END_DATE" $FINAL_FILE
   
     OsmAndMapCreator/utilities.sh split-obf \
     $FILENAME_DIFF.diff.obf $RESULT_DIR  \
