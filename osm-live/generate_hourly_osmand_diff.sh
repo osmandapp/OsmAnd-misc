@@ -22,7 +22,7 @@ while true; do
   END_DATE="${NSTART_DAY}T${NSTART_TIME}:00Z"
   DATE_NAME="$(echo ${NSTART_DAY:2} | tr '-' _ | tr ':' _ )"
   TIME_NAME="$(echo ${NSTART_TIME} | tr '-' _ | tr ':' _ )"
-  if [ "$TIME_NAME" == "00_00"]; then
+  if [ "$TIME_NAME" = "00_00" ]; then
     DATE_NAME="$(echo ${START_DAY:2} | tr '-' _ | tr ':' _ )"
     TIME_NAME="24_00"
   fi
