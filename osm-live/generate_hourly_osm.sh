@@ -62,4 +62,4 @@ START_DAY=$NSTART_DAY
 START_TIME=$NSTART_TIME
 done
 
-rm /home/osm-planet/aosmc/*.split.proc
+rm /home/osm-planet/aosmc/*.split.proc || true
