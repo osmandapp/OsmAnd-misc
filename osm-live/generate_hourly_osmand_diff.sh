@@ -20,16 +20,16 @@ while true; do
   NSTART_TIME=$(date +'%H' -d "$NEXT"):$(date +'%M' -d "$NEXT")
   NSTART_DAY=$(date +'%Y' -d "$NEXT")-$(date +'%m' -d "$NEXT")-$(date +'%d' -d "$NEXT")
   END_DATE="${NSTART_DAY}T${NSTART_TIME}:00Z"
-
-  #FILENAME_START="$(echo $START_DATE | tr '-' _)"
-  #FILENAME_END="$(echo $END_DATE | tr '-' _)"
+  DATE_NAME="$(echo ${NSTART_DAY:2} | tr '-' _ | tr ':' _ )"
+  TIME_NAME="$(echo ${NSTART_TIME} | tr '-' _ | tr ':' _ )"
+  if [ "$TIME_NAME" == "00_00"]; then
+    DATE_NAME="$(echo ${START_DAY:2} | tr '-' _ | tr ':' _ )"
+    TIME_NAME="24_00"
+  fi
   FILENAME_START=Diff-start
   FILENAME_END=Diff-end
-  FILENAME_DIFF="$(echo $NSTART_DAY-${NSTART_TIME} | tr '-' _ | tr ':' _ )"
-  DATE_FOLDER_NAME="$(echo ${NSTART_DAY:2} | tr '-' _ | tr ':' _ )"
-  TIME_FILE_SUFFIX="$(echo $NSTART_TIME | tr '-' _ | tr ':' _ )"
-  
-  FINAL_FOLDER=$RESULT_DIR/_diff/$NSTART_DAY/
+  FILENAME_DIFF="${DATE_NAME}_${TIME_NAME}"
+  FINAL_FOLDER=$RESULT_DIR/_diff/$DATE_NAME/
   FINAL_FILE=$FINAL_FOLDER/$FILENAME_DIFF.obf.gz
   mkdir -p $FINAL_FOLDER/src/
   
@@ -110,7 +110,7 @@ while true; do
   
     OsmAndMapCreator/utilities.sh split-obf \
     $FILENAME_DIFF.diff.obf $RESULT_DIR  \
-    OsmAndMapCreator/regions.ocbf "$DATE_FOLDER_NAME" "_$TIME_FILE_SUFFIX"
+    OsmAndMapCreator/regions.ocbf "$DATE_NAME" "_$TIME_NAME"
   
   
     rm -r *.osm || true
