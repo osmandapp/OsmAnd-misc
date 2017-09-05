@@ -63,7 +63,7 @@ while true; do
   else
     echo "Query between $START_DATE and $END_DATE"
     QUERY_START="
-[timeout:1800][maxsize:2000000000]
+[timeout:3600][maxsize:2000000000]
 [date:\"$START_DATE\"];
 (
   node(changed:\"$START_DATE\",\"$END_DATE\");
