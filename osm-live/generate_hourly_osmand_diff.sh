@@ -1,7 +1,7 @@
 #!/bin/bash -xe
 RESULT_DIR="/home/osm-planet/osmlive"
 
-export JAVA_OPTS="-Xms128M -Xmx2014M"
+export JAVA_OPTS="-Xms128M -Xmx4014M"
 chmod +x OsmAndMapCreator/utilities.sh
 
 # database timestamp
