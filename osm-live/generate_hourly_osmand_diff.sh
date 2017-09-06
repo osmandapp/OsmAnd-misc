@@ -78,7 +78,7 @@ while true; do
 	.a out geom meta;
 "
     QUERY_END="
-[timeout:1800][maxsize:2000000000]
+[timeout:3600][maxsize:2000000000]
 [date:\"$END_DATE\"];
 (
   node(changed:\"$START_DATE\",\"$END_DATE\");
