@@ -150,5 +150,5 @@ while true; do
   START_TIME=$NSTART_TIME
 
   echo "$NSTART_DAY $NSTART_TIME" > /home/osm-planet/osmlive/.proc_timestamp
-  echo "$NSTART_DAY $NSTART_TIME" > /var/www-download/.proc_timestamp
+  echo "$NSTART_DAY $NSTART_TIME" > /var/www-download/proc_timestamp
 done
