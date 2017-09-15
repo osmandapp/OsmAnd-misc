@@ -137,4 +137,9 @@
    <tile_source name="LPI NSW Imagery (AU)" url_template="https://maps.six.nsw.gov.au/arcgis/rest/services/public/NSW_Imagery/MapServer/tile/{0}/{2}/{1}" ext=".jpg" min_zoom="5" max_zoom="20" tile_size="256" img_density="16" avg_img_size="18000"/> 
    <tile_source name="LPI NSW Topo Map (AU)" url_template="https://maps.six.nsw.gov.au/arcgis/rest/services/public/NSW_Topo_Map/MapServer/tile/{0}/{2}/{1}" ext=".png" min_zoom="5" max_zoom="16" tile_size="256" img_density="16" avg_img_size="18000"/> 
    <tile_source name="LPI NSW Base Map (AU)" url_template="https://maps.six.nsw.gov.au/arcgis/rest/services/public/NSW_Base_Map/MapServer/tile/{0}/{2}/{1}" ext=".png" min_zoom="5" max_zoom="19" tile_size="256" img_density="16" avg_img_size="18000"/> 
+
+  <!-- https://IsraelHiking.osm.org.il | Tiles © Israel Hiking, CC BY-NC-SA 3.0. Data by OpenStreetMap under ODbL -->
+  <tile_source name="Israel Hiking Map (IL)" url_template="https://IsraelHiking.osm.org.il/Hebrew/Tiles/{0}/{1}/{2}.png" ext=".png" min_zoom="7" max_zoom="16" tile_size="256" img_density="32" avg_img_size="58000"/>
+  <tile_source name="Israel MTB Map (IL)" url_template="https://IsraelHiking.osm.org.il/Hebrew/mtbTiles/{0}/{1}/{2}.png" ext=".png" min_zoom="7" max_zoom="16" tile_size="256" img_density="32" avg_img_size="43000"/>
+
 </tile_sources>
