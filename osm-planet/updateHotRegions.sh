@@ -2,9 +2,11 @@
 BASE="/var/lib/jenkins/hot-regions"
 PBF_FILES="/home/osm-planet/osm-extract"
 
+rm $BASE/*.*
+
 updateRegion() {
 	echo "Update ${1} using ${2}"
-	FILE="${BASE}/${1}.o5m"
+	FILE="${BASE}/${3%%.*}.o5m"
 	if [ ! -f $FILE ]; then
 		osmconvert --out-o5m "${PBF_FILES}/${3%%.*}/${3}" -B=misc/osm-planet/${2} > ${FILE} 
 	fi
