@@ -1,8 +1,8 @@
 #!/bin/bash
-BASE="/var/lib/jenkins/hot-regions"
+BASE="//var/lib/jenkins/hot-regions"
 PBF_FILES="/home/osm-planet/osm-extract"
 
-rm $BASE/*.*
+rm $BASE/*
 
 updateRegion() {
 	echo "Update ${1} using ${2}"
