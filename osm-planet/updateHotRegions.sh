@@ -13,14 +13,14 @@ updateRegion() {
     osmupdate $FILE $(osmconvert $FILE --out-statistics | grep 'timestamp max' | sed 's/timestamp max: //g') ${BASE}/current-update.o5m -B=misc/osm-planet/${2} -v
     #mv -f $FILE ${FILE}.old || true
     # rm ${BASE}/${1}.o5m
-    osmconvert --out-pbf ${BASE}/current-update.o5m > ${BASE}/pbf/${3}
+    osmconvert --out-pbf ${BASE}/current-update.o5m > ${BASE}/${3}
     #mv ${BASE}/current-update.o5m $FILE
 }
-
-rm current-update.o5m || true
 
 #HOT OSM
 updateRegion Mexico polygons/north-america/mexico.poly mexico_northamerica.pbf
 updateRegion Mexico_nuevo-leon polygons/north-america/mexico/nuevo-leon.poly mexico_nuevo-leon_northamerica.pbf
+
+# rm current-update.o5m || true
 
 # updateRegion Nepal polygons/east-asia/nepal.poly nepal.pbf
