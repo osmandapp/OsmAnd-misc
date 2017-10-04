@@ -48,7 +48,8 @@ while true; do
     OsmAndMapCreator/utilities.sh generate-obf-diff \
     "$FINAL_FOLDER/src/${FILENAME_DIFF}_before.obf.gz" \
     "$FINAL_FOLDER/src/${FILENAME_DIFF}_after.obf.gz" \
-    $FILENAME_DIFF.diff.obf
+    $FILENAME_DIFF.diff.obf \
+    "$FINAL_FOLDER/src/${FILENAME_DIFF}_diff.osm.gz"
     
     gzip -c $FILENAME_DIFF.diff.obf > $FINAL_FILE
     TZ=UTC touch -c -d "$END_DATE" $FINAL_FILE
@@ -143,6 +144,7 @@ while true; do
     
     gzip -c $FILENAME_START.obf > $FINAL_FOLDER/src/${FILENAME_DIFF}_before.obf.gz
     gzip -c $FILENAME_END.obf > $FINAL_FOLDER/src/${FILENAME_DIFF}_after.obf.gz
+    gzip -c $FILENAME_CHANGE.osm > $FINAL_FOLDER/src/${FILENAME_CHANGE}_diff.osm.gz
     #gzip -c $FILENAME_START.osm > $FINAL_FOLDER/src/${FILENAME_DIFF}_before.osm.gz
     #gzip -c $FILENAME_END.osm > $FINAL_FOLDER/src/${FILENAME_DIFF}_after.osm.gz
   
