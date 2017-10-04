@@ -28,6 +28,7 @@ while true; do
   fi
   FILENAME_START=Diff-start
   FILENAME_END=Diff-end
+  FILENAME_CHANGE=change
   FILENAME_DIFF="${DATE_NAME}_${TIME_NAME}"
   FINAL_FOLDER=$RESULT_DIR/_diff/$DATE_NAME/
   FINAL_FILE=$FINAL_FOLDER/$FILENAME_DIFF.obf.gz
@@ -92,6 +93,16 @@ while true; do
 (node(w.a);.a) ->.a;
 	.a out geom meta;
 "
+    QUERY_DIFF="
+[timeout:3600][maxsize:2000000000]
+[diff:\"$START_DATE\",\"$END_DATE\"];
+(
+   node(changed:\"$START_DATE\",\"$END_DATE\");
+   way(changed:\"$START_DATE\",\"$END_DATE\");
+   relation(changed:\"$START_DATE\",\"$END_DATE\");
+)->.a;
+	.a out geom meta;
+"
     date -u
 
     #if [ ! -f $FILENAME_START.osm ]; then
@@ -108,13 +119,19 @@ while true; do
       echo $QUERY_END | /home/overpass/osm3s/bin/osm3s_query  > $FILENAME_END.osm
       TZ=UTC touch -c -d "$END_DATE" $FILENAME_END.osm 
     #fi
+
+      echo $QUERY_DIFF | /home/overpass/osm3s/bin/osm3s_query  > $FILENAME_CHANGE.osm
+      TZ=UTC touch -c -d "$END_DATE" $FILENAME_CHANGE.osm
+
     if ! grep -q "<\/osm>"  $FILENAME_END.osm; then
         rm $FILENAME_END.osm;
         exit 1;
     fi
     date -u
-  
 
+    if ! grep -q "<\/osm>"  $FILENAME_CHANGE.osm; then
+       exit 1;
+    fi
   
     TZ=UTC touch -c -d "$END_DATE" $FILENAME_START.osm
     TZ=UTC touch -c -d "$END_DATE" $FILENAME_END.osm
@@ -131,7 +148,7 @@ while true; do
   
   
     OsmAndMapCreator/utilities.sh generate-obf-diff \
-    $FILENAME_START.obf $FILENAME_END.obf $FILENAME_DIFF.diff.obf
+    $FILENAME_START.obf $FILENAME_END.obf $FILENAME_DIFF.diff.obf $FILENAME_CHANGE.osm
 
     gzip -c $FILENAME_DIFF.diff.obf > $FINAL_FILE
     TZ=UTC touch -c -d "$END_DATE" $FINAL_FILE
