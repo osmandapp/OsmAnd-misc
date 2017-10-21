@@ -66,9 +66,9 @@ function dwFile($filename,$query,$type) {
     $helpServers= array();
     $helpServersUS= array();
     $mainServers = array("dl2.osmand.net", "dl3.osmand.net"); //
-		if ($type == "wiki" || $type == "" || $type == "road") {
-			array_push($mainServers, "212.47.229.82");
-		}
+    if ($type == "wiki" || $type == "" || $type == "road") {
+        array_push($mainServers, "212.47.229.82");
+    }
     $mainServersLoad = 100;
     $mainServersUSLoad = 100;
 
