@@ -56,17 +56,13 @@ function dwFile($filename,$query,$type) {
     header('HTTP/1.1 302 Found');
     $var = rand(0, 99);
     $simple = false;
-    //if($type == "road" or $type == "" or $type == "wiki") {
-    if($type == "wiki" or $type == "") {
+    if($type == "wiki" or $type == "" or $type == "road") {
       	$simple = true;
     }
-    //$helpServers = array("188.226.193.54", "95.85.22.35", "188.226.131.11", "146.185.178.41");
-    //$helpServers = array("188.226.193.54", "95.85.22.35");
-    //$helpServersUS = array("162.243.111.59");
-    $helpServers= array();
+    $helpServers= array("212.47.229.82");
     $helpServersUS= array();
     $mainServers = array("dl2.osmand.net", "dl3.osmand.net"); // 
-    $mainServersLoad = 100;
+    $mainServersLoad = 70;
     $mainServersUSLoad = 100;
 
 
