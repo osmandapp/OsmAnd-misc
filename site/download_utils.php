@@ -6,7 +6,7 @@ function downloadFile($filename) {
 		die(1);
 	}
 
-	$from=0; 
+	$from=0;
 	$cr=NULL;
 	$to=filesize($filename) - 1;
 
@@ -34,8 +34,8 @@ function downloadFile($filename) {
 	$f=fopen($filename, 'r');
 	header('Content-Disposition: attachment; filename="' . basename($filename) . '";');
 	if ($from) fseek($f, $from, SEEK_SET);
-	
-	
+
+
 	$downloaded=0;
 	while(!feof($f) and !connection_status() and ($downloaded<$size)) {
 	    $part = min(512000, $size-$downloaded);
@@ -46,10 +46,10 @@ function downloadFile($filename) {
 	fclose($f);
 }
 
-function url_exists($url) { 
-    $hdrs = @get_headers($url); 
-    return is_array($hdrs) ? preg_match('/^HTTP\\/\\d+\\.\\d+\\s+2\\d\\d\\s+.*$/',$hdrs[0]) : false; 
-} 
+function url_exists($url) {
+    $hdrs = @get_headers($url);
+    return is_array($hdrs) ? preg_match('/^HTTP\\/\\d+\\.\\d+\\s+2\\d\\d\\s+.*$/',$hdrs[0]) : false;
+}
 
 function dwFile($filename,$query,$type) {
   if($_SERVER['SERVER_NAME'] == 'download.osmand.net') {
@@ -65,7 +65,10 @@ function dwFile($filename,$query,$type) {
     //$helpServersUS = array("162.243.111.59");
     $helpServers= array();
     $helpServersUS= array();
-    $mainServers = array("dl2.osmand.net", "dl3.osmand.net"); // 
+    $mainServers = array("dl2.osmand.net", "dl3.osmand.net"); //
+    if ($type == "wiki" || $type == "" || $type == "road") {
+        array_push($helpServers, "212.47.229.82");
+    }
     $mainServersLoad = 100;
     $mainServersUSLoad = 100;
 
@@ -74,11 +77,11 @@ function dwFile($filename,$query,$type) {
     $helpServersUSCount = count($helpServersUS);
     $mainServersCount = count($mainServers);
     $record = @geoip_record_by_name($_SERVER['REMOTE_ADDR']);
-    
-    
+
+
     if($type == "osmc" or $type == "aosmc" or $type == "fonts" or $type == "inapp") {
 		downloadFile($filename);
-    } else if($record and $record['country_code'] == 'US' and 
+    } else if($record and $record['country_code'] == 'US' and
 		$helpServersUSCount > 0 and $simple and $var < (100 - $mainServersUSLoad)) {
 		$url = $helpServersUS[$var % $helpServersUSCount];
     	header('Location: http://'.$url.'/download.php?'.$query);
@@ -144,15 +147,15 @@ function loadIndexesFromDir($output, $outputIndexes, $dir, $elementName, $ftype)
 					$date= date('d.m.Y',$stat['mtime']);
 					$zip->close();
 				}
-							
+
 
                 if($local_file) {
 					echo 'Local : '.$indexName.' '.$date.' '.$size.'<br>';
                 }
 				$out = $output->createElement( $elementName);
 				$outputIndexes->appendChild($out);
-				
-				
+
+
 				$out -> setAttribute("type", $type);
 				$out -> setAttribute("containerSize", $containerSize);
 				$out -> setAttribute("contentSize", $contentSize);
