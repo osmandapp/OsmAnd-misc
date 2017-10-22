@@ -62,7 +62,7 @@ function dwFile($filename,$query,$type) {
     $helpServers= array("212.47.229.82", "51.15.209.253");
     $helpServersUS= array();
     $mainServers = array("dl2.osmand.net", "dl3.osmand.net"); // 
-    $mainServersLoad = 90;
+    $mainServersLoad = 30;
     $mainServersUSLoad = 100;
 
 
