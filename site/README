@@ -1,9 +1,0 @@
-Parts of the site
-* builds.php  - list of nightly builds
-* download.php?[srtm=&][road=&][hillshade=&]file=...  - download  specific file
-* get_indexes.php - returns list of available downloads
-* go.php - query for map display
-* indexes.php - text version representing get_indexes.php=indexes.xml
-* list.php - represents list of downloads to download from PC
-* tile_sources.php - returns list of available tile sources
-* update_indexes.php (used by get_indexes.php) - to create local indexes.xml file
