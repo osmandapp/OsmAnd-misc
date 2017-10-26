@@ -9,6 +9,14 @@ mkdir -p $LOCAL_SITE_DIR/
 cp -vur $GIT_SITE_DIR/* $LOCAL_SITE_DIR 
 cp -vu $GIT_SITE_DIR/../../resources/countries-info/countries.xml $LOCAL_SITE_DIR/countries.xml
 
+mkdir -p $LOCAL_SITE_DIR/hillshade
+mkdir -p $LOCAL_SITE_DIR/indexes
+mkdir -p $LOCAL_SITE_DIR/road-indexes
+mkdir -p $LOCAL_SITE_DIR/srtm
+mkdir -p $LOCAL_SITE_DIR/srtm-countries
+mkdir -p $LOCAL_SITE_DIR/night-builds
+mkdir -p $LOCAL_SITE_DIR/latest-night-build
+
 cp -vur help/website/* $LOCAL_SITE_DIR
 ## LEGACY
 cp -vu help/website/help/map-legend.html $LOCAL_SITE_DIR/help/Map-Legend_default.html
