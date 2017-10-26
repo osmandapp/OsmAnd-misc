@@ -16,6 +16,32 @@ mkdir -p $LOCAL_SITE_DIR/srtm
 mkdir -p $LOCAL_SITE_DIR/srtm-countries
 mkdir -p $LOCAL_SITE_DIR/night-builds
 mkdir -p $LOCAL_SITE_DIR/latest-night-build
+# mkdir -p $LOCAL_SITE_DIR/releases
+# mkdir -p $LOCAL_SITE_DIR/osm-releases
+
+# builder.osmand.net
+# ln -s /home/releases/releases
+# ln -s /home/releases/osm-releases
+# ln -s /home/basemap
+# ln -s /home/binaries/prebuilt
+# ln -s /home/binaries/binaries
+# ln -s /home/binaries/dependencies-mirror
+# ln -s /home/binaries/legacy-dependencies-mirror
+# ln -s /home/binaries/ivy
+# ln -s /home/www/hillshade
+# ln -s /home/www/indexes
+# ln -s /home/www/night-builds
+# ln -s /home/osm-planet/osmc/
+# ln -s /home/osm-planet/osm-extract/
+# ln -s /home/osm-planet/osmlive
+# ln -s /home/www/road-indexes
+# ln -s /home/relief-data/contours-osm-bz2/ srtm
+# ln -s /home/www/srtm-countries
+# ln -s /mnt/home-hdd/relief-data/terrain-aster-srtm-eudem
+# ln -s /home/www/wiki
+# ln -s /home/www/wikigen
+
+
 
 cp -vur help/website/* $LOCAL_SITE_DIR
 ## LEGACY
