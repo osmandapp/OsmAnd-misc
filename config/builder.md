@@ -49,10 +49,6 @@ Backup - yes.
 
 **relief-data -> /mnt/home-hdd/relief-data/ Size 1.5T** - Contains all STRM data. Job:
 SRTM_CombineSRTMFIlesIntoCountryFile. Backup - no. Inner folders:
-* 4.0K	./grasstest/grassdata
-* 4.0K	./grasstest/filled
-* 20K	./grasstest
-* 20K	./newbz2
 * 192G	./terrain-aster-srtm-eudem
 * 15G	./contours-osm-bz2-north-eu-test
 * 20K	./relief30m/corrected/test/scripts/translations
@@ -69,10 +65,6 @@ SRTM_CombineSRTMFIlesIntoCountryFile. Backup - no. Inner folders:
 * 3.0G	./contours-osm-bz2/COUNTRY_OBF/bak
 * 131G	./contours-osm-bz2/COUNTRY_OBF
 * 580G	./contours-osm-bz2
-* 4.4M	./contours-osm-bz2-90m/COUNTRY_OBF/old-but-not-empty
-* 4.0K	./contours-osm-bz2-90m/COUNTRY_OBF/bak
-* 4.5M	./contours-osm-bz2-90m/COUNTRY_OBF
-* 5.0M	./contours-osm-bz2-90m
 
 **user -> /mnt/home-hdd/user/ Size 685M** - Contains user files. Backup - no.
 
