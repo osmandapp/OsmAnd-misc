@@ -15,17 +15,15 @@ backups. [Backup]
 **/mnt/home-hdd/indexes/ Size 94G** - Contains all the generated maps, road-only and wiki maps,
 as well as jenkins gen.log files for the generated maps. Used for map generation.
 
-**/mnt/home-hdd/osm-planet/ Size 147G** - (Inner structure:
-* aosmc -> /mnt/home-ssd/osm-planet/aosmc
-* listing_tmp ???
-* osc_tmp
-* osm-extract -> /mnt/home-hdd/osm-extract/
-* osmc
-* osmlive -> /mnt/home-ssd/osm-planet/osmlive/
-* planet-latest.o5m
-* planet-latest.o5m_bak)
-This directory contains all the diffs as well as the world database for Overpass.
-Backup - no.  
+**/mnt/home-hdd/jenkins-workspace/ Size 165G** - Jenkins workspace. [Possible backup]
+
+**/mnt/home-hdd/osm-extract/ Size 295G** - Directory with monthly extracted osm files. 
+
+**/mnt/home-ssd/osm-planet/osmlive/ Size ?** - Directory with monthly extracted osm files. 
+
+**/mnt/home-hdd/osm-planet/ Size 147G** - Stores simlinks to osmlive & osmextract + 2 OSM o5m planet files - 75 GB each.
+
+**/mnt/home-hdd/routing/ Size 7.5G** - ??? 
 
 **/mnt/home-ssd/overpass Size 253G** - The directory with Overpass API instance.
 [Backup] ??? Content is not clear ??
@@ -68,7 +66,7 @@ SRTM_CombineSRTMFIlesIntoCountryFile. Structure:
 **/mnt/home-ssd/wiki Size 77G** - Temporary directory on SSD to generate wiki maps. Jobs:
 /Maps_GenerateWikiSqlite.
 
-**www -> /mnt/home-hdd/www/ Size 346G** - Contains all the content available for downloading:
+**/mnt/home-hdd/www/ Size 346G** - Contains all the content available for downloading:
 * 51G	./indexes
 * 42G	./wikigen/regions
 * 74G	./wikigen
