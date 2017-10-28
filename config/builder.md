@@ -1,7 +1,7 @@
 ﻿# 1. Jenkins configuration backup
 Jenkins backup url	git@bitbucket.org:osmand/jenkins-backup.git
 
-# 2. Home folders. Symlink to /mnt/home-hdd/ (), /mnt/home-ssd/ ()
+# 2. Home folders. Symlink to /mnt/home-hdd/ (3.1T), /mnt/home-ssd/ (1.5T)
 **/mnt/home-hdd/basemap/ Size 2.7G** - Directory with the Basemap variants,
 basemap sources and upload script. Used in the following jenkins jobs: Maps_ExtractBasemapSource,
 Maps_GenerateBasemap. [Backup]
@@ -9,37 +9,29 @@ Maps_GenerateBasemap. [Backup]
 **/mnt/home-hdd/binaries/ Size 5.7G** -  local ivy repository for OsmAnd libraries + caches of prebuilt third party libraries. 
 [Backup]
 
-**/mnt/home-hdd/changesets/ Size 3.2G** - Directory that contains PostgreSQL Databases
-backups. [Backup]
+**/mnt/home-hdd/changesets/ Size 3.2G** - Directory that contains changeset database backups. [Backup]
 
-**/mnt/home-hdd/indexes/ Size 94G** - Contains all the generated maps, road-only and wiki maps,
-as well as jenkins gen.log files for the generated maps. Used for map generation.
+**/mnt/home-hdd/indexes/ Size 94G** - Contains all the generated maps, road-only and wiki maps, as well as jenkins gen.log files for the generated maps. Used for map generation.
 
 **/mnt/home-hdd/jenkins-workspace/ Size 165G** - Jenkins workspace. [Possible backup]
 
 **/mnt/home-hdd/osm-extract/ Size 295G** - Directory with monthly extracted osm files. 
 
-**/mnt/home-ssd/osm-planet/osmlive/ Size ?** - Directory with monthly extracted osm files. 
-
 **/mnt/home-hdd/osm-planet/ Size 147G** - Stores simlinks to osmlive & osmextract + 2 OSM o5m planet files - 75 GB each.
-
-**/mnt/home-hdd/routing/ Size 7.5G** - ??? 
-
-**/mnt/home-ssd/overpass Size 253G** - The directory with Overpass API instance.
-[Backup] ??? Content is not clear ??
 
 **/mnt/home-hdd/posgres/ Size 1.3G** - Utilties to run tile rendering.
 1. Tirex - the background process to render tiles;
 2. Mapnik style;
 3. mod_tile - apache module to render tiles & redirect to tirex;
 4. osm2pgsql - to update gis database for mapnik
-Backup - yes.
+[Backup]
+
 
 **/mnt/home-hdd/releases/ Size 19G** - The directory contains all OsmAnd releases as apk files.
 [Backup]
 
-**/mnt/home-hdd/relief-data/ Size 1.5T** - Contains all STRM data. [Backup] ! Job:
-SRTM_CombineSRTMFIlesIntoCountryFile. Structure:
+**/mnt/home-hdd/relief-data/ Size 1.5T** - Contains all STRM data. [Backup] ???
+Structure (explain structure & possibly rename folders ??? ):
 * 192G	./terrain-aster-srtm-eudem
 * 15G	./contours-osm-bz2-north-eu-test
 * 20K	./relief30m/corrected/test/scripts/translations
@@ -60,11 +52,11 @@ SRTM_CombineSRTMFIlesIntoCountryFile. Structure:
 * 22G	./SRTM_Hillshade_tiles_TMS.zip
 * 4.0K ./delete_old_aosmc.sh
 
+**/mnt/home-hdd/routing/ Size 7.5G** - Experiments with OSRM routing.
+
+**/mnt/home-hdd/tiles/ Size?** - Contains tiles for Mapnik rendering.
 
 **/mnt/home-hdd/user/ Size 685M** - Contains user files. [Backup].
-
-**/mnt/home-ssd/wiki Size 77G** - Temporary directory on SSD to generate wiki maps. Jobs:
-/Maps_GenerateWikiSqlite.
 
 **/mnt/home-hdd/www/ Size 346G** - Contains all the content available for downloading:
 * 51G	./indexes
@@ -75,6 +67,18 @@ SRTM_CombineSRTMFIlesIntoCountryFile. Structure:
 * 34G	./hillshade
 * 97G	./srtm-countries
 * 16G	./wiki
+
+**/mnt/home-ssd/flatnodes Size 40GB** - File to update OSM psql. Nodes cache from osm2psql utility.
+
+**/mnt/home-ssd/tablespace Size 732GB** - OSM psql database to render tiles.
+
+**/mnt/home-ssd/osm-planet/ Size 411GB** - OSM Live 15 minutes update files. Deprecated folder with aosmc & new osm live data in osmlive folder [Backup].
+
+**/mnt/home-ssd/overpass Size 253G** - The directory with Overpass API instance + data.
+[Backup] 
+
+**/mnt/home-ssd/wiki Size 77G** - Temporary directory on SSD to generate wiki maps. Jobs:
+/Maps_GenerateWikiSqlite.
 
 # 3. /var Folders
 **/var/lib/ Size 82GB**– Directory with installed apps.
