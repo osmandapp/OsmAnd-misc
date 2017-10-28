@@ -1,27 +1,23 @@
 ﻿# 1. Jenkins configuration backup
 Jenkins backup url	git@bitbucket.org:osmand/jenkins-backup.git
 
-# 2. Home folders
-**basemap -> /mnt/home-hdd/basemap/ Size 2.7G** - Directory with the Basemap variants,
+# 2. Home folders. Symlink to /mnt/home-hdd/ (), /mnt/home-ssd/ ()
+**/mnt/home-hdd/basemap/ Size 2.7G** - Directory with the Basemap variants,
 basemap sources and upload script. Used in the following jenkins jobs: Maps_ExtractBasemapSource,
-Maps_GenerateBasemap. Backup - yes.
+Maps_GenerateBasemap. [Backup]
 
-**binaries -> /mnt/home-hdd/binaries/ Size 5.7G** -  local ivy repository for OsmAnd libraries + caches of prebuilt third party libraries. 
-Backup - yes.
+**/mnt/home-hdd/binaries/ Size 5.7G** -  local ivy repository for OsmAnd libraries + caches of prebuilt third party libraries. 
+[Backup]
 
-**changesets -> /mnt/home-hdd/changesets/ Size 3.2G** - Directory that contains PostgreSQL Databases
-backups. Backup - yes.
+**/mnt/home-hdd/changesets/ Size 3.2G** - Directory that contains PostgreSQL Databases
+backups. [Backup]
 
-**docker Size 12KB** - This directory contains Dockerfile of Java for Docker's automated build.
-Job used in: Maps_GenerateWikiSqlite. Backup - no.
-
-**indexes -> /mnt/home-hdd/indexes/ Size 94G** - Contains all the generated maps, road-only and wiki maps,
+**/mnt/home-hdd/indexes/ Size 94G** - Contains all the generated maps, road-only and wiki maps,
 as well as jenkins gen.log files for the generated maps. Used for map generation.
-Backup - no.
 
-**osm-planet -> /mnt/home-hdd/osm-planet/ Size 147G** - (Inner structure:
+**/mnt/home-hdd/osm-planet/ Size 147G** - (Inner structure:
 * aosmc -> /mnt/home-ssd/osm-planet/aosmc
-* listing_tmp
+* listing_tmp ???
 * osc_tmp
 * osm-extract -> /mnt/home-hdd/osm-extract/
 * osmc
@@ -31,20 +27,20 @@ Backup - no.
 This directory contains all the diffs as well as the world database for Overpass.
 Backup - no.  
 
-**overpass -> /mnt/home-ssd/overpass Size 253G** - The directory with Overpass API instance.
-Backup - yes.
+**/mnt/home-ssd/overpass Size 253G** - The directory with Overpass API instance.
+[Backup] ??? Content is not clear ??
 
-**posgres -> /mnt/home-hdd/posgres/ Size 1.3G** - Utilties to run tile rendering.
+**/mnt/home-hdd/posgres/ Size 1.3G** - Utilties to run tile rendering.
 1. Tirex - the background process to render tiles;
 2. Mapnik style;
 3. mod_tile - apache module to render tiles & redirect to tirex;
 4. osm2pgsql - to update gis database for mapnik
 Backup - yes.
 
-**releases -> /mnt/home-hdd/releases/ Size 19G** - The directory contains all OsmAnd releases as apk files.
-Backup - yes.
+**/mnt/home-hdd/releases/ Size 19G** - The directory contains all OsmAnd releases as apk files.
+[Backup]
 
-**relief-data -> /mnt/home-hdd/relief-data/ Size 1.5T** - Contains all STRM data. Job:
+**/mnt/home-hdd/relief-data/ Size 1.5T** - Contains all STRM data. Job:
 SRTM_CombineSRTMFIlesIntoCountryFile. Backup - no. Inner folders:
 * 192G	./terrain-aster-srtm-eudem
 * 15G	./contours-osm-bz2-north-eu-test
@@ -67,27 +63,20 @@ SRTM_CombineSRTMFIlesIntoCountryFile. Backup - no. Inner folders:
 * 4.0K ./delete_old_aosmc.sh
 
 
-**user -> /mnt/home-hdd/user/ Size 685M** - Contains user files. Backup - no.
+**/mnt/home-hdd/user/ Size 685M** - Contains user files. [Backup].
 
-**wiki -> /mnt/home-ssd/wiki Size 77G** - Temporary directory on SSD to generate wiki maps. Jobs:
-/Maps_GenerateWikiSqlite. Backup - no.
-
-**wiki-hdd -> /mnt/home-hdd/wiki/ Size 20K** - Backup - no.
+**/mnt/home-ssd/wiki Size 77G** - Temporary directory on SSD to generate wiki maps. Jobs:
+/Maps_GenerateWikiSqlite.
 
 **www -> /mnt/home-hdd/www/ Size 346G** - Contains all the content available for downloading:
 * 51G	./indexes
 * 42G	./wikigen/regions
 * 74G	./wikigen
 * 26G	./road-indexes
-* 4.0K	./night-builds/2013
-* 4.0K	./night-builds/2016
-* 4.0K	./night-builds/2014
-* 4.0K	./night-builds/2015
-* 52G	./night-builds
+* 52G	./night-builds [Backup]
 * 34G	./hillshade
 * 97G	./srtm-countries
 * 16G	./wiki
-Backup – no.
 
 # 3. /var Folders
 **/var/lib/ Size 82GB**– Directory with installed apps.
@@ -95,10 +84,10 @@ List of important apps:
 * tirex
 * android-sdk-latest-linux, android-ndk-r8db,  android-ndk-r10e, android-ndk-r10 - 21.5 GB
 * apache2, php
-* mysql - 1.5 GB ( database ?)
+* mysql - 1.5 GB ( database ???)
 * docker - 27 GB ( osmand/java8 - wikigen, overpass, images with compilation)
 * jenkins - 17 GB
-* postgresql - 15 GB ? database ?
+* postgresql - 15 GB ? database ???
 
 **Android SDK installed packages:**
 ```
