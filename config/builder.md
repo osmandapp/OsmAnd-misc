@@ -90,19 +90,15 @@ SRTM_CombineSRTMFIlesIntoCountryFile. Backup - no. Inner folders:
 Backup – no.
 
 # 3. /var Folders
-**/var/lib/ Size 82G**– Directory with installed apps.
+**/var/lib/ Size 82GB**– Directory with installed apps.
 List of important apps:
-* logrotate    
-* android-ndk-r10
-* android-ndk-r10e
-* php 
-* android-ndk-r8db
 * tirex
-* android-sdk-latest-linux
-* apache2
-* jenkins
-* vnstat
-* postgresql
+* android-sdk-latest-linux, android-ndk-r8db,  android-ndk-r10e, android-ndk-r10 - 21.5 GB
+* apache2, php
+* mysql - 1.5 GB ( database ?)
+* docker - 27 GB ( osmand/java8 - wikigen, overpass, images with compilation)
+* jenkins - 17 GB
+* postgresql - 15 GB ? database ?
 
 **Android SDK installed packages:**
 ```
