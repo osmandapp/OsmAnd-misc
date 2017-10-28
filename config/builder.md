@@ -185,8 +185,8 @@ Installed packages:
 ```
 **www-download Size 164M** - Directory with the website contents.
 Files that should be put manually:
-./reports/db_conn.php
-./private/service.json (for Firebase).
+*./reports/db_conn.php
+*./private/service.json (for Firebase).
 **Important! Restrict user access to ./private!**
 
  
