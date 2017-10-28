@@ -183,3 +183,10 @@ Installed packages:
   system-images;a...gle_apis;x86_64 | 3       | Google APIs Intel x86 Atom_64 ... | system-images/a...le_apis/x86_64/
   tools                             | 25.2.5  | Android SDK Tools 25.2.5 | tools/
 ```
+**www-download Size 164M** - Directory with the website contents.
+Files that should be put manually:
+./reports/db_conn.php
+./private/service.json (for Firebase).
+**Important! Restrict user access to ./private!**
+
+ 
