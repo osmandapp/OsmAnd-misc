@@ -40,8 +40,8 @@ Backup - yes.
 **/mnt/home-hdd/releases/ Size 19G** - The directory contains all OsmAnd releases as apk files.
 [Backup]
 
-**/mnt/home-hdd/relief-data/ Size 1.5T** - Contains all STRM data. Job:
-SRTM_CombineSRTMFIlesIntoCountryFile. Backup - no. Inner folders:
+**/mnt/home-hdd/relief-data/ Size 1.5T** - Contains all STRM data. [Backup] ! Job:
+SRTM_CombineSRTMFIlesIntoCountryFile. Structure:
 * 192G	./terrain-aster-srtm-eudem
 * 15G	./contours-osm-bz2-north-eu-test
 * 20K	./relief30m/corrected/test/scripts/translations
