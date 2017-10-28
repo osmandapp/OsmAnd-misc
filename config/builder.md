@@ -6,8 +6,8 @@ Jenkins backup url	git@bitbucket.org:osmand/jenkins-backup.git
 basemap sources and upload script. Used in the following jenkins jobs: Maps_ExtractBasemapSource,
 Maps_GenerateBasemap. Backup - yes.
 
-**binaries -> /mnt/home-hdd/binaries/ Size 5.7G** - Directory that contains OsmAnd's binary files
-including native library for amd64-linux-clang, amd64-linux-gcc and android. Used in the following jenkins jobs:
+**binaries -> /mnt/home-hdd/binaries/ Size 5.7G** -  local ivy repository for OsmAnd libraries + caches of prebuilt third party libraries. 
+Used in the following jenkins jobs:
 OsmAndCoreAndTools-windows-gcc-64bit, OsmAndCoreAndTools-linux-gcc-64bit, OsmAndCoreAndTools-linux-gcc-64bit,
 OsmAndCore-android, OsmAndMapCreator, OsmAndCore-android-arm-test. Backup - yes.
 
