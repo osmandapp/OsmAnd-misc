@@ -19,7 +19,7 @@ Maps_GenerateBasemap. [Backup]
 
 **/mnt/home-hdd/osm-planet/ Size 147G** - Stores simlinks to osmlive & osmextract + 2 OSM o5m planet files - 75 GB each.
 
-**/mnt/home-hdd/posgres/ Size 1.3G** - Utilties to run tile rendering.
+**/mnt/home-hdd/posgres/ Size 1.3G** - Utilities to run tile rendering.
 1. Tirex - the background process to render tiles;
 2. Mapnik style;
 3. mod_tile - apache module to render tiles & redirect to tirex;
@@ -34,12 +34,6 @@ Maps_GenerateBasemap. [Backup]
 Structure (explain structure & possibly rename folders ??? ):
 * 192G	./terrain-aster-srtm-eudem
 * 15G	./contours-osm-bz2-north-eu-test
-* 20K	./relief30m/corrected/test/scripts/translations
-* 72K	./relief30m/corrected/test/scripts
-* 671M	./relief30m/corrected/test
-* 20K	./relief30m/corrected/scripts/translations
-* 72K	./relief30m/corrected/scripts
-* 458G	./relief30m/corrected
 * 537G	./relief30m
 * 50G	./SRTM-filled
 * 34G	./countries-sqlite
@@ -178,38 +172,24 @@ Files that should be put manually:
 
  
 # 4. Tirex
-**/etc/tirex/ Size 120K** - mapnik renderer configuration.
-[Backup]
-**renderer/default**
-name=default
-tiledir=/var/lib/tirex/tiles/default/
-minz=0
-maxz=19
-mapfile=/mnt/home-hdd/posgres/src/mapnik-style/osm.xml
-**renderer/highres**
-tiledir=/var/lib/tirex/tiles/highres/
-minz=0
-maxz=19
-scalefactor=2.0
-tilesize=512
-mapfile=/mnt/home-hdd/posgres/src/mapnik-style/osm.xml
-**renderer/scale**
-name=scale
-tiledir=/var/lib/tirex/tiles/scale/
-minz=0
-maxz=19
-scalefactor=2.0
-mapfile=/mnt/home-hdd/posgres/src/mapnik-style/osm.xml
+**/etc/tirex/ Size 120K** - mapnik renderer configuration
 
 # 5. Overpass
-**How to start:**
-Don't start dispatcher as root!
-
-docker start overpass
+**How to start overpass:**
+Don't run dispatcher as root!
+```
 su jenkins
 ./home/overpass/start_dispatcher.sh
+```
+
+**How to start apache server:**
+```
+docker start overpass
+```
 
 **How to restart apache inside docker container:**
+```
 docker exec -it overpass bash
 service apache2 restart
+```
 ctrl-p-q
