@@ -54,7 +54,7 @@ Structure (explain structure & possibly rename folders ??? ):
 
 **/mnt/home-hdd/routing/ Size 7.5G** - Experiments with OSRM routing.
 
-**/mnt/home-hdd/tiles/ Size?** - Contains tiles for Mapnik rendering.
+**/mnt/home-hdd/tiles/ Size 560G** - Contains tiles for Mapnik rendering.
 
 **/mnt/home-hdd/user/ Size 685M** - Contains user files. [Backup].
 
