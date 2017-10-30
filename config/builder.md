@@ -1,4 +1,4 @@
-﻿# 1. Jenkins configuration backup
+# 1. Jenkins configuration backup
 Jenkins backup url	git@bitbucket.org:osmand/jenkins-backup.git
 
 # 2. Home folders. Symlink to /mnt/home-hdd/ (3.1T), /mnt/home-ssd/ (1.5T)
@@ -177,3 +177,39 @@ Files that should be put manually:
 **Important! Restrict user access to ./private!**
 
  
+# 4. Tirex
+**/etc/tirex/ Size 120K** - mapnik renderer configuration.
+[Backup]
+**renderer/default**
+name=default
+tiledir=/var/lib/tirex/tiles/default/
+minz=0
+maxz=19
+mapfile=/mnt/home-hdd/posgres/src/mapnik-style/osm.xml
+**renderer/highres**
+tiledir=/var/lib/tirex/tiles/highres/
+minz=0
+maxz=19
+scalefactor=2.0
+tilesize=512
+mapfile=/mnt/home-hdd/posgres/src/mapnik-style/osm.xml
+**renderer/scale**
+name=scale
+tiledir=/var/lib/tirex/tiles/scale/
+minz=0
+maxz=19
+scalefactor=2.0
+mapfile=/mnt/home-hdd/posgres/src/mapnik-style/osm.xml
+
+# 5. Overpass
+**How to start:**
+Don't start dispatcher as root!
+
+docker start overpass
+su jenkins
+./home/overpass/start_dispatcher.sh
+
+**How to restart apache inside docker container:**
+docker exec -it overpass bash
+service apache2 restart
+ctrl-p-q
