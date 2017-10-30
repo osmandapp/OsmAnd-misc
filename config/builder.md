@@ -31,20 +31,11 @@ Maps_GenerateBasemap. [Backup]
 [Backup]
 
 **/mnt/home-hdd/relief-data/ Size 1.5T** - Contains all STRM data. [Backup] ???
-Structure (explain structure & possibly rename folders ??? ):
-* 192G	./terrain-aster-srtm-eudem
-* 15G	./contours-osm-bz2-north-eu-test
-* 537G	./relief30m
-* 50G	./SRTM-filled
-* 34G	./countries-sqlite
-* 3.8G	./terrain-north-eu
-* 138G	./contours-osm-bz2/COUNTRY_OBF_90M_OLD
-* 3.0G	./contours-osm-bz2/COUNTRY_OBF/bak
-* 131G	./contours-osm-bz2/COUNTRY_OBF
-* 580G	./contours-osm-bz2
-* 26G	./SRTM_V41_CGIAR_ASTER_hillshade-compressed.sqlitedb
-* 22G	./SRTM_Hillshade_tiles_TMS.zip
-* 4.0K ./delete_old_aosmc.sh
+* 192G	./terrain-aster-srtm-eudem - GeoTIFFs
+* 34G	./countries-sqlite - hillshade sqlite
+* 128G	./contours-osm-bz2/COUNTRY_OBF - generated SRTM obf files
+* 440G	./contours-osm-bz2 - contour tiles in OSM format
+* 182G	./hillshade - hillshade source files
 
 **/mnt/home-hdd/routing/ Size 7.5G** - Experiments with OSRM routing.
 
@@ -176,11 +167,11 @@ Files that should be put manually:
 
 # 5. Overpass
 **How to start overpass:**
-Don't run dispatcher as root!
 ```
 su jenkins
 ./home/overpass/start_dispatcher.sh
 ```
+Don't run dispatcher as root!
 
 **How to start apache server:**
 ```
