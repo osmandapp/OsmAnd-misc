@@ -71,10 +71,10 @@ List of important apps:
 * tirex
 * android-sdk-latest-linux, android-ndk-r8db,  android-ndk-r10e, android-ndk-r10 - 21.5 GB
 * apache2, php
-* mysql - 1.5 GB ( database ???)
+* mysql - 1.5 GB (./wiki 1.4GB - Wiki databases for different regions.)
 * docker - 27 GB ( osmand/java8 - wikigen, overpass, images with compilation)
 * jenkins - 17 GB
-* postgresql - 15 GB ? database ???
+* postgresql - 1.3GB (two instances v 9.1 & v 9.3)
 
 **Android SDK installed packages:**
 ```
