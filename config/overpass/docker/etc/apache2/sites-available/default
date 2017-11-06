@@ -1,0 +1,31 @@
+<VirtualHost *:80>
+	ServerAdmin webmaster@localhost
+	ExtFilterDefine gzip mode=output cmd=/bin/gzip
+#	DocumentRoot /var/www/html
+
+	# This directive indicates that whenever someone types http://www.mydomain.com/api/ 
+	# Apache2 should refer to what is in the local directory [YOUR_EXEC_DIR]/cgi-bin/
+	ScriptAlias /api/ /home/overpass/osm3s/cgi-bin/
+
+	# This specifies some directives specific to the directory: [YOUR_EXEC_DIR]/cgi-bin/
+	<Directory "/home/overpass/osm3s/cgi-bin/">
+		AllowOverride None
+                Options +ExecCGI -MultiViews +SymLinksIfOwnerMatch
+                Require all granted
+                # For Apache 2.4:
+                # Order allow,deny
+                # For Apache > 2.4:  llow from all
+                Allow from all
+		#Require all granted
+                #SetOutputFilter gzip
+                #Header set Content-Encoding gzip
+	</Directory>
+
+	ErrorLog /var/log/apache2/error.log
+
+	# Possible values include: debug, info, notice, warn, error, crit, alert, emerg
+	LogLevel warn
+
+	CustomLog /var/log/apache2/access.log combined
+
+</VirtualHost>

@@ -30,7 +30,7 @@ Maps_GenerateBasemap. [Backup]
 **/mnt/home-hdd/releases/ Size 19G** - The directory contains all OsmAnd releases as apk files.
 [Backup]
 
-**/mnt/home-hdd/relief-data/ Size 1.5T** - Contains all STRM data. [Backup] ???
+**/mnt/home-hdd/relief-data/ Size 1.5T** - Contains all SRTM data. [Backup] ???
 * 192G	./terrain-aster-srtm-eudem - GeoTIFFs
 * 34G	./countries-sqlite - hillshade sqlite
 * 128G	./contours-osm-bz2/COUNTRY_OBF - generated SRTM obf files
@@ -164,6 +164,15 @@ Files that should be put manually:
  
 # 4. Tirex
 **/etc/tirex/ Size 120K** - mapnik renderer configuration
+As root:
+```
+mkdir /var/run/tirex
+chown postgres:postgres /var/run/tirex
+su postgres
+tirex-master
+tirex-backend-manager
+```
+Wait 5 minutes
 
 # 5. Overpass
 **How to start overpass:**
