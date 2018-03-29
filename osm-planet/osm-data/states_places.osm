@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2018-03-27T07:33:02Z"/>
+<meta osm_base="2018-03-29T07:47:02Z"/>
 
   <node id="671022" lat="36.7014631" lon="-118.7559974">
     <tag k="alt_name:vi" v="California"/>
@@ -6927,15 +6927,16 @@
     <tag k="wikipedia" v="en:Khyber Pakhtunkhwa"/>
   </node>
   <node id="316441063" lat="34.3752779" lon="73.4730602">
+    <tag k="ISO Code" v="3166"/>
     <tag k="alt_name" v="Azad Jammu and Kashmir"/>
     <tag k="gns:dsg" v="ADM1"/>
     <tag k="gns:uni" v="-3823813"/>
     <tag k="is_in:country" v="Pakistan"/>
-    <tag k="is_in:country_code" v="PK"/>
-    <tag k="name" v="آزاد جموں و کشمیر"/>
+    <tag k="is_in:country_code" v="AJK"/>
+    <tag k="name" v="Azad Jammu and Kashmir - آزاد جموں و کشمیر"/>
     <tag k="name:ar" v="آزاد كشمير"/>
     <tag k="name:de" v="Asad Kaschmir"/>
-    <tag k="name:en" v="Azad Kashmir"/>
+    <tag k="name:en" v="Azad Jammu and Kashmir"/>
     <tag k="name:fr" v="Azad Cachemire"/>
     <tag k="name:hu" v="Aszad Kasmír"/>
     <tag k="name:ja" v="アザド・カシミール"/>
@@ -6943,6 +6944,7 @@
     <tag k="name:pl" v="Azad Dżammu i Kaszmir"/>
     <tag k="name:ru" v="Азад Кашмир"/>
     <tag k="name:uk" v="Азад Кашмір"/>
+    <tag k="name:ur" v="آزاد جموں و کشمیر"/>
     <tag k="name:vi" v="Azad Kashmir"/>
     <tag k="official_name" v="Azad State of Jammu and Kashmir"/>
     <tag k="official_name:vi" v="Azad Jammu và Kashmir"/>
@@ -8837,7 +8839,7 @@
     <tag k="gns:uni" v="9217191"/>
     <tag k="is_in:country" v="ኤርትራ إرتريا"/>
     <tag k="is_in:country_code" v="ER"/>
-    <tag k="name" v="ዞባ ደቡብ المنطقة الجنوبية"/>
+    <tag k="name" v="ዞባ ደቡብ المنطقة الجنوبية Southern Zone"/>
     <tag k="name:ar" v="المنطقة الجنوبية"/>
     <tag k="name:de" v="Süd-Region"/>
     <tag k="name:en" v="Southern Zone"/>
@@ -9703,7 +9705,7 @@
     <tag k="name:ru" v="Кокосовые (Килинг) острова"/>
     <tag k="name:se" v="Cocos-sullot"/>
     <tag k="name:si" v="කොකෝස් දූපත්"/>
-    <tag k="name:sk" v="Kokosove ostrovy"/>
+    <tag k="name:sk" v="Kokosové ostrovy"/>
     <tag k="name:sl" v="Kokosovi otoki"/>
     <tag k="name:sr" v="Кокосова (Килинг) Острва"/>
     <tag k="name:sv" v="Kokosöarna"/>
@@ -9723,6 +9725,7 @@
     <tag k="official_name:es" v="Territorio de las Islas Cocos (Keeling)"/>
     <tag k="official_name:lv" v="Kokosu (Kīlinga) salu teritorija"/>
     <tag k="official_name:pl" v="Terytorium Wysp Kokosowych (Keelinga)"/>
+    <tag k="official_name:sk" v="Teritórium Kokosových ostrovov"/>
     <tag k="place" v="state"/>
     <tag k="ref" v="CC"/>
     <tag k="wikidata" v="Q36004"/>
@@ -9979,6 +9982,7 @@
     <tag k="name:no" v="Korallhavøyene"/>
     <tag k="name:pl" v="Wyspy Morza Koralowego"/>
     <tag k="name:ru" v="Коралловые острова"/>
+    <tag k="name:sk" v="Ostrovy Koralového mora"/>
     <tag k="name:sr" v="Острва Коралног мора"/>
     <tag k="name:sv" v="Korallhavöarna"/>
     <tag k="name:tr" v="Mercan Denizi Adaları"/>
@@ -11059,7 +11063,7 @@
     <tag k="name:pl" v="województwo zachodniopomorskie"/>
     <tag k="name:pt" v="Pomerânia Ocidental"/>
     <tag k="name:ru" v="Западнопоморское воеводство"/>
-    <tag k="name:sk" v="Západopomoranské"/>
+    <tag k="name:sk" v="Západopomoranské vojvodstvo"/>
     <tag k="name:uk" v="Західнопоморське воєводство"/>
     <tag k="name:zh" v="西波美拉尼亚省"/>
     <tag k="place" v="state"/>
@@ -12162,7 +12166,7 @@
     <tag k="name:pl" v="województwo małopolskie"/>
     <tag k="name:pt" v="Pequena Polónia"/>
     <tag k="name:ru" v="Малопольское воеводство"/>
-    <tag k="name:sk" v="Malopoľské"/>
+    <tag k="name:sk" v="Malopoľské vojvodstvo"/>
     <tag k="name:uk" v="Малопольське воєводство"/>
     <tag k="name:zh" v="小波兰省"/>
     <tag k="place" v="state"/>
@@ -12186,7 +12190,7 @@
     <tag k="name:pl" v="województwo podkarpackie"/>
     <tag k="name:pt" v="Subcarpácia"/>
     <tag k="name:ru" v="Подкарпатское воеводство"/>
-    <tag k="name:sk" v="Podkarpatské"/>
+    <tag k="name:sk" v="Podkarpatské vojvodstvo"/>
     <tag k="name:uk" v="Підкарпатське воєводство"/>
     <tag k="name:zh" v="喀尔巴阡山省"/>
     <tag k="place" v="state"/>
@@ -12211,7 +12215,7 @@
     <tag k="name:pl" v="województwo mazowieckie"/>
     <tag k="name:pt" v="Mazóvia"/>
     <tag k="name:ru" v="Мазовецкое воеводство"/>
-    <tag k="name:sk" v="Mazovské"/>
+    <tag k="name:sk" v="Mazovské vojvodstvo"/>
     <tag k="name:uk" v="Мазовецьке воєводство"/>
     <tag k="name:zh" v="馬佐夫舍省"/>
     <tag k="place" v="state"/>
@@ -12249,7 +12253,7 @@
     <tag k="name:pt" v="Grande Polônia"/>
     <tag k="name:ro" v="Polonia Mare"/>
     <tag k="name:ru" v="Великопольское воеводство"/>
-    <tag k="name:sk" v="Veľkopoľské"/>
+    <tag k="name:sk" v="Veľkopoľské vojvodstvo"/>
     <tag k="name:sr" v="Војводство Великопољско"/>
     <tag k="name:uk" v="Великопольське воєводство"/>
     <tag k="name:yi" v="גרויספוילישע וואויוואדעשאפט"/>
@@ -12272,7 +12276,7 @@
     <tag k="name:lt" v="Liublino vaivadija"/>
     <tag k="name:pl" v="województwo lubelskie"/>
     <tag k="name:ru" v="Люблинское воеводство"/>
-    <tag k="name:sk" v="Lubelské"/>
+    <tag k="name:sk" v="Lubelské vojvodstvo"/>
     <tag k="name:sl" v="Lublinsko"/>
     <tag k="name:szl" v="lubelske"/>
     <tag k="name:uk" v="Люблінське воєводство"/>
@@ -12322,7 +12326,7 @@
     <tag k="name:pl" v="województwo podlaskie"/>
     <tag k="name:pt" v="Voivodia da Podláquia"/>
     <tag k="name:ru" v="Подляское воеводство"/>
-    <tag k="name:sk" v="Podleské"/>
+    <tag k="name:sk" v="Podleské vojvodstvo"/>
     <tag k="name:uk" v="Підляське воєводство"/>
     <tag k="name:zh" v="波德拉謝省"/>
     <tag k="place" v="state"/>
@@ -12343,7 +12347,7 @@
     <tag k="name:pl" v="województwo warmińsko-mazurskie"/>
     <tag k="name:pt" v="Voivodia da Vármia-Masúria"/>
     <tag k="name:ru" v="Варминско-Мазурское воеводство"/>
-    <tag k="name:sk" v="Varmsko-mazurské"/>
+    <tag k="name:sk" v="Varmsko-mazurské vojvodstvo"/>
     <tag k="name:uk" v="Вармінсько-Мазурське воєводство"/>
     <tag k="name:zh" v="瓦爾米亞-馬祖里省"/>
     <tag k="place" v="state"/>
@@ -12354,6 +12358,7 @@
     <tag k="wikipedia" v="pl:Województwo warmińsko-mazurskie"/>
   </node>
   <node id="505013148" lat="54.1431480" lon="17.9057338">
+    <tag k="alt_name:sk" v="Pomorské vojvodstvo"/>
     <tag k="name" v="województwo pomorskie"/>
     <tag k="name:af" v="Pommere"/>
     <tag k="name:ar" v="محافظة بومرسكي"/>
@@ -12369,7 +12374,7 @@
     <tag k="name:pl" v="województwo pomorskie"/>
     <tag k="name:pt" v="Pomerânia"/>
     <tag k="name:ru" v="Поморское воеводство"/>
-    <tag k="name:sk" v="Pomoranské"/>
+    <tag k="name:sk" v="Pomoranské vojvodstvo"/>
     <tag k="name:uk" v="Поморське воєводство"/>
     <tag k="name:zh" v="濱海省 (波蘭)"/>
     <tag k="place" v="state"/>
@@ -12392,7 +12397,7 @@
     <tag k="name:pl" v="województwo lubuskie"/>
     <tag k="name:pt" v="Lubúsquia"/>
     <tag k="name:ru" v="Любушское воеводство"/>
-    <tag k="name:sk" v="Lubuské"/>
+    <tag k="name:sk" v="Lubuské vojvodstvo"/>
     <tag k="name:uk" v="Любуське воєводство"/>
     <tag k="name:zh" v="盧布斯卡省"/>
     <tag k="place" v="state"/>
@@ -12414,6 +12419,7 @@
     <tag k="name:lt" v="Žemutinės Silezijos vaivadija"/>
     <tag k="name:pl" v="województwo dolnośląskie"/>
     <tag k="name:ru" v="Нижнесилезское воеводство"/>
+    <tag k="name:sk" v="Dolnosliezske vojvodstvo"/>
     <tag k="name:szl" v="Dolnoślůnske"/>
     <tag k="name:uk" v="Нижньосілезьке воєводство"/>
     <tag k="place" v="state"/>
@@ -12439,7 +12445,7 @@
     <tag k="name:pl" v="województwo opolskie"/>
     <tag k="name:pt" v="Voivodia de Opole"/>
     <tag k="name:ru" v="Опольское воеводство"/>
-    <tag k="name:sk" v="Opolské"/>
+    <tag k="name:sk" v="Opolské vojvodstvo"/>
     <tag k="name:sl" v="Opoljsko vojvodstvo"/>
     <tag k="name:szl" v="uopolske wojewůdztwo"/>
     <tag k="name:uk" v="Опольське воєводство"/>
@@ -12465,7 +12471,7 @@
     <tag k="name:lt" v="Silezijos vaivadija"/>
     <tag k="name:pl" v="województwo śląskie"/>
     <tag k="name:ru" v="Силезское воеводство"/>
-    <tag k="name:sk" v="Sliezske"/>
+    <tag k="name:sk" v="Sliezske vojvodstvo"/>
     <tag k="name:uk" v="Сілезьке воєводство"/>
     <tag k="name:zh" v="西里西亚省"/>
     <tag k="place" v="state"/>
@@ -12489,7 +12495,7 @@
     <tag k="name:pl" v="województwo łódzkie"/>
     <tag k="name:pt" v="Łódź"/>
     <tag k="name:ru" v="Лодзинское воеводство"/>
-    <tag k="name:sk" v="Lodžské"/>
+    <tag k="name:sk" v="Lodžské vojvodstvo"/>
     <tag k="name:uk" v="Лодзинське воєводство"/>
     <tag k="name:zh" v="罗兹省"/>
     <tag k="place" v="state"/>
@@ -12499,6 +12505,7 @@
     <tag k="wikipedia" v="pl:Województwo łódzkie"/>
   </node>
   <node id="505045821" lat="53.3220016" lon="18.3392939">
+    <tag k="alt_name:sk" v="Kujavsko-pomorské vojvodstvo"/>
     <tag k="name" v="województwo kujawsko-pomorskie"/>
     <tag k="name:af" v="Kujavië-Pommere"/>
     <tag k="name:be" v="Куяўска-Паморскае ваяводства"/>
@@ -12512,7 +12519,7 @@
     <tag k="name:pl" v="województwo kujawsko-pomorskie"/>
     <tag k="name:pt" v="Cujávia-Pomerânia"/>
     <tag k="name:ru" v="Куявско-Поморское воеводство"/>
-    <tag k="name:sk" v="Kujavsko-pomoranské"/>
+    <tag k="name:sk" v="Kujavsko-pomoranské vojvodstvo"/>
     <tag k="name:uk" v="Куявсько-Поморське воєводство"/>
     <tag k="name:zh" v="庫亞維-波美拉尼亞省"/>
     <tag k="place" v="state"/>
@@ -12850,7 +12857,7 @@
     <tag k="name:it" v="Renania-Palatinato"/>
     <tag k="name:nl" v="Rijnland-Palts"/>
     <tag k="name:ru" v="Рейнланд-Пфальц"/>
-    <tag k="name:sk" v="Porýnie - Falcko"/>
+    <tag k="name:sk" v="Porýnie-Falcko"/>
     <tag k="name:vo" v="Rinän-Palzän"/>
     <tag k="note" v="Nicht exakt am Mittelpunkt, aber nahe dran."/>
     <tag k="place" v="state"/>
@@ -14123,7 +14130,7 @@
     <tag k="place" v="state"/>
     <tag k="ref" v="X"/>
   </node>
-  <node id="618290369" lat="-34.8700721" lon="-68.5479966">
+  <node id="618290369" lat="-34.8741211" lon="-68.5621587">
     <tag k="is_in" v="Argentina, South America"/>
     <tag k="is_in:country" v="Argentina"/>
     <tag k="is_in:country_code" v="AR"/>
@@ -15250,6 +15257,7 @@
     <tag k="name:pl" v="Republika Autonomiczna Krymu"/>
     <tag k="name:pt" v="República Autônoma da Crimeia"/>
     <tag k="name:ru" v="Автономная Республика Крым"/>
+    <tag k="name:sk" v="Krymská autonómna republika"/>
     <tag k="name:sv" v="Autonoma republiken Krim"/>
     <tag k="name:tr" v="Kırım Özerk Cumhuriyeti"/>
     <tag k="name:tt" v="Кырым Автономияле Җөмһүрияте"/>
@@ -17103,6 +17111,7 @@
     <tag k="name:pt" v="Santa Cruz"/>
     <tag k="name:ro" v="Sfintei Cruci"/>
     <tag k="name:ru" v="Свентокшиское воеводство"/>
+    <tag k="name:sk" v="Svätokrížske vojvodstvo"/>
     <tag k="name:uk" v="Свентокшиське воєводство"/>
     <tag k="place" v="state"/>
     <tag k="population" v="1281796"/>
@@ -21908,6 +21917,7 @@
     <tag k="name:ja" v="マカオ"/>
     <tag k="name:pl" v="Makau"/>
     <tag k="name:pt" v="Macau"/>
+    <tag k="name:sk" v="Macao"/>
     <tag k="name:vi" v="Ma Cao"/>
     <tag k="name:zh" v="澳門"/>
     <tag k="name:zh-classical" v="澳門"/>
@@ -21918,6 +21928,7 @@
     <tag k="official_name:es" v="Región Administrativa Especial de Macao de la República Popular China"/>
     <tag k="official_name:fr" v="Région administrative spéciale de Macao de la République populaire de Chine"/>
     <tag k="official_name:pt" v="Região Administrativa Especial de Macau da República Popular da China"/>
+    <tag k="official_name:sk" v="Špeciálna administratívna oblasť Čínskej ľudovej republiky"/>
     <tag k="official_name:vi" v="Đặc khu hành chính Ma Cao thuộc Cộng hòa Nhân dân Trung Hoa"/>
     <tag k="place" v="state"/>
     <tag k="wikidata" v="Q14773"/>
@@ -23833,6 +23844,7 @@
     <tag k="name:pt" v="Ilhas Ashmore e Cartier"/>
     <tag k="name:ro" v="Insulele Ashmore și Cartier"/>
     <tag k="name:ru" v="Острова Ашмор и Картье"/>
+    <tag k="name:sk" v="Ashmorov a Cartierov ostrov"/>
     <tag k="name:vi" v="Quần đảo Ashmore và Cartier"/>
     <tag k="place" v="state"/>
   </node>
@@ -23974,6 +23986,7 @@
     <tag k="name:nl" v="Hessen"/>
     <tag k="name:ru" v="Гессен"/>
     <tag k="name:short" v="HE"/>
+    <tag k="name:sk" v="Hesensko"/>
     <tag k="name:tzl" v="Hesna"/>
     <tag k="name:vo" v="Hesän"/>
     <tag k="place" v="state"/>

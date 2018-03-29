@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.54.13 ff15392f">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2018-03-27T07:42:02Z" areas="2018-03-27T07:10:02Z"/>
+<meta osm_base="2018-03-29T07:51:02Z" areas="2018-03-29T07:12:02Z"/>
 
   <relation id="8640">
     <tag k="ISO3166-2" v="FR-CVL"/>
@@ -807,7 +807,7 @@
     <tag k="ISO3166-2" v="NL-FR"/>
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
-    <tag k="name" v="Friesland"/>
+    <tag k="name" v="Fryslân"/>
     <tag k="name:ar" v="فريزلند"/>
     <tag k="name:ca" v="Frísia"/>
     <tag k="name:de" v="Friesland"/>
@@ -5682,6 +5682,7 @@
     <tag k="name:pl" v="Republika Autonomiczna Krymu"/>
     <tag k="name:pt" v="República Autônoma da Crimeia"/>
     <tag k="name:ru" v="Автономная Республика Крым"/>
+    <tag k="name:sk" v="Krymská autonómna republika"/>
     <tag k="name:sv" v="Autonoma republiken Krim"/>
     <tag k="name:szl" v="Autōnōmicznŏ Republika Krymu"/>
     <tag k="name:tr" v="Kırım Özerk Cumhuriyeti"/>
@@ -6457,7 +6458,9 @@
     <tag k="name:eo" v="Kokosinsuloj"/>
     <tag k="name:hr" v="Kokosovi Otoci"/>
     <tag k="name:nl" v="Cocoseilanden"/>
+    <tag k="name:sk" v="Kokosové ostrovy"/>
     <tag k="official_name:cs" v="Území Kokosové ostrovy"/>
+    <tag k="official_name:sk" v="Teritórium Kokosových ostrovov"/>
     <tag k="place" v="state"/>
     <tag k="short_name:cs" v="Území Keelingovy ostrovy"/>
     <tag k="timezone" v="Indian/Cocos"/>
@@ -7509,6 +7512,7 @@
     <tag k="name:lt" v="Vakarų Pamario vaivadija"/>
     <tag k="name:nl" v="Woiwodschap West-Pommeren"/>
     <tag k="name:ru" v="Западно-Поморское воеводство"/>
+    <tag k="name:sk" v="Západopomoranské vojvodstvo"/>
     <tag k="name:sl" v="Zahodnopomorjansko vojvodstvo"/>
     <tag k="name:szl" v="zachodńopůmorske wojewůdztwo"/>
     <tag k="name:uk" v="Західнопоморське воєводство"/>
@@ -8732,6 +8736,7 @@
     <tag k="name:nl" v="Woiwodschap Swiety Krzyz"/>
     <tag k="name:pl" v="województwo świętokrzyskie"/>
     <tag k="name:ru" v="Свентокшиское воеводство"/>
+    <tag k="name:sk" v="Svätokrížske vojvodstvo"/>
     <tag k="name:sl" v="Svetokriško vojvodstvo"/>
     <tag k="name:szl" v="śwjyntokrziske wojewůdztwo"/>
     <tag k="name:uk" v="Свентокшиське воєводство"/>
@@ -8771,7 +8776,7 @@
     <tag k="name:nl" v="Woiwodschap Lublin"/>
     <tag k="name:pl" v="województwo lubelskie"/>
     <tag k="name:ru" v="Люблинское воеводство"/>
-    <tag k="name:sk" v="Lubelské"/>
+    <tag k="name:sk" v="Lubelské vojvodstvo"/>
     <tag k="name:sl" v="Lublinsko vojvodstvo"/>
     <tag k="name:szl" v="wojewůdztwo lubelske"/>
     <tag k="name:uk" v="Люблінське воєводство"/>
@@ -8809,6 +8814,7 @@
     <tag k="name:nl" v="Woiwodschap Mazovië"/>
     <tag k="name:pl" v="województwo mazowieckie"/>
     <tag k="name:ru" v="Мазовецкое воеводство"/>
+    <tag k="name:sk" v="Mazovské vojvodstvo"/>
     <tag k="name:sl" v="Mazovijsko vojvodstvo"/>
     <tag k="name:szl" v="wojewůdztwo mazowjecke"/>
     <tag k="name:uk" v="Мазовецьке воєводство"/>
@@ -8841,6 +8847,7 @@
     <tag k="name:nl" v="Woiwodschap Subkarpaten"/>
     <tag k="name:pl" v="województwo podkarpackie"/>
     <tag k="name:ru" v="Подкарпатское воеводство"/>
+    <tag k="name:sk" v="Podkarpatské vojvodstvo"/>
     <tag k="name:sl" v="Podkarpatsko vojvodstvo"/>
     <tag k="name:szl" v="wojewůdztwo podkarpacke"/>
     <tag k="name:uk" v="Підкарпатське воєводство"/>
@@ -8874,6 +8881,7 @@
     <tag k="name:lt" v="Liubušo vaivadija"/>
     <tag k="name:nl" v="Woiwodschap Lubusz"/>
     <tag k="name:ru" v="Любуское воеводство"/>
+    <tag k="name:sk" v="Lubuské vojvodstvo"/>
     <tag k="name:sl" v="Lubuško vojvodstvo"/>
     <tag k="name:szl" v="wojewůdztwo lubuske"/>
     <tag k="name:uk" v="Любуське воєводство"/>
@@ -8908,6 +8916,7 @@
     <tag k="name:nl" v="Woiwodschap Groot-Polen"/>
     <tag k="name:pl" v="województwo wielkopolskie"/>
     <tag k="name:ru" v="Великопольское воеводство"/>
+    <tag k="name:sk" v="Veľkopoľské vojvodstvo"/>
     <tag k="name:uk" v="Великопольське воєводство"/>
     <tag k="ref" v="WP"/>
     <tag k="short_name" v="wielkopolskie"/>
@@ -8920,6 +8929,7 @@
     <tag k="ISO3166-2" v="PL-PM"/>
     <tag k="admin_level" v="4"/>
     <tag k="alt_name:en" v="Pomorze Province"/>
+    <tag k="alt_name:sk" v="Pomorské vojvodstvo"/>
     <tag k="boundary" v="administrative"/>
     <tag k="is_in:continent" v="Europe"/>
     <tag k="is_in:country" v="Poland"/>
@@ -8942,6 +8952,7 @@
     <tag k="name:nl" v="Woiwodschap Pommeren"/>
     <tag k="name:pl" v="województwo pomorskie"/>
     <tag k="name:ru" v="Поморское воеводство"/>
+    <tag k="name:sk" v="Pomoranské vojvodstvo"/>
     <tag k="name:sl" v="Pomorjansko vojvodstvo"/>
     <tag k="name:szl" v="wojewůdztwo půmorske"/>
     <tag k="name:uk" v="Поморське воєводство"/>
@@ -14912,6 +14923,7 @@
     <tag k="admin_level" v="4"/>
     <tag k="alt_name:en" v="Kuyavian-Pomeranian Province"/>
     <tag k="alt_name:es" v="Voivodato de Kuyavia y Pomerania"/>
+    <tag k="alt_name:sk" v="Kujavsko-pomorské vojvodstvo"/>
     <tag k="boundary" v="administrative"/>
     <tag k="is_in:continent" v="Europe"/>
     <tag k="is_in:country" v="Poland"/>
@@ -14934,6 +14946,7 @@
     <tag k="name:nl" v="Woiwodschap Koejavië-Pommeren"/>
     <tag k="name:pl" v="województwo kujawsko-pomorskie"/>
     <tag k="name:ru" v="Куявско-Поморское воеводство"/>
+    <tag k="name:sk" v="Kujavsko-pomoranské vojvodstvo"/>
     <tag k="name:sl" v="Kujavsko-Pomorjansko vojvodstvo"/>
     <tag k="name:szl" v="wojewůdztwo kujawsko-půmorske"/>
     <tag k="name:uk" v="Куявсько-Поморське воєводство"/>
@@ -14981,6 +14994,7 @@
     <tag k="name:pl" v="województwo warmińsko-mazurskie"/>
     <tag k="name:pt" v="Voivodia da Vármia-Masúria"/>
     <tag k="name:ru" v="Варминско-Мазурское воеводство"/>
+    <tag k="name:sk" v="Varmsko-mazurské vojvodstvo"/>
     <tag k="name:sl" v="Varminsko-Mazursko vojvodstvo"/>
     <tag k="name:szl" v="wojewůdztwo warmińsko-mazurske"/>
     <tag k="name:uk" v="Вармінсько-Мазурське воєводство"/>
@@ -16035,7 +16049,7 @@
     <tag k="name:pl" v="województwo dolnośląskie"/>
     <tag k="name:pt" v="Voivodia da Baixa Silésia"/>
     <tag k="name:ru" v="Нижнесилезское воеводство"/>
-    <tag k="name:sk" v="Dolnosliezske"/>
+    <tag k="name:sk" v="Dolnosliezske vojvodstvo"/>
     <tag k="name:sl" v="Spodnješlezijsko vojvodstvo"/>
     <tag k="name:szl" v="dolnoślůnske wojewůdztwo"/>
     <tag k="name:uk" v="Нижньосілезьке воєводство"/>
@@ -16075,6 +16089,7 @@
     <tag k="name:nl" v="Woiwodschap Lodz"/>
     <tag k="name:pl" v="województwo łódzkie"/>
     <tag k="name:ru" v="Лодзинское воеводство"/>
+    <tag k="name:sk" v="Lodžské vojvodstvo"/>
     <tag k="name:sl" v="Lodzsko vojvodstvo"/>
     <tag k="name:szl" v="Łůdzke wojewůdztwo"/>
     <tag k="name:uk" v="Лодзьке воєводство"/>
@@ -16108,6 +16123,7 @@
     <tag k="name:nl" v="Woiwodschap Klein-Polen"/>
     <tag k="name:pl" v="województwo małopolskie"/>
     <tag k="name:ru" v="Малопольское воеводство"/>
+    <tag k="name:sk" v="Malopoľské vojvodstvo"/>
     <tag k="name:sl" v="Malopoljsko vojvodstvo"/>
     <tag k="name:szl" v="wojewůwdztwo mauopolske"/>
     <tag k="name:uk" v="Малопольське воєводство"/>
@@ -16144,7 +16160,7 @@
     <tag k="name:pl" v="województwo opolskie"/>
     <tag k="name:pt" v="Voivodia de Opole"/>
     <tag k="name:ru" v="Опольское воеводство"/>
-    <tag k="name:sk" v="Opolské"/>
+    <tag k="name:sk" v="Opolské vojvodstvo"/>
     <tag k="name:sl" v="Opoljsko vojvodstvo"/>
     <tag k="name:szl" v="uopolske wojewůdztwo"/>
     <tag k="name:uk" v="Опольське воєводство"/>
@@ -16183,6 +16199,7 @@
     <tag k="name:nl" v="Woiwodschap Podlachië"/>
     <tag k="name:pl" v="województwo podlaskie"/>
     <tag k="name:ru" v="Подляское воеводство"/>
+    <tag k="name:sk" v="Podleské vojvodstvo"/>
     <tag k="name:sl" v="Podlaško vojvodstvo"/>
     <tag k="name:szl" v="Podlaske wojewůdztwo‎"/>
     <tag k="name:uk" v="Підляське воєводство"/>
@@ -21330,7 +21347,7 @@
     <tag k="is_in:continent" v="Asia"/>
     <tag k="is_in:country" v="Pakistan"/>
     <tag k="is_in:country_code" v="PK"/>
-    <tag k="name" v="وفاقی دارالحکومت"/>
+    <tag k="name" v="وفاقی دارالحکومت اسلام آباد"/>
     <tag k="name:de" v="Hauptstadtterritorium Islamabad"/>
     <tag k="name:en" v="Islamabad Capital Territory"/>
     <tag k="name:es" v="Islamabad"/>
@@ -21338,9 +21355,11 @@
     <tag k="name:ja" v="イスラーマーバード首都圏"/>
     <tag k="name:pl" v="Terytorium Stołeczne Islamabadu"/>
     <tag k="name:ru" v="Федеральная столичная территория"/>
-    <tag k="name:ur" v="وفاقی دارالحکومت"/>
+    <tag k="name:ur" v="وفاقی دارالحکومت اسلام آباد"/>
     <tag k="name:zh" v="伊斯兰堡联邦首都区"/>
+    <tag k="name_1" v="Islamabad - اسلام آباد"/>
     <tag k="type" v="boundary"/>
+    <tag k="website" v="http://www.islamabad.gov.pk/"/>
     <tag k="wikidata" v="Q848613"/>
     <tag k="wikipedia" v="en:Islamabad Capital Territory"/>
   </relation>
@@ -24232,6 +24251,7 @@
     <tag k="name:pt" v="Kiev"/>
     <tag k="name:ro" v="Kiev"/>
     <tag k="name:ru" v="Киев"/>
+    <tag k="name:sk" v="Kyjev"/>
     <tag k="name:szl" v="Kijůw"/>
     <tag k="name:tzl" v="Kíiv"/>
     <tag k="name:uk" v="Київ"/>
@@ -24309,6 +24329,7 @@
     <tag k="name:en" v="Central Moravia"/>
     <tag k="name:hr" v="Središnja Moravska"/>
     <tag k="name:ru" v="Центральная Моравия"/>
+    <tag k="name:sk" v="Stredná Morava"/>
     <tag k="population" v="1227753"/>
     <tag k="ref" v="CZ07"/>
     <tag k="ref:NUTS" v="CZ07"/>
@@ -24327,6 +24348,7 @@
     <tag k="name:en" v="Southeast"/>
     <tag k="name:hr" v="Jugoistočna Češka"/>
     <tag k="name:ru" v="Юго-Восток"/>
+    <tag k="name:sk" v="Juhovýchod"/>
     <tag k="population" v="1669024"/>
     <tag k="ref" v="CZ06"/>
     <tag k="ref:NUTS" v="CZ06"/>
@@ -24345,6 +24367,7 @@
     <tag k="name:en" v="Southwest"/>
     <tag k="name:hr" v="Jugozapadna Češka"/>
     <tag k="name:ru" v="Юго-Запад"/>
+    <tag k="name:sk" v="Juhozápad"/>
     <tag k="population" v="1201770"/>
     <tag k="ref" v="CZ03"/>
     <tag k="ref:NUTS" v="CZ03"/>
@@ -24363,6 +24386,7 @@
     <tag k="name:en" v="Moravia-Silesia"/>
     <tag k="name:hr" v="Moravska-Šleska"/>
     <tag k="name:ru" v="Мораво-Силезия"/>
+    <tag k="name:sk" v="Moravsko-sliezsko"/>
     <tag k="population" v="1243315"/>
     <tag k="ref" v="CZ08"/>
     <tag k="ref:NUTS" v="CZ08"/>
@@ -24381,6 +24405,7 @@
     <tag k="name:en" v="Northeast"/>
     <tag k="name:hr" v="Sjeveroistočna Češka"/>
     <tag k="name:ru" v="Северо-Восток"/>
+    <tag k="name:sk" v="Severovýchod"/>
     <tag k="population" v="1502327"/>
     <tag k="ref" v="CZ05"/>
     <tag k="ref:NUTS" v="CZ05"/>
@@ -24399,6 +24424,7 @@
     <tag k="name:en" v="Central Bohemia"/>
     <tag k="name:hr" v="Središnja Češka"/>
     <tag k="name:ru" v="Центральная Чехия"/>
+    <tag k="name:sk" v="Stredné Čechy"/>
     <tag k="population" v="1268704"/>
     <tag k="ref" v="CZ02"/>
     <tag k="ref:NUTS" v="CZ02"/>
@@ -24417,6 +24443,7 @@
     <tag k="name:en" v="Northwest"/>
     <tag k="name:hr" v="Sjevero-zapad Češke"/>
     <tag k="name:ru" v="Северо-Запад"/>
+    <tag k="name:sk" v="Severozápad"/>
     <tag k="population" v="1144485"/>
     <tag k="ref" v="CZ04"/>
     <tag k="ref:NUTS" v="CZ04"/>
@@ -24436,6 +24463,7 @@
     <tag k="name:fr" v="Prague"/>
     <tag k="name:pl" v="Praga"/>
     <tag k="name:ru" v="Прага"/>
+    <tag k="name:sk" v="Praha"/>
     <tag k="population" v="1251933"/>
     <tag k="ref" v="CZ01"/>
     <tag k="ref:NUTS" v="CZ01"/>
@@ -45312,6 +45340,7 @@
     <tag k="name:nl" v="Ashmore- en Cartiereilanden"/>
     <tag k="name:pt" v="Ilhas Ashmore e Cartier"/>
     <tag k="name:ro" v="Insulele Ashmore și Cartier"/>
+    <tag k="name:sk" v="Ashmorov a Cartierov ostrov"/>
     <tag k="name:vi" v="Quần đảo Ashmore và Cartier"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q133888"/>
@@ -49804,6 +49833,18 @@
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q4667612"/>
     <tag k="wikipedia" v="fr:Abidjan"/>
+  </relation>
+  <relation id="3379428">
+    <tag k="admin_level" v="4"/>
+    <tag k="boundary" v="postal_code"/>
+    <tag k="name" v="Bruxelles / Brussels / Brüssel - Flandre / Vlaanderen / Flandern"/>
+    <tag k="name:de" v="Brüssel-Hauptstadt - Flandern"/>
+    <tag k="name:en" v="Brussels-Capital - Flemish Region"/>
+    <tag k="name:fr" v="Bruxelles-Capitale - Flandre"/>
+    <tag k="name:nl" v="Brussels Hoofdstedelijk - Vlaanderen"/>
+    <tag k="note" v="1180 Uccle - Ukkel"/>
+    <tag k="postal_code" v="1180"/>
+    <tag k="type" v="boundary"/>
   </relation>
   <relation id="3382266">
     <tag k="ISO3166-2" v="MN-071"/>
@@ -56005,7 +56046,7 @@
     <tag k="wikipedia" v="en:Jiwaka Province"/>
   </relation>
   <relation id="3780130">
-    <tag k="ISO3166-2" v="PK-JK"/>
+    <tag k="ISO3166-2" v="AJK"/>
     <tag k="admin_level" v="4"/>
     <tag k="border_type" v="province"/>
     <tag k="boundary" v="administrative"/>
@@ -56016,7 +56057,6 @@
     <tag k="name" v="آزاد جموں و کشمیر"/>
     <tag k="name:ar" v="آزاد كشمير"/>
     <tag k="name:de" v="Asad Jammu und Kaschmir"/>
-    <tag k="name:en" v="Azad Kashmir"/>
     <tag k="name:es" v="Azad Cachemira"/>
     <tag k="name:fr" v="Azad Cachemire"/>
     <tag k="name:ja" v="アザド・カシミール"/>
@@ -70253,9 +70293,11 @@
     <tag k="boundary" v="administrative"/>
     <tag k="cg_ref" v="TR-1"/>
     <tag k="name" v="Ege Bölgesi"/>
+    <tag k="name:cs" v="Egejský region"/>
     <tag k="name:de" v="Ägäisregion"/>
     <tag k="name:en" v="Aegean Region"/>
     <tag k="name:ru" v="Эгейский регион"/>
+    <tag k="name:sk" v="Egejský región"/>
     <tag k="name:tr" v="Ege Bölgesi"/>
     <tag k="name:uk" v="Егейський регіон"/>
     <tag k="type" v="boundary"/>
@@ -70291,6 +70333,7 @@
     <tag k="name:pt" v="Região do Mar Negro"/>
     <tag k="name:ro" v="Regiunea Mării Negre"/>
     <tag k="name:ru" v="Черноморский регион"/>
+    <tag k="name:sk" v="Čiernomorský región"/>
     <tag k="name:sl" v="Črno morje"/>
     <tag k="name:sw" v="Kanda ya Bahari Nyeusi"/>
     <tag k="name:tr" v="Karadeniz Bölgesi"/>
@@ -70306,9 +70349,11 @@
     <tag k="boundary" v="administrative"/>
     <tag k="cg_ref" v="TR-3"/>
     <tag k="name" v="İç Anadolu Bölgesi"/>
+    <tag k="name:cs" v="Střední Anatolie"/>
     <tag k="name:de" v="Zentralanatolien"/>
     <tag k="name:en" v="Central Anatolia Region"/>
     <tag k="name:ru" v="Центральная Анатолия"/>
+    <tag k="name:sk" v="Stredná Anatólia"/>
     <tag k="name:tr" v="İç Anadolu Bölgesi"/>
     <tag k="name:uk" v="Центральна Анатолія"/>
     <tag k="type" v="boundary"/>
@@ -70321,9 +70366,11 @@
     <tag k="cg_ref" v="TR-4"/>
     <tag k="is_in:country_code" v="TR"/>
     <tag k="name" v="Doğu Anadolu Bölgesi"/>
+    <tag k="name:cs" v="Východní Anatolie"/>
     <tag k="name:de" v="Ostanatolien"/>
     <tag k="name:en" v="Eastern Anatolia Region"/>
     <tag k="name:ru" v="Восточная Анатолия"/>
+    <tag k="name:sk" v="Východná Anatólia"/>
     <tag k="name:tr" v="Doğu Anadolu Bölgesi"/>
     <tag k="name:uk" v="Східна Анатолія"/>
     <tag k="type" v="boundary"/>
@@ -70335,9 +70382,11 @@
     <tag k="boundary" v="administrative"/>
     <tag k="cg_ref" v="TR-5"/>
     <tag k="name" v="Marmara Bölgesi"/>
+    <tag k="name:cs" v="Marmarský region"/>
     <tag k="name:de" v="Marmararegion"/>
     <tag k="name:en" v="Marmara Region"/>
     <tag k="name:ru" v="Мраморноморский регион"/>
+    <tag k="name:sk" v="Marmarský región"/>
     <tag k="name:tr" v="Marmara Bölgesi"/>
     <tag k="name:uk" v="Мармуровоморський регіон"/>
     <tag k="type" v="boundary"/>
@@ -70350,9 +70399,11 @@
     <tag k="cg_ref" v="TR-6"/>
     <tag k="name" v="Akdeniz Bölgesi"/>
     <tag k="name:ar" v="منطقة البحر الأبيض المتوسط"/>
+    <tag k="name:cs" v="Středomořský region"/>
     <tag k="name:de" v="Mittelmeerregion"/>
     <tag k="name:en" v="Mediterranean Region"/>
     <tag k="name:ru" v="Средиземноморский регион"/>
+    <tag k="name:sk" v="Stredomorský región"/>
     <tag k="name:tr" v="Akdeniz Bölgesi"/>
     <tag k="name:uk" v="Середземноморський регіон"/>
     <tag k="type" v="boundary"/>
@@ -70365,9 +70416,11 @@
     <tag k="cg_ref" v="TR-7"/>
     <tag k="name" v="Güneydoğu Anadolu Bölgesi"/>
     <tag k="name:ar" v="جنوب شرق الأناضول"/>
+    <tag k="name:cs" v="Jihovýchodní Anatolie"/>
     <tag k="name:de" v="Südostanatolien"/>
     <tag k="name:en" v="Southeastern Anatolia Region"/>
     <tag k="name:ru" v="Юго-Восточная Анатолия"/>
+    <tag k="name:sk" v="Juhovýchodná Anatólia"/>
     <tag k="name:tr" v="Güneydoğu Anadolu Bölgesi"/>
     <tag k="name:uk" v="Південно-Східна Анатолія"/>
     <tag k="type" v="boundary"/>
