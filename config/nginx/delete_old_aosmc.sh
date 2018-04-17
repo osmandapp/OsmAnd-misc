@@ -1,7 +1,9 @@
 #!/bin/bash
-dir=/var/www-download/aosmc  #/home/xmd5a/sshfs/jenkins@builder.osmand.net/mnt/home-ssd/osm-planet/aosmc/argentina_chaco_southamerica/
+dir="$1"  #/home/xmd5a/sshfs/jenkins@builder.osmand.net/mnt/home-ssd/osm-planet/aosmc/argentina_chaco_southamerica/
 # timedatectl status | grep "NTP synchronized: yes" > /dev/null
 # ntp_status=$(echo $?)
+echo $dir
+sleep 100000
 delete_files()
 {
         if [[ -d "$dir" ]]; then
@@ -15,4 +17,4 @@ delete_files()
 #       else echo NTP is not ok
         fi
 }
-delete_files > delete_aosmc_log.txt
+delete_files # > delete_aosmc_log.txt
