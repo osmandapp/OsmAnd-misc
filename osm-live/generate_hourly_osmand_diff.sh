@@ -89,6 +89,7 @@ QUERY_DIFF="
     rm -r *.obf || true
   else
     echo "Query between $START_DATE and $END_DATE"
+    date -u
     QUERY_START="
 [timeout:3600][maxsize:2000000000]
 [date:\"$START_DATE\"];
@@ -129,46 +130,43 @@ QUERY_DIFF="
 )->.a;
 	.a out geom meta;
 "
-    date -u
-
+    # Query rich diffs
     echo $QUERY_START | /home/overpass/osm3s/bin/osm3s_query > $FILENAME_START.osm
-    TZ=UTC touch -c -d "$START_DATE" $FILENAME_START.osm
     if ! grep -q "<\/osm>"  $FILENAME_START.osm; then
         rm $FILENAME_START.osm;
         exit 1;
     fi
-    date -u
-
     echo $QUERY_END | /home/overpass/osm3s/bin/osm3s_query  > $FILENAME_END.osm
-    TZ=UTC touch -c -d "$END_DATE" $FILENAME_END.osm 
     if ! grep -q "<\/osm>"  $FILENAME_END.osm; then
         rm $FILENAME_END.osm;
         exit 1;
     fi
+    TZ=UTC touch -c -d "$END_DATE" $FILENAME_START.osm
+    TZ=UTC touch -c -d "$END_DATE" $FILENAME_END.osm
     date -u
 
-    echo $QUERY_DIFF | /home/overpass/osm3s/bin/osm3s_query  > $FILENAME_CHANGE.osm
+    # 2. Generate obf files & query change file
+    echo $QUERY_DIFF | /home/overpass/osm3s/bin/osm3s_query  > $FILENAME_CHANGE.osm  &
+    OsmAndMapCreator/utilities.sh generate-obf-no-address $FILENAME_START.osm &
+    OsmAndMapCreator/utilities.sh generate-obf-no-address $FILENAME_END.osm &
+    wait
+
     TZ=UTC touch -c -d "$END_DATE" $FILENAME_CHANGE.osm
     if ! grep -q "<\/osm>"  $FILENAME_CHANGE.osm; then
        exit 1;
     fi
     date -u
-  
-    TZ=UTC touch -c -d "$END_DATE" $FILENAME_START.osm
-    TZ=UTC touch -c -d "$END_DATE" $FILENAME_END.osm
-    OsmAndMapCreator/utilities.sh generate-obf-no-address $FILENAME_START.osm
-    date -u
-
-    OsmAndMapCreator/utilities.sh generate-obf-no-address $FILENAME_END.osm
-    date -u
     
-    gzip -c $FILENAME_START.obf > $FINAL_FOLDER/src/${FILENAME_DIFF}_before.obf.gz
-    gzip -c $FILENAME_END.obf > $FINAL_FOLDER/src/${FILENAME_DIFF}_after.obf.gz
-    gzip -c $FILENAME_CHANGE.osm > $FINAL_FOLDER/src/${FILENAME_DIFF}_diff.osm.gz
+    # 3. ZIP ALL FILES
+    gzip -c $FILENAME_START.obf > $FINAL_FOLDER/src/${FILENAME_DIFF}_before.obf.gz &
+    gzip -c $FILENAME_END.obf > $FINAL_FOLDER/src/${FILENAME_DIFF}_after.obf.gz &
+    gzip -c $FILENAME_CHANGE.osm > $FINAL_FOLDER/src/${FILENAME_DIFF}_diff.osm.gz &
+    wait
     #gzip -c $FILENAME_START.osm > $FINAL_FOLDER/src/${FILENAME_DIFF}_before.osm.gz
     #gzip -c $FILENAME_END.osm > $FINAL_FOLDER/src/${FILENAME_DIFF}_after.osm.gz
   
   
+    # 4. Generate diff files, split files and cleaning
     OsmAndMapCreator/utilities.sh generate-obf-diff \
     $FILENAME_START.obf $FILENAME_END.obf $FILENAME_DIFF.diff.obf $FILENAME_CHANGE.osm
 
