@@ -5,7 +5,7 @@ export JAVA_OPTS="-Xms128M -Xmx8014M"
 chmod +x OsmAndMapCreator/utilities.sh
 
 # database timestamp
-DB_SEC=$(date -u --date="$(curl http://builder.osmand.net:8081/api/timestamp)" "+%s")
+DB_SEC=$(date -u --date="$(/home/overpass/osm3s/cgi-bin/timestamp | tail -1)" "+%s")
 # CURRENT_SEC=$(date -u "+%s")
 START="$(cat $RESULT_DIR/.proc_timestamp)"
 echo "Begin with timestamp: $START"
