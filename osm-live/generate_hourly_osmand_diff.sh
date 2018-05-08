@@ -130,13 +130,16 @@ QUERY_DIFF="
 )->.a;
 	.a out geom meta;
 "
-    # Query rich diffs
-    echo $QUERY_START | /home/overpass/osm3s/bin/osm3s_query > $FILENAME_START.osm
+    echo # 1. Query rich diffs
+    echo $QUERY_START | /home/overpass/osm3s/bin/osm3s_query > $FILENAME_START.osm &
+    echo $QUERY_END | /home/overpass/osm3s/bin/osm3s_query  > $FILENAME_END.osm &
+    wait
+    
     if ! grep -q "<\/osm>"  $FILENAME_START.osm; then
         rm $FILENAME_START.osm;
         exit 1;
     fi
-    echo $QUERY_END | /home/overpass/osm3s/bin/osm3s_query  > $FILENAME_END.osm
+    
     if ! grep -q "<\/osm>"  $FILENAME_END.osm; then
         rm $FILENAME_END.osm;
         exit 1;
@@ -145,7 +148,7 @@ QUERY_DIFF="
     TZ=UTC touch -c -d "$END_DATE" $FILENAME_END.osm
     date -u
 
-    # 2. Generate obf files & query change file
+    echo # 2. Generate obf files & query change file
     echo $QUERY_DIFF | /home/overpass/osm3s/bin/osm3s_query  > $FILENAME_CHANGE.osm  &
     OsmAndMapCreator/utilities.sh generate-obf-no-address $FILENAME_START.osm &
     OsmAndMapCreator/utilities.sh generate-obf-no-address $FILENAME_END.osm &
@@ -157,7 +160,7 @@ QUERY_DIFF="
     fi
     date -u
     
-    # 3. ZIP ALL FILES
+    echo # 3. ZIP all files
     gzip -c $FILENAME_START.obf > $FINAL_FOLDER/src/${FILENAME_DIFF}_before.obf.gz &
     gzip -c $FILENAME_END.obf > $FINAL_FOLDER/src/${FILENAME_DIFF}_after.obf.gz &
     gzip -c $FILENAME_CHANGE.osm > $FINAL_FOLDER/src/${FILENAME_DIFF}_diff.osm.gz &
@@ -166,7 +169,7 @@ QUERY_DIFF="
     #gzip -c $FILENAME_END.osm > $FINAL_FOLDER/src/${FILENAME_DIFF}_after.osm.gz
   
   
-    # 4. Generate diff files, split files and cleaning
+    echo # 4. Generate diff files, split files and cleaning
     OsmAndMapCreator/utilities.sh generate-obf-diff \
     $FILENAME_START.obf $FILENAME_END.obf $FILENAME_DIFF.diff.obf $FILENAME_CHANGE.osm
 
