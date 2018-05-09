@@ -4,8 +4,6 @@ RESULT_DIR="/home/osm-planet/osmlive"
 export JAVA_OPTS="-Xms128M -Xmx8014M"
 chmod +x OsmAndMapCreator/utilities.sh
 
-# database timestamp
-DB_SEC=$(date -u --date="$(/home/overpass/osm3s/cgi-bin/timestamp | tail -1)" "+%s")
 # CURRENT_SEC=$(date -u "+%s")
 START="$(cat $RESULT_DIR/.proc_timestamp)"
 echo "Begin with timestamp: $START"
@@ -13,6 +11,8 @@ START_ARRAY=($START)
 START_DAY=${START_ARRAY[0]}
 START_TIME=${START_ARRAY[1]}
 while true; do
+  # database timestamp
+  DB_SEC=$(date -u --date="$(/home/overpass/osm3s/cgi-bin/timestamp | tail -1)" "+%s")
 
   START_DATE="${START_DAY}T${START_TIME}:00Z"
   NEXT="$START_DAY $START_TIME 5 minutes"
