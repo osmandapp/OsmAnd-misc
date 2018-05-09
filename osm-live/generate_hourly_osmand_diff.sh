@@ -15,7 +15,7 @@ START_TIME=${START_ARRAY[1]}
 while true; do
 
   START_DATE="${START_DAY}T${START_TIME}:00Z"
-  NEXT="$START_DAY $START_TIME 15 minutes"
+  NEXT="$START_DAY $START_TIME 5 minutes"
 
   NSTART_TIME=$(date +'%H' -d "$NEXT"):$(date +'%M' -d "$NEXT")
   NSTART_DAY=$(date +'%Y' -d "$NEXT")-$(date +'%m' -d "$NEXT")-$(date +'%d' -d "$NEXT")
@@ -43,38 +43,12 @@ while true; do
 
   if [ -f "$FINAL_FOLDER/src/${FILENAME_DIFF}_before.obf.gz" ]; then
     # this path to speedup generation 10 times (if obf were generated before)
-    ###################
-    # (1) TODO delete #
-QUERY_DIFF="
-[timeout:3600][maxsize:2000000000]
-[diff:\"$START_DATE\",\"$END_DATE\"];
-(
-   node(changed:\"$START_DATE\",\"$END_DATE\");
-   way(changed:\"$START_DATE\",\"$END_DATE\");
-   relation(changed:\"$START_DATE\",\"$END_DATE\");
-)->.a;
-  .a out geom meta;
-"
-  
-    echo $QUERY_DIFF | /home/overpass/osm3s/bin/osm3s_query  > $FILENAME_CHANGE.osm
-    TZ=UTC touch -c -d "$END_DATE" $FILENAME_CHANGE.osm
-    if ! grep -q "<\/osm>"  $FILENAME_CHANGE.osm; then
-       exit 1;
-    fi
-    date -u
-    # (1) TODO delete #
-    ###################
       
     OsmAndMapCreator/utilities.sh generate-obf-diff \
     "$FINAL_FOLDER/src/${FILENAME_DIFF}_before.obf.gz" \
     "$FINAL_FOLDER/src/${FILENAME_DIFF}_after.obf.gz" \
     $FILENAME_DIFF.diff.obf \
-    $FILENAME_CHANGE.osm
-    #" $FINAL_FOLDER/src/${FILENAME_DIFF}_diff.osm.gz"
-    # (2) TODO replace
-
-    # (3) TODO delete
-    gzip -c $FILENAME_CHANGE.osm > $FINAL_FOLDER/src/${FILENAME_DIFF}_diff.osm.gz
+    "$FINAL_FOLDER/src/${FILENAME_DIFF}_diff.osm.gz"
     
     gzip -c $FILENAME_DIFF.diff.obf > $FINAL_FILE
     TZ=UTC touch -c -d "$END_DATE" $FINAL_FILE
@@ -134,7 +108,7 @@ QUERY_DIFF="
     echo $QUERY_START | /home/overpass/osm3s/bin/osm3s_query > $FILENAME_START.osm &
     echo $QUERY_END | /home/overpass/osm3s/bin/osm3s_query  > $FILENAME_END.osm &
     wait
-    
+
     if ! grep -q "<\/osm>"  $FILENAME_START.osm; then
         rm $FILENAME_START.osm;
         exit 1;
