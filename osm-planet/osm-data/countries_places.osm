@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<osm version="0.6" generator="Overpass API">
+<osm version="0.6" generator="Overpass API 0.7.55 579b1eec">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2018-03-29T07:47:02Z"/>
+<meta osm_base="2018-05-14T20:28:02Z"/>
 
   <node id="26036352" lat="12.7503486" lon="122.7312101">
     <tag k="alt_name:vi" v="Phi Luật Tân"/>
@@ -48,6 +48,7 @@
     <tag k="name:ku" v="Filîpîn"/>
     <tag k="name:la" v="Philippinae"/>
     <tag k="name:lb" v="Philippinen"/>
+    <tag k="name:lfn" v="Pilipinas"/>
     <tag k="name:li" v="De Filipiene"/>
     <tag k="name:lt" v="Filipinai"/>
     <tag k="name:lv" v="Filipīnas"/>
@@ -99,7 +100,7 @@
   </node>
   <node id="26347360" lat="42.6384261" lon="12.6742970">
     <tag k="ISO3166-1" v="IT"/>
-    <tag k="alt_name:eo" v="Italio"/>
+    <tag k="alt_name:eo" v="Italujo"/>
     <tag k="alt_name:vi" v="Italia"/>
     <tag k="capital_city" v="Rome"/>
     <tag k="country_code_fips" v="IT"/>
@@ -130,7 +131,7 @@
     <tag k="name:ee" v="Italia nutome"/>
     <tag k="name:el" v="Ιταλία"/>
     <tag k="name:en" v="Italy"/>
-    <tag k="name:eo" v="Italujo"/>
+    <tag k="name:eo" v="Italio"/>
     <tag k="name:es" v="Italia"/>
     <tag k="name:et" v="Itaalia"/>
     <tag k="name:eu" v="Italia"/>
@@ -169,6 +170,7 @@
     <tag k="name:ku" v="Îtalya"/>
     <tag k="name:kw" v="Itali"/>
     <tag k="name:lb" v="Italien"/>
+    <tag k="name:lfn" v="Italia"/>
     <tag k="name:lg" v="Yitale"/>
     <tag k="name:li" v="Italië"/>
     <tag k="name:ln" v="Itali"/>
@@ -252,7 +254,7 @@
     <tag k="ISO3166-1:alpha2" v="AF"/>
     <tag k="ISO3166-1:alpha3" v="AFG"/>
     <tag k="ISO3166-1:numeric" v="004"/>
-    <tag k="alt_name:eo" v="Afganistano;Afganio"/>
+    <tag k="alt_name:eo" v="Afganujo;Afganistano"/>
     <tag k="capital_city" v="Kabul"/>
     <tag k="country_code_fips" v="AF"/>
     <tag k="country_code_iso3166_1_alpha_2" v="AF"/>
@@ -306,7 +308,7 @@
     <tag k="name:ee" v="Afghanistan nutome"/>
     <tag k="name:el" v="Αφγανιστάν"/>
     <tag k="name:en" v="Afghanistan"/>
-    <tag k="name:eo" v="Afganujo"/>
+    <tag k="name:eo" v="Afganio"/>
     <tag k="name:es" v="Afganistán"/>
     <tag k="name:et" v="Afganistan"/>
     <tag k="name:eu" v="Afganistan"/>
@@ -348,6 +350,7 @@
     <tag k="name:ksh" v="Afjaanistahn"/>
     <tag k="name:ku" v="Afxanistan"/>
     <tag k="name:la" v="Afgania"/>
+    <tag k="name:lfn" v="Afganistan"/>
     <tag k="name:lg" v="Afaganisitani"/>
     <tag k="name:li" v="Afganistan"/>
     <tag k="name:ln" v="Afiganisitá"/>
@@ -408,7 +411,7 @@
     <tag k="official_name:da" v="Den Islamiske Republik Afghanistan"/>
     <tag k="official_name:de" v="Islamische Republik Afghanistan"/>
     <tag k="official_name:el" v="Ισλαμική Δημοκρατία του Αφγανιστάν"/>
-    <tag k="official_name:eo" v="Islama Respubliko Afganujo"/>
+    <tag k="official_name:eo" v="Islama Respubliko Afganio"/>
     <tag k="official_name:et" v="Afganistani Islamivabariik"/>
     <tag k="official_name:eu" v="Afganistango Errepublika Islamiarra"/>
     <tag k="official_name:fi" v="Afganistanin islamilainen tasavalta"/>
@@ -437,7 +440,7 @@
   </node>
   <node id="26847709" lat="47.2000338" lon="13.1999590">
     <tag k="ISO3166-1" v="AT"/>
-    <tag k="alt_name:eo" v="Aŭstrio"/>
+    <tag k="alt_name:eo" v="Aŭstrujo"/>
     <tag k="capital_city" v="Wien"/>
     <tag k="country_code_fips" v="AU"/>
     <tag k="country_code_iso3166_1_alpha_2" v="AT"/>
@@ -470,7 +473,7 @@
     <tag k="name:ee" v="Austria nutome"/>
     <tag k="name:el" v="Αυστρία"/>
     <tag k="name:en" v="Austria"/>
-    <tag k="name:eo" v="Aŭstrujo"/>
+    <tag k="name:eo" v="Aŭstrio"/>
     <tag k="name:es" v="Austria"/>
     <tag k="name:et" v="Austria"/>
     <tag k="name:eu" v="Austria"/>
@@ -513,6 +516,7 @@
     <tag k="name:ku" v="Awistriya"/>
     <tag k="name:la" v="Austria"/>
     <tag k="name:lb" v="Éisträich"/>
+    <tag k="name:lfn" v="Osteraic"/>
     <tag k="name:lg" v="Awusituriya"/>
     <tag k="name:li" v="Oosteriek"/>
     <tag k="name:ln" v="Otilisi"/>
@@ -575,7 +579,7 @@
     <tag k="official_name:de" v="Republik Österreich"/>
     <tag k="official_name:el" v="Δημοκρατία της Αυστρίας"/>
     <tag k="official_name:en" v="Republic of Austria"/>
-    <tag k="official_name:eo" v="Respubliko Aŭstrujo"/>
+    <tag k="official_name:eo" v="Respubliko Aŭstrio"/>
     <tag k="official_name:fr" v="République d'Autriche"/>
     <tag k="official_name:id" v="Republik Austria"/>
     <tag k="official_name:it" v="Repubblica d'Austria"/>
@@ -597,12 +601,12 @@
     <tag k="wikidata" v="Q40"/>
     <tag k="wikipedia" v="de:Österreich"/>
   </node>
-  <node id="148332300" lat="40.0028028" lon="-4.0031040">
+  <node id="148332300" lat="39.3262345" lon="-4.8380649">
     <tag k="ISO3166-1" v="ES"/>
     <tag k="ISO3166-1:alpha2" v="ES"/>
     <tag k="ISO3166-1:alpha3" v="ESP"/>
     <tag k="ISO3166-1:numeric" v="724"/>
-    <tag k="alt_name:eo" v="Hispanio"/>
+    <tag k="alt_name:eo" v="Hispanujo"/>
     <tag k="capital_city" v="Madrid"/>
     <tag k="country_code_fips" v="SP"/>
     <tag k="country_code_iso3166_1_alpha_2" v="ES"/>
@@ -633,7 +637,7 @@
     <tag k="name:ee" v="Spania nutome"/>
     <tag k="name:el" v="Ισπανία"/>
     <tag k="name:en" v="Spain"/>
-    <tag k="name:eo" v="Hispanujo"/>
+    <tag k="name:eo" v="Hispanio"/>
     <tag k="name:es" v="España"/>
     <tag k="name:et" v="Hispaania"/>
     <tag k="name:eu" v="Espainia"/>
@@ -821,6 +825,7 @@
     <tag k="name:ko" v="안도라"/>
     <tag k="name:ks" v="اٮ۪نڑورا"/>
     <tag k="name:ku" v="Andorra"/>
+    <tag k="name:lfn" v="Andora"/>
     <tag k="name:lg" v="Andora"/>
     <tag k="name:ln" v="Andorɛ"/>
     <tag k="name:lo" v="ອັນດໍລາ"/>
@@ -900,7 +905,7 @@
   </node>
   <node id="208592566" lat="45.8133113" lon="14.4808369">
     <tag k="ISO3166-1" v="SI"/>
-    <tag k="alt_name:eo" v="Slovenio"/>
+    <tag k="alt_name:eo" v="Slovenujo"/>
     <tag k="country_code_fips" v="SI"/>
     <tag k="country_code_iso3166_1_alpha_2" v="SI"/>
     <tag k="is_in" v="Europe"/>
@@ -928,7 +933,7 @@
     <tag k="name:ee" v="Sloveenia"/>
     <tag k="name:el" v="Σλοβενία"/>
     <tag k="name:en" v="Slovenia"/>
-    <tag k="name:eo" v="Slovenujo"/>
+    <tag k="name:eo" v="Slovenio"/>
     <tag k="name:es" v="Eslovenia"/>
     <tag k="name:et" v="Sloveenia"/>
     <tag k="name:eu" v="Eslovenia"/>
@@ -970,6 +975,7 @@
     <tag k="name:ku" v="Slovenya"/>
     <tag k="name:la" v="Slovenia"/>
     <tag k="name:lb" v="Slowenien"/>
+    <tag k="name:lfn" v="Slovenia"/>
     <tag k="name:lg" v="Sirovenya"/>
     <tag k="name:li" v="Slovenië"/>
     <tag k="name:ln" v="Siloveni"/>
@@ -1154,6 +1160,7 @@
     <tag k="name:kw" v="Repoblek Dhominikanek"/>
     <tag k="name:la" v="Respublica Dominicana"/>
     <tag k="name:lb" v="Dominikanesch Republik"/>
+    <tag k="name:lfn" v="Republica Dominican"/>
     <tag k="name:lg" v="Lipubulika ya Dominika"/>
     <tag k="name:li" v="Dominicaanse Rippebliek"/>
     <tag k="name:lij" v="Repubbrica Dominicann-a"/>
@@ -1369,6 +1376,7 @@
     <tag k="name:lad" v="Mueva Zelanda"/>
     <tag k="name:lb" v="Neiséiland"/>
     <tag k="name:lez" v="ЦӀийи Зеландия"/>
+    <tag k="name:lfn" v="Zeland Nova"/>
     <tag k="name:lg" v="Niyuziirandi"/>
     <tag k="name:li" v="Nui-Zieland"/>
     <tag k="name:lij" v="Neuva Selanda"/>
@@ -1484,7 +1492,8 @@
   </node>
   <node id="249399277" lat="40.7696272" lon="44.6736646">
     <tag k="ISO3166-1" v="AM"/>
-    <tag k="alt_name:eo" v="Armenio"/>
+    <tag k="alt_name:eo" v="Armenujo"/>
+    <tag k="alt_name:lfn" v="Armenia"/>
     <tag k="alt_name:vi" v="Acmeni"/>
     <tag k="capital_city" v="Yerevan"/>
     <tag k="country_code_fips" v="AM"/>
@@ -1544,7 +1553,7 @@
     <tag k="name:ee" v="Armenia nutome"/>
     <tag k="name:el" v="Αρμενία"/>
     <tag k="name:en" v="Armenia"/>
-    <tag k="name:eo" v="Armenujo"/>
+    <tag k="name:eo" v="Armenio"/>
     <tag k="name:es" v="Armenia"/>
     <tag k="name:et" v="Armeenia"/>
     <tag k="name:eu" v="Armenia"/>
@@ -1608,6 +1617,7 @@
     <tag k="name:lad" v="Armenia"/>
     <tag k="name:lb" v="Armenien"/>
     <tag k="name:lez" v="Эрменистан"/>
+    <tag k="name:lfn" v="Haiastan"/>
     <tag k="name:lg" v="Arameniya"/>
     <tag k="name:li" v="Armenië"/>
     <tag k="name:lij" v="Armenia"/>
@@ -1821,6 +1831,7 @@
     <tag k="name:ksh" v="Ajjentiinije"/>
     <tag k="name:ku" v="Arjentîn"/>
     <tag k="name:lb" v="Argentinien"/>
+    <tag k="name:lfn" v="Arjentina"/>
     <tag k="name:lg" v="Arigentina"/>
     <tag k="name:li" v="Argentinië"/>
     <tag k="name:ln" v="Arizantinɛ"/>
@@ -1959,6 +1970,7 @@
     <tag k="name:ksh" v="de Ensel Barbados"/>
     <tag k="name:ku" v="Barbados"/>
     <tag k="name:la" v="Barbata"/>
+    <tag k="name:lfn" v="Barbados"/>
     <tag k="name:lg" v="Barabadosi"/>
     <tag k="name:ln" v="Barɛbadɛ"/>
     <tag k="name:lo" v="ບຣາບາດັອດ"/>
@@ -2116,6 +2128,7 @@
     <tag k="name:ky" v="Буркина Фасо"/>
     <tag k="name:la" v="Burkina"/>
     <tag k="name:lb" v="Burkina Faso"/>
+    <tag k="name:lfn" v="Burcina Faso"/>
     <tag k="name:lg" v="Burukina Faso"/>
     <tag k="name:li" v="Burkina Faso"/>
     <tag k="name:lij" v="Bòrkinn-a Fäso"/>
@@ -2287,6 +2300,7 @@
     <tag k="name:ksh" v="de Bahamas"/>
     <tag k="name:ku" v="Bahama"/>
     <tag k="name:la" v="Insulae Bahamenses"/>
+    <tag k="name:lfn" v="Bahamas"/>
     <tag k="name:lg" v="Bahamasi"/>
     <tag k="name:li" v="Bahama-eilen"/>
     <tag k="name:ln" v="Bahamasɛ"/>
@@ -2359,7 +2373,7 @@
   <node id="249399300" lat="53.4250605" lon="27.6971358">
     <tag k="ISO3166-1" v="BY"/>
     <tag k="alt_name:en" v="Belorussia;Byelorussia"/>
-    <tag k="alt_name:eo" v="Bjelorusujo;Belarusujo;Belorusio"/>
+    <tag k="alt_name:eo" v="Belorusujo;Belarusio;Belarusujo"/>
     <tag k="alt_name:fr" v="Biélorussie"/>
     <tag k="capital_city" v="Minsk"/>
     <tag k="country_code_fips" v="BO"/>
@@ -2410,7 +2424,7 @@
     <tag k="name:ee" v="Belarus"/>
     <tag k="name:el" v="Λευκορωσία"/>
     <tag k="name:en" v="Belarus"/>
-    <tag k="name:eo" v="Belorusujo"/>
+    <tag k="name:eo" v="Belorusio"/>
     <tag k="name:es" v="Bielorrusia"/>
     <tag k="name:et" v="Valgevene"/>
     <tag k="name:eu" v="Bielorrusia"/>
@@ -2466,6 +2480,7 @@
     <tag k="name:ky" v="Беларусь"/>
     <tag k="name:la" v="Ruthenia Alba"/>
     <tag k="name:lb" v="Wäissrussland"/>
+    <tag k="name:lfn" v="Bielarus"/>
     <tag k="name:lg" v="Belarusi"/>
     <tag k="name:li" v="Wit-Rusland"/>
     <tag k="name:lij" v="Bieloruscia"/>
@@ -2564,7 +2579,7 @@
     <tag k="official_name:br" v="Republik Belarus"/>
     <tag k="official_name:el" v="Δημοκρατία της Λευκορωσίας"/>
     <tag k="official_name:en" v="Republic of Belarus"/>
-    <tag k="official_name:eo" v="Respubliko Belorusujo"/>
+    <tag k="official_name:eo" v="Respubliko Belorusio"/>
     <tag k="official_name:es" v="República de Belarús"/>
     <tag k="official_name:et" v="Valgevene Vabariik"/>
     <tag k="official_name:id" v="Republik Belarus"/>
@@ -2579,7 +2594,9 @@
     <tag k="official_name:uz" v="Belarus Respublikasi"/>
     <tag k="official_name:vi" v="Cộng hòa Belarus"/>
     <tag k="place" v="country"/>
-    <tag k="population" v="9689800"/>
+    <tag k="population" v="9491823"/>
+    <tag k="population:date" v="2018-01-01"/>
+    <tag k="source:population" v="Белстат"/>
     <tag k="source:sqkm" v="CIA World Factbook"/>
     <tag k="sqkm" v="207600"/>
     <tag k="wikidata" v="Q184"/>
@@ -2657,6 +2674,7 @@
     <tag k="name:ku" v="Giravên Cook"/>
     <tag k="name:la" v="Insulae Cook"/>
     <tag k="name:lb" v="Cookinseln"/>
+    <tag k="name:lfn" v="Isolas Cook"/>
     <tag k="name:lg" v="Bizinga bya Kkuki"/>
     <tag k="name:ln" v="Bisanga bya Kookɛ"/>
     <tag k="name:lo" v="ຫມູ່ເກາະຄຸກ"/>
@@ -2779,6 +2797,7 @@
     <tag k="name:ksh" v="Kuba"/>
     <tag k="name:ku" v="Kûba"/>
     <tag k="name:lb" v="Kuba"/>
+    <tag k="name:lfn" v="Cuba"/>
     <tag k="name:ln" v="Kiba"/>
     <tag k="name:lo" v="ຄິວບາ"/>
     <tag k="name:lt" v="Kuba"/>
@@ -2913,6 +2932,7 @@
     <tag k="name:ksh" v="Söd-Jeorjie un de södlijje Botteramms-Enselle"/>
     <tag k="name:ku" v="Georgiaya Başûr û giravên Sandwichê yên Başûr"/>
     <tag k="name:kw" v="Jeorji Dheghow hag Ynysow Sandwich Deghow"/>
+    <tag k="name:lfn" v="Jorjia Sude e Isolas Sanduitx Sude"/>
     <tag k="name:lij" v="Geòrgia do Sud e isoe Sandwich meridionæ"/>
     <tag k="name:lo" v="ເກາະຈອດເຈຍໃຕ້ແລະຫມູ່ເກາະແຊນວິດຕອນໃຕ້"/>
     <tag k="name:lt" v="Pietų Džordžija ir Pietų Sandvičo salos"/>
@@ -2967,7 +2987,8 @@
   </node>
   <node id="249399347" lat="47.1817585" lon="19.5060937">
     <tag k="ISO3166-1" v="HU"/>
-    <tag k="alt_name:eo" v="Hungario"/>
+    <tag k="alt_name:eo" v="Hungarujo"/>
+    <tag k="alt_name:lfn" v="Ungaria"/>
     <tag k="alt_name:vi" v="Hung-ga-ri"/>
     <tag k="capital_city" v="Budapest"/>
     <tag k="country_code_fips" v="HU"/>
@@ -3027,7 +3048,7 @@
     <tag k="name:el" v="Ουγγαρία"/>
     <tag k="name:eml" v="Ungherî"/>
     <tag k="name:en" v="Hungary"/>
-    <tag k="name:eo" v="Hungarujo"/>
+    <tag k="name:eo" v="Hungario"/>
     <tag k="name:es" v="Hungría"/>
     <tag k="name:et" v="Ungari"/>
     <tag k="name:eu" v="Hungaria"/>
@@ -3093,6 +3114,7 @@
     <tag k="name:lad" v="Madjaristan"/>
     <tag k="name:lb" v="Ungarn"/>
     <tag k="name:lez" v="Венгрия"/>
+    <tag k="name:lfn" v="Magiar"/>
     <tag k="name:lg" v="Hangare"/>
     <tag k="name:li" v="Hongarieë"/>
     <tag k="name:lij" v="Ungaja"/>
@@ -3316,6 +3338,7 @@
     <tag k="name:ku" v="Komor"/>
     <tag k="name:la" v="Insulae Comorianae"/>
     <tag k="name:lb" v="Komoren"/>
+    <tag k="name:lfn" v="Comori"/>
     <tag k="name:lg" v="Bizinga by'eKomoro"/>
     <tag k="name:ln" v="Komorɛ"/>
     <tag k="name:lo" v="ໂຄໂມລອດ"/>
@@ -3390,8 +3413,9 @@
     <tag k="wikipedia" v="en:Comoros"/>
   </node>
   <node id="249399361" lat="40.3736611" lon="127.0870417">
-    <tag k="alt_name:eo" v="Nord-Koreo;Nord-Koreio"/>
+    <tag k="alt_name:eo" v="Nord-Koreujo"/>
     <tag k="alt_name:ko" v="북한"/>
+    <tag k="alt_name:lfn" v="Corea Norde"/>
     <tag k="alt_name:ru" v="Северная Корея"/>
     <tag k="alt_name:tok" v="ma Anku lete"/>
     <tag k="alt_name:vi" v="Bắc Triều Tiên;Bắc Hàn"/>
@@ -3453,7 +3477,7 @@
     <tag k="name:ee" v="Dziehe Korea nutome"/>
     <tag k="name:el" v="Βόρεια Κορέα"/>
     <tag k="name:en" v="North Korea"/>
-    <tag k="name:eo" v="Nord-Koreujo"/>
+    <tag k="name:eo" v="Nord-Koreio"/>
     <tag k="name:es" v="Corea del Norte"/>
     <tag k="name:et" v="Põhja-Korea"/>
     <tag k="name:eu" v="Ipar Korea"/>
@@ -3514,6 +3538,7 @@
     <tag k="name:lad" v="Korea del Nord"/>
     <tag k="name:lb" v="Nordkorea"/>
     <tag k="name:lez" v="Кореядин Халкьдинни-Демократиядин Республика"/>
+    <tag k="name:lfn" v="Txoson"/>
     <tag k="name:lg" v="Koreya ey'omumambuka"/>
     <tag k="name:li" v="Noord-Korea"/>
     <tag k="name:lmo" v="Corea del Nòrd"/>
@@ -3655,8 +3680,9 @@
     <tag k="ISO3166-1:alpha2" v="KR"/>
     <tag k="ISO3166-1:alpha3" v="KOR"/>
     <tag k="ISO3166-1:numeric" v="410"/>
-    <tag k="alt_name:eo" v="Sud-Koreo;Sud-Koreio"/>
+    <tag k="alt_name:eo" v="Sud-Koreujo"/>
     <tag k="alt_name:ko" v="남조선"/>
+    <tag k="alt_name:lfn" v="Corea Sude"/>
     <tag k="alt_name:ru" v="Южная Корея"/>
     <tag k="alt_name:tok" v="ma Anku seli"/>
     <tag k="alt_name:vi" v="Nam Hàn;Nam Triều Tiên;Đại Hàn"/>
@@ -3715,7 +3741,7 @@
     <tag k="name:ee" v="South Korea"/>
     <tag k="name:el" v="Νότια Κορέα"/>
     <tag k="name:en" v="South Korea"/>
-    <tag k="name:eo" v="Sud-Koreujo"/>
+    <tag k="name:eo" v="Sud-Koreio"/>
     <tag k="name:es" v="Corea del Sur"/>
     <tag k="name:et" v="Lõuna-Korea"/>
     <tag k="name:eu" v="Hego Korea"/>
@@ -3778,6 +3804,7 @@
     <tag k="name:lad" v="Korea del Sud"/>
     <tag k="name:lb" v="Südkorea"/>
     <tag k="name:lez" v="Республика Корея"/>
+    <tag k="name:lfn" v="Tehan"/>
     <tag k="name:lg" v="Koreya ey'omumaserengeta"/>
     <tag k="name:li" v="Zuud-Korea"/>
     <tag k="name:lij" v="Corea do Sud"/>
@@ -3993,6 +4020,7 @@
     <tag k="name:ksh" v="de Kaiman-Enselle"/>
     <tag k="name:ku" v="Giravên Caymanê"/>
     <tag k="name:lb" v="Kaimaninselen"/>
+    <tag k="name:lfn" v="Isolas Caiman"/>
     <tag k="name:lg" v="Bizinga ebya Kayimaani"/>
     <tag k="name:ln" v="Bisanga bya Kayíma"/>
     <tag k="name:lo" v="ຄາຍແມນ ອິດແລນ"/>
@@ -4157,6 +4185,7 @@
     <tag k="name:ky" v="Малайзия"/>
     <tag k="name:la" v="Malaesia"/>
     <tag k="name:lb" v="Malaysia"/>
+    <tag k="name:lfn" v="Malaisia"/>
     <tag k="name:lg" v="Malezya"/>
     <tag k="name:li" v="Maleisië"/>
     <tag k="name:lij" v="Malaysia"/>
@@ -4380,6 +4409,7 @@
     <tag k="name:la" v="Nepalia"/>
     <tag k="name:lb" v="Nepal"/>
     <tag k="name:lez" v="Непал"/>
+    <tag k="name:lfn" v="Nepal"/>
     <tag k="name:lg" v="Nepalo"/>
     <tag k="name:li" v="Nepal"/>
     <tag k="name:lij" v="Nepal"/>
@@ -4614,6 +4644,7 @@
     <tag k="name:lad" v="Peru"/>
     <tag k="name:lb" v="Peru"/>
     <tag k="name:lez" v="Перу"/>
+    <tag k="name:lfn" v="Peru"/>
     <tag k="name:lg" v="Peru"/>
     <tag k="name:li" v="Peru"/>
     <tag k="name:lij" v="Perù"/>
@@ -4745,7 +4776,7 @@
     <tag k="wikipedia" v="es:Perú"/>
   </node>
   <node id="249399419" lat="25.6242618" lon="42.3528328">
-    <tag k="alt_name:eo" v="Sauda Arabio;Saŭda Arabujo;Saŭda Arabio"/>
+    <tag k="alt_name:eo" v="Sauda Arabujo;Saŭda Arabio;Saŭda Arabujo"/>
     <tag k="alt_name:vi" v="Ả Rập Xê Út; A-rập Xê-út"/>
     <tag k="country_code_fips" v="SA"/>
     <tag k="country_code_iso3166_1_alpha_2" v="SA"/>
@@ -4799,7 +4830,7 @@
     <tag k="name:ee" v="Saudi Arabia nutome"/>
     <tag k="name:el" v="Σαουδική Αραβία"/>
     <tag k="name:en" v="Saudi Arabia"/>
-    <tag k="name:eo" v="Sauda Arabujo"/>
+    <tag k="name:eo" v="Sauda Arabio"/>
     <tag k="name:es" v="Arabia Saudita"/>
     <tag k="name:et" v="Saudi Araabia"/>
     <tag k="name:eu" v="Saudi Arabia"/>
@@ -4861,6 +4892,7 @@
     <tag k="name:lb" v="Saudi-Arabien"/>
     <tag k="name:lbe" v="Саоьдуллал Аьрабусттан"/>
     <tag k="name:lez" v="Сауди Арабистан"/>
+    <tag k="name:lfn" v="Arabia Saudi"/>
     <tag k="name:lg" v="Sawudarebya - Buwarabu"/>
     <tag k="name:li" v="Saoedi-Arabië"/>
     <tag k="name:lij" v="Arabia Saudïa"/>
@@ -5058,6 +5090,7 @@
     <tag k="name:ku" v="Sao Tome û Prînsîpe"/>
     <tag k="name:la" v="Insulae Sancti Thomae et Principis"/>
     <tag k="name:lb" v="São Tomé a Príncipe"/>
+    <tag k="name:lfn" v="San Tome e Prinsipe"/>
     <tag k="name:lg" v="Sanitome ne Purincipe"/>
     <tag k="name:li" v="São Tomé en Príncipe"/>
     <tag k="name:ln" v="Sao Tomé mpé Presipɛ"/>
@@ -5128,7 +5161,7 @@
   </node>
   <node id="249399440" lat="39.3763807" lon="59.3924609">
     <tag k="alt_name" v="Turkmenia"/>
-    <tag k="alt_name:eo" v="Turkmenistano;Turkmenio"/>
+    <tag k="alt_name:eo" v="Turkmenujo;Turkmenistano"/>
     <tag k="alt_name:pt" v="Turquemenistão"/>
     <tag k="capital_city" v="Ashgabat"/>
     <tag k="country_code_fips" v="TX"/>
@@ -5182,7 +5215,7 @@
     <tag k="name:ee" v="Tɛkmenistan nutome"/>
     <tag k="name:el" v="Τουρκμενιστάν"/>
     <tag k="name:en" v="Turkmenistan"/>
-    <tag k="name:eo" v="Turkmenujo"/>
+    <tag k="name:eo" v="Turkmenio"/>
     <tag k="name:es" v="Turkmenistán"/>
     <tag k="name:et" v="Türkmenistan"/>
     <tag k="name:eu" v="Turkmenistan"/>
@@ -5241,6 +5274,7 @@
     <tag k="name:la" v="Turcomannia"/>
     <tag k="name:lad" v="Turkmenistan"/>
     <tag k="name:lez" v="Туьркменистан"/>
+    <tag k="name:lfn" v="Turcmenistan"/>
     <tag k="name:lg" v="Takimenesitaani"/>
     <tag k="name:li" v="Turkmenistan"/>
     <tag k="name:lij" v="Turkmenistan"/>
@@ -5415,6 +5449,7 @@
     <tag k="name:ksh" v="Trinidad un Tobääjo"/>
     <tag k="name:ku" v="Trînîdad û Tobago"/>
     <tag k="name:la" v="Trinitas et Tabacum"/>
+    <tag k="name:lfn" v="Trinidad e Tobago"/>
     <tag k="name:lg" v="Turindaadi ne Tobago"/>
     <tag k="name:ln" v="Tinidadɛ mpé Tobago"/>
     <tag k="name:lo" v="ທາຍນິດາດ ແລະ ໂທບາໂກ້"/>
@@ -5601,6 +5636,7 @@
     <tag k="name:lad" v="Teman"/>
     <tag k="name:lb" v="Jemen"/>
     <tag k="name:lez" v="Йемен"/>
+    <tag k="name:lfn" v="Iaman"/>
     <tag k="name:lg" v="Yemeni"/>
     <tag k="name:li" v="Jeme"/>
     <tag k="name:lij" v="Yemen"/>
@@ -5740,6 +5776,7 @@
     <tag k="name:fy" v="Sint-Marten"/>
     <tag k="name:he" v="סנט מארטן"/>
     <tag k="name:it" v="Sint Maarten"/>
+    <tag k="name:lfn" v="San Maarten"/>
     <tag k="name:nl" v="Sint Maarten"/>
     <tag k="name:pl" v="Sint Maarten"/>
     <tag k="name:ru" v="Синт-Мартен"/>
@@ -5858,6 +5895,7 @@
     <tag k="name:kw" v="Belisa"/>
     <tag k="name:la" v="Beliza"/>
     <tag k="name:lb" v="Belize"/>
+    <tag k="name:lfn" v="Beliz"/>
     <tag k="name:li" v="Belize"/>
     <tag k="name:lij" v="Belize"/>
     <tag k="name:lmo" v="Belize"/>
@@ -5957,7 +5995,7 @@
     <tag k="ISO3166-1:alpha2" v="RS"/>
     <tag k="ISO3166-1:alpha3" v="SRB"/>
     <tag k="ISO3166-1:numeric" v="688"/>
-    <tag k="alt_name:eo" v="Serbio"/>
+    <tag k="alt_name:eo" v="Serbujo"/>
     <tag k="country_code_fips" v="RI"/>
     <tag k="country_code_iso3166_1_alpha_2" v="RS"/>
     <tag k="is_in:continent" v="Europe"/>
@@ -5983,7 +6021,7 @@
     <tag k="name:ee" v="Serbia nutome"/>
     <tag k="name:el" v="Σερβία"/>
     <tag k="name:en" v="Serbia"/>
-    <tag k="name:eo" v="Serbujo"/>
+    <tag k="name:eo" v="Serbio"/>
     <tag k="name:es" v="Serbia"/>
     <tag k="name:et" v="Serbia"/>
     <tag k="name:eu" v="Serbia"/>
@@ -6020,6 +6058,7 @@
     <tag k="name:ku" v="Serbistan"/>
     <tag k="name:la" v="Serbia"/>
     <tag k="name:lb" v="Serbien"/>
+    <tag k="name:lfn" v="Serbia"/>
     <tag k="name:li" v="Servië"/>
     <tag k="name:lo" v="ເຊີເບຍ"/>
     <tag k="name:lt" v="Serbija"/>
@@ -6074,7 +6113,7 @@
     <tag k="official_name:de" v="Republik Serbien"/>
     <tag k="official_name:el" v="Δημοκρατία της Σερβίας"/>
     <tag k="official_name:en" v="Republic of Serbia"/>
-    <tag k="official_name:eo" v="Respubliko Serbujo"/>
+    <tag k="official_name:eo" v="Respubliko Serbio"/>
     <tag k="official_name:et" v="Serbia Vabariik"/>
     <tag k="official_name:fr" v="République de Serbie"/>
     <tag k="official_name:hr" v="Republika Srbija"/>
@@ -6101,7 +6140,7 @@
     <tag k="wikipedia" v="sr:Србија"/>
   </node>
   <node id="424297198" lat="60.5000209" lon="9.0999715">
-    <tag k="alt_name:eo" v="Norvegio"/>
+    <tag k="alt_name:eo" v="Norvegujo"/>
     <tag k="capital_city" v="Oslo"/>
     <tag k="country_code_fips" v="NO"/>
     <tag k="country_code_iso3166_1_alpha_2" v="NO"/>
@@ -6129,7 +6168,7 @@
     <tag k="name:ee" v="Norway nutome"/>
     <tag k="name:el" v="Νορβηγία"/>
     <tag k="name:en" v="Norway"/>
-    <tag k="name:eo" v="Norvegujo"/>
+    <tag k="name:eo" v="Norvegio"/>
     <tag k="name:es" v="Noruega"/>
     <tag k="name:et" v="Norra"/>
     <tag k="name:fa" v="نروژ"/>
@@ -6170,6 +6209,7 @@
     <tag k="name:ku" v="Norwêc"/>
     <tag k="name:la" v="Norvegia"/>
     <tag k="name:lb" v="Norwegen"/>
+    <tag k="name:lfn" v="Noria"/>
     <tag k="name:lg" v="Nowe"/>
     <tag k="name:li" v="Noorwege"/>
     <tag k="name:ln" v="Norivezɛ"/>
@@ -6229,7 +6269,7 @@
     <tag k="official_name:be" v="Каралеўства Нарвегія"/>
     <tag k="official_name:el" v="Βασίλειο της Νορβηγίας"/>
     <tag k="official_name:en" v="Kingdom of Norway"/>
-    <tag k="official_name:eo" v="Reĝlando Norvegujo"/>
+    <tag k="official_name:eo" v="Reĝlando Norvegio"/>
     <tag k="official_name:id" v="Kerajaan Norwegia"/>
     <tag k="official_name:it" v="Regno di Norvegia"/>
     <tag k="official_name:ja" v="ノルウェー王国"/>
@@ -6322,6 +6362,7 @@
     <tag k="name:ku" v="Behreyn"/>
     <tag k="name:la" v="Baharina"/>
     <tag k="name:lb" v="Bahrain"/>
+    <tag k="name:lfn" v="Barain"/>
     <tag k="name:lg" v="Baareeni"/>
     <tag k="name:li" v="Bahrein"/>
     <tag k="name:ln" v="Bahrɛnɛ"/>
@@ -6480,6 +6521,7 @@
     <tag k="name:ku" v="Holand"/>
     <tag k="name:la" v="Nederlandia"/>
     <tag k="name:lb" v="Holland"/>
+    <tag k="name:lfn" v="Nederland"/>
     <tag k="name:lg" v="Holandi"/>
     <tag k="name:ln" v="Holanda"/>
     <tag k="name:lo" v="ເນເທີແລນ"/>
@@ -6674,6 +6716,7 @@
     <tag k="name:la" v="Haitia"/>
     <tag k="name:lad" v="Ayti"/>
     <tag k="name:lb" v="Haiti"/>
+    <tag k="name:lfn" v="Aiti"/>
     <tag k="name:lg" v="Hayiti"/>
     <tag k="name:li" v="Haïti"/>
     <tag k="name:lij" v="Haiti"/>
@@ -6893,6 +6936,7 @@
     <tag k="name:ky" v="Бенин"/>
     <tag k="name:la" v="Beninum"/>
     <tag k="name:lb" v="Benin"/>
+    <tag k="name:lfn" v="Benin"/>
     <tag k="name:lg" v="Benini"/>
     <tag k="name:li" v="Benin"/>
     <tag k="name:lij" v="Benin"/>
@@ -7119,6 +7163,7 @@
     <tag k="name:kw" v="Kosta Rika"/>
     <tag k="name:la" v="Ora Opulenta"/>
     <tag k="name:lb" v="Costa Rica"/>
+    <tag k="name:lfn" v="Costa Rica"/>
     <tag k="name:lg" v="Kosita Rika"/>
     <tag k="name:li" v="Costa Rica"/>
     <tag k="name:lij" v="Còsta Rica"/>
@@ -7300,6 +7345,7 @@
     <tag k="name:ks" v="ڈومِنِکا"/>
     <tag k="name:ksh" v="Dominnika"/>
     <tag k="name:ku" v="Domînîk"/>
+    <tag k="name:lfn" v="Dominica"/>
     <tag k="name:lg" v="Dominika"/>
     <tag k="name:ln" v="Domínike"/>
     <tag k="name:lo" v="ໂດມີນິຄາ"/>
@@ -7466,6 +7512,7 @@
     <tag k="name:ky" v="Гамбия"/>
     <tag k="name:la" v="Gambia"/>
     <tag k="name:lb" v="Gambia"/>
+    <tag k="name:lfn" v="Gambia"/>
     <tag k="name:lg" v="Gambya"/>
     <tag k="name:li" v="Gambia"/>
     <tag k="name:lij" v="Gambia"/>
@@ -7691,6 +7738,7 @@
     <tag k="name:ky" v="Гвинея"/>
     <tag k="name:la" v="Guinea"/>
     <tag k="name:lb" v="Guinea"/>
+    <tag k="name:lfn" v="Gine"/>
     <tag k="name:lg" v="Gini"/>
     <tag k="name:li" v="Guinee"/>
     <tag k="name:lij" v="Guinea"/>
@@ -7917,6 +7965,7 @@
     <tag k="name:ky" v="Гвинея-Бисау"/>
     <tag k="name:la" v="Guinea Bissaviensis"/>
     <tag k="name:lb" v="Guinea-Bissau"/>
+    <tag k="name:lfn" v="Gine-Bisau"/>
     <tag k="name:lg" v="Gini-Bisawu"/>
     <tag k="name:li" v="Guinee-Bissau"/>
     <tag k="name:lij" v="Guinea Bissau"/>
@@ -8140,6 +8189,7 @@
     <tag k="name:la" v="Honduria"/>
     <tag k="name:lad" v="Honduras"/>
     <tag k="name:lb" v="Honduras"/>
+    <tag k="name:lfn" v="Onduras"/>
     <tag k="name:lg" v="Hundurasi"/>
     <tag k="name:li" v="Honduras"/>
     <tag k="name:lij" v="Honduras"/>
@@ -8372,6 +8422,7 @@
     <tag k="name:lad" v="Medinat Yisrael"/>
     <tag k="name:lb" v="Israel"/>
     <tag k="name:lez" v="Израиль"/>
+    <tag k="name:lfn" v="Israel"/>
     <tag k="name:lg" v="Yisirayeri"/>
     <tag k="name:li" v="Israël"/>
     <tag k="name:lij" v="Isræ"/>
@@ -8510,14 +8561,13 @@
   </node>
   <node id="424297742" lat="33.8750629" lon="35.8434090">
     <tag k="alt_name" v="الجمهورية اللبنانية"/>
-    <tag k="capital_city" v="Beirut"/>
+    <tag k="capital_city" v="بيروت"/>
     <tag k="country_code_fips" v="LE"/>
     <tag k="country_code_iso3166_1_alpha_2" v="LB"/>
-    <tag k="fixme" v="name, name:ar mismatch."/>
     <tag k="geonames:id" v="272103"/>
     <tag k="geonames_id" v="272103"/>
-    <tag k="int_name" v="Lebanon - لبنان"/>
-    <tag k="is_in" v="Lebanon, لبنان"/>
+    <tag k="int_name" v="Lebanon;لبنان"/>
+    <tag k="is_in" v="لبنان"/>
     <tag k="is_in:continent" v="Asia"/>
     <tag k="name" v="لبنان"/>
     <tag k="name:ace" v="Lebanon"/>
@@ -8527,8 +8577,7 @@
     <tag k="name:am" v="ሊባኖስ"/>
     <tag k="name:an" v="Liban"/>
     <tag k="name:ang" v="Libanus"/>
-    <tag k="name:ar" v="الجمهورية اللبنانية"/>
-    <tag k="name:ar1" v="الجمهورية اللبنانية"/>
+    <tag k="name:ar" v="لبنان"/>
     <tag k="name:arc" v="ܠܒܢܢ"/>
     <tag k="name:arz" v="لبنان"/>
     <tag k="name:ast" v="El Líbanu"/>
@@ -8628,6 +8677,7 @@
     <tag k="name:lad" v="Levanon"/>
     <tag k="name:lb" v="Libanon"/>
     <tag k="name:lez" v="Ливан"/>
+    <tag k="name:lfn" v="Lubnan"/>
     <tag k="name:lg" v="Lebanoni"/>
     <tag k="name:li" v="Libanon"/>
     <tag k="name:lij" v="Libano"/>
@@ -8729,6 +8779,7 @@
     <tag k="name:zh_pinyin" v="Líbānèn"/>
     <tag k="name:zu" v="i-Lebanon"/>
     <tag k="official_name" v="الجمهورية اللبنانية"/>
+    <tag k="official_name:ar" v="الجمهورية اللبنانية"/>
     <tag k="official_name:be" v="Ліванская Рэспубліка"/>
     <tag k="official_name:br" v="Republik Liban"/>
     <tag k="official_name:cy" v="Gweriniaeth Libanus"/>
@@ -8757,14 +8808,14 @@
     <tag k="source:sqkm" v="CIA World Factbook"/>
     <tag k="sqkm" v="10400"/>
     <tag k="wikidata" v="Q822"/>
-    <tag k="wikipedia" v="de:Libanon"/>
+    <tag k="wikipedia" v="ar:لبنان"/>
   </node>
   <node id="424297773" lat="55.3500003" lon="23.7499997">
     <tag k="ISO3166-1" v="LT"/>
     <tag k="ISO3166-1:alpha2" v="LT"/>
     <tag k="ISO3166-1:alpha3" v="LTU"/>
     <tag k="ISO3166-1:numeric" v="440"/>
-    <tag k="alt_name:eo" v="Litovio"/>
+    <tag k="alt_name:eo" v="Litovujo"/>
     <tag k="capital_city" v="Vilnius"/>
     <tag k="country_code_fips" v="LH"/>
     <tag k="country_code_iso3166_1_alpha_2" v="LT"/>
@@ -8824,7 +8875,7 @@
     <tag k="name:el" v="Λιθουανία"/>
     <tag k="name:eml" v="Lituàgna"/>
     <tag k="name:en" v="Lithuania"/>
-    <tag k="name:eo" v="Litovujo"/>
+    <tag k="name:eo" v="Litovio"/>
     <tag k="name:es" v="Lituania"/>
     <tag k="name:et" v="Leedu"/>
     <tag k="name:eu" v="Lituania"/>
@@ -8892,6 +8943,7 @@
     <tag k="name:lad" v="Lituania"/>
     <tag k="name:lb" v="Litauen"/>
     <tag k="name:lez" v="Литва"/>
+    <tag k="name:lfn" v="Lietuva"/>
     <tag k="name:lg" v="Lisuwenya"/>
     <tag k="name:li" v="Litauwe"/>
     <tag k="name:lij" v="Lituannia"/>
@@ -9044,7 +9096,7 @@
   <node id="424297810" lat="41.6171214" lon="21.7168387">
     <tag k="ISO3166-1" v="MK"/>
     <tag k="alt_name:br" v="Ez-Republik Yougoslaviat Makedonia"/>
-    <tag k="alt_name:eo" v="Makedonio"/>
+    <tag k="alt_name:eo" v="Makedonujo"/>
     <tag k="alt_name:pt" v="Antiga República Iugoslava da Macedônia"/>
     <tag k="capital_city" v="Скопје"/>
     <tag k="country_code_fips" v="MK"/>
@@ -9104,7 +9156,7 @@
     <tag k="name:ee" v="Makedonia [FYROM] nutome"/>
     <tag k="name:el" v="Πρώην Γιουγκοσλαβική Δημοκρατία της Μακεδονίας"/>
     <tag k="name:en" v="Macedonia"/>
-    <tag k="name:eo" v="Makedonujo"/>
+    <tag k="name:eo" v="Makedonio"/>
     <tag k="name:es" v="Macedonia"/>
     <tag k="name:et" v="Makedoonia"/>
     <tag k="name:eu" v="Mazedonia [FYROM]"/>
@@ -9168,6 +9220,7 @@
     <tag k="name:la" v="Respublica Macedonica"/>
     <tag k="name:lad" v="Makedonia"/>
     <tag k="name:lb" v="Makedonien"/>
+    <tag k="name:lfn" v="Macedonia"/>
     <tag k="name:lg" v="Masedoniya"/>
     <tag k="name:li" v="Macedonië"/>
     <tag k="name:lij" v="Maçedònia"/>
@@ -9280,7 +9333,7 @@
     <tag k="official_name:ca" v="Exrepública Iugoslava de Macedònia"/>
     <tag k="official_name:de" v="Republik Mazedonien"/>
     <tag k="official_name:en" v="Republic of Macedonia"/>
-    <tag k="official_name:eo" v="Respubliko Makedonujo"/>
+    <tag k="official_name:eo" v="Respubliko Makedonio"/>
     <tag k="official_name:es" v="República de Macedonia"/>
     <tag k="official_name:et" v="Makedoonia Vabariik"/>
     <tag k="official_name:fr" v="République de Macédoine"/>
@@ -9406,6 +9459,7 @@
     <tag k="name:kw" v="Mali"/>
     <tag k="name:la" v="Malium"/>
     <tag k="name:lb" v="Mali"/>
+    <tag k="name:lfn" v="Mali"/>
     <tag k="name:li" v="Mali"/>
     <tag k="name:lij" v="Mali"/>
     <tag k="name:lmo" v="Mali"/>
@@ -9579,6 +9633,7 @@
     <tag k="name:ko" v="나우루"/>
     <tag k="name:ks" v="نارووٗ"/>
     <tag k="name:ku" v="Naûrû"/>
+    <tag k="name:lfn" v="Nauero"/>
     <tag k="name:lg" v="Nawuru"/>
     <tag k="name:li" v="Naoeroe"/>
     <tag k="name:lo" v="ນາອູຣູ"/>
@@ -9739,6 +9794,7 @@
     <tag k="name:ky" v="Папуа-Жаӊы-Гвинея."/>
     <tag k="name:la" v="Papua Nova Guinea"/>
     <tag k="name:lb" v="Papua-Neiguinea"/>
+    <tag k="name:lfn" v="Papua Gine Nova"/>
     <tag k="name:lg" v="Papwa Nyugini"/>
     <tag k="name:li" v="Papoea-Nui-Guinea"/>
     <tag k="name:lij" v="Papua Neuva Guinea"/>
@@ -9824,7 +9880,7 @@
     <tag k="name:zu" v="i-Papua New Guinea"/>
     <tag k="official_name" v="Independent State of Papua New Guinea;Independen Stet bilong Papua Niugini"/>
     <tag k="official_name:be" v="Незалежная Дзяржава Папуа — Новая Гвінея"/>
-    <tag k="official_name:eo" v="Sendepenta Ŝtato de Papuo-Nov-Gvineo"/>
+    <tag k="official_name:eo" v="Sendependa Ŝtato de Papuo-Nov-Gvineo"/>
     <tag k="official_name:es" v="Estado Independiente de Papúa Nueva Guínea"/>
     <tag k="official_name:et" v="Paapua Uus-Guinea Iseseisvusriik"/>
     <tag k="official_name:ku" v="Dewleta Serbixwe ya Papua Gîneya Nû"/>
@@ -9912,6 +9968,7 @@
     <tag k="name:ku" v="Sûdan"/>
     <tag k="name:la" v="Sudania"/>
     <tag k="name:lb" v="Sudan"/>
+    <tag k="name:lfn" v="Sudan"/>
     <tag k="name:lg" v="Sudaani"/>
     <tag k="name:li" v="Soedaan"/>
     <tag k="name:ln" v="Sudá"/>
@@ -10025,7 +10082,7 @@
     <tag k="name:ee" v="Lazembɔg nutome"/>
     <tag k="name:el" v="Λουξεμβούργο"/>
     <tag k="name:en" v="Luxembourg"/>
-    <tag k="name:eo" v="Luksemburgio"/>
+    <tag k="name:eo" v="Luksemburgo"/>
     <tag k="name:es" v="Luxemburgo"/>
     <tag k="name:et" v="Luksemburg"/>
     <tag k="name:eu" v="Luxenburgo"/>
@@ -10066,6 +10123,7 @@
     <tag k="name:ku" v="Lûksembûrg"/>
     <tag k="name:la" v="Luxemburgum"/>
     <tag k="name:lb" v="Lëtzebuerg"/>
+    <tag k="name:lfn" v="Luxemburg"/>
     <tag k="name:lg" v="Lukisembaaga"/>
     <tag k="name:ln" v="Likisambulu"/>
     <tag k="name:lo" v="ລຸກແຊມເບີກ"/>
@@ -10120,7 +10178,7 @@
     <tag k="official_name:be" v="Вялікае Герцагства Люксембург"/>
     <tag k="official_name:br" v="Dugelezh Veur Luksembourg"/>
     <tag k="official_name:el" v="Μέγα Δουκάτο του Λουξεμβούργου"/>
-    <tag k="official_name:eo" v="Grandduklando Luksemburgio"/>
+    <tag k="official_name:eo" v="Grandduklando Luksemburgo"/>
     <tag k="official_name:es" v="Gran Ducado de Luxemburgo"/>
     <tag k="official_name:fr" v="Grand-Duché de Luxembourg"/>
     <tag k="official_name:id" v="Keharyapatihan Luksemburg"/>
@@ -10251,6 +10309,7 @@
     <tag k="name:kw" v="Chad"/>
     <tag k="name:la" v="Tzadia"/>
     <tag k="name:lb" v="Tschad"/>
+    <tag k="name:lfn" v="Txad"/>
     <tag k="name:lg" v="Caadi"/>
     <tag k="name:li" v="Tsjaad"/>
     <tag k="name:lij" v="Ciad"/>
@@ -10374,7 +10433,7 @@
     <tag k="wikipedia" v="fr:Tchad"/>
   </node>
   <node id="424298150" lat="13.2904027" lon="108.4265113">
-    <tag k="alt_name:eo" v="Vjetnamo;Vjetnamio"/>
+    <tag k="alt_name:eo" v="Vjetnamujo"/>
     <tag k="country_code_fips" v="VM"/>
     <tag k="country_code_iso3166_1_alpha_2" v="VN"/>
     <tag k="int_name" v="Viet Nam"/>
@@ -10433,7 +10492,7 @@
     <tag k="name:el" v="Βιετνάμ"/>
     <tag k="name:eml" v="Vietnam"/>
     <tag k="name:en" v="Vietnam"/>
-    <tag k="name:eo" v="Vjetnamujo"/>
+    <tag k="name:eo" v="Vjetnamio"/>
     <tag k="name:es" v="Vietnam"/>
     <tag k="name:et" v="Vietnam"/>
     <tag k="name:eu" v="Vietnam"/>
@@ -10500,6 +10559,7 @@
     <tag k="name:lad" v="Vietnam"/>
     <tag k="name:lb" v="Vietnam"/>
     <tag k="name:lez" v="Вьетнам"/>
+    <tag k="name:lfn" v="Vietnam"/>
     <tag k="name:lg" v="Vyetinaamu"/>
     <tag k="name:li" v="Viëtnam"/>
     <tag k="name:lij" v="Vietnam"/>
@@ -10632,7 +10692,7 @@
     <tag k="official_name:be" v="В'етнам"/>
     <tag k="official_name:ca" v="República Socialista del Vietnam"/>
     <tag k="official_name:el" v="Σοσιαλιστική Δημοκρατία του Βιετνάμ"/>
-    <tag k="official_name:eo" v="Socialista Respubliko de Vjetnamujo"/>
+    <tag k="official_name:eo" v="Socialista Respubliko de Vjetnamio"/>
     <tag k="official_name:et" v="Vietnami Sotsialistlik Vabariik"/>
     <tag k="official_name:id" v="Republik Sosialis Vietnam"/>
     <tag k="official_name:it" v="Repubblica Socialista del Vietnam"/>
@@ -10775,6 +10835,7 @@
     <tag k="name:lad" v="Sud-Afrika"/>
     <tag k="name:lb" v="Südafrika"/>
     <tag k="name:lez" v="Кьибле-Африкадин Республика"/>
+    <tag k="name:lfn" v="Sudafrica"/>
     <tag k="name:lg" v="Sawusafirika"/>
     <tag k="name:li" v="Zuud-Afrika"/>
     <tag k="name:lij" v="Sudafrica"/>
@@ -11194,6 +11255,7 @@
     <tag k="name:la" v="Aequatoria"/>
     <tag k="name:lad" v="Ekvador"/>
     <tag k="name:lb" v="Ecuador"/>
+    <tag k="name:lfn" v="Ecuador"/>
     <tag k="name:lg" v="Ekwado"/>
     <tag k="name:li" v="Ecuador"/>
     <tag k="name:lij" v="Ecuadòr"/>
@@ -11396,6 +11458,7 @@
     <tag k="name:kw" v="Seychellys"/>
     <tag k="name:la" v="Insulae Seisellenses"/>
     <tag k="name:lb" v="Seychellen"/>
+    <tag k="name:lfn" v="Sexeles"/>
     <tag k="name:lg" v="Sesere"/>
     <tag k="name:li" v="Seisjelle"/>
     <tag k="name:ln" v="Sɛshɛlɛ"/>
@@ -11603,6 +11666,7 @@
     <tag k="name:lb" v="Iran"/>
     <tag k="name:lbe" v="Иран"/>
     <tag k="name:lez" v="Иран"/>
+    <tag k="name:lfn" v="Iran"/>
     <tag k="name:lg" v="Yiraani"/>
     <tag k="name:li" v="Iraan"/>
     <tag k="name:lij" v="Iran"/>
@@ -11749,7 +11813,7 @@
     <tag k="wikipedia" v="fa:ایران"/>
   </node>
   <node id="424298326" lat="38.9597594" lon="34.9249653">
-    <tag k="alt_name:eo" v="Turkio"/>
+    <tag k="alt_name:eo" v="Turkujo"/>
     <tag k="country_code_fips" v="TU"/>
     <tag k="country_code_iso3166_1_alpha_2" v="TR"/>
     <tag k="geonames:id" v="298795"/>
@@ -11778,7 +11842,7 @@
     <tag k="name:ee" v="Tɛki nutome"/>
     <tag k="name:el" v="Τουρκία"/>
     <tag k="name:en" v="Turkey"/>
-    <tag k="name:eo" v="Turkujo"/>
+    <tag k="name:eo" v="Turkio"/>
     <tag k="name:es" v="Turquía"/>
     <tag k="name:et" v="Türgi"/>
     <tag k="name:eu" v="Turkia"/>
@@ -11821,6 +11885,7 @@
     <tag k="name:ku" v="Tirkiye"/>
     <tag k="name:la" v="Turcia"/>
     <tag k="name:lb" v="Tierkei"/>
+    <tag k="name:lfn" v="Turcia"/>
     <tag k="name:lg" v="Ttake"/>
     <tag k="name:li" v="Törkieë"/>
     <tag k="name:ln" v="Tiliki"/>
@@ -11909,7 +11974,8 @@
     <tag k="ISO3166-1:alpha2" v="AL"/>
     <tag k="ISO3166-1:alpha3" v="ALB"/>
     <tag k="ISO3166-1:numeric" v="008"/>
-    <tag k="alt_name:eo" v="Albanio"/>
+    <tag k="alt_name:eo" v="Albanujo"/>
+    <tag k="alt_name:lfn" v="Albania"/>
     <tag k="capital_city" v="Tirana"/>
     <tag k="country_code_fips" v="AL"/>
     <tag k="country_code_iso3166_1_alpha_2" v="AL"/>
@@ -11959,7 +12025,7 @@
     <tag k="name:el" v="Αλβανία"/>
     <tag k="name:eml" v="Albanî"/>
     <tag k="name:en" v="Albania"/>
-    <tag k="name:eo" v="Albanujo"/>
+    <tag k="name:eo" v="Albanio"/>
     <tag k="name:es" v="Albania"/>
     <tag k="name:et" v="Albaania"/>
     <tag k="name:eu" v="Albania"/>
@@ -12018,6 +12084,7 @@
     <tag k="name:la" v="Albania"/>
     <tag k="name:lad" v="אלבאניה"/>
     <tag k="name:lb" v="Albanien"/>
+    <tag k="name:lfn" v="Xciperia"/>
     <tag k="name:lg" v="Alibaniya"/>
     <tag k="name:li" v="Albanië"/>
     <tag k="name:lij" v="Albania"/>
@@ -12121,7 +12188,7 @@
     <tag k="official_name:be-tarask" v="Рэспубліка Альбанія"/>
     <tag k="official_name:el" v="Δημοκρατία της Αλβανίας"/>
     <tag k="official_name:en" v="Republic of Albania"/>
-    <tag k="official_name:eo" v="Respubliko Albanujo"/>
+    <tag k="official_name:eo" v="Respubliko Albanio"/>
     <tag k="official_name:es" v="República de Albania"/>
     <tag k="official_name:et" v="Albaania Vabariik"/>
     <tag k="official_name:fr" v="République d'Albanie"/>
@@ -12144,11 +12211,12 @@
     <tag k="wikipedia" v="sq:Shqipëria"/>
   </node>
   <node id="424310680" lat="-26.5624806" lon="31.3991317">
-    <tag k="alt_name:eo" v="Svaziujo"/>
+    <tag k="alt_name:eo" v="Svaziio;Svaziujo"/>
+    <tag k="alt_name:lfn" v="Suaziland"/>
     <tag k="capital_city" v="Lobamba;Mbabane"/>
     <tag k="country_code_iso3166_1_alpha_2" v="SZ"/>
     <tag k="is_in:continent" v="Africa"/>
-    <tag k="name" v="Swaziland"/>
+    <tag k="name" v="eSwatini"/>
     <tag k="name:ace" v="Swaziland"/>
     <tag k="name:af" v="Swaziland"/>
     <tag k="name:als" v="Swasiland"/>
@@ -12181,13 +12249,13 @@
     <tag k="name:cs" v="Svazijsko"/>
     <tag k="name:cy" v="Gwlad Swazi"/>
     <tag k="name:da" v="Swaziland"/>
-    <tag k="name:de" v="Swasiland"/>
+    <tag k="name:de" v="eSwatini"/>
     <tag k="name:diq" v="Swazilanda"/>
     <tag k="name:dv" v="ސުވާޒިލޭންޑު"/>
     <tag k="name:dz" v="སུ་ཝ་ཛི་ལེནཌ"/>
     <tag k="name:ee" v="Swaziland nutome"/>
     <tag k="name:el" v="Σουαζιλάνδη"/>
-    <tag k="name:en" v="Swaziland"/>
+    <tag k="name:en" v="eSwatini"/>
     <tag k="name:eo" v="Svazilando"/>
     <tag k="name:es" v="Suazilandia"/>
     <tag k="name:et" v="Svaasimaa"/>
@@ -12243,6 +12311,7 @@
     <tag k="name:kw" v="Pow Swati"/>
     <tag k="name:la" v="Suazia"/>
     <tag k="name:lb" v="Swasiland"/>
+    <tag k="name:lfn" v="Suaziland"/>
     <tag k="name:lg" v="Swazirandi"/>
     <tag k="name:li" v="Swaziland"/>
     <tag k="name:lij" v="Swaziland"/>
@@ -12284,7 +12353,7 @@
     <tag k="name:qu" v="Swasisuyu"/>
     <tag k="name:rn" v="Suwazilandi"/>
     <tag k="name:ro" v="Swaziland"/>
-    <tag k="name:ru" v="Свазиленд"/>
+    <tag k="name:ru" v="Эсватини"/>
     <tag k="name:rw" v="Swazilande"/>
     <tag k="name:sa" v="स्वाजीलैंड"/>
     <tag k="name:sah" v="Суазилэнд"/>
@@ -12320,7 +12389,7 @@
     <tag k="name:tt" v="Свазиленд"/>
     <tag k="name:tzl" v="Swaziphäts"/>
     <tag k="name:ug" v="سۋازىلېند"/>
-    <tag k="name:uk" v="Свазіленд"/>
+    <tag k="name:uk" v="Е-Сватіні"/>
     <tag k="name:ur" v="سوازی لینڈ"/>
     <tag k="name:uz" v="Svazilend"/>
     <tag k="name:ve" v="Swazini"/>
@@ -12340,7 +12409,9 @@
     <tag k="official_name" v="Kingdom of Swaziland;Umbuso weSwatini"/>
     <tag k="official_name:be" v="Каралеўства Свазіленд"/>
     <tag k="official_name:ca" v="Regne de Swazilàndia"/>
+    <tag k="official_name:de" v="Königreich von eSwatini"/>
     <tag k="official_name:el" v="Βασίλειο της Σουαζιλάνδης"/>
+    <tag k="official_name:en" v="Kingdom of eSwatini"/>
     <tag k="official_name:et" v="Svaasimaa Kuningriik"/>
     <tag k="official_name:eu" v="Swazilandiako Erresuma"/>
     <tag k="official_name:gd" v="Dùthaich nan Suasaidh"/>
@@ -12351,10 +12422,16 @@
     <tag k="official_name:no" v="Kongeriket Swaziland"/>
     <tag k="official_name:pt" v="Reino da Suazilândia"/>
     <tag k="official_name:ro" v="Regatul Swaziland"/>
-    <tag k="official_name:ru" v="Королевство Свазиленд"/>
+    <tag k="official_name:ru" v="Королевство Эсватини"/>
     <tag k="official_name:sl" v="Kraljevina Svazi"/>
     <tag k="official_name:sv" v="Konungariket Swaziland"/>
+    <tag k="official_name:uk" v="Королівство Е-Сватіні"/>
     <tag k="official_name:vi" v="Vương quốc Swaziland"/>
+    <tag k="old_name:de" v="Swasiland"/>
+    <tag k="old_name:en" v="Swaziland"/>
+    <tag k="old_name:ru" v="Свазиленд"/>
+    <tag k="old_name:uk" v="Свазіленд"/>
+    <tag k="old_official_name:uk" v="Королівство Свазіленд"/>
     <tag k="place" v="country"/>
     <tag k="population" v="1370424"/>
     <tag k="source:sqkm" v="CIA World Factbook"/>
@@ -12476,6 +12553,7 @@
     <tag k="name:lb" v="Vereenegt Arabesch Emirater"/>
     <tag k="name:lbe" v="ЦачIунхьу Аьрабнал Эмиратру"/>
     <tag k="name:lez" v="Садхьанвай Араб Эмиратар"/>
+    <tag k="name:lfn" v="Amirias Arabi Unida"/>
     <tag k="name:lg" v="Emireeti"/>
     <tag k="name:li" v="Vereinegde Arabische Emirate"/>
     <tag k="name:lij" v="Emirati Àrabi Unïi"/>
@@ -12650,6 +12728,7 @@
     <tag k="name:ks" v="سینٛٹ کِٹَس تہٕ نیوِس"/>
     <tag k="name:ksh" v="Zint Kitts un Nevis"/>
     <tag k="name:lb" v="Saint Kitts a Nevis"/>
+    <tag k="name:lfn" v="San Kitts e Nevis"/>
     <tag k="name:lg" v="Senti Kitisi ne Nevisi"/>
     <tag k="name:li" v="Saint-Kitts"/>
     <tag k="name:ln" v="Sántu krístofe mpé Nevɛ̀s"/>
@@ -12774,6 +12853,7 @@
     <tag k="name:ksh" v="Angjoola"/>
     <tag k="name:ku" v="Angola"/>
     <tag k="name:la" v="Angolia"/>
+    <tag k="name:lfn" v="Angola"/>
     <tag k="name:ln" v="Angóla"/>
     <tag k="name:lo" v="ອັນໂກລາ"/>
     <tag k="name:lv" v="Angola"/>
@@ -12899,6 +12979,7 @@
     <tag k="name:ks" v="بورَنڈِ"/>
     <tag k="name:ku" v="Bûrûndî"/>
     <tag k="name:la" v="Burundia"/>
+    <tag k="name:lfn" v="Burundi"/>
     <tag k="name:li" v="Boeroendi"/>
     <tag k="name:lo" v="ບູລັນດີ"/>
     <tag k="name:lt" v="Burundis"/>
@@ -12956,6 +13037,7 @@
     <tag k="wikipedia" v="en:Burundi"/>
   </node>
   <node id="424311028" lat="27.5495110" lon="90.5119273">
+    <tag k="alt_name:lfn" v="Butan"/>
     <tag k="capital_city" v="Thimphu"/>
     <tag k="country_code_fips" v="BT"/>
     <tag k="country_code_iso3166_1_alpha_2" v="BT"/>
@@ -13067,6 +13149,7 @@
     <tag k="name:la" v="Butania"/>
     <tag k="name:lb" v="Bhutan"/>
     <tag k="name:lez" v="Бутан"/>
+    <tag k="name:lfn" v="Druciul"/>
     <tag k="name:lg" v="Butaani"/>
     <tag k="name:li" v="Bhoetaan"/>
     <tag k="name:lij" v="Bhutan"/>
@@ -13308,6 +13391,7 @@
     <tag k="name:lad" v="Chile"/>
     <tag k="name:lb" v="Chile"/>
     <tag k="name:lez" v="Чили"/>
+    <tag k="name:lfn" v="Txile"/>
     <tag k="name:lg" v="Cile"/>
     <tag k="name:li" v="Chili"/>
     <tag k="name:lij" v="Cile"/>
@@ -13456,7 +13540,7 @@
   </node>
   <node id="424311151" lat="16.0000552" lon="-24.0083947">
     <tag k="alt_name:cs" v="Kapverdské ostrovy"/>
-    <tag k="alt_name:eo" v="Kaboverdo"/>
+    <tag k="alt_name:eo" v="Kabo-Verda"/>
     <tag k="alt_name:vi" v="Cap Ve"/>
     <tag k="capital_city" v="Praia"/>
     <tag k="country_code_fips" v="CV"/>
@@ -13488,7 +13572,7 @@
     <tag k="name:ee" v="Kape Verde nutome"/>
     <tag k="name:el" v="Πράσινο Ακρωτήριο"/>
     <tag k="name:en" v="Cabo Verde"/>
-    <tag k="name:eo" v="Kabo-Verdo"/>
+    <tag k="name:eo" v="Kaboverdo"/>
     <tag k="name:es" v="Cabo Verde"/>
     <tag k="name:et" v="Roheneemesaared"/>
     <tag k="name:fa" v="کیپ ورد"/>
@@ -13526,6 +13610,7 @@
     <tag k="name:ku" v="Kap Verde"/>
     <tag k="name:la" v="Promontorium Viride"/>
     <tag k="name:lb" v="Kap Verde"/>
+    <tag k="name:lfn" v="Capo Verde"/>
     <tag k="name:lg" v="Bizinga by'e Kepu Veredi"/>
     <tag k="name:li" v="Kaapverdië"/>
     <tag k="name:ln" v="Bisanga bya Kapevɛrɛ"/>
@@ -13580,7 +13665,7 @@
     <tag k="official_name:de" v="Republik Kap Verde"/>
     <tag k="official_name:el" v="Δημοκρατία του Πράσινου Ακρωτηρίου"/>
     <tag k="official_name:en" v="Republic of Cape Verde"/>
-    <tag k="official_name:eo" v="Kabo-Verda Respubliko"/>
+    <tag k="official_name:eo" v="Kaboverda Respubliko"/>
     <tag k="official_name:es" v="República de Cabo Verde"/>
     <tag k="official_name:ku" v="Komara Kap Verde"/>
     <tag k="official_name:lt" v="Žaliojo Kyšulio Respublika"/>
@@ -13673,6 +13758,7 @@
     <tag k="name:ku" v="Giravên Malvîn"/>
     <tag k="name:la" v="Insulae Malvinae"/>
     <tag k="name:lb" v="Falkland Inselen"/>
+    <tag k="name:lfn" v="Isolas Falkland"/>
     <tag k="name:lg" v="Bizinga by'eFalikalandi"/>
     <tag k="name:ln" v="Bisanga bya Falkland"/>
     <tag k="name:lo" v="ຫມູ່ເກາະຟອກແລນ (ອິສລາສ ມາວິລນາສ)"/>
@@ -13808,6 +13894,7 @@
     <tag k="name:ksh" v="Mikroneesije"/>
     <tag k="name:ku" v="Mîkronezya"/>
     <tag k="name:lb" v="Mikronesien"/>
+    <tag k="name:lfn" v="Statos Federada de Micronesia"/>
     <tag k="name:lg" v="Mikuronezya"/>
     <tag k="name:li" v="Micronesië"/>
     <tag k="name:ln" v="Mikronezi"/>
@@ -13858,6 +13945,7 @@
     <tag k="name:zh" v="密克罗尼西亚"/>
     <tag k="name:zu" v="i-Micronesia"/>
     <tag k="official_name" v="Federated States of Micronesia"/>
+    <tag k="official_name:ar" v="ولايات ميكرونيسيا المتحدة"/>
     <tag k="official_name:be" v="Федэратыўныя штаты Мікранэзіі"/>
     <tag k="official_name:eo" v="Federacio de Mikronezio"/>
     <tag k="official_name:es" v="Estados Federados de Micronesia"/>
@@ -13979,6 +14067,7 @@
     <tag k="name:kw" v="Gabon"/>
     <tag k="name:la" v="Gabonia"/>
     <tag k="name:lb" v="Gabun"/>
+    <tag k="name:lfn" v="Gabon"/>
     <tag k="name:lg" v="Gaboni"/>
     <tag k="name:li" v="Gabon"/>
     <tag k="name:lij" v="Gabòn"/>
@@ -14108,7 +14197,7 @@
   </node>
   <node id="424311353" lat="45.5643442" lon="17.0118954">
     <tag k="ISO3166-1" v="HR"/>
-    <tag k="alt_name:eo" v="Kroatio"/>
+    <tag k="alt_name:eo" v="Kroatujo"/>
     <tag k="country_code_fips" v="HR"/>
     <tag k="country_code_iso3166_1_alpha_2" v="HR"/>
     <tag k="geonames:id" v="3202326"/>
@@ -14137,7 +14226,7 @@
     <tag k="name:ee" v="Kroatsia nutome"/>
     <tag k="name:el" v="Κροατία"/>
     <tag k="name:en" v="Croatia"/>
-    <tag k="name:eo" v="Kroatujo"/>
+    <tag k="name:eo" v="Kroatio"/>
     <tag k="name:es" v="Croacia"/>
     <tag k="name:et" v="Horvaatia"/>
     <tag k="name:eu" v="Kroazia"/>
@@ -14178,6 +14267,7 @@
     <tag k="name:ku" v="Kroatya"/>
     <tag k="name:la" v="Croatia"/>
     <tag k="name:lb" v="Kroatien"/>
+    <tag k="name:lfn" v="Corvatsca"/>
     <tag k="name:lg" v="Kurowesya"/>
     <tag k="name:li" v="Kroatië"/>
     <tag k="name:ln" v="Krowasi"/>
@@ -14236,7 +14326,7 @@
     <tag k="official_name" v="Republika Hrvatska"/>
     <tag k="official_name:be" v="Рэспубліка Харватыя"/>
     <tag k="official_name:en" v="Republic of Croatia"/>
-    <tag k="official_name:eo" v="Respubliko Kroatujo"/>
+    <tag k="official_name:eo" v="Respubliko Kroatio"/>
     <tag k="official_name:es" v="República de Croacia"/>
     <tag k="official_name:et" v="Horvaatia Vabariik"/>
     <tag k="official_name:eu" v="Kroaziako Errepublika"/>
@@ -14260,7 +14350,7 @@
     <tag k="wikipedia" v="hr:Hrvatska"/>
   </node>
   <node id="424311521" lat="47.2286086" lon="65.2093197">
-    <tag k="alt_name:eo" v="Kazaĥstano;Kazaĥio"/>
+    <tag k="alt_name:eo" v="Kazaĥujo;Kazaĥstano"/>
     <tag k="capital" v="astana"/>
     <tag k="country_code_fips" v="KZ"/>
     <tag k="country_code_iso3166_1_alpha_2" v="KZ"/>
@@ -14300,7 +14390,7 @@
     <tag k="name:ee" v="Kazakstan nutome"/>
     <tag k="name:el" v="Καζακστάν"/>
     <tag k="name:en" v="Kazakhstan"/>
-    <tag k="name:eo" v="Kazaĥujo"/>
+    <tag k="name:eo" v="Kazaĥio"/>
     <tag k="name:es" v="Kazajistán"/>
     <tag k="name:et" v="Kasahstan"/>
     <tag k="name:eu" v="Kazakhstan"/>
@@ -14351,6 +14441,7 @@
     <tag k="name:ky" v="Казакстан Республикасы"/>
     <tag k="name:la" v="Casachia"/>
     <tag k="name:lb" v="Kasachstan"/>
+    <tag k="name:lfn" v="Cazacstan"/>
     <tag k="name:lg" v="Kazakisitaani"/>
     <tag k="name:li" v="Kazachstan"/>
     <tag k="name:ln" v="Kazakisitá"/>
@@ -14551,6 +14642,7 @@
     <tag k="name:kw" v="Liberi"/>
     <tag k="name:la" v="Liberia"/>
     <tag k="name:lb" v="Liberia"/>
+    <tag k="name:lfn" v="Liberia"/>
     <tag k="name:lg" v="Liberya"/>
     <tag k="name:li" v="Liberia"/>
     <tag k="name:lij" v="Libeïa"/>
@@ -14667,6 +14759,7 @@
   </node>
   <node id="424311641" lat="4.7064352" lon="73.3287853">
     <tag k="ISO3166-1:alpha2" v="MV"/>
+    <tag k="alt_name:lfn" v="Maldives"/>
     <tag k="country_code_iso3166_1_alpha_2" v="MV"/>
     <tag k="is_in:continent" v="Asia"/>
     <tag k="name" v="Maldivoj"/>
@@ -14732,6 +14825,7 @@
     <tag k="name:ku" v="Maldîv"/>
     <tag k="name:la" v="Insulae Maldivae"/>
     <tag k="name:lb" v="Malediven"/>
+    <tag k="name:lfn" v="Divehi"/>
     <tag k="name:lg" v="Bizinga by'eMalidive"/>
     <tag k="name:ln" v="Madívɛ"/>
     <tag k="name:lo" v="ມັນດິຟ"/>
@@ -14899,6 +14993,7 @@
     <tag k="name:kw" v="Malawi"/>
     <tag k="name:la" v="Malavium"/>
     <tag k="name:lb" v="Malawi"/>
+    <tag k="name:lfn" v="Malaui"/>
     <tag k="name:li" v="Malawi"/>
     <tag k="name:lij" v="Malawi"/>
     <tag k="name:lmo" v="Malawi"/>
@@ -15121,6 +15216,7 @@
     <tag k="name:la" v="Mozambicum"/>
     <tag k="name:lad" v="Mosambiko"/>
     <tag k="name:lb" v="Mosambik"/>
+    <tag k="name:lfn" v="Mosambic"/>
     <tag k="name:lg" v="Mozambiiki"/>
     <tag k="name:li" v="Mozambiek"/>
     <tag k="name:lij" v="Moçambico"/>
@@ -15347,6 +15443,7 @@
     <tag k="name:la" v="Namibia"/>
     <tag k="name:lad" v="Namibia"/>
     <tag k="name:lb" v="Namibien"/>
+    <tag k="name:lfn" v="Namibia"/>
     <tag k="name:lg" v="Namibiya"/>
     <tag k="name:li" v="Namibië"/>
     <tag k="name:lij" v="Namibia"/>
@@ -15470,7 +15567,6 @@
     <tag k="wikipedia" v="en:Namibia"/>
   </node>
   <node id="424311675" lat="17.7356214" lon="9.3238432">
-    <tag k="alt_name:eo" v="Niĝerlando"/>
     <tag k="capital_city" v="Niamey"/>
     <tag k="country_code_fips" v="NG"/>
     <tag k="country_code_iso3166_1_alpha_2" v="NE"/>
@@ -15573,6 +15669,7 @@
     <tag k="name:kw" v="Pow Nijer"/>
     <tag k="name:la" v="Niger"/>
     <tag k="name:lb" v="Niger"/>
+    <tag k="name:lfn" v="Nijer"/>
     <tag k="name:lg" v="Nije"/>
     <tag k="name:li" v="Niger"/>
     <tag k="name:lij" v="Niger"/>
@@ -15754,6 +15851,7 @@
     <tag k="name:ksh" v="de Noofok-Ensel"/>
     <tag k="name:ku" v="Giravê Norfolk"/>
     <tag k="name:la" v="Insula Norfolcia"/>
+    <tag k="name:lfn" v="Isola Norfolk"/>
     <tag k="name:lg" v="Kizinga ky'eNorofoko"/>
     <tag k="name:ln" v="Esanga Norfokɛ"/>
     <tag k="name:lo" v="ເກາະນໍໂຟກ"/>
@@ -15913,6 +16011,7 @@
     <tag k="name:kw" v="Rwanda"/>
     <tag k="name:la" v="Ruanda"/>
     <tag k="name:lb" v="Ruanda"/>
+    <tag k="name:lfn" v="Ruanda"/>
     <tag k="name:li" v="Roeanda"/>
     <tag k="name:lij" v="Ruanda"/>
     <tag k="name:lmo" v="Ruanda"/>
@@ -16129,6 +16228,7 @@
     <tag k="name:kw" v="El Salvador"/>
     <tag k="name:la" v="Salvatoria"/>
     <tag k="name:lb" v="El Salvador"/>
+    <tag k="name:lfn" v="Salvador"/>
     <tag k="name:lg" v="El salivado"/>
     <tag k="name:li" v="El Salvador"/>
     <tag k="name:lij" v="El Salvador"/>
@@ -16348,6 +16448,7 @@
     <tag k="name:la" v="Syria"/>
     <tag k="name:lb" v="Syrien"/>
     <tag k="name:lez" v="Сирия"/>
+    <tag k="name:lfn" v="Suria"/>
     <tag k="name:lg" v="Siriya"/>
     <tag k="name:li" v="Syrië"/>
     <tag k="name:lij" v="Sciria"/>
@@ -16549,6 +16650,7 @@
     <tag k="name:ks" v="تُرُک تہٕ کیکوس جٔزیٖرٕ"/>
     <tag k="name:ksh" v="de Enselle Turks un Kaikos"/>
     <tag k="name:kw" v="Turks ha Kaykos"/>
+    <tag k="name:lfn" v="Turcs e Caicos"/>
     <tag k="name:lg" v="Bizinga by'eTaaka ne Kayikosi"/>
     <tag k="name:lij" v="Turks e Caicos"/>
     <tag k="name:lmo" v="Turks e Caicos"/>
@@ -16709,6 +16811,7 @@
     <tag k="name:la" v="Togum"/>
     <tag k="name:lad" v="Togo"/>
     <tag k="name:lb" v="Togo"/>
+    <tag k="name:lfn" v="Togo"/>
     <tag k="name:li" v="Togo"/>
     <tag k="name:lij" v="Tògo"/>
     <tag k="name:lmo" v="Togo"/>
@@ -16917,6 +17020,7 @@
     <tag k="name:kw" v="Tonga"/>
     <tag k="name:la" v="Tonga"/>
     <tag k="name:lb" v="Tonga"/>
+    <tag k="name:lfn" v="Tonga"/>
     <tag k="name:li" v="Tonga"/>
     <tag k="name:lij" v="Tonga"/>
     <tag k="name:lmo" v="Tonga"/>
@@ -17078,6 +17182,7 @@
     <tag k="name:ks" v="وینازوٗلا"/>
     <tag k="name:ku" v="Venezuêla"/>
     <tag k="name:la" v="Venetiola"/>
+    <tag k="name:lfn" v="Venezuela"/>
     <tag k="name:lg" v="Venzwera"/>
     <tag k="name:ln" v="Venézuela"/>
     <tag k="name:lo" v="ເວເນຊູເອລາ"/>
@@ -17204,6 +17309,7 @@
     <tag k="name:ksh" v="de brettesche Juffer-Enselle"/>
     <tag k="name:la" v="Britannicae Virginis Insulae"/>
     <tag k="name:lb" v="Britesch Joffereninselen"/>
+    <tag k="name:lfn" v="Isolas Virjin Brites"/>
     <tag k="name:lg" v="Bizinga ebya Virigini ebitwalibwa Bungereza"/>
     <tag k="name:ln" v="Bisanga bya Vierzi ya Angɛlɛtɛ́lɛ"/>
     <tag k="name:lo" v="ບຣິທິດເວີຈິນໄອແລນ"/>
@@ -17379,6 +17485,7 @@
     <tag k="name:la" v="Indonesia"/>
     <tag k="name:lb" v="Indonesien"/>
     <tag k="name:lez" v="Индонезия"/>
+    <tag k="name:lfn" v="Indonesia"/>
     <tag k="name:lg" v="Yindonezya"/>
     <tag k="name:li" v="Indonesië"/>
     <tag k="name:lij" v="Indonexia"/>
@@ -17592,6 +17699,7 @@
     <tag k="name:ku" v="Giravên Marşal"/>
     <tag k="name:la" v="Insulae Marsalienses"/>
     <tag k="name:lb" v="Marshallinselen"/>
+    <tag k="name:lfn" v="Isolas Majel"/>
     <tag k="name:lg" v="Bizinga bya Mariso"/>
     <tag k="name:li" v="Marshall-eilen"/>
     <tag k="name:ln" v="Bisanga bya Marishalɛ"/>
@@ -17665,6 +17773,7 @@
   </node>
   <node id="424312026" lat="77.6192349" lon="-42.8125967">
     <tag k="alt_name:eo" v="Groenlando"/>
+    <tag k="alt_name:lfn" v="Gronland"/>
     <tag k="alt_name:pt" v="Groenlândia"/>
     <tag k="capital_city" v="Nuuk"/>
     <tag k="country_code_fips" v="GL"/>
@@ -17762,6 +17871,7 @@
     <tag k="name:kw" v="Greunland"/>
     <tag k="name:la" v="Groenlandia"/>
     <tag k="name:lb" v="Grönland"/>
+    <tag k="name:lfn" v="Calalitnunat"/>
     <tag k="name:lg" v="Gurenelandi"/>
     <tag k="name:li" v="Greunland"/>
     <tag k="name:lij" v="Gròenlandia"/>
@@ -17952,6 +18062,7 @@
     <tag k="name:kv" v="Фарер діяс"/>
     <tag k="name:kw" v="Ynysow Faroe"/>
     <tag k="name:la" v="Insulae Faeroae"/>
+    <tag k="name:lfn" v="Isolas Faro"/>
     <tag k="name:li" v="Faeröer"/>
     <tag k="name:lij" v="Isoe Farœ"/>
     <tag k="name:lmo" v="Faroe"/>
@@ -18039,7 +18150,7 @@
   </node>
   <node id="424313277" lat="59.6749712" lon="14.5208584">
     <tag k="ISO3166-1" v="SE"/>
-    <tag k="alt_name:eo" v="Svedio"/>
+    <tag k="alt_name:eo" v="Svedujo"/>
     <tag k="capital_city" v="Stockholm"/>
     <tag k="country_code_fips" v="SW"/>
     <tag k="country_code_iso3166_1_alpha_2" v="SE"/>
@@ -18068,7 +18179,7 @@
     <tag k="name:ee" v="Sweden nutome"/>
     <tag k="name:el" v="Σουηδία"/>
     <tag k="name:en" v="Sweden"/>
-    <tag k="name:eo" v="Svedujo"/>
+    <tag k="name:eo" v="Svedio"/>
     <tag k="name:es" v="Suecia"/>
     <tag k="name:et" v="Rootsi"/>
     <tag k="name:eu" v="Suedia"/>
@@ -18110,6 +18221,7 @@
     <tag k="name:ku" v="Swêd"/>
     <tag k="name:la" v="Suecia"/>
     <tag k="name:lb" v="Schweden"/>
+    <tag k="name:lfn" v="Sveria"/>
     <tag k="name:lg" v="Swideni"/>
     <tag k="name:li" v="Zwaede"/>
     <tag k="name:ln" v="Swédɛ"/>
@@ -18168,7 +18280,7 @@
     <tag k="official_name:af" v="Koninkryk Swede"/>
     <tag k="official_name:be" v="Каралеўства Швецыя"/>
     <tag k="official_name:el" v="Βασίλειο της Σουηδίας"/>
-    <tag k="official_name:eo" v="Reĝlando Svedujo"/>
+    <tag k="official_name:eo" v="Reĝlando Svedio"/>
     <tag k="official_name:et" v="Rootsi Kuningriik"/>
     <tag k="official_name:fr" v="Royaume de Suède"/>
     <tag k="official_name:id" v="Kerajaan Swedia"/>
@@ -18302,6 +18414,7 @@
     <tag k="name:lad" v="Repuvlika Kipriyota"/>
     <tag k="name:lb" v="Zypern"/>
     <tag k="name:lez" v="Кипр"/>
+    <tag k="name:lfn" v="Cipros"/>
     <tag k="name:lg" v="Sipuriya"/>
     <tag k="name:li" v="Cyprus"/>
     <tag k="name:lij" v="Çipro"/>
@@ -18552,6 +18665,7 @@
     <tag k="name:la" v="Singapura"/>
     <tag k="name:lb" v="Singapur"/>
     <tag k="name:lez" v="Сингапур"/>
+    <tag k="name:lfn" v="Singapor"/>
     <tag k="name:lg" v="Singapowa"/>
     <tag k="name:li" v="Singapore"/>
     <tag k="name:lij" v="Scingapô"/>
@@ -18678,7 +18792,8 @@
     <tag k="wikipedia" v="en:Singapore"/>
   </node>
   <node id="424313451" lat="36.5748441" lon="139.2394179">
-    <tag k="alt_name:eo" v="Japanio"/>
+    <tag k="alt_name:eo" v="Japanujo;Nipono"/>
+    <tag k="alt_name:lfn" v="Japan"/>
     <tag k="alt_name:vi" v="Nhật"/>
     <tag k="capital_city" v="Tokyo"/>
     <tag k="country_code_fips" v="JA"/>
@@ -18743,7 +18858,7 @@
     <tag k="name:ee" v="Japan"/>
     <tag k="name:el" v="Ιαπωνία"/>
     <tag k="name:en" v="Japan"/>
-    <tag k="name:eo" v="Japanujo"/>
+    <tag k="name:eo" v="Japanio"/>
     <tag k="name:es" v="Japón"/>
     <tag k="name:et" v="Jaapan"/>
     <tag k="name:eu" v="Japonia"/>
@@ -18810,6 +18925,7 @@
     <tag k="name:la" v="Iaponia"/>
     <tag k="name:lb" v="Japan"/>
     <tag k="name:lez" v="Япония"/>
+    <tag k="name:lfn" v="Nion"/>
     <tag k="name:lg" v="Japani"/>
     <tag k="name:li" v="Japan"/>
     <tag k="name:lij" v="Giappon"/>
@@ -19003,6 +19119,7 @@
     <tag k="name:ks" v="وانوٗتوٗ"/>
     <tag k="name:ku" v="Vanûatû"/>
     <tag k="name:ky" v="Вануату"/>
+    <tag k="name:lfn" v="Vanuatu"/>
     <tag k="name:lg" v="Vanawuwatu"/>
     <tag k="name:lo" v="ວານົວຕູ"/>
     <tag k="name:lv" v="Vanuatu"/>
@@ -19075,7 +19192,8 @@
   <node id="424313582" lat="35.0000740" lon="104.9999270">
     <tag k="alt_name" v="P.R. China"/>
     <tag k="alt_name:en" v="People's Republic of China"/>
-    <tag k="alt_name:eo" v="Ĉinio"/>
+    <tag k="alt_name:eo" v="Ĉinujo"/>
+    <tag k="alt_name:lfn" v="Xina"/>
     <tag k="alt_name:ru" v="Китай"/>
     <tag k="alt_name:vi" v="Trung Quốc"/>
     <tag k="capital_city" v="Beijing"/>
@@ -19149,7 +19267,7 @@
     <tag k="name:el" v="Κίνα"/>
     <tag k="name:eml" v="Cina"/>
     <tag k="name:en" v="China"/>
-    <tag k="name:eo" v="Ĉinujo"/>
+    <tag k="name:eo" v="Ĉinio"/>
     <tag k="name:es" v="China"/>
     <tag k="name:et" v="Hiina"/>
     <tag k="name:eu" v="Txinako Herri Errepublika"/>
@@ -19218,6 +19336,7 @@
     <tag k="name:lad" v="Repuvlika Popular de Kina"/>
     <tag k="name:lb" v="Volleksrepublik China"/>
     <tag k="name:lez" v="Китайдин Халкьдин Республика"/>
+    <tag k="name:lfn" v="Jonguo"/>
     <tag k="name:lg" v="Cayina"/>
     <tag k="name:li" v="Sjina"/>
     <tag k="name:lmo" v="Cina"/>
@@ -19452,6 +19571,7 @@
     <tag k="name:ku" v="Jamaîka"/>
     <tag k="name:la" v="Iamaica"/>
     <tag k="name:lb" v="Jamaika"/>
+    <tag k="name:lfn" v="Jamaica"/>
     <tag k="name:lg" v="Jamayika"/>
     <tag k="name:ln" v="Zamaiki"/>
     <tag k="name:lo" v="ຈາໄມກາ"/>
@@ -19632,6 +19752,7 @@
     <tag k="name:lb" v="Aserbaidschan"/>
     <tag k="name:lbe" v="Азирбижан"/>
     <tag k="name:lez" v="Азербайжан"/>
+    <tag k="name:lfn" v="Azerbaidjan"/>
     <tag k="name:lg" v="Azerebayijaani"/>
     <tag k="name:li" v="Azerbaidzjan"/>
     <tag k="name:lij" v="Azerbaijan"/>
@@ -19890,6 +20011,7 @@
     <tag k="name:la" v="Bolivia"/>
     <tag k="name:lb" v="Bolivien"/>
     <tag k="name:lez" v="Боливия"/>
+    <tag k="name:lfn" v="Bolivia"/>
     <tag k="name:lg" v="Boliviya"/>
     <tag k="name:li" v="Bolivia"/>
     <tag k="name:lij" v="Bolivia"/>
@@ -20141,6 +20263,7 @@
     <tag k="name:lad" v="Brasil"/>
     <tag k="name:lb" v="Brasilien"/>
     <tag k="name:lez" v="Бразилия"/>
+    <tag k="name:lfn" v="Brasil"/>
     <tag k="name:lg" v="Buraziiri"/>
     <tag k="name:li" v="'t Braziel"/>
     <tag k="name:lij" v="Braxî"/>
@@ -20404,6 +20527,7 @@
     <tag k="name:ky" v="Ботсвана"/>
     <tag k="name:la" v="Botsuana"/>
     <tag k="name:lb" v="Botswana"/>
+    <tag k="name:lfn" v="Botsuana"/>
     <tag k="name:lg" v="Botiswana"/>
     <tag k="name:li" v="Botswana"/>
     <tag k="name:lij" v="Bòtswana"/>
@@ -20611,6 +20735,7 @@
     <tag k="name:ksh" v="Kannada"/>
     <tag k="name:ku" v="Kanada"/>
     <tag k="name:lb" v="Kanada"/>
+    <tag k="name:lfn" v="Canada"/>
     <tag k="name:lg" v="Kanada"/>
     <tag k="name:ln" v="Kanada"/>
     <tag k="name:lo" v="ແຄນນາດາ"/>
@@ -20675,7 +20800,7 @@
   <node id="424313803" lat="49.8167003" lon="15.4749544">
     <tag k="ISO3166-1" v="CZ"/>
     <tag k="alt_name" v="Czech Rep."/>
-    <tag k="alt_name:eo" v="Ĉeĥio"/>
+    <tag k="alt_name:eo" v="Ĉeĥujo"/>
     <tag k="country_code_fips" v="EZ"/>
     <tag k="country_code_iso3166_1_alpha_2" v="CZ"/>
     <tag k="geonames:id" v="3077311"/>
@@ -20733,7 +20858,7 @@
     <tag k="name:ee" v="Tsɛk repɔblik nutome"/>
     <tag k="name:el" v="Τσεχία"/>
     <tag k="name:en" v="Czechia"/>
-    <tag k="name:eo" v="Ĉeĥujo"/>
+    <tag k="name:eo" v="Ĉeĥio"/>
     <tag k="name:es" v="Chequia"/>
     <tag k="name:et" v="Tšehhi"/>
     <tag k="name:eu" v="Txekia"/>
@@ -20798,6 +20923,7 @@
     <tag k="name:la" v="Cechia"/>
     <tag k="name:lad" v="Chekia"/>
     <tag k="name:lb" v="Tschechien"/>
+    <tag k="name:lfn" v="Txesco"/>
     <tag k="name:lg" v="Lipubulika ya Ceeka"/>
     <tag k="name:li" v="Tsjechië"/>
     <tag k="name:lij" v="Repubbrica Ceca"/>
@@ -21023,6 +21149,7 @@
     <tag k="name:ku" v="Fîjî"/>
     <tag k="name:la" v="Viti"/>
     <tag k="name:lb" v="Fidschi"/>
+    <tag k="name:lfn" v="Fiji"/>
     <tag k="name:li" v="Fidzji-eilen"/>
     <tag k="name:ln" v="Fidzi"/>
     <tag k="name:lo" v="ຟິຈິ"/>
@@ -21092,7 +21219,7 @@
     <tag k="wikipedia" v="fr:Fidji"/>
   </node>
   <node id="424313832" lat="58.7523778" lon="25.3319078">
-    <tag k="alt_name:eo" v="Estonio"/>
+    <tag k="alt_name:eo" v="Estonujo"/>
     <tag k="capital_city" v="Tallinn"/>
     <tag k="country_code_fips" v="EN"/>
     <tag k="country_code_iso3166_1_alpha_2" v="EE"/>
@@ -21124,7 +21251,7 @@
     <tag k="name:ee" v="Estonia nutome"/>
     <tag k="name:el" v="Εσθονία"/>
     <tag k="name:en" v="Estonia"/>
-    <tag k="name:eo" v="Estonujo"/>
+    <tag k="name:eo" v="Estonio"/>
     <tag k="name:es" v="Estonia"/>
     <tag k="name:et" v="Eesti"/>
     <tag k="name:eu" v="Estonia"/>
@@ -21166,6 +21293,7 @@
     <tag k="name:ku" v="Estonya"/>
     <tag k="name:la" v="Estonia"/>
     <tag k="name:lb" v="Estland"/>
+    <tag k="name:lfn" v="Esti"/>
     <tag k="name:lg" v="Esitoniya"/>
     <tag k="name:li" v="Esland"/>
     <tag k="name:ln" v="Esitoni"/>
@@ -21225,7 +21353,7 @@
     <tag k="official_name:be" v="Рэспубліка Эстонія"/>
     <tag k="official_name:el" v="Δημοκρατία της Εσθονίας"/>
     <tag k="official_name:en" v="Republic of Estonia"/>
-    <tag k="official_name:eo" v="Respubliko Estonujo"/>
+    <tag k="official_name:eo" v="Respubliko Estonio"/>
     <tag k="official_name:es" v="República de Estonia"/>
     <tag k="official_name:fr" v="République d'Estonie"/>
     <tag k="official_name:gd" v="Poblachd Eastòinia"/>
@@ -21354,6 +21482,7 @@
     <tag k="name:la" v="Gana"/>
     <tag k="name:lad" v="Ghana"/>
     <tag k="name:lb" v="Ghana"/>
+    <tag k="name:lfn" v="Gana"/>
     <tag k="name:lg" v="Gana"/>
     <tag k="name:li" v="Gana"/>
     <tag k="name:lij" v="Ghana"/>
@@ -21586,6 +21715,7 @@
     <tag k="name:la" v="Guinea Aequatorensis"/>
     <tag k="name:lb" v="Equatorialguinea"/>
     <tag k="name:lez" v="Экваториал Гвинея"/>
+    <tag k="name:lfn" v="Gine Ecuatoral"/>
     <tag k="name:lg" v="Gayana ey'oku ekweta"/>
     <tag k="name:li" v="Equatoriaal Guinee"/>
     <tag k="name:lij" v="Guinea Equatoriâ"/>
@@ -21767,6 +21897,7 @@
     <tag k="name:ks" v="برطانوی بحرِ ہِنٛدۍ علاقہٕ"/>
     <tag k="name:ksh" v="Brettesche Besezunge em indesche Oozejahn"/>
     <tag k="name:ku" v="Xakên Brîtanyayê yên Okyanûsa Hindî"/>
+    <tag k="name:lfn" v="Teritorio de Mar Indian Brites"/>
     <tag k="name:lg" v="Bizinga by'eCago"/>
     <tag k="name:ln" v="Mabelé ya Angɛlɛtɛ́lɛ na mbú ya Indiya"/>
     <tag k="name:lo" v="ບຣິດທິສອິນດ່ຽນໂອຊ່ຽນເທີຣິທໍຣີ"/>
@@ -21925,6 +22056,7 @@
     <tag k="name:kw" v="Kenya"/>
     <tag k="name:la" v="Kenia"/>
     <tag k="name:lb" v="Kenia"/>
+    <tag k="name:lfn" v="Cenia"/>
     <tag k="name:lg" v="Kenya"/>
     <tag k="name:li" v="Kenia"/>
     <tag k="name:lij" v="Kenya"/>
@@ -22158,6 +22290,7 @@
     <tag k="name:la" v="Cuvaitum"/>
     <tag k="name:lb" v="Kuwait"/>
     <tag k="name:lez" v="Кувейт"/>
+    <tag k="name:lfn" v="Cuait"/>
     <tag k="name:lg" v="Kuweti"/>
     <tag k="name:li" v="Koeweit"/>
     <tag k="name:lij" v="Kuwait"/>
@@ -22356,6 +22489,7 @@
     <tag k="name:kw" v="Montserrat"/>
     <tag k="name:la" v="Montserrat"/>
     <tag k="name:lb" v="Montserrat"/>
+    <tag k="name:lfn" v="Montserat"/>
     <tag k="name:lg" v="Monteseraati"/>
     <tag k="name:li" v="Montserrat"/>
     <tag k="name:lij" v="Montserrat"/>
@@ -22543,6 +22677,7 @@
     <tag k="name:la" v="Pakistania"/>
     <tag k="name:lb" v="Pakistan"/>
     <tag k="name:lez" v="Пакистан"/>
+    <tag k="name:lfn" v="Pacistan"/>
     <tag k="name:lg" v="Pakisitaani"/>
     <tag k="name:li" v="Pakistan"/>
     <tag k="name:lij" v="Pakistan"/>
@@ -22680,7 +22815,6 @@
   </node>
   <node id="424314123" lat="8.6400349" lon="-11.8400269">
     <tag k="alt_name:el" v="Σιέρρα Λεόνε"/>
-    <tag k="alt_name:eo" v="Sieraleono"/>
     <tag k="capital_city" v="Freetown"/>
     <tag k="country_code_fips" v="SL"/>
     <tag k="country_code_iso3166_1_alpha_2" v="SL"/>
@@ -22727,7 +22861,7 @@
     <tag k="name:ee" v="Sierra Leone nutome"/>
     <tag k="name:el" v="Σιέρα Λεόνε"/>
     <tag k="name:en" v="Sierra Leone"/>
-    <tag k="name:eo" v="Siera-Leono"/>
+    <tag k="name:eo" v="Sieraleono"/>
     <tag k="name:es" v="Sierra Leona"/>
     <tag k="name:et" v="Sierra Leone"/>
     <tag k="name:eu" v="Sierra Leona"/>
@@ -22778,6 +22912,7 @@
     <tag k="name:kw" v="Sierra Leon"/>
     <tag k="name:la" v="Mons Leoninus"/>
     <tag k="name:lb" v="Sierra Leone"/>
+    <tag k="name:lfn" v="Siera Leon"/>
     <tag k="name:lg" v="Siyeralewone"/>
     <tag k="name:li" v="Sierra Leone"/>
     <tag k="name:lij" v="Sierra Lion"/>
@@ -22890,7 +23025,8 @@
     <tag k="wikipedia" v="en:Sierra Leone"/>
   </node>
   <node id="424314145" lat="22.3511148" lon="78.6677428">
-    <tag k="alt_name:eo" v="Hindujo;Hindio;Hinda Unio"/>
+    <tag k="alt_name:eo" v="Hindio;Hindujo;Hinda Unio"/>
+    <tag k="alt_name:lfn" v="India"/>
     <tag k="capital_city" v="New Delhi"/>
     <tag k="country_code_fips" v="IN"/>
     <tag k="country_code_iso3166_1_alpha_2" v="IN"/>
@@ -23020,6 +23156,7 @@
     <tag k="name:lb" v="Indien"/>
     <tag k="name:lbe" v="Гьиндусттан"/>
     <tag k="name:lez" v="Индия"/>
+    <tag k="name:lfn" v="Barat"/>
     <tag k="name:lg" v="Buyindi"/>
     <tag k="name:li" v="India"/>
     <tag k="name:lij" v="India"/>
@@ -23167,7 +23304,7 @@
     <tag k="wikipedia" v="en:India"/>
   </node>
   <node id="424314276" lat="38.6281733" lon="70.8156541">
-    <tag k="alt_name:eo" v="Taĝikistano;Taĝikio"/>
+    <tag k="alt_name:eo" v="Taĝikujo;Taĝikistano"/>
     <tag k="capital_city" v="Dushanbe"/>
     <tag k="country_code_fips" v="TI"/>
     <tag k="country_code_iso3166_1_alpha_2" v="TJ"/>
@@ -23222,7 +23359,7 @@
     <tag k="name:ee" v="Tajikistan nutome"/>
     <tag k="name:el" v="Τατζικιστάν"/>
     <tag k="name:en" v="Tajikistan"/>
-    <tag k="name:eo" v="Taĝikujo"/>
+    <tag k="name:eo" v="Taĝikio"/>
     <tag k="name:es" v="Tayikistán"/>
     <tag k="name:et" v="Tadžikistan"/>
     <tag k="name:eu" v="Tajikistan"/>
@@ -23279,6 +23416,7 @@
     <tag k="name:ky" v="Тажикстан"/>
     <tag k="name:la" v="Tadzikistania"/>
     <tag k="name:lb" v="Tadschikistan"/>
+    <tag k="name:lfn" v="Tadjicistan"/>
     <tag k="name:lg" v="Tajikisitaani"/>
     <tag k="name:li" v="Tadzjikistan"/>
     <tag k="name:lij" v="Tajikistan"/>
@@ -23374,7 +23512,7 @@
     <tag k="name:zu" v="i-Tajikistan"/>
     <tag k="official_name:be" v="Рэспубліка Таджыкістан"/>
     <tag k="official_name:el" v="Δημοκρατία του Τατζικιστάν"/>
-    <tag k="official_name:eo" v="Respubliko Taĝikujo"/>
+    <tag k="official_name:eo" v="Respubliko Taĝikio"/>
     <tag k="official_name:et" v="Tadžikistani Vabariik"/>
     <tag k="official_name:eu" v="Tajikistango Errepublika"/>
     <tag k="official_name:gd" v="Poblachd Thaidigeastàn"/>
@@ -23505,6 +23643,7 @@
     <tag k="name:la" v="Tanzania"/>
     <tag k="name:lb" v="Tansania"/>
     <tag k="name:lez" v="Танзания"/>
+    <tag k="name:lfn" v="Tanzania"/>
     <tag k="name:lg" v="Tanzaniya"/>
     <tag k="name:li" v="Tanzania"/>
     <tag k="name:lij" v="Tanzania"/>
@@ -23711,6 +23850,7 @@
     <tag k="name:kw" v="Kolombi"/>
     <tag k="name:la" v="Columbia"/>
     <tag k="name:lb" v="Kolumbien"/>
+    <tag k="name:lfn" v="Colombia"/>
     <tag k="name:lg" v="Kolombya"/>
     <tag k="name:ln" v="Kolombi"/>
     <tag k="name:lo" v="ໂຄລຳເບຍ"/>
@@ -23906,6 +24046,7 @@
     <tag k="name:la" v="Litus Eburneum"/>
     <tag k="name:lad" v="Kosta de Marfil"/>
     <tag k="name:lb" v="Elfebeeküst"/>
+    <tag k="name:lfn" v="Costa de Ivor"/>
     <tag k="name:lg" v="Kote Divwa"/>
     <tag k="name:li" v="Ivoorkös"/>
     <tag k="name:lij" v="Còsta d'Avòïo"/>
@@ -24152,6 +24293,7 @@
     <tag k="name:lad" v="Islandia"/>
     <tag k="name:lb" v="Island"/>
     <tag k="name:lez" v="Исландия"/>
+    <tag k="name:lfn" v="Island"/>
     <tag k="name:lg" v="Ayisirandi"/>
     <tag k="name:li" v="Iesland"/>
     <tag k="name:lij" v="Islanda"/>
@@ -24296,12 +24438,11 @@
   </node>
   <node id="424314830" lat="64.6863136" lon="97.7453061">
     <tag k="alt_name" v="Russia;Россия"/>
-    <tag k="alt_name:eo" v="Rusio;Ruslando"/>
+    <tag k="alt_name:eo" v="Rusujo;Ruslando"/>
     <tag k="capital_city" v="Moscow"/>
     <tag k="country_code_fips" v="RS"/>
     <tag k="country_code_iso3166_1_alpha_2" v="RU"/>
     <tag k="int_name" v="Russian Federation"/>
-    <tag k="is_in:continent" v="Eurasia"/>
     <tag k="name" v="Россия"/>
     <tag k="name:UN:ar" v="الاتحاد الروسي"/>
     <tag k="name:UN:en" v="Russian Federation (the)"/>
@@ -24368,7 +24509,7 @@
     <tag k="name:el" v="Ρωσία"/>
     <tag k="name:eml" v="Rossia"/>
     <tag k="name:en" v="Russia"/>
-    <tag k="name:eo" v="Rusujo"/>
+    <tag k="name:eo" v="Rusio"/>
     <tag k="name:es" v="Rusia"/>
     <tag k="name:et" v="Venemaa"/>
     <tag k="name:eu" v="Errusia"/>
@@ -24440,6 +24581,7 @@
     <tag k="name:lb" v="Russland"/>
     <tag k="name:lbe" v="Аьрасат"/>
     <tag k="name:lez" v="Урусат"/>
+    <tag k="name:lfn" v="Rusia"/>
     <tag k="name:lg" v="Lasa"/>
     <tag k="name:li" v="Rösland"/>
     <tag k="name:lij" v="Ruscia"/>
@@ -24725,6 +24867,7 @@
     <tag k="name:la" v="Omania"/>
     <tag k="name:lb" v="Oman"/>
     <tag k="name:lez" v="Оман"/>
+    <tag k="name:lfn" v="Uman"/>
     <tag k="name:lg" v="Omaani"/>
     <tag k="name:li" v="Omaan"/>
     <tag k="name:lij" v="Òman"/>
@@ -24916,6 +25059,7 @@
     <tag k="name:ksh" v="Austraalije"/>
     <tag k="name:ku" v="Awistralya"/>
     <tag k="name:lb" v="Australien"/>
+    <tag k="name:lfn" v="Australia"/>
     <tag k="name:lg" v="Awusitureliya"/>
     <tag k="name:li" v="Australië"/>
     <tag k="name:ln" v="Ositáli"/>
@@ -24987,7 +25131,7 @@
     <tag k="wikipedia" v="en:Australia"/>
   </node>
   <node id="424315709" lat="42.6073975" lon="25.4856617">
-    <tag k="alt_name:eo" v="Bulgario"/>
+    <tag k="alt_name:eo" v="Bulgarujo"/>
     <tag k="country_code_fips" v="BU"/>
     <tag k="country_code_iso3166_1_alpha_2" v="BG"/>
     <tag k="geonames:id" v="732800"/>
@@ -25017,7 +25161,7 @@
     <tag k="name:ee" v="Bulgaria nutome"/>
     <tag k="name:el" v="Βουλγαρία"/>
     <tag k="name:en" v="Bulgaria"/>
-    <tag k="name:eo" v="Bulgarujo"/>
+    <tag k="name:eo" v="Bulgario"/>
     <tag k="name:es" v="Bulgaria"/>
     <tag k="name:et" v="Bulgaaria"/>
     <tag k="name:eu" v="Bulgaria"/>
@@ -25060,6 +25204,7 @@
     <tag k="name:ku" v="Bulgaristan"/>
     <tag k="name:la" v="Bulgaria"/>
     <tag k="name:lb" v="Bulgarien"/>
+    <tag k="name:lfn" v="Balgaria"/>
     <tag k="name:lg" v="Bulugariya"/>
     <tag k="name:li" v="Bölgarieë"/>
     <tag k="name:ln" v="Biligari"/>
@@ -25257,6 +25402,7 @@
     <tag k="name:la" v="Cameronia"/>
     <tag k="name:lad" v="Kamerun"/>
     <tag k="name:lb" v="Kamerun"/>
+    <tag k="name:lfn" v="Camerun"/>
     <tag k="name:lg" v="Kameruuni"/>
     <tag k="name:li" v="Kameroen"/>
     <tag k="name:lij" v="Camerun"/>
@@ -25385,7 +25531,8 @@
     <tag k="ISO3166-1:alpha2" v="EG"/>
     <tag k="ISO3166-1:alpha3" v="EGY"/>
     <tag k="ISO3166-1:numeric" v="818"/>
-    <tag k="alt_name:eo" v="Egipto;Egiptio"/>
+    <tag k="alt_name:eo" v="Egiptujo"/>
+    <tag k="alt_name:lfn" v="Egipte"/>
     <tag k="capital_city" v="Cairo"/>
     <tag k="country_code_fips" v="EG"/>
     <tag k="country_code_iso3166_1_alpha_2" v="EG"/>
@@ -25435,7 +25582,7 @@
     <tag k="name:ee" v="Egypte nutome"/>
     <tag k="name:el" v="Αίγυπτος"/>
     <tag k="name:en" v="Egypt"/>
-    <tag k="name:eo" v="Egiptujo"/>
+    <tag k="name:eo" v="Egiptio"/>
     <tag k="name:es" v="Egipto"/>
     <tag k="name:et" v="Egiptus"/>
     <tag k="name:eu" v="Egipto"/>
@@ -25491,6 +25638,7 @@
     <tag k="name:kw" v="Ejyp"/>
     <tag k="name:la" v="Aegyptus"/>
     <tag k="name:lb" v="Egypten"/>
+    <tag k="name:lfn" v="Misre"/>
     <tag k="name:lg" v="Misiri"/>
     <tag k="name:li" v="Egypte"/>
     <tag k="name:lij" v="Egitto"/>
@@ -25601,7 +25749,7 @@
     <tag k="official_name:de" v="Arabische Republik Ägypten"/>
     <tag k="official_name:el" v="Αραβική Δημοκρατία της Αιγύπτου"/>
     <tag k="official_name:en" v="Arab Republic of Egypt"/>
-    <tag k="official_name:eo" v="Araba Respubliko Egiptujo"/>
+    <tag k="official_name:eo" v="Araba Respubliko Egiptio"/>
     <tag k="official_name:et" v="Egiptuse Araabia Vabariik"/>
     <tag k="official_name:fa" v="جمهوری عربی مصر"/>
     <tag k="official_name:fr" v="République arabe d'Égypte"/>
@@ -25733,6 +25881,7 @@
     <tag k="name:la" v="Erythraea"/>
     <tag k="name:lad" v="Eritrea"/>
     <tag k="name:lb" v="Eritrea"/>
+    <tag k="name:lfn" v="Ertra"/>
     <tag k="name:lg" v="Eritureya"/>
     <tag k="name:li" v="Eritrea"/>
     <tag k="name:lij" v="Eritrea"/>
@@ -25916,6 +26065,7 @@
     <tag k="name:ksh" v="Jrenaada"/>
     <tag k="name:la" v="Granata"/>
     <tag k="name:lb" v="Granada"/>
+    <tag k="name:lfn" v="Grenada"/>
     <tag k="name:lg" v="Gurenada"/>
     <tag k="name:ln" v="Gelenadɛ"/>
     <tag k="name:lo" v="ແກຣນນາດາ"/>
@@ -26078,6 +26228,7 @@
     <tag k="name:lad" v="Irak"/>
     <tag k="name:lb" v="Irak"/>
     <tag k="name:lez" v="Ирак"/>
+    <tag k="name:lfn" v="Irac"/>
     <tag k="name:lg" v="Yiraaka"/>
     <tag k="name:li" v="Irak"/>
     <tag k="name:lij" v="Iraq"/>
@@ -26325,6 +26476,7 @@
     <tag k="name:la" v="Iordania"/>
     <tag k="name:lb" v="Jordanien"/>
     <tag k="name:lez" v="Иордания"/>
+    <tag k="name:lfn" v="Urdun"/>
     <tag k="name:lg" v="Yorodani"/>
     <tag k="name:li" v="Jordanië"/>
     <tag k="name:lij" v="Giordannia"/>
@@ -26534,6 +26686,7 @@
     <tag k="name:kw" v="Pow Lao"/>
     <tag k="name:la" v="Laotia"/>
     <tag k="name:lb" v="Laos"/>
+    <tag k="name:lfn" v="Lau"/>
     <tag k="name:lg" v="Lawosi"/>
     <tag k="name:li" v="Laos"/>
     <tag k="name:ln" v="Lawosi"/>
@@ -26696,6 +26849,7 @@
     <tag k="name:ks" v="سینٛٹ لوٗسِیا"/>
     <tag k="name:ksh" v="de Ensel Zint-Lutscha"/>
     <tag k="name:la" v="Sancta Lucia"/>
+    <tag k="name:lfn" v="San Lusia"/>
     <tag k="name:lg" v="Senti Luciya"/>
     <tag k="name:li" v="Santa Lucia"/>
     <tag k="name:ln" v="Sántu lisi"/>
@@ -26747,7 +26901,7 @@
     <tag k="ISO3166-1" v="MD"/>
     <tag k="alt_name" v="Молдавия"/>
     <tag k="alt_name:cs" v="Moldávie"/>
-    <tag k="alt_name:eo" v="Moldavio"/>
+    <tag k="alt_name:eo" v="Moldavujo"/>
     <tag k="capital_city" v="Chișinău"/>
     <tag k="country_code_fips" v="MD"/>
     <tag k="country_code_iso3166_1_alpha_2" v="MD"/>
@@ -26803,7 +26957,7 @@
     <tag k="name:ee" v="Moldova nutome"/>
     <tag k="name:el" v="Μολδαβία"/>
     <tag k="name:en" v="Moldova"/>
-    <tag k="name:eo" v="Moldavujo"/>
+    <tag k="name:eo" v="Moldavio"/>
     <tag k="name:es" v="Moldavia"/>
     <tag k="name:et" v="Moldova"/>
     <tag k="name:eu" v="Moldavia"/>
@@ -26865,6 +27019,7 @@
     <tag k="name:la" v="Respublica Moldavica"/>
     <tag k="name:lad" v="Moldova"/>
     <tag k="name:lb" v="Moldawien"/>
+    <tag k="name:lfn" v="Moldova"/>
     <tag k="name:lg" v="Molodova"/>
     <tag k="name:li" v="Moldavië"/>
     <tag k="name:lij" v="Moldavia"/>
@@ -26998,6 +27153,7 @@
     <tag k="wikipedia" v="ro:Republica Moldova"/>
   </node>
   <node id="424316478" lat="17.1750495" lon="95.9999652">
+    <tag k="alt_name:eo" v="Mjanmao"/>
     <tag k="alt_name:vi" v="Miến Điện"/>
     <tag k="country_code_fips" v="BM"/>
     <tag k="country_code_iso3166_1_alpha_2" v="MM"/>
@@ -27050,7 +27206,7 @@
     <tag k="name:ee" v="Myanmar [Burma] nutome"/>
     <tag k="name:el" v="Μιανμάρ"/>
     <tag k="name:en" v="Myanmar"/>
-    <tag k="name:eo" v="Birmo / Mjanmao"/>
+    <tag k="name:eo" v="Birmo"/>
     <tag k="name:es" v="Birmania"/>
     <tag k="name:et" v="Birma"/>
     <tag k="name:eu" v="Myanmar"/>
@@ -27108,6 +27264,7 @@
     <tag k="name:ky" v="Мьянма"/>
     <tag k="name:la" v="Birmania"/>
     <tag k="name:lb" v="Myanmar"/>
+    <tag k="name:lfn" v="Miama"/>
     <tag k="name:lg" v="Myanima"/>
     <tag k="name:li" v="Burma"/>
     <tag k="name:lij" v="Myanmar"/>
@@ -27228,7 +27385,7 @@
     <tag k="wikipedia" v="en:Myanmar"/>
   </node>
   <node id="424316493" lat="20.2540382" lon="-9.2399263">
-    <tag k="alt_name:eo" v="Maŭritanio"/>
+    <tag k="alt_name:eo" v="Maŭritanujo"/>
     <tag k="capital_city" v="Nouakchott"/>
     <tag k="country_code_fips" v="MR"/>
     <tag k="country_code_iso3166_1_alpha_2" v="MR"/>
@@ -27263,7 +27420,7 @@
     <tag k="name:ee" v="Mauritania nutome"/>
     <tag k="name:el" v="Μαυριτανία"/>
     <tag k="name:en" v="Mauritania"/>
-    <tag k="name:eo" v="Maŭritanujo"/>
+    <tag k="name:eo" v="Maŭritanio"/>
     <tag k="name:es" v="Mauritania"/>
     <tag k="name:et" v="Mauritaania"/>
     <tag k="name:eu" v="Mauritania"/>
@@ -27311,6 +27468,7 @@
     <tag k="name:kw" v="Moritani"/>
     <tag k="name:la" v="Mauritania"/>
     <tag k="name:lb" v="Mauretanien"/>
+    <tag k="name:lfn" v="Muritania"/>
     <tag k="name:lg" v="Mawulitenya"/>
     <tag k="name:li" v="Mauretanië"/>
     <tag k="name:ln" v="Moritani"/>
@@ -27521,6 +27679,7 @@
     <tag k="name:lad" v="Nijeria"/>
     <tag k="name:lb" v="Nigeria"/>
     <tag k="name:lez" v="Нигерия"/>
+    <tag k="name:lfn" v="Nijeria"/>
     <tag k="name:lg" v="Nayijerya"/>
     <tag k="name:li" v="Nigeria"/>
     <tag k="name:lij" v="Nigeria"/>
@@ -27746,6 +27905,7 @@
     <tag k="name:kw" v="Nikaragwa"/>
     <tag k="name:la" v="Nicaragua"/>
     <tag k="name:lb" v="Nicaragua"/>
+    <tag k="name:lfn" v="Nicaragua"/>
     <tag k="name:lg" v="Nikaraguwa"/>
     <tag k="name:li" v="Nicaragua"/>
     <tag k="name:lij" v="Nicaragua"/>
@@ -27954,6 +28114,7 @@
     <tag k="name:la" v="Panama"/>
     <tag k="name:lad" v="Panama"/>
     <tag k="name:lb" v="Panama"/>
+    <tag k="name:lfn" v="Panama"/>
     <tag k="name:li" v="Pánama"/>
     <tag k="name:lij" v="Panamá"/>
     <tag k="name:lmo" v="Panama"/>
@@ -28121,6 +28282,7 @@
     <tag k="name:ksh" v="San-Marino"/>
     <tag k="name:ku" v="San Marîno"/>
     <tag k="name:la" v="Sancti Marini"/>
+    <tag k="name:lfn" v="San Marino"/>
     <tag k="name:lg" v="Sanimarino"/>
     <tag k="name:ln" v="Sántu Marinɛ"/>
     <tag k="name:lo" v="ຊານມາລີໂນ"/>
@@ -28182,7 +28344,7 @@
     <tag k="wikipedia" v="en:San Marino"/>
   </node>
   <node id="424317039" lat="8.3676771" lon="49.0834160">
-    <tag k="alt_name:eo" v="Somalio"/>
+    <tag k="alt_name:eo" v="Somalujo"/>
     <tag k="capital_city" v="Mogadishu"/>
     <tag k="country_code_fips" v="SO"/>
     <tag k="country_code_iso3166_1_alpha_2" v="SO"/>
@@ -28230,7 +28392,7 @@
     <tag k="name:ee" v="Somalia nutome"/>
     <tag k="name:el" v="Σομαλία"/>
     <tag k="name:en" v="Somalia"/>
-    <tag k="name:eo" v="Somalujo"/>
+    <tag k="name:eo" v="Somalio"/>
     <tag k="name:es" v="Somalia"/>
     <tag k="name:et" v="Somaalia"/>
     <tag k="name:eu" v="Somalia"/>
@@ -28285,6 +28447,7 @@
     <tag k="name:kw" v="Somali"/>
     <tag k="name:la" v="Somalia"/>
     <tag k="name:lb" v="Somalia"/>
+    <tag k="name:lfn" v="Somalia"/>
     <tag k="name:lg" v="Somaliya"/>
     <tag k="name:li" v="Somalië"/>
     <tag k="name:lij" v="Somalia"/>
@@ -28509,6 +28672,7 @@
     <tag k="name:la" v="Tunesia"/>
     <tag k="name:lad" v="Tunesia"/>
     <tag k="name:lb" v="Tunesien"/>
+    <tag k="name:lfn" v="Tunis"/>
     <tag k="name:lg" v="Tunisya"/>
     <tag k="name:li" v="Tunesië"/>
     <tag k="name:lij" v="Tunixia"/>
@@ -28667,6 +28831,7 @@
     <tag k="name:ko" v="투발루"/>
     <tag k="name:ks" v="توٗوالوٗ"/>
     <tag k="name:ku" v="Tûvalû"/>
+    <tag k="name:lfn" v="Tuvalu"/>
     <tag k="name:lo" v="ຕູວາລູ"/>
     <tag k="name:lv" v="Tuvalu"/>
     <tag k="name:mg" v="Tovalò"/>
@@ -28810,6 +28975,7 @@
     <tag k="name:la" v="Uganda"/>
     <tag k="name:lb" v="Uganda"/>
     <tag k="name:lez" v="Уганда"/>
+    <tag k="name:lfn" v="Uganda"/>
     <tag k="name:lg" v="Yuganda"/>
     <tag k="name:li" v="Oeganda"/>
     <tag k="name:lij" v="Uganda"/>
@@ -28932,7 +29098,7 @@
     <tag k="ISO3166-1:alpha2" v="UZ"/>
     <tag k="ISO3166-1:alpha3" v="UZB"/>
     <tag k="ISO3166-1:numeric" v="860"/>
-    <tag k="alt_name:eo" v="Uzbekistano;Uzbekio"/>
+    <tag k="alt_name:eo" v="Uzbekujo;Uzbekistano"/>
     <tag k="alt_name:uz" v="Ўзбекистон"/>
     <tag k="alt_name:vi" v="Ozbekistan"/>
     <tag k="capital_city" v="Tashkent"/>
@@ -28987,7 +29153,7 @@
     <tag k="name:ee" v="Uzbekistan nutome"/>
     <tag k="name:el" v="Ουζμπεκιστάν"/>
     <tag k="name:en" v="Uzbekistan"/>
-    <tag k="name:eo" v="Uzbekujo"/>
+    <tag k="name:eo" v="Uzbekio"/>
     <tag k="name:es" v="Uzbekistán"/>
     <tag k="name:et" v="Usbekistan"/>
     <tag k="name:eu" v="Uzbekistan"/>
@@ -29048,6 +29214,7 @@
     <tag k="name:lad" v="Uzbekistan"/>
     <tag k="name:lb" v="Usbekistan"/>
     <tag k="name:lez" v="Узбекистан"/>
+    <tag k="name:lfn" v="Uzbecistan"/>
     <tag k="name:lg" v="Wuzibekisitaani"/>
     <tag k="name:li" v="Oesbekistan"/>
     <tag k="name:lij" v="Uzbekistan"/>
@@ -29150,7 +29317,7 @@
     <tag k="official_name:br" v="Republik Ouzbekistan"/>
     <tag k="official_name:cy" v="Gweriniaeth Uzbekistan"/>
     <tag k="official_name:el" v="Δημοκρατία του Ουζμπεκιστάν"/>
-    <tag k="official_name:eo" v="Respubliko Uzbekujo"/>
+    <tag k="official_name:eo" v="Respubliko Uzbekio"/>
     <tag k="official_name:et" v="Usbekistani Vabariik"/>
     <tag k="official_name:gd" v="Poblachd Usbagastàn"/>
     <tag k="official_name:id" v="Republik Usbekistan"/>
@@ -29174,6 +29341,7 @@
   </node>
   <node id="424317935" lat="39.7837304" lon="-100.4458825">
     <tag k="alt_name" v="USA;US;The States;United States"/>
+    <tag k="alt_name:lfn" v="SUA"/>
     <tag k="alt_name:sr" v="САД; Сједињене Државе"/>
     <tag k="alt_name:vi" v="Mỹ"/>
     <tag k="capital_city" v="Washington DC"/>
@@ -29311,6 +29479,7 @@
     <tag k="name:lb" v="Vereenegt Staate vun Amerika"/>
     <tag k="name:lbe" v="Американал ЦачӀунхьу Штатру"/>
     <tag k="name:lez" v="Америкадин Садхьанвай Штатар"/>
+    <tag k="name:lfn" v="Statos Unida de America"/>
     <tag k="name:lg" v="Amerika"/>
     <tag k="name:li" v="Vereinegde State van Amerika"/>
     <tag k="name:lij" v="Stati Unïi d'America"/>
@@ -29364,7 +29533,7 @@
     <tag k="name:pdc" v="Vereenichde Schtaate vun Amerikaa"/>
     <tag k="name:pfl" v="Verainischde Schdaade vun Ameriga"/>
     <tag k="name:pih" v="Yunitid Staits"/>
-    <tag k="name:pl" v="Stany Zjednoczone Ameryki"/>
+    <tag k="name:pl" v="Stany Zjednoczone"/>
     <tag k="name:pms" v="Stat Unì d'América"/>
     <tag k="name:pnb" v="امریکہ"/>
     <tag k="name:ps" v="د امريکا متحده ايالات"/>
@@ -29448,6 +29617,7 @@
     <tag k="name:zu" v="i-United States"/>
     <tag k="official_name:eo" v="Unuiĝintaj Ŝtatoj de Ameriko"/>
     <tag k="official_name:fr" v="États-Unis d'Amérique"/>
+    <tag k="official_name:pl" v="Stany Zjednoczone Ameryki"/>
     <tag k="official_name:pt" v="Estados Unidos da América"/>
     <tag k="official_name:sv" v="Amerikas förenta stater"/>
     <tag k="official_name:vi" v="Hợp chúng quốc Hoa Kỳ; Hợp chúng quốc Hoa Kì; Hợp chủng quốc Hoa Kỳ; Hợp chủng quốc Hoa Kì"/>
@@ -29581,6 +29751,7 @@
     <tag k="name:lad" v="Arjelia"/>
     <tag k="name:lb" v="Algerien"/>
     <tag k="name:lez" v="Алжир"/>
+    <tag k="name:lfn" v="Jazair"/>
     <tag k="name:lg" v="Aligerya"/>
     <tag k="name:li" v="Algerieë"/>
     <tag k="name:lij" v="Algeïa"/>
@@ -29819,6 +29990,7 @@
     <tag k="name:kw" v="Antiga ha Barbuda"/>
     <tag k="name:la" v="Antiqua et Barbuda"/>
     <tag k="name:lb" v="Antigua a Barbuda"/>
+    <tag k="name:lfn" v="Antigua e Barbuda"/>
     <tag k="name:lg" v="Antigwa ne Barabuda"/>
     <tag k="name:li" v="Antigua en Barbuda"/>
     <tag k="name:lij" v="Antigua e Barbuda"/>
@@ -30027,6 +30199,7 @@
     <tag k="name:la" v="Bangladesha"/>
     <tag k="name:lb" v="Bangladesch"/>
     <tag k="name:lez" v="Бангладеш"/>
+    <tag k="name:lfn" v="Bangladex"/>
     <tag k="name:lg" v="Bangaladesi"/>
     <tag k="name:li" v="Bangladesj"/>
     <tag k="name:lij" v="Bangladesh"/>
@@ -30269,6 +30442,7 @@
     <tag k="name:kw" v="Kamboji"/>
     <tag k="name:la" v="Cambosia"/>
     <tag k="name:lb" v="Kambodscha"/>
+    <tag k="name:lfn" v="Camputxa"/>
     <tag k="name:lg" v="Kambodya"/>
     <tag k="name:li" v="Cambodja"/>
     <tag k="name:lij" v="Camboggia"/>
@@ -30498,6 +30672,7 @@
     <tag k="name:la" v="Respublica Africae Mediae"/>
     <tag k="name:lad" v="Repuvlika Sentroafrikana"/>
     <tag k="name:lb" v="Zentralafrikanesch Republik"/>
+    <tag k="name:lfn" v="Sentrafrica"/>
     <tag k="name:lg" v="Lipubulika eya Senturafiriki"/>
     <tag k="name:li" v="Centraal Afrika"/>
     <tag k="name:lij" v="Repubbrica Çentro-Africann-a"/>
@@ -30605,7 +30780,7 @@
   </node>
   <node id="432424968" lat="55.6702490" lon="10.3333283">
     <tag k="ISO3166-1" v="DK"/>
-    <tag k="alt_name:eo" v="Danio;Danlando"/>
+    <tag k="alt_name:eo" v="Danujo;Danlando"/>
     <tag k="capital_city" v="København"/>
     <tag k="country_code_iso3166_1_alpha_2" v="DK"/>
     <tag k="int_name" v="Denmark"/>
@@ -30635,7 +30810,7 @@
     <tag k="name:ee" v="Denmark nutome"/>
     <tag k="name:el" v="Δανία"/>
     <tag k="name:en" v="Denmark"/>
-    <tag k="name:eo" v="Danujo"/>
+    <tag k="name:eo" v="Danio"/>
     <tag k="name:es" v="Dinamarca"/>
     <tag k="name:et" v="Taani"/>
     <tag k="name:eu" v="Danimarka"/>
@@ -30676,6 +30851,7 @@
     <tag k="name:ku" v="Danîmarka"/>
     <tag k="name:la" v="Dania"/>
     <tag k="name:lb" v="Dänemark"/>
+    <tag k="name:lfn" v="Danmarc"/>
     <tag k="name:lg" v="Denimaaka"/>
     <tag k="name:li" v="Daenemark"/>
     <tag k="name:ln" v="Danɛmarike"/>
@@ -30736,7 +30912,7 @@
     <tag k="official_name:be" v="Каралеўства Данія"/>
     <tag k="official_name:da" v="Kongeriget Danmark"/>
     <tag k="official_name:el" v="Βασίλειο της Δανίας"/>
-    <tag k="official_name:eo" v="Reĝlando Danujo"/>
+    <tag k="official_name:eo" v="Reĝlando Danio"/>
     <tag k="official_name:fr" v="Royaume du Danemark"/>
     <tag k="official_name:gd" v="Rìoghachd na Danmhairg"/>
     <tag k="official_name:id" v="Kerajaan Denmark"/>
@@ -30830,6 +31006,7 @@
     <tag k="name:ku" v="Tîmora Rojhilat"/>
     <tag k="name:la" v="Timoria Orientalis"/>
     <tag k="name:lb" v="Timor-Leste"/>
+    <tag k="name:lfn" v="Timor Este"/>
     <tag k="name:lg" v="Timowa"/>
     <tag k="name:li" v="Oos-Timor"/>
     <tag k="name:ln" v="Timor ya monyɛlɛ"/>
@@ -30908,7 +31085,8 @@
   </node>
   <node id="432424981" lat="63.2467777" lon="25.9209164">
     <tag k="alt_name:el" v="Φιλανδία"/>
-    <tag k="alt_name:eo" v="Finnujo;Suomujo;Finlando"/>
+    <tag k="alt_name:eo" v="Finnio;Finnujo;Finlando;Suomio;Suomujo"/>
+    <tag k="alt_name:lfn" v="Finland"/>
     <tag k="country_code_iso3166_1_alpha_2" v="FI"/>
     <tag k="int_name" v="Finland"/>
     <tag k="is_in" v="Europe"/>
@@ -31012,6 +31190,7 @@
     <tag k="name:ky" v="Финляндия"/>
     <tag k="name:la" v="Finnia"/>
     <tag k="name:lb" v="Finnland"/>
+    <tag k="name:lfn" v="Suomi"/>
     <tag k="name:lg" v="Finilandi"/>
     <tag k="name:li" v="Finland"/>
     <tag k="name:lij" v="Finlandia"/>
@@ -31143,7 +31322,8 @@
     <tag k="wikipedia" v="fi:Suomi"/>
   </node>
   <node id="432424985" lat="41.6809707" lon="44.0287382">
-    <tag k="alt_name:eo" v="Kartvelio"/>
+    <tag k="alt_name:eo" v="Kartvelujo;Gruzio;Gruzujo"/>
+    <tag k="alt_name:lfn" v="Jorjia"/>
     <tag k="capital_city" v="Tbilisi"/>
     <tag k="country_code_fips" v="GG"/>
     <tag k="country_code_iso3166_1_alpha_2" v="GE"/>
@@ -31189,7 +31369,7 @@
     <tag k="name:ee" v="Georgia"/>
     <tag k="name:el" v="Γεωργία"/>
     <tag k="name:en" v="Georgia"/>
-    <tag k="name:eo" v="Kartvelujo"/>
+    <tag k="name:eo" v="Kartvelio"/>
     <tag k="name:es" v="Georgia"/>
     <tag k="name:et" v="Gruusia"/>
     <tag k="name:eu" v="Georgia"/>
@@ -31242,6 +31422,7 @@
     <tag k="name:ky" v="Грузия"/>
     <tag k="name:la" v="Georgia"/>
     <tag k="name:lb" v="Georgien"/>
+    <tag k="name:lfn" v="Sacartvelo"/>
     <tag k="name:lg" v="Gyogya"/>
     <tag k="name:li" v="Georgië"/>
     <tag k="name:lij" v="Geòrgia"/>
@@ -31340,7 +31521,7 @@
   <node id="432424989" lat="38.9953683" lon="21.9877132">
     <tag k="alt_name:br" v="Hellaz"/>
     <tag k="alt_name:en" v="Hellas"/>
-    <tag k="alt_name:eo" v="Grekio"/>
+    <tag k="alt_name:eo" v="Grekujo"/>
     <tag k="capital_city" v="Athens"/>
     <tag k="country_code_fips" v="GR"/>
     <tag k="country_code_iso3166_1_alpha_2" v="GR"/>
@@ -31390,7 +31571,7 @@
     <tag k="name:ee" v="Greece"/>
     <tag k="name:el" v="Ελλάδα"/>
     <tag k="name:en" v="Greece"/>
-    <tag k="name:eo" v="Grekujo"/>
+    <tag k="name:eo" v="Grekio"/>
     <tag k="name:es" v="Grecia"/>
     <tag k="name:et" v="Kreeka"/>
     <tag k="name:eu" v="Grezia"/>
@@ -31450,6 +31631,7 @@
     <tag k="name:la" v="Graecia"/>
     <tag k="name:lad" v="Gresia"/>
     <tag k="name:lb" v="Griicheland"/>
+    <tag k="name:lfn" v="Elas"/>
     <tag k="name:lg" v="Buyonaani"/>
     <tag k="name:li" v="Griekeland"/>
     <tag k="name:lij" v="Greçia"/>
@@ -31627,6 +31809,7 @@
     <tag k="name:ko" v="키리바시"/>
     <tag k="name:ks" v="کِرٕباتی"/>
     <tag k="name:ku" v="Kirîbatî"/>
+    <tag k="name:lfn" v="Ciribas"/>
     <tag k="name:li" v="Kiribati-eilen"/>
     <tag k="name:lo" v="ຄິລິບາຕິ"/>
     <tag k="name:lt" v="Kiribatis"/>
@@ -31684,7 +31867,7 @@
   </node>
   <node id="432425019" lat="56.8406494" lon="24.7537645">
     <tag k="ISO3166-1" v="LV"/>
-    <tag k="alt_name:eo" v="Latvio"/>
+    <tag k="alt_name:eo" v="Latvujo"/>
     <tag k="country_code_fips" v="LG"/>
     <tag k="country_code_iso3166_1_alpha_2" v="LV"/>
     <tag k="geonames:id" v="458258"/>
@@ -31715,7 +31898,7 @@
     <tag k="name:ee" v="Latvia nutome"/>
     <tag k="name:el" v="Λεττονία"/>
     <tag k="name:en" v="Latvia"/>
-    <tag k="name:eo" v="Latvujo"/>
+    <tag k="name:eo" v="Latvio"/>
     <tag k="name:es" v="Letonia"/>
     <tag k="name:et" v="Läti"/>
     <tag k="name:eu" v="Letonia"/>
@@ -31757,6 +31940,7 @@
     <tag k="name:ku" v="Letonya"/>
     <tag k="name:la" v="Latvia"/>
     <tag k="name:lb" v="Lettland"/>
+    <tag k="name:lfn" v="Latvia"/>
     <tag k="name:lg" v="Lativya"/>
     <tag k="name:li" v="Letland"/>
     <tag k="name:ln" v="Letoni"/>
@@ -31816,7 +32000,7 @@
     <tag k="official_name:be-tarask" v="Латвійская Рэспубліка"/>
     <tag k="official_name:el" v="Δημοκρατία της Λεττονίας"/>
     <tag k="official_name:en" v="Republic of Latvia"/>
-    <tag k="official_name:eo" v="Respubliko Latvujo"/>
+    <tag k="official_name:eo" v="Respubliko Latvio"/>
     <tag k="official_name:es" v="República de Letonia"/>
     <tag k="official_name:et" v="Läti Vabariik"/>
     <tag k="official_name:id" v="Republik Latvia"/>
@@ -31950,6 +32134,7 @@
     <tag k="name:la" v="Libya"/>
     <tag k="name:lad" v="Libya"/>
     <tag k="name:lb" v="Libyen"/>
+    <tag k="name:lfn" v="Libia"/>
     <tag k="name:lg" v="Libya"/>
     <tag k="name:li" v="Libië"/>
     <tag k="name:lij" v="Libia"/>
@@ -32192,6 +32377,7 @@
     <tag k="name:ky" v="Мадагаскар Республикасы"/>
     <tag k="name:la" v="Madagascaria"/>
     <tag k="name:lb" v="Madagaskar"/>
+    <tag k="name:lfn" v="Madagasicara"/>
     <tag k="name:lg" v="Madagasika"/>
     <tag k="name:li" v="Madagaskar"/>
     <tag k="name:lij" v="Madagascar"/>
@@ -32443,6 +32629,7 @@
     <tag k="name:lad" v="Meksiko"/>
     <tag k="name:lb" v="Mexiko"/>
     <tag k="name:lez" v="Мексика"/>
+    <tag k="name:lfn" v="Mexico"/>
     <tag k="name:lg" v="Mekisiko"/>
     <tag k="name:li" v="Mexico"/>
     <tag k="name:lij" v="Mescico"/>
@@ -32584,7 +32771,7 @@
     <tag k="wikipedia" v="es:México"/>
   </node>
   <node id="432425040" lat="46.8250388" lon="103.8499736">
-    <tag k="alt_name:eo" v="Mongolio"/>
+    <tag k="alt_name:eo" v="Mongolujo"/>
     <tag k="country_code_fips" v="MG"/>
     <tag k="country_code_iso3166_1_alpha_2" v="MN"/>
     <tag k="geonames:id" v="2029969"/>
@@ -32614,7 +32801,7 @@
     <tag k="name:ee" v="Mongolia nutome"/>
     <tag k="name:el" v="Μογγολία"/>
     <tag k="name:en" v="Mongolia"/>
-    <tag k="name:eo" v="Mongolujo"/>
+    <tag k="name:eo" v="Mongolio"/>
     <tag k="name:es" v="Mongolia"/>
     <tag k="name:et" v="Mongoolia"/>
     <tag k="name:eu" v="Mongolia"/>
@@ -32656,6 +32843,7 @@
     <tag k="name:ku" v="Mongolya"/>
     <tag k="name:la" v="Mogolia"/>
     <tag k="name:lb" v="Mongolei"/>
+    <tag k="name:lfn" v="Mongol"/>
     <tag k="name:lg" v="Mongoliya"/>
     <tag k="name:li" v="Mongolië"/>
     <tag k="name:ln" v="Mongolí"/>
@@ -32717,13 +32905,14 @@
     <tag k="wikidata" v="Q711"/>
     <tag k="wikipedia" v="en:Mongolia"/>
   </node>
-  <node id="432425041" lat="31.1728192" lon="-7.3366043">
+  <node id="432425041" lat="31.1728205" lon="-7.3362482">
     <tag k="ISO3166-1" v="MA"/>
     <tag k="ISO3166-1:alpha2" v="MA"/>
     <tag k="ISO3166-1:alpha3" v="MAR"/>
     <tag k="ISO3166-1:numeric" v="504"/>
     <tag k="alt_name" v="Maroc ⵍⵎⴰⵖⵔⵉⴱ المغرب"/>
     <tag k="alt_name:ber" v="ⵍⵎⴰⵖⵔⵉⴱ"/>
+    <tag k="alt_name:lfn" v="Maroco"/>
     <tag k="alt_name:vi" v="Ma-rốc"/>
     <tag k="alt_name:zgh" v="ⵍⵎⴰⵖⵔⵉⴱ"/>
     <tag k="capital_city" v="Rabat"/>
@@ -32732,7 +32921,7 @@
     <tag k="geonames:id" v="2542007"/>
     <tag k="is_in" v="Africa"/>
     <tag k="is_in:continent" v="Africa"/>
-    <tag k="name" v="Maroc ⴰⵎⵔⵔⵓⴽ المغرب"/>
+    <tag k="name" v="Maroc ⵍⵎⴰⵖⵔⵉⴱ المغرب"/>
     <tag k="name:ace" v="Maghribi"/>
     <tag k="name:af" v="Marokko"/>
     <tag k="name:ak" v="Moroko"/>
@@ -32835,6 +33024,7 @@
     <tag k="name:la" v="Marocum"/>
     <tag k="name:lad" v="Marroko"/>
     <tag k="name:lb" v="Marokko"/>
+    <tag k="name:lfn" v="Magrib"/>
     <tag k="name:lg" v="Moroko"/>
     <tag k="name:li" v="Marokko"/>
     <tag k="name:lij" v="Maròcco"/>
@@ -32931,7 +33121,7 @@
     <tag k="name:yi" v="מאראקא"/>
     <tag k="name:yo" v="Mòrókò"/>
     <tag k="name:zea" v="Marokko"/>
-    <tag k="name:zgh" v="ⴰⵎⵔⵔⵓⴽ"/>
+    <tag k="name:zgh" v="ⵍⵎⵖⵔⵉⴱ"/>
     <tag k="name:zh" v="摩洛哥"/>
     <tag k="name:zh-classical" v="摩洛哥"/>
     <tag k="name:zh-min-nan" v="Morocco"/>
@@ -32951,6 +33141,7 @@
     <tag k="official_name:lv" v="Marokas Karaliste"/>
     <tag k="official_name:sv" v="Konungariket Marocko"/>
     <tag k="official_name:vi" v="Vương quốc Maroc"/>
+    <tag k="official_name:zgh" v="ⵜⴰⴳⵍⴷⵉⵜ ⵏ ⵍⵎⵖⵔⵉⴱ"/>
     <tag k="place" v="country"/>
     <tag k="population" v="33848242"/>
     <tag k="population:date" v="2014"/>
@@ -32960,7 +33151,7 @@
   </node>
   <node id="432425060" lat="52.0977181" lon="19.0258159">
     <tag k="ISO3166-1" v="PL"/>
-    <tag k="alt_name:eo" v="Pollando;Polio"/>
+    <tag k="alt_name:eo" v="Polio;Polujo"/>
     <tag k="capital_city" v="Warszawa"/>
     <tag k="country_code_fips" v="PL"/>
     <tag k="country_code_iso3166_1_alpha_2" v="PL"/>
@@ -32992,7 +33183,7 @@
     <tag k="name:ee" v="Poland nutome"/>
     <tag k="name:el" v="Πολωνία"/>
     <tag k="name:en" v="Poland"/>
-    <tag k="name:eo" v="Polujo"/>
+    <tag k="name:eo" v="Pollando"/>
     <tag k="name:es" v="Polonia"/>
     <tag k="name:et" v="Poola"/>
     <tag k="name:eu" v="Polonia"/>
@@ -33035,6 +33226,7 @@
     <tag k="name:ku" v="Poland"/>
     <tag k="name:la" v="Polonia"/>
     <tag k="name:lb" v="Polen"/>
+    <tag k="name:lfn" v="Polsca"/>
     <tag k="name:lg" v="Polandi"/>
     <tag k="name:li" v="Pole"/>
     <tag k="name:ln" v="Poloni"/>
@@ -33205,6 +33397,7 @@
     <tag k="name:kw" v="Katar"/>
     <tag k="name:la" v="Quataria"/>
     <tag k="name:lb" v="Katar"/>
+    <tag k="name:lfn" v="Catar"/>
     <tag k="name:lg" v="Kataa"/>
     <tag k="name:li" v="Katar"/>
     <tag k="name:ln" v="Katari"/>
@@ -33396,6 +33589,7 @@
     <tag k="name:kw" v="Repoblek Kongo"/>
     <tag k="name:la" v="Respublica Congensis"/>
     <tag k="name:lb" v="Republik Kongo"/>
+    <tag k="name:lfn" v="Republica de Congo"/>
     <tag k="name:lg" v="Kongo"/>
     <tag k="name:li" v="Rippebliek vaan de Kongo"/>
     <tag k="name:lij" v="Repubbrica Do Congo"/>
@@ -33500,7 +33694,7 @@
     <tag k="wikipedia" v="fr:République du Congo"/>
   </node>
   <node id="432425064" lat="45.9852129" lon="24.6859225">
-    <tag k="alt_name:eo" v="Rumanio"/>
+    <tag k="alt_name:eo" v="Rumanujo"/>
     <tag k="alt_name:vi" v="Rumani"/>
     <tag k="capital_city" v="București"/>
     <tag k="country_code_fips" v="RO"/>
@@ -33532,7 +33726,7 @@
     <tag k="name:ee" v="Romania nutome"/>
     <tag k="name:el" v="Ρουμανία"/>
     <tag k="name:en" v="Romania"/>
-    <tag k="name:eo" v="Rumanujo"/>
+    <tag k="name:eo" v="Rumanio"/>
     <tag k="name:es" v="Rumania"/>
     <tag k="name:et" v="Rumeenia"/>
     <tag k="name:eu" v="Errumania"/>
@@ -33575,6 +33769,7 @@
     <tag k="name:ku" v="Romanya"/>
     <tag k="name:la" v="Romania"/>
     <tag k="name:lb" v="Rumänien"/>
+    <tag k="name:lfn" v="Romania"/>
     <tag k="name:lg" v="Lomaniya"/>
     <tag k="name:li" v="Roemenië"/>
     <tag k="name:ln" v="Romani"/>
@@ -33707,6 +33902,7 @@
     <tag k="name:ksh" v="Zint Vinzänz un de Jrenadines-Enselle"/>
     <tag k="name:ku" v="Saint Vincent û giravên Grenadîn"/>
     <tag k="name:lb" v="Saint Vincent an d’Grenadinen"/>
+    <tag k="name:lfn" v="San Vinsent e la Grenadines"/>
     <tag k="name:lg" v="Senti Vinsenti ne Gurendadiini"/>
     <tag k="name:li" v="Saint-Vincent"/>
     <tag k="name:ln" v="Sántu vesá mpé Gelenadinɛ"/>
@@ -33864,6 +34060,7 @@
     <tag k="name:ky" v="Сенегал"/>
     <tag k="name:la" v="Senegalia"/>
     <tag k="name:lb" v="Senegal"/>
+    <tag k="name:lfn" v="Senegal"/>
     <tag k="name:lg" v="Senegaalo"/>
     <tag k="name:li" v="Senegal"/>
     <tag k="name:lij" v="Senegal"/>
@@ -33985,7 +34182,7 @@
     <tag k="wikipedia" v="fr:Sénégal"/>
   </node>
   <node id="432425079" lat="48.7411522" lon="19.4528646">
-    <tag k="alt_name:eo" v="Slovakio"/>
+    <tag k="alt_name:eo" v="Slovakujo"/>
     <tag k="capital_city" v="Bratislava"/>
     <tag k="country_code_fips" v="LO"/>
     <tag k="country_code_iso3166_1_alpha_2" v="SK"/>
@@ -34016,7 +34213,7 @@
     <tag k="name:ee" v="Slovakia nutome"/>
     <tag k="name:el" v="Σλοβακία"/>
     <tag k="name:en" v="Slovakia"/>
-    <tag k="name:eo" v="Slovakujo"/>
+    <tag k="name:eo" v="Slovakio"/>
     <tag k="name:es" v="Eslovaquia"/>
     <tag k="name:et" v="Slovakkia"/>
     <tag k="name:eu" v="Eslovakia"/>
@@ -34058,6 +34255,7 @@
     <tag k="name:ku" v="Slovakya"/>
     <tag k="name:la" v="Slovacia"/>
     <tag k="name:lb" v="Slowakei"/>
+    <tag k="name:lfn" v="Slovensco"/>
     <tag k="name:lg" v="Sirovakya"/>
     <tag k="name:li" v="Slowakieë"/>
     <tag k="name:ln" v="Silovaki"/>
@@ -34239,6 +34437,7 @@
     <tag k="name:kw" v="Surinam"/>
     <tag k="name:la" v="Surinamia"/>
     <tag k="name:lb" v="Suriname"/>
+    <tag k="name:lfn" v="Suriname"/>
     <tag k="name:lg" v="Surinaamu"/>
     <tag k="name:li" v="Suriname"/>
     <tag k="name:lij" v="Suriname"/>
@@ -34511,6 +34710,7 @@
     <tag k="name:ku" v="Taywan"/>
     <tag k="name:la" v="Taivania"/>
     <tag k="name:lb" v="Taiwan"/>
+    <tag k="name:lfn" v="Taiuan"/>
     <tag k="name:lg" v="Tayiwani"/>
     <tag k="name:lij" v="Taiwan"/>
     <tag k="name:lmo" v="Taiwan"/>
@@ -34573,7 +34773,7 @@
     <tag k="official_name:be" v="Кітайская Рэспубліка"/>
     <tag k="official_name:ca" v="República de la Xina"/>
     <tag k="official_name:de" v="Republik China"/>
-    <tag k="official_name:eo" v="Respubliko de Ĉinujo"/>
+    <tag k="official_name:eo" v="Respubliko de Ĉinio"/>
     <tag k="official_name:es" v="República de China"/>
     <tag k="official_name:et" v="Hiina Vabariik"/>
     <tag k="official_name:gd" v="Poblachd na Sìne"/>
@@ -34713,6 +34913,7 @@
     <tag k="name:lad" v="Uruguay"/>
     <tag k="name:lb" v="Uruguay"/>
     <tag k="name:lez" v="Уругвай"/>
+    <tag k="name:lfn" v="Uruguai"/>
     <tag k="name:lg" v="Wurugwayi"/>
     <tag k="name:li" v="Urugay"/>
     <tag k="name:lij" v="Uruguay"/>
@@ -34936,6 +35137,7 @@
     <tag k="name:kw" v="Zambi"/>
     <tag k="name:la" v="Zambia"/>
     <tag k="name:lb" v="Sambia"/>
+    <tag k="name:lfn" v="Zambia"/>
     <tag k="name:lg" v="Zambya"/>
     <tag k="name:li" v="Zambia"/>
     <tag k="name:lij" v="Zambia"/>
@@ -35132,6 +35334,7 @@
     <tag k="name:ksh" v="Anggwilla"/>
     <tag k="name:kw" v="Angwilla"/>
     <tag k="name:lb" v="Anguilla"/>
+    <tag k="name:lfn" v="Anguila"/>
     <tag k="name:lg" v="Angwila"/>
     <tag k="name:li" v="Anguilla"/>
     <tag k="name:lij" v="Anguilla"/>
@@ -35260,6 +35463,7 @@
     <tag k="name:ko" v="버뮤다"/>
     <tag k="name:ks" v="بٔرمیوڈا"/>
     <tag k="name:ksh" v="de Bermudas"/>
+    <tag k="name:lfn" v="Bermuda"/>
     <tag k="name:lg" v="Beremuda"/>
     <tag k="name:lo" v="ເບີມູດາ"/>
     <tag k="name:lv" v="Bermudu salas"/>
@@ -35348,6 +35552,7 @@
     <tag k="name:ks" v="جٔرسی"/>
     <tag k="name:ksh" v="Jööseh"/>
     <tag k="name:la" v="Andium"/>
+    <tag k="name:lfn" v="Jersi"/>
     <tag k="name:lo" v="ເຈີຊີ"/>
     <tag k="name:lt" v="Džersis"/>
     <tag k="name:lv" v="Džērsija"/>
@@ -35442,6 +35647,7 @@
     <tag k="name:ko" v="니우에"/>
     <tag k="name:ks" v="نیوٗ"/>
     <tag k="name:ku" v="Niue"/>
+    <tag k="name:lfn" v="Niue"/>
     <tag k="name:lg" v="Niyuwe"/>
     <tag k="name:ln" v="Nyué"/>
     <tag k="name:lo" v="ນີອູເອ"/>
@@ -35533,6 +35739,7 @@
     <tag k="name:ko" v="토켈라우"/>
     <tag k="name:ks" v="توکیلاو"/>
     <tag k="name:ku" v="Tokelau"/>
+    <tag k="name:lfn" v="Tocelau"/>
     <tag k="name:lg" v="Tokelawu"/>
     <tag k="name:lo" v="ໂຕເກເລົາ"/>
     <tag k="name:lt" v="Tokelau"/>
@@ -35684,6 +35891,7 @@
     <tag k="name:lad" v="Repuvlika Demokratika del Kongo"/>
     <tag k="name:lb" v="Demokratesch Republik Kongo"/>
     <tag k="name:lez" v="Демократиядин Республика Конго"/>
+    <tag k="name:lfn" v="Republica Democrata de Congo"/>
     <tag k="name:lg" v="Kongo - Zayire"/>
     <tag k="name:li" v="Democratische Rippebliek vaan de Kongo"/>
     <tag k="name:lij" v="Repubbrica Democratica do Congo"/>
@@ -35799,7 +36007,7 @@
     <tag k="wikipedia" v="fr:République démocratique du Congo"/>
   </node>
   <node id="437146363" lat="14.8971921" lon="100.8327300">
-    <tag k="alt_name:eo" v="Tajujo;Tajio"/>
+    <tag k="alt_name:eo" v="Tajio;Tajujo"/>
     <tag k="country_code_fips" v="TH"/>
     <tag k="country_code_iso3166_1_alpha_2" v="TH"/>
     <tag k="is_in" v="Asia"/>
@@ -35911,6 +36119,7 @@
     <tag k="name:la" v="Thailandia"/>
     <tag k="name:lb" v="Thailand"/>
     <tag k="name:lez" v="Таиланд"/>
+    <tag k="name:lfn" v="Tai"/>
     <tag k="name:lg" v="Tayirandi"/>
     <tag k="name:li" v="Thailand"/>
     <tag k="name:lij" v="Thailandia"/>
@@ -36040,6 +36249,7 @@
   </node>
   <node id="445970763" lat="42.7728491" lon="19.2408586">
     <tag k="ISO3166-1" v="ME"/>
+    <tag k="alt_name:lfn" v="Montenegro"/>
     <tag k="capital_city" v="Podgorica"/>
     <tag k="country_code_fips" v="MJ"/>
     <tag k="country_code_iso3166_1_alpha_2" v="ME"/>
@@ -36151,6 +36361,7 @@
     <tag k="name:la" v="Mons Niger"/>
     <tag k="name:lad" v="Montenegro"/>
     <tag k="name:lb" v="Montenegro"/>
+    <tag k="name:lfn" v="Tsernagora"/>
     <tag k="name:li" v="Montenegro"/>
     <tag k="name:lij" v="Monteneigro"/>
     <tag k="name:lmo" v="Muntnegher"/>
@@ -36261,9 +36472,8 @@
   </node>
   <node id="466507355" lat="43.1500226" lon="41.2299786">
     <tag k="addr:country" v="AB"/>
-    <tag k="alt_name:eo" v="Abĥazio"/>
+    <tag k="alt_name:eo" v="Abĥazujo"/>
     <tag k="int_name" v="Abkhazia"/>
-    <tag k="is_in:continent" v="Europe"/>
     <tag k="name" v="Аҧсны - Абхазия"/>
     <tag k="name:ab" v="Аҧсны"/>
     <tag k="name:af" v="Abkasië"/>
@@ -36295,7 +36505,7 @@
     <tag k="name:diq" v="Abxazya"/>
     <tag k="name:el" v="Αμπχαζία"/>
     <tag k="name:en" v="Abkhazia"/>
-    <tag k="name:eo" v="Abĥazujo"/>
+    <tag k="name:eo" v="Abĥazio"/>
     <tag k="name:es" v="Abjasia"/>
     <tag k="name:et" v="Abhaasia"/>
     <tag k="name:eu" v="Abkhazia"/>
@@ -36333,6 +36543,7 @@
     <tag k="name:la" v="Abasci"/>
     <tag k="name:lad" v="Abjasia"/>
     <tag k="name:lez" v="Абхазия"/>
+    <tag k="name:lfn" v="Abcazia"/>
     <tag k="name:lmo" v="Abcasia"/>
     <tag k="name:lt" v="Abchazija"/>
     <tag k="name:lv" v="Abhāzija"/>
@@ -36410,64 +36621,6 @@
     <tag k="wikidata" v="Q23334"/>
     <tag k="wikipedia" v="ab:Аҧсны"/>
   </node>
-  <node id="506532878" lat="-82.1081822" lon="34.3782400">
-    <tag k="ISO3166-1:alpha2" v="AQ"/>
-    <tag k="alt_name:pt" v="Antártida"/>
-    <tag k="alt_name:vi" v="Nam Cực Châu"/>
-    <tag k="alt_name:vo" v="Sulüdop"/>
-    <tag k="country_code" v="AQ"/>
-    <tag k="country_code_iso3166_1_alpha_2" v="AQ"/>
-    <tag k="is_in:continent" v="Antarctica"/>
-    <tag k="name" v="Antarctica"/>
-    <tag k="name:be" v="Антарктыка"/>
-    <tag k="name:br" v="Antarktika"/>
-    <tag k="name:ca" v="Antàrtida"/>
-    <tag k="name:cs" v="Antarktida"/>
-    <tag k="name:da" v="Antarktis"/>
-    <tag k="name:de" v="Antarktis"/>
-    <tag k="name:el" v="Ανταρκτική"/>
-    <tag k="name:en" v="Antarctica"/>
-    <tag k="name:eo" v="Antarkto"/>
-    <tag k="name:es" v="Antártida"/>
-    <tag k="name:fi" v="Etelämanner"/>
-    <tag k="name:fr" v="Antarctique"/>
-    <tag k="name:fy" v="Antarktika"/>
-    <tag k="name:gv" v="Yn Austrail"/>
-    <tag k="name:he" v="אנטרקטיקה"/>
-    <tag k="name:hr" v="Antartika"/>
-    <tag k="name:ia" v="Antarctica"/>
-    <tag k="name:io" v="Antarktika"/>
-    <tag k="name:is" v="Suðurskautslandið"/>
-    <tag k="name:it" v="Antartide"/>
-    <tag k="name:ja" v="南極"/>
-    <tag k="name:jbo" v="ziptu'a"/>
-    <tag k="name:ku" v="Antarktîka"/>
-    <tag k="name:la" v="Antarctica"/>
-    <tag k="name:li" v="Antarctica"/>
-    <tag k="name:nl" v="Antarctica"/>
-    <tag k="name:no" v="Antarktika"/>
-    <tag k="name:nov" v="Antarktika"/>
-    <tag k="name:pt" v="Antártida"/>
-    <tag k="name:ru" v="Антарктида"/>
-    <tag k="name:sk" v="Antarktída"/>
-    <tag k="name:sl" v="Antarktika"/>
-    <tag k="name:sr" v="Антарктик"/>
-    <tag k="name:sv" v="Antarktis"/>
-    <tag k="name:tzl" v="Antarctica"/>
-    <tag k="name:uk" v="Антарктика"/>
-    <tag k="name:uz" v="Antarktida"/>
-    <tag k="name:vi" v="Châu Nam Cực"/>
-    <tag k="name:vo" v="Lantarkop"/>
-    <tag k="name:zea" v="Antartica"/>
-    <tag k="name:zh" v="南极洲"/>
-    <tag k="note" v="A little silly, I admit, but it DOES have an ISO 3166-1 code. &quot;name&quot; is in Latin to avoid language issues (coincidently it's also English)"/>
-    <tag k="place" v="country"/>
-    <tag k="population" v="0"/>
-    <tag k="source:sqkm" v="CIA World Factbook"/>
-    <tag k="sqkm" v="14000000"/>
-    <tag k="wikidata" v="Q51"/>
-    <tag k="wikipedia" v="eo:Antarkto"/>
-  </node>
   <node id="506535828" lat="-14.2893040" lon="-170.6925110">
     <tag k="ISO3166-1:alpha2" v="AS"/>
     <tag k="country_code" v="AS"/>
@@ -36496,6 +36649,7 @@
     <tag k="name:ja" v="アメリカ領サモア"/>
     <tag k="name:jbo" v="mer.samoas"/>
     <tag k="name:ku" v="Samoaya Amerîkanî"/>
+    <tag k="name:lfn" v="Samoa American"/>
     <tag k="name:nl" v="Amerikaans-Samoa"/>
     <tag k="name:no" v="Amerikansk Samoa"/>
     <tag k="name:pl" v="Samoa Amerykańskie"/>
@@ -36539,6 +36693,7 @@
     <tag k="name:it" v="Guam"/>
     <tag k="name:ja" v="グアム"/>
     <tag k="name:ku" v="Guam"/>
+    <tag k="name:lfn" v="Guam"/>
     <tag k="name:lt" v="Guamas"/>
     <tag k="name:no" v="Guam"/>
     <tag k="name:pl" v="Guam"/>
@@ -36659,6 +36814,7 @@
     <tag k="name:kw" v="Ynysow Salamon"/>
     <tag k="name:la" v="Insulae Salomonis"/>
     <tag k="name:lb" v="Salomonen"/>
+    <tag k="name:lfn" v="Isolas Solomon"/>
     <tag k="name:lg" v="Bizanga by'eSolomooni"/>
     <tag k="name:li" v="Salomonseilen"/>
     <tag k="name:lij" v="Isoe Salomon"/>
@@ -36747,7 +36903,7 @@
     <tag k="wikidata" v="Q685"/>
   </node>
   <node id="838090640" lat="54.7023545" lon="-3.2765753">
-    <tag k="alt_name:eo" v="Britio"/>
+    <tag k="alt_name:eo" v="Britujo"/>
     <tag k="alt_name:sr" v="УК; У.К."/>
     <tag k="alt_name:vi" v="Vương quốc Liên hiệp Anh"/>
     <tag k="country_code_iso3166_1_alpha_2" v="GB"/>
@@ -36780,7 +36936,7 @@
     <tag k="name:ee" v="United Kingdom nutome"/>
     <tag k="name:el" v="Ηνωμένο Βασίλειο"/>
     <tag k="name:en" v="United Kingdom"/>
-    <tag k="name:eo" v="Britujo"/>
+    <tag k="name:eo" v="Britio"/>
     <tag k="name:es" v="Reino Unido"/>
     <tag k="name:et" v="Suurbritannia"/>
     <tag k="name:eu" v="Erresuma Batua"/>
@@ -36824,6 +36980,7 @@
     <tag k="name:ku" v="Keyaniya Yekbûyî"/>
     <tag k="name:kw" v="Rywvaneth Unys"/>
     <tag k="name:lb" v="Vereenegt Kinnekräich"/>
+    <tag k="name:lfn" v="Rena Unida"/>
     <tag k="name:lg" v="Bungereza"/>
     <tag k="name:ln" v="Angɛlɛtɛ́lɛ"/>
     <tag k="name:lo" v="ສະຫະລາດຊະອານາຈັກ"/>
@@ -36879,7 +37036,7 @@
     <tag k="official_name" v="United Kingdom of Great Britain and Northern Ireland"/>
     <tag k="official_name:be" v="Злучанае Каралеўства Вялікабрытаніі і Паўночнай Ірландыі"/>
     <tag k="official_name:en" v="United Kingdom of Great Britain and Northern Ireland"/>
-    <tag k="official_name:eo" v="Unuiĝinta Reĝlando de Granda Britujo kaj Nord-Irlando"/>
+    <tag k="official_name:eo" v="Unuiĝinta Reĝlando de Granda Britio kaj Nord-Irlando"/>
     <tag k="official_name:es" v="Reino Unido de Gran Bretaña e Irlanda del Norte"/>
     <tag k="official_name:fr" v="Royaume-Uni de Grande-Bretagne et d'Irlande du Nord"/>
     <tag k="official_name:it" v="Regno Unito di Gran Bretagna e Irlanda del Nord"/>
@@ -36988,6 +37145,7 @@
     <tag k="name:lad" v="Sudan del Sud"/>
     <tag k="name:lb" v="Südsudan"/>
     <tag k="name:lbe" v="Кьилвалул Судан"/>
+    <tag k="name:lfn" v="Sudan Sude"/>
     <tag k="name:li" v="Zuid-Soedan"/>
     <tag k="name:lij" v="Sudan do Sud"/>
     <tag k="name:lmo" v="Süd Sudan"/>
@@ -37095,7 +37253,7 @@
     <tag k="ISO3166-1:numeric" v="250"/>
     <tag k="alt_name" v="France métropolitaine"/>
     <tag k="alt_name:en" v="Metropolitan France"/>
-    <tag k="alt_name:eo" v="Francio"/>
+    <tag k="alt_name:eo" v="Francujo"/>
     <tag k="capital_city" v="Paris"/>
     <tag k="comment" v="Please do not remove this point (used to best place and display the label for the country, but NOT its administrative capital in Paris)"/>
     <tag k="country_code_fips" v="FR"/>
@@ -37161,7 +37319,7 @@
     <tag k="name:el" v="Γαλλία"/>
     <tag k="name:eml" v="Franza"/>
     <tag k="name:en" v="France"/>
-    <tag k="name:eo" v="Francujo"/>
+    <tag k="name:eo" v="Francio"/>
     <tag k="name:es" v="Francia"/>
     <tag k="name:et" v="Prantsusmaa"/>
     <tag k="name:eu" v="Frantzia"/>
@@ -37230,6 +37388,7 @@
     <tag k="name:lad" v="Fransia"/>
     <tag k="name:lb" v="Frankräich"/>
     <tag k="name:lez" v="Франция"/>
+    <tag k="name:lfn" v="Frans"/>
     <tag k="name:lg" v="Bufalansa"/>
     <tag k="name:li" v="Frankriek"/>
     <tag k="name:lij" v="Fransa"/>
@@ -37459,6 +37618,7 @@
     <tag k="name:ksh" v="de Pitkärn-Ensel"/>
     <tag k="name:ku" v="Giravên Norfolk"/>
     <tag k="name:la" v="Pitcairn Insulae"/>
+    <tag k="name:lfn" v="Pitcairn"/>
     <tag k="name:lg" v="Pitikeeni"/>
     <tag k="name:ln" v="Pikairni"/>
     <tag k="name:lo" v="ຫມູ່ເກາະພິດແຄຣ໌ນ"/>
@@ -37520,6 +37680,7 @@
     <tag k="ISO3166-1:alpha2" v="IE"/>
     <tag k="ISO3166-1:alpha3" v="IRL"/>
     <tag k="ISO3166-1:numeric" v="372"/>
+    <tag k="alt_name:eo" v="Ejro"/>
     <tag k="alt_name:vi" v="Ai-len"/>
     <tag k="capital_city" v="Dublin"/>
     <tag k="country_code_fips" v="EI"/>
@@ -37577,7 +37738,7 @@
     <tag k="name:ee" v="Ireland nutome"/>
     <tag k="name:el" v="Ιρλανδία"/>
     <tag k="name:en" v="Ireland"/>
-    <tag k="name:eo" v="Irlando / Ejro"/>
+    <tag k="name:eo" v="Irlando"/>
     <tag k="name:es" v="Irlanda"/>
     <tag k="name:et" v="Iirimaa"/>
     <tag k="name:eu" v="Irlanda"/>
@@ -37642,6 +37803,7 @@
     <tag k="name:lad" v="Irlanda"/>
     <tag k="name:lb" v="Irland"/>
     <tag k="name:lez" v="Ирландия"/>
+    <tag k="name:lfn" v="Er"/>
     <tag k="name:lg" v="Ayalandi"/>
     <tag k="name:li" v="Ierland"/>
     <tag k="name:lij" v="Éire"/>
@@ -37775,7 +37937,7 @@
     <tag k="ISO3166-1:alpha2" v="CH"/>
     <tag k="ISO3166-1:alpha3" v="CHE"/>
     <tag k="ISO3166-1:numeric" v="756"/>
-    <tag k="alt_name:eo" v="Svislando"/>
+    <tag k="alt_name:eo" v="Svisio;Svisujo"/>
     <tag k="capital_city" v="Bern"/>
     <tag k="country_code_fips" v="SZ"/>
     <tag k="country_code_iso3166_1_alpha_2" v="CH"/>
@@ -37822,7 +37984,7 @@
     <tag k="name:el" v="Ελβετία"/>
     <tag k="name:eml" v="Svézzra"/>
     <tag k="name:en" v="Switzerland"/>
-    <tag k="name:eo" v="Svisujo"/>
+    <tag k="name:eo" v="Svislando"/>
     <tag k="name:es" v="Suiza"/>
     <tag k="name:et" v="Šveits"/>
     <tag k="name:eu" v="Suitza"/>
@@ -37879,6 +38041,7 @@
     <tag k="name:la" v="Helvetia"/>
     <tag k="name:lad" v="Suisa"/>
     <tag k="name:lb" v="Schwäiz"/>
+    <tag k="name:lfn" v="Suiz"/>
     <tag k="name:lg" v="Switizirandi"/>
     <tag k="name:li" v="Zweitserland"/>
     <tag k="name:lij" v="Svissëa"/>
@@ -38026,6 +38189,7 @@
     <tag k="name:ja" v="パラオ"/>
     <tag k="name:jbo" v="belaus"/>
     <tag k="name:ku" v="Palau"/>
+    <tag k="name:lfn" v="Belau"/>
     <tag k="name:nl" v="Palau"/>
     <tag k="name:no" v="Palau"/>
     <tag k="name:pl" v="Palau"/>
@@ -38105,6 +38269,7 @@
     <tag k="name:ks" v="سیمووا"/>
     <tag k="name:ksh" v="Sammoha"/>
     <tag k="name:ku" v="Samoa"/>
+    <tag k="name:lfn" v="Samoa"/>
     <tag k="name:lg" v="Samowa"/>
     <tag k="name:lo" v="ຊາມົວ"/>
     <tag k="name:lv" v="Samoa"/>
@@ -38185,6 +38350,7 @@
     <tag k="name:it" v="Isola di Man"/>
     <tag k="name:ja" v="マン島"/>
     <tag k="name:ku" v="Girava Manê"/>
+    <tag k="name:lfn" v="Isola Man"/>
     <tag k="name:lt" v="Meno Sala"/>
     <tag k="name:nl" v="het eiland Man"/>
     <tag k="name:no" v="Man"/>
@@ -38225,6 +38391,7 @@
     <tag k="name:he" v="גרנזי"/>
     <tag k="name:it" v="Guernsey"/>
     <tag k="name:ja" v="ガーンジー"/>
+    <tag k="name:lfn" v="Gernsi"/>
     <tag k="name:no" v="Guernsey"/>
     <tag k="name:pl" v="Guernsey"/>
     <tag k="name:ru" v="Гернси"/>
@@ -38244,6 +38411,7 @@
   <node id="1640880787" lat="-18.4554963" lon="29.7468414">
     <tag k="capital_city" v="Harare"/>
     <tag k="country_code_iso3166_1_alpha_2" v="ZW"/>
+    <tag k="int_name" v="Zimbabwe"/>
     <tag k="is_in:continent" v="Africa"/>
     <tag k="name" v="Zimbabwe"/>
     <tag k="name:af" v="Zimbabwe"/>
@@ -38342,6 +38510,7 @@
     <tag k="name:kw" v="Zimbabwe"/>
     <tag k="name:la" v="Zimbabua"/>
     <tag k="name:lb" v="Simbabwe"/>
+    <tag k="name:lfn" v="Zimbabue"/>
     <tag k="name:li" v="Zimbabwe"/>
     <tag k="name:lij" v="Zimbabwe"/>
     <tag k="name:lmo" v="Zimbabwe"/>
@@ -38440,7 +38609,6 @@
     <tag k="name:zh-min-nan" v="Zimbabwe"/>
     <tag k="name:zh-yue" v="津巴布韋"/>
     <tag k="name:zu" v="i-Zimbabwe"/>
-    <tag k="name_int" v="Zimbabwe"/>
     <tag k="official_name:be" v="Рэспубліка Зімбабвэ"/>
     <tag k="official_name:de" v="Republik Simbabwe"/>
     <tag k="official_name:en" v="Republic of Zimbabwe"/>
@@ -38544,6 +38712,7 @@
     <tag k="name:la" v="Guatimalia"/>
     <tag k="name:lad" v="Guatemala"/>
     <tag k="name:lb" v="Guatemala"/>
+    <tag k="name:lfn" v="Guatemala"/>
     <tag k="name:li" v="Guatemala"/>
     <tag k="name:lij" v="Guatemala"/>
     <tag k="name:lmo" v="Guatemala"/>
@@ -38729,6 +38898,7 @@
     <tag k="name:lad" v="Paraguay"/>
     <tag k="name:lb" v="Paraguay"/>
     <tag k="name:lez" v="Парагвай"/>
+    <tag k="name:lfn" v="Paraguai"/>
     <tag k="name:li" v="Paraguay"/>
     <tag k="name:lij" v="Paraguay"/>
     <tag k="name:lmo" v="Paraguay"/>
@@ -38825,7 +38995,7 @@
     <tag k="wikipedia" v="es:Paraguay"/>
   </node>
   <node id="1648342273" lat="49.4871968" lon="31.2718321">
-    <tag k="alt_name:eo" v="Ukrajno;Ukrainio"/>
+    <tag k="alt_name:eo" v="Ukrainujo;Ukrajno"/>
     <tag k="country_code_fips" v="UP"/>
     <tag k="country_code_iso3166_1_alpha_2" v="UA"/>
     <tag k="geonameid" v="690791"/>
@@ -38855,7 +39025,7 @@
     <tag k="name:ee" v="Ukraine nutome"/>
     <tag k="name:el" v="Ουκρανία"/>
     <tag k="name:en" v="Ukraine"/>
-    <tag k="name:eo" v="Ukrainujo"/>
+    <tag k="name:eo" v="Ukrainio"/>
     <tag k="name:es" v="Ucrania"/>
     <tag k="name:et" v="Ukraina"/>
     <tag k="name:eu" v="Ukraina"/>
@@ -38898,6 +39068,7 @@
     <tag k="name:ku" v="Ûkrayna"/>
     <tag k="name:la" v="Ucraina"/>
     <tag k="name:lb" v="Ukraine"/>
+    <tag k="name:lfn" v="Ucraina"/>
     <tag k="name:lg" v="Yukurayine"/>
     <tag k="name:li" v="De Oekraïne"/>
     <tag k="name:ln" v="Ikrɛni"/>
@@ -38968,7 +39139,7 @@
     <tag k="ISO3166-1:alpha2" v="DE"/>
     <tag k="ISO3166-1:alpha3" v="DEU"/>
     <tag k="ISO3166-1:numeric" v="276"/>
-    <tag k="alt_name:eo" v="Germanio"/>
+    <tag k="alt_name:eo" v="Germanujo"/>
     <tag k="capital_city" v="Berlin"/>
     <tag k="country_code_fips" v="GM"/>
     <tag k="country_code_iso3166_1_alpha_2" v="DE"/>
@@ -39003,7 +39174,7 @@
     <tag k="name:ee" v="Germania nutome"/>
     <tag k="name:el" v="Γερμανία"/>
     <tag k="name:en" v="Germany"/>
-    <tag k="name:eo" v="Germanujo"/>
+    <tag k="name:eo" v="Germanio"/>
     <tag k="name:es" v="Alemania"/>
     <tag k="name:et" v="Saksamaa"/>
     <tag k="name:eu" v="Alemania"/>
@@ -39049,6 +39220,7 @@
     <tag k="name:kw" v="Almayn"/>
     <tag k="name:la" v="Germania"/>
     <tag k="name:lb" v="Däitschland"/>
+    <tag k="name:lfn" v="Deutxland"/>
     <tag k="name:lg" v="Budaaki"/>
     <tag k="name:li" v="Duutsland"/>
     <tag k="name:ln" v="Alemani"/>
@@ -39117,7 +39289,7 @@
     <tag k="official_name:be" v="Федэратыўная Рэспубліка Германія"/>
     <tag k="official_name:de" v="Bundesrepublik Deutschland"/>
     <tag k="official_name:el" v="Ομοσπονδιακή Δημοκρατία της Γερμανίας"/>
-    <tag k="official_name:eo" v="Federacia Respubliko Germanujo"/>
+    <tag k="official_name:eo" v="Federacia Respubliko Germanio"/>
     <tag k="official_name:fr" v="République fédérale d'Allemagne"/>
     <tag k="official_name:gd" v="Poblachd Caidreachail na Gearmailt"/>
     <tag k="official_name:id" v="Republik Federal Jerman"/>
@@ -39141,9 +39313,9 @@
     <tag k="wikidata" v="Q183"/>
     <tag k="wikipedia" v="de:Deutschland"/>
   </node>
-  <node id="1684793666" lat="50.6407351" lon="4.6669600">
+  <node id="1684793666" lat="50.6402809" lon="4.6667145">
     <tag k="ISO3166-1" v="BE"/>
-    <tag k="alt_name:eo" v="Belgio"/>
+    <tag k="alt_name:eo" v="Belgujo"/>
     <tag k="capital_city" v="Brussels"/>
     <tag k="country_code_fips" v="BE"/>
     <tag k="country_code_iso3166_1_alpha_2" v="BE"/>
@@ -39203,7 +39375,7 @@
     <tag k="name:el" v="Βέλγιο"/>
     <tag k="name:eml" v="Bélgi"/>
     <tag k="name:en" v="Belgium"/>
-    <tag k="name:eo" v="Belgujo"/>
+    <tag k="name:eo" v="Belgio"/>
     <tag k="name:es" v="Bélgica"/>
     <tag k="name:et" v="Belgia"/>
     <tag k="name:eu" v="Belgika"/>
@@ -39269,6 +39441,7 @@
     <tag k="name:lad" v="Beljika"/>
     <tag k="name:lb" v="Belsch"/>
     <tag k="name:lez" v="Бельгия"/>
+    <tag k="name:lfn" v="Beljia"/>
     <tag k="name:lg" v="Bubirigi"/>
     <tag k="name:li" v="Belsj"/>
     <tag k="name:lij" v="Belgiò"/>
@@ -39397,7 +39570,7 @@
     <tag k="official_name:de" v="Königreich Belgien"/>
     <tag k="official_name:el" v="Βασίλειο του Βελγίου"/>
     <tag k="official_name:en" v="Kingdom of Belgium"/>
-    <tag k="official_name:eo" v="Reĝlando Belgujo"/>
+    <tag k="official_name:eo" v="Reĝlando Belgio"/>
     <tag k="official_name:es" v="Reino de Bélgica"/>
     <tag k="official_name:fr" v="Royaume de Belgique"/>
     <tag k="official_name:id" v="Kerajaan Belgia"/>
@@ -39493,6 +39666,7 @@
     <tag k="name:ku" v="Brûney"/>
     <tag k="name:la" v="Bruneium"/>
     <tag k="name:lb" v="Brunei"/>
+    <tag k="name:lfn" v="Brune"/>
     <tag k="name:lg" v="Burunayi"/>
     <tag k="name:li" v="Broenai"/>
     <tag k="name:ln" v="Brineyi"/>
@@ -39573,7 +39747,7 @@
     <tag k="wikipedia" v="en:Brunei"/>
   </node>
   <node id="1696850886" lat="42.3476344" lon="44.0979465">
-    <tag k="alt_name:eo" v="Sud-Osetio"/>
+    <tag k="alt_name:eo" v="Sud-Osetujo"/>
     <tag k="capital" v="Tskhinval"/>
     <tag k="is_in:continent" v="Asia"/>
     <tag k="name" v="Хуссар Ирыстон - Южная Осетия"/>
@@ -39582,7 +39756,7 @@
     <tag k="name:ca" v="Ossètia del Sud"/>
     <tag k="name:de" v="Südossetien"/>
     <tag k="name:en" v="South Ossetia"/>
-    <tag k="name:eo" v="Sud-Osetujo"/>
+    <tag k="name:eo" v="Sud-Osetio"/>
     <tag k="name:es" v="Osetia del Sur"/>
     <tag k="name:fa" v="اوستیای جنوبی"/>
     <tag k="name:fi" v="Etelä-Ossetia"/>
@@ -39595,6 +39769,7 @@
     <tag k="name:it" v="Ossezia del Sud"/>
     <tag k="name:ka" v="ცხინვალის რეგიონი"/>
     <tag k="name:ku" v="Osetyaya Başûr"/>
+    <tag k="name:lfn" v="Osetia Sude"/>
     <tag k="name:lt" v="Pietų Osetija"/>
     <tag k="name:nl" v="Zuid-Ossetië"/>
     <tag k="name:no" v="Sør-Ossetia"/>
@@ -39609,7 +39784,7 @@
     <tag k="name:vo" v="Sulüda-Losetän"/>
     <tag k="name:zh" v="南奥塞梯"/>
     <tag k="official_name:be" v="Республіка Паўднёвая Асеція"/>
-    <tag k="official_name:eo" v="Respubliko Suda Osetujo"/>
+    <tag k="official_name:eo" v="Respubliko Suda Osetio"/>
     <tag k="official_name:hu" v="Dél-Oszét Köztársaság"/>
     <tag k="official_name:ka" v="რესპუბლიკა სამხრეთ ოსეთი"/>
     <tag k="official_name:os" v="Республикæ Хуссар Ирыстон"/>
@@ -39652,7 +39827,7 @@
     <tag k="name:ku" v="Komara Qerebaxa Jorîn"/>
     <tag k="name:nl" v="Nagorno-Karabach"/>
     <tag k="name:no" v="Nagorno-Karabakh"/>
-    <tag k="name:pl" v="Republika Górskiego Karabachu"/>
+    <tag k="name:pl" v="Górski Karabach"/>
     <tag k="name:ru" v="Нагорно-Карабахская Республика"/>
     <tag k="name:sk" v="Náhorný Karabach"/>
     <tag k="name:sr" v="Нагорно-Карабах"/>
@@ -39661,6 +39836,7 @@
     <tag k="name:vi" v="Cộng hòa Nagorno-Karabakh"/>
     <tag k="name:zh" v="纳戈尔诺-卡拉巴赫共和国"/>
     <tag k="official_name:fr" v="République du Haut-Karabagh"/>
+    <tag k="official_name:pl" v="Republika Górskiego Karabachu"/>
     <tag k="official_name:sk" v="Náhorná karabašská republika"/>
     <tag k="place" v="country"/>
     <tag k="population" v="144700"/>
@@ -39725,7 +39901,7 @@
   </node>
   <node id="1700777271" lat="41.5089324" lon="74.7240910">
     <tag k="alt_name:el" v="Κιργιστάν;Κιργιζστάν"/>
-    <tag k="alt_name:eo" v="Kirgizistano;Kirgizio"/>
+    <tag k="alt_name:eo" v="Kirgizujo;Kirgizistano"/>
     <tag k="alt_name:fy" v="Kirgyzstan"/>
     <tag k="alt_name:ru" v="Кыргызстан"/>
     <tag k="alt_name:vi" v="Cư-rơ-gư-xtan;Kirgizia"/>
@@ -39759,7 +39935,7 @@
     <tag k="name:ee" v="Kirgizstan nutome"/>
     <tag k="name:el" v="Κιργιζία"/>
     <tag k="name:en" v="Kyrgyzstan"/>
-    <tag k="name:eo" v="Kirgizujo"/>
+    <tag k="name:eo" v="Kirgizio"/>
     <tag k="name:es" v="Kirguistán"/>
     <tag k="name:et" v="Kõrgõzstan"/>
     <tag k="name:eu" v="Kirgizistan"/>
@@ -39797,6 +39973,7 @@
     <tag k="name:ksh" v="Kirrjiisije"/>
     <tag k="name:ku" v="Qirgizistan"/>
     <tag k="name:ky" v="Кыргыз Республикасы"/>
+    <tag k="name:lfn" v="Cirgistan"/>
     <tag k="name:lg" v="Kirigizisitaani"/>
     <tag k="name:ln" v="Kigizisitá"/>
     <tag k="name:lo" v="ຄີກິດສະຖານ"/>
@@ -39934,6 +40111,7 @@
     <tag k="name:ku" v="Maurîtius"/>
     <tag k="name:kw" v="Ynys Morrys"/>
     <tag k="name:la" v="Mauritia"/>
+    <tag k="name:lfn" v="Mauris"/>
     <tag k="name:lg" v="Mawulisyasi"/>
     <tag k="name:ln" v="Morisɛ"/>
     <tag k="name:lo" v="ມົວລີຕຽດ"/>
@@ -40045,6 +40223,7 @@
     <tag k="name:it" v="Aruba"/>
     <tag k="name:ja" v="アルバ"/>
     <tag k="name:jbo" v="arubas"/>
+    <tag k="name:lfn" v="Aruba"/>
     <tag k="name:lt" v="Aruba"/>
     <tag k="name:nl" v="Aruba"/>
     <tag k="name:no" v="Aruba"/>
@@ -40059,6 +40238,7 @@
     <tag k="name:zh" v="阿鲁巴"/>
     <tag k="place" v="country"/>
     <tag k="population" v="101484"/>
+    <tag k="source:name:br" v="ofis publik ar brezhoneg"/>
     <tag k="source:sqkm" v="CIA World Factbook"/>
     <tag k="sqkm" v="180"/>
     <tag k="wikidata" v="Q21203"/>
@@ -40066,7 +40246,7 @@
   </node>
   <node id="1983711862" lat="44.3053476" lon="17.5961467">
     <tag k="ISO3166-1" v="BA"/>
-    <tag k="alt_name:eo" v="Bosnio kaj Hercegovino"/>
+    <tag k="alt_name:eo" v="Bosnujo kaj Hercegovino"/>
     <tag k="alt_name:sr" v="БиХ"/>
     <tag k="alt_name:vi" v="Bosnia và Herzegovina"/>
     <tag k="country_code_fips" v="BK"/>
@@ -40122,7 +40302,7 @@
     <tag k="name:ee" v="Bosnia and Herzegovina"/>
     <tag k="name:el" v="Βοσνία και Ερζεγοβίνη"/>
     <tag k="name:en" v="Bosnia and Herzegovina"/>
-    <tag k="name:eo" v="Bosnujo kaj Hercegovino"/>
+    <tag k="name:eo" v="Bosnio kaj Hercegovino"/>
     <tag k="name:es" v="Bosnia y Herzegovina"/>
     <tag k="name:et" v="Bosnia ja Hertsegoviina"/>
     <tag k="name:eu" v="Bosnia-Herzegovina"/>
@@ -40186,6 +40366,7 @@
     <tag k="name:la" v="Bosnia et Herzegovina"/>
     <tag k="name:lad" v="Bosnia i Hersegovina"/>
     <tag k="name:lb" v="Bosnien-Herzegowina"/>
+    <tag k="name:lfn" v="Bosnia e Hersegovina"/>
     <tag k="name:lg" v="Boziniya Hezegovina"/>
     <tag k="name:li" v="Bosnië en Hercegovina"/>
     <tag k="name:lij" v="Bòsnia-Erçegòvina"/>
@@ -40374,6 +40555,7 @@
   <node id="2110225115" lat="31.6497410" lon="35.1620720">
     <tag k="ISO3166-1" v="PS"/>
     <tag k="admin_level" v="2"/>
+    <tag k="alt_name:sk" v="Palestína"/>
     <tag k="is_in:continent" v="Asia"/>
     <tag k="name" v="الضفة الغربية وقطاع غزة"/>
     <tag k="name:ar" v="الضفة الغربية وقطاع غزة"/>
@@ -40395,7 +40577,7 @@
     <tag k="name:nl" v="Palestina"/>
     <tag k="name:pl" v="Palestyna"/>
     <tag k="name:ru" v="Палестина"/>
-    <tag k="name:sk" v="Palestína"/>
+    <tag k="name:sk" v="Palestínske územia"/>
     <tag k="name:sv" v="Palestinska Områden"/>
     <tag k="name:tr" v="Filistin"/>
     <tag k="name:uk" v="Палестина"/>
@@ -40403,6 +40585,7 @@
     <tag k="name:zh" v="巴勒斯坦领土"/>
     <tag k="note" v="http://en.wikipedia.org/wiki/Palestinian_territories"/>
     <tag k="official_name:fr" v="Territoires Palestiniens"/>
+    <tag k="official_name:sk" v="Štát Palestína"/>
     <tag k="place" v="country"/>
     <tag k="population" v="4260636"/>
     <tag k="wikidata" v="Q407199"/>
@@ -40633,7 +40816,7 @@
     <tag k="wikipedia" v="en:Malaysia"/>
   </node>
   <node id="2163914205" lat="10.2116702" lon="38.6521203">
-    <tag k="alt_name:eo" v="Etiopio"/>
+    <tag k="alt_name:eo" v="Etiopujo"/>
     <tag k="capital_city" v="Addís Ababa"/>
     <tag k="country_code_fips" v="ET"/>
     <tag k="country_code_iso3166_1_alpha_2" v="ET"/>
@@ -40685,7 +40868,7 @@
     <tag k="name:ee" v="Etiopia nutome"/>
     <tag k="name:el" v="Αιθιοπία"/>
     <tag k="name:en" v="Ethiopia"/>
-    <tag k="name:eo" v="Etiopujo"/>
+    <tag k="name:eo" v="Etiopio"/>
     <tag k="name:es" v="Etiopía"/>
     <tag k="name:et" v="Etioopia"/>
     <tag k="name:eu" v="Etiopia"/>
@@ -40749,6 +40932,7 @@
     <tag k="name:lad" v="Etiopia"/>
     <tag k="name:lb" v="Ethiopien"/>
     <tag k="name:lez" v="Эфиопия"/>
+    <tag k="name:lfn" v="Itiopia"/>
     <tag k="name:lg" v="Esyopya"/>
     <tag k="name:li" v="Ethiopië"/>
     <tag k="name:lij" v="Etiòpia"/>
@@ -40862,7 +41046,7 @@
     <tag k="official_name:be" v="Федэратыўная Дэмакратычная Рэспубліка Эфіопія"/>
     <tag k="official_name:el" v="Ομοσπονδιακή Δημοκρατία της Αιθιοπίας"/>
     <tag k="official_name:en" v="Federal Democratic Republic of Ethiopia"/>
-    <tag k="official_name:eo" v="Federacia Demokrata Respubliko Etiopujo"/>
+    <tag k="official_name:eo" v="Federacia Demokrata Respubliko Etiopio"/>
     <tag k="official_name:id" v="Republik Demokratik Federal Ethiopia"/>
     <tag k="official_name:ku" v="Komara Federal a Demokratîk a Etiyopya"/>
     <tag k="official_name:lb" v="Bundesrepublik Ethiopien"/>
@@ -40883,6 +41067,8 @@
   </node>
   <node id="2377028247" lat="40.0332650" lon="-7.8896263">
     <tag k="ISO3166-1:alpha2" v="PT"/>
+    <tag k="alt_name:eo" v="Portugalujo"/>
+    <tag k="country_code_iso3166_1_alpha_2" v="PT"/>
     <tag k="int_name" v="Portugal"/>
     <tag k="is_in:continent" v="Europe"/>
     <tag k="name" v="Portugal"/>
@@ -40891,7 +41077,7 @@
     <tag k="name:de" v="Portugal"/>
     <tag k="name:el" v="Πορτογαλία"/>
     <tag k="name:en" v="Portugal"/>
-    <tag k="name:eo" v="Portugalujo"/>
+    <tag k="name:eo" v="Portugalio"/>
     <tag k="name:es" v="Portugal"/>
     <tag k="name:fa" v="پرتغال"/>
     <tag k="name:fr" v="Portugal"/>
@@ -40946,6 +41132,7 @@
     <tag k="name:ja" v="レソト"/>
     <tag k="name:jbo" v="lesotos"/>
     <tag k="name:ko" v="레소토"/>
+    <tag k="name:lfn" v="Lesoto"/>
     <tag k="name:lt" v="Lesotas"/>
     <tag k="name:ms" v="Lesotho"/>
     <tag k="name:my" v="လီဆိုသိုနိုင်ငံ"/>
@@ -40995,6 +41182,7 @@
     <tag k="name:io" v="Liechtenstein"/>
     <tag k="name:it" v="Liechtenstein"/>
     <tag k="name:jbo" v="lixtenctain"/>
+    <tag k="name:lfn" v="Lictenstain"/>
     <tag k="name:nl" v="Liechtenstein"/>
     <tag k="name:pl" v="Liechtenstein"/>
     <tag k="name:ru" v="Лихтенштейн"/>
@@ -41019,7 +41207,7 @@
   </node>
   <node id="3997635385" lat="7.2371480" lon="80.8209230">
     <tag k="ISO3166-1:alpha2" v="LK"/>
-    <tag k="alt_name:eo" v="Srilanko"/>
+    <tag k="alt_name:eo" v="Sri-Lanko"/>
     <tag k="country_code_iso3166_1_alpha_2" v="LK"/>
     <tag k="is_in:continent" v="Asia"/>
     <tag k="name" v="ශ්‍රී ලංකා"/>
@@ -41062,7 +41250,7 @@
     <tag k="name:dz" v="ཤྲཱྀ་ལངཀ་"/>
     <tag k="name:el" v="Σρι Λάνκα"/>
     <tag k="name:en" v="Sri Lanka"/>
-    <tag k="name:eo" v="Sri-Lanko"/>
+    <tag k="name:eo" v="Srilanko"/>
     <tag k="name:es" v="Sri Lanka"/>
     <tag k="name:et" v="Sri Lanka"/>
     <tag k="name:eu" v="Sri Lanka"/>
@@ -41112,6 +41300,7 @@
     <tag k="name:la" v="Taprobane"/>
     <tag k="name:lb" v="Sri Lanka"/>
     <tag k="name:lez" v="Шри-Ланка"/>
+    <tag k="name:lfn" v="Srilanca"/>
     <tag k="name:li" v="Sri Lanka"/>
     <tag k="name:lij" v="Sri Lanka"/>
     <tag k="name:lmo" v="Sri Lanka"/>
@@ -41224,6 +41413,7 @@
     <tag k="name:it" v="Malta"/>
     <tag k="name:jbo" v="maltas"/>
     <tag k="name:ka" v="მალტა"/>
+    <tag k="name:lfn" v="Malta"/>
     <tag k="name:mn" v="Мальт"/>
     <tag k="name:nl" v="Malta"/>
     <tag k="name:pl" v="Malta"/>
@@ -41263,6 +41453,7 @@
     <tag k="name:it" v="Kosovo"/>
     <tag k="name:jbo" v="kosovas"/>
     <tag k="name:ko" v="코소보"/>
+    <tag k="name:lfn" v="Cosovo"/>
     <tag k="name:nl" v="Kosovo"/>
     <tag k="name:pl" v="Kosowo"/>
     <tag k="name:ru" v="Косово и Метохија"/>
@@ -41356,6 +41547,7 @@
     <tag k="name:kn" v="ಆಫ್ರಿಕಾ"/>
     <tag k="name:ku" v="Afrîka"/>
     <tag k="name:la" v="Africa"/>
+    <tag k="name:lfn" v="Africa"/>
     <tag k="name:li" v="Afrika"/>
     <tag k="name:lt" v="Afrika"/>
     <tag k="name:mg" v="Afrika"/>
@@ -41605,11 +41797,13 @@
     <tag k="name:de" v="Spratly-Inseln"/>
     <tag k="name:en" v="Spratly Islands"/>
     <tag k="name:eo" v="Spratly-insularo"/>
+    <tag k="name:fa" v="جزایر اسپراتلی"/>
     <tag k="name:fr" v="Îles Spratleys"/>
     <tag k="name:he" v="איי ספראטלי"/>
     <tag k="name:id" v="Kepulauan Spratly"/>
     <tag k="name:ms" v="Kepulauan Spratly"/>
     <tag k="name:ru" v="Острова Спратли"/>
+    <tag k="name:sk" v="Súostrovie Spratly"/>
     <tag k="name:tl" v="Kapuluan ng Kalayaan"/>
     <tag k="name:uk" v="Острови Спратлі"/>
     <tag k="name:vi" v="Quần đảo Trường Sa"/>
@@ -41663,6 +41857,7 @@
     <tag k="name:en" v="Saint Barthélemy"/>
     <tag k="name:eo" v="Sankta-Bartolomeo"/>
     <tag k="name:es" v="San Bartolomé"/>
+    <tag k="name:fa" v="سن بارتلمی"/>
     <tag k="name:fi" v="Saint-Barthélemy"/>
     <tag k="name:fr" v="Saint-Barthélemy"/>
     <tag k="name:he" v="סן ברתלמי"/>
