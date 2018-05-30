@@ -1,7 +1,7 @@
 #!/bin/bash -xe
 RESULT_DIR="/home/osm-planet/osmlive"
 
-export JAVA_OPTS="-Xms128M -Xmx8014M"
+export JAVA_OPTS="-Xms512M -Xmx8014M"
 chmod +x OsmAndMapCreator/utilities.sh
 
 # CURRENT_SEC=$(date -u "+%s")
@@ -15,7 +15,7 @@ while true; do
   DB_SEC=$(date -u --date="$(/home/overpass/osm3s/cgi-bin/timestamp | tail -1)" "+%s")
 
   START_DATE="${START_DAY}T${START_TIME}:00Z"
-  NEXT="$START_DAY $START_TIME 5 minutes"
+  NEXT="$START_DAY $START_TIME 15 minutes"
 
   NSTART_TIME=$(date +'%H' -d "$NEXT"):$(date +'%M' -d "$NEXT")
   NSTART_DAY=$(date +'%Y' -d "$NEXT")-$(date +'%m' -d "$NEXT")-$(date +'%d' -d "$NEXT")
