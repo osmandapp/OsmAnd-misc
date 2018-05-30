@@ -19,6 +19,9 @@ while true; do
 
   NSTART_TIME=$(date +'%H' -d "$NEXT"):$(date +'%M' -d "$NEXT")
   NSTART_DAY=$(date +'%Y' -d "$NEXT")-$(date +'%m' -d "$NEXT")-$(date +'%d' -d "$NEXT")
+  if [ ! "$NSTART_DAY" = "$START_DAY" ]; then
+    NSTART_TIME="00:00"
+  fi
   END_DATE="${NSTART_DAY}T${NSTART_TIME}:00Z"
   DATE_NAME="$(echo ${NSTART_DAY:2} | tr '-' _ | tr ':' _ )"
   TIME_NAME="$(echo ${NSTART_TIME} | tr '-' _ | tr ':' _ )"
