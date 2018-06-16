@@ -60,7 +60,7 @@ while true; do
   
     OsmAndMapCreator/utilities.sh split-obf \
     $FILENAME_DIFF.diff.obf $RESULT_DIR  \
-    OsmAndMapCreator/regions.ocbf "$DATE_NAME" "_$TIME_NAME"
+     "$DATE_NAME" "_$TIME_NAME"
   
   
     rm -r *.osm || true
@@ -157,7 +157,7 @@ while true; do
   
     OsmAndMapCreator/utilities.sh split-obf \
     $FILENAME_DIFF.diff.obf $RESULT_DIR  \
-    OsmAndMapCreator/regions.ocbf "$DATE_NAME" "_$TIME_NAME"
+     "$DATE_NAME" "_$TIME_NAME"
   
   
     rm -r *.osm || true
