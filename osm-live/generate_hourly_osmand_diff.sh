@@ -131,8 +131,8 @@ while true; do
 
     echo # 2. Generate obf files & query change file
     echo $QUERY_DIFF | /home/overpass/osm3s/bin/osm3s_query  > $FILENAME_CHANGE.osm  &
-    OsmAndMapCreator/utilities.sh generate-obf-no-address $FILENAME_START.osm --srtm="$SRTM_DIR" &
-    OsmAndMapCreator/utilities.sh generate-obf-no-address $FILENAME_END.osm --srtm="$SRTM_DIR" &
+    OsmAndMapCreator/utilities.sh generate-obf-no-address $FILENAME_START.osm & # --srtm="$SRTM_DIR" &
+    OsmAndMapCreator/utilities.sh generate-obf-no-address $FILENAME_END.osm & # --srtm="$SRTM_DIR" &
     wait
 
     TZ=UTC touch -c -d "$END_DATE" $FILENAME_CHANGE.osm
