@@ -131,6 +131,7 @@ while true; do
 
     echo # 2. Generate obf files & query change file
     echo $QUERY_DIFF | /home/overpass/osm3s/bin/osm3s_query  > $FILENAME_CHANGE.osm  &
+    # SRTM takes too much time and memory at this step (probably it could be used at the change step)
     OsmAndMapCreator/utilities.sh generate-obf-no-address $FILENAME_START.osm & # --srtm="$SRTM_DIR" &
     OsmAndMapCreator/utilities.sh generate-obf-no-address $FILENAME_END.osm & # --srtm="$SRTM_DIR" &
     wait
