@@ -194,7 +194,7 @@ Wait 5 minutes
 . Inside container   
 ```/home/overpass/osm3s/cgi-bin/timestamp```  (outputs timestamp)   
 ```curl localhost:80/api/timestamp``` (outputs timestamp)   
-. Outside container  
+. Outside container    
 ```curl "http://localhost:8081/api/timestamp"```  
 ```curl "http://builder.osmand.net:8081/api/timestamp"```  
 
