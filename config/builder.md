@@ -161,9 +161,11 @@ Files that should be put manually:
 * ./private/service.json (for Firebase).
 **Important! Restrict user access to ./private!**
 
- 
+**AFTER THE SERVER RESTART DO THE FOLLOWING**
+
 # 4. Tirex
 **/etc/tirex/ Size 120K** - mapnik renderer configuration
+**How to start tirex:**
 As root:
 ```
 mkdir /var/run/tirex
@@ -175,7 +177,9 @@ tirex-backend-manager
 Wait 5 minutes
 
 # 5. Overpass
-**How to start overpass:**
+**How to start overpass:**  
+Please use the outside container version after the server reboot!  
+
 * Inside container   
 ```killall dispatcher``` (kill outside container)   
 ```docker start overpass2``` (container if not started)   
