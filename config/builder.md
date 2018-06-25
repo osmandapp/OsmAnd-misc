@@ -185,7 +185,7 @@ Wait 5 minutes
 ```./start_dispatcher.sh```  (start dispatcher inside)   
 ```killall dispatcher``` (kill inside container)  
 
-* Outside container
+* Outside container  
 ```su jenkins```      
 ```cd /home/overpass```   
 ```./start_dispatcher.sh```   
