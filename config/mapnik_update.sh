@@ -1,8 +1,11 @@
+#!/bin/bash
 export FOLDER=/home/posgres/
 ID=`(date +"%d_%m_%H_%M")`
-cat $FOLDER/osmosis-workdir/state.txt
+cp $FOLDER/osmosis-workdir/state.txt $FOLDER/osmosis-workdir/state-fix.txt
 
 $FOLDER/osmosis.run --rri workingDirectory=$FOLDER/osmosis-workdir --simplify-change --write-xml-change $FOLDER/changes$ID.osc.gz
+cp $FOLDER/osmosis-workdir/state.txt $FOLDER/osmosis-workdir/state-new.txt
+cp $FOLDER/osmosis-workdir/state-fix.txt $FOLDER/osmosis-workdir/state.txt
 
 # -U jenkins
 osm2pgsql --append --style /usr/local/share/osm2pgsql/default.style \
@@ -20,3 +23,4 @@ rm $FOLDER/expired_tiles$ID.list.bz2
 
 # bzcat $FOLDER/expired_tiles$ID.list.bz2 | $FOLDER/mod_tile/render_expired --touch-from=13 --min-zoom=13
 #rm $FOLDER/expired_tiles$ID.list
+cp $FOLDER/osmosis-workdir/state-new.txt $FOLDER/osmosis-workdir/state.txt
