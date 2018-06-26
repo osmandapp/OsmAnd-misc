@@ -1,5 +1,7 @@
 export FOLDER=/home/posgres/
 ID=`(date +"%d_%m_%H_%M")`
+cat $FOLDER/osmosis-workdir/state.txt
+
 $FOLDER/osmosis.run --rri workingDirectory=$FOLDER/osmosis-workdir --simplify-change --write-xml-change $FOLDER/changes$ID.osc.gz
 
 # -U jenkins
