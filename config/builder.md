@@ -174,7 +174,7 @@ su postgres
 tirex-master
 tirex-backend-manager
 ```
-Wait 5 minutes
+Wait 5 minutes and check if requests are processed and rendered using ```tirex-status
 
 # 5. Overpass
 **How to start overpass:**  
