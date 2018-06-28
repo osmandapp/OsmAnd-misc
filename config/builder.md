@@ -180,38 +180,11 @@ Wait 5 minutes
 **How to start overpass:**  
 Please use the outside container version after the server reboot!  
 
-* Inside container   
-```killall dispatcher``` (kill outside container)   
-```docker start overpass2``` (container if not started)   
-```docker exec container_id service apache2 restart```   
-```docker exec -it container_id bash```   
-```cd /home/overpass```   
-```./start_dispatcher.sh```  (start dispatcher inside)   
-```killall dispatcher``` (kill inside container)  
-
 * Outside container  
 ```su jenkins```      
 ```cd /home/overpass```   
 ```./start_dispatcher.sh```   
 
-* Check everything is running   
-. Inside container   
-```/home/overpass/osm3s/cgi-bin/timestamp```  (outputs timestamp)   
-```curl localhost:80/api/timestamp``` (outputs timestamp)   
-. Outside container    
-```curl "http://localhost:8081/api/timestamp"```  
-```curl "http://builder.osmand.net:8081/api/timestamp"```  
 
 Don't run dispatcher as root!
 
-**How to start apache server:**
-```
-docker start overpass
-```
-
-**How to restart apache inside docker container:**
-```
-docker exec -it overpass bash
-service apache2 restart
-```
-ctrl-p-q
