@@ -179,12 +179,4 @@ Wait 5 minutes and check if requests are processed and rendered using ```tirex-s
 # 5. Overpass
 **How to start overpass:**  
 Please use the outside container version after the server reboot!  
-
-* Outside container  
-```su jenkins```      
-```cd /home/overpass```   
-```./start_dispatcher.sh```   
-
-
-Don't run dispatcher as root!
-
+* systemctl start dispatcher.service 
