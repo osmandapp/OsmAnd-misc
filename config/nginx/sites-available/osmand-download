@@ -14,7 +14,7 @@ server {
 			rewrite ^ /srtm-countries/$arg_file last;
 		}
 		if ($arg_aosmc) {
-            rewrite ^ /aosmc/$arg_file last;
+			rewrite ^ /aosmc/$arg_file last;
 		}
 		if ($arg_srtm) {
 			rewrite ^ /srtm/$arg_file last;
@@ -24,10 +24,10 @@ server {
 		}
 		if ($arg_wikivoyage) {
 			rewrite ^ /wikivoyage/$arg_file last;
-        }
-  		if ($arg_wiki) {
+		}
+		if ($arg_wiki) {
 			rewrite ^ /wiki/$arg_file last;
-        }
+		}
 		if ($arg_hillshade) {
 			rewrite ^ /hillshade/$arg_file last;
 		}
