@@ -17,7 +17,7 @@ while true; do
   DB_SEC=$(date -u --date="$(/home/overpass/osm3s/cgi-bin/timestamp | tail -1)" "+%s")
 
   START_DATE="${START_DAY}T${START_TIME}:00Z"
-  NEXT="$START_DAY $START_TIME 10 minutes"
+  NEXT="$START_DAY $START_TIME 30 minutes"
 
   NSTART_TIME=$(date +'%H' -d "$NEXT"):$(date +'%M' -d "$NEXT")
   NSTART_DAY=$(date +'%Y' -d "$NEXT")-$(date +'%m' -d "$NEXT")-$(date +'%d' -d "$NEXT")
