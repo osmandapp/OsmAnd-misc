@@ -1,5 +1,5 @@
 #!/bin/bash -xe
-RESULT_DIR="/home/osm-planet/osmlive"
+RESULT_DIR="/home/osmlive/"
 
 export JAVA_OPTS="-Xms512M -Xmx8014M"
 chmod +x OsmAndMapCreator/utilities.sh
@@ -175,5 +175,5 @@ while true; do
   START_DAY=$NSTART_DAY
   START_TIME=$NSTART_TIME
 
-  echo "$NSTART_DAY $NSTART_TIME" > /home/osm-planet/osmlive/.proc_timestamp
+  echo "$NSTART_DAY $NSTART_TIME" > "${RESULT_DIR}.proc_timestamp"
 done
