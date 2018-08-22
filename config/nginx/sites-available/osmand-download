@@ -1,5 +1,11 @@
 server {
 	listen   80; ## listen for ipv4; this line is default and implied
+	listen 443 ssl;
+	ssl_certificate /etc/ssl/cacert.pem;        # path to your cacert.pem
+    ssl_certificate_key /etc/ssl/privkey.pem;    # path to your privkey.pem
+    server_tokens off;
+
+	# ssl on;
 	#listen   [::]:80 default ipv6only=on; ## listen for ipv6
 
 	root /var/www-download/;
@@ -8,7 +14,7 @@ server {
 	# Make site accessible from http://localhost/
 	server_name swdownload.osmand.net; #!!!
 
-	location = /download.php {
+	location ~ ^/(download|download.php) {
 		# add_header Content-Disposition "attachment; filename=$arg_file";
 		if ($arg_srtmcountry) {
 			rewrite ^ /srtm-countries/$arg_file last;
@@ -34,32 +40,7 @@ server {
 		rewrite ^ /indexes/$arg_file last;
 	}
 
-	location ~ ^.*(\.(php|pl)|awstats.*)$ {
-		# Uncomment to enable naxsi on this location
-		# include /etc/nginx/naxsi.rules
-		proxy_pass         http://127.0.0.1:81;
-        proxy_redirect     off;
-        proxy_set_header   Host             $host;
-        proxy_set_header   X-Real-IP        $remote_addr;
-        #proxy_set_header  X-Forwarded-For  $proxy_add_x_forwarded_for;
-
-        client_max_body_size       10m;
-        client_body_buffer_size    128k;
-
-        client_body_temp_path      /var/nginx/client_body_temp;
-
-        proxy_connect_timeout      70;
-        proxy_send_timeout         90;
-        proxy_read_timeout         90;
-        #proxy_send_lowat           12000;
-
-        proxy_buffer_size          4k;
-        proxy_buffers              4 32k;
-        proxy_busy_buffers_size    64k;
-        proxy_temp_file_write_size 64k;
-        proxy_temp_path            /var/nginx/proxy_temp;
-	}	
-
+	
 	location / {
 		# First attempt to serve request as file, then
 		# as directory, then fall back to index.html
@@ -69,35 +50,6 @@ server {
 
         #charset  utf-8;
 	}	
-
-	# Only for nginx-naxsi : process denied requests
-	#location /RequestDenied {
-		# For example, return an error code
-		#return 418;
-	#}
-
-	# error_page 404 /404.html;
-
-	# redirect server error pages to the static page /50x.html
-	#
-	#error_page 500 502 503 504 /50x.html;
-	#location = /50x.html {
-	#	root /usr/share/nginx/www;
-	#}
-
-	# pass the PHP scripts to FastCGI server listening on 127.0.0.1:9000
-	#
-	#location ~ \.php$ {
-	#	fastcgi_split_path_info ^(.+\.php)(/.+)$;
-	#	# NOTE: You should have "cgi.fix_pathinfo = 0;" in php.ini
-	#
-	#	# With php5-cgi alone:
-	#	fastcgi_pass 127.0.0.1:9000;
-	#	# With php5-fpm:
-	#	fastcgi_pass unix:/var/run/php5-fpm.sock;
-	#	fastcgi_index index.php;
-	#	include fastcgi_params;
-	#}
 
 	# deny access to .htaccess files, if Apache's document root
 	# concurs with nginx's one
