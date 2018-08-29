@@ -41,15 +41,16 @@ mkdir -p $LOCAL_SITE_DIR/latest-night-build
 # ln -s /home/www/wiki
 # ln -s /home/www/wikigen
 
-
+cp misc/config/nginx-main/server-include.conf /etc/nginx/server-include/ || true
+sudo service nginx reload || true
 
 cp -vur help/website/* $LOCAL_SITE_DIR
-curl -fSL https://github.com/osmandapp/OsmAnd-resources/raw/master/countries-info/regions.ocbf > $LOCAL_SITE_DIR/regions_v2.ocbf
+# curl -fSL https://github.com/osmandapp/OsmAnd-resources/raw/master/countries-info/regions.ocbf > $LOCAL_SITE_DIR/regions_v2.ocbf
 
 ## LEGACY
-cp -vu help/website/help/map-legend.html $LOCAL_SITE_DIR/help/Map-Legend_default.html
-cp -vu help/website/help/technical-articles.html $LOCAL_SITE_DIR/help/TechnicalArticles.html
-cp -vu help/website/help/legacy/HowToArticles.html $LOCAL_SITE_DIR/help/HowToArticles.html
+# cp -vu help/website/help/map-legend.html $LOCAL_SITE_DIR/help/Map-Legend_default.html
+# cp -vu help/website/help/technical-articles.html $LOCAL_SITE_DIR/help/TechnicalArticles.html
+# cp -vu help/website/help/legacy/HowToArticles.html $LOCAL_SITE_DIR/help/HowToArticles.html
 
 
 chgrp -R www-data $LOCAL_SITE_DIR/*
