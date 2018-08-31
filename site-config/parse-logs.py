@@ -61,7 +61,7 @@ for line in file:
     ind+=1;
     # Parse data from each line
     if ind % 10000 == 0:
-        print "Lines %d (skipped %d) " % [(ind / 10000), skipped]
+        print "Lines %d (skipped %d) " % ((ind / 10000), skipped)
         sys.stdout.flush()
         conn.commit()
     # if (ind / 10000) < 3918:
