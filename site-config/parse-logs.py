@@ -23,7 +23,7 @@ if 'gz' in os.environ['LOG_FILE']:
 else:
    file = open( '/var/log/apache2/' + os.environ['LOG_FILE'])
 ## Create a database
-
+maxday = ""
 if postgres:
     conn_string = "host='localhost' dbname='"+os.environ['DB_NAME']+"' user='"+os.environ['DB_USER']+"' password='"+os.environ['DB_PWD']+"'"
     conn = psycopg2.connect(conn_string)
@@ -31,7 +31,8 @@ if postgres:
     ## DDL for postgres
     ## CREATE TABLE requests (ip text, land text, date time, day text, aid text, ns int, nd int, version text);
     ## CREATE TABLE downloads (ip text, land text, date time, day text, download text, version text);
-    
+    c.execute("select max(day || ' '  || date) from downloads where day = (SELECT max(day)  from downloads)");
+    maxday = c.fetchall()[0][0]
 else:
     conn = sqlite3.connect(os.environ['LOG_FILE']+'.sqlite')
     c = conn.cursor()
@@ -52,14 +53,15 @@ else:
         date time, day text, version text);''')
     conn.commit()
 
-print "Prepare data"
+print "Prepare data (max day is %s) " % maxday
 ## Prepare data
 ind = 0
+skipped = 0;
 for line in file:
     ind+=1;
     # Parse data from each line
     if ind % 10000 == 0:
-        print "Lines %d" % (ind / 10000)
+        print "Lines %d (skipped %d) " % [(ind / 10000), skipped]
         sys.stdout.flush()
         conn.commit()
     # if (ind / 10000) < 3918:
@@ -96,6 +98,9 @@ for line in file:
             ns = None
         if nd == "":
             nd = None
+        if tm.strftime('%Y-%m-%d %H:%M:%S')  < maxday:
+            skipped += 1;
+            continue;
         ## Insert elements into rows
         if "get_indexes" in line:
             if postgres:
