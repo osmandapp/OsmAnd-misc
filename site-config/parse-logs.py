@@ -57,11 +57,12 @@ print "Prepare data (max day is %s) " % maxday
 ## Prepare data
 ind = 0
 skipped = 0;
+inserted = 0;
 for line in file:
     ind+=1;
     # Parse data from each line
     if ind % 10000 == 0:
-        print "Lines %d (skipped %d) " % ((ind / 10000), skipped)
+        print "Lines %d (skipped %d, inserted %d) " % ((ind / 10000), skipped, inserted)
         sys.stdout.flush()
         conn.commit()
     # if (ind / 10000) < 3918:
@@ -102,6 +103,7 @@ for line in file:
             skipped += 1;
             continue;
         ## Insert elements into rows
+        inserted += 1;
         if "get_indexes" in line:
             if postgres:
                 c.execute("INSERT INTO requests VALUES (%s, %s, %s, %s, %s, %s, %s, %s)", (ip, country, tm.strftime('%Y-%m-%d %H:%M:%S'), day, aid, ns, nd, version))
