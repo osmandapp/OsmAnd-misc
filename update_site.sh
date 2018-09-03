@@ -42,7 +42,7 @@ mkdir -p $LOCAL_SITE_DIR/gen
 # ln -s /home/www/wiki
 # ln -s /home/www/wikigen
 
-cp misc/config/nginx-main/server-include.conf /etc/nginx/server-include/ || true
+cp misc/config/nginx-main/*.conf /etc/nginx/server-include/ || true
 sudo service nginx reload || true
 
 cp -vur help/website/* $LOCAL_SITE_DIR
