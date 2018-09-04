@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash -xe
 DIRECTORY=$(cd `dirname $0` && pwd)
 if [ -z "$LOCAL_SITE_DIR" ]; then
 	LOCAL_SITE_DIR=/var/www-download/
@@ -42,5 +42,5 @@ mkdir -p $LOCAL_SITE_DIR/gen
 cp misc/config/nginx-main/*.conf /etc/nginx/server-include/ || true
 sudo service nginx reload || true
 
-chgrp -R www-data $LOCAL_SITE_DIR/*
 cd $LOCAL_SITE_DIR  && git pull
+chgrp -R www-data $LOCAL_SITE_DIR/*
