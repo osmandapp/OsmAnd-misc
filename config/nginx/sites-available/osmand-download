@@ -13,37 +13,15 @@ server {
 	server_name xxx.osmand.net; #!!!
 
 	location ~ ^/(download|download.php) {
-		# add_header Content-Disposition "attachment; filename=$arg_file";
-		if ($arg_srtmcountry) {
-			rewrite ^ /srtm-countries/$arg_file last;
-		}
-		if ($arg_aosmc) {
-			rewrite ^ /aosmc/$arg_file last;
-		}
-		if ($arg_srtm) {
-			rewrite ^ /srtm/$arg_file last;
-		}
-		if ($arg_road) {
-			rewrite ^ /road-indexes/$arg_file last;
-		}
-		if ($arg_wikivoyage) {
-			rewrite ^ /wikivoyage/$arg_file last;
-		}
-		if ($arg_wiki) {
-			rewrite ^ /wiki/$arg_file last;
-		}
-		if ($arg_hillshade) {
-			rewrite ^ /hillshade/$arg_file last;
-		}
-		rewrite ^ /indexes/$arg_file last;
+		add_header Content-Disposition "attachment; filename=$arg_file";
+		try_files /srtm-countries/$arg_file /srtm/$arg_file /hillshade/$arg_file
+				/wiki/$arg_file /road-indexes/$arg_file /wikivoyage/$arg_file
+				/indexes/$arg_file /indexes/fonts/$arg_file /indexes/inapp/$arg_inapp/$arg_file
+				/aosmc/$arg_region/$arg_file =404;
 	}
-
-	
 	location / {
 		try_files $uri $uri/ =404;
 	}	
-
-	# deny access to .htaccess files, if Apache's document root
 	location ~ /\.ht {
 		deny all;
 	}
