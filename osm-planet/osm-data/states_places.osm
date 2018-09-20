@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.55.4 3079d8ea">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2018-07-26T11:17:02Z"/>
+<meta osm_base="2018-09-20T08:57:03Z"/>
 
   <node id="671022" lat="36.7014631" lon="-118.7559974">
     <tag k="alt_name:vi" v="California"/>
@@ -31,6 +31,7 @@
     <tag k="name:lb" v="Kalifornien"/>
     <tag k="name:lfn" v="California"/>
     <tag k="name:lt" v="Kalifornija"/>
+    <tag k="name:mo" v="Калифорния"/>
     <tag k="name:nl" v="Californië"/>
     <tag k="name:pl" v="Kalifornia"/>
     <tag k="name:ru" v="Калифорния"/>
@@ -51,42 +52,6 @@
     <tag k="wikidata" v="Q99"/>
     <tag k="wikipedia" v="en:California"/>
   </node>
-  <node id="24330691" lat="22.3506270" lon="114.1849161">
-    <tag k="alt_name:vi" v="Hương Cảng"/>
-    <tag k="is_in:continent" v="Asia"/>
-    <tag k="is_in:country" v="China"/>
-    <tag k="name" v="香港 Hong Kong"/>
-    <tag k="name:br" v="Hong Kong"/>
-    <tag k="name:de" v="Hongkong"/>
-    <tag k="name:en" v="Hong Kong"/>
-    <tag k="name:eo" v="Hongkongo"/>
-    <tag k="name:es" v="Hong Kong"/>
-    <tag k="name:fa" v="هنگ‌کنگ"/>
-    <tag k="name:fr" v="Hongkong"/>
-    <tag k="name:hi" v="हांगकांग"/>
-    <tag k="name:hu" v="Hong Kong"/>
-    <tag k="name:kn" v="ಹಾಂಗ್ಕಾಂಗ್"/>
-    <tag k="name:ku" v="Hong Kong"/>
-    <tag k="name:nl" v="Hongkong"/>
-    <tag k="name:pl" v="Hongkong"/>
-    <tag k="name:ru" v="Гонконг"/>
-    <tag k="name:sr" v="Хонгконг"/>
-    <tag k="name:sv" v="Hongkong"/>
-    <tag k="name:ta" v="ஃகொங்கொங்"/>
-    <tag k="name:vi" v="Hồng Kông"/>
-    <tag k="name:zh" v="香港"/>
-    <tag k="name:zh_pinyin" v="Xiāng gǎng"/>
-    <tag k="place" v="state"/>
-    <tag k="population" v="7071576"/>
-    <tag k="rank" v="0"/>
-    <tag k="ref" v="港"/>
-    <tag k="ref:en" v="HK"/>
-    <tag k="ref:vi" v="Cảng"/>
-    <tag k="source:name:br" v="ofis publik ar brezhoneg"/>
-    <tag k="source:population" v="Wikipedia, 2011, census"/>
-    <tag k="wikidata" v="Q8646"/>
-    <tag k="wikipedia" v="en:Hong Kong"/>
-  </node>
   <node id="34724864" lat="47.2868352" lon="-120.2126139">
     <tag k="is_in" v="USA"/>
     <tag k="is_in:continent" v="North America"/>
@@ -99,6 +64,7 @@
     <tag k="name:eo" v="Vaŝingtonio"/>
     <tag k="name:fy" v="Washington"/>
     <tag k="name:hu" v="Washington"/>
+    <tag k="name:mo" v="Вашингтон (Уашингтон)"/>
     <tag k="name:nl" v="Washington"/>
     <tag k="name:pl" v="Waszyngton"/>
     <tag k="name:ru" v="Вашингтон"/>
@@ -458,10 +424,6 @@
     <tag k="wikipedia" v="de:Kanton Thurgau"/>
   </node>
   <node id="240080585" lat="48.2500000" lon="14.0000000">
-    <tag k="is_in" v="Österreich,Europe"/>
-    <tag k="is_in:continent" v="Europe"/>
-    <tag k="is_in:country" v="Austria"/>
-    <tag k="is_in:country_code" v="AT"/>
     <tag k="name" v="Oberösterreich"/>
     <tag k="name:bg" v="Горна Австрия"/>
     <tag k="name:de" v="Oberösterreich"/>
@@ -471,17 +433,6 @@
     <tag k="name:ru" v="Верхняя Австрия"/>
     <tag k="name:sk" v="Horné Rakúsko"/>
     <tag k="note" v="Bitte nicht löschen, wird zur Beschriftung benötigt!"/>
-    <tag k="openGeoDB:auto_update" v="population,place,name,is_in"/>
-    <tag k="openGeoDB:community_identification_number" v="4"/>
-    <tag k="openGeoDB:is_in" v="Österreich,Europe"/>
-    <tag k="openGeoDB:is_in_loc_id" v="106"/>
-    <tag k="openGeoDB:layer" v="3"/>
-    <tag k="openGeoDB:loc_id" v="127"/>
-    <tag k="openGeoDB:location" v="state"/>
-    <tag k="openGeoDB:name" v="Oberösterreich"/>
-    <tag k="openGeoDB:sort_name" v="OBEROESTERREICH"/>
-    <tag k="openGeoDB:type" v="Bundesland"/>
-    <tag k="openGeoDB:version" v="0.2.6.11 / 2007-12-04 / http://fa-technik.adfc.de/code/opengeodb/dump/"/>
     <tag k="place" v="state"/>
     <tag k="ref:at:gkz" v="4"/>
   </node>
@@ -5121,11 +5072,9 @@
     <tag k="alt_name" v="Ghowr;Ghur"/>
     <tag k="gns:dsg" v="ADM1"/>
     <tag k="gns:uni" v="-4797887"/>
-    <tag k="is_in" v="Afghanistan"/>
-    <tag k="is_in:continent" v="Asia"/>
-    <tag k="is_in:country" v="Afghanistan"/>
     <tag k="is_in:country_code" v="AF"/>
     <tag k="name" v="غور"/>
+    <tag k="name:ar" v="غور"/>
     <tag k="name:cn" v="古尔省"/>
     <tag k="name:de" v="Ghor"/>
     <tag k="name:el" v="Γκορ"/>
@@ -5136,7 +5085,8 @@
     <tag k="name:ja" v="ゴール州"/>
     <tag k="name:ru" v="Гор"/>
     <tag k="name:uk" v="Гор"/>
-    <tag k="official_name:prs" v="ولایت غور"/>
+    <tag k="official_name:ar" v="ولاية غور"/>
+    <tag k="official_name:fa" v="ولایت غور"/>
     <tag k="official_name:ps" v="غور ولايت"/>
     <tag k="place" v="state"/>
     <tag k="population" v="485000"/>
@@ -5144,7 +5094,7 @@
     <tag k="source" v="GNS"/>
     <tag k="state_code" v="GHO"/>
     <tag k="wikidata" v="Q186392"/>
-    <tag k="wikipedia" v="en:Ghōr Province"/>
+    <tag k="wikipedia" v="fa:ولایت غور"/>
   </node>
   <node id="312470044" lat="30.7753811" lon="62.4793088">
     <tag k="ISO3166-2" v="AF-NIM"/>
@@ -6005,6 +5955,7 @@
     <tag k="is_in:country" v="Switzerland"/>
     <tag k="is_in:country_code" v="CH"/>
     <tag k="name" v="Basel-Stadt"/>
+    <tag k="name:ar" v="مدينة بازل"/>
     <tag k="name:be" v="Базель-Штат"/>
     <tag k="name:de" v="Basel-Stadt"/>
     <tag k="name:en" v="Basel-City"/>
@@ -6643,6 +6594,7 @@
     <tag k="is_in:country" v="India"/>
     <tag k="is_in:country_code" v="IN"/>
     <tag k="name" v="Delhi"/>
+    <tag k="name:ar" v="دلهي"/>
     <tag k="name:cs" v="Dillí"/>
     <tag k="name:de" v="Nationales Hauptstadtterritorium Delhi"/>
     <tag k="name:en" v="Delhi"/>
@@ -6671,6 +6623,7 @@
     <tag k="is_in:country" v="India"/>
     <tag k="is_in:country_code" v="IN"/>
     <tag k="name" v="Haryāna"/>
+    <tag k="name:ar" v="هاريانا"/>
     <tag k="name:cs" v="Harijána"/>
     <tag k="name:en" v="Haryana"/>
     <tag k="name:eo" v="Harjano"/>
@@ -6681,6 +6634,7 @@
     <tag k="name:ru" v="Харьяна"/>
     <tag k="name:sl" v="Harjana"/>
     <tag k="name:uk" v="Хар'яна"/>
+    <tag k="name:ur" v="ہریانہ"/>
     <tag k="official_name" v="State of Haryāna"/>
     <tag k="place" v="state"/>
     <tag k="source" v="GNS"/>
@@ -6942,6 +6896,7 @@
     <tag k="name:eo" v="Alabamo"/>
     <tag k="name:fy" v="Alabama"/>
     <tag k="name:hu" v="Alabama"/>
+    <tag k="name:mo" v="Алабама"/>
     <tag k="name:nl" v="Alabama"/>
     <tag k="name:pl" v="Alabama"/>
     <tag k="name:ru" v="Алабама"/>
@@ -6969,6 +6924,7 @@
     <tag k="name:eo" v="Arizono"/>
     <tag k="name:fy" v="Arizona"/>
     <tag k="name:hu" v="Arizona"/>
+    <tag k="name:mo" v="Аризона"/>
     <tag k="name:nl" v="Arizona"/>
     <tag k="name:pl" v="Arizona"/>
     <tag k="name:ru" v="Аризона"/>
@@ -6993,6 +6949,7 @@
     <tag k="name:eo" v="Arkansaso"/>
     <tag k="name:fy" v="Arkansas"/>
     <tag k="name:hu" v="Arkansas"/>
+    <tag k="name:mo" v="Арканзас"/>
     <tag k="name:nl" v="Arkansas"/>
     <tag k="name:pl" v="Arkansas"/>
     <tag k="name:ru" v="Арканзас"/>
@@ -7020,6 +6977,7 @@
     <tag k="name:eo" v="Koloradio"/>
     <tag k="name:fy" v="Kolorado"/>
     <tag k="name:hu" v="Colorado"/>
+    <tag k="name:mo" v="Колорадо"/>
     <tag k="name:nl" v="Colorado"/>
     <tag k="name:pl" v="Kolorado"/>
     <tag k="name:ru" v="Колорадо"/>
@@ -7047,6 +7005,7 @@
     <tag k="name:eo" v="Konektikuto"/>
     <tag k="name:fy" v="Konettikut"/>
     <tag k="name:hu" v="Connecticut"/>
+    <tag k="name:mo" v="Коннектикут"/>
     <tag k="name:nl" v="Connecticut"/>
     <tag k="name:pl" v="Connecticut"/>
     <tag k="name:ru" v="Коннектикут"/>
@@ -7074,6 +7033,7 @@
     <tag k="name:eo" v="Delavaro"/>
     <tag k="name:fy" v="Delaware"/>
     <tag k="name:hu" v="Delaware"/>
+    <tag k="name:mo" v="Делауер"/>
     <tag k="name:nl" v="Delaware"/>
     <tag k="name:pl" v="Delaware"/>
     <tag k="name:ru" v="Делавэр"/>
@@ -7106,6 +7066,7 @@
     <tag k="name:hi" v="जॉर्जिया"/>
     <tag k="name:hu" v="Georgia"/>
     <tag k="name:lt" v="Džordžija"/>
+    <tag k="name:mo" v="Ӂорӂия"/>
     <tag k="name:nl" v="Georgia"/>
     <tag k="name:pl" v="Georgia"/>
     <tag k="name:ru" v="Джорджия"/>
@@ -7146,6 +7107,7 @@
     <tag k="name:ko" v="하와이 주"/>
     <tag k="name:ku" v="Hawaii"/>
     <tag k="name:lt" v="Havajai"/>
+    <tag k="name:mo" v="Хавай"/>
     <tag k="name:ms" v="Hawaii"/>
     <tag k="name:nl" v="Hawaï"/>
     <tag k="name:pl" v="Hawaje"/>
@@ -7180,6 +7142,7 @@
     <tag k="name:eo" v="Idaho"/>
     <tag k="name:fy" v="Idaho"/>
     <tag k="name:hu" v="Idaho"/>
+    <tag k="name:mo" v="Айдахо"/>
     <tag k="name:nl" v="Idaho"/>
     <tag k="name:pl" v="Idaho"/>
     <tag k="name:ru" v="Айдахо"/>
@@ -7207,6 +7170,7 @@
     <tag k="name:eo" v="Indianio"/>
     <tag k="name:fy" v="Indiana"/>
     <tag k="name:hu" v="Indiana"/>
+    <tag k="name:mo" v="Индиана"/>
     <tag k="name:nl" v="Indiana"/>
     <tag k="name:pl" v="Indiana"/>
     <tag k="name:ru" v="Индиана"/>
@@ -7234,6 +7198,7 @@
     <tag k="name:eo" v="Iovao"/>
     <tag k="name:fy" v="Iowa"/>
     <tag k="name:hu" v="Iowa"/>
+    <tag k="name:mo" v="Айова"/>
     <tag k="name:nl" v="Iowa"/>
     <tag k="name:pl" v="Iowa"/>
     <tag k="name:ru" v="Айова"/>
@@ -7262,6 +7227,7 @@
     <tag k="name:fy" v="Kansas"/>
     <tag k="name:hu" v="Kansas"/>
     <tag k="name:ja" v="カンザス州"/>
+    <tag k="name:mo" v="Канзас"/>
     <tag k="name:nl" v="Kansas"/>
     <tag k="name:pl" v="Kansas"/>
     <tag k="name:ru" v="Канзас"/>
@@ -7289,6 +7255,7 @@
     <tag k="name:eo" v="Kentukio"/>
     <tag k="name:fy" v="Kentucky"/>
     <tag k="name:hu" v="Kentucky"/>
+    <tag k="name:mo" v="Кентукки"/>
     <tag k="name:nl" v="Kentucky"/>
     <tag k="name:pl" v="Kentucky"/>
     <tag k="name:ru" v="Кентукки"/>
@@ -7318,6 +7285,7 @@
     <tag k="name:fr" v="Louisiane"/>
     <tag k="name:fy" v="Louisiana"/>
     <tag k="name:hu" v="Louisiana"/>
+    <tag k="name:mo" v="Луизиана"/>
     <tag k="name:nl" v="Louisiana"/>
     <tag k="name:pl" v="Luizjana"/>
     <tag k="name:ru" v="Луизиана"/>
@@ -7346,6 +7314,7 @@
     <tag k="name:eo" v="Majno"/>
     <tag k="name:fy" v="Maine"/>
     <tag k="name:hu" v="Maine"/>
+    <tag k="name:mo" v="Мен (Мейн)"/>
     <tag k="name:nl" v="Maine"/>
     <tag k="name:pl" v="Maine"/>
     <tag k="name:ru" v="Мэн"/>
@@ -7373,6 +7342,7 @@
     <tag k="name:eo" v="Marilando"/>
     <tag k="name:fy" v="Marylân"/>
     <tag k="name:hu" v="Maryland"/>
+    <tag k="name:mo" v="Мериленд"/>
     <tag k="name:nl" v="Maryland"/>
     <tag k="name:pl" v="Maryland"/>
     <tag k="name:ru" v="Мэриленд"/>
@@ -7399,6 +7369,7 @@
     <tag k="name:eo" v="Masaĉuseco"/>
     <tag k="name:fy" v="Massachusetts"/>
     <tag k="name:hu" v="Massachusetts"/>
+    <tag k="name:mo" v="Массачусетс"/>
     <tag k="name:nl" v="Massachusetts"/>
     <tag k="name:pl" v="Massachusetts"/>
     <tag k="name:ru" v="Массачусетс"/>
@@ -7426,6 +7397,7 @@
     <tag k="name:eo" v="Miĉigano"/>
     <tag k="name:fy" v="Michigan"/>
     <tag k="name:hu" v="Michigan"/>
+    <tag k="name:mo" v="Мичиген"/>
     <tag k="name:nl" v="Michigan"/>
     <tag k="name:pl" v="Michigan"/>
     <tag k="name:ru" v="Мичиган"/>
@@ -7453,6 +7425,7 @@
     <tag k="name:eo" v="Minesoto"/>
     <tag k="name:fy" v="Minnesota"/>
     <tag k="name:hu" v="Minnesota"/>
+    <tag k="name:mo" v="Миннесота"/>
     <tag k="name:nl" v="Minnesota"/>
     <tag k="name:pl" v="Minnesota"/>
     <tag k="name:ru" v="Миннесота"/>
@@ -7482,6 +7455,7 @@
     <tag k="name:fy" v="Mississippy"/>
     <tag k="name:hu" v="Mississippi"/>
     <tag k="name:ko" v="미시시피 주"/>
+    <tag k="name:mo" v="Миссисипи"/>
     <tag k="name:nl" v="Mississippi"/>
     <tag k="name:pl" v="Missisipi"/>
     <tag k="name:ru" v="Миссисипи"/>
@@ -7510,6 +7484,7 @@
     <tag k="name:fr" v="Montana"/>
     <tag k="name:fy" v="Montana"/>
     <tag k="name:hu" v="Montana"/>
+    <tag k="name:mo" v="Монтана"/>
     <tag k="name:nl" v="Montana"/>
     <tag k="name:pl" v="Montana"/>
     <tag k="name:ru" v="Монтана"/>
@@ -7541,6 +7516,7 @@
     <tag k="name:hi" v="नेब्रास्का"/>
     <tag k="name:hu" v="Nebraska"/>
     <tag k="name:it" v="Nebraska"/>
+    <tag k="name:mo" v="Небраска"/>
     <tag k="name:nl" v="Nebraska"/>
     <tag k="name:pl" v="Nebraska"/>
     <tag k="name:ru" v="Небраска"/>
@@ -7569,6 +7545,7 @@
     <tag k="name:eo" v="Nevado"/>
     <tag k="name:fy" v="Nevada"/>
     <tag k="name:hu" v="Nevada"/>
+    <tag k="name:mo" v="Невада"/>
     <tag k="name:nl" v="Nevada"/>
     <tag k="name:pl" v="Nevada"/>
     <tag k="name:ru" v="Невада"/>
@@ -7597,6 +7574,7 @@
     <tag k="name:es" v="Nuevo Hampshire"/>
     <tag k="name:fy" v="Nij-Hampshire"/>
     <tag k="name:hu" v="New Hampshire"/>
+    <tag k="name:mo" v="Нью-Хемпшир"/>
     <tag k="name:nl" v="New Hampshire"/>
     <tag k="name:pl" v="New Hampshire"/>
     <tag k="name:ru" v="Нью-Гэмпшир"/>
@@ -7622,6 +7600,7 @@
     <tag k="name:es" v="Nueva Jersey"/>
     <tag k="name:fy" v="Nij-Jersey"/>
     <tag k="name:hu" v="New Jersey"/>
+    <tag k="name:mo" v="Нью-Ӂерси"/>
     <tag k="name:nl" v="New Jersey"/>
     <tag k="name:pl" v="New Jersey"/>
     <tag k="name:ru" v="Нью-Джерси"/>
@@ -7659,6 +7638,7 @@
     <tag k="name:ko" v="뉴멕시코 주"/>
     <tag k="name:lfn" v="Mexico Nova"/>
     <tag k="name:lt" v="Naujoji Meksika"/>
+    <tag k="name:mo" v="Нью-Мексико"/>
     <tag k="name:nl" v="New Mexico"/>
     <tag k="name:pl" v="Nowy Meksyk"/>
     <tag k="name:pt" v="Novo México"/>
@@ -7690,6 +7670,7 @@
     <tag k="name:fy" v="New York"/>
     <tag k="name:hu" v="New York"/>
     <tag k="name:lfn" v="York Nova"/>
+    <tag k="name:mo" v="Нью-Йорк"/>
     <tag k="name:nl" v="New York"/>
     <tag k="name:pl" v="Nowy Jork"/>
     <tag k="name:ru" v="Нью-Йорк"/>
@@ -7726,6 +7707,7 @@
     <tag k="name:he" v="קרוליינה הצפונית"/>
     <tag k="name:hu" v="Észak-Karolina"/>
     <tag k="name:lfn" v="Carolina Norde"/>
+    <tag k="name:mo" v="Каролина де Норд"/>
     <tag k="name:pl" v="Karolina Północna"/>
     <tag k="name:pt" v="Carolina do Norte"/>
     <tag k="name:ru" v="Северная Каролина"/>
@@ -7767,6 +7749,7 @@
     <tag k="name:it" v="Dakota del Nord"/>
     <tag k="name:lfn" v="Dakota Norde"/>
     <tag k="name:lt" v="Šiaurės Dakota"/>
+    <tag k="name:mo" v="Дакота де Норд"/>
     <tag k="name:nl" v="North Dakota"/>
     <tag k="name:pl" v="Dakota Północna"/>
     <tag k="name:pt" v="Dakota do Norte"/>
@@ -7797,6 +7780,7 @@
     <tag k="name:eo" v="Ohio"/>
     <tag k="name:fy" v="Ohio"/>
     <tag k="name:hu" v="Ohio"/>
+    <tag k="name:mo" v="Охайо"/>
     <tag k="name:nl" v="Ohio"/>
     <tag k="name:pl" v="Ohio"/>
     <tag k="name:ru" v="Огайо"/>
@@ -7824,6 +7808,7 @@
     <tag k="name:eo" v="Oklahomo"/>
     <tag k="name:fy" v="Oklahoma"/>
     <tag k="name:hu" v="Oklahoma"/>
+    <tag k="name:mo" v="Оклахома"/>
     <tag k="name:nl" v="Oklahoma"/>
     <tag k="name:pl" v="Oklahoma"/>
     <tag k="name:ru" v="Оклахома"/>
@@ -7852,6 +7837,7 @@
     <tag k="name:es" v="Oregón"/>
     <tag k="name:fy" v="Oregon"/>
     <tag k="name:hu" v="Oregon"/>
+    <tag k="name:mo" v="Орегон"/>
     <tag k="name:nl" v="Oregon"/>
     <tag k="name:pl" v="Oregon"/>
     <tag k="name:ru" v="Орегон"/>
@@ -7888,6 +7874,7 @@
     <tag k="name:hu" v="Pennsylvania"/>
     <tag k="name:la" v="Pennsilvania"/>
     <tag k="name:lt" v="Pensilvanija"/>
+    <tag k="name:mo" v="Пенсилвания"/>
     <tag k="name:nl" v="Pennsylvania"/>
     <tag k="name:pl" v="Pensylwania"/>
     <tag k="name:pt" v="Pensilvânia"/>
@@ -7920,6 +7907,7 @@
     <tag k="name:eo" v="Rod-Insulo"/>
     <tag k="name:fy" v="Rhode Island"/>
     <tag k="name:hu" v="Rhode Island"/>
+    <tag k="name:mo" v="Род-Айленд"/>
     <tag k="name:nl" v="Rhode Island"/>
     <tag k="name:pl" v="Rhode Island"/>
     <tag k="name:ru" v="Род-Айленд"/>
@@ -7956,6 +7944,7 @@
     <tag k="name:he" v="קרוליינה הדרומית"/>
     <tag k="name:hu" v="Dél-Karolina"/>
     <tag k="name:lfn" v="Carolina Sude"/>
+    <tag k="name:mo" v="Каролина де Суд"/>
     <tag k="name:nl" v="South Carolina"/>
     <tag k="name:pl" v="Karolina Południowa"/>
     <tag k="name:pt" v="Carolina do Sul"/>
@@ -7996,6 +7985,7 @@
     <tag k="name:hu" v="Dél-Dakota"/>
     <tag k="name:it" v="Dakota del Sud"/>
     <tag k="name:lfn" v="Dakota Sude"/>
+    <tag k="name:mo" v="Дакота де Суд"/>
     <tag k="name:nl" v="South Dakota"/>
     <tag k="name:pl" v="Dakota Południowa"/>
     <tag k="name:pt" v="Dakota do Sul"/>
@@ -8026,6 +8016,7 @@
     <tag k="name:eo" v="Tenesio"/>
     <tag k="name:fy" v="Tennessee"/>
     <tag k="name:hu" v="Tennessee"/>
+    <tag k="name:mo" v="Теннесси"/>
     <tag k="name:nl" v="Tennessee"/>
     <tag k="name:pl" v="Tennessee"/>
     <tag k="name:ru" v="Теннесси"/>
@@ -8053,6 +8044,7 @@
     <tag k="name:eo" v="Teksaso"/>
     <tag k="name:fy" v="Teksas"/>
     <tag k="name:hu" v="Texas"/>
+    <tag k="name:mo" v="Техас (Тексас)"/>
     <tag k="name:nl" v="Texas"/>
     <tag k="name:pl" v="Teksas"/>
     <tag k="name:ru" v="Техас"/>
@@ -8082,6 +8074,7 @@
     <tag k="name:fy" v="Utah"/>
     <tag k="name:hu" v="Utah"/>
     <tag k="name:ko" v="유타 주"/>
+    <tag k="name:mo" v="Юта"/>
     <tag k="name:nl" v="Utah"/>
     <tag k="name:pl" v="Utah"/>
     <tag k="name:ru" v="Юта"/>
@@ -8109,6 +8102,7 @@
     <tag k="name:eo" v="Vermonto"/>
     <tag k="name:fy" v="Fermont"/>
     <tag k="name:hu" v="Vermont"/>
+    <tag k="name:mo" v="Вермонт"/>
     <tag k="name:nl" v="Vermont"/>
     <tag k="name:pl" v="Vermont"/>
     <tag k="name:ru" v="Вермонт"/>
@@ -8139,6 +8133,7 @@
     <tag k="name:fr" v="Virginie"/>
     <tag k="name:fy" v="Firginia"/>
     <tag k="name:hu" v="Virginia"/>
+    <tag k="name:mo" v="Вирӂиния"/>
     <tag k="name:nl" v="Virginia"/>
     <tag k="name:pl" v="Wirginia"/>
     <tag k="name:ru" v="Виргиния"/>
@@ -8177,6 +8172,7 @@
     <tag k="name:he" v="וירג'יניה המערבית"/>
     <tag k="name:hu" v="Nyugat-Virginia"/>
     <tag k="name:lt" v="Vakarų Virdžinija"/>
+    <tag k="name:mo" v="Вирӂиния де Вест"/>
     <tag k="name:nl" v="West Virginia"/>
     <tag k="name:pl" v="Wirginia Zachodnia"/>
     <tag k="name:ru" v="Западная Виргиния"/>
@@ -8208,6 +8204,7 @@
     <tag k="name:eo" v="Viskonsino"/>
     <tag k="name:fy" v="Wiskonsin"/>
     <tag k="name:hu" v="Wisconsin"/>
+    <tag k="name:mo" v="Уисконсин"/>
     <tag k="name:nl" v="Wisconsin"/>
     <tag k="name:pl" v="Wisconsin"/>
     <tag k="name:ru" v="Висконсин"/>
@@ -8236,6 +8233,7 @@
     <tag k="name:eo" v="Vajomingo"/>
     <tag k="name:fy" v="Wyoming"/>
     <tag k="name:hu" v="Wyoming"/>
+    <tag k="name:mo" v="Уайоминг"/>
     <tag k="name:nl" v="Wyoming"/>
     <tag k="name:pl" v="Wyoming"/>
     <tag k="name:ru" v="Вайоминг"/>
@@ -10326,6 +10324,7 @@
     <tag k="name:es" v="Misuri"/>
     <tag k="name:fy" v="Missoury"/>
     <tag k="name:hu" v="Missouri"/>
+    <tag k="name:mo" v="Миссури"/>
     <tag k="name:nl" v="Missouri"/>
     <tag k="name:pl" v="Missouri"/>
     <tag k="name:ru" v="Миссури"/>
@@ -10528,6 +10527,7 @@
     <tag k="name:fy" v="Alaska"/>
     <tag k="name:hu" v="Alaszka"/>
     <tag k="name:lfn" v="Alaska"/>
+    <tag k="name:mo" v="Аласка"/>
     <tag k="name:nl" v="Alaska"/>
     <tag k="name:pl" v="Alaska"/>
     <tag k="name:pt" v="Alasca"/>
@@ -11781,7 +11781,7 @@
     <tag k="source:population" v="IBGE"/>
     <tag k="state_code" v="SP"/>
     <tag k="wikidata" v="Q175"/>
-    <tag k="wikipedia" v="pt:São Paulo"/>
+    <tag k="wikipedia" v="pt:São Paulo (estado)"/>
   </node>
   <node id="504799970" lat="-22.2752762" lon="-42.4194150">
     <tag k="is_in:country" v="Brasil"/>
@@ -12498,6 +12498,7 @@
     <tag k="is_in:country_code" v="DE"/>
     <tag k="name" v="Nordrhein-Westfalen"/>
     <tag k="name:be" v="Паўночны Рэйн-Вестфалія"/>
+    <tag k="name:cs" v="Severní Porýní-Vestfálsko"/>
     <tag k="name:de" v="Nordrhein-Westfalen"/>
     <tag k="name:en" v="North Rhine-Westphalia"/>
     <tag k="name:eo" v="Nordrejn-Vestfalio"/>
@@ -12971,6 +12972,7 @@
     <tag k="name:eo" v="Ilinojso"/>
     <tag k="name:fy" v="Illinois"/>
     <tag k="name:hu" v="Illinois"/>
+    <tag k="name:mo" v="Иллинойс"/>
     <tag k="name:nl" v="Illinois"/>
     <tag k="name:pl" v="Illinois"/>
     <tag k="name:ru" v="Иллинойс"/>
@@ -13088,6 +13090,7 @@
     <tag k="name:es" v="Sarre"/>
     <tag k="name:et" v="Saarimaa"/>
     <tag k="name:fr" v="Sarre"/>
+    <tag k="name:hsb" v="Posaarska"/>
     <tag k="name:it" v="Saarland"/>
     <tag k="name:ja" v="ザールラント"/>
     <tag k="name:ru" v="Саар"/>
@@ -13110,6 +13113,7 @@
     <tag k="name:eo" v="Baden-Virtembergo"/>
     <tag k="name:es" v="Baden-Wurtemberg"/>
     <tag k="name:fr" v="Bade Wurtemberg"/>
+    <tag k="name:gsw" v="Bade-Wirddeberg"/>
     <tag k="name:hsb" v="Badensko-Württembergska"/>
     <tag k="name:ia" v="Baden-Wuertemberg"/>
     <tag k="name:io" v="Badenia-Wurtemberg"/>
@@ -14603,6 +14607,7 @@
     <tag k="name:en" v="‘Adan Governorate"/>
     <tag k="name:fr" v="Aden"/>
     <tag k="name:ru" v="Аден"/>
+    <tag k="name:uk" v="Аден мугафаза"/>
     <tag k="place" v="state"/>
     <tag k="population" v="589419"/>
     <tag k="wikidata" v="Q275729"/>
@@ -14810,6 +14815,7 @@
     <tag k="name:fr" v="Shabwah"/>
     <tag k="name:hu" v="Sabva"/>
     <tag k="name:ru" v="Шабва"/>
+    <tag k="name:uk" v="Шабва мугафаза"/>
     <tag k="place" v="state"/>
     <tag k="population" v="470440"/>
     <tag k="wikidata" v="Q328180"/>
@@ -15304,7 +15310,7 @@
     <tag k="ref:ru" v="ЧРВ"/>
     <tag k="ref:uk" v="ЧРВ"/>
   </node>
-  <node id="683681613" lat="49.2723647" lon="38.9152782">
+  <node id="683681613" lat="49.2724587" lon="38.9150477">
     <tag k="is_in:country" v="Україна"/>
     <tag k="is_in:country_code" v="UA"/>
     <tag k="name" v="Луганська область"/>
@@ -15522,7 +15528,7 @@
     <tag k="ref" v="JU"/>
   </node>
   <node id="760018466" lat="46.2303063" lon="7.6605757">
-    <tag k="name" v="Valais - Wallis"/>
+    <tag k="name" v="Valais/Wallis"/>
     <tag k="name:be" v="Вале"/>
     <tag k="name:de" v="Wallis"/>
     <tag k="name:eo" v="Valezo"/>
@@ -17169,7 +17175,7 @@
     <tag k="ref" v="CUS"/>
     <tag k="source" v="GNS"/>
   </node>
-  <node id="1230775171" lat="-12.0038890" lon="-76.6388890">
+  <node id="1230775171" lat="-12.2001093" lon="-76.2850579">
     <tag k="gns_classification" v="ADM1"/>
     <tag k="gns_uni" v="-530960"/>
     <tag k="is_in:country" v="Peru"/>
@@ -18163,7 +18169,7 @@
     <tag k="place" v="state"/>
   </node>
   <node id="1390170739" lat="46.6789116" lon="7.1027113">
-    <tag k="name" v="Fribourg - Freiburg"/>
+    <tag k="name" v="Fribourg/Freiburg"/>
     <tag k="name:be" v="Фрыбур"/>
     <tag k="name:ca" v="Friburg"/>
     <tag k="name:de" v="Freiburg"/>
@@ -20919,68 +20925,6 @@
     <tag k="ref" v="경남"/>
     <tag k="short_name" v="경남"/>
   </node>
-  <node id="1900155946" lat="33.3940067" lon="126.5626688">
-    <tag k="alt_name:en" v="Jeju Special Autonomous Province"/>
-    <tag k="alt_name:ko" v="제주도"/>
-    <tag k="is_in" v="대한민국"/>
-    <tag k="is_in:continent" v="Asia"/>
-    <tag k="is_in:country" v="Republic of Korea"/>
-    <tag k="is_in:country_code" v="KR"/>
-    <tag k="name" v="제주도"/>
-    <tag k="name:ar" v="مقاطعة جيجو"/>
-    <tag k="name:be" v="Чэджуда"/>
-    <tag k="name:bg" v="Чеджу-до"/>
-    <tag k="name:bn" v="জেজু দ্বীপ"/>
-    <tag k="name:ca" v="Jeju-do"/>
-    <tag k="name:cs" v="Čedžu"/>
-    <tag k="name:cv" v="Чеджу"/>
-    <tag k="name:da" v="Jeju-do"/>
-    <tag k="name:de" v="Jeju-do"/>
-    <tag k="name:en" v="Jeju-do"/>
-    <tag k="name:eo" v="Jeju-do"/>
-    <tag k="name:es" v="Jeju"/>
-    <tag k="name:et" v="Cheju provints"/>
-    <tag k="name:eu" v="Jejudo"/>
-    <tag k="name:fa" v="ججو-دو"/>
-    <tag k="name:fi" v="Jeju"/>
-    <tag k="name:fr" v="Jeju"/>
-    <tag k="name:gl" v="Jeju"/>
-    <tag k="name:he" v="ג'ג'ו"/>
-    <tag k="name:hr" v="Jeju"/>
-    <tag k="name:hu" v="Csedzsu-sziget"/>
-    <tag k="name:ia" v="Jeju-do"/>
-    <tag k="name:id" v="Jeju"/>
-    <tag k="name:io" v="Jeju insulo"/>
-    <tag k="name:it" v="Jeju-do"/>
-    <tag k="name:ja" v="済州特別自治道"/>
-    <tag k="name:jv" v="Jejudo"/>
-    <tag k="name:ko" v="제주도"/>
-    <tag k="name:lt" v="Čedžu"/>
-    <tag k="name:ms" v="Jeju"/>
-    <tag k="name:nl" v="Jeju-do"/>
-    <tag k="name:no" v="Jeju"/>
-    <tag k="name:pl" v="Czedżu"/>
-    <tag k="name:pt" v="Jeju"/>
-    <tag k="name:ro" v="Insula Jeju"/>
-    <tag k="name:ru" v="Чеджудо"/>
-    <tag k="name:sr" v="Чеџу"/>
-    <tag k="name:sv" v="Jeju"/>
-    <tag k="name:sw" v="Jeju-do"/>
-    <tag k="name:th" v="เกาะเชจู"/>
-    <tag k="name:uk" v="Провінція Чеджу"/>
-    <tag k="name:vi" v="Jeju"/>
-    <tag k="name:zh" v="济州岛"/>
-    <tag k="official_name" v="제주특별자치도"/>
-    <tag k="official_name:en" v="Jeju Special Self-Governing Province"/>
-    <tag k="official_name:ja" v="済州特別自治道"/>
-    <tag k="official_name:ko" v="제주특별자치도"/>
-    <tag k="official_name:zh" v="濟州特別自治道"/>
-    <tag k="place" v="state"/>
-    <tag k="ref" v="제주"/>
-    <tag k="short_name" v="제주"/>
-    <tag k="wikidata" v="Q41164"/>
-    <tag k="wikipedia" v="en:Jeju Province"/>
-  </node>
   <node id="1900814181" lat="35.7395078" lon="127.1181259">
     <tag k="alt_name:en" v="North Jeolla Province"/>
     <tag k="is_in" v="대한민국"/>
@@ -21557,7 +21501,7 @@
     <tag k="name:uk" v="Кацина"/>
     <tag k="place" v="state"/>
   </node>
-  <node id="2163706708" lat="11.4206064" lon="4.1049010">
+  <node id="2163706708" lat="11.4167574" lon="4.1074545">
     <tag k="admin_level" v="4"/>
     <tag k="name" v="Kebbi"/>
     <tag k="name:ru" v="Кебби"/>
@@ -22240,6 +22184,7 @@
   </node>
   <node id="2237699963" lat="10.9094334" lon="78.3665347">
     <tag k="name" v="தமிழ்நாடு"/>
+    <tag k="name:ar" v="تاميل نادو"/>
     <tag k="name:as" v="তামিলনাডু"/>
     <tag k="name:cs" v="Tamilnádu"/>
     <tag k="name:el" v="Ταμίλ Ναντού"/>
@@ -22255,6 +22200,7 @@
     <tag k="name:ta" v="தமிழ்நாடு"/>
     <tag k="name:th" v="รัฐทมิฬนาฑู"/>
     <tag k="name:uk" v="Тамілнаду"/>
+    <tag k="name:ur" v="تمل ناڈو"/>
     <tag k="name:zh" v="泰米尔纳德邦"/>
     <tag k="place" v="state"/>
     <tag k="ref" v="TN"/>
@@ -22724,6 +22670,7 @@
     <tag k="is_in:country" v="India"/>
     <tag k="is_in:country_code" v="IN"/>
     <tag k="name" v="Rajasthan"/>
+    <tag k="name:ar" v="راجستان"/>
     <tag k="name:cs" v="Rádžasthán"/>
     <tag k="name:en" v="Rajasthan"/>
     <tag k="name:eo" v="Raĝastano"/>
@@ -22733,6 +22680,7 @@
     <tag k="name:kn" v="ರಾಜಸ್ಥಾನ"/>
     <tag k="name:ru" v="Раджастхан"/>
     <tag k="name:uk" v="Раджастхан"/>
+    <tag k="name:ur" v="راجستھان"/>
     <tag k="place" v="state"/>
     <tag k="ref" v="RJ"/>
     <tag k="state_code" v="RJ"/>
@@ -22786,25 +22734,6 @@
     <tag k="ref" v="CT"/>
     <tag k="state_code" v="CT"/>
   </node>
-  <node id="2240991954" lat="23.1923325" lon="71.9329241">
-    <tag k="is_in:continent" v="Asia"/>
-    <tag k="is_in:country" v="India"/>
-    <tag k="is_in:country_code" v="IN"/>
-    <tag k="name" v="Gujarat"/>
-    <tag k="name:cs" v="Gudžarát"/>
-    <tag k="name:en" v="Gujarat"/>
-    <tag k="name:eo" v="Guĝarato"/>
-    <tag k="name:gu" v="ગુજરાત"/>
-    <tag k="name:hi" v="गुजरात"/>
-    <tag k="name:hu" v="Gudzsarát"/>
-    <tag k="name:ja" v="グジャラート"/>
-    <tag k="name:kn" v="ಗುಜರಾತ್"/>
-    <tag k="name:ru" v="Гуджарат"/>
-    <tag k="name:uk" v="Гуджарат"/>
-    <tag k="place" v="state"/>
-    <tag k="ref" v="GJ"/>
-    <tag k="state_code" v="GJ"/>
-  </node>
   <node id="2240991958" lat="23.4559809" lon="85.2557301">
     <tag k="is_in:continent" v="Asia"/>
     <tag k="is_in:country" v="India"/>
@@ -22845,8 +22774,10 @@
     <tag k="state_code" v="MP"/>
   </node>
   <node id="2240991967" lat="20.5431241" lon="84.6897321">
+    <tag k="alt_name:ar" v="أوديشا"/>
     <tag k="alt_name:cs" v="Urísa"/>
     <tag k="name" v="Odisha"/>
+    <tag k="name:ar" v="أديشا"/>
     <tag k="name:cs" v="Uríša"/>
     <tag k="name:en" v="Odisha"/>
     <tag k="name:eo" v="Oriso"/>
@@ -22857,6 +22788,7 @@
     <tag k="name:or" v="ଓଡ଼ିଶା"/>
     <tag k="name:ru" v="Орисса"/>
     <tag k="name:uk" v="Орісса"/>
+    <tag k="name:ur" v="اڈیشا"/>
     <tag k="place" v="state"/>
     <tag k="ref" v="OR"/>
     <tag k="state_code" v="OR"/>
@@ -22997,6 +22929,8 @@
     <tag k="name:en" v="Abyan Governorate"/>
     <tag k="name:fr" v="Abyan"/>
     <tag k="name:hu" v="Abjan"/>
+    <tag k="name:uk" v="Аб'ян мугафаза"/>
+    <tag k="name:ur" v="سبنوزو، پولاتلی"/>
     <tag k="place" v="state"/>
     <tag k="wikidata" v="Q241774"/>
     <tag k="wikipedia" v="en:Abyan Governorate"/>
@@ -23027,6 +22961,7 @@
     <tag k="name:hu" v="Florida"/>
     <tag k="name:it" v="Florida"/>
     <tag k="name:ja" v="フロリダ州"/>
+    <tag k="name:mo" v="Флорида"/>
     <tag k="name:nl" v="Florida"/>
     <tag k="name:pl" v="Floryda"/>
     <tag k="name:pt" v="Flórida"/>
@@ -23339,11 +23274,6 @@
     <tag k="place" v="state"/>
     <tag k="ref" v="T"/>
     <tag k="source" v="GNS"/>
-  </node>
-  <node id="2537069583" lat="8.5479351" lon="-82.5972317">
-    <tag k="name" v="Chiriquí"/>
-    <tag k="name:eo" v="Ĉirikio"/>
-    <tag k="place" v="state"/>
   </node>
   <node id="2537777115" lat="9.3538223" lon="-82.4559391">
     <tag k="is_in" v="Panama"/>
@@ -25287,13 +25217,14 @@
   <node id="2914855213" lat="32.7889443" lon="41.6093983">
     <tag k="name" v="الأنبار‎"/>
     <tag k="name:ar" v="الأنبار‎"/>
+    <tag k="name:ckb" v="پارێزگای ئەنبار"/>
     <tag k="name:de" v="al-Anbar"/>
     <tag k="name:en" v="Al Anbar"/>
     <tag k="name:eo" v="Anbara gubernio"/>
     <tag k="name:fr" v="Al-Anbâr"/>
     <tag k="name:hu" v="el-Anbár"/>
     <tag k="name:ja" v="アンバール"/>
-    <tag k="name:ku" v="Enbar"/>
+    <tag k="name:ku" v="Enbar (parêzgeh)"/>
     <tag k="name:pl" v="Al-Anbar"/>
     <tag k="name:ru" v="Анбар"/>
     <tag k="name:uk" v="Анбар"/>
@@ -26234,7 +26165,7 @@
     <tag k="name:it" v="Sud Pyongan"/>
     <tag k="name:ja" v="平安南道"/>
     <tag k="name:ko" v="평안남도"/>
-    <tag k="name:ko_rm" v="P’yŏngan-namdo"/>
+    <tag k="name:ko-Latn" v="P’yŏngan-namdo"/>
     <tag k="name:lt" v="Pietų Pchenjano provincija"/>
     <tag k="name:nl" v="P'yŏngan-namdo"/>
     <tag k="name:no" v="Sør-Pyongan"/>
@@ -26258,8 +26189,8 @@
     <tag k="name:en" v="North Pyongan"/>
     <tag k="name:ja" v="平安北道"/>
     <tag k="name:ko" v="평안북도"/>
+    <tag k="name:ko-Latn" v="P’yŏngan-pukto"/>
     <tag k="name:ko_hanja" v="平安北道"/>
-    <tag k="name:ko_rm" v="P’yŏngan-pukto"/>
     <tag k="name:ru" v="Пхёнан-Пукто"/>
     <tag k="name:vi" v="Bình An Bắc"/>
     <tag k="name:zh" v="平安北道"/>
@@ -29830,7 +29761,7 @@
     <tag k="wikidata" v="Q1989"/>
     <tag k="wikipedia" v="en:Saskatchewan"/>
   </node>
-  <node id="4534491713" lat="2.9036613" lon="101.6803244">
+  <node id="4534491713" lat="2.9033629" lon="101.6800581">
     <tag k="ISo" v="MY-16"/>
     <tag k="name" v="Federal Territory of Putrajaya"/>
     <tag k="name:abbreviation" v="PJY"/>
@@ -30014,6 +29945,8 @@
   </node>
   <node id="4567438900" lat="10.5656850" lon="72.6406390">
     <tag k="name" v="Lakshadweep"/>
+    <tag k="name:ar" v="لكشديب"/>
+    <tag k="name:ur" v="لکشادیپ"/>
     <tag k="name:zh" v="拉克沙群岛"/>
     <tag k="place" v="state"/>
     <tag k="wikidata" v="Q26927"/>
@@ -30082,11 +30015,6 @@
     <tag k="name" v="Kachin Sagaing Boundary"/>
     <tag k="place" v="state"/>
   </node>
-  <node id="5016646379" lat="44.4972246" lon="10.3776059">
-    <tag k="historic" v="archaeological_site"/>
-    <tag k="name" v="Sito Paleolitico M. Lulseto"/>
-    <tag k="place" v="state"/>
-  </node>
   <node id="5030238381" lat="36.4239244" lon="44.3283934">
     <tag k="name" v="هەرێمی کوردستان"/>
     <tag k="name:ar" v="إقليم كردستان"/>
@@ -30130,8 +30058,12 @@
     <tag k="ref" v="IB"/>
   </node>
   <node id="5637805782" lat="59.0281257" lon="-72.4341637">
+    <tag k="is_in:state" v="Quebec"/>
+    <tag k="is_in:state_code" v="QC"/>
     <tag k="name" v="ᓄᓇᕕᒃ"/>
+    <tag k="name:en" v="Nunavik"/>
     <tag k="place" v="state"/>
+    <tag k="population" v="12090"/>
   </node>
   <node id="5637823800" lat="57.3923663" lon="-62.3809962">
     <tag k="name" v="Nunatsiavut"/>
@@ -30146,6 +30078,22 @@
   <node id="5756243967" lat="6.4373891" lon="0.9241068">
     <tag k="amenity" v="public bulding"/>
     <tag k="name" v="Préfecture de KEVE"/>
+    <tag k="place" v="state"/>
+  </node>
+  <node id="5791875369" lat="-11.3851120" lon="31.9525422">
+    <tag k="name" v="Muchinga Province"/>
+    <tag k="place" v="state"/>
+  </node>
+  <node id="5824760788" lat="-13.6514737" lon="31.9958539">
+    <tag k="name" v="Eastern Province"/>
+    <tag k="place" v="state"/>
+    <tag k="wikipedia" v="en:Eastern Province, Zambia"/>
+  </node>
+  <node id="5854200921" lat="13.8021919" lon="-85.5464829">
+    <tag k="admin_level" v="4"/>
+    <tag k="is_in:country" v="NI"/>
+    <tag k="name" v="Jinotega"/>
+    <tag k="name:eo" v="Jinotegano"/>
     <tag k="place" v="state"/>
   </node>
 

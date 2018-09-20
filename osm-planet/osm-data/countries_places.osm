@@ -1,8 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.55.4 3079d8ea">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2018-07-26T11:17:02Z"/>
+<meta osm_base="2018-09-20T08:57:03Z"/>
 
+  <node id="24330691" lat="22.3506270" lon="114.1849161">
+    <tag k="alt_name:vi" v="Hương Cảng"/>
+    <tag k="is_in:continent" v="Asia"/>
+    <tag k="name" v="香港 Hong Kong"/>
+    <tag k="name:br" v="Hong Kong"/>
+    <tag k="name:de" v="Hongkong"/>
+    <tag k="name:en" v="Hong Kong"/>
+    <tag k="name:eo" v="Hongkongo"/>
+    <tag k="name:es" v="Hong Kong"/>
+    <tag k="name:fa" v="هنگ‌کنگ"/>
+    <tag k="name:fr" v="Hongkong"/>
+    <tag k="name:hi" v="हांगकांग"/>
+    <tag k="name:hu" v="Hong Kong"/>
+    <tag k="name:kn" v="ಹಾಂಗ್ ಕಾಂಗ್"/>
+    <tag k="name:ku" v="Hong Kong"/>
+    <tag k="name:nl" v="Hongkong"/>
+    <tag k="name:pl" v="Hongkong"/>
+    <tag k="name:ru" v="Гонконг"/>
+    <tag k="name:sr" v="Хонгконг"/>
+    <tag k="name:sv" v="Hongkong"/>
+    <tag k="name:ta" v="ஃகொங்கொங்"/>
+    <tag k="name:uk" v="Гонконґ"/>
+    <tag k="name:vi" v="Hồng Kông"/>
+    <tag k="name:zh" v="香港"/>
+    <tag k="name:zh_pinyin" v="Xiāng gǎng"/>
+    <tag k="place" v="country"/>
+    <tag k="population" v="7071576"/>
+    <tag k="rank" v="0"/>
+    <tag k="ref" v="港"/>
+    <tag k="ref:en" v="HK"/>
+    <tag k="ref:vi" v="Cảng"/>
+    <tag k="source:name:br" v="ofis publik ar brezhoneg"/>
+    <tag k="source:population" v="Wikipedia, 2011, census"/>
+    <tag k="sqkm" v="2755"/>
+    <tag k="wikidata" v="Q8646"/>
+    <tag k="wikipedia" v="en:Hong Kong"/>
+  </node>
   <node id="26036352" lat="12.7503486" lon="122.7312101">
     <tag k="alt_name:vi" v="Phi Luật Tân"/>
     <tag k="capital_city" v="Manila"/>
@@ -45,6 +82,7 @@
     <tag k="name:it" v="Filippine"/>
     <tag k="name:ja" v="フィリピン"/>
     <tag k="name:jbo" v="pilipinas"/>
+    <tag k="name:kn" v="ಫಿಲಿಪೈನ್ಸ್"/>
     <tag k="name:ku" v="Filîpîn"/>
     <tag k="name:la" v="Philippinae"/>
     <tag k="name:lb" v="Philippinen"/>
@@ -1255,9 +1293,9 @@
     <tag k="name:xal" v="Доминиканмудин Орн"/>
     <tag k="name:yi" v="דאמיניקאנישע רעפובליק"/>
     <tag k="name:yo" v="Dómíníkì Olómìnira"/>
+    <tag k="name:yue" v="多明尼加"/>
     <tag k="name:zh" v="多明尼加共和國"/>
     <tag k="name:zh-min-nan" v="Dominic Kiōng-hô-kok"/>
-    <tag k="name:zh-yue" v="多明尼加"/>
     <tag k="name:zu" v="i-Dominican Republic"/>
     <tag k="official_name:eo" v="Dominika Respubliko"/>
     <tag k="official_name:pl" v="Republika Dominikańska"/>
@@ -1481,12 +1519,12 @@
     <tag k="name:xmf" v="ახალი ზელანდია"/>
     <tag k="name:yi" v="ניו זילאנד"/>
     <tag k="name:yo" v="Orílẹ́ède ṣilandi Titun"/>
+    <tag k="name:yue" v="紐西蘭"/>
     <tag k="name:za" v="Saen Saelanz"/>
     <tag k="name:zea" v="Nieuw-Zeêland"/>
     <tag k="name:zh" v="新西兰"/>
     <tag k="name:zh-classical" v="紐西蘭"/>
     <tag k="name:zh-min-nan" v="Sin Jia̍t-lân-jia"/>
-    <tag k="name:zh-yue" v="紐西蘭"/>
     <tag k="name:zu" v="i-New Zealand"/>
     <tag k="old_name:vi" v="Tân Tây Lan"/>
     <tag k="place" v="country"/>
@@ -1732,10 +1770,10 @@
     <tag k="name:xmf" v="სომხეთი"/>
     <tag k="name:yi" v="ארמעניע"/>
     <tag k="name:yo" v="Orílẹ́ède Améníà"/>
+    <tag k="name:yue" v="亞美尼亞"/>
     <tag k="name:zea" v="Armenië"/>
     <tag k="name:zh" v="亚美尼亚"/>
     <tag k="name:zh-min-nan" v="Hayastan"/>
-    <tag k="name:zh-yue" v="亞美尼亞"/>
     <tag k="name:zh_pinyin" v="Yàměiníyà"/>
     <tag k="name:zu" v="i-Armenia"/>
     <tag k="official_name" v="Հայաստանի Հանրապետություն"/>
@@ -1801,7 +1839,7 @@
     <tag k="name:en" v="Argentina"/>
     <tag k="name:eo" v="Argentino"/>
     <tag k="name:es" v="Argentina"/>
-    <tag k="name:et" v="Argentiina"/>
+    <tag k="name:et" v="Argentina"/>
     <tag k="name:fa" v="آرژانتین"/>
     <tag k="name:ff" v="Arjantiin"/>
     <tag k="name:fi" v="Argentiina"/>
@@ -2231,9 +2269,9 @@
     <tag k="name:xal" v="Буркинапасин Орн"/>
     <tag k="name:yi" v="בורקינע פאסא"/>
     <tag k="name:yo" v="Orílẹ́ède Bùùkíná Fasò"/>
+    <tag k="name:yue" v="布基納法索"/>
     <tag k="name:zh" v="布基纳法索"/>
     <tag k="name:zh-min-nan" v="Burkina Faso"/>
-    <tag k="name:zh-yue" v="布基納法索"/>
     <tag k="name:zh_pinyin" v="Bùjīnàfǎsuǒ"/>
     <tag k="name:zu" v="i-Burkina Faso"/>
     <tag k="old_name:pt" v="Alto Volta"/>
@@ -2432,7 +2470,7 @@
     <tag k="name:dz" v="བེ་ལ་རུ་སུ།"/>
     <tag k="name:ee" v="Belarus"/>
     <tag k="name:el" v="Λευκορωσία"/>
-    <tag k="name:en" v="Belarus"/>
+    <tag k="name:en" v="Republic of Belarus"/>
     <tag k="name:eo" v="Belorusio"/>
     <tag k="name:es" v="Bielorrusia"/>
     <tag k="name:et" v="Valgevene"/>
@@ -2577,9 +2615,9 @@
     <tag k="name:xal" v="Цаганoрсн Орн Нутг"/>
     <tag k="name:yi" v="בעלארוס"/>
     <tag k="name:yo" v="Orílẹ́ède Bélárúsì"/>
+    <tag k="name:yue" v="白俄羅斯"/>
     <tag k="name:zh" v="白俄罗斯"/>
     <tag k="name:zh-min-nan" v="Belarus"/>
-    <tag k="name:zh-yue" v="白俄羅斯"/>
     <tag k="name:zh_pinyin" v="Báiéluósī"/>
     <tag k="name:zu" v="i-Belarus"/>
     <tag k="official_name" v="Рэспубліка Беларусь"/>
@@ -3241,11 +3279,11 @@
     <tag k="name:xmf" v="უნგრეთი"/>
     <tag k="name:yi" v="אונגארן"/>
     <tag k="name:yo" v="Húngárì"/>
+    <tag k="name:yue" v="匈牙利"/>
     <tag k="name:zea" v="Honharije"/>
     <tag k="name:zh" v="匈牙利"/>
     <tag k="name:zh-classical" v="匈牙利"/>
     <tag k="name:zh-min-nan" v="Magyar-kok"/>
-    <tag k="name:zh-yue" v="匈牙利"/>
     <tag k="name:zh_pinyin" v="Xiōngyálì"/>
     <tag k="name:zu" v="i-Hungary"/>
     <tag k="official_name" v="Magyar Köztársaság"/>
@@ -3641,10 +3679,10 @@
     <tag k="name:xmf" v="ოორუე კორეა"/>
     <tag k="name:yi" v="צפון קארעע"/>
     <tag k="name:yo" v="Orílẹ́ède Guusu Kọria"/>
+    <tag k="name:yue" v="朝鮮民主主義人民共和國"/>
     <tag k="name:zh" v="朝鲜"/>
     <tag k="name:zh-classical" v="朝鮮民主主義人民共和國"/>
     <tag k="name:zh-min-nan" v="Tiâu-sián"/>
-    <tag k="name:zh-yue" v="朝鮮民主主義人民共和國"/>
     <tag k="name:zh_pinyin" v="Cháoxiǎn"/>
     <tag k="name:zu" v="i-North Korea"/>
     <tag k="nat_name:ko" v="조선"/>
@@ -3914,12 +3952,12 @@
     <tag k="name:xmf" v="ობჟათე კორეა"/>
     <tag k="name:yi" v="דרום קארעע"/>
     <tag k="name:yo" v="Orílẹ́ède Ariwa Kọria"/>
+    <tag k="name:yue" v="大韓民國"/>
     <tag k="name:za" v="Hanzgoz"/>
     <tag k="name:zh" v="韩国"/>
     <tag k="name:zh-classical" v="大韓民國"/>
     <tag k="name:zh-hant" v="大韓民國"/>
     <tag k="name:zh-min-nan" v="Hân-kok"/>
-    <tag k="name:zh-yue" v="大韓民國"/>
     <tag k="name:zh_pinyin" v="Hánguó"/>
     <tag k="name:zu" v="i-South Korea"/>
     <tag k="nat_name:ko" v="한국"/>
@@ -4292,11 +4330,11 @@
     <tag k="name:xal" v="Малаймудин Орн"/>
     <tag k="name:yi" v="מאלייזיע"/>
     <tag k="name:yo" v="Orílẹ́ède Malasia"/>
+    <tag k="name:yue" v="馬來西亞"/>
     <tag k="name:za" v="Majlaizsihya"/>
     <tag k="name:zh" v="马来西亚"/>
     <tag k="name:zh-classical" v="馬來西亞"/>
     <tag k="name:zh-min-nan" v="Má-lâi-se-a"/>
-    <tag k="name:zh-yue" v="馬來西亞"/>
     <tag k="name:zh_pinyin" v="Mǎláixīyà"/>
     <tag k="name:zu" v="i-Malaysia"/>
     <tag k="official_name:lv" v="Malaizijas Federācija"/>
@@ -4509,10 +4547,10 @@
     <tag k="name:xal" v="Балвудин Улсин Ниицәтә Орн"/>
     <tag k="name:yi" v="נעפאל"/>
     <tag k="name:yo" v="Orílẹ́ède Nepa"/>
+    <tag k="name:yue" v="尼泊爾"/>
     <tag k="name:zea" v="Nepal"/>
     <tag k="name:zh" v="尼泊尔"/>
     <tag k="name:zh-min-nan" v="Nepal"/>
-    <tag k="name:zh-yue" v="尼泊爾"/>
     <tag k="name:zh_pinyin" v="Níbóěr"/>
     <tag k="name:zu" v="i-Nepal"/>
     <tag k="official_name" v="Sanghiya Loktantrik Ganatantratmak Nepāl"/>
@@ -4754,11 +4792,11 @@
     <tag k="name:xmf" v="პერუ"/>
     <tag k="name:yi" v="פערו"/>
     <tag k="name:yo" v="Perú"/>
+    <tag k="name:yue" v="秘魯"/>
     <tag k="name:zea" v="Peru"/>
     <tag k="name:zh" v="秘鲁"/>
     <tag k="name:zh-classical" v="祕魯"/>
     <tag k="name:zh-min-nan" v="Perú"/>
-    <tag k="name:zh-yue" v="秘魯"/>
     <tag k="name:zu" v="Peru"/>
     <tag k="official_name" v="República del Perú"/>
     <tag k="official_name:be" v="Рэспубліка Перу"/>
@@ -4996,11 +5034,11 @@
     <tag k="name:xal" v="Саудин Араб Нутг"/>
     <tag k="name:yi" v="סאודי אראביע"/>
     <tag k="name:yo" v="Orílẹ́ède Saudi Arabia"/>
+    <tag k="name:yue" v="沙地阿拉伯"/>
     <tag k="name:zea" v="Saoedi-Araobië"/>
     <tag k="name:zh" v="沙特阿拉伯"/>
     <tag k="name:zh-classical" v="沙特阿拉伯"/>
     <tag k="name:zh-min-nan" v="Saud ê A-la-pek"/>
-    <tag k="name:zh-yue" v="沙地阿拉伯"/>
     <tag k="name:zh_pinyin" v="Shātè Ālābó"/>
     <tag k="name:zu" v="i-Saudi Arabia"/>
     <tag k="official_name:af" v="Koninkryk van Saoedi-Arabië"/>
@@ -5377,10 +5415,10 @@
     <tag k="name:xal" v="Йомудин Орн"/>
     <tag k="name:yi" v="טורקמעניסטאן"/>
     <tag k="name:yo" v="Orílẹ́ède Tọọkimenisita"/>
+    <tag k="name:yue" v="土庫曼"/>
     <tag k="name:zea" v="Toerkmenistan"/>
     <tag k="name:zh" v="土库曼斯坦"/>
     <tag k="name:zh-min-nan" v="Turkmenistan"/>
-    <tag k="name:zh-yue" v="土庫曼"/>
     <tag k="name:zh_pinyin" v="Tǔkùmànsītǎn"/>
     <tag k="name:zu" v="i-Turkmenistan"/>
     <tag k="place" v="country"/>
@@ -5742,10 +5780,10 @@
     <tag k="name:xal" v="Йеменмудин Орн"/>
     <tag k="name:yi" v="תימן"/>
     <tag k="name:yo" v="Orílẹ́ède yemeni"/>
+    <tag k="name:yue" v="也門"/>
     <tag k="name:zea" v="Jeem’n"/>
     <tag k="name:zh" v="也门"/>
     <tag k="name:zh-min-nan" v="Yemen"/>
-    <tag k="name:zh-yue" v="也門"/>
     <tag k="name:zh_pinyin" v="Yěmén"/>
     <tag k="name:zu" v="i-Yemen"/>
     <tag k="official_name:be" v="Еменская Рэспубліка"/>
@@ -5788,6 +5826,7 @@
     <tag k="name:fy" v="Sint-Marten"/>
     <tag k="name:he" v="סנט מארטן"/>
     <tag k="name:it" v="Sint Maarten"/>
+    <tag k="name:kn" v="ಸಿಂಟ್ ಮಾರ್ಟೀನ್"/>
     <tag k="name:lfn" v="San Maarten"/>
     <tag k="name:nl" v="Sint Maarten"/>
     <tag k="name:pl" v="Sint Maarten"/>
@@ -5989,10 +6028,10 @@
     <tag k="name:xal" v="Белсин Орн"/>
     <tag k="name:yi" v="בעליז"/>
     <tag k="name:yo" v="Orílẹ́ède Bèlísẹ̀"/>
+    <tag k="name:yue" v="伯利茲"/>
     <tag k="name:zea" v="Belize"/>
     <tag k="name:zh" v="伯利兹"/>
     <tag k="name:zh-min-nan" v="Belize"/>
-    <tag k="name:zh-yue" v="伯利茲"/>
     <tag k="name:zu" v="i-Belize"/>
     <tag k="old_name:eo" v="Brita Honduro"/>
     <tag k="place" v="country"/>
@@ -6820,10 +6859,10 @@
     <tag k="name:wo" v="Ayiti"/>
     <tag k="name:yi" v="האיטי"/>
     <tag k="name:yo" v="Hàítì"/>
+    <tag k="name:yue" v="海地"/>
     <tag k="name:zh" v="海地"/>
     <tag k="name:zh-classical" v="海地"/>
     <tag k="name:zh-min-nan" v="Haiti"/>
-    <tag k="name:zh-yue" v="海地"/>
     <tag k="name:zu" v="i-Haiti"/>
     <tag k="official_name" v="Repiblik Ayiti"/>
     <tag k="official_name:be" v="Рэспубліка Гаіці"/>
@@ -7054,9 +7093,9 @@
     <tag k="name:xal" v="Бенинмудин Орн"/>
     <tag k="name:yi" v="בענין"/>
     <tag k="name:yo" v="Orílẹ́ède Bẹ̀nẹ̀"/>
+    <tag k="name:yue" v="貝寧"/>
     <tag k="name:zh" v="贝宁"/>
     <tag k="name:zh-min-nan" v="Bénin"/>
-    <tag k="name:zh-yue" v="貝寧"/>
     <tag k="name:zh_pinyin" v="Bèiníng"/>
     <tag k="name:zu" v="i-Benin"/>
     <tag k="official_name" v="République du Bénin"/>
@@ -7269,11 +7308,11 @@
     <tag k="name:xal" v="Костарикмудин Орн"/>
     <tag k="name:yi" v="קאסטא ריקא"/>
     <tag k="name:yo" v="Orílẹ́ède Kuusita Ríkà"/>
+    <tag k="name:yue" v="哥斯達黎加"/>
     <tag k="name:zea" v="Costa Rica"/>
     <tag k="name:zh" v="哥斯大黎加"/>
     <tag k="name:zh-classical" v="哥斯大黎加"/>
     <tag k="name:zh-min-nan" v="Costa Rica"/>
-    <tag k="name:zh-yue" v="哥斯達黎加"/>
     <tag k="name:zu" v="i-Costa Rica"/>
     <tag k="official_name" v="República de Costa Rica"/>
     <tag k="official_name:be" v="Рэспубліка Коста-Рыка"/>
@@ -7629,9 +7668,9 @@
     <tag k="name:xmf" v="გამბია"/>
     <tag k="name:yi" v="די גאמביע"/>
     <tag k="name:yo" v="Orílẹ́ède Gambia"/>
+    <tag k="name:yue" v="甘比亞"/>
     <tag k="name:zh" v="冈比亚"/>
     <tag k="name:zh-min-nan" v="Gambia"/>
-    <tag k="name:zh-yue" v="甘比亞"/>
     <tag k="name:zh_pinyin" v="Gāngbǐyà"/>
     <tag k="name:zu" v="i-Gambia"/>
     <tag k="official_name" v="Republic of The Gambia"/>
@@ -7854,9 +7893,9 @@
     <tag k="name:xal" v="Гвинмудин Орн"/>
     <tag k="name:yi" v="גינע"/>
     <tag k="name:yo" v="Orílẹ́ède Gene"/>
+    <tag k="name:yue" v="畿內亞"/>
     <tag k="name:zh" v="几内亚"/>
     <tag k="name:zh-min-nan" v="Guinée"/>
-    <tag k="name:zh-yue" v="畿內亞"/>
     <tag k="name:zh_pinyin" v="Jīnèiyà"/>
     <tag k="name:zu" v="i-Guinea"/>
     <tag k="official_name:be" v="Гвінейская Рэспубліка"/>
@@ -8079,9 +8118,9 @@
     <tag k="name:xal" v="Биса Гвинмудин Орн"/>
     <tag k="name:yi" v="גינע-ביסאו"/>
     <tag k="name:yo" v="Orílẹ́ède Gene-Busau"/>
+    <tag k="name:yue" v="畿內亞比紹"/>
     <tag k="name:zh" v="几内亚比绍"/>
     <tag k="name:zh-min-nan" v="Guiné-Bissau"/>
-    <tag k="name:zh-yue" v="畿內亞比紹"/>
     <tag k="name:zh_pinyin" v="Jīnèiyà Bǐshào"/>
     <tag k="name:zu" v="i-Guinea-Bissau"/>
     <tag k="official_name" v="República da Guiné-Bissau"/>
@@ -8294,10 +8333,10 @@
     <tag k="name:xal" v="Ондурасин Орн"/>
     <tag k="name:yi" v="האנדוראס"/>
     <tag k="name:yo" v="Orílẹ́ède Hondurasi"/>
+    <tag k="name:yue" v="洪都拉斯"/>
     <tag k="name:zea" v="Honduras"/>
     <tag k="name:zh" v="洪都拉斯"/>
     <tag k="name:zh-min-nan" v="Honduras"/>
-    <tag k="name:zh-yue" v="洪都拉斯"/>
     <tag k="name:zu" v="i-Honduras"/>
     <tag k="official_name" v="República de Honduras"/>
     <tag k="official_name:be" v="Рэспубліка Гандурас"/>
@@ -8548,10 +8587,10 @@
     <tag k="name:xmf" v="ისრაელი"/>
     <tag k="name:yi" v="ישראל"/>
     <tag k="name:yo" v="Orílẹ́ède Iserẹli"/>
+    <tag k="name:yue" v="以色列"/>
     <tag k="name:zea" v="Israël"/>
     <tag k="name:zh" v="以色列"/>
     <tag k="name:zh-min-nan" v="Í-sek-lia̍t-kok"/>
-    <tag k="name:zh-yue" v="以色列"/>
     <tag k="name:zh_pinyin" v="Yǐsèliè"/>
     <tag k="name:zu" v="i-Israel"/>
     <tag k="official_name" v="מדינת ישראל"/>
@@ -8793,9 +8832,9 @@
     <tag k="name:xal" v="Лебанмудин Орн"/>
     <tag k="name:yi" v="לבנון"/>
     <tag k="name:yo" v="Orílẹ́ède Lebanoni"/>
+    <tag k="name:yue" v="黎巴嫩"/>
     <tag k="name:zh" v="黎巴嫩"/>
     <tag k="name:zh-min-nan" v="Lī-pa-lùn"/>
-    <tag k="name:zh-yue" v="黎巴嫩"/>
     <tag k="name:zh_pinyin" v="Líbānèn"/>
     <tag k="name:zu" v="i-Lebanon"/>
     <tag k="official_name" v="الجمهورية اللبنانية"/>
@@ -9081,10 +9120,10 @@
     <tag k="name:xmf" v="ლიტვა"/>
     <tag k="name:yi" v="ליטע"/>
     <tag k="name:yo" v="Orílẹ́ède Lituania"/>
+    <tag k="name:yue" v="立陶宛"/>
     <tag k="name:zea" v="Litouwen"/>
     <tag k="name:zh" v="立陶宛"/>
     <tag k="name:zh-min-nan" v="Lietuva"/>
-    <tag k="name:zh-yue" v="立陶宛"/>
     <tag k="name:zh_pinyin" v="Lìtáowǎn"/>
     <tag k="name:zu" v="i-Lithuania"/>
     <tag k="official_name" v="Lietuvos Respublika"/>
@@ -9340,10 +9379,10 @@
     <tag k="name:xmf" v="მაკედონია"/>
     <tag k="name:yi" v="רעפובליק פון מאקעדאניע"/>
     <tag k="name:yo" v="Orílẹ́ède Masidonia"/>
+    <tag k="name:yue" v="馬其頓共和國"/>
     <tag k="name:zea" v="Macedonië"/>
     <tag k="name:zh" v="马其顿"/>
     <tag k="name:zh-min-nan" v="Makedonija Kiōng-hô-kok"/>
-    <tag k="name:zh-yue" v="馬其頓共和國"/>
     <tag k="name:zh_pinyin" v="Mǎqídùn"/>
     <tag k="name:zu" v="isi-Macedonia [FYROM]"/>
     <tag k="official_name" v="Република Македонија"/>
@@ -9573,9 +9612,9 @@
     <tag k="name:xal" v="Малудин Орн"/>
     <tag k="name:yi" v="מאלי"/>
     <tag k="name:yo" v="Orílẹ́ède Mali"/>
+    <tag k="name:yue" v="馬里"/>
     <tag k="name:zh" v="马里"/>
     <tag k="name:zh-min-nan" v="Mali"/>
-    <tag k="name:zh-yue" v="馬里"/>
     <tag k="name:zu" v="i-Mali"/>
     <tag k="official_name" v="République du Mali"/>
     <tag k="official_name:be" v="Рэспубліка Малі"/>
@@ -9895,9 +9934,9 @@
     <tag k="name:wo" v="Papuwaasi-Gine-Gu-Bees"/>
     <tag k="name:xal" v="Папуһасин болн Шин Гвинемудин Орн"/>
     <tag k="name:yo" v="Orílẹ́ède Paapu ti Giini"/>
+    <tag k="name:yue" v="巴布亞新畿內亞"/>
     <tag k="name:zh" v="巴布亚新几内亚"/>
     <tag k="name:zh-min-nan" v="Papua Sin Guinea"/>
-    <tag k="name:zh-yue" v="巴布亞新畿內亞"/>
     <tag k="name:zu" v="i-Papua New Guinea"/>
     <tag k="official_name" v="Independent State of Papua New Guinea;Independen Stet bilong Papua Niugini"/>
     <tag k="official_name:be" v="Незалежная Дзяржава Папуа — Новая Гвінея"/>
@@ -10430,9 +10469,9 @@
     <tag k="name:xal" v="Чадигин Орн"/>
     <tag k="name:yi" v="טשאד"/>
     <tag k="name:yo" v="Orílẹ́ède ṣààdì"/>
+    <tag k="name:yue" v="乍得"/>
     <tag k="name:zh" v="乍得"/>
     <tag k="name:zh-min-nan" v="Tchad"/>
-    <tag k="name:zh-yue" v="乍得"/>
     <tag k="name:zh_pinyin" v="Zhàdé"/>
     <tag k="name:zu" v="i-Chad"/>
     <tag k="official_name" v="République du Tchad;جمهورية تشاد ‎"/>
@@ -10704,12 +10743,12 @@
     <tag k="name:xal" v="Вьетдин Орн"/>
     <tag k="name:yi" v="וויעטנאם"/>
     <tag k="name:yo" v="Orílẹ́ède Fẹtinami"/>
+    <tag k="name:yue" v="越南"/>
     <tag k="name:za" v="Yiednamz"/>
     <tag k="name:zea" v="Vietnam"/>
     <tag k="name:zh" v="越南"/>
     <tag k="name:zh-classical" v="越南"/>
     <tag k="name:zh-min-nan" v="Oa̍t-lâm"/>
-    <tag k="name:zh-yue" v="越南"/>
     <tag k="name:zh_pinyin" v="Yuènán"/>
     <tag k="name:zu" v="i-Vietnam"/>
     <tag k="official_name" v="Cộng Hòa Xã Hội Chủ Nghĩa Việt Nam"/>
@@ -10797,7 +10836,7 @@
     <tag k="name:en" v="South Africa"/>
     <tag k="name:eo" v="Sud-Afriko"/>
     <tag k="name:es" v="Sudáfrica"/>
-    <tag k="name:et" v="Lõuna-Aafrika"/>
+    <tag k="name:et" v="Lõuna-Aafrika Vabariik"/>
     <tag k="name:eu" v="Hegoafrika"/>
     <tag k="name:ext" v="Sudáfrica"/>
     <tag k="name:fa" v="آفریقای جنوبی"/>
@@ -10970,12 +11009,11 @@
     <tag k="name:xmf" v="ობჟათე აფრიკა"/>
     <tag k="name:yi" v="דרום אפריקע"/>
     <tag k="name:yo" v="Gúúsù Áfríkà"/>
-    <tag k="name:yue" v="南非"/>
+    <tag k="name:yue" v="南非共和國"/>
     <tag k="name:zea" v="Zuud-Afrika"/>
     <tag k="name:zh" v="南非"/>
     <tag k="name:zh-classical" v="南非"/>
     <tag k="name:zh-min-nan" v="Lâm-hui-kok"/>
-    <tag k="name:zh-yue" v="南非共和國"/>
     <tag k="name:zh_pinyin" v="Nán Fēi"/>
     <tag k="name:zu" v="iNingizimu Afrika"/>
     <tag k="note" v="Three capitals: Pretoria (executive and administrative), Bloemfontein (judicial), Cape Town (legislative)"/>
@@ -11375,10 +11413,10 @@
     <tag k="name:xal" v="Эквадормудин Орн"/>
     <tag k="name:yi" v="עקוואדאר"/>
     <tag k="name:yo" v="Orílẹ́ède Ekuádò"/>
+    <tag k="name:yue" v="厄瓜多爾"/>
     <tag k="name:zea" v="Ecuador"/>
     <tag k="name:zh" v="厄瓜多尔"/>
     <tag k="name:zh-min-nan" v="Ecuador"/>
-    <tag k="name:zh-yue" v="厄瓜多爾"/>
     <tag k="name:zu" v="i-Ecuador"/>
     <tag k="official_name" v="República del Ecuador"/>
     <tag k="official_name:be" v="Рэспубліка Эквадор"/>
@@ -11798,12 +11836,12 @@
     <tag k="name:xmf" v="ირანი"/>
     <tag k="name:yi" v="איראן"/>
     <tag k="name:yo" v="Orílẹ́ède Irani"/>
+    <tag k="name:yue" v="伊朗"/>
     <tag k="name:za" v="Iran"/>
     <tag k="name:zea" v="Iran"/>
     <tag k="name:zh" v="伊朗"/>
     <tag k="name:zh-classical" v="伊朗"/>
     <tag k="name:zh-min-nan" v="Iran"/>
-    <tag k="name:zh-yue" v="伊朗"/>
     <tag k="name:zh_pinyin" v="Yīlǎng"/>
     <tag k="name:zu" v="i-Iran"/>
     <tag k="official_name" v="جمهوری اسلامی ایران"/>
@@ -12204,10 +12242,10 @@
     <tag k="name:xal" v="Арнаутн Орн Нутг"/>
     <tag k="name:yi" v="אלבאניע"/>
     <tag k="name:yo" v="Albania"/>
+    <tag k="name:yue" v="阿爾巴尼亞"/>
     <tag k="name:zea" v="Albanië"/>
     <tag k="name:zh" v="阿尔巴尼亚"/>
     <tag k="name:zh-min-nan" v="Shqipëria"/>
-    <tag k="name:zh-yue" v="阿爾巴尼亞"/>
     <tag k="name:zh_pinyin" v="Āěrbāníyà"/>
     <tag k="name:zu" v="i-Albania"/>
     <tag k="official_name" v="Republika e Shqipërisë"/>
@@ -12240,6 +12278,7 @@
   <node id="424310680" lat="-26.5624806" lon="31.3991317">
     <tag k="alt_name:eo" v="Svaziio;Svaziujo"/>
     <tag k="alt_name:lfn" v="Suaziland"/>
+    <tag k="alt_name:pl" v="Suazi"/>
     <tag k="capital_city" v="Lobamba;Mbabane"/>
     <tag k="country_code_iso3166_1_alpha_2" v="SZ"/>
     <tag k="is_in:continent" v="Africa"/>
@@ -12372,7 +12411,7 @@
     <tag k="name:pam" v="Swaziland"/>
     <tag k="name:pdc" v="Swasiland"/>
     <tag k="name:pih" v="Swoseland"/>
-    <tag k="name:pl" v="Suazi"/>
+    <tag k="name:pl" v="Eswatini"/>
     <tag k="name:pms" v="Swaziland"/>
     <tag k="name:pnb" v="سوازی لینڈ"/>
     <tag k="name:ps" v="سوازيلانډ"/>
@@ -12428,9 +12467,9 @@
     <tag k="name:xal" v="Свазилендин Нутг"/>
     <tag k="name:yi" v="סוואזילאנד"/>
     <tag k="name:yo" v="Orílẹ́ède Saṣiland"/>
+    <tag k="name:yue" v="斯威士蘭"/>
     <tag k="name:zh" v="斯威士兰"/>
     <tag k="name:zh-min-nan" v="Swazi-tē"/>
-    <tag k="name:zh-yue" v="斯威士蘭"/>
     <tag k="name:zh_pinyin" v="Sīwēishìlán"/>
     <tag k="name:zu" v="i-Swaziland"/>
     <tag k="official_name" v="Kingdom of Swaziland;Umbuso weSwatini"/>
@@ -12447,6 +12486,7 @@
     <tag k="official_name:lb" v="Kinneksräich Swasiland"/>
     <tag k="official_name:lt" v="Svazilando Karalystė"/>
     <tag k="official_name:no" v="Kongeriket Swaziland"/>
+    <tag k="official_name:pl" v="Królestwo Eswatini"/>
     <tag k="official_name:pt" v="Reino da Suazilândia"/>
     <tag k="official_name:ro" v="Regatul Swaziland"/>
     <tag k="official_name:ru" v="Королевство Эсватини"/>
@@ -12671,9 +12711,9 @@
     <tag k="name:xal" v="Ниицәтә Араб Нутгуд"/>
     <tag k="name:yi" v="פאראייניגטע אראבישע עמיראטן"/>
     <tag k="name:yo" v="Orílẹ́ède Ẹmirate ti Awọn Arabu"/>
+    <tag k="name:yue" v="阿拉伯聯合酋長國"/>
     <tag k="name:zh" v="阿拉伯联合酋长国"/>
     <tag k="name:zh-min-nan" v="A-la-pek Liân-ha̍p Thâu-lâng-kok"/>
-    <tag k="name:zh-yue" v="阿拉伯聯合酋長國"/>
     <tag k="name:zh_pinyin" v="Ālābó Liánhé Qiúchángguó"/>
     <tag k="name:zu" v="i-United Arab Emirates"/>
     <tag k="official_name:pl" v="Państwo Zjednoczonych Emiratów Arabskich"/>
@@ -13272,10 +13312,10 @@
     <tag k="name:xal" v="Бутанмудин Нутг"/>
     <tag k="name:yi" v="בהוטאן"/>
     <tag k="name:yo" v="Orílẹ́ède Bútánì"/>
+    <tag k="name:yue" v="不丹"/>
     <tag k="name:zea" v="Bhutan"/>
     <tag k="name:zh" v="不丹"/>
     <tag k="name:zh-min-nan" v="Bhutan"/>
-    <tag k="name:zh-yue" v="不丹"/>
     <tag k="name:zh_pinyin" v="Bùdān"/>
     <tag k="name:zu" v="i-Bhutan"/>
     <tag k="official_name:be" v="Каралеўства Бутан"/>
@@ -13536,12 +13576,12 @@
     <tag k="name:xmf" v="ჩილე"/>
     <tag k="name:yi" v="טשילע"/>
     <tag k="name:yo" v="Orílẹ́ède ṣílè"/>
+    <tag k="name:yue" v="智利"/>
     <tag k="name:za" v="Chile"/>
     <tag k="name:zea" v="Chili"/>
     <tag k="name:zh" v="智利"/>
     <tag k="name:zh-classical" v="智利"/>
     <tag k="name:zh-min-nan" v="Chile"/>
-    <tag k="name:zh-yue" v="智利"/>
     <tag k="name:zu" v="i-Chile"/>
     <tag k="official_name" v="República de Chile"/>
     <tag k="official_name:be" v="Рэспубліка Чылі"/>
@@ -14199,11 +14239,11 @@
     <tag k="name:xal" v="Гаһитудин Орн"/>
     <tag k="name:yi" v="גאבאן"/>
     <tag k="name:yo" v="Orílẹ́ède Gabon"/>
+    <tag k="name:yue" v="加蓬"/>
     <tag k="name:zea" v="Gabon"/>
     <tag k="name:zh" v="加蓬"/>
     <tag k="name:zh-classical" v="加彭"/>
     <tag k="name:zh-min-nan" v="Gabon"/>
-    <tag k="name:zh-yue" v="加蓬"/>
     <tag k="name:zh_pinyin" v="Jiāpéng"/>
     <tag k="name:zu" v="i-Gabon"/>
     <tag k="official_name" v="République Gabonaise"/>
@@ -14773,9 +14813,9 @@
     <tag k="name:xal" v="Либермудин Орн"/>
     <tag k="name:yi" v="ליבעריע"/>
     <tag k="name:yo" v="Orílẹ́ède Laberia"/>
+    <tag k="name:yue" v="利比利亞"/>
     <tag k="name:zh" v="利比里亚"/>
     <tag k="name:zh-min-nan" v="Liberia"/>
-    <tag k="name:zh-yue" v="利比利亞"/>
     <tag k="name:zh_pinyin" v="Lìbǐlǐyà"/>
     <tag k="name:zu" v="i-Liberia"/>
     <tag k="official_name" v="Republic of Liberia"/>
@@ -15121,9 +15161,9 @@
     <tag k="name:xal" v="Малавудин Орн"/>
     <tag k="name:yi" v="מאלאווי"/>
     <tag k="name:yo" v="Orílẹ́ède Malawi"/>
+    <tag k="name:yue" v="馬拉維"/>
     <tag k="name:zh" v="马拉维"/>
     <tag k="name:zh-min-nan" v="Malaŵi"/>
-    <tag k="name:zh-yue" v="馬拉維"/>
     <tag k="name:zh_pinyin" v="Mǎlāwéi"/>
     <tag k="name:zu" v="i-Malawi"/>
     <tag k="official_name" v="Republic of Malaŵi;Dziko la Malaŵi"/>
@@ -15351,10 +15391,10 @@
     <tag k="name:xal" v="Мозамбикудин Орн"/>
     <tag k="name:yi" v="מאזאמביק"/>
     <tag k="name:yo" v="Orílẹ́ède Moṣamibiku"/>
+    <tag k="name:yue" v="莫三鼻給"/>
     <tag k="name:zh" v="莫桑比克"/>
     <tag k="name:zh-classical" v="莫三比克"/>
     <tag k="name:zh-min-nan" v="Moçambique"/>
-    <tag k="name:zh-yue" v="莫三鼻給"/>
     <tag k="name:zh_pinyin" v="Mòsāngbǐkè"/>
     <tag k="name:zu" v="i-Mozambique"/>
     <tag k="official_name" v="República de Moçambique;République du Mozambique"/>
@@ -15577,11 +15617,11 @@
     <tag k="name:xal" v="Намибмудин Орн"/>
     <tag k="name:yi" v="נאמיביע"/>
     <tag k="name:yo" v="Orílẹ́ède Namibia"/>
+    <tag k="name:yue" v="納米比亞"/>
     <tag k="name:zea" v="Namibië"/>
     <tag k="name:zh" v="纳米比亚"/>
     <tag k="name:zh-classical" v="納米比亞"/>
     <tag k="name:zh-min-nan" v="Namibia"/>
-    <tag k="name:zh-yue" v="納米比亞"/>
     <tag k="name:zh_pinyin" v="Nàmǐbǐyà"/>
     <tag k="name:zu" v="i-Namibia"/>
     <tag k="official_name" v="Republic of Namibia;Republiek van Namibia;Republik Namibia"/>
@@ -15795,9 +15835,9 @@
     <tag k="name:xal" v="Нигермудин Орн"/>
     <tag k="name:yi" v="ניזשער"/>
     <tag k="name:yo" v="Orílẹ́ède Nàìjá"/>
+    <tag k="name:yue" v="尼日爾"/>
     <tag k="name:zh" v="尼日尔"/>
     <tag k="name:zh-min-nan" v="Niger"/>
-    <tag k="name:zh-yue" v="尼日爾"/>
     <tag k="name:zh_pinyin" v="Nírìěr"/>
     <tag k="name:zu" v="i-Niger"/>
     <tag k="official_name" v="République du Niger"/>
@@ -16019,9 +16059,9 @@
     <tag k="name:xal" v="Руһандин Орн"/>
     <tag k="name:yi" v="רוואנדע"/>
     <tag k="name:yo" v="Orílẹ́ède Ruwanda"/>
+    <tag k="name:yue" v="盧旺達"/>
     <tag k="name:zh" v="卢旺达"/>
     <tag k="name:zh-min-nan" v="Rwanda"/>
-    <tag k="name:zh-yue" v="盧旺達"/>
     <tag k="name:zh_pinyin" v="Lúwàngdá"/>
     <tag k="name:zu" v="i-Rwanda"/>
     <tag k="official_name" v="Republic of Rwanda;Repubulika y'u Rwanda;République du Rwanda"/>
@@ -16225,10 +16265,10 @@
     <tag k="name:xal" v="Салвадормудин Орн"/>
     <tag k="name:yi" v="על סאלוואדאר"/>
     <tag k="name:yo" v="Orílẹ́ède Ẹẹsáfádò"/>
+    <tag k="name:yue" v="薩爾瓦多"/>
     <tag k="name:zea" v="El Salvador"/>
     <tag k="name:zh" v="萨尔瓦多"/>
     <tag k="name:zh-min-nan" v="El Salvador"/>
-    <tag k="name:zh-yue" v="薩爾瓦多"/>
     <tag k="name:zu" v="i-El Salvador"/>
     <tag k="official_name" v="República de El Salvador"/>
     <tag k="official_name:be" v="Рэспубліка Эль-Сальвадор"/>
@@ -16458,10 +16498,10 @@
     <tag k="name:xal" v="Сирмудин Араб Орн"/>
     <tag k="name:yi" v="סיריע"/>
     <tag k="name:yo" v="Orílẹ́ède Siria"/>
+    <tag k="name:yue" v="敘利亞"/>
     <tag k="name:zea" v="Syrië"/>
     <tag k="name:zh" v="叙利亚"/>
     <tag k="name:zh-min-nan" v="Su-lī-a"/>
-    <tag k="name:zh-yue" v="敘利亞"/>
     <tag k="name:zh_pinyin" v="Xùlìyà"/>
     <tag k="name:zu" v="i-Syria"/>
     <tag k="official_name" v="الجمهورية العربية السورية"/>
@@ -16815,9 +16855,9 @@
     <tag k="name:xal" v="Тоһлмудин Орн"/>
     <tag k="name:yi" v="טאגא"/>
     <tag k="name:yo" v="Tógò"/>
+    <tag k="name:yue" v="多哥"/>
     <tag k="name:zh" v="多哥"/>
     <tag k="name:zh-min-nan" v="Togo"/>
-    <tag k="name:zh-yue" v="多哥"/>
     <tag k="name:zh_pinyin" v="Duōgē"/>
     <tag k="name:zu" v="ITogo"/>
     <tag k="official_name" v="République Togolaise"/>
@@ -17013,9 +17053,9 @@
     <tag k="name:wo" v="Tonga"/>
     <tag k="name:xal" v="Тонһлмудин Нутг"/>
     <tag k="name:yo" v="Orílẹ́ède Tonga"/>
+    <tag k="name:yue" v="湯加"/>
     <tag k="name:zh" v="汤加群岛"/>
     <tag k="name:zh-min-nan" v="Tonga"/>
-    <tag k="name:zh-yue" v="湯加"/>
     <tag k="name:zu" v="i-Tonga"/>
     <tag k="official_name" v="Pule'anga Fakatu'i 'o Tonga"/>
     <tag k="official_name:be" v="Каралеўства Тонга"/>
@@ -17509,12 +17549,12 @@
     <tag k="name:xal" v="Эндонесин Орн"/>
     <tag k="name:yi" v="אינדאנעזיע"/>
     <tag k="name:yo" v="Orílẹ́ède Indonesia"/>
+    <tag k="name:yue" v="印尼"/>
     <tag k="name:za" v="Yindunizsihya"/>
     <tag k="name:zea" v="Indonesië"/>
     <tag k="name:zh" v="印度尼西亚"/>
     <tag k="name:zh-classical" v="印度尼西亞"/>
     <tag k="name:zh-min-nan" v="Ìn-nî"/>
-    <tag k="name:zh-yue" v="印尼"/>
     <tag k="name:zu" v="i-Indonesia"/>
     <tag k="official_name" v="Republik Indonesia"/>
     <tag k="official_name:be" v="Рэспубліка Інданезія"/>
@@ -17873,11 +17913,11 @@
     <tag k="name:xal" v="Гринлэндин Арл"/>
     <tag k="name:yi" v="גרינלאנד"/>
     <tag k="name:yo" v="Orílẹ́ède Gerelandi"/>
+    <tag k="name:yue" v="格陵蘭"/>
     <tag k="name:zea" v="Hroenland"/>
     <tag k="name:zh" v="格陵兰岛"/>
     <tag k="name:zh-classical" v="格陵蘭"/>
     <tag k="name:zh-min-nan" v="Chheⁿ-tē"/>
-    <tag k="name:zh-yue" v="格陵蘭"/>
     <tag k="name:zh_pinyin" v="Gélínglán Dǎo"/>
     <tag k="name:zu" v="i-Greenland"/>
     <tag k="place" v="country"/>
@@ -18051,9 +18091,9 @@
     <tag k="name:xal" v="Форойсин Арлс"/>
     <tag k="name:xmf" v="ფარერიშ კოკეფი"/>
     <tag k="name:yo" v="Àwọn Erékùṣù Fàróè"/>
+    <tag k="name:yue" v="法羅群島"/>
     <tag k="name:zh" v="法罗群岛"/>
     <tag k="name:zh-min-nan" v="Mî-iûⁿ Kûn-tó"/>
-    <tag k="name:zh-yue" v="法羅群島"/>
     <tag k="name:zh_pinyin" v="Fǎluóqúndǎo"/>
     <tag k="name:zu" v="i-Faroe Islands"/>
     <tag k="official_name:lv" v="Fēru salas"/>
@@ -18442,10 +18482,10 @@
     <tag k="name:xmf" v="კვიპროსი"/>
     <tag k="name:yi" v="קיפראס"/>
     <tag k="name:yo" v="Kíprù"/>
+    <tag k="name:yue" v="塞浦路斯"/>
     <tag k="name:zea" v="Cyprus"/>
     <tag k="name:zh" v="賽普勒斯"/>
     <tag k="name:zh-min-nan" v="Ku-pí-lō͘"/>
-    <tag k="name:zh-yue" v="塞浦路斯"/>
     <tag k="name:zh_pinyin" v="Sàipǔlùsī"/>
     <tag k="name:zu" v="i-Cyprus"/>
     <tag k="official_name" v="Κυπριακή Δημοκρατία"/>
@@ -18470,6 +18510,7 @@
     <tag k="official_name:vi" v="Cộng hòa Síp"/>
     <tag k="place" v="country"/>
     <tag k="population" v="885041"/>
+    <tag k="sqkm" v="9251"/>
     <tag k="wikidata" v="Q229"/>
     <tag k="wikipedia" v="en:Cyprus"/>
   </node>
@@ -18679,10 +18720,10 @@
     <tag k="name:xal" v="Сингапурмудин Орн"/>
     <tag k="name:yi" v="סינגאפור"/>
     <tag k="name:yo" v="Orílẹ́ède Singapo"/>
+    <tag k="name:yue" v="星架坡"/>
     <tag k="name:zh" v="新加坡"/>
     <tag k="name:zh-classical" v="新加坡"/>
     <tag k="name:zh-min-nan" v="Sin-ka-pho"/>
-    <tag k="name:zh-yue" v="星架坡"/>
     <tag k="name:zh_pinyin" v="Xīnjiāpō"/>
     <tag k="name:zu" v="i-Singapore"/>
     <tag k="official_name" v="Republic of Singapore"/>
@@ -18961,12 +19002,12 @@
     <tag k="name:xmf" v="იაპონია"/>
     <tag k="name:yi" v="יאפאן"/>
     <tag k="name:yo" v="Japan"/>
+    <tag k="name:yue" v="日本"/>
     <tag k="name:za" v="Nditbonj"/>
     <tag k="name:zea" v="Japan"/>
     <tag k="name:zh" v="日本"/>
     <tag k="name:zh-classical" v="日本"/>
     <tag k="name:zh-min-nan" v="Ji̍t-pún"/>
-    <tag k="name:zh-yue" v="日本"/>
     <tag k="name:zh_pinyin" v="Rìběn"/>
     <tag k="name:zu" v="iJapani"/>
     <tag k="official_name:ca" v="Estat del Japó"/>
@@ -19370,6 +19411,7 @@
     <tag k="name:xmf" v="ჩინეთი"/>
     <tag k="name:yi" v="כינע"/>
     <tag k="name:yo" v="Orílẹ́ède ṣáínà"/>
+    <tag k="name:yue" v="中華人民共和國"/>
     <tag k="name:za" v="Cunghvaz Yinzminz Gunghozgoz"/>
     <tag k="name:zea" v="Volksrepubliek China"/>
     <tag k="name:zh" v="中国"/>
@@ -19379,7 +19421,6 @@
     <tag k="name:zh-min-nan" v="Tiong-hoâ Jîn-bîn Kiōng-hô-kok"/>
     <tag k="name:zh-simplified" v="中国"/>
     <tag k="name:zh-traditional" v="中國"/>
-    <tag k="name:zh-yue" v="中華人民共和國"/>
     <tag k="name:zh_pinyin" v="Zhōngguó"/>
     <tag k="name:zu" v="i-China"/>
     <tag k="official_name" v="中华人民共和国"/>
@@ -19780,11 +19821,11 @@
     <tag k="name:xmf" v="აზერბაიჯანი"/>
     <tag k="name:yi" v="אזערביידזשאן"/>
     <tag k="name:yo" v="Orílẹ́ède Asẹ́bájánì"/>
+    <tag k="name:yue" v="阿塞拜疆"/>
     <tag k="name:za" v="Ahsehbaiqgyangh"/>
     <tag k="name:zea" v="Aâzerbeidzjan"/>
     <tag k="name:zh" v="阿塞拜疆"/>
     <tag k="name:zh-min-nan" v="Azerbaijan"/>
-    <tag k="name:zh-yue" v="阿塞拜疆"/>
     <tag k="name:zh_pinyin" v="Āsàibàijiāng"/>
     <tag k="name:zu" v="i-Azerbaijan"/>
     <tag k="official_name" v="Azərbaycan Respublikası"/>
@@ -20026,10 +20067,10 @@
     <tag k="name:xmf" v="ბოლივია"/>
     <tag k="name:yi" v="באליוויע"/>
     <tag k="name:yo" v="Orílẹ́ède Bọ̀lífíyà"/>
+    <tag k="name:yue" v="玻利維亞"/>
     <tag k="name:zh" v="玻利维亚"/>
     <tag k="name:zh-classical" v="玻利維亞"/>
     <tag k="name:zh-min-nan" v="Bolivia"/>
-    <tag k="name:zh-yue" v="玻利維亞"/>
     <tag k="name:zu" v="i-Bolivia"/>
     <tag k="official_name" v="Estado Plurinacional de Bolivia"/>
     <tag k="official_name:ay" v="Wuliwya Suyu"/>
@@ -20300,12 +20341,12 @@
     <tag k="name:xmf" v="ბრაზილია"/>
     <tag k="name:yi" v="בראזיל"/>
     <tag k="name:yo" v="Orílẹ́ède Bàràsílì"/>
+    <tag k="name:yue" v="巴西"/>
     <tag k="name:za" v="Bahsih"/>
     <tag k="name:zea" v="Brezilië"/>
     <tag k="name:zh" v="巴西"/>
     <tag k="name:zh-classical" v="巴西"/>
     <tag k="name:zh-min-nan" v="Pa-se"/>
-    <tag k="name:zh-yue" v="巴西"/>
     <tag k="name:zu" v="i-Brazil"/>
     <tag k="note" v="Centro geográfico oficial, não mover."/>
     <tag k="note:en" v="Official geographical centre, do not move."/>
@@ -20549,11 +20590,11 @@
     <tag k="name:xal" v="Ботсвамудин Орн"/>
     <tag k="name:yi" v="באצוואנע"/>
     <tag k="name:yo" v="Orílẹ́ède Bọ̀tìsúwánà"/>
+    <tag k="name:yue" v="波茨華拿"/>
     <tag k="name:zea" v="Botswana"/>
     <tag k="name:zh" v="博茨瓦纳"/>
     <tag k="name:zh-classical" v="波札那"/>
     <tag k="name:zh-min-nan" v="Botswana"/>
-    <tag k="name:zh-yue" v="波茨華拿"/>
     <tag k="name:zh_pinyin" v="Bócíwǎnà"/>
     <tag k="name:zu" v="i-Botswana"/>
     <tag k="official_name" v="Republic of Botswana;Lefatse la Botswana"/>
@@ -20960,11 +21001,11 @@
     <tag k="name:xmf" v="ჩეხეთი"/>
     <tag k="name:yi" v="טשעכיי"/>
     <tag k="name:yo" v="Orílẹ́ède ṣẹ́ẹ́kì"/>
+    <tag k="name:yue" v="捷克"/>
     <tag k="name:zea" v="Tsjehhië"/>
     <tag k="name:zh" v="捷克"/>
     <tag k="name:zh-classical" v="捷克"/>
     <tag k="name:zh-min-nan" v="Česko"/>
-    <tag k="name:zh-yue" v="捷克"/>
     <tag k="name:zh_pinyin" v="Jiékè"/>
     <tag k="name:zu" v="i-Czech Republic"/>
     <tag k="note" v="geograpical vs political name see http://en.wikipedia.org/wiki/Name_of_the_Czech_Republic"/>
@@ -21511,11 +21552,11 @@
     <tag k="name:xal" v="Ганмудин Орн"/>
     <tag k="name:yi" v="גהאנע"/>
     <tag k="name:yo" v="Orílẹ́ède Gana"/>
+    <tag k="name:yue" v="加納"/>
     <tag k="name:zea" v="Ghâna"/>
     <tag k="name:zh" v="加纳"/>
     <tag k="name:zh-classical" v="迦納"/>
     <tag k="name:zh-min-nan" v="Ghana"/>
-    <tag k="name:zh-yue" v="加納"/>
     <tag k="name:zh_pinyin" v="Jiānà"/>
     <tag k="name:zu" v="i-Ghana"/>
     <tag k="official_name" v="Republic of Ghana"/>
@@ -21731,10 +21772,10 @@
     <tag k="name:xal" v="Экватор Гвинемудин Орн"/>
     <tag k="name:yi" v="עקוואטארישע גינע"/>
     <tag k="name:yo" v="Orílẹ́ède Ekutoria Gini"/>
+    <tag k="name:yue" v="赤道畿內亞"/>
     <tag k="name:zea" v="Equatoriaol Hunea"/>
     <tag k="name:zh" v="赤道几内亚"/>
     <tag k="name:zh-min-nan" v="Chhiah-tō Guinea"/>
-    <tag k="name:zh-yue" v="赤道畿內亞"/>
     <tag k="name:zh_pinyin" v="Chìdào Jīnèiyà"/>
     <tag k="name:zu" v="i-Equatorial Guinea"/>
     <tag k="official_name" v="República de Guinea Ecuatorial;République de Guinée équatoriale;República da Guiné Equatorial"/>
@@ -22080,9 +22121,9 @@
     <tag k="name:xal" v="Кенимудин Орн"/>
     <tag k="name:yi" v="קעניע"/>
     <tag k="name:yo" v="Orílẹ́ède Kenya"/>
+    <tag k="name:yue" v="肯雅"/>
     <tag k="name:zh" v="肯尼亚"/>
     <tag k="name:zh-min-nan" v="Kenya"/>
-    <tag k="name:zh-yue" v="肯雅"/>
     <tag k="name:zh_pinyin" v="Kěnníyà"/>
     <tag k="name:zu" v="i-Kenya"/>
     <tag k="official_name" v="Republic of Kenya;Jamhuri ya Kenya"/>
@@ -22304,11 +22345,11 @@
     <tag k="name:xal" v="Кувейтин Нутг"/>
     <tag k="name:yi" v="קואווייט"/>
     <tag k="name:yo" v="Orílẹ́ède Kuweti"/>
+    <tag k="name:yue" v="科威特"/>
     <tag k="name:zea" v="Koeweit"/>
     <tag k="name:zh" v="科威特"/>
     <tag k="name:zh-classical" v="科威特"/>
     <tag k="name:zh-min-nan" v="Kuwait"/>
-    <tag k="name:zh-yue" v="科威特"/>
     <tag k="name:zh_pinyin" v="Kēwēitè"/>
     <tag k="name:zu" v="i-Kuwait"/>
     <tag k="official_name" v="دولة الكويت"/>
@@ -22471,9 +22512,9 @@
     <tag k="name:war" v="Montserrat"/>
     <tag k="name:wo" v="Montserrat"/>
     <tag k="name:yo" v="Orílẹ́ède Motserati"/>
+    <tag k="name:yue" v="蒙塞拉特島"/>
     <tag k="name:zh" v="蒙特塞拉特"/>
     <tag k="name:zh-min-nan" v="Montserrat"/>
-    <tag k="name:zh-yue" v="蒙塞拉特島"/>
     <tag k="name:zu" v="i-Montserrat"/>
     <tag k="place" v="country"/>
     <tag k="population" v="4922"/>
@@ -22706,11 +22747,11 @@
     <tag k="name:xmf" v="პაკისტანი"/>
     <tag k="name:yi" v="פאקיסטאן"/>
     <tag k="name:yo" v="Pakistan"/>
+    <tag k="name:yue" v="巴基斯坦"/>
     <tag k="name:zea" v="Pakistan"/>
     <tag k="name:zh" v="巴基斯坦"/>
     <tag k="name:zh-classical" v="巴基斯坦"/>
     <tag k="name:zh-min-nan" v="Pakistan"/>
-    <tag k="name:zh-yue" v="巴基斯坦"/>
     <tag k="name:zh_pinyin" v="Bājīsītǎn"/>
     <tag k="name:zu" v="i-Pakistan"/>
     <tag k="official_name" v="Islamic Republic of Pakistan"/>
@@ -22926,9 +22967,9 @@
     <tag k="name:xal" v="Сьералегонмудин Орн"/>
     <tag k="name:yi" v="סיערע לעאנע"/>
     <tag k="name:yo" v="Orílẹ́ède Siria looni"/>
+    <tag k="name:yue" v="塞拉利昂"/>
     <tag k="name:zh" v="塞拉利昂"/>
     <tag k="name:zh-min-nan" v="Sierra Leone"/>
-    <tag k="name:zh-yue" v="塞拉利昂"/>
     <tag k="name:zh_pinyin" v="Sàilālì'áng"/>
     <tag k="name:zu" v="i-Sierra Leone"/>
     <tag k="official_name" v="Republic of Sierra Leone"/>
@@ -22959,7 +23000,7 @@
     <tag k="geonames:id" v="1269750"/>
     <tag k="int_name" v="India"/>
     <tag k="is_in:continent" v="Asia"/>
-    <tag k="name" v="India"/>
+    <tag k="name" v="भारत"/>
     <tag k="name:ace" v="India"/>
     <tag k="name:af" v="Indië"/>
     <tag k="name:als" v="Indien"/>
@@ -23196,12 +23237,12 @@
     <tag k="name:xmf" v="ინდოეთი"/>
     <tag k="name:yi" v="אינדיע"/>
     <tag k="name:yo" v="Orílẹ́ède India"/>
+    <tag k="name:yue" v="印度"/>
     <tag k="name:za" v="Yindu"/>
     <tag k="name:zea" v="India"/>
     <tag k="name:zh" v="印度"/>
     <tag k="name:zh-classical" v="印度"/>
     <tag k="name:zh-min-nan" v="Ìn-tō͘"/>
-    <tag k="name:zh-yue" v="印度"/>
     <tag k="name:zh_pinyin" v="Yìndù"/>
     <tag k="name:zu" v="i-India"/>
     <tag k="official_name" v="भारत गणराज्य"/>
@@ -23430,10 +23471,10 @@
     <tag k="name:xal" v="Тоҗгудин Орн"/>
     <tag k="name:yi" v="טאדזשיקיסטאן"/>
     <tag k="name:yo" v="Orílẹ́ède Takisitani"/>
+    <tag k="name:yue" v="塔吉克"/>
     <tag k="name:zea" v="Tadzjikistan"/>
     <tag k="name:zh" v="塔吉克斯坦"/>
     <tag k="name:zh-min-nan" v="Tajikistan"/>
-    <tag k="name:zh-yue" v="塔吉克"/>
     <tag k="name:zh_pinyin" v="Tǎjíkèsītǎn"/>
     <tag k="name:zu" v="i-Tajikistan"/>
     <tag k="official_name:be" v="Рэспубліка Таджыкістан"/>
@@ -23672,9 +23713,9 @@
     <tag k="name:xal" v="Танзнмудин Ниицәтә Орн"/>
     <tag k="name:yi" v="טאנזאניע"/>
     <tag k="name:yo" v="Orílẹ́ède Tanṣania"/>
+    <tag k="name:yue" v="坦桑尼亞"/>
     <tag k="name:zh" v="坦桑尼亚"/>
     <tag k="name:zh-min-nan" v="Tanzania"/>
-    <tag k="name:zh-yue" v="坦桑尼亞"/>
     <tag k="name:zh_pinyin" v="Tǎnsāngníyà"/>
     <tag k="name:zu" v="i-Tanzania"/>
     <tag k="official_name" v="Den forente republikken Tanzania"/>
@@ -23734,6 +23775,7 @@
     <tag k="name:en" v="Colombia"/>
     <tag k="name:eo" v="Kolombio"/>
     <tag k="name:es" v="Colombia"/>
+    <tag k="name:et" v="Colombia"/>
     <tag k="name:eu" v="Kolonbia"/>
     <tag k="name:fa" v="کلمبیا"/>
     <tag k="name:ff" v="Kolombiya"/>
@@ -24071,9 +24113,9 @@
     <tag k="name:xal" v="Котдивугармудин Орн"/>
     <tag k="name:yi" v="בארטן פון העלפאנדביין"/>
     <tag k="name:yo" v="Orílẹ́ède Kóútè forà"/>
+    <tag k="name:yue" v="象牙海岸"/>
     <tag k="name:zh" v="科特迪瓦"/>
     <tag k="name:zh-min-nan" v="Côte d'Ivoire"/>
-    <tag k="name:zh-yue" v="象牙海岸"/>
     <tag k="name:zh_pinyin" v="Kētèdíwǎ"/>
     <tag k="name:zu" v="i-Ivory Coast"/>
     <tag k="official_name" v="République de Côte d’Ivoire"/>
@@ -24333,11 +24375,11 @@
     <tag k="name:xmf" v="ისლანდია"/>
     <tag k="name:yi" v="איסלאנד"/>
     <tag k="name:yo" v="Orílẹ́ède Aṣilandi"/>
+    <tag k="name:yue" v="冰島"/>
     <tag k="name:zea" v="Iesland"/>
     <tag k="name:zh" v="冰岛"/>
     <tag k="name:zh-classical" v="冰島"/>
     <tag k="name:zh-min-nan" v="Peng-tē"/>
-    <tag k="name:zh-yue" v="冰島"/>
     <tag k="name:zh_pinyin" v="Bīngdǎo"/>
     <tag k="name:zu" v="i-Iceland"/>
     <tag k="official_name" v="Lýðveldið Ísland"/>
@@ -24641,12 +24683,12 @@
     <tag k="name:xmf" v="რუსეთი"/>
     <tag k="name:yi" v="רוסלאנד"/>
     <tag k="name:yo" v="Orílẹ́ède Rọṣia"/>
+    <tag k="name:yue" v="俄羅斯"/>
     <tag k="name:za" v="Ezlozswh"/>
     <tag k="name:zea" v="Rusland"/>
     <tag k="name:zh" v="俄罗斯"/>
     <tag k="name:zh-classical" v="俄羅斯"/>
     <tag k="name:zh-min-nan" v="Lō͘-se-a"/>
-    <tag k="name:zh-yue" v="俄羅斯"/>
     <tag k="name:zh_pinyin" v="Éluósī"/>
     <tag k="name:zu" v="i-Russia"/>
     <tag k="official_name" v="Российская Федерация"/>
@@ -24883,10 +24925,10 @@
     <tag k="name:xal" v="Оманин Нутг"/>
     <tag k="name:yi" v="אמאן"/>
     <tag k="name:yo" v="Orílẹ́ède Ọọma"/>
+    <tag k="name:yue" v="阿曼"/>
     <tag k="name:zea" v="Omaan"/>
     <tag k="name:zh" v="阿曼"/>
     <tag k="name:zh-min-nan" v="Oman"/>
-    <tag k="name:zh-yue" v="阿曼"/>
     <tag k="name:zh_pinyin" v="Āmàn"/>
     <tag k="name:zu" v="i-Oman"/>
     <tag k="official_name" v="سلطنة عُمان"/>
@@ -25430,9 +25472,9 @@
     <tag k="name:xal" v="Камерудин Орн"/>
     <tag k="name:yi" v="קאמערון"/>
     <tag k="name:yo" v="Orílẹ́ède Kamerúúnì"/>
+    <tag k="name:yue" v="喀麥隆"/>
     <tag k="name:zh" v="喀麦隆"/>
     <tag k="name:zh-min-nan" v="Cameroon"/>
-    <tag k="name:zh-yue" v="喀麥隆"/>
     <tag k="name:zh_pinyin" v="Kāmàilóng"/>
     <tag k="name:zu" v="i-Cameroon"/>
     <tag k="official_name" v="Republic of Cameroon;République du Cameroun"/>
@@ -25664,10 +25706,10 @@
     <tag k="name:wuu" v="埃及"/>
     <tag k="name:yi" v="עגיפטן"/>
     <tag k="name:yo" v="Egypt"/>
+    <tag k="name:yue" v="埃及"/>
     <tag k="name:zh" v="埃及"/>
     <tag k="name:zh-classical" v="埃及"/>
     <tag k="name:zh-min-nan" v="Ai-ki̍p"/>
-    <tag k="name:zh-yue" v="埃及"/>
     <tag k="name:zh_pinyin" v="Āijí"/>
     <tag k="name:zu" v="i-Egypt"/>
     <tag k="official_name" v="جمهورية مصر العربية"/>
@@ -25910,9 +25952,9 @@
     <tag k="name:xal" v="Эритреймудин Орн"/>
     <tag k="name:yi" v="עריטרעא"/>
     <tag k="name:yo" v="Orílẹ́ède Eritira"/>
+    <tag k="name:yue" v="厄立特里亞"/>
     <tag k="name:zh" v="厄立特里亚"/>
     <tag k="name:zh-min-nan" v="Eritrea"/>
-    <tag k="name:zh-yue" v="厄立特里亞"/>
     <tag k="name:zh_pinyin" v="Èlìtèlǐyà"/>
     <tag k="name:zu" v="i-Eritrea"/>
     <tag k="official_name" v="ሃገረ ኤርትራ;دولة إرتريا"/>
@@ -26262,11 +26304,11 @@
     <tag k="name:xal" v="Иракудин Орн"/>
     <tag k="name:yi" v="איראק"/>
     <tag k="name:yo" v="Orílẹ́ède Iraki"/>
+    <tag k="name:yue" v="伊拉克"/>
     <tag k="name:zea" v="Irak"/>
     <tag k="name:zh" v="伊拉克"/>
     <tag k="name:zh-classical" v="伊拉克"/>
     <tag k="name:zh-min-nan" v="Iraq"/>
-    <tag k="name:zh-yue" v="伊拉克"/>
     <tag k="name:zh_pinyin" v="Yīlākè"/>
     <tag k="name:zu" v="i-Iraq"/>
     <tag k="official_name" v="جمهورية العراق"/>
@@ -26500,10 +26542,10 @@
     <tag k="name:xal" v="Хашимит Җордин Нутг"/>
     <tag k="name:yi" v="יארדאניע"/>
     <tag k="name:yo" v="Orílẹ́ède Jọdani"/>
+    <tag k="name:yue" v="約旦"/>
     <tag k="name:zea" v="Jordaonië"/>
     <tag k="name:zh" v="约旦"/>
     <tag k="name:zh-min-nan" v="Iok-tàn"/>
-    <tag k="name:zh-yue" v="約旦"/>
     <tag k="name:zh_pinyin" v="Yuēdàn"/>
     <tag k="name:zu" v="i-Jordan"/>
     <tag k="official_name" v="المملكة الأردنية الهاشمية"/>
@@ -27055,10 +27097,10 @@
     <tag k="name:xmf" v="მოლდოვა"/>
     <tag k="name:yi" v="מאלדאווע"/>
     <tag k="name:yo" v="Orílẹ́ède Modofia"/>
+    <tag k="name:yue" v="摩爾多瓦"/>
     <tag k="name:zea" v="Moldâvië"/>
     <tag k="name:zh" v="摩尔多瓦"/>
     <tag k="name:zh-min-nan" v="Moldova"/>
-    <tag k="name:zh-yue" v="摩爾多瓦"/>
     <tag k="name:zh_pinyin" v="Móěrduōwă"/>
     <tag k="name:zu" v="i-Moldova"/>
     <tag k="official_name" v="Republica Moldova"/>
@@ -27289,12 +27331,12 @@
     <tag k="name:xmf" v="მიანმარი"/>
     <tag k="name:yi" v="מיאנמאר"/>
     <tag k="name:yo" v="Orílẹ́ède Manamari"/>
+    <tag k="name:yue" v="緬甸"/>
     <tag k="name:za" v="Mienjdien"/>
     <tag k="name:zea" v="Myanmar"/>
     <tag k="name:zh" v="缅甸"/>
     <tag k="name:zh-classical" v="緬甸"/>
     <tag k="name:zh-min-nan" v="Myanma"/>
-    <tag k="name:zh-yue" v="緬甸"/>
     <tag k="name:zh_pinyin" v="Miǎndiàn"/>
     <tag k="name:zu" v="e-Myanmar [Burma]"/>
     <tag k="official_name:be" v="Рэспубліка Саюз М'янма"/>
@@ -27710,11 +27752,11 @@
     <tag k="name:xh" v="INigeria"/>
     <tag k="name:yi" v="ניגעריע"/>
     <tag k="name:yo" v="Orílẹ́ède Nàìjíríà"/>
+    <tag k="name:yue" v="尼日利亞"/>
     <tag k="name:za" v="Nizywlihya"/>
     <tag k="name:zh" v="尼日利亚"/>
     <tag k="name:zh-classical" v="尼日利亞"/>
     <tag k="name:zh-min-nan" v="Nigeria"/>
-    <tag k="name:zh-yue" v="尼日利亞"/>
     <tag k="name:zh_pinyin" v="Nírìlìyà"/>
     <tag k="name:zu" v="i-Nigeria"/>
     <tag k="official_name" v="Federal Republic of Nigeria"/>
@@ -27922,9 +27964,9 @@
     <tag k="name:xal" v="Никарагудин Орн"/>
     <tag k="name:yi" v="ניקאראגוא"/>
     <tag k="name:yo" v="Orílẹ́ède NIkaragua"/>
+    <tag k="name:yue" v="尼加拉瓜"/>
     <tag k="name:zh" v="尼加拉瓜"/>
     <tag k="name:zh-min-nan" v="Nicaragua"/>
-    <tag k="name:zh-yue" v="尼加拉瓜"/>
     <tag k="name:zu" v="i-Nicaragua"/>
     <tag k="official_name" v="República de Nicaragua"/>
     <tag k="official_name:be" v="Рэспубліка Нікарагуа"/>
@@ -28136,10 +28178,10 @@
     <tag k="name:xal" v="Панамудин Орн"/>
     <tag k="name:yi" v="פאנאמא"/>
     <tag k="name:yo" v="Orílẹ́ède Panama"/>
+    <tag k="name:yue" v="巴拿馬"/>
     <tag k="name:zh" v="巴拿马"/>
     <tag k="name:zh-classical" v="巴拿馬"/>
     <tag k="name:zh-min-nan" v="Panamá"/>
-    <tag k="name:zh-yue" v="巴拿馬"/>
     <tag k="name:zu" v="i-Panama"/>
     <tag k="official_name" v="República de Panamá"/>
     <tag k="official_name:be" v="Рэспубліка Панама"/>
@@ -28482,10 +28524,10 @@
     <tag k="name:xal" v="Сомалмудин Орн"/>
     <tag k="name:yi" v="סאמאליע"/>
     <tag k="name:yo" v="Orílẹ́ède Somalia"/>
+    <tag k="name:yue" v="索馬里"/>
     <tag k="name:zh" v="索马里"/>
     <tag k="name:zh-classical" v="索馬里"/>
     <tag k="name:zh-min-nan" v="Somalia"/>
-    <tag k="name:zh-yue" v="索馬里"/>
     <tag k="name:zh_pinyin" v="Suǒmǎlǐ"/>
     <tag k="name:zu" v="i-Somalia"/>
     <tag k="official_name" v="Somali Republic"/>
@@ -29007,10 +29049,10 @@
     <tag k="name:xal" v="Угандин Орн"/>
     <tag k="name:yi" v="אוגאנדע"/>
     <tag k="name:yo" v="Orílẹ́ède Uganda"/>
+    <tag k="name:yue" v="烏干達"/>
     <tag k="name:zh" v="乌干达"/>
     <tag k="name:zh-classical" v="烏干達"/>
     <tag k="name:zh-min-nan" v="Uganda"/>
-    <tag k="name:zh-yue" v="烏干達"/>
     <tag k="name:zh_pinyin" v="Wūgāndá"/>
     <tag k="name:zu" v="i-Uganda"/>
     <tag k="official_name" v="Republic of Uganda;Jamhuri ya Uganda"/>
@@ -29244,10 +29286,10 @@
     <tag k="name:xal" v="Сартин Орн"/>
     <tag k="name:yi" v="אוזבעקיסטאן"/>
     <tag k="name:yo" v="Orílẹ́ède Nṣibẹkisitani"/>
+    <tag k="name:yue" v="月即別"/>
     <tag k="name:zea" v="Oezbekistan"/>
     <tag k="name:zh" v="乌兹别克斯坦"/>
     <tag k="name:zh-min-nan" v="Uzbekistan"/>
-    <tag k="name:zh-yue" v="月即別"/>
     <tag k="name:zh_pinyin" v="Wūzībiékèsītǎn"/>
     <tag k="name:zu" v="i-Uzbekistan"/>
     <tag k="official_name" v="O‘zbekiston Respublikasi"/>
@@ -29327,7 +29369,7 @@
     <tag k="name:ceb" v="Estados Unidos sa Amerika"/>
     <tag k="name:chr" v="ᎠᎹᏰᏟ"/>
     <tag k="name:chy" v="United States"/>
-    <tag k="name:ckb" v="وڵاتە یەکگرتووەکان"/>
+    <tag k="name:ckb" v="ویلایەتە یەکگرتووەکانی ئەمریکا"/>
     <tag k="name:co" v="Stati Uniti d'America"/>
     <tag k="name:crh" v="Amerika Qoşma Ştatları"/>
     <tag k="name:cs" v="Spojené státy americké"/>
@@ -29436,6 +29478,7 @@
     <tag k="name:mk" v="Соединети Американски Држави"/>
     <tag k="name:ml" v="അമേരിക്കന്‍ ഐക്യനാടുകള്"/>
     <tag k="name:mn" v="Америкийн Нэгдсэн Улс"/>
+    <tag k="name:mo" v="Стателе Уните але Америчий"/>
     <tag k="name:mr" v="संयुक्त राज्ये /अमेरिका"/>
     <tag k="name:mrj" v="Америкын Ушымы Штатвлӓжӹ"/>
     <tag k="name:ms" v="Amerika Syarikat"/>
@@ -29545,12 +29588,12 @@
     <tag k="name:xmf" v="ამერიკაშ აკოართაფილი შტატეფი"/>
     <tag k="name:yi" v="פאראייניקטע שטאטן פון אמעריקע"/>
     <tag k="name:yo" v="Orílẹ́ède Orilẹede Amerika"/>
+    <tag k="name:yue" v="即美利堅合眾國"/>
     <tag k="name:za" v="Meijgoz"/>
     <tag k="name:zea" v="Vereênigde Staeten"/>
     <tag k="name:zh" v="美國"/>
     <tag k="name:zh-classical" v="美利堅合眾國"/>
     <tag k="name:zh-min-nan" v="America Ha̍p-chiòng-kok"/>
-    <tag k="name:zh-yue" v="即美利堅合眾國"/>
     <tag k="name:zh_pinyin" v="Měiguó"/>
     <tag k="name:zu" v="i-United States"/>
     <tag k="official_name:eo" v="Unuiĝintaj Ŝtatoj de Ameriko"/>
@@ -29798,12 +29841,12 @@
     <tag k="name:xmf" v="ალჟირი"/>
     <tag k="name:yi" v="אלזשעריע"/>
     <tag k="name:yo" v="Algeria"/>
+    <tag k="name:yue" v="阿爾及利亞"/>
     <tag k="name:zea" v="Alherije"/>
     <tag k="name:zgh" v="ⴷⵥⴰⵢⴻⵔ"/>
     <tag k="name:zh" v="阿尔及利亚"/>
     <tag k="name:zh-classical" v="阿爾及利亞"/>
     <tag k="name:zh-min-nan" v="Algeria"/>
-    <tag k="name:zh-yue" v="阿爾及利亞"/>
     <tag k="name:zh_pinyin" v="Āěrjílìyà"/>
     <tag k="name:zu" v="i-Algeria"/>
     <tag k="official_name" v="الجمهورية الجزائرية الديمقراطية الشعبية"/>
@@ -30011,9 +30054,9 @@
     <tag k="name:wo" v="Antigua ak Barbuda"/>
     <tag k="name:xal" v="Антигуд болн Барбуд"/>
     <tag k="name:yo" v="Orílẹ́ède Ààntígúà àti Báríbúdà"/>
+    <tag k="name:yue" v="安提瓜巴布達"/>
     <tag k="name:zh" v="安提瓜和巴布达"/>
     <tag k="name:zh-min-nan" v="Antigua kap Barbuda"/>
-    <tag k="name:zh-yue" v="安提瓜巴布達"/>
     <tag k="name:zu" v="i-Antigua and Barbuda"/>
     <tag k="place" v="country"/>
     <tag k="population" v="69842"/>
@@ -30236,10 +30279,10 @@
     <tag k="name:xal" v="Бенгалмудин Улс Орн"/>
     <tag k="name:yi" v="באנגלאדעש"/>
     <tag k="name:yo" v="Orílẹ́ède Bángáládésì"/>
+    <tag k="name:yue" v="孟加拉國"/>
     <tag k="name:zea" v="Bangladesh"/>
     <tag k="name:zh" v="孟加拉国"/>
     <tag k="name:zh-min-nan" v="Bangladesh"/>
-    <tag k="name:zh-yue" v="孟加拉國"/>
     <tag k="name:zh_pinyin" v="Mèngjiālāguó"/>
     <tag k="name:zu" v="i-Bangladesh"/>
     <tag k="official_name:be" v="Народная Рэспубліка Бангладэш"/>
@@ -30470,11 +30513,11 @@
     <tag k="name:xal" v="Камбудин Нутг"/>
     <tag k="name:yi" v="קאמבאדיע"/>
     <tag k="name:yo" v="Orílẹ́ède Kàmùbódíà"/>
+    <tag k="name:yue" v="柬埔寨"/>
     <tag k="name:zea" v="Cambodja"/>
     <tag k="name:zh" v="柬埔寨"/>
     <tag k="name:zh-classical" v="柬埔寨"/>
     <tag k="name:zh-min-nan" v="Kampuchea"/>
-    <tag k="name:zh-yue" v="柬埔寨"/>
     <tag k="name:zh_pinyin" v="Gāomián"/>
     <tag k="name:zu" v="i-Cambodia"/>
     <tag k="official_name:af" v="Koninkryk van Kambodja"/>
@@ -30700,10 +30743,10 @@
     <tag k="name:wo" v="Réewum Diggu Afrig"/>
     <tag k="name:xal" v="Өр Априкин Орн"/>
     <tag k="name:yo" v="Orílẹ́ède Àrin gùngun Áfíríkà"/>
+    <tag k="name:yue" v="中非共和國"/>
     <tag k="name:zh" v="中非"/>
     <tag k="name:zh-classical" v="中非"/>
     <tag k="name:zh-min-nan" v="Tiong-hui Kiōng-hô-kok"/>
-    <tag k="name:zh-yue" v="中非共和國"/>
     <tag k="name:zh_pinyin" v="Zhōng Fēi"/>
     <tag k="name:zu" v="i-Central African Republic"/>
     <tag k="official_name:fr" v="République centrafricaine"/>
@@ -31443,10 +31486,10 @@
     <tag k="name:wuu" v="格鲁吉亚"/>
     <tag k="name:xal" v="Гүрҗмүдн Орн Нутг"/>
     <tag k="name:yo" v="Georgia"/>
+    <tag k="name:yue" v="格魯吉亞"/>
     <tag k="name:zea" v="Georhië"/>
     <tag k="name:zh" v="乔治亚"/>
     <tag k="name:zh-min-nan" v="Sakartvelo"/>
-    <tag k="name:zh-yue" v="格魯吉亞"/>
     <tag k="name:zh_pinyin" v="Qiáozhìyà"/>
     <tag k="name:zu" v="i-Georgia"/>
     <tag k="note" v="not &quot;Republic of&quot; since 1995"/>
@@ -31664,10 +31707,10 @@
     <tag k="name:xal" v="Эллинмүдн Орн Нутг"/>
     <tag k="name:yi" v="גריכנלאנד"/>
     <tag k="name:yo" v="Gréésì"/>
+    <tag k="name:yue" v="希臘"/>
     <tag k="name:zh" v="希腊"/>
     <tag k="name:zh-classical" v="希臘共和國"/>
     <tag k="name:zh-min-nan" v="Hi-lia̍p"/>
-    <tag k="name:zh-yue" v="希臘"/>
     <tag k="name:zh_pinyin" v="Xīlà"/>
     <tag k="name:zu" v="IGrisi"/>
     <tag k="official_name" v="Ελληνική Δημοκρατία"/>
@@ -32183,11 +32226,11 @@
     <tag k="name:xmf" v="ლიბია"/>
     <tag k="name:yi" v="ליביע"/>
     <tag k="name:yo" v="Libya"/>
+    <tag k="name:yue" v="利比亞"/>
     <tag k="name:zea" v="Libië"/>
     <tag k="name:zh" v="利比亚"/>
     <tag k="name:zh-classical" v="利比亞"/>
     <tag k="name:zh-min-nan" v="Libya"/>
-    <tag k="name:zh-yue" v="利比亞"/>
     <tag k="name:zh_pinyin" v="Lìbǐyà"/>
     <tag k="name:zu" v="i-Libya"/>
     <tag k="official_name" v="الجماهيرية العربية الليبية الشعبية الإشتراكية العظمى"/>
@@ -32418,11 +32461,11 @@
     <tag k="name:xal" v="Мадагаскармудин Орн"/>
     <tag k="name:yi" v="מאדאגאסקאר"/>
     <tag k="name:yo" v="Orílẹ́ède Madasika"/>
+    <tag k="name:yue" v="馬達加斯加"/>
     <tag k="name:zea" v="Madahaskar"/>
     <tag k="name:zh" v="马达加斯加"/>
     <tag k="name:zh-classical" v="馬達加斯加"/>
     <tag k="name:zh-min-nan" v="Madagasikara"/>
-    <tag k="name:zh-yue" v="馬達加斯加"/>
     <tag k="name:zh_pinyin" v="Mǎdájiāsījiā"/>
     <tag k="name:zu" v="i-Madagascar"/>
     <tag k="official_name" v="Repoblikan'i Madagasikara"/>
@@ -32681,10 +32724,10 @@
     <tag k="name:xmf" v="მექსიკა"/>
     <tag k="name:yi" v="מעקסיקא"/>
     <tag k="name:yo" v="Orílẹ́ède Mesiko"/>
+    <tag k="name:yue" v="墨西哥"/>
     <tag k="name:zh" v="墨西哥"/>
     <tag k="name:zh-classical" v="墨西哥"/>
     <tag k="name:zh-min-nan" v="Be̍k-se-ko"/>
-    <tag k="name:zh-yue" v="墨西哥"/>
     <tag k="name:zu" v="i-Mexico"/>
     <tag k="official_name" v="Estados Unidos Mexicanos"/>
     <tag k="official_name:be" v="Мексіканскія Злучаныя Штаты"/>
@@ -32882,7 +32925,7 @@
     <tag k="name:bcl" v="Moroko"/>
     <tag k="name:be" v="Марока"/>
     <tag k="name:be-tarask" v="Марока"/>
-    <tag k="name:ber" v="ⴰⵎⵔⵔⵓⴽ"/>
+    <tag k="name:ber" v="ⵍⵎⵖⵔⵉⴱ"/>
     <tag k="name:bg" v="Мароко"/>
     <tag k="name:bjn" v="Maroko"/>
     <tag k="name:bm" v="Maroko"/>
@@ -33063,12 +33106,12 @@
     <tag k="name:xal" v="Морокин Нутг"/>
     <tag k="name:yi" v="מאראקא"/>
     <tag k="name:yo" v="Mòrókò"/>
+    <tag k="name:yue" v="摩洛哥"/>
     <tag k="name:zea" v="Marokko"/>
     <tag k="name:zgh" v="ⵍⵎⵖⵔⵉⴱ"/>
     <tag k="name:zh" v="摩洛哥"/>
     <tag k="name:zh-classical" v="摩洛哥"/>
     <tag k="name:zh-min-nan" v="Morocco"/>
-    <tag k="name:zh-yue" v="摩洛哥"/>
     <tag k="name:zh_pinyin" v="Móluògē"/>
     <tag k="name:zu" v="i-Morocco"/>
     <tag k="official_name:ar" v="المملكة المغربية"/>
@@ -33621,9 +33664,9 @@
     <tag k="name:xal" v="Конһлмудин Орн"/>
     <tag k="name:yi" v="רעפובליק פון קאנגא"/>
     <tag k="name:yo" v="Orílẹ́ède Kóngò"/>
+    <tag k="name:yue" v="剛果"/>
     <tag k="name:zh" v="刚果共和国"/>
     <tag k="name:zh-min-nan" v="Congo Kiōng-hô-kok"/>
-    <tag k="name:zh-yue" v="剛果"/>
     <tag k="name:zu" v="e-Congo [Republic]"/>
     <tag k="official_name:fr" v="République du Congo"/>
     <tag k="official_name:gd" v="Poblachd na Congo"/>
@@ -34103,9 +34146,9 @@
     <tag k="name:xal" v="Сенегалмудин Орн"/>
     <tag k="name:yi" v="סענעגאל"/>
     <tag k="name:yo" v="Orílẹ́ède Sẹnẹga"/>
+    <tag k="name:yue" v="塞內加爾"/>
     <tag k="name:zh" v="塞内加尔"/>
     <tag k="name:zh-min-nan" v="Senegal"/>
-    <tag k="name:zh-yue" v="塞內加爾"/>
     <tag k="name:zh_pinyin" v="Sàinèijiāěr"/>
     <tag k="name:zu" v="i-Senegal"/>
     <tag k="official_name" v="République du Sénégal"/>
@@ -34470,10 +34513,10 @@
     <tag k="name:xal" v="Суринамудин Орн"/>
     <tag k="name:yi" v="סורינאם"/>
     <tag k="name:yo" v="Orílẹ́ède Surinami"/>
+    <tag k="name:yue" v="蘇里南"/>
     <tag k="name:zea" v="Surinaome"/>
     <tag k="name:zh" v="苏里南"/>
     <tag k="name:zh-min-nan" v="Suriname"/>
-    <tag k="name:zh-yue" v="蘇里南"/>
     <tag k="name:zu" v="i-Suriname"/>
     <tag k="official_name" v="Republiek van Suriname"/>
     <tag k="official_name:be" v="Рэспубліка Сурынам"/>
@@ -34590,13 +34633,13 @@
     <tag k="alt_name:war" v="Republika han Tsina"/>
     <tag k="alt_name:xal" v="Китдин Орн"/>
     <tag k="alt_name:yi" v="רעפובליק פון כינע"/>
+    <tag k="alt_name:yue" v="中華民國"/>
     <tag k="alt_name:za" v="Cunghvaz Minzgoz"/>
     <tag k="alt_name:zh" v="中華民國"/>
     <tag k="alt_name:zh-Hans" v="中华民国"/>
     <tag k="alt_name:zh-Hant" v="中華民國"/>
     <tag k="alt_name:zh-classical" v="中華民國"/>
     <tag k="alt_name:zh-min-nan" v="Tiong-hoâ Bîn-kok"/>
-    <tag k="alt_name:zh-yue" v="中華民國"/>
     <tag k="country_code_fips" v="TW"/>
     <tag k="country_code_iso3166_1_alpha_2" v="TW"/>
     <tag k="int_name" v="Taiwan"/>
@@ -34655,6 +34698,7 @@
     <tag k="name:ki" v="Taiwani"/>
     <tag k="name:kk" v="Тайвань"/>
     <tag k="name:kl" v="Taiwan"/>
+    <tag k="name:kn" v="ತೈವಾನ್"/>
     <tag k="name:ksh" v="Taiwan"/>
     <tag k="name:ku" v="Taywan"/>
     <tag k="name:la" v="Taivania"/>
@@ -34740,13 +34784,13 @@
     <tag k="official_name:tl" v="Republika ng Tsina"/>
     <tag k="official_name:vi" v="Trung Hoa Dân Quốc"/>
     <tag k="official_name:vo" v="Repüblik Tsyinän"/>
+    <tag k="official_name:yue" v="中華民國"/>
     <tag k="official_name:za" v="Cunghvaz Minzgoz"/>
     <tag k="official_name:zh" v="中華民國"/>
     <tag k="official_name:zh-Hans" v="中华民国"/>
     <tag k="official_name:zh-Hant" v="中華民國"/>
     <tag k="official_name:zh-classical" v="中華民國"/>
     <tag k="official_name:zh-min-nan" v="Tiong-hoâ Bîn-kok"/>
-    <tag k="official_name:zh-yue" v="中華民國"/>
     <tag k="place" v="country"/>
     <tag k="population" v="23127845"/>
     <tag k="source:sqkm" v="CIA World Factbook"/>
@@ -34956,9 +35000,9 @@
     <tag k="name:xal" v="Уругаймудин Орн"/>
     <tag k="name:yi" v="אורוגוויי"/>
     <tag k="name:yo" v="Orílẹ́ède Nruguayi"/>
+    <tag k="name:yue" v="烏拉圭"/>
     <tag k="name:zh" v="乌拉圭"/>
     <tag k="name:zh-min-nan" v="Uruguay"/>
-    <tag k="name:zh-yue" v="烏拉圭"/>
     <tag k="name:zu" v="i-Uruguay"/>
     <tag k="official_name" v="República Oriental del Uruguay"/>
     <tag k="official_name:be" v="Усходняя Рэспубліка Уругвай"/>
@@ -35182,10 +35226,10 @@
     <tag k="name:xal" v="Замбудин Орн"/>
     <tag k="name:yi" v="זאמביע"/>
     <tag k="name:yo" v="Orílẹ́ède ṣamibia"/>
+    <tag k="name:yue" v="贊比亞"/>
     <tag k="name:zh" v="赞比亚"/>
     <tag k="name:zh-classical" v="尚比亞"/>
     <tag k="name:zh-min-nan" v="Zambia"/>
-    <tag k="name:zh-yue" v="贊比亞"/>
     <tag k="name:zh_pinyin" v="Zànbǐyà"/>
     <tag k="name:zu" v="i-Zambia"/>
     <tag k="official_name" v="Republic of Zambia"/>
@@ -35344,9 +35388,9 @@
     <tag k="name:war" v="Anguilla"/>
     <tag k="name:wo" v="Angila"/>
     <tag k="name:yo" v="Orílẹ́ède Ààngúlílà"/>
+    <tag k="name:yue" v="安圭拉"/>
     <tag k="name:zh" v="安圭拉"/>
     <tag k="name:zh-min-nan" v="Anguilla"/>
-    <tag k="name:zh-yue" v="安圭拉"/>
     <tag k="name:zu" v="i-Anguilla"/>
     <tag k="place" v="country"/>
     <tag k="population" v="15423"/>
@@ -35936,11 +35980,11 @@
     <tag k="name:xal" v="Конһлмудин Улс Орн"/>
     <tag k="name:yi" v="דעמאקראטישע רעפובליק פון קאנגא"/>
     <tag k="name:yo" v="Orilẹ́ède Kóngò"/>
+    <tag k="name:yue" v="剛果民主共和國"/>
     <tag k="name:za" v="Ganggoj Minzcuj Gunghozgoz"/>
     <tag k="name:zh" v="刚果民主共和国"/>
     <tag k="name:zh-classical" v="剛果民主共和國"/>
     <tag k="name:zh-min-nan" v="Congo Bîn-chú Kiōng-hô-kok"/>
-    <tag k="name:zh-yue" v="剛果民主共和國"/>
     <tag k="name:zu" v="e-Congo [DRC]"/>
     <tag k="note" v="Do not confuse with Republic of the Congo, name from http://unstats.un.org/unsd/geoinfo/UNGEGN/docs/26th-gegn-docs/WP/WP54_UNGEGN%20WG%20Country%20Names%20Document%202011.pdf, same as in French"/>
     <tag k="official_name:fr" v="République démocratique du Congo"/>
@@ -36172,12 +36216,12 @@
     <tag k="name:xal" v="Тагилмудин Нутг"/>
     <tag k="name:yi" v="טיילאנד"/>
     <tag k="name:yo" v="Thailandi"/>
+    <tag k="name:yue" v="泰國"/>
     <tag k="name:za" v="Daigoz"/>
     <tag k="name:zea" v="Thailand"/>
     <tag k="name:zh" v="泰国"/>
     <tag k="name:zh-classical" v="泰國"/>
     <tag k="name:zh-min-nan" v="Thài-kok"/>
-    <tag k="name:zh-yue" v="泰國"/>
     <tag k="name:zu" v="i-Thailand"/>
     <tag k="official_name:af" v="Koninkryk van Thailand"/>
     <tag k="official_name:be" v="Каралеўства Тайланд"/>
@@ -36407,10 +36451,10 @@
     <tag k="name:xmf" v="ჩერნოგორია"/>
     <tag k="name:yi" v="מאנטענעגרא"/>
     <tag k="name:yo" v="Montenẹ́grò"/>
+    <tag k="name:yue" v="黑山"/>
     <tag k="name:zea" v="Montenehro"/>
     <tag k="name:zh" v="黑山"/>
     <tag k="name:zh-min-nan" v="O͘-soaⁿ Kiōng-hô-kok"/>
-    <tag k="name:zh-yue" v="黑山"/>
     <tag k="name:zu" v="i-Montenegro"/>
     <tag k="official_name:ku" v="Komara Montenegroyê"/>
     <tag k="official_name:lv" v="Melnkalnes Republika"/>
@@ -36489,6 +36533,7 @@
     <tag k="name:kab" v="Abxazya"/>
     <tag k="name:kbd" v="Азгъей"/>
     <tag k="name:kk" v="Абхазия"/>
+    <tag k="name:kn" v="ಅಬ್ಖಾಜಿಯ"/>
     <tag k="name:ko" v="압하스 공화국"/>
     <tag k="name:krc" v="Хачыпсы"/>
     <tag k="name:ku" v="Abxazya"/>
@@ -36553,8 +36598,8 @@
     <tag k="name:xal" v="Апсин Таңһч"/>
     <tag k="name:xmf" v="აფხაზეთი"/>
     <tag k="name:yo" v="Abkhez"/>
+    <tag k="name:yue" v="阿布哈茲"/>
     <tag k="name:zh" v="阿布哈茲"/>
-    <tag k="name:zh-yue" v="阿布哈茲"/>
     <tag k="official_name" v="Республика Абхазия - Аҧсны Аҳәынҭқарра"/>
     <tag k="official_name:ab" v="Аҧсны Аҳәынҭқарра"/>
     <tag k="official_name:be" v="Рэспубліка Абхазія"/>
@@ -36602,6 +36647,7 @@
     <tag k="name:it" v="Samoa Americane"/>
     <tag k="name:ja" v="アメリカ領サモア"/>
     <tag k="name:jbo" v="mer.samoas"/>
+    <tag k="name:kn" v="ಅಮೆರಿಕನ್ ಸಮೋವಾ"/>
     <tag k="name:ku" v="Samoaya Amerîkanî"/>
     <tag k="name:lfn" v="Samoa American"/>
     <tag k="name:nl" v="Amerikaans-Samoa"/>
@@ -36646,6 +36692,7 @@
     <tag k="name:io" v="Guam"/>
     <tag k="name:it" v="Guam"/>
     <tag k="name:ja" v="グアム"/>
+    <tag k="name:kn" v="ಗ್ವಾಮ್"/>
     <tag k="name:ku" v="Guam"/>
     <tag k="name:lfn" v="Guam"/>
     <tag k="name:lt" v="Guamas"/>
@@ -36845,9 +36892,9 @@
     <tag k="name:wo" v="Duni Solomon"/>
     <tag k="name:xal" v="Соломонин Арлс"/>
     <tag k="name:yo" v="Orílẹ́ède Etikun Solomoni"/>
+    <tag k="name:yue" v="所羅門群島"/>
     <tag k="name:zh" v="所罗门群岛"/>
     <tag k="name:zh-min-nan" v="Só͘-lô-bûn Kûn-tó"/>
-    <tag k="name:zh-yue" v="所羅門群島"/>
     <tag k="name:zu" v="i-Solomon Islands"/>
     <tag k="official_name" v="Solomon Islands"/>
     <tag k="place" v="country"/>
@@ -37177,10 +37224,10 @@
     <tag k="name:war" v="Salatan nga Sudan"/>
     <tag k="name:yi" v="דרום סודאן"/>
     <tag k="name:yo" v="Gúúsù Sudan"/>
+    <tag k="name:yue" v="南蘇丹"/>
     <tag k="name:zh" v="南蘇丹"/>
     <tag k="name:zh-classical" v="南蘇丹"/>
     <tag k="name:zh-min-nan" v="Lâm Sudan"/>
-    <tag k="name:zh-yue" v="南蘇丹"/>
     <tag k="name:zu" v="Iningizimu Sudan"/>
     <tag k="official_name" v="Republic of South Sudan"/>
     <tag k="official_name:be" v="Рэспубліка Паўднёвы Судан"/>
@@ -37472,7 +37519,6 @@
     <tag k="name:zh" v="法国"/>
     <tag k="name:zh-classical" v="法國"/>
     <tag k="name:zh-min-nan" v="Hoat-kok"/>
-    <tag k="name:zh-yue" v="法國"/>
     <tag k="name:zh_pinyin" v="Fǎguó"/>
     <tag k="name:zu" v="IFulansi"/>
     <tag k="official_name" v="République française"/>
@@ -37867,11 +37913,11 @@
     <tag k="name:xmf" v="ირლანდია"/>
     <tag k="name:yi" v="אירלאנד"/>
     <tag k="name:yo" v="Orílẹ́ède Ailandi"/>
+    <tag k="name:yue" v="愛爾蘭共和國"/>
     <tag k="name:za" v="Aiwjlanz Gunghozgoz"/>
     <tag k="name:zea" v="Ierland"/>
     <tag k="name:zh" v="爱尔兰"/>
     <tag k="name:zh-min-nan" v="Éire"/>
-    <tag k="name:zh-yue" v="愛爾蘭共和國"/>
     <tag k="name:zh_pinyin" v="Àiěrlán"/>
     <tag k="name:zu" v="i-Ireland"/>
     <tag k="note" v="official name according to the Irish Constitution is &quot;Éire&quot; (in Irish) or &quot;Ireland&quot; (in English): &quot;Republic of Ireland&quot; is NOT an official name, but termed the &quot;description&quot; of the state"/>
@@ -37896,12 +37942,13 @@
     <tag k="ISO3166-1:alpha3" v="CHE"/>
     <tag k="ISO3166-1:numeric" v="756"/>
     <tag k="alt_name:eo" v="Svisio;Svisujo"/>
+    <tag k="alt_name:gsw" v="Schwiz"/>
     <tag k="capital_city" v="Bern"/>
     <tag k="country_code_fips" v="SZ"/>
     <tag k="country_code_iso3166_1_alpha_2" v="CH"/>
     <tag k="is_in" v="Europe"/>
     <tag k="is_in:continent" v="Europe"/>
-    <tag k="name" v="Schweiz, Suisse, Svizzera, Svizra"/>
+    <tag k="name" v="Schweiz/Suisse/Svizzera/Svizra"/>
     <tag k="name:af" v="Switserland"/>
     <tag k="name:ak" v="Swetzaland"/>
     <tag k="name:als" v="Schweiz"/>
@@ -38087,11 +38134,11 @@
     <tag k="name:xal" v="Свисн Һазр"/>
     <tag k="name:yi" v="שווייץ"/>
     <tag k="name:yo" v="Orílẹ́ède switiṣilandi"/>
+    <tag k="name:yue" v="瑞士"/>
     <tag k="name:zea" v="Zwitserland"/>
     <tag k="name:zh" v="瑞士"/>
     <tag k="name:zh-classical" v="瑞士"/>
     <tag k="name:zh-min-nan" v="Sūi-se"/>
-    <tag k="name:zh-yue" v="瑞士"/>
     <tag k="name:zh_pinyin" v="Ruìshì"/>
     <tag k="name:zu" v="i-Switzerland"/>
     <tag k="official_name:be" v="Швейцарская Канфедэрацыя"/>
@@ -38146,6 +38193,7 @@
     <tag k="name:it" v="Palau"/>
     <tag k="name:ja" v="パラオ"/>
     <tag k="name:jbo" v="belaus"/>
+    <tag k="name:kn" v="ಪಲಾವ್"/>
     <tag k="name:ku" v="Palau"/>
     <tag k="name:lfn" v="Belau"/>
     <tag k="name:nl" v="Palau"/>
@@ -38308,6 +38356,7 @@
     <tag k="name:io" v="Man-Insulo"/>
     <tag k="name:it" v="Isola di Man"/>
     <tag k="name:ja" v="マン島"/>
+    <tag k="name:kn" v="ಐಲ್ ಆಫ್ ಮ್ಯಾನ್"/>
     <tag k="name:ku" v="Girava Manê"/>
     <tag k="name:lfn" v="Isola Man"/>
     <tag k="name:lt" v="Meno Sala"/>
@@ -38350,6 +38399,7 @@
     <tag k="name:he" v="גרנזי"/>
     <tag k="name:it" v="Guernsey"/>
     <tag k="name:ja" v="ガーンジー"/>
+    <tag k="name:kn" v="ಗರ್ನಸಿ"/>
     <tag k="name:lfn" v="Gernsi"/>
     <tag k="name:nds" v="Guernsey"/>
     <tag k="name:no" v="Guernsey"/>
@@ -38564,10 +38614,10 @@
     <tag k="name:xal" v="Зимбабвудин Орн"/>
     <tag k="name:yi" v="זימבאבווע"/>
     <tag k="name:yo" v="Orílẹ́ède ṣimibabe"/>
+    <tag k="name:yue" v="津巴布韋"/>
     <tag k="name:zh" v="津巴布韦"/>
     <tag k="name:zh-classical" v="辛巴威"/>
     <tag k="name:zh-min-nan" v="Zimbabwe"/>
-    <tag k="name:zh-yue" v="津巴布韋"/>
     <tag k="name:zu" v="i-Zimbabwe"/>
     <tag k="official_name:be" v="Рэспубліка Зімбабвэ"/>
     <tag k="official_name:de" v="Republik Simbabwe"/>
@@ -38749,10 +38799,10 @@
     <tag k="name:xal" v="Гватемалмудин Орн"/>
     <tag k="name:yi" v="גוואטעמאלע"/>
     <tag k="name:yo" v="Guatẹmálà"/>
+    <tag k="name:yue" v="危地馬拉"/>
     <tag k="name:zea" v="Guatemala"/>
     <tag k="name:zh" v="危地马拉"/>
     <tag k="name:zh-min-nan" v="Guatemala"/>
-    <tag k="name:zh-yue" v="危地馬拉"/>
     <tag k="name:zu" v="Guatemala"/>
     <tag k="official_name:eo" v="Gvatemala Respubliko"/>
     <tag k="official_name:no" v="Republikken Guatemala"/>
@@ -38937,9 +38987,9 @@
     <tag k="name:xmf" v="პარაგვაი"/>
     <tag k="name:yi" v="פאראגוויי"/>
     <tag k="name:yo" v="Paragúáì"/>
+    <tag k="name:yue" v="巴拉圭"/>
     <tag k="name:zh" v="巴拉圭"/>
     <tag k="name:zh-min-nan" v="Paraguay"/>
-    <tag k="name:zh-yue" v="巴拉圭"/>
     <tag k="official_name:be" v="Рэспубліка Парагвай"/>
     <tag k="official_name:eo" v="Paragvaja Respubliko"/>
     <tag k="official_name:es" v="Republica del Paraguay"/>
@@ -39520,10 +39570,10 @@
     <tag k="name:xmf" v="ბელგია"/>
     <tag k="name:yi" v="בעלגיע"/>
     <tag k="name:yo" v="Belgium"/>
+    <tag k="name:yue" v="比利時"/>
     <tag k="name:zea" v="Belhië"/>
     <tag k="name:zh" v="比利时"/>
     <tag k="name:zh-min-nan" v="Belgien"/>
-    <tag k="name:zh-yue" v="比利時"/>
     <tag k="name:zh_pinyin" v="Bǐlìshí"/>
     <tag k="name:zu" v="i-Belgium"/>
     <tag k="official_name" v="Koninkrijk België;Royaume de Belgique;Königreich Belgien"/>
@@ -39721,6 +39771,7 @@
     <tag k="name:en" v="South Ossetia"/>
     <tag k="name:eo" v="Sud-Osetio"/>
     <tag k="name:es" v="Osetia del Sur"/>
+    <tag k="name:et" v="Lõuna-Osseetia"/>
     <tag k="name:fa" v="اوستیای جنوبی"/>
     <tag k="name:fi" v="Etelä-Ossetia"/>
     <tag k="name:fr" v="Ossétie du Sud"/>
@@ -39731,6 +39782,7 @@
     <tag k="name:io" v="Sud-Osetia"/>
     <tag k="name:it" v="Ossezia del Sud"/>
     <tag k="name:ka" v="ცხინვალის რეგიონი"/>
+    <tag k="name:kn" v="ದಕ್ಷಿಣ ಒಸ್ಸೆಟಿಯಾ"/>
     <tag k="name:ku" v="Osetyaya Başûr"/>
     <tag k="name:lfn" v="Osetia Sude"/>
     <tag k="name:lt" v="Pietų Osetija"/>
@@ -39787,6 +39839,7 @@
     <tag k="name:io" v="Republiko di Nagorno-Karabakh"/>
     <tag k="name:it" v="Nagorno Karabakh"/>
     <tag k="name:ja" v="ナゴルノ・カラバフ共和国"/>
+    <tag k="name:kn" v="ನ್ಯಾರ್ಗೊನೊ-ಕರಾಬಖ್ ಗಣರಾಜ್ಯ"/>
     <tag k="name:ko" v="아르차흐 공화국"/>
     <tag k="name:ku" v="Komara Qerebaxa Jorîn"/>
     <tag k="name:nds" v="Republik Bargkarabach"/>
@@ -39822,6 +39875,7 @@
     <tag k="name:en" v="Turkish Republic Of Northern Cyprus"/>
     <tag k="name:eo" v="Norda Kipro"/>
     <tag k="name:es" v="República Turca del Norte de Chipre"/>
+    <tag k="name:et" v="Põhja-Küpros"/>
     <tag k="name:fa" v="قبرس شمالی"/>
     <tag k="name:fi" v="Pohjois-Kypros"/>
     <tag k="name:fr" v="Chypre du Nord"/>
@@ -39829,6 +39883,7 @@
     <tag k="name:ia" v="Republica Turc de Cypro Septentrional"/>
     <tag k="name:io" v="Turka republiko di Norda Chipro"/>
     <tag k="name:it" v="Cipro del Nord"/>
+    <tag k="name:kn" v="ಉತ್ತರ ಸೈಪ್ರಸ್ನ ಟರ್ಕಿಶ್ ಗಣರಾಜ್ಯ"/>
     <tag k="name:ku" v="Komara Tirk a Bakurê Kîprosê"/>
     <tag k="name:lt" v="Turkų Kipras"/>
     <tag k="name:nds" v="Noordzypern"/>
@@ -40191,6 +40246,7 @@
     <tag k="name:it" v="Aruba"/>
     <tag k="name:ja" v="アルバ"/>
     <tag k="name:jbo" v="arubas"/>
+    <tag k="name:kn" v="ಅರುಬ"/>
     <tag k="name:lfn" v="Aruba"/>
     <tag k="name:lt" v="Aruba"/>
     <tag k="name:nds" v="Aruba"/>
@@ -40443,13 +40499,13 @@
     <tag k="name:xmf" v="ბოსნია დო ჰერცეგოვინა"/>
     <tag k="name:yi" v="באסניע און הערצעגאווינע"/>
     <tag k="name:yo" v="Orílẹ́ède Bọ̀síníà àti Ẹtisẹgófínà"/>
+    <tag k="name:yue" v="波斯尼亞"/>
     <tag k="name:zea" v="Bosnië-Hercegovina"/>
     <tag k="name:zh" v="波斯尼亚和黑塞哥维纳"/>
-    <tag k="name:zh-TW" v="波士尼亞與赫塞哥維納"/>
     <tag k="name:zh-cn" v="波斯尼亚和黑塞哥维纳"/>
     <tag k="name:zh-hk" v="波斯尼亞和黑塞哥維那"/>
     <tag k="name:zh-min-nan" v="Bosna kap Hercegovina"/>
-    <tag k="name:zh-yue" v="波斯尼亞"/>
+    <tag k="name:zh-tw" v="波士尼亞與赫塞哥維納"/>
     <tag k="name:zh_pinyin" v="Bōsīníyà hé Hēisāigēwéinà"/>
     <tag k="name:zu" v="i-Bosnia ne-Herzegovina"/>
     <tag k="official_name" v="Bosna i Hercegovina"/>
@@ -40482,6 +40538,7 @@
     <tag k="name:is" v="Transnistría"/>
     <tag k="name:it" v="Transnistria"/>
     <tag k="name:jbo" v="pridnestrovis"/>
+    <tag k="name:kn" v="ಟ್ರಾನ್ಸ್ನಿಸ್ಟ್ರಿಯಾ"/>
     <tag k="name:ku" v="Transnîstriya"/>
     <tag k="name:md" v="Нистрения"/>
     <tag k="name:nds" v="Transnistrien"/>
@@ -40543,6 +40600,7 @@
     <tag k="name:is" v="Heimastjórnarsvæði Palestínumanna"/>
     <tag k="name:it" v="Territori Palestinesi"/>
     <tag k="name:ja" v="パレスチナ自治区"/>
+    <tag k="name:kn" v="ಪ್ಯಾಲೇಸ್ಟಿನಿಯನ್ ಪ್ರಾಂತ್ಯಗಳು"/>
     <tag k="name:ku" v="Filistînê"/>
     <tag k="name:nds" v="Palästina"/>
     <tag k="name:nl" v="Palestina"/>
@@ -40769,11 +40827,11 @@
     <tag k="name:xal" v="Малаймудин Орн"/>
     <tag k="name:yi" v="מאלייזיע"/>
     <tag k="name:yo" v="Orílẹ́ède Malasia"/>
+    <tag k="name:yue" v="馬來西亞"/>
     <tag k="name:za" v="Majlaizsihya"/>
     <tag k="name:zh" v="马来西亚"/>
     <tag k="name:zh-classical" v="馬來西亞"/>
     <tag k="name:zh-min-nan" v="Má-lâi-se-a"/>
-    <tag k="name:zh-yue" v="馬來西亞"/>
     <tag k="name:zh_pinyin" v="Mǎláixīyà"/>
     <tag k="name:zu" v="i-Malaysia"/>
     <tag k="official_name:lv" v="Malaizijas Federācija"/>
@@ -41004,11 +41062,11 @@
     <tag k="name:xal" v="Эпигопин Ниицән"/>
     <tag k="name:yi" v="עטיאפיע"/>
     <tag k="name:yo" v="Orílẹ́ède Etopia"/>
+    <tag k="name:yue" v="埃塞俄比亞"/>
     <tag k="name:zea" v="Ethiopië"/>
     <tag k="name:zh" v="埃塞俄比亚"/>
     <tag k="name:zh-classical" v="衣索比亞"/>
     <tag k="name:zh-min-nan" v="Ityop'iya"/>
-    <tag k="name:zh-yue" v="埃塞俄比亞"/>
     <tag k="name:zh_pinyin" v="Āisàiébǐyà"/>
     <tag k="name:zu" v="i-Ethiopia"/>
     <tag k="note:history" v="For the history of the previous (deleted) version of this node, see http://www.openstreetmap.org/browse/node/424311222/history"/>
@@ -41036,7 +41094,7 @@
     <tag k="wikidata" v="Q115"/>
     <tag k="wikipedia" v="am:ኢትዮጵያ"/>
   </node>
-  <node id="2377028247" lat="40.0332650" lon="-7.8896263">
+  <node id="2377028247" lat="40.0332629" lon="-7.8896263">
     <tag k="ISO3166-1:alpha2" v="PT"/>
     <tag k="alt_name:eo" v="Portugalujo"/>
     <tag k="country_code_iso3166_1_alpha_2" v="PT"/>
@@ -41062,6 +41120,7 @@
     <tag k="name:it" v="Portogallo"/>
     <tag k="name:ja" v="ポルトガル"/>
     <tag k="name:jbo" v="potygu'e"/>
+    <tag k="name:kn" v="ಪೋರ್ಚುಗಲ್"/>
     <tag k="name:lfn" v="Portugal"/>
     <tag k="name:nds" v="Portugal"/>
     <tag k="name:nl" v="Portugal"/>
@@ -41105,6 +41164,7 @@
     <tag k="name:it" v="Lesotho"/>
     <tag k="name:ja" v="レソト"/>
     <tag k="name:jbo" v="lesotos"/>
+    <tag k="name:kn" v="ಲೆಸೊಥೊ"/>
     <tag k="name:ko" v="레소토"/>
     <tag k="name:lfn" v="Lesoto"/>
     <tag k="name:lt" v="Lesotas"/>
@@ -41122,8 +41182,8 @@
     <tag k="name:vi" v="Lesotho"/>
     <tag k="name:vo" v="Lesotän"/>
     <tag k="name:wuu" v="萊索托"/>
+    <tag k="name:yue" v="萊索托"/>
     <tag k="name:zh" v="莱索托"/>
-    <tag k="name:zh-yue" v="萊索托"/>
     <tag k="official_name:eo" v="Lesota Reĝlando"/>
     <tag k="official_name:pl" v="Królestwo Lesotho"/>
     <tag k="official_name:sk" v="Lesothské kráľovstvo"/>
@@ -41158,6 +41218,7 @@
     <tag k="name:io" v="Liechtenstein"/>
     <tag k="name:it" v="Liechtenstein"/>
     <tag k="name:jbo" v="lixtenctain"/>
+    <tag k="name:kn" v="ಲಿಚ್ಟೆನ್ಸ್ಟೀನ್"/>
     <tag k="name:lfn" v="Lictenstain"/>
     <tag k="name:nds" v="Liechtensteen"/>
     <tag k="name:nl" v="Liechtenstein"/>
@@ -41182,195 +41243,6 @@
     <tag k="wikidata" v="Q347"/>
     <tag k="wikipedia" v="de:Liechtenstein"/>
   </node>
-  <node id="3997635385" lat="7.2371480" lon="80.8209230">
-    <tag k="ISO3166-1:alpha2" v="LK"/>
-    <tag k="alt_name:eo" v="Sri-Lanko"/>
-    <tag k="country_code_iso3166_1_alpha_2" v="LK"/>
-    <tag k="is_in:continent" v="Asia"/>
-    <tag k="name" v="ශ්‍රී ලංකා"/>
-    <tag k="name:ace" v="Srilanka"/>
-    <tag k="name:af" v="Sri Lanka"/>
-    <tag k="name:als" v="Sri Lanka"/>
-    <tag k="name:am" v="ሽሪ ላንካ"/>
-    <tag k="name:an" v="Sri Lanka"/>
-    <tag k="name:ang" v="Tāprabane"/>
-    <tag k="name:ar" v="سريلانكا"/>
-    <tag k="name:arz" v="سريلانكا"/>
-    <tag k="name:ast" v="Sri Lanka"/>
-    <tag k="name:az" v="Şri-Lanka"/>
-    <tag k="name:ba" v="Шри-Ланка"/>
-    <tag k="name:bar" v="Sri Lanka"/>
-    <tag k="name:bat-smg" v="Šri Lanka"/>
-    <tag k="name:bcl" v="Sri Lanka"/>
-    <tag k="name:be" v="Шры-Ланка"/>
-    <tag k="name:be-tarask" v="Шры-Ланка"/>
-    <tag k="name:bg" v="Шри Ланка"/>
-    <tag k="name:bn" v="শ্রীলঙ্কা"/>
-    <tag k="name:bo" v="སེང་ག་གླིང་།"/>
-    <tag k="name:bpy" v="শ্রীলঙ্কা"/>
-    <tag k="name:br" v="Sri Lanka"/>
-    <tag k="name:bs" v="Šri Lanka"/>
-    <tag k="name:bug" v="Sri Lanka"/>
-    <tag k="name:bxr" v="Шри Ланка"/>
-    <tag k="name:ca" v="Sri Lanka"/>
-    <tag k="name:ceb" v="Sri Lanka"/>
-    <tag k="name:ckb" v="سریلانکا"/>
-    <tag k="name:crh" v="Şri Lanka"/>
-    <tag k="name:cs" v="Srí Lanka"/>
-    <tag k="name:csb" v="Sri Lanka"/>
-    <tag k="name:cv" v="Шри-Ланка"/>
-    <tag k="name:cy" v="Sri Lanka"/>
-    <tag k="name:da" v="Sri Lanka"/>
-    <tag k="name:de" v="Sri Lanka"/>
-    <tag k="name:diq" v="Sri Lanka"/>
-    <tag k="name:dv" v="އޮޅުދޫކަރަ"/>
-    <tag k="name:dz" v="ཤྲཱྀ་ལངཀ་"/>
-    <tag k="name:el" v="Σρι Λάνκα"/>
-    <tag k="name:en" v="Sri Lanka"/>
-    <tag k="name:eo" v="Srilanko"/>
-    <tag k="name:es" v="Sri Lanka"/>
-    <tag k="name:et" v="Sri Lanka"/>
-    <tag k="name:eu" v="Sri Lanka"/>
-    <tag k="name:ext" v="Sri Lanka"/>
-    <tag k="name:fa" v="سری‌لانکا"/>
-    <tag k="name:fi" v="Sri Lanka"/>
-    <tag k="name:fiu-vro" v="Sri Lanka"/>
-    <tag k="name:fo" v="Sri Lanka"/>
-    <tag k="name:fr" v="Sri Lanka"/>
-    <tag k="name:frp" v="Sri Lanka"/>
-    <tag k="name:fy" v="Sry Lanka"/>
-    <tag k="name:ga" v="Srí Lanca"/>
-    <tag k="name:gag" v="Şri Lanka"/>
-    <tag k="name:gd" v="Sri Lanca"/>
-    <tag k="name:gl" v="Sri Lanka - Sri Lankā"/>
-    <tag k="name:gu" v="શ્રીલંકા"/>
-    <tag k="name:gv" v="Sri Lanka"/>
-    <tag k="name:hak" v="Sṳ̂-lî-làn-khà"/>
-    <tag k="name:haw" v="Sililanaka"/>
-    <tag k="name:he" v="סרי לנקה"/>
-    <tag k="name:hi" v="श्रीलंका"/>
-    <tag k="name:hif" v="Sri Lanka"/>
-    <tag k="name:hr" v="Šri Lanka"/>
-    <tag k="name:hsb" v="Sri Lanka"/>
-    <tag k="name:ht" v="Srilanka"/>
-    <tag k="name:hu" v="Srí Lanka"/>
-    <tag k="name:hy" v="Շրի Լանկա"/>
-    <tag k="name:ia" v="Sri Lanka"/>
-    <tag k="name:id" v="Sri Lanka"/>
-    <tag k="name:ie" v="Sri Lanka"/>
-    <tag k="name:ilo" v="Sri Lanka"/>
-    <tag k="name:io" v="Sri Lanka"/>
-    <tag k="name:is" v="Srí Lanka"/>
-    <tag k="name:it" v="Sri Lanka"/>
-    <tag k="name:ja" v="スリランカ"/>
-    <tag k="name:jbo" v="srilankas"/>
-    <tag k="name:jv" v="Sri Lanka"/>
-    <tag k="name:ka" v="შრი-ლანკა"/>
-    <tag k="name:ki" v="Sri Lanka"/>
-    <tag k="name:kk" v="Шри-Ланка"/>
-    <tag k="name:km" v="ស្រីលង្កា"/>
-    <tag k="name:kn" v="ಶ್ರೀಲಂಕಾ"/>
-    <tag k="name:ko" v="스리랑카"/>
-    <tag k="name:ku" v="Srî Lanka"/>
-    <tag k="name:kv" v="Шри-Ланка"/>
-    <tag k="name:kw" v="Shri Lanka"/>
-    <tag k="name:la" v="Taprobane"/>
-    <tag k="name:lb" v="Sri Lanka"/>
-    <tag k="name:lez" v="Шри-Ланка"/>
-    <tag k="name:lfn" v="Srilanca"/>
-    <tag k="name:li" v="Sri Lanka"/>
-    <tag k="name:lij" v="Sri Lanka"/>
-    <tag k="name:lmo" v="Sri Lanka"/>
-    <tag k="name:ln" v="Sri Lanka"/>
-    <tag k="name:lt" v="Šri Lanka"/>
-    <tag k="name:lv" v="Šrilanka"/>
-    <tag k="name:mg" v="Sri Lanka"/>
-    <tag k="name:mhr" v="Шри-Ланка"/>
-    <tag k="name:mk" v="Шри Ланка"/>
-    <tag k="name:ml" v="ശ്രീലങ്ക"/>
-    <tag k="name:mn" v="Шри Ланка"/>
-    <tag k="name:mr" v="श्रीलंका"/>
-    <tag k="name:ms" v="Sri Lanka"/>
-    <tag k="name:mt" v="Sri Lanka"/>
-    <tag k="name:my" v="သီရိလင်္ကာနိုင်ငံ"/>
-    <tag k="name:na" v="Sri Lanka"/>
-    <tag k="name:nah" v="Sri Lanca"/>
-    <tag k="name:nds" v="Sri Lanka"/>
-    <tag k="name:ne" v="श्रीलंका"/>
-    <tag k="name:new" v="श्रीलङ्का"/>
-    <tag k="name:nl" v="Sri Lanka"/>
-    <tag k="name:nn" v="Sri Lanka"/>
-    <tag k="name:no" v="Sri Lanka"/>
-    <tag k="name:nov" v="Sri Lanka"/>
-    <tag k="name:nv" v="Swii Lankʼa"/>
-    <tag k="name:oc" v="Sri Lanka"/>
-    <tag k="name:om" v="Sirilaankaa"/>
-    <tag k="name:or" v="ଶ୍ରୀଲଙ୍କା"/>
-    <tag k="name:os" v="Шри-Ланка"/>
-    <tag k="name:pa" v="ਸ੍ਰੀਲੰਕਾ"/>
-    <tag k="name:pam" v="Sri Lanka"/>
-    <tag k="name:pih" v="Sri Lanka"/>
-    <tag k="name:pl" v="Sri Lanka"/>
-    <tag k="name:pms" v="Sri Lanka"/>
-    <tag k="name:pnb" v="سری لنکا"/>
-    <tag k="name:ps" v="سریلانکا"/>
-    <tag k="name:pt" v="Seri-Lanca"/>
-    <tag k="name:qu" v="Sri Lanka"/>
-    <tag k="name:ro" v="Sri Lanka"/>
-    <tag k="name:ru" v="Шри-Ланка"/>
-    <tag k="name:rw" v="Siri Lanka"/>
-    <tag k="name:sa" v="श्रीलङ्का"/>
-    <tag k="name:sah" v="Сри Ланка"/>
-    <tag k="name:scn" v="Sri Lanka"/>
-    <tag k="name:sco" v="Sri Lanka"/>
-    <tag k="name:se" v="Sri Lanka"/>
-    <tag k="name:sh" v="Šri Lanka"/>
-    <tag k="name:si" v="ශ්‍රී ලංකාව"/>
-    <tag k="name:sk" v="Srí Lanka"/>
-    <tag k="name:sl" v="Šrilanka"/>
-    <tag k="name:sm" v="Sri Lanka"/>
-    <tag k="name:so" v="Siri Lanka"/>
-    <tag k="name:sq" v="Sri Lanka"/>
-    <tag k="name:sr" v="Шри Ланка"/>
-    <tag k="name:ss" v="Siri Lanka"/>
-    <tag k="name:su" v="Sri Langka"/>
-    <tag k="name:sv" v="Sri Lanka"/>
-    <tag k="name:sw" v="Sri Lanka"/>
-    <tag k="name:szl" v="Sri Lanka"/>
-    <tag k="name:ta" v="இலங்கை"/>
-    <tag k="name:te" v="శ్రీలంక"/>
-    <tag k="name:tg" v="Шри-Ланка"/>
-    <tag k="name:th" v="ประเทศศรีลังกา"/>
-    <tag k="name:tk" v="Şri-Lanka"/>
-    <tag k="name:tl" v="Sri Lanka"/>
-    <tag k="name:tok" v="ma Lanka"/>
-    <tag k="name:tr" v="Sri Lanka"/>
-    <tag k="name:tt" v="Шри-Ланка"/>
-    <tag k="name:tzl" v="Sri Lanka"/>
-    <tag k="name:udm" v="Шри-Ланка"/>
-    <tag k="name:ug" v="سرىلانكا"/>
-    <tag k="name:uk" v="Шрі-Ланка"/>
-    <tag k="name:ur" v="سری لنکا"/>
-    <tag k="name:uz" v="Shri-Lanka"/>
-    <tag k="name:vi" v="Sri Lanka"/>
-    <tag k="name:vo" v="Sri-Lankän"/>
-    <tag k="name:war" v="Sri Lanka"/>
-    <tag k="name:wo" v="Siri Laanka"/>
-    <tag k="name:wuu" v="斯里兰卡"/>
-    <tag k="name:xal" v="Сриланкудин Улс Орн"/>
-    <tag k="name:xmf" v="შრი-ლანკა"/>
-    <tag k="name:yi" v="סרי לאנקא"/>
-    <tag k="name:yo" v="Sri Lanka"/>
-    <tag k="name:zh" v="斯里蘭卡"/>
-    <tag k="name:zh-min-nan" v="Sri Lanka"/>
-    <tag k="name:zh-yue" v="斯里蘭卡"/>
-    <tag k="place" v="country"/>
-    <tag k="population" v="20277597"/>
-    <tag k="population:date" v="2012"/>
-    <tag k="source:sqkm" v="CIA World Factbook"/>
-    <tag k="sqkm" v="65610"/>
-    <tag k="wikidata" v="Q854"/>
-  </node>
   <node id="4076524861" lat="35.8885993" lon="14.4476911">
     <tag k="ISO3166-1:alpha2" v="MT"/>
     <tag k="country_code_iso3166_1_alpha_2" v="MT"/>
@@ -41390,6 +41262,7 @@
     <tag k="name:it" v="Malta"/>
     <tag k="name:jbo" v="maltas"/>
     <tag k="name:ka" v="მალტა"/>
+    <tag k="name:kn" v="ಮಾಲ್ಟ"/>
     <tag k="name:lfn" v="Malta"/>
     <tag k="name:mn" v="Мальт"/>
     <tag k="name:nds" v="Malta"/>
@@ -41423,6 +41296,7 @@
     <tag k="name:en" v="Kosovo"/>
     <tag k="name:eo" v="Kosovo"/>
     <tag k="name:es" v="Kosovo"/>
+    <tag k="name:et" v="Kosovo"/>
     <tag k="name:fa" v="کوزوو"/>
     <tag k="name:fr" v="Kosovo"/>
     <tag k="name:fy" v="Kosovo"/>
@@ -41430,6 +41304,7 @@
     <tag k="name:io" v="Kosovo"/>
     <tag k="name:it" v="Kosovo"/>
     <tag k="name:jbo" v="kosovas"/>
+    <tag k="name:kn" v="ಕೊಸವೋ"/>
     <tag k="name:ko" v="코소보"/>
     <tag k="name:lfn" v="Cosovo"/>
     <tag k="name:nds" v="Kosovo"/>
@@ -41450,12 +41325,237 @@
     <tag k="wikidata" v="Q1246"/>
     <tag k="wikipedia" v="en:Kosovo"/>
   </node>
-  <node id="5692192508" lat="45.7742542" lon="18.8756215">
-    <tag k="country" v="un"/>
-    <tag k="name" v="Liberland"/>
-    <tag k="note" v="Unrecognized. Please don't delete, it will not render on the map."/>
+  <node id="5821200672" lat="-1.2810128" lon="102.8450507">
+    <tag k="is_in:region" v="Tanjung Jabung Barat"/>
+    <tag k="is_in:state" v="Jambi"/>
+    <tag k="name" v="Kecamatan Renah Mendaluh"/>
     <tag k="place" v="country"/>
-    <tag k="wikipedia" v="en:Liberland"/>
+  </node>
+  <node id="5903953013" lat="14.4750607" lon="-14.4529612">
+    <tag k="capital_city" v="Dakar"/>
+    <tag k="country_code_fips" v="SG"/>
+    <tag k="country_code_iso3166_1_alpha_2" v="SN"/>
+    <tag k="int_name" v="Senegal"/>
+    <tag k="is_in:continent" v="Africa"/>
+    <tag k="name" v="Sénégal"/>
+    <tag k="name:ace" v="Senegal"/>
+    <tag k="name:af" v="Senegal"/>
+    <tag k="name:ak" v="Senegal"/>
+    <tag k="name:als" v="Senegal"/>
+    <tag k="name:am" v="ሴኔጋል"/>
+    <tag k="name:an" v="Senegal"/>
+    <tag k="name:ar" v="السنغال"/>
+    <tag k="name:arz" v="سينيجال"/>
+    <tag k="name:ast" v="Senegal"/>
+    <tag k="name:az" v="Seneqal"/>
+    <tag k="name:ba" v="Сенегал"/>
+    <tag k="name:bar" v="Senegal"/>
+    <tag k="name:bat-smg" v="Senegals"/>
+    <tag k="name:bcl" v="Senegal"/>
+    <tag k="name:be" v="Сенегал"/>
+    <tag k="name:be-tarask" v="Сэнэгал"/>
+    <tag k="name:bg" v="Сенегал"/>
+    <tag k="name:bjn" v="Senegal"/>
+    <tag k="name:bm" v="Senegali"/>
+    <tag k="name:bn" v="সেনেগাল"/>
+    <tag k="name:bo" v="སེ་ནི་གྷལ།"/>
+    <tag k="name:bpy" v="সেনেগাল"/>
+    <tag k="name:br" v="Senegal"/>
+    <tag k="name:bs" v="Senegal"/>
+    <tag k="name:bxr" v="Сенегал"/>
+    <tag k="name:ca" v="Senegal"/>
+    <tag k="name:ce" v="Сенегал"/>
+    <tag k="name:ceb" v="Senegal"/>
+    <tag k="name:ckb" v="سێنیگال"/>
+    <tag k="name:crh" v="Senegal"/>
+    <tag k="name:cs" v="Senegal"/>
+    <tag k="name:cv" v="Сенегал"/>
+    <tag k="name:cy" v="Sénégal"/>
+    <tag k="name:da" v="Senegal"/>
+    <tag k="name:de" v="Senegal"/>
+    <tag k="name:diq" v="Senegal"/>
+    <tag k="name:dsb" v="Senegal"/>
+    <tag k="name:dv" v="ސެނެގާލް"/>
+    <tag k="name:dz" v="སེ་ནི་གྷལ"/>
+    <tag k="name:ee" v="Senegal nutome"/>
+    <tag k="name:el" v="Σενεγάλη"/>
+    <tag k="name:en" v="Senegal"/>
+    <tag k="name:eo" v="Senegalo"/>
+    <tag k="name:es" v="Senegal"/>
+    <tag k="name:et" v="Senegal"/>
+    <tag k="name:eu" v="Senegal"/>
+    <tag k="name:ext" v="Senegal"/>
+    <tag k="name:fa" v="سنگال"/>
+    <tag k="name:ff" v="Senegaal"/>
+    <tag k="name:fi" v="Senegal"/>
+    <tag k="name:fiu-vro" v="Senegal"/>
+    <tag k="name:fo" v="Senegal"/>
+    <tag k="name:fr" v="Sénégal"/>
+    <tag k="name:frp" v="Sènègal"/>
+    <tag k="name:fur" v="Senegal"/>
+    <tag k="name:fy" v="Senegal"/>
+    <tag k="name:ga" v="An tSeineagáil"/>
+    <tag k="name:gag" v="Senegal"/>
+    <tag k="name:gd" v="Seanagal"/>
+    <tag k="name:gl" v="Senegal"/>
+    <tag k="name:gu" v="સેનેગલ"/>
+    <tag k="name:gv" v="Yn Tenegaal"/>
+    <tag k="name:ha" v="Sinigal"/>
+    <tag k="name:haw" v="Senekala"/>
+    <tag k="name:he" v="סנגל"/>
+    <tag k="name:hi" v="सेनेगल"/>
+    <tag k="name:hif" v="Senegal"/>
+    <tag k="name:hr" v="Senegal"/>
+    <tag k="name:hsb" v="Senegal"/>
+    <tag k="name:ht" v="Senegal"/>
+    <tag k="name:hu" v="Szenegál"/>
+    <tag k="name:hy" v="Սենեգալ"/>
+    <tag k="name:ia" v="Senegal"/>
+    <tag k="name:id" v="Senegal"/>
+    <tag k="name:ie" v="Senegal"/>
+    <tag k="name:ilo" v="Senegal"/>
+    <tag k="name:io" v="Senegal"/>
+    <tag k="name:is" v="Senegal"/>
+    <tag k="name:it" v="Senegal"/>
+    <tag k="name:ja" v="セネガル"/>
+    <tag k="name:jbo" v="senegal"/>
+    <tag k="name:jv" v="Senegal"/>
+    <tag k="name:ka" v="სენეგალი"/>
+    <tag k="name:kab" v="Sinigal"/>
+    <tag k="name:kg" v="Senangale"/>
+    <tag k="name:ki" v="Senegali"/>
+    <tag k="name:kk" v="Сенегал"/>
+    <tag k="name:kl" v="Senegal"/>
+    <tag k="name:km" v="សេនេហ្កាល់"/>
+    <tag k="name:kn" v="ಸೆನೆಗಲ್"/>
+    <tag k="name:ko" v="세네갈"/>
+    <tag k="name:ks" v="سینیگَل"/>
+    <tag k="name:ksh" v="der Sennejall"/>
+    <tag k="name:ku" v="Senegal"/>
+    <tag k="name:kw" v="Senegal"/>
+    <tag k="name:ky" v="Сенегал"/>
+    <tag k="name:la" v="Senegalia"/>
+    <tag k="name:lb" v="Senegal"/>
+    <tag k="name:lfn" v="Senegal"/>
+    <tag k="name:lg" v="Senegaalo"/>
+    <tag k="name:li" v="Senegal"/>
+    <tag k="name:lij" v="Senegal"/>
+    <tag k="name:lmo" v="Senegal"/>
+    <tag k="name:ln" v="Senegalɛ"/>
+    <tag k="name:lo" v="ເຊເນກອລ"/>
+    <tag k="name:lt" v="Senegalas"/>
+    <tag k="name:lv" v="Senegāla"/>
+    <tag k="name:mg" v="Senegal"/>
+    <tag k="name:mhr" v="Сенегал"/>
+    <tag k="name:mk" v="Сенегал"/>
+    <tag k="name:ml" v="സെനഗൽ"/>
+    <tag k="name:mn" v="Сенегал"/>
+    <tag k="name:mr" v="सेनेगल"/>
+    <tag k="name:mrj" v="Сенегал"/>
+    <tag k="name:ms" v="Senegal"/>
+    <tag k="name:mt" v="Senegal"/>
+    <tag k="name:my" v="ဆီနီဂေါ"/>
+    <tag k="name:na" v="Senegal"/>
+    <tag k="name:nah" v="Senegal"/>
+    <tag k="name:nap" v="Senegal"/>
+    <tag k="name:nds" v="Senegal"/>
+    <tag k="name:ne" v="सेनेगाल"/>
+    <tag k="name:nl" v="Senegal"/>
+    <tag k="name:nn" v="Senegal"/>
+    <tag k="name:no" v="Senegal"/>
+    <tag k="name:nov" v="Senegal"/>
+    <tag k="name:nso" v="Senegal"/>
+    <tag k="name:oc" v="Senegal"/>
+    <tag k="name:or" v="ସେନେଗାଲ୍"/>
+    <tag k="name:os" v="Сенегал"/>
+    <tag k="name:pa" v="ਸੇਨੇਗਲ"/>
+    <tag k="name:pam" v="Senegal"/>
+    <tag k="name:pap" v="Senegal"/>
+    <tag k="name:pih" v="Senegaal"/>
+    <tag k="name:pl" v="Senegal"/>
+    <tag k="name:pms" v="Senegal"/>
+    <tag k="name:pnb" v="سینیگال"/>
+    <tag k="name:ps" v="سېنېګال"/>
+    <tag k="name:pt" v="Senegal"/>
+    <tag k="name:qu" v="Sinigal"/>
+    <tag k="name:rm" v="Senegal"/>
+    <tag k="name:rn" v="Senegali"/>
+    <tag k="name:ro" v="Senegal"/>
+    <tag k="name:ru" v="Сенегал"/>
+    <tag k="name:rw" v="Senegali"/>
+    <tag k="name:sa" v="सेनेगल"/>
+    <tag k="name:sah" v="Сенегал"/>
+    <tag k="name:sc" v="Senegàl"/>
+    <tag k="name:scn" v="Senegal"/>
+    <tag k="name:sco" v="Senegal"/>
+    <tag k="name:se" v="Senegal"/>
+    <tag k="name:sg" v="Senegäle"/>
+    <tag k="name:sh" v="Senegal"/>
+    <tag k="name:si" v="සෙනගාල්"/>
+    <tag k="name:sk" v="Senegal"/>
+    <tag k="name:sl" v="Senegal"/>
+    <tag k="name:sn" v="Senegal"/>
+    <tag k="name:so" v="Sinigaal"/>
+    <tag k="name:sq" v="Senegali"/>
+    <tag k="name:sr" v="Сенегал"/>
+    <tag k="name:st" v="Senegal"/>
+    <tag k="name:stq" v="Senegal"/>
+    <tag k="name:su" v="Sénégal"/>
+    <tag k="name:sv" v="Senegal"/>
+    <tag k="name:sw" v="Senegali"/>
+    <tag k="name:szl" v="Synegal"/>
+    <tag k="name:ta" v="செனெகல்"/>
+    <tag k="name:te" v="సెనెగల్"/>
+    <tag k="name:tg" v="Сенегал"/>
+    <tag k="name:th" v="ประเทศเซเนกัล"/>
+    <tag k="name:ti" v="ሴኔጋል"/>
+    <tag k="name:tk" v="Senegal"/>
+    <tag k="name:tl" v="Senegal"/>
+    <tag k="name:to" v="Senikalo"/>
+    <tag k="name:tok" v="ma Seneka"/>
+    <tag k="name:tpi" v="Senegal"/>
+    <tag k="name:tr" v="Senegal"/>
+    <tag k="name:ts" v="Senegal"/>
+    <tag k="name:tt" v="Сенегал"/>
+    <tag k="name:tzl" v="Senegal"/>
+    <tag k="name:ug" v="سېنېگال"/>
+    <tag k="name:uk" v="Сенеґал"/>
+    <tag k="name:ur" v="سینیگل"/>
+    <tag k="name:uz" v="Senegal"/>
+    <tag k="name:vec" v="Senegal"/>
+    <tag k="name:vi" v="Senegal"/>
+    <tag k="name:vo" v="Senegalän"/>
+    <tag k="name:wa" v="Senegal"/>
+    <tag k="name:war" v="Senegal"/>
+    <tag k="name:wo" v="Senegaal"/>
+    <tag k="name:xal" v="Сенегалмудин Орн"/>
+    <tag k="name:yi" v="סענעגאל"/>
+    <tag k="name:yo" v="Orílẹ́ède Sẹnẹga"/>
+    <tag k="name:yue" v="塞內加爾"/>
+    <tag k="name:zh" v="塞内加尔"/>
+    <tag k="name:zh-min-nan" v="Senegal"/>
+    <tag k="name:zh_pinyin" v="Sàinèijiāěr"/>
+    <tag k="name:zu" v="i-Senegal"/>
+    <tag k="official_name" v="République du Sénégal"/>
+    <tag k="official_name:be" v="Рэспубліка Сенегал"/>
+    <tag k="official_name:ca" v="República del Senegal"/>
+    <tag k="official_name:el" v="Δημοκρατία της Σενεγάλης"/>
+    <tag k="official_name:eo" v="Respubliko Senegalo"/>
+    <tag k="official_name:et" v="Senegali Vabariik"/>
+    <tag k="official_name:gd" v="Poblachd Sheanagail"/>
+    <tag k="official_name:id" v="Republik Senegal"/>
+    <tag k="official_name:ku" v="Komara Senegalê"/>
+    <tag k="official_name:lt" v="Senegalo Respublika"/>
+    <tag k="official_name:pt" v="República do Senegal"/>
+    <tag k="official_name:ro" v="Republica Senegal"/>
+    <tag k="official_name:sv" v="Republiken Senegal"/>
+    <tag k="official_name:vi" v="Cộng hoà Sénégal"/>
+    <tag k="place" v="country"/>
+    <tag k="population" v="12643799"/>
+    <tag k="source:sqkm" v="CIA World Factbook"/>
+    <tag k="sqkm" v="196722"/>
+    <tag k="wikidata" v="Q1041"/>
+    <tag k="wikipedia" v="fr:Sénégal"/>
   </node>
   <node id="36966057" lat="2.0000003" lon="15.9999997">
     <tag k="alt_name:vi" v="Phi Châu"/>
@@ -41712,8 +41812,7 @@
     <member type="way" ref="431094929" role="outer"/>
     <member type="way" ref="244139091" role="outer"/>
     <member type="way" ref="50545373" role="outer"/>
-    <member type="way" ref="178170177" role="outer"/>
-    <member type="way" ref="553844649" role="outer"/>
+    <member type="way" ref="614161277" role="outer"/>
     <member type="way" ref="553844650" role="outer"/>
     <member type="way" ref="244139090" role="outer"/>
     <member type="way" ref="244140397" role="outer"/>
