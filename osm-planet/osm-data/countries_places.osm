@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.55.4 3079d8ea">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2018-09-20T08:57:03Z"/>
+<meta osm_base="2018-09-25T11:48:02Z"/>
 
   <node id="24330691" lat="22.3506270" lon="114.1849161">
     <tag k="alt_name:vi" v="Hương Cảng"/>
@@ -6197,7 +6197,6 @@
     <tag k="capital_city" v="Oslo"/>
     <tag k="country_code_fips" v="NO"/>
     <tag k="country_code_iso3166_1_alpha_2" v="NO"/>
-    <tag k="is_in:continent" v="Europe"/>
     <tag k="name" v="Norge"/>
     <tag k="name:af" v="Noorweë"/>
     <tag k="name:ak" v="Nɔɔwe"/>
@@ -6337,7 +6336,8 @@
     <tag k="official_name:sv" v="Konungariket Norge"/>
     <tag k="official_name:vi" v="Vương quốc Na Uy"/>
     <tag k="place" v="country"/>
-    <tag k="population" v="4785200"/>
+    <tag k="population" v="5 312 343"/>
+    <tag k="source:population" v="https://www.ssb.no/befolkning/faktaside/befolkningen"/>
     <tag k="source:sqkm" v="CIA World Factbook"/>
     <tag k="sqkm" v="323802"/>
     <tag k="wikidata" v="Q20"/>
@@ -12886,6 +12886,7 @@
     <tag k="name:br" v="Angola"/>
     <tag k="name:ca" v="Angola"/>
     <tag k="name:chr" v="ᎠᏂᎪᎳ"/>
+    <tag k="name:ckb" v="ئەنگۆلا"/>
     <tag k="name:co" v="Angola"/>
     <tag k="name:cs" v="Angola"/>
     <tag k="name:de" v="Angola"/>
@@ -25542,6 +25543,7 @@
     <tag k="name:ce" v="Миср"/>
     <tag k="name:ceb" v="Ehipto"/>
     <tag k="name:chr" v="ᎢᏥᏈᎢ"/>
+    <tag k="name:ckb" v="میسر"/>
     <tag k="name:crh" v="Mısır"/>
     <tag k="name:cs" v="Egypt"/>
     <tag k="name:cu" v="Єгѷптъ"/>
@@ -37975,6 +37977,7 @@
     <tag k="name:ca" v="Suïssa"/>
     <tag k="name:ceb" v="Swisa"/>
     <tag k="name:chr" v="ᏍᏫᏍ"/>
+    <tag k="name:ckb" v="سویسرا"/>
     <tag k="name:cs" v="Švýcarsko"/>
     <tag k="name:csb" v="Szwajcarskô"/>
     <tag k="name:cv" v="Швейцари"/>

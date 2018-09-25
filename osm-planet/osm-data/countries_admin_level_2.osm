@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.55.4 3079d8ea">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2018-09-20T08:57:03Z"/>
+<meta osm_base="2018-09-25T11:48:02Z"/>
 
   <relation id="9407">
     <tag k="ISO3166-1" v="AD"/>
@@ -3904,7 +3904,7 @@
     <tag k="name:ceb" v="Swisa"/>
     <tag k="name:chr" v="ᏍᏫᏣᎳᏂ"/>
     <tag k="name:chy" v="Switzerland"/>
-    <tag k="name:ckb" v="سویس"/>
+    <tag k="name:ckb" v="سویسرا"/>
     <tag k="name:co" v="Svizzera"/>
     <tag k="name:crh" v="İsviçre"/>
     <tag k="name:cs" v="Švýcarsko"/>
@@ -11164,7 +11164,6 @@
     <tag k="boundary" v="administrative"/>
     <tag k="default_language" v="en"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/a/a4/Flag_of_the_United_States.svg"/>
-    <tag k="gnis:feature_id" v="1890467"/>
     <tag k="int_name" v="United States of America"/>
     <tag k="name" v="United States"/>
     <tag k="name:ab" v="Америка Еиду Аштатқәа"/>
@@ -41561,7 +41560,6 @@
     <tag k="name:ceb" v="Ehipto"/>
     <tag k="name:chr" v="ᎢᏥᏈᎢ"/>
     <tag k="name:chy" v="Egypt"/>
-    <tag k="name:ckb" v="میسر"/>
     <tag k="name:cop" v="ⲭⲏⲙⲓ"/>
     <tag k="name:crh" v="Mısır"/>
     <tag k="name:cs" v="Egypt"/>
@@ -45479,6 +45477,7 @@
     <tag k="name:or" v="ଭାନୁଆଟୁ"/>
     <tag k="name:os" v="Вануату"/>
     <tag k="name:pa" v="ਵਨੁਆਤੂ"/>
+    <tag k="name:pl" v="Vanuatu"/>
     <tag k="name:qu" v="Wanwatu"/>
     <tag k="name:ru" v="Вануату"/>
     <tag k="name:rw" v="Vanuwatu"/>
@@ -45502,6 +45501,7 @@
     <tag k="official_name:eo" v="Respubliko de Vanatuo"/>
     <tag k="official_name:es" v="República de Vanuatu"/>
     <tag k="official_name:fr" v="République de Vanuatu"/>
+    <tag k="official_name:pl" v="Republika Vanuatu"/>
     <tag k="official_name:ru" v="Республика Вануату"/>
     <tag k="population" v="234023"/>
     <tag k="population:date" v="2009"/>
@@ -49063,5 +49063,39 @@
     <tag k='name:ru' v='Северо-запад' />
     <tag k='name:sr' v='Северозападни' />
     <tag k='name:zh' v='西北部' />
+  </node>
+  <node id='-65352'>
+    <tag k='is_in:country' v='Switzerland' />
+    <tag k='name' v='Central' />
+    <tag k='name:ar' v='وسط' />
+    <tag k='name:de' v='Zentral' />
+    <tag k='name:es' v='Central' />
+    <tag k='name:fr' v='Central' />
+    <tag k='name:he' v='מֶרכָּזִי' />
+    <tag k='name:hu' v='Központi' />
+    <tag k='name:ko' v='본부' />
+    <tag k='name:pl' v='Centralny' />
+    <tag k='name:pt' v='Central' />
+    <tag k='name:ru' v='Центр' />
+    <tag k='name:sr' v='Централ' />
+    <tag k='name:tk' v='Merkezi' />
+    <tag k='name:zh' v='中央' />
+  </node>
+  <node id='-65353'>
+    <tag k='is_in:country' v='Switzerland' />
+    <tag k='name' v='Eastern' />
+    <tag k='name:ar' v='الشرقية' />
+    <tag k='name:de' v='Östlich' />
+    <tag k='name:es' v='Oriental' />
+    <tag k='name:fr' v='Est' />
+    <tag k='name:he' v='מזרחי' />
+    <tag k='name:hu' v='Keleti' />
+    <tag k='name:ko' v='동부의' />
+    <tag k='name:pl' v='Wschodni' />
+    <tag k='name:pt' v='Oriental' />
+    <tag k='name:ru' v='Восточный' />
+    <tag k='name:sr' v='Источна' />
+    <tag k='name:tk' v='Doğu' />
+    <tag k='name:zh' v='东' />
   </node>
 </osm>
