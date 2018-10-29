@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.55.4 3079d8ea">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2018-09-25T11:48:02Z" areas="2018-09-25T10:14:02Z"/>
+<meta osm_base="2018-10-29T09:24:02Z" areas="2018-10-29T08:52:02Z"/>
 
   <relation id="8640">
     <tag k="ISO3166-2" v="FR-CVL"/>
@@ -445,6 +445,7 @@
     <tag k="name:prefix:at" v="Bundesland"/>
     <tag k="name:pt" v="Estíria"/>
     <tag k="name:ru" v="Штирия"/>
+    <tag k="name:sk" v="Štajersko"/>
     <tag k="name:sl" v="Štajerska (zvezna dežela)"/>
     <tag k="name:ta" v="சிடிரியா"/>
     <tag k="ref:at:gkz" v="6"/>
@@ -1541,6 +1542,7 @@
     <tag k="name:prefix:at" v="Bundesland"/>
     <tag k="name:pt" v="Caríntia"/>
     <tag k="name:ru" v="Каринтия"/>
+    <tag k="name:sk" v="Korutánsko"/>
     <tag k="name:sl" v="Koroška"/>
     <tag k="name:ta" v="கரின்தையா"/>
     <tag k="ref:at:gkz" v="2"/>
@@ -2581,7 +2583,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="https://upload.wikimedia.org/wikipedia/commons/7/73/Bandeira_do_estado_do_Rio_de_Janeiro.svg"/>
     <tag k="is_in:country" v="Brazil"/>
-    <tag k="name" v="Rio de Janeiro"/>
+    <tag k="name" v="Rio de Janeiro JACAREPAGUA TAQUARA"/>
     <tag k="name:am" v="ሪዮ ዴ ጃኔይሮ"/>
     <tag k="name:ar" v="ريو دي جانيرو"/>
     <tag k="name:az" v="Rio de Janeyro"/>
@@ -2794,7 +2796,7 @@
     <tag k="name:uk" v="Англія"/>
     <tag k="name:vi" v="Anh"/>
     <tag k="name:vo" v="Linglän"/>
-    <tag k="name:zh" v="英格蘭"/>
+    <tag k="name:zh" v="英格兰"/>
     <tag k="name:zh-classical" v="英格蘭"/>
     <tag k="name:zh-simplified" v="英格兰"/>
     <tag k="name:zh-traditional" v="英格蘭"/>
@@ -2826,6 +2828,7 @@
     <tag k="name:lt" v="Gomelio sritis"/>
     <tag k="name:pl" v="obwód homelski"/>
     <tag k="name:ru" v="Гомельская область"/>
+    <tag k="name:sk" v="Homeľská oblasť"/>
     <tag k="name:uk" v="Гомєльська область"/>
     <tag k="old_name:uk" v="Гомельська область"/>
     <tag k="population" v="1415749"/>
@@ -3249,6 +3252,7 @@
     <tag k="name:bn" v="কিউবেক"/>
     <tag k="name:br" v="Kebek"/>
     <tag k="name:ca" v="Quebec"/>
+    <tag k="name:ckb" v="کیبێک"/>
     <tag k="name:co" v="Quebec"/>
     <tag k="name:cr" v="ᑯᐯᒃ"/>
     <tag k="name:cs" v="Quebec"/>
@@ -3280,6 +3284,7 @@
     <tag k="name:kk" v="Квебек"/>
     <tag k="name:kn" v="ಕ್ವಿಬೆಕ್"/>
     <tag k="name:ko" v="퀘벡"/>
+    <tag k="name:ku" v="Kîbêk"/>
     <tag k="name:kw" v="Kebek"/>
     <tag k="name:la" v="Quebecum"/>
     <tag k="name:ln" v="Kébeki"/>
@@ -3373,7 +3378,6 @@
     <tag k="TMC:cid_58:tabcd_1:LCLversion" v="12.0"/>
     <tag k="TMC:cid_58:tabcd_1:LocationCode" v="271"/>
     <tag k="admin_level" v="4"/>
-    <tag k="alt_name:cs" v="Durynsko"/>
     <tag k="alt_name:eo" v="Turingio"/>
     <tag k="border_type" v="state"/>
     <tag k="boundary" v="administrative"/>
@@ -3391,7 +3395,7 @@
     <tag k="name:bs" v="Tiringija"/>
     <tag k="name:ca" v="Turíngia"/>
     <tag k="name:ce" v="Тюринги"/>
-    <tag k="name:cs" v="Svobodný stát Durynsko"/>
+    <tag k="name:cs" v="Durynsko"/>
     <tag k="name:de" v="Thüringen"/>
     <tag k="name:el" v="Θουριγγία"/>
     <tag k="name:en" v="Thuringia"/>
@@ -3439,7 +3443,7 @@
     <tag k="name:sk" v="Durínsko"/>
     <tag k="name:sl" v="Turingija"/>
     <tag k="name:sq" v="Tyringia"/>
-    <tag k="name:sr" v="Слободна држава Тирингија"/>
+    <tag k="name:sr" v="Тирингија"/>
     <tag k="name:sw" v="Thuringia"/>
     <tag k="name:th" v="รัฐทือริงเงิน"/>
     <tag k="name:tr" v="Türingiya"/>
@@ -3451,9 +3455,13 @@
     <tag k="name:yo" v="Thuringia"/>
     <tag k="name:zh" v="图林根"/>
     <tag k="official_name" v="Freistaat Thüringen"/>
+    <tag k="official_name:cs" v="Svobodný stát Durynsko"/>
     <tag k="official_name:de" v="Freistaat Thüringen"/>
     <tag k="official_name:en" v="Free State of Thuringia"/>
     <tag k="official_name:eo" v="Liberŝtato Turingujo"/>
+    <tag k="official_name:sk" v="Slobodný štát Durínsko"/>
+    <tag k="official_name:sr" v="Слободна држава Тирингија"/>
+    <tag k="old_name:cs" v="Durynky"/>
     <tag k="ref" v="T"/>
     <tag k="source" v="http://wiki.openstreetmap.org/wiki/Import/Catalogue/Kreisgrenzen_Deutschland_2005"/>
     <tag k="type" v="boundary"/>
@@ -3513,6 +3521,7 @@
     <tag k="de:place:note" v="Kreisfreie Stadt"/>
     <tag k="de:regionalschluessel" v="110000000000"/>
     <tag k="geographical_region" v="Barnim;Berliner Urstromtal;Teltow;Nauener Platte"/>
+    <tag k="license_plate_code" v="B"/>
     <tag k="name" v="Berlin"/>
     <tag k="name:af" v="Berlyn"/>
     <tag k="name:als" v="Berlin"/>
@@ -3680,10 +3689,8 @@
     <tag k="official_status:en" v="State"/>
     <tag k="official_status:ru" v="земля"/>
     <tag k="old_name:vi" v="Bá Linh"/>
-    <tag k="place" v="state"/>
+    <tag k="place" v="city"/>
     <tag k="population" v="3440441"/>
-    <tag k="rank" v="0"/>
-    <tag k="ref" v="B"/>
     <tag k="source:population" v="http://www.statistik-berlin-brandenburg.de/Publikationen/Stat_Berichte/2010/SB_A1-1_A2-4_q01-10_BE.pdf 2010-10-01"/>
     <tag k="state_code" v="BE"/>
     <tag k="type" v="boundary"/>
@@ -4354,6 +4361,7 @@
     <tag k="name:bg" v="Онтарио"/>
     <tag k="name:bn" v="অন্টারিও"/>
     <tag k="name:ca" v="Ontàrio"/>
+    <tag k="name:ckb" v="ئۆنتاریۆ"/>
     <tag k="name:cr" v="ᐅᐣᑌᕆᐅ"/>
     <tag k="name:cs" v="Ontario"/>
     <tag k="name:el" v="Οντάριο"/>
@@ -4368,6 +4376,7 @@
     <tag k="name:ja" v="オンタリオ州"/>
     <tag k="name:ka" v="ონტარიო"/>
     <tag k="name:ko" v="온타리오"/>
+    <tag k="name:ku" v="Ontaryo"/>
     <tag k="name:lt" v="Ontarijas"/>
     <tag k="name:lv" v="Ontārio"/>
     <tag k="name:mk" v="Онтарио"/>
@@ -6476,6 +6485,7 @@
     <tag k="name:pl" v="Dolna Austria"/>
     <tag k="name:prefix:at" v="Bundesland"/>
     <tag k="name:ru" v="Нижняя Австрия"/>
+    <tag k="name:sk" v="Dolné Rakúsko"/>
     <tag k="name:sl" v="Spodnja Avstrija"/>
     <tag k="name:ta" v="கீழ் ஆஸ்திரியா"/>
     <tag k="ref:at:gkz" v="3"/>
@@ -6713,7 +6723,6 @@
   </relation>
   <relation id="79374">
     <tag k="ISO3166-2" v="RU-TA"/>
-    <tag k="addr:country" v="RU"/>
     <tag k="admin_level" v="4"/>
     <tag k="alt_name" v="Татария"/>
     <tag k="border_type" v="region"/>
@@ -7459,6 +7468,7 @@
     <tag k="name:pl" v="Salzburg"/>
     <tag k="name:prefix:at" v="Bundesland"/>
     <tag k="name:ru" v="Зальцбург"/>
+    <tag k="name:sk" v="Salzbursko"/>
     <tag k="name:ta" v="சல்பேர்க்"/>
     <tag k="ref:at:gkz" v="5"/>
     <tag k="type" v="boundary"/>
@@ -8144,6 +8154,7 @@
     <tag k="name:pl" v="Górna Austria"/>
     <tag k="name:prefix:at" v="Bundesland"/>
     <tag k="name:ru" v="Верхняя Австрия"/>
+    <tag k="name:sk" v="Horné Rakúsko"/>
     <tag k="name:sl" v="Zgornja Avstrija"/>
     <tag k="name:ta" v="மேல் ஆஸ்திரியா"/>
     <tag k="ref:at:gkz" v="4"/>
@@ -8462,7 +8473,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="gost_7.67-2003" v="РОФ-КАИ"/>
     <tag k="int_ref" v="RU-KL"/>
-    <tag k="name" v="Калмыкия"/>
+    <tag k="name" v="Республика Калмыкия"/>
     <tag k="name:av" v="Гъалмугъ"/>
     <tag k="name:az" v="Kalmıkiya Respublikası"/>
     <tag k="name:be" v="Калмыкія"/>
@@ -8475,7 +8486,7 @@
     <tag k="name:cv" v="Калмăк Республики"/>
     <tag k="name:de" v="Kalmückien"/>
     <tag k="name:el" v="Δημοκρατία της Καλμίκια"/>
-    <tag k="name:en" v="Kalmykia"/>
+    <tag k="name:en" v="Republic of Kalmykia"/>
     <tag k="name:eo" v="Kalmukio"/>
     <tag k="name:es" v="República de Kalmukia"/>
     <tag k="name:fr" v="République de Kalmoukie"/>
@@ -8483,7 +8494,7 @@
     <tag k="name:hu" v="Kalmükföld"/>
     <tag k="name:hy" v="Կալմիկիա հանրապետություն"/>
     <tag k="name:it" v="Repubblica dei Calmucchi"/>
-    <tag k="name:ka" v="რესპუბლიკა ყალმუხეთი"/>
+    <tag k="name:ka" v="ყალმუხეთის რესპუბლიკა"/>
     <tag k="name:kbd" v="Къалмыкъ республикэ"/>
     <tag k="name:kk" v="Қалмақстан Республикасы"/>
     <tag k="name:kv" v="Калмыкия"/>
@@ -8611,6 +8622,7 @@
     <tag k="name:pl" v="Wiedeń"/>
     <tag k="name:prefix:at" v="Statutarstadt"/>
     <tag k="name:ru" v="Вена"/>
+    <tag k="name:sk" v="Viedeň"/>
     <tag k="name:sl" v="Dunaj"/>
     <tag k="name:tzl" v="Viadna"/>
     <tag k="name:vi" v="Viên"/>
@@ -8680,7 +8692,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="gost_7.67-2003" v="РОФ-ДАГ"/>
     <tag k="int_ref" v="RU-DA"/>
-    <tag k="name" v="Дагестан"/>
+    <tag k="name" v="Республика Дагестан"/>
     <tag k="name:av" v="Дагъистан"/>
     <tag k="name:az" v="Dağıstan"/>
     <tag k="name:az-cyr" v="Дағыстан"/>
@@ -8690,7 +8702,7 @@
     <tag k="name:de" v="Dagestan"/>
     <tag k="name:diq" v="Dağıstan"/>
     <tag k="name:el" v="Νταγκεστάν"/>
-    <tag k="name:en" v="Dagestan"/>
+    <tag k="name:en" v="Republic of Dagestan"/>
     <tag k="name:es" v="Daguestán"/>
     <tag k="name:fa" v="داغستان"/>
     <tag k="name:fr" v="Daghestan"/>
@@ -8701,7 +8713,7 @@
     <tag k="name:hy" v="Դաղստան"/>
     <tag k="name:id" v="Dagestan"/>
     <tag k="name:it" v="Daghestan"/>
-    <tag k="name:ka" v="დაღესტანიშ რესპუბლიკა"/>
+    <tag k="name:ka" v="დაღესტნის რესპუბლიკა"/>
     <tag k="name:kbd" v="Дагъыстэн"/>
     <tag k="name:ku" v="Daxistan"/>
     <tag k="name:lb" v="Dagestan"/>
@@ -8711,6 +8723,7 @@
     <tag k="name:myv" v="Дагестан Республикась"/>
     <tag k="name:pl" v="Republika Dagestanu"/>
     <tag k="name:pt" v="Daguestão"/>
+    <tag k="name:ru" v="Дагестан"/>
     <tag k="name:sk" v="Dagestan"/>
     <tag k="name:sv" v="Dagestan"/>
     <tag k="name:tg" v="Доғистон"/>
@@ -8743,8 +8756,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="gost_7.67-2003" v="РОФ-ЧЕЧ"/>
     <tag k="int_ref" v="RU-CE"/>
-    <tag k="name" v="Чечня"/>
-    <tag k="name:ab" v="Чечниа"/>
+    <tag k="name" v="Чеченская Республика"/>
     <tag k="name:af" v="Tsjetsjnië"/>
     <tag k="name:ar" v="الشيشان"/>
     <tag k="name:av" v="Чачанистан"/>
@@ -8764,7 +8776,7 @@
     <tag k="name:de" v="Tschetschenien"/>
     <tag k="name:diq" v="Çeçenıstan"/>
     <tag k="name:el" v="Τσετσενία"/>
-    <tag k="name:en" v="Chechnya"/>
+    <tag k="name:en" v="Chechen Republic"/>
     <tag k="name:eo" v="Ĉeĉenio"/>
     <tag k="name:es" v="Chechenia"/>
     <tag k="name:eu" v="Txetxenia"/>
@@ -8778,7 +8790,7 @@
     <tag k="name:hu" v="Csecsenföld"/>
     <tag k="name:hy" v="Չեչնիա"/>
     <tag k="name:id" v="Chechnya"/>
-    <tag k="name:ka" v="ჩეჩნეთი"/>
+    <tag k="name:ka" v="ჩეჩნეთის რესპუბლიკა"/>
     <tag k="name:kbd" v="Шэшэней"/>
     <tag k="name:ko" v="체첸 공화국"/>
     <tag k="name:lt" v="Čečėnija"/>
@@ -8789,6 +8801,7 @@
     <tag k="name:os" v="Цæцæн"/>
     <tag k="name:pl" v="Czeczenia"/>
     <tag k="name:ro" v="Cecenia"/>
+    <tag k="name:ru" v="Чечня"/>
     <tag k="name:sah" v="Чечня"/>
     <tag k="name:sh" v="Čečenija"/>
     <tag k="name:sk" v="Čečensko"/>
@@ -8821,18 +8834,19 @@
     <tag k="boundary" v="administrative"/>
     <tag k="gost_7.67-2003" v="РОФ-КАО"/>
     <tag k="int_ref" v="RU-KC"/>
-    <tag k="name" v="Карачаево-Черкесия"/>
+    <tag k="name" v="Карачаево-Черкесская Республика"/>
     <tag k="name:aba" v="Къарча-Черкес Республика"/>
     <tag k="name:br" v="Karatchay-Tcherkesia"/>
     <tag k="name:ca" v="Karatxai-Txerkèssia"/>
     <tag k="name:ce" v="Кхарачой-Чергазийчоь"/>
     <tag k="name:de" v="Karatschai-Tscherkessien"/>
-    <tag k="name:en" v="Karachay-Cherkessia"/>
+    <tag k="name:en" v="Karachay-Cherkess Republic"/>
     <tag k="name:es" v="Karacháyevo-Cherkesia"/>
     <tag k="name:fa" v="قره‌چای و چرکس"/>
     <tag k="name:fr" v="Karatchaïévo-Tcherkessie"/>
     <tag k="name:hu" v="Karacsáj- és Cserkeszföld"/>
     <tag k="name:ja" v="カラチャイ・チェルケス共和国"/>
+    <tag k="name:ka" v="ყარაჩაი-ჩერქეზეთის რესპუბლიკა"/>
     <tag k="name:kbd" v="Къэрэшей-Шэрджэс Республикэ"/>
     <tag k="name:krc" v="Къарачай-Черкес Республика"/>
     <tag k="name:nog" v="Карашай-Шеркеш Республикасы"/>
@@ -8857,7 +8871,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="gost_7.67-2003" v="РОФ-КАБ"/>
     <tag k="int_ref" v="RU-KB"/>
-    <tag k="name" v="Кабардино-Балкария"/>
+    <tag k="name" v="Кабардино-Балкарская Республика"/>
     <tag k="name:ab" v="Ҟабарда-Балкариа‎"/>
     <tag k="name:az" v="Kabarda-Balkariya"/>
     <tag k="name:be" v="Кабардзіна-Балкарыя"/>
@@ -8867,12 +8881,12 @@
     <tag k="name:ce" v="ГӀебартойн-Балкхаройчоь"/>
     <tag k="name:cs" v="Kabardsko-Balkarsko"/>
     <tag k="name:de" v="Kabardino-Balkarien"/>
-    <tag k="name:en" v="Kabardino-Balkaria"/>
+    <tag k="name:en" v="Kabardino-Balkar Republic"/>
     <tag k="name:es" v="Kabardia-Balkaria"/>
     <tag k="name:fr" v="Kabardino-Balkarie"/>
     <tag k="name:hu" v="Kabard- és Balkárföld"/>
     <tag k="name:hy" v="Կաբարդա-Բալկարիա"/>
-    <tag k="name:ka" v="ყაბარდო-ბალყარეთი"/>
+    <tag k="name:ka" v="ყაბარდო-ბალყარეთის რესპუბლიკა"/>
     <tag k="name:kbd" v="Къэбэрдей-Балъкъэр"/>
     <tag k="name:krc" v="Къабарты-Малкъар"/>
     <tag k="name:nl" v="Kabardië-Balkarië"/>
@@ -8900,7 +8914,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="gost_7.67-2003" v="РОФ-СЕВ"/>
     <tag k="int_ref" v="RU-SE"/>
-    <tag k="name" v="Северная Осетия - Алания"/>
+    <tag k="name" v="Республика Северная Осетия — Алания"/>
     <tag k="name:af" v="Noord-Ossetië-Alanië"/>
     <tag k="name:ar" v="أوسيتيا الشمالية-ألانيا"/>
     <tag k="name:av" v="Шималияб Гьиристан"/>
@@ -8920,7 +8934,7 @@
     <tag k="name:de" v="Nordossetien-Alanien"/>
     <tag k="name:diq" v="Osetya Zımey-Alanya"/>
     <tag k="name:el" v="Δημοκρατία της Βόρειας Οσετίας - Αλανίας"/>
-    <tag k="name:en" v="North Ossetia–Alania"/>
+    <tag k="name:en" v="Republic of North Ossetia-Alania"/>
     <tag k="name:es" v="Osetia del Norte-Alania"/>
     <tag k="name:et" v="Põhja-Osseetia"/>
     <tag k="name:eu" v="Ipar Osetia-Alania"/>
@@ -8937,7 +8951,7 @@
     <tag k="name:id" v="Ossetia Utara–Alania"/>
     <tag k="name:it" v="Ossezia Settentrionale-Alania"/>
     <tag k="name:ja" v="北オセチア共和国"/>
-    <tag k="name:ka" v="ჩრდილოეთი ოსეთი"/>
+    <tag k="name:ka" v="ოსეთის რესპუბლიკა"/>
     <tag k="name:kbd" v="Ишхъэрэ Iэсетиэ"/>
     <tag k="name:koi" v="Аланму"/>
     <tag k="name:krc" v="Шимал Тегей"/>
@@ -9451,8 +9465,8 @@
     <tag k="name:sk" v="Permský kraj"/>
     <tag k="name:tt" v="Пермь крае"/>
     <tag k="oktmo:user" v="57000000"/>
-    <tag k="population" v="2634409"/>
-    <tag k="population:date" v="2016"/>
+    <tag k="population" v="2623122"/>
+    <tag k="population:date" v="2018"/>
     <tag k="ref" v="RU-PER"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q5400"/>
@@ -10051,8 +10065,8 @@
     <tag k="name:ru" v="Ханты-Мансийский автономный округ - Югра"/>
     <tag k="name:sk" v="Chantyjsko-mansijský autonómny okruh"/>
     <tag k="oktmo:user" v="71800000"/>
-    <tag k="population" v="1646078"/>
-    <tag k="population:date" v="2017-01-01"/>
+    <tag k="population" v="1655074"/>
+    <tag k="population:date" v="2018-01-01"/>
     <tag k="ref" v="RU-KHM"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q6320"/>
@@ -10792,6 +10806,7 @@
     <tag k="is_in:country" v="China"/>
     <tag k="is_in:country_code" v="CN"/>
     <tag k="name" v="西藏自治区"/>
+    <tag k="name:bo" v="བོད་རང་སྐྱོང་ལྗོངས།"/>
     <tag k="name:de" v="Autonomes Gebiet Tibet"/>
     <tag k="name:en" v="Tibet Autonomous Region"/>
     <tag k="name:es" v="Región Autónoma del Tíbet"/>
@@ -10865,12 +10880,14 @@
   <relation id="153314">
     <tag k="ISO3166-2" v="CN-62"/>
     <tag k="admin_level" v="4"/>
+    <tag k="alt_name:bo" v="ཀན་སུའུ་ཞིང་ཆེན།"/>
     <tag k="boundary" v="administrative"/>
     <tag k="int_name" v="Gansu"/>
     <tag k="is_in:continent" v="Asia"/>
     <tag k="is_in:country" v="China"/>
     <tag k="is_in:country_code" v="CN"/>
     <tag k="name" v="甘肃省"/>
+    <tag k="name:bo" v="ཀན་སུའུ"/>
     <tag k="name:de" v="Gansu"/>
     <tag k="name:en" v="Gansu"/>
     <tag k="name:es" v="Gansu"/>
@@ -11382,6 +11399,7 @@
     <tag k="name:de" v="Nordirland"/>
     <tag k="name:en" v="Northern Ireland"/>
     <tag k="name:eo" v="Nord-Irlando"/>
+    <tag k="name:eu" v="Ipar Irlanda"/>
     <tag k="name:fi" v="Pohjois-Irlanti"/>
     <tag k="name:fr" v="Irlande du Nord"/>
     <tag k="name:fy" v="Noard-Ierlân"/>
@@ -13818,7 +13836,7 @@
     <tag k="alt_name" v="Friuli-Venezia Giulia"/>
     <tag k="alt_name:cs" v="Furlansko a Julské Benátsko"/>
     <tag k="boundary" v="administrative"/>
-    <tag k="name" v="Friuli Venezia Giulia"/>
+    <tag k="name" v="Friuli - Venezia Giulia / Furlanija - Julijska krajina"/>
     <tag k="name:ca" v="Friül - Venècia Júlia"/>
     <tag k="name:cs" v="Furlansko-Julské Benátsko"/>
     <tag k="name:de" v="Friaul-Julisch Venetien"/>
@@ -13833,7 +13851,7 @@
     <tag k="name:ro" v="Friuli-Veneția Giulia"/>
     <tag k="name:ru" v="Фриули-Венеция-Джулия"/>
     <tag k="name:sk" v="Furlansko-Júlske Benátky"/>
-    <tag k="name:sl" v="Furlanija Julijska Krajina"/>
+    <tag k="name:sl" v="Furlanija - Julijska krajina"/>
     <tag k="official_name" v="Regione Autonoma Friuli Venezia Giulia"/>
     <tag k="ref:ISTAT" v="06"/>
     <tag k="short_name" v="FVG"/>
@@ -13943,6 +13961,7 @@
     <tag k="name:fr" v="Gouvernorat de Hama"/>
     <tag k="name:pl" v="Hama"/>
     <tag k="name:ru" v="Хама"/>
+    <tag k="name:uk" v="Хама мухафаза"/>
     <tag k="name:zh" v="哈马省"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q232355"/>
@@ -16524,6 +16543,7 @@
     <tag k="name:tr" v="Çanakkale"/>
     <tag k="name:uk" v="Чанаккале"/>
     <tag k="network" v="TR-provinces"/>
+    <tag k="place" v="city"/>
     <tag k="ref:NUTS" v="TR222"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q47813"/>
@@ -17321,6 +17341,11 @@
     <tag k="name:ru" v="Керман"/>
     <tag k="name:uk" v="Керман"/>
     <tag k="place" v="province"/>
+    <tag k="population" v="3164718"/>
+    <tag k="population:date" v="2016"/>
+    <tag k="source:population" v="www.amar.org.ir"/>
+    <tag k="source:sqkm" v="www.amar.org.ir"/>
+    <tag k="sqkm" v="182726"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q165352"/>
     <tag k="wikipedia" v="en:Kerman Province"/>
@@ -17797,19 +17822,20 @@
     <tag k="boundary" v="administrative"/>
     <tag k="gost_7.67-2003" v="РОФ-ИНГ"/>
     <tag k="int_ref" v="RU-IN"/>
-    <tag k="name" v="Ингушетия"/>
+    <tag k="name" v="Республика Ингушетия"/>
     <tag k="name:av" v="Гъалгъай"/>
     <tag k="name:az" v="İnquşetiya"/>
     <tag k="name:br" v="Ingouchia"/>
     <tag k="name:ca" v="Ingúixia"/>
     <tag k="name:ce" v="ГӀалгӀайчоь"/>
     <tag k="name:de" v="Inguschetien"/>
-    <tag k="name:en" v="Ingushetia"/>
+    <tag k="name:en" v="Republic of Ingushetia"/>
     <tag k="name:es" v="Ingusetia"/>
     <tag k="name:fr" v="Ingouchie"/>
     <tag k="name:hu" v="Ingusföld"/>
     <tag k="name:hy" v="Ինգուշեթիա"/>
     <tag k="name:inh" v="Гӏалгӏай Мохк"/>
+    <tag k="name:ka" v="ინგუშეთის რესპუბლიკა"/>
     <tag k="name:kbd" v="Ингушей"/>
     <tag k="name:krc" v="Ингушетия"/>
     <tag k="name:myv" v="Ингушетия Республикась"/>
@@ -17842,7 +17868,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="gost_7_67-2003" v="РОФ-АДЫ"/>
     <tag k="int_ref" v="RU-AD"/>
-    <tag k="name" v="Адыгея"/>
+    <tag k="name" v="Республика Адыгея"/>
     <tag k="name:ady" v="Адыгэй"/>
     <tag k="name:av" v="Адигъистан"/>
     <tag k="name:az" v="Adıgey"/>
@@ -17853,19 +17879,19 @@
     <tag k="name:ce" v="Адыгейчоь"/>
     <tag k="name:cs" v="Adygsko"/>
     <tag k="name:de" v="Adygeja"/>
-    <tag k="name:en" v="Adygea"/>
+    <tag k="name:en" v="Republic of Adygea"/>
     <tag k="name:es" v="Adigueya"/>
     <tag k="name:fr" v="Adyguée"/>
     <tag k="name:hu" v="Adigeföld"/>
     <tag k="name:hy" v="Ադիգեա"/>
     <tag k="name:it" v="Adighezia"/>
     <tag k="name:ja" v="アディゲ共和国"/>
-    <tag k="name:ka" v="ადიღე"/>
+    <tag k="name:ka" v="ადიღეს რესპუბლიკა"/>
     <tag k="name:kbd" v="Адыгэ Республикэ"/>
     <tag k="name:krc" v="Адыгея"/>
     <tag k="name:nl" v="Adygea"/>
     <tag k="name:pl" v="Adygeja"/>
-    <tag k="name:ru" v="Адыгея"/>
+    <tag k="name:ru" v="Республика Адыгея"/>
     <tag k="name:sk" v="Adygejská republika"/>
     <tag k="name:sv" v="Adygeiska republiken"/>
     <tag k="name:tt" v="Адыгея Республикасы"/>
@@ -19636,7 +19662,7 @@
     <tag k="source" v="gadm.org"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q874980"/>
-    <tag k="wikipedia" v="en:Gulf_Province"/>
+    <tag k="wikipedia" v="en:Gulf Province"/>
   </relation>
   <relation id="311776">
     <tag k="ISO3166-2" v="PG-WPD"/>
@@ -19755,7 +19781,7 @@
     <tag k="source" v="gadm.org"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q874942"/>
-    <tag k="wikipedia" v="en:Central_Province_(Papua_New_Guinea)"/>
+    <tag k="wikipedia" v="en:Central Province (Papua New Guinea)"/>
   </relation>
   <relation id="315173">
     <tag k="IBGE:GEOCODIGO" v="31"/>
@@ -20946,6 +20972,7 @@
     <tag k="name:pl" v="La Rioja"/>
     <tag k="name:pt" v="La Rioja"/>
     <tag k="name:ru" v="Риоха"/>
+    <tag k="name:sk" v="La Rioja"/>
     <tag k="official_name" v="La Rioja"/>
     <tag k="source" v="BDLL25, EGRN, Instituto Geográfico Nacional"/>
     <tag k="type" v="boundary"/>
@@ -20971,6 +20998,7 @@
     <tag k="name:hu" v="Kantábria"/>
     <tag k="name:pl" v="Kantabria"/>
     <tag k="name:ru" v="Кантабрия"/>
+    <tag k="name:sk" v="Kantábria"/>
     <tag k="source" v="BDLL25, EGRN, Instituto Geográfico Nacional"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q3946"/>
@@ -21001,6 +21029,7 @@
     <tag k="name:pl" v="Nawarra"/>
     <tag k="name:pt" v="Navarra"/>
     <tag k="name:ru" v="Наварра"/>
+    <tag k="name:sk" v="Navarra"/>
     <tag k="official_name" v="Comunidad Foral de Navarra"/>
     <tag k="official_name:be" v="Аўтаномная супольнасць Навара"/>
     <tag k="official_name:ca" v="Comunitat Foral de Navarra"/>
@@ -21038,6 +21067,7 @@
     <tag k="name:fr" v="Asturies"/>
     <tag k="name:hu" v="Asztúria"/>
     <tag k="name:pt" v="Astúrias"/>
+    <tag k="name:sk" v="Astúria"/>
     <tag k="official_name:ar" v="منطقة أستورياس"/>
     <tag k="official_name:ast" v="Principáu d'Asturies"/>
     <tag k="official_name:be" v="Астурыйскае княства"/>
@@ -21090,6 +21120,7 @@
     <tag k="name:pl" v="Galicja"/>
     <tag k="name:pt" v="Galiza"/>
     <tag k="name:ru" v="Галисия"/>
+    <tag k="name:sk" v="Galícia"/>
     <tag k="official_name" v="Comunidade Autónoma de Galicia"/>
     <tag k="official_name:ar" v="منطقة غاليسيا"/>
     <tag k="official_name:be" v="Аўтаномная супольнасць Галісія"/>
@@ -21129,6 +21160,7 @@
     <tag k="name:pl" v="Kastylia i León"/>
     <tag k="name:pt" v="Castela e Leão"/>
     <tag k="name:ru" v="Кастилия и Леон"/>
+    <tag k="name:sk" v="Kastília-León"/>
     <tag k="official_name" v="Castilla y León"/>
     <tag k="official_name:ar" v="منطقة قشتالة وليون"/>
     <tag k="source" v="BDLL25, EGRN, Instituto Geográfico Nacional"/>
@@ -21221,6 +21253,7 @@
     <tag k="name:pl" v="Wspólnota Walencka"/>
     <tag k="name:pt" v="Comunidade Valenciana"/>
     <tag k="name:ru" v="Валенсия"/>
+    <tag k="name:sk" v="Valencijské spoločenstvo"/>
     <tag k="official_name:ar" v="منطقة بلنسية"/>
     <tag k="official_name:be" v="Валенсійская супольнасць"/>
     <tag k="official_name:ca" v="Comunitat Valenciana"/>
@@ -21263,6 +21296,7 @@
     <tag k="name:pl" v="Andaluzja"/>
     <tag k="name:pt" v="Andaluzia"/>
     <tag k="name:ru" v="Андалусия"/>
+    <tag k="name:sk" v="Andalúzia"/>
     <tag k="name:sv" v="Andalusien"/>
     <tag k="official_name" v="Andalucía"/>
     <tag k="source" v="BDLL25, EGRN, Instituto Geográfico Nacional"/>
@@ -21287,7 +21321,7 @@
     <tag k="name:ca" v="Aragó"/>
     <tag k="name:cs" v="Aragonie"/>
     <tag k="name:de" v="Aragonien"/>
-    <tag k="name:el" v="Αραγονία"/>
+    <tag k="name:el" v="Αραγωνία"/>
     <tag k="name:en" v="Aragon"/>
     <tag k="name:es" v="Aragón"/>
     <tag k="name:eu" v="Aragoi"/>
@@ -21297,6 +21331,7 @@
     <tag k="name:pl" v="Aragonia"/>
     <tag k="name:pt" v="Aragão"/>
     <tag k="name:ru" v="Арагон"/>
+    <tag k="name:sk" v="Aragónsko"/>
     <tag k="name:tzl" v="Arac'hon"/>
     <tag k="official_name" v="Aragón"/>
     <tag k="source" v="BDLL25, EGRN, Instituto Geográfico Nacional"/>
@@ -21329,6 +21364,7 @@
     <tag k="name:fr" v="Région de Murcie"/>
     <tag k="name:pl" v="Region Murcji"/>
     <tag k="name:pt" v="Região de Múrcia"/>
+    <tag k="name:sk" v="Murcia"/>
     <tag k="official_name" v="Comunidad autónoma de la Región de Murcia"/>
     <tag k="official_name:be" v="Аўтаномная супольнасць Мурсія"/>
     <tag k="official_name:ca" v="Comunitat autònoma de la Regió de Murcia"/>
@@ -21383,6 +21419,7 @@
     <tag k="name:pl" v="Wyspy Kanaryjskie"/>
     <tag k="name:pt" v="Canárias"/>
     <tag k="name:ru" v="Канарские острова"/>
+    <tag k="name:sk" v="Kanárske ostrovy"/>
     <tag k="name:sl" v="Kanarski otoki"/>
     <tag k="name:sv" v="Kanarieöarna"/>
     <tag k="official_name" v="Canarias"/>
@@ -21418,6 +21455,7 @@
     <tag k="name:pl" v="Estremadura"/>
     <tag k="name:pt" v="Estremadura"/>
     <tag k="name:ru" v="Эстремадура"/>
+    <tag k="name:sk" v="Extremadura"/>
     <tag k="official_name" v="Extremadura"/>
     <tag k="source" v="BDLL25, EGRN, Instituto Geográfico Nacional"/>
     <tag k="type" v="boundary"/>
@@ -21452,6 +21490,7 @@
     <tag k="name:pl" v="Kastylia-La Mancha"/>
     <tag k="name:pt" v="Castela-Mancha"/>
     <tag k="name:ru" v="Кастилия-Ла-Манча"/>
+    <tag k="name:sk" v="Kastília-La Mancha"/>
     <tag k="official_name" v="Castilla-La Mancha"/>
     <tag k="source" v="BDLL25, EGRN, Instituto Geográfico Nacional"/>
     <tag k="type" v="boundary"/>
@@ -21497,6 +21536,7 @@
     <tag k="name:pl" v="Katalonia"/>
     <tag k="name:pt" v="Catalunha"/>
     <tag k="name:ru" v="Каталония"/>
+    <tag k="name:sk" v="Katalánsko"/>
     <tag k="name:sl" v="Katalonija"/>
     <tag k="name:sv" v="Katalonien"/>
     <tag k="name:tok" v="ma Katala"/>
@@ -21534,6 +21574,7 @@
     <tag k="name:pl" v="Wspólnota Madrytu"/>
     <tag k="name:pt" v="Comunidade de Madrid"/>
     <tag k="name:ru" v="Мадрид"/>
+    <tag k="name:sk" v="Madridské spoločenstvo"/>
     <tag k="official_name" v="Comunidad de Madrid"/>
     <tag k="official_name:be" v="Аўтаномная супольнасць Мадрыд"/>
     <tag k="official_name:es" v="Comunidad de Madrid"/>
@@ -22688,6 +22729,7 @@
     <tag k="is_in:country_code" v="YE"/>
     <tag k="name" v="صنعاء"/>
     <tag k="name:ar" v="صنعاء"/>
+    <tag k="name:ckb" v="سەنعا"/>
     <tag k="name:de" v="Sanaa"/>
     <tag k="name:en" v="Sanʿaʾ Governorate"/>
     <tag k="name:es" v="Gobernación de Saná"/>
@@ -22891,8 +22933,8 @@
     <tag k="is_in:continent" v="Asia"/>
     <tag k="is_in:country" v="Yemen"/>
     <tag k="is_in:country_code" v="YE"/>
-    <tag k="name" v="منطقة الجوف"/>
-    <tag k="name:ar" v="منطقة الجوف"/>
+    <tag k="name" v="محافظة الجوف"/>
+    <tag k="name:ar" v="محافظة الجوف"/>
     <tag k="name:de" v="al-Dschauf"/>
     <tag k="name:en" v="Al Jawf Governorate"/>
     <tag k="name:es" v="Gobernación de Yauf"/>
@@ -23565,15 +23607,9 @@
   </relation>
   <relation id="390558">
     <tag k="ISO3166-2" v="CA-NS"/>
-    <tag k="addr:province" v="Nova Scotia"/>
     <tag k="admin_level" v="4"/>
-    <tag k="area" v="yes"/>
     <tag k="border_type" v="province"/>
     <tag k="boundary" v="administrative"/>
-    <tag k="is_in:continent" v="North America"/>
-    <tag k="is_in:country" v="Canada"/>
-    <tag k="is_in:country_code" v="CA"/>
-    <tag k="land_area" v="administrative"/>
     <tag k="name" v="Nova Scotia"/>
     <tag k="name:ar" v="نوفا سكوشا"/>
     <tag k="name:az" v="Yeni Şotlandiya"/>
@@ -23747,6 +23783,7 @@
     <tag k="name:be" v="Правінцыя Манітоба"/>
     <tag k="name:bg" v="Манитоба"/>
     <tag k="name:br" v="Manitoba"/>
+    <tag k="name:ckb" v="مانیتۆبا"/>
     <tag k="name:cr" v="ᒪᓂᑐᐸ"/>
     <tag k="name:cs" v="Manitoba"/>
     <tag k="name:el" v="Μανιτόμπα"/>
@@ -23761,6 +23798,7 @@
     <tag k="name:ka" v="მანიტობა"/>
     <tag k="name:kk" v="Манитоба"/>
     <tag k="name:ko" v="매니토바 주"/>
+    <tag k="name:ku" v="Manîtoba"/>
     <tag k="name:lt" v="Manitoba"/>
     <tag k="name:mk" v="Манитоба"/>
     <tag k="name:mn" v="Манитоба"/>
@@ -23924,6 +23962,7 @@
     <tag k="name:be" v="Саскачэван"/>
     <tag k="name:bg" v="Саскачеван"/>
     <tag k="name:br" v="Saskatchewan"/>
+    <tag k="name:ckb" v="ساسکاچوان"/>
     <tag k="name:cs" v="Saskatchewan"/>
     <tag k="name:el" v="Σασκάτσουαν"/>
     <tag k="name:en" v="Saskatchewan"/>
@@ -23938,6 +23977,7 @@
     <tag k="name:ja" v="サスカチュワン州"/>
     <tag k="name:ka" v="სასკაჩევანი"/>
     <tag k="name:ko" v="서스캐처원 주"/>
+    <tag k="name:ku" v="Saskaçwan"/>
     <tag k="name:lt" v="Saskačevanas"/>
     <tag k="name:lv" v="Saskačevana"/>
     <tag k="name:mk" v="Саскачеван"/>
@@ -23978,6 +24018,7 @@
     <tag k="name:be" v="Правінцыя Альберта"/>
     <tag k="name:bg" v="Албърта"/>
     <tag k="name:br" v="Alberta"/>
+    <tag k="name:ckb" v="ئەلبێرتا"/>
     <tag k="name:cs" v="Alberta"/>
     <tag k="name:el" v="Αλμπέρτα"/>
     <tag k="name:en" v="Alberta"/>
@@ -24037,6 +24078,7 @@
     <tag k="name:br" v="Douar-Nevez ha Labrador"/>
     <tag k="name:bs" v="Newfoundland i Labrador"/>
     <tag k="name:ca" v="Terranova i Labrador"/>
+    <tag k="name:ckb" v="نیوفاوندلاند و لابرادۆر"/>
     <tag k="name:cs" v="Newfoundland a Labrador"/>
     <tag k="name:cy" v="Newfoundland a Labrador"/>
     <tag k="name:da" v="Newfoundland og Labrador"/>
@@ -24069,6 +24111,7 @@
     <tag k="name:ka" v="ნიუფაუნდლენდი და ლაბრადორი"/>
     <tag k="name:kl" v="Newfoundland aamma Labrador"/>
     <tag k="name:ko" v="뉴펀들랜드 래브라도 주"/>
+    <tag k="name:ku" v="Nîwfawindland û labrador"/>
     <tag k="name:kw" v="Tir Nowydh ha Labrador"/>
     <tag k="name:la" v="Terra Nova et Terra Laboratoria"/>
     <tag k="name:lb" v="Neifundland a Labrador"/>
@@ -24214,6 +24257,7 @@
     <tag k="name:ar" v="يوكون"/>
     <tag k="name:be" v="Тэрыторыя Юкан"/>
     <tag k="name:bg" v="Юкон"/>
+    <tag k="name:ckb" v="یوکۆن"/>
     <tag k="name:cs" v="Yukon"/>
     <tag k="name:de" v="Yukon"/>
     <tag k="name:el" v="Γιούκον"/>
@@ -24231,6 +24275,7 @@
     <tag k="name:ja" v="ユーコン準州"/>
     <tag k="name:ka" v="იუკონი"/>
     <tag k="name:ko" v="유콘 준주"/>
+    <tag k="name:ku" v="Îwkon"/>
     <tag k="name:lt" v="Jukonas"/>
     <tag k="name:lv" v="Jukona"/>
     <tag k="name:mk" v="Јукон"/>
@@ -25810,6 +25855,7 @@
   <relation id="912942">
     <tag k="ISO3166-2" v="CN-21"/>
     <tag k="admin_level" v="4"/>
+    <tag k="alt_name" v="辽宁"/>
     <tag k="boundary" v="administrative"/>
     <tag k="int_name" v="Liaoning"/>
     <tag k="is_in:continent" v="Asia"/>
@@ -26833,6 +26879,7 @@
     <tag k="name:lt" v="Kauno apskritis"/>
     <tag k="name:lv" v="Kauņas apriņķis"/>
     <tag k="name:no" v="Kaunas fylke"/>
+    <tag k="name:pl" v="Okręg kowieński"/>
     <tag k="name:pnb" v="کاؤناس کاؤنٹی"/>
     <tag k="name:ro" v="Județul Kaunas"/>
     <tag k="name:ru" v="Каунасский уезд"/>
@@ -26993,6 +27040,7 @@
     <tag k="name:os" v="Сеутæ"/>
     <tag k="name:pl" v="Ceuta"/>
     <tag k="name:ru" v="Сеута"/>
+    <tag k="name:sk" v="Ceuta"/>
     <tag k="name:sr" v="Сеута"/>
     <tag k="name:su" v="Céuta"/>
     <tag k="name:ta" v="சியூடா"/>
@@ -27041,6 +27089,7 @@
     <tag k="name:os" v="Мелилья"/>
     <tag k="name:pl" v="Melilla"/>
     <tag k="name:ru" v="Мелилья"/>
+    <tag k="name:sk" v="Melilla"/>
     <tag k="name:sr" v="Мелиља"/>
     <tag k="name:su" v="Mélilya"/>
     <tag k="name:ta" v="மெலில்லா"/>
@@ -28105,6 +28154,7 @@
     <tag k="official_name:en" v="Autonomous Province of Vojvodina"/>
     <tag k="official_name:es" v="Provincia Autónoma de Voivodina"/>
     <tag k="official_name:fr" v="Province autonome de Voïvodine"/>
+    <tag k="official_name:hr" v="Autonomna Pokrajina Vojvodina"/>
     <tag k="official_name:hu" v="Vajdaság Autonóm Tartomány"/>
     <tag k="official_name:lt" v="Autonominė Voivodinos provincija"/>
     <tag k="official_name:ro" v="Provincia Autonomă Voivodina"/>
@@ -28198,6 +28248,7 @@
   <relation id="1279816">
     <tag k="ISO3166-2" v="DZ-33"/>
     <tag k="admin_level" v="4"/>
+    <tag k="alt_name:ar" v="إيليزي;إلـيـزي"/>
     <tag k="boundary" v="administrative"/>
     <tag k="is_in:continent" v="Africa"/>
     <tag k="is_in:country" v="Algeria"/>
@@ -28205,8 +28256,8 @@
     <tag k="long_name:ar" v="ولاية إليزي"/>
     <tag k="long_name:en" v="Illizi Province"/>
     <tag k="long_name:fr" v="Wilaya d'Illizi"/>
-    <tag k="name" v="Illizi إلـيـزي"/>
-    <tag k="name:ar" v="إلـيـزي"/>
+    <tag k="name" v="Illizi إليزي"/>
+    <tag k="name:ar" v="إليزي"/>
     <tag k="name:ber" v="ⵉⵍⵍⵉⵣⵉ"/>
     <tag k="name:el" v="Ιλίζι"/>
     <tag k="name:en" v="Illizi"/>
@@ -28214,6 +28265,7 @@
     <tag k="name:kab" v="Illizi"/>
     <tag k="name:ru" v="Иллизи"/>
     <tag k="old_name" v="Fort-Polignac"/>
+    <tag k="old_name:ar" v="فور بوليناك"/>
     <tag k="population" v="52333"/>
     <tag k="population:date" v="2008"/>
     <tag k="ref" v="33"/>
@@ -30613,6 +30665,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="La Union"/>
     <tag k="name:ja" v="ラウニオン"/>
+    <tag k="name:uk" v="Ла-Уніон"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q13829"/>
   </relation>
@@ -30825,6 +30878,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Negros Occidental"/>
     <tag k="name:ja" v="西ネグロス"/>
+    <tag k="name:uk" v="Західний Неґрос"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q13862"/>
   </relation>
@@ -30861,6 +30915,8 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Surigao Del Norte"/>
     <tag k="name:ja" v="北スリガオ"/>
+    <tag k="name:uk" v="Північний Суріґао"/>
+    <tag k="note" v="Search in Ukrainian works poorly. The search does not download the translation into Ukrainian from Wikipedia/Wikidata. Therefore, forced to add name: uk"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q13889"/>
     <tag k="wikipedia" v="en:Surigao del Norte"/>
@@ -30871,6 +30927,8 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Surigao del Sur"/>
     <tag k="name:ja" v="南スリガオ"/>
+    <tag k="name:uk" v="Південий Суріґао"/>
+    <tag k="note" v="Please leave name: uk Search in Ukrainian often works poorly."/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q13891"/>
   </relation>
@@ -34522,7 +34580,7 @@
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Malta"/>
-    <tag k="name:ar" v="مالطة"/>
+    <tag k="name:ar" v="مالطا"/>
     <tag k="name:fr" v="Malte"/>
     <tag k="name:it" v="Malta"/>
     <tag k="name:ja" v="マルタ"/>
@@ -34541,7 +34599,7 @@
     <tag k="name:ar" v="غيرنزي"/>
     <tag k="name:be" v="Гернсі"/>
     <tag k="name:be-tarask" v="Гернсі"/>
-    <tag k="name:en" v="Γκέρνσεϊ"/>
+    <tag k="name:en" v="Guernsey"/>
     <tag k="name:eo" v="Gvernsejo"/>
     <tag k="name:fr" v="Guernesey"/>
     <tag k="name:lt" v="Gernsis"/>
@@ -37408,7 +37466,7 @@
     <tag k="name:sr" v="Бак Жјанг"/>
     <tag k="name:sv" v="Bắc Giang"/>
     <tag k="name:sw" v="Mkoa wa Bắc Giang"/>
-    <tag k="name:uk" v="Бакзянг"/>
+    <tag k="name:uk" v="Бакзянґ провінція"/>
     <tag k="name:ur" v="باک گیانگ صوبہ"/>
     <tag k="name:zh" v="北江省"/>
     <tag k="population" v="1574300"/>
@@ -39289,9 +39347,10 @@
     <tag k="name:kn" v="ಹರಿಯಾಣ"/>
     <tag k="name:ru" v="Харьяна"/>
     <tag k="name:ta" v="அரியானா"/>
-    <tag k="name:uk" v="Хар'яна"/>
+    <tag k="name:uk" v="Гар'яна"/>
     <tag k="name:ur" v="ہریانہ"/>
     <tag k="name:zh" v="哈里亚纳邦"/>
+    <tag k="old_name:uk" v="Хар'яна"/>
     <tag k="ref" v="HR"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q1174"/>
@@ -40234,18 +40293,138 @@
     <tag k="addr:country" v="GE"/>
     <tag k="admin_level" v="4"/>
     <tag k="alt_name:ca" v="Tiflis"/>
+    <tag k="alt_name:ko" v="뜨빌리씨"/>
     <tag k="boundary" v="administrative"/>
     <tag k="int_name" v="Tbilisi"/>
     <tag k="name" v="თბილისი"/>
+    <tag k="name:ab" v="Қарҭ"/>
+    <tag k="name:ace" v="Tbilisi"/>
+    <tag k="name:af" v="Tbilisi"/>
+    <tag k="name:am" v="ትብሊሲ"/>
+    <tag k="name:an" v="Tbilisi"/>
+    <tag k="name:ar" v="تبليسي"/>
+    <tag k="name:arc" v="ܛܒܝܠܝܣܝ"/>
+    <tag k="name:av" v="Тбилиси"/>
+    <tag k="name:az" v="Tbilisi"/>
+    <tag k="name:bat-smg" v="Tbėlėsis"/>
+    <tag k="name:bcl" v="Tbilisi"/>
+    <tag k="name:be" v="Тбілісі"/>
+    <tag k="name:be-tarask" v="Тбілісі"/>
+    <tag k="name:bg" v="Тбилиси"/>
+    <tag k="name:bn" v="তিবি‌লিসি"/>
+    <tag k="name:bo" v="ཁྲེ་བྷི་ལི་སི།"/>
+    <tag k="name:br" v="Tbilisi"/>
+    <tag k="name:bs" v="Tbilisi"/>
     <tag k="name:ca" v="Tbilissi"/>
+    <tag k="name:ckb" v="تبلیس"/>
+    <tag k="name:cs" v="Tbilisi"/>
+    <tag k="name:cv" v="Тбилиси"/>
+    <tag k="name:cy" v="Tbilisi"/>
+    <tag k="name:da" v="Tbilisi"/>
     <tag k="name:de" v="Tiflis"/>
+    <tag k="name:diq" v="Tıflis"/>
+    <tag k="name:el" v="Τιφλίδα"/>
     <tag k="name:en" v="Tbilisi"/>
+    <tag k="name:eo" v="Tbiliso"/>
     <tag k="name:es" v="Tiflis"/>
+    <tag k="name:et" v="Thbilisi"/>
+    <tag k="name:eu" v="Tbilisi"/>
+    <tag k="name:fa" v="تفلیس"/>
+    <tag k="name:fi" v="Tbilisi"/>
+    <tag k="name:fiu-vro" v="Thbilisi"/>
+    <tag k="name:fo" v="Tbilisi"/>
     <tag k="name:fr" v="Tbilissi"/>
+    <tag k="name:frp" v="Tbilisi"/>
+    <tag k="name:fy" v="Tbilisy"/>
+    <tag k="name:gd" v="Tbilisi"/>
+    <tag k="name:gl" v="Tbilisi"/>
+    <tag k="name:gv" v="Tbilisi"/>
+    <tag k="name:he" v="טביליסי"/>
+    <tag k="name:hi" v="थ्बिलिसि"/>
+    <tag k="name:hif" v="Tbilisi"/>
+    <tag k="name:hr" v="Tbilisi"/>
+    <tag k="name:hsb" v="Tbilisi"/>
+    <tag k="name:ht" v="Tbilisi"/>
+    <tag k="name:hu" v="Tbiliszi"/>
+    <tag k="name:hy" v="Թբիլիսի"/>
+    <tag k="name:id" v="Tbilisi"/>
+    <tag k="name:io" v="Tbilisi"/>
+    <tag k="name:is" v="Tíblisi"/>
+    <tag k="name:it" v="Tbilisi"/>
+    <tag k="name:ja" v="トビリシ"/>
+    <tag k="name:jv" v="Tbilisi"/>
     <tag k="name:ka" v="თბილისი"/>
+    <tag k="name:kbd" v="Тбилиси"/>
+    <tag k="name:kk" v="Тбилиси"/>
+    <tag k="name:ko" v="트빌리시"/>
+    <tag k="name:ku" v="Tibîlîsî"/>
+    <tag k="name:kv" v="Тбилиси"/>
+    <tag k="name:ky" v="Тбилиси"/>
+    <tag k="name:la" v="Triphelis"/>
+    <tag k="name:lbe" v="Ттуплис"/>
+    <tag k="name:lij" v="Tiblisi"/>
+    <tag k="name:lmo" v="Tbilisi"/>
+    <tag k="name:lt" v="Tbilisis"/>
+    <tag k="name:lv" v="Tbilisi"/>
+    <tag k="name:mhr" v="Тбилиси"/>
+    <tag k="name:mi" v="Tbilisi"/>
+    <tag k="name:mk" v="Тбилиси"/>
+    <tag k="name:mn" v="Тбилис"/>
+    <tag k="name:mr" v="त्बिलिसी"/>
+    <tag k="name:mrj" v="Тбилиси"/>
+    <tag k="name:ms" v="Tbilisi"/>
+    <tag k="name:myv" v="Тбилиси ош"/>
+    <tag k="name:mzn" v="تفلیس"/>
+    <tag k="name:nah" v="Tbilisi"/>
+    <tag k="name:nl" v="Tbilisi"/>
+    <tag k="name:nn" v="Tbilisi"/>
+    <tag k="name:no" v="Tbilisi"/>
+    <tag k="name:nov" v="Tbilisi"/>
+    <tag k="name:oc" v="Tbilissi"/>
+    <tag k="name:os" v="Тбилис"/>
+    <tag k="name:pam" v="Tbilisi"/>
+    <tag k="name:pl" v="Tbilisi"/>
+    <tag k="name:pms" v="Tbilisi"/>
+    <tag k="name:pnb" v="تبلیسی"/>
+    <tag k="name:pt" v="Tbilisi"/>
+    <tag k="name:ro" v="Tbilisi"/>
+    <tag k="name:roa-tara" v="Tbilisi"/>
     <tag k="name:ru" v="Тбилиси"/>
+    <tag k="name:sah" v="Тбилиси"/>
+    <tag k="name:sc" v="Tbilisi"/>
+    <tag k="name:scn" v="Tbilisi"/>
+    <tag k="name:sco" v="Tbilisi"/>
+    <tag k="name:sh" v="Tbilisi"/>
+    <tag k="name:simple" v="Tbilisi"/>
+    <tag k="name:sk" v="Tbilisi"/>
+    <tag k="name:sl" v="Tbilisi"/>
+    <tag k="name:sq" v="Tbilisi"/>
+    <tag k="name:sr" v="Тбилиси"/>
+    <tag k="name:sv" v="Tbilisi"/>
+    <tag k="name:sw" v="Tbilisi"/>
+    <tag k="name:szl" v="Tbilisi"/>
+    <tag k="name:ta" v="திபிலீசி"/>
+    <tag k="name:tg" v="Тбилисӣ"/>
+    <tag k="name:th" v="ทบิลิซิ"/>
+    <tag k="name:tl" v="Tbilisi"/>
+    <tag k="name:udm" v="Тбилиси"/>
+    <tag k="name:ug" v="تبىلىسى"/>
+    <tag k="name:uk" v="Тбілісі"/>
+    <tag k="name:ur" v="تبلیسی"/>
+    <tag k="name:vep" v="Tbilisi"/>
+    <tag k="name:vi" v="Tbilisi"/>
+    <tag k="name:vo" v="Tbilisi"/>
+    <tag k="name:war" v="Tbilisi"/>
+    <tag k="name:wo" v="Tibilisi"/>
+    <tag k="name:xmf" v="ქართი"/>
+    <tag k="name:yi" v="טביליסי"/>
+    <tag k="name:yo" v="Tbilisi"/>
+    <tag k="name:zh" v="第比利斯"/>
+    <tag k="name:zh-min-nan" v="Tbilisi"/>
     <tag k="old_name" v="ტფილისი"/>
     <tag k="old_name:en" v="Tiflisi"/>
+    <tag k="old_name:ru" v="Тифлис"/>
+    <tag k="place" v="city"/>
     <tag k="population" v="1152500"/>
     <tag k="source:population" v="Wikipedia"/>
     <tag k="type" v="boundary"/>
@@ -41546,14 +41725,12 @@
     <tag k="TMC:cid_58:tabcd_1:LCLversion" v="12.0"/>
     <tag k="TMC:cid_58:tabcd_1:LocationCode" v="264"/>
     <tag k="admin_level" v="4"/>
-    <tag k="alt_name:cs" v="Svobodný stát Bavorsko"/>
     <tag k="alt_name:eo" v="Bavario"/>
     <tag k="border_type" v="state"/>
     <tag k="boundary" v="administrative"/>
     <tag k="de:amtlicher_gemeindeschluessel" v="09"/>
     <tag k="de:regionalschluessel" v="09"/>
     <tag k="int_name" v="Bavaria"/>
-    <tag k="long_name:en" v="Free State of Bavaria"/>
     <tag k="name" v="Bayern"/>
     <tag k="name:af" v="Beiere"/>
     <tag k="name:am" v="ባቫሪያ"/>
@@ -41629,7 +41806,7 @@
     <tag k="name:sk" v="Bavorsko"/>
     <tag k="name:sl" v="Bavarska"/>
     <tag k="name:sq" v="Bavaria"/>
-    <tag k="name:sr" v="Слободна Држава Баварска"/>
+    <tag k="name:sr" v="Баварска"/>
     <tag k="name:sw" v="Bavaria"/>
     <tag k="name:ta" v="பவேரியா"/>
     <tag k="name:te" v="బవేరియా"/>
@@ -41645,6 +41822,11 @@
     <tag k="name:yi" v="בייערן"/>
     <tag k="name:yo" v="Bavaria"/>
     <tag k="name:zh" v="巴伐利亚"/>
+    <tag k="official_name" v="Freistaat Bayern"/>
+    <tag k="official_name:cs" v="Svobodný stát Bavorsko"/>
+    <tag k="official_name:en" v="Free State of Bavaria"/>
+    <tag k="official_name:sk" v="Slobodný štát Bavorsko"/>
+    <tag k="official_name:sr" v="Слободна Држава Баварска"/>
     <tag k="old_name:cs" v="Bavory"/>
     <tag k="ref" v="BY"/>
     <tag k="type" v="boundary"/>
@@ -42082,7 +42264,7 @@
     <tag k="name:en" v="Rio San Juan"/>
     <tag k="official_name" v="Departamento de Río San Juan"/>
     <tag k="place" v="state"/>
-    <tag k="population" v="95596"/>
+    <tag k="population" v="130416"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q728155"/>
     <tag k="wikipedia" v="es:Departamento de Río San Juan"/>
@@ -42096,7 +42278,7 @@
     <tag k="name" v="Boaco"/>
     <tag k="official_name" v="Departamento de Boaco"/>
     <tag k="place" v="state"/>
-    <tag k="population" v="174682"/>
+    <tag k="population" v="181165"/>
     <tag k="short_name" v="Boaco"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q280973"/>
@@ -42111,7 +42293,7 @@
     <tag k="name" v="Chontales"/>
     <tag k="official_name" v="Departamento de Chontales"/>
     <tag k="place" v="state"/>
-    <tag k="population" v="153932"/>
+    <tag k="population" v="187873"/>
     <tag k="short_name" v="Chontales"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q498443"/>
@@ -42126,7 +42308,7 @@
     <tag k="name" v="Managua"/>
     <tag k="official_name" v="Departamento de Managua"/>
     <tag k="place" v="state"/>
-    <tag k="population" v="1262978"/>
+    <tag k="population" v="1509123"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q260009"/>
     <tag k="wikipedia" v="es:Departamento_de_Managua"/>
@@ -42141,7 +42323,7 @@
     <tag k="name:en" v="Leon"/>
     <tag k="official_name" v="Departamento de León"/>
     <tag k="place" v="state"/>
-    <tag k="population" v="355779"/>
+    <tag k="population" v="415010"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q586818"/>
     <tag k="wikipedia" v="es:Departamento de León"/>
@@ -42155,7 +42337,7 @@
     <tag k="name" v="Chinandega"/>
     <tag k="official_name" v="Departamento de Chinandega"/>
     <tag k="place" v="state"/>
-    <tag k="population" v="432062"/>
+    <tag k="population" v="433773"/>
     <tag k="type" v="boundary"/>
     <tag k="ufi" v="-1110631"/>
     <tag k="wikidata" v="Q644024"/>
@@ -42170,7 +42352,7 @@
     <tag k="name" v="Madriz"/>
     <tag k="official_name" v="Departamento de Madriz"/>
     <tag k="place" v="state"/>
-    <tag k="population" v="132459"/>
+    <tag k="population" v="168329"/>
     <tag k="short_name" v="Madriz"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q728056"/>
@@ -42185,7 +42367,7 @@
     <tag k="name" v="Estelí"/>
     <tag k="official_name" v="Departamento de Estelí"/>
     <tag k="place" v="state"/>
-    <tag k="population" v="201548"/>
+    <tag k="population" v="226524"/>
     <tag k="short_name" v="Estelí"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q728015"/>
@@ -42196,11 +42378,11 @@
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
     <tag k="is_in:country" v="Nicaragua"/>
-    <tag k="is_in:state" v="Neuva Segovia"/>
+    <tag k="is_in:state" v="Nueva Segovia"/>
     <tag k="name" v="Nueva Segovia"/>
     <tag k="official_name" v="Departemento de Nueva Segovia"/>
     <tag k="place" v="state"/>
-    <tag k="population" v="208523"/>
+    <tag k="population" v="260631"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q728022"/>
     <tag k="wikipedia" v="es:Nueva_Segovia"/>
@@ -42211,10 +42393,10 @@
     <tag k="boundary" v="administrative"/>
     <tag k="is_in:country" v="Nicaragua"/>
     <tag k="is_in:state" v="Matagalpa"/>
-    <tag k="name" v="Matagalpa (Departemento)"/>
+    <tag k="name" v="Matagalpa (Departamento)"/>
     <tag k="official_name" v="Departemento de Matagalpa"/>
     <tag k="place" v="state"/>
-    <tag k="population" v="4969172"/>
+    <tag k="population" v="574058"/>
     <tag k="short_name" v="Matagalpa"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q728099"/>
@@ -42232,7 +42414,7 @@
     <tag k="old_name" v="Región Autónoma del Atlántico Norte (RAAN)"/>
     <tag k="old_name_1" v="RAAN"/>
     <tag k="place" v="state"/>
-    <tag k="population" v="314130"/>
+    <tag k="population" v="500114"/>
     <tag k="short_name" v="RACCN"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q498452"/>
@@ -42262,7 +42444,7 @@
     <tag k="old_name" v="Región Autónoma del Atlántico Sur (RAAS)"/>
     <tag k="old_name_1" v="RAAS"/>
     <tag k="place" v="state"/>
-    <tag k="population" v="306510"/>
+    <tag k="population" v="396397"/>
     <tag k="postal_code" v="81000"/>
     <tag k="short_name" v="RACCN"/>
     <tag k="type" v="boundary"/>
@@ -42278,7 +42460,7 @@
     <tag k="name" v="Jinotega"/>
     <tag k="official_name" v="Departamento de Jinotega"/>
     <tag k="place" v="state"/>
-    <tag k="population" v="417372"/>
+    <tag k="population" v="452973"/>
     <tag k="short_name" v="Jinotega"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q728120"/>
@@ -43028,7 +43210,7 @@
     <tag k="border_type" v="state"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Bolívar"/>
-    <tag k="name:es" v="Bolívar"/>
+    <tag k="name:es" v="Estado Bolívar"/>
     <tag k="name:ru" v="Боливар"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q191164"/>
@@ -43647,6 +43829,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="is_in" v="Dominica"/>
     <tag k="name" v="Saint Andrew Parish"/>
+    <tag k="name:zh" v="聖安德魯區"/>
     <tag k="population" v="9437"/>
     <tag k="source" v="http://www.dominica.gov.dm/cms/files/2011_census_report.pdf"/>
     <tag k="type" v="boundary"/>
@@ -43720,6 +43903,7 @@
     <tag k="alt_name:eo" v="Nordteritorio"/>
     <tag k="alt_name:vi" v="Lãnh thổ Bắc Úc"/>
     <tag k="boundary" v="administrative"/>
+    <tag k="def:highway=footway;access:bicycle" v="yes"/>
     <tag k="is_in" v="Australia"/>
     <tag k="is_in:country_code" v="AU"/>
     <tag k="loc_name:vi" v="Lãnh thổ Bắc"/>
@@ -43764,6 +43948,7 @@
     <tag k="ISO3166-2:old" v="AU-QL"/>
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
+    <tag k="def:highway=footway;access:bicycle" v="yes"/>
     <tag k="is_in" v="Australia"/>
     <tag k="is_in:country_code" v="AU"/>
     <tag k="name" v="Queensland"/>
@@ -43800,6 +43985,7 @@
     <tag k="ISO3166-2" v="AU-SA"/>
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
+    <tag k="def:highway=footway;access:bicycle" v="yes"/>
     <tag k="is_in" v="Australia"/>
     <tag k="is_in:country_code" v="AU"/>
     <tag k="name" v="South Australia"/>
@@ -43846,6 +44032,7 @@
     <tag k="ISO3166-2" v="AU-WA"/>
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
+    <tag k="def:highway=footway;access:bicycle" v="yes"/>
     <tag k="is_in" v="Australia"/>
     <tag k="is_in:country_code" v="AU"/>
     <tag k="name" v="Western Australia"/>
@@ -43895,6 +44082,7 @@
     <tag k="ISO3166-2" v="AU-VIC"/>
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
+    <tag k="def:highway=footway;access:bicycle" v="no"/>
     <tag k="is_in" v="Australia"/>
     <tag k="is_in:country_code" v="AU"/>
     <tag k="name" v="Victoria"/>
@@ -44266,6 +44454,7 @@
     <tag k="ISO3166-2:old" v="AU-CT"/>
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
+    <tag k="def:highway=footway;access:bicycle" v="yes"/>
     <tag k="name" v="Australian Capital Territory"/>
     <tag k="name:ar" v="مقاطعة العاصمة الأسترالية"/>
     <tag k="name:be" v="Аўстралійская сталічная тэрыторыя"/>
@@ -44607,6 +44796,7 @@
     <tag k="ISO3166-2:old" v="AU-TS"/>
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
+    <tag k="def:highway=footway;access:bicycle" v="yes"/>
     <tag k="is_in" v="Australia"/>
     <tag k="is_in:country_code" v="AU"/>
     <tag k="name" v="Tasmania"/>
@@ -44808,7 +44998,6 @@
     <tag k="ISO3166-2" v="ID-ST"/>
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
-    <tag k="name" v="Sulawesi Tengah"/>
     <tag k="name:de" v="Zentral-Sulawesi"/>
     <tag k="name:en" v="Central Sulawesi"/>
     <tag k="name:id" v="Sulawesi Tengah"/>
@@ -45068,7 +45257,7 @@
     <tag k="name:en" v="Daegu"/>
     <tag k="name:eo" v="Taeguo"/>
     <tag k="name:es" v="Daegu"/>
-    <tag k="name:et" v="Taegu"/>
+    <tag k="name:et" v="Daegu"/>
     <tag k="name:eu" v="Daegu"/>
     <tag k="name:fa" v="دائجو"/>
     <tag k="name:fi" v="Daegu"/>
@@ -45220,7 +45409,7 @@
     <tag k="name:en" v="Busan"/>
     <tag k="name:eo" v="Pusano"/>
     <tag k="name:es" v="Busan"/>
-    <tag k="name:et" v="Pusan"/>
+    <tag k="name:et" v="Busan"/>
     <tag k="name:eu" v="Busan"/>
     <tag k="name:fa" v="بوسان"/>
     <tag k="name:fi" v="Busan"/>
@@ -45684,7 +45873,7 @@
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Marrakech-Safi ⵎⵕⵕⴰⴽⵛ-ⴰⵙⴼⵉ مراكش-أسفي"/>
-    <tag k="name:ar" v="مراكش أسفي"/>
+    <tag k="name:ar" v="مراكش-أسفي"/>
     <tag k="name:ber" v="ⵎⵕⵕⴰⴽⵛ-ⴰⵙⴼⵉ"/>
     <tag k="name:en" v="Marrakech-Safi"/>
     <tag k="name:pl" v="Marrakesz-Safi"/>
@@ -48678,7 +48867,7 @@
     <tag k="name:pl" v="Irbil"/>
     <tag k="name:ru" v="Эрбиль"/>
     <tag k="name:syc" v="ܐܪܒܝܠ"/>
-    <tag k="name:uk" v="Ербіль"/>
+    <tag k="name:uk" v="Ербіль провінція (мугафаза)"/>
     <tag k="source" v="Wikimedia Commons"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q213189"/>
@@ -49867,6 +50056,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="محافظة بغداد"/>
     <tag k="name:ar" v="محافظة بغداد"/>
+    <tag k="name:ckb" v="پارێزگای بەغدا"/>
     <tag k="name:de" v="Bagdad"/>
     <tag k="name:en" v="Baghdad"/>
     <tag k="name:es" v="Gobernación de Bagdad"/>
@@ -50492,6 +50682,8 @@
   </relation>
   <relation id="3279616">
     <tag k="ISO3166-2" v="TJ-KT"/>
+    <tag k="addr:country" v="TJ"/>
+    <tag k="addr:province" v="Вилояти Хатлон"/>
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
     <tag k="int_name" v="Khatlon"/>
@@ -51717,7 +51909,7 @@
     <tag k="ref:ONE" v="0405"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q1138575"/>
-    <tag k="wikipedia" v="es:Dajabón"/>
+    <tag k="wikipedia" v="es:Provincia de Dajabón"/>
   </relation>
   <relation id="3412368">
     <tag k="ISO3166-2" v="DO-26"/>
@@ -51890,7 +52082,7 @@
     <tag k="ref:ONE" v="0616"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q1352533"/>
-    <tag k="wikipedia" v="es:Pedernales (provincia)"/>
+    <tag k="wikipedia" v="es:Provincia de Pedernales"/>
   </relation>
   <relation id="3421243">
     <tag k="ISO3166-2" v="DO-31"/>
@@ -54383,10 +54575,10 @@
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
     <tag k="is_in:country" v="Nicaragua"/>
-    <tag k="is_in:state" v="Carazo"/>
+    <tag k="is_in:state" v="Carazo (Departamento)"/>
     <tag k="name" v="Carazo"/>
     <tag k="place" v="state"/>
-    <tag k="population" v="186898"/>
+    <tag k="population" v="193331"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q461133"/>
     <tag k="wikipedia" v="es:Departamento_de_Carazo"/>
@@ -54400,7 +54592,7 @@
     <tag k="name" v="Granada"/>
     <tag k="official_name" v="Departamento de Granada"/>
     <tag k="place" v="state"/>
-    <tag k="population" v="168186"/>
+    <tag k="population" v="209343"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q258405"/>
     <tag k="wikipedia" v="es:Departamento de Granada"/>
@@ -54414,7 +54606,7 @@
     <tag k="name" v="Masaya"/>
     <tag k="official_name" v="Departamento de Masaya"/>
     <tag k="place" v="state"/>
-    <tag k="population" v="289988"/>
+    <tag k="population" v="375083"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q570358"/>
     <tag k="wikipedia" v="es:Departamento de Masaya"/>
@@ -54428,7 +54620,7 @@
     <tag k="name" v="Rivas"/>
     <tag k="official_name" v="Departamento de Rivas"/>
     <tag k="place" v="state"/>
-    <tag k="population" v="156283"/>
+    <tag k="population" v="179681"/>
     <tag k="short_name" v="Rivas"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q728127"/>
@@ -54677,6 +54869,7 @@
     <tag k="name:fr" v="Tabuk"/>
     <tag k="name:hu" v="Tabúk tartomány"/>
     <tag k="name:ru" v="мухафаза Табук"/>
+    <tag k="name:uk" v="Табук провінція"/>
     <tag k="sorting_name:cs" v="Tabúk"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q1315953"/>
@@ -56841,7 +57034,9 @@
     <tag k="wikidata" v="Q159477"/>
   </relation>
   <relation id="3766483">
-    <tag k="ISO3166-2" v="AE-DU"/>
+    <tag k="addr:city" v="Dubai"/>
+    <tag k="addr:postcode" v="128940"/>
+    <tag k="addr:street" v="Sheikh Zayed Road, Emaar Business Park - Dubai - United Arab Emirates"/>
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
     <tag k="is_in:continent" v="Asia"/>
@@ -58609,7 +58804,7 @@
     <tag k="name:uk" v="Префектура Хоккайдо"/>
     <tag k="name:zh" v="北海道"/>
     <tag k="name:zh_pinyin" v="Běihǎi Dào"/>
-    <tag k="place" v="state"/>
+    <tag k="place" v="province"/>
     <tag k="source" v="KSJ2"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q1037393"/>
@@ -58707,8 +58902,10 @@
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Ağdərə rayonu"/>
+    <tag k="name:az" v="Ağdərə rayonu"/>
     <tag k="name:en" v="Agdere Province"/>
-    <tag k="name:ru" v="Агдере район"/>
+    <tag k="name:hy" v="Մարտակերտի շրջան"/>
+    <tag k="name:ru" v="Мартакертский район"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q132348"/>
     <tag k="wikipedia" v="ru:Мартакертский район"/>
@@ -58915,6 +59112,7 @@
     <tag k="name:fr" v="Gouvernorat de Beheira"/>
     <tag k="name:hu" v="el-Buhajra kormányzóság"/>
     <tag k="name:ru" v="мухафаза Бухейра"/>
+    <tag k="name:uk" v="Бухейра мугафаза"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q30630"/>
   </relation>
@@ -58932,6 +59130,7 @@
     <tag k="name:es" v="Chittagong"/>
     <tag k="name:fr" v="Chittagong"/>
     <tag k="name:ru" v="Читтагонг"/>
+    <tag k="name:uk" v="Чіттаґонґ бібхаґ (адміністративний регіон)"/>
     <tag k="name:zh" v="吉大港"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q158087"/>
@@ -59009,6 +59208,53 @@
     <tag k="name:ru" v="Эль-Джауф"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q1471266"/>
+  </relation>
+  <relation id="3853884">
+    <tag k="ISO3166-2" v="BN-BE"/>
+    <tag k="admin_level" v="4"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="Belait"/>
+    <tag k="name:de" v="Belait"/>
+    <tag k="name:en" v="Belait District"/>
+    <tag k="name:ja" v="ブライト"/>
+    <tag k="name:ms" v="Daerah Belait"/>
+    <tag k="name:zh" v="马拉奕县"/>
+    <tag k="official_name" v="Daerah Belait"/>
+    <tag k="place" v="district"/>
+    <tag k="type" v="boundary"/>
+    <tag k="wikidata" v="Q40395"/>
+    <tag k="wikipedia" v="en:Belait District"/>
+  </relation>
+  <relation id="3853885">
+    <tag k="ISO3166-2" v="BN-BM"/>
+    <tag k="admin_level" v="4"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="Brunei-Muara"/>
+    <tag k="name:de" v="Brunei-Muara"/>
+    <tag k="name:en" v="Brunei-Muara District"/>
+    <tag k="name:ja" v="ブルネイ・ムアラ"/>
+    <tag k="name:ms" v="Daerah Brunei-Muara"/>
+    <tag k="name:zh" v="文莱摩拉县"/>
+    <tag k="place" v="district"/>
+    <tag k="type" v="boundary"/>
+    <tag k="wikidata" v="Q153009"/>
+    <tag k="wikipedia" v="en:Brunei-Muara District"/>
+  </relation>
+  <relation id="3853886">
+    <tag k="ISO3166-2" v="BN-TU"/>
+    <tag k="admin_level" v="4"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="Tutong"/>
+    <tag k="name:de" v="Tutong"/>
+    <tag k="name:en" v="Tutong District"/>
+    <tag k="name:ja" v="ツトン"/>
+    <tag k="name:ms" v="Daerah Tutong"/>
+    <tag k="name:zh" v="都东县"/>
+    <tag k="official_name" v="Daerah Tutong"/>
+    <tag k="place" v="district"/>
+    <tag k="type" v="boundary"/>
+    <tag k="wikidata" v="Q40398"/>
+    <tag k="wikipedia" v="en:Tutong District"/>
   </relation>
   <relation id="3859335">
     <tag k="ISO3166-2" v="BD-E"/>
@@ -59523,6 +59769,7 @@
     <tag k="name:es" v="Sylhet"/>
     <tag k="name:fr" v="Sylhet"/>
     <tag k="name:ja" v="シレット"/>
+    <tag k="name:uk" v="Сілгет бібхаґ (адміністративний регіон)"/>
     <tag k="name:zh" v="锡莱特"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q459732"/>
@@ -59946,6 +60193,7 @@
     <tag k="name:cs" v="Portoriko"/>
     <tag k="name:en" v="Puerto Rico"/>
     <tag k="name:eo" v="Puertoriko"/>
+    <tag k="name:es" v="Puerto Rico"/>
     <tag k="name:fa" v="پورتوریکو"/>
     <tag k="name:fo" v="Puerto Riko"/>
     <tag k="name:fr" v="Porto Rico"/>
@@ -60131,13 +60379,21 @@
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Ήπειρος - Δυτική Μακεδονία"/>
+    <tag k="name:bg" v="Епир и Западна Македония"/>
     <tag k="name:de" v="Epirus - Westmakedonien"/>
     <tag k="name:el" v="Ήπειρος - Δυτική Μακεδονία"/>
     <tag k="name:en" v="Epirus - Western Macedonia"/>
     <tag k="name:fi" v="Epeiros - Länsi-Makedonia"/>
-    <tag k="name:fr" v="Épire - Macédoine occidentale"/>
+    <tag k="name:fr" v="Épire-Macédoine occidentale"/>
+    <tag k="name:mk" v="Епир и Западна Македонија"/>
     <tag k="name:ru" v="Эпира и Западной Македонии"/>
+    <tag k="name:tr" v="Epir ve Batı Makedonya"/>
     <tag k="official_name" v="Αποκεντρωμένη Διοίκηση Ηπείρου - Δυτικής Μακεδονίας"/>
+    <tag k="official_name:bg" v="Децентрализирано администриране Епир и Западна Македония"/>
+    <tag k="official_name:el" v="Αποκεντρωμένη Διοίκηση Ηπείρου - Δυτικής Μακεδονίας"/>
+    <tag k="official_name:fr" v="Diocèse décentralisé d'Épire-Macédoine occidentale"/>
+    <tag k="official_name:mk" v="Децентрализирана администрација Епир и Западна Македонија"/>
+    <tag k="official_name:tr" v="Epir ve Batı Makedonya Merkezi Olmayan Idaresi"/>
     <tag k="population" v="620545"/>
     <tag k="source" v="geodata.gov.gr"/>
     <tag k="source:population" v="ΕΛΣΤΑΤ 2011"/>
@@ -60161,12 +60417,15 @@
     <tag k="name:ru" v="Аттика"/>
     <tag k="name:tr" v="Attika"/>
     <tag k="official_name" v="Αποκεντρωμένη Διοίκηση Αττικής"/>
+    <tag k="official_name:bg" v="Децентрализирано администриране Атика"/>
     <tag k="official_name:ca" v="Administració descentralitzada de Àtica"/>
     <tag k="official_name:de" v="Dezentralisierte Verwaltung Attika"/>
     <tag k="official_name:el" v="Αποκεντρωμένη Διοίκηση Αττικής"/>
     <tag k="official_name:en" v="Decentralized Administration of Attica"/>
-    <tag k="official_name:fr" v="Diocèse décentralisé d'Attique"/>
+    <tag k="official_name:fr" v="Diocèse décentralisé de l'Attique"/>
+    <tag k="official_name:mk" v="Децентрализирана администрација Атика"/>
     <tag k="official_name:ru" v="Децентрализованная администрация Аттики"/>
+    <tag k="official_name:tr" v="Attika Merkezi Olmayan Idaresi"/>
     <tag k="population" v="3828434"/>
     <tag k="source:population" v="ΕΛΣΤΑΤ 2011"/>
     <tag k="type" v="boundary"/>
@@ -60178,12 +60437,20 @@
     <tag k="boundary" v="administrative"/>
     <tag k="contact:website" v="http://www.apdthest.gov.gr"/>
     <tag k="name" v="Θεσσαλία - Στερεά Ελλάδα"/>
+    <tag k="name:bg" v="Тесалия и Централна Гърция"/>
     <tag k="name:de" v="Thessalien - Mittelgriechenland"/>
     <tag k="name:el" v="Θεσσαλία - Στερεά Ελλάδα"/>
     <tag k="name:en" v="Thessaly - Central Greece"/>
-    <tag k="name:fr" v="Thessalie - Grèce centrale"/>
+    <tag k="name:fr" v="Thessalie-Grèce centrale"/>
+    <tag k="name:mk" v="Тесалија и Централна Грција"/>
     <tag k="name:ru" v="Фессалии и Центральной Греции"/>
+    <tag k="name:tr" v="Teselya ve Orta Yunanistan"/>
     <tag k="official_name" v="Αποκεντρωμένη Διοίκηση Θεσσαλίας - Στερεάς Ελλάδας"/>
+    <tag k="official_name:bg" v="Децентрализирано администриране Тесалия и Централна Гърция"/>
+    <tag k="official_name:el" v="Αποκεντρωμένη Διοίκηση Θεσσαλίας - Στερεάς Ελλάδας"/>
+    <tag k="official_name:fr" v="Diocèse décentralisé de Thessalie-Grèce centrale"/>
+    <tag k="official_name:mk" v="Децентрализирана администрација Тесалија и Централна Грција"/>
+    <tag k="official_name:tr" v="Teselya ve Orta Yunanistan Merkezi Olmayan Idaresi"/>
     <tag k="population" v="1280152"/>
     <tag k="source" v="geodata.gov.gr"/>
     <tag k="source:population" v="ΕΛΣΤΑΤ 2011"/>
@@ -60196,12 +60463,20 @@
     <tag k="boundary" v="administrative"/>
     <tag k="contact:website" v="http://apd-depin.gov.gr/"/>
     <tag k="name" v="Πελοπόννησος, Δυτική Ελλάδα και Ιόνιο"/>
+    <tag k="name:bg" v="Пелопонес, Западна Гърция и Йонийски острови"/>
     <tag k="name:de" v="Peloponnes, Westgriechenland und Ionische Inseln"/>
     <tag k="name:el" v="Πελοπόννησος, Δυτική Ελλάδα και Ιόνιο"/>
     <tag k="name:en" v="Peloponnese, West Greece and Ionian Sea"/>
     <tag k="name:fr" v="Péloponnèse, Grèce occidentale et Îles Ioniennes"/>
+    <tag k="name:mk" v="Пелопонез, Западна Грција и Јонските Острови"/>
     <tag k="name:ru" v="Пелопоннеса, Западной Греции и Ионии"/>
+    <tag k="name:tr" v="Mora, Batı Yunanistan ve İyonya"/>
     <tag k="official_name" v="Αποκεντρωμένη Διοίκηση Πελοποννήσου, Δυτικής Ελλάδας και Ιονίου"/>
+    <tag k="official_name:bg" v="Децентрализирано администриране Пелопонес, Западна Гърция и Йонийски острови"/>
+    <tag k="official_name:el" v="Αποκεντρωμένη Διοίκηση Πελοποννήσου, Δυτικής Ελλάδας και Ιονίου"/>
+    <tag k="official_name:fr" v="Diocèse décentralisé de Péloponnèse, Grèce occidentale et Îles Ioniennes"/>
+    <tag k="official_name:mk" v="Децентрализирана администрација Пелопонез, Западна Грција и Јонските Острови"/>
+    <tag k="official_name:tr" v="Mora, Batı Yunanistan ve İyonya Merkezi Olmayan Idaresi"/>
     <tag k="population" v="1465554"/>
     <tag k="source:population" v="ΕΛΣΤΑΤ 2011"/>
     <tag k="type" v="boundary"/>
@@ -60213,12 +60488,20 @@
     <tag k="boundary" v="administrative"/>
     <tag k="contact:website" v="http://www.apdaigaiou.gov.gr/"/>
     <tag k="name" v="Αιγαίο"/>
+    <tag k="name:bg" v="Егейските острови"/>
     <tag k="name:de" v="Ägäis"/>
     <tag k="name:el" v="Αιγαίο"/>
     <tag k="name:en" v="Aegean"/>
     <tag k="name:fr" v="Égée"/>
+    <tag k="name:mk" v="Егејските Острови"/>
     <tag k="name:ru" v="Эгейских островов"/>
+    <tag k="name:tr" v="Ege"/>
     <tag k="official_name" v="Αποκεντρωμένη Διοίκηση Αιγαίου"/>
+    <tag k="official_name:bg" v="Децентрализирано администриране Егейските острови"/>
+    <tag k="official_name:el" v="Αποκεντρωμένη Διοίκηση Αιγαίου"/>
+    <tag k="official_name:fr" v="Diocèse décentralisé d'Égée"/>
+    <tag k="official_name:mk" v="Децентрализирана администрација Егејските Острови"/>
+    <tag k="official_name:tr" v="Ege Merkezi Olmayan Idaresi"/>
     <tag k="population" v="508246"/>
     <tag k="source:population" v="ΕΛΣΤΑΤ 2011"/>
     <tag k="type" v="boundary"/>
@@ -60240,12 +60523,15 @@
     <tag k="name:ru" v="Крит"/>
     <tag k="name:tr" v="Girit"/>
     <tag k="official_name" v="Αποκεντρωμένη Διοίκηση Κρήτης"/>
+    <tag k="official_name:bg" v="Децентрализирано администриране Крит"/>
     <tag k="official_name:ca" v="Administració descentralitzada de Creta"/>
     <tag k="official_name:de" v="Dezentralisierte Verwaltung Kreta"/>
     <tag k="official_name:el" v="Αποκεντρωμένη Διοίκηση Κρήτης"/>
     <tag k="official_name:en" v="Decentralized Administration of Crete"/>
     <tag k="official_name:fr" v="Diocèse décentralisé de Crète"/>
+    <tag k="official_name:mk" v="Децентрализирана администрација Крит"/>
     <tag k="official_name:ru" v="Децентрализованная администрация Крита"/>
+    <tag k="official_name:tr" v="Girit Merkezi Olmayan Idaresi"/>
     <tag k="population" v="623065"/>
     <tag k="source:population" v="ΕΛΣΤΑΤ 2011"/>
     <tag k="type" v="boundary"/>
@@ -60490,6 +60776,7 @@
     <tag k="name:ja" v="西部開発区域"/>
     <tag k="name:ne" v="पश्चिमाञ्चल विकास क्षेत्र"/>
     <tag k="name:ru" v="Западный регион"/>
+    <tag k="name:uk" v="Західний регіон"/>
     <tag k="name:zh" v="西部经济发展区"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q28462"/>
@@ -61242,12 +61529,20 @@
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Μακεδονία - Θράκη"/>
+    <tag k="name:bg" v="Македония и Тракия"/>
     <tag k="name:de" v="Makedonien - Thrakien"/>
     <tag k="name:el" v="Μακεδονία - Θράκη"/>
     <tag k="name:en" v="Macedonia - Thrace"/>
-    <tag k="name:fr" v="Macédoine - Thrace"/>
+    <tag k="name:fr" v="Macédoine-Thrace"/>
+    <tag k="name:mk" v="Македонија и Тракија"/>
     <tag k="name:ru" v="Македонии и Фракии"/>
+    <tag k="name:tr" v="Makedonya ve Trakya"/>
     <tag k="official_name" v="Αποκεντρωμένη Διοίκηση Μακεδονίας - Θράκης"/>
+    <tag k="official_name:bg" v="Децентрализирано администриране Македония и Тракия"/>
+    <tag k="official_name:el" v="Αποκεντρωμένη Διοίκηση Μακεδονίας - Θράκης"/>
+    <tag k="official_name:fr" v="Diocèse décentralisé de Macédoine-Thrace"/>
+    <tag k="official_name:mk" v="Децентрализирана администрација Македонија и Тракија"/>
+    <tag k="official_name:tr" v="Makedonya ve Trakya Merkezi Olmayan Idaresi"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q5249082"/>
   </relation>
@@ -61594,12 +61889,13 @@
     <tag k="is_in:continent" v="Asia"/>
     <tag k="is_in:country" v="Yemen"/>
     <tag k="is_in:country_code" v="YE"/>
-    <tag k="name" v="سقطرى"/>
+    <tag k="name" v="‏محافظة أرخبيل سقطرى‎"/>
     <tag k="name:ar" v="‏محافظة أرخبيل سقطرى‎"/>
-    <tag k="name:de" v="Sokotra"/>
-    <tag k="name:en" v="Socotra"/>
-    <tag k="name:es" v="Gobernación de Socotra"/>
-    <tag k="name:fr" v="Gouvernorat de Socotra"/>
+    <tag k="name:de" v="Gouvernement Sokotra Archipel"/>
+    <tag k="name:en" v="Socotra Archipelago Governorate"/>
+    <tag k="name:es" v="Gobernación del archipiélago de Socotra"/>
+    <tag k="name:fr" v="Gouvernorat de l'archipel de Socotra"/>
+    <tag k="place" v="state"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q15728745"/>
     <tag k="wikipedia" v="en:Socotra Governorate"/>
@@ -62271,6 +62567,7 @@
   <relation id="5831658">
     <tag k="ISO3166-2" v="LA-KH"/>
     <tag k="admin_level" v="4"/>
+    <tag k="alt_name:uk" v="Кхамуан провінція"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="ຄໍາມ່ວນ"/>
     <tag k="name:ar" v="محافظة خامواني"/>
@@ -62300,6 +62597,7 @@
     <tag k="name:sv" v="Khammuan"/>
     <tag k="name:tg" v="Вилояти Хаммоуан"/>
     <tag k="name:th" v="แขวงคำม่วน"/>
+    <tag k="name:uk" v="Кхаммуан провінція"/>
     <tag k="name:ur" v="خاموان صوبہ"/>
     <tag k="name:vi" v="Khammuane"/>
     <tag k="name:zh" v="甘蒙省"/>
@@ -63305,10 +63603,12 @@
   <relation id="6362934">
     <tag k="ISO3166-2" v="ID-JK"/>
     <tag k="admin_level" v="4"/>
+    <tag k="alt_name" v="DKI Jakarta"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Daerah Khusus Ibukota Jakarta"/>
     <tag k="name:de" v="Besondere Hauptstadtregion Jakarta"/>
     <tag k="name:en" v="Jakarta Special Capital Region"/>
+    <tag k="short_name" v="JKT"/>
     <tag k="timezone" v="Asia/Jakarta"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q3630"/>
@@ -65598,6 +65898,51 @@
     <tag k="office" v="government"/>
     <tag k="type" v="multipolygon"/>
   </relation>
+  <relation id="7843853">
+    <tag k="ISO3166-2" v="BN-TE"/>
+    <tag k="admin_level" v="4"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="Temburong"/>
+    <tag k="name:ace" v="Temburong"/>
+    <tag k="name:bg" v="Тембуронг"/>
+    <tag k="name:ceb" v="Temburong"/>
+    <tag k="name:cs" v="Temburong"/>
+    <tag k="name:de" v="Temburong"/>
+    <tag k="name:el" v="Τεμπουρόνγκ"/>
+    <tag k="name:en" v="Temburong District"/>
+    <tag k="name:es" v="Temburong"/>
+    <tag k="name:eu" v="Temburong"/>
+    <tag k="name:fa" v="تمبورونگ"/>
+    <tag k="name:fi" v="Temburong"/>
+    <tag k="name:fr" v="Temburong"/>
+    <tag k="name:gl" v="Temburong"/>
+    <tag k="name:he" v="טמבורונג"/>
+    <tag k="name:id" v="Temburong"/>
+    <tag k="name:it" v="Temburong"/>
+    <tag k="name:ja" v="テンブロン地区"/>
+    <tag k="name:ko" v="틈부롱 구"/>
+    <tag k="name:lt" v="Temburongo"/>
+    <tag k="name:ms" v="Daerah Temburong"/>
+    <tag k="name:nl" v="Temburong"/>
+    <tag k="name:pl" v="Temburong"/>
+    <tag k="name:ps" v="تيمبورونگ"/>
+    <tag k="name:pt" v="Temburong"/>
+    <tag k="name:ru" v="Тембуронг"/>
+    <tag k="name:sv" v="Temburong"/>
+    <tag k="name:ta" v="டெம்புரோங்கு"/>
+    <tag k="name:th" v="เติมบูรง"/>
+    <tag k="name:tr" v="Temburong"/>
+    <tag k="name:uk" v="Тембуронґ"/>
+    <tag k="name:ur" v="تیمبورونگ ضلع"/>
+    <tag k="name:war" v="Temburong"/>
+    <tag k="name:zh" v="淡武廊縣"/>
+    <tag k="name:zh-min-nan" v="Temburong"/>
+    <tag k="official_name" v="Daerah Temburong"/>
+    <tag k="place" v="district"/>
+    <tag k="type" v="boundary"/>
+    <tag k="wikidata" v="Q263285"/>
+    <tag k="wikipedia" v="ms:Daerah Temburong"/>
+  </relation>
   <relation id="7861847">
     <tag k="ISO3166-2" v="AZ-CAB"/>
     <tag k="admin_level" v="4"/>
@@ -65610,6 +65955,7 @@
     <tag k="name:en" v="Jabrayil District"/>
     <tag k="name:es" v="Cəbrayıl"/>
     <tag k="name:fr" v="Jabrayil"/>
+    <tag k="name:ru" v="Джебраильский район"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q457491"/>
   </relation>
@@ -66273,8 +66619,11 @@
     <tag k="is_in:state_code" v="AJK"/>
     <tag k="name" v="ضلع حویلی"/>
     <tag k="name:en" v="Haveli District"/>
+    <tag k="name:uk" v="Гавелі округ"/>
     <tag k="name:ur" v="ضلع حویلی"/>
     <tag k="type" v="boundary"/>
+    <tag k="wikidata" v="Q2639788"/>
+    <tag k="wikipedia" v="ur:ضلع حویلی"/>
   </relation>
   <relation id="8295062">
     <tag k="admin_level" v="4"/>
@@ -66342,6 +66691,57 @@
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q47282"/>
     <tag k="wikipedia" v="en:Osh"/>
+  </relation>
+  <relation id="8854527">
+    <tag k="admin_level" v="4"/>
+    <tag k="contact:email" v="Poststelle@mdjev.brandenburg.de"/>
+    <tag k="contact:fax" v="+49 331 866 3083"/>
+    <tag k="contact:phone" v="+49 331 866 3027"/>
+    <tag k="contact:website" v="https://mdjev.brandenburg.de/"/>
+    <tag k="government" v="ministry"/>
+    <tag k="name" v="Brandenburgisches Ministerium der Justiz und für Europa und Verbraucherschutz"/>
+    <tag k="office" v="government"/>
+    <tag k="service_times" v="Mo-Fr 09:00-15:00; PH off"/>
+    <tag k="short_name" v="MdJEV"/>
+    <tag k="type" v="site"/>
+  </relation>
+  <relation id="8854528">
+    <tag k="admin_level" v="4"/>
+    <tag k="contact:email" v="Poststelle@stk.brandenburg.de;buergerbuero@stk.brandenburg.de"/>
+    <tag k="contact:fax" v="+49 331 866 1418"/>
+    <tag k="contact:phone" v="+49 331 866 0;+49 331 866 1050"/>
+    <tag k="contact:website" v="http://www.stk.brandenburg.de"/>
+    <tag k="government" v="ministry"/>
+    <tag k="name" v="Brandenburgische Staatskanzlei"/>
+    <tag k="office" v="government"/>
+    <tag k="short_name" v="StK"/>
+    <tag k="type" v="site"/>
+    <tag k="wikidata" v="Q14594741"/>
+    <tag k="wikipedia" v="de:Brandenburgische Staatskanzlei"/>
+  </relation>
+  <relation id="8854529">
+    <tag k="admin_level" v="4"/>
+    <tag k="contact:email" v="poststelle@mbjs.brandenburg.de"/>
+    <tag k="contact:fax" v="+49 331 866 3524"/>
+    <tag k="contact:phone" v="+49 331 866 3520"/>
+    <tag k="contact:website" v="https://mbjs.brandenburg.de"/>
+    <tag k="government" v="ministry"/>
+    <tag k="name" v="Brandenburgisches Ministerium für Bildung, Jugend und Sport"/>
+    <tag k="office" v="government"/>
+    <tag k="short_name" v="MBJS"/>
+    <tag k="type" v="site"/>
+  </relation>
+  <relation id="8854530">
+    <tag k="admin_level" v="4"/>
+    <tag k="contact:email" v="poststelle@mwe.brandenburg.de;poststelle.krypto@mwe.brandenburg.de"/>
+    <tag k="contact:fax" v="+49 331 866 1533"/>
+    <tag k="contact:phone" v="+49 331 866 0"/>
+    <tag k="contact:website" v="http://mwe.brandenburg.de/"/>
+    <tag k="government" v="ministry"/>
+    <tag k="name" v="Ministerium für Wirtschaft und Energie des Landes Brandenburg"/>
+    <tag k="office" v="government"/>
+    <tag k="short_name" v="MWE"/>
+    <tag k="type" v="site"/>
   </relation>
   <relation id="2541341">
     <tag k="ISO3166-2:old" v="FI-LL"/>
@@ -67363,6 +67763,28 @@
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q7978"/>
     <tag k="wikipedia" v="ru:Анадырь"/>
+  </relation>
+  <relation id="2605295">
+    <tag k="admin_level" v="6"/>
+    <tag k="alt_name" v="Nome (CA)"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="is_in:country_code" v="US"/>
+    <tag k="name" v="Nome"/>
+    <tag k="nist:fips_code" v="02180"/>
+    <tag k="nist:state_fips" v="02"/>
+    <tag k="official_name" v="Nome Census Area"/>
+    <tag k="type" v="boundary"/>
+    <tag k="wikidata" v="Q503023"/>
+    <tag k="wikipedia" v="en:Nome Census Area, Alaska"/>
+  </relation>
+  <relation id="7939736">
+    <tag k="admin_level" v="6"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="fixme" v="some areas are still missing"/>
+    <tag k="name" v="Unorganized Borough"/>
+    <tag k="type" v="boundary"/>
+    <tag k="wikidata" v="Q1474662"/>
+    <tag k="wikipedia" v="en:Unorganized Borough, Alaska"/>
   </relation>
   <relation id="421732">
     <tag k="admin_level" v="6"/>
@@ -68510,8 +68932,8 @@
     <tag k="name:ru" v="Сургутский район"/>
     <tag k="official_status" v="ru:муниципальный район"/>
     <tag k="oktmo:user" v="71826000"/>
-    <tag k="population" v="122695"/>
-    <tag k="population:date" v="2017-01-01"/>
+    <tag k="population" v="124247"/>
+    <tag k="population:date" v="2018-01-01"/>
     <tag k="type" v="boundary"/>
     <tag k="website" v="http://www.admsr.ru/"/>
     <tag k="wikidata" v="Q557574"/>
@@ -68528,8 +68950,8 @@
     <tag k="name:ru" v="Белоярский район"/>
     <tag k="official_status" v="ru:муниципальный район"/>
     <tag k="oktmo:user" v="71811000"/>
-    <tag k="population" v="29390"/>
-    <tag k="population:date" v="2017-01-01"/>
+    <tag k="population" v="28921"/>
+    <tag k="population:date" v="2018-01-01"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q558239"/>
     <tag k="wikipedia" v="ru:Белоярский район"/>
@@ -68545,8 +68967,8 @@
     <tag k="name:ru" v="Нефтеюганский район"/>
     <tag k="official_status" v="ru:муниципальный район"/>
     <tag k="oktmo:user" v="71818000"/>
-    <tag k="population" v="45215"/>
-    <tag k="population:date" v="2017-01-01"/>
+    <tag k="population" v="45057"/>
+    <tag k="population:date" v="2018-01-01"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q558707"/>
     <tag k="wikipedia" v="ru:Нефтеюганский район"/>
@@ -68560,8 +68982,8 @@
     <tag k="name:ja" v="コガルィム管区"/>
     <tag k="official_status" v="ru:городской округ"/>
     <tag k="oktmo:user" v="71883000"/>
-    <tag k="population" v="64846"/>
-    <tag k="population:date" v="2017-01-01"/>
+    <tag k="population" v="66373"/>
+    <tag k="population:date" v="2018-01-01"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q154630"/>
     <tag k="wikipedia" v="ru:Когалым"/>
@@ -68577,8 +68999,8 @@
     <tag k="name:ru" v="Нижневартовский район"/>
     <tag k="official_status" v="ru:муниципальный район"/>
     <tag k="oktmo:user" v="71819000"/>
-    <tag k="population" v="36151"/>
-    <tag k="population:date" v="2017-01-01"/>
+    <tag k="population" v="36130"/>
+    <tag k="population:date" v="2018-01-01"/>
     <tag k="type" v="boundary"/>
     <tag k="website" v="http://www.nvraion.ru/"/>
     <tag k="wikidata" v="Q558690"/>
@@ -68595,8 +69017,8 @@
     <tag k="name:ru" v="Кондинский район"/>
     <tag k="official_status" v="ru:муниципальный район"/>
     <tag k="oktmo:user" v="71816000"/>
-    <tag k="population" v="31256"/>
-    <tag k="population:date" v="2017-01-01"/>
+    <tag k="population" v="30981"/>
+    <tag k="population:date" v="2018-01-01"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q557500"/>
     <tag k="wikipedia" v="ru:Кондинский район"/>
@@ -68613,8 +69035,8 @@
     <tag k="name:ru" v="Берёзовский район"/>
     <tag k="official_status" v="ru:муниципальный район"/>
     <tag k="oktmo:user" v="71812000"/>
-    <tag k="population" v="22973"/>
-    <tag k="population:date" v="2017-01-01"/>
+    <tag k="population" v="22637"/>
+    <tag k="population:date" v="2018-01-01"/>
     <tag k="type" v="boundary"/>
     <tag k="website" v="http://www.berezovo.ru/"/>
     <tag k="wikidata" v="Q558713"/>
@@ -68631,8 +69053,8 @@
     <tag k="name:ru" v="Советский район"/>
     <tag k="official_status" v="ru:муниципальный район"/>
     <tag k="oktmo:user" v="71824000"/>
-    <tag k="population" v="48715"/>
-    <tag k="population:date" v="2017-01-01"/>
+    <tag k="population" v="48460"/>
+    <tag k="population:date" v="2018-01-01"/>
     <tag k="type" v="boundary"/>
     <tag k="website" v="http://www.admsov.ru/"/>
     <tag k="wikidata" v="Q557487"/>
@@ -68649,8 +69071,8 @@
     <tag k="name:ru" v="Октябрьский район"/>
     <tag k="official_status" v="ru:муниципальный район"/>
     <tag k="oktmo:user" v="71821000"/>
-    <tag k="population" v="29024"/>
-    <tag k="population:date" v="2017-01-01"/>
+    <tag k="population" v="28605"/>
+    <tag k="population:date" v="2018-01-01"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q2656676"/>
     <tag k="wikipedia" v="ru:Октябрьский район (Ханты-Мансийский автономный округ)"/>
@@ -68666,8 +69088,8 @@
     <tag k="name:ru" v="Ханты-Мансийский район"/>
     <tag k="official_status" v="ru:муниципальный район"/>
     <tag k="oktmo:user" v="71829000"/>
-    <tag k="population" v="19680"/>
-    <tag k="population:date" v="2017-01-01"/>
+    <tag k="population" v="20043"/>
+    <tag k="population:date" v="2018-01-01"/>
     <tag k="type" v="boundary"/>
     <tag k="website" v="http://hmrn.ru/"/>
     <tag k="wikidata" v="Q557518"/>
@@ -68683,8 +69105,8 @@
     <tag k="name:ja" v="メギオン管区"/>
     <tag k="official_status" v="ru:городской округ"/>
     <tag k="oktmo:user" v="71873000"/>
-    <tag k="population" v="55251"/>
-    <tag k="population:date" v="2017-01-01"/>
+    <tag k="population" v="54669"/>
+    <tag k="population:date" v="2018-01-01"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q158405"/>
     <tag k="wikipedia" v="ru:Мегион"/>
@@ -68698,8 +69120,8 @@
     <tag k="name:ja" v="ネフチェユガンスク管区"/>
     <tag k="official_status" v="ru:городской округ"/>
     <tag k="oktmo:user" v="71874000"/>
-    <tag k="population" v="126157"/>
-    <tag k="population:date" v="2017-01-01"/>
+    <tag k="population" v="126998"/>
+    <tag k="population:date" v="2018-01-01"/>
     <tag k="source" v="схема территориального планирования"/>
     <tag k="source:url" v="http://www.admhmao.ru/economic/stroit/schema/shema2.htm"/>
     <tag k="type" v="boundary"/>
@@ -68715,8 +69137,8 @@
     <tag k="name:ja" v="ニジネヴァルトフスク管区"/>
     <tag k="official_status" v="ru:городской округ"/>
     <tag k="oktmo:user" v="71875000"/>
-    <tag k="population" v="274575"/>
-    <tag k="population:date" v="2017-01-01"/>
+    <tag k="population" v="275429"/>
+    <tag k="population:date" v="2018-01-01"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q172637"/>
     <tag k="wikipedia" v="ru:Нижневартовск"/>
@@ -68730,8 +69152,8 @@
     <tag k="name:ja" v="ニャーガニ管区"/>
     <tag k="official_status" v="ru:городской округ"/>
     <tag k="oktmo:user" v="71879000"/>
-    <tag k="population" v="57765"/>
-    <tag k="population:date" v="2017-01-01"/>
+    <tag k="population" v="58201"/>
+    <tag k="population:date" v="2018-01-01"/>
     <tag k="source" v="схема территориального планирования"/>
     <tag k="source:url" v="http://www.admhmao.ru/economic/stroit/schema/shema2.htm"/>
     <tag k="type" v="boundary"/>
@@ -68747,8 +69169,8 @@
     <tag k="name:ja" v="ポカーチ管区"/>
     <tag k="official_status" v="ru:городской округ"/>
     <tag k="oktmo:user" v="71884000"/>
-    <tag k="population" v="17905"/>
-    <tag k="population:date" v="2017-01-01"/>
+    <tag k="population" v="17874"/>
+    <tag k="population:date" v="2018-01-01"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q179525"/>
     <tag k="wikipedia" v="ru:Покачи"/>
@@ -68764,8 +69186,8 @@
     <tag k="name:ja" v="プィチ=ヤフ管区"/>
     <tag k="official_status" v="ru:городской округ"/>
     <tag k="oktmo:user" v="71885000"/>
-    <tag k="population" v="40798"/>
-    <tag k="population:date" v="2017-01-01"/>
+    <tag k="population" v="40294"/>
+    <tag k="population:date" v="2018-01-01"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q184391"/>
     <tag k="wikipedia" v="ru:Пыть-Ях"/>
@@ -68779,8 +69201,8 @@
     <tag k="name:ja" v="ラードゥジヌイ管区"/>
     <tag k="official_status" v="ru:городской округ"/>
     <tag k="oktmo:user" v="71877000"/>
-    <tag k="population" v="43157"/>
-    <tag k="population:date" v="2017-01-01"/>
+    <tag k="population" v="43485"/>
+    <tag k="population:date" v="2018-01-01"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q184562"/>
     <tag k="wikipedia" v="ru:Радужный (Ханты-Мансийский автономный округ)"/>
@@ -68795,8 +69217,8 @@
     <tag k="name:ja" v="スルグト管区"/>
     <tag k="official_status" v="ru:городской округ"/>
     <tag k="oktmo:user" v="71876000"/>
-    <tag k="population" v="360590"/>
-    <tag k="population:date" v="2017-01-01"/>
+    <tag k="population" v="366189"/>
+    <tag k="population:date" v="2018-01-01"/>
     <tag k="source" v="Генеральный план города Сургута"/>
     <tag k="source:url" v="http://www.admsurgut.ru/state.php?ttop=120064&amp;top=220354"/>
     <tag k="type" v="boundary"/>
@@ -68812,8 +69234,8 @@
     <tag k="name:ja" v="ウライ管区"/>
     <tag k="official_status" v="ru:городской округ"/>
     <tag k="oktmo:user" v="71878000"/>
-    <tag k="population" v="40559"/>
-    <tag k="population:date" v="2017-01-01"/>
+    <tag k="population" v="40477"/>
+    <tag k="population:date" v="2018-01-01"/>
     <tag k="source" v="схема территориального планирования"/>
     <tag k="source:url" v="http://www.admhmao.ru/economic/stroit/schema/shema2.htm"/>
     <tag k="type" v="boundary"/>
@@ -68830,8 +69252,8 @@
     <tag k="name:ja" v="ハンティ・マンシースク管区"/>
     <tag k="official_status" v="ru:городской округ"/>
     <tag k="oktmo:user" v="71871000"/>
-    <tag k="population" v="98692"/>
-    <tag k="population:date" v="2017-01-01"/>
+    <tag k="population" v="98485"/>
+    <tag k="population:date" v="2018-01-01"/>
     <tag k="source" v="схема территориального планирования"/>
     <tag k="source:url" v="http://www.admhmao.ru/economic/stroit/schema/shema2.htm"/>
     <tag k="type" v="boundary"/>
@@ -68848,8 +69270,8 @@
     <tag k="name:ja" v="ユーゴルスク管区"/>
     <tag k="official_status" v="ru:городской округ"/>
     <tag k="oktmo:user" v="71887000"/>
-    <tag k="population" v="37150"/>
-    <tag k="population:date" v="2017-01-01"/>
+    <tag k="population" v="37411"/>
+    <tag k="population:date" v="2018-01-01"/>
     <tag k="source" v="схема территориального планирования"/>
     <tag k="source:url" v="http://www.admhmao.ru/economic/stroit/schema/shema2.htm"/>
     <tag k="type" v="boundary"/>
@@ -68866,8 +69288,8 @@
     <tag k="name:ja" v="ランゲパス管区"/>
     <tag k="official_status" v="ru:городской округ"/>
     <tag k="oktmo:user" v="71872000"/>
-    <tag k="population" v="43534"/>
-    <tag k="population:date" v="2017-01-01"/>
+    <tag k="population" v="44108"/>
+    <tag k="population:date" v="2018-01-01"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q157395"/>
     <tag k="wikipedia" v="ru:Лангепас"/>
@@ -70906,6 +71328,7 @@
     <tag k="name:kn" v="ಟೊರೊಂಟೋ"/>
     <tag k="name:ko" v="토론토"/>
     <tag k="name:mr" v="टॊरॊंटो"/>
+    <tag k="name:oc" v="Toronto"/>
     <tag k="name:oj" v="Gichi Kiiwenging"/>
     <tag k="name:pl" v="Toronto"/>
     <tag k="name:ru" v="Торонто"/>
@@ -70913,6 +71336,7 @@
     <tag k="name:uk" v="Торонто"/>
     <tag k="place" v="city"/>
     <tag k="population" v="2651717"/>
+    <tag k="source:name:oc" v="Lo Congrès"/>
     <tag k="source:population" v="Wikipedia, 2008, city"/>
     <tag k="state_capital" v="yes"/>
     <tag k="wikidata" v="Q172"/>
@@ -71300,19 +71724,6 @@
     <tag k="wikidata" v="Q512925"/>
     <tag k="wikipedia" v="en:Matanuska-Susitna Borough, Alaska"/>
   </relation>
-  <relation id="2605295">
-    <tag k="admin_level" v="6"/>
-    <tag k="alt_name" v="Nome (CA)"/>
-    <tag k="boundary" v="administrative"/>
-    <tag k="is_in:country_code" v="US"/>
-    <tag k="name" v="Nome"/>
-    <tag k="nist:fips_code" v="02180"/>
-    <tag k="nist:state_fips" v="02"/>
-    <tag k="official_name" v="Nome Census Area"/>
-    <tag k="type" v="boundary"/>
-    <tag k="wikidata" v="Q503023"/>
-    <tag k="wikipedia" v="en:Nome Census Area, Alaska"/>
-  </relation>
   <relation id="2605296">
     <tag k="admin_level" v="6"/>
     <tag k="boundary" v="administrative"/>
@@ -71445,9 +71856,6 @@
     <tag k="wikipedia" v="en:Yukon–Koyukuk Census Area, Alaska"/>
   </relation>
   <relation id="1835900">
-    <tag k="admin_level" v="3"/>
-    <tag k="boundary" v="administrative"/>
-    <tag k="land_area" v="administrative"/>
     <tag k="name" v="東北地方"/>
     <tag k="name:de" v="Tōhoku"/>
     <tag k="name:en" v="Tohoku"/>
@@ -71464,8 +71872,6 @@
     <tag k="wikipedia" v="ja:東北地方"/>
   </relation>
   <relation id="1847663">
-    <tag k="admin_level" v="3"/>
-    <tag k="boundary" v="administrative"/>
     <tag k="name" v="四国地方"/>
     <tag k="name:de" v="Region Shikoku"/>
     <tag k="name:en" v="Shikoku Region"/>
@@ -71477,17 +71883,14 @@
     <tag k="name:pl" v="Sikoku"/>
     <tag k="name:ru" v="Сикоку"/>
     <tag k="name:uk" v="Сікоку"/>
-    <tag k="place" v="state"/>
     <tag k="source" v="KSJ2"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q13991"/>
     <tag k="wikipedia" v="ja:四国"/>
   </relation>
   <relation id="1842245">
-    <tag k="admin_level" v="3"/>
     <tag k="alt_name:ko" v="큐슈 지방"/>
     <tag k="alt_name:zh" v="九州"/>
-    <tag k="boundary" v="administrative"/>
     <tag k="int_name" v="Kyūshū"/>
     <tag k="name" v="九州地方"/>
     <tag k="name:de" v="Region Kyūshū"/>
@@ -71502,16 +71905,12 @@
     <tag k="name:ru" v="Кюсю"/>
     <tag k="name:uk" v="Кюсю"/>
     <tag k="name:zh" v="九州地方"/>
-    <tag k="place" v="state"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q13987"/>
     <tag k="wikipedia" v="ja:九州"/>
   </relation>
   <relation id="357113">
-    <tag k="admin_level" v="3"/>
     <tag k="alt_name:nl" v="Kinki"/>
-    <tag k="boundary" v="administrative"/>
-    <tag k="land_area" v="administrative"/>
     <tag k="name" v="近畿地方"/>
     <tag k="name:en" v="Kinki Region"/>
     <tag k="name:fr" v="Kansaï"/>
@@ -71531,8 +71930,6 @@
     <tag k="wikipedia" v="ja:近畿地方"/>
   </relation>
   <relation id="1803923">
-    <tag k="admin_level" v="3"/>
-    <tag k="boundary" v="administrative"/>
     <tag k="name" v="関東地方"/>
     <tag k="name:de" v="Kantō"/>
     <tag k="name:en" v="Kanto"/>
@@ -71550,9 +71947,6 @@
     <tag k="wikipedia" v="ja:関東地方"/>
   </relation>
   <relation id="1842114">
-    <tag k="admin_level" v="3"/>
-    <tag k="boundary" v="administrative"/>
-    <tag k="land_area" v="administrative"/>
     <tag k="name" v="中国地方"/>
     <tag k="name:de" v="Region Chūgoku"/>
     <tag k="name:en" v="Chugoku Region"/>
@@ -71572,8 +71966,6 @@
     <tag k="wikipedia" v="ja:中国地方"/>
   </relation>
   <relation id="532759">
-    <tag k="admin_level" v="3"/>
-    <tag k="boundary" v="administrative"/>
     <tag k="name" v="中部地方"/>
     <tag k="name:de" v="Chūbu"/>
     <tag k="name:en" v="Chubu Region"/>
@@ -71656,7 +72048,10 @@
     <tag k="name:el" v="Περιφέρεια Πελοποννήσου"/>
     <tag k="name:en" v="Peloponnese Region"/>
     <tag k="name:fr" v="Péloponnèse"/>
+    <tag k="name:mk" v="Пелопонез"/>
     <tag k="name:ru" v="периферия Пелопоннес"/>
+    <tag k="official_name:fr" v="Périphérie du Péloponnèse"/>
+    <tag k="official_name:mk" v="Пелопонез Област"/>
     <tag k="population" v="577903"/>
     <tag k="source" v="geodata.gov.gr"/>
     <tag k="source:name:br" v="ofis publik ar brezhoneg"/>
@@ -71802,7 +72197,10 @@
     <tag k="name:el" v="Περιφέρεια Δυτικής Ελλάδας"/>
     <tag k="name:en" v="West Greece Region"/>
     <tag k="name:fr" v="Grèce-Occidentale"/>
+    <tag k="name:mk" v="Западна Грција"/>
     <tag k="name:ru" v="периферия Западная Греция"/>
+    <tag k="official_name:fr" v="Périphérie de Grèce-Occidentale"/>
+    <tag k="official_name:mk" v="Западна Грција Област"/>
     <tag k="population" v="679796"/>
     <tag k="source" v="geodata.gov.gr"/>
     <tag k="source:population" v="ΕΛΣΤΑΤ 2011"/>
@@ -71819,7 +72217,10 @@
     <tag k="name:el" v="Περιφέρεια Αττικής"/>
     <tag k="name:en" v="Region of Attica"/>
     <tag k="name:fr" v="Attique"/>
+    <tag k="name:mk" v="Атика"/>
     <tag k="name:ru" v="периферия Аттика"/>
+    <tag k="official_name:fr" v="Périphérie de l’Attique"/>
+    <tag k="official_name:mk" v="Атика Област"/>
     <tag k="population" v="3828434"/>
     <tag k="source:population" v="ΕΛΣΤΑΤ 2011"/>
     <tag k="type" v="boundary"/>
@@ -71992,6 +72393,7 @@
     <tag k="name:es" v="Caraga"/>
     <tag k="name:ja" v="カラガ"/>
     <tag k="name:tl" v="Caraga"/>
+    <tag k="name:uk" v="Караґа"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q13704"/>
   </relation>
@@ -72193,9 +72595,11 @@
     <tag k="name:pl" v="Region Wybrzeża Północno-Środkowego"/>
     <tag k="name:pt" v="Costa do Centro-Norte"/>
     <tag k="name:th" v="ชายฝั่งตอนกลางเหนือ"/>
+    <tag k="name:uk" v="Північний Приморський Центр економічний район"/>
     <tag k="name:ur" v="شمال وسطی ساحل (ویتنام)"/>
     <tag k="name:vi" v="Bắc Trung Bộ"/>
     <tag k="name:zh" v="北中部"/>
+    <tag k="source:name:uk" v="https://uk.wikipedia.org/wiki/Адміністративний_поділ_В%27єтнаму"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q1022242"/>
     <tag k="wikipedia" v="en:North Central Coast"/>
@@ -72971,8 +73375,8 @@
     <tag k="openGeoDB:license_plate_code" v="BS"/>
     <tag k="openGeoDB:loc_id" v="324"/>
     <tag k="place" v="city"/>
-    <tag k="population" v="251364"/>
-    <tag k="population:date" v="2013"/>
+    <tag k="population" v="248023"/>
+    <tag k="population:date" v="2017"/>
     <tag k="ref:LOCODE" v="DEBWE"/>
     <tag k="wikidata" v="Q2773"/>
     <tag k="wikipedia" v="de:Braunschweig"/>
@@ -73150,6 +73554,7 @@
     <tag k="TMC:cid_58:tabcd_1:LCLversion" v="8.00"/>
     <tag k="TMC:cid_58:tabcd_1:LocationCode" v="646"/>
     <tag k="admin_level" v="6"/>
+    <tag k="border_type" v="county"/>
     <tag k="boundary" v="administrative"/>
     <tag k="de:amtlicher_gemeindeschluessel" v="01059"/>
     <tag k="de:place" v="county"/>
@@ -73167,9 +73572,9 @@
   </relation>
   <relation id="27016">
     <tag k="admin_level" v="6"/>
+    <tag k="board_type" v="county"/>
     <tag k="boundary" v="administrative"/>
     <tag k="de:amtlicher_gemeindeschluessel" v="01061"/>
-    <tag k="de:place" v="county"/>
     <tag k="de:regionalschluessel" v="01061"/>
     <tag k="license_plate_code" v="IZ"/>
     <tag k="name" v="Steinburg"/>
@@ -73183,9 +73588,9 @@
   </relation>
   <relation id="27017">
     <tag k="admin_level" v="6"/>
+    <tag k="board_type" v="county"/>
     <tag k="boundary" v="administrative"/>
     <tag k="de:amtlicher_gemeindeschluessel" v="01058"/>
-    <tag k="de:place" v="county"/>
     <tag k="de:regionalschluessel" v="01058"/>
     <tag k="license_plate_code" v="RD, ECK"/>
     <tag k="name" v="Rendsburg-Eckernförde"/>
@@ -73200,9 +73605,9 @@
   </relation>
   <relation id="27019">
     <tag k="admin_level" v="6"/>
+    <tag k="border_type" v="county"/>
     <tag k="boundary" v="administrative"/>
     <tag k="de:amtlicher_gemeindeschluessel" v="01054"/>
-    <tag k="de:place" v="county"/>
     <tag k="de:regionalschluessel" v="01054"/>
     <tag k="license_plate_code" v="NF"/>
     <tag k="name" v="Nordfriesland"/>
@@ -73232,10 +73637,10 @@
     <tag k="TMC:cid_58:tabcd_1:LCLversion" v="12.0"/>
     <tag k="TMC:cid_58:tabcd_1:LocationCode" v="1655"/>
     <tag k="admin_level" v="6"/>
+    <tag k="border_type" v="county"/>
     <tag k="boundary" v="administrative"/>
     <tag k="capital" v="4"/>
     <tag k="de:amtlicher_gemeindeschluessel" v="01002000"/>
-    <tag k="de:place" v="city"/>
     <tag k="de:regionalschluessel" v="010020000000"/>
     <tag k="name" v="Kiel"/>
     <tag k="name:ar" v="كيل"/>
@@ -73256,7 +73661,6 @@
     <tag k="name:uk" v="Кіль"/>
     <tag k="name:zh" v="基尔"/>
     <tag k="official_name" v="Kreisfreie Stadt Kiel"/>
-    <tag k="place" v="city"/>
     <tag k="ref:LOCODE" v="DEKEL"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q1707"/>
@@ -73283,9 +73687,9 @@
   </relation>
   <relation id="27026">
     <tag k="admin_level" v="6"/>
+    <tag k="board_type" v="county"/>
     <tag k="boundary" v="administrative"/>
     <tag k="de:amtlicher_gemeindeschluessel" v="01057"/>
-    <tag k="de:place" v="county"/>
     <tag k="de:regionalschluessel" v="01057"/>
     <tag k="license_plate_code" v="PLÖ"/>
     <tag k="name" v="Plön"/>
@@ -73452,7 +73856,6 @@
     <tag k="admin_level" v="6"/>
     <tag k="boundary" v="administrative"/>
     <tag k="de:amtlicher_gemeindeschluessel" v="16075"/>
-    <tag k="de:place" v="county"/>
     <tag k="de:regionalschluessel" v="16075"/>
     <tag k="license_plate_code" v="SOK"/>
     <tag k="name" v="Saale-Orla-Kreis"/>
@@ -73518,7 +73921,6 @@
     <tag k="border_type" v="county"/>
     <tag k="boundary" v="administrative"/>
     <tag k="de:amtlicher_gemeindeschluessel" v="14626"/>
-    <tag k="de:place" v="county"/>
     <tag k="de:regionalschluessel" v="14626"/>
     <tag k="license_plate_code" v="GR"/>
     <tag k="name" v="Görlitz"/>
@@ -73610,7 +74012,6 @@
     <tag k="border_type" v="county"/>
     <tag k="boundary" v="administrative"/>
     <tag k="de:amtlicher_gemeindeschluessel" v="14522"/>
-    <tag k="de:place" v="county"/>
     <tag k="de:regionalschluessel" v="14522"/>
     <tag k="license_plate_code" v="FG"/>
     <tag k="name" v="Mittelsachsen"/>
@@ -73633,7 +74034,6 @@
     <tag k="description" v="Nordfriesland (Landmasse)"/>
     <tag k="land_area" v="administrative"/>
     <tag k="name" v="Landkreis Nordfriesland"/>
-    <tag k="place" v="county"/>
     <tag k="type" v="land_area"/>
     <tag k="wikidata" v="Q2937"/>
   </relation>
@@ -73859,7 +74259,6 @@
     <tag k="border_type" v="county"/>
     <tag k="boundary" v="administrative"/>
     <tag k="de:amtlicher_gemeindeschluessel" v="16069"/>
-    <tag k="de:place" v="county"/>
     <tag k="de:regionalschluessel" v="16069"/>
     <tag k="license_plate_code" v="HBN"/>
     <tag k="name" v="Landkreis Hildburghausen"/>
@@ -73925,12 +74324,12 @@
     <tag k="TMC:cid_58:tabcd_1:LCLversion" v="8.00"/>
     <tag k="TMC:cid_58:tabcd_1:LocationCode" v="1157"/>
     <tag k="admin_level" v="6"/>
+    <tag k="border_type" v="county"/>
     <tag k="boundary" v="administrative"/>
     <tag k="de:amtlicher_gemeindeschluessel" v="16056000"/>
-    <tag k="de:place" v="city"/>
     <tag k="de:regionalschluessel" v="160560000000"/>
     <tag k="name" v="Eisenach"/>
-    <tag k="name:prefix" v="Stadt"/>
+    <tag k="name:prefix" v="Kreisfreie Stadt"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q7070"/>
     <tag k="wikipedia" v="de:Eisenach"/>
@@ -74078,9 +74477,9 @@
     <tag k="TMC:cid_58:tabcd_1:LocationCode" v="523"/>
     <tag k="admin_level" v="6"/>
     <tag k="bdouble" v="yes"/>
+    <tag k="border_type" v="county"/>
     <tag k="boundary" v="administrative"/>
     <tag k="de:amtlicher_gemeindeschluessel" v="06436"/>
-    <tag k="de:place" v="county"/>
     <tag k="de:regionalschluessel" v="06436"/>
     <tag k="license_plate_code" v="MTK"/>
     <tag k="name" v="Main-Taunus-Kreis"/>
@@ -74096,6 +74495,7 @@
     <tag k="TMC:cid_58:tabcd_1:LCLversion" v="9.00"/>
     <tag k="TMC:cid_58:tabcd_1:LocationCode" v="494"/>
     <tag k="admin_level" v="6"/>
+    <tag k="board_type" v="county"/>
     <tag k="boundary" v="administrative"/>
     <tag k="de:amtlicher_gemeindeschluessel" v="09476"/>
     <tag k="de:regionalschluessel" v="09476"/>
@@ -74114,7 +74514,6 @@
     <tag k="border_type" v="county"/>
     <tag k="boundary" v="administrative"/>
     <tag k="de:amtlicher_gemeindeschluessel" v="14625"/>
-    <tag k="de:place" v="county"/>
     <tag k="de:regionalschluessel" v="14625"/>
     <tag k="license_plate_code" v="BZ"/>
     <tag k="name" v="Bautzen"/>
@@ -74388,9 +74787,10 @@
     <tag k="TMC:cid_58:tabcd_1:LCLversion" v="9.00"/>
     <tag k="TMC:cid_58:tabcd_1:LocationCode" v="414"/>
     <tag k="admin_level" v="6"/>
+    <tag k="alt_name" v="Mainhattan;FFM"/>
+    <tag k="border_type" v="county"/>
     <tag k="boundary" v="administrative"/>
     <tag k="de:amtlicher_gemeindeschluessel" v="06412000"/>
-    <tag k="de:place" v="city"/>
     <tag k="de:regionalschluessel" v="064120000000"/>
     <tag k="name" v="Frankfurt am Main"/>
     <tag k="name:ca" v="Frankfurt del Main"/>
@@ -74399,6 +74799,7 @@
     <tag k="name:ko" v="프랑크푸르트암마인"/>
     <tag k="name:prefix" v="Stadt"/>
     <tag k="name:ru" v="Франкфурт-на-Майне"/>
+    <tag k="reg_name" v="Frankfurt"/>
     <tag k="short_name" v="Frankfurt"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q1794"/>
@@ -74412,7 +74813,6 @@
     <tag k="border_type" v="county"/>
     <tag k="boundary" v="administrative"/>
     <tag k="de:amtlicher_gemeindeschluessel" v="06633"/>
-    <tag k="de:place" v="county"/>
     <tag k="de:regionalschluessel" v="06633"/>
     <tag k="license_plate_code" v="KS"/>
     <tag k="name" v="Landkreis Kassel"/>
@@ -74466,6 +74866,7 @@
     <tag k="TMC:cid_58:tabcd_1:LCLversion" v="9.00"/>
     <tag k="TMC:cid_58:tabcd_1:LocationCode" v="540"/>
     <tag k="admin_level" v="6"/>
+    <tag k="border_type" v="county"/>
     <tag k="boundary" v="administrative"/>
     <tag k="de:amtlicher_gemeindeschluessel" v="09676"/>
     <tag k="de:regionalschluessel" v="09676"/>
@@ -74585,6 +74986,7 @@
     <tag k="TMC:cid_58:tabcd_1:LCLversion" v="8.00"/>
     <tag k="TMC:cid_58:tabcd_1:LocationCode" v="329"/>
     <tag k="admin_level" v="6"/>
+    <tag k="board_type" v="county"/>
     <tag k="boundary" v="administrative"/>
     <tag k="de:amtlicher_gemeindeschluessel" v="09672"/>
     <tag k="de:regionalschluessel" v="09672"/>
@@ -74739,7 +75141,6 @@
     <tag k="name:prefix" v="Landkreis"/>
     <tag k="name:ru" v="Хафельланд"/>
     <tag k="official_name" v="Landkreis Havelland"/>
-    <tag k="source" v="http://wiki.openstreetmap.org/wiki/Import/Catalogue/Kreisgrenzen_Deutschland_2005"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q6139"/>
     <tag k="wikipedia" v="de:Landkreis Havelland"/>
@@ -74844,9 +75245,9 @@
     <tag k="TMC:cid_58:tabcd_1:LCLversion" v="8.00"/>
     <tag k="TMC:cid_58:tabcd_1:LocationCode" v="476"/>
     <tag k="admin_level" v="6"/>
+    <tag k="border_type" v="county"/>
     <tag k="boundary" v="administrative"/>
     <tag k="de:amtlicher_gemeindeschluessel" v="16070"/>
-    <tag k="de:place" v="county"/>
     <tag k="de:regionalschluessel" v="16070"/>
     <tag k="license_plate_code" v="IK"/>
     <tag k="name" v="Ilm-Kreis"/>
@@ -74890,9 +75291,9 @@
     <tag k="TMC:cid_58:tabcd_1:LCLversion" v="8.00"/>
     <tag k="TMC:cid_58:tabcd_1:LocationCode" v="691"/>
     <tag k="admin_level" v="6"/>
+    <tag k="border_type" v="county"/>
     <tag k="boundary" v="administrative"/>
     <tag k="de:amtlicher_gemeindeschluessel" v="16064"/>
-    <tag k="de:place" v="county"/>
     <tag k="de:regionalschluessel" v="16064"/>
     <tag k="license_plate_code" v="UH"/>
     <tag k="name" v="Unstrut-Hainich-Kreis"/>
@@ -74909,7 +75310,6 @@
     <tag k="border_type" v="county"/>
     <tag k="boundary" v="administrative"/>
     <tag k="de:amtlicher_gemeindeschluessel" v="15091"/>
-    <tag k="de:place" v="county"/>
     <tag k="de:regionalschluessel" v="15091"/>
     <tag k="license_plate_code" v="WB"/>
     <tag k="name" v="Wittenberg"/>
@@ -74929,7 +75329,6 @@
     <tag k="border_type" v="county"/>
     <tag k="boundary" v="administrative"/>
     <tag k="de:amtlicher_gemeindeschluessel" v="03251"/>
-    <tag k="de:place" v="county"/>
     <tag k="de:regionalschluessel" v="03251"/>
     <tag k="license_plate_code" v="DH"/>
     <tag k="name" v="Landkreis Diepholz"/>
@@ -74945,9 +75344,9 @@
     <tag k="TMC:cid_58:tabcd_1:LCLversion" v="8.00"/>
     <tag k="TMC:cid_58:tabcd_1:LocationCode" v="58408"/>
     <tag k="admin_level" v="6"/>
+    <tag k="border_type" v="county"/>
     <tag k="boundary" v="administrative"/>
     <tag k="de:amtlicher_gemeindeschluessel" v="14521"/>
-    <tag k="de:place" v="county"/>
     <tag k="de:regionalschluessel" v="14521"/>
     <tag k="license_plate_code" v="ERZ"/>
     <tag k="name" v="Erzgebirgskreis"/>
@@ -74997,9 +75396,9 @@
     <tag k="TMC:cid_58:tabcd_1:LCLversion" v="8.00"/>
     <tag k="TMC:cid_58:tabcd_1:LocationCode" v="611"/>
     <tag k="admin_level" v="6"/>
+    <tag k="border_type" v="county"/>
     <tag k="boundary" v="administrative"/>
     <tag k="de:amtlicher_gemeindeschluessel" v="15085"/>
-    <tag k="de:place" v="county"/>
     <tag k="de:regionalschluessel" v="15085"/>
     <tag k="license_plate_code" v="HZ"/>
     <tag k="name" v="Landkreis Harz"/>
@@ -75059,9 +75458,9 @@
     <tag k="TMC:cid_58:tabcd_1:LCLversion" v="8.00"/>
     <tag k="TMC:cid_58:tabcd_1:LocationCode" v="473"/>
     <tag k="admin_level" v="6"/>
+    <tag k="border_type" v="county"/>
     <tag k="boundary" v="administrative"/>
     <tag k="de:amtlicher_gemeindeschluessel" v="16074"/>
-    <tag k="de:place" v="county"/>
     <tag k="de:regionalschluessel" v="16074"/>
     <tag k="license_plate_code" v="SHK"/>
     <tag k="name" v="Saale-Holzland-Kreis"/>
@@ -75089,10 +75488,9 @@
     <tag k="border_type" v="county"/>
     <tag k="boundary" v="administrative"/>
     <tag k="de:amtlicher_gemeindeschluessel" v="14729"/>
-    <tag k="de:place" v="county"/>
     <tag k="de:regionalschluessel" v="14729"/>
-    <tag k="name" v="Leipzig"/>
-    <tag k="name:de" v="Leipzig"/>
+    <tag k="name" v="Landkreis Leipzig"/>
+    <tag k="name:de" v="Landkreis Leipzig"/>
     <tag k="name:hsb" v="Wokrjes Lipsk"/>
     <tag k="name:prefix" v="Landkreis"/>
     <tag k="official_name" v="Landkreis Leipzig"/>
@@ -75189,7 +75587,6 @@
     <tag k="border_type" v="county"/>
     <tag k="boundary" v="administrative"/>
     <tag k="de:amtlicher_gemeindeschluessel" v="16076"/>
-    <tag k="de:place" v="county"/>
     <tag k="de:regionalschluessel" v="16076"/>
     <tag k="license_plate_code" v="GRZ"/>
     <tag k="name" v="Greiz"/>
@@ -75208,7 +75605,6 @@
     <tag k="border_type" v="county"/>
     <tag k="boundary" v="administrative"/>
     <tag k="de:amtlicher_gemeindeschluessel" v="16073"/>
-    <tag k="de:place" v="county"/>
     <tag k="de:regionalschluessel" v="16073"/>
     <tag k="license_plate_code" v="SLF"/>
     <tag k="name" v="Landkreis Saalfeld-Rudolstadt"/>
@@ -75255,12 +75651,12 @@
     <tag k="TMC:cid_58:tabcd_1:LCLversion" v="8.00"/>
     <tag k="TMC:cid_58:tabcd_1:LocationCode" v="677"/>
     <tag k="admin_level" v="6"/>
+    <tag k="border_type" v="county"/>
     <tag k="boundary" v="administrative"/>
     <tag k="de:amtlicher_gemeindeschluessel" v="16054000"/>
-    <tag k="de:place" v="city"/>
     <tag k="de:regionalschluessel" v="160540000000"/>
     <tag k="name" v="Suhl"/>
-    <tag k="name:prefix" v="Stadt"/>
+    <tag k="name:prefix" v="Kreisfreie Stadt"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q14891"/>
     <tag k="wikipedia" v="de:Suhl"/>
@@ -75367,6 +75763,7 @@
     <tag k="TMC:cid_58:tabcd_1:LCLversion" v="8.00"/>
     <tag k="TMC:cid_58:tabcd_1:LocationCode" v="487"/>
     <tag k="admin_level" v="6"/>
+    <tag k="border_type" v="county"/>
     <tag k="boundary" v="administrative"/>
     <tag k="de:amtlicher_gemeindeschluessel" v="09675"/>
     <tag k="de:regionalschluessel" v="09675"/>
@@ -75402,7 +75799,6 @@
     <tag k="border_type" v="county"/>
     <tag k="boundary" v="administrative"/>
     <tag k="de:amtlicher_gemeindeschluessel" v="16071"/>
-    <tag k="de:place" v="county"/>
     <tag k="de:regionalschluessel" v="16071"/>
     <tag k="license_plate_code" v="AP"/>
     <tag k="name" v="Landkreis Weimarer Land"/>
@@ -75426,9 +75822,9 @@
     <tag k="TMC:cid_58:tabcd_1:LCLversion" v="8.00"/>
     <tag k="TMC:cid_58:tabcd_1:LocationCode" v="2756"/>
     <tag k="admin_level" v="6"/>
+    <tag k="border_type" v="county"/>
     <tag k="boundary" v="administrative"/>
     <tag k="de:amtlicher_gemeindeschluessel" v="09663000"/>
-    <tag k="de:place" v="city"/>
     <tag k="de:regionalschluessel" v="096630000000"/>
     <tag k="name" v="Würzburg"/>
     <tag k="name:ar" v="فورتسبورغ"/>
@@ -75449,7 +75845,6 @@
     <tag k="border_type" v="county"/>
     <tag k="boundary" v="administrative"/>
     <tag k="de:amtlicher_gemeindeschluessel" v="09679"/>
-    <tag k="de:place" v="county"/>
     <tag k="de:regionalschluessel" v="09679"/>
     <tag k="license_plate_code" v="WÜ"/>
     <tag k="name" v="Landkreis Würzburg"/>
@@ -75484,7 +75879,6 @@
     <tag k="border_type" v="county"/>
     <tag k="boundary" v="administrative"/>
     <tag k="de:amtlicher_gemeindeschluessel" v="16067"/>
-    <tag k="de:place" v="county"/>
     <tag k="de:regionalschluessel" v="16067"/>
     <tag k="license_plate_code" v="GTH"/>
     <tag k="name" v="Landkreis Gotha"/>
@@ -75724,12 +76118,12 @@
     <tag k="TMC:cid_58:tabcd_1:LCLversion" v="8.00"/>
     <tag k="TMC:cid_58:tabcd_1:LocationCode" v="511"/>
     <tag k="admin_level" v="6"/>
+    <tag k="board_type" v="county"/>
     <tag k="boundary" v="administrative"/>
     <tag k="de:amtlicher_gemeindeschluessel" v="05766"/>
     <tag k="de:regionalschluessel" v="05766"/>
     <tag k="name" v="Kreis Lippe"/>
     <tag k="name:de" v="Kreis Lippe"/>
-    <tag k="place" v="county"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q6230"/>
     <tag k="wikipedia" v="de:Kreis Lippe"/>
@@ -75758,7 +76152,6 @@
     <tag k="border_type" v="county"/>
     <tag k="boundary" v="administrative"/>
     <tag k="de:amtlicher_gemeindeschluessel" v="14628"/>
-    <tag k="de:place" v="county"/>
     <tag k="de:regionalschluessel" v="14628"/>
     <tag k="license_plate_code" v="PIR"/>
     <tag k="name" v="Sächsische Schweiz-Osterzgebirge"/>
@@ -75829,13 +76222,11 @@
     <tag k="border_type" v="county"/>
     <tag k="boundary" v="administrative"/>
     <tag k="de:amtlicher_gemeindeschluessel" v="16077"/>
-    <tag k="de:place" v="county"/>
     <tag k="de:regionalschluessel" v="16077"/>
     <tag k="license_plate_code" v="ABG"/>
     <tag k="name" v="Altenburger Land"/>
     <tag k="name:prefix" v="Landkreis"/>
     <tag k="official_name" v="Landkreis Altenburger Land"/>
-    <tag k="source" v="http://wiki.openstreetmap.org/wiki/Import/Catalogue/Kreisgrenzen_Deutschland_2005"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q7888"/>
     <tag k="wikipedia" v="de:Landkreis Altenburger Land"/>
@@ -75845,13 +76236,13 @@
     <tag k="TMC:cid_58:tabcd_1:LCLversion" v="8.00"/>
     <tag k="TMC:cid_58:tabcd_1:LocationCode" v="703"/>
     <tag k="admin_level" v="6"/>
+    <tag k="border_type" v="county"/>
     <tag k="boundary" v="administrative"/>
     <tag k="de:amtlicher_gemeindeschluessel" v="16055000"/>
-    <tag k="de:place" v="city"/>
     <tag k="de:regionalschluessel" v="160550000000"/>
     <tag k="name" v="Weimar"/>
     <tag k="name:cs" v="Výmar"/>
-    <tag k="name:prefix" v="Stadt"/>
+    <tag k="name:prefix" v="Kreisfreie Stadt"/>
     <tag k="source" v="http://wiki.openstreetmap.org/wiki/Import/Catalogue/Kreisgrenzen_Deutschland_2005"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q3955"/>
@@ -75903,9 +76294,9 @@
     <tag k="TMC:cid_58:tabcd_1:LCLversion" v="8.00"/>
     <tag k="TMC:cid_58:tabcd_1:LocationCode" v="715"/>
     <tag k="admin_level" v="6"/>
+    <tag k="border_type" v="county"/>
     <tag k="boundary" v="administrative"/>
     <tag k="de:amtlicher_gemeindeschluessel" v="06414000"/>
-    <tag k="de:place" v="city"/>
     <tag k="de:regionalschluessel" v="064140000000"/>
     <tag k="name" v="Wiesbaden"/>
     <tag k="name:ar" v="فيسبادن"/>
@@ -75913,7 +76304,6 @@
     <tag k="name:fr" v="Wiesbaden"/>
     <tag k="name:prefix" v="Landeshauptstadt"/>
     <tag k="name:ru" v="Висбаден"/>
-    <tag k="place" v="city"/>
     <tag k="source" v="http://wiki.openstreetmap.org/wiki/Import/Catalogue/Kreisgrenzen_Deutschland_2005"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q1721"/>
@@ -75927,7 +76317,6 @@
     <tag k="border_type" v="county"/>
     <tag k="boundary" v="administrative"/>
     <tag k="de:amtlicher_gemeindeschluessel" v="09671"/>
-    <tag k="de:place" v="county"/>
     <tag k="de:regionalschluessel" v="09671"/>
     <tag k="license_plate_code" v="AB"/>
     <tag k="name" v="Landkreis Aschaffenburg"/>
@@ -75976,7 +76365,6 @@
     <tag k="border_type" v="county"/>
     <tag k="boundary" v="administrative"/>
     <tag k="de:amtlicher_gemeindeschluessel" v="16061"/>
-    <tag k="de:place" v="county"/>
     <tag k="de:regionalschluessel" v="16061"/>
     <tag k="license_plate_code" v="EIC"/>
     <tag k="name" v="Landkreis Eichsfeld"/>
@@ -75991,7 +76379,6 @@
     <tag k="description" v="Kreis Schleswig-Flensburg (Landmasse)"/>
     <tag k="land_area" v="administrative"/>
     <tag k="name" v="Kreis Schleswig-Flensburg"/>
-    <tag k="place" v="county"/>
     <tag k="source" v="http://wiki.openstreetmap.org/wiki/Import/Catalogue/Kreisgrenzen_Deutschland_2005"/>
     <tag k="type" v="land_area"/>
     <tag k="wikidata" v="Q2941"/>
@@ -76018,10 +76405,10 @@
     <tag k="TMC:cid_58:tabcd_1:LCLversion" v="8.00"/>
     <tag k="TMC:cid_58:tabcd_1:LocationCode" v="396"/>
     <tag k="admin_level" v="6"/>
+    <tag k="border_type" v="county"/>
     <tag k="boundary" v="administrative"/>
     <tag k="de:amtlicher_gemeindeschluessel" v="12062"/>
     <tag k="de:regionalschluessel" v="12062"/>
-    <tag k="license_plate_code" v="EE"/>
     <tag k="name" v="Elbe-Elster"/>
     <tag k="name:de" v="Elbe-Elster"/>
     <tag k="name:hsb" v="Wokrjes Łobjo-Halštrow"/>
@@ -76081,7 +76468,6 @@
     <tag k="border_type" v="county"/>
     <tag k="boundary" v="administrative"/>
     <tag k="de:amtlicher_gemeindeschluessel" v="14627"/>
-    <tag k="de:place" v="county"/>
     <tag k="de:regionalschluessel" v="14627"/>
     <tag k="license_plate_code" v="MEI"/>
     <tag k="name" v="Meißen"/>
@@ -76140,6 +76526,7 @@
     <tag k="TMC:cid_58:tabcd_1:LCLversion" v="9.00"/>
     <tag k="TMC:cid_58:tabcd_1:LocationCode" v="508"/>
     <tag k="admin_level" v="6"/>
+    <tag k="border_type" v="county"/>
     <tag k="boundary" v="administrative"/>
     <tag k="de:amtlicher_gemeindeschluessel" v="09478"/>
     <tag k="de:regionalschluessel" v="09478"/>
@@ -76174,9 +76561,9 @@
     <tag k="TMC:cid_58:tabcd_1:LCLversion" v="8.00"/>
     <tag k="TMC:cid_58:tabcd_1:LocationCode" v="714"/>
     <tag k="admin_level" v="6"/>
+    <tag k="border_type" v="county"/>
     <tag k="boundary" v="administrative"/>
     <tag k="de:amtlicher_gemeindeschluessel" v="06440"/>
-    <tag k="de:place" v="county"/>
     <tag k="de:regionalschluessel" v="06440"/>
     <tag k="license_plate_code" v="FB"/>
     <tag k="name" v="Wetteraukreis"/>
@@ -76189,6 +76576,7 @@
     <tag k="TMC:cid_58:tabcd_1:LCLversion" v="9.00"/>
     <tag k="TMC:cid_58:tabcd_1:LocationCode" v="454"/>
     <tag k="admin_level" v="6"/>
+    <tag k="border_type" v="county"/>
     <tag k="boundary" v="administrative"/>
     <tag k="de:amtlicher_gemeindeschluessel" v="09674"/>
     <tag k="de:regionalschluessel" v="09674"/>
@@ -76265,9 +76653,9 @@
     <tag k="TMC:cid_58:tabcd_1:LCLversion" v="8.00"/>
     <tag k="TMC:cid_58:tabcd_1:LocationCode" v="475"/>
     <tag k="admin_level" v="6"/>
+    <tag k="border_type" v="county"/>
     <tag k="boundary" v="administrative"/>
     <tag k="de:amtlicher_gemeindeschluessel" v="05762"/>
-    <tag k="de:place" v="county"/>
     <tag k="de:regionalschluessel" v="05762"/>
     <tag k="name" v="Kreis Höxter"/>
     <tag k="source" v="http://wiki.openstreetmap.org/wiki/Import/Catalogue/Kreisgrenzen_Deutschland_2005"/>
@@ -76280,9 +76668,9 @@
     <tag k="TMC:cid_58:tabcd_1:LCLversion" v="8.00"/>
     <tag k="TMC:cid_58:tabcd_1:LocationCode" v="874"/>
     <tag k="admin_level" v="6"/>
+    <tag k="border_type" v="county"/>
     <tag k="boundary" v="administrative"/>
     <tag k="de:amtlicher_gemeindeschluessel" v="09461000"/>
-    <tag k="de:place" v="city"/>
     <tag k="de:regionalschluessel" v="094610000000"/>
     <tag k="name" v="Bamberg"/>
     <tag k="name:prefix" v="Kreisfreie Stadt"/>
@@ -76392,9 +76780,9 @@
     <tag k="TMC:cid_58:tabcd_1:LCLversion" v="8.00"/>
     <tag k="TMC:cid_58:tabcd_1:LocationCode" v="801"/>
     <tag k="admin_level" v="6"/>
+    <tag k="border_type" v="county"/>
     <tag k="boundary" v="administrative"/>
     <tag k="de:amtlicher_gemeindeschluessel" v="09661000"/>
-    <tag k="de:place" v="city"/>
     <tag k="de:regionalschluessel" v="096610000000"/>
     <tag k="name" v="Aschaffenburg"/>
     <tag k="name:ar" v="أشافنبورغ"/>
@@ -76486,7 +76874,6 @@
     <tag k="name:prefix" v="Landkreis"/>
     <tag k="name:ru" v="Уккермарк"/>
     <tag k="official_name" v="Landkreis Uckermark"/>
-    <tag k="source" v="http://wiki.openstreetmap.org/wiki/Import/Catalogue/Kreisgrenzen_Deutschland_2005"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q6109"/>
     <tag k="wikipedia" v="de:Landkreis Uckermark"/>
@@ -76582,9 +76969,9 @@
     <tag k="TMC:cid_58:tabcd_1:LCLversion" v="8.00"/>
     <tag k="TMC:cid_58:tabcd_1:LocationCode" v="624"/>
     <tag k="admin_level" v="6"/>
+    <tag k="border_type" v="county"/>
     <tag k="boundary" v="administrative"/>
     <tag k="de:amtlicher_gemeindeschluessel" v="05382"/>
-    <tag k="de:place" v="county"/>
     <tag k="de:regionalschluessel" v="05382"/>
     <tag k="name" v="Rhein-Sieg-Kreis"/>
     <tag k="source" v="http://wiki.openstreetmap.org/wiki/Import/Catalogue/Kreisgrenzen_Deutschland_2005"/>
@@ -76602,7 +76989,6 @@
     <tag k="description" v="Kreis Plön (Landmasse)"/>
     <tag k="land_area" v="administrative"/>
     <tag k="name" v="Kreis Plön"/>
-    <tag k="place" v="county"/>
     <tag k="source" v="http://wiki.openstreetmap.org/wiki/Import/Catalogue/Kreisgrenzen_Deutschland_2005"/>
     <tag k="type" v="land_area"/>
     <tag k="wikidata" v="Q2970"/>
@@ -76633,7 +77019,6 @@
     <tag k="border_type" v="county"/>
     <tag k="boundary" v="administrative"/>
     <tag k="de:amtlicher_gemeindeschluessel" v="14730"/>
-    <tag k="de:place" v="county"/>
     <tag k="de:regionalschluessel" v="14730"/>
     <tag k="license_plate_code" v="TDO"/>
     <tag k="name" v="Nordsachsen"/>
@@ -76652,6 +77037,7 @@
     <tag k="TMC:cid_58:tabcd_1:LCLversion" v="8.00"/>
     <tag k="TMC:cid_58:tabcd_1:LocationCode" v="362"/>
     <tag k="admin_level" v="6"/>
+    <tag k="border_type" v="county"/>
     <tag k="boundary" v="administrative"/>
     <tag k="de:amtlicher_gemeindeschluessel" v="09372"/>
     <tag k="de:regionalschluessel" v="09372"/>
@@ -76691,7 +77077,6 @@
     <tag k="border_type" v="county"/>
     <tag k="boundary" v="administrative"/>
     <tag k="de:amtlicher_gemeindeschluessel" v="16072"/>
-    <tag k="de:place" v="county"/>
     <tag k="de:regionalschluessel" v="16072"/>
     <tag k="license_plate_code" v="SON"/>
     <tag k="name" v="Landkreis Sonneberg"/>
@@ -76821,7 +77206,6 @@
     <tag k="border_type" v="county"/>
     <tag k="boundary" v="administrative"/>
     <tag k="de:amtlicher_gemeindeschluessel" v="09473"/>
-    <tag k="de:place" v="county"/>
     <tag k="de:regionalschluessel" v="09473"/>
     <tag k="license_plate_code" v="CO"/>
     <tag k="name" v="Landkreis Coburg"/>
@@ -76860,7 +77244,6 @@
     <tag k="border_type" v="county"/>
     <tag k="boundary" v="administrative"/>
     <tag k="de:amtlicher_gemeindeschluessel" v="06635"/>
-    <tag k="de:place" v="county"/>
     <tag k="de:regionalschluessel" v="06635"/>
     <tag k="license_plate_code" v="KB"/>
     <tag k="name" v="Landkreis Waldeck-Frankenberg"/>
@@ -76890,9 +77273,9 @@
     <tag k="TMC:cid_58:tabcd_1:LCLversion" v="8.00"/>
     <tag k="TMC:cid_58:tabcd_1:LocationCode" v="468"/>
     <tag k="admin_level" v="6"/>
+    <tag k="border_type" v="county"/>
     <tag k="boundary" v="administrative"/>
     <tag k="de:amtlicher_gemeindeschluessel" v="06434"/>
-    <tag k="de:place" v="county"/>
     <tag k="de:regionalschluessel" v="06434"/>
     <tag k="license_plate_code" v="HG"/>
     <tag k="name" v="Hochtaunuskreis"/>
@@ -77017,7 +77400,6 @@
     <tag k="border_type" v="county"/>
     <tag k="boundary" v="administrative"/>
     <tag k="de:amtlicher_gemeindeschluessel" v="09377"/>
-    <tag k="de:place" v="county"/>
     <tag k="de:regionalschluessel" v="09377"/>
     <tag k="license_plate_code" v="TIR"/>
     <tag k="name" v="Landkreis Tirschenreuth"/>
@@ -77037,7 +77419,6 @@
     <tag k="land_area" v="administrative"/>
     <tag k="name" v="Kreis Dithmarschen"/>
     <tag k="note" v="Alte Relation #27028 angepasst"/>
-    <tag k="place" v="county"/>
     <tag k="source" v="http://wiki.openstreetmap.org/wiki/Import/Catalogue/Kreisgrenzen_Deutschland_2005"/>
     <tag k="type" v="land_area"/>
     <tag k="wikidata" v="Q2947"/>
@@ -77083,6 +77464,7 @@
     <tag k="name:pt" v="Colónia"/>
     <tag k="name:ru" v="Кёльн"/>
     <tag k="name:zh" v="科隆"/>
+    <tag k="place" v="city"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q365"/>
     <tag k="wikipedia" v="de:Köln"/>
@@ -77127,9 +77509,9 @@
     <tag k="TMC:cid_58:tabcd_1:LCLversion" v="8.00"/>
     <tag k="TMC:cid_58:tabcd_1:LocationCode" v="374"/>
     <tag k="admin_level" v="6"/>
+    <tag k="border_type" v="county"/>
     <tag k="boundary" v="administrative"/>
     <tag k="de:amtlicher_gemeindeschluessel" v="06411000"/>
-    <tag k="de:place" v="city"/>
     <tag k="de:regionalschluessel" v="064110000000"/>
     <tag k="name" v="Darmstadt"/>
     <tag k="name:prefix" v="Wissenschaftsstadt"/>
@@ -77166,7 +77548,6 @@
     <tag k="description" v="Kreis Steinburg (Landmasse)"/>
     <tag k="land_area" v="administrative"/>
     <tag k="name" v="Kreis Steinburg"/>
-    <tag k="place" v="county"/>
     <tag k="source" v="http://wiki.openstreetmap.org/wiki/Import/Catalogue/Kreisgrenzen_Deutschland_2005"/>
     <tag k="type" v="land_area"/>
     <tag k="wikidata" v="Q3011"/>
@@ -77211,9 +77592,9 @@
     <tag k="TMC:cid_58:tabcd_1:LCLversion" v="9.00"/>
     <tag k="TMC:cid_58:tabcd_1:LocationCode" v="3325"/>
     <tag k="admin_level" v="6"/>
+    <tag k="border_type" v="county"/>
     <tag k="boundary" v="administrative"/>
     <tag k="de:amtlicher_gemeindeschluessel" v="06636"/>
-    <tag k="de:place" v="county"/>
     <tag k="de:regionalschluessel" v="06636"/>
     <tag k="license_plate_code" v="ESW"/>
     <tag k="name" v="Werra-Meißner-Kreis"/>
@@ -77249,7 +77630,6 @@
     <tag k="border_type" v="county"/>
     <tag k="boundary" v="administrative"/>
     <tag k="de:amtlicher_gemeindeschluessel" v="16068"/>
-    <tag k="de:place" v="county"/>
     <tag k="de:regionalschluessel" v="16068"/>
     <tag k="license_plate_code" v="SÖM"/>
     <tag k="name" v="Landkreis Sömmerda"/>
@@ -77263,9 +77643,9 @@
     <tag k="TMC:cid_58:tabcd_1:LCLversion" v="9.00"/>
     <tag k="TMC:cid_58:tabcd_1:LocationCode" v="1532"/>
     <tag k="admin_level" v="6"/>
+    <tag k="border_type" v="county"/>
     <tag k="boundary" v="administrative"/>
     <tag k="de:amtlicher_gemeindeschluessel" v="09464000"/>
-    <tag k="de:place" v="city"/>
     <tag k="de:regionalschluessel" v="094640000000"/>
     <tag k="name" v="Hof"/>
     <tag k="name:prefix" v="Kreisfreie Stadt"/>
@@ -77332,9 +77712,9 @@
     <tag k="TMC:cid_58:tabcd_1:LocationCode" v="363"/>
     <tag k="TMC:cid_58:tabcd_1:SubTypeName:loc" v="Kreisfreie Stadt"/>
     <tag k="admin_level" v="6"/>
+    <tag k="border_type" v="county"/>
     <tag k="boundary" v="administrative"/>
     <tag k="de:amtlicher_gemeindeschluessel" v="14511000"/>
-    <tag k="de:place" v="city"/>
     <tag k="de:regionalschluessel" v="145110000000"/>
     <tag k="name" v="Chemnitz"/>
     <tag k="name:ar" v="كيمنتس"/>
@@ -77368,9 +77748,9 @@
     <tag k="TMC:cid_58:tabcd_1:LCLversion" v="8.00"/>
     <tag k="TMC:cid_58:tabcd_1:LocationCode" v="578"/>
     <tag k="admin_level" v="6"/>
+    <tag k="border_type" v="county"/>
     <tag k="boundary" v="administrative"/>
     <tag k="de:amtlicher_gemeindeschluessel" v="06437"/>
-    <tag k="de:place" v="county"/>
     <tag k="de:regionalschluessel" v="06437"/>
     <tag k="license_plate_code" v="ERB"/>
     <tag k="name" v="Odenwaldkreis"/>
@@ -77405,9 +77785,9 @@
     <tag k="TMC:cid_58:tabcd_1:LCLversion" v="9.00"/>
     <tag k="TMC:cid_58:tabcd_1:LocationCode" v="37216"/>
     <tag k="admin_level" v="6"/>
+    <tag k="border_type" v="county"/>
     <tag k="boundary" v="administrative"/>
     <tag k="de:amtlicher_gemeindeschluessel" v="06611000"/>
-    <tag k="de:place" v="city"/>
     <tag k="de:regionalschluessel" v="066110000000"/>
     <tag k="is_in:iso_3166_2" v="DE-HE"/>
     <tag k="name" v="Kassel"/>
@@ -77456,9 +77836,9 @@
     <tag k="TMC:cid_58:tabcd_1:LCLversion" v="8.00"/>
     <tag k="TMC:cid_58:tabcd_1:LocationCode" v="713"/>
     <tag k="admin_level" v="6"/>
+    <tag k="border_type" v="county"/>
     <tag k="boundary" v="administrative"/>
     <tag k="de:amtlicher_gemeindeschluessel" v="15081"/>
-    <tag k="de:place" v="county"/>
     <tag k="de:regionalschluessel" v="15081"/>
     <tag k="license_plate_code" v="SAW"/>
     <tag k="name" v="Altmarkkreis Salzwedel"/>
@@ -77495,11 +77875,9 @@
     <tag k="admin_level" v="6"/>
     <tag k="boundary" v="administrative"/>
     <tag k="de:amtlicher_gemeindeschluessel" v="16065"/>
-    <tag k="de:place" v="county"/>
     <tag k="de:regionalschluessel" v="16065"/>
     <tag k="license_plate_code" v="KYF"/>
     <tag k="name" v="Kyffhäuserkreis"/>
-    <tag k="source" v="http://wiki.openstreetmap.org/wiki/Import/Catalogue/Kreisgrenzen_Deutschland_2005"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q7862"/>
     <tag k="wikipedia" v="de:Kyffhäuserkreis"/>
@@ -77551,7 +77929,6 @@
     <tag k="border_type" v="county"/>
     <tag k="boundary" v="administrative"/>
     <tag k="de:amtlicher_gemeindeschluessel" v="09571"/>
-    <tag k="de:place" v="county"/>
     <tag k="de:regionalschluessel" v="09571"/>
     <tag k="license_plate_code" v="AN"/>
     <tag k="name" v="Landkreis Ansbach"/>
@@ -77587,7 +77964,6 @@
     <tag k="border_type" v="county"/>
     <tag k="boundary" v="administrative"/>
     <tag k="de:amtlicher_gemeindeschluessel" v="03155"/>
-    <tag k="de:place" v="county"/>
     <tag k="de:regionalschluessel" v="03155"/>
     <tag k="license_plate_code" v="NOM"/>
     <tag k="name" v="Landkreis Northeim"/>
@@ -77635,9 +78011,9 @@
     <tag k="TMC:cid_58:tabcd_1:LCLversion" v="8.00"/>
     <tag k="TMC:cid_58:tabcd_1:LocationCode" v="700"/>
     <tag k="admin_level" v="6"/>
+    <tag k="board_type" v="county"/>
     <tag k="boundary" v="administrative"/>
     <tag k="de:amtlicher_gemeindeschluessel" v="16063"/>
-    <tag k="de:place" v="county"/>
     <tag k="de:regionalschluessel" v="16063"/>
     <tag k="license_plate_code" v="WAK"/>
     <tag k="name" v="Wartburgkreis"/>
@@ -77678,7 +78054,6 @@
     <tag k="border_type" v="county"/>
     <tag k="boundary" v="administrative"/>
     <tag k="de:amtlicher_gemeindeschluessel" v="16066"/>
-    <tag k="de:place" v="county"/>
     <tag k="de:regionalschluessel" v="16066"/>
     <tag k="license_plate_code" v="SM"/>
     <tag k="name" v="Landkreis Schmalkalden-Meiningen"/>
@@ -77709,7 +78084,6 @@
     <tag k="border_type" v="county"/>
     <tag k="boundary" v="administrative"/>
     <tag k="de:amtlicher_gemeindeschluessel" v="16062"/>
-    <tag k="de:place" v="county"/>
     <tag k="de:regionalschluessel" v="16062"/>
     <tag k="license_plate_code" v="NDH"/>
     <tag k="name" v="Landkreis Nordhausen"/>
@@ -77797,7 +78171,6 @@
     <tag k="border_type" v="county"/>
     <tag k="boundary" v="administrative"/>
     <tag k="de:amtlicher_gemeindeschluessel" v="09471"/>
-    <tag k="de:place" v="county"/>
     <tag k="de:regionalschluessel" v="09471"/>
     <tag k="license_plate_code" v="BA"/>
     <tag k="name" v="Landkreis Bamberg"/>
@@ -77915,7 +78288,6 @@
     <tag k="wikipedia" v="de:Landkreis Freising"/>
   </relation>
   <relation id="62634">
-    <tag k="TMC:cid_58:tabcd_1:Class" v="Area"/>
     <tag k="TMC:cid_58:tabcd_1:LCLversion" v="8.00"/>
     <tag k="TMC:cid_58:tabcd_1:LocationCode" v="354"/>
     <tag k="admin_level" v="6"/>
@@ -77926,6 +78298,7 @@
     <tag k="name" v="Bottrop"/>
     <tag k="name:ar" v="بوتروب"/>
     <tag k="name:prefix" v="Stadt"/>
+    <tag k="operator" v="Area"/>
     <tag k="source" v="http://wiki.openstreetmap.org/wiki/Import/Catalogue/Kreisgrenzen_Deutschland_2005"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q3069"/>
@@ -77991,7 +78364,6 @@
     <tag k="border_type" v="county"/>
     <tag k="boundary" v="administrative"/>
     <tag k="de:amtlicher_gemeindeschluessel" v="15084"/>
-    <tag k="de:place" v="county"/>
     <tag k="de:regionalschluessel" v="15084"/>
     <tag k="license_plate_code" v="BLK"/>
     <tag k="name" v="Burgenlandkreis"/>
@@ -78005,9 +78377,9 @@
     <tag k="TMC:cid_58:tabcd_1:LCLversion" v="9.00"/>
     <tag k="TMC:cid_58:tabcd_1:LocationCode" v="891"/>
     <tag k="admin_level" v="6"/>
+    <tag k="border_type" v="county"/>
     <tag k="boundary" v="administrative"/>
     <tag k="de:amtlicher_gemeindeschluessel" v="09462000"/>
-    <tag k="de:place" v="city"/>
     <tag k="de:regionalschluessel" v="094620000000"/>
     <tag k="name" v="Bayreuth"/>
     <tag k="name:cs" v="Barout"/>
@@ -78022,6 +78394,7 @@
     <tag k="TMC:cid_58:tabcd_1:LCLversion" v="8.00"/>
     <tag k="TMC:cid_58:tabcd_1:LocationCode" v="521"/>
     <tag k="admin_level" v="6"/>
+    <tag k="board_type" v="county"/>
     <tag k="boundary" v="administrative"/>
     <tag k="de:amtlicher_gemeindeschluessel" v="09677"/>
     <tag k="de:regionalschluessel" v="09677"/>
@@ -78146,13 +78519,14 @@
     <tag k="TMC:cid_58:tabcd_1:LCLversion" v="8.00"/>
     <tag k="TMC:cid_58:tabcd_1:LocationCode" v="505"/>
     <tag k="admin_level" v="6"/>
+    <tag k="border_type" v="county"/>
     <tag k="boundary" v="administrative"/>
     <tag k="de:amtlicher_gemeindeschluessel" v="14713000"/>
-    <tag k="de:place" v="city"/>
     <tag k="de:regionalschluessel" v="147130000000"/>
     <tag k="name" v="Leipzig"/>
     <tag k="name:ar" v="لايبزيغ"/>
     <tag k="name:de" v="Leipzig"/>
+    <tag k="name:el" v="Λειψία"/>
     <tag k="name:hsb" v="Lipsk"/>
     <tag k="name:prefix" v="Kreisfreie Stadt"/>
     <tag k="official_name" v="Kreisfreie Stadt Leipzig"/>
@@ -78218,9 +78592,9 @@
     <tag k="TMC:cid_58:tabcd_1:LocationCode" v="790"/>
     <tag k="admin_centre:postal_code" v="91522"/>
     <tag k="admin_level" v="6"/>
+    <tag k="border_type" v="county"/>
     <tag k="boundary" v="administrative"/>
     <tag k="de:amtlicher_gemeindeschluessel" v="09561000"/>
-    <tag k="de:place" v="city"/>
     <tag k="de:regionalschluessel" v="095610000000"/>
     <tag k="name" v="Ansbach"/>
     <tag k="name:prefix:de" v="Kreisfreie Stadt"/>
@@ -78251,6 +78625,7 @@
     <tag k="TMC:cid_58:tabcd_1:LCLversion" v="8.00"/>
     <tag k="TMC:cid_58:tabcd_1:LocationCode" v="440"/>
     <tag k="admin_level" v="6"/>
+    <tag k="border_type" v="county"/>
     <tag k="boundary" v="administrative"/>
     <tag k="de:amtlicher_gemeindeschluessel" v="06433"/>
     <tag k="de:regionalschluessel" v="06433"/>
@@ -78331,7 +78706,6 @@
     <tag k="description" v="Rendsburg-Eckernförde (Landmasse)"/>
     <tag k="land_area" v="administrative"/>
     <tag k="name" v="Rendsburg-Eckernförde"/>
-    <tag k="place" v="county"/>
     <tag k="source" v="http://wiki.openstreetmap.org/wiki/Import/Catalogue/Kreisgrenzen_Deutschland_2005"/>
     <tag k="type" v="land_area"/>
     <tag k="wikidata" v="Q2967"/>
@@ -78488,9 +78862,9 @@
     <tag k="TMC:cid_58:tabcd_1:LCLversion" v="8.00"/>
     <tag k="TMC:cid_58:tabcd_1:LocationCode" v="427"/>
     <tag k="admin_level" v="6"/>
+    <tag k="border_type" v="county"/>
     <tag k="boundary" v="administrative"/>
     <tag k="de:amtlicher_gemeindeschluessel" v="16052000"/>
-    <tag k="de:place" v="city"/>
     <tag k="de:regionalschluessel" v="160520000000"/>
     <tag k="name" v="Gera"/>
     <tag k="name:ar" v="غيرا"/>
@@ -78749,6 +79123,7 @@
     <tag k="TMC:cid_58:tabcd_1:LCLversion" v="8.00"/>
     <tag k="TMC:cid_58:tabcd_1:LocationCode" v="412"/>
     <tag k="admin_level" v="6"/>
+    <tag k="border_type" v="county"/>
     <tag k="boundary" v="administrative"/>
     <tag k="comment" v="admin_level 6 für Landkreis, 8 für Stadt braucht MapOSMatic. Zwei gehen aber nicht gelichzeitig, unu? -karlos-"/>
     <tag k="de:amtlicher_gemeindeschluessel" v="09474"/>
@@ -78846,16 +79221,16 @@
     <tag k="TMC:cid_58:tabcd_1:LCLversion" v="8.00"/>
     <tag k="TMC:cid_58:tabcd_1:LocationCode" v="478"/>
     <tag k="admin_level" v="6"/>
+    <tag k="border_type" v="county"/>
     <tag k="boundary" v="administrative"/>
     <tag k="contact:facebook" v="https://www.facebook.com/jena.lichtstadt"/>
     <tag k="contact:twitter" v="https://twitter.com/jenalichtstadt"/>
     <tag k="contact:website" v="http://www.jena.de"/>
     <tag k="de:amtlicher_gemeindeschluessel" v="16053000"/>
-    <tag k="de:place" v="city"/>
     <tag k="de:regionalschluessel" v="160530000000"/>
     <tag k="name" v="Jena"/>
     <tag k="name:ar" v="ينا"/>
-    <tag k="name:prefix" v="Stadt"/>
+    <tag k="name:prefix" v="Kreisfreie Stadt"/>
     <tag k="source" v="http://wiki.openstreetmap.org/wiki/Import/Catalogue/Kreisgrenzen_Deutschland_2005"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q3150"/>
@@ -78866,9 +79241,9 @@
     <tag k="TMC:cid_58:tabcd_1:LCLversion" v="8.00"/>
     <tag k="TMC:cid_58:tabcd_1:LocationCode" v="520"/>
     <tag k="admin_level" v="6"/>
+    <tag k="border_type" v="county"/>
     <tag k="boundary" v="administrative"/>
     <tag k="de:amtlicher_gemeindeschluessel" v="06435"/>
-    <tag k="de:place" v="county"/>
     <tag k="de:regionalschluessel" v="06435"/>
     <tag k="license_plate_code" v="MKK"/>
     <tag k="name" v="Main-Kinzig-Kreis"/>
@@ -78882,9 +79257,9 @@
     <tag k="TMC:cid_58:tabcd_1:LCLversion" v="8.00"/>
     <tag k="TMC:cid_58:tabcd_1:LocationCode" v="581"/>
     <tag k="admin_level" v="6"/>
+    <tag k="border_type" v="county"/>
     <tag k="boundary" v="administrative"/>
     <tag k="de:amtlicher_gemeindeschluessel" v="06413000"/>
-    <tag k="de:place" v="city"/>
     <tag k="de:regionalschluessel" v="064130000000"/>
     <tag k="name" v="Offenbach am Main"/>
     <tag k="name:ar" v="أوفنباخ على ماين"/>
@@ -78933,7 +79308,7 @@
     <tag k="TMC:cid_58:tabcd_1:LCLversion" v="8.00"/>
     <tag k="TMC:cid_58:tabcd_1:LocationCode" v="422"/>
     <tag k="admin_level" v="6"/>
-    <tag k="border_type" v="county"/>
+    <tag k="board_type" v="county"/>
     <tag k="boundary" v="administrative"/>
     <tag k="de:amtlicher_gemeindeschluessel" v="06631"/>
     <tag k="de:regionalschluessel" v="06631"/>
@@ -78996,7 +79371,6 @@
     <tag k="border_type" v="county"/>
     <tag k="boundary" v="administrative"/>
     <tag k="de:amtlicher_gemeindeschluessel" v="06432"/>
-    <tag k="de:place" v="county"/>
     <tag k="de:regionalschluessel" v="06432"/>
     <tag k="license_plate_code" v="DA"/>
     <tag k="name" v="Landkreis Darmstadt-Dieburg"/>
@@ -79126,7 +79500,6 @@
     <tag k="border_type" v="county"/>
     <tag k="boundary" v="administrative"/>
     <tag k="de:amtlicher_gemeindeschluessel" v="06438"/>
-    <tag k="de:place" v="county"/>
     <tag k="de:regionalschluessel" v="06438"/>
     <tag k="license_plate_code" v="OF"/>
     <tag k="name" v="Landkreis Offenbach"/>
@@ -79159,9 +79532,9 @@
     <tag k="TMC:cid_58:tabcd_1:LCLversion" v="9.00"/>
     <tag k="TMC:cid_58:tabcd_1:LocationCode" v="1043"/>
     <tag k="admin_level" v="6"/>
+    <tag k="border_type" v="county"/>
     <tag k="boundary" v="administrative"/>
     <tag k="de:amtlicher_gemeindeschluessel" v="09463000"/>
-    <tag k="de:place" v="city"/>
     <tag k="de:regionalschluessel" v="094630000000"/>
     <tag k="name" v="Coburg"/>
     <tag k="name:cs" v="Koburk"/>
@@ -79268,7 +79641,6 @@
     <tag k="border_type" v="county"/>
     <tag k="boundary" v="administrative"/>
     <tag k="de:amtlicher_gemeindeschluessel" v="15090"/>
-    <tag k="de:place" v="county"/>
     <tag k="de:regionalschluessel" v="15090"/>
     <tag k="license_plate_code" v="SDL"/>
     <tag k="name" v="Stendal"/>
@@ -79338,8 +79710,6 @@
     <tag k="land_area" v="administrative"/>
     <tag k="name" v="Nordwestmecklenburg"/>
     <tag k="note" v="administrative relation 26218"/>
-    <tag k="place" v="county"/>
-    <tag k="source" v="http://wiki.openstreetmap.org/wiki/Import/Catalogue/Kreisgrenzen_Deutschland_2005"/>
     <tag k="type" v="land_area"/>
     <tag k="wikidata" v="Q2876"/>
   </relation>
@@ -79348,6 +79718,7 @@
     <tag k="TMC:cid_58:tabcd_1:LCLversion" v="8.00"/>
     <tag k="TMC:cid_58:tabcd_1:LocationCode" v="340"/>
     <tag k="admin_level" v="6"/>
+    <tag k="border_type" v="county"/>
     <tag k="boundary" v="administrative"/>
     <tag k="de:amtlicher_gemeindeschluessel" v="06431"/>
     <tag k="de:regionalschluessel" v="06431"/>
@@ -79418,14 +79789,13 @@
     <tag k="TMC:cid_58:tabcd_1:LCLversion" v="8.00"/>
     <tag k="TMC:cid_58:tabcd_1:LocationCode" v="650"/>
     <tag k="admin_level" v="6"/>
+    <tag k="board_type" v="county"/>
     <tag k="boundary" v="administrative"/>
     <tag k="de:amtlicher_gemeindeschluessel" v="06634"/>
-    <tag k="de:place" v="county"/>
     <tag k="de:regionalschluessel" v="06634"/>
     <tag k="is_in" v="Kassel,Hessen,Bundesrepublik Deutschland,Europe"/>
     <tag k="license_plate_code" v="HR"/>
     <tag k="name" v="Schwalm-Eder-Kreis"/>
-    <tag k="place" v="county"/>
     <tag k="source" v="http://wiki.openstreetmap.org/wiki/Import/Catalogue/Kreisgrenzen_Deutschland_2005"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q7894"/>
@@ -79471,6 +79841,7 @@
     <tag k="TMC:cid_58:tabcd_1:LCLversion" v="9.00"/>
     <tag k="TMC:cid_58:tabcd_1:LocationCode" v="627"/>
     <tag k="admin_level" v="6"/>
+    <tag k="border_type" v="county"/>
     <tag k="boundary" v="administrative"/>
     <tag k="de:amtlicher_gemeindeschluessel" v="09673"/>
     <tag k="de:regionalschluessel" v="09673"/>
@@ -79546,7 +79917,6 @@
     <tag k="border_type" v="county"/>
     <tag k="boundary" v="administrative"/>
     <tag k="de:amtlicher_gemeindeschluessel" v="03360"/>
-    <tag k="de:place" v="county"/>
     <tag k="de:regionalschluessel" v="03360"/>
     <tag k="license_plate_code" v="UE"/>
     <tag k="name" v="Uelzen"/>
@@ -79586,13 +79956,14 @@
     <tag k="TMC:cid_58:tabcd_1:LCLversion" v="8.00"/>
     <tag k="TMC:cid_58:tabcd_1:LocationCode" v="405"/>
     <tag k="admin_level" v="6"/>
+    <tag k="border_type" v="county"/>
     <tag k="boundary" v="administrative"/>
     <tag k="de:amtlicher_gemeindeschluessel" v="16051000"/>
-    <tag k="de:place" v="city"/>
     <tag k="de:regionalschluessel" v="160510000000"/>
     <tag k="name" v="Erfurt"/>
     <tag k="name:ar" v="إرفورت"/>
     <tag k="name:prefix" v="Stadt"/>
+    <tag k="place" v="city"/>
     <tag k="source" v="http://wiki.openstreetmap.org/wiki/Import/Catalogue/Kreisgrenzen_Deutschland_2005"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q1729"/>
@@ -79603,9 +79974,9 @@
     <tag k="TMC:cid_58:tabcd_1:LCLversion" v="8.00"/>
     <tag k="TMC:cid_58:tabcd_1:LocationCode" v="625"/>
     <tag k="admin_level" v="6"/>
+    <tag k="border_type" v="county"/>
     <tag k="boundary" v="administrative"/>
     <tag k="de:amtlicher_gemeindeschluessel" v="06439"/>
-    <tag k="de:place" v="county"/>
     <tag k="de:regionalschluessel" v="06439"/>
     <tag k="license_plate_code" v="RÜD"/>
     <tag k="name" v="Rheingau-Taunus-Kreis"/>
@@ -79716,7 +80087,6 @@
     <tag k="description" v="Kiel (Landmasse)"/>
     <tag k="land_area" v="administrative"/>
     <tag k="name" v="Kiel"/>
-    <tag k="place" v="county"/>
     <tag k="source" v="http://wiki.openstreetmap.org/wiki/Import/Catalogue/Kreisgrenzen_Deutschland_2005"/>
     <tag k="type" v="land_area"/>
     <tag k="wikidata" v="Q1707"/>
@@ -79771,8 +80141,6 @@
     <tag k="name:fr" v="Hamelin-Pyrmont (arrondissement)"/>
     <tag k="name:la" v="Circulo Hamelensi et Petrimontensi"/>
     <tag k="name:ru" v="Хамельн-Пирмонт"/>
-    <tag k="place" v="county"/>
-    <tag k="source" v="http://wiki.openstreetmap.org/wiki/Import/Catalogue/Kreisgrenzen_Deutschland_2005"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q5970"/>
     <tag k="wikipedia" v="de:Landkreis Hameln-Pyrmont"/>
@@ -79938,7 +80306,6 @@
     <tag k="border_type" v="county"/>
     <tag k="boundary" v="administrative"/>
     <tag k="de:amtlicher_gemeindeschluessel" v="14524"/>
-    <tag k="de:place" v="county"/>
     <tag k="de:regionalschluessel" v="14524"/>
     <tag k="name" v="Zwickau"/>
     <tag k="name:be" v="Цвікау"/>
@@ -79970,7 +80337,6 @@
     <tag k="border_type" v="county"/>
     <tag k="boundary" v="administrative"/>
     <tag k="de:amtlicher_gemeindeschluessel" v="14523"/>
-    <tag k="de:place" v="county"/>
     <tag k="de:regionalschluessel" v="14523"/>
     <tag k="license_plate_code" v="V"/>
     <tag k="name" v="Vogtlandkreis"/>
@@ -80012,9 +80378,9 @@
     <tag k="TMC:cid_58:tabcd_1:LCLversion" v="8.00"/>
     <tag k="TMC:cid_58:tabcd_1:LocationCode" v="390"/>
     <tag k="admin_level" v="6"/>
+    <tag k="border_type" v="county"/>
     <tag k="boundary" v="administrative"/>
     <tag k="de:amtlicher_gemeindeschluessel" v="14612000"/>
-    <tag k="de:place" v="city"/>
     <tag k="de:regionalschluessel" v="146120000000"/>
     <tag k="is_in:iso_3166_2" v="DE-SN"/>
     <tag k="name" v="Dresden"/>
@@ -80028,7 +80394,6 @@
     <tag k="name:ru" v="Дрезден"/>
     <tag k="name:sk" v="Drážďany"/>
     <tag k="official_name" v="Kreisfreie Stadt Dresden"/>
-    <tag k="place" v="city"/>
     <tag k="source" v="Kommunale Statistikstelle Dresden"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q1731"/>
@@ -80096,7 +80461,6 @@
     <tag k="border_type" v="county"/>
     <tag k="boundary" v="administrative"/>
     <tag k="de:amtlicher_gemeindeschluessel" v="13075"/>
-    <tag k="de:place" v="county"/>
     <tag k="de:regionalschluessel" v="13075"/>
     <tag k="license_plate_code" v="VG, HGW"/>
     <tag k="name" v="Vorpommern-Greifswald"/>
@@ -80115,7 +80479,6 @@
     <tag k="border_type" v="county"/>
     <tag k="boundary" v="administrative"/>
     <tag k="de:amtlicher_gemeindeschluessel" v="13071"/>
-    <tag k="de:place" v="county"/>
     <tag k="de:regionalschluessel" v="13071"/>
     <tag k="license_plate_code" v="MSE, NB"/>
     <tag k="name" v="Mecklenburgische Seenplatte"/>
@@ -80133,7 +80496,6 @@
     <tag k="border_type" v="county"/>
     <tag k="boundary" v="administrative"/>
     <tag k="de:amtlicher_gemeindeschluessel" v="13072"/>
-    <tag k="de:place" v="county"/>
     <tag k="de:regionalschluessel" v="13072"/>
     <tag k="license_plate_code" v="LRO"/>
     <tag k="name" v="Rostock"/>
@@ -80180,7 +80542,6 @@
     <tag k="border_type" v="county"/>
     <tag k="boundary" v="administrative"/>
     <tag k="de:amtlicher_gemeindeschluessel" v="13074"/>
-    <tag k="de:place" v="county"/>
     <tag k="de:regionalschluessel" v="13074"/>
     <tag k="license_plate_code" v="NWM, HWI"/>
     <tag k="name" v="Nordwestmecklenburg"/>
@@ -80202,7 +80563,6 @@
     <tag k="border_type" v="county"/>
     <tag k="boundary" v="administrative"/>
     <tag k="de:amtlicher_gemeindeschluessel" v="13076"/>
-    <tag k="de:place" v="county"/>
     <tag k="de:regionalschluessel" v="13076"/>
     <tag k="license_plate_code" v="LUP"/>
     <tag k="name" v="Ludwigslust-Parchim"/>
@@ -80433,6 +80793,7 @@
     <tag k="TMC:cid_58:tabcd_1:LCLversion" v="9.00"/>
     <tag k="TMC:cid_58:tabcd_1:LocationCode" v="495"/>
     <tag k="admin_level" v="6"/>
+    <tag k="border_type" v="county"/>
     <tag k="boundary" v="administrative"/>
     <tag k="de:amtlicher_gemeindeschluessel" v="09477"/>
     <tag k="de:regionalschluessel" v="09477"/>
@@ -80531,7 +80892,6 @@
     <tag k="border_type" v="county"/>
     <tag k="boundary" v="administrative"/>
     <tag k="de:amtlicher_gemeindeschluessel" v="09183"/>
-    <tag k="de:place" v="county"/>
     <tag k="de:regionalschluessel" v="09183"/>
     <tag k="license_plate_code" v="MÜ"/>
     <tag k="name" v="Landkreis Mühldorf am Inn"/>
@@ -80985,6 +81345,7 @@
   </relation>
   <relation id="6679859">
     <tag k="admin_level" v="6"/>
+    <tag k="border_type" v="county"/>
     <tag k="boundary" v="administrative"/>
     <tag k="construction_date" v="2016-11-01"/>
     <tag k="de:amtlicher_gemeindeschluessel" v="03159"/>
@@ -83761,12 +84122,14 @@
     <tag k="name:kn" v="ಸಾನ್ ಆಂಡೋನ್ಯೋ"/>
     <tag k="name:ko" v="샌안토니오"/>
     <tag k="name:ms" v="San Antonio"/>
+    <tag k="name:oc" v="San Antonio"/>
     <tag k="name:pt" v="San Antonio"/>
     <tag k="name:ru" v="Сан-Антонио"/>
     <tag k="name:zh" v="圣安东尼奥"/>
     <tag k="place" v="city"/>
     <tag k="population" v="1327427"/>
     <tag k="population:date" v="2010"/>
+    <tag k="source:name:oc" v="Lo Congrès"/>
     <tag k="source:population" v="US Census 2010"/>
     <tag k="wikidata" v="Q975"/>
     <tag k="wikipedia" v="en:San Antonio"/>
@@ -83953,6 +84316,7 @@
     <tag k="name:lmo" v="Berna"/>
     <tag k="name:lt" v="Bernas"/>
     <tag k="name:lv" v="Berne"/>
+    <tag k="name:lzh" v="伯恩"/>
     <tag k="name:mk" v="Берн"/>
     <tag k="name:ml" v="ബേൺ"/>
     <tag k="name:mr" v="बर्न"/>
@@ -83991,7 +84355,6 @@
     <tag k="name:yo" v="Berne"/>
     <tag k="name:yue" v="伯恩"/>
     <tag k="name:zh" v="伯爾尼"/>
-    <tag k="name:zh-classical" v="伯恩"/>
     <tag k="openGeoDB:community_identification_number" v="G0351"/>
     <tag k="openGeoDB:loc_id" v="30599"/>
     <tag k="openGeoDB:postal_codes" v="3040,3030,3024,3027,3020,3019,3018,3015,3014,3013,3012,3011,3010,3008,3007,3006,3005,3004,3003,3001,3000"/>
