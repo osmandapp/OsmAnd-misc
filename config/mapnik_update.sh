@@ -9,11 +9,12 @@ cp $FOLDER/osmosis-workdir/state.txt $FOLDER/osmosis-workdir/state-new.txt
 cp $FOLDER/osmosis-workdir/state-old.txt $FOLDER/osmosis-workdir/state.txt
 
 # -U jenkins
-osm2pgsql --append --style /usr/local/share/osm2pgsql/default.style --slim \
-	-d osm -P 5433 -C 16000 --cache-strategy dense \
-	-k --flat-nodes $FOLDER/flatnodes.bin \
-	--number-processes 4   --expire-tiles 13-18 \
-	--expire-output $FOLDER/expired_tiles$ID.list $FOLDER/changes$ID.osc.gz
+osm2pgsql --append --slim -d osm -P 5433 --cache-strategy dense \
+	--cache 40000 --number-processes 4 --hstore \
+ 	--style /usr/local/share/osm2pgsql/default.style  --multi-geometry \
+ 	--flat-nodes $FOLDER/flatnodes.bin \
+	--expire-tiles 13-18 --expire-output $FOLDER/expired_tiles$ID.list \
+	$FOLDER/changes$ID.osc.gz
 
 ls -larh $FOLDER/changes$ID.osc.gz
 rm $FOLDER/changes$ID.osc.gz
