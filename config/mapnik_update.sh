@@ -1,19 +1,19 @@
 #!/bin/bash
-export FOLDER=/home/posgres/
 ID=`(date +"%d_%m_%H_%M")`
 cat "CURRENT STATE: $FOLDER/osmosis-workdir/state.txt"
-cp $FOLDER/osmosis-workdir/state.txt $FOLDER/osmosis-workdir/state-fix.txt
+cp $FOLDER/osmosis-workdir/state.txt $FOLDER/osmosis-workdir/state-old.txt
 
 $FOLDER/osmosis.run --rri workingDirectory=$FOLDER/osmosis-workdir --simplify-change --write-xml-change $FOLDER/changes$ID.osc.gz
 cat "FUTURE STATE: $FOLDER/osmosis-workdir/state.txt"
 cp $FOLDER/osmosis-workdir/state.txt $FOLDER/osmosis-workdir/state-new.txt
-cp $FOLDER/osmosis-workdir/state-fix.txt $FOLDER/osmosis-workdir/state.txt
+cp $FOLDER/osmosis-workdir/state-old.txt $FOLDER/osmosis-workdir/state.txt
 
 # -U jenkins
-osm2pgsql --append --style /usr/local/share/osm2pgsql/default.style \
--k --flat-nodes /postgresql/flatnodes \
---number-processes 4 -C 16000 -d gis --slim  --expire-tiles 13-18 \
---expire-output $FOLDER/expired_tiles$ID.list $FOLDER/changes$ID.osc.gz
+osm2pgsql --append --style /usr/local/share/osm2pgsql/default.style --slim \
+	-d osm -P 5433 -C 16000 --cache-strategy dense \
+	-k --flat-nodes $FOLDER/flatnodes.bin \
+	--number-processes 4   --expire-tiles 13-18 \
+	--expire-output $FOLDER/expired_tiles$ID.list $FOLDER/changes$ID.osc.gz
 
 ls -larh $FOLDER/changes$ID.osc.gz
 rm $FOLDER/changes$ID.osc.gz
