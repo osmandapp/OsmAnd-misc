@@ -1,4 +1,5 @@
-#!/bin/bash
+#!/bin/bash -xe
+export FOLDER=/home/mapnikdb
 ID=`(date +"%d_%m_%H_%M")`
 cat "CURRENT STATE: $FOLDER/osmosis-workdir/state.txt"
 cp $FOLDER/osmosis-workdir/state.txt $FOLDER/osmosis-workdir/state-old.txt
