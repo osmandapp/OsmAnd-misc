@@ -6,7 +6,9 @@ cat "$FOLDER/osmosis-workdir/state.txt"
 cp $FOLDER/osmosis-workdir/state.txt $FOLDER/osmosis-workdir/state-old.txt
 
 $FOLDER/osmosis.run --rri workingDirectory=$FOLDER/osmosis-workdir --simplify-change --write-xml-change $FOLDER/changes$ID.osc.gz
-cat "FUTURE STATE: $FOLDER/osmosis-workdir/state.txt"
+echo "FUTURE STATE: "
+cat "$FOLDER/osmosis-workdir/state.txt"
+
 cp $FOLDER/osmosis-workdir/state.txt $FOLDER/osmosis-workdir/state-new.txt
 cp $FOLDER/osmosis-workdir/state-old.txt $FOLDER/osmosis-workdir/state.txt
 
