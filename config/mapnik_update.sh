@@ -32,4 +32,5 @@ bzip2 $FOLDER/expired_tiles$ID.list
 # bzcat $FOLDER/expired_tiles$ID.list.bz2 | $FOLDER/mod_tile/render_expired --touch-from=13 --min-zoom=13
 #rm $FOLDER/expired_tiles$ID.list
 cp $FOLDER/osmosis-workdir/state-new.txt $FOLDER/osmosis-workdir/state.txt
-cat "STATE COMMIT: $FOLDER/osmosis-workdir/state.txt"
+echo "STATE COMMIT: "
+cat "$FOLDER/osmosis-workdir/state.txt"
