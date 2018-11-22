@@ -24,13 +24,14 @@ ls -larh $FOLDER/changes$ID.osc.gz
 rm $FOLDER/changes$ID.osc.gz
 
 bzip2 $FOLDER/expired_tiles$ID.list
-## TODO
-#bzcat $FOLDER/expired_tiles$ID.list.bz2 | render_expired --map=default --socket=/var/lib/tirex/modtile.sock --tile-dir=/var/lib/tirex/tiles/ --num-threads=4 --touch-from=13 --min-zoom=13
-#bzcat $FOLDER/expired_tiles$ID.list.bz2 | render_expired --map=highres --socket=/var/lib/tirex/modtile.sock --tile-dir=/var/lib/tirex/tiles/ --num-threads=4 --touch-from=13 --min-zoom=13
-#rm $FOLDER/expired_tiles$ID.list.bz2
+cp $FOLDER/osmosis-workdir/state-new.txt $FOLDER/osmosis-workdir/state.txt
+
+bzcat $FOLDER/expired_tiles$ID.list.bz2 | render_expired --map=default --socket=/var/lib/tirex/modtile.sock --tile-dir=/var/lib/tirex/tiles/ --num-threads=4 --touch-from=13 --min-zoom=13
+bzcat $FOLDER/expired_tiles$ID.list.bz2 | render_expired --map=highres --socket=/var/lib/tirex/modtile.sock --tile-dir=/var/lib/tirex/tiles/ --num-threads=4 --touch-from=13 --min-zoom=13
+rm $FOLDER/expired_tiles$ID.list.bz2
 
 # bzcat $FOLDER/expired_tiles$ID.list.bz2 | $FOLDER/mod_tile/render_expired --touch-from=13 --min-zoom=13
 #rm $FOLDER/expired_tiles$ID.list
-cp $FOLDER/osmosis-workdir/state-new.txt $FOLDER/osmosis-workdir/state.txt
+#cp $FOLDER/osmosis-workdir/state-new.txt $FOLDER/osmosis-workdir/state.txt
 echo "STATE COMMIT: "
 cat "$FOLDER/osmosis-workdir/state.txt"
