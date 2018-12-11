@@ -45,7 +45,8 @@ while true; do
   
   
   END_SEC=$(date -u --date="$END_DATE" "+%s")
-  if [ $END_SEC \> $DB_SEC ]; then      
+  # give 60 seconds delay to wait for overpass to finish internal ops
+  if (( $END_SEC > $DB_SEC - 60 )); then      
     echo "END date $END_DATE is in the future of database!!!"
     exit 0;
   fi;
