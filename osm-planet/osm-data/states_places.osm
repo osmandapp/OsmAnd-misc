@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<osm version="0.6" generator="Overpass API 0.7.55.4 3079d8ea">
+<osm version="0.6" generator="Overpass API 0.7.55.5 2ca3f387">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2018-10-29T09:24:02Z"/>
+<meta osm_base="2019-01-23T14:18:02Z"/>
 
   <node id="671022" lat="36.7014631" lon="-118.7559974">
     <tag k="alt_name:vi" v="California"/>
@@ -634,9 +634,7 @@
     <tag k="name:vi" v="Phúc Kiến"/>
     <tag k="name:zh" v="福建省"/>
     <tag k="name:zh-Hans" v="福建省"/>
-    <tag k="name:zh-Hant" v="福建省"/>
-    <tag k="name:zh_pinyin" v="Fujian Sheng"/>
-    <tag k="name:zh_py" v="Fújiàn Shěng"/>
+    <tag k="name:zh_pinyin" v="Fújiàn Shěng"/>
     <tag k="note" v="There are two Fujian Provinces which are controlled by Taiwan and China separately."/>
     <tag k="place" v="state"/>
     <tag k="ref" v="闽"/>
@@ -1430,6 +1428,7 @@
     <tag k="is_in:country" v="China"/>
     <tag k="is_in:country_code" v="CN"/>
     <tag k="name" v="西藏自治区 (བོད་རང་སྐྱོང་ལྗོངས་)"/>
+    <tag k="name:bo" v="བོད་རང་སྐྱོང་ལྗོངས།"/>
     <tag k="name:de" v="Autonomes Gebiet Tibet"/>
     <tag k="name:en" v="Tibet Autonomous Region"/>
     <tag k="name:eo" v="Tibeto"/>
@@ -1453,8 +1452,7 @@
     <tag k="name:uk" v="Тибетський автономний район"/>
     <tag k="name:vi" v="Khu tự trị Tây Tạng"/>
     <tag k="name:zh" v="西藏自治区"/>
-    <tag k="name:zh_pinyin" v="Xizang Zizhiqu"/>
-    <tag k="name:zh_py" v="Xīzàng Zìzhìqū"/>
+    <tag k="name:zh_pinyin" v="Xīzàng Zìzhìqū"/>
     <tag k="place" v="state"/>
     <tag k="ref" v="藏"/>
     <tag k="ref:en" v="XZ"/>
@@ -2969,6 +2967,7 @@
     <tag k="name" v="Northwest Territories"/>
     <tag k="name:ar" v="المناطق الشمالية"/>
     <tag k="name:be" v="Паўночна-Заходнія тэрыторыі"/>
+    <tag k="name:ckb" v="ناوچەکانی باکووری ڕۆژاوا"/>
     <tag k="name:de" v="Nordwest-Territorien"/>
     <tag k="name:el" v="Βορειοδυτικά Εδάφη"/>
     <tag k="name:en" v="Northwest Territories"/>
@@ -3012,6 +3011,7 @@
     <tag k="name:br" v="Kolombia Vreizhveuriat"/>
     <tag k="name:bs" v="Britanska Kolumbija"/>
     <tag k="name:ca" v="Colúmbia Britànica"/>
+    <tag k="name:ckb" v="بریتش کۆڵۆمبیا"/>
     <tag k="name:cs" v="Britská Kolumbie"/>
     <tag k="name:da" v="Britisk Columbia"/>
     <tag k="name:de" v="Britisch-Kolumbien"/>
@@ -3085,6 +3085,7 @@
     <tag k="name" v="ᓄᓇᕗᑦ Nunavut"/>
     <tag k="name:ar" v="نونافوت"/>
     <tag k="name:be" v="Нунавут"/>
+    <tag k="name:ckb" v="نوناڤۆت"/>
     <tag k="name:en" v="Nunavut"/>
     <tag k="name:eo" v="Nunavuto"/>
     <tag k="name:fr" v="Nunavut"/>
@@ -4583,12 +4584,14 @@
     <tag k="source" v="GNS"/>
   </node>
   <node id="309346340" lat="41.0036287" lon="71.2611952">
+    <tag k="alt_name:ar" v="ولاية نمنغان"/>
     <tag k="capital_city" v="Namangan"/>
     <tag k="gns:dsg" v="ADM1"/>
     <tag k="gns:uni" v="9092984"/>
     <tag k="is_in:country" v="Uzbekistan"/>
     <tag k="is_in:country_code" v="UZ"/>
     <tag k="name" v="Namangan Viloyati"/>
+    <tag k="name:ar" v="ولاية نمنكان"/>
     <tag k="name:de" v="Provinz Namangan"/>
     <tag k="name:en" v="Namangan Province"/>
     <tag k="name:fr" v="Province de Namangan"/>
@@ -5184,7 +5187,7 @@
     <tag k="name:ja" v="バグラーン州"/>
     <tag k="name:lt" v="Baglano provincija"/>
     <tag k="name:ru" v="Баглан"/>
-    <tag k="name:uk" v="Баглан"/>
+    <tag k="name:uk" v="Баґлан провінція"/>
     <tag k="place" v="state"/>
     <tag k="ref" v="BGL"/>
     <tag k="source" v="GNS"/>
@@ -10711,6 +10714,7 @@
   </node>
   <node id="475731866" lat="35.7563610" lon="59.1280992">
     <tag k="name" v="خراسان رضوی"/>
+    <tag k="name:ar" v="خراسان رضوي"/>
     <tag k="name:de" v="Razavi-Chorasan"/>
     <tag k="name:en" v="Razavi Khorasan"/>
     <tag k="name:fr" v="Khorasan-e-Razavi"/>
@@ -10781,6 +10785,7 @@
   </node>
   <node id="480250680" lat="33.0006776" lon="58.3262335">
     <tag k="name" v="خراسان جنوبی"/>
+    <tag k="name:ar" v="خراسان الجنوبية"/>
     <tag k="name:de" v="Süd-Chorasan"/>
     <tag k="name:en" v="South Khorasan"/>
     <tag k="name:fr" v="Khorasan méridional"/>
@@ -10846,6 +10851,23 @@
     <tag k="wikidata" v="Q308864"/>
     <tag k="wikipedia" v="fr:Mazandéran"/>
   </node>
+  <node id="480431777" lat="36.5158540" lon="48.4777616">
+    <tag k="name" v="زنجان"/>
+    <tag k="name:de" v="Zandschan"/>
+    <tag k="name:en" v="Zanjan"/>
+    <tag k="name:fr" v="Zanjan"/>
+    <tag k="name:hr" v="Zandžan"/>
+    <tag k="name:hu" v="Zandzsán"/>
+    <tag k="name:ja" v="ザンジャーン"/>
+    <tag k="name:ku" v="Zengan"/>
+    <tag k="name:pl" v="Zandżan"/>
+    <tag k="name:ru" v="Зенджан"/>
+    <tag k="name:uk" v="Зенджан"/>
+    <tag k="place" v="state"/>
+    <tag k="ref" v="ZA"/>
+    <tag k="wikidata" v="Q146726"/>
+    <tag k="wikipedia" v="fr:Province de Zanjan"/>
+  </node>
   <node id="480452780" lat="37.9211202" lon="46.6821517">
     <tag k="is_in:country" v="Iran"/>
     <tag k="name" v="آذربایجان شرقی"/>
@@ -10866,6 +10888,23 @@
     <tag k="ref" v="AS"/>
     <tag k="wikidata" v="Q176081"/>
     <tag k="wikipedia" v="ar:أذربيجان الشرقية (محافظة)"/>
+  </node>
+  <node id="481002194" lat="33.1967330" lon="52.5040260">
+    <tag k="name" v="اصفهان"/>
+    <tag k="name:de" v="Esfahan"/>
+    <tag k="name:en" v="Isfahan"/>
+    <tag k="name:fr" v="Ispahan"/>
+    <tag k="name:hr" v="Isfahan"/>
+    <tag k="name:hu" v="Iszfahán"/>
+    <tag k="name:ja" v="エスファハーン"/>
+    <tag k="name:ku" v="Îsfehan"/>
+    <tag k="name:pl" v="Isfahan"/>
+    <tag k="name:ru" v="Исфахан"/>
+    <tag k="name:uk" v="Ісфахан"/>
+    <tag k="place" v="state"/>
+    <tag k="ref" v="ES"/>
+    <tag k="wikidata" v="Q1367759"/>
+    <tag k="wikipedia" v="fr:Province d'Ispahan"/>
   </node>
   <node id="481099514" lat="29.5718580" lon="57.3010470">
     <tag k="name" v="استان کرمان"/>
@@ -10908,6 +10947,7 @@
   </node>
   <node id="481249065" lat="29.2990510" lon="53.2184560">
     <tag k="name" v="فارس"/>
+    <tag k="name:ar" v="فارس"/>
     <tag k="name:de" v="Fars"/>
     <tag k="name:en" v="Fars"/>
     <tag k="name:fr" v="Fars"/>
@@ -11000,6 +11040,7 @@
   <node id="486319228" lat="32.0163307" lon="50.6857090">
     <tag k="is_in:country" v="Iran"/>
     <tag k="name" v="چهارمحال و بختیاری"/>
+    <tag k="name:ar" v="تشهارمحال وبختياري"/>
     <tag k="name:de" v="Tschahār Mahāl und Bachtiyārī"/>
     <tag k="name:en" v="Chaharmahal and Bakhtiari"/>
     <tag k="name:fr" v="Chahar Mahaal et Bakhtiari"/>
@@ -12987,23 +13028,6 @@
     <tag k="wikidata" v="Q2073"/>
     <tag k="wikipedia" v="ru:Республика Коми"/>
   </node>
-  <node id="564957290" lat="54.5491756" lon="25.2362440">
-    <tag k="is_in:continent" v="Europe"/>
-    <tag k="is_in:country" v="Lithuania"/>
-    <tag k="name" v="Vilniaus apskritis"/>
-    <tag k="name:be" v="Вільнюскі павет"/>
-    <tag k="name:de" v="Bezirk Wilna"/>
-    <tag k="name:en" v="Vilnius County"/>
-    <tag k="name:fr" v="Apskritis de Vilnius"/>
-    <tag k="name:lt" v="Vilniaus apskritis"/>
-    <tag k="name:pl" v="okręg wileński"/>
-    <tag k="name:ru" v="Вильнюсский уезд"/>
-    <tag k="name:uk" v="Вільнюський повіт"/>
-    <tag k="place" v="state"/>
-    <tag k="ref" v="VL"/>
-    <tag k="wikidata" v="Q188061"/>
-    <tag k="wikipedia" v="lt:Vilniaus apskritis"/>
-  </node>
   <node id="565543192" lat="-10.9431450" lon="-62.8277863">
     <tag k="is_in:country" v="Brasil"/>
     <tag k="is_in:country_code" v="BR"/>
@@ -14332,7 +14356,7 @@
     <tag k="wikidata" v="Q2170"/>
     <tag k="wikipedia" v="es:Región del Biobío"/>
   </node>
-  <node id="655420663" lat="-38.6671583" lon="-72.2587321">
+  <node id="655420663" lat="-38.6710116" lon="-72.2564576">
     <tag k="is_in:country" v="Chile"/>
     <tag k="is_in:country_code" v="CL"/>
     <tag k="name" v="Región de la Araucanía"/>
@@ -14558,14 +14582,14 @@
     <tag k="is_in:country_code" v="YE"/>
     <tag k="name" v="محافظة عدن"/>
     <tag k="name:ar" v="محافظة عدن"/>
-    <tag k="name:en" v="‘Adan Governorate"/>
+    <tag k="name:en" v="Aden Governorate"/>
     <tag k="name:fr" v="Aden"/>
     <tag k="name:ru" v="Аден"/>
     <tag k="name:uk" v="Аден мугафаза"/>
     <tag k="place" v="state"/>
     <tag k="population" v="589419"/>
     <tag k="wikidata" v="Q275729"/>
-    <tag k="wikipedia" v="en:'Adan Governorate"/>
+    <tag k="wikipedia" v="en:Aden Governorate"/>
   </node>
   <node id="663081614" lat="13.1798480" lon="44.5846554">
     <tag k="alt_name" v="Muḩāfaz̧at Laḩij"/>
@@ -14583,7 +14607,7 @@
     <tag k="wikidata" v="Q388318"/>
     <tag k="wikipedia" v="en:Lahij Governorate"/>
   </node>
-  <node id="663081615" lat="13.4523327" lon="43.7379796">
+  <node id="663081615" lat="13.3924976" lon="43.7003869">
     <tag k="alt_name" v="Muḩāfaz̧at Ta‘izz"/>
     <tag k="is_in:continent" v="Asia"/>
     <tag k="is_in:country" v="Yemen"/>
@@ -14599,7 +14623,7 @@
     <tag k="wikidata" v="Q388330"/>
     <tag k="wikipedia" v="en:Ta'izz Governorate"/>
   </node>
-  <node id="663081617" lat="15.0446117" lon="43.0828921">
+  <node id="663081617" lat="15.1370023" lon="42.9974541">
     <tag k="alt_name" v="Muḩāfaz̧at al Ḩudaydah"/>
     <tag k="is_in:continent" v="Asia"/>
     <tag k="is_in:country" v="Yemen"/>
@@ -14615,7 +14639,7 @@
     <tag k="wikidata" v="Q275755"/>
     <tag k="wikipedia" v="en:Al Hudaydah Governorate"/>
   </node>
-  <node id="663081618" lat="15.4020851" lon="43.5052415">
+  <node id="663081618" lat="15.3658393" lon="43.4608137">
     <tag k="alt_name" v="Muḩāfaz̧at al Maḩwīt"/>
     <tag k="is_in:continent" v="Asia"/>
     <tag k="is_in:country" v="Yemen"/>
@@ -14695,14 +14719,14 @@
     <tag k="wikidata" v="Q328158"/>
     <tag k="wikipedia" v="en:Hajjah Governorate"/>
   </node>
-  <node id="663081623" lat="15.6236042" lon="44.3538849">
+  <node id="663081623" lat="15.1392245" lon="44.1078233">
     <tag k="is_in:continent" v="Asia"/>
     <tag k="is_in:country" v="Yemen"/>
     <tag k="is_in:country_code" v="YE"/>
     <tag k="name" v="محافظة صنعاء"/>
     <tag k="name:ar" v="محافظة صنعاء"/>
     <tag k="name:ckb" v="پارێزگای سەنعا"/>
-    <tag k="name:en" v="Sanaʿa Governorate"/>
+    <tag k="name:en" v="Sana'a Governorate"/>
     <tag k="name:fr" v="Sana'a"/>
     <tag k="name:hu" v="Szanaa"/>
     <tag k="name:ru" v="Сана"/>
@@ -14718,7 +14742,7 @@
     <tag k="is_in:country_code" v="YE"/>
     <tag k="name" v="محافظة عمران"/>
     <tag k="name:ar" v="محافظة عمران"/>
-    <tag k="name:en" v="'Amran Governorate"/>
+    <tag k="name:en" v="Amran Governorate"/>
     <tag k="name:fr" v="'Amran"/>
     <tag k="name:hu" v="Amrán"/>
     <tag k="name:ru" v="Амран"/>
@@ -14781,7 +14805,7 @@
     <tag k="is_in:continent" v="Asia"/>
     <tag k="is_in:country" v="Yemen"/>
     <tag k="is_in:country_code" v="YE"/>
-    <tag k="name" v="محافظة الجوف"/>
+    <tag k="name" v="الجوف"/>
     <tag k="name:ar" v="الجوف"/>
     <tag k="name:en" v="Al Jawf Governorate"/>
     <tag k="name:fr" v="Al Jawf"/>
@@ -15631,24 +15655,6 @@
     <tag k="wikidata" v="Q2810"/>
     <tag k="wikipedia" v="ru:Брянская область"/>
   </node>
-  <node id="783737730" lat="54.7011155" lon="23.2125717">
-    <tag k="int_name" v="Marijampolės county"/>
-    <tag k="is_in:continent" v="Europe"/>
-    <tag k="is_in:country" v="Lithuania"/>
-    <tag k="name" v="Marijampolės apskritis"/>
-    <tag k="name:be" v="Марыямпальскі павет"/>
-    <tag k="name:de" v="Bezirk Marijampolė"/>
-    <tag k="name:en" v="Marijampolė County"/>
-    <tag k="name:fr" v="Apskritis de Marijampolė"/>
-    <tag k="name:lt" v="Marijampolės apskritis"/>
-    <tag k="name:pl" v="okręg mariampolski"/>
-    <tag k="name:ru" v="Мариямпольский уезд"/>
-    <tag k="name:uk" v="Маріямпольський повіт"/>
-    <tag k="place" v="state"/>
-    <tag k="ref" v="MR"/>
-    <tag k="wikidata" v="Q853948"/>
-    <tag k="wikipedia" v="lt:Marijampolės apskritis"/>
-  </node>
   <node id="784756509" lat="53.9797171" lon="69.0450902">
     <tag k="addr:country" v="KZ"/>
     <tag k="name" v="Северо-Казахстанская область"/>
@@ -15743,6 +15749,21 @@
     <tag k="wikidata" v="Q3953"/>
     <tag k="wikipedia" v="ru:Калмыкия"/>
   </node>
+  <node id="791264036" lat="35.9413239" lon="50.7884216">
+    <tag k="is_in:country" v="Iran"/>
+    <tag k="name" v="البرز"/>
+    <tag k="name:de" v="Alborz"/>
+    <tag k="name:en" v="Alborz"/>
+    <tag k="name:fr" v="Alborz"/>
+    <tag k="name:hu" v="Alborz"/>
+    <tag k="name:ku" v="Elburz"/>
+    <tag k="name:pl" v="Alborz"/>
+    <tag k="name:ru" v="Альборз"/>
+    <tag k="name:uk" v="Альборз"/>
+    <tag k="place" v="state"/>
+    <tag k="ref" v="AL"/>
+    <tag k="wikipedia" v="fr:Province d'Alborz"/>
+  </node>
   <node id="792588864" lat="50.7080119" lon="37.5837615">
     <tag k="name" v="Белгородская область"/>
     <tag k="name:be" v="Белгародская вобласць"/>
@@ -15781,52 +15802,6 @@
     <tag k="ref:en" v="KRS"/>
     <tag k="wikidata" v="Q3178"/>
     <tag k="wikipedia" v="ru:Курская область"/>
-  </node>
-  <node id="810217856" lat="55.5768748" lon="25.6275791">
-    <tag k="name" v="Utenos apskritis"/>
-    <tag k="name:be" v="Уцінскі павет"/>
-    <tag k="name:de" v="Bezirk Utenen"/>
-    <tag k="name:en" v="Utena County"/>
-    <tag k="name:fr" v="Apskritis d'Utena"/>
-    <tag k="name:lt" v="Utenos apskritis"/>
-    <tag k="name:pl" v="okręg uciański"/>
-    <tag k="name:ru" v="Утенский уезд"/>
-    <tag k="name:uk" v="Утенський повіт"/>
-    <tag k="place" v="state"/>
-    <tag k="ref" v="UT"/>
-    <tag k="wikidata" v="Q188659"/>
-    <tag k="wikipedia" v="lt:Utenos apskritis"/>
-  </node>
-  <node id="816425956" lat="55.1017737" lon="23.8693418">
-    <tag k="int_name" v="Kaunas County"/>
-    <tag k="name" v="Kauno apskritis"/>
-    <tag k="name:be" v="Каўнаскі павет"/>
-    <tag k="name:de" v="Bezirk Kauen"/>
-    <tag k="name:en" v="Kaunas County"/>
-    <tag k="name:fr" v="Apskritis de Kaunas"/>
-    <tag k="name:lt" v="Kauno apskritis"/>
-    <tag k="name:pl" v="okręg kowieński"/>
-    <tag k="name:ru" v="Каунасский уезд"/>
-    <tag k="name:uk" v="Каунаський повіт"/>
-    <tag k="place" v="state"/>
-    <tag k="ref" v="KU"/>
-    <tag k="wikidata" v="Q853861"/>
-    <tag k="wikipedia" v="lt:Kauno apskritis"/>
-  </node>
-  <node id="825447812" lat="54.2184817" lon="24.1356675">
-    <tag k="name" v="Alytaus apskritis"/>
-    <tag k="name:be" v="Алітускі павет"/>
-    <tag k="name:de" v="Bezirk Alitten"/>
-    <tag k="name:en" v="Alytus County"/>
-    <tag k="name:fr" v="Apskritis d'Alytus"/>
-    <tag k="name:lt" v="Alytaus apskritis"/>
-    <tag k="name:pl" v="okręg olicki"/>
-    <tag k="name:ru" v="Алитусский уезд"/>
-    <tag k="name:uk" v="Алітуський повіт"/>
-    <tag k="place" v="state"/>
-    <tag k="ref" v="AL"/>
-    <tag k="wikidata" v="Q669470"/>
-    <tag k="wikipedia" v="lt:Alytaus apskritis"/>
   </node>
   <node id="859637911" lat="10.3787478" lon="-83.5848401">
     <tag k="is_in" v="Costa Rica"/>
@@ -15872,21 +15847,6 @@
     <tag k="place" v="state"/>
     <tag k="ref" v="A"/>
     <tag k="state_code" v="A"/>
-  </node>
-  <node id="864663247" lat="56.0328935" lon="24.7515027">
-    <tag k="name" v="Panevėžio apskritis"/>
-    <tag k="name:be" v="Панявежскі павет"/>
-    <tag k="name:de" v="Bezirk Ponewiesch"/>
-    <tag k="name:en" v="Panevėžys County"/>
-    <tag k="name:fr" v="Apskritis de Panevėžys"/>
-    <tag k="name:lt" v="Panevėžio apskritis"/>
-    <tag k="name:pl" v="okręg poniewieski"/>
-    <tag k="name:ru" v="Панявежский уезд"/>
-    <tag k="name:uk" v="Паневежиський повіт"/>
-    <tag k="place" v="state"/>
-    <tag k="ref" v="PN"/>
-    <tag k="wikidata" v="Q188085"/>
-    <tag k="wikipedia" v="lt:Panevėžio apskritis"/>
   </node>
   <node id="867080411" lat="54.4382773" lon="35.5272854">
     <tag k="is_in" v="Российская Федерация"/>
@@ -15997,6 +15957,7 @@
     <tag k="place" v="state"/>
     <tag k="ref" v="МОР"/>
     <tag k="ref:en" v="MO"/>
+    <tag k="wikidata" v="Q5340"/>
     <tag k="wikipedia" v="ru:Мордовия"/>
   </node>
   <node id="869528660" lat="51.6520555" lon="46.8631952">
@@ -16303,38 +16264,6 @@
     <tag k="wikidata" v="Q5387"/>
     <tag k="wikipedia" v="ru:Кировская область"/>
   </node>
-  <node id="941339901" lat="56.0643536" lon="22.0677085">
-    <tag k="is_in:country" v="LT"/>
-    <tag k="name" v="Telšių apskritis"/>
-    <tag k="name:be" v="Цельшайскі павет"/>
-    <tag k="name:de" v="Bezirk Telsche"/>
-    <tag k="name:en" v="Telšiai County"/>
-    <tag k="name:fr" v="Apskritis de Telšiai"/>
-    <tag k="name:lt" v="Telšių apskritis"/>
-    <tag k="name:pl" v="okręg telszański"/>
-    <tag k="name:ru" v="Тельшяйский уезд"/>
-    <tag k="name:uk" v="Тельшяйський повіт"/>
-    <tag k="place" v="state"/>
-    <tag k="ref" v="TE"/>
-    <tag k="wikidata" v="Q188963"/>
-    <tag k="wikipedia" v="lt:Telšių apskritis"/>
-  </node>
-  <node id="941339954" lat="55.7766339" lon="21.2363843">
-    <tag k="is_in:country" v="LT"/>
-    <tag k="name" v="Klaipėdos apskritis"/>
-    <tag k="name:be" v="Клайпедскі павет"/>
-    <tag k="name:de" v="Bezirk Memel"/>
-    <tag k="name:en" v="Klaipėda County"/>
-    <tag k="name:fr" v="Apskritis de Klaipėda"/>
-    <tag k="name:lt" v="Klaipėdos apskritis"/>
-    <tag k="name:pl" v="okręg kłajpedzki"/>
-    <tag k="name:ru" v="Клайпедский уезд"/>
-    <tag k="name:uk" v="Клайпедський повіт"/>
-    <tag k="place" v="state"/>
-    <tag k="ref" v="KL"/>
-    <tag k="wikidata" v="Q475207"/>
-    <tag k="wikipedia" v="lt:Klaipėdos apskritis"/>
-  </node>
   <node id="949522007" lat="37.3399964" lon="-4.5811614">
     <tag k="admin_level" v="4"/>
     <tag k="alt_name:eo" v="Andaluzujo"/>
@@ -16576,38 +16505,6 @@
     <tag k="ref" v="МАН"/>
     <tag k="wikidata" v="Q238931"/>
     <tag k="wikipedia" v="kk:Маңғыстау облысы"/>
-  </node>
-  <node id="1055351027" lat="55.3336532" lon="22.3410255">
-    <tag k="is_in:country" v="LT"/>
-    <tag k="name" v="Tauragės apskritis"/>
-    <tag k="name:be" v="Таўрагскі павет"/>
-    <tag k="name:de" v="Bezirk Tauroggen"/>
-    <tag k="name:en" v="Tauragė County"/>
-    <tag k="name:fr" v="Apskritis de Tauragė"/>
-    <tag k="name:lt" v="Tauragės apskritis"/>
-    <tag k="name:pl" v="okręg tauroski"/>
-    <tag k="name:ru" v="Таурагский уезд"/>
-    <tag k="name:uk" v="Таурагський повіт"/>
-    <tag k="place" v="state"/>
-    <tag k="ref" v="TA"/>
-    <tag k="wikidata" v="Q188960"/>
-    <tag k="wikipedia" v="lt:Tauragės apskritis"/>
-  </node>
-  <node id="1055351031" lat="55.8192573" lon="23.3225130">
-    <tag k="is_in:country" v="LT"/>
-    <tag k="name" v="Šiaulių apskritis"/>
-    <tag k="name:be" v="Шаўляйскі павет"/>
-    <tag k="name:de" v="Bezirk Schaulen"/>
-    <tag k="name:en" v="Šiauliai County"/>
-    <tag k="name:fr" v="Apskritis de Šiauliai"/>
-    <tag k="name:lt" v="Šiaulių apskritis"/>
-    <tag k="name:pl" v="okręg szawelski"/>
-    <tag k="name:ru" v="Шяуляйский уезд"/>
-    <tag k="name:uk" v="Шяуляйський повіт"/>
-    <tag k="place" v="state"/>
-    <tag k="ref" v="SA"/>
-    <tag k="wikidata" v="Q186410"/>
-    <tag k="wikipedia" v="lt:Šiaulių apskritis"/>
   </node>
   <node id="1073096525" lat="14.9661596" lon="-89.5180314">
     <tag k="name" v="Zacapa"/>
@@ -18187,6 +18084,7 @@
     <tag k="state_code" v="QZ"/>
   </node>
   <node id="1491974656" lat="35.0184485" lon="135.7636518">
+    <tag k="alt_name:ar" v="منطقة كينكي"/>
     <tag k="alt_name:nl" v="Kinki"/>
     <tag k="is_in" v="日本 (Japan)"/>
     <tag k="is_in:continent" v="Asia"/>
@@ -18194,6 +18092,7 @@
     <tag k="is_in:country_code" v="JP"/>
     <tag k="is_in:island" v="Honshu"/>
     <tag k="name" v="近畿"/>
+    <tag k="name:ar" v="منطقة كانساي"/>
     <tag k="name:de" v="Kinki"/>
     <tag k="name:en" v="Kinki Region"/>
     <tag k="name:eo" v="Kansaja Regiono"/>
@@ -18254,6 +18153,7 @@
   </node>
   <node id="1504057971" lat="32.7553476" lon="131.1105741">
     <tag k="name" v="九州"/>
+    <tag k="name:ar" v="منطقة كيوشو"/>
     <tag k="name:en" v="Kyushu Region"/>
     <tag k="name:eo" v="Kjuŝua Regiono"/>
     <tag k="name:fr" v="Kyūshū"/>
@@ -19133,10 +19033,12 @@
   </node>
   <node id="1721119244" lat="41.3787291" lon="-0.7639373">
     <tag k="admin_level" v="4"/>
+    <tag k="alt_name:ar" v="راغون;راقون"/>
     <tag k="is_in" v="Spain"/>
     <tag k="is_in:country" v="Spain,España"/>
     <tag k="is_in:country_code" v="ES"/>
     <tag k="name" v="Aragón"/>
+    <tag k="name:ar" v="أرغون"/>
     <tag k="name:be" v="Арагон"/>
     <tag k="name:da" v="Aragonien"/>
     <tag k="name:de" v="Aragonien"/>
@@ -20960,7 +20862,6 @@
     <tag k="name:zh" v="全羅南道"/>
     <tag k="place" v="state"/>
     <tag k="ref" v="전남"/>
-    <tag k="short_name" v="전남"/>
     <tag k="wikidata" v="Q41161"/>
     <tag k="wikipedia" v="en:South Jeolla Province"/>
   </node>
@@ -21085,7 +20986,6 @@
     <tag k="name:vi" v="Ma Cao"/>
     <tag k="name:zh" v="澳門"/>
     <tag k="name:zh-Hans" v="澳门"/>
-    <tag k="name:zh-Hant" v="澳門"/>
     <tag k="name:zh_pinyin" v="Àomén"/>
     <tag k="official_name:en" v="Macau Special Administrative Region of the People's Republic of China"/>
     <tag k="official_name:es" v="Región Administrativa Especial de Macao de la República Popular China"/>
@@ -21568,7 +21468,7 @@
     <tag k="name:uk" v="Йобе"/>
     <tag k="place" v="state"/>
   </node>
-  <node id="2163706723" lat="12.0111320" lon="6.4200337">
+  <node id="2163706723" lat="12.0078998" lon="6.4191432">
     <tag k="admin_level" v="4"/>
     <tag k="name" v="Zamfara"/>
     <tag k="name:ru" v="Замфара"/>
@@ -21661,8 +21561,8 @@
     <tag k="place" v="state"/>
   </node>
   <node id="2208260978" lat="12.2111051" lon="43.1685809">
-    <tag k="name" v="أوبوك Obock"/>
-    <tag k="name:ar" v="أوبوك"/>
+    <tag k="name" v="أبخ Obock"/>
+    <tag k="name:ar" v="أبخ"/>
     <tag k="place" v="state"/>
     <tag k="wikidata" v="Q844929"/>
     <tag k="wikipedia" v="ar:إقليم أوبوك"/>
@@ -22106,7 +22006,7 @@
     <tag k="ref" v="KA"/>
     <tag k="state_code" v="KA"/>
   </node>
-  <node id="2237699954" lat="10.3529588" lon="76.5119752">
+  <node id="2237699954" lat="10.3528744" lon="76.5120396">
     <tag k="name" v="Kerala"/>
     <tag k="name:cs" v="Kérala"/>
     <tag k="name:en" v="Kerala"/>
@@ -22141,7 +22041,7 @@
     <tag k="wikipedia" v="en:Maharashtra"/>
   </node>
   <node id="2237699963" lat="10.9094334" lon="78.3665347">
-    <tag k="name" v="தமிழ்நாடு"/>
+    <tag k="name" v="Tamil Nadu"/>
     <tag k="name:ar" v="تاميل نادو"/>
     <tag k="name:as" v="তামিলনাডু"/>
     <tag k="name:cs" v="Tamilnádu"/>
@@ -24594,12 +24494,12 @@
     <tag k="name:mn" v="Дорноговь"/>
     <tag k="name:pl" v="Wschodniogobijski"/>
     <tag k="name:ru" v="Дорноговь"/>
-    <tag k="name:zh_py" v="Xīnbā'ěrhǔ Yòu Qí"/>
+    <tag k="name:zh_pinyin" v="Xīnbā'ěrhǔ Yòu Qí"/>
     <tag k="place" v="state"/>
   </node>
   <node id="2704047256" lat="47.6772781" lon="115.2177155">
     <tag k="name" v="Дорнод"/>
-    <tag k="name:ar" v="Dornod"/>
+    <tag k="name:ar" v="دورنود"/>
     <tag k="name:de" v="Dornod"/>
     <tag k="name:en" v="Dornod"/>
     <tag k="name:es" v="Dornod"/>
@@ -24623,7 +24523,7 @@
     <tag k="name:ja" v="ドンドゴビ"/>
     <tag k="name:mn" v="Дундговь"/>
     <tag k="name:ru" v="Дундговь"/>
-    <tag k="name:zh_py" v="Xīnbā'ěrhǔ Yòu Qí"/>
+    <tag k="name:zh_pinyin" v="Xīnbā'ěrhǔ Yòu Qí"/>
     <tag k="place" v="state"/>
   </node>
   <node id="2704047267" lat="45.3463139" lon="95.9325806">
@@ -26355,6 +26255,7 @@
   <node id="3925295238" lat="45.4039367" lon="0.3756199">
     <tag k="admin_level" v="4"/>
     <tag k="name" v="Nouvelle-Aquitaine"/>
+    <tag k="name:ar" v="آكيتين الجديدة"/>
     <tag k="note" v="nouvelle région au 1/1/2016"/>
     <tag k="place" v="state"/>
     <tag k="source" v="http://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000030109622"/>
@@ -26577,6 +26478,7 @@
     <tag k="name:ru" v="Утрехт"/>
     <tag k="name:tok" v="ma Ute"/>
     <tag k="place" v="state"/>
+    <tag k="population" v="1268489"/>
     <tag k="ref" v="UT"/>
     <tag k="wikidata" v="Q776"/>
     <tag k="wikipedia" v="nl:Utrecht (provincie)"/>
@@ -29142,7 +29044,7 @@
     <tag k="place" v="state"/>
     <tag k="wikidata" v="Q728933"/>
   </node>
-  <node id="4353339743" lat="27.1743417" lon="90.7622158">
+  <node id="4353339743" lat="27.1743117" lon="90.7622023">
     <tag k="ISO3166-2" v="BT-34"/>
     <tag k="admin_level" v="4"/>
     <tag k="name" v="གཞལམ་སྒང་རྫོང་ཁག་"/>
@@ -30138,7 +30040,7 @@
     <tag k="name:eo" v="Jinotega"/>
     <tag k="place" v="state"/>
   </node>
-  <node id="6019184321" lat="12.4072865" lon="52.8580597">
+  <node id="6019184321" lat="12.5198111" lon="53.1949165">
     <tag k="name" v="أرخبيل سقطرى"/>
     <tag k="name:ar" v="‏أرخبيل سقطرى‎"/>
     <tag k="name:de" v="Socotra-Archipel"/>
