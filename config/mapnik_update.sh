@@ -2,7 +2,7 @@
 # /home/renderaccount/src
 FOLDER=${FOLDER:-/home/mapnikdb}
 DB_NAME=${DB_NAME:-osm}
-OSMOSIS=${osmosis:-$FOLDER/osmosis.run}
+OSMOSIS=${OSMOSIS:-$FOLDER/osmosis.run}
 ID=$(date +"%d_%m_%H_%M")
 echo "CURRENT STATE: "
 cat "$FOLDER/osmosis-workdir/state.txt"
