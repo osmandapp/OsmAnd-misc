@@ -7,6 +7,8 @@ DB_PORT=${DB_PORT:-5433}
 TILES_DIR=${TILES_DIR:-/var/lib/tirex/tiles/}
 TILES_SOCK=${TILES_SOCK:-/var/lib/tirex/modtile.sock}
 OSM_STYLE=${OSM_STYLE:/usr/local/share/osm2pgsql/default.style}
+# was missing before
+TAG_TRANSFORM_SCRIPT=${TAG_TRANSFORM_SCRIPT:~/openstreetmap-carto/openstreetmap-carto.lua}
 
 ID=$(date +"%d_%m_%H_%M")
 CHANGES_FILE=$FOLDER/changes_$ID.osc.gz
@@ -24,11 +26,15 @@ cp $FOLDER/osmosis-workdir/state.txt $FOLDER/osmosis-workdir/state-new.txt
 cp $FOLDER/osmosis-workdir/state-old.txt $FOLDER/osmosis-workdir/state.txt
 
 # -U jenkins
-osm2pgsql --append --slim -d $DB_NAME -P $DB_PORT --cache-strategy dense \
-	--cache 20000 --number-processes 4 --hstore \
- 	--style $OSM_STYLE --multi-geometry \
- 	--flat-nodes $FOLDER/flatnodes.bin \
-	--expire-tiles 13-18 --expire-output $EXPIRED_FILE $CHANGES_FILE
+osm2pgsql --append --slim -d $DB_NAME -P $DB_PORT \
+	--hstore --multi-geometry \
+	--cache-strategy dense --cache 20000 \
+	--number-processes 4 \
+	--tag-transform-script $TAG_TRANSFORM_SCRIPT \
+	--style $OSM_STYLE \
+	--flat-nodes $FOLDER/flatnodes.bin \
+	--expire-tiles 13-18 --expire-output $EXPIRED_FILE \
+	$CHANGES_FILE
 cp $FOLDER/osmosis-workdir/state-new.txt $FOLDER/osmosis-workdir/state.txt
 
 rm $CHANGES_FILE
