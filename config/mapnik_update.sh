@@ -2,7 +2,7 @@
 # /home/renderaccount/src
 FOLDER=${FOLDER:-/home/mapnikdb}
 DB_NAME=${DB_NAME:-osm}
-OSMOSIS=${OSMOSIS:-$FOLDER/osmosis.run}
+# OSMOSIS=${OSMOSIS:-$FOLDER/osmosis.run}
 DB_PORT=${DB_PORT:-5433}
 TILES_DIR=${TILES_DIR:-/var/lib/tirex/tiles/}
 TILES_SOCK=${TILES_SOCK:-/var/lib/tirex/modtile.sock}
@@ -13,16 +13,24 @@ ID=$(date +"%d_%m_%H_%M")
 CHANGES_FILE=$FOLDER/changes_$ID.osc.gz
 EXPIRED_FILE=$FOLDER/expired_tiles_$ID.list
 
+STATE_FOLDER=osmupdate #osmosis-workdir
 echo "CURRENT STATE: "
-cat "$FOLDER/osmosis-workdir/state.txt"
-cp $FOLDER/osmosis-workdir/state.txt $FOLDER/osmosis-workdir/state-old.txt
+cat "$FOLDER/$STATE_FOLDER/state.txt"
+cp $FOLDER/$STATE_FOLDER/state.txt $FOLDER/$STATE_FOLDER/state-old.txt
 
-$OSMOSIS --rri workingDirectory=$FOLDER/osmosis-workdir --simplify-change --write-xml-change $CHANGES_FILE
+# $OSMOSIS --rri workingDirectory=$FOLDER/osmosis-workdir --simplify-change --write-xml-change $CHANGES_FILE
+TIMESTAMP=$(cat "$FOLDER/$STATE_FOLDER/state.txt")
+osmupdate $TIMESTAMP $CHANGES_FILE
+ls -lar $CHANGES_FILE
+echo $(osmconvert --out-timestamp  $CHANGES_FILE) > "$FOLDER/$STATE_FOLDER/state.txt"
+
 echo "FUTURE STATE: "
-cat "$FOLDER/osmosis-workdir/state.txt"
+cat "$FOLDER/$STATE_FOLDER/state.txt"
 
-cp $FOLDER/osmosis-workdir/state.txt $FOLDER/osmosis-workdir/state-new.txt
-cp $FOLDER/osmosis-workdir/state-old.txt $FOLDER/osmosis-workdir/state.txt
+cp $FOLDER/$STATE_FOLDER/state.txt $FOLDER/$STATE_FOLDER/state-new.txt
+cp $FOLDER/$STATE_FOLDER/state-old.txt $FOLDER/$STATE_FOLDER/state.txt
+
+exit 0
 
 # -U jenkins
 osm2pgsql --append --slim -d $DB_NAME -P $DB_PORT \
@@ -32,9 +40,9 @@ osm2pgsql --append --slim -d $DB_NAME -P $DB_PORT \
 	--tag-transform-script $TAG_TRANSFORM_SCRIPT \
 	--style $OSM_STYLE \
 	--flat-nodes $FOLDER/$FLAT_NODES_BIN_NAME \
-	--expire-tiles 13-18 --expire-output $EXPIRED_FILE \
+	--expire-tiles 12-18 --expire-output $EXPIRED_FILE \
 	$CHANGES_FILE
-cp $FOLDER/osmosis-workdir/state-new.txt $FOLDER/osmosis-workdir/state.txt
+cp $FOLDER/$STATE_FOLDER/state-new.txt $FOLDER/$STATE_FOLDER/state.txt
 
 rm $CHANGES_FILE
 gzip $EXPIRED_FILE
@@ -44,4 +52,4 @@ gzip -cd $EXPIRED_FILE.gz | render_expired --map=highres --socket=$TILES_SOCK --
 rm $EXPIRED_FILE.gz
 
 echo "STATE COMMIT: "
-cat "$FOLDER/osmosis-workdir/state.txt"
+cat "$FOLDER/$STATE_FOLDER/state.txt"
