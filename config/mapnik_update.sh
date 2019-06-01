@@ -22,19 +22,18 @@ echo "CURRENT STATE: "
 cat "$STATE_FOLDER/state.txt"
 cp $STATE_FOLDER/state.txt $STATE_FOLDER/state-old.txt
 
-# $OSMOSIS --rri workingDirectory=$FOLDER/osmosis-workdir --simplify-change --write-xml-change $CHANGES_FILE
+# $OSMOSIS --rri workingDirectory=osmosis-workdir --simplify-change --write-xml-change $CHANGES_FILE
 TIMESTAMP=$(cat "$STATE_FOLDER/state.txt")
-osmupdate $TIMESTAMP $CHANGES_FILE
+osmupdate --minute -v $TIMESTAMP $CHANGES_FILE
 ls -lar $CHANGES_FILE
 echo $(osmconvert --out-timestamp  $CHANGES_FILE) > "$STATE_FOLDER/state.txt"
 
 echo "FUTURE STATE: "
-cat "$FOLDER/$STATE_FOLDER/state.txt"
+cat "$STATE_FOLDER/state.txt"
 
 cp $STATE_FOLDER/state.txt $STATE_FOLDER/state-new.txt
 cp $STATE_FOLDER/state-old.txt $STATE_FOLDER/state.txt
 
-exit 0
 
 # -U jenkins
 osm2pgsql --append --slim -d $DB_NAME -P $DB_PORT \
