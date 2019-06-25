@@ -8,12 +8,14 @@ for f in *-20*; do
         dow=$(date --date="20$fdate" +%u);
         # more than 14 days keep 50%
         delete=0;
-        if (($scnow - $sc > 14*60*60*24)); then
-            delete=$(( $dow == 2 || $dow == 4 || $dow == 7 ));
+        if (($scnow - $sc > 180*60*60*24)); then
+            delete=$(( $dow == 2 || $dow == 3 || $dow == 4 || $dow == 5 || $dow == 6 || $dow == 7 ));
+	elif (($scnow - $sc > 90*60*60*24)); then
+            delete=$(( $dow == 2 || $dow == 3 || $dow == 4 || $dow == 6 || $dow == 7 ));
         elif (($scnow - $sc > 28*60*60*24)); then
             delete=$(( $dow == 2 || $dow == 3 || $dow == 4 || $dow == 6 || $dow == 7 ));
-        elif (($scnow - $sc > 90*60*60*24)); then
-            delete=$(( $dow == 2 || $dow == 3 || $dow == 4 || $dow == 6 || $dow == 7 ));
+        elif (($scnow - $sc > 14*60*60*24)); then
+            delete=$(( $dow == 2 || $dow == 4 || $dow == 7 ));
         fi
         if (( $delete )); then
             echo "Deleting $f: $dow $fdate";
