@@ -19,6 +19,7 @@ for f in *-20*; do
         fi
         if (( $delete )); then
             echo "Deleting $f: $dow $fdate";
+	    rm $f
         fi
     fi
 done
