@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-FOLDER=/var/lib/jenkins/
+FOLDER=/var/lib/jenkins/reports
 if [ -z "$START_DATE" ]; then
 	START_DATE='2012-01-01'
 fi
