@@ -12,16 +12,24 @@ START_ARRAY=($START)
 START_DAY=${START_ARRAY[0]}
 START_TIME=${START_ARRAY[1]}
 
-if [ -z "$PERIOD" ]; then
-  PERIOD="10 minutes"
-fi
+PERIOD_1_SEC=600;
+PERIOD_2_SEC=1200;
+PERIOD_3_SEC=1800;
 
 while true; do
+  START_DATE="${START_DAY}T${START_TIME}:00Z"
+  START_SEC=$(date -u --date="$START_DATE" "+%s")
   # database timestamp
   DB_SEC=$(date -u --date="$(/home/overpass/osm3s/cgi-bin/timestamp | tail -1)" "+%s")
 
-  START_DATE="${START_DAY}T${START_TIME}:00Z"
-  NEXT="$START_DAY $START_TIME $PERIOD"
+  PERIOD_SEC=PERIOD_1_SEC;
+  if (( $END_SEC > $START_SEC - $PERIOD_3_SEC )); then
+    PERIOD_SEC=PERIOD_3_SEC;
+  elif (( $END_SEC > $START_SEC - $PERIOD_2_SEC )); then
+    PERIOD_SEC=PERIOD_2_SEC;
+  fi
+
+  NEXT="$START_DAY $START_TIME $PERIOD_SEC seconds"
 
   NSTART_TIME=$(date +'%H' -d "$NEXT"):$(date +'%M' -d "$NEXT")
   NSTART_DAY=$(date +'%Y' -d "$NEXT")-$(date +'%m' -d "$NEXT")-$(date +'%d' -d "$NEXT")
@@ -29,6 +37,13 @@ while true; do
     NSTART_TIME="00:00"
   fi
   END_DATE="${NSTART_DAY}T${NSTART_TIME}:00Z"
+  END_SEC=$(date -u --date="$END_DATE" "+%s")
+  # give 60 seconds delay to wait for overpass to finish internal ops
+  if (( $END_SEC > $DB_SEC - 60 )); then
+    echo "END date $END_DATE is in the future of database!!!"
+    exit 0;
+  fi;
+  
   DATE_NAME="$(echo ${NSTART_DAY:2} | tr '-' _ | tr ':' _ )"
   TIME_NAME="$(echo ${NSTART_TIME} | tr '-' _ | tr ':' _ )"
   if [ "$TIME_NAME" = "00_00" ]; then
@@ -44,12 +59,7 @@ while true; do
   mkdir -p $FINAL_FOLDER/src/
   
   
-  END_SEC=$(date -u --date="$END_DATE" "+%s")
-  # give 60 seconds delay to wait for overpass to finish internal ops
-  if (( $END_SEC > $DB_SEC - 60 )); then      
-    echo "END date $END_DATE is in the future of database!!!"
-    exit 0;
-  fi;
+  
 
   #if [ -f "$FINAL_FOLDER/src/${FILENAME_DIFF}_before.obf.gz" ]; then
   # disable for now
