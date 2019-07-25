@@ -25,7 +25,7 @@ while true; do
   PERIOD_SEC=$PERIOD_1_SEC;
   if (( $DB_SEC > $START_SEC + $PERIOD_3_SEC )); then
     PERIOD_SEC=$PERIOD_3_SEC;
-  elif (( $DB_SEC > $START_SEC + $PERIOD_2_SEC) )); then
+  elif (( $DB_SEC > $START_SEC + $PERIOD_2_SEC )); then
     PERIOD_SEC=$PERIOD_2_SEC;
   fi
 
