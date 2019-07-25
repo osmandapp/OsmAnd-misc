@@ -22,11 +22,11 @@ while true; do
   # database timestamp
   DB_SEC=$(date -u --date="$(/home/overpass/osm3s/cgi-bin/timestamp | tail -1)" "+%s")
 
-  PERIOD_SEC=PERIOD_1_SEC;
+  PERIOD_SEC=$PERIOD_1_SEC;
   if (( $END_SEC > $START_SEC - $PERIOD_3_SEC )); then
-    PERIOD_SEC=PERIOD_3_SEC;
+    PERIOD_SEC=$PERIOD_3_SEC;
   elif (( $END_SEC > $START_SEC - $PERIOD_2_SEC )); then
-    PERIOD_SEC=PERIOD_2_SEC;
+    PERIOD_SEC=$PERIOD_2_SEC;
   fi
 
   NEXT="$START_DAY $START_TIME $PERIOD_SEC seconds"
