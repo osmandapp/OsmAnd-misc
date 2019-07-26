@@ -87,6 +87,7 @@ while true; do
     echo "Query between $START_DATE and $END_DATE"
     date -u
     QUERY_START="[timeout:3600][maxsize:2000000000][date:\"$START_DATE\"];
+    
 (
   node(changed:\"$START_DATE\",\"$END_DATE\");
   way(changed:\"$START_DATE\",\"$END_DATE\");
@@ -97,9 +98,11 @@ while true; do
 (relation(bw.a);.a) ->.a;
 (way(r.a);.a) ->.a;
 (node(w.a);.a) ->.a;
-	.a out geom meta;
+
+.a out geom meta;
 "
     QUERY_END="[timeout:3600][maxsize:2000000000][date:\"$END_DATE\"];
+    
 (
   node(changed:\"$START_DATE\",\"$END_DATE\");
   way(changed:\"$START_DATE\",\"$END_DATE\");
@@ -110,15 +113,18 @@ while true; do
 (relation(bw.a);.a) ->.a;
 (way(r.a);.a) ->.a;
 (node(w.a);.a) ->.a;
-	.a out geom meta;
+
+.a out geom meta;
 "
     QUERY_DIFF="[timeout:3600][maxsize:2000000000][diff:\"$START_DATE\",\"$END_DATE\"];
+    
 (
    node(changed:\"$START_DATE\",\"$END_DATE\");
    way(changed:\"$START_DATE\",\"$END_DATE\");
    relation(changed:\"$START_DATE\",\"$END_DATE\");
 )->.a;
-	.a out geom meta;
+
+.a out geom meta;
 "
     echo # 1. Query rich diffs
     echo $QUERY_START | /home/overpass/osm3s/bin/osm3s_query > $FILENAME_START.osm &
