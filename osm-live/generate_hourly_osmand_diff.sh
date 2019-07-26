@@ -127,8 +127,8 @@ while true; do
 .a out geom meta;
 "
     echo # 1. Query rich diffs
-    echo $QUERY_START | /home/overpass/osm3s/bin/osm3s_query > $FILENAME_START.osm &
-    echo $QUERY_END | /home/overpass/osm3s/bin/osm3s_query  > $FILENAME_END.osm &
+    echo -e $QUERY_START | /home/overpass/osm3s/bin/osm3s_query > $FILENAME_START.osm &
+    echo -e $QUERY_END | /home/overpass/osm3s/bin/osm3s_query  > $FILENAME_END.osm &
     wait
 
     if ! grep -q "<\/osm>"  $FILENAME_START.osm; then
