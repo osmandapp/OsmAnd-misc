@@ -86,9 +86,7 @@ while true; do
   else
     echo "Query between $START_DATE and $END_DATE"
     date -u
-    QUERY_START="
-[timeout:3600][maxsize:2000000000]
-[date:\"$START_DATE\"];
+    QUERY_START="[timeout:3600][maxsize:2000000000][date:\"$START_DATE\"];
 (
   node(changed:\"$START_DATE\",\"$END_DATE\");
   way(changed:\"$START_DATE\",\"$END_DATE\");
@@ -101,9 +99,7 @@ while true; do
 (node(w.a);.a) ->.a;
 	.a out geom meta;
 "
-    QUERY_END="
-[timeout:3600][maxsize:2000000000]
-[date:\"$END_DATE\"];
+    QUERY_END="[timeout:3600][maxsize:2000000000][date:\"$END_DATE\"];
 (
   node(changed:\"$START_DATE\",\"$END_DATE\");
   way(changed:\"$START_DATE\",\"$END_DATE\");
@@ -116,9 +112,7 @@ while true; do
 (node(w.a);.a) ->.a;
 	.a out geom meta;
 "
-    QUERY_DIFF="
-[timeout:3600][maxsize:2000000000]
-[diff:\"$START_DATE\",\"$END_DATE\"];
+    QUERY_DIFF="[timeout:3600][maxsize:2000000000][diff:\"$START_DATE\",\"$END_DATE\"];
 (
    node(changed:\"$START_DATE\",\"$END_DATE\");
    way(changed:\"$START_DATE\",\"$END_DATE\");
