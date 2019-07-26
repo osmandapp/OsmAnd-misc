@@ -127,8 +127,8 @@ while true; do
 .a out geom meta;
 "
     echo # 1. Query rich diffs
-    echo -e $QUERY_START | /home/overpass/osm3s/bin/osm3s_query > $FILENAME_START.osm &
-    echo -e $QUERY_END | /home/overpass/osm3s/bin/osm3s_query  > $FILENAME_END.osm &
+    echo -e "$QUERY_START" | /home/overpass/osm3s/bin/osm3s_query > $FILENAME_START.osm &
+    echo -e "$QUERY_END" | /home/overpass/osm3s/bin/osm3s_query  > $FILENAME_END.osm &
     wait
 
     if ! grep -q "<\/osm>"  $FILENAME_START.osm; then
@@ -145,7 +145,7 @@ while true; do
     date -u
 
     echo # 2. Generate obf files & query change file
-    echo $QUERY_DIFF | /home/overpass/osm3s/bin/osm3s_query  > $FILENAME_CHANGE.osm  &
+    echo "$QUERY_DIFF" | /home/overpass/osm3s/bin/osm3s_query  > $FILENAME_CHANGE.osm  &
     # SRTM takes too much time and memory at this step (probably it could be used at the change step)
     OsmAndMapCreator/utilities.sh generate-obf-no-address $FILENAME_START.osm & # --srtm="$SRTM_DIR" &
     OsmAndMapCreator/utilities.sh generate-obf-no-address $FILENAME_END.osm & # --srtm="$SRTM_DIR" &
