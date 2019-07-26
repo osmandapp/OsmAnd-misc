@@ -93,11 +93,11 @@ while true; do
   way(changed:\"$START_DATE\",\"$END_DATE\");
   relation(changed:\"$START_DATE\",\"$END_DATE\");
 )->.a;
-(way(bn.a);.a) ->.a;
-(relation(bn.a);.a) ->.a;
-(relation(bw.a);.a) ->.a;
-(way(r.a);.a) ->.a;
-(node(w.a);.a) ->.a;
+(way(bn.a);.a;) ->.a;
+(relation(bn.a);.a;) ->.a;
+(relation(bw.a);.a;) ->.a;
+(way(r.a);.a;) ->.a;
+(node(w.a);.a;) ->.a;
 
 .a out geom meta;
 "
@@ -108,11 +108,11 @@ while true; do
   way(changed:\"$START_DATE\",\"$END_DATE\");
   relation(changed:\"$START_DATE\",\"$END_DATE\");
 )->.a;
-(way(bn.a);.a) ->.a;
-(relation(bn.a);.a) ->.a;
-(relation(bw.a);.a) ->.a;
-(way(r.a);.a) ->.a;
-(node(w.a);.a) ->.a;
+(way(bn.a);.a;) ->.a;
+(relation(bn.a);.a;) ->.a;
+(relation(bw.a);.a;) ->.a;
+(way(r.a);.a;) ->.a;
+(node(w.a);.a;) ->.a;
 
 .a out geom meta;
 "
