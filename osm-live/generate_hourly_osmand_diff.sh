@@ -116,6 +116,7 @@ while true; do
 (relation(bn.a);.a;) ->.a;
 (relation(bw.a);.a;) ->.a;
 (way(r.a);.a;) ->.a;
+(node(r.a);.a;) ->.a;
 (node(w.a);.a;) ->.a;
 
 .a out geom meta;
