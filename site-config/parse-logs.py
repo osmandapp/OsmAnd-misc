@@ -99,10 +99,10 @@ for line in file:
             ns = None
         if nd == "":
             nd = None
-        ##if tm.strftime('%Y-%m-%d %H:%M:%S')  < maxday:
-        ##    skipped += 1;
-        ##    continue;
-        ## Insert elements into rows
+        if tm.strftime('%Y-%m-%d %H:%M:%S')  < maxday:
+            skipped += 1;
+            continue;
+        Insert elements into rows
         inserted += 1;
         if "get_indexes" in line:
             if postgres:
