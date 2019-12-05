@@ -121,7 +121,6 @@
     </query>
   </union>
   <print/>
-  <id-query ref="153292" type="relation"/> <print/>
 
 	<!-- Sichuan -->
   <id-query into="searchArea" ref="3600913068" type="area"/>
@@ -175,7 +174,7 @@
 <id-query ref="2218416" type="relation"/> <print/> <!-- Thompson-Nicola Regional District -->
 
 	<!-- Ontario -->
-<id-query ref="5420434147" type="node"/> <print/> <!-- Barrie -->
+<id-query ref="6182594237" type="node"/> <print/> <!-- Barrie -->
 <id-query ref="3128734246" type="node"/> <print/> <!-- Kingston -->
 <id-query ref="485248691" type="node"/> <print/> <!-- London -->
 <id-query ref="7588783" type="relation"/> <print/> <!-- Moosonee -->
@@ -204,6 +203,8 @@
 <id-query ref="8118159" type="relation"/> <print/> <!-- Nord-du-Québec -->
 <id-query ref="8100164" type="relation"/> <print/> <!-- Outaouais -->
 <id-query ref="8120111" type="relation"/> <print/> <!-- Saguenay - Lac-Saint-Jean -->
+
+<id-query ref="3406826" type="relation"/> <print/> <!-- Saint-Pierre-et-Miquelon -->
 
 
 	<!-- Alaska -->
@@ -265,7 +266,7 @@
 <id-query ref="957716" type="relation"/> <print/> <!-- Attica  -  attiki.poly -->
 <id-query ref="937937" type="relation"/> <print/> <!-- East Macedonia and Thrace Region  -  anatoliki_makedonia_kai_thraki.poly -->
 
-<!-- <id-query ref="2186658" type="relation"/> <print/>  French Southern and Antarctic Lands -->
+<id-query ref="2186658" type="relation"/> <print/> <!-- French Southern and Antarctic Lands -->
 <id-query ref="65335" type="relation"/> <print/> <!-- Transnistria -->
 <!-- <id-query ref="1867188" type="relation"/> <print/>  Macao -->
 <!-- <id-query ref="1337397" type="relation"/> <print/>  Svalbard (Шпицберген) -->
@@ -392,5 +393,28 @@
     </query>
   </union>
   <print/>
+
+	<!-- Iran -->
+<id-query ref="2232180" type="relation"/> <print/> <!-- East Azarbaijan -->
+<id-query ref="241472" type="relation"/> <print/> <!-- Gilan Province -->
+<id-query ref="241038" type="relation"/> <print/> <!-- Hamadan Province -->
+<id-query ref="229593" type="relation"/> <print/> <!-- Kerman Province -->
+<id-query ref="229958" type="relation"/> <print/> <!-- Markazi Province -->
+<id-query ref="537693" type="relation"/> <print/> <!-- Sistan and Baluchestan Province -->
+<id-query ref="537701" type="relation"/> <print/> <!-- Tehran Province -->
+<id-query ref="241593" type="relation"/> <print/> <!-- West Azerbaijan Province -->
+<id-query ref="241473" type="relation"/> <print/> <!-- Zanjan Province -->
+
+	<!-- Palestine -->
+<id-query ref="1703814" type="relation"/> <print/>
+
+	<!-- Hong Kong -->
+<id-query ref="913110" type="relation"/> <print/>
+
+	<!-- French Polynesia -->
+<id-query ref="3412620" type="relation"/> <print/>
+
+	<!-- New Caledonia -->
+<id-query ref="3407643" type="relation"/> <print/>
 
 </osm-script>

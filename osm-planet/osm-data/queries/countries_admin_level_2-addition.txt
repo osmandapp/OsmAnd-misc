@@ -330,3 +330,41 @@
     <tag k='name:tk' v='Doğu' />
     <tag k='name:zh' v='东' />
   </node>
+
+  <relation id="1702527">
+    <tag k="ISO3166-2" v="FI-IS"/>
+    <tag k="admin_level" v="4"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="is_in:continent" v="Europe"/>
+    <tag k="is_in:country" v="Finland"/>
+    <tag k="is_in:country_code" v="FI"/>
+    <tag k="name" v="Itä-Suomi"/>
+    <tag k="name:ar" v="فنلندا الشرقية"/>
+    <tag k="name:de" v="Ostfinnland"/>
+    <tag k="name:en" v="Eastern Finland"/>
+    <tag k="name:es" v="Finlandia Oriental"/>
+    <tag k="name:fi" v="Itä-Suomi"/>
+    <tag k="name:fr" v="Finlande orientale"/>
+    <tag k="name:lt" v="Rytų Suomija"/>
+    <tag k="name:ru" v="Восточная Финляндия"/>
+    <tag k="name:sv" v="Östra Finland"/>
+    <tag k="ref" v="FI13"/>
+    <tag k="type" v="boundary"/>
+    <tag k="wikidata" v="Q194073"/>
+  </relation>
+  <relation id="1724456">
+    <tag k="admin_level" v="4"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="is_in:country_code" v="FI"/>
+    <tag k="name" v="Pohjois-Suomi"/>
+    <tag k="name:de" v="Nordfinnland"/>
+    <tag k="name:en" v="Northern Finland"/>
+    <tag k="name:fi" v="Pohjois-Suomi"/>
+    <tag k="name:fr" v="Finlande septentrionale"/>
+    <tag k="name:ru" v="Северная Финляндия"/>
+    <tag k="name:sme" v="Davvi-Suoma"/>
+    <tag k="name:sv" v="Norra Finland"/>
+    <tag k="ref" v="FI1A"/>
+    <tag k="type" v="boundary"/>
+    <tag k="wikidata" v="Q3745730"/>
+  </relation>
