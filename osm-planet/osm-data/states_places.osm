@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.55.7 8b86ff77">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2019-12-05T12:37:02Z"/>
+<meta osm_base="2019-12-18T16:29:02Z"/>
 
   <node id="671022" lat="36.7014631" lon="-118.7559974">
     <tag k="alt_name:vi" v="California"/>
@@ -2538,26 +2538,6 @@
     <tag k="wikidata" v="Q46422"/>
     <tag k="wikipedia" v="es:Sonora"/>
   </node>
-  <node id="305626614" lat="22.0000001" lon="-105.0000001">
-    <tag k="gns:dsg" v="ADM1"/>
-    <tag k="gns:uni" v="-2366135"/>
-    <tag k="is_in:country" v="Mexico"/>
-    <tag k="is_in:country_code" v="MX"/>
-    <tag k="name" v="Nayarit"/>
-    <tag k="name:en" v="Nayarit"/>
-    <tag k="name:eo" v="Najarito"/>
-    <tag k="name:es" v="Nayarit"/>
-    <tag k="name:hu" v="Nayarit"/>
-    <tag k="name:pl" v="Nayarit"/>
-    <tag k="name:ru" v="Наярит"/>
-    <tag k="name:uk" v="Наяріт"/>
-    <tag k="official_name" v="Estado de Nayarit"/>
-    <tag k="place" v="state"/>
-    <tag k="ref" v="NAY"/>
-    <tag k="source" v="GNS"/>
-    <tag k="wikidata" v="Q79920"/>
-    <tag k="wikipedia" v="es:Nayarit"/>
-  </node>
   <node id="305626616" lat="23.9891553" lon="-98.7026825">
     <tag k="gns:dsg" v="ADM1"/>
     <tag k="gns:uni" v="-2392213"/>
@@ -4182,7 +4162,7 @@
     <tag k="name:eo" v="Gŭavjaro"/>
     <tag k="name:ru" v="Гуавиар"/>
     <tag k="place" v="state"/>
-    <tag k="population" v="133236"/>
+    <tag k="population" v="73081"/>
     <tag k="ref" v="GUV"/>
     <tag k="source" v="GNS"/>
     <tag k="state_capital" v="San José del Guaviare"/>
@@ -8629,6 +8609,7 @@
     <tag k="ref" v="KH"/>
     <tag k="source" v="GNS"/>
     <tag k="state_code" v="KH"/>
+    <tag k="title" v="الخرطوم"/>
     <tag k="wikidata" v="Q310385"/>
     <tag k="wikipedia" v="ar:ولاية الخرطوم"/>
   </node>
@@ -10912,10 +10893,11 @@
     <tag k="place:PH" v="Province"/>
   </node>
   <node id="501794575" lat="7.4500000" lon="126.0700000">
-    <tag k="name" v="Compostela Valley"/>
-    <tag k="name:eo" v="Kompostela Valo"/>
-    <tag k="name:hu" v="Compostela Valley"/>
-    <tag k="name:ru" v="Долина Компостела"/>
+    <tag k="name" v="Davao de Oro"/>
+    <tag k="old_name" v="Compostela Valley"/>
+    <tag k="old_name:eo" v="Kompostela Valo"/>
+    <tag k="old_name:hu" v="Compostela Valley"/>
+    <tag k="old_name:ru" v="Долина Компостела"/>
     <tag k="place" v="state"/>
   </node>
   <node id="501794639" lat="11.6000000" lon="124.4900000">
@@ -14772,7 +14754,6 @@
     <tag k="ref:ru" v="ЖИТ"/>
   </node>
   <node id="681769612" lat="46.1147226" lon="29.9567193">
-    <tag k="is_in:country" v="Україна"/>
     <tag k="name" v="Одеська область"/>
     <tag k="name:be" v="Адэская вобласць"/>
     <tag k="name:de" v="Oblast Odessa"/>
@@ -18638,10 +18619,6 @@
     <tag k="wikipedia" v="uk:Івано-Франківська область"/>
   </node>
   <node id="1775640129" lat="5.5952370" lon="117.0051734">
-    <tag k="is_in" v="Malaysia"/>
-    <tag k="is_in:continent" v="Borneo"/>
-    <tag k="is_in:country" v="Malaysia"/>
-    <tag k="is_in:country_code" v="MY"/>
     <tag k="name" v="Sabah"/>
     <tag k="name:he" v="סבאח"/>
     <tag k="name:hu" v="Sabah"/>
@@ -22445,10 +22422,8 @@
     <tag k="wikipedia" v="en:Johor"/>
   </node>
   <node id="2609539371" lat="2.3926225" lon="113.6468670">
-    <tag k="is_in" v="Malaysia"/>
     <tag k="is_in:continent" v="Borneo"/>
     <tag k="is_in:country" v="Malaysia"/>
-    <tag k="is_in:country_code" v="MY"/>
     <tag k="name" v="Sarawak"/>
     <tag k="name:hu" v="Sarawak"/>
     <tag k="name:ja" v="サラワク"/>
@@ -22928,7 +22903,7 @@
     <tag k="ref" v="NP"/>
     <tag k="state_code" v="NP"/>
   </node>
-  <node id="2661484223" lat="10.8232224" lon="-0.5699312">
+  <node id="2661484223" lat="10.8070481" lon="-0.6870286">
     <tag k="admin_level" v="4"/>
     <tag k="name" v="Upper East Region"/>
     <tag k="name:de" v="Obere Ostregion"/>

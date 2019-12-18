@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.55.7 8b86ff77">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2019-12-05T12:37:02Z"/>
+<meta osm_base="2019-12-18T16:05:02Z"/>
 
   <node id="26036352" lat="12.7503486" lon="122.7312101">
     <tag k="alt_name:vi" v="Phi Luật Tân"/>
@@ -425,6 +425,7 @@
     <tag k="official_name:fr" v="République islamique d'Afghanistan"/>
     <tag k="official_name:ga" v="Poblacht Ioslamach na Afganastáin"/>
     <tag k="official_name:id" v="Republik Islam Afganistan"/>
+    <tag k="official_name:is" v="Íslamska lýðveldið Afganistan"/>
     <tag k="official_name:it" v="Repubblica Islamica dell'Afghanistan"/>
     <tag k="official_name:ku" v="Komara Îslamî ya Afxanistanê"/>
     <tag k="official_name:lt" v="Afganistano Islamo Respublika"/>
@@ -894,6 +895,7 @@
     <tag k="official_name:fi" v="Andorran ruhtinaskunta"/>
     <tag k="official_name:fr" v="Principauté d'Andorre"/>
     <tag k="official_name:id" v="Kepangeranan Andorra"/>
+    <tag k="official_name:is" v="Furstadæmið Andorra"/>
     <tag k="official_name:it" v="Principato d'Andorra"/>
     <tag k="official_name:ku" v="Mîritiya Andorrayê"/>
     <tag k="official_name:la" v="Principatus Andorrae"/>
@@ -1897,6 +1899,7 @@
     <tag k="official_name:fi" v="Argentiinan tasavalta"/>
     <tag k="official_name:fr" v="République Argentine"/>
     <tag k="official_name:id" v="Republik Argentina"/>
+    <tag k="official_name:is" v="Argentínska lýðveldið"/>
     <tag k="official_name:ku" v="Komara Arjentînê"/>
     <tag k="official_name:lb" v="Republik Argentinien"/>
     <tag k="official_name:lt" v="Argentinos Respublika"/>
@@ -2034,7 +2037,6 @@
     <tag k="country_code_iso3166_1_alpha_2" v="BF"/>
     <tag k="geonames:id" v="2361809"/>
     <tag k="int_name" v="Burkina Faso"/>
-    <tag k="is_in:continent" v="Africa"/>
     <tag k="name" v="Burkina Faso"/>
     <tag k="name:ace" v="Burkina Faso"/>
     <tag k="name:af" v="Burkina Faso"/>
@@ -5948,7 +5950,6 @@
     <tag k="country_code_iso3166_1_alpha_2" v="BZ"/>
     <tag k="geonames:id" v="3582678"/>
     <tag k="int_name" v="Belize"/>
-    <tag k="is_in:continent" v="North America"/>
     <tag k="name" v="Belize"/>
     <tag k="name:ace" v="Belize"/>
     <tag k="name:af" v="Belize"/>
@@ -12570,6 +12571,7 @@
     <tag k="official_name:et" v="Albaania Vabariik"/>
     <tag k="official_name:fr" v="République d'Albanie"/>
     <tag k="official_name:ga" v="Poblacht na hAlbáin"/>
+    <tag k="official_name:is" v="Lýðveldið Albanía"/>
     <tag k="official_name:ja" v="アルバニア共和国"/>
     <tag k="official_name:ku" v="Komara Albanyayê"/>
     <tag k="official_name:lb" v="Republik Albanien"/>
@@ -13300,6 +13302,7 @@
     <tag k="official_name:fr" v="République d'Angola"/>
     <tag k="official_name:gd" v="Poblachd Angola"/>
     <tag k="official_name:id" v="Republik Angola"/>
+    <tag k="official_name:is" v="Lýðveldið Angóla"/>
     <tag k="official_name:ku" v="Komara Angolayê"/>
     <tag k="official_name:lb" v="Republik Angola"/>
     <tag k="official_name:lt" v="Angolos Respublika"/>
@@ -15592,10 +15595,10 @@
     <tag k="ISO3166-1:alpha2" v="MV"/>
     <tag k="alt_name:lfn" v="Maldives"/>
     <tag k="country_code_iso3166_1_alpha_2" v="MV"/>
-    <tag k="name" v="Maldives"/>
+    <tag k="name" v="ދިވެހިރާއްޖެ"/>
     <tag k="name:af" v="Maldive"/>
     <tag k="name:am" v="ማልዲቭስ"/>
-    <tag k="name:ar" v="مالديف"/>
+    <tag k="name:ar" v="ملديف"/>
     <tag k="name:ast" v="Les Maldives"/>
     <tag k="name:az" v="Maldiv"/>
     <tag k="name:be" v="Мальдзівы"/>
@@ -15606,6 +15609,7 @@
     <tag k="name:br" v="Maldivez"/>
     <tag k="name:bs" v="Maldivi"/>
     <tag k="name:ca" v="Maldives"/>
+    <tag k="name:cdo" v="Maldives"/>
     <tag k="name:chr" v="ᎹᎵᏗᏫᏍ"/>
     <tag k="name:cs" v="Maledivy"/>
     <tag k="name:da" v="Maldiverne"/>
@@ -15627,11 +15631,13 @@
     <tag k="name:fur" v="Maldivis"/>
     <tag k="name:fy" v="de Maldiven"/>
     <tag k="name:ga" v="Oileáin Mhaildíve"/>
+    <tag k="name:gan" v="马尔代夫"/>
     <tag k="name:gd" v="Na h-Eileanan Mhaladaibh"/>
     <tag k="name:gl" v="Maldivas"/>
     <tag k="name:gu" v="માલદિવ્સ"/>
     <tag k="name:gv" v="Ny Maldeevaghyn"/>
     <tag k="name:ha" v="Maldibi"/>
+    <tag k="name:hak" v="Maldives"/>
     <tag k="name:haw" v="Maladiwa"/>
     <tag k="name:he" v="מלדיבים"/>
     <tag k="name:hi" v="मालदीव"/>
@@ -15669,6 +15675,7 @@
     <tag k="name:mr" v="मालदीव्ज"/>
     <tag k="name:ms" v="Maldiv"/>
     <tag k="name:my" v="မော်လဒိုက်"/>
+    <tag k="name:nan" v="Maldives"/>
     <tag k="name:nds" v="Malediven"/>
     <tag k="name:ne" v="माल्दिभ्स"/>
     <tag k="name:nl" v="Malediven"/>
@@ -15698,17 +15705,24 @@
     <tag k="name:to" v="Malativisi"/>
     <tag k="name:tr" v="Maldivler"/>
     <tag k="name:tt" v="Мальдивлар"/>
+    <tag k="name:tzl" v="Divehins"/>
     <tag k="name:uk" v="Мальдіви"/>
     <tag k="name:ur" v="مالدیو"/>
     <tag k="name:vi" v="Maldives"/>
     <tag k="name:vo" v="Maldivuäns"/>
+    <tag k="name:wuu" v="马尔代芙"/>
     <tag k="name:yo" v="Orílẹ́ède Maladifi"/>
-    <tag k="name:zh" v="马尔代夫"/>
+    <tag k="name:zh" v="马尔代夫/馬爾地夫"/>
+    <tag k="name:zh-Hans" v="马尔代夫"/>
+    <tag k="name:zh-Hant" v="馬爾地夫"/>
     <tag k="name:zh_pinyin" v="Mǎěrdàifū"/>
     <tag k="name:zu" v="i-Maldives"/>
     <tag k="official_name:be" v="Мальдыўская Рэспубліка"/>
+    <tag k="official_name:cs" v="Maledivská republika"/>
     <tag k="official_name:eo" v="Respubliko de Maldivoj"/>
+    <tag k="official_name:es" v="República de Maldivas"/>
     <tag k="official_name:et" v="Maldiivi Vabariik"/>
+    <tag k="official_name:fr" v="îles Maldives"/>
     <tag k="official_name:id" v="Republik Maladewa"/>
     <tag k="official_name:it" v="Repubblica delle Maledive"/>
     <tag k="official_name:ku" v="Komara Maldîvan"/>
@@ -30642,6 +30656,7 @@
     <tag k="official_name:en" v="People's Democratic Republic of Algeria"/>
     <tag k="official_name:fa" v="جمهوری دموکراتیک خلق الجزایر"/>
     <tag k="official_name:fr" v="République algérienne démocratique et populaire"/>
+    <tag k="official_name:is" v="Alþýðulýðveldið Alsír"/>
     <tag k="official_name:lb" v="Demokratesch Volleksrepublik Algerien"/>
     <tag k="official_name:lt" v="Alžyro Liaudies Demokratinė Respublika"/>
     <tag k="official_name:pt" v="República Popular Democrática da Argélia"/>
@@ -36394,110 +36409,6 @@
     <tag k="wikidata" v="Q25228"/>
     <tag k="wikipedia" v="en:Anguilla"/>
   </node>
-  <node id="433483519" lat="32.3018217" lon="-64.7603583">
-    <tag k="capital_city" v="Hamilton"/>
-    <tag k="country_code_fips" v="BD"/>
-    <tag k="country_code_iso3166_1_alpha_2" v="BM"/>
-    <tag k="description" v="overseas territory of the United Kingdom"/>
-    <tag k="geonames:id" v="3573345"/>
-    <tag k="int_name" v="Bermuda"/>
-    <tag k="is_in:continent" v="North America"/>
-    <tag k="is_in:ocean" v="Atlantic Ocean"/>
-    <tag k="member_of" v="British overseas territories"/>
-    <tag k="name" v="Bermuda"/>
-    <tag k="name:ak" v="Bɛmuda"/>
-    <tag k="name:am" v="ቤርሙዳ"/>
-    <tag k="name:ar" v="برمودا"/>
-    <tag k="name:ast" v="Les Bermudes"/>
-    <tag k="name:be" v="Бярмуды"/>
-    <tag k="name:bg" v="Бермуда"/>
-    <tag k="name:bm" v="Bermudi"/>
-    <tag k="name:bn" v="বারমুডা"/>
-    <tag k="name:bo" v="བར་མུ་ཌ།"/>
-    <tag k="name:br" v="Bermuda"/>
-    <tag k="name:ca" v="Bermudes"/>
-    <tag k="name:chr" v="ᏆᏊᏓ"/>
-    <tag k="name:cs" v="Bermudy"/>
-    <tag k="name:cy" v="Bermwda"/>
-    <tag k="name:de" v="Bermuda"/>
-    <tag k="name:dz" v="བར་མུ་ཌ"/>
-    <tag k="name:ee" v="Bermuda nutome"/>
-    <tag k="name:el" v="Βερμούδες"/>
-    <tag k="name:en" v="Bermuda"/>
-    <tag k="name:eo" v="Bermudo"/>
-    <tag k="name:es" v="Bermudas"/>
-    <tag k="name:fa" v="برمودا"/>
-    <tag k="name:ff" v="Bermudaa"/>
-    <tag k="name:fi" v="Bermuda"/>
-    <tag k="name:fr" v="Bermudes"/>
-    <tag k="name:ga" v="Beirmiúda"/>
-    <tag k="name:gd" v="Bearmùda"/>
-    <tag k="name:gl" v="Bermudas"/>
-    <tag k="name:gu" v="બર્મુડા"/>
-    <tag k="name:gv" v="Ny Bermioodee"/>
-    <tag k="name:ha" v="Barmuda"/>
-    <tag k="name:he" v="ברמודה"/>
-    <tag k="name:hi" v="बरमूडा"/>
-    <tag k="name:hu" v="Bermuda"/>
-    <tag k="name:ia" v="Bermuda"/>
-    <tag k="name:ig" v="Bemuda"/>
-    <tag k="name:io" v="Bermuda"/>
-    <tag k="name:is" v="Bermúda"/>
-    <tag k="name:it" v="Bermuda"/>
-    <tag k="name:ja" v="バミューダ"/>
-    <tag k="name:jbo" v="bermudas"/>
-    <tag k="name:ka" v="ბერმუდა"/>
-    <tag k="name:km" v="ប៊ឺមុយដា"/>
-    <tag k="name:kn" v="ಬರ್ಮುಡಾ"/>
-    <tag k="name:ko" v="버뮤다"/>
-    <tag k="name:ks" v="بٔرمیوڈا"/>
-    <tag k="name:ksh" v="de Bermudas"/>
-    <tag k="name:lfn" v="Bermuda"/>
-    <tag k="name:lg" v="Beremuda"/>
-    <tag k="name:lo" v="ເບີມູດາ"/>
-    <tag k="name:lv" v="Bermudu salas"/>
-    <tag k="name:mg" v="Bermioda"/>
-    <tag k="name:mk" v="Бермуди"/>
-    <tag k="name:ml" v="ബർമുഡ"/>
-    <tag k="name:mn" v="Бермудын Арал"/>
-    <tag k="name:mr" v="बर्मुडा"/>
-    <tag k="name:my" v="ဘာမူဒါ"/>
-    <tag k="name:nds" v="Bermuda"/>
-    <tag k="name:ne" v="बर्मुडा"/>
-    <tag k="name:nl" v="Bermuda"/>
-    <tag k="name:no" v="Bermuda"/>
-    <tag k="name:or" v="ବରମୁଡା"/>
-    <tag k="name:pl" v="Bermudy"/>
-    <tag k="name:pt" v="Bermuda"/>
-    <tag k="name:rm" v="Bermudas"/>
-    <tag k="name:rn" v="Berimuda"/>
-    <tag k="name:ru" v="Бермуды"/>
-    <tag k="name:sg" v="Beremûda"/>
-    <tag k="name:si" v="බර්මියුඩා"/>
-    <tag k="name:sk" v="Bermudy"/>
-    <tag k="name:sl" v="Bermudi"/>
-    <tag k="name:so" v="Bermuuda"/>
-    <tag k="name:sr" v="Бермуди"/>
-    <tag k="name:sv" v="Bermuda"/>
-    <tag k="name:ta" v="பெர்முடா"/>
-    <tag k="name:te" v="బర్మయుడా"/>
-    <tag k="name:th" v="เบอร์มิวดา"/>
-    <tag k="name:ti" v="ቤርሙዳ"/>
-    <tag k="name:to" v="Pēmuta"/>
-    <tag k="name:tok" v="ma Pemuta"/>
-    <tag k="name:uk" v="Бермудські острови"/>
-    <tag k="name:ur" v="برمودا"/>
-    <tag k="name:vi" v="Bermuda"/>
-    <tag k="name:yo" v="Orílẹ́ède Bémúdà"/>
-    <tag k="name:zh" v="百慕大"/>
-    <tag k="name:zu" v="i-Bermuda"/>
-    <tag k="place" v="country"/>
-    <tag k="population" v="66163"/>
-    <tag k="source:sqkm" v="CIA World Factbook"/>
-    <tag k="sqkm" v="54"/>
-    <tag k="wikidata" v="Q23635"/>
-    <tag k="wikipedia" v="en:Bermuda"/>
-  </node>
   <node id="433483540" lat="49.2214561" lon="-2.1358386">
     <tag k="alt_name:el" v="Ζέρσεϊ;Υερσέη;Τζέρσι;Τζέρζι;Τζέρσεϋ;Ζέρσεϋ;Ιερσέη;Τζέρσυ;Τζέρζυ"/>
     <tag k="country_code_iso3166_1_alpha_2" v="JE"/>
@@ -39572,7 +39483,6 @@
   </node>
   <node id="1644732479" lat="15.6356088" lon="-89.8988087">
     <tag k="country_code_iso3166_1_alpha_2" v="GT"/>
-    <tag k="is_in:continent" v="North America"/>
     <tag k="name" v="Guatemala"/>
     <tag k="name:ace" v="Guatemala"/>
     <tag k="name:af" v="Guatemala"/>
@@ -41994,6 +41904,7 @@
     <tag k="name:eo" v="Portugalio"/>
     <tag k="name:es" v="Portugal"/>
     <tag k="name:fa" v="پرتغال"/>
+    <tag k="name:fi" v="Portugali"/>
     <tag k="name:fr" v="Portugal"/>
     <tag k="name:fy" v="Portegal"/>
     <tag k="name:gv" v="Yn Phortiugal"/>
@@ -42475,6 +42386,7 @@
     <tag k="name:ba" v="Африка"/>
     <tag k="name:be" v="Афрыка"/>
     <tag k="name:ca" v="Àfrica"/>
+    <tag k="name:cdo" v="Hĭ-ciŭ"/>
     <tag k="name:ckb" v="ئەفریقا"/>
     <tag k="name:cs" v="Afrika"/>
     <tag k="name:csb" v="Afrika"/>
@@ -42490,6 +42402,8 @@
     <tag k="name:fr" v="Afrique"/>
     <tag k="name:fy" v="Afrika"/>
     <tag k="name:ga" v="an Afraic"/>
+    <tag k="name:gan" v="非洲"/>
+    <tag k="name:hak" v="Fî-chû"/>
     <tag k="name:he" v="אפריקה"/>
     <tag k="name:hi" v="अफ़्रीका"/>
     <tag k="name:hr" v="Afrika"/>
@@ -42510,6 +42424,7 @@
     <tag k="name:mg" v="Afrika"/>
     <tag k="name:mi" v="Awherika"/>
     <tag k="name:ms" v="Afrika"/>
+    <tag k="name:nan" v="Hui-chiu"/>
     <tag k="name:nb" v="Afrika"/>
     <tag k="name:nl" v="Afrika"/>
     <tag k="name:nn" v="Afrika"/>
@@ -42533,6 +42448,9 @@
     <tag k="name:ur" v="افریقا"/>
     <tag k="name:vi" v="Châu Phi"/>
     <tag k="name:vo" v="Frikop"/>
+    <tag k="name:wuu" v="非洲"/>
+    <tag k="name:yue" v="非洲"/>
+    <tag k="name:za" v="Feihcouh"/>
     <tag k="name:zea" v="Afrika"/>
     <tag k="name:zh" v="非洲"/>
     <tag k="name:zh-Hans" v="非洲"/>

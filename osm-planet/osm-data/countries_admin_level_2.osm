@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.55.7 8b86ff77">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2019-12-05T12:37:02Z"/>
+<meta osm_base="2019-12-18T16:05:02Z"/>
 
   <relation id="9407">
     <tag k="ISO3166-1" v="AD"/>
@@ -359,6 +359,7 @@
     <tag k="official_name:id" v="Kepangeranan Andorra"/>
     <tag k="official_name:ilo" v="Principalidad ti Andorra"/>
     <tag k="official_name:io" v="princio di Andora"/>
+    <tag k="official_name:is" v="Furstadæmið Andorra"/>
     <tag k="official_name:it" v="Principato di Andorra"/>
     <tag k="official_name:ja" v="アンドラ公国"/>
     <tag k="official_name:jam" v="Prinspaliti a Anduora"/>
@@ -2867,7 +2868,6 @@
     <tag k="default_language" v="da"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/9/9c/Flag_of_Denmark.svg"/>
     <tag k="int_name" v="Danmark"/>
-    <tag k="is_in:continent" v="Europe"/>
     <tag k="name" v="Danmark"/>
     <tag k="name:ace" v="Denmark"/>
     <tag k="name:af" v="Denemarke"/>
@@ -8097,6 +8097,7 @@
     <tag k="official_name:eo" v="Unuiĝinta Reĝlando de Granda Britujo kaj Nord-Irlando"/>
     <tag k="official_name:fr" v="Royaume-Uni de Grande-Bretagne et d'Irlande du Nord"/>
     <tag k="official_name:hr" v="Ujedinjeno Kraljevstvo Velike Britanije i Sjeverne Irske"/>
+    <tag k="official_name:is" v="Sameinaða konungsveldi Stóra-Bretlands og Norður-Írlands"/>
     <tag k="official_name:it" v="Regno Unito di Gran Bretagna e Irlanda del Nord"/>
     <tag k="official_name:nl" v="Verenigd Koninkrijk van Groot-Brittannië en Noord-Ierland"/>
     <tag k="official_name:pl" v="Zjednoczone Królestwo Wielkiej Brytanii i Irlandii Północnej"/>
@@ -15994,6 +15995,7 @@
     <tag k="official_name:id" v="Republik Demokratik Rakyat Aljazair"/>
     <tag k="official_name:ilo" v="Demokratiko a Republika ti Tattao ti Arhelia"/>
     <tag k="official_name:io" v="Populala Demokratiala Republio di Aljeria"/>
+    <tag k="official_name:is" v="Alþýðulýðveldið Alsír"/>
     <tag k="official_name:it" v="Repubblica Algerina Democratica e Popolare"/>
     <tag k="official_name:ja" v="アルジェリア民主人民共和国"/>
     <tag k="official_name:jam" v="Piipl Dimokratik Ripoblik a hAljiiria"/>
@@ -23334,6 +23336,7 @@
     <tag k="official_name:id" v="Republik Angola"/>
     <tag k="official_name:ilo" v="Republika ti Angola"/>
     <tag k="official_name:io" v="Republiko Angola"/>
+    <tag k="official_name:is" v="Lýðveldið Angóla"/>
     <tag k="official_name:it" v="Repubblica dell'Angola"/>
     <tag k="official_name:ja" v="アンゴラ共和国"/>
     <tag k="official_name:jam" v="Ripoblik a Angguola"/>
@@ -27843,7 +27846,7 @@
     <tag k="official_name:id" v="Republik Argentina"/>
     <tag k="official_name:ilo" v="Arhentino a Republika"/>
     <tag k="official_name:io" v="Republiko Arjentinia"/>
-    <tag k="official_name:is" v="Lýðveldið Argentína"/>
+    <tag k="official_name:is" v="Argentínska lýðveldið"/>
     <tag k="official_name:it" v="Repubblica Argentina"/>
     <tag k="official_name:ja" v="アルゼンチン共和国"/>
     <tag k="official_name:jam" v="Aajentiin Ripoblik"/>
@@ -29159,203 +29162,6 @@
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q800"/>
     <tag k="wikipedia" v="es:Costa Rica"/>
-  </relation>
-  <relation id="287668">
-    <tag k="ISO3166-1" v="PA"/>
-    <tag k="ISO3166-1:alpha2" v="PA"/>
-    <tag k="ISO3166-1:alpha3" v="PAN"/>
-    <tag k="ISO3166-1:numeric" v="591"/>
-    <tag k="admin_level" v="2"/>
-    <tag k="border_type" v="nation"/>
-    <tag k="boundary" v="administrative"/>
-    <tag k="default_language" v="es"/>
-    <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/a/ab/Flag_of_Panama.svg"/>
-    <tag k="is_in:continent" v="North America"/>
-    <tag k="name" v="Panamá"/>
-    <tag k="name:ace" v="Panama"/>
-    <tag k="name:af" v="Panama"/>
-    <tag k="name:als" v="Panama"/>
-    <tag k="name:am" v="ፓናማ"/>
-    <tag k="name:an" v="Panamá"/>
-    <tag k="name:ar" v="بنما"/>
-    <tag k="name:arz" v="باناما"/>
-    <tag k="name:ast" v="Panamá"/>
-    <tag k="name:ay" v="Panama"/>
-    <tag k="name:az" v="Panama"/>
-    <tag k="name:ba" v="Панама"/>
-    <tag k="name:bat-smg" v="Panama"/>
-    <tag k="name:bcl" v="Panama"/>
-    <tag k="name:be" v="Панама"/>
-    <tag k="name:be-tarask" v="Панама"/>
-    <tag k="name:bg" v="Панама"/>
-    <tag k="name:bm" v="Panama"/>
-    <tag k="name:bn" v="পানামা"/>
-    <tag k="name:bo" v="པ་ན་མ།"/>
-    <tag k="name:bpy" v="পানামা"/>
-    <tag k="name:br" v="Panamá"/>
-    <tag k="name:bs" v="Panama"/>
-    <tag k="name:bxr" v="Панама"/>
-    <tag k="name:ca" v="Panamà"/>
-    <tag k="name:ce" v="Панама"/>
-    <tag k="name:ceb" v="Panama"/>
-    <tag k="name:ckb" v="پەنەما"/>
-    <tag k="name:crh" v="Panama"/>
-    <tag k="name:cs" v="Panama"/>
-    <tag k="name:cv" v="Панама"/>
-    <tag k="name:cy" v="Panama"/>
-    <tag k="name:da" v="Panama"/>
-    <tag k="name:de" v="Panama"/>
-    <tag k="name:diq" v="Panama"/>
-    <tag k="name:dsb" v="Panama"/>
-    <tag k="name:dv" v="ޕެނަމާ"/>
-    <tag k="name:ee" v="Panama"/>
-    <tag k="name:el" v="Παναμάς"/>
-    <tag k="name:en" v="Panama"/>
-    <tag k="name:eo" v="Panamo"/>
-    <tag k="name:es" v="Panamá"/>
-    <tag k="name:et" v="Panama"/>
-    <tag k="name:eu" v="Panama"/>
-    <tag k="name:ext" v="Panamá"/>
-    <tag k="name:fa" v="پاناما"/>
-    <tag k="name:fi" v="Panama"/>
-    <tag k="name:fiu-vro" v="Panama"/>
-    <tag k="name:fo" v="Panama"/>
-    <tag k="name:fr" v="Panamá"/>
-    <tag k="name:frp" v="Panama"/>
-    <tag k="name:frr" v="Panama"/>
-    <tag k="name:fy" v="Panama"/>
-    <tag k="name:ga" v="Panama"/>
-    <tag k="name:gag" v="Panama"/>
-    <tag k="name:gd" v="Panama"/>
-    <tag k="name:gl" v="Panamá"/>
-    <tag k="name:gn" v="Panama"/>
-    <tag k="name:gu" v="પનામા"/>
-    <tag k="name:gv" v="Yn Phanamaa"/>
-    <tag k="name:hak" v="Pâ-nâ-mâ"/>
-    <tag k="name:haw" v="Panamā"/>
-    <tag k="name:he" v="פנמה"/>
-    <tag k="name:hi" v="पनामा"/>
-    <tag k="name:hif" v="Panama"/>
-    <tag k="name:hr" v="Panama"/>
-    <tag k="name:hsb" v="Panama"/>
-    <tag k="name:ht" v="Panama"/>
-    <tag k="name:hu" v="Panama"/>
-    <tag k="name:hy" v="Պանամա"/>
-    <tag k="name:ia" v="Panama"/>
-    <tag k="name:id" v="Panama"/>
-    <tag k="name:ie" v="Panamá"/>
-    <tag k="name:ilo" v="Panama"/>
-    <tag k="name:io" v="Panama"/>
-    <tag k="name:is" v="Panama"/>
-    <tag k="name:it" v="Panamá"/>
-    <tag k="name:ja" v="パナマ"/>
-    <tag k="name:jbo" v="panamas"/>
-    <tag k="name:jv" v="Panama"/>
-    <tag k="name:ka" v="პანამა"/>
-    <tag k="name:ki" v="Panama"/>
-    <tag k="name:kk" v="Панама"/>
-    <tag k="name:kn" v="ಪನಾಮಾ"/>
-    <tag k="name:ko" v="파나마"/>
-    <tag k="name:ku" v="Panama"/>
-    <tag k="name:kw" v="Panama"/>
-    <tag k="name:la" v="Panama"/>
-    <tag k="name:lad" v="Panama"/>
-    <tag k="name:lb" v="Panama"/>
-    <tag k="name:li" v="Panama"/>
-    <tag k="name:lij" v="Panamá"/>
-    <tag k="name:lmo" v="Panama"/>
-    <tag k="name:ln" v="Panama"/>
-    <tag k="name:lt" v="Panama"/>
-    <tag k="name:lv" v="Panama"/>
-    <tag k="name:lzh" v="巴拿馬"/>
-    <tag k="name:mg" v="Panama"/>
-    <tag k="name:mhr" v="Панаме"/>
-    <tag k="name:mi" v="Panama"/>
-    <tag k="name:mk" v="Панама"/>
-    <tag k="name:ml" v="പനാമ"/>
-    <tag k="name:mn" v="Панам"/>
-    <tag k="name:mr" v="पनामा"/>
-    <tag k="name:mrj" v="Панама"/>
-    <tag k="name:ms" v="Panama"/>
-    <tag k="name:mt" v="Panama"/>
-    <tag k="name:my" v="ပနားမားနိုင်ငံ"/>
-    <tag k="name:nah" v="Panama"/>
-    <tag k="name:nan" v="Panamá"/>
-    <tag k="name:nds" v="Panama"/>
-    <tag k="name:ne" v="पानामा"/>
-    <tag k="name:new" v="पनामा"/>
-    <tag k="name:nl" v="Panama"/>
-    <tag k="name:nn" v="Panama"/>
-    <tag k="name:no" v="Panama"/>
-    <tag k="name:nov" v="Panama"/>
-    <tag k="name:nrm" v="Panama"/>
-    <tag k="name:oc" v="Panamà"/>
-    <tag k="name:or" v="ପାନାମା"/>
-    <tag k="name:os" v="Панамæ"/>
-    <tag k="name:pa" v="ਪਨਾਮਾ"/>
-    <tag k="name:pam" v="Panama"/>
-    <tag k="name:pap" v="Panama"/>
-    <tag k="name:pih" v="Panama"/>
-    <tag k="name:pl" v="Panama"/>
-    <tag k="name:pms" v="Panamà"/>
-    <tag k="name:pnb" v="پانامہ"/>
-    <tag k="name:ps" v="پاناما"/>
-    <tag k="name:pt" v="Panamá"/>
-    <tag k="name:qu" v="Panama"/>
-    <tag k="name:ro" v="Panama"/>
-    <tag k="name:ru" v="Панама"/>
-    <tag k="name:rw" v="Panama"/>
-    <tag k="name:sa" v="पानामा"/>
-    <tag k="name:sah" v="Панама"/>
-    <tag k="name:scn" v="Panamà"/>
-    <tag k="name:sco" v="Panama"/>
-    <tag k="name:se" v="Panama"/>
-    <tag k="name:sh" v="Panama"/>
-    <tag k="name:simple" v="Panama"/>
-    <tag k="name:sk" v="Panama"/>
-    <tag k="name:sl" v="Panama"/>
-    <tag k="name:so" v="Banama"/>
-    <tag k="name:sq" v="Panamaja"/>
-    <tag k="name:sr" v="Панама"/>
-    <tag k="name:ss" v="IPhanama"/>
-    <tag k="name:stq" v="Panama"/>
-    <tag k="name:su" v="Panama"/>
-    <tag k="name:sv" v="Panama"/>
-    <tag k="name:sw" v="Panama"/>
-    <tag k="name:szl" v="Panama"/>
-    <tag k="name:ta" v="பனாமா"/>
-    <tag k="name:te" v="పనామా"/>
-    <tag k="name:tg" v="Панама"/>
-    <tag k="name:th" v="ประเทศปานามา"/>
-    <tag k="name:tl" v="Panama"/>
-    <tag k="name:tpi" v="Panama"/>
-    <tag k="name:tr" v="Panama"/>
-    <tag k="name:tt" v="Панама"/>
-    <tag k="name:tzl" v="Panamà"/>
-    <tag k="name:ug" v="پاناما"/>
-    <tag k="name:uk" v="Панама"/>
-    <tag k="name:ur" v="پاناما"/>
-    <tag k="name:uz" v="Panama"/>
-    <tag k="name:vec" v="Pànama"/>
-    <tag k="name:vi" v="Panama"/>
-    <tag k="name:vo" v="Panamän"/>
-    <tag k="name:war" v="Panamá"/>
-    <tag k="name:wo" v="Panamaa"/>
-    <tag k="name:wuu" v="巴拿马"/>
-    <tag k="name:xal" v="Панамудин Орн"/>
-    <tag k="name:yi" v="פאנאמא"/>
-    <tag k="name:yo" v="Panamá"/>
-    <tag k="name:yue" v="巴拿馬"/>
-    <tag k="name:zh" v="巴拿马"/>
-    <tag k="name:zu" v="Panama"/>
-    <tag k="official_name:cs" v="Panamská republika"/>
-    <tag k="official_name:en" v="Republic of Panama"/>
-    <tag k="official_name:es" v="República de Panamá"/>
-    <tag k="official_name:ru" v="Республика Панама"/>
-    <tag k="timezone" v="America/Panama"/>
-    <tag k="type" v="boundary"/>
-    <tag k="wikidata" v="Q804"/>
-    <tag k="wikipedia:es" v="Panamá"/>
   </relation>
   <relation id="287670">
     <tag k="ISO3166-1" v="HN"/>
@@ -31143,6 +30949,7 @@
     <tag k="official_name:hy" v="Աֆղանստանի Իսլամական Հանրապետություն"/>
     <tag k="official_name:id" v="Republik Islam Afganistan"/>
     <tag k="official_name:ilo" v="Islamiko a Republibka iti Apganistan"/>
+    <tag k="official_name:is" v="Íslamska lýðveldið Afganistan"/>
     <tag k="official_name:it" v="Repubblica Islamica dell'Afghanistan"/>
     <tag k="official_name:ja" v="アフガニスタン・イスラム共和国"/>
     <tag k="official_name:jam" v="Izlamik Ripoblik a Afganistan"/>
@@ -32420,11 +32227,11 @@
     <tag k="default_language" v="ar"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/6/65/Flag_of_Qatar.svg"/>
     <tag k="is_in:continent" v="Asia"/>
-    <tag k="name" v="‏قطر‎"/>
+    <tag k="name" v="‏قطر"/>
     <tag k="name:af" v="Katar"/>
     <tag k="name:am" v="ቃጣር"/>
     <tag k="name:an" v="Qatar"/>
-    <tag k="name:ar" v="‏قطر‎"/>
+    <tag k="name:ar" v="‏قطر"/>
     <tag k="name:as" v="কাটাৰ"/>
     <tag k="name:az" v="Qətər"/>
     <tag k="name:be" v="Катар"/>
@@ -38097,6 +37904,7 @@
     <tag k="name:hr" v="Zelenortski Otoci"/>
     <tag k="name:hu" v="Zöld-foki Köztársaság"/>
     <tag k="name:io" v="Kabo Verda"/>
+    <tag k="name:is" v="Grænhöfðaeyjar"/>
     <tag k="name:mi" v="Te Kūrae Matomato"/>
     <tag k="name:mk" v="Зелен ’Рт"/>
     <tag k="name:nl" v="Kaapverdië"/>
@@ -38469,6 +38277,7 @@
     <tag k="name:br" v="Maldivez"/>
     <tag k="name:bs" v="Maldivi"/>
     <tag k="name:ca" v="Maldives"/>
+    <tag k="name:cdo" v="Maldives"/>
     <tag k="name:chr" v="ᎹᎵᏗᏫᏍ"/>
     <tag k="name:cs" v="Maledivy"/>
     <tag k="name:da" v="Maldiverne"/>
@@ -38490,11 +38299,13 @@
     <tag k="name:fur" v="Maldivis"/>
     <tag k="name:fy" v="de Maldiven"/>
     <tag k="name:ga" v="Oileáin Mhaildíve"/>
+    <tag k="name:gan" v="马尔代夫"/>
     <tag k="name:gd" v="Na h-Eileanan Mhaladaibh"/>
     <tag k="name:gl" v="Maldivas"/>
     <tag k="name:gu" v="માલદિવ્સ"/>
     <tag k="name:gv" v="Ny Maldeevaghyn"/>
     <tag k="name:ha" v="Maldibi"/>
+    <tag k="name:hak" v="Maldives"/>
     <tag k="name:haw" v="Maladiwa"/>
     <tag k="name:he" v="מלדיבים"/>
     <tag k="name:hi" v="मालदीव"/>
@@ -38506,14 +38317,12 @@
     <tag k="name:io" v="Maldivi"/>
     <tag k="name:is" v="Maldíveyjar"/>
     <tag k="name:it" v="Maldive"/>
-    <tag k="name:ja" v="モルディブ"/>
     <tag k="name:jbo" v="maldives"/>
     <tag k="name:ka" v="მალდივის კუნძულები"/>
     <tag k="name:kab" v="Maldib"/>
     <tag k="name:ki" v="Modivu"/>
     <tag k="name:km" v="ម៉ាល់ឌីវ"/>
     <tag k="name:kn" v="ಮಾಲ್ಡಿವ್ಸ್"/>
-    <tag k="name:ko" v="몰디브"/>
     <tag k="name:ks" v="مالدیٖو"/>
     <tag k="name:ksh" v="de Mallediive"/>
     <tag k="name:ku" v="Maldîv"/>
@@ -38531,6 +38340,7 @@
     <tag k="name:mr" v="मालदीव्ज"/>
     <tag k="name:ms" v="Maldiv"/>
     <tag k="name:my" v="မော်လဒိုက်"/>
+    <tag k="name:nan" v="Maldives"/>
     <tag k="name:ne" v="माल्दिभ्स"/>
     <tag k="name:nl" v="Malediven"/>
     <tag k="name:nn" v="Maldivane"/>
@@ -38554,7 +38364,6 @@
     <tag k="name:sw" v="Modivu"/>
     <tag k="name:ta" v="மாலத்தீவு"/>
     <tag k="name:te" v="మాల్దీవులు"/>
-    <tag k="name:th" v="ประเทศมัลดีฟส์"/>
     <tag k="name:ti" v="ማልዲቭስ"/>
     <tag k="name:to" v="Malativisi"/>
     <tag k="name:tr" v="Maldivler"/>
@@ -38562,10 +38371,12 @@
     <tag k="name:tzl" v="Divehins"/>
     <tag k="name:uk" v="Мальдіви"/>
     <tag k="name:ur" v="مالدیو"/>
-    <tag k="name:vi" v="Maldives"/>
     <tag k="name:vo" v="Maldivuäns"/>
+    <tag k="name:wuu" v="马尔代芙"/>
     <tag k="name:yo" v="Orílẹ́ède Maladifi"/>
-    <tag k="name:zh" v="马尔代夫"/>
+    <tag k="name:zh" v="马尔代夫/馬爾地夫"/>
+    <tag k="name:zh-Hans" v="马尔代夫"/>
+    <tag k="name:zh-Hant" v="馬爾地夫"/>
     <tag k="name:zh_pinyin" v="Mǎěrdàifū"/>
     <tag k="name:zu" v="i-Maldives"/>
     <tag k="official_name:be" v="Мальдыўская Рэспубліка"/>
@@ -43145,6 +42956,88 @@
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q958"/>
     <tag k="wikipedia" v="en:South Sudan"/>
+  </relation>
+  <relation id="1703814">
+    <tag k="ISO3166-1" v="PS"/>
+    <tag k="ISO3166-1:alpha2" v="PS"/>
+    <tag k="ISO3166-1:alpha3" v="PSE"/>
+    <tag k="ISO3166-1:numeric" v="275"/>
+    <tag k="admin_level" v="2"/>
+    <tag k="alt_name:ar" v="فلسطين"/>
+    <tag k="alt_name:bn" v="ফিলিস্তিন"/>
+    <tag k="alt_name:ca" v="Palestina"/>
+    <tag k="alt_name:cs" v="Palestina"/>
+    <tag k="alt_name:de" v="Palästina"/>
+    <tag k="alt_name:en" v="Palestine"/>
+    <tag k="alt_name:es" v="Palestina"/>
+    <tag k="alt_name:et" v="Palestiina"/>
+    <tag k="alt_name:fa" v="فلسطین"/>
+    <tag k="alt_name:fi" v="Palestiina"/>
+    <tag k="alt_name:fr" v="Palestine"/>
+    <tag k="alt_name:hu" v="Palesztina"/>
+    <tag k="alt_name:ia" v="Palestina"/>
+    <tag k="alt_name:io" v="Palestina"/>
+    <tag k="alt_name:is" v="Palestína"/>
+    <tag k="alt_name:ku" v="Filistîn"/>
+    <tag k="alt_name:ms" v="Palestin"/>
+    <tag k="alt_name:nl" v="Palestina"/>
+    <tag k="alt_name:pl" v="Palestyna"/>
+    <tag k="alt_name:pt" v="Palestina"/>
+    <tag k="alt_name:ro" v="Palestina"/>
+    <tag k="alt_name:ru" v="Палестина"/>
+    <tag k="alt_name:sk" v="Palestína"/>
+    <tag k="alt_name:sl" v="Palestina"/>
+    <tag k="alt_name:tr" v="Filistin"/>
+    <tag k="alt_name:uk" v="Палестина"/>
+    <tag k="alt_name:vo" v="Palästinän"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="default_language" v="ar"/>
+    <tag k="disputed" v="yes"/>
+    <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/0/00/Flag_of_Palestine.svg"/>
+    <tag k="name" v="الأراضي الفلسطينية"/>
+    <tag k="name:ar" v="الأراضي الفلسطينية"/>
+    <tag k="name:bn" v="ফিলিস্তিন অঞ্চল"/>
+    <tag k="name:ca" v="Territoris Palestins"/>
+    <tag k="name:ckb" v="خاکی فەڵەستین"/>
+    <tag k="name:cs" v="Palestinská autonomní území"/>
+    <tag k="name:de" v="Palästinensische Autonomiegebiete"/>
+    <tag k="name:el" v="Παλαιστινιακές Περιοχές"/>
+    <tag k="name:en" v="Palestinian Territories"/>
+    <tag k="name:eo" v="Palestina Aŭtonomio"/>
+    <tag k="name:es" v="Territorios Palestinos"/>
+    <tag k="name:fr" v="Territoires Palestiniens"/>
+    <tag k="name:he" v="השטחים הפלסטיניים"/>
+    <tag k="name:hu" v="Palesztin Autonóm Területek"/>
+    <tag k="name:is" v="Heimastjórnarsvæði Palestínumanna"/>
+    <tag k="name:ku" v="Dewleta Filistînê"/>
+    <tag k="name:nl" v="Palestijnse Gebieden"/>
+    <tag k="name:pl" v="Autonomia Palestyńska"/>
+    <tag k="name:pt" v="Territórios Palestinianos"/>
+    <tag k="name:ro" v="Teritoriile palestiniene"/>
+    <tag k="name:ru" v="Территории Палестины"/>
+    <tag k="name:sk" v="Palestínske územia"/>
+    <tag k="name:sl" v="Palestinska ozemlja"/>
+    <tag k="name:uk" v="Території Палестини"/>
+    <tag k="note" v="Additional relations: https://wiki.openstreetmap.org/wiki/WikiProject_Israel#Palestine_Related"/>
+    <tag k="official_name:ar" v="دولة فلسطين"/>
+    <tag k="official_name:ca" v="Estat de Palestina"/>
+    <tag k="official_name:cs" v="Stát Palestina"/>
+    <tag k="official_name:de" v="Bundesstaat Palästina"/>
+    <tag k="official_name:en" v="State of Palestine"/>
+    <tag k="official_name:eo" v="Ŝtato Palestino"/>
+    <tag k="official_name:es" v="Estado de Palestina"/>
+    <tag k="official_name:fi" v="Palestiinan valtion"/>
+    <tag k="official_name:fr" v="État de Palestine"/>
+    <tag k="official_name:hu" v="Palesztin Állam"/>
+    <tag k="official_name:nl" v="Staat Palestina"/>
+    <tag k="official_name:pl" v="Państwo Palestyna"/>
+    <tag k="official_name:pt" v="Estado da Palestina"/>
+    <tag k="official_name:ro" v="Stat din Palestina"/>
+    <tag k="official_name:ru" v="Государство Палестина"/>
+    <tag k="official_name:sk" v="Štát Palestína"/>
+    <tag k="type" v="boundary"/>
+    <tag k="wikidata" v="Q219060"/>
+    <tag k="wikipedia" v="ar:دولة فلسطين"/>
   </relation>
   <relation id="1741311">
     <tag k="ISO3166-1" v="RS"/>
