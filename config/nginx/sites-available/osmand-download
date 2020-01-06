@@ -14,7 +14,7 @@ server {
 
 	location ~ ^/(download|download.php) {
 		add_header Content-Disposition "attachment; filename=$arg_file";
-		try_files /srtm-countries/$arg_file /srtm/$arg_file /hillshade/$arg_file
+		try_files /srtm-countries/$arg_file /srtm/$arg_file /hillshade/$arg_file /slope/$arg_file
 				/wiki/$arg_file /road-indexes/$arg_file /wikivoyage/$arg_file
 				/indexes/$arg_file /indexes/fonts/$arg_file /indexes/inapp/$arg_inapp/$arg_file
 				/aosmc/$arg_region/$arg_file =404;
