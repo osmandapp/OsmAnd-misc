@@ -1,10 +1,16 @@
 #!/bin/bash
 function sync {
-	rsync -r --progress --delete-after --dirs --times jenkins@download.osmand.net:$1 $1
+	rsync -r --progress --delete-after --dirs --times jenkins@download.osmand.net:/var/www-download/$1 /var/www-download/$1
 }
-sync /var/www-download/indexes/
-sync /var/www-download/hillshade/
-sync /var/www-download/srtm-countries/
-sync /var/www-download/road-indexes/
-sync /var/www-download/wiki/
-sync /var/www-download/wikivoyage/
+
+sync indexes/
+#sync hillshade/
+#sync slope/
+sync srtm-countries/
+sync road-indexes/
+sync wiki/
+sync wikivoyage/
+#sync aosmc/
+#sync osm-releases/
+#sync releases/
+#sync latest-night-build/
