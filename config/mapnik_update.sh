@@ -14,7 +14,7 @@ TAG_TRANSFORM_SCRIPT=${TAG_TRANSFORM_SCRIPT:-~/openstreetmap-carto/openstreetmap
 FLAT_NODES_BIN_NAME=${FLAT_NODES_BIN_NAME:-flatnodes.bin}
 
 ID=$(date +"%d_%m_%H_%M")
-CHANGES_FILE=changes_$ID.osc.gz
+CHANGES_FILE=changes.osc.gz
 EXPIRED_FILE=expired_tiles_$ID.list
 STATE_FOLDER=osmupdate #osmosis-workdir
 
@@ -25,7 +25,7 @@ cp $STATE_FOLDER/state.txt $STATE_FOLDER/state-old.txt
 # $OSMOSIS --rri workingDirectory=osmosis-workdir --simplify-change --write-xml-change $CHANGES_FILE
 if [ ! -f "$CHANGES_FILE" ] ; then 
 	TIMESTAMP=$(cat "$STATE_FOLDER/state.txt")
-	osmupdate --minute -v $TIMESTAMP $CHANGES_FILE
+	osmupdate -v $TIMESTAMP $CHANGES_FILE
 fi
 ls -lar $CHANGES_FILE
 echo $(osmconvert --out-timestamp  $CHANGES_FILE) > "$STATE_FOLDER/state.txt"
