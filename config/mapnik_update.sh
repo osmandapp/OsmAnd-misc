@@ -25,7 +25,7 @@ cp $STATE_FOLDER/state.txt $STATE_FOLDER/state-old.txt
 # $OSMOSIS --rri workingDirectory=osmosis-workdir --simplify-change --write-xml-change $CHANGES_FILE
 if [ ! -f "$CHANGES_FILE" ] ; then 
 	TIMESTAMP=$(cat "$STATE_FOLDER/state.txt")
-	osmupdate --max-days=3 -v $TIMESTAMP $CHANGES_FILE
+	osmupdate -v $TIMESTAMP "2020-04-05T01:45:02Z" $CHANGES_FILE
 fi
 ls -lar $CHANGES_FILE
 echo $(osmconvert --out-timestamp  $CHANGES_FILE) > "$STATE_FOLDER/state.txt"
@@ -40,7 +40,7 @@ cp $STATE_FOLDER/state-old.txt $STATE_FOLDER/state.txt
 # -U jenkins
 osm2pgsql --append --slim -d $DB_NAME -P $DB_PORT \
 	--hstore --multi-geometry \
-	--cache-strategy dense --cache 25000 \
+	--cache-strategy dense --cache 20000 \
 	--number-processes 4 \
 	--tag-transform-script $TAG_TRANSFORM_SCRIPT \
 	--style $OSM_STYLE \
