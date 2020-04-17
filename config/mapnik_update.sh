@@ -25,7 +25,7 @@ cp $STATE_FOLDER/state.txt $STATE_FOLDER/state-old.txt
 # $OSMOSIS --rri workingDirectory=osmosis-workdir --simplify-change --write-xml-change $CHANGES_FILE
 if [ ! -f "$CHANGES_FILE" ] ; then 
 	TIMESTAMP=$(cat "$STATE_FOLDER/state.txt")
-	osmupdate -v $TIMESTAMP "2020-04-05T01:45:02Z" $CHANGES_FILE
+	osmupdate -v $TIMESTAMP $CHANGES_FILE
 fi
 ls -lar $CHANGES_FILE
 echo $(osmconvert --out-timestamp  $CHANGES_FILE) > "$STATE_FOLDER/state.txt"
