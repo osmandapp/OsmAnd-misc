@@ -41,7 +41,7 @@ cp $STATE_FOLDER/state-old.txt $STATE_FOLDER/state.txt
 osm2pgsql --append --slim -d $DB_NAME -P $DB_PORT \
 	--hstore --multi-geometry \
 	--cache-strategy dense --cache 20000 \
-	--number-processes 4 \
+	--number-processes 2 \
 	--tag-transform-script $TAG_TRANSFORM_SCRIPT \
 	--style $OSM_STYLE \
 	--flat-nodes $FOLDER/$FLAT_NODES_BIN_NAME \
