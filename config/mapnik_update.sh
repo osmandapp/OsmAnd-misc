@@ -50,11 +50,13 @@ osm2pgsql --append --slim -d $DB_NAME -P $DB_PORT \
 cp $STATE_FOLDER/state-new.txt $STATE_FOLDER/state.txt
 
 rm $CHANGES_FILE
-gzip $EXPIRED_FILE
-gzip -cd $EXPIRED_FILE.gz | render_expired --map=default --socket=$TILES_SOCK --tile-dir=$TILES_DIR --num-threads=4 --touch-from=12 --min-zoom=12 >/dev/null
-gzip -cd $EXPIRED_FILE.gz | render_expired --map=highres --socket=$TILES_SOCK --tile-dir=$TILES_DIR --num-threads=4 --touch-from=12 --min-zoom=12 >/dev/null
+# gzip $EXPIRED_FILE
+# gzip -cd $EXPIRED_FILE.gz
+# rm $EXPIRED_FILE.gz
+cat $EXPIRED_FILE | render_expired --map=default --socket=$TILES_SOCK --tile-dir=$TILES_DIR --num-threads=4 --touch-from=12 --min-zoom=12 >/dev/null
+cat $EXPIRED_FILE | render_expired --map=highres --socket=$TILES_SOCK --tile-dir=$TILES_DIR --num-threads=4 --touch-from=12 --min-zoom=12 >/dev/null
 
-rm $EXPIRED_FILE.gz
+rm $EXPIRED_FILE
 
 echo "STATE COMMIT: "
 cat "$STATE_FOLDER/state.txt"
