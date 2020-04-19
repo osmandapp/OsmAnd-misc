@@ -22,7 +22,7 @@ echo "CURRENT STATE: "
 cat "$STATE_FOLDER/state.txt"
 cp $STATE_FOLDER/state.txt $STATE_FOLDER/state-old.txt
 
-# $OSMOSIS --rri workingDirectory=osmosis-workdir --simplify-change --write-xml-change $CHANGES_FILE
+rm $CHANGES_FILE # comment to keep processing changes file
 if [ ! -f "$CHANGES_FILE" ] ; then 
 	TIMESTAMP=$(cat "$STATE_FOLDER/state.txt")
 	osmupdate -v $TIMESTAMP $CHANGES_FILE
