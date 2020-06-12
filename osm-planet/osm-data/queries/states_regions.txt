@@ -269,7 +269,7 @@
 <id-query ref="2186658" type="relation"/> <print/> <!-- French Southern and Antarctic Lands -->
 <id-query ref="65335" type="relation"/> <print/> <!-- Transnistria -->
 <!-- <id-query ref="1867188" type="relation"/> <print/>  Macao -->
-<!-- <id-query ref="1337397" type="relation"/> <print/>  Svalbard (Шпицберген) -->
+ <id-query ref="3245620" type="relation"/><print/> <!-- Svalbard and Jan Mayen -->
 
 	<!-- Philippines -->
 <id-query ref="3561455" type="relation"/> <print/> <!-- Bicol Region -->
@@ -353,8 +353,11 @@
   <print/>
 
 
-	<!-- Pakistan Islamabad -->
-<id-query ref="358002" type="relation"/> <print/>
+	<!-- Pakistan -->
+<id-query ref="358002" type="relation"/> <print/> <!-- Islamabad -->
+<id-query ref="358004" type="relation"/> <print/> <!-- Federally Administered Tribal Areas;FATA -->
+
+<id-query ref="1703814" type="relation"/> <print/> <!-- Palestinian Territories -->
 
 	<!-- France -->
   <id-query type="area" ref="3601403916" into="searchArea"/>
@@ -394,17 +397,6 @@
   </union>
   <print/>
 
-	<!-- Iran -->
-<id-query ref="2232180" type="relation"/> <print/> <!-- East Azarbaijan -->
-<id-query ref="241472" type="relation"/> <print/> <!-- Gilan Province -->
-<id-query ref="241038" type="relation"/> <print/> <!-- Hamadan Province -->
-<id-query ref="229593" type="relation"/> <print/> <!-- Kerman Province -->
-<id-query ref="229958" type="relation"/> <print/> <!-- Markazi Province -->
-<id-query ref="537693" type="relation"/> <print/> <!-- Sistan and Baluchestan Province -->
-<id-query ref="537701" type="relation"/> <print/> <!-- Tehran Province -->
-<id-query ref="241593" type="relation"/> <print/> <!-- West Azerbaijan Province -->
-<id-query ref="241473" type="relation"/> <print/> <!-- Zanjan Province -->
-
 	<!-- Hong Kong -->
 <id-query ref="913110" type="relation"/> <print/>
 
@@ -416,5 +408,8 @@
 
 	<!-- Antarctica -->
 <id-query ref="2186646" type="relation"/> <print/>
+
+	<!-- India -->
+<id-query ref="1953042" type="relation"/> <print/> <!-- Daman -->
 
 </osm-script>
