@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<osm version="0.6" generator="Overpass API 0.7.55.7 8b86ff77">
+<osm version="0.6" generator="Overpass API 0.7.56.3 eb200aeb">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2020-06-05T10:24:03Z"/>
+<meta osm_base="2020-07-08T05:57:03Z"/>
 
   <node id="26036352" lat="12.7503486" lon="122.7312101">
     <tag k="alt_name:vi" v="Phi Luật Tân"/>
@@ -3394,7 +3394,7 @@
     <tag k="name:gv" v="Ny h-Ellanyn Chomoro"/>
     <tag k="name:ha" v="Kwamoras"/>
     <tag k="name:haw" v="Komorosa"/>
-    <tag k="name:he" v="קומורוס"/>
+    <tag k="name:he" v="קומורו"/>
     <tag k="name:hi" v="कोमोरोस"/>
     <tag k="name:hr" v="Komori"/>
     <tag k="name:hu" v="Comore-szigetek"/>
@@ -3484,6 +3484,7 @@
     <tag k="official_name:eo" v="Unio de Komoroj"/>
     <tag k="official_name:es" v="Unión de las Comoras"/>
     <tag k="official_name:fa" v="مجمع‌الجزایر قمر"/>
+    <tag k="official_name:he" v="האיחוד של איי קומורו"/>
     <tag k="official_name:id" v="Perserikatan Komoro"/>
     <tag k="official_name:ku" v="Yekîtiya Komoran"/>
     <tag k="official_name:lt" v="Komorų Sąjunga"/>
@@ -4871,6 +4872,10 @@
     <tag k="wikipedia" v="es:Perú"/>
   </node>
   <node id="249399419" lat="25.6242618" lon="42.3528328">
+    <tag k="GNS:dsg_code" v="PCLI"/>
+    <tag k="GNS:dsg_name" v="independent political entity"/>
+    <tag k="GNS:id" v="-3099121"/>
+    <tag k="alt_name" v="Al-Mamlaka al-`Arabiya as-Sa`udiya; Al Mamlakah al ‘Arabīyah as Su‘ūdīyah; Kingdom of Saudi Arabia; Saudi Arabia; Saudi Arabian Kingdom; العربية السعودية; Al ‘Arabīyah as Su‘ūdīyah; Al `Arabiyah as Su`udiyah"/>
     <tag k="alt_name:eo" v="Sauda Arabujo;Saŭda Arabio;Saŭda Arabujo"/>
     <tag k="alt_name:vi" v="Ả Rập Xê Út;A-rập Xê-út"/>
     <tag k="country_code_fips" v="SA"/>
@@ -5116,6 +5121,7 @@
   </node>
   <node id="249399429" lat="0.8875498" lon="6.9648718">
     <tag k="alt_name:eo" v="Santomeo kaj Principeo"/>
+    <tag k="alt_name:zh" v="圣普"/>
     <tag k="capital_city" v="São Tomé"/>
     <tag k="country_code_fips" v="TP"/>
     <tag k="country_code_iso3166_1_alpha_2" v="ST"/>
@@ -5232,8 +5238,8 @@
     <tag k="name:vo" v="Saluda-Tomeän e Prinsipeän"/>
     <tag k="name:yo" v="Orílẹ́ède Sao tomi ati piriiṣipi"/>
     <tag k="name:zh" v="圣多美和普林西比"/>
-    <tag k="name:zh-CN" v="圣多美和普林西比"/>
-    <tag k="name:zh-TW" v="聖多美普林西比"/>
+    <tag k="name:zh-Hans" v="圣多美和普林西比"/>
+    <tag k="name:zh-Hant" v="聖多美普林西比"/>
     <tag k="name:zh_pinyin" v="Shèngduōměi hé Pǔlínxībǐ"/>
     <tag k="name:zu" v="i-São Tomé kanye ne-Príncipe"/>
     <tag k="official_name:be" v="Дэмакратычная Рэспубліка Сан-Тамэ і Прынсіпі"/>
@@ -5246,6 +5252,7 @@
     <tag k="official_name:ru" v="Демократическая Республика Сан-Томе и Принсипи"/>
     <tag k="official_name:sv" v="Demokratiska republiken São Tomé och Príncipe"/>
     <tag k="official_name:vi" v="Cộng hòa Dân chủ São Tomé và Príncipe"/>
+    <tag k="official_name:zh" v="圣多美和普林西比民主共和国"/>
     <tag k="place" v="country"/>
     <tag k="population" v="206178"/>
     <tag k="source:sqkm" v="CIA World Factbook"/>
@@ -7250,7 +7257,6 @@
     <tag k="country_code_iso3166_1_alpha_2" v="CR"/>
     <tag k="geonames:id" v="3624060"/>
     <tag k="int_name" v="Costa Rica"/>
-    <tag k="is_in:continent" v="North America"/>
     <tag k="name" v="Costa Rica"/>
     <tag k="name:ace" v="Kosta Rika"/>
     <tag k="name:af" v="Costa Rica"/>
@@ -9303,7 +9309,7 @@
     <tag k="geonames:id" v="718075"/>
     <tag k="int_name" v="North Macedonia"/>
     <tag k="is_in:continent" v="Europe"/>
-    <tag k="name" v="Македонија"/>
+    <tag k="name" v="Северна Македонија"/>
     <tag k="name:UN:ar" v="جمهورية شمال مقدونيا"/>
     <tag k="name:UN:el" v="πρώην Γιουγκοσλαβική Δημοκρατία της Μακεδονίας"/>
     <tag k="name:UN:en" v="Former Yugoslav Republic of Macedonia"/>
@@ -9430,9 +9436,9 @@
     <tag k="name:lmo" v="Macedonia"/>
     <tag k="name:ln" v="Masedoni"/>
     <tag k="name:lo" v="ມາຊີໂດເນຍ"/>
-    <tag k="name:lt" v="Makedonija"/>
+    <tag k="name:lt" v="Šiaurės Makedonija"/>
     <tag k="name:ltg" v="Makedonejis Republika"/>
-    <tag k="name:lv" v="Maķedonija"/>
+    <tag k="name:lv" v="Ziemeļmaķedonija"/>
     <tag k="name:mdf" v="Македоние"/>
     <tag k="name:mg" v="Makedonia"/>
     <tag k="name:mhr" v="Македоний"/>
@@ -9464,10 +9470,11 @@
     <tag k="name:pl" v="Macedonia"/>
     <tag k="name:pms" v="Macedònia"/>
     <tag k="name:ps" v="د مقدونيې ولسمشريزه"/>
-    <tag k="name:pt" v="Macedônia do Norte"/>
+    <tag k="name:pt" v="Macedónia do Norte"/>
+    <tag k="name:pt-BR" v="Macedônia do Norte"/>
     <tag k="name:qu" v="Makidunya"/>
     <tag k="name:rm" v="Macedonia"/>
-    <tag k="name:rmy" v="Republika Makedoniya"/>
+    <tag k="name:rmy" v="Nordutni Makedoniya"/>
     <tag k="name:rn" v="Masedoniya"/>
     <tag k="name:ro" v="Macedonia"/>
     <tag k="name:roa-rup" v="Republica Machedonia"/>
@@ -9487,13 +9494,13 @@
     <tag k="name:sl" v="Makedonija"/>
     <tag k="name:sn" v="Macedonia"/>
     <tag k="name:so" v="Makadooniya"/>
-    <tag k="name:sq" v="Maqedonia Veriore"/>
+    <tag k="name:sq" v="Maqedonia e Veriut"/>
     <tag k="name:sr" v="Северна Македонија"/>
     <tag k="name:sr-Latn" v="Severna Makedonija"/>
     <tag k="name:ss" v="IMakhedoniya"/>
     <tag k="name:stq" v="Makedonien"/>
     <tag k="name:su" v="Makédonia"/>
-    <tag k="name:sv" v="Makedonien"/>
+    <tag k="name:sv" v="Nordmakedonien"/>
     <tag k="name:sw" v="Masedonia [FYROM]"/>
     <tag k="name:szl" v="Macedůńijo"/>
     <tag k="name:ta" v="மாசிடோனியா [ஃபைரோம்]"/>
@@ -9536,10 +9543,10 @@
     <tag k="official_name:bg" v="Република Северна Македония"/>
     <tag k="official_name:br" v="Republik Makedonia"/>
     <tag k="official_name:bs" v="Republika Sjeverna Makedonija"/>
-    <tag k="official_name:ca" v="Exrepública Iugoslava de Macedònia"/>
+    <tag k="official_name:ca" v="República de Macedònia del Nord"/>
     <tag k="official_name:cs" v="Republika Severní Makedonie"/>
     <tag k="official_name:cy" v="Gweriniaeth Gogledd Macedonia"/>
-    <tag k="official_name:de" v="Ehemalige jugoslawische Republik Mazedonien"/>
+    <tag k="official_name:de" v="Republik Nordmazedonien"/>
     <tag k="official_name:el" v="Δημοκρατία της Βόρειας Μακεδονίας"/>
     <tag k="official_name:en" v="Republic of North Macedonia"/>
     <tag k="official_name:eo" v="Respubliko Makedonio"/>
@@ -12151,7 +12158,7 @@
     <tag k="name:el" v="Τουρκία"/>
     <tag k="name:eml" v="Turchî"/>
     <tag k="name:en" v="Turkey"/>
-    <tag k="name:eo" v="Turkujo"/>
+    <tag k="name:eo" v="Turkio"/>
     <tag k="name:es" v="Turquía"/>
     <tag k="name:et" v="Türgi"/>
     <tag k="name:eu" v="Turkia"/>
@@ -13347,6 +13354,7 @@
     <tag k="name:vo" v="Langolän"/>
     <tag k="name:yo" v="Orílẹ́ède Ààngólà"/>
     <tag k="name:zh" v="安哥拉"/>
+    <tag k="name:zh-Hans" v="安哥拉"/>
     <tag k="name:zh_pinyin" v="Āngēlā"/>
     <tag k="name:zu" v="i-Angola"/>
     <tag k="official_name" v="República de Angola"/>
@@ -13369,6 +13377,7 @@
     <tag k="official_name:ru" v="Республика Ангола"/>
     <tag k="official_name:sv" v="Republiken Angola"/>
     <tag k="official_name:vi" v="Cộng Hòa Angola"/>
+    <tag k="official_name:zh" v="安哥拉共和国"/>
     <tag k="place" v="country"/>
     <tag k="population" v="12531357"/>
     <tag k="source:sqkm" v="wikipedia"/>
@@ -14634,6 +14643,8 @@
     <tag k="name:yue" v="加蓬"/>
     <tag k="name:zea" v="Gabon"/>
     <tag k="name:zh" v="加蓬"/>
+    <tag k="name:zh-Hans" v="加蓬"/>
+    <tag k="name:zh-Hant" v="加蓬"/>
     <tag k="name:zh_pinyin" v="Jiāpéng"/>
     <tag k="name:zu" v="i-Gabon"/>
     <tag k="official_name" v="République Gabonaise"/>
@@ -14654,6 +14665,7 @@
     <tag k="official_name:sv" v="Republiken Gabon"/>
     <tag k="official_name:tl" v="Republika ng Gabon"/>
     <tag k="official_name:vi" v="Cộng hòa Gabon"/>
+    <tag k="official_name:zh" v="加蓬共和国"/>
     <tag k="place" v="country"/>
     <tag k="population" v="1576665"/>
     <tag k="source:sqkm" v="CIA World Factbook"/>
@@ -22356,6 +22368,7 @@
     <tag k="name:yue" v="赤道畿內亞"/>
     <tag k="name:zea" v="Equatoriaol Hunea"/>
     <tag k="name:zh" v="赤道几内亚"/>
+    <tag k="name:zh-Hans" v="赤道几内亚"/>
     <tag k="name:zh_pinyin" v="Chìdào Jīnèiyà"/>
     <tag k="name:zu" v="i-Equatorial Guinea"/>
     <tag k="official_name" v="República de Guinea Ecuatorial;République de Guinée équatoriale;República da Guiné Equatorial"/>
@@ -22376,6 +22389,7 @@
     <tag k="official_name:ug" v="ئېكۋاتور گۋىنېيىسى جۇمھۇرىيىتى"/>
     <tag k="official_name:ur" v="جمہوریہ استوائی گنی"/>
     <tag k="official_name:vi" v="Cộng hòa Guinea Xích Đạo"/>
+    <tag k="official_name:zh" v="赤道几内亚共和国"/>
     <tag k="place" v="country"/>
     <tag k="population" v="1000000"/>
     <tag k="source:sqkm" v="CIA World Factbook"/>
@@ -23855,7 +23869,7 @@
     <tag k="name:zh" v="印度"/>
     <tag k="name:zh_pinyin" v="Yìndù"/>
     <tag k="name:zu" v="i-India"/>
-    <tag k="official_name" v="India"/>
+    <tag k="official_name" v="भारत गणराज्य - Republic of India"/>
     <tag k="official_name:ar" v="جمهورية الهند"/>
     <tag k="official_name:azb" v="هیندوستان جومهوریتی"/>
     <tag k="official_name:be" v="Рэспубліка Індыя"/>
@@ -28297,7 +28311,6 @@
     <tag k="country_code_iso3166_1_alpha_2" v="MR"/>
     <tag k="geonames:id" v="2378080"/>
     <tag k="int_name" v="Mauritania"/>
-    <tag k="is_in:continent" v="Africa"/>
     <tag k="name" v="موريتانيا"/>
     <tag k="name:af" v="Mauritanië"/>
     <tag k="name:ak" v="Mɔretenia"/>
@@ -28717,7 +28730,6 @@
     <tag k="country_code_iso3166_1_alpha_2" v="NI"/>
     <tag k="geonames:id" v="3617476"/>
     <tag k="int_name" v="Nicaragua"/>
-    <tag k="is_in:continent" v="North America"/>
     <tag k="name" v="Nicaragua"/>
     <tag k="name:ace" v="Nikaragua"/>
     <tag k="name:af" v="Nicaragua"/>
@@ -32439,15 +32451,16 @@
     <tag k="wikipedia" v="ka:საქართველო"/>
   </node>
   <node id="432424989" lat="38.9953683" lon="21.9877132">
+    <tag k="ISO3166-1" v="GR"/>
+    <tag k="ISO3166-1:alpha2" v="GR"/>
+    <tag k="ISO3166-1:alpha3" v="GRC"/>
+    <tag k="ISO3166-1:numeric" v="300"/>
     <tag k="alt_name:br" v="Hellaz"/>
     <tag k="alt_name:en" v="Hellas"/>
     <tag k="alt_name:eo" v="Grekujo"/>
     <tag k="capital_city" v="Athens"/>
     <tag k="country_code_fips" v="GR"/>
-    <tag k="country_code_iso3166_1_alpha_2" v="GR"/>
     <tag k="int_name" v="Greece"/>
-    <tag k="is_in" v="Europe"/>
-    <tag k="is_in:continent" v="Europe"/>
     <tag k="name" v="Ελλάδα"/>
     <tag k="name:ab" v="Барзентәыла"/>
     <tag k="name:ace" v="Yunani"/>
@@ -34127,7 +34140,7 @@
   </node>
   <node id="432425060" lat="52.2159330" lon="19.1344220">
     <tag k="ISO3166-1" v="PL"/>
-    <tag k="alt_name:eo" v="Polio;Polujo"/>
+    <tag k="alt_name:eo" v="Polujo, Polujo"/>
     <tag k="capital_city" v="Warszawa"/>
     <tag k="country_code_fips" v="PL"/>
     <tag k="country_code_iso3166_1_alpha_2" v="PL"/>
@@ -34192,7 +34205,7 @@
     <tag k="name:el" v="Πολωνία"/>
     <tag k="name:eml" v="Pulógna"/>
     <tag k="name:en" v="Poland"/>
-    <tag k="name:eo" v="Polujo"/>
+    <tag k="name:eo" v="Pollando"/>
     <tag k="name:es" v="Polonia"/>
     <tag k="name:et" v="Poola"/>
     <tag k="name:eu" v="Polonia"/>
@@ -34610,6 +34623,7 @@
   <node id="432425063" lat="-0.7264327" lon="15.6419155">
     <tag k="alt_name" v="Congo-Brazzaville;Congo (Brazzaville);Congo"/>
     <tag k="alt_name:eo" v="Kongo Brazavila"/>
+    <tag k="alt_name:zh" v="刚果（布）"/>
     <tag k="capital_city" v="Brazzaville"/>
     <tag k="country_code_fips" v="CF"/>
     <tag k="country_code_iso3166_1_alpha_2" v="CG"/>
@@ -34801,8 +34815,9 @@
     <tag k="name:xal" v="Конһлмудин Орн"/>
     <tag k="name:yi" v="רעפובליק פון קאנגא"/>
     <tag k="name:yo" v="Orílẹ́ède Kóngò"/>
-    <tag k="name:yue" v="剛果"/>
+    <tag k="name:yue" v="剛果（布）"/>
     <tag k="name:zh" v="刚果共和国"/>
+    <tag k="name:zh-Hans" v="刚果共和国"/>
     <tag k="name:zu" v="e-Congo [Republic]"/>
     <tag k="official_name:fr" v="République du Congo"/>
     <tag k="official_name:gd" v="Poblachd na Congo"/>
@@ -34810,6 +34825,7 @@
     <tag k="official_name:ro" v="Republica Congo"/>
     <tag k="official_name:sl" v="Republika Kongo"/>
     <tag k="official_name:sv" v="Republiken Kongo"/>
+    <tag k="official_name:zh" v="刚果共和国"/>
     <tag k="place" v="country"/>
     <tag k="population" v="3999000"/>
     <tag k="source:sqkm" v="CIA World Factbook"/>
@@ -38518,7 +38534,7 @@
     <tag k="ISO3166-1:alpha2" v="FR"/>
     <tag k="ISO3166-1:alpha3" v="FRA"/>
     <tag k="ISO3166-1:numeric" v="250"/>
-    <tag k="alt_name:eo" v="Francio"/>
+    <tag k="alt_name:eo" v="Francujo"/>
     <tag k="capital_city" v="Paris"/>
     <tag k="comment" v="Please do not remove this point (used to best place and display the label for the country, but NOT its administrative capital in Paris)"/>
     <tag k="country_code_fips" v="FR"/>
@@ -38587,7 +38603,7 @@
     <tag k="name:el" v="Γαλλία"/>
     <tag k="name:eml" v="Franza"/>
     <tag k="name:en" v="France"/>
-    <tag k="name:eo" v="Francujo"/>
+    <tag k="name:eo" v="Francio"/>
     <tag k="name:es" v="Francia"/>
     <tag k="name:et" v="Prantsusmaa"/>
     <tag k="name:eu" v="Frantzia"/>
@@ -38794,6 +38810,8 @@
     <tag k="name:zu" v="IFulansi"/>
     <tag k="note" v="position/rayon différents entre osm v#1 / wikipedia et le résultat obtenu en 46.603230136697235, 1.8885222004178486 . calcul a refaire"/>
     <tag k="official_name" v="République française"/>
+    <tag k="official_name:ar" v="الجمهورية الفرنسية"/>
+    <tag k="official_name:azb" v="فرانسه جومهوریتی"/>
     <tag k="official_name:be" v="Рэспубліка Францыя"/>
     <tag k="official_name:be-tarask" v="Рэспубліка Францыя"/>
     <tag k="official_name:br" v="Republik Frañs"/>
@@ -38804,6 +38822,7 @@
     <tag k="official_name:es" v="República francesa"/>
     <tag k="official_name:et" v="Prantsuse Vabariik"/>
     <tag k="official_name:eu" v="Frantziako Errepublika"/>
+    <tag k="official_name:fa" v="جمهوری فرانسه"/>
     <tag k="official_name:fr" v="République française"/>
     <tag k="official_name:gd" v="Poblachd na Frainge"/>
     <tag k="official_name:id" v="Republik Perancis"/>
@@ -38813,12 +38832,15 @@
     <tag k="official_name:lt" v="Prancūzijos Respublika"/>
     <tag k="official_name:mo" v="Република Франчезэ"/>
     <tag k="official_name:nl" v="Franse Republiek"/>
+    <tag k="official_name:ps" v="د فرانسې جمهوریت"/>
     <tag k="official_name:pt" v="República Francesa"/>
     <tag k="official_name:ru" v="Французская Республика"/>
     <tag k="official_name:sk" v="Francúzska republika"/>
     <tag k="official_name:sl" v="Francoska republika"/>
     <tag k="official_name:sr" v="Република Француска"/>
     <tag k="official_name:sv" v="Republiken Frankrike"/>
+    <tag k="official_name:ug" v="فرانسىيە جۇمھۇرىيىتى"/>
+    <tag k="official_name:ur" v="جمہوریہ فرانس"/>
     <tag k="official_name:uz" v="Fransiya Respublikasi"/>
     <tag k="official_name:vi" v="Cộng hòa Pháp"/>
     <tag k="official_name:zh" v="法蘭西共和國/法兰西共和国"/>
@@ -40309,7 +40331,7 @@
     <tag k="name:ee" v="Ukraine"/>
     <tag k="name:el" v="Ουκρανία"/>
     <tag k="name:en" v="Ukraine"/>
-    <tag k="name:eo" v="Ukrainujo"/>
+    <tag k="name:eo" v="Ukrainio"/>
     <tag k="name:es" v="Ucrania"/>
     <tag k="name:et" v="Ukraina"/>
     <tag k="name:eu" v="Ukraina"/>
@@ -40515,7 +40537,7 @@
     <tag k="ISO3166-1:alpha2" v="DE"/>
     <tag k="ISO3166-1:alpha3" v="DEU"/>
     <tag k="ISO3166-1:numeric" v="276"/>
-    <tag k="alt_name:eo" v="Germanio"/>
+    <tag k="alt_name:eo" v="Germanujo"/>
     <tag k="capital_city" v="Berlin"/>
     <tag k="country_code_fips" v="GM"/>
     <tag k="country_code_iso3166_1_alpha_2" v="DE"/>
@@ -40597,7 +40619,7 @@
     <tag k="name:el" v="Γερμανία"/>
     <tag k="name:eml" v="Germâgna"/>
     <tag k="name:en" v="Germany"/>
-    <tag k="name:eo" v="Germanujo"/>
+    <tag k="name:eo" v="Germanio"/>
     <tag k="name:es" v="Alemania"/>
     <tag k="name:et" v="Saksamaa"/>
     <tag k="name:eu" v="Alemania"/>
@@ -42960,7 +42982,7 @@
   </node>
   <node id="6684034483" lat="11.8145966" lon="42.8453061">
     <tag k="country_code_iso3166_1_alpha_2" v="DJ"/>
-    <tag k="name" v="جيبوتي"/>
+    <tag k="name" v="Djibouti جيبوتي"/>
     <tag k="name:af" v="Djiboeti"/>
     <tag k="name:als" v="Dschibuti"/>
     <tag k="name:am" v="ጅቡቲ"/>
@@ -43141,6 +43163,7 @@
     <tag k="name:ar" v="موناكو"/>
     <tag k="name:ckb" v="مۆناکۆ"/>
     <tag k="name:en" v="Monaco"/>
+    <tag k="name:eo" v="Monako"/>
     <tag k="name:fa" v="موناکو"/>
     <tag k="name:fr" v="Monaco"/>
     <tag k="name:ks" v="مونیٚکو"/>
@@ -43342,7 +43365,9 @@
     <member type="way" ref="159002386" role="outer"/>
     <member type="way" ref="159002384" role="outer"/>
     <member type="way" ref="244138471" role="outer"/>
-    <member type="way" ref="159002385" role="outer"/>
+    <member type="way" ref="817276346" role="outer"/>
+    <member type="way" ref="817276347" role="outer"/>
+    <member type="way" ref="817276344" role="outer"/>
     <member type="way" ref="159002390" role="outer"/>
     <member type="way" ref="159002388" role="outer"/>
     <member type="way" ref="159002389" role="outer"/>
@@ -43631,24 +43656,27 @@
     <tag k="ISO3166-2" v="FR-CP"/>
     <tag k="admin_level" v="3"/>
     <tag k="alt_name" v="Île de la Passion"/>
+    <tag k="alt_name:ar" v="جزيرة كليبرتون"/>
     <tag k="alt_name:fr" v="Île de la Passion;Île Clipperton"/>
     <tag k="border_type" v="territorial"/>
     <tag k="boundary" v="administrative"/>
     <tag k="currency" v="EUR"/>
     <tag k="description" v="France, collectivités d'outre-mer, territoires régis par l’article 74 de la Constitution"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/c/c3/Flag_of_France.svg"/>
-    <tag k="is_in:country" v="France"/>
-    <tag k="is_in:country_code" v="FR"/>
-    <tag k="is_in:ocean" v="Pacific"/>
     <tag k="land_area" v="administrative"/>
     <tag k="maritime" v="yes"/>
     <tag k="name" v="Île de Clipperton"/>
+    <tag k="name:ar" v="جزيرة كلبرتون"/>
     <tag k="name:de" v="Clipperton-Insel"/>
     <tag k="name:en" v="Clipperton Island"/>
+    <tag k="name:fa" v="جزیزه کلپرتون"/>
     <tag k="name:fr" v="Île de Clipperton"/>
     <tag k="name:it" v="Isola di Clipperton"/>
+    <tag k="name:pnb" v="کلپرٹن جزیرہ"/>
     <tag k="name:sk" v="Clippertonov ostrov"/>
+    <tag k="name:ur" v="جزیرہ کلپرٹن"/>
     <tag k="official_name" v="Clipperton"/>
+    <tag k="official_name:ar" v="كلبرتون"/>
     <tag k="population" v="0"/>
     <tag k="ref:INSEE" v="989"/>
     <tag k="timezone" v="Pacific/Pitcairn"/>

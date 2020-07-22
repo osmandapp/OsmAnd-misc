@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<osm version="0.6" generator="Overpass API 0.7.55.7 8b86ff77">
+<osm version="0.6" generator="Overpass API 0.7.56.3 eb200aeb">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2020-06-05T10:24:03Z"/>
+<meta osm_base="2020-07-17T21:18:02Z"/>
 
   <relation id="9407">
     <tag k="ISO3166-1" v="AD"/>
@@ -706,7 +706,6 @@
     <tag k="admin_level" v="2"/>
     <tag k="alt_name:eo" v="Aŭstrio"/>
     <tag k="boundary" v="administrative"/>
-    <tag k="capital_city" v="Wien"/>
     <tag k="currency" v="EUR"/>
     <tag k="default_language" v="de"/>
     <tag k="description" v="Österreich ist ein mitteleuropäischer Binnenstaat mit rund 8,8 Millionen Einwohnern."/>
@@ -1906,7 +1905,7 @@
     <tag k="TMC:cid_58:tabcd_1:LocationCode" v="8"/>
     <tag k="admin_level" v="2"/>
     <tag k="alt_name:ar" v="بولونيا"/>
-    <tag k="alt_name:eo" v="Pollando;Polio"/>
+    <tag k="alt_name:eo" v="Polio;Polujo"/>
     <tag k="boundary" v="administrative"/>
     <tag k="currency" v="PLN"/>
     <tag k="default_language" v="pl"/>
@@ -1966,7 +1965,7 @@
     <tag k="name:el" v="Πολωνία"/>
     <tag k="name:eml" v="Pulógna"/>
     <tag k="name:en" v="Poland"/>
-    <tag k="name:eo" v="Polujo"/>
+    <tag k="name:eo" v="Pollando"/>
     <tag k="name:es" v="Polonia"/>
     <tag k="name:et" v="Poola"/>
     <tag k="name:eu" v="Polonia"/>
@@ -3317,7 +3316,7 @@
     <tag k="TMC:cid_58:tabcd_1:LCLversion" v="8.00"/>
     <tag k="TMC:cid_58:tabcd_1:LocationCode" v="1"/>
     <tag k="admin_level" v="2"/>
-    <tag k="alt_name:eo" v="Germanio"/>
+    <tag k="alt_name:eo" v="Germanujo"/>
     <tag k="border_type" v="country"/>
     <tag k="boundary" v="administrative"/>
     <tag k="currency" v="EUR"/>
@@ -3396,7 +3395,7 @@
     <tag k="name:el" v="Γερμανία"/>
     <tag k="name:eml" v="Germâgna"/>
     <tag k="name:en" v="Germany"/>
-    <tag k="name:eo" v="Germanujo"/>
+    <tag k="name:eo" v="Germanio"/>
     <tag k="name:es" v="Alemania"/>
     <tag k="name:et" v="Saksamaa"/>
     <tag k="name:eu" v="Alemania"/>
@@ -5532,7 +5531,6 @@
     <tag k="fixme" v="name:xx-North Macedonia official_name:xx-Republic of North Macedonia old_name:xx-Macedonia old_official_name:xx-Republic of Macedonia"/>
     <tag k="flag" v="https://upload.wikimedia.org/wikipedia/commons/7/79/Flag_of_North_Macedonia.svg"/>
     <tag k="int_name" v="North Macedonia"/>
-    <tag k="is_in:continent" v="Europe"/>
     <tag k="name" v="Северна Македонија"/>
     <tag k="name:UN:ar" v="جمهورية شمال مقدونيا"/>
     <tag k="name:UN:el" v="Βόρεια Μακεδονία"/>
@@ -8293,7 +8291,7 @@
     <tag k="int_name" v="Ireland"/>
     <tag k="is_in:continent" v="Europe"/>
     <tag k="is_in:ocean" v="Atlantic"/>
-    <tag k="name" v="Ireland"/>
+    <tag k="name" v="Éire / Ireland"/>
     <tag k="name:ace" v="Irlandia"/>
     <tag k="name:af" v="Ierland"/>
     <tag k="name:ak" v="Aereland"/>
@@ -10804,7 +10802,7 @@
     <tag k="name:nan" v="Ecuador"/>
     <tag k="name:nds" v="Ecuador"/>
     <tag k="name:ne" v="इक्वेडर"/>
-    <tag k="name:nl" v="Equador"/>
+    <tag k="name:nl" v="Ecuador"/>
     <tag k="name:nn" v="Ecuador"/>
     <tag k="name:no" v="Ecuador"/>
     <tag k="name:nov" v="Equador"/>
@@ -10862,6 +10860,7 @@
     <tag k="name:uz" v="Ekvador"/>
     <tag k="name:vec" v="Ecuador"/>
     <tag k="name:vi" v="Ecuador"/>
+    <tag k="name:vls" v="Ecuador"/>
     <tag k="name:vo" v="Lekvadorän"/>
     <tag k="name:war" v="Ecuador"/>
     <tag k="name:wo" v="Ekwadoor"/>
@@ -10895,7 +10894,6 @@
     <tag k="currency" v="MXN"/>
     <tag k="default_language" v="es"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/f/fc/Flag_of_Mexico.svg"/>
-    <tag k="is_in:continent" v="North America"/>
     <tag k="name" v="México"/>
     <tag k="name:ace" v="Meksiko"/>
     <tag k="name:af" v="Meksiko"/>
@@ -11332,7 +11330,7 @@
     <tag k="timezone" v="America/Bogota"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q739"/>
-    <tag k="wikipedia:es" v="Colombia"/>
+    <tag k="wikipedia" v="es:Colombia"/>
   </relation>
   <relation id="148838">
     <tag k="ISO3166-1" v="US"/>
@@ -15216,7 +15214,6 @@
     <tag k="default_language" v="el"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_Greece.svg"/>
     <tag k="int_name" v="Greece"/>
-    <tag k="is_in:continent" v="Europe"/>
     <tag k="name" v="Ελλάς"/>
     <tag k="name:ab" v="Барзентәыла"/>
     <tag k="name:ace" v="Yunani"/>
@@ -20029,9 +20026,8 @@
     <tag k="admin_level" v="2"/>
     <tag k="alt_name:vi" v="Xu-đăng"/>
     <tag k="boundary" v="administrative"/>
+    <tag k="default_language" v="ar"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/0/01/Flag_of_Sudan.svg"/>
-    <tag k="int_name" v="Sudan"/>
-    <tag k="is_in:continent" v="Africa"/>
     <tag k="name" v="السودان"/>
     <tag k="name:ace" v="Sudan"/>
     <tag k="name:af" v="Soedan"/>
@@ -20045,6 +20041,7 @@
     <tag k="name:arz" v="السودان"/>
     <tag k="name:ast" v="Sudán"/>
     <tag k="name:az" v="Sudan"/>
+    <tag k="name:azb" v="سودان"/>
     <tag k="name:ba" v="Судан"/>
     <tag k="name:bar" v="Sudan"/>
     <tag k="name:bat-smg" v="Sudans"/>
@@ -20119,13 +20116,17 @@
     <tag k="name:ka" v="სუდანი"/>
     <tag k="name:kaa" v="Sudan"/>
     <tag k="name:kab" v="Sudan"/>
+    <tag k="name:kab-Arab" v="سودان"/>
     <tag k="name:kbd" v="Судан"/>
     <tag k="name:kg" v="Sudan"/>
     <tag k="name:ki" v="Sũdana"/>
     <tag k="name:kk" v="Судан"/>
+    <tag k="name:kk-Arab" v="سۋدان"/>
+    <tag k="name:kmr" v="سوودان"/>
     <tag k="name:kn" v="ಸುಡಾನ್"/>
     <tag k="name:ko" v="수단"/>
     <tag k="name:ku" v="Sûdan"/>
+    <tag k="name:ku-Arab" v="سوودان"/>
     <tag k="name:kw" v="Soudan"/>
     <tag k="name:ky" v="Судан"/>
     <tag k="name:la" v="Sudania"/>
@@ -20147,6 +20148,7 @@
     <tag k="name:ms" v="Sudan"/>
     <tag k="name:mt" v="Sudan"/>
     <tag k="name:my" v="ဆူဒန်နိုင်ငံ"/>
+    <tag k="name:mzn" v="سودان"/>
     <tag k="name:na" v="Tudan"/>
     <tag k="name:nah" v="Sudan"/>
     <tag k="name:nan" v="Sudan"/>
@@ -20163,6 +20165,7 @@
     <tag k="name:om" v="Sudaan"/>
     <tag k="name:or" v="ସୁଦାନ"/>
     <tag k="name:os" v="Судан"/>
+    <tag k="name:ota" v="سودان"/>
     <tag k="name:pa" v="ਸੁਡਾਨ"/>
     <tag k="name:pam" v="Sudan"/>
     <tag k="name:pap" v="Sudan"/>
@@ -20184,6 +20187,7 @@
     <tag k="name:sc" v="Sudan"/>
     <tag k="name:scn" v="Sudan"/>
     <tag k="name:sco" v="Sudan"/>
+    <tag k="name:sd" v="سوڊان"/>
     <tag k="name:se" v="Sudan"/>
     <tag k="name:sg" v="Sudäan"/>
     <tag k="name:sh" v="Sudan"/>
@@ -20228,7 +20232,12 @@
     <tag k="name:yue" v="蘇丹"/>
     <tag k="name:zgh" v="ⵙⵓⴷⴰⵏ"/>
     <tag k="name:zh" v="苏丹共和国"/>
+    <tag k="official_name" v="جمهورية السودان"/>
+    <tag k="official_name:ar" v="جمهورية السودان"/>
+    <tag k="official_name:azb" v="سودان جومهوریتی"/>
     <tag k="official_name:cs" v="Súdánská republika"/>
+    <tag k="official_name:fa" v="جمهوری سودان"/>
+    <tag k="official_name:ur" v="جمہوریہ سوڈان"/>
     <tag k="official_name:vi" v="Cộng hòa Sudan"/>
     <tag k="timezone" v="Africa/Khartoum"/>
     <tag k="type" v="boundary"/>
@@ -20653,6 +20662,7 @@
     <tag k="name:yue" v="赤道畿內亞"/>
     <tag k="name:zea" v="Equatoriaol Hunea"/>
     <tag k="name:zh" v="赤道几内亚"/>
+    <tag k="name:zh-Hans" v="赤道几内亚"/>
     <tag k="name:zh_pinyin" v="Chìdào Jīnèiyà"/>
     <tag k="name:zu" v="iGini Enkabazwe"/>
     <tag k="official_name" v="República de Guinea Ecuatorial"/>
@@ -20781,7 +20791,7 @@
     <tag k="official_name:xmf" v="ეკვატორული გვინეაშ რესპუბლიკა"/>
     <tag k="official_name:yi" v="רעפובליק פון עקוואַטארישער גינע"/>
     <tag k="official_name:yo" v="Orile-ede Olominira ile Guinea Agedemejiaye"/>
-    <tag k="official_name:zh" v="赤道幾內亞共和國"/>
+    <tag k="official_name:zh" v="赤道几内亚共和国"/>
     <tag k="official_name:zu" v="IRiphabliki weGini Enkabazwe"/>
     <tag k="timezone" v="Africa/Malabo"/>
     <tag k="type" v="boundary"/>
@@ -20984,10 +20994,13 @@
     <tag k="name:yue" v="加蓬"/>
     <tag k="name:zea" v="Gabon"/>
     <tag k="name:zh" v="加蓬"/>
+    <tag k="name:zh-Hans" v="加蓬"/>
+    <tag k="name:zh-Hant" v="加蓬"/>
     <tag k="name:zu" v="IGaboni"/>
     <tag k="official_name:ar" v="الجمهورية الغابونية"/>
     <tag k="official_name:cs" v="Gabonská republika"/>
     <tag k="official_name:fa" v="جمهوری گابن"/>
+    <tag k="official_name:zh" v="加蓬共和国"/>
     <tag k="timezone" v="Africa/Libreville"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q1000"/>
@@ -21002,6 +21015,7 @@
     <tag k="alt_name:en" v="Congo (Brazzaville)"/>
     <tag k="alt_name:eo" v="Kongo Brazavila"/>
     <tag k="alt_name:sv" v="Konto-Brazzaville"/>
+    <tag k="alt_name:zh" v="刚果（布）"/>
     <tag k="boundary" v="administrative"/>
     <tag k="currency" v="XAF"/>
     <tag k="default_language" v="fr"/>
@@ -21166,8 +21180,9 @@
     <tag k="name:xal" v="Конһлмудин Орн"/>
     <tag k="name:yi" v="רעפובליק פון קאנגא"/>
     <tag k="name:yo" v="Orílẹ̀-èdè Olómìnira ilẹ̀ Kóngò"/>
-    <tag k="name:yue" v="剛果"/>
+    <tag k="name:yue" v="剛果（布）"/>
     <tag k="name:zh" v="刚果共和国"/>
+    <tag k="name:zh-Hans" v="刚果共和国"/>
     <tag k="name:zu" v="IKongo"/>
     <tag k="official_name" v="République du Congo"/>
     <tag k="official_name:de" v="Departements der Republik Kongo"/>
@@ -21175,6 +21190,7 @@
     <tag k="official_name:es" v="Republica del Congo"/>
     <tag k="official_name:fr" v="République du Congo"/>
     <tag k="official_name:pl" v="Republika Konga"/>
+    <tag k="official_name:zh" v="刚果共和国"/>
     <tag k="timezone" v="Africa/Brazzaville"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q971"/>
@@ -23324,6 +23340,7 @@
     <tag k="name:za" v="Angola"/>
     <tag k="name:zea" v="Anhola"/>
     <tag k="name:zh" v="安哥拉"/>
+    <tag k="name:zh-Hans" v="安哥拉"/>
     <tag k="name:zh_pinyin" v="Āngēlā"/>
     <tag k="name:zu" v="I-Angola"/>
     <tag k="official_name" v="República de Angola"/>
@@ -23488,7 +23505,7 @@
     <tag k="official_name:yi" v="רעפובליק פון אנגאלא"/>
     <tag k="official_name:yo" v="Orílẹ̀-èdè Olómìnira ilẹ̀ Àngólà"/>
     <tag k="official_name:zea" v="Rippebliek Anhola"/>
-    <tag k="official_name:zh" v="安哥拉共和國"/>
+    <tag k="official_name:zh" v="安哥拉共和国"/>
     <tag k="official_name:zu" v="IRiphabliki yase-Angola"/>
     <tag k="timezone" v="Africa/Luanda"/>
     <tag k="type" v="boundary"/>
@@ -27121,7 +27138,7 @@
     <tag k="official_name:km" v="សាធារណរដ្ឋប្រជាមានិតចិន"/>
     <tag k="official_name:kn" v="ಚೀನಿ ಜನರ ಗಣರಾಜ್ಯ"/>
     <tag k="official_name:ko" v="중화인민공화국"/>
-    <tag k="official_name:ko_hanja" v="中華人民共和國"/>
+    <tag k="official_name:ko_hanja" v="中華人民共和国"/>
     <tag k="official_name:koi" v="Китай отир республика"/>
     <tag k="official_name:krc" v="Къытай Халкъ Республика"/>
     <tag k="official_name:ku" v="Komara Gel a Çînistanê"/>
@@ -38253,6 +38270,7 @@
     <tag k="name:es" v="Comoras"/>
     <tag k="name:fa" v="اتحاد قمر"/>
     <tag k="name:fr" v="Comores"/>
+    <tag k="name:he" v="קומורו"/>
     <tag k="name:hr" v="Komori"/>
     <tag k="name:ia" v="Comoros"/>
     <tag k="name:io" v="Komori"/>
@@ -38283,12 +38301,12 @@
     <tag k="official_name:es" v="Unión de las Comoras"/>
     <tag k="official_name:fa" v="مجمع‌الجزایر قمر"/>
     <tag k="official_name:fr" v="Union des Comores"/>
+    <tag k="official_name:he" v="האיחוד של איי קומורו"/>
     <tag k="official_name:ru" v="Союз Коморских Островов"/>
     <tag k="official_name:ur" v="اتحاد القمری"/>
     <tag k="timezone" v="Indian/Comoro"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q970"/>
-    <tag k="wikipedia" v="ar:جزر القمر"/>
     <tag k="wikipedia:ar" v="جزر القمر"/>
   </relation>
   <relation id="535828">
@@ -38406,6 +38424,7 @@
     <tag k="ISO3166-1:numeric" v="678"/>
     <tag k="admin_level" v="2"/>
     <tag k="alt_name:eo" v="Santomeo kaj Principeo"/>
+    <tag k="alt_name:zh" v="圣普"/>
     <tag k="boundary" v="administrative"/>
     <tag k="default_language" v="pt"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/4/4f/Flag_of_Sao_Tome_and_Principe.svg"/>
@@ -38430,10 +38449,11 @@
     <tag k="name:tzl" v="Sant-Tomás-es-Prinç"/>
     <tag k="name:uk" v="Сан-Томе і Принсіпі"/>
     <tag k="name:vo" v="Saluda-Tomeän e Prinsipeän"/>
-    <tag k="name:zh" v="圣多美和普林西比/聖多美普林西比"/>
-    <tag k="name:zh-CN" v="圣多美和普林西比"/>
-    <tag k="name:zh-TW" v="聖多美普林西比"/>
+    <tag k="name:zh" v="圣多美和普林西比"/>
+    <tag k="name:zh-Hans" v="圣多美和普林西比"/>
+    <tag k="name:zh-Hant" v="聖多美普林西比"/>
     <tag k="official_name:cs" v="Demokratická republika Svatý Tomáš a Princův ostrov"/>
+    <tag k="official_name:zh" v="圣多美和普林西比民主共和国"/>
     <tag k="timezone" v="Africa/Sao_Tome"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q1039"/>
@@ -40952,6 +40972,7 @@
     <tag k="official_name:en" v="Republic of Nauru"/>
     <tag k="official_name:es" v="República de Nauru"/>
     <tag k="official_name:ru" v="Республика Науру"/>
+    <tag k="old_name" v="Pleasant Island"/>
     <tag k="timezone" v="Pacific/Nauru"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q697"/>
@@ -41995,7 +42016,6 @@
     <tag k="int_name" v="ישראל"/>
     <tag k="is_in:continent" v="Asia"/>
     <tag k="name" v="ישראל"/>
-    <tag k="name:ace" v="Israel"/>
     <tag k="name:af" v="Israel"/>
     <tag k="name:als" v="Israel"/>
     <tag k="name:am" v="እስራኤል"/>
@@ -47282,7 +47302,7 @@
     <tag k="ISO3166-1:alpha3" v="FRA"/>
     <tag k="ISO3166-1:numeric" v="250"/>
     <tag k="admin_level" v="2"/>
-    <tag k="alt_name:eo" v="Francio"/>
+    <tag k="alt_name:eo" v="Francujo"/>
     <tag k="border_type" v="territorial"/>
     <tag k="boundary" v="administrative"/>
     <tag k="currency" v="EUR"/>
@@ -47345,7 +47365,7 @@
     <tag k="name:el" v="Γαλλία"/>
     <tag k="name:eml" v="Franza"/>
     <tag k="name:en" v="France"/>
-    <tag k="name:eo" v="Francujo"/>
+    <tag k="name:eo" v="Francio"/>
     <tag k="name:es" v="Francia"/>
     <tag k="name:et" v="Prantsusmaa"/>
     <tag k="name:eu" v="Frantzia"/>
@@ -47547,6 +47567,8 @@
     <tag k="name:zu" v="IFulansi"/>
     <tag k="note" v="this includes the full country (outer roles), i.e. the all territorial waters"/>
     <tag k="official_name" v="République française"/>
+    <tag k="official_name:ar" v="الجمهورية الفرنسية"/>
+    <tag k="official_name:azb" v="فرانسه جومهوریتی"/>
     <tag k="official_name:be" v="Рэспубліка Францыя"/>
     <tag k="official_name:be-tarask" v="Рэспубліка Францыя"/>
     <tag k="official_name:br" v="Republik Frañs"/>
@@ -47557,6 +47579,7 @@
     <tag k="official_name:es" v="República francesa"/>
     <tag k="official_name:et" v="Prantsuse Vabariik"/>
     <tag k="official_name:eu" v="Frantziako Errepublika"/>
+    <tag k="official_name:fa" v="جمهوری فرانسه"/>
     <tag k="official_name:fr" v="République française"/>
     <tag k="official_name:gd" v="Poblachd na Frainge"/>
     <tag k="official_name:id" v="Republik Perancis"/>
@@ -47566,12 +47589,15 @@
     <tag k="official_name:lt" v="Prancūzijos Respublika"/>
     <tag k="official_name:mo" v="Република Франчезэ"/>
     <tag k="official_name:nl" v="Franse Republiek"/>
+    <tag k="official_name:ps" v="د فرانسې جمهوریت"/>
     <tag k="official_name:pt" v="República Francesa"/>
     <tag k="official_name:ru" v="Французская Республика"/>
     <tag k="official_name:sk" v="Francúzska republika"/>
     <tag k="official_name:sl" v="Francoska republika"/>
     <tag k="official_name:sr" v="Република Француска"/>
     <tag k="official_name:sv" v="Republiken Frankrike"/>
+    <tag k="official_name:ug" v="فرانسىيە جۇمھۇرىيىتى"/>
+    <tag k="official_name:ur" v="جمہوریہ فرانس"/>
     <tag k="official_name:uz" v="Fransiya Respublikasi"/>
     <tag k="official_name:vi" v="Cộng hòa Pháp"/>
     <tag k="official_name:zh" v="法蘭西共和國/法兰西共和国"/>
@@ -48396,16 +48422,6 @@
     <tag k="wikidata" v="Q225"/>
     <tag k="wikipedia" v="bs:Bosna i Hercegovina"/>
   </relation>
-  <relation id="2727195">
-    <tag k="CCC:id" v="99"/>
-    <tag k="CCC:locality_status" v="Current"/>
-    <tag k="admin_level" v="2"/>
-    <tag k="attribution" v="http://wiki.openstreetmap.org/wiki/Contributors#Christchurch_City_Council"/>
-    <tag k="boundary" v="yes"/>
-    <tag k="name" v="Travis"/>
-    <tag k="place" v="suburb"/>
-    <tag k="type" v="boundary"/>
-  </relation>
   <relation id="2850940">
     <tag k="admin_level" v="2"/>
     <tag k="border_type" v="territorial"/>
@@ -48912,13 +48928,6 @@
     <tag k="wikidata" v="Q1028"/>
     <tag k="wikipedia" v="ar:المغرب"/>
   </relation>
-  <relation id="4263589">
-    <tag k="admin_level" v="2"/>
-    <tag k="border_type" v="eez"/>
-    <tag k="boundary" v="maritime"/>
-    <tag k="name" v="Philippine Continental Shelf"/>
-    <tag k="type" v="boundary"/>
-  </relation>
   <relation id="4610574">
     <tag k="admin_level" v="2"/>
     <tag k="boundary" v="claim"/>
@@ -48984,19 +48993,6 @@
     <tag k="boundary" v="disputed"/>
     <tag k="name" v="extent of Nepalese claim"/>
     <tag k="type" v="boundary"/>
-  </relation>
-  <relation id="6153362">
-    <tag k="admin_level" v="2"/>
-    <tag k="boundary" v="religious_administration"/>
-    <tag k="denomination" v="evangelical"/>
-    <tag k="name" v="Evangelische Landeskirche in Baden"/>
-    <tag k="name:en" v="Protestant Church in Baden"/>
-    <tag k="name:fr" v="Église évangélique du Pays de Bade"/>
-    <tag k="religion" v="christian"/>
-    <tag k="type" v="boundary"/>
-    <tag k="website" v="https://www.ekiba.de"/>
-    <tag k="wikidata" v="Q897256"/>
-    <tag k="wikipedia" v="de:Evangelische Landeskirche in Baden"/>
   </relation>
   <relation id="7157354">
     <tag k="admin_level" v="2"/>
@@ -49174,7 +49170,9 @@
     <tag k="boundary" v="claim"/>
     <tag k="claimed_by" v="MA"/>
     <tag k="disputed_by" v="ES"/>
-    <tag k="name" v="Extent of Moroccan Claim at Islas Alhucemas"/>
+    <tag k="name" v="مدى مطالبة المغرب بجزر الحسيمة"/>
+    <tag k="name:ar" v="مدى مطالبة المغرب بجزر الحسيمة"/>
+    <tag k="name:en" v="Extent of Moroccan Claim at Islas Alhucemas"/>
     <tag k="type" v="boundary"/>
   </relation>
   <relation id="9520125">
@@ -49246,7 +49244,9 @@
     <tag k="boundary" v="claim"/>
     <tag k="claimed_by" v="MA"/>
     <tag k="disputed_by" v="EH"/>
-    <tag k="name" v="Extent of Moroccan Claim with Western Sahara"/>
+    <tag k="name" v="مدى مطالبة المغرب بالصحراء الغربية"/>
+    <tag k="name:ar" v="مدى مطالبة المغرب بالصحراء الغربية"/>
+    <tag k="name:en" v="Extent of Moroccan Claim with Western Sahara"/>
     <tag k="type" v="boundary"/>
   </relation>
   <relation id="9520224">
@@ -49254,7 +49254,9 @@
     <tag k="boundary" v="claim"/>
     <tag k="claimed_by" v="EH"/>
     <tag k="disputed_by" v="MA;PS;SA"/>
-    <tag k="name" v="Extent of Western Sahara claim with Morocco"/>
+    <tag k="name" v="مدى مطالبة الصحراء الغربية بالمغرب"/>
+    <tag k="name:ar" v="مدى مطالبة الصحراء الغربية بالمغرب"/>
+    <tag k="name:en" v="Extent of Western Sahara claim with Morocco"/>
     <tag k="recognized_by" v="DZ"/>
     <tag k="type" v="boundary"/>
   </relation>
@@ -49866,4 +49868,24 @@
     <tag k="ref" v="FI1A"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q3745730"/>
-  </relation></osm>
+  </relation>
+
+  <relation id="1">
+    <tag k="name" v="Эвенкийский район (север)"/>
+    <tag k="name:en" v="Evenkiysky Rayon (north)"/>
+    <tag k="name:ru" v="Эвенкийский район (север)"/>
+    <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="12">
+    <tag k="name" v="Эвенкийский район (центр)"/>
+    <tag k="name:en" v="Evenkiysky Rayon (central)"/>
+    <tag k="name:ru" v="Эвенкийский район (центр)"/>
+    <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="14">
+    <tag k="name" v="Эвенкийский район (юг)"/>
+    <tag k="name:en" v="Evenkiysky Rayon (south)"/>
+    <tag k="name:ru" v="Эвенкийский район (юг)"/>
+    <tag k="type" v="boundary"/>
+  </relation>
+</osm>
