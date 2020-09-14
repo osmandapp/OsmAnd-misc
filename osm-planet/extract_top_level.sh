@@ -36,3 +36,4 @@ extract canada north-america
 
 extract africa planet-latest
 extract australia-oceania-all planet-latest
+extract antarctica australia-oceania-all
