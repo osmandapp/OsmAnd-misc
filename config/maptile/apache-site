@@ -1,0 +1,33 @@
+<VirtualHost *:80 *:8086>
+        ServerAdmin webmaster@localhost
+        ServerName maptile.osmand.net
+        ModTileEnableStats On
+        # LoadTileConfigFile /usr/local/etc/renderd.conf
+        ModTileRenderdSocketName /var/run/renderd/renderd.sock
+        # ModTileRenderdSocketName /var/lib/tirex/modtile.sock
+        ModTileTileDir           /media/ssd/tiles
+        AddTileConfig            /hd highres
+        AddTileConfig            /df default
+        AddTileConfig            /x2 scale
+        # AddTileConfig            /test test
+        AddTileConfig            / default
+        # Timeout before giving up for a tile to be rendered
+        ModTileRequestTimeout 0
+        # Timeout before giving up for a tile to be rendered that is otherwise missing
+        ModTileMissingRequestTimeout 60
+        # Specify server load to deliver from cache without rerendering
+        ModTileMaxLoadOld 6
+        # 90 days
+         ModTileCacheDurationLowZoom 9 7776000
+        # 5 days
+        ModTileCacheDurationMediumZoom 13 604800
+
+
+        # Possible values include: debug, info, notice, warn, error, crit,
+        # alert, emerg.
+        #LogLevel warn
+        DocumentRoot /var/www/html
+
+
+</VirtualHost>
+
