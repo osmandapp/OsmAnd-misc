@@ -1,0 +1,37 @@
+server {
+        listen 443 ssl;
+        listen 80;
+        server_name tile.osmand.net;
+        root /var/www/html/;
+        #ssl on;
+        ssl_certificate /etc/ssl/cacert-tile.pem;
+        ssl_certificate_key /etc/ssl/privkey-tile.pem;
+        # Add index.php to the list if you are using PHP
+        #index index.html index.htm index.nginx-debian.html;
+
+        # location ~ ^/hd/([0-9])/ {
+        location ~ ^/xx/([0-9])/ {
+                proxy_set_header X-Forwarded-For $remote_addr;
+                proxy_set_header X-Real-IP  $remote_addr;
+                proxy_set_header Host $host;
+                proxy_send_timeout 100s;
+                proxy_read_timeout 100s;
+                proxy_connect_timeout 100s;
+                proxy_pass http://127.0.0.1:8086;
+        }
+
+        location / {
+               # limit_req zone=one burst=128;
+              #  limit_req zone=one rate=8r/s;
+              #  limit_req zone=one burst=256;
+                proxy_set_header X-Forwarded-For $remote_addr;
+                proxy_set_header X-Real-IP  $remote_addr;
+                proxy_set_header Host $host;
+                proxy_send_timeout 100s;
+                proxy_read_timeout 100s;
+                proxy_connect_timeout 100s;
+                proxy_buffer_size 128k;
+                proxy_buffers 16 128k;
+                proxy_pass http://127.0.0.1:8086;
+        }
+}
