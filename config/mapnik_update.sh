@@ -40,12 +40,12 @@ cp $STATE_FOLDER/state-old.txt $STATE_FOLDER/state.txt
 # -U jenkins
 osm2pgsql --append --slim -d $DB_NAME -P $DB_PORT \
 	--hstore --multi-geometry \
-	--cache-strategy dense --cache 20000 \
+	--cache-strategy dense --cache 40000 \
 	--number-processes 4 \
 	--tag-transform-script $TAG_TRANSFORM_SCRIPT \
 	--style $OSM_STYLE \
 	--flat-nodes $FOLDER/$FLAT_NODES_BIN_NAME \
-	--expire-tiles 12-18 --expire-output $EXPIRED_FILE \
+	--expire-tiles 12-19 --expire-output $EXPIRED_FILE \
 	$CHANGES_FILE
 cp $STATE_FOLDER/state-new.txt $STATE_FOLDER/state.txt
 
