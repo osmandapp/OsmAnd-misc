@@ -3,14 +3,14 @@
 FOLDER=${FOLDER:-/home/mapnikdb}
 cd $FOLDER
 
-DB_NAME=${DB_NAME:-osm}
-DB_PORT=${DB_PORT:-5433}
+DB_NAME=${DB_NAME:-gis}
+DB_PORT=${DB_PORT:-5432}
 # OSMOSIS=${OSMOSIS:-$FOLDER/osmosis.run}
 
 TILES_DIR=${TILES_DIR:-/var/lib/tirex/tiles/}
-TILES_SOCK=${TILES_SOCK:-/var/lib/tirex/modtile.sock}
-OSM_STYLE=${OSM_STYLE:-/usr/local/share/osm2pgsql/default.style}
-TAG_TRANSFORM_SCRIPT=${TAG_TRANSFORM_SCRIPT:-~/openstreetmap-carto/openstreetmap-carto.lua}
+TILES_SOCK=${TILES_SOCK:-/var/run/renderd/renderd.sock}
+OSM_STYLE=${OSM_STYLE:-/home/renderaccount/src/openstreetmap-carto/openstreetmap-carto.style}
+TAG_TRANSFORM_SCRIPT=${TAG_TRANSFORM_SCRIPT:-/home/renderaccount/src/openstreetmap-carto/openstreetmap-carto.lua}
 FLAT_NODES_BIN_NAME=${FLAT_NODES_BIN_NAME:-flatnodes.bin}
 
 ID=$(date +"%d_%m_%H_%M")
