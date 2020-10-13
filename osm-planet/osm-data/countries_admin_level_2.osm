@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.56.3 eb200aeb">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2020-10-01T09:01:02Z"/>
+<meta osm_base="2020-10-13T08:22:02Z"/>
 
   <relation id="9407">
     <tag k="ISO3166-1" v="AD"/>
@@ -11748,7 +11748,7 @@
     <tag k="int_name" v="Mongolia"/>
     <tag k="is_in:continent" v="Asia"/>
     <tag k="land_area" v="administrative"/>
-    <tag k="name" v="Монгол улс"/>
+    <tag k="name" v="Монгол улс ᠮᠤᠩᠭᠤᠯ ᠤᠯᠤᠰ"/>
     <tag k="name:ace" v="Mongolia"/>
     <tag k="name:af" v="Mongolië"/>
     <tag k="name:als" v="Mongolei"/>
@@ -11856,7 +11856,8 @@
     <tag k="name:mi" v="Mongōria"/>
     <tag k="name:mk" v="Монголија"/>
     <tag k="name:ml" v="മംഗോളിയ"/>
-    <tag k="name:mn" v="Монгол улс"/>
+    <tag k="name:mn-cyrl" v="Монгол улс"/>
+    <tag k="name:mn-mong" v="ᠮᠤᠩᠭᠤᠯ ᠤᠯᠤᠰ"/>
     <tag k="name:mo" v="Монголия"/>
     <tag k="name:mr" v="मंगोलिया"/>
     <tag k="name:ms" v="Mongolia"/>
@@ -25573,7 +25574,7 @@
     <tag k="int_name" v="Kazakhstan"/>
     <tag k="int_ref" v="KZ"/>
     <tag k="is_in:continent" v="Asia"/>
-    <tag k="name" v="Казахстан"/>
+    <tag k="name" v="Қазақстан"/>
     <tag k="name:ab" v="Ҟазаҟсҭан"/>
     <tag k="name:ace" v="Kazakhstan"/>
     <tag k="name:af" v="Kasakstan"/>
@@ -31158,10 +31159,8 @@
     <tag k="alt_name:vi" v="Áp-ga-nít-xtăng"/>
     <tag k="alt_name:war" v="Afghanistan"/>
     <tag k="boundary" v="administrative"/>
-    <tag k="default_language" v="fa"/>
+    <tag k="default_language" v="ps"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/9/9a/Flag_of_Afghanistan.svg"/>
-    <tag k="int_name" v="Afghanistan"/>
-    <tag k="is_in:continent" v="Asia"/>
     <tag k="name" v="افغانستان"/>
     <tag k="name:UN:ar" v="أفغانستان"/>
     <tag k="name:UN:en" v="Afghanistan"/>
@@ -31277,6 +31276,7 @@
     <tag k="name:kg" v="Afghanistan"/>
     <tag k="name:ki" v="Afghanistan"/>
     <tag k="name:kk" v="Ауғанстан"/>
+    <tag k="name:kk-Arab" v="اۋعانستان"/>
     <tag k="name:kl" v="Afghanistan"/>
     <tag k="name:km" v="សាធារណរដ្ឋឥស្លាមអាហ្វហ្កានីស្ថាន"/>
     <tag k="name:kn" v="ಅಫ್ಘಾನಿಸ್ತಾನ"/>
@@ -31335,6 +31335,7 @@
     <tag k="name:om" v="Afgaanistaan"/>
     <tag k="name:or" v="ଆଫଗାନିସ୍ତାନ"/>
     <tag k="name:os" v="Афгъанистан"/>
+    <tag k="name:ota" v="افغانستان"/>
     <tag k="name:pa" v="ਅਫ਼ਗ਼ਾਨਿਸਤਾਨ"/>
     <tag k="name:pag" v="Afghanistan"/>
     <tag k="name:pam" v="Afganistan"/>
@@ -31379,6 +31380,7 @@
     <tag k="name:su" v="Apganistan"/>
     <tag k="name:sv" v="Afghanistan"/>
     <tag k="name:sw" v="Afghanistan"/>
+    <tag k="name:syc" v="ܐܦܓܐܢܣܛܐܢ"/>
     <tag k="name:szl" v="Afgańistan"/>
     <tag k="name:ta" v="ஆப்கானித்தான்"/>
     <tag k="name:te" v="ఆఫ్ఘనిస్తాన్"/>
@@ -31417,7 +31419,7 @@
     <tag k="name:zh" v="阿富汗"/>
     <tag k="name:zh_pinyin" v="Āfùhàn"/>
     <tag k="name:zu" v="I-Afganistani"/>
-    <tag k="official_name" v="Cộng hòa Hồi giáo Afghanistan"/>
+    <tag k="official_name" v="د افغانستان اسلامي جمهوريت"/>
     <tag k="official_name:ace" v="Republik Islam Afghanistan"/>
     <tag k="official_name:ady" v="Ислъам Республикэу Афганистан"/>
     <tag k="official_name:af" v="Islamitiese Republiek van Afghanistan"/>
@@ -31580,7 +31582,11 @@
     <tag k="timezone" v="Asia/Kabul"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q889"/>
-    <tag k="wikipedia" v="fa:افغانستان"/>
+    <tag k="wikipedia" v="ps:افغانستان"/>
+    <tag k="wikipedia:ar" v="أفغانستان"/>
+    <tag k="wikipedia:fa" v="افغانستان"/>
+    <tag k="wikipedia:ps" v="افغانستان"/>
+    <tag k="wikipedia:ur" v="افغانستان"/>
   </relation>
   <relation id="304716">
     <tag k="ISO3166-1" v="IN"/>
@@ -45225,7 +45231,6 @@
     <tag k="official_name:ko" v="타이왕국"/>
     <tag k="official_name:pl" v="Królestwo Tajlandii"/>
     <tag k="official_name:ur" v="تمملکت تھائی لینڈ"/>
-    <tag k="route" v="road"/>
     <tag k="timezone" v="Asia/Bangkok"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q869"/>
@@ -46066,7 +46071,6 @@
     <tag k="driving_side" v="left"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/6/66/Flag_of_Malaysia.svg"/>
     <tag k="name" v="Malaysia"/>
-    <tag k="name:af" v="Maleisië"/>
     <tag k="name:als" v="Malaysia"/>
     <tag k="name:am" v="ማሌዢያ"/>
     <tag k="name:an" v="Malaisia"/>
@@ -46175,7 +46179,7 @@
     <tag k="name:ml" v="മലേഷ്യ"/>
     <tag k="name:mn" v="Малайз"/>
     <tag k="name:mr" v="मलेशिया"/>
-    <tag k="name:ms" v="Malaysia"/>
+    <tag k="name:ms" v="Maleisië"/>
     <tag k="name:mt" v="Malażja"/>
     <tag k="name:my" v="မလေးရှားနိုင်ငံ"/>
     <tag k="name:na" v="Maraidja"/>
@@ -49852,6 +49856,13 @@
     <tag k="note" v="De jure an exclave of Nakhchivan, but since 1992 controlled by Armenia"/>
     <tag k="type" v="boundary"/>
   </relation>
+  <relation id="11720962">
+    <tag k="admin_level" v="2"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="Thành phố Thủ Đức"/>
+    <tag k="place" v="municipality"/>
+    <tag k="type" v="boundary"/>
+  </relation>
   <way id="52947809">
     <nd ref="670927410"/>
     <nd ref="670927403"/>
@@ -50288,6 +50299,12 @@
     <tag k='name:sr' v='Северозападни' />
     <tag k='name:zh' v='西北部' />
   </node>
+  <node id='-65311'>
+    <tag k='name' v='Victoria' />
+    <tag k='name:en' v='Victoria' />
+    <tag k='is_in' v='USA' />
+  </node>
+
   <node id='-65352'>
     <tag k='is_in:country' v='Switzerland' />
     <tag k='name' v='Central' />
@@ -50398,10 +50415,4 @@
     <tag k="name:ru" v="Гренландия (юг)"/>
     <tag k="type" v="boundary"/>
   </relation>
-  <node id='-65311'>
-    <tag k='name' v='Victoria' />
-    <tag k='name:en' v='Victoria' />
-    <tag k='is_in' v='USA' />
-  </node>
-
 </osm>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.56.3 eb200aeb">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2020-10-01T09:54:03Z"/>
+<meta osm_base="2020-10-13T08:22:02Z"/>
 
   <node id="671022" lat="36.7014631" lon="-118.7559974">
     <tag k="alt_name:vi" v="California"/>
@@ -1577,70 +1577,6 @@
     <tag k="wikidata" v="Q43407"/>
     <tag k="wikipedia" v="en:Shandong"/>
   </node>
-  <node id="244081648" lat="31.2322758" lon="121.4692071">
-    <tag k="alt_name:cs" v="Šang-chaj"/>
-    <tag k="gns:ADM1" v="23"/>
-    <tag k="gns:DSG" v="ADM1"/>
-    <tag k="gns:UFI" v="-1924470"/>
-    <tag k="gns:UNI" v="9309919"/>
-    <tag k="int_name" v="Shanghai"/>
-    <tag k="name" v="上海市"/>
-    <tag k="name:af" v="Sjanghai"/>
-    <tag k="name:ar" v="شانغهاي"/>
-    <tag k="name:az" v="Şanxay"/>
-    <tag k="name:cdo" v="Siông-hāi"/>
-    <tag k="name:ceb" v="Shanghai"/>
-    <tag k="name:cs" v="Šanghaj"/>
-    <tag k="name:da" v="Shanghai"/>
-    <tag k="name:de" v="Shanghai"/>
-    <tag k="name:el" v="Σαγκάη"/>
-    <tag k="name:en" v="Shanghai"/>
-    <tag k="name:eo" v="Ŝanhajo"/>
-    <tag k="name:es" v="Shanghái"/>
-    <tag k="name:et" v="Shanghai"/>
-    <tag k="name:eu" v="Shanghai"/>
-    <tag k="name:fr" v="Shànghǎi"/>
-    <tag k="name:gan" v="上海"/>
-    <tag k="name:hak" v="Sông-hói"/>
-    <tag k="name:he" v="שאנגחאי"/>
-    <tag k="name:hi" v="शंघाई"/>
-    <tag k="name:hu" v="Shanghai"/>
-    <tag k="name:ia" v="Shanghai"/>
-    <tag k="name:id" v="Shanghai"/>
-    <tag k="name:io" v="Shanghai"/>
-    <tag k="name:it" v="Shanghai"/>
-    <tag k="name:ja" v="上海市"/>
-    <tag k="name:ko" v="상하이"/>
-    <tag k="name:lt" v="Šanchajus"/>
-    <tag k="name:lzh" v="上海市"/>
-    <tag k="name:mi" v="Hangahai"/>
-    <tag k="name:ms" v="Shanghai"/>
-    <tag k="name:nan" v="Siōng-hái-chhī"/>
-    <tag k="name:pl" v="Szanghaj"/>
-    <tag k="name:pt" v="Xangai"/>
-    <tag k="name:ru" v="Шанхай"/>
-    <tag k="name:sk" v="Šanghaj"/>
-    <tag k="name:su" v="Shanghai"/>
-    <tag k="name:ta" v="சாங்காய்"/>
-    <tag k="name:th" v="เซี่ยงไฮ้"/>
-    <tag k="name:tl" v="Shanghai"/>
-    <tag k="name:tr" v="Şanghay"/>
-    <tag k="name:uk" v="Шанхай"/>
-    <tag k="name:ur" v="شنگھائی"/>
-    <tag k="name:vi" v="Thượng Hải"/>
-    <tag k="name:wuu" v="上海市"/>
-    <tag k="name:yue" v="上海"/>
-    <tag k="name:zh" v="上海市"/>
-    <tag k="name:zh-Hans" v="上海市"/>
-    <tag k="name:zh-Hant" v="上海市"/>
-    <tag k="place" v="state"/>
-    <tag k="population" v="15550000"/>
-    <tag k="ref" v="沪"/>
-    <tag k="ref:en" v="SH"/>
-    <tag k="ref:vi" v="Hỗ"/>
-    <tag k="wikidata" v="Q8686"/>
-    <tag k="wikipedia" v="en:Shanghai"/>
-  </node>
   <node id="244081655" lat="36.0000000" lon="109.0000000">
     <tag k="alt_ref" v="秦"/>
     <tag k="alt_ref:vi" v="Tần"/>
@@ -2141,7 +2077,6 @@
     <tag k="wikipedia" v="en:Western Australia"/>
   </node>
   <node id="304951007" lat="-30.5343665" lon="135.6301212">
-    <tag k="is_in:country_code" v="AU"/>
     <tag k="name" v="South Australia"/>
     <tag k="name:ar" v="جنوب أستراليا"/>
     <tag k="name:be" v="Паўднёвая Аўстралія"/>
@@ -6740,18 +6675,6 @@
     <tag k="wikidata" v="Q1353"/>
     <tag k="wikipedia" v="en:Delhi"/>
   </node>
-  <node id="316417062" lat="23.5833330" lon="70.0000000">
-    <tag k="gns:dsg" v="ADM2"/>
-    <tag k="gns:uni" v="-2913991"/>
-    <tag k="name" v="કચ્છ"/>
-    <tag k="name:en" v="Kachchh"/>
-    <tag k="name:hi" v="कच्छ"/>
-    <tag k="name:kn" v="ಕಛ್ಚ್"/>
-    <tag k="place" v="state"/>
-    <tag k="source" v="GNS"/>
-    <tag k="wikidata" v="Q1063417"/>
-    <tag k="wikipedia" v="en:Kutch district"/>
-  </node>
   <node id="316417213" lat="29.0000000" lon="76.0000000">
     <tag k="gns:dsg" v="ADM1"/>
     <tag k="gns:uni" v="-2911966"/>
@@ -10019,6 +9942,7 @@
     <tag k="name:de" v="Schottland"/>
     <tag k="name:eo" v="Skotlando"/>
     <tag k="name:es" v="Escocia"/>
+    <tag k="name:et" v="Šotimaa"/>
     <tag k="name:eu" v="Eskozia"/>
     <tag k="name:fi" v="Skotlanti"/>
     <tag k="name:fr" v="Écosse"/>
@@ -10219,7 +10143,9 @@
     <tag k="wikidata" v="Q1581"/>
     <tag k="wikipedia" v="en:Missouri"/>
   </node>
-  <node id="473857781" lat="53.7735234" lon="12.5755746">
+  <node id="473857781" lat="53.7735064" lon="12.5755471">
+    <tag k="description:de" v="Metallplatte, die den Mittelpunkt MV darstellen soll."/>
+    <tag k="inscription" v="005 - 1000 Jahre Mecklenburg - 1995 - Teterow - Geografischer Mittelpunkt von Mecklenburg-Vorpommern - gestiftet von BCM Dr. R. Dettmann"/>
     <tag k="name" v="Mecklenburg-Vorpommern"/>
     <tag k="name:ar" v="مكلنبورغ فوربمرن"/>
     <tag k="name:be" v="Мекленбург-Пярэдняя Памеранія"/>
@@ -10257,9 +10183,9 @@
     <tag k="official_name" v="Land Mecklenburg-Vorpommern"/>
     <tag k="official_name:ar" v="ولاية مكلنبورغ فوربمرن"/>
     <tag k="place" v="state"/>
-    <tag k="population" v="1680000"/>
     <tag k="ref" v="MV"/>
     <tag k="state_code" v="MV"/>
+    <tag k="tourism" v="information"/>
     <tag k="wikidata" v="Q1196"/>
     <tag k="wikipedia" v="de:Mecklenburg-Vorpommern"/>
   </node>
@@ -18976,26 +18902,45 @@
   <node id="1732058641" lat="34.5000000" lon="69.4166670">
     <tag k="gns:dsg" v="ADM1"/>
     <tag k="gns:uni" v="-4801481"/>
-    <tag k="is_in:country" v="Afghanistan"/>
-    <tag k="is_in:country_code" v="AF"/>
-    <tag k="name" v="کابل"/>
-    <tag k="name:cs" v="Kábul"/>
-    <tag k="name:de" v="Kabul"/>
-    <tag k="name:el" v="Καμπούλ"/>
-    <tag k="name:en" v="Kabul"/>
-    <tag k="name:fa" v="کابل"/>
-    <tag k="name:fr" v="Kaboul"/>
-    <tag k="name:hu" v="Kabul"/>
+    <tag k="name" v="ولایت كابل"/>
+    <tag k="name:ar" v="ولاية كابل"/>
+    <tag k="name:azb" v="کابل ویلایت"/>
+    <tag k="name:de" v="Wilaya Kabul"/>
+    <tag k="name:en" v="Kabul Province"/>
+    <tag k="name:es" v="Provincia de Kabul"/>
+    <tag k="name:fa" v="ولایت کابل"/>
     <tag k="name:ja" v="カーブル州"/>
-    <tag k="name:ps" v="کابل"/>
-    <tag k="name:ru" v="Кабул"/>
-    <tag k="name:uk" v="Кабул"/>
+    <tag k="name:lrc" v="آستوݩ کابول"/>
+    <tag k="name:lt" v="Kabulo provincija"/>
+    <tag k="name:pnb" v="صوبہ کابل"/>
+    <tag k="name:ps" v="کابل ولايت"/>
+    <tag k="name:sd" v="ڪابل صوبو"/>
+    <tag k="name:ug" v="كابۇل ۋىلايىتى"/>
+    <tag k="name:ur" v="صوبہ کابل"/>
     <tag k="place" v="state"/>
     <tag k="ref" v="KAB"/>
+    <tag k="sorting_name" v="کابل"/>
+    <tag k="sorting_name:ar" v="كابل"/>
+    <tag k="sorting_name:arc" v="ܩܐܒܘܠ"/>
+    <tag k="sorting_name:azb" v="کابل"/>
+    <tag k="sorting_name:fa" v="کابل"/>
+    <tag k="sorting_name:ks" v="کابل"/>
+    <tag k="sorting_name:lrc" v="کابول"/>
+    <tag k="sorting_name:ota" v="کابل"/>
+    <tag k="sorting_name:pnb" v="کابل"/>
+    <tag k="sorting_name:ps" v="کابل"/>
+    <tag k="sorting_name:sd" v="ڪابل"/>
+    <tag k="sorting_name:syc" v="ܩܐܒܘܠ"/>
+    <tag k="sorting_name:ug" v="كابۇل"/>
+    <tag k="sorting_name:ur" v="کابل"/>
     <tag k="source" v="GNS"/>
     <tag k="state_code" v="KAB"/>
     <tag k="wikidata" v="Q188933"/>
-    <tag k="wikipedia" v="en:Kabul Province"/>
+    <tag k="wikipedia" v="ps:کابل ولايت"/>
+    <tag k="wikipedia:ar" v="ولاية كابل"/>
+    <tag k="wikipedia:fa" v="ولایت کابل"/>
+    <tag k="wikipedia:ps" v="کابل ولايت"/>
+    <tag k="wikipedia:ur" v="صوبہ کابل"/>
   </node>
   <node id="1732058689" lat="34.9055560" lon="69.7416670">
     <tag k="gns:dsg" v="ADM1"/>
@@ -19095,6 +19040,7 @@
     <tag k="name:pl" v="Abruzja"/>
     <tag k="name:ru" v="Абруццо"/>
     <tag k="name:scn" v="Abbruzzi"/>
+    <tag k="name:sl" v="Abruci"/>
     <tag k="name:sr" v="Абруцо"/>
     <tag k="name:uk" v="Абруццо"/>
     <tag k="place" v="state"/>
@@ -19117,6 +19063,7 @@
     <tag k="name:fur" v="Lucanie"/>
     <tag k="name:nl" v="Basilicata"/>
     <tag k="name:ru" v="Базиликата"/>
+    <tag k="name:sl" v="Bazilikata"/>
     <tag k="name:sr" v="Базиликата"/>
     <tag k="name:uk" v="Базиліката"/>
     <tag k="place" v="state"/>
@@ -19144,6 +19091,7 @@
     <tag k="name:ru" v="Калабрия"/>
     <tag k="name:scn" v="Calabbrî"/>
     <tag k="name:sk" v="Kalábria"/>
+    <tag k="name:sl" v="Kalabrija"/>
     <tag k="name:sr" v="Калабрија"/>
     <tag k="name:uk" v="Калабрія"/>
     <tag k="place" v="state"/>
@@ -19165,6 +19113,7 @@
     <tag k="name:pl" v="Kampania"/>
     <tag k="name:ru" v="Кампания"/>
     <tag k="name:sk" v="Kampánia"/>
+    <tag k="name:sl" v="Kampanija"/>
     <tag k="name:sr" v="Кампанија"/>
     <tag k="name:uk" v="Кампанія"/>
     <tag k="place" v="state"/>
@@ -19218,7 +19167,7 @@
     <tag k="name:ro" v="Friuli-Veneția Giulia"/>
     <tag k="name:ru" v="Фриули-Венеция-Джулия"/>
     <tag k="name:sk" v="Furlansko-Júlske Benátky"/>
-    <tag k="name:sl" v="Furlanija Julijska Krajina"/>
+    <tag k="name:sl" v="Furlanija - Julijska krajina"/>
     <tag k="name:uk" v="Фріулі-Венеція-Джулія"/>
     <tag k="old_name" v="Friuli-Venezia Giulia"/>
     <tag k="place" v="state"/>
@@ -19298,6 +19247,7 @@
     <tag k="name:ru" v="Ломбардия"/>
     <tag k="name:scn" v="Lummardia"/>
     <tag k="name:sk" v="Lombardia"/>
+    <tag k="name:sl" v="Lombardija"/>
     <tag k="name:tzl" v="Lumpardì"/>
     <tag k="name:uk" v="Ломбардія"/>
     <tag k="place" v="state"/>
@@ -19348,6 +19298,7 @@
     <tag k="name:nl" v="Molise"/>
     <tag k="name:ru" v="Молизе"/>
     <tag k="name:scn" v="Mulisi"/>
+    <tag k="name:sl" v="Molise"/>
     <tag k="name:sr" v="Молизе"/>
     <tag k="name:uk" v="Молізе"/>
     <tag k="place" v="state"/>
@@ -19401,6 +19352,7 @@
     <tag k="name:ru" v="Апулия"/>
     <tag k="name:scn" v="Pugghia"/>
     <tag k="name:sk" v="Apúlia"/>
+    <tag k="name:sl" v="Apulija"/>
     <tag k="name:sr" v="Апулија"/>
     <tag k="name:uk" v="Апулія"/>
     <tag k="name:ur" v="پولیا"/>
@@ -19435,6 +19387,7 @@
     <tag k="name:ru" v="Сардиния"/>
     <tag k="name:scn" v="Sardigna"/>
     <tag k="name:sk" v="Sardínia"/>
+    <tag k="name:sl" v="Sardinija"/>
     <tag k="name:sr" v="Сардинија"/>
     <tag k="name:tzl" v="Sardaignh"/>
     <tag k="name:uk" v="Сардинія"/>
@@ -19468,6 +19421,7 @@
     <tag k="name:ru" v="Сицилия"/>
     <tag k="name:scn" v="Sicilia"/>
     <tag k="name:sk" v="Sicília"/>
+    <tag k="name:sl" v="Sicilija"/>
     <tag k="name:sr" v="Сицилија"/>
     <tag k="name:sv" v="Sicilien"/>
     <tag k="name:tzl" v="Sicidia"/>
@@ -19520,6 +19474,7 @@
     <tag k="name:ru" v="Трентино - Альто-Адидже"/>
     <tag k="name:scn" v="Trintinu-Autu Adiggi"/>
     <tag k="name:sk" v="Tridentsko-Horná Adiža/Južné Tirolsko"/>
+    <tag k="name:sl" v="Trentinsko - Gornje Poadižje / Južna Tirolska"/>
     <tag k="name:uk" v="Трентіно-Альто-Адідже"/>
     <tag k="place" v="state"/>
     <tag k="population" v="1037114"/>
@@ -19541,6 +19496,7 @@
     <tag k="name:nl" v="Umbrië"/>
     <tag k="name:pt" v="Úmbria"/>
     <tag k="name:ru" v="Умбрия"/>
+    <tag k="name:sl" v="Umbrija"/>
     <tag k="name:uk" v="Умбрія"/>
     <tag k="place" v="state"/>
     <tag k="population" v="906486"/>
@@ -19560,6 +19516,7 @@
     <tag k="name:nl" v="Valle d'Aosta"/>
     <tag k="name:ru" v="Валле-д’Аоста"/>
     <tag k="name:scn" v="Vaḍḍi d'Aosta"/>
+    <tag k="name:sl" v="Dolina Aoste"/>
     <tag k="name:uk" v="Валле-д'Аоста"/>
     <tag k="place" v="state"/>
     <tag k="population" v="128230"/>
@@ -19588,7 +19545,7 @@
     <tag k="name:ru" v="Венето"/>
     <tag k="name:scn" v="Venitu"/>
     <tag k="name:sk" v="Benátsko"/>
-    <tag k="name:sl" v="Benečija"/>
+    <tag k="name:sl" v="Veneto"/>
     <tag k="name:uk" v="Венето"/>
     <tag k="place" v="state"/>
     <tag k="population" v="4937854"/>
@@ -19858,17 +19815,6 @@
     <tag k="ref" v="BE"/>
     <tag k="wikidata" v="Q1890"/>
     <tag k="wikipedia" v="en:Bengkulu"/>
-  </node>
-  <node id="1898283453" lat="-1.6115720" lon="102.7796990">
-    <tag k="name" v="Jambi"/>
-    <tag k="name:eo" v="Ĝambio"/>
-    <tag k="name:fr" v="Jambi"/>
-    <tag k="name:hu" v="Jambi"/>
-    <tag k="name:zh" v="占碑省"/>
-    <tag k="place" v="state"/>
-    <tag k="ref" v="JA"/>
-    <tag k="wikidata" v="Q2051"/>
-    <tag k="wikipedia" v="en:Jambi Province"/>
   </node>
   <node id="1898283456" lat="-4.8555039" lon="105.0272986">
     <tag k="is_in:continent" v="Asia"/>
@@ -22857,6 +22803,7 @@
     <tag k="name:en" v="Wales"/>
     <tag k="name:eo" v="Kimrio"/>
     <tag k="name:es" v="Gales"/>
+    <tag k="name:et" v="Wales"/>
     <tag k="name:eu" v="Gales"/>
     <tag k="name:fi" v="Wales"/>
     <tag k="name:fr" v="Pays de Galles"/>
@@ -23642,7 +23589,6 @@
     <tag k="state_code" v="BIE"/>
   </node>
   <node id="2702989687" lat="-20.1053948" lon="28.5426856">
-    <tag k="is_in" v="Zimbabwe"/>
     <tag k="name" v="Bulawayo"/>
     <tag k="place" v="state"/>
     <tag k="ref" v="BU"/>
@@ -23696,7 +23642,6 @@
     <tag k="state_code" v="CNN"/>
   </node>
   <node id="2702989718" lat="-17.8567035" lon="31.0601584">
-    <tag k="is_in" v="Zimbabwe"/>
     <tag k="name" v="Harare"/>
     <tag k="place" v="state"/>
     <tag k="ref" v="HA"/>
@@ -23762,7 +23707,6 @@
     <tag k="state_code" v="MV"/>
   </node>
   <node id="2702989759" lat="-19.2785043" lon="29.8790852">
-    <tag k="is_in" v="Zimbabwe"/>
     <tag k="name" v="Midlands"/>
     <tag k="place" v="state"/>
     <tag k="ref" v="MI"/>
@@ -23787,7 +23731,6 @@
     <tag k="state_code" v="NAM"/>
   </node>
   <node id="2702989775" lat="-18.9283715" lon="27.4992231">
-    <tag k="is_in" v="Zimbabwe"/>
     <tag k="name" v="Matabeleland North"/>
     <tag k="name:de" v="Nordmatabeleland"/>
     <tag k="place" v="state"/>
@@ -23802,7 +23745,6 @@
     <tag k="state_code" v="ME"/>
   </node>
   <node id="2702989789" lat="-20.7364801" lon="28.9396495">
-    <tag k="is_in" v="Zimbabwe"/>
     <tag k="name" v="Matabeleland South"/>
     <tag k="name:de" v="Südmatabeleland"/>
     <tag k="place" v="state"/>
@@ -23819,7 +23761,6 @@
     <tag k="state_code" v="UIG"/>
   </node>
   <node id="2702989801" lat="-17.1449001" lon="29.8289885">
-    <tag k="is_in" v="Zimbabwe"/>
     <tag k="name" v="Mashonaland West"/>
     <tag k="name:de" v="Westmaschonaland"/>
     <tag k="place" v="state"/>
@@ -29328,30 +29269,6 @@
     <tag k="place" v="state"/>
     <tag k="wikidata" v="Q26927"/>
     <tag k="wikipedia" v="en:Lakshadweep"/>
-  </node>
-  <node id="4569991190" lat="20.2733604" lon="73.0044988">
-    <tag k="name" v="દાદરા અને નગરહવેલી"/>
-    <tag k="name:be" v="Дадра і Нагархавелі"/>
-    <tag k="name:el" v="Ντάντρα και Ναγκάρ Χαβέλι"/>
-    <tag k="name:en" v="Dadra and Nagar Haveli"/>
-    <tag k="name:es" v="Dadra y Nagar Haveli"/>
-    <tag k="name:fr" v="Dadra et Nagar Haveli"/>
-    <tag k="name:gu" v="દાદરા અને નગરહવેલી"/>
-    <tag k="name:he" v="דאדרה ונאגר הבלי"/>
-    <tag k="name:hi" v="दादरा और नगर हवेली"/>
-    <tag k="name:hu" v="Dadra és Nagar Haveli"/>
-    <tag k="name:ja" v="ダードラー及びナガル・ハヴェーリー連邦直轄領"/>
-    <tag k="name:kn" v="ದಾದ್ರ ಮತ್ತು ನಗರ್ ಹವೆಲಿ"/>
-    <tag k="name:ko" v="다드라 나가르하벨리"/>
-    <tag k="name:ms" v="Dadra dan Nagar Haveli"/>
-    <tag k="name:pt" v="Dadrá e Nagar-Aveli"/>
-    <tag k="name:ru" v="Дадра и Нагар-Хавели"/>
-    <tag k="name:ta" v="தாத்ரா மற்றும் நகர் அவேலி"/>
-    <tag k="name:uk" v="Дадра і Нагар-Хавелі"/>
-    <tag k="name:zh" v="达德拉-纳加尔哈维利"/>
-    <tag k="place" v="state"/>
-    <tag k="wikidata" v="Q46107"/>
-    <tag k="wikipedia" v="gu:દાદરા અને નગરહવેલી"/>
   </node>
   <node id="4642463209" lat="22.1757605" lon="113.5514142">
     <tag k="alt_name:en" v="Macao"/>

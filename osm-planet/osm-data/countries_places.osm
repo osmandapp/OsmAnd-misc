@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.56.3 eb200aeb">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2020-10-01T11:15:02Z"/>
+<meta osm_base="2020-10-13T08:22:02Z"/>
 
   <node id="26036352" lat="12.7503486" lon="122.7312101">
     <tag k="alt_name:vi" v="Phi Luật Tân"/>
@@ -480,6 +480,7 @@
     <tag k="name:kab" v="Afɣanistan"/>
     <tag k="name:ki" v="Afuganistani"/>
     <tag k="name:kk" v="Ауғанстан"/>
+    <tag k="name:kk-Arab" v="اۋعانستان"/>
     <tag k="name:kl" v="Afghanistani"/>
     <tag k="name:km" v="អាហ្វហ្គានីស្ថាន"/>
     <tag k="name:kn" v="ಅಫಘಾನಿಸ್ಥಾನ್"/>
@@ -510,6 +511,7 @@
     <tag k="name:nn" v="Afghanistan"/>
     <tag k="name:no" v="Afghanistan"/>
     <tag k="name:or" v="ଆଫାଗାନିସ୍ତାନ୍"/>
+    <tag k="name:ota" v="افغانستان"/>
     <tag k="name:pl" v="Afganistan"/>
     <tag k="name:pnb" v="افغانستان"/>
     <tag k="name:ps" v="افغانستان"/>
@@ -532,6 +534,7 @@
     <tag k="name:sr" v="Авганистан"/>
     <tag k="name:sv" v="Afghanistan"/>
     <tag k="name:sw" v="Afuganistani"/>
+    <tag k="name:syc" v="ܐܦܓܐܢܣܛܐܢ"/>
     <tag k="name:ta" v="ஆப்கானிஸ்தான்"/>
     <tag k="name:te" v="ఆఫ్ఘానిస్తాన్"/>
     <tag k="name:tg" v="Афғонистон"/>
@@ -552,7 +555,7 @@
     <tag k="name:zh" v="阿富汗"/>
     <tag k="name:zh_pinyin" v="Āfùhàn"/>
     <tag k="name:zu" v="i-Afghanistan"/>
-    <tag k="official_name" v="جمهوری اسلامی افغانستان"/>
+    <tag k="official_name" v="د افغانستان اسلامي جمهوريت"/>
     <tag k="official_name:ar" v="جمهورية أفغانستان الإسلامية"/>
     <tag k="official_name:azb" v="افغانیستان ایسلام جومهوریتی"/>
     <tag k="official_name:be" v="Ісламская Рэспубліка Афганістан"/>
@@ -591,7 +594,11 @@
     <tag k="source:sqkm" v="CIA World Factbook"/>
     <tag k="sqkm" v="652230"/>
     <tag k="wikidata" v="Q889"/>
-    <tag k="wikipedia" v="fa:افغانستان"/>
+    <tag k="wikipedia" v="ps:افغانستان"/>
+    <tag k="wikipedia:ar" v="أفغانستان"/>
+    <tag k="wikipedia:fa" v="افغانستان"/>
+    <tag k="wikipedia:ps" v="افغانستان"/>
+    <tag k="wikipedia:ur" v="افغانستان"/>
   </node>
   <node id="26847709" lat="47.2000338" lon="13.1999590">
     <tag k="ISO3166-1" v="AT"/>
@@ -12338,7 +12345,6 @@
     <tag k="country_code_iso3166_1_alpha_2" v="TR"/>
     <tag k="geonames:id" v="298795"/>
     <tag k="int_name" v="Turkey"/>
-    <tag k="is_in:continent" v="Eurasia"/>
     <tag k="name" v="Türkiye"/>
     <tag k="name:ab" v="Ҭырқәтәыла"/>
     <tag k="name:ace" v="Turuki"/>
@@ -12389,7 +12395,6 @@
     <tag k="name:cy" v="Twrci"/>
     <tag k="name:da" v="Tyrkiet"/>
     <tag k="name:de" v="Türkei"/>
-    <tag k="name:diq" v="Tırkiya"/>
     <tag k="name:dsb" v="Turkojska"/>
     <tag k="name:dv" v="ތުރުކީވިލާތް"/>
     <tag k="name:dz" v="ཊཱར་ཀི"/>
@@ -12598,6 +12603,7 @@
     <tag k="name:zh-Hant" v="土耳其"/>
     <tag k="name:zh_pinyin" v="Tǔěrqí"/>
     <tag k="name:zu" v="ITheki"/>
+    <tag k="name:zza" v="Tırkiya"/>
     <tag k="official_name" v="Türkiye Cumhuriyeti"/>
     <tag k="official_name:be" v="Турэцкая Рэспубліка"/>
     <tag k="official_name:br" v="Republik Turkia"/>
@@ -15449,7 +15455,7 @@
     <tag k="geonames:id" v="1522867"/>
     <tag k="int_name" v="Kazakhstan"/>
     <tag k="is_in:continent" v="Asia"/>
-    <tag k="name" v="Казахстан"/>
+    <tag k="name" v="Қазақстан"/>
     <tag k="name:ab" v="Ҟазаҟсҭан"/>
     <tag k="name:ace" v="Kazakhstan"/>
     <tag k="name:af" v="Kasakstan"/>
@@ -34207,7 +34213,7 @@
     <tag k="country_code_iso3166_1_alpha_2" v="MN"/>
     <tag k="geonames:id" v="2029969"/>
     <tag k="int_name" v="Mongolia"/>
-    <tag k="name" v="Монгол Улс"/>
+    <tag k="name" v="Монгол Улс ᠮᠤᠩᠭᠤᠯ ᠤᠯᠤᠰ"/>
     <tag k="name:af" v="Mongolië"/>
     <tag k="name:ak" v="Mɔngolia"/>
     <tag k="name:am" v="ሞንጎሊያ"/>
