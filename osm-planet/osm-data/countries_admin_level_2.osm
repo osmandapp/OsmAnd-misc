@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.56.3 eb200aeb">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2020-10-13T08:22:02Z"/>
+<meta osm_base="2020-11-24T18:23:02Z"/>
 
   <relation id="9407">
     <tag k="ISO3166-1" v="AD"/>
@@ -5621,6 +5621,7 @@
     <tag k="name:hy" v="Մակեդոնիայի Հանրապետություն"/>
     <tag k="name:it" v="Macedonia del Nord"/>
     <tag k="name:ja" v="北マケドニア"/>
+    <tag k="name:ko" v="북마케도니아"/>
     <tag k="name:ku" v="Komara Makedonyayê"/>
     <tag k="name:kv" v="Македония Республика"/>
     <tag k="name:kw" v="Repoblek Makedoni"/>
@@ -6279,7 +6280,7 @@
     <tag k="name:zh-Hans" v="芬兰"/>
     <tag k="name:zh_pinyin" v="Fēnlán"/>
     <tag k="name:zu" v="IFinlandi"/>
-    <tag k="official_name" v="Suomen tasavalta"/>
+    <tag k="official_name" v="Suomen tasavalta / Republiken Finland"/>
     <tag k="official_name:ar" v="جمهورية فنلندا"/>
     <tag k="official_name:be" v="Фінляндская Рэспубліка"/>
     <tag k="official_name:cs" v="Finská republika"/>
@@ -8758,7 +8759,7 @@
     <tag k="name:mg" v="Latvia"/>
     <tag k="name:mhr" v="Латвий"/>
     <tag k="name:mi" v="Rāwhia"/>
-    <tag k="name:mk" v="Латвија"/>
+    <tag k="name:mk" v="Летонија"/>
     <tag k="name:ml" v="ലാത്‌വിയ"/>
     <tag k="name:mn" v="Латви"/>
     <tag k="name:mr" v="लात्व्हिया"/>
@@ -11973,7 +11974,6 @@
     <tag k="default_language" v="es"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/7/78/Flag_of_Chile.svg"/>
     <tag k="int_name" v="Chile"/>
-    <tag k="is_in:continent" v="South America"/>
     <tag k="name" v="Chile"/>
     <tag k="name:ab" v="Чили"/>
     <tag k="name:ace" v="Chili"/>
@@ -16717,7 +16717,6 @@
     <tag k="boundary" v="administrative"/>
     <tag k="default_language" v="ar"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/4/43/Flag_of_Mauritania.svg"/>
-    <tag k="is_in:continent" v="Africa"/>
     <tag k="name" v="موريتانيا"/>
     <tag k="name:af" v="Mauritanië"/>
     <tag k="name:am" v="ሞሪታኒያ"/>
@@ -19586,7 +19585,6 @@
     <tag k="currency" v="XOF"/>
     <tag k="default_language" v="fr"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/9/92/Flag_of_Mali.svg"/>
-    <tag k="is_in:continent" v="Africa"/>
     <tag k="name" v="Mali"/>
     <tag k="name:ace" v="Mali"/>
     <tag k="name:af" v="Mali"/>
@@ -19796,7 +19794,6 @@
     <tag k="boundary" v="administrative"/>
     <tag k="default_language" v="fr"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/f/f4/Flag_of_Niger.svg"/>
-    <tag k="is_in:continent" v="Africa"/>
     <tag k="name" v="Niger"/>
     <tag k="name:ace" v="Niger"/>
     <tag k="name:af" v="Niger"/>
@@ -20431,12 +20428,13 @@
     <tag k="ISO3166-1:alpha3" v="CAF"/>
     <tag k="ISO3166-1:numeric" v="140"/>
     <tag k="admin_level" v="2"/>
+    <tag k="alt_name:ar" v="جمهورية إفريقيا الوسطى"/>
+    <tag k="alt_name:ckb" v="کۆماری ئەفریقای ناوەندی"/>
     <tag k="alt_name:fr" v="Republique Centre Africaine;CentreAfrique"/>
     <tag k="alt_name:sl" v="Centralnoafriška republika"/>
     <tag k="boundary" v="administrative"/>
     <tag k="currency" v="XAF"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/6/6f/Flag_of_the_Central_African_Republic.svg"/>
-    <tag k="is_in:continent" v="Africa"/>
     <tag k="name" v="Ködörösêse tî Bêafrîka - République Centrafricaine"/>
     <tag k="name:ace" v="Republik Afrika Teungoh"/>
     <tag k="name:af" v="Sentraal-Afrikaanse Republiek"/>
@@ -20449,6 +20447,7 @@
     <tag k="name:arz" v="افريقيا الوسطى"/>
     <tag k="name:ast" v="República Centroafricana"/>
     <tag k="name:az" v="Mərkəzi Afrika Respublikası"/>
+    <tag k="name:azb" v="اوْرتا آفریقا جومهوریتی"/>
     <tag k="name:bat-smg" v="Cėntrėnės Afrėkas Respoblėka"/>
     <tag k="name:bcl" v="Sentral na Aprikanong Republika"/>
     <tag k="name:be" v="Цэнтральна-Афрыканская Рэспубліка"/>
@@ -20515,9 +20514,13 @@
     <tag k="name:kaa" v="Oraylıq Afrika Respublikası"/>
     <tag k="name:kg" v="Repubilika ya Afelika ya Kati"/>
     <tag k="name:kk" v="Орталық Африка Республикасы"/>
+    <tag k="name:kk-Arab" v="ورتالىق افرىيكا رەسپۋبلىيكاسى"/>
+    <tag k="name:kmr" v="کۆمارائا فریکایا ناڤەند"/>
     <tag k="name:kn" v="ಮಧ್ಯ ಆಫ್ರಿಕಾದ ಗಣರಾಜ್ಯ"/>
     <tag k="name:ko" v="중앙아프리카 공화국"/>
+    <tag k="name:ks" v="مرکٔزی اَفریٖکی جموٗریَت"/>
     <tag k="name:ku" v="Komara Afrîkaya Navend"/>
+    <tag k="name:ku-Arab" v="کۆمارائا فریکایا ناڤەند"/>
     <tag k="name:kw" v="Centrafrika"/>
     <tag k="name:la" v="Respublica Africae Mediae"/>
     <tag k="name:lad" v="Repuvlika Sentroafrikana"/>
@@ -20526,6 +20529,7 @@
     <tag k="name:lij" v="Repubbrica Çentro-Africann-a"/>
     <tag k="name:lmo" v="Repüblica Centrafricana"/>
     <tag k="name:ln" v="Santrafríka"/>
+    <tag k="name:lrc" v="کومرٱ ڤلات آفریقا میٛنجایی"/>
     <tag k="name:lt" v="Centrinės Afrikos Respublika"/>
     <tag k="name:lv" v="Centrālāfrikas Republika"/>
     <tag k="name:lzh" v="中非"/>
@@ -20584,6 +20588,7 @@
     <tag k="name:su" v="Républik Afrika Tengah"/>
     <tag k="name:sv" v="Centralafrikanska republiken"/>
     <tag k="name:sw" v="Jamhuri ya Afrika ya Kati"/>
+    <tag k="name:syc" v="ܩܘܛܢܝܘܬܐ ܕܐܦܪܝܩܐ ܡܨܥܝܬܐ"/>
     <tag k="name:szl" v="Strzodkowoafrikańsko Republika"/>
     <tag k="name:ta" v="மத்திய ஆப்பிரிக்கக் குடியரசு"/>
     <tag k="name:te" v="సెంట్రల్ ఆఫ్రికన్ రిపబ్లిక్"/>
@@ -20609,10 +20614,24 @@
     <tag k="name:yue" v="中非共和國"/>
     <tag k="name:zh" v="中非共和國"/>
     <tag k="name:zu" v="Central African Republic"/>
+    <tag k="official_name:ar" v="جمهورية أفريقيا الوسطى"/>
+    <tag k="official_name:arc" v="ܩܘܛܢܝܘܬܐ ܕܐܦܪܝܩܐ ܡܨܥܝܬܐ"/>
+    <tag k="official_name:azb" v="اوْرتا آفریقا جومهوریتی"/>
+    <tag k="official_name:de" v="Zentralafrikanische Republik"/>
     <tag k="official_name:en" v="Republic of Centroafricana"/>
     <tag k="official_name:eo" v="Centr-Afrika Respubliko"/>
     <tag k="official_name:es" v="Republica Centroafricana"/>
+    <tag k="official_name:fa" v="جمهوری آفریقای مرکزی"/>
     <tag k="official_name:fr" v="Republique centrafricaine"/>
+    <tag k="official_name:kk-Arab" v="ورتالىق افرىيكا رەسپۋبلىيكاسى"/>
+    <tag k="official_name:ks" v="مرکٔزی اَفریٖکی جموٗریَت"/>
+    <tag k="official_name:lrc" v="کومرٱ ڤلات آفریقا میٛنجایی"/>
+    <tag k="official_name:pa" v="ਮੱਧ ਅਫਰੀਕੀ ਗਣਰਾਜ"/>
+    <tag k="official_name:pnb" v="وچکارلا افریقی لوک راج"/>
+    <tag k="official_name:ps" v="د منځنۍ افریقا ولسمشریزه"/>
+    <tag k="official_name:syc" v="ܩܘܛܢܝܘܬܐ ܕܐܦܪܝܩܐ ܡܨܥܝܬܐ"/>
+    <tag k="official_name:ug" v="ئوتتۇرا ئافرىقا جۇمھۇرىيىتى"/>
+    <tag k="official_name:ur" v="وسطی افریقی جمہوریہ"/>
     <tag k="timezone" v="Africa/Bangui"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q929"/>
@@ -27540,6 +27559,7 @@
     <tag k="wikipedia" v="zh:中华人民共和国"/>
   </relation>
   <relation id="272644">
+    <tag k="ISO3166-1" v="VE"/>
     <tag k="ISO3166-1:alpha2" v="VE"/>
     <tag k="ISO3166-1:alpha3" v="VEN"/>
     <tag k="ISO3166-1:numeric" v="862"/>
@@ -29678,7 +29698,7 @@
     <tag k="timezone" v="America/Panama"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q804"/>
-    <tag k="wikipedia:es" v="Panamá"/>
+    <tag k="wikipedia" v="es:Panamá"/>
   </relation>
   <relation id="287670">
     <tag k="ISO3166-1" v="HN"/>
@@ -30888,7 +30908,7 @@
     <tag k="timezone" v="Africa/Asmara"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q986"/>
-    <tag k="wikipedia" v="ar:إرتريا"/>
+    <tag k="wikipedia" v="ar:إريتريا"/>
   </relation>
   <relation id="299133">
     <tag k="ISO3166-1" v="IS"/>
@@ -31149,6 +31169,7 @@
     <tag k="alt_name:gd" v="Afghanastàn"/>
     <tag k="alt_name:io" v="Afgania"/>
     <tag k="alt_name:it" v="Afganistan"/>
+    <tag k="alt_name:kaa" v="Awǵanıstan"/>
     <tag k="alt_name:la" v="Afghanistania"/>
     <tag k="alt_name:li" v="Afganistan"/>
     <tag k="alt_name:mn" v="Афган улс"/>
@@ -31178,12 +31199,15 @@
     <tag k="name:ang" v="Afghanistan"/>
     <tag k="name:ar" v="أفغانستان"/>
     <tag k="name:arc" v="ܐܦܓܐܢܣܛܐܢ"/>
+    <tag k="name:ary" v="أفغانستان"/>
     <tag k="name:arz" v="افغانستان"/>
     <tag k="name:as" v="আফগানিস্তান"/>
     <tag k="name:ast" v="Afganistán"/>
+    <tag k="name:awa" v="अफगानिस्तान"/>
     <tag k="name:az" v="Əfqanıstan"/>
     <tag k="name:azb" v="افغانیستان"/>
     <tag k="name:ba" v="Афғанстан"/>
+    <tag k="name:ban" v="Afganistan"/>
     <tag k="name:bar" v="Afghanistan"/>
     <tag k="name:bat-smg" v="Afganėstans"/>
     <tag k="name:bcl" v="Apganistan"/>
@@ -31204,7 +31228,9 @@
     <tag k="name:cdo" v="Afghanistan"/>
     <tag k="name:ce" v="АфгIанистан"/>
     <tag k="name:ceb" v="Apganistan"/>
+    <tag k="name:ch" v="Afghanistan"/>
     <tag k="name:chr" v="ᎠᏫᎨᏂᏍᏖᏂ"/>
+    <tag k="name:chy" v="Afghanistan"/>
     <tag k="name:ckb" v="ئەفغانستان"/>
     <tag k="name:co" v="Afghanistan"/>
     <tag k="name:crh" v="Afğanistan"/>
@@ -31239,10 +31265,12 @@
     <tag k="name:fy" v="Afganistan"/>
     <tag k="name:ga" v="An Afganastáin"/>
     <tag k="name:gag" v="Afganistan"/>
+    <tag k="name:gcr" v="Afganistan"/>
     <tag k="name:gd" v="Afganastan"/>
     <tag k="name:gl" v="Afganistán - افغانستان"/>
     <tag k="name:gn" v="Ahyganitã"/>
     <tag k="name:gom" v="अफगाणिस्तान"/>
+    <tag k="name:gor" v="Afganistan"/>
     <tag k="name:got" v="𐌰𐍆𐌲𐌰𐌽𐌹𐍃𐍄𐌰𐌽"/>
     <tag k="name:gu" v="અફઘાનિસ્તાન"/>
     <tag k="name:gv" v="Yn Afghanistaan"/>
@@ -31257,13 +31285,16 @@
     <tag k="name:ht" v="Afganistan"/>
     <tag k="name:hu" v="Afganisztán"/>
     <tag k="name:hy" v="Աֆղանստան"/>
+    <tag k="name:hyw" v="Աֆղանիստան"/>
     <tag k="name:ia" v="Afghanistan"/>
     <tag k="name:id" v="Afganistan"/>
     <tag k="name:ie" v="Afghanistan"/>
     <tag k="name:ilo" v="Apganistán"/>
+    <tag k="name:inh" v="Афганистане"/>
     <tag k="name:io" v="Afganistan"/>
     <tag k="name:is" v="Afganistan"/>
     <tag k="name:it" v="Afghanistan"/>
+    <tag k="name:iu" v="ᐊᑉᒐᓂᔅᑕᓐ"/>
     <tag k="name:ja" v="アフガニスタン"/>
     <tag k="name:jam" v="Afganistan"/>
     <tag k="name:jbo" v="afyganisTAN"/>
@@ -31292,6 +31323,7 @@
     <tag k="name:lad" v="Afganistan"/>
     <tag k="name:lb" v="Afghanistan"/>
     <tag k="name:lez" v="Афганистан"/>
+    <tag k="name:lfn" v="Afganistan"/>
     <tag k="name:lg" v="Afaganisitani"/>
     <tag k="name:li" v="Afghanistan"/>
     <tag k="name:lij" v="Afghanistan"/>
@@ -31359,12 +31391,15 @@
     <tag k="name:rw" v="Afuganisitani"/>
     <tag k="name:sa" v="अफगानस्थान"/>
     <tag k="name:sah" v="Афганистаан"/>
+    <tag k="name:sat" v="ᱟᱯᱷᱜᱟᱱᱤᱥᱛᱟᱱ"/>
+    <tag k="name:sc" v="Afganistàn"/>
     <tag k="name:scn" v="Afganistàn"/>
     <tag k="name:sco" v="Afghanistan"/>
     <tag k="name:sd" v="افغانستان"/>
     <tag k="name:se" v="Afganistána"/>
     <tag k="name:sg" v="Faganïta, Afganïstäan"/>
     <tag k="name:sh" v="Afganistan"/>
+    <tag k="name:shn" v="မိူင်းဢႃႇၾၵၢၼ်ႇၼီႇသတၢၼ်ႇ"/>
     <tag k="name:si" v="ඇෆ්ගනිස්ථානය"/>
     <tag k="name:sk" v="Afganistan"/>
     <tag k="name:sl" v="Afganistan"/>
@@ -31382,6 +31417,7 @@
     <tag k="name:sw" v="Afghanistan"/>
     <tag k="name:syc" v="ܐܦܓܐܢܣܛܐܢ"/>
     <tag k="name:szl" v="Afgańistan"/>
+    <tag k="name:szy" v="Afghanistan"/>
     <tag k="name:ta" v="ஆப்கானித்தான்"/>
     <tag k="name:te" v="ఆఫ్ఘనిస్తాన్"/>
     <tag k="name:tet" v="Afeganistaun"/>
@@ -31423,11 +31459,19 @@
     <tag k="official_name:ace" v="Republik Islam Afghanistan"/>
     <tag k="official_name:ady" v="Ислъам Республикэу Афганистан"/>
     <tag k="official_name:af" v="Islamitiese Republiek van Afghanistan"/>
+    <tag k="official_name:als" v="Islamischi Republik Afghanistan"/>
+    <tag k="official_name:am" v="አፍጋኒስታን እስላማዊ ሪፐብሊክ"/>
     <tag k="official_name:an" v="Republica Islamica d'Afganistán"/>
     <tag k="official_name:ar" v="جمهورية أفغانستان الإسلامية"/>
+    <tag k="official_name:arc" v="ܩܘܛܢܝܘܬܐ ܐܣܠܐܡܝܬܐ ܕܐܦܓܐܢܣܛܐܢ"/>
+    <tag k="official_name:arz" v="جمهورية افغانيستان الاسلاميه"/>
+    <tag k="official_name:as" v="ইছলামী প্ৰজাতন্ত্ৰী আফগানিস্তান"/>
+    <tag k="official_name:ast" v="Estáu Islámicu del Afganistán"/>
+    <tag k="official_name:awa" v="अफ़्ग़ानिस्तान इस्लामी गणराज्य"/>
     <tag k="official_name:az" v="Əfqanıstan İslam Respublikası"/>
     <tag k="official_name:azb" v="افغانیستان ایسلام جومهوریتی"/>
     <tag k="official_name:ba" v="Афғанстан Ислам Республикаһы"/>
+    <tag k="official_name:ban" v="Républik Islam Afganistan"/>
     <tag k="official_name:bar" v="Islamische Republik Afghanistan"/>
     <tag k="official_name:bat-smg" v="Afganėstana Ėslamā Respublika"/>
     <tag k="official_name:bcl" v="Islamikong Republika kan Apganistan"/>
@@ -31440,9 +31484,11 @@
     <tag k="official_name:bs" v="Islamska Republika Afganistan"/>
     <tag k="official_name:bxr" v="Лалын Бүгэдэ Найрамдаха Афган Улас"/>
     <tag k="official_name:cbk-zam" v="Estado Islimico del Afganistan"/>
+    <tag k="official_name:cdo" v="Afghanistan Ĭ-sṳ̆-làng Gê̤ṳng-huò-guók"/>
     <tag k="official_name:ce" v="Исламан Республика ОвхӀан"/>
     <tag k="official_name:ceb" v="Islamikong Republika sa Apganistan"/>
     <tag k="official_name:chr" v="ᎢᏍᎳᎻᎩ ᏍᎦᏚᎩ ᎾᎿ ᎠᏫᎨᏂᏍᏖᏂ"/>
+    <tag k="official_name:chy" v="Islamic Republic of Afghanistan"/>
     <tag k="official_name:ckb" v="کۆماری ئیسلامیی ئەفغانستان"/>
     <tag k="official_name:crh" v="Afğanistan İslâm Cumhuriyeti"/>
     <tag k="official_name:cs" v="Afghánská islámská republika"/>
@@ -31469,21 +31515,31 @@
     <tag k="official_name:frr" v="Islamisk Republik faan Afghanistan"/>
     <tag k="official_name:fy" v="Islamityske Republyk Afganistan"/>
     <tag k="official_name:ga" v="Poblacht Ioslamach na Afganastáin"/>
+    <tag k="official_name:gag" v="İslam Respublikası Afganistan"/>
+    <tag k="official_name:gcr" v="Répiblik islamik d'Afganistan"/>
     <tag k="official_name:gd" v="Poblachd Ioslamach Afghanastàn"/>
     <tag k="official_name:gl" v="República Islámica de Afganistán"/>
     <tag k="official_name:gn" v="Tetã Islãrehegua Ahyganitã"/>
+    <tag k="official_name:gor" v="Republik Islam Afganistan"/>
+    <tag k="official_name:gu" v="ઇસ્લામિક રિપબ્લિક ઓફ અફઘાનિસ્તાન"/>
+    <tag k="official_name:gv" v="Pobblaght Islamagh ny h-Afghanistaan"/>
+    <tag k="official_name:hak" v="Afghanistan Yî-sṳ̂-làn Khiung-fò-koet"/>
     <tag k="official_name:he" v="הרפובליקה האסלאמית של אפגניסטן"/>
     <tag k="official_name:hi" v="अफ़्ग़ानिस्तान इस्लामिक गणराज्य"/>
     <tag k="official_name:hr" v="Islamska Republika Afganistan"/>
     <tag k="official_name:hsb" v="Islamski stat Afghanistan"/>
+    <tag k="official_name:ht" v="Da Afghanistan Islami Dawlat"/>
     <tag k="official_name:hu" v="Afganisztáni Iszlám Köztársaság"/>
     <tag k="official_name:hy" v="Աֆղանստանի Իսլամական Հանրապետություն"/>
     <tag k="official_name:id" v="Republik Islam Afganistan"/>
+    <tag k="official_name:ie" v="Republica Islamic de Afganistan"/>
     <tag k="official_name:ilo" v="Islamiko a Republibka iti Apganistan"/>
+    <tag k="official_name:inh" v="Бусулба Респу́блика Афганиста́не"/>
     <tag k="official_name:is" v="Íslamska lýðveldið Afganistan"/>
     <tag k="official_name:it" v="Repubblica Islamica dell'Afghanistan"/>
     <tag k="official_name:ja" v="アフガニスタン・イスラム共和国"/>
     <tag k="official_name:jam" v="Izlamik Ripoblik a Afganistan"/>
+    <tag k="official_name:jbo" v="afyganisTAN.zei muslo gubyseltru"/>
     <tag k="official_name:ka" v="ავღანეთის ისლამური რესპუბლიკა"/>
     <tag k="official_name:kbd" v="Афганистэн Мыслимэн Республикэ"/>
     <tag k="official_name:kk" v="Ауғанстан Ислам Республикасы"/>
@@ -31496,6 +31552,8 @@
     <tag k="official_name:ky" v="Афганстан Ислам өлкөсү"/>
     <tag k="official_name:la" v="Res Publica Islamica Afganiae"/>
     <tag k="official_name:lez" v="Исламдин Респу́блика Афгъаниста́н"/>
+    <tag k="official_name:lfn" v="Republica muslim de Afganistan"/>
+    <tag k="official_name:lo" v="ສາທາລະນະລັດອິດສະລາມອັຟການິສະຖານ"/>
     <tag k="official_name:lt" v="Afganistãno Islãmo Respùblika"/>
     <tag k="official_name:lv" v="Afganistānas Islāma Republika"/>
     <tag k="official_name:lzh" v="阿富汗伊斯蘭共和國"/>
@@ -31524,6 +31582,7 @@
     <tag k="official_name:nn" v="Den islamske republikken Afghanistan"/>
     <tag k="official_name:no" v="Den islamske republikken Afghanistan"/>
     <tag k="official_name:oc" v="Republica islamica d'Afganistan"/>
+    <tag k="official_name:olo" v="Afganistuanan islamilaine tazavaldu"/>
     <tag k="official_name:or" v="ଆଫଗାନିସ୍ତାନ ଇସଲାମିକ ଗଣତନ୍ତ୍ର"/>
     <tag k="official_name:os" v="Афгъанистаны пысылмон республикæ"/>
     <tag k="official_name:pa" v="ਅਫ਼ਗ਼ਾਨਿਸਤਾਨ ਇਸਲਾਮੀ ਗਣਰਾਜ"/>
@@ -31540,16 +31599,22 @@
     <tag k="official_name:ru" v="Исла́мская Респу́блика Афганиста́н"/>
     <tag k="official_name:rw" v="Repebulika y’Ubuyisilamu ya Afuganisitani"/>
     <tag k="official_name:sah" v="Афганистаан Ислам Өрөспүүбүлүкэтэ"/>
+    <tag k="official_name:sc" v="Repùblica Islàmica de s'Afganistàn"/>
     <tag k="official_name:scn" v="Ripùbblica Islamica di Afghanistan"/>
     <tag k="official_name:sco" v="Islamic Republic o Afghanistan"/>
+    <tag k="official_name:sd" v="اسلامي جمھوريہ افغانستان"/>
     <tag k="official_name:se" v="Afganistana islamlaš dásseváldi"/>
     <tag k="official_name:sh" v="Islamska Republika Avganistan"/>
+    <tag k="official_name:shn" v="မိူင်းၸွမ်ပွင်ၸိုင်ႈ ဢိတ်ႇသလၢမ်ႇ ဢႃႇၾၵၢၼ်ႇၼီႇသတၢၼ်ႇ"/>
     <tag k="official_name:si" v="ඇෆ්ගනිස්ථාන ඉස්ලාමික ජනරජය"/>
     <tag k="official_name:sk" v="Afganská islamská republika"/>
     <tag k="official_name:sl" v="Islamska republika Afganistan"/>
+    <tag k="official_name:smn" v="Afganistan islamlâš täsiväldi"/>
     <tag k="official_name:so" v="Jamuuriyadda islaamiga Afqaanistan"/>
     <tag k="official_name:sq" v="Republika Islamike e Afganistanit"/>
     <tag k="official_name:sr" v="Исламска Република Авганистан"/>
+    <tag k="official_name:ss" v="la République islamique d’Afghanistan"/>
+    <tag k="official_name:stq" v="Dowlat-e Eslami-ye Afghanestan"/>
     <tag k="official_name:su" v="Républik Islam Apganistan"/>
     <tag k="official_name:sv" v="Islamiska republiken Afghanistan"/>
     <tag k="official_name:sw" v="Jamhuri ya Kiislamu ya Afghanistan"/>
@@ -31575,6 +31640,7 @@
     <tag k="official_name:wo" v="Etaa Islaamik u Taraansisoŋ bu Afganistaan"/>
     <tag k="official_name:xmf" v="ავღანეთიშ ისლამური რესპუბლიკა"/>
     <tag k="official_name:yi" v="איסלאמישע רעפובליק פון אַפֿגאַניסטאַן"/>
+    <tag k="official_name:yo" v="Orílẹ̀-èdè Olómìnira Onímàle ilẹ̀ Afghanístàn"/>
     <tag k="official_name:yue" v="阿富汗伊斯蘭共和國"/>
     <tag k="official_name:zea" v="Islamitische Rippubliek van Afghanistan"/>
     <tag k="official_name:zh" v="阿富汗伊斯兰共和国"/>
@@ -33608,14 +33674,6 @@
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q843"/>
     <tag k="wikipedia" v="ur:پاکستان"/>
-    <tag k="wikipedia:ar" v="باكستان"/>
-    <tag k="wikipedia:en" v="Pakistan"/>
-    <tag k="wikipedia:fa" v="پاکستان"/>
-    <tag k="wikipedia:ks" v="پاکِستان"/>
-    <tag k="wikipedia:pnb" v="پاکستان"/>
-    <tag k="wikipedia:ps" v="پاکستان"/>
-    <tag k="wikipedia:sd" v="پاڪستان"/>
-    <tag k="wikipedia:ur" v="پاکستان"/>
   </relation>
   <relation id="307584">
     <tag k="ISO3166-1" v="SA"/>
@@ -36715,6 +36773,7 @@
     <tag k="name:zu" v="ITaliya"/>
     <tag k="official_name" v="Repubblica Italiana"/>
     <tag k="official_name:cs" v="Italská republika"/>
+    <tag k="official_name:de" v="Republik Italien"/>
     <tag k="official_name:el" v="Ιταλική Δημοκρατία"/>
     <tag k="official_name:eo" v="Itala Respubliko"/>
     <tag k="old_name:vi" v="Ý Đại Lợi"/>
@@ -38645,7 +38704,7 @@
     <tag k="timezone" v="Indian/Comoro"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q970"/>
-    <tag k="wikipedia:ar" v="جزر القمر"/>
+    <tag k="wikipedia" v="ar:جزر القمر"/>
   </relation>
   <relation id="535828">
     <tag k="ISO3166-1" v="MU"/>
@@ -40171,7 +40230,7 @@
     <tag k="name:tt" v="Багамалар"/>
     <tag k="name:tzl" v="Bahamas"/>
     <tag k="name:ug" v="باھاما"/>
-    <tag k="name:uk" v="Бага́мські Острови́"/>
+    <tag k="name:uk" v="Багамські Острови"/>
     <tag k="name:ur" v="بہاماس"/>
     <tag k="name:uz" v="Bagam orollari"/>
     <tag k="name:vec" v="Łe Bahamas"/>
@@ -41644,6 +41703,7 @@
     <tag k="official_name:lij" v="Principatu de Múnegu"/>
     <tag k="official_name:oc" v="Principat de Mónegue"/>
     <tag k="official_name:ru" v="Княжество Монако"/>
+    <tag k="official_name:sk" v="Monacké kniežatstvo"/>
     <tag k="population" v="35881"/>
     <tag k="population:date" v="2011-04-13"/>
     <tag k="source:name:oc" v="ieo-bdtopoc"/>
@@ -42694,7 +42754,6 @@
     <tag k="default_language" v="ar"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/f/fe/Flag_of_Egypt.svg"/>
     <tag k="int_name" v="Egypt مصر"/>
-    <tag k="is_in:continent" v="Africa"/>
     <tag k="long_name:ar" v="جمهورية مصر العربية"/>
     <tag k="long_name:fr" v="République Arabe d'Égypte"/>
     <tag k="name" v="مصر"/>
@@ -45017,7 +45076,7 @@
     <tag k="ISO3166-1:numeric" v="764"/>
     <tag k="admin_level" v="2"/>
     <tag k="alt_name:eo" v="Tajujo"/>
-    <tag k="alt_name:ko" v="태국"/>
+    <tag k="alt_name:ko" v="타이"/>
     <tag k="boundary" v="administrative"/>
     <tag k="default_language" v="th"/>
     <tag k="driving_side" v="left"/>
@@ -45115,7 +45174,7 @@
     <tag k="name:kl" v="Thailandi"/>
     <tag k="name:km" v="ថៃ"/>
     <tag k="name:kn" v="ಥೈಲ್ಯಾಂಡ್"/>
-    <tag k="name:ko" v="타이"/>
+    <tag k="name:ko" v="태국"/>
     <tag k="name:ks" v="تھائی لینڈ"/>
     <tag k="name:ku" v="Taylenda"/>
     <tag k="name:kv" v="Таиланд"/>
@@ -48597,7 +48656,7 @@
     <tag k="default_language" v="bs"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/b/bf/Flag_of_Bosnia_and_Herzegovina.svg"/>
     <tag k="int_name" v="Bosnia and Herzegovina"/>
-    <tag k="name" v="Bosna i Hercegovina"/>
+    <tag k="name" v="Bosna i Hercegovina / Босна и Херцеговина"/>
     <tag k="name:ace" v="Bosnia Hèrzègovina"/>
     <tag k="name:af" v="Bosnië en Herzegowina"/>
     <tag k="name:ak" v="Bosnia and Herzegovina"/>
@@ -49200,16 +49259,10 @@
     <tag k="ISO3166-1:alpha3" v="MAR"/>
     <tag k="ISO3166-1:numeric" v="504"/>
     <tag k="admin_level" v="2"/>
-    <tag k="alt_name" v="ⵍⵎⵖⵔⵉⴱ المغرب"/>
-    <tag k="alt_name:ber" v="ⵍⵎⵖⵔⵉⴱ"/>
-    <tag k="alt_name:vi" v="Ma Rốc"/>
-    <tag k="alt_name:zgh" v="ⵍⵎⵖⵔⵉⴱ"/>
     <tag k="boundary" v="administrative"/>
     <tag k="default_language" v="ar"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/2/2c/Flag_of_Morocco.svg"/>
-    <tag k="int_name" v="Morocco ⵍⵎⵖⵔⵉⴱ المغرب"/>
-    <tag k="is_in:continent" v="Africa"/>
-    <tag k="name" v="Maroc / ⵍⵎⵖⵔⵉⴱ / المغرب"/>
+    <tag k="name" v="Maroc ⵍⵎⵖⵔⵉⴱ المغرب"/>
     <tag k="name:ar" v="المغرب"/>
     <tag k="name:ast" v="Marruecos"/>
     <tag k="name:az" v="Mərakeş"/>
@@ -49396,6 +49449,7 @@
     <tag k="official_name:en" v="Morocco"/>
     <tag k="official_name:fr" v="Maroc"/>
     <tag k="official_name:pt" v="Marrocos"/>
+    <tag k="old_name" v="مراكش"/>
     <tag k="old_name:ar" v="مراكش"/>
     <tag k="population" v="33848242"/>
     <tag k="population:date" v="2014"/>
@@ -49403,6 +49457,7 @@
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q1028"/>
     <tag k="wikipedia" v="ar:المغرب"/>
+    <tag k="wikipedia:ar" v="المغرب"/>
   </relation>
   <relation id="4610574">
     <tag k="admin_level" v="2"/>
@@ -49443,26 +49498,30 @@
     <tag k="default_language" v="ar"/>
     <tag k="fixme" v="raw guess, has to be fixed later"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/2/26/Flag_of_the_Sahrawi_Arab_Democratic_Republic.svg"/>
-    <tag k="is_in:continent" v="Africa"/>
-    <tag k="name" v="الجمهورية العربية الصحراوية الديمقراطية‎‎"/>
-    <tag k="name:ar" v="الجمهورية العربية الصحراوية الديمقراطية‎‎"/>
+    <tag k="name" v="الجمهورية العربية الصحراوية الديمقراطية"/>
+    <tag k="name:ar" v="الجمهورية العربية الصحراوية الديمقراطية"/>
+    <tag k="name:azb" v="صحرا دموکراتیک عرب جومهوریتی"/>
     <tag k="name:ckb" v="کۆماری دیموکراتیی عەرەبیی سەحرا"/>
     <tag k="name:cs" v="Saharská arabská demokratická republika"/>
     <tag k="name:de" v="Demokratische Arabische Republik Sahara"/>
     <tag k="name:el" v="Δημοκρατία της Σαχάρας"/>
     <tag k="name:en" v="Sahrawi Arab Democratic Republic"/>
     <tag k="name:es" v="República Árabe Saharaui Democrática"/>
+    <tag k="name:fa" v="جمهوری دموکراتیک عربی صحرا"/>
     <tag k="name:fr" v="République arabe sahraouie démocratique"/>
     <tag k="name:it" v="Repubblica Araba Democratica dei Sahrawi"/>
     <tag k="name:lt" v="Sacharos Arabų Demokratinė Respublika"/>
     <tag k="name:nl" v="Arabische Democratische Republiek Sahara"/>
+    <tag k="name:ota" v="صحرا دموکراتیک عرب جومهوریتی"/>
     <tag k="name:pt" v="República Árabe Saaraui Democrática"/>
     <tag k="name:ru" v="Сахарская Арабская Демократическая Республика"/>
+    <tag k="name:ur" v="صحراوی عرب عوامی جمہوریہ"/>
     <tag k="name:zh" v="撒拉威阿拉伯民主共和國"/>
     <tag k="timezone" v="Africa/El_Aaiun"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q40362"/>
     <tag k="wikipedia" v="ar:الجمهورية العربية الصحراوية الديمقراطية"/>
+    <tag k="wikipedia:ar" v="الجمهورية العربية الصحراوية الديمقراطية"/>
   </relation>
   <relation id="6094952">
     <tag k="admin_level" v="2"/>
@@ -49847,20 +49906,6 @@
     <tag k="admin_level" v="2"/>
     <tag k="boundary" v="maritime"/>
     <tag k="name" v="Monaco (zone contiguë)"/>
-    <tag k="type" v="boundary"/>
-  </relation>
-  <relation id="11679969">
-    <tag k="admin_level" v="2"/>
-    <tag k="boundary" v="administrative"/>
-    <tag k="name" v="Exclave Karki"/>
-    <tag k="note" v="De jure an exclave of Nakhchivan, but since 1992 controlled by Armenia"/>
-    <tag k="type" v="boundary"/>
-  </relation>
-  <relation id="11720962">
-    <tag k="admin_level" v="2"/>
-    <tag k="boundary" v="administrative"/>
-    <tag k="name" v="Thành phố Thủ Đức"/>
-    <tag k="place" v="municipality"/>
     <tag k="type" v="boundary"/>
   </relation>
   <way id="52947809">
@@ -50407,6 +50452,18 @@
     <tag k="name" v="Greenland (central)"/>
     <tag k="name:en" v="Greenland (central)"/>
     <tag k="name:ru" v="Гренландия (центр)"/>
+    <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="145">
+    <tag k="name" v="Greenland (central-west)"/>
+    <tag k="name:en" v="Greenland (central-west)"/>
+    <tag k="name:ru" v="Гренландия (центр-запад)"/>
+    <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="146">
+    <tag k="name" v="Greenland (central-east)"/>
+    <tag k="name:en" v="Greenland (central-east)"/>
+    <tag k="name:ru" v="Гренландия (центр-восток)"/>
     <tag k="type" v="boundary"/>
   </relation>
   <relation id="144">

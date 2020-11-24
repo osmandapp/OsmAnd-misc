@@ -63,6 +63,12 @@
     </query>
   </union>
   <print/>
+
+  <id-query ref="7008175" type="relation"/> <print/> <!-- Dudinka -->
+  <id-query ref="7008176" type="relation"/> <print/> <!-- Dikson -->
+  <id-query ref="7008172" type="relation"/> <print/> <!-- Khatanga -->
+  <id-query ref="7008173" type="relation"/> <print/> <!-- Karaul -->
+
 	<!-- khanty-mansiisk -->
   <id-query into="searchArea" ref="3600140296" type="area"/>
   <union into="_">
@@ -421,5 +427,6 @@
 
 	<!-- India -->
 <id-query ref="1953042" type="relation"/> <print/> <!-- Daman -->
+<id-query ref="2713465" type="relation"/> <print/> <!-- Aksai Chin -->
 
 </osm-script>

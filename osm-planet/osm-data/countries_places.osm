@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.56.3 eb200aeb">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2020-10-13T08:22:02Z"/>
+<meta osm_base="2020-11-24T18:23:02Z"/>
 
   <node id="26036352" lat="12.7503486" lon="122.7312101">
     <tag k="alt_name:vi" v="Phi Luật Tân"/>
@@ -765,6 +765,19 @@
     <tag k="sqkm" v="83871"/>
     <tag k="wikidata" v="Q40"/>
     <tag k="wikipedia" v="de:Österreich"/>
+  </node>
+  <node id="115654203" lat="49.4566233" lon="-2.5822348">
+    <tag k="name" v="Guernsey"/>
+    <tag k="name:be" v="Гернсі"/>
+    <tag k="name:en" v="Guernsey"/>
+    <tag k="name:fr" v="Guernesey"/>
+    <tag k="name:he" v="גרנזי"/>
+    <tag k="name:lt" v="Gernsis"/>
+    <tag k="name:ru" v="Гернси"/>
+    <tag k="name:tt" v="Гернси"/>
+    <tag k="note" v="Guernsey is a state, still although under the Queen. Island is more appropriate for small islands within a territory so I've removed it."/>
+    <tag k="place" v="country"/>
+    <tag k="source" v="wikipedia"/>
   </node>
   <node id="148332300" lat="39.3262345" lon="-4.8380649">
     <tag k="ISO3166-1" v="ES"/>
@@ -6989,7 +7002,7 @@
     <tag k="official_name:sv" v="Konungariket Nederländerna"/>
     <tag k="official_name:vi" v="Vương quốc Hà Lan"/>
     <tag k="place" v="country"/>
-    <tag k="population" v="16645313"/>
+    <tag k="population" v="17134872"/>
     <tag k="source" v="Wikipedia"/>
     <tag k="source:sqkm" v="CIA World Factbook"/>
     <tag k="sqkm" v="41543"/>
@@ -9638,7 +9651,7 @@
     <tag k="name:kl" v="Makedonia"/>
     <tag k="name:km" v="ម៉ាសេដ្វាន"/>
     <tag k="name:kn" v="ಮ್ಯಾಸಿಡೋನಿಯ"/>
-    <tag k="name:ko" v="마케도니아"/>
+    <tag k="name:ko" v="북마케도니아"/>
     <tag k="name:koi" v="Республика Македония"/>
     <tag k="name:krc" v="Македония"/>
     <tag k="name:ks" v="مٮ۪سوڑونِیا"/>
@@ -23730,14 +23743,6 @@
     <tag k="sqkm" v="796095"/>
     <tag k="wikidata" v="Q843"/>
     <tag k="wikipedia" v="ur:پاکستان"/>
-    <tag k="wikipedia:ar" v="باكستان"/>
-    <tag k="wikipedia:en" v="Pakistan"/>
-    <tag k="wikipedia:fa" v="پاکستان"/>
-    <tag k="wikipedia:ks" v="پاکِستان"/>
-    <tag k="wikipedia:pnb" v="پاکستان"/>
-    <tag k="wikipedia:ps" v="پاکستان"/>
-    <tag k="wikipedia:sd" v="پاڪستان"/>
-    <tag k="wikipedia:ur" v="پاکستان"/>
   </node>
   <node id="424314123" lat="8.6400349" lon="-11.8400269">
     <tag k="alt_name:el" v="Σιέρρα Λεόνε"/>
@@ -31921,12 +31926,13 @@
     <tag k="wikipedia" v="en:Cambodia"/>
   </node>
   <node id="432424956" lat="7.0323598" lon="19.9981227">
+    <tag k="alt_name:ar" v="جمهورية إفريقيا الوسطى"/>
+    <tag k="alt_name:ckb" v="کۆماری ئەفریقای ناوەندی"/>
     <tag k="alt_name:ru" v="ЦАР"/>
     <tag k="capital_city" v="Bangui"/>
     <tag k="country_code_fips" v="CT"/>
     <tag k="country_code_iso3166_1_alpha_2" v="CF"/>
     <tag k="geonames:id" v="239880"/>
-    <tag k="int_name" v="Central African Republic"/>
     <tag k="name" v="Centrafrique"/>
     <tag k="name:ace" v="Republik Afrika Teungoh"/>
     <tag k="name:af" v="Sentraal-Afrikaanse Republiek"/>
@@ -31940,6 +31946,7 @@
     <tag k="name:arz" v="افريقيا الوسطى"/>
     <tag k="name:ast" v="República Centroafricana"/>
     <tag k="name:az" v="Orta Afrika respublikası"/>
+    <tag k="name:azb" v="اوْرتا آفریقا جومهوریتی"/>
     <tag k="name:bat-smg" v="Cėntrėnės Afrėkas Respoblėka"/>
     <tag k="name:bcl" v="Sentral na Aprikanong Republika"/>
     <tag k="name:be" v="Цэнтральна-Афрыканская Рэспубліка"/>
@@ -32014,12 +32021,15 @@
     <tag k="name:kg" v="Repubilika ya Afelika ya Kati"/>
     <tag k="name:ki" v="Jamhuri ya Afrika ya Kati"/>
     <tag k="name:kk" v="Орталық Африка Республикасы"/>
+    <tag k="name:kk-Arab" v="ورتالىق افرىيكا رەسپۋبلىيكاسى"/>
     <tag k="name:km" v="សាធារណរដ្ឋអាហ្វ្រិកកណ្ដាល"/>
+    <tag k="name:kmr" v="کۆمارائا فریکایا ناڤەند"/>
     <tag k="name:kn" v="ಮಧ್ಯ ಆಫ್ರಿಕಾ ಗಣರಾಜ್ಯ"/>
     <tag k="name:ko" v="중앙 아프리카 공화국"/>
     <tag k="name:ks" v="مرکٔزی اَفریٖکی جموٗریَت"/>
     <tag k="name:ksh" v="de Zäntraalaffrikaanesche Republik"/>
     <tag k="name:ku" v="Komara Afrîkaya Navend"/>
+    <tag k="name:ku-Arab" v="کۆمارائا فریکایا ناڤەند"/>
     <tag k="name:kw" v="Centrafrika"/>
     <tag k="name:la" v="Respublica Africae Mediae"/>
     <tag k="name:lad" v="Repuvlika Sentroafrikana"/>
@@ -32031,6 +32041,7 @@
     <tag k="name:lmo" v="Repüblica Centrafricana"/>
     <tag k="name:ln" v="Repibiki ya Afríka ya Káti"/>
     <tag k="name:lo" v="ສາທາລະນະລັດອັບຟຼິກກາກາງ"/>
+    <tag k="name:lrc" v="کومرٱ ڤلات آفریقا میٛنجایی"/>
     <tag k="name:lt" v="Centrinės Afrikos Respublika"/>
     <tag k="name:lv" v="Centrālāfrikas Republika"/>
     <tag k="name:lzh" v="中非"/>
@@ -32093,6 +32104,7 @@
     <tag k="name:su" v="Républik Afrika Tengah"/>
     <tag k="name:sv" v="Centralafrikanska republiken"/>
     <tag k="name:sw" v="Jamhuri ya Afrika ya Kati"/>
+    <tag k="name:syc" v="ܩܘܛܢܝܘܬܐ ܕܐܦܪܝܩܐ ܡܨܥܝܬܐ"/>
     <tag k="name:szl" v="Strzodkowoafrikańsko Republika"/>
     <tag k="name:ta" v="மத்திய ஆப்ரிக்கக் குடியரசு"/>
     <tag k="name:te" v="మధ్యమ ఆఫ్రికా రిపబ్లిక్"/>
@@ -32121,8 +32133,22 @@
     <tag k="name:zh" v="中非"/>
     <tag k="name:zh_pinyin" v="Zhōng Fēi"/>
     <tag k="name:zu" v="i-Central African Republic"/>
+    <tag k="official_name:ar" v="جمهورية أفريقيا الوسطى"/>
+    <tag k="official_name:arc" v="ܩܘܛܢܝܘܬܐ ܕܐܦܪܝܩܐ ܡܨܥܝܬܐ"/>
+    <tag k="official_name:azb" v="اوْرتا آفریقا جومهوریتی"/>
+    <tag k="official_name:de" v="Zentralafrikanische Republik"/>
+    <tag k="official_name:fa" v="جمهوری آفریقای مرکزی"/>
     <tag k="official_name:fr" v="République centrafricaine"/>
+    <tag k="official_name:kk-Arab" v="ورتالىق افرىيكا رەسپۋبلىيكاسى"/>
+    <tag k="official_name:ks" v="مرکٔزی اَفریٖکی جموٗریَت"/>
+    <tag k="official_name:lrc" v="کومرٱ ڤلات آفریقا میٛنجایی"/>
+    <tag k="official_name:pa" v="ਮੱਧ ਅਫਰੀਕੀ ਗਣਰਾਜ"/>
+    <tag k="official_name:pnb" v="وچکارلا افریقی لوک راج"/>
+    <tag k="official_name:ps" v="د منځنۍ افریقا ولسمشریزه"/>
     <tag k="official_name:pt" v="República Centro-Africana"/>
+    <tag k="official_name:syc" v="ܩܘܛܢܝܘܬܐ ܕܐܦܪܝܩܐ ܡܨܥܝܬܐ"/>
+    <tag k="official_name:ug" v="ئوتتۇرا ئافرىقا جۇمھۇرىيىتى"/>
+    <tag k="official_name:ur" v="وسطی افریقی جمہوریہ"/>
     <tag k="official_name:vi" v="Cộng hòa Trung Phi"/>
     <tag k="place" v="country"/>
     <tag k="population" v="4500000"/>
@@ -32451,7 +32477,7 @@
     <tag k="int_name" v="Finland"/>
     <tag k="is_in" v="Europe"/>
     <tag k="is_in:continent" v="Europe"/>
-    <tag k="name" v="Suomi"/>
+    <tag k="name" v="Suomi / Finland"/>
     <tag k="name:af" v="Finland"/>
     <tag k="name:ak" v="Finland"/>
     <tag k="name:als" v="Finnland"/>
@@ -33398,6 +33424,7 @@
     <tag k="name:sg" v="Letonùii"/>
     <tag k="name:si" v="ලැට්වියාව"/>
     <tag k="name:sk" v="Lotyšsko"/>
+    <tag k="name:sl" v="Latvija"/>
     <tag k="name:smn" v="Latvia"/>
     <tag k="name:sms" v="Latvia"/>
     <tag k="name:sn" v="Latvia"/>
@@ -34358,8 +34385,6 @@
     <tag k="country_code_fips" v="MO"/>
     <tag k="country_code_iso3166_1_alpha_2" v="MA"/>
     <tag k="geonames:id" v="2542007"/>
-    <tag k="is_in" v="Africa"/>
-    <tag k="is_in:continent" v="Africa"/>
     <tag k="name" v="Maroc ⵍⵎⴰⵖⵔⵉⴱ المغرب"/>
     <tag k="name:ace" v="Maghribi"/>
     <tag k="name:af" v="Marokko"/>
@@ -37906,7 +37931,7 @@
     <tag k="name:kl" v="Thailandi"/>
     <tag k="name:km" v="ថៃ"/>
     <tag k="name:kn" v="ಥೈಲ್ಯಾಂಡ್"/>
-    <tag k="name:ko" v="타이"/>
+    <tag k="name:ko" v="태국"/>
     <tag k="name:ks" v="تھائی لینڈ"/>
     <tag k="name:ksh" v="Tailand"/>
     <tag k="name:ku" v="Tayland"/>
@@ -41881,64 +41906,6 @@
     <tag k="wikidata" v="Q23427"/>
     <tag k="wikipedia" v="os:Хуссар Ирыстон"/>
   </node>
-  <node id="1696853468" lat="39.8079192" lon="46.6977209">
-    <tag k="alt_name:ar" v="مرتفعات كاراباخ;ناغورنو كاراباك;ناغورني قره باغ;جمهورية أرتساخ"/>
-    <tag k="alt_name:en" v="Artsakh Republic"/>
-    <tag k="alt_name:eo" v="Arcaĥa Respubliko"/>
-    <tag k="alt_name:tr" v="Arsah Cumhuriyeti"/>
-    <tag k="alt_name:vi" v="Cộng hoà Nagorno-Karabakh"/>
-    <tag k="name" v="Լեռնային Ղարաբաղի Հանրապետությու (Nagorno-Karabakh Republic)"/>
-    <tag k="name:ar" v="مرتفعات قرة باغ"/>
-    <tag k="name:az" v="Dağlıq Qarabağ"/>
-    <tag k="name:azb" v="داغلیق قاراباغ جومهوریتی"/>
-    <tag k="name:be" v="Нагорна-Карабах"/>
-    <tag k="name:ca" v="República de l'Alt Karabagh"/>
-    <tag k="name:cs" v="Náhorně-karabašská republika"/>
-    <tag k="name:cy" v="Gweriniaeth Nagorno-Karabakh"/>
-    <tag k="name:de" v="Republik Bergkarabach"/>
-    <tag k="name:en" v="Nagorno-Karabakh Republic"/>
-    <tag k="name:eo" v="Respubliko Montara Karabaĥo"/>
-    <tag k="name:es" v="República de Nagorno Karabaj"/>
-    <tag k="name:et" v="Mägi-Karabahh"/>
-    <tag k="name:fa" v="جمهوری آرتساخ"/>
-    <tag k="name:fi" v="Vuoristo-Karabahin tasavalta"/>
-    <tag k="name:fr" v="Haut-Karabagh"/>
-    <tag k="name:he" v="נגורנו-קרבח"/>
-    <tag k="name:hi" v="नागोर्नो-काराबाख़ गणराज्य"/>
-    <tag k="name:hu" v="Azeri Hegyi-Karabah / Arcak"/>
-    <tag k="name:hy" v="Լեռնային Ղարաբաղի Հանրապետությու"/>
-    <tag k="name:io" v="Republiko di Nagorno-Karabakh"/>
-    <tag k="name:it" v="Nagorno Karabakh"/>
-    <tag k="name:ja" v="ナゴルノ・カラバフ共和国"/>
-    <tag k="name:kk-Arab" v="تاۋلى قاراباق رەسپۋبلىيكاسى"/>
-    <tag k="name:kn" v="ನ್ಯಾರ್ಗೊನೊ-ಕರಾಬಖ್ ಗಣರಾಜ್ಯ"/>
-    <tag k="name:ko" v="아르차흐 공화국"/>
-    <tag k="name:ku" v="Komara Qerebaxa Jorîn"/>
-    <tag k="name:lrc" v="کومرٱ ڤلات قٱرٱباغ"/>
-    <tag k="name:mzn" v="قره باغ جمهوری"/>
-    <tag k="name:nds" v="Republik Bargkarabach"/>
-    <tag k="name:nl" v="Nagorno-Karabach"/>
-    <tag k="name:no" v="Nagorno-Karabakh"/>
-    <tag k="name:ota" v="داغلیق قاراباغ جومهوریتی"/>
-    <tag k="name:pl" v="Górski Karabach"/>
-    <tag k="name:ru" v="Нагорно-Карабахская Республика"/>
-    <tag k="name:sk" v="Náhorný Karabach"/>
-    <tag k="name:sr" v="Нагорно-Карабах"/>
-    <tag k="name:tr" v="Dağlık Karabağ Bölgesi"/>
-    <tag k="name:tt" v="Таулы Карабах"/>
-    <tag k="name:uk" v="Нагірно-Карабаська Республіка"/>
-    <tag k="name:vi" v="Cộng hòa Nagorno-Karabakh"/>
-    <tag k="name:zh" v="纳戈尔诺-卡拉巴赫共和国"/>
-    <tag k="official_name:ar" v="جمهورية مرتفعات قرة باغ"/>
-    <tag k="official_name:fr" v="République du Haut-Karabagh"/>
-    <tag k="official_name:pl" v="Republika Górskiego Karabachu"/>
-    <tag k="official_name:sk" v="Náhorná karabašská republika"/>
-    <tag k="place" v="country"/>
-    <tag k="population" v="144700"/>
-    <tag k="wikidata" v="Q244165"/>
-    <tag k="wikipedia" v="en:Nagorno-Karabakh Republic"/>
-    <tag k="wikipedia:azb" v="داغلیق قاراباغ جومهوریتی"/>
-  </node>
   <node id="1696874354" lat="35.2245313" lon="33.6252379">
     <tag k="alt_name:ru" v="Северный Кипр"/>
     <tag k="is_in:continent" v="Europe"/>
@@ -43731,11 +43698,72 @@
     <tag k="name:ks" v="مونیٚکو"/>
     <tag k="name:pnb" v="موناکو"/>
     <tag k="name:ru" v="Монако"/>
+    <tag k="name:sk" v="Monako"/>
     <tag k="name:ug" v="موناكو"/>
     <tag k="name:ur" v="موناکو"/>
     <tag k="place" v="country"/>
     <tag k="wikidata" v="Q235"/>
     <tag k="wikipedia" v="fr:Monaco"/>
+  </node>
+  <node id="8156149126" lat="39.8079192" lon="46.6977209">
+    <tag k="alt_name:ar" v="مرتفعات كاراباخ;ناغورنو كاراباك;ناغورني قره باغ;جمهورية أرتساخ"/>
+    <tag k="alt_name:en" v="Artsakh Republic"/>
+    <tag k="alt_name:eo" v="Arcaĥa Respubliko"/>
+    <tag k="alt_name:pl" v="Republika Arcach"/>
+    <tag k="alt_name:tr" v="Arsah Cumhuriyeti"/>
+    <tag k="alt_name:vi" v="Cộng hoà Nagorno-Karabakh"/>
+    <tag k="name" v="Լեռնային Ղարաբաղի Հանրապետությու (Nagorno-Karabakh Republic)"/>
+    <tag k="name:ar" v="مرتفعات قرة باغ"/>
+    <tag k="name:az" v="Dağlıq Qarabağ"/>
+    <tag k="name:azb" v="داغلیق قاراباغ جومهوریتی"/>
+    <tag k="name:be" v="Нагорна-Карабах"/>
+    <tag k="name:ca" v="República de l'Alt Karabagh"/>
+    <tag k="name:cs" v="Náhorně-karabašská republika"/>
+    <tag k="name:cy" v="Gweriniaeth Nagorno-Karabakh"/>
+    <tag k="name:de" v="Republik Bergkarabach"/>
+    <tag k="name:en" v="Nagorno-Karabakh Republic"/>
+    <tag k="name:eo" v="Respubliko Montara Karabaĥo"/>
+    <tag k="name:es" v="República de Nagorno Karabaj"/>
+    <tag k="name:et" v="Mägi-Karabahh"/>
+    <tag k="name:eu" v="Karabakh Garaia"/>
+    <tag k="name:fa" v="جمهوری آرتساخ"/>
+    <tag k="name:fi" v="Vuoristo-Karabahin tasavalta"/>
+    <tag k="name:fr" v="Haut-Karabagh"/>
+    <tag k="name:he" v="נגורנו-קרבח"/>
+    <tag k="name:hi" v="नागोर्नो-काराबाख़ गणराज्य"/>
+    <tag k="name:hu" v="Azeri Hegyi-Karabah / Arcak"/>
+    <tag k="name:hy" v="Լեռնային Ղարաբաղի Հանրապետությու"/>
+    <tag k="name:io" v="Republiko di Nagorno-Karabakh"/>
+    <tag k="name:it" v="Nagorno Karabakh"/>
+    <tag k="name:ja" v="ナゴルノ・カラバフ共和国"/>
+    <tag k="name:kk-Arab" v="تاۋلى قاراباق رەسپۋبلىيكاسى"/>
+    <tag k="name:kn" v="ನ್ಯಾರ್ಗೊನೊ-ಕರಾಬಖ್ ಗಣರಾಜ್ಯ"/>
+    <tag k="name:ko" v="아르차흐 공화국"/>
+    <tag k="name:ku" v="Komara Qerebaxa Jorîn"/>
+    <tag k="name:lrc" v="کومرٱ ڤلات قٱرٱباغ"/>
+    <tag k="name:mzn" v="قره باغ جمهوری"/>
+    <tag k="name:nds" v="Republik Bargkarabach"/>
+    <tag k="name:nl" v="Nagorno-Karabach"/>
+    <tag k="name:no" v="Nagorno-Karabakh"/>
+    <tag k="name:ota" v="داغلیق قاراباغ جومهوریتی"/>
+    <tag k="name:pl" v="Górski Karabach"/>
+    <tag k="name:ru" v="Нагорно-Карабахская Республика"/>
+    <tag k="name:sk" v="Náhorný Karabach"/>
+    <tag k="name:sr" v="Нагорно-Карабах"/>
+    <tag k="name:tr" v="Dağlık Karabağ Bölgesi"/>
+    <tag k="name:tt" v="Таулы Карабах"/>
+    <tag k="name:uk" v="Нагірно-Карабаська Республіка"/>
+    <tag k="name:vi" v="Cộng hòa Nagorno-Karabakh"/>
+    <tag k="name:zh" v="纳戈尔诺-卡拉巴赫共和国"/>
+    <tag k="official_name:ar" v="جمهورية مرتفعات قرة باغ"/>
+    <tag k="official_name:fr" v="République du Haut-Karabagh"/>
+    <tag k="official_name:pl" v="Republika Górskiego Karabachu"/>
+    <tag k="official_name:sk" v="Náhorná karabašská republika"/>
+    <tag k="place" v="country"/>
+    <tag k="population" v="144700"/>
+    <tag k="wikidata" v="Q244165"/>
+    <tag k="wikipedia" v="en:Nagorno-Karabakh Republic"/>
+    <tag k="wikipedia:azb" v="داغلیق قاراباغ جومهوریتی"/>
   </node>
   <node id="36966057" lat="11.5024338" lon="17.7578122">
     <tag k="alt_name:ar" v="إفريقيا;إفريقية;أفريقية"/>
@@ -43826,8 +43854,8 @@
     <tag k="wikipedia" v="en:Africa"/>
   </node>
   <relation id="4856843">
-    <member type="node" ref="5381030216" role=""/>
-    <member type="node" ref="5381034868" role=""/>
+    <member type="node" ref="5381030216" role="inner"/>
+    <member type="node" ref="5381034868" role="inner"/>
     <member type="way" ref="304256688" role="outer"/>
     <member type="way" ref="332529927" role="outer"/>
     <member type="way" ref="332529948" role="outer"/>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<osm version="0.6" generator="Overpass API 0.7.56.6 474850e8">
+<osm version="0.6" generator="Overpass API 0.7.56.8 7d656e78">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2020-10-13T10:14:02Z" areas="2020-10-13T09:21:02Z"/>
+<meta osm_base="2020-11-24T18:25:03Z" areas="2020-11-24T17:33:03Z"/>
 
   <relation id="8640">
     <tag k="ISO3166-2" v="FR-CVL"/>
@@ -243,6 +243,7 @@
     <tag k="place:hu" v="régió"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q645860"/>
+    <tag k="wikipedia" v="hu:Alföld és Észak"/>
   </relation>
   <relation id="27328">
     <tag k="ISO3166-2" v="QA-US"/>
@@ -1122,6 +1123,7 @@
     <tag k="name:ar" v="مقاطعة أوترخت"/>
     <tag k="name:ca" v="Província d'Utrecht"/>
     <tag k="name:en" v="Utrecht"/>
+    <tag k="name:eo" v="Utreĥto"/>
     <tag k="name:es" v="Utrecht"/>
     <tag k="name:fr" v="Utrecht"/>
     <tag k="name:nl" v="Utrecht"/>
@@ -1939,7 +1941,7 @@
     <tag k="name:ka" v="ფლანდრია"/>
     <tag k="name:ko" v="플라망 지역"/>
     <tag k="name:lb" v="Flandern"/>
-    <tag k="name:li" v="Vlaandere"/>
+    <tag k="name:li" v="Vlaondere"/>
     <tag k="name:lt" v="Flandrija"/>
     <tag k="name:nl" v="Vlaanderen"/>
     <tag k="name:pt" v="Flandres"/>
@@ -1947,6 +1949,7 @@
     <tag k="name:sk" v="Flámsko"/>
     <tag k="name:th" v="เขตฟลามส์"/>
     <tag k="name:tzl" v="Flemphäts"/>
+    <tag k="name:vls" v="Vloandern"/>
     <tag k="name:wa" v="Flande"/>
     <tag k="name:zh" v="弗拉芒大區"/>
     <tag k="nat_name" v="Vlaams Gewest"/>
@@ -1960,7 +1963,7 @@
     <tag k="nat_name:eo" v="Flandra Regiono"/>
     <tag k="nat_name:fr" v="Région flamande"/>
     <tag k="nat_name:lb" v="Flämesch Regioun"/>
-    <tag k="nat_name:li" v="Vlaandere Gewes"/>
+    <tag k="nat_name:li" v="Vlaondere Gewes"/>
     <tag k="nat_name:mk" v="Фламански регион"/>
     <tag k="nat_name:nl" v="Vlaams Gewest"/>
     <tag k="nat_name:os" v="Фламандийы регион"/>
@@ -3150,7 +3153,7 @@
     <tag k="name:be" v="Гомельская вобласць"/>
     <tag k="name:be-tarask" v="Гомельская вобласьць"/>
     <tag k="name:de" v="Woblast Homel"/>
-    <tag k="name:en" v="Homel Region"/>
+    <tag k="name:en" v="Homyel Region"/>
     <tag k="name:eo" v="Homela regiono"/>
     <tag k="name:es" v="Provincia de Gómel"/>
     <tag k="name:fr" v="Voblast de Homiel"/>
@@ -6416,6 +6419,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/3/3c/Flag_of_Transcarpathian_Oblast.svg"/>
     <tag k="koatuu" v="2100000000"/>
+    <tag k="land_area" v="administrative"/>
     <tag k="name" v="Закарпатська область"/>
     <tag k="name:ar" v="زاكارباتيا أوبلاست"/>
     <tag k="name:be" v="Закарпацкая вобласць"/>
@@ -7200,6 +7204,7 @@
     <tag k="ISO3166-2" v="RU-TA"/>
     <tag k="admin_level" v="4"/>
     <tag k="alt_name" v="Татария"/>
+    <tag k="alt_name:eo" v="Tatarujo;Tatarstano"/>
     <tag k="border_type" v="region"/>
     <tag k="boundary" v="administrative"/>
     <tag k="gost_7.67-2003" v="РОФ-ТАТ"/>
@@ -7216,6 +7221,7 @@
     <tag k="name:de" v="Tatarstan"/>
     <tag k="name:el" v="Ταταρστάν"/>
     <tag k="name:en" v="Tatarstan"/>
+    <tag k="name:eo" v="Tatario"/>
     <tag k="name:es" v="Tartaristán"/>
     <tag k="name:fr" v="Tatarstan"/>
     <tag k="name:gag" v="Tatarstan"/>
@@ -11463,8 +11469,8 @@
     <tag k="admin_level" v="4"/>
     <tag k="alt_name" v="青海"/>
     <tag k="boundary" v="administrative"/>
+    <tag k="division_code" v="630000"/>
     <tag k="int_name" v="Qinghai"/>
-    <tag k="is_in:country_code" v="CN"/>
     <tag k="name" v="青海省"/>
     <tag k="name:af" v="Qinghai"/>
     <tag k="name:ar" v="تشينغهاي"/>
@@ -11779,9 +11785,6 @@
     <tag k="alt_name:bo" v="ཀན་སུའུ་ཞིང་ཆེན།"/>
     <tag k="boundary" v="administrative"/>
     <tag k="int_name" v="Gansu"/>
-    <tag k="is_in:continent" v="Asia"/>
-    <tag k="is_in:country" v="China"/>
-    <tag k="is_in:country_code" v="CN"/>
     <tag k="name" v="甘肃省"/>
     <tag k="name:af" v="Gansu"/>
     <tag k="name:ar" v="قانسو"/>
@@ -12442,7 +12445,7 @@
     <tag k="ref:NUTS" v="TR721"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q483472"/>
-    <tag k="wikipedia" v="tr:Kayseri (il)"/>
+    <tag k="wikipedia" v="en:Kayseri Province"/>
   </relation>
   <relation id="154452">
     <tag k="ISO3166-2" v="TR-40"/>
@@ -12781,9 +12784,6 @@
     <tag k="alt_name:vi" v="Nội Mông Cổ"/>
     <tag k="boundary" v="administrative"/>
     <tag k="division_code" v="150000"/>
-    <tag k="is_in:continent" v="Asia"/>
-    <tag k="is_in:country" v="China"/>
-    <tag k="is_in:country_code" v="CN"/>
     <tag k="name" v="内蒙古自治区"/>
     <tag k="name:af" v="Binne-Mongolië"/>
     <tag k="name:ar" v="منغوليا الداخلية"/>
@@ -13979,10 +13979,10 @@
     <tag k="name:ba" v="Флорида"/>
     <tag k="name:ban" v="Florida"/>
     <tag k="name:bar" v="Florida"/>
-    <tag k="name:bat_smg" v="Fluorėda"/>
+    <tag k="name:bat-smg" v="Fluorėda"/>
     <tag k="name:bcl" v="Florida"/>
     <tag k="name:be" v="Фларыда"/>
-    <tag k="name:be_x_old" v="Флорыда"/>
+    <tag k="name:be-tarask" v="Флорыда"/>
     <tag k="name:bg" v="Флорида"/>
     <tag k="name:bh" v="फ्लोरिडा"/>
     <tag k="name:bi" v="Florida"/>
@@ -13993,7 +13993,7 @@
     <tag k="name:bs" v="Florida"/>
     <tag k="name:bxr" v="Флорида"/>
     <tag k="name:ca" v="Florida"/>
-    <tag k="name:cbk_zam" v="Florida"/>
+    <tag k="name:cbk-zam" v="Florida"/>
     <tag k="name:cdo" v="Florida"/>
     <tag k="name:ce" v="Флорида"/>
     <tag k="name:ceb" v="Florida"/>
@@ -14342,10 +14342,10 @@
     <tag k="name:azb" v="واشینقتن، دی.سی."/>
     <tag k="name:ba" v="Вашингтон"/>
     <tag k="name:bar" v="Washington, D.C."/>
-    <tag k="name:bat_smg" v="Vašingtons"/>
+    <tag k="name:bat-smg" v="Vašingtons"/>
     <tag k="name:bcl" v="Washington, D.C."/>
     <tag k="name:be" v="Вашынгтон"/>
-    <tag k="name:be_x_old" v="Вашынгтон"/>
+    <tag k="name:be-tarask" v="Вашынгтон"/>
     <tag k="name:bg" v="Вашингтон"/>
     <tag k="name:bh" v="वाशिंगटन, डीसी"/>
     <tag k="name:bm" v="Washington, D.C."/>
@@ -14356,7 +14356,7 @@
     <tag k="name:bs" v="Washington, D.C."/>
     <tag k="name:bxr" v="Вашингтон"/>
     <tag k="name:ca" v="Washington DC"/>
-    <tag k="name:cbk_zam" v="Washington, D.C."/>
+    <tag k="name:cbk-zam" v="Washington, D.C."/>
     <tag k="name:cdo" v="Washington, D.C."/>
     <tag k="name:ce" v="Вашингтон"/>
     <tag k="name:ceb" v="Washington, D.C."/>
@@ -14984,10 +14984,10 @@
     <tag k="name:azb" v="کالیفورنیا ایالتی"/>
     <tag k="name:ba" v="Калифорния"/>
     <tag k="name:bar" v="Kalifornien"/>
-    <tag k="name:bat_smg" v="Kalėfuornėjė"/>
+    <tag k="name:bat-smg" v="Kalėfuornėjė"/>
     <tag k="name:bcl" v="California"/>
     <tag k="name:be" v="Каліфорнія"/>
-    <tag k="name:be_x_old" v="Каліфорнія"/>
+    <tag k="name:be-tarask" v="Каліфорнія"/>
     <tag k="name:bg" v="Калифорния"/>
     <tag k="name:bh" v="कैलिफोर्निया"/>
     <tag k="name:bi" v="Kalifornia"/>
@@ -14998,7 +14998,7 @@
     <tag k="name:bs" v="Kalifornija"/>
     <tag k="name:bxr" v="Калифорни"/>
     <tag k="name:ca" v="Califòrnia"/>
-    <tag k="name:cbk_zam" v="California"/>
+    <tag k="name:cbk-zam" v="California"/>
     <tag k="name:cdo" v="California"/>
     <tag k="name:ce" v="Калифорни"/>
     <tag k="name:ceb" v="California"/>
@@ -16146,7 +16146,7 @@
     <tag k="ref:NUTS" v="TRA11"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q376797"/>
-    <tag k="wikipedia" v="tr:Erzurum (il)"/>
+    <tag k="wikipedia" v="en:Erzurum Province"/>
   </relation>
   <relation id="186433">
     <tag k="ISO3166-2" v="TR-04"/>
@@ -17624,7 +17624,7 @@
     <tag k="ref:NUTS" v="TR622"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q132637"/>
-    <tag k="wikipedia" v="tr:Mersin (il)"/>
+    <tag k="wikipedia" v="en:Mersin Province"/>
   </relation>
   <relation id="223132">
     <tag k="ISO3166-2" v="TR-07"/>
@@ -17763,8 +17763,7 @@
     <tag k="ref:NUTS" v="TRC13"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q128978"/>
-    <tag k="wikipedia:ar" v="كلس (محافظة)"/>
-    <tag k="wikipedia:tr" v="Kilis (il)"/>
+    <tag k="wikipedia" v="tr:Kilis (il)"/>
   </relation>
   <relation id="223141">
     <tag k="ISO3166-2" v="TR-02"/>
@@ -17814,8 +17813,8 @@
     <tag k="network" v="TR-provinces"/>
     <tag k="ref:NUTS" v="TR310"/>
     <tag k="type" v="boundary"/>
-    <tag k="wikidata" v="Q344490"/>
-    <tag k="wikipedia" v="tr:İzmir (il)"/>
+    <tag k="wikidata" v="Q35997"/>
+    <tag k="wikipedia" v="tr:İzmir"/>
   </relation>
   <relation id="223168">
     <tag k="ISO3166-2" v="TR-45"/>
@@ -18066,7 +18065,7 @@
     <tag k="ref:NUTS" v="TR412"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q483053"/>
-    <tag k="wikipedia" v="tr:Eskişehir (il)"/>
+    <tag k="wikipedia" v="en:Eskişehir Province"/>
   </relation>
   <relation id="223422">
     <tag k="ISO3166-2" v="TR-06"/>
@@ -18179,7 +18178,7 @@
     <tag k="ref:NUTS" v="TRC22"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q83081"/>
-    <tag k="wikipedia" v="tr:Diyarbakır (il)"/>
+    <tag k="wikipedia" v="en:Diyarbakır Province"/>
   </relation>
   <relation id="223436">
     <tag k="ISO3166-2" v="TR-47"/>
@@ -18438,8 +18437,8 @@
     <tag k="network" v="TR-provinces"/>
     <tag k="ref:NUTS" v="TR831"/>
     <tag k="type" v="boundary"/>
-    <tag k="wikidata" v="Q483040"/>
-    <tag k="wikipedia" v="tr:Samsun (il)"/>
+    <tag k="wikidata" v="Q160450"/>
+    <tag k="wikipedia" v="tr:Samsun"/>
   </relation>
   <relation id="223452">
     <tag k="ISO3166-2" v="TR-05"/>
@@ -27390,7 +27389,7 @@
     <tag k="alt_name:af" v="Kiëf"/>
     <tag k="alt_name:an" v="Kiev"/>
     <tag k="alt_name:ca" v="Kíev"/>
-    <tag k="alt_name:de" v="Kiew"/>
+    <tag k="alt_name:de" v="Kyjiw"/>
     <tag k="alt_name:en" v="Kiev"/>
     <tag k="alt_name:eo" v="Kievo"/>
     <tag k="alt_name:es" v="Kiev"/>
@@ -27413,7 +27412,7 @@
     <tag k="name:be" v="Кіеў"/>
     <tag k="name:be-tarask" v="Кіеў"/>
     <tag k="name:ca" v="Kíiv"/>
-    <tag k="name:de" v="Kyjiw"/>
+    <tag k="name:de" v="Kiew"/>
     <tag k="name:en" v="Kyiv"/>
     <tag k="name:eo" v="Kijivo"/>
     <tag k="name:es" v="Kyiv"/>
@@ -28230,11 +28229,15 @@
     <tag k="is_in:country_code" v="JP"/>
     <tag k="land_area" v="administrative"/>
     <tag k="name" v="和歌山県"/>
+    <tag k="name:ar" v="محافظة واكاياما"/>
+    <tag k="name:azb" v="واکایاما اوستانی"/>
+    <tag k="name:ckb" v="پارێزگای واکایاما"/>
     <tag k="name:cs" v="prefektura Wakajama"/>
     <tag k="name:de" v="Präfektur Wakayama"/>
     <tag k="name:en" v="Wakayama Prefecture"/>
     <tag k="name:eo" v="Vakajamo"/>
     <tag k="name:es" v="Prefectura de Wakayama"/>
+    <tag k="name:fa" v="استان واکایاما"/>
     <tag k="name:fr" v="Préfecture de Wakayama"/>
     <tag k="name:it" v="Prefettura di Wakayama"/>
     <tag k="name:ja" v="和歌山県"/>
@@ -28243,13 +28246,21 @@
     <tag k="name:ja_kana" v="ワカヤマケン"/>
     <tag k="name:ko" v="와카야마현"/>
     <tag k="name:pl" v="Prefektura Wakayama"/>
+    <tag k="name:pnb" v="ضلع واکایاما"/>
     <tag k="name:ru" v="Вакаяма"/>
     <tag k="name:uk" v="Вакаяма"/>
+    <tag k="name:ur" v="واکایاما پریفیکچر"/>
     <tag k="name:zh" v="和歌山県/和歌山縣"/>
     <tag k="name:zh-Hans" v="和歌山県"/>
     <tag k="name:zh-Hant" v="和歌山縣"/>
     <tag k="note" v="飛び地部分と奈良県吉野郡十津川村および下北山村との境界線のsourceは、local_knowledge; best_guess。"/>
+    <tag k="sorting_name:ar" v="واكاياما"/>
+    <tag k="sorting_name:azb" v="واکایاما"/>
+    <tag k="sorting_name:ckb" v="واکایاما"/>
     <tag k="sorting_name:cs" v="Wakajama"/>
+    <tag k="sorting_name:fa" v="واکایاما"/>
+    <tag k="sorting_name:pnb" v="واکایاما"/>
+    <tag k="sorting_name:ur" v="واکایاما"/>
     <tag k="source" v="KSJ2/N03"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q131314"/>
@@ -29281,7 +29292,6 @@
     <tag k="alt_name:cs" v="Sečuán"/>
     <tag k="boundary" v="administrative"/>
     <tag k="division_code" v="510000"/>
-    <tag k="is_in:country_code" v="CN"/>
     <tag k="name" v="四川省"/>
     <tag k="name:af" v="Sichuan"/>
     <tag k="name:ar" v="سيتشوان"/>
@@ -29577,7 +29587,6 @@
     <tag k="boundary" v="administrative"/>
     <tag k="division_code" v="530000"/>
     <tag k="int_name" v="Yunnan"/>
-    <tag k="is_in:country_code" v="CN"/>
     <tag k="name" v="云南省"/>
     <tag k="name:af" v="Yunnan"/>
     <tag k="name:ar" v="يونان"/>
@@ -29674,7 +29683,6 @@
     <tag k="alt_name" v="陕西"/>
     <tag k="boundary" v="administrative"/>
     <tag k="int_name" v="Shaanxi"/>
-    <tag k="is_in:country_code" v="CN"/>
     <tag k="name" v="陕西省"/>
     <tag k="name:af" v="Shaanxi"/>
     <tag k="name:ar" v="شنشي"/>
@@ -29762,7 +29770,6 @@
     <tag k="admin_level" v="4"/>
     <tag k="alt_name" v="宁夏"/>
     <tag k="boundary" v="administrative"/>
-    <tag k="is_in:country_code" v="CN"/>
     <tag k="name" v="宁夏回族自治区"/>
     <tag k="name:af" v="Ningxia"/>
     <tag k="name:ar" v="نينغشيا"/>
@@ -30734,7 +30741,6 @@
   </relation>
   <relation id="1154756">
     <tag k="ISO3166-2" v="ES-CE"/>
-    <tag k="addr:country" v="ES"/>
     <tag k="admin_level" v="4"/>
     <tag k="border_type" v="region"/>
     <tag k="boundary" v="administrative"/>
@@ -31415,13 +31421,16 @@
   <relation id="1258651">
     <tag k="ISO3166-2" v="DZ-37"/>
     <tag k="admin_level" v="4"/>
+    <tag k="alt_name" v="تيندوف"/>
+    <tag k="alt_name:ar" v="تيندوف"/>
     <tag k="boundary" v="administrative"/>
     <tag k="long_name" v="ولاية تندوف"/>
     <tag k="long_name:ar" v="ولاية تندوف"/>
-    <tag k="long_name:en" v="Tindouf Province"/>
+    <tag k="long_name:en" v="Tinduf Province"/>
     <tag k="long_name:fr" v="Wilaya de Tindouf"/>
-    <tag k="name" v="Tindouf ⵜⵉⵏⴷⵓⴼ تندوف"/>
+    <tag k="name" v="تندوف"/>
     <tag k="name:ar" v="تندوف"/>
+    <tag k="name:azb" v="تندوف"/>
     <tag k="name:ber" v="ⵜⵉⵏⴷⵓⴼ"/>
     <tag k="name:cs" v="Tindúf"/>
     <tag k="name:de" v="Tinduf"/>
@@ -31430,12 +31439,17 @@
     <tag k="name:fa" v="تندوف"/>
     <tag k="name:fr" v="Tindouf"/>
     <tag k="name:kab" v="Tinduf"/>
+    <tag k="name:ks" v="تندوف"/>
+    <tag k="name:ota" v="تندوف"/>
+    <tag k="name:pnb" v="تندوف"/>
+    <tag k="name:ps" v="تندوف"/>
     <tag k="name:ru" v="Тиндуф"/>
     <tag k="name:ur" v="تندوف"/>
     <tag k="ref" v="37"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q231151"/>
     <tag k="wikipedia" v="ar:ولاية تندوف"/>
+    <tag k="wikipedia:ar" v="ولاية تندوف"/>
   </relation>
   <relation id="1259187">
     <tag k="ISO3166-2" v="DZ-31"/>
@@ -31695,7 +31709,7 @@
   <relation id="1273369">
     <tag k="ISO3166-2" v="DZ-24"/>
     <tag k="admin_level" v="4"/>
-    <tag k="alt_name" v="ڤالمة;ولاية ڤالمة‎"/>
+    <tag k="alt_name" v="ڤالمة;ولاية ڤالمة"/>
     <tag k="boundary" v="administrative"/>
     <tag k="long_name" v="ولاية قالمة"/>
     <tag k="long_name:ar" v="ولاية قالمة"/>
@@ -31725,9 +31739,6 @@
     <tag k="ISO3166-2" v="DZ-43"/>
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
-    <tag k="is_in:continent" v="Africa"/>
-    <tag k="is_in:country" v="Algeria"/>
-    <tag k="is_in:country_code" v="DZ"/>
     <tag k="long_name:ar" v="ولاية ميلة"/>
     <tag k="long_name:en" v="Mila Province"/>
     <tag k="long_name:fr" v="Wilaya de Mila"/>
@@ -31846,8 +31857,8 @@
     <tag k="long_name:fr" v="Wilaya de Sétif"/>
     <tag k="long_name:pnb" v="صوبہ سطیف"/>
     <tag k="long_name:ur" v="صوبہ سطیف"/>
-    <tag k="name" v="Sétif ⵙⵟⵉⴼ سطيف‎"/>
-    <tag k="name:ar" v="سطيف‎"/>
+    <tag k="name" v="Sétif ⵙⵟⵉⴼ سطيف"/>
+    <tag k="name:ar" v="سطيف"/>
     <tag k="name:azb" v="سطیف"/>
     <tag k="name:be" v="Сетыф"/>
     <tag k="name:ber" v="ⵙⵟⵉⴼ"/>
@@ -31868,7 +31879,7 @@
     <tag k="name:ja" v="セティフ県"/>
     <tag k="name:ka" v="სეტიფის პროვინცია"/>
     <tag k="name:kab" v="Sṭif"/>
-    <tag k="name:kab-Arab" v="سطيف‎"/>
+    <tag k="name:kab-Arab" v="سطيف"/>
     <tag k="name:ko" v="세티프 주"/>
     <tag k="name:ks" v="سطیف"/>
     <tag k="name:lt" v="Setifo vilaja"/>
@@ -31900,9 +31911,6 @@
     <tag k="ISO3166-2" v="DZ-05"/>
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
-    <tag k="is_in:continent" v="Africa"/>
-    <tag k="is_in:country" v="Algeria"/>
-    <tag k="is_in:country_code" v="DZ"/>
     <tag k="long_name:ar" v="ولاية باتنة"/>
     <tag k="long_name:en" v="Batna Province"/>
     <tag k="long_name:fr" v="Wilaya de Batna"/>
@@ -32042,12 +32050,12 @@
     <tag k="name:ber" v="ⴱⵓⵔⴵ ⴱⵓ ⵄⵔⵉⵔⵉⴵ"/>
     <tag k="name:el" v="Μπορντζ Μπου Αρερίτζ"/>
     <tag k="name:en" v="Bordj Bou Arreridj"/>
-    <tag k="name:fr" v="Bordj Bou Arreridj‎"/>
+    <tag k="name:fr" v="Bordj Bou Arreridj"/>
     <tag k="name:kab" v="Burǧ bu ɛririǧ"/>
     <tag k="ref" v="34"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q266411"/>
-    <tag k="wikipedia" v="fr:Wilaya de Bordj Bou Arreridj‎"/>
+    <tag k="wikipedia" v="fr:Wilaya de Bordj Bou Arreridj"/>
   </relation>
   <relation id="1278767">
     <tag k="ISO3166-2" v="DZ-28"/>
@@ -32918,6 +32926,7 @@
     <tag k="name:kk" v="Қостанай облысы"/>
     <tag k="name:lt" v="Kostanajaus sritis"/>
     <tag k="name:ru" v="Костанайская область"/>
+    <tag k="name:uk" v="Костанайська область"/>
     <tag k="timezone" v="Asia/Qyzylorda"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q485605"/>
@@ -33597,6 +33606,7 @@
     <tag k="source" v="OCHA - SIGOT"/>
     <tag k="state_code" v="VAC"/>
     <tag k="type" v="boundary"/>
+    <tag k="website" v="https://www.valledelcauca.gov.co/"/>
     <tag k="wikidata" v="Q13990"/>
     <tag k="wikipedia" v="en:Valle del Cauca Department"/>
     <tag k="wikipedia:es" v="Valle del Cauca"/>
@@ -33835,6 +33845,7 @@
     <tag k="source" v="OCHA - SIGOT"/>
     <tag k="state_code" v="RIS"/>
     <tag k="type" v="boundary"/>
+    <tag k="website" v="https://www.risaralda.gov.co/"/>
     <tag k="wikidata" v="Q13993"/>
     <tag k="wikipedia" v="es:Risaralda"/>
   </relation>
@@ -33902,6 +33913,7 @@
     <tag k="ISO3166-2" v="MX-CMX"/>
     <tag k="admin_level" v="4"/>
     <tag k="alt_name" v="DF"/>
+    <tag k="boundary" v="administrative"/>
     <tag k="is_in:country" v="México"/>
     <tag k="is_in:country_code" v="MX"/>
     <tag k="name" v="Ciudad de México"/>
@@ -33916,7 +33928,7 @@
     <tag k="place" v="state"/>
     <tag k="ref" v="DIF"/>
     <tag k="short_name" v="CDMX"/>
-    <tag k="type" v="destination_sign"/>
+    <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q1489"/>
     <tag k="wikipedia" v="en:Mexico City"/>
   </relation>
@@ -34924,8 +34936,8 @@
     <tag k="long_name:fr" v="Wilaya d'Annaba"/>
     <tag k="long_name:pnb" v="صوبہ عنابہ"/>
     <tag k="long_name:ur" v="صوبہ عنابہ"/>
-    <tag k="name" v="Annaba ⵄⴻⵏⵏⴰⴱⴰ عنابة‎"/>
-    <tag k="name:ar" v="عنابة‎"/>
+    <tag k="name" v="Annaba ⵄⴻⵏⵏⴰⴱⴰ عنابة"/>
+    <tag k="name:ar" v="عنابة"/>
     <tag k="name:az" v="Annaba"/>
     <tag k="name:azb" v="عنابه"/>
     <tag k="name:be" v="Анаба"/>
@@ -34948,7 +34960,7 @@
     <tag k="name:ja" v="アンナバ県"/>
     <tag k="name:ka" v="ანაბის პროვინცია"/>
     <tag k="name:kab" v="Ɛennaba"/>
-    <tag k="name:kab-Arab" v="عنابة‎"/>
+    <tag k="name:kab-Arab" v="عنابة"/>
     <tag k="name:kk-Arab" v="اننابا"/>
     <tag k="name:ko" v="안나바주"/>
     <tag k="name:ks" v="عنابہ"/>
@@ -35344,7 +35356,7 @@
     <tag k="name:ar" v="كاغايان"/>
     <tag k="name:azb" v="کاقایان"/>
     <tag k="name:bcl" v="Cagayan"/>
-    <tag k="name:cbk_zam" v="Cagayan"/>
+    <tag k="name:cbk-zam" v="Cagayan"/>
     <tag k="name:ceb" v="Cagayan"/>
     <tag k="name:en" v="Cagayan"/>
     <tag k="name:eo" v="Kagajano"/>
@@ -36434,6 +36446,19 @@
     <tag k="wikidata" v="Q20980374"/>
     <tag k="wikipedia" v="fr:Denguélé"/>
   </relation>
+  <relation id="1610810">
+    <tag k="addr:city" v="Noisiel"/>
+    <tag k="addr:housenumber" v="6"/>
+    <tag k="addr:postcode" v="77186"/>
+    <tag k="addr:street" v="Cours des Roches"/>
+    <tag k="admin_level" v="4"/>
+    <tag k="building" v="yes"/>
+    <tag k="government" v="audit"/>
+    <tag k="name" v="Chambre régionale des comptes Île-de-France"/>
+    <tag k="office" v="government"/>
+    <tag k="phone" v="+33 1 64 80 88 88"/>
+    <tag k="type" v="multipolygon"/>
+  </relation>
   <relation id="1614020">
     <tag k="ISO3166-2" v="TZ-11"/>
     <tag k="admin_level" v="4"/>
@@ -36681,6 +36706,7 @@
     <tag k="name:ro" v="Azore"/>
     <tag k="name:ru" v="Азорские острова"/>
     <tag k="name:sk" v="Azory"/>
+    <tag k="name:sl" v="Azori"/>
     <tag k="name:sv" v="Azorerna"/>
     <tag k="name:zh" v="亚速尔群岛"/>
     <tag k="official_name" v="Região Autónoma dos Açores"/>
@@ -37598,30 +37624,48 @@
   <relation id="1674770">
     <tag k="ISO3166-2" v="AF-NAN"/>
     <tag k="admin_level" v="4"/>
-    <tag k="alt_name" v="Nangahar"/>
     <tag k="boundary" v="administrative"/>
-    <tag k="description" v="Nangarhar Province"/>
-    <tag k="is_in:continent" v="Asia"/>
-    <tag k="is_in:country" v="Afghanistan"/>
-    <tag k="is_in:country_code" v="AF"/>
-    <tag k="long_name:ar" v="ولاية ننكرهار"/>
     <tag k="name" v="ننگرهار ولايت"/>
-    <tag k="name:ar" v="ننكرهار"/>
-    <tag k="name:cs" v="Nangarhár"/>
-    <tag k="name:de" v="Nangarhar"/>
+    <tag k="name:ar" v="ولاية ننكرهار"/>
+    <tag k="name:azb" v="ننقرهار ویلایت"/>
+    <tag k="name:ckb" v="پارێزگای نەنگەرھار"/>
+    <tag k="name:de" v="Wilaya Nangarhar"/>
     <tag k="name:en" v="Nangarhar Province"/>
     <tag k="name:es" v="Provincia de Nangarhar"/>
     <tag k="name:fa" v="ولایت ننگرهار"/>
-    <tag k="name:fr" v="Nangarhâr"/>
     <tag k="name:ja" v="ナンガルハール州"/>
+    <tag k="name:lrc" v="آستوݩ نٱنگٱرهار"/>
     <tag k="name:lt" v="Nangarharo provincija"/>
+    <tag k="name:pa" v="ਨੰਗਰਹਾਰ ਸੂਬਾ"/>
+    <tag k="name:pnb" v="صوبہ ننگرھار"/>
     <tag k="name:ps" v="ننگرهار ولايت"/>
-    <tag k="name:ru" v="Нангархар"/>
-    <tag k="name:uk" v="Нангархар"/>
+    <tag k="name:sd" v="ننگرھار صوبو"/>
+    <tag k="name:ug" v="نانگارھار ۋىلايىتى"/>
     <tag k="name:ur" v="صوبہ ننگرہار"/>
+    <tag k="sorting_name" v="ننگرهار"/>
+    <tag k="sorting_name:ar" v="ننكرهار"/>
+    <tag k="sorting_name:azb" v="ننقرهار"/>
+    <tag k="sorting_name:ckb" v="نەنگەرھار"/>
+    <tag k="sorting_name:cs" v="Nangarhár"/>
+    <tag k="sorting_name:de" v="Nangarhar"/>
+    <tag k="sorting_name:en" v="Nangarhar"/>
+    <tag k="sorting_name:fa" v="ننگرهار"/>
+    <tag k="sorting_name:lrc" v="نٱنگٱرهار"/>
+    <tag k="sorting_name:pa" v="ਨੰਗਰਹਾਰ"/>
+    <tag k="sorting_name:pnb" v="ننگرھار"/>
+    <tag k="sorting_name:ps" v="ننگرهار"/>
+    <tag k="sorting_name:ru" v="Нангархар"/>
+    <tag k="sorting_name:sd" v="ننگرھار"/>
+    <tag k="sorting_name:ug" v="نانگارھار"/>
+    <tag k="sorting_name:uk" v="Нангархар"/>
+    <tag k="sorting_name:ur" v="ننگرہار"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q178471"/>
     <tag k="wikipedia" v="ps:ننگرهار ولايت"/>
+    <tag k="wikipedia:ar" v="ولاية ننكرهار"/>
+    <tag k="wikipedia:fa" v="ولایت ننگرهار"/>
+    <tag k="wikipedia:ps" v="ننگرهار ولايت"/>
+    <tag k="wikipedia:ur" v="صوبہ ننگرہار"/>
   </relation>
   <relation id="1674782">
     <tag k="ISO3166-2" v="AF-PAR"/>
@@ -39502,6 +39546,7 @@
     <tag k="name:an" v="Chinebra"/>
     <tag k="name:ar" v="جنيف"/>
     <tag k="name:az" v="Cenevrə"/>
+    <tag k="name:azb" v="ژنو"/>
     <tag k="name:be" v="Жэнева"/>
     <tag k="name:bg" v="Женева"/>
     <tag k="name:bo" v="རི་ནོས་ཝ"/>
@@ -39526,17 +39571,21 @@
     <tag k="name:id" v="Jenewa"/>
     <tag k="name:it" v="Ginevra"/>
     <tag k="name:ja" v="ジュネーヴ"/>
+    <tag k="name:kk-Arab" v="جەنەۆا"/>
     <tag k="name:lv" v="Ženēva"/>
     <tag k="name:nl" v="Genève"/>
     <tag k="name:pl" v="Genewa"/>
+    <tag k="name:pnb" v="جنیوا"/>
     <tag k="name:prefix" v="Kanton"/>
     <tag k="name:rm" v="Genevra"/>
     <tag k="name:ru" v="Женева"/>
+    <tag k="name:sd" v="جنيوا"/>
     <tag k="name:sk" v="Ženeva"/>
     <tag k="name:sl" v="Ženeva"/>
     <tag k="name:sr" v="Женева"/>
     <tag k="name:th" v="เจนีวา"/>
     <tag k="name:tr" v="Cenevre"/>
+    <tag k="name:ur" v="جنیوا"/>
     <tag k="name:vi" v="Giơ-ne-vơ"/>
     <tag k="name:zh" v="日內瓦"/>
     <tag k="name:zh_pinyin" v="Rìnèiwǎ"/>
@@ -39990,8 +40039,8 @@
     <tag k="is_in:continent" v="Africa"/>
     <tag k="is_in:country" v="Somalia"/>
     <tag k="is_in:country_code" v="SO"/>
-    <tag k="name" v="عدل ‎‎ Awdal"/>
-    <tag k="name:ar" v="عدل‎‎"/>
+    <tag k="name" v="عدل Awdal"/>
+    <tag k="name:ar" v="عدل"/>
     <tag k="name:de" v="Awdal"/>
     <tag k="name:en" v="Awdal"/>
     <tag k="name:es" v="Awdal"/>
@@ -42017,9 +42066,9 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Ստեփանակերտ / Xankəndi"/>
     <tag k="name:az" v="Xankəndi"/>
-    <tag k="name:en" v="Stepanakert / Khankendi"/>
+    <tag k="name:en" v="Stepanakert"/>
     <tag k="name:hy" v="Ստեփանակերտ"/>
-    <tag k="name:ru" v="Ханкенди"/>
+    <tag k="name:ru" v="Степанакерт"/>
     <tag k="name:uk" v="Ханкенди"/>
     <tag k="place" v="town"/>
     <tag k="population" v="53400"/>
@@ -46212,12 +46261,11 @@
   <relation id="1973756">
     <tag k="ISO3166-2" v="VN-SG"/>
     <tag k="admin_level" v="4"/>
-    <tag k="boundary" v="administrative"/>
     <tag k="is_in:country_code" v="VN"/>
     <tag k="name" v="Thành phố Hồ Chí Minh"/>
     <tag k="name:cs" v="Ho Či Minovo Město"/>
     <tag k="name:en" v="Ho Chi Minh City"/>
-    <tag k="name:fr" v="Ho-Chi-Minh-Ville"/>
+    <tag k="name:fr" v="Hô Chi Minh-Ville"/>
     <tag k="name:ja" v="ホーチミン市"/>
     <tag k="name:ko" v="호찌민시"/>
     <tag k="name:ms" v="Kota Ho Chi Minh"/>
@@ -46236,7 +46284,6 @@
     <tag k="old_name:zh" v="西贡"/>
     <tag k="old_name:zh-Hant" v="西貢"/>
     <tag k="population" v="7521100"/>
-    <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q1854"/>
     <tag k="wikipedia" v="vi:Thành phố Hồ Chí Minh"/>
     <tag k="wikivoyage" v="en:Ho Chi Minh City"/>
@@ -47193,20 +47240,28 @@
     <tag k="ISO3166-2" v="LY-DR"/>
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
-    <tag k="int_name" v="Derna"/>
     <tag k="name" v="درنة"/>
     <tag k="name:ar" v="درنة"/>
+    <tag k="name:azb" v="درنه"/>
     <tag k="name:de" v="Munizip Darna"/>
     <tag k="name:en" v="Derna"/>
     <tag k="name:es" v="Derna"/>
+    <tag k="name:fa" v="درنه"/>
     <tag k="name:fr" v="Darnah"/>
     <tag k="name:it" v="Distretto di Derna"/>
+    <tag k="name:ks" v="درنہ"/>
+    <tag k="name:ota" v="درنه"/>
     <tag k="name:pl" v="Darna"/>
+    <tag k="name:pnb" v="درنہ"/>
     <tag k="name:ru" v="Дерна"/>
     <tag k="name:uk" v="Дерна"/>
+    <tag k="name:ur" v="درنہ"/>
+    <tag k="official_name" v="بلدية درنة"/>
+    <tag k="official_name:ar" v="بلدية درنة"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q26124"/>
-    <tag k="wikipedia" v="en:Derna District"/>
+    <tag k="wikipedia" v="ar:بلدية درنة"/>
+    <tag k="wikipedia:ar" v="بلدية درنة"/>
   </relation>
   <relation id="2060173">
     <tag k="ISO3166-2" v="LY-GT"/>
@@ -47365,19 +47420,28 @@
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
     <tag k="int_name" v="Bani Walid"/>
-    <tag k="name" v="بني وليد"/>
-    <tag k="name:ar" v="بني وليد"/>
+    <tag k="name" v="محافظة مصراتة"/>
+    <tag k="name:ar" v="محافظة مصراتة"/>
+    <tag k="name:azb" v="استان میصراته"/>
     <tag k="name:de" v="Munizip Bani walid"/>
     <tag k="name:en" v="Bani Walid"/>
-    <tag k="name:es" v="Beni Ulid"/>
-    <tag k="name:fr" v="Beni Ulid"/>
+    <tag k="name:fa" v="استان مصراته"/>
     <tag k="name:it" v="Distretto di Beni Uild"/>
     <tag k="name:pl" v="Bani Walid"/>
     <tag k="name:ru" v="Мисурата"/>
     <tag k="name:uk" v="Місурата"/>
+    <tag k="name:ur" v="مصراتہ ضلع"/>
+    <tag k="old_name" v="شعبية مصراتة"/>
+    <tag k="old_name:ar" v="شعبية مصراتة"/>
+    <tag k="sorting_name" v="بني وليد"/>
+    <tag k="sorting_name:ar" v="بني وليد"/>
+    <tag k="sorting_name:azb" v="میصراته"/>
+    <tag k="sorting_name:fa" v="مصراته"/>
+    <tag k="sorting_name:ur" v="مصراتہ"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q32845"/>
-    <tag k="wikipedia" v="en:Bani Walid District"/>
+    <tag k="wikipedia" v="ar:شعبية مصراتة"/>
+    <tag k="wikipedia:ar" v="شعبية مصراتة"/>
   </relation>
   <relation id="2060181">
     <tag k="ISO3166-2" v="LY-MQ"/>
@@ -47787,7 +47851,6 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Ségou"/>
     <tag k="name:ar" v="سيكو"/>
-    <tag k="name:en" v="Ségou"/>
     <tag k="name:fr" v="Ségou"/>
     <tag k="name:ru" v="Сегу"/>
     <tag k="official_name" v="Région de Ségou"/>
@@ -47943,6 +48006,7 @@
   </relation>
   <relation id="2127079">
     <tag k="ISO3166-2" v="TW-KHH"/>
+    <tag k="addr:country" v="TW"/>
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
     <tag k="is_in:continent" v="Asia"/>
@@ -48018,6 +48082,12 @@
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q181557"/>
     <tag k="wikipedia" v="zh:高雄市"/>
+    <tag k="wikipedia:en" v="Kaohsiung"/>
+    <tag k="wikipedia:ja" v="高雄市"/>
+    <tag k="wikipedia:ko" v="가오슝시"/>
+    <tag k="wikipedia:ms" v="Kaohsiung"/>
+    <tag k="wikipedia:ru" v="Гаосюн"/>
+    <tag k="wikipedia:ur" v="کائوسیونگ شہر"/>
   </relation>
   <relation id="2128285">
     <tag k="ISO3166-2" v="CN-HI"/>
@@ -48860,7 +48930,7 @@
     <tag k="short_name" v="Matagalpa"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q728099"/>
-    <tag k="wikipedia" v="es:Departamento_de_Matagalpa"/>
+    <tag k="wikipedia" v="es:Departamento de Matagalpa"/>
   </relation>
   <relation id="2195034">
     <tag k="ISO3166-2" v="NI-AN"/>
@@ -51324,6 +51394,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="is_in:country_code" v="RO"/>
     <tag k="name" v="Tulcea"/>
+    <tag k="name:de" v="Tultscha"/>
     <tag k="name:en" v="Tulcea"/>
     <tag k="name:lt" v="Tulča"/>
     <tag k="name:ru" v="Тулча"/>
@@ -51405,26 +51476,6 @@
     <tag k="ref" v="FI20"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q5689"/>
-  </relation>
-  <relation id="2379535">
-    <tag k="ISO3166-2" v="AZ-SAH"/>
-    <tag k="admin_level" v="4"/>
-    <tag k="boundary" v="administrative"/>
-    <tag k="is_in:continent" v="Asia"/>
-    <tag k="is_in:country" v="Azerbaijan"/>
-    <tag k="is_in:country_code" v="AZ"/>
-    <tag k="name" v="Şahbuz rayonu"/>
-    <tag k="name:az" v="Şahbuz rayonu"/>
-    <tag k="name:de" v="Şahbuz"/>
-    <tag k="name:en" v="Shakhbuz Rayon"/>
-    <tag k="name:es" v="Shahbuz"/>
-    <tag k="name:fr" v="Shakhbuz"/>
-    <tag k="name:ja" v="シャフブズ地区"/>
-    <tag k="name:ru" v="Шахбузский район"/>
-    <tag k="name:uk" v="Шагбузький район"/>
-    <tag k="type" v="boundary"/>
-    <tag k="wikidata" v="Q388081"/>
-    <tag k="wikipedia" v="az:Şahbuz rayonu"/>
   </relation>
   <relation id="2388356">
     <tag k="ISO3166-2" v="ID-BT"/>
@@ -52450,7 +52501,6 @@
     <tag k="wikidata" v="Q19950954"/>
     <tag k="wikipedia" v="ar:جهة درعة تافيلالت"/>
     <tag k="wikipedia:ar" v="جهة درعة تافيلالت"/>
-    <tag k="wikipedia:fr" v="Drâa-Tafilalet"/>
   </relation>
   <relation id="2424036">
     <tag k="ISO3166-2" v="MA-09"/>
@@ -52480,22 +52530,20 @@
     <tag k="admin_level" v="4"/>
     <tag k="alt_name" v="گلميم - واد نون"/>
     <tag k="alt_name:ar" v="كلميم واد نون"/>
-    <tag k="boundary" v="administrative"/>
     <tag k="name" v="Guelmim-Oued Noun ⴳⵍⵎⵉⵎ-ⵡⴰⴷ ⵏⵓⵏ كلميم وادي نون"/>
     <tag k="name:ar" v="كلميم وادي نون"/>
     <tag k="name:ber" v="ⴳⵍⵎⵉⵎ-ⵡⴰⴷ ⵏⵓⵏ"/>
     <tag k="name:en" v="Guelmim-Oued Noun"/>
     <tag k="name:fr" v="Guelmim-Oued Noun"/>
-    <tag k="name:lt" v="Gelimimo-"/>
-    <tag k="name:pl" v="Kulmim-"/>
-    <tag k="name:ru" v="Гулимим-"/>
-    <tag k="name:uk" v="Гельмім-"/>
+    <tag k="name:lt" v="Guelmim-Oued Noun"/>
+    <tag k="name:pl" v="Kulmim-Wad Nun"/>
+    <tag k="name:ru" v="Гулимин — Вади-Нун"/>
+    <tag k="name:uk" v="Гельмім"/>
     <tag k="network" v="Régions du Maroc الجهات في المغرب"/>
     <tag k="population" v="433757"/>
     <tag k="population:date" v="2014"/>
     <tag k="ref" v="10"/>
     <tag k="ref:MA:HCP" v="10."/>
-    <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q19951051"/>
     <tag k="wikipedia" v="ar:جهة كلميم واد نون"/>
   </relation>
@@ -52547,23 +52595,28 @@
     <tag k="ISO3166-2" v="MA-11"/>
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
-    <tag k="name" v="Laâyoune-Sakia El Hamra ⵍⵄⵢⵓⵏ-ⵙⴰⵇⵢⴰ ⵍⵃⴰⵎⵔⴰ العيون-الساقية الحمراء"/>
-    <tag k="name:ar" v="العيون-الساقية الحمراء"/>
+    <tag k="name" v="Laâyoune-Sakia El Hamra ⵍⵄⵢⵓⵏ-ⵙⴰⵇⵢⴰ ⵍⵃⴰⵎⵔⴰ العيون الساقية الحمراء"/>
+    <tag k="name:ar" v="العيون الساقية الحمراء"/>
     <tag k="name:ber" v="ⵍⵄⵢⵓⵏ-ⵙⴰⵇⵢⴰ ⵍⵃⴰⵎⵔⴰ"/>
     <tag k="name:en" v="Laâyoune-Sakia El Hamra"/>
+    <tag k="name:fa" v="العیون ساقیه الحمرا"/>
     <tag k="name:fr" v="Laâyoune-Sakia El Hamra"/>
     <tag k="name:lt" v="Alujuno-Sakija Alhamro"/>
     <tag k="name:pl" v="Al-Ujun-Sakija al-Hamra"/>
     <tag k="name:ru" v="Эль-Аюн — Сегиет-эль-Хамра"/>
     <tag k="name:uk" v="Ель-Аюн — Сегієт-ель-Хамра"/>
-    <tag k="network" v="Régions du Maroc"/>
+    <tag k="name:ur" v="العیون ساقیہ الحمرا"/>
+    <tag k="network" v="MA:regions"/>
+    <tag k="official_name" v="جهة العيون الساقية الحمراء"/>
+    <tag k="official_name:ar" v="جهة العيون الساقية الحمراء"/>
     <tag k="population" v="367758"/>
     <tag k="population:date" v="2014"/>
     <tag k="ref" v="11"/>
     <tag k="ref:MA:HCP" v="11."/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q19951088"/>
-    <tag k="wikipedia" v="en:Laâyoune-Boujdour-Sakia El Hamra"/>
+    <tag k="wikipedia" v="ar:جهة العيون الساقية الحمراء"/>
+    <tag k="wikipedia:ar" v="جهة العيون الساقية الحمراء"/>
   </relation>
   <relation id="2425963">
     <tag k="ISO3166-1" v="BV"/>
@@ -53196,18 +53249,6 @@
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q399063"/>
   </relation>
-  <relation id="2536260">
-    <tag k="ISO3166-2" v="SB-GU"/>
-    <tag k="admin_level" v="4"/>
-    <tag k="boundary" v="administrative"/>
-    <tag k="maritime" v="yes"/>
-    <tag k="name" v="Guadalcanal Province"/>
-    <tag k="name:ja" v="ガダルカナル州"/>
-    <tag k="name:ru" v="Гуадалканал"/>
-    <tag k="type" v="boundary"/>
-    <tag k="wikidata" v="Q760888"/>
-    <tag k="wikipedia" v="en:Guadalcanal Province"/>
-  </relation>
   <relation id="2536261">
     <tag k="ISO3166-2" v="SB-IS"/>
     <tag k="admin_level" v="4"/>
@@ -53263,18 +53304,6 @@
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q936088"/>
   </relation>
-  <relation id="2536266">
-    <tag k="ISO3166-2" v="SB-WE"/>
-    <tag k="admin_level" v="4"/>
-    <tag k="boundary" v="administrative"/>
-    <tag k="maritime" v="yes"/>
-    <tag k="name" v="Western Province"/>
-    <tag k="name:ja" v="西部州"/>
-    <tag k="name:ru" v="Западная провинция"/>
-    <tag k="source" v="wikipedia"/>
-    <tag k="type" v="boundary"/>
-    <tag k="wikidata" v="Q150325"/>
-  </relation>
   <relation id="2536278">
     <tag k="ISO3166-2" v="SB-CT"/>
     <tag k="admin_level" v="4"/>
@@ -53289,22 +53318,26 @@
   <relation id="2537732">
     <tag k="ISO3166-2" v="TD-TI"/>
     <tag k="admin_level" v="4"/>
+    <tag k="alt_name" v="تيبستي;إقليم تبستي;إقليم تابستي;منطقة تبستي;مقاطعة تيبستي"/>
+    <tag k="alt_name:ar" v="تيبستي;إقليم تبستي;إقليم تابستي;منطقة تبستي;مقاطعة تيبستي"/>
     <tag k="boundary" v="administrative"/>
-    <tag k="long_name:ar" v="مقاطعة تيبستي"/>
-    <tag k="name" v="Tibesti تيبستي"/>
-    <tag k="name:ar" v="تيبستي"/>
+    <tag k="name" v="تبستي"/>
+    <tag k="name:ar" v="تبستي"/>
+    <tag k="name:de" v="Tibesti"/>
     <tag k="name:en" v="Tibesti"/>
     <tag k="name:es" v="Tibesti"/>
+    <tag k="name:fa" v="تیبستی"/>
     <tag k="name:fr" v="Tibesti"/>
     <tag k="name:pl" v="Tibesti"/>
     <tag k="name:ru" v="Тибести"/>
     <tag k="name:uk" v="Тібесті"/>
+    <tag k="name:ur" v="تیبستی"/>
     <tag k="population" v="21970"/>
     <tag k="population:date" v="2009-06-20"/>
-    <tag k="source:population" v="Wikipedia"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q737711"/>
-    <tag k="wikipedia" v="fr:Tibesti"/>
+    <tag k="wikipedia" v="ar:مقاطعة تيبستي"/>
+    <tag k="wikipedia:ar" v="مقاطعة تيبستي"/>
   </relation>
   <relation id="2537744">
     <tag k="ISO3166-2" v="TD-BO"/>
@@ -53983,8 +54016,6 @@
     <tag k="ISO3166-2" v="CF-VK"/>
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
-    <tag k="is_in:country" v="Central African Republic"/>
-    <tag k="is_in:country_code" v="CF"/>
     <tag k="name" v="Vakaga"/>
     <tag k="name:ru" v="Вакага"/>
     <tag k="name:uk" v="Вакага"/>
@@ -53998,8 +54029,6 @@
     <tag k="ISO3166-2" v="CF-BB"/>
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
-    <tag k="is_in:country" v="Central African Republic"/>
-    <tag k="is_in:country_code" v="CF"/>
     <tag k="name" v="Bamingui-Bangoran"/>
     <tag k="name:ru" v="Бамбинги-Бангоран"/>
     <tag k="name:uk" v="Бамбінґі-Банґоран"/>
@@ -55811,7 +55840,7 @@
     <tag k="admin_level" v="4"/>
     <tag k="alt_name" v="Dahūk"/>
     <tag k="boundary" v="administrative"/>
-    <tag k="name" v="پارێزگای دھۆک / ܗܘܦܪܟܝܐ ܕܢܘܗܕܪܐ‎"/>
+    <tag k="name" v="پارێزگای دھۆک"/>
     <tag k="name:ar" v="محافظة دهوك"/>
     <tag k="name:cs" v="Dahúk"/>
     <tag k="name:de" v="Dahuk"/>
@@ -55823,6 +55852,7 @@
     <tag k="name:ku" v="Dihok"/>
     <tag k="name:pl" v="Dahuk"/>
     <tag k="name:ru" v="Дахук"/>
+    <tag k="name:syr" v="ܗܘܦܪܟܝܐ ܕܢܘܗܕܪܐ"/>
     <tag k="name:uk" v="Дахук"/>
     <tag k="source" v="Empirical Studies of Conflict (ESOC)"/>
     <tag k="type" v="boundary"/>
@@ -55898,7 +55928,7 @@
     <tag k="admin_level" v="4"/>
     <tag k="alt_name" v="Nīnawā;Nīnwē;Neynewa"/>
     <tag k="boundary" v="administrative"/>
-    <tag k="name" v="محافظة نینوى / ܗܘܦܪܟܝܐ ܢܝܢܘܐ"/>
+    <tag k="name" v="محافظة نینوى"/>
     <tag k="name:ar" v="محافظة نینوى"/>
     <tag k="name:arc" v="ܗܘܦܪܟܝܐ ܢܝܢܘܐ"/>
     <tag k="name:ckb" v="پارێزگای نەینەوا"/>
@@ -55913,6 +55943,7 @@
     <tag k="name:pl" v="Niniwa"/>
     <tag k="name:ru" v="Найнава"/>
     <tag k="name:syc" v="ܗܘܦܪܟܝܐ ܢܝܢܘܐ"/>
+    <tag k="name:syr" v="ܗܘܦܪܟܝܐ ܢܝܢܘܐ"/>
     <tag k="name:tr" v="Ninova"/>
     <tag k="name:uk" v="Найнава"/>
     <tag k="sorting_name" v="نینوى"/>
@@ -56144,14 +56175,30 @@
     <tag k="ISO3166-2" v="EG-ALX"/>
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
-    <tag k="name" v="الإسكندرية"/>
+    <tag k="name:ar" v="محافظة الإسكندرية"/>
+    <tag k="name:azb" v="اسکندریه اوستانی"/>
     <tag k="name:de" v="Gouvernement Alexandria"/>
     <tag k="name:en" v="Alexandria Governorate"/>
+    <tag k="name:fa" v="استان اسکندریه"/>
     <tag k="name:fr" v="Gouvernorat d'Alexandrie"/>
     <tag k="name:hu" v="Alexandria kormányzóság"/>
+    <tag k="name:pnb" v="صوبہ اسکندریہ"/>
     <tag k="name:ru" v="мухафаза Александрия"/>
+    <tag k="name:ur" v="محافظہ اسکندریہ"/>
+    <tag k="sorting_name" v="الإسكندرية"/>
+    <tag k="sorting_name:ar" v="الإسكندرية"/>
+    <tag k="sorting_name:arc" v="ܐܠܟܣܢܕܪܝܐ"/>
+    <tag k="sorting_name:azb" v="ایسکندریه"/>
+    <tag k="sorting_name:fa" v="اسکندریه"/>
+    <tag k="sorting_name:pnb" v="اسکندریہ"/>
+    <tag k="sorting_name:ps" v="اسکندریه"/>
+    <tag k="sorting_name:sd" v="اسڪندريہ"/>
+    <tag k="sorting_name:syc" v="ܐܠܟܣܢܕܪܝܐ"/>
+    <tag k="sorting_name:ur" v="اسکندریہ"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q29943"/>
+    <tag k="wikipedia" v="ar:محافظة الإسكندرية"/>
+    <tag k="wikipedia:ar" v="محافظة الإسكندرية"/>
   </relation>
   <relation id="3062184">
     <tag k="ISO3166-2" v="EG-IS"/>
@@ -56363,7 +56410,6 @@
     <tag k="ISO3166-2" v="TD-GR"/>
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
-    <tag k="is_in:country" v="تشاد"/>
     <tag k="name" v="Guéra قيرا"/>
     <tag k="name:ar" v="قيرا"/>
     <tag k="name:en" v="Guéra"/>
@@ -57183,6 +57229,8 @@
     <tag k="alt_name" v="San José"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Provincia San José"/>
+    <tag k="name:en" v="San Jose Province"/>
+    <tag k="name:es" v="Provincia San José"/>
     <tag k="name:ja" v="サンホセ州"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q647808"/>
@@ -57212,7 +57260,7 @@
     <tag k="name:de" v="Provinz Cartago"/>
     <tag k="name:el" v="Επαρχία Καρτάγο"/>
     <tag k="name:en" v="Cartago Province"/>
-    <tag k="name:es" v="Provincia de Cartago"/>
+    <tag k="name:es" v="Provincia Cartago"/>
     <tag k="name:fa" v="استان کارتاگو"/>
     <tag k="name:fi" v="Cartagon maakunta"/>
     <tag k="name:fr" v="Cartago"/>
@@ -57257,7 +57305,7 @@
     <tag k="name:de" v="Provinz Limón"/>
     <tag k="name:el" v="Επαρχία Λιμόν"/>
     <tag k="name:en" v="Limón Province"/>
-    <tag k="name:es" v="Provincia de Limón"/>
+    <tag k="name:es" v="Provincia Limón"/>
     <tag k="name:fa" v="استان لیمون"/>
     <tag k="name:fi" v="Limónin maakunta"/>
     <tag k="name:fr" v="Limón"/>
@@ -59400,7 +59448,7 @@
     <tag k="ref:ONE" v="0811"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q1323353"/>
-    <tag k="wikipedia" v="es:La Altagracia"/>
+    <tag k="wikipedia" v="es:Provincia de La Altagracia"/>
   </relation>
   <relation id="3422241">
     <tag k="ISO3166-2" v="DO-14"/>
@@ -61482,6 +61530,7 @@
     <tag k="name:es" v="Prefectura de Aichi"/>
     <tag k="name:fr" v="Préfecture d'Aichi"/>
     <tag k="name:it" v="Prefettura di Aichi"/>
+    <tag k="name:ja" v="愛知県"/>
     <tag k="name:ja_rm" v="Aichi-ken"/>
     <tag k="name:ko" v="아이치현"/>
     <tag k="name:pl" v="Prefektura Aichi"/>
@@ -62307,6 +62356,22 @@
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q208668"/>
   </relation>
+  <relation id="3698564">
+    <tag k="ISO3166-2" v="NG-YO"/>
+    <tag k="admin_level" v="4"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="land_area" v="administrative"/>
+    <tag k="name" v="Yobe"/>
+    <tag k="name:ja" v="ヨベ州"/>
+    <tag k="name:ru" v="Йобе"/>
+    <tag k="name:uk" v="Йобе"/>
+    <tag k="source" v="eHealth Africa"/>
+    <tag k="source:date" v="2013"/>
+    <tag k="source:url" v="http://ehealthafrica.org"/>
+    <tag k="type" v="boundary"/>
+    <tag k="wikidata" v="Q682777"/>
+    <tag k="wikipedia" v="en:Yobe State"/>
+  </relation>
   <relation id="3703236">
     <tag k="ISO3166-2" v="NG-JI"/>
     <tag k="admin_level" v="4"/>
@@ -62774,7 +62839,7 @@
     <tag k="source:date" v="2013"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q337514"/>
-    <tag k="wikipedia" v="en:en:en:en:en:Adamawa St"/>
+    <tag k="wikipedia" v="en:En:en:en:en:Adamawa St"/>
   </relation>
   <relation id="3720422">
     <tag k="ISO3166-2" v="NG-GO"/>
@@ -63271,180 +63336,11 @@
     <tag k="wikidata" v="Q43271"/>
     <tag k="wikipedia" v="en:Barinas (state)"/>
   </relation>
-  <relation id="3764533">
-    <tag k="ISO3166-2" v="AZ-ABS"/>
-    <tag k="admin_level" v="4"/>
-    <tag k="boundary" v="administrative"/>
-    <tag k="name" v="Abşeron rayonu"/>
-    <tag k="name:ar" v="مقاطعة آبشوران"/>
-    <tag k="name:azb" v="آبشرون رایونو"/>
-    <tag k="name:de" v="Abşeron"/>
-    <tag k="name:en" v="Absheron District"/>
-    <tag k="name:es" v="Abşeron"/>
-    <tag k="name:fa" v="شهرستان آب‌شوران"/>
-    <tag k="name:fr" v="Abşeron"/>
-    <tag k="name:ja" v="アブシェロン県"/>
-    <tag k="name:pnb" v="ضلع ابشیرون"/>
-    <tag k="name:ru" v="Апшеронский район"/>
-    <tag k="name:ur" v="آب شیرون ضلع"/>
-    <tag k="type" v="boundary"/>
-    <tag k="wikidata" v="Q179538"/>
-    <tag k="wikipedia" v="az:Abşeron rayonu"/>
-  </relation>
   <relation id="3764534">
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Astara rayonu"/>
     <tag k="type" v="boundary"/>
-  </relation>
-  <relation id="3764535">
-    <tag k="ISO3166-2" v="AZ-AST"/>
-    <tag k="admin_level" v="4"/>
-    <tag k="boundary" v="administrative"/>
-    <tag k="is_in:continent" v="Asia"/>
-    <tag k="is_in:country" v="Azerbaijan"/>
-    <tag k="is_in:country_code" v="AZ"/>
-    <tag k="name" v="Astara rayonu"/>
-    <tag k="name:ar" v="مقاطعة آستارا"/>
-    <tag k="name:de" v="Astara"/>
-    <tag k="name:en" v="Astara District"/>
-    <tag k="name:es" v="Astara"/>
-    <tag k="name:fr" v="Astara"/>
-    <tag k="name:ja" v="アスタラ県"/>
-    <tag k="name:ru" v="Астаринский район"/>
-    <tag k="type" v="boundary"/>
-    <tag k="wikidata" v="Q269680"/>
-    <tag k="wikipedia" v="de:Astara (Rayon)"/>
-  </relation>
-  <relation id="3764536">
-    <tag k="ISO3166-2" v="AZ-AGC"/>
-    <tag k="admin_level" v="4"/>
-    <tag k="boundary" v="administrative"/>
-    <tag k="is_in:continent" v="Asia"/>
-    <tag k="is_in:country" v="Azerbaijan"/>
-    <tag k="is_in:country_code" v="AZ"/>
-    <tag k="name" v="Ağcabədi rayonu"/>
-    <tag k="name:de" v="Ağcabədi"/>
-    <tag k="name:en" v="Aghjabadi District"/>
-    <tag k="name:es" v="Ağcabədi"/>
-    <tag k="name:fr" v="Ağcabədi"/>
-    <tag k="name:ja" v="アグジャバディ県"/>
-    <tag k="name:ru" v="Агджабединский район"/>
-    <tag k="type" v="boundary"/>
-    <tag k="wikidata" v="Q330818"/>
-    <tag k="wikipedia" v="de:Ağcabədi (Rayon)"/>
-  </relation>
-  <relation id="3764538">
-    <tag k="ISO3166-2" v="AZ-AGS"/>
-    <tag k="admin_level" v="4"/>
-    <tag k="boundary" v="administrative"/>
-    <tag k="is_in:continent" v="Asia"/>
-    <tag k="is_in:country" v="Azerbaijan"/>
-    <tag k="is_in:country_code" v="AZ"/>
-    <tag k="name" v="Ağdaş rayonu"/>
-    <tag k="name:de" v="Ağdaş"/>
-    <tag k="name:en" v="Agdash District"/>
-    <tag k="name:es" v="Ağdaş"/>
-    <tag k="name:fr" v="Ağdaş"/>
-    <tag k="name:ja" v="アグダシュ県"/>
-    <tag k="name:ru" v="Агдашский район"/>
-    <tag k="population" v="93100"/>
-    <tag k="type" v="boundary"/>
-    <tag k="wikidata" v="Q275784"/>
-    <tag k="wikipedia" v="de:Ağdaş (Rayon)"/>
-  </relation>
-  <relation id="3764539">
-    <tag k="ISO3166-2" v="AZ-AGA"/>
-    <tag k="admin_level" v="4"/>
-    <tag k="boundary" v="administrative"/>
-    <tag k="is_in:continent" v="Asia"/>
-    <tag k="is_in:country" v="Azerbaijan"/>
-    <tag k="is_in:country_code" v="AZ"/>
-    <tag k="name" v="Ağstafa rayonu"/>
-    <tag k="name:de" v="Ağstafa"/>
-    <tag k="name:en" v="Aghstafa District"/>
-    <tag k="name:es" v="Ağstafa"/>
-    <tag k="name:fr" v="Aghstafa"/>
-    <tag k="name:ja" v="アグスタファ県"/>
-    <tag k="name:ru" v="Акстафинский район"/>
-    <tag k="type" v="boundary"/>
-    <tag k="wikidata" v="Q275744"/>
-    <tag k="wikipedia" v="az:Ağstafa rayonu"/>
-  </relation>
-  <relation id="3764540">
-    <tag k="ISO3166-2" v="AZ-AGU"/>
-    <tag k="admin_level" v="4"/>
-    <tag k="boundary" v="administrative"/>
-    <tag k="is_in:continent" v="Asia"/>
-    <tag k="is_in:country" v="Azerbaijan"/>
-    <tag k="is_in:country_code" v="AZ"/>
-    <tag k="name" v="Ağsu rayonu"/>
-    <tag k="name:de" v="Ağsu"/>
-    <tag k="name:en" v="Agsu District"/>
-    <tag k="name:es" v="Ağsu"/>
-    <tag k="name:fr" v="Ağsu"/>
-    <tag k="name:ja" v="アグス県"/>
-    <tag k="name:ru" v="Ахсуинский район"/>
-    <tag k="type" v="boundary"/>
-    <tag k="wikidata" v="Q330800"/>
-    <tag k="wikipedia" v="de:Ağsu (Rayon)"/>
-  </relation>
-  <relation id="3764541">
-    <tag k="ISO3166-2" v="AZ-BA"/>
-    <tag k="admin_level" v="4"/>
-    <tag k="boundary" v="administrative"/>
-    <tag k="is_in:continent" v="Asia"/>
-    <tag k="is_in:country" v="Azerbaijan"/>
-    <tag k="is_in:country_code" v="AZ"/>
-    <tag k="name" v="Bakı İnzibati Ərazisi"/>
-    <tag k="name:ar" v="باكو"/>
-    <tag k="name:de" v="Baku"/>
-    <tag k="name:en" v="Baku"/>
-    <tag k="name:es" v="Bakú"/>
-    <tag k="name:fa" v="باکو"/>
-    <tag k="name:fr" v="Bakou"/>
-    <tag k="name:ja" v="バクー"/>
-    <tag k="name:ru" v="Бакинская Администрация"/>
-    <tag k="name:tr" v="Bakü"/>
-    <tag k="name:ur" v="باکو"/>
-    <tag k="type" v="boundary"/>
-    <tag k="wikidata" v="Q9248"/>
-    <tag k="wikipedia" v="az:Bakı"/>
-  </relation>
-  <relation id="3764542">
-    <tag k="ISO3166-2" v="AZ-BAL"/>
-    <tag k="admin_level" v="4"/>
-    <tag k="boundary" v="administrative"/>
-    <tag k="is_in:continent" v="Asia"/>
-    <tag k="is_in:country" v="Azerbaijan"/>
-    <tag k="is_in:country_code" v="AZ"/>
-    <tag k="name" v="Balakən rayonu"/>
-    <tag k="name:de" v="Balakan"/>
-    <tag k="name:en" v="Balakan District"/>
-    <tag k="name:es" v="Balakan"/>
-    <tag k="name:fr" v="Balakan"/>
-    <tag k="name:ja" v="バラキャン県"/>
-    <tag k="name:ru" v="Белоканский район"/>
-    <tag k="type" v="boundary"/>
-    <tag k="wikidata" v="Q330850"/>
-    <tag k="wikipedia" v="de:Balakən (Rayon)"/>
-  </relation>
-  <relation id="3764543">
-    <tag k="ISO3166-2" v="AZ-BEY"/>
-    <tag k="admin_level" v="4"/>
-    <tag k="boundary" v="administrative"/>
-    <tag k="is_in:continent" v="Asia"/>
-    <tag k="is_in:country" v="Azerbaijan"/>
-    <tag k="is_in:country_code" v="AZ"/>
-    <tag k="name" v="Beyləqan rayonu"/>
-    <tag k="name:de" v="Beyləqan"/>
-    <tag k="name:en" v="Beylagan District"/>
-    <tag k="name:es" v="Beyləqan"/>
-    <tag k="name:fr" v="Beyləqan"/>
-    <tag k="name:ru" v="Бейлаганский район"/>
-    <tag k="type" v="boundary"/>
-    <tag k="wikidata" v="Q330807"/>
-    <tag k="wikipedia" v="de:Beyləqan (Rayon)"/>
   </relation>
   <relation id="3764544">
     <tag k="admin_level" v="4"/>
@@ -63452,89 +63348,11 @@
     <tag k="name" v="Biləsuvar rayonu"/>
     <tag k="type" v="boundary"/>
   </relation>
-  <relation id="3764545">
-    <tag k="ISO3166-2" v="AZ-BIL"/>
-    <tag k="admin_level" v="4"/>
-    <tag k="boundary" v="administrative"/>
-    <tag k="is_in:continent" v="Asia"/>
-    <tag k="is_in:country" v="Azerbaijan"/>
-    <tag k="is_in:country_code" v="AZ"/>
-    <tag k="name" v="Biləsuvar rayonu"/>
-    <tag k="name:ar" v="مقاطعة بيلاسوار"/>
-    <tag k="name:de" v="Biləsuvar"/>
-    <tag k="name:en" v="Bilasuvar District"/>
-    <tag k="name:es" v="Biləsuvar"/>
-    <tag k="name:fr" v="Biləsuvar"/>
-    <tag k="name:ja" v="ビラスヴァル県"/>
-    <tag k="name:ru" v="Билясуварский район"/>
-    <tag k="population" v="87508"/>
-    <tag k="type" v="boundary"/>
-    <tag k="wikidata" v="Q330834"/>
-    <tag k="wikipedia" v="de:Biləsuvar (Rayon)"/>
-  </relation>
-  <relation id="3764546">
-    <tag k="ISO3166-2" v="AZ-BAR"/>
-    <tag k="admin_level" v="4"/>
-    <tag k="boundary" v="administrative"/>
-    <tag k="name" v="Bərdə rayonu"/>
-    <tag k="name:ar" v="مقاطعة بردعة"/>
-    <tag k="name:azb" v="برده رایونو"/>
-    <tag k="name:de" v="Bərdə"/>
-    <tag k="name:en" v="Barda District"/>
-    <tag k="name:es" v="Bərdə"/>
-    <tag k="name:fa" v="شهرستان بردع"/>
-    <tag k="name:fr" v="Bərdə"/>
-    <tag k="name:ja" v="バルダ県"/>
-    <tag k="name:pnb" v="ضلع بردع"/>
-    <tag k="name:ru" v="Бардинский район"/>
-    <tag k="name:ur" v="بردع ضلع"/>
-    <tag k="type" v="boundary"/>
-    <tag k="wikidata" v="Q330857"/>
-    <tag k="wikipedia" v="az:Bərdə rayonu"/>
-  </relation>
-  <relation id="3764547">
-    <tag k="ISO3166-2" v="AZ-CAL"/>
-    <tag k="admin_level" v="4"/>
-    <tag k="boundary" v="administrative"/>
-    <tag k="is_in:continent" v="Asia"/>
-    <tag k="is_in:country" v="Azerbaijan"/>
-    <tag k="is_in:country_code" v="AZ"/>
-    <tag k="name" v="Cəlilabad rayonu"/>
-    <tag k="name:ar" v="مقاطعة جليل‌ آباد"/>
-    <tag k="name:de" v="Cəlilabad"/>
-    <tag k="name:en" v="Jalilabad District"/>
-    <tag k="name:es" v="Cəlilabad"/>
-    <tag k="name:fr" v="Cəlilabad"/>
-    <tag k="name:ja" v="ジャリラバド県"/>
-    <tag k="name:ru" v="Джалилабадский район"/>
-    <tag k="type" v="boundary"/>
-    <tag k="wikidata" v="Q372795"/>
-    <tag k="wikipedia" v="az:Cəlilabad rayonu"/>
-  </relation>
   <relation id="3764549">
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Füzuli rayonu"/>
     <tag k="type" v="boundary"/>
-  </relation>
-  <relation id="3764553">
-    <tag k="ISO3166-2" v="AZ-GOY"/>
-    <tag k="admin_level" v="4"/>
-    <tag k="boundary" v="administrative"/>
-    <tag k="is_in:continent" v="Asia"/>
-    <tag k="is_in:country" v="Azerbaijan"/>
-    <tag k="is_in:country_code" v="AZ"/>
-    <tag k="name" v="Göyçay rayonu"/>
-    <tag k="name:de" v="Göyçay"/>
-    <tag k="name:en" v="Goychay District"/>
-    <tag k="name:es" v="Göyçay"/>
-    <tag k="name:fr" v="Göyçay"/>
-    <tag k="name:ja" v="ギョイチャイ県"/>
-    <tag k="name:ru" v="Геокчайский район"/>
-    <tag k="population" v="111400"/>
-    <tag k="type" v="boundary"/>
-    <tag k="wikidata" v="Q477163"/>
-    <tag k="wikipedia" v="az:Göyçay rayonu"/>
   </relation>
   <relation id="3764554">
     <tag k="admin_level" v="4"/>
@@ -63542,142 +63360,11 @@
     <tag k="name" v="Gədəbəy rayonu"/>
     <tag k="type" v="boundary"/>
   </relation>
-  <relation id="3764555">
-    <tag k="ISO3166-2" v="AZ-GAD"/>
-    <tag k="admin_level" v="4"/>
-    <tag k="boundary" v="administrative"/>
-    <tag k="is_in:continent" v="Asia"/>
-    <tag k="is_in:country" v="Azerbaijan"/>
-    <tag k="is_in:country_code" v="AZ"/>
-    <tag k="name" v="Gədəbəy rayonu"/>
-    <tag k="name:de" v="Gədəbəy"/>
-    <tag k="name:en" v="Gedebey District"/>
-    <tag k="name:es" v="Gədəbəy"/>
-    <tag k="name:fr" v="Gədəbəy"/>
-    <tag k="name:ja" v="ガダバイ県"/>
-    <tag k="name:ru" v="Кедабекский район"/>
-    <tag k="type" v="boundary"/>
-    <tag k="wikidata" v="Q330749"/>
-    <tag k="wikipedia" v="de:Gədəbəy (Rayon)"/>
-  </relation>
-  <relation id="3764556">
-    <tag k="ISO3166-2" v="AZ-GA"/>
-    <tag k="admin_level" v="4"/>
-    <tag k="boundary" v="administrative"/>
-    <tag k="is_in:continent" v="Asia"/>
-    <tag k="is_in:country" v="Azerbaijan"/>
-    <tag k="is_in:country_code" v="AZ"/>
-    <tag k="name" v="Gəncə İnzibati Ərazisi"/>
-    <tag k="name:ar" v="رقعة المدينة كنجه"/>
-    <tag k="name:de" v="Verwaltungsgebiet Gandscha"/>
-    <tag k="name:en" v="Ganja District"/>
-    <tag k="name:es" v="Ganja"/>
-    <tag k="name:fr" v="Ganja"/>
-    <tag k="name:ja" v="ギャンジャ"/>
-    <tag k="name:ru" v="Гянджинская Администрация"/>
-    <tag k="name:tr" v="Gence"/>
-    <tag k="type" v="boundary"/>
-    <tag k="wikidata" v="Q131290"/>
-    <tag k="wikipedia" v="de:Gəncə"/>
-  </relation>
-  <relation id="3764557">
-    <tag k="ISO3166-2" v="AZ-HAC"/>
-    <tag k="admin_level" v="4"/>
-    <tag k="boundary" v="administrative"/>
-    <tag k="is_in:continent" v="Asia"/>
-    <tag k="is_in:country" v="Azerbaijan"/>
-    <tag k="is_in:country_code" v="AZ"/>
-    <tag k="name" v="Hacıqabul rayonu"/>
-    <tag k="name:az" v="Hacıqabul rayonu"/>
-    <tag k="name:de" v="Hacıqabul"/>
-    <tag k="name:en" v="Hajigabul District"/>
-    <tag k="name:es" v="Hacıqabul"/>
-    <tag k="name:fr" v="Hacıqabul"/>
-    <tag k="name:ja" v="ハジュガブル県"/>
-    <tag k="name:ru" v="Аджигабульский район"/>
-    <tag k="type" v="boundary"/>
-    <tag k="wikidata" v="Q476690"/>
-    <tag k="wikipedia" v="az:Hacıqabul rayonu"/>
-  </relation>
   <relation id="3764558">
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Kürdəmir rayonu"/>
     <tag k="type" v="boundary"/>
-  </relation>
-  <relation id="3764559">
-    <tag k="ISO3166-2" v="AZ-KUR"/>
-    <tag k="admin_level" v="4"/>
-    <tag k="boundary" v="administrative"/>
-    <tag k="is_in:continent" v="Asia"/>
-    <tag k="is_in:country" v="Azerbaijan"/>
-    <tag k="is_in:country_code" v="AZ"/>
-    <tag k="name" v="Kürdəmir rayonu"/>
-    <tag k="name:az" v="Kürdəmir rayonu"/>
-    <tag k="name:de" v="Kürdəmir"/>
-    <tag k="name:en" v="Kurdamir District"/>
-    <tag k="name:es" v="Raión de Kurdamir"/>
-    <tag k="name:fr" v="Kürdəmir"/>
-    <tag k="name:ja" v="キュルダミル県"/>
-    <tag k="name:ru" v="Кюрдамирский район"/>
-    <tag k="type" v="boundary"/>
-    <tag k="wikidata" v="Q688589"/>
-    <tag k="wikipedia" v="az:Kürdəmir rayonu"/>
-  </relation>
-  <relation id="3764560">
-    <tag k="ISO3166-2" v="AZ-LER"/>
-    <tag k="admin_level" v="4"/>
-    <tag k="boundary" v="administrative"/>
-    <tag k="name" v="Lerik rayonu"/>
-    <tag k="name:ar" v="مقاطعة لريك"/>
-    <tag k="name:azb" v="لریک رایونو"/>
-    <tag k="name:de" v="Rayon Lerik"/>
-    <tag k="name:en" v="Lerik District"/>
-    <tag k="name:fa" v="شهرستان لریک"/>
-    <tag k="name:ja" v="レリク県"/>
-    <tag k="name:pnb" v="ضلع لریک"/>
-    <tag k="name:ru" v="Лерикский район"/>
-    <tag k="name:ur" v="لریک ضلع"/>
-    <tag k="type" v="boundary"/>
-    <tag k="wikidata" v="Q688626"/>
-    <tag k="wikipedia" v="az:Lerik rayonu"/>
-  </relation>
-  <relation id="3764562">
-    <tag k="ISO3166-2" v="AZ-MAS"/>
-    <tag k="admin_level" v="4"/>
-    <tag k="boundary" v="administrative"/>
-    <tag k="is_in:continent" v="Asia"/>
-    <tag k="is_in:country" v="Azerbaijan"/>
-    <tag k="is_in:country_code" v="AZ"/>
-    <tag k="name" v="Masallı rayonu"/>
-    <tag k="name:de" v="Masallı"/>
-    <tag k="name:en" v="Masally District"/>
-    <tag k="name:es" v="Masallı"/>
-    <tag k="name:fr" v="Masallı"/>
-    <tag k="name:ja" v="マサッル県"/>
-    <tag k="name:ru" v="Масаллинский район"/>
-    <tag k="population" v="184900"/>
-    <tag k="type" v="boundary"/>
-    <tag k="wikidata" v="Q476695"/>
-    <tag k="wikipedia" v="de:Masallı (Rayon)"/>
-  </relation>
-  <relation id="3764564">
-    <tag k="ISO3166-2" v="AZ-OGU"/>
-    <tag k="admin_level" v="4"/>
-    <tag k="boundary" v="administrative"/>
-    <tag k="is_in:continent" v="Asia"/>
-    <tag k="is_in:country" v="Azerbaijan"/>
-    <tag k="is_in:country_code" v="AZ"/>
-    <tag k="name" v="Oğuz rayonu"/>
-    <tag k="name:de" v="Oğuz"/>
-    <tag k="name:en" v="Oghuz District"/>
-    <tag k="name:es" v="Oğuz"/>
-    <tag k="name:fr" v="Oğuz"/>
-    <tag k="name:ja" v="オグズ県"/>
-    <tag k="name:ru" v="Огузский район"/>
-    <tag k="type" v="boundary"/>
-    <tag k="wikidata" v="Q643989"/>
-    <tag k="wikipedia" v="de:Oğuz (Rayon)"/>
   </relation>
   <relation id="3764565">
     <tag k="admin_level" v="4"/>
@@ -63685,279 +63372,17 @@
     <tag k="name" v="Qax rayonu"/>
     <tag k="type" v="boundary"/>
   </relation>
-  <relation id="3764566">
-    <tag k="ISO3166-2" v="AZ-QAX"/>
-    <tag k="admin_level" v="4"/>
-    <tag k="boundary" v="administrative"/>
-    <tag k="is_in:continent" v="Asia"/>
-    <tag k="is_in:country" v="Azerbaijan"/>
-    <tag k="is_in:country_code" v="AZ"/>
-    <tag k="name" v="Qax rayonu"/>
-    <tag k="name:de" v="Qax"/>
-    <tag k="name:en" v="Qakh District"/>
-    <tag k="name:es" v="Qax"/>
-    <tag k="name:fr" v="Qax"/>
-    <tag k="name:ja" v="ガフ県"/>
-    <tag k="name:ru" v="Кахский район"/>
-    <tag k="type" v="boundary"/>
-    <tag k="wikidata" v="Q330796"/>
-    <tag k="wikipedia" v="de:Qax (Rayon)"/>
-  </relation>
-  <relation id="3764568">
-    <tag k="ISO3166-2" v="AZ-QOB"/>
-    <tag k="admin_level" v="4"/>
-    <tag k="boundary" v="administrative"/>
-    <tag k="is_in:continent" v="Asia"/>
-    <tag k="is_in:country" v="Azerbaijan"/>
-    <tag k="is_in:country_code" v="AZ"/>
-    <tag k="name" v="Qobustan rayonu"/>
-    <tag k="name:de" v="Qobustan"/>
-    <tag k="name:en" v="Gobustan District"/>
-    <tag k="name:es" v="Qobustan"/>
-    <tag k="name:fr" v="Qobustan"/>
-    <tag k="name:ja" v="ゴブスタン県"/>
-    <tag k="name:ru" v="Гобустанский район"/>
-    <tag k="type" v="boundary"/>
-    <tag k="wikidata" v="Q457508"/>
-    <tag k="wikipedia" v="de:Qobustan (Rayon)"/>
-  </relation>
   <relation id="3764569">
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Quba rayonu"/>
     <tag k="type" v="boundary"/>
   </relation>
-  <relation id="3764570">
-    <tag k="ISO3166-2" v="AZ-QBA"/>
-    <tag k="admin_level" v="4"/>
-    <tag k="boundary" v="administrative"/>
-    <tag k="is_in:continent" v="Asia"/>
-    <tag k="is_in:country" v="Azerbaijan"/>
-    <tag k="is_in:country_code" v="AZ"/>
-    <tag k="name" v="Quba rayonu"/>
-    <tag k="name:de" v="Quba"/>
-    <tag k="name:en" v="Quba District"/>
-    <tag k="name:es" v="Quba"/>
-    <tag k="name:fr" v="Quba"/>
-    <tag k="name:ja" v="グバ県"/>
-    <tag k="name:ru" v="Кубинский район"/>
-    <tag k="population" v="143100"/>
-    <tag k="type" v="boundary"/>
-    <tag k="wikidata" v="Q457499"/>
-    <tag k="wikipedia" v="de:Quba (Rayon)"/>
-  </relation>
-  <relation id="3764571">
-    <tag k="ISO3166-2" v="AZ-QUS"/>
-    <tag k="admin_level" v="4"/>
-    <tag k="boundary" v="administrative"/>
-    <tag k="is_in:continent" v="Asia"/>
-    <tag k="is_in:country" v="Azerbaijan"/>
-    <tag k="is_in:country_code" v="AZ"/>
-    <tag k="name" v="Qusar rayonu"/>
-    <tag k="name:az-cyr" v="Гусар рајону"/>
-    <tag k="name:de" v="Qusar"/>
-    <tag k="name:en" v="Qusar District"/>
-    <tag k="name:es" v="Qusar"/>
-    <tag k="name:fr" v="Qusar"/>
-    <tag k="name:ja" v="グサル県"/>
-    <tag k="name:lez" v="КцIар район"/>
-    <tag k="name:ru" v="Кусарский район"/>
-    <tag k="population" v="88200"/>
-    <tag k="type" v="boundary"/>
-    <tag k="wikidata" v="Q386506"/>
-    <tag k="wikipedia" v="de:Qusar (Rayon)"/>
-  </relation>
-  <relation id="3764572">
-    <tag k="ISO3166-2" v="AZ-QAB"/>
-    <tag k="admin_level" v="4"/>
-    <tag k="boundary" v="administrative"/>
-    <tag k="is_in:continent" v="Asia"/>
-    <tag k="is_in:country" v="Azerbaijan"/>
-    <tag k="is_in:country_code" v="AZ"/>
-    <tag k="name" v="Qəbələ rayonu"/>
-    <tag k="name:de" v="Qabala"/>
-    <tag k="name:en" v="Qabala District"/>
-    <tag k="name:es" v="Qabala"/>
-    <tag k="name:fr" v="Qabala"/>
-    <tag k="name:ja" v="ガバラ県"/>
-    <tag k="name:ru" v="Габалинский район"/>
-    <tag k="type" v="boundary"/>
-    <tag k="wikidata" v="Q593872"/>
-    <tag k="wikipedia" v="de:Qəbələ (Rayon)"/>
-  </relation>
-  <relation id="3764573">
-    <tag k="ISO3166-2" v="AZ-SAT"/>
-    <tag k="admin_level" v="4"/>
-    <tag k="boundary" v="administrative"/>
-    <tag k="is_in:continent" v="Asia"/>
-    <tag k="is_in:country" v="Azerbaijan"/>
-    <tag k="is_in:country_code" v="AZ"/>
-    <tag k="name" v="Saatlı rayonu"/>
-    <tag k="name:de" v="Saatlı"/>
-    <tag k="name:en" v="Saatly District"/>
-    <tag k="name:es" v="Saatlı"/>
-    <tag k="name:fr" v="Saatlı"/>
-    <tag k="name:ja" v="サアトル県"/>
-    <tag k="name:ru" v="Саатлинский район"/>
-    <tag k="type" v="boundary"/>
-    <tag k="wikidata" v="Q601105"/>
-    <tag k="wikipedia" v="de:Saatlı (Rayon)"/>
-  </relation>
-  <relation id="3764574">
-    <tag k="ISO3166-2" v="AZ-SAB"/>
-    <tag k="admin_level" v="4"/>
-    <tag k="alt_name:ar" v="مقاطعة صابرآباد"/>
-    <tag k="boundary" v="administrative"/>
-    <tag k="is_in:continent" v="Asia"/>
-    <tag k="is_in:country" v="Azerbaijan"/>
-    <tag k="is_in:country_code" v="AZ"/>
-    <tag k="name" v="Sabirabad rayonu"/>
-    <tag k="name:ar" v="مقاطعة صابر آباد"/>
-    <tag k="name:de" v="Sabirabad"/>
-    <tag k="name:en" v="Sabirabad District"/>
-    <tag k="name:es" v="Sabirabad"/>
-    <tag k="name:fr" v="Sabirabad"/>
-    <tag k="name:ja" v="サビラバド県"/>
-    <tag k="name:ru" v="Сабирабадский район"/>
-    <tag k="type" v="boundary"/>
-    <tag k="wikidata" v="Q382132"/>
-    <tag k="wikipedia" v="de:Sabirabad (Rayon)"/>
-  </relation>
-  <relation id="3764575">
-    <tag k="ISO3166-2" v="AZ-SAL"/>
-    <tag k="admin_level" v="4"/>
-    <tag k="boundary" v="administrative"/>
-    <tag k="is_in:continent" v="Asia"/>
-    <tag k="is_in:country" v="Azerbaijan"/>
-    <tag k="is_in:country_code" v="AZ"/>
-    <tag k="name" v="Salyan rayonu"/>
-    <tag k="name:de" v="Salyan"/>
-    <tag k="name:en" v="Salyan District"/>
-    <tag k="name:es" v="Salyan"/>
-    <tag k="name:fr" v="Salyan"/>
-    <tag k="name:ja" v="サリヤン県"/>
-    <tag k="name:ru" v="Сальянский район"/>
-    <tag k="type" v="boundary"/>
-    <tag k="wikidata" v="Q457485"/>
-    <tag k="wikipedia" v="az:Salyan rayonu"/>
-  </relation>
   <relation id="3764576">
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Samux rayonu"/>
     <tag k="type" v="boundary"/>
-  </relation>
-  <relation id="3764577">
-    <tag k="ISO3166-2" v="AZ-SMX"/>
-    <tag k="admin_level" v="4"/>
-    <tag k="boundary" v="administrative"/>
-    <tag k="is_in:continent" v="Asia"/>
-    <tag k="is_in:country" v="Azerbaijan"/>
-    <tag k="is_in:country_code" v="AZ"/>
-    <tag k="name" v="Samux rayonu"/>
-    <tag k="name:de" v="Samux"/>
-    <tag k="name:en" v="Samukh District"/>
-    <tag k="name:es" v="Samux"/>
-    <tag k="name:fr" v="Samux"/>
-    <tag k="name:ja" v="サムフ県"/>
-    <tag k="name:ru" v="Самухский район"/>
-    <tag k="type" v="boundary"/>
-    <tag k="wikidata" v="Q498437"/>
-    <tag k="wikipedia" v="de:Samux (Rayon)"/>
-  </relation>
-  <relation id="3764578">
-    <tag k="ISO3166-2" v="AZ-SIY"/>
-    <tag k="admin_level" v="4"/>
-    <tag k="boundary" v="administrative"/>
-    <tag k="is_in:continent" v="Asia"/>
-    <tag k="is_in:country" v="Azerbaijan"/>
-    <tag k="is_in:country_code" v="AZ"/>
-    <tag k="name" v="Siyəzən rayonu"/>
-    <tag k="name:de" v="Siyəzən"/>
-    <tag k="name:en" v="Siazan District"/>
-    <tag k="name:es" v="Siyəzən"/>
-    <tag k="name:fr" v="Siyəzən"/>
-    <tag k="name:ja" v="シヤザン県"/>
-    <tag k="name:ru" v="Сиазаньский район"/>
-    <tag k="type" v="boundary"/>
-    <tag k="wikidata" v="Q820940"/>
-    <tag k="wikipedia" v="az:Siyəzən rayonu"/>
-  </relation>
-  <relation id="3764579">
-    <tag k="ISO3166-2" v="AZ-SM"/>
-    <tag k="admin_level" v="4"/>
-    <tag k="boundary" v="administrative"/>
-    <tag k="is_in:continent" v="Asia"/>
-    <tag k="is_in:country" v="Azerbaijan"/>
-    <tag k="is_in:country_code" v="AZ"/>
-    <tag k="name" v="Sumqayıt İnzibati Ərazisi"/>
-    <tag k="name:de" v="Sumqayit"/>
-    <tag k="name:en" v="Sumqayit"/>
-    <tag k="name:es" v="Sumqayit"/>
-    <tag k="name:fr" v="Sumqayit"/>
-    <tag k="name:ja" v="スムガイト"/>
-    <tag k="name:ru" v="Сумгаитская Администрация"/>
-    <tag k="type" v="boundary"/>
-    <tag k="wikidata" v="Q179833"/>
-    <tag k="wikipedia" v="de:Sumqayıt"/>
-  </relation>
-  <relation id="3764580">
-    <tag k="ISO3166-2" v="AZ-TOV"/>
-    <tag k="admin_level" v="4"/>
-    <tag k="boundary" v="administrative"/>
-    <tag k="name" v="Tovuz rayonu"/>
-    <tag k="name:ar" v="مقاطعة تووز"/>
-    <tag k="name:azb" v="تووز رایونو"/>
-    <tag k="name:de" v="Rayon Tovuz"/>
-    <tag k="name:en" v="Tovuz District"/>
-    <tag k="name:fa" v="شهرستان تووز"/>
-    <tag k="name:ja" v="トヴズ県"/>
-    <tag k="name:pnb" v="ضلع تووز"/>
-    <tag k="name:ru" v="Товузский район"/>
-    <tag k="name:ur" v="تووز ضلع"/>
-    <tag k="type" v="boundary"/>
-    <tag k="wikidata" v="Q388980"/>
-    <tag k="wikipedia" v="az:Tovuz rayonu"/>
-  </relation>
-  <relation id="3764582">
-    <tag k="ISO3166-2" v="AZ-UCA"/>
-    <tag k="admin_level" v="4"/>
-    <tag k="boundary" v="administrative"/>
-    <tag k="is_in:continent" v="Asia"/>
-    <tag k="is_in:country" v="Azerbaijan"/>
-    <tag k="is_in:country_code" v="AZ"/>
-    <tag k="name" v="Ucar rayonu"/>
-    <tag k="name:de" v="Ucar"/>
-    <tag k="name:en" v="Ujar District"/>
-    <tag k="name:es" v="Ucar"/>
-    <tag k="name:fr" v="Ucar"/>
-    <tag k="name:ja" v="ウジャル県"/>
-    <tag k="name:ru" v="Уджарский район"/>
-    <tag k="population" v="77903"/>
-    <tag k="type" v="boundary"/>
-    <tag k="wikidata" v="Q476703"/>
-    <tag k="wikipedia" v="de:Ucar (Rayon)"/>
-  </relation>
-  <relation id="3764583">
-    <tag k="ISO3166-2" v="AZ-XAC"/>
-    <tag k="admin_level" v="4"/>
-    <tag k="boundary" v="administrative"/>
-    <tag k="is_in:continent" v="Asia"/>
-    <tag k="is_in:country" v="Azerbaijan"/>
-    <tag k="is_in:country_code" v="AZ"/>
-    <tag k="name" v="Xaçmaz rayonu"/>
-    <tag k="name:ar" v="مقاطعة خاتشماز"/>
-    <tag k="name:de" v="Xaçmaz"/>
-    <tag k="name:en" v="Khachmaz District"/>
-    <tag k="name:es" v="Xaçmaz"/>
-    <tag k="name:fr" v="Xaçmaz"/>
-    <tag k="name:ja" v="ハチマズ県"/>
-    <tag k="name:ru" v="Хачмазский район"/>
-    <tag k="name:uk" v="Хачмазький район"/>
-    <tag k="short_name:ar" v="خاشماز"/>
-    <tag k="type" v="boundary"/>
-    <tag k="wikidata" v="Q6398826"/>
-    <tag k="wikipedia" v="de:Xaçmaz (Rayon)"/>
   </relation>
   <relation id="3764584">
     <tag k="admin_level" v="4"/>
@@ -63966,216 +63391,11 @@
     <tag k="name:ru" v="Ходжавендский район"/>
     <tag k="type" v="boundary"/>
   </relation>
-  <relation id="3764585">
-    <tag k="ISO3166-2" v="AZ-XIZ"/>
-    <tag k="admin_level" v="4"/>
-    <tag k="boundary" v="administrative"/>
-    <tag k="is_in:continent" v="Asia"/>
-    <tag k="is_in:country" v="Azerbaijan"/>
-    <tag k="is_in:country_code" v="AZ"/>
-    <tag k="name" v="Xızı rayonu"/>
-    <tag k="name:de" v="Xızı"/>
-    <tag k="name:en" v="Khizi District"/>
-    <tag k="name:es" v="Xızı"/>
-    <tag k="name:fr" v="Xızı"/>
-    <tag k="name:ja" v="フズィ県"/>
-    <tag k="name:ru" v="Хызинский район"/>
-    <tag k="type" v="boundary"/>
-    <tag k="wikidata" v="Q476708"/>
-    <tag k="wikipedia" v="de:Xızı (Rayon)"/>
-  </relation>
-  <relation id="3764586">
-    <tag k="ISO3166-2" v="AZ-YAR"/>
-    <tag k="admin_level" v="4"/>
-    <tag k="boundary" v="administrative"/>
-    <tag k="is_in:continent" v="Asia"/>
-    <tag k="is_in:country" v="Azerbaijan"/>
-    <tag k="is_in:country_code" v="AZ"/>
-    <tag k="name" v="Yardımlı rayonu"/>
-    <tag k="name:ar" v="مقاطعة يارديملي"/>
-    <tag k="name:de" v="Yardımlı"/>
-    <tag k="name:en" v="Yardymli District"/>
-    <tag k="name:es" v="Yardımlı"/>
-    <tag k="name:fr" v="Yardımlı"/>
-    <tag k="name:ja" v="ヤルディムリ県"/>
-    <tag k="name:ru" v="Ярдымлинский район"/>
-    <tag k="type" v="boundary"/>
-    <tag k="wikidata" v="Q127255"/>
-    <tag k="wikipedia" v="de:Yardımlı (Rayon)"/>
-  </relation>
-  <relation id="3764587">
-    <tag k="ISO3166-2" v="AZ-YEV"/>
-    <tag k="admin_level" v="4"/>
-    <tag k="boundary" v="administrative"/>
-    <tag k="is_in:continent" v="Asia"/>
-    <tag k="is_in:country" v="Azerbaijan"/>
-    <tag k="is_in:country_code" v="AZ"/>
-    <tag k="name" v="Yevlax rayonu"/>
-    <tag k="name:de" v="Yevlax"/>
-    <tag k="name:en" v="Yevlakh District"/>
-    <tag k="name:es" v="Yevlax"/>
-    <tag k="name:fr" v="Ievlakh"/>
-    <tag k="name:ja" v="イェヴラフ県"/>
-    <tag k="name:ru" v="Евлахский район"/>
-    <tag k="type" v="boundary"/>
-    <tag k="wikidata" v="Q458524"/>
-    <tag k="wikipedia" v="de:Yevlax (Rayon)"/>
-  </relation>
-  <relation id="3764588">
-    <tag k="ISO3166-2" v="AZ-ZAQ"/>
-    <tag k="admin_level" v="4"/>
-    <tag k="boundary" v="administrative"/>
-    <tag k="is_in:continent" v="Asia"/>
-    <tag k="is_in:country" v="Azerbaijan"/>
-    <tag k="is_in:country_code" v="AZ"/>
-    <tag k="name" v="Zaqatala rayonu"/>
-    <tag k="name:de" v="Zaqatala"/>
-    <tag k="name:en" v="Zaqatala District"/>
-    <tag k="name:es" v="Zaqatala"/>
-    <tag k="name:fr" v="Zaqatala"/>
-    <tag k="name:ja" v="ザガタラ県"/>
-    <tag k="name:ru" v="Закатальский район"/>
-    <tag k="type" v="boundary"/>
-    <tag k="wikidata" v="Q147553"/>
-    <tag k="wikipedia" v="de:Zaqatala (Rayon)"/>
-  </relation>
-  <relation id="3764589">
-    <tag k="ISO3166-2" v="AZ-ZAR"/>
-    <tag k="admin_level" v="4"/>
-    <tag k="boundary" v="administrative"/>
-    <tag k="is_in:continent" v="Asia"/>
-    <tag k="is_in:country" v="Azerbaijan"/>
-    <tag k="is_in:country_code" v="AZ"/>
-    <tag k="name" v="Zərdab rayonu"/>
-    <tag k="name:de" v="Zərdab"/>
-    <tag k="name:en" v="Zardab District"/>
-    <tag k="name:es" v="Zərdab"/>
-    <tag k="name:fr" v="Zərdab"/>
-    <tag k="name:ja" v="ザルダブ県"/>
-    <tag k="name:ru" v="Зердабский район"/>
-    <tag k="type" v="boundary"/>
-    <tag k="wikidata" v="Q249293"/>
-    <tag k="wikipedia" v="de:Zərdab (Rayon)"/>
-  </relation>
-  <relation id="3764590">
-    <tag k="ISO3166-2" v="AZ-IMI"/>
-    <tag k="admin_level" v="4"/>
-    <tag k="alt_name:ar" v="مقاطعة إيميشلي"/>
-    <tag k="boundary" v="administrative"/>
-    <tag k="is_in:continent" v="Asia"/>
-    <tag k="is_in:country" v="Azerbaijan"/>
-    <tag k="is_in:country_code" v="AZ"/>
-    <tag k="name" v="İmişli rayonu"/>
-    <tag k="name:ar" v="مقاطعة إميشلي"/>
-    <tag k="name:de" v="İmişli"/>
-    <tag k="name:en" v="Imishli District"/>
-    <tag k="name:es" v="İmişli"/>
-    <tag k="name:fr" v="İmişli"/>
-    <tag k="name:ja" v="イミシュリ県"/>
-    <tag k="name:ru" v="Имишлинский район"/>
-    <tag k="type" v="boundary"/>
-    <tag k="wikidata" v="Q343908"/>
-    <tag k="wikipedia" v="de:İmişli (Rayon)"/>
-  </relation>
-  <relation id="3764591">
-    <tag k="ISO3166-2" v="AZ-ISM"/>
-    <tag k="admin_level" v="4"/>
-    <tag k="boundary" v="administrative"/>
-    <tag k="is_in:continent" v="Asia"/>
-    <tag k="is_in:country" v="Azerbaijan"/>
-    <tag k="is_in:country_code" v="AZ"/>
-    <tag k="name" v="İsmayıllı rayonu"/>
-    <tag k="name:de" v="İsmayıllı"/>
-    <tag k="name:en" v="Ismailli District"/>
-    <tag k="name:es" v="İsmayıllı"/>
-    <tag k="name:fr" v="Ismailli"/>
-    <tag k="name:ja" v="イスマイル県"/>
-    <tag k="name:ru" v="Исмаиллинский район"/>
-    <tag k="population" v="72144"/>
-    <tag k="type" v="boundary"/>
-    <tag k="wikidata" v="Q344252"/>
-    <tag k="wikipedia" v="az:İsmayıllı rayonu"/>
-  </relation>
-  <relation id="3764592">
-    <tag k="ISO3166-2" v="AZ-SBN"/>
-    <tag k="admin_level" v="4"/>
-    <tag k="boundary" v="administrative"/>
-    <tag k="is_in:continent" v="Asia"/>
-    <tag k="is_in:country" v="Azerbaijan"/>
-    <tag k="is_in:country_code" v="AZ"/>
-    <tag k="name" v="Şabran rayonu"/>
-    <tag k="name:ar" v="مقاطعة شابران"/>
-    <tag k="name:de" v="Şabran"/>
-    <tag k="name:en" v="Shabran District"/>
-    <tag k="name:es" v="Şabran"/>
-    <tag k="name:fr" v="Şabran"/>
-    <tag k="name:ja" v="シャブラン県"/>
-    <tag k="name:ru" v="Шабранский район"/>
-    <tag k="name:uk" v="Шабранський район"/>
-    <tag k="type" v="boundary"/>
-    <tag k="wikidata" v="Q387994"/>
-    <tag k="wikipedia" v="az:Şabran rayonu"/>
-  </relation>
-  <relation id="3764593">
-    <tag k="ISO3166-2" v="AZ-SMI"/>
-    <tag k="admin_level" v="4"/>
-    <tag k="boundary" v="administrative"/>
-    <tag k="is_in:continent" v="Asia"/>
-    <tag k="is_in:country" v="Azerbaijan"/>
-    <tag k="is_in:country_code" v="AZ"/>
-    <tag k="name" v="Şamaxı rayonu"/>
-    <tag k="name:de" v="Şamaxı"/>
-    <tag k="name:en" v="Shamakhi District"/>
-    <tag k="name:es" v="Şamaxı"/>
-    <tag k="name:fr" v="Şamaxı"/>
-    <tag k="name:ja" v="シャマフ県"/>
-    <tag k="name:ru" v="Шемахинский район"/>
-    <tag k="type" v="boundary"/>
-    <tag k="wikidata" v="Q330839"/>
-    <tag k="wikipedia" v="de:Şamaxı (Rayon)"/>
-  </relation>
-  <relation id="3764594">
-    <tag k="ISO3166-2" v="AZ-SR"/>
-    <tag k="admin_level" v="4"/>
-    <tag k="boundary" v="administrative"/>
-    <tag k="is_in:continent" v="Asia"/>
-    <tag k="is_in:country" v="Azerbaijan"/>
-    <tag k="is_in:country_code" v="AZ"/>
-    <tag k="name" v="Şirvan İnzibati Ərazisi"/>
-    <tag k="name:de" v="Şirvan"/>
-    <tag k="name:en" v="Shirvan District"/>
-    <tag k="name:es" v="Şirvan"/>
-    <tag k="name:fr" v="Şirvan"/>
-    <tag k="name:ru" v="Ширванская Администрация"/>
-    <tag k="type" v="boundary"/>
-    <tag k="wikidata" v="Q241116"/>
-    <tag k="wikipedia" v="de:Şirvan"/>
-  </relation>
   <relation id="3764596">
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Şəmkir rayonu"/>
     <tag k="type" v="boundary"/>
-  </relation>
-  <relation id="3764597">
-    <tag k="ISO3166-2" v="AZ-SKR"/>
-    <tag k="admin_level" v="4"/>
-    <tag k="boundary" v="administrative"/>
-    <tag k="name" v="Şəmkir rayonu"/>
-    <tag k="name:ar" v="مقاطعة شمكير"/>
-    <tag k="name:az" v="Şəmkir rayonu"/>
-    <tag k="name:azb" v="شمخور رایونو"/>
-    <tag k="name:de" v="Shamkir"/>
-    <tag k="name:en" v="Shamkir District"/>
-    <tag k="name:es" v="Shamkir"/>
-    <tag k="name:fa" v="شهرستان شمکور"/>
-    <tag k="name:ja" v="シャムキル県"/>
-    <tag k="name:pnb" v="ضلع شمکیر"/>
-    <tag k="name:ru" v="Шамкирский район"/>
-    <tag k="name:ur" v="شمخور ضلع"/>
-    <tag k="type" v="boundary"/>
-    <tag k="wikidata" v="Q467491"/>
-    <tag k="wikipedia" v="az:Şəmkir rayonu"/>
   </relation>
   <relation id="3765591">
     <tag k="ISO3166-2" v="VU-SAM"/>
@@ -64289,18 +63509,22 @@
     <tag k="ISO3166-2" v="AE-AJ"/>
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
-    <tag k="is_in:continent" v="Asia"/>
-    <tag k="is_in:country" v="United Arab Emirates"/>
-    <tag k="is_in:country_code" v="AE"/>
-    <tag k="name" v="عجمان"/>
-    <tag k="name:ar" v="عجمان"/>
-    <tag k="name:de" v="Adschman"/>
+    <tag k="name" v="إمارة عجمان"/>
+    <tag k="name:ar" v="إمارة عجمان"/>
+    <tag k="name:de" v="Emirat Adschman"/>
     <tag k="name:en" v="Ajman Emirate"/>
-    <tag k="name:es" v="Ajmán"/>
-    <tag k="name:fr" v="Ajman"/>
+    <tag k="name:fa" v="امارت عجمان"/>
+    <tag k="name:pnb" v="امارت عجمان"/>
+    <tag k="name:ur" v="امارات عجمان"/>
+    <tag k="sorting_name" v="عجمان"/>
+    <tag k="sorting_name:ar" v="عجمان"/>
+    <tag k="sorting_name:de" v="Adschman"/>
+    <tag k="sorting_name:fa" v="عجمان"/>
+    <tag k="sorting_name:pnb" v="عجمان"/>
+    <tag k="sorting_name:ur" v="عجمان"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q159477"/>
-    <tag k="wikipedia" v="en:Emirate of Ajman"/>
+    <tag k="wikipedia" v="ar:عجمان"/>
   </relation>
   <relation id="3766483">
     <tag k="ISO3166-2" v="AE-DU"/>
@@ -64336,27 +63560,6 @@
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q613"/>
     <tag k="wikipedia" v="ar:دبي"/>
-  </relation>
-  <relation id="3766484">
-    <tag k="ISO3166-2" v="AE-FU"/>
-    <tag k="admin_level" v="4"/>
-    <tag k="boundary" v="administrative"/>
-    <tag k="is_in:continent" v="Asia"/>
-    <tag k="is_in:country" v="United Arab Emirates"/>
-    <tag k="is_in:country_code" v="AE"/>
-    <tag k="name" v="فجيرة"/>
-    <tag k="name:ar" v="فجيرة"/>
-    <tag k="name:cs" v="Fudžajra"/>
-    <tag k="name:de" v="Fudschaira"/>
-    <tag k="name:en" v="Fujairah Emirate"/>
-    <tag k="name:es" v="Fuyaira"/>
-    <tag k="name:fr" v="Fujaïrah"/>
-    <tag k="name:ko" v="푸자이라"/>
-    <tag k="ref" v="FU"/>
-    <tag k="state_code" v="FU"/>
-    <tag k="type" v="boundary"/>
-    <tag k="wikidata" v="Q4091"/>
-    <tag k="wikipedia" v="ar:فجيرة"/>
   </relation>
   <relation id="3766485">
     <tag k="ISO3166-2" v="AE-RK"/>
@@ -64452,47 +63655,6 @@
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q859666"/>
   </relation>
-  <relation id="3772758">
-    <tag k="ISO3166-2" v="AZ-LAN"/>
-    <tag k="admin_level" v="4"/>
-    <tag k="boundary" v="administrative"/>
-    <tag k="is_in:continent" v="Asia"/>
-    <tag k="is_in:country" v="Azerbaijan"/>
-    <tag k="is_in:country_code" v="AZ"/>
-    <tag k="name" v="Lənkəran rayonu"/>
-    <tag k="name:ar" v="مقاطعة لنكران"/>
-    <tag k="name:de" v="Lankaran"/>
-    <tag k="name:en" v="Lankaran District"/>
-    <tag k="name:es" v="Lankaran"/>
-    <tag k="name:fr" v="Lankaran"/>
-    <tag k="name:ja" v="レンキャラン県"/>
-    <tag k="name:ru" v="Ленкоранский район"/>
-    <tag k="short_name:ar" v="لنكران"/>
-    <tag k="type" v="boundary"/>
-    <tag k="wikidata" v="Q269986"/>
-    <tag k="wikipedia" v="de:Lənkəran (Rayon)"/>
-  </relation>
-  <relation id="3772759">
-    <tag k="ISO3166-2" v="AZ-NEF"/>
-    <tag k="admin_level" v="4"/>
-    <tag k="alt_name:ar" v="مقاطعة نيفتشالا"/>
-    <tag k="boundary" v="administrative"/>
-    <tag k="is_in:continent" v="Asia"/>
-    <tag k="is_in:country" v="Azerbaijan"/>
-    <tag k="is_in:country_code" v="AZ"/>
-    <tag k="name" v="Neftçala rayonu"/>
-    <tag k="name:ar" v="مقاطعة نفطجاله"/>
-    <tag k="name:de" v="Neftçala"/>
-    <tag k="name:en" v="Neftchala District"/>
-    <tag k="name:es" v="Neftçala"/>
-    <tag k="name:fr" v="Neftçala"/>
-    <tag k="name:ja" v="ネフトチャラ県"/>
-    <tag k="name:ru" v="Нефтечалинский район"/>
-    <tag k="population" v="79600"/>
-    <tag k="type" v="boundary"/>
-    <tag k="wikidata" v="Q688633"/>
-    <tag k="wikipedia" v="de:Neftçala (Rayon)"/>
-  </relation>
   <relation id="3774662">
     <tag k="ISO3166-2" v="SD-DS"/>
     <tag k="admin_level" v="4"/>
@@ -64534,9 +63696,6 @@
     <tag k="ISO3166-2" v="SD-DW"/>
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
-    <tag k="is_in:continent" v="Africa"/>
-    <tag k="is_in:country" v="Sudan"/>
-    <tag k="is_in:country_code" v="SD"/>
     <tag k="name" v="ولاية غرب دارفور"/>
     <tag k="name:ar" v="ولاية غرب دارفور"/>
     <tag k="name:de" v="West-Darfur"/>
@@ -64617,9 +63776,6 @@
     <tag k="ISO3166-2" v="SD-DN"/>
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
-    <tag k="is_in:continent" v="Africa"/>
-    <tag k="is_in:country" v="Sudan"/>
-    <tag k="is_in:country_code" v="SD"/>
     <tag k="name" v="ولاية شمال دارفور"/>
     <tag k="name:ar" v="ولاية شمال دارفور"/>
     <tag k="name:de" v="Nord-Darfur"/>
@@ -64667,9 +63823,6 @@
     <tag k="ISO3166-2" v="SD-DC"/>
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
-    <tag k="is_in:continent" v="Africa"/>
-    <tag k="is_in:country" v="Sudan"/>
-    <tag k="is_in:country_code" v="SD"/>
     <tag k="name" v="ولاية وسط دارفور"/>
     <tag k="name:ar" v="ولاية وسط دارفور"/>
     <tag k="name:de" v="Zentral-Darfur"/>
@@ -64745,6 +63898,7 @@
     <tag k="name:es" v="Gadarif"/>
     <tag k="name:fa" v="القضارف"/>
     <tag k="name:fr" v="Al Qadarif"/>
+    <tag k="name:it" v="Stato di Gadaref"/>
     <tag k="name:ks" v="القضارف"/>
     <tag k="name:ur" v="القضارف"/>
     <tag k="official_name" v="ولاية القضارف"/>
@@ -64791,9 +63945,6 @@
     <tag k="ISO3166-2" v="SD-NO"/>
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
-    <tag k="is_in:continent" v="Africa"/>
-    <tag k="is_in:country" v="Sudan"/>
-    <tag k="is_in:country_code" v="SD"/>
     <tag k="name" v="الولاية الشمالية"/>
     <tag k="name:ar" v="الولاية الشمالية"/>
     <tag k="name:en" v="Northern State"/>
@@ -65126,21 +64277,20 @@
     <tag k="ISO3166-2" v="OM-BU"/>
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
-    <tag k="is_in:continent" v="Asia"/>
-    <tag k="is_in:country" v="Oman"/>
-    <tag k="is_in:country_code" v="OM"/>
     <tag k="name" v="محافظة البريمي"/>
     <tag k="name:ar" v="محافظة البريمي"/>
     <tag k="name:cs" v="al-Burajmi"/>
     <tag k="name:de" v="al-Buraimi"/>
     <tag k="name:en" v="Al Buraymi Governorate"/>
     <tag k="name:es" v="Buraimi"/>
+    <tag k="name:fa" v="شهرستان بریمی"/>
     <tag k="name:fr" v="Al Buraymi"/>
     <tag k="ref" v="BU"/>
     <tag k="state_code" v="BU"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q852039"/>
     <tag k="wikipedia" v="ar:البريمي (محافظة)"/>
+    <tag k="wikipedia:ar" v="ولاية البريمي"/>
   </relation>
   <relation id="3781314">
     <tag k="ISO3166-2" v="OM-ZU"/>
@@ -65222,121 +64372,6 @@
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q17436425"/>
     <tag k="wikipedia" v="ru:Административно-территориальное деление города федерального значения Севастополя"/>
-  </relation>
-  <relation id="3789855">
-    <tag k="ISO3166-2" v="AZ-BAB"/>
-    <tag k="admin_level" v="4"/>
-    <tag k="boundary" v="administrative"/>
-    <tag k="is_in:continent" v="Asia"/>
-    <tag k="is_in:country" v="Azerbaijan"/>
-    <tag k="is_in:country_code" v="AZ"/>
-    <tag k="name" v="Babək rayonu"/>
-    <tag k="name:ar" v="مقاطعة بابيك"/>
-    <tag k="name:az" v="Babək rayonu"/>
-    <tag k="name:de" v="Babək"/>
-    <tag k="name:en" v="Babek District"/>
-    <tag k="name:es" v="Babek"/>
-    <tag k="name:fr" v="Babek"/>
-    <tag k="name:ja" v="バベク地区"/>
-    <tag k="name:ru" v="Бабекский район"/>
-    <tag k="type" v="boundary"/>
-    <tag k="wikidata" v="Q643895"/>
-    <tag k="wikipedia" v="ru:Бабекский район"/>
-  </relation>
-  <relation id="3789856">
-    <tag k="ISO3166-2" v="AZ-CUL"/>
-    <tag k="admin_level" v="4"/>
-    <tag k="boundary" v="administrative"/>
-    <tag k="is_in:continent" v="Asia"/>
-    <tag k="is_in:country" v="Azerbaijan"/>
-    <tag k="is_in:country_code" v="AZ"/>
-    <tag k="name" v="Culfa rayonu"/>
-    <tag k="name:az" v="Culfa rayonu"/>
-    <tag k="name:de" v="Culfa"/>
-    <tag k="name:en" v="Julfa District"/>
-    <tag k="name:es" v="Julfa"/>
-    <tag k="name:fr" v="Djoulfa"/>
-    <tag k="name:ja" v="ジュルファ地区"/>
-    <tag k="name:ru" v="Джульфинский район"/>
-    <tag k="type" v="boundary"/>
-    <tag k="wikidata" v="Q644035"/>
-    <tag k="wikipedia" v="az:Culfa rayonu"/>
-  </relation>
-  <relation id="3789857">
-    <tag k="ISO3166-2" v="AZ-SAR"/>
-    <tag k="admin_level" v="4"/>
-    <tag k="boundary" v="administrative"/>
-    <tag k="is_in:continent" v="Asia"/>
-    <tag k="is_in:country" v="Azerbaijan"/>
-    <tag k="is_in:country_code" v="AZ"/>
-    <tag k="name" v="Şərur rayonu"/>
-    <tag k="name:az" v="Şərur rayonu"/>
-    <tag k="name:de" v="Sharur"/>
-    <tag k="name:en" v="Sharur District"/>
-    <tag k="name:es" v="Sharur"/>
-    <tag k="name:fr" v="Sharur"/>
-    <tag k="name:ja" v="シャルル地区"/>
-    <tag k="name:ru" v="Шарурский район"/>
-    <tag k="type" v="boundary"/>
-    <tag k="wikidata" v="Q390820"/>
-    <tag k="wikipedia" v="az:Şərur rayonu"/>
-  </relation>
-  <relation id="3789858">
-    <tag k="ISO3166-2" v="AZ-ORD"/>
-    <tag k="admin_level" v="4"/>
-    <tag k="boundary" v="administrative"/>
-    <tag k="is_in:continent" v="Asia"/>
-    <tag k="is_in:country" v="Azerbaijan"/>
-    <tag k="is_in:country_code" v="AZ"/>
-    <tag k="name" v="Ordubad rayonu"/>
-    <tag k="name:az" v="Ordubad rayonu"/>
-    <tag k="name:de" v="Ordubad"/>
-    <tag k="name:en" v="Ordubad District"/>
-    <tag k="name:es" v="Ordubad"/>
-    <tag k="name:fr" v="Ordubad"/>
-    <tag k="name:ja" v="オルドバード地区"/>
-    <tag k="name:ru" v="Ордубадский район"/>
-    <tag k="type" v="boundary"/>
-    <tag k="wikidata" v="Q512623"/>
-    <tag k="wikipedia" v="ru:Ордубадский район"/>
-  </relation>
-  <relation id="3789859">
-    <tag k="ISO3166-2" v="AZ-SAD"/>
-    <tag k="admin_level" v="4"/>
-    <tag k="boundary" v="administrative"/>
-    <tag k="is_in:continent" v="Asia"/>
-    <tag k="is_in:country" v="Azerbaijan"/>
-    <tag k="is_in:country_code" v="AZ"/>
-    <tag k="name" v="Sədərək rayonu"/>
-    <tag k="name:az" v="Sədərək rayonu"/>
-    <tag k="name:de" v="Sadarak"/>
-    <tag k="name:en" v="Sadarak District"/>
-    <tag k="name:es" v="Sadarak"/>
-    <tag k="name:fr" v="Sadarak"/>
-    <tag k="name:ja" v="サダラク地区"/>
-    <tag k="name:ru" v="Садаракский район"/>
-    <tag k="type" v="boundary"/>
-    <tag k="wikidata" v="Q641468"/>
-    <tag k="wikipedia" v="az:Sədərək rayonu"/>
-  </relation>
-  <relation id="3789860">
-    <tag k="ISO3166-2" v="AZ-KAN"/>
-    <tag k="admin_level" v="4"/>
-    <tag k="boundary" v="administrative"/>
-    <tag k="is_in:continent" v="Asia"/>
-    <tag k="is_in:country" v="Azerbaijan"/>
-    <tag k="is_in:country_code" v="AZ"/>
-    <tag k="name" v="Kəngərli rayonu"/>
-    <tag k="name:az" v="Kəngərli rayonu"/>
-    <tag k="name:de" v="Kangarli"/>
-    <tag k="name:en" v="Kangarli District"/>
-    <tag k="name:es" v="Kangarli"/>
-    <tag k="name:fr" v="Kangarli"/>
-    <tag k="name:ja" v="カンガルリ地区"/>
-    <tag k="name:ru" v="Кенгерлинский район"/>
-    <tag k="type" v="boundary"/>
-    <tag k="wikidata" v="Q734030"/>
-    <tag k="wikipedia" v="az:Kəngərli rayonu"/>
   </relation>
   <relation id="3790801">
     <tag k="ISO3166-2" v="JP-04"/>
@@ -65529,6 +64564,7 @@
     <tag k="note" v="nouvelle région au 1/1/2016"/>
     <tag k="ref:INSEE" v="27"/>
     <tag k="ref:NUTS" v="FR26"/>
+    <tag k="short_name" v="BFC"/>
     <tag k="source" v="http://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000030109622"/>
     <tag k="source:name:br" v="ofis publik ar brezhoneg"/>
     <tag k="start_date" v="2016-01-01"/>
@@ -65805,20 +64841,30 @@
     <tag k="ISO3166-2" v="LY-MB"/>
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
-    <tag k="int_name" v="Murqub"/>
-    <tag k="name" v="المرقب"/>
-    <tag k="name:ar" v="المرقب"/>
+    <tag k="name" v="محافظة المرقب"/>
+    <tag k="name:ar" v="محافظة المرقب"/>
+    <tag k="name:azb" v="استان مرقب"/>
     <tag k="name:de" v="Munizip al-Murgub"/>
     <tag k="name:en" v="Murqub"/>
     <tag k="name:es" v="Al Murgub"/>
+    <tag k="name:fa" v="استان مرقب"/>
     <tag k="name:fr" v="Al Mourqoub"/>
     <tag k="name:it" v="Distretto di Al-Murgub"/>
     <tag k="name:pl" v="Al-Marakib"/>
     <tag k="name:ru" v="Эль-Маргаб"/>
     <tag k="name:uk" v="Ель-Маргаб"/>
+    <tag k="name:ur" v="مرقب ضلع"/>
+    <tag k="old_name" v="شعبية المرقب"/>
+    <tag k="old_name:ar" v="شعبية المرقب"/>
+    <tag k="sorting_name" v="المرقب"/>
+    <tag k="sorting_name:ar" v="المرقب"/>
+    <tag k="sorting_name:azb" v="مرقب"/>
+    <tag k="sorting_name:fa" v="مرقب"/>
+    <tag k="sorting_name:ur" v="مرقب"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q209778"/>
-    <tag k="wikipedia" v="en:Murqub District"/>
+    <tag k="wikipedia" v="ar:شعبية المرقب"/>
+    <tag k="wikipedia:ar" v="شعبية المرقب"/>
   </relation>
   <relation id="3795031">
     <tag k="ISO3166-2" v="JP-39"/>
@@ -65916,162 +64962,6 @@
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q161454"/>
     <tag k="wikipedia" v="ja:香川県"/>
-  </relation>
-  <relation id="3795445">
-    <tag k="ISO3166-2" v="AZ-AGM"/>
-    <tag k="admin_level" v="4"/>
-    <tag k="boundary" v="administrative"/>
-    <tag k="is_in:continent" v="Asia"/>
-    <tag k="is_in:country" v="Azerbaijan"/>
-    <tag k="is_in:country_code" v="AZ"/>
-    <tag k="name" v="Ağdam rayonu"/>
-    <tag k="name:ar" v="مقاطعة آقدام"/>
-    <tag k="name:de" v="Ağdam"/>
-    <tag k="name:en" v="Agdam District"/>
-    <tag k="name:es" v="Ağdam"/>
-    <tag k="name:fr" v="Agdam"/>
-    <tag k="name:hy" v="Աղդամի շրջան"/>
-    <tag k="name:ja" v="アグダム県"/>
-    <tag k="name:ru" v="Агдамский район"/>
-    <tag k="type" v="boundary"/>
-    <tag k="wikidata" v="Q201647"/>
-    <tag k="wikipedia" v="de:Ağdam (Rayon)"/>
-  </relation>
-  <relation id="3795446">
-    <tag k="ISO3166-2" v="AZ-GOR"/>
-    <tag k="admin_level" v="4"/>
-    <tag k="boundary" v="administrative"/>
-    <tag k="is_in:continent" v="Asia"/>
-    <tag k="is_in:country" v="Azerbaijan"/>
-    <tag k="is_in:country_code" v="AZ"/>
-    <tag k="name" v="Goranboy rayonu"/>
-    <tag k="name:de" v="Goranboy"/>
-    <tag k="name:en" v="Goranboy District"/>
-    <tag k="name:es" v="Goranboy"/>
-    <tag k="name:fr" v="Goranboy"/>
-    <tag k="name:ja" v="ゴランボイ県"/>
-    <tag k="name:ru" v="Геранбойский район"/>
-    <tag k="type" v="boundary"/>
-    <tag k="wikidata" v="Q330843"/>
-    <tag k="wikipedia" v="de:Goranboy (Rayon)"/>
-  </relation>
-  <relation id="3795447">
-    <tag k="ISO3166-2" v="AZ-GYG"/>
-    <tag k="admin_level" v="4"/>
-    <tag k="boundary" v="administrative"/>
-    <tag k="is_in:continent" v="Asia"/>
-    <tag k="is_in:country" v="Azerbaijan"/>
-    <tag k="is_in:country_code" v="AZ"/>
-    <tag k="name" v="Göygöl rayonu"/>
-    <tag k="name:de" v="Rajon Göygöl"/>
-    <tag k="name:en" v="Goygol District"/>
-    <tag k="name:es" v="Göygöl"/>
-    <tag k="name:fr" v="Göygöl"/>
-    <tag k="name:ja" v="ゴイゴル県"/>
-    <tag k="name:ru" v="Гёйгёльский район"/>
-    <tag k="type" v="boundary"/>
-    <tag k="wikidata" v="Q388087"/>
-    <tag k="wikipedia" v="de:Göygöl (Rayon)"/>
-  </relation>
-  <relation id="3795448">
-    <tag k="ISO3166-2" v="AZ-DAS"/>
-    <tag k="admin_level" v="4"/>
-    <tag k="boundary" v="administrative"/>
-    <tag k="is_in:continent" v="Asia"/>
-    <tag k="is_in:country" v="Azerbaijan"/>
-    <tag k="is_in:country_code" v="AZ"/>
-    <tag k="name" v="Daşkəsən rayonu"/>
-    <tag k="name:de" v="Daşkəsən"/>
-    <tag k="name:en" v="Dashkasan District"/>
-    <tag k="name:es" v="Daşkəsən"/>
-    <tag k="name:fr" v="Daşkəsən"/>
-    <tag k="name:ja" v="ダシュキャサン県"/>
-    <tag k="name:ru" v="Дашкесанский район"/>
-    <tag k="type" v="boundary"/>
-    <tag k="wikidata" v="Q457494"/>
-    <tag k="wikipedia" v="de:Daşkəsən (Rayon)"/>
-  </relation>
-  <relation id="3795449">
-    <tag k="ISO3166-2" v="AZ-TAR"/>
-    <tag k="admin_level" v="4"/>
-    <tag k="boundary" v="administrative"/>
-    <tag k="is_in:continent" v="Asia"/>
-    <tag k="is_in:country" v="Azerbaijan"/>
-    <tag k="is_in:country_code" v="AZ"/>
-    <tag k="name" v="Tərtər rayonu"/>
-    <tag k="name:de" v="Tartar"/>
-    <tag k="name:en" v="Tartar District"/>
-    <tag k="name:es" v="Tartar"/>
-    <tag k="name:fr" v="Tartar"/>
-    <tag k="name:ru" v="Тертерский район"/>
-    <tag k="type" v="boundary"/>
-    <tag k="wikidata" v="Q477168"/>
-    <tag k="wikipedia" v="de:Tərtər (Rayon)"/>
-  </relation>
-  <relation id="3795450">
-    <tag k="ISO3166-2" v="AZ-FUZ"/>
-    <tag k="admin_level" v="4"/>
-    <tag k="boundary" v="administrative"/>
-    <tag k="name" v="Füzuli rayonu"/>
-    <tag k="name:ar" v="مقاطعة فضولي"/>
-    <tag k="name:azb" v="فوضولی رایونو"/>
-    <tag k="name:de" v="Füzuli"/>
-    <tag k="name:en" v="Fizuli District"/>
-    <tag k="name:es" v="Füzuli"/>
-    <tag k="name:fa" v="شهرستان فضولی"/>
-    <tag k="name:fr" v="Fizuli"/>
-    <tag k="name:ja" v="フィズリ県"/>
-    <tag k="name:ota" v="فوضولی رایونو"/>
-    <tag k="name:pnb" v="ضلع فضولی"/>
-    <tag k="name:ru" v="Физулинский район"/>
-    <tag k="name:ur" v="فضولی ضلع"/>
-    <tag k="type" v="boundary"/>
-    <tag k="wikidata" v="Q331687"/>
-    <tag k="wikipedia" v="de:Füzuli (Rayon)"/>
-    <tag k="wikipedia:azb" v="فوضولی رایونو"/>
-  </relation>
-  <relation id="3795451">
-    <tag k="ISO3166-2" v="AZ-XVD"/>
-    <tag k="admin_level" v="4"/>
-    <tag k="boundary" v="administrative"/>
-    <tag k="is_in:continent" v="Asia"/>
-    <tag k="is_in:country" v="Azerbaijan"/>
-    <tag k="is_in:country_code" v="AZ"/>
-    <tag k="name" v="Xocavənd rayonu"/>
-    <tag k="name:br" v="Xocavənd"/>
-    <tag k="name:ce" v="Ходжавендан кӀошт"/>
-    <tag k="name:de" v="Xocavənd"/>
-    <tag k="name:en" v="Khojavend District"/>
-    <tag k="name:eo" v="Ĥoĝavend"/>
-    <tag k="name:es" v="Xocavənd"/>
-    <tag k="name:fa" v="شهرستان خواجه‌وند"/>
-    <tag k="name:fi" v="Xocavəndin piirikunta"/>
-    <tag k="name:fr" v="Khojavend"/>
-    <tag k="name:he" v="חוג'אבנד"/>
-    <tag k="name:hr" v="Hodžavendski rajon"/>
-    <tag k="name:hu" v="Xocavəndi járás"/>
-    <tag k="name:id" v="Khojavend"/>
-    <tag k="name:it" v="Distretto di Xocavənd"/>
-    <tag k="name:ka" v="ხოჯავენდის რაიონი"/>
-    <tag k="name:ko" v="호자벤트구"/>
-    <tag k="name:mk" v="Хоџавенд"/>
-    <tag k="name:ms" v="Daerah Khojavend"/>
-    <tag k="name:nl" v="Xocavənd"/>
-    <tag k="name:no" v="Xocavənd"/>
-    <tag k="name:pl" v="Rejon Xocavənd"/>
-    <tag k="name:pt" v="Khojavend"/>
-    <tag k="name:ru" v="Ходжавендский район"/>
-    <tag k="name:sq" v="Khojavend"/>
-    <tag k="name:sr" v="Хоџавендски рејон"/>
-    <tag k="name:su" v="Rayon Khojavend"/>
-    <tag k="name:sv" v="Xocavənd Rayonu"/>
-    <tag k="name:tl" v="Distrito ng Khojavend"/>
-    <tag k="name:tr" v="Hocavend Rayonu"/>
-    <tag k="name:vi" v="Khojavend"/>
-    <tag k="name:zh" v="霍賈文德區"/>
-    <tag k="type" v="boundary"/>
-    <tag k="wikidata" v="Q330813"/>
-    <tag k="wikipedia" v="de:Xocavənd (Rayon)"/>
   </relation>
   <relation id="3795586">
     <tag k="addr:country" v="RU"/>
@@ -66234,19 +65124,6 @@
     <tag k="wikidata" v="Q2223"/>
     <tag k="wikipedia" v="id:Kepulauan Riau"/>
   </relation>
-  <relation id="3805452">
-    <tag k="addr:housenumber" v="22"/>
-    <tag k="admin_level" v="4"/>
-    <tag k="building" v="public"/>
-    <tag k="contact:website" v="https://www.isula.corsica/"/>
-    <tag k="government" v="local_authority"/>
-    <tag k="name" v="Collectivité de Corse"/>
-    <tag k="name:co" v="Cullettivita di Corsica"/>
-    <tag k="office" v="government"/>
-    <tag k="source" v="Service-Public.fr - 06/2013"/>
-    <tag k="type" v="multipolygon"/>
-    <tag k="wheelchair" v="no"/>
-  </relation>
   <relation id="3807617">
     <tag k="ISO3166-2" v="AZ-XCI"/>
     <tag k="admin_level" v="4"/>
@@ -66265,23 +65142,6 @@
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q4807202"/>
     <tag k="wikipedia" v="ru:Аскеранский район (НКР)"/>
-  </relation>
-  <relation id="3807618">
-    <tag k="admin_level" v="4"/>
-    <tag k="boundary" v="administrative"/>
-    <tag k="name" v="Հադրութի շրջան"/>
-    <tag k="name:ar" v="مقاطعة هادروت"/>
-    <tag k="name:de" v="Provinz Hadrut"/>
-    <tag k="name:en" v="Hadrut province"/>
-    <tag k="name:es" v="Hadrut"/>
-    <tag k="name:fa" v="استان هادروت"/>
-    <tag k="name:fr" v="Hadrout"/>
-    <tag k="name:hy" v="Հադրութի շրջան"/>
-    <tag k="name:ru" v="Гадрутский район"/>
-    <tag k="name:ur" v="ہادروت علاقہ"/>
-    <tag k="type" v="boundary"/>
-    <tag k="wikidata" v="Q165511"/>
-    <tag k="wikipedia" v="en:Hadrut Province"/>
   </relation>
   <relation id="3807619">
     <tag k="admin_level" v="4"/>
@@ -66306,6 +65166,7 @@
     <tag k="name:ja" v="カシャタグ地区"/>
     <tag k="name:ru" v="Кашатагский район"/>
     <tag k="name:ur" v="قاشاتاغ علاقہ"/>
+    <tag k="note" v="to be evacuated by Armenia by 1 December."/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q1536645"/>
     <tag k="wikipedia" v="ru:Кашатагский район"/>
@@ -66316,6 +65177,7 @@
     <tag k="name" v="Մարտակերտի շրջան"/>
     <tag k="name:az" v="Ağdərə rayonu"/>
     <tag k="name:en" v="Martakert Region"/>
+    <tag k="name:fa" v="استان آغ دره"/>
     <tag k="name:hy" v="Մարտակերտի շրջան"/>
     <tag k="name:ru" v="Мартакертский район"/>
     <tag k="type" v="boundary"/>
@@ -66349,29 +65211,13 @@
     <tag k="wikidata" v="Q157902"/>
     <tag k="wikipedia" v="hy:Մարտունու շրջան (Արցախ)"/>
   </relation>
-  <relation id="3807623">
-    <tag k="admin_level" v="4"/>
-    <tag k="boundary" v="administrative"/>
-    <tag k="name" v="Շահումյան շրջան"/>
-    <tag k="name:de" v="Provinz Schahumjan"/>
-    <tag k="name:en" v="Shahumyan Region"/>
-    <tag k="name:es" v="Shahumyan"/>
-    <tag k="name:fr" v="Chahoumian"/>
-    <tag k="name:hy" v="Շահումյան շրջան"/>
-    <tag k="name:ja" v="シャフミアン地区"/>
-    <tag k="name:ru" v="Шаумяновский район"/>
-    <tag k="type" v="boundary"/>
-    <tag k="wikidata" v="Q782992"/>
-    <tag k="wikipedia" v="ru:Шаумяновский район (НКР)"/>
-  </relation>
   <relation id="3807624">
-    <tag k="ISO3166-2" v="AZ-SUS"/>
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Շուշիի շրջան"/>
-    <tag k="name:ar" v="مقاطعة شوشا"/>
-    <tag k="name:az" v="Şuşa İnzibati Ərazisi"/>
-    <tag k="name:azb" v="شوشا رایونو"/>
+    <tag k="name:ar" v="مقاطعة شوشي"/>
+    <tag k="name:az" v="Şuşa Mərzi"/>
+    <tag k="name:azb" v="شوشا مرزی"/>
     <tag k="name:de" v="Schuschi"/>
     <tag k="name:en" v="Shushi Region"/>
     <tag k="name:es" v="Şuşi"/>
@@ -66379,7 +65225,7 @@
     <tag k="name:fr" v="Chouchi"/>
     <tag k="name:hy" v="Շուշիի շրջան"/>
     <tag k="name:ja" v="シュシー地区"/>
-    <tag k="name:ota" v="شوشا رایونو"/>
+    <tag k="name:ota" v="شوشا مرزی"/>
     <tag k="name:pnb" v="ضلع شوشا"/>
     <tag k="name:ru" v="Шушинский район"/>
     <tag k="type" v="boundary"/>
@@ -66559,6 +65405,7 @@
     <tag k="name" v="Hatohobei"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q3516752"/>
+    <tag k="wikipedia" v="en:Hatohobei"/>
   </relation>
   <relation id="3825290">
     <tag k="ISO3166-2" v="PW-150"/>
@@ -67238,28 +66085,6 @@
     <tag k="name:ru" v="Шекинская Администрация"/>
     <tag k="type" v="boundary"/>
   </relation>
-  <relation id="3912205">
-    <tag k="ISO3166-2" v="AZ-SAK"/>
-    <tag k="admin_level" v="4"/>
-    <tag k="boundary" v="administrative"/>
-    <tag k="is_in:continent" v="Asia"/>
-    <tag k="is_in:country" v="Azerbaijan"/>
-    <tag k="is_in:country_code" v="AZ"/>
-    <tag k="name" v="Şəki rayonu"/>
-    <tag k="name:ar" v="مقاطعة شكي"/>
-    <tag k="name:azb" v="شکی رایونو"/>
-    <tag k="name:de" v="Şəki"/>
-    <tag k="name:en" v="Sheki District"/>
-    <tag k="name:es" v="Şəki"/>
-    <tag k="name:fa" v="شهرستان شکی"/>
-    <tag k="name:fr" v="Shaki"/>
-    <tag k="name:pnb" v="ضلع شکی"/>
-    <tag k="name:ru" v="Шекинский район"/>
-    <tag k="name:ur" v="شکی ضلع"/>
-    <tag k="type" v="boundary"/>
-    <tag k="wikidata" v="Q330864"/>
-    <tag k="wikipedia" v="de:Şəki (Rayon)"/>
-  </relation>
   <relation id="3917110">
     <tag k="ISO3166-2" v="AM-AG"/>
     <tag k="admin_level" v="4"/>
@@ -67385,23 +66210,6 @@
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q42749862"/>
     <tag k="wikipedia" v="fr:Pointe-Noire (département)"/>
-  </relation>
-  <relation id="3963560">
-    <tag k="ISO3166-2" v="AZ-QAZ"/>
-    <tag k="admin_level" v="4"/>
-    <tag k="boundary" v="administrative"/>
-    <tag k="is_in:continent" v="Asia"/>
-    <tag k="is_in:country" v="Azerbaijan"/>
-    <tag k="is_in:country_code" v="AZ"/>
-    <tag k="name" v="Qazax rayonu"/>
-    <tag k="name:de" v="Qazax"/>
-    <tag k="name:en" v="Qazakh District"/>
-    <tag k="name:es" v="Qazax"/>
-    <tag k="name:fr" v="Qazax"/>
-    <tag k="name:ru" v="Казахский район"/>
-    <tag k="type" v="boundary"/>
-    <tag k="wikidata" v="Q389381"/>
-    <tag k="wikipedia" v="de:Qazax (Rayon)"/>
   </relation>
   <relation id="3977580">
     <tag k="ISO3166-2" v="KE-29"/>
@@ -67817,7 +66625,7 @@
   <relation id="4443571">
     <tag k="ISO3166-2" v="MY-03"/>
     <tag k="admin_level" v="4"/>
-    <tag k="alt_name" v="Negeri Kelantan Darul Naim"/>
+    <tag k="alt_name" v="Kelantan Darul Naim"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Kelantan"/>
     <tag k="name:ar" v="كلنتن"/>
@@ -67944,6 +66752,7 @@
   <relation id="4444595">
     <tag k="ISO3166-2" v="MY-06"/>
     <tag k="admin_level" v="4"/>
+    <tag k="alt_name" v="Pahang Darul Makmur"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Pahang"/>
     <tag k="name:ar" v="فهغ"/>
@@ -68099,6 +66908,8 @@
     <tag k="name:ur" v="پیراک"/>
     <tag k="name:vi" v="Perak"/>
     <tag k="name:zh" v="霹雳州"/>
+    <tag k="official_name" v="Perak Darul Ridzuan"/>
+    <tag k="old_name:zh" v="吡叻"/>
     <tag k="place" v="state"/>
     <tag k="population" v="2477700"/>
     <tag k="ref" v="PRK"/>
@@ -68307,19 +67118,19 @@
     <tag k="alt_name:ar" v="كريت"/>
     <tag k="boundary" v="administrative"/>
     <tag k="contact:website" v="http://www.apdkritis.gov.gr/"/>
-    <tag k="name" v="Αποκεντρωμένη Διοίκηση Κρήτης"/>
+    <tag k="name" v="Ἀποκεντρωμένη Διοίκησις Κρήτης"/>
     <tag k="name:ar" v="إقريطش"/>
     <tag k="name:bg" v="Крит"/>
     <tag k="name:ca" v="Creta"/>
-    <tag k="name:de" v="Kreta"/>
-    <tag k="name:el" v="Αποκεντρωμένη Διοίκηση Κρήτης"/>
-    <tag k="name:en" v="Crete"/>
-    <tag k="name:fr" v="Crète"/>
+    <tag k="name:de" v="Region Kreta"/>
+    <tag k="name:el" v="Ἀποκεντρωμένη Διοίκησις Κρήτης"/>
+    <tag k="name:en" v="Region of Crete"/>
+    <tag k="name:fr" v="Région Crète"/>
     <tag k="name:mk" v="Крит"/>
     <tag k="name:nl" v="Kreta"/>
     <tag k="name:ru" v="Крит"/>
     <tag k="name:tr" v="Girit"/>
-    <tag k="official_name" v="Αποκεντρωμένη Διοίκηση Κρήτης"/>
+    <tag k="official_name" v="Ἀποκεντρωμένη Διοίκησις Κρήτης"/>
     <tag k="official_name:ar" v="الإدارة اللامركزية إقريطش"/>
     <tag k="official_name:bg" v="Децентрализирано администриране Крит"/>
     <tag k="official_name:ca" v="Administració descentralitzada de Creta"/>
@@ -68726,6 +67537,7 @@
     <tag k="official_name:it" v="Regione dell'Anseba"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q569468"/>
+    <tag k="wikipedia" v="ar:إقليم أنسبا"/>
     <tag k="wikipedia:ar" v="إقليم أنسبا"/>
   </relation>
   <relation id="4605551">
@@ -70312,6 +69124,7 @@
     <tag k="ISO3166-2" v="PA-2"/>
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
+    <tag k="expected_level_6:2010" v="6"/>
     <tag k="name" v="Coclé"/>
     <tag k="name:ja" v="コクレ県"/>
     <tag k="type" v="boundary"/>
@@ -72126,9 +70939,9 @@
     <tag k="admin_level" v="4"/>
     <tag k="alt_name" v="Wilaya de Touggourt"/>
     <tag k="boundary" v="administrative"/>
-    <tag k="long_name:ar" v="ولاية تقرت‎"/>
+    <tag k="long_name:ar" v="ولاية تقرت"/>
     <tag k="long_name:fr" v="Wilaya de Touggourt"/>
-    <tag k="name" v="Touggourt ⵜⵓⴳⵓⵔⵜ تقرت‎"/>
+    <tag k="name" v="Touggourt ⵜⵓⴳⵓⵔⵜ تقرت"/>
     <tag k="name:ar" v="تقرت"/>
     <tag k="name:azb" v="تقورت"/>
     <tag k="name:ber" v="ⵜⵓⴳⵓⵔⵜ"/>
@@ -72207,22 +71020,22 @@
   <relation id="6825876">
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
-    <tag k="long_name" v="ولاية جانت‎"/>
-    <tag k="long_name:ar" v="ولاية جانت‎"/>
+    <tag k="long_name" v="ولاية جانت"/>
+    <tag k="long_name:ar" v="ولاية جانت"/>
     <tag k="long_name:ber" v="ⵝⴰⵏⴻⴲⴸⵉⵟ ⵏ ⴵⴰⵏⴻⵜ"/>
     <tag k="long_name:en" v="Djanet Province"/>
     <tag k="long_name:fr" v="wilaya de Djanet"/>
     <tag k="long_name:kab" v="Tanebḍit n Ǧanet"/>
-    <tag k="name" v="Djanet ⵊⴰⵏⴻⵜ جانت‎"/>
-    <tag k="name:ar" v="جانت‎"/>
+    <tag k="name" v="Djanet ⵊⴰⵏⴻⵜ جانت"/>
+    <tag k="name:ar" v="جانت"/>
     <tag k="name:azb" v="جانت"/>
     <tag k="name:ber" v="ⵊⴰⵏⴻⵜ"/>
     <tag k="name:en" v="Djanet"/>
     <tag k="name:fa" v="جانت"/>
     <tag k="name:fr" v="Djanet"/>
     <tag k="name:kab" v="Ǧanet"/>
-    <tag k="official_name" v="ولاية جانت‎"/>
-    <tag k="official_name:ar" v="ولاية جانت‎"/>
+    <tag k="official_name" v="ولاية جانت"/>
+    <tag k="official_name:ar" v="ولاية جانت"/>
     <tag k="official_name:ber" v="ⵝⴰⵏⴻⴲⴸⵉⵟ ⵏ ⴵⴰⵏⴻⵜ"/>
     <tag k="official_name:fr" v="wilaya de Djanet"/>
     <tag k="official_name:kab" v="Tanebḍit n Ǧanet"/>
@@ -72230,26 +71043,36 @@
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q77101547"/>
     <tag k="wikipedia" v="ar:ولاية جانت"/>
-    <tag k="wikipedia:ar" v="ولاية جانت‎"/>
+    <tag k="wikipedia:ar" v="ولاية جانت"/>
   </relation>
   <relation id="6825881">
     <tag k="ISO3166-2" v="DZ-58"/>
     <tag k="admin_level" v="4"/>
-    <tag k="alt_name" v="ولاية عين قزام"/>
-    <tag k="alt_name:ar" v="ولاية عين قزام"/>
-    <tag k="alt_name:fr" v="wilaya d' In Guezzam"/>
+    <tag k="alt_name" v="إين قزام;إن قزام"/>
+    <tag k="alt_name:ar" v="إين قزام;إن قزام"/>
     <tag k="boundary" v="administrative"/>
+    <tag k="long_name" v="ولاية عين قزام"/>
     <tag k="long_name:ar" v="ولاية عين قزام"/>
     <tag k="long_name:fr" v="wilaya d' In Guezzam"/>
     <tag k="name" v="In Guezzam ⵄⵉⵏ ⴳⴻⵣⵣⴰⵎ عين قزام"/>
     <tag k="name:ar" v="عين قزام"/>
+    <tag k="name:azb" v="عین قزام"/>
     <tag k="name:ber" v="ⵄⵉⵏ ⴳⴻⵣⵣⴰⵎ"/>
     <tag k="name:en" v="In Guezzam"/>
+    <tag k="name:fa" v="عین قزام"/>
     <tag k="name:fr" v="In Guezzam"/>
     <tag k="name:kab" v="Ɛin Gezzam"/>
+    <tag k="name:kab-Arab" v="عين ڤزام"/>
+    <tag k="name:ks" v="عین قزام"/>
+    <tag k="name:ota" v="عین قزام"/>
+    <tag k="name:pnb" v="عین قزام"/>
+    <tag k="name:ps" v="عین قزام"/>
+    <tag k="name:ur" v="عین قزام"/>
     <tag k="ref" v="58"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q77102475"/>
+    <tag k="wikipedia" v="ar:ولاية عين قزام"/>
+    <tag k="wikipedia:ar" v="ولاية عين قزام"/>
   </relation>
   <relation id="6825901">
     <tag k="admin_level" v="4"/>
@@ -72290,137 +71113,6 @@
     <tag k="capacity:persons" v="50-100"/>
     <tag k="name" v="Komisi Pemilihan Umum Jawa Timur"/>
     <tag k="type" v="multipolygon"/>
-  </relation>
-  <relation id="6898087">
-    <tag k="admin_level" v="4"/>
-    <tag k="alt_name:sq" v="Regjioni i Ferizajit"/>
-    <tag k="boundary" v="administrative"/>
-    <tag k="is_in:country" v="Republic of Kosovo"/>
-    <tag k="license_plate_code" v="05"/>
-    <tag k="name" v="Rajoni i Ferizajt"/>
-    <tag k="name:de" v="Bezirk Ferizaj"/>
-    <tag k="name:en" v="District of Ferizaj"/>
-    <tag k="name:sq" v="Rajoni i Ferizajt"/>
-    <tag k="name:sr" v="Урошевачки округ"/>
-    <tag k="name:sr-Latn" v="Uroševački okrug"/>
-    <tag k="place" v="district"/>
-    <tag k="population" v="185806"/>
-    <tag k="type" v="boundary"/>
-    <tag k="wikidata" v="Q868964"/>
-    <tag k="wikipedia" v="en:District of Ferizaj"/>
-  </relation>
-  <relation id="6898227">
-    <tag k="admin_level" v="4"/>
-    <tag k="alt_name:sq" v="Regjioni i Prizrenit"/>
-    <tag k="boundary" v="administrative"/>
-    <tag k="is_in:country" v="Republic of Kosovo"/>
-    <tag k="license_plate_code" v="04"/>
-    <tag k="name" v="Rajoni i Prizrenit"/>
-    <tag k="name:de" v="Bezirk Prizren"/>
-    <tag k="name:el" v="Περιφέρεια Πρίζρεν"/>
-    <tag k="name:en" v="District of Prizren"/>
-    <tag k="name:sq" v="Rajoni i Prizrenit"/>
-    <tag k="name:sr" v="Призренски округ"/>
-    <tag k="name:sr-Latn" v="Prizrenski okrug"/>
-    <tag k="place" v="district"/>
-    <tag k="population" v="331670"/>
-    <tag k="type" v="boundary"/>
-    <tag k="wikidata" v="Q1048331"/>
-    <tag k="wikipedia" v="en:District of Prizren"/>
-  </relation>
-  <relation id="6898247">
-    <tag k="admin_level" v="4"/>
-    <tag k="alt_name:sq" v="Regjioni i Gjakovës"/>
-    <tag k="boundary" v="administrative"/>
-    <tag k="is_in:country" v="Republic of Kosovo"/>
-    <tag k="license_plate_code" v="07"/>
-    <tag k="name" v="Rajoni i Gjakovës"/>
-    <tag k="name:de" v="Bezirk Gjakova"/>
-    <tag k="name:el" v="Περιφέρεια Τζακόβιτσα"/>
-    <tag k="name:en" v="District of Gjakova"/>
-    <tag k="name:sq" v="Rajoni i Gjakovës"/>
-    <tag k="name:sr" v="Ђаковички округ"/>
-    <tag k="name:sr-Latn" v="Đakovički okrug"/>
-    <tag k="place" v="district"/>
-    <tag k="population" v="214672"/>
-    <tag k="type" v="boundary"/>
-    <tag k="wikidata" v="Q1059386"/>
-    <tag k="wikipedia" v="en:District of Gjakova"/>
-  </relation>
-  <relation id="6898305">
-    <tag k="admin_level" v="4"/>
-    <tag k="alt_name:sq" v="Regjioni i Gjilanit"/>
-    <tag k="boundary" v="administrative"/>
-    <tag k="is_in:country" v="Republic of Kosovo"/>
-    <tag k="license_plate_code" v="06"/>
-    <tag k="name" v="Rajoni i Gjilanit"/>
-    <tag k="name:de" v="Bezirk Gjilan"/>
-    <tag k="name:en" v="District of Gjilan"/>
-    <tag k="name:sq" v="Rajoni i Gjilanit"/>
-    <tag k="name:sr" v="Гњилански округ"/>
-    <tag k="name:sr-Latn" v="Gnjilanski okrug"/>
-    <tag k="place" v="district"/>
-    <tag k="population" v="180783"/>
-    <tag k="type" v="boundary"/>
-    <tag k="wikidata" v="Q1048355"/>
-    <tag k="wikipedia" v="en:District of Gjilan"/>
-  </relation>
-  <relation id="6898457">
-    <tag k="admin_level" v="4"/>
-    <tag k="alt_name:sq" v="Regjioni i Pejës"/>
-    <tag k="boundary" v="administrative"/>
-    <tag k="is_in:country" v="Republic of Kosovo"/>
-    <tag k="license_plate_code" v="03"/>
-    <tag k="name" v="Rajoni i Pejës"/>
-    <tag k="name:de" v="Bezirk Peja"/>
-    <tag k="name:el" v="Περιφέρεια Πετς"/>
-    <tag k="name:en" v="District of Peja"/>
-    <tag k="name:sq" v="Rajoni i Pejës"/>
-    <tag k="name:sr" v="Пећки округ"/>
-    <tag k="name:sr-Latn" v="Pećki okrug"/>
-    <tag k="place" v="district"/>
-    <tag k="population" v="174235"/>
-    <tag k="type" v="boundary"/>
-    <tag k="wikidata" v="Q609247"/>
-    <tag k="wikipedia" v="en:District of Peja"/>
-  </relation>
-  <relation id="6898597">
-    <tag k="admin_level" v="4"/>
-    <tag k="alt_name:sq" v="Regjioni i Mitrovicës"/>
-    <tag k="boundary" v="administrative"/>
-    <tag k="is_in:country" v="Republic of Kosovo"/>
-    <tag k="license_plate_code" v="02"/>
-    <tag k="name" v="Rajoni i Mitrovicës"/>
-    <tag k="name:de" v="Bezirk Mitrovica"/>
-    <tag k="name:el" v="Περιφέρεια Μιτρόβιτσας"/>
-    <tag k="name:en" v="District of Mitrovica"/>
-    <tag k="name:sq" v="Rajoni i Mitrovicës"/>
-    <tag k="name:sr" v="Косовскомитровачки округ"/>
-    <tag k="name:sr-Latn" v="Kosovskomitrovački okrug"/>
-    <tag k="place" v="district"/>
-    <tag k="population" v="232833"/>
-    <tag k="type" v="boundary"/>
-    <tag k="wikidata" v="Q1046673"/>
-    <tag k="wikipedia" v="en:District of Mitrovica"/>
-  </relation>
-  <relation id="6900417">
-    <tag k="admin_level" v="4"/>
-    <tag k="alt_name:sq" v="Regjioni i Prishtinës"/>
-    <tag k="boundary" v="administrative"/>
-    <tag k="is_in:country" v="Republic of Kosovo"/>
-    <tag k="license_plate_code" v="01"/>
-    <tag k="name" v="Rajoni i Prishtinës"/>
-    <tag k="name:de" v="Bezirk Pristina"/>
-    <tag k="name:el" v="Περιφέρεια Πρίστινας (01)"/>
-    <tag k="name:en" v="District of Prishtina"/>
-    <tag k="name:sq" v="Rajoni i Prishtinës"/>
-    <tag k="name:sr" v="Приштински округ"/>
-    <tag k="name:sr-Latn" v="Prištinski okrug"/>
-    <tag k="place" v="district"/>
-    <tag k="population" v="477312"/>
-    <tag k="type" v="boundary"/>
-    <tag k="wikidata" v="Q856426"/>
-    <tag k="wikipedia" v="en:District of Pristina"/>
   </relation>
   <relation id="6930027">
     <tag k="admin_level" v="4"/>
@@ -73892,24 +72584,6 @@
     <tag k="wikidata" v="Q263285"/>
     <tag k="wikipedia" v="ms:Daerah Temburong"/>
   </relation>
-  <relation id="7861847">
-    <tag k="ISO3166-2" v="AZ-CAB"/>
-    <tag k="admin_level" v="4"/>
-    <tag k="boundary" v="administrative"/>
-    <tag k="is_in:continent" v="Asia"/>
-    <tag k="is_in:country" v="Azerbaijan"/>
-    <tag k="is_in:country_code" v="AZ"/>
-    <tag k="name" v="Cəbrayıl rayonu"/>
-    <tag k="name:de" v="Cəbrayıl"/>
-    <tag k="name:en" v="Jabrayil District"/>
-    <tag k="name:es" v="Cəbrayıl"/>
-    <tag k="name:fr" v="Jabrayil"/>
-    <tag k="name:ru" v="Джебраильский район"/>
-    <tag k="name:ua" v="Джебраїльський район"/>
-    <tag k="type" v="boundary"/>
-    <tag k="wikidata" v="Q457491"/>
-    <tag k="wikipedia" v="en:Jabrayil District"/>
-  </relation>
   <relation id="7887109">
     <tag k="admin_level" v="4"/>
     <tag k="alt_name" v="Ma'uke"/>
@@ -74012,6 +72686,15 @@
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q3504281"/>
     <tag k="wikipedia" v="pl:Metropolia katowicka"/>
+  </relation>
+  <relation id="8015856">
+    <tag k="addr:city" v="Cochabamba"/>
+    <tag k="admin_level" v="4"/>
+    <tag k="barrier" v="fence"/>
+    <tag k="government" v="prosecutor"/>
+    <tag k="name" v="Fiscalia Departamental de Cochabamba"/>
+    <tag k="office" v="government"/>
+    <tag k="type" v="multipolygon"/>
   </relation>
   <relation id="8058126">
     <tag k="access:roof" v="no"/>
@@ -74653,6 +73336,56 @@
     <tag k="wikidata" v="Q47282"/>
     <tag k="wikipedia" v="en:Osh"/>
   </relation>
+  <relation id="8512366">
+    <tag k="ISO3166-2" v="GL-KU"/>
+    <tag k="admin_level" v="4"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="Kujalleq"/>
+    <tag k="name:ar" v="كوياليك"/>
+    <tag k="type" v="boundary"/>
+    <tag k="wikidata" v="Q478813"/>
+    <tag k="wikipedia" v="en:Kujalleq"/>
+  </relation>
+  <relation id="8514368">
+    <tag k="ISO3166-2" v="GL-QE"/>
+    <tag k="admin_level" v="4"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="Qeqqata"/>
+    <tag k="name:ar" v="كيكاتا"/>
+    <tag k="type" v="boundary"/>
+    <tag k="wikidata" v="Q476233"/>
+    <tag k="wikipedia" v="en:Qeqqata"/>
+  </relation>
+  <relation id="8514395">
+    <tag k="ISO3166-2" v="GL-QT"/>
+    <tag k="admin_level" v="4"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="Qeqertalik"/>
+    <tag k="name:ar" v="ككرتليك"/>
+    <tag k="type" v="boundary"/>
+    <tag k="wikidata" v="Q44593337"/>
+    <tag k="wikipedia" v="en:Qeqertalik"/>
+  </relation>
+  <relation id="8514493">
+    <tag k="ISO3166-2" v="GL-AV"/>
+    <tag k="admin_level" v="4"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="Avannaata"/>
+    <tag k="name:ar" v="أفناتا"/>
+    <tag k="type" v="boundary"/>
+    <tag k="wikidata" v="Q44593409"/>
+    <tag k="wikipedia" v="en:Avannaata"/>
+  </relation>
+  <relation id="8515166">
+    <tag k="ISO3166-2" v="GL-SM"/>
+    <tag k="admin_level" v="4"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="Sermersooq"/>
+    <tag k="name:ar" v="سيرمرسوك"/>
+    <tag k="type" v="boundary"/>
+    <tag k="wikidata" v="Q695387"/>
+    <tag k="wikipedia" v="en:Sermersooq"/>
+  </relation>
   <relation id="8854527">
     <tag k="admin_level" v="4"/>
     <tag k="contact:email" v="Poststelle@mdjev.brandenburg.de"/>
@@ -74716,28 +73449,26 @@
     <tag k="name" v="أمانة العاصمة"/>
     <tag k="name:ar" v="أمانة العاصمة"/>
     <tag k="name:en" v="Amanat Al Asimah"/>
-    <tag k="population" v="1747834"/>
-    <tag k="population:date" v="2004-12-17"/>
-    <tag k="source:population" v="YCSO2004:13"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q2471"/>
     <tag k="wikipedia" v="ar:صنعاء"/>
   </relation>
   <relation id="8898365">
     <tag k="admin_level" v="4"/>
+    <tag k="alt_name" v="Isla Talchichilte"/>
     <tag k="name" v="Tachichilte"/>
     <tag k="place" v="island"/>
     <tag k="type" v="multipolygon"/>
   </relation>
   <relation id="8898575">
     <tag k="admin_level" v="4"/>
-    <tag k="name" v="Altamura"/>
+    <tag k="name" v="Isla Altamura"/>
     <tag k="place" v="island"/>
     <tag k="type" v="multipolygon"/>
   </relation>
   <relation id="8921637">
     <tag k="admin_level" v="4"/>
-    <tag k="name" v="Saliaca"/>
+    <tag k="name" v="Isla Saliaca"/>
     <tag k="place" v="island"/>
     <tag k="type" v="multipolygon"/>
   </relation>
@@ -76403,9 +75134,9 @@
   <relation id="11179228">
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="protected_area"/>
-    <tag k="leisure" v="park"/>
     <tag k="name" v="Pulaski State Park"/>
     <tag k="ownership" v="State of Rhode Island"/>
+    <tag k="protect_class" v="5"/>
     <tag k="type" v="boundary"/>
   </relation>
   <relation id="11201900">
@@ -76415,11 +75146,14 @@
     <tag k="type" v="boundary"/>
   </relation>
   <relation id="11251493">
+    <tag k="ISO3166-2" v="IN-GA"/>
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Goa"/>
+    <tag k="name:he" v="גואה"/>
+    <tag k="name:hi" v="गोवा"/>
     <tag k="type" v="boundary"/>
-    <tag k="wikidata" v="Q423755"/>
+    <tag k="wikidata" v="Q1171"/>
   </relation>
   <relation id="11262092">
     <tag k="admin_level" v="4"/>
@@ -76456,7 +75190,12 @@
   <relation id="11558094">
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="protected_area"/>
-    <tag k="name" v="Rockville Management Area"/>
+    <tag k="ele" v="85"/>
+    <tag k="gnis:county_id" v="009"/>
+    <tag k="gnis:created" v="08/27/2002"/>
+    <tag k="gnis:feature_id" v="2028239"/>
+    <tag k="gnis:state_id" v="44"/>
+    <tag k="name" v="Rockville State Management Area"/>
     <tag k="protect_class" v="6"/>
     <tag k="protection_title" v="Management Area"/>
     <tag k="type" v="boundary"/>
@@ -76467,7 +75206,7 @@
     <tag k="name" v="Cocumscussoc State Park"/>
     <tag k="protect_class" v="5"/>
     <tag k="protection_title" v="State Park"/>
-    <tag k="type" v="boundary"/>
+    <tag k="type" v="multipolygon"/>
   </relation>
   <relation id="11645027">
     <tag k="admin_level" v="4"/>
@@ -76502,6 +75241,488 @@
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Thành phố Thủ Đức"/>
     <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="11809341">
+    <tag k="admin_level" v="4"/>
+    <tag k="name" v="Echo Valley Provincial Park"/>
+    <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="11811577">
+    <tag k="admin_level" v="4"/>
+    <tag k="name" v="El Rancho"/>
+    <tag k="place" v="island"/>
+    <tag k="type" v="multipolygon"/>
+  </relation>
+  <relation id="11819141">
+    <tag k="admin_level" v="4"/>
+    <tag k="alt_name:en" v="Yukhari Karabakh"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="is_in:continent" v="Asia"/>
+    <tag k="is_in:country" v="Azerbaijan"/>
+    <tag k="is_in:country_code" v="AZ"/>
+    <tag k="name" v="Yuxarı Qarabağ"/>
+    <tag k="name:de" v="Oberkarabach"/>
+    <tag k="name:en" v="Upper Karabakh"/>
+    <tag k="name:es" v="Alto Karabaj"/>
+    <tag k="name:fa" v="استان قره‌باغ علیا"/>
+    <tag k="name:fr" v="Haut-Karabakh"/>
+    <tag k="name:ru" v="Верхний Карабах"/>
+    <tag k="official_name" v="Région économique du Haut-Karabakh"/>
+    <tag k="official_name:az" v="Yuxarı Qarabağ iqtisadi rayonu"/>
+    <tag k="official_name:de" v="Wirtschaftsregion Oberkarabach"/>
+    <tag k="official_name:en" v="Upper Karabakh economic region"/>
+    <tag k="official_name:es" v="Región económica del Alto Karabaj"/>
+    <tag k="official_name:ru" v="Верхний Карабах экономический район"/>
+    <tag k="type" v="boundary"/>
+    <tag k="wikidata" v="Q4108287"/>
+  </relation>
+  <relation id="11819150">
+    <tag k="admin_level" v="4"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="is_in:continent" v="Asia"/>
+    <tag k="is_in:country" v="Azerbaijan"/>
+    <tag k="is_in:country_code" v="AZ"/>
+    <tag k="name" v="Gəncə-Qazax"/>
+    <tag k="name:az" v="Gəncə-Qazax"/>
+    <tag k="name:de" v="Ganja-Qazakh"/>
+    <tag k="name:en" v="Ganja-Qazakh"/>
+    <tag k="name:es" v="Ganja-Qazaj"/>
+    <tag k="name:fa" v="استان گنجه-قزاق"/>
+    <tag k="name:fr" v="Ganja-Qazakh"/>
+    <tag k="name:ru" v="Гянджа-Газах"/>
+    <tag k="official_name" v="Région économique du Ganja-Qazakh"/>
+    <tag k="official_name:az" v="Gəncə-Qazax iqtisadi rayonu"/>
+    <tag k="official_name:de" v="Wirtschaftsregion Ganja-Qazakh"/>
+    <tag k="official_name:en" v="Ganja-Qazakh economic region"/>
+    <tag k="official_name:es" v="Región económica de Ganja-Qazaj"/>
+    <tag k="official_name:ru" v="Гянджа-Газах экономический район"/>
+    <tag k="type" v="boundary"/>
+    <tag k="wikidata" v="Q4153290"/>
+  </relation>
+  <relation id="11819178">
+    <tag k="admin_level" v="4"/>
+    <tag k="alt_name:en" v="Sheki-Zagatala"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="is_in:continent" v="Asia"/>
+    <tag k="is_in:country" v="Azerbaijan"/>
+    <tag k="is_in:country_code" v="AZ"/>
+    <tag k="name" v="Şəki-Zaqatala"/>
+    <tag k="name:az" v="Şəki-Zaqatala"/>
+    <tag k="name:de" v="Scheki-Zaqatala"/>
+    <tag k="name:en" v="Sheki-Zaqatala"/>
+    <tag k="name:es" v="Sheki-Zaqatala"/>
+    <tag k="name:fa" v="استان شکی-زاقاتالا"/>
+    <tag k="name:fr" v="Cheki-Zaqatala"/>
+    <tag k="name:ru" v="Шеки-Закатала"/>
+    <tag k="official_name:az" v="Şəki-Zaqatala iqtisadi rayonu"/>
+    <tag k="official_name:de" v="Wirtschaftsregion Scheki-Zaqatala"/>
+    <tag k="official_name:en" v="Sheki-Zaqatala economic region"/>
+    <tag k="official_name:es" v="Región económica del Sheki-Zaqatala"/>
+    <tag k="official_name:fr" v="Région économique du Cheki-Zaqatala"/>
+    <tag k="official_name:ru" v="Шеки-Закатала экономический район"/>
+    <tag k="type" v="boundary"/>
+    <tag k="wikidata" v="Q4522512"/>
+  </relation>
+  <relation id="11819289">
+    <tag k="admin_level" v="4"/>
+    <tag k="alt_name:en" v="Guba-Khachmaz"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="is_in:continent" v="Asia"/>
+    <tag k="is_in:country" v="Azerbaijan"/>
+    <tag k="is_in:country_code" v="AZ"/>
+    <tag k="name" v="Quba-Xaçmaz"/>
+    <tag k="name:az" v="Quba-Xaçmaz"/>
+    <tag k="name:de" v="Quba-Khatchmaz"/>
+    <tag k="name:en" v="Quba-Khachmaz"/>
+    <tag k="name:es" v="Quba-Jachmaz"/>
+    <tag k="name:fa" v="استان قوبا-خاچماز"/>
+    <tag k="name:fr" v="Quba-Khatchmaz"/>
+    <tag k="name:ru" v="Куба-Хачмаз"/>
+    <tag k="official_name:az" v="Quba-Xaçmaz iqtisadi rayonu"/>
+    <tag k="official_name:de" v="Wirtschaftsregion Quba-Khatchmaz"/>
+    <tag k="official_name:en" v="Quba-Khachmaz economic region"/>
+    <tag k="official_name:es" v="Región económica del Quba-Jachmaz"/>
+    <tag k="official_name:fr" v="Région économique du Quba-Khatchmaz"/>
+    <tag k="official_name:ru" v="Куба-Хачмаз экономический район"/>
+    <tag k="type" v="boundary"/>
+    <tag k="wikidata" v="Q4243453"/>
+  </relation>
+  <relation id="11820853">
+    <tag k="admin_level" v="4"/>
+    <tag k="alt_name:en" v="Daglig-Shirvan"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="is_in:continent" v="Asia"/>
+    <tag k="is_in:country" v="Azerbaijan"/>
+    <tag k="is_in:country_code" v="AZ"/>
+    <tag k="name" v="Dağlıq Şirvan"/>
+    <tag k="name:az" v="Dağlıq Şirvan"/>
+    <tag k="name:de" v="Gebirgiger Schirvan"/>
+    <tag k="name:en" v="Mountainous Shirvan"/>
+    <tag k="name:es" v="Shirvan Montañoso"/>
+    <tag k="name:fa" v="استان شیروان کوهستانی"/>
+    <tag k="name:fr" v="Chirvan Montagneux"/>
+    <tag k="name:ru" v="Горно-Ширван"/>
+    <tag k="official_name:az" v="Dağlıq Şirvan iqtisadi rayonu"/>
+    <tag k="official_name:de" v="Wirtschaftsregion Gebirgiger Schirvan"/>
+    <tag k="official_name:en" v="Mountainous Shirvan economic region"/>
+    <tag k="official_name:es" v="Región económica del Shirvan Montañoso"/>
+    <tag k="official_name:fr" v="Région économique du Chirvan Montagneux"/>
+    <tag k="official_name:ru" v="Горно-Ширванский экономический район"/>
+    <tag k="type" v="boundary"/>
+    <tag k="wikidata" v="Q4530462"/>
+  </relation>
+  <relation id="11820906">
+    <tag k="admin_level" v="4"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="is_in:continent" v="Asia"/>
+    <tag k="is_in:country" v="Azerbaijan"/>
+    <tag k="is_in:country_code" v="AZ"/>
+    <tag k="name" v="Abşeron"/>
+    <tag k="name:az" v="Abşeron"/>
+    <tag k="name:de" v="Abscheron"/>
+    <tag k="name:en" v="Absheron"/>
+    <tag k="name:es" v="Absheron"/>
+    <tag k="name:fa" v="استان آبشرون"/>
+    <tag k="name:fr" v="Abcheron"/>
+    <tag k="name:ru" v="Апшерон"/>
+    <tag k="official_name:az" v="Abşeron iqtisadi rayonu"/>
+    <tag k="official_name:de" v="Wirtschaftsregion Abscheron"/>
+    <tag k="official_name:en" v="Absheron economic region"/>
+    <tag k="official_name:es" v="Región económica del Absheron"/>
+    <tag k="official_name:fr" v="Région économique du Abcheron"/>
+    <tag k="official_name:ru" v="Апшеронский экономический район"/>
+    <tag k="type" v="boundary"/>
+    <tag k="wikidata" v="Q4068334"/>
+  </relation>
+  <relation id="11820981">
+    <tag k="admin_level" v="4"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="is_in:continent" v="Asia"/>
+    <tag k="is_in:country" v="Azerbaijan"/>
+    <tag k="is_in:country_code" v="AZ"/>
+    <tag k="name" v="Aran"/>
+    <tag k="name:az" v="Aran"/>
+    <tag k="name:de" v="Aran"/>
+    <tag k="name:en" v="Aran"/>
+    <tag k="name:es" v="Aran"/>
+    <tag k="name:fa" v="استان آران"/>
+    <tag k="name:fr" v="Aran"/>
+    <tag k="name:ru" v="Аран"/>
+    <tag k="official_name:az" v="Aran iqtisadi rayonu"/>
+    <tag k="official_name:de" v="Wirtschaftsregion Aran"/>
+    <tag k="official_name:en" v="Aran economic region"/>
+    <tag k="official_name:es" v="Región económica del Aran"/>
+    <tag k="official_name:fr" v="Région économique du Aran"/>
+    <tag k="official_name:ru" v="Аранский экономический район"/>
+    <tag k="type" v="boundary"/>
+    <tag k="wikidata" v="Q4068530"/>
+  </relation>
+  <relation id="11821145">
+    <tag k="admin_level" v="4"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="is_in:continent" v="Asia"/>
+    <tag k="is_in:country" v="Azerbaijan"/>
+    <tag k="is_in:country_code" v="AZ"/>
+    <tag k="name" v="Aran"/>
+    <tag k="name:az" v="Lənkəran"/>
+    <tag k="name:de" v="Lankaran"/>
+    <tag k="name:en" v="Lankaran"/>
+    <tag k="name:es" v="Lankaran"/>
+    <tag k="name:fa" v="استان لنکران"/>
+    <tag k="name:fr" v="Lankaran"/>
+    <tag k="name:ru" v="Ленкоран"/>
+    <tag k="official_name:az" v="Lənkəran iqtisadi rayonu"/>
+    <tag k="official_name:de" v="Wirtschaftsregion Lankaran"/>
+    <tag k="official_name:en" v="Lankaran economic region"/>
+    <tag k="official_name:es" v="Región económica del Lankaran"/>
+    <tag k="official_name:fr" v="Région économique du Lankaran"/>
+    <tag k="official_name:ru" v="Ленкоранский экономический район"/>
+    <tag k="type" v="boundary"/>
+    <tag k="wikidata" v="Q4258528"/>
+  </relation>
+  <relation id="11821494">
+    <tag k="admin_level" v="4"/>
+    <tag k="boundary" v="disputed"/>
+    <tag k="disputed" v="yes"/>
+    <tag k="is_in:continent" v="Asia"/>
+    <tag k="is_in:country" v="Azerbaijan"/>
+    <tag k="is_in:country_code" v="AZ"/>
+    <tag k="name" v="Kəlbəcər-Laçın"/>
+    <tag k="name:az" v="Kəlbəcər-Laçın"/>
+    <tag k="name:de" v="Kalbadjar-Latschin"/>
+    <tag k="name:en" v="Kalbajar-Lachin"/>
+    <tag k="name:es" v="Kalbayar-Lachin"/>
+    <tag k="name:fa" v="استان کلبجر-لاچین"/>
+    <tag k="name:fr" v="Kalbadjar-Latchin"/>
+    <tag k="name:ru" v="Кельбаджар-Лачин"/>
+    <tag k="official_name" v="Région économique de Kalbadjar-Latchin"/>
+    <tag k="official_name:az" v="Kəlbəcər-Laçın iqtisadi rayonu"/>
+    <tag k="official_name:de" v="Wirtschaftsregion Kalbadjar-Latschin"/>
+    <tag k="official_name:en" v="Kalbajar-Lachin economic region"/>
+    <tag k="official_name:es" v="Región económica de Kalbayar-Lachin"/>
+    <tag k="official_name:ru" v="Кельбаджар-Лачинский экономический район"/>
+    <tag k="type" v="boundary"/>
+    <tag k="wikidata" v="Q4219161"/>
+  </relation>
+  <relation id="11822491">
+    <tag k="according_to:AM" v="no"/>
+    <tag k="according_to:AZ" v="yes"/>
+    <tag k="admin_level" v="4"/>
+    <tag k="alt_name:en" v="Yukhari Karabakh"/>
+    <tag k="boundary" v="claimed_administrative"/>
+    <tag k="claimed:admin_level" v="4"/>
+    <tag k="is_in:continent" v="Asia"/>
+    <tag k="is_in:country" v="Azerbaijan"/>
+    <tag k="is_in:country_code" v="AZ"/>
+    <tag k="name" v="Yuxarı Qarabağ"/>
+    <tag k="name:de" v="Oberkarabach"/>
+    <tag k="name:en" v="Upper Karabakh"/>
+    <tag k="name:es" v="Alto Karabaj"/>
+    <tag k="name:fa" v="استان قره‌باغ علیا"/>
+    <tag k="name:fr" v="Haut-Karabakh"/>
+    <tag k="name:ru" v="Верхний Карабах"/>
+    <tag k="official_name" v="Région économique du Haut-Karabakh"/>
+    <tag k="official_name:az" v="Yuxarı Qarabağ iqtisadi rayonu"/>
+    <tag k="official_name:de" v="Wirtschaftsregion Oberkarabach"/>
+    <tag k="official_name:en" v="Upper Karabakh economic region"/>
+    <tag k="official_name:es" v="Región económica del Alto Karabaj"/>
+    <tag k="official_name:ru" v="Верхний Карабах экономический район"/>
+    <tag k="type" v="boundary"/>
+    <tag k="wikidata" v="Q4108287"/>
+  </relation>
+  <relation id="11827132">
+    <tag k="GNS:id" v="-1671452"/>
+    <tag k="admin_level" v="4"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="Isla Isabela"/>
+    <tag k="place" v="island"/>
+    <tag k="source:name" v="GNS"/>
+    <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="11834646">
+    <tag k="admin_level" v="4"/>
+    <tag k="natural" v="wetland"/>
+    <tag k="type" v="multipolygon"/>
+    <tag k="wetland" v="mangrove"/>
+  </relation>
+  <relation id="11867393">
+    <tag k="admin_level" v="4"/>
+    <tag k="area" v="yes"/>
+    <tag k="boundary" v="aboriginal_lands"/>
+    <tag k="description" v="Consists of the Chemehuevi, the Mohave, Hopi, and Navajo"/>
+    <tag k="land_area" v="administrative"/>
+    <tag k="name" v="Colorado River Indian Tribes"/>
+    <tag k="type" v="boundary"/>
+    <tag k="wikipedia" v="en:Colorado River Indian Tribes"/>
+  </relation>
+  <relation id="11871225">
+    <tag k="admin_level" v="4"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="is_in:continent" v="Asia"/>
+    <tag k="is_in:country" v="Azerbaijan"/>
+    <tag k="is_in:country_code" v="AZ"/>
+    <tag k="name" v="Kəlbəcər-Laçın"/>
+    <tag k="name:az" v="Kəlbəcər-Laçın"/>
+    <tag k="name:de" v="Kalbadjar-Latschin"/>
+    <tag k="name:en" v="Kalbajar-Lachin"/>
+    <tag k="name:es" v="Kalbayar-Lachin"/>
+    <tag k="name:fa" v="استان کلبجر-لاچین"/>
+    <tag k="name:fr" v="Kalbadjar-Latchin"/>
+    <tag k="name:ru" v="Кельбаджар-Лачин"/>
+    <tag k="official_name" v="Région économique de Kalbadjar-Latchin"/>
+    <tag k="official_name:az" v="Kəlbəcər-Laçın iqtisadi rayonu"/>
+    <tag k="official_name:de" v="Wirtschaftsregion Kalbadjar-Latschin"/>
+    <tag k="official_name:en" v="Kalbajar-Lachin economic region"/>
+    <tag k="official_name:es" v="Región económica de Kalbayar-Lachin"/>
+    <tag k="official_name:ru" v="Кельбаджар-Лачинский экономический район"/>
+    <tag k="type" v="boundary"/>
+    <tag k="wikidata" v="Q4219161"/>
+  </relation>
+  <relation id="11876686">
+    <tag k="admin_level" v="4"/>
+    <tag k="alt_name" v="DIR Centre-Est; Centre d’Entretien et d’Intervention de Paray-le-Monial; CEI de Paray-le-Monial"/>
+    <tag k="contact:city" v="Paray-le-Monial"/>
+    <tag k="contact:postcode" v="71600"/>
+    <tag k="contact:street" v="Boulevard du Champ Bossu"/>
+    <tag k="fax" v="+33 3 85 81 48 52"/>
+    <tag k="government" v="transportation"/>
+    <tag k="name" v="DIR Centre-Est – Centre d’Entretien et d’Intervention de Paray-le-Monial"/>
+    <tag k="office" v="government"/>
+    <tag k="operator" v="Direction Interdépartementale des Routes Centre-Est"/>
+    <tag k="phone" v="+33 3 85 88 82 70"/>
+    <tag k="short_name" v="DIR Centre-Est – CEI de Paray-le-Monial"/>
+    <tag k="type" v="multipolygon"/>
+  </relation>
+  <relation id="11878829">
+    <tag k="admin_level" v="4"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="Pituffik"/>
+    <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="11897039">
+    <tag k="admin_level" v="4"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="Շահումյան շրջան"/>
+    <tag k="name:de" v="Provinz Schahumjan"/>
+    <tag k="name:en" v="Shahumyan Region"/>
+    <tag k="name:es" v="Shahumyan"/>
+    <tag k="name:fr" v="Chahoumian"/>
+    <tag k="name:hy" v="Շահումյան շրջան"/>
+    <tag k="name:ja" v="シャフミアン地区"/>
+    <tag k="name:ru" v="Шаумяновский район"/>
+    <tag k="note" v="most of the district, with the exception of the eastern area which constituted part of the former Nagorno-Karabakh Autonomous Oblast, is to be returned to Azerbaijani control on 25 November 2020"/>
+    <tag k="type" v="boundary"/>
+    <tag k="wikidata" v="Q782992"/>
+    <tag k="wikipedia" v="ru:Шаумяновский район (НКР)"/>
+  </relation>
+  <relation id="11905687">
+    <tag k="admin_level" v="4"/>
+    <tag k="boundary" v="disputed"/>
+    <tag k="disputed" v="yes"/>
+    <tag k="name" v="Մարտունու շրջան"/>
+    <tag k="name:ar" v="مارتوني"/>
+    <tag k="name:az" v="Xocavənd rayonu"/>
+    <tag k="name:be" v="Мартунінскі раён"/>
+    <tag k="name:de" v="Martuni"/>
+    <tag k="name:en" v="Martuni Province"/>
+    <tag k="name:eo" v="Martuni"/>
+    <tag k="name:es" v="Martuni"/>
+    <tag k="name:fa" v="استان مارتونی"/>
+    <tag k="name:fi" v="Martunin piiri"/>
+    <tag k="name:fr" v="Martouni"/>
+    <tag k="name:hy" v="Մարտունու շրջան"/>
+    <tag k="name:it" v="Regione di Martowni"/>
+    <tag k="name:ja" v="マルトゥニ地区"/>
+    <tag k="name:nl" v="Martoeni"/>
+    <tag k="name:pl" v="Rejon Martuni"/>
+    <tag k="name:ru" v="Мартунинский район"/>
+    <tag k="name:tr" v="Martuni"/>
+    <tag k="name:uk" v="Мартунинський район"/>
+    <tag k="name:ur" v="مارتونی علاقہ"/>
+    <tag k="note" v="This is the boundary of Artsakh Republic's controlled plus claimed territory. The area will be reduced after handover of Agdam."/>
+    <tag k="type" v="boundary"/>
+    <tag k="wikidata" v="Q157902"/>
+    <tag k="wikipedia" v="hy:Մարտունու շրջան (Արցախ)"/>
+  </relation>
+  <relation id="11905732">
+    <tag k="admin_level" v="4"/>
+    <tag k="boundary" v="disputed"/>
+    <tag k="disputed" v="yes"/>
+    <tag k="name" v="Հադրութի շրջան"/>
+    <tag k="name:ar" v="مقاطعة هادروت"/>
+    <tag k="name:de" v="Provinz Hadrut"/>
+    <tag k="name:en" v="Hadrut province"/>
+    <tag k="name:es" v="Hadrut"/>
+    <tag k="name:fa" v="استان هادروت"/>
+    <tag k="name:fr" v="Hadrout"/>
+    <tag k="name:hy" v="Հադրութի շրջան"/>
+    <tag k="name:ru" v="Гадрутский район"/>
+    <tag k="name:ur" v="ہادروت علاقہ"/>
+    <tag k="type" v="boundary"/>
+    <tag k="wikidata" v="Q165511"/>
+    <tag k="wikipedia" v="en:Hadrut Province"/>
+  </relation>
+  <relation id="11905733">
+    <tag k="admin_level" v="4"/>
+    <tag k="boundary" v="disputed"/>
+    <tag k="disputed" v="yes"/>
+    <tag k="name" v="Շուշիի շրջան"/>
+    <tag k="name:ar" v="مقاطعة شوشي"/>
+    <tag k="name:az" v="Şuşa Mərzi"/>
+    <tag k="name:azb" v="شوشا مرزی"/>
+    <tag k="name:de" v="Schuschi"/>
+    <tag k="name:en" v="Shushi Region"/>
+    <tag k="name:es" v="Şuşi"/>
+    <tag k="name:fa" v="شهرستان شوشا"/>
+    <tag k="name:fr" v="Chouchi"/>
+    <tag k="name:hy" v="Շուշիի շրջան"/>
+    <tag k="name:ja" v="シュシー地区"/>
+    <tag k="name:ota" v="شوشا مرزی"/>
+    <tag k="name:pnb" v="ضلع شوشا"/>
+    <tag k="name:ru" v="Шушинский район"/>
+    <tag k="type" v="boundary"/>
+    <tag k="wikidata" v="Q388960"/>
+    <tag k="wikipedia" v="ru:Шушинский район (НКР)"/>
+    <tag k="wikipedia:azb" v="شوشا رایونو"/>
+  </relation>
+  <relation id="11905734">
+    <tag k="ISO3166-2" v="AZ-XCI"/>
+    <tag k="admin_level" v="4"/>
+    <tag k="boundary" v="disputed"/>
+    <tag k="disputed" v="yes"/>
+    <tag k="int_name" v="Askeran"/>
+    <tag k="is_in:continent" v="Asia"/>
+    <tag k="name" v="Ասկերանի մարզ"/>
+    <tag k="name:az" v="Xocalı rayonu"/>
+    <tag k="name:de" v="Askeran"/>
+    <tag k="name:en" v="Askeran Region"/>
+    <tag k="name:es" v="Askeran"/>
+    <tag k="name:fr" v="Askeran"/>
+    <tag k="name:hy" v="Ասկերանի մարզ"/>
+    <tag k="name:ja" v="アスケラン"/>
+    <tag k="name:ru" v="Аскеранский район"/>
+    <tag k="type" v="boundary"/>
+    <tag k="wikidata" v="Q4807202"/>
+    <tag k="wikipedia" v="ru:Аскеранский район (НКР)"/>
+  </relation>
+  <relation id="11905748">
+    <tag k="admin_level" v="4"/>
+    <tag k="boundary" v="disputed"/>
+    <tag k="disputed" v="yes"/>
+    <tag k="name" v="Մարտակերտի շրջան"/>
+    <tag k="name:az" v="Ağdərə rayonu"/>
+    <tag k="name:en" v="Martakert Region"/>
+    <tag k="name:fa" v="استان آغ دره"/>
+    <tag k="name:hy" v="Մարտակերտի շրջան"/>
+    <tag k="name:ru" v="Мартакертский район"/>
+    <tag k="type" v="boundary"/>
+    <tag k="wikidata" v="Q132348"/>
+    <tag k="wikipedia" v="ru:Мартакертский район"/>
+  </relation>
+  <relation id="11905751">
+    <tag k="admin_level" v="4"/>
+    <tag k="boundary" v="disputed"/>
+    <tag k="disputed" v="yes"/>
+    <tag k="name" v="Շահումյան շրջան"/>
+    <tag k="name:de" v="Provinz Schahumjan"/>
+    <tag k="name:en" v="Shahumyan Region"/>
+    <tag k="name:es" v="Shahumyan"/>
+    <tag k="name:fr" v="Chahoumian"/>
+    <tag k="name:hy" v="Շահումյան շրջան"/>
+    <tag k="name:ja" v="シャフミアン地区"/>
+    <tag k="name:ru" v="Шаумяновский район"/>
+    <tag k="type" v="boundary"/>
+    <tag k="wikidata" v="Q782992"/>
+    <tag k="wikipedia" v="ru:Шаумяновский район (НКР)"/>
+  </relation>
+  <relation id="11913790">
+    <tag k="admin_level" v="4"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="Київська міська громада"/>
+    <tag k="name:uk" v="Київська міська громада"/>
+    <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="11916824">
+    <tag k="ISO3166-2" v="SB-WE"/>
+    <tag k="admin_level" v="4"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="maritime" v="yes"/>
+    <tag k="name" v="Western Province"/>
+    <tag k="name:ja" v="西部州"/>
+    <tag k="name:ru" v="Западная провинция"/>
+    <tag k="source" v="wikipedia"/>
+    <tag k="type" v="boundary"/>
+    <tag k="wikidata" v="Q150325"/>
+  </relation>
+  <relation id="11916914">
+    <tag k="ISO3166-2" v="SB-GU"/>
+    <tag k="admin_level" v="4"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="maritime" v="yes"/>
+    <tag k="name" v="Guadalcanal Province"/>
+    <tag k="source" v="wikipedia"/>
+    <tag k="type" v="boundary"/>
+    <tag k="wikidata" v="Q760888"/>
   </relation>
   <relation id="2541341">
     <tag k="ISO3166-2:old" v="FI-LL"/>
@@ -76784,6 +76005,7 @@
     <tag k="name:it" v="Distretto Federale Meridionale"/>
     <tag k="name:ja" v="南部連邦管区"/>
     <tag k="name:ko" v="남부연방관구"/>
+    <tag k="name:mk" v="Јужен Федерален Округ"/>
     <tag k="name:nl" v="Zuidelijk Federaal District"/>
     <tag k="name:pl" v="Południowy Okręg Federalny"/>
     <tag k="name:pt" v="Distrito Federal do Sul"/>
@@ -78739,6 +77961,51 @@
     <tag k="wikidata" v="Q19908741"/>
     <tag k="wikipedia" v="ru:Городской округ город Бородино"/>
   </relation>
+  <relation id="7008175">
+    <tag k="addr:region" v="Красноярский край"/>
+    <tag k="admin_level" v="8"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="городское поселение Дудинка"/>
+    <tag k="note" v="Граница нарисована из схемы района."/>
+    <tag k="official_status" v="ru:городское поселение"/>
+    <tag k="type" v="boundary"/>
+    <tag k="wikidata" v="Q18405829"/>
+    <tag k="wikipedia" v="ru:Городское поселение город Дудинка"/>
+  </relation>
+  <relation id="7008176">
+    <tag k="addr:region" v="Красноярский край"/>
+    <tag k="admin_level" v="8"/>
+    <tag k="alt_name" v="Остров Диксон"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="городское поселение Диксон"/>
+    <tag k="note" v="Граница нарисована из схемы района."/>
+    <tag k="official_status" v="ru:городское поселение"/>
+    <tag k="type" v="boundary"/>
+    <tag k="wikidata" v="Q18405856"/>
+    <tag k="wikipedia" v="ru:Городское поселение посёлок Диксон"/>
+  </relation>
+  <relation id="7008172">
+    <tag k="addr:region" v="Красноярский край"/>
+    <tag k="admin_level" v="8"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="сельское поселение Хатанга"/>
+    <tag k="note" v="Граница нарисована из схемы района."/>
+    <tag k="official_status" v="ru:сельское поселение"/>
+    <tag k="type" v="boundary"/>
+    <tag k="wikidata" v="Q17506477"/>
+    <tag k="wikipedia" v="ru:Сельское поселение Хатанга"/>
+  </relation>
+  <relation id="7008173">
+    <tag k="addr:region" v="Красноярский край"/>
+    <tag k="admin_level" v="8"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="сельское поселение Караул"/>
+    <tag k="note" v="Граница нарисована из схемы района."/>
+    <tag k="official_status" v="ru:сельское поселение"/>
+    <tag k="type" v="boundary"/>
+    <tag k="wikidata" v="Q16472081"/>
+    <tag k="wikipedia" v="ru:Сельское поселение Караул"/>
+  </relation>
   <relation id="1128590">
     <tag k="admin_level" v="6"/>
     <tag k="boundary" v="administrative"/>
@@ -79962,10 +79229,10 @@
   </relation>
   <relation id="1997914">
     <tag k="admin_level" v="5"/>
-    <tag k="alt_name" v="阿里;Ngari"/>
+    <tag k="alt_name" v="阿里;Ngari;Ngari Sakü"/>
     <tag k="boundary" v="administrative"/>
     <tag k="division_code" v="542500"/>
-    <tag k="name" v="མངའ་རིས་ས་ཁུལ་ / 阿里地区 / Ngari"/>
+    <tag k="name" v="མངའ་རིས་ས་ཁུལ་ 阿里地区"/>
     <tag k="name:bo" v="མངའ་རིས་ས་གནས"/>
     <tag k="name:en" v="Ngari Prefecture"/>
     <tag k="name:ja" v="ガリ地区"/>
@@ -79973,19 +79240,20 @@
     <tag k="name:zh_pinyin" v="Ālǐ Dìqū"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q577713"/>
-    <tag k="wikipedia" v="de:Ngari"/>
+    <tag k="wikipedia" v="zh:阿里地区"/>
   </relation>
   <relation id="2734427">
     <tag k="admin_level" v="5"/>
     <tag k="alt_name" v="林芝地;林芝;Nyingchi;Linzhi;ཉིང་ཁྲི་ས་ཁུལ་"/>
     <tag k="boundary" v="administrative"/>
-    <tag k="division_code" v="542600"/>
-    <tag k="name" v="ཉིང་ཁྲི་གྲོང་ཁྱེར། / 林芝市 / Nyingchi"/>
+    <tag k="division_code" v="540400"/>
+    <tag k="name" v="ཉིང་ཁྲི་གྲོང་ཁྱེར། 林芝市"/>
     <tag k="name:bo" v="ཉིང་ཁྲི་གྲོང་ཁྱེར།"/>
     <tag k="name:en" v="Nyingchi City"/>
     <tag k="name:ja" v="ニンティ市"/>
     <tag k="name:zh" v="林芝市"/>
     <tag k="name:zh_pinyin" v="Línzhī shì"/>
+    <tag k="old_division_code" v="542600"/>
     <tag k="old_name" v="林芝地区"/>
     <tag k="timezone" v="Asia/Urumqi"/>
     <tag k="type" v="boundary"/>
@@ -79994,15 +79262,18 @@
   </relation>
   <relation id="2734866">
     <tag k="admin_level" v="5"/>
-    <tag k="alt_name" v="昌都;Qamdo City;Changdu City;ཆབ་མདོ་ས་གནས"/>
+    <tag k="alt_name" v="昌都;Qamdo City;Qamdo;Chamdo;Changdu City;ཆབ་མདོ་ས་གནས"/>
     <tag k="boundary" v="administrative"/>
-    <tag k="division_code" v="542100"/>
-    <tag k="name" v="ཆབ་མདོ་ས་ཁུལ། / 昌都市 / Chamdo"/>
+    <tag k="division_code" v="540300"/>
+    <tag k="name" v="ཆབ་མདོ་ས་ཁུལ། 昌都市"/>
     <tag k="name:bo" v="ཆབ་མདོ་ས་ཁུལ།"/>
+    <tag k="name:de" v="Qamdo"/>
     <tag k="name:en" v="Chamdo City"/>
     <tag k="name:ja" v="チャムド地区"/>
     <tag k="name:zh" v="昌都市"/>
-    <tag k="name:zh_pinyin" v="shāngdū shì"/>
+    <tag k="name:zh_pinyin" v="chāngdū shì"/>
+    <tag k="old_division_code" v="542100"/>
+    <tag k="old_name" v="昌都地区"/>
     <tag k="timezone" v="Asia/Urumqi"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q1012419"/>
@@ -80013,23 +79284,27 @@
     <tag k="alt_name" v="山南;Lhokha;ལྷོ་ཁ།;Shannan City"/>
     <tag k="alt_name:en" v="Lhoka Prefecture"/>
     <tag k="boundary" v="administrative"/>
-    <tag k="name" v="ལྷོ་ཁ་ས་ཁུལ། / 山南市 / Shannan"/>
+    <tag k="division_code" v="540500"/>
+    <tag k="name" v="ལྷོ་ཁ་ས་ཁུལ། 山南市"/>
     <tag k="name:bo" v="ལྷོ་ཁ་ས་ཁུལ།"/>
     <tag k="name:en" v="Shannan"/>
     <tag k="name:ja" v="山南地区"/>
     <tag k="name:zh" v="山南市"/>
+    <tag k="name:zh_pinyin" v="shānnán shì"/>
     <tag k="old_name" v="山南地区;Shānnán Dìqū;Shannan Prefecture"/>
     <tag k="timezone" v="Asia/Urumqi"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q777171"/>
-    <tag k="wikipedia" v="en:Shannan, Tibet"/>
+    <tag k="wikipedia" v="zh:山南市"/>
   </relation>
   <relation id="2744623">
     <tag k="admin_level" v="5"/>
+    <tag k="alt_name" v="Zhikatsé"/>
     <tag k="alt_name:vi" v="Nhật Khách Tắc"/>
     <tag k="boundary" v="administrative"/>
+    <tag k="division_code" v="540200"/>
     <tag k="int_name" v="Xigazê"/>
-    <tag k="name" v="གཞིས་ཀ་རྩེ་ས་ཁུལ་/日喀则市/Shigatse"/>
+    <tag k="name" v="གཞིས་ཀ་རྩེ་ས་ཁུལ་日喀则市"/>
     <tag k="name:bo" v="གཞིས་ཀ་རྩེ་ས་ཁུལ་"/>
     <tag k="name:de" v="Shigatse"/>
     <tag k="name:en" v="Shigatse"/>
@@ -80038,6 +79313,7 @@
     <tag k="name:vi" v="Xigazê"/>
     <tag k="name:zh" v="日喀则市"/>
     <tag k="name:zh_pinyin" v="Rìkāzé Shì"/>
+    <tag k="old_division_code" v="542400"/>
     <tag k="old_name" v="日喀则市"/>
     <tag k="timezone" v="Asia/Urumqi"/>
     <tag k="type" v="boundary"/>
@@ -80048,7 +79324,7 @@
     <tag k="admin_level" v="5"/>
     <tag k="alt_name" v="那曲;Nagchu;Naqu;Nagqu;ནག་ཆུ་"/>
     <tag k="boundary" v="administrative"/>
-    <tag k="division_code" v="542400"/>
+    <tag k="division_code" v="540600"/>
     <tag k="name" v="那曲市"/>
     <tag k="name:bn" v="নাগ-ছু বিভাগ"/>
     <tag k="name:bo" v="ནག་ཆུ་ས་ཁུལ།"/>
@@ -80063,6 +79339,7 @@
     <tag k="name:ru" v="Нагчу"/>
     <tag k="name:zh" v="那曲市"/>
     <tag k="name:zh_pinyin" v="Nàqū shì"/>
+    <tag k="old_division_code" v="542400"/>
     <tag k="old_name" v="Nagqu Prefecture;那曲地区"/>
     <tag k="timezone" v="Asia/Urumqi"/>
     <tag k="type" v="boundary"/>
@@ -80071,8 +79348,10 @@
   </relation>
   <relation id="2745046">
     <tag k="admin_level" v="5"/>
+    <tag k="alt_name:bo" v="ལྷ་ས།;ལྷ་ས;ར་ས།;ར་ས"/>
     <tag k="boundary" v="administrative"/>
-    <tag k="name" v="ལྷ་ས་གྲོང་ཁྱེར་ / 拉萨市 / Lhasa"/>
+    <tag k="division_code" v="540100"/>
+    <tag k="name" v="ལྷ་ས་གྲོང་ཁྱེར་ 拉萨市"/>
     <tag k="name:bo" v="ལྷ་ས་གྲོང་ཁྱེར་"/>
     <tag k="name:en" v="Lhasa"/>
     <tag k="name:eo" v="Lasao"/>
@@ -80083,7 +79362,7 @@
     <tag k="timezone" v="Asia/Urumqi"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q5869"/>
-    <tag k="wikipedia" v="de:Lhasa"/>
+    <tag k="wikipedia" v="zh:拉萨市"/>
   </relation>
   <relation id="2049312">
     <tag k="admin_level" v="5"/>
@@ -80893,13 +80172,19 @@
     <tag k="boundary" v="administrative"/>
     <tag k="division_code" v="632800"/>
     <tag k="name" v="海西蒙古族藏族自治州"/>
-    <tag k="name:bo" v="མཚོ་ནུབ་སོག་རིགས་ཆ་བོད་རིགས་རང་སྐྱོང་ཁུལ།"/>
+    <tag k="name:bo" v="མཚོ་ནུབ་སོག་རིགས་དང་བོད་རིགས་རང་སྐྱོང་ཁུལ་"/>
+    <tag k="name:de" v="Autonome Bezirk Haixi der Mongolen und Tibeter"/>
     <tag k="name:en" v="Haixi Mongol and Tibetan Autonomous Prefecture"/>
+    <tag k="name:es" v="Prefectura autónoma mongol y tibetana de Haixi"/>
+    <tag k="name:fr" v="Préfecture autonome mongole et tibétaine de Haixi"/>
+    <tag k="name:it" v="Prefettura autonoma mongola e tibetana di Haixi"/>
     <tag k="name:ja" v="海西モンゴル族チベット族自治州"/>
     <tag k="name:mn" v="Хайши тойрог"/>
+    <tag k="name:ru" v="Хайси-Монголо-Тибетский автономный округ"/>
     <tag k="name:tr" v="Haixi Moğol ve Tibet Özerk İli"/>
     <tag k="name:vi" v="Hải Tây"/>
     <tag k="name:zh" v="海西蒙古族藏族自治州"/>
+    <tag k="name:zh_pinyin" v="Hǎixī Měnggǔzú Zàngzú Zìzhìzhōu"/>
     <tag k="short_name" v="海西州"/>
     <tag k="timezone" v="Asia/Urumqi"/>
     <tag k="type" v="boundary"/>
@@ -81219,7 +80504,7 @@
     <tag k="source" v="CanVec_Import_2009"/>
     <tag k="source:population" v="Canada 2011 Census"/>
     <tag k="wikidata" v="Q92561"/>
-    <tag k="wikipedia" v="en:London, Ontario"/>
+    <tag k="wikipedia" v="de:London, Ontario"/>
   </node>
   <relation id="7588783">
     <tag k="admin_level" v="8"/>
@@ -81287,33 +80572,8 @@
     <tag k="wikipedia" v="en:Timmins"/>
   </node>
   <node id="18063533" lat="43.6534817" lon="-79.3839347">
-    <tag k="capital" v="4"/>
     <tag k="name" v="Toronto"/>
-    <tag k="name:ar" v="تورونتو"/>
-    <tag k="name:bn" v="টোরোংটো"/>
-    <tag k="name:ckb" v="تۆرنتۆ"/>
-    <tag k="name:de" v="Toronto"/>
-    <tag k="name:el" v="Τορόντο"/>
-    <tag k="name:en" v="Toronto"/>
-    <tag k="name:fr" v="Toronto"/>
-    <tag k="name:hi" v="टॊरॊंटो"/>
-    <tag k="name:ja" v="トロント"/>
-    <tag k="name:kn" v="ಟೊರೊಂಟೋ"/>
-    <tag k="name:ko" v="토론토"/>
-    <tag k="name:mr" v="टॊरॊंटो"/>
-    <tag k="name:oc" v="Toronto"/>
-    <tag k="name:oj" v="Gichi Kiiwenging"/>
-    <tag k="name:pl" v="Toronto"/>
-    <tag k="name:ru" v="Торонто"/>
-    <tag k="name:ta" v="டொரொண்டோ"/>
-    <tag k="name:uk" v="Торонто"/>
     <tag k="place" v="city"/>
-    <tag k="population" v="2651717"/>
-    <tag k="source:name:oc" v="Lo Congrès"/>
-    <tag k="source:population" v="Wikipedia, 2008, city"/>
-    <tag k="state_capital" v="yes"/>
-    <tag k="wikidata" v="Q172"/>
-    <tag k="wikipedia" v="en:Toronto"/>
   </node>
   <node id="70555320" lat="47.9929283" lon="-84.7740199">
     <tag k="name" v="Wawa"/>
@@ -81463,6 +80723,8 @@
     <tag k="admin_level" v="5"/>
     <tag k="boundary" v="administrative"/>
     <tag k="name" v="Nord-du-Québec"/>
+    <tag k="name:en" v="Northern Quebec"/>
+    <tag k="name:fr" v="Nord-du-Québec"/>
     <tag k="place" v="region"/>
     <tag k="ref:qc" v="10"/>
     <tag k="type" v="boundary"/>
@@ -82026,9 +81288,9 @@
     <tag k="name:az" v="Şikoku"/>
     <tag k="name:azb" v="شیکوکو"/>
     <tag k="name:ba" v="Сикоку"/>
-    <tag k="name:bat_smg" v="Šėkoku"/>
+    <tag k="name:bat-smg" v="Šėkoku"/>
     <tag k="name:be" v="Сікоку"/>
-    <tag k="name:be_x_old" v="Сікоку"/>
+    <tag k="name:be-tarask" v="Сікоку"/>
     <tag k="name:bg" v="Шикоку"/>
     <tag k="name:bn" v="শিকোকু"/>
     <tag k="name:br" v="Shikoku"/>
@@ -82134,9 +81396,9 @@
     <tag k="name:ar" v="كيوشو"/>
     <tag k="name:az" v="Kyuşu"/>
     <tag k="name:ba" v="Кюсю"/>
-    <tag k="name:bat_smg" v="Kiūšiū"/>
+    <tag k="name:bat-smg" v="Kiūšiū"/>
     <tag k="name:be" v="Кюсю"/>
-    <tag k="name:be_x_old" v="Кюсю"/>
+    <tag k="name:be-tarask" v="Кюсю"/>
     <tag k="name:bg" v="Кюшу"/>
     <tag k="name:bn" v="কিউশু"/>
     <tag k="name:br" v="Kyūshū"/>
@@ -91740,6 +91002,7 @@
     <tag k="name:ur" v="ڈریسڈن"/>
     <tag k="official_name" v="Kreisfreie Stadt Dresden"/>
     <tag k="place" v="city"/>
+    <tag k="population" v="556780"/>
     <tag k="ref:nuts:3" v="DED21"/>
     <tag k="source" v="Kommunale Statistikstelle Dresden"/>
     <tag k="type" v="boundary"/>
@@ -92109,10 +91372,8 @@
     <tag k="TMC:cid_58:tabcd_1:LCLversion" v="12.0"/>
     <tag k="TMC:cid_58:tabcd_1:LocationCode" v="453"/>
     <tag k="admin_level" v="6"/>
-    <tag k="border_type" v="county"/>
     <tag k="boundary" v="administrative"/>
     <tag k="de:amtlicher_gemeindeschluessel" v="03353"/>
-    <tag k="de:place" v="county"/>
     <tag k="de:regionalschluessel" v="03353"/>
     <tag k="license_plate_code" v="WL"/>
     <tag k="name" v="Harburg"/>
@@ -92122,7 +91383,6 @@
     <tag k="name:ru" v="Харбург"/>
     <tag k="official_name" v="Landkreis Harburg"/>
     <tag k="ref:nuts:3" v="DE933"/>
-    <tag k="source" v="vorhandene andere Grenzen bilden diese Grenze"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q5907"/>
     <tag k="wikipedia" v="de:Landkreis Harburg"/>
@@ -95495,6 +94755,20 @@
     <tag k="wikidata" v="Q3113"/>
     <tag k="wikipedia" v="fr:Allier (département)"/>
   </relation>
+  <relation id="1577660">
+    <tag k="addr:housenumber" v="12"/>
+    <tag k="addr:street" v="Rue des Saints-Pères"/>
+    <tag k="admin_level" v="6"/>
+    <tag k="alt_name" v="Conseil départemental de Seine-et-Marne"/>
+    <tag k="building" v="public"/>
+    <tag k="contact:phone" v="+33 1 64 14 77 77"/>
+    <tag k="government" v="parliament"/>
+    <tag k="name" v="Hôtel du Département"/>
+    <tag k="office" v="government"/>
+    <tag k="opening_hours" v="Mo-Th 08:30-18:30; Fr 08:30-18:00"/>
+    <tag k="type" v="multipolygon"/>
+    <tag k="wheelchair" v="yes"/>
+  </relation>
   <relation id="1823322">
     <tag k="admin_level" v="6"/>
     <tag k="boundary" v="religious_administration"/>
@@ -95761,15 +95035,14 @@
     <tag k="wikipedia" v="fr:Archidiocèse de Tours"/>
   </relation>
   <node id="1698922081" lat="35.2072185" lon="-101.8338246">
-    <tag k="end_date" v="1989-01-01"/>
     <tag k="name" v="Amarillo"/>
     <tag k="name:en" v="Amarillo"/>
     <tag k="name:ru" v="Амарилло"/>
     <tag k="name:uk" v="Амарилло"/>
     <tag k="place" v="city"/>
-    <tag k="population:date" v="2002-10-09"/>
+    <tag k="population" v="199924"/>
+    <tag k="population:date" v="2018"/>
     <tag k="source:population" v="wikipedia"/>
-    <tag k="start_date" v="2004-05-22"/>
     <tag k="wikidata" v="Q51691"/>
     <tag k="wikipedia" v="en:Amarillo, Texas"/>
   </node>
@@ -95829,6 +95102,7 @@
     <tag k="name:am" v="ሂውስተን"/>
     <tag k="name:ar" v="هيوستن"/>
     <tag k="name:az" v="Hyuston"/>
+    <tag k="name:azb" v="هیوستون"/>
     <tag k="name:be" v="Х'юстан"/>
     <tag k="name:bg" v="Хюстън"/>
     <tag k="name:bn" v="হিউস্টন"/>
@@ -95844,6 +95118,7 @@
     <tag k="name:ja" v="ヒューストン"/>
     <tag k="name:ka" v="ჰიუსტონი"/>
     <tag k="name:kk" v="Хьюстон"/>
+    <tag k="name:kk-Arab" v="حيۋستون"/>
     <tag k="name:kn" v="ಹ್ಯೂಸ್ಟನ್"/>
     <tag k="name:ko" v="휴스턴"/>
     <tag k="name:ku" v="Houston (Teksas)"/>
@@ -95859,6 +95134,7 @@
     <tag k="name:oc" v="Houston"/>
     <tag k="name:os" v="Хьюстон"/>
     <tag k="name:pa" v="ਹੂਸਟਨ"/>
+    <tag k="name:pnb" v="ہیوسٹن"/>
     <tag k="name:pt" v="Houston"/>
     <tag k="name:ru" v="Хьюстон"/>
     <tag k="name:sl" v="Houston, Teksas"/>
@@ -96756,9 +96032,9 @@
     <tag k="name:azb" v="جنوبی قوطب"/>
     <tag k="name:ba" v="Антарктика"/>
     <tag k="name:bar" v="Antarktika"/>
-    <tag k="name:bat_smg" v="Antarktėda"/>
+    <tag k="name:bat-smg" v="Antarktėda"/>
     <tag k="name:be" v="Антарктыда"/>
-    <tag k="name:be_x_old" v="Антарктыда"/>
+    <tag k="name:be-tarask" v="Антарктыда"/>
     <tag k="name:bg" v="Антарктида"/>
     <tag k="name:bh" v="अंटार्कटिका"/>
     <tag k="name:bi" v="Antarktik"/>
@@ -96982,6 +96258,22 @@
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q1158197"/>
     <tag k="wikipedia" v="de:Daman (Distrikt)"/>
+  </relation>
+  <relation id="2713465">
+    <tag k="admin_level" v="3"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="claimed_by" v="IN"/>
+    <tag k="controlled_by" v="CN"/>
+    <tag k="dispute_level" v="2"/>
+    <tag k="name" v="阿克赛钦 Aksai Chin अक्साई चिन"/>
+    <tag k="name:en" v="Aksai Chin"/>
+    <tag k="name:hi" v="अक्साई चिन"/>
+    <tag k="name:ur" v="اکسائی چن"/>
+    <tag k="name:zh" v="阿克赛钦"/>
+    <tag k="name:zh_pinyin" v="Ākèsàiqīn"/>
+    <tag k="type" v="boundary"/>
+    <tag k="wikidata" v="Q230830"/>
+    <tag k="wikipedia" v="en:Aksai Chin"/>
   </relation>
 
 </osm>
