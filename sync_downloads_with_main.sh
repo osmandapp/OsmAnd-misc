@@ -10,6 +10,7 @@ sync srtm-countries/
 sync road-indexes/
 sync wiki/
 sync wikivoyage/
+sync travel/
 #sync aosmc/
 #sync osm-releases/
 #sync releases/
