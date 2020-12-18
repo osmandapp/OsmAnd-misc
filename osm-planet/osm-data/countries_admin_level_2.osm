@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.56.3 eb200aeb">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2020-11-24T18:23:02Z"/>
+<meta osm_base="2020-12-10T10:12:03Z"/>
 
   <relation id="9407">
     <tag k="ISO3166-1" v="AD"/>
@@ -13,12 +13,17 @@
     <tag k="alt_name:ar" v="إمارة وديان أندورا"/>
     <tag k="alt_name:ckb" v="ئەندۆرا"/>
     <tag k="alt_name:cs" v="Andorské knížectví"/>
+    <tag k="alt_name:de" v="Fürstentum der Täler von Andorra"/>
     <tag k="alt_name:el" v="Ανδόρα"/>
     <tag k="alt_name:en" v="Principality of the Valleys of Andorra"/>
     <tag k="alt_name:gd" v="Prionnsalachd Glinntean Andorra"/>
+    <tag k="alt_name:hi" v="प्रिंसिपालिटी ऑफ़ वैली ऑफ़ अंडोरा"/>
     <tag k="alt_name:hu" v="Andorrai Fejedelemség"/>
+    <tag k="alt_name:kab" v="Tageldunt n iɣzṛawen n Andorra"/>
     <tag k="alt_name:kn" v="ಅಂಡೋರ ರಾಜ್ಯ"/>
     <tag k="alt_name:mt" v="Prinċipalità tal-Widien tal-Andorra"/>
+    <tag k="alt_name:pnb" v="انڈورا"/>
+    <tag k="alt_name:ps" v="د آندورا هیواد شهزاده شاهي"/>
     <tag k="alt_name:pt" v="Principado dos Vales de Andorra"/>
     <tag k="alt_name:ro" v="Principatul Văilor Andorrei"/>
     <tag k="alt_name:su" v="Kapangéranan Lebak Andorra"/>
@@ -44,12 +49,16 @@
     <tag k="name:ang" v="Andorra"/>
     <tag k="name:ar" v="أندورا"/>
     <tag k="name:arc" v="ܐܢܕܘܪܐ"/>
+    <tag k="name:ary" v="أندورا"/>
     <tag k="name:arz" v="اندورا"/>
     <tag k="name:ast" v="Andorra"/>
     <tag k="name:av" v="Андо́рра"/>
+    <tag k="name:avk" v="Andorra"/>
+    <tag k="name:awa" v="अंडोरा"/>
     <tag k="name:az" v="Andorra"/>
     <tag k="name:azb" v="آندورا"/>
     <tag k="name:ba" v="Андо́рра"/>
+    <tag k="name:ban" v="Andorra"/>
     <tag k="name:bar" v="Andorra"/>
     <tag k="name:bat-smg" v="Anduora"/>
     <tag k="name:bcl" v="Andora"/>
@@ -70,6 +79,7 @@
     <tag k="name:cdo" v="Ăng-dô̤-ī"/>
     <tag k="name:ce" v="Андо́рра"/>
     <tag k="name:ceb" v="Andorra"/>
+    <tag k="name:ch" v="Andorra"/>
     <tag k="name:chr" v="ᎠᏂᏙᎳ"/>
     <tag k="name:ckb" v="ئەندۆرا"/>
     <tag k="name:co" v="Andorra"/>
@@ -107,6 +117,7 @@
     <tag k="name:fy" v="Andorra"/>
     <tag k="name:ga" v="Andóra"/>
     <tag k="name:gag" v="Andorra"/>
+    <tag k="name:gcr" v="Andòr"/>
     <tag k="name:gd" v="Andorra"/>
     <tag k="name:gl" v="Andorra"/>
     <tag k="name:gn" v="Andorra"/>
@@ -134,6 +145,7 @@
     <tag k="name:io" v="Andora"/>
     <tag k="name:is" v="Andorra"/>
     <tag k="name:it" v="Andorra"/>
+    <tag k="name:iu" v="ᐊᓐᑑᕐᕋ"/>
     <tag k="name:ja" v="アンドラ"/>
     <tag k="name:jam" v="Anduora"/>
     <tag k="name:jbo" v="andoras"/>
@@ -142,6 +154,7 @@
     <tag k="name:kaa" v="Andorra"/>
     <tag k="name:kab" v="Andorra"/>
     <tag k="name:kbd" v="Андоррэ"/>
+    <tag k="name:kbp" v="Andorɩ"/>
     <tag k="name:kg" v="Andora"/>
     <tag k="name:ki" v="Andora"/>
     <tag k="name:kk" v="Андорра"/>
@@ -161,9 +174,11 @@
     <tag k="name:lad" v="Andorra"/>
     <tag k="name:lb" v="Andorra"/>
     <tag k="name:lez" v="Андорра"/>
+    <tag k="name:lfn" v="Andora"/>
     <tag k="name:lg" v="Andora"/>
     <tag k="name:li" v="Andorra"/>
     <tag k="name:lij" v="Andora"/>
+    <tag k="name:lld" v="Andora"/>
     <tag k="name:lmo" v="Andora"/>
     <tag k="name:ln" v="Andora"/>
     <tag k="name:lo" v="ອັງດອກ"/>
@@ -173,6 +188,7 @@
     <tag k="name:lv" v="Andora"/>
     <tag k="name:lzh" v="安道爾"/>
     <tag k="name:mai" v="अंडोरा"/>
+    <tag k="name:map-bms" v="Andorra"/>
     <tag k="name:mdf" v="Андора"/>
     <tag k="name:mg" v="Andora"/>
     <tag k="name:mhr" v="Андорро"/>
@@ -196,11 +212,13 @@
     <tag k="name:nds" v="Andorra"/>
     <tag k="name:nds-nl" v="Andorra"/>
     <tag k="name:ne" v="एण्डोरा"/>
+    <tag k="name:new" v="एण्डोरा"/>
     <tag k="name:nl" v="Andorra"/>
     <tag k="name:nn" v="Andorra"/>
     <tag k="name:no" v="Andorra"/>
     <tag k="name:nov" v="Andora"/>
     <tag k="name:nrm" v="Aundorre"/>
+    <tag k="name:nso" v="Andorra"/>
     <tag k="name:nv" v="Andówa"/>
     <tag k="name:oc" v="Andòrra"/>
     <tag k="name:olo" v="Andorra"/>
@@ -240,6 +258,7 @@
     <tag k="name:se" v="Andorra"/>
     <tag k="name:sg" v="Andôro"/>
     <tag k="name:sh" v="Andora"/>
+    <tag k="name:shn" v="မိူင်းဢႅၼ်ႇတူဝ်ႇရႃႇ"/>
     <tag k="name:si" v="ඇන්ඩෝරා"/>
     <tag k="name:sk" v="Andorra"/>
     <tag k="name:sl" v="Andora"/>
@@ -257,6 +276,7 @@
     <tag k="name:sv" v="Andorra"/>
     <tag k="name:sw" v="Andorra"/>
     <tag k="name:szl" v="Andora"/>
+    <tag k="name:szy" v="Andorra"/>
     <tag k="name:ta" v="அண்டோரா"/>
     <tag k="name:te" v="అండొర్రా"/>
     <tag k="name:tet" v="Andorra"/>
@@ -292,6 +312,7 @@
     <tag k="name:yi" v="אַנדאָרע"/>
     <tag k="name:yo" v="Àndórà"/>
     <tag k="name:yue" v="安道爾"/>
+    <tag k="name:za" v="Andorra"/>
     <tag k="name:zea" v="Andorra"/>
     <tag k="name:zh" v="安道爾"/>
     <tag k="name:zh_pinyin" v="Āndàoěr"/>
@@ -303,8 +324,10 @@
     <tag k="official_name:an" v="Prencipato d'Andorra"/>
     <tag k="official_name:ar" v="إمارة أندورا"/>
     <tag k="official_name:arc" v="ܪܝܫܢܘܬܐ ܕܐܢܕܘܪܐ"/>
+    <tag k="official_name:ary" v="مديرية أندورا"/>
     <tag k="official_name:arz" v="إمارة أندورا"/>
     <tag k="official_name:ast" v="Principat d'Andorra"/>
+    <tag k="official_name:awa" v="प्रिंसिपालिटी ऑफ़ अंडोरा"/>
     <tag k="official_name:az" v="Andorra Knyazlığı"/>
     <tag k="official_name:azb" v="آندورا پیرنس‌لیگی"/>
     <tag k="official_name:ba" v="Андорра Кенәзлеге"/>
@@ -319,7 +342,9 @@
     <tag k="official_name:bs" v="Kneževina Andora"/>
     <tag k="official_name:bxr" v="Андоррын Гүнтэ Улас"/>
     <tag k="official_name:ca" v="Principat d'Andorra"/>
+    <tag k="official_name:cdo" v="Andorra Gŭng-guók"/>
     <tag k="official_name:ce" v="Манархи Андорра"/>
+    <tag k="official_name:chr" v="ᏄᎬᏫᏳᏒᎢ ᎾᎿ ᎠᏂᏙᎳ"/>
     <tag k="official_name:ckb" v="میرنشینی ئاندۆرا"/>
     <tag k="official_name:co" v="Principatu d'Andorra"/>
     <tag k="official_name:crh" v="Andorra Prinsligi"/>
@@ -347,13 +372,16 @@
     <tag k="official_name:frr" v="Föörstendoom faan Andora"/>
     <tag k="official_name:fur" v="Principât di Andorra"/>
     <tag k="official_name:ga" v="Phrionsacht Andóra"/>
+    <tag k="official_name:gcr" v="Prensipoté d'Andorre"/>
     <tag k="official_name:gd" v="Prionnsalachd Andorra"/>
     <tag k="official_name:gl" v="Principado de Andorra"/>
     <tag k="official_name:gn" v="Tetã Andorra"/>
     <tag k="official_name:got" v="𐍀𐍂𐌹𐌽𐍃𐌹𐍀𐌰𐍄 𐌳 𐌰𐌽𐌳𐍉𐍂𐍂𐌰𐌰"/>
     <tag k="official_name:gu" v="પ્રિન્સિપાલિટી ઓફ એન્ડોરા"/>
     <tag k="official_name:gv" v="Prinsaght Andorra"/>
+    <tag k="official_name:hak" v="Andorra Kûng-koet"/>
     <tag k="official_name:he" v="נְסִיכוּת אַנְדּוֹרָה"/>
+    <tag k="official_name:hi" v="प्रिंसिपालिटी ऑफ़ अंडोरा"/>
     <tag k="official_name:hr" v="Kneževina Andora"/>
     <tag k="official_name:hsb" v="Wjerchowstwo Andorra"/>
     <tag k="official_name:hu" v="Andorrai Hercegség"/>
@@ -366,6 +394,7 @@
     <tag k="official_name:ja" v="アンドラ公国"/>
     <tag k="official_name:jam" v="Prinspaliti a Anduora"/>
     <tag k="official_name:ka" v="ანდორის სამთავრო"/>
+    <tag k="official_name:kab" v="Tagelunt n Andorra"/>
     <tag k="official_name:kk" v="Андорра княздігі"/>
     <tag k="official_name:km" v="ក្សត្រប្រទេសអង់ដូរ៉ា"/>
     <tag k="official_name:kn" v="ಪ್ರಿನ್ಸಿಪಾಟ್ ದ್'ಅಂಡೋರ"/>
@@ -376,14 +405,17 @@
     <tag k="official_name:ku" v="Mîritiya Andorrayê"/>
     <tag k="official_name:kv" v="Андорра ӧксыув"/>
     <tag k="official_name:kw" v="Prynseth Andorra"/>
+    <tag k="official_name:ky" v="Андорра Княздыгы"/>
     <tag k="official_name:la" v="Principatus Andorrae"/>
     <tag k="official_name:lad" v="Prinsipado de Andorra"/>
     <tag k="official_name:lb" v="Fürstentum Andorra"/>
+    <tag k="official_name:lfn" v="Prinsia de Andora"/>
     <tag k="official_name:li" v="Prinsdom Andorra"/>
     <tag k="official_name:lij" v="Prinçipato de Andora"/>
     <tag k="official_name:lmo" v="Principaa d'Andora"/>
     <tag k="official_name:ln" v="Mani ya Andora"/>
     <tag k="official_name:lo" v="ລາຊະລັດອັງດອກ"/>
+    <tag k="official_name:lrc" v="ڤلات آندورا"/>
     <tag k="official_name:lt" v="Andoros Kunigaikštystė"/>
     <tag k="official_name:lv" v="Andoras Firstiste"/>
     <tag k="official_name:lzh" v="安道爾親王國"/>
@@ -394,15 +426,18 @@
     <tag k="official_name:mr" v="आंदोराचे राज्य"/>
     <tag k="official_name:ms" v="Prinsipaliti Andorra"/>
     <tag k="official_name:mt" v="Prinċipalità tal-Andorra"/>
+    <tag k="official_name:mwl" v="prencipado de Andorra"/>
     <tag k="official_name:my" v="အင်ဒိုရာတောင်ကြားမင်းသားနိုင်ငံ"/>
     <tag k="official_name:myv" v="Андорра Мастор"/>
     <tag k="official_name:nan" v="Andorra Kong-kok"/>
     <tag k="official_name:nap" v="Principato 'e Andorra"/>
     <tag k="official_name:nds" v="Fürstendom Andorra"/>
     <tag k="official_name:nds-nl" v="Vorstendom Andorra"/>
+    <tag k="official_name:new" v="एण्डोराया प्रिन्सिप्यालिटी"/>
     <tag k="official_name:nl" v="Vorstendom Andorra"/>
     <tag k="official_name:nn" v="Fyrstedømet Andorra"/>
     <tag k="official_name:no" v="Fyrstedømmet Andorra"/>
+    <tag k="official_name:nov" v="el Consell de les Valls d'Andorra"/>
     <tag k="official_name:oc" v="Principat d'Andòrra"/>
     <tag k="official_name:olo" v="Andorran Ruhtinaskundu"/>
     <tag k="official_name:pa" v="ਅੰਡੋਰਾ ਦੀ ਰਿਆਸਤ"/>
@@ -411,6 +446,7 @@
     <tag k="official_name:pl" v="Księstwo Andory"/>
     <tag k="official_name:pms" v="Prinsipà d'Andorra"/>
     <tag k="official_name:pnt" v="Πριγκηπάτο τη Ανδόρρας"/>
+    <tag k="official_name:ps" v="حاکم آندورا شهزاده"/>
     <tag k="official_name:pt" v="Principado de Andorra"/>
     <tag k="official_name:qu" v="Andurra Awki Suyu"/>
     <tag k="official_name:rm" v="Principadi da l’Andorra"/>
@@ -422,11 +458,14 @@
     <tag k="official_name:sah" v="Андорра Кинээhилигэ"/>
     <tag k="official_name:scn" v="Principatu di Andorra"/>
     <tag k="official_name:sco" v="Preencipality o Andorrae"/>
+    <tag k="official_name:sd" v="پرنسپلٽي آف اينڊورا"/>
     <tag k="official_name:se" v="Andorra prinsipáhta"/>
     <tag k="official_name:sg" v="Limondo tî Andôro"/>
     <tag k="official_name:sh" v="Principat Andora"/>
+    <tag k="official_name:shn" v="မိူင်းၸဝ်ႈၸၢႆးၵႄႈလွႆ ဢႅၼ်ႇတူဝ်ႇရႃႇ"/>
     <tag k="official_name:sk" v="Andorrské kniežatstvo"/>
     <tag k="official_name:sl" v="Principat Andore"/>
+    <tag k="official_name:smn" v="Andorra furstâkodde"/>
     <tag k="official_name:so" v="Dowlada Andorra"/>
     <tag k="official_name:sq" v="Principata e Andorrës"/>
     <tag k="official_name:sr" v="Кнежевина Андора"/>
@@ -1679,6 +1718,7 @@
     <tag k="official_name:es" v="Estado de la Ciudad del Vaticano"/>
     <tag k="official_name:fr" v="État de la cité du Vatican"/>
     <tag k="official_name:la" v="Status Civitatis Vaticanæ"/>
+    <tag k="official_name:pt" v="Estado da Cidade do Vaticano"/>
     <tag k="place" v="country"/>
     <tag k="population" v="836"/>
     <tag k="ref:whc" v="286"/>
@@ -3648,6 +3688,7 @@
     <tag k="official_name:mi" v="Tūwehe Whakaminenga o Tiamana"/>
     <tag k="official_name:pl" v="Republika Federalna Niemiec"/>
     <tag k="official_name:ps" v="المان فدرالي جمهوریت"/>
+    <tag k="official_name:pt" v="República Federal da Alemanha"/>
     <tag k="official_name:ru" v="Федеративная Республика Германия"/>
     <tag k="official_name:ur" v="وفاقی جمہوریہ جرمنی"/>
     <tag k="short_name:ru" v="ФРГ"/>
@@ -5119,6 +5160,9 @@
     <tag k="admin_level" v="2"/>
     <tag k="alt_name:ab" v="Албаниа"/>
     <tag k="alt_name:eo" v="Albanujo"/>
+    <tag k="alt_name:gag" v="Arnautluk"/>
+    <tag k="alt_name:ha" v="Albania"/>
+    <tag k="alt_name:lfn" v="Albania"/>
     <tag k="alt_name:qu" v="Shkipirya"/>
     <tag k="alt_name:rmy" v="Albaniya"/>
     <tag k="alt_name:roa-rup" v="Arbinișia"/>
@@ -5142,13 +5186,18 @@
     <tag k="name:ang" v="Albania"/>
     <tag k="name:ar" v="ألبانيا"/>
     <tag k="name:arc" v="ܐܠܒܢܝܐ"/>
+    <tag k="name:ary" v="ألبانيا"/>
     <tag k="name:arz" v="البانيا"/>
     <tag k="name:as" v="আলবেনিয়া"/>
     <tag k="name:ast" v="Albania"/>
     <tag k="name:av" v="Алба́ния"/>
+    <tag k="name:avk" v="Skiperia"/>
+    <tag k="name:awa" v="अल्बानिया"/>
+    <tag k="name:ay" v="Alwaña"/>
     <tag k="name:az" v="Albaniya"/>
     <tag k="name:azb" v="آلبانی"/>
     <tag k="name:ba" v="Алба́ния"/>
+    <tag k="name:ban" v="Albania"/>
     <tag k="name:bar" v="Oibanien"/>
     <tag k="name:bat-smg" v="Albanėjė"/>
     <tag k="name:bcl" v="Albanya"/>
@@ -5169,6 +5218,7 @@
     <tag k="name:cdo" v="Albania"/>
     <tag k="name:ce" v="Алба́ни"/>
     <tag k="name:ceb" v="Albanya"/>
+    <tag k="name:ch" v="Albania"/>
     <tag k="name:chr" v="ᎠᎸᏇᏂᏯ"/>
     <tag k="name:ckb" v="ئالبانیا"/>
     <tag k="name:co" v="Albania"/>
@@ -5206,6 +5256,7 @@
     <tag k="name:fy" v="Albaanje"/>
     <tag k="name:ga" v="An Albáin"/>
     <tag k="name:gag" v="Albaniya"/>
+    <tag k="name:gcr" v="Albani"/>
     <tag k="name:gd" v="Albàinia"/>
     <tag k="name:gl" v="Albania"/>
     <tag k="name:gn" v="Avaña"/>
@@ -5224,6 +5275,7 @@
     <tag k="name:ht" v="Albani"/>
     <tag k="name:hu" v="Albánia"/>
     <tag k="name:hy" v="Ալբանիա"/>
+    <tag k="name:hyw" v="Ալպանիան"/>
     <tag k="name:ia" v="Albania"/>
     <tag k="name:id" v="Albania"/>
     <tag k="name:ie" v="Albania"/>
@@ -5232,6 +5284,7 @@
     <tag k="name:io" v="Albania"/>
     <tag k="name:is" v="Albanía"/>
     <tag k="name:it" v="Albania"/>
+    <tag k="name:iu" v="ᐊᓪᐹᓂᐊ"/>
     <tag k="name:ja" v="アルバニア"/>
     <tag k="name:jam" v="Albienia"/>
     <tag k="name:jbo" v="ckipyris"/>
@@ -5258,9 +5311,11 @@
     <tag k="name:la" v="Albania"/>
     <tag k="name:lad" v="אלבאניה"/>
     <tag k="name:lb" v="Albanien"/>
+    <tag k="name:lfn" v="Xciperia"/>
     <tag k="name:lg" v="Alibaniya"/>
     <tag k="name:li" v="Albanië"/>
     <tag k="name:lij" v="Albania"/>
+    <tag k="name:lld" v="Albania"/>
     <tag k="name:lmo" v="Albania"/>
     <tag k="name:ln" v="Albania"/>
     <tag k="name:lo" v="ແອລເບເນຍ"/>
@@ -5270,6 +5325,7 @@
     <tag k="name:lv" v="Albānija"/>
     <tag k="name:lzh" v="阿爾巴尼亞"/>
     <tag k="name:mai" v="अल्बानिया"/>
+    <tag k="name:map-bms" v="albania"/>
     <tag k="name:mdf" v="Албания"/>
     <tag k="name:mg" v="Albania"/>
     <tag k="name:mhr" v="Албаний"/>
@@ -5298,6 +5354,7 @@
     <tag k="name:nn" v="Albania"/>
     <tag k="name:no" v="Albania"/>
     <tag k="name:nov" v="Albania"/>
+    <tag k="name:nso" v="Albania"/>
     <tag k="name:nv" v="Dziłigaii Bikéyah"/>
     <tag k="name:oc" v="Albania"/>
     <tag k="name:olo" v="Albuanii"/>
@@ -5330,15 +5387,19 @@
     <tag k="name:rw" v="Alubaniya"/>
     <tag k="name:sa" v="अल्बेनिया"/>
     <tag k="name:sah" v="Албания"/>
+    <tag k="name:sat" v="ᱟᱞᱵᱮᱱᱤᱭᱟ"/>
     <tag k="name:sc" v="Albania"/>
     <tag k="name:scn" v="Albanìa"/>
     <tag k="name:sco" v="Albanie"/>
+    <tag k="name:sd" v="البانيا"/>
     <tag k="name:se" v="Albánia"/>
     <tag k="name:sg" v="Albanïi"/>
     <tag k="name:sh" v="Albanija"/>
+    <tag k="name:shn" v="မိူင်းဢႃႇပႃးၼီးယႃး"/>
     <tag k="name:si" v="ඇල්බේනියාව"/>
     <tag k="name:sk" v="Albánsko"/>
     <tag k="name:sl" v="Albanija"/>
+    <tag k="name:sm" v="Albania"/>
     <tag k="name:smn" v="Albania"/>
     <tag k="name:sms" v="Albania"/>
     <tag k="name:sn" v="Albania"/>
@@ -5353,6 +5414,7 @@
     <tag k="name:sv" v="Albanien"/>
     <tag k="name:sw" v="Albania"/>
     <tag k="name:szl" v="Albańijo"/>
+    <tag k="name:szy" v="Albania"/>
     <tag k="name:ta" v="அல்பேனியா"/>
     <tag k="name:te" v="అల్బేనియా"/>
     <tag k="name:tet" v="Albánia"/>
@@ -5381,6 +5443,7 @@
     <tag k="name:vi" v="Albania"/>
     <tag k="name:vls" v="Albanië"/>
     <tag k="name:vo" v="Lalbanän"/>
+    <tag k="name:wa" v="Albaneye"/>
     <tag k="name:war" v="Albanya"/>
     <tag k="name:wo" v="Albaani"/>
     <tag k="name:wuu" v="阿尔巴尼亚"/>
@@ -5389,6 +5452,7 @@
     <tag k="name:yi" v="אלבאניע"/>
     <tag k="name:yo" v="Albáníà"/>
     <tag k="name:yue" v="阿爾巴尼亞"/>
+    <tag k="name:za" v="Albania"/>
     <tag k="name:zea" v="Albanië"/>
     <tag k="name:zh" v="阿爾巴尼亞"/>
     <tag k="name:zh_pinyin" v="Āěrbāníyà"/>
@@ -5403,18 +5467,25 @@
     <tag k="official_name:ang" v="Albania Cynewise"/>
     <tag k="official_name:ar" v="جمهورية ألبانيا"/>
     <tag k="official_name:arc" v="ܩܘܛܢܝܘܬܐ ܕܐܠܒܢܝܐ"/>
+    <tag k="official_name:ary" v="جمهورية ألبانيا"/>
+    <tag k="official_name:as" v="আলবেনিয়া গণৰাজ্য"/>
     <tag k="official_name:av" v="Респу́блика Алба́ния"/>
+    <tag k="official_name:awa" v="अल्बानिया गणराज्य"/>
+    <tag k="official_name:ay" v="Alwaña Ripublika"/>
     <tag k="official_name:az" v="Albaniya Respublikası"/>
+    <tag k="official_name:azb" v="آلبانی جومهوریتی"/>
     <tag k="official_name:ba" v="Албания Республикаһы"/>
     <tag k="official_name:bat-smg" v="Albanėjės Respoblėka"/>
     <tag k="official_name:bcl" v="Republika kan Albanya"/>
     <tag k="official_name:be" v="Рэспу́бліка Алба́нія"/>
     <tag k="official_name:be-tarask" v="Рэспубліка Альбанія"/>
     <tag k="official_name:bg" v="Република Албания"/>
+    <tag k="official_name:bh" v="अल्बानिया गनराज्य"/>
     <tag k="official_name:bn" v="প্রজাতন্ত্রী আলবেনিয়া"/>
     <tag k="official_name:bpy" v="প্রজাতন্ত্রি আলবেনিয়া"/>
     <tag k="official_name:br" v="Republik Albania"/>
     <tag k="official_name:bs" v="Republika Albanija"/>
+    <tag k="official_name:cdo" v="Albania Gê̤ṳng-huò-guók"/>
     <tag k="official_name:ce" v="Албани Республика"/>
     <tag k="official_name:ceb" v="Republika sa Albanya"/>
     <tag k="official_name:chr" v="ᏍᎦᏚᎩ ᎾᎿ ᎠᎵᏇᏂᏯ"/>
@@ -5444,12 +5515,16 @@
     <tag k="official_name:fo" v="Lýðveldið Albania"/>
     <tag k="official_name:fr" v="République d'Albanie"/>
     <tag k="official_name:frr" v="Republiik faan Albaanien"/>
+    <tag k="official_name:fy" v="Republyk Albaanje"/>
     <tag k="official_name:ga" v="Poblacht na hAlbáine"/>
+    <tag k="official_name:gcr" v="Répiblik di Albani"/>
     <tag k="official_name:gd" v="Poblachd Albàinia"/>
     <tag k="official_name:gl" v="República de Albania"/>
     <tag k="official_name:gn" v="Tetã Avaña"/>
     <tag k="official_name:gu" v="આલ્બેનિયા ગણરાજ્ય"/>
     <tag k="official_name:gv" v="Pobblaght ny h-Albaan"/>
+    <tag k="official_name:ha" v="Jamhuriyar Albaniya"/>
+    <tag k="official_name:hak" v="Albania Khiung-fò-koet"/>
     <tag k="official_name:haw" v="Lepupalika o ʻAlepania"/>
     <tag k="official_name:he" v="רֶפּוּבְּלִיקַת אַלְבַּנְיָה"/>
     <tag k="official_name:hi" v="अल्बानिया गणराज्य"/>
@@ -5457,6 +5532,7 @@
     <tag k="official_name:hsb" v="Albanska republika"/>
     <tag k="official_name:hu" v="Albán Köztársaság"/>
     <tag k="official_name:hy" v="Ալբանիայի Հանրապետություն"/>
+    <tag k="official_name:hyw" v="Ալպանիայի Հանրապետութիւն"/>
     <tag k="official_name:ia" v="Republica de Albania"/>
     <tag k="official_name:id" v="Republik Albania"/>
     <tag k="official_name:ig" v="Republic nke Albania"/>
@@ -5465,6 +5541,7 @@
     <tag k="official_name:it" v="Repubblica d'Albania"/>
     <tag k="official_name:ja" v="アルバニア共和国"/>
     <tag k="official_name:jam" v="Ripoblik a Albienia"/>
+    <tag k="official_name:jv" v="Républik Albani"/>
     <tag k="official_name:ka" v="ალბანეთის რესპუბლიკა"/>
     <tag k="official_name:kbd" v="Алба́ниэ Респу́бликэ"/>
     <tag k="official_name:kg" v="Repubilika ya Albania"/>
@@ -5481,10 +5558,15 @@
     <tag k="official_name:ky" v="Албан Республикасы"/>
     <tag k="official_name:lad" v="Republika de Albania"/>
     <tag k="official_name:lb" v="Republik Albanien"/>
+    <tag k="official_name:lfn" v="Republica de Xciperia"/>
+    <tag k="official_name:li" v="Rippebliek Albanië"/>
+    <tag k="official_name:lij" v="Repubbrica de Albania"/>
+    <tag k="official_name:lld" v="Republica dl'Albania"/>
     <tag k="official_name:lmo" v="Republica de Albania"/>
     <tag k="official_name:ln" v="Republíki ya Albania"/>
     <tag k="official_name:lrc" v="کوٙمأره ڤولات آلبانی"/>
     <tag k="official_name:lt" v="Albanijos Respublika"/>
+    <tag k="official_name:ltg" v="Albanejis Republika"/>
     <tag k="official_name:lv" v="Albānijas Republika"/>
     <tag k="official_name:lzh" v="阿爾巴尼亞共和國"/>
     <tag k="official_name:mai" v="अल्बानिया गणराज्य"/>
@@ -5514,6 +5596,7 @@
     <tag k="official_name:pap" v="Republika di Albania"/>
     <tag k="official_name:pcd" v="République d'Albanie"/>
     <tag k="official_name:pl" v="Republika Albanii"/>
+    <tag k="official_name:pnb" v="جمہوریہ البانیا"/>
     <tag k="official_name:pnt" v="Δημοκρατίαν τ' Αλβανίας"/>
     <tag k="official_name:ps" v="د البانيا جمهوريت"/>
     <tag k="official_name:pt" v="República da Albânia"/>
@@ -5526,15 +5609,21 @@
     <tag k="official_name:rue" v="Албаньска републіка"/>
     <tag k="official_name:rw" v="Repebulika y’Alubaniya"/>
     <tag k="official_name:sah" v="Албания Республиката"/>
+    <tag k="official_name:sat" v="ᱟᱞᱵᱮᱱᱤᱭᱟ ᱯᱨᱚᱡᱟᱛᱚᱱᱛᱨᱚ"/>
+    <tag k="official_name:sc" v="Repùblica de Albania"/>
     <tag k="official_name:sco" v="Republic o Albanie"/>
+    <tag k="official_name:sd" v="ريپبلڪ آف البانيا"/>
     <tag k="official_name:se" v="Albánia dásseváldi"/>
     <tag k="official_name:sh" v="Republika Albanija"/>
+    <tag k="official_name:shn" v="မိူင်းၸွမ်ပွင်ၸိုင်ႈ ဢႃႇပႃးၼီးယႃး"/>
     <tag k="official_name:sk" v="Albánska republika"/>
     <tag k="official_name:sl" v="Republika Albanija"/>
+    <tag k="official_name:smn" v="Albania täsiväldi"/>
     <tag k="official_name:so" v="Jamhuuriyadda Albania"/>
     <tag k="official_name:sq" v="Republika e Shqipërisë"/>
     <tag k="official_name:sr" v="Република Албанија"/>
     <tag k="official_name:srn" v="Repoliku fu Albani"/>
+    <tag k="official_name:su" v="Republik Albania"/>
     <tag k="official_name:sv" v="Republiken Albanien"/>
     <tag k="official_name:sw" v="Jamhuri ya Albania"/>
     <tag k="official_name:szl" v="Republika Albańije"/>
@@ -5556,9 +5645,11 @@
     <tag k="official_name:vep" v="Albanijan Tazovaldkund"/>
     <tag k="official_name:vi" v="Cộng hoà Albania"/>
     <tag k="official_name:vls" v="Republiek Albanië"/>
+    <tag k="official_name:wa" v="Républike d' Albaneye"/>
     <tag k="official_name:war" v="Republika han Albanya"/>
     <tag k="official_name:wo" v="Republik bu Albaani"/>
     <tag k="official_name:wuu" v="阿爾巴尼亞共和國"/>
+    <tag k="official_name:yi" v="רעפובליק פון אַלבאַניע"/>
     <tag k="official_name:yo" v="Orílẹ̀òmìnira ilẹ̀ Albáníà"/>
     <tag k="official_name:yue" v="阿爾巴尼亞共和國"/>
     <tag k="official_name:zea" v="Rippebliek Albanië"/>
@@ -15840,6 +15931,8 @@
     <tag k="ISO3166-1:alpha3" v="DZA"/>
     <tag k="ISO3166-1:numeric" v="012"/>
     <tag k="admin_level" v="2"/>
+    <tag k="alt_name:ceb" v="Arhelya"/>
+    <tag k="alt_name:csb" v="Algierskô"/>
     <tag k="alt_name:ilo" v="Demokrata ken Popular a Republika ti Arhelia"/>
     <tag k="alt_name:kab" v="Dzayer"/>
     <tag k="alt_name:qu" v="Arhilya"/>
@@ -15862,13 +15955,16 @@
     <tag k="name:ang" v="Algeria"/>
     <tag k="name:ar" v="الجزائر"/>
     <tag k="name:arc" v="ܓܙܐܐܪ"/>
+    <tag k="name:ary" v="الجزائر"/>
     <tag k="name:arz" v="الجزاير"/>
     <tag k="name:as" v="আলজেৰিয়া"/>
     <tag k="name:ast" v="Arxelia"/>
+    <tag k="name:avk" v="Jazaira"/>
     <tag k="name:ay" v="Alhirya"/>
     <tag k="name:az" v="Əlcəzair"/>
     <tag k="name:azb" v="اَلجَزاییر"/>
     <tag k="name:ba" v="Алжи́р"/>
+    <tag k="name:ban" v="Aljazair"/>
     <tag k="name:bar" v="Algerien"/>
     <tag k="name:bat-smg" v="Alžīrs"/>
     <tag k="name:bcl" v="Algerya"/>
@@ -15887,6 +15983,7 @@
     <tag k="name:bug" v="Aljazair"/>
     <tag k="name:bxr" v="Алжир"/>
     <tag k="name:ca" v="Algèria"/>
+    <tag k="name:cbk-zam" v="Argelia"/>
     <tag k="name:cdo" v="Algeria"/>
     <tag k="name:ce" v="Алжи́р"/>
     <tag k="name:ceb" v="Arhelya"/>
@@ -15894,10 +15991,12 @@
     <tag k="name:ckb" v="جەزائیر"/>
     <tag k="name:crh" v="Cezair"/>
     <tag k="name:cs" v="Alžírsko"/>
+    <tag k="name:csb" v="Algieriô"/>
     <tag k="name:cv" v="Алжир"/>
     <tag k="name:cy" v="Algeria"/>
     <tag k="name:da" v="Algeriet"/>
     <tag k="name:de" v="Algerien"/>
+    <tag k="name:din" v="Algeria"/>
     <tag k="name:diq" v="Cezayir"/>
     <tag k="name:dsb" v="Algeriska"/>
     <tag k="name:dty" v="अल्जेरिया"/>
@@ -15923,10 +16022,12 @@
     <tag k="name:fy" v="Algerije"/>
     <tag k="name:ga" v="An Ailgéir"/>
     <tag k="name:gag" v="Aljir"/>
+    <tag k="name:gcr" v="Laljéri"/>
     <tag k="name:gd" v="Aildiria"/>
     <tag k="name:gl" v="Alxeria"/>
     <tag k="name:gn" v="Ayhelia"/>
     <tag k="name:gom" v="आल्जेरिया"/>
+    <tag k="name:gor" v="Aljazair"/>
     <tag k="name:gu" v="અલ્જીરિયા"/>
     <tag k="name:gv" v="Yn Algear"/>
     <tag k="name:ha" v="Aljeriya"/>
@@ -15940,11 +16041,13 @@
     <tag k="name:ht" v="Aljeri"/>
     <tag k="name:hu" v="Algéria"/>
     <tag k="name:hy" v="Ալժիր"/>
+    <tag k="name:hyw" v="Ալճերիա"/>
     <tag k="name:ia" v="Algeria"/>
     <tag k="name:id" v="Aljazair"/>
     <tag k="name:ie" v="Algeria"/>
     <tag k="name:ig" v="Algeria"/>
     <tag k="name:ilo" v="Arhelia"/>
+    <tag k="name:inh" v="Алжир"/>
     <tag k="name:io" v="Aljeria"/>
     <tag k="name:is" v="Alsír"/>
     <tag k="name:it" v="Algeria"/>
@@ -15974,15 +16077,19 @@
     <tag k="name:lad" v="Arjelia"/>
     <tag k="name:lb" v="Algerien"/>
     <tag k="name:lez" v="Алжир"/>
+    <tag k="name:lfn" v="Jazair"/>
     <tag k="name:lg" v="Algeria"/>
     <tag k="name:li" v="Algerieë"/>
     <tag k="name:lij" v="Algerîa"/>
+    <tag k="name:lld" v="Algeria"/>
     <tag k="name:lmo" v="Algeria"/>
     <tag k="name:ln" v="Aljeria"/>
     <tag k="name:lo" v="ແອລຈິເລຍ"/>
     <tag k="name:lt" v="Alžyras"/>
     <tag k="name:lv" v="Alžīrija"/>
     <tag k="name:lzh" v="阿爾及利亞"/>
+    <tag k="name:mai" v="अल्जेरिया"/>
+    <tag k="name:map-bms" v="Aljazair"/>
     <tag k="name:mdf" v="Алжир"/>
     <tag k="name:mg" v="Aljeria"/>
     <tag k="name:mhr" v="Алжи́р"/>
@@ -15996,6 +16103,7 @@
     <tag k="name:ms" v="Algeria"/>
     <tag k="name:mt" v="Alġerija"/>
     <tag k="name:my" v="အယ်လ်ဂျီးရီးယားနိုင်ငံ"/>
+    <tag k="name:myv" v="Алжи́р"/>
     <tag k="name:mzn" v="الجزایر"/>
     <tag k="name:na" v="Ardjiriya"/>
     <tag k="name:nah" v="Argelia"/>
@@ -16018,6 +16126,7 @@
     <tag k="name:pa" v="ਅਲਜੀਰੀਆ"/>
     <tag k="name:pam" v="Algeria"/>
     <tag k="name:pap" v="Algeria"/>
+    <tag k="name:pcd" v="Algérie"/>
     <tag k="name:pdc" v="Altschieri"/>
     <tag k="name:pi" v="अल्जीरिया"/>
     <tag k="name:pih" v="Algeria"/>
@@ -16037,6 +16146,7 @@
     <tag k="name:rw" v="Aligeriya"/>
     <tag k="name:sa" v="अल्जीरिया"/>
     <tag k="name:sah" v="Алжир"/>
+    <tag k="name:sat" v="ᱟᱞᱡᱮᱹᱨᱤᱭᱟ"/>
     <tag k="name:sc" v="Algerìa"/>
     <tag k="name:scn" v="Algirìa"/>
     <tag k="name:sco" v="Algerie"/>
@@ -16044,6 +16154,7 @@
     <tag k="name:se" v="Algeria"/>
     <tag k="name:sg" v="Alazëri"/>
     <tag k="name:sh" v="Alžir"/>
+    <tag k="name:shn" v="မိူင်းဢႄးၵျီးရီးယႃး"/>
     <tag k="name:si" v="ඇල්ජීරියාව"/>
     <tag k="name:sk" v="Alžírsko"/>
     <tag k="name:sl" v="Alžirija"/>
@@ -16061,6 +16172,7 @@
     <tag k="name:sv" v="Algeriet"/>
     <tag k="name:sw" v="Algeria"/>
     <tag k="name:szl" v="Algeryjŏ"/>
+    <tag k="name:szy" v="Algeria"/>
     <tag k="name:ta" v="அல்சீரியா"/>
     <tag k="name:te" v="అల్జీరియా"/>
     <tag k="name:tg" v="Алҷазоир"/>
@@ -16109,16 +16221,19 @@
     <tag k="official_name:am" v="የአልጄሪያ ሕዝባዊ ዲሞክራሲያዊ ሪፐብሊክ"/>
     <tag k="official_name:ar" v="الجمهورية الجزائرية الديمقراطية الشعبية"/>
     <tag k="official_name:arc" v="ܩܘܛܢܝܘܬܐ ܓܙܐܐܪܝܬܐ ܕܝܡܘܩܪܛܝܬܐ ܥܡܡܝܬܐ"/>
+    <tag k="official_name:ary" v="الجمهورية الجزائرية الديموقراطية الشعبية"/>
     <tag k="official_name:arz" v="الجمهورية الجزائرية الديموقراطية الشعبية"/>
     <tag k="official_name:ast" v="República Democrática Popular d'Arxelia"/>
     <tag k="official_name:az" v="Əlcəzair Xalq Demokratik Respublikası"/>
     <tag k="official_name:ba" v="Алжир Халыҡ Демократик Республикаһы"/>
+    <tag k="official_name:ban" v="Republik Demokratik Rakyat Aljazair"/>
     <tag k="official_name:bar" v="Demokratische Volksrepublik Algerien"/>
     <tag k="official_name:bat-smg" v="Alžīra Demuokratėnė Liaudėis Respoblėka"/>
     <tag k="official_name:be" v="Алжы́рская Наро́дная Дэмакраты́чная Рэспу́бліка"/>
     <tag k="official_name:be-tarask" v="Народная Дэмакратычная Рэспубліка Альжыр"/>
     <tag k="official_name:ber" v="ⵜⴰⴳⴷⵓⴷⴰ ⵜⴰⵎⴻⴳⴷⴰⵢⵜ ⵜⴰⵖⴻⵔⴼⴰⵏⵜ ⵜⴰⵣⵣⴰⵢⵔⵉⵜ"/>
     <tag k="official_name:bg" v="Алжирска народно-демократична република"/>
+    <tag k="official_name:bh" v="पीपल्स डेमोक्रेटिक रिपब्लिक ऑफ अल्जीरिया"/>
     <tag k="official_name:bm" v="Alizeri ka Foroba Bɛjɛfanga Fasojamana"/>
     <tag k="official_name:bn" v="গণপ্রজাতন্ত্রী আলজেরিয়া"/>
     <tag k="official_name:bpy" v="গণ-গনতান্ত্রিক প্রজাতন্ত্রি আলজেরিয়া"/>
@@ -16126,6 +16241,8 @@
     <tag k="official_name:bs" v="Narodna Demokratska Republika Alžir"/>
     <tag k="official_name:bxr" v="Бүгэдэ Найрамдаха Арадшалаһан Алжир Арад Улас"/>
     <tag k="official_name:ca" v="República Democràtica Popular d'Algèria"/>
+    <tag k="official_name:cbk-zam" v="República Argelina Democrática y Popular"/>
+    <tag k="official_name:cdo" v="Algeria Ìng-mìng Mìng-ciō Gê̤ṳng-huò-guók"/>
     <tag k="official_name:ce" v="Алжир Халкъа куьйгаллийца йолу Пачхьалкх"/>
     <tag k="official_name:chr" v="ᏴᏫ ᎤᎾᏤᎵ ᏥᏈᏍᏗ ᎠᎾᏓᏅᏖᏒᎬ ᏍᎦᏚᎩ ᏀᎿ ᎠᎵᏥᎵᏯ"/>
     <tag k="official_name:ckb" v="کۆماری دیموکراتیکی گەلی جەزائیر"/>
@@ -16133,6 +16250,7 @@
     <tag k="official_name:cy" v="Gweriniaeth Ddemocrataidd Pobl Algeria"/>
     <tag k="official_name:da" v="Den Demokratiske Folkerepublik Algeriet"/>
     <tag k="official_name:de" v="Demokratische Volksrepublik Algerien"/>
+    <tag k="official_name:din" v="Paankɔc Ciɛl de Algeria"/>
     <tag k="official_name:dsb" v="Algeriska ludowa demokratiska republika"/>
     <tag k="official_name:el" v="Λαϊκή Δημοκρατία της Αλγερίας"/>
     <tag k="official_name:en" v="People's Democratic Republic of Algeria"/>
@@ -16149,11 +16267,14 @@
     <tag k="official_name:frr" v="Demokraatisk Fulksrepubliik faan Algeerien"/>
     <tag k="official_name:fy" v="Demokratyske Folksrepublyk Algerije"/>
     <tag k="official_name:ga" v="Daonphoblacht Dhaonlathach na hAilgéire"/>
+    <tag k="official_name:gcr" v="répiblik aljéryen démokratik ké popilèr"/>
     <tag k="official_name:gd" v="Sluagh-phoblachd Dheamocratach Aildiria"/>
     <tag k="official_name:gl" v="República Democrática e Popular de Alxeria"/>
     <tag k="official_name:gn" v="Tavakuairetã Ahélia Tekoha ha Jekopytyjojáva"/>
+    <tag k="official_name:gu" v="અલ્જીરિયાનું લોકતાંત્રિક ગણરાજ્ય"/>
     <tag k="official_name:gv" v="Deynphobblaght Gheynlagh ny h-Algear"/>
     <tag k="official_name:ha" v="Jamhuriyar aljeriya"/>
+    <tag k="official_name:hak" v="Algeria Ngìn-mìn Mìn-chú Khiung-fò-koet"/>
     <tag k="official_name:haw" v="Lepupalika Kemokalaka o ka Poʻe o ʻAlekelia"/>
     <tag k="official_name:he" v="הרפובליקה האלג'יראית הדמוקרטית העממית"/>
     <tag k="official_name:hi" v="अल्जीरिया का जन-लोकतंत्रीय गणराज्य"/>
@@ -16162,13 +16283,17 @@
     <tag k="official_name:hsb" v="Algeriska demokratiska a ludowa republika"/>
     <tag k="official_name:hu" v="Algériai Népi Demokratikus Köztársaság"/>
     <tag k="official_name:hy" v="Ալժիրի Ժողովրդական Ժողովրդավարական Հանրապետություն"/>
+    <tag k="official_name:hyw" v="Ալճերիոյ Ժողովրդական Ժողովրդավարական Հանրապետութիւն"/>
     <tag k="official_name:id" v="Republik Demokratik Rakyat Aljazair"/>
+    <tag k="official_name:ie" v="Republica Algerian Democratic e Popular de"/>
     <tag k="official_name:ilo" v="Demokratiko a Republika ti Tattao ti Arhelia"/>
+    <tag k="official_name:inh" v="Алжи́рий Халкъан Демократи́чески Респу́блика"/>
     <tag k="official_name:io" v="Populala Demokratiala Republio di Aljeria"/>
     <tag k="official_name:is" v="Alþýðulýðveldið Alsír"/>
     <tag k="official_name:it" v="Repubblica Algerina Democratica e Popolare"/>
     <tag k="official_name:ja" v="アルジェリア民主人民共和国"/>
     <tag k="official_name:jam" v="Piipl Dimokratik Ripoblik a hAljiiria"/>
+    <tag k="official_name:jbo" v="jerxo prenu bo roltrusi'o gubyseltru"/>
     <tag k="official_name:jv" v="Républik Démokratik Rakyat Aljazair"/>
     <tag k="official_name:ka" v="ალჟირის სახალხო დემოკრატიული რესპუბლიკა"/>
     <tag k="official_name:kab" v="Tagduda tamegdayt taɣerfant tazzayrit"/>
@@ -16179,12 +16304,15 @@
     <tag k="official_name:krc" v="Алжир Халкъ Демократ Республика"/>
     <tag k="official_name:ku" v="Komara Cezayira Demokratîk a Xelk"/>
     <tag k="official_name:ky" v="Алжир Эл Демократиялык Республикасы"/>
+    <tag k="official_name:la" v="Res Publica Popularis Democratica Algerii"/>
     <tag k="official_name:lad" v="Repuvlika Popular i Demokratika de Arjelia"/>
     <tag k="official_name:lb" v="Demokratesch Volleksrepublik Algerien"/>
     <tag k="official_name:lez" v="Алжирдин Халкьдин Демократиядин Республика"/>
+    <tag k="official_name:lfn" v="Republica de Jazair Democratal e Popular"/>
     <tag k="official_name:lt" v="Alžyro Liaudies Demokratinė Respublika"/>
     <tag k="official_name:lv" v="Alžīrijas Tautas Demokrātiskā Republika"/>
     <tag k="official_name:lzh" v="阿爾及利亞民主人民共和國"/>
+    <tag k="official_name:mai" v="अल्जेरिया कऽ जन-लोकतन्त्रीय गणराज्य"/>
     <tag k="official_name:mg" v="Repoblika Aljeriana demôkratika sy entim-bahoaka"/>
     <tag k="official_name:mhr" v="Алжи́р Ка‘лык Демокра́тий Респу́блик"/>
     <tag k="official_name:mk" v="Народна Демократска Република Алжир"/>
@@ -16194,9 +16322,11 @@
     <tag k="official_name:ms" v="Republik Demokratik Rakyat Algeria"/>
     <tag k="official_name:mt" v="Repubblika Demokratika Popolari tal-Alġerija"/>
     <tag k="official_name:my" v="အယ်လ်ဂျီးရီးယား ဒီမိုကရက်တစ် ပြည်သူ့သမ္မတ နိုင်ငံ"/>
+    <tag k="official_name:myv" v="Алжиронь Раськень Демократиянь Республикась"/>
     <tag k="official_name:mzn" v="الجمهورية الجزائرية الديمقراطية الشّعبية"/>
     <tag k="official_name:nah" v="Argeliatlācatlahtohcāyōtl Tlācatēpacholiztli īhuān Āltepēhuahcāyōtl"/>
     <tag k="official_name:nan" v="Algeria Jîn-bîn Bîn-chú Kiōng-hô-kok"/>
+    <tag k="official_name:nds" v="Demokraatsche Volksrepublik Algerien"/>
     <tag k="official_name:ne" v="जनवादी प्रजातान्त्रिक गणतन्त्र अल्जेरिया"/>
     <tag k="official_name:new" v="प्रजातान्त्रिक व लोकंह्वागु गणतन्त्र अल्जेरिया"/>
     <tag k="official_name:nl" v="Democratische Volksrepubliek Algerije"/>
@@ -16210,6 +16340,7 @@
     <tag k="official_name:os" v="Алжиры Адæмон Демократион Республикæ"/>
     <tag k="official_name:pa" v="ਅਲਜੀਰੀਆ ਦਾ ਜਨ-ਲੋਕਤੰਤਰੀ ਗਣਰਾਜ"/>
     <tag k="official_name:pam" v="Ing Pangmaldang Democraticung Republica ning Algeria"/>
+    <tag k="official_name:pcd" v="Républike algérienne démocratike pi populoère"/>
     <tag k="official_name:pl" v="Algierska Republika Ludowo-Demokratyczna"/>
     <tag k="official_name:pnb" v="الجمهورية الجزائرية الديمقراطية الشعبية"/>
     <tag k="official_name:ps" v="الجزاير د خلکو ډيموکراټيک جمهوريت"/>
@@ -16223,11 +16354,17 @@
     <tag k="official_name:sah" v="Алжир Дьон Демократ Республиката"/>
     <tag k="official_name:sc" v="Repùbrica Populare Democràtiga Jasira"/>
     <tag k="official_name:sco" v="Fowkdemocratic Republic o Algerie"/>
+    <tag k="official_name:sd" v="پيپلز ڊيموڪريٽڪ ريپبلڪ آف الجيريا"/>
+    <tag k="official_name:se" v="Algeria demokráhtalaš álbmotdásseváldi"/>
     <tag k="official_name:sg" v="Alazëri Ködörösêse"/>
     <tag k="official_name:sh" v="Narodna Demokratska Republika Alžir"/>
+    <tag k="official_name:shn" v="မိူင်းၸွမ်ပွင်ၸိုင်ႈ ၵူၼ်းမိူင်း တီႇမူဝ်ႇၵရႅတ်ႉတိတ်ႉ ဢႄးၵျီးရီးယႃး"/>
+    <tag k="official_name:si" v="ඇල්ජිරියා ප්‍රජාතන්ත්‍රවාදි මහජන සමූහාණ්ඩුව"/>
     <tag k="official_name:sk" v="Alžírska demokratická a ľudová republika"/>
     <tag k="official_name:sl" v="Ljudska demokratična republika Alžirija"/>
     <tag k="official_name:sm" v="Sha’bīyah République Algérienne Démocratique et Populaire"/>
+    <tag k="official_name:smn" v="Algeria demokraatlâš aalmugtäsiväldi"/>
+    <tag k="official_name:so" v="Jamhuuriyadda Dadweynaha ee Aljeeriya"/>
     <tag k="official_name:sr" v="Народна Демократска Република Алжир"/>
     <tag k="official_name:stq" v="Demokratiske Foulksrepublik Algerien"/>
     <tag k="official_name:su" v="Républik Démokratik Rahayat Aljazair"/>
@@ -16243,6 +16380,7 @@
     <tag k="official_name:tr" v="Cezayir Demokratik Halk Cumhuriyeti"/>
     <tag k="official_name:tt" v="Әлҗәзаи́р Халы́к Демократи́к Җөмһүрия́те"/>
     <tag k="official_name:udm" v="Алжир Калык Демократи Республика"/>
+    <tag k="official_name:ug" v="ئالجىرىيە دىموكراتىك خەلق جۇمھۇرىيىتى"/>
     <tag k="official_name:uk" v="Алжи́рська Наро́дна Демократи́чна Респу́бліка"/>
     <tag k="official_name:ur" v="عوامی جمہوری جمہوریہ الجزائر"/>
     <tag k="official_name:uz" v="Jazoir Demokratik va Xalq Respublikasi"/>
@@ -16262,6 +16400,8 @@
     <tag k="reg_name:ar" v="الدزاير;الجازاير;لدزاير"/>
     <tag k="short_name:br" v="R.A.D.P."/>
     <tag k="short_name:fr" v="RADP"/>
+    <tag k="short_name:inh" v="АХДР"/>
+    <tag k="short_name:myv" v="АРДР"/>
     <tag k="short_name:ru" v="АНДР"/>
     <tag k="timezone" v="Africa/Algiers"/>
     <tag k="type" v="boundary"/>
@@ -22063,7 +22203,6 @@
     <tag k="alt_name:eo" v="Somalujo"/>
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/a/a0/Flag_of_Somalia.svg"/>
-    <tag k="is_in:continent" v="Africa"/>
     <tag k="name" v="Soomaaliya الصومال"/>
     <tag k="name:ace" v="Somalia"/>
     <tag k="name:af" v="Somalië"/>
@@ -22720,7 +22859,6 @@
     <tag k="admin_level" v="2"/>
     <tag k="boundary" v="administrative"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/3/34/Flag_of_Djibouti.svg"/>
-    <tag k="is_in:continent" v="Africa"/>
     <tag k="name" v="Djibouti جيبوتي"/>
     <tag k="name:ace" v="Djibouti"/>
     <tag k="name:af" v="Djiboeti"/>
@@ -32859,7 +32997,6 @@
     <tag k="capital" v="Doha"/>
     <tag k="default_language" v="ar"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/6/65/Flag_of_Qatar.svg"/>
-    <tag k="is_in:continent" v="Asia"/>
     <tag k="name" v="قطر"/>
     <tag k="name:af" v="Katar"/>
     <tag k="name:am" v="ቃጣር"/>
@@ -33003,7 +33140,6 @@
     <tag k="boundary" v="administrative"/>
     <tag k="default_language" v="ar"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/a/aa/Flag_of_Kuwait.svg"/>
-    <tag k="is_in:continent" v="Asia"/>
     <tag k="name" v="الكويت"/>
     <tag k="name:ace" v="Kuwait"/>
     <tag k="name:af" v="Koeweit"/>
@@ -33885,6 +34021,7 @@
     <tag k="official_name:eo" v="Reĝlando Sauda Arabio"/>
     <tag k="official_name:es" v="Reino de Arabia Saudita"/>
     <tag k="official_name:fr" v="Royaume d’Arabie saoudite"/>
+    <tag k="official_name:pt" v="Reino da Arábia Saudita"/>
     <tag k="official_name:ru" v="Королевство Сау́довская Ара́вия"/>
     <tag k="timezone" v="Asia/Riyadh"/>
     <tag k="type" v="boundary"/>
@@ -42740,6 +42877,7 @@
     <tag k="alt_name:kab" v="Igibt"/>
     <tag k="alt_name:kg" v="Ngipiti"/>
     <tag k="alt_name:ky" v="Мисир"/>
+    <tag k="alt_name:lfn" v="Egipte"/>
     <tag k="alt_name:ln" v="Ejipiti;Misiri"/>
     <tag k="alt_name:qu" v="Misir"/>
     <tag k="alt_name:rn" v="Misiri"/>
@@ -42768,12 +42906,17 @@
     <tag k="name:ang" v="Ǣgypte"/>
     <tag k="name:ar" v="مصر"/>
     <tag k="name:arc" v="ܡܨܪܝܢ"/>
+    <tag k="name:ary" v="مصر"/>
     <tag k="name:arz" v="مصر"/>
     <tag k="name:as" v="ইজিপ্ত"/>
     <tag k="name:ast" v="Exiptu"/>
+    <tag k="name:av" v="Еги́пет"/>
+    <tag k="name:avk" v="Misra"/>
+    <tag k="name:ay" v="Iqiqtu"/>
     <tag k="name:az" v="Misir"/>
     <tag k="name:azb" v="میصر"/>
     <tag k="name:ba" v="Мысыр"/>
+    <tag k="name:ban" v="Mesir"/>
     <tag k="name:bar" v="Egyptn"/>
     <tag k="name:bat-smg" v="Egėpts"/>
     <tag k="name:bcl" v="Ehipto"/>
@@ -42792,11 +42935,14 @@
     <tag k="name:bug" v="Mesir"/>
     <tag k="name:bxr" v="Египет"/>
     <tag k="name:ca" v="Egipte"/>
+    <tag k="name:cbk-zam" v="Egipto"/>
     <tag k="name:cdo" v="Ăi-gĭk"/>
     <tag k="name:ce" v="Мисар"/>
     <tag k="name:ceb" v="Ehipto"/>
+    <tag k="name:ch" v="Ehiptu"/>
     <tag k="name:chr" v="ᎢᏥᏈᎢ"/>
     <tag k="name:chy" v="Egypt"/>
+    <tag k="name:ckb" v="میسر"/>
     <tag k="name:cop" v="ⲭⲏⲙⲓ"/>
     <tag k="name:crh" v="Mısır"/>
     <tag k="name:cs" v="Egypt"/>
@@ -42831,10 +42977,13 @@
     <tag k="name:ga" v="An Éigipt"/>
     <tag k="name:gag" v="Egipet"/>
     <tag k="name:gan" v="埃及"/>
+    <tag k="name:gcr" v="Léjip"/>
     <tag k="name:gd" v="An Èipheit"/>
     <tag k="name:gl" v="Exipto"/>
     <tag k="name:gn" v="Ehipto"/>
     <tag k="name:gom" v="ईजिप्त"/>
+    <tag k="name:gor" v="Mesir"/>
+    <tag k="name:got" v="𐌰𐌹𐌲𐍅𐍀𐍄𐌰𐌿"/>
     <tag k="name:gu" v="ઇજિપ્ત"/>
     <tag k="name:gv" v="Yn Egypt"/>
     <tag k="name:ha" v="Misra"/>
@@ -42848,11 +42997,13 @@
     <tag k="name:ht" v="Ejip"/>
     <tag k="name:hu" v="Egyiptom"/>
     <tag k="name:hy" v="Եգիպտոս"/>
+    <tag k="name:hyw" v="Եգիպտոս"/>
     <tag k="name:ia" v="Egypto"/>
     <tag k="name:id" v="Mesir"/>
     <tag k="name:ie" v="Egiptia"/>
     <tag k="name:ig" v="Egypt"/>
     <tag k="name:ilo" v="Ehípto"/>
+    <tag k="name:inh" v="Мисаре"/>
     <tag k="name:io" v="Egiptia"/>
     <tag k="name:is" v="Egyptaland"/>
     <tag k="name:it" v="Egitto"/>
@@ -42882,9 +43033,11 @@
     <tag k="name:lb" v="Egypten"/>
     <tag k="name:lbe" v="Мисри"/>
     <tag k="name:lez" v="Мисри"/>
+    <tag k="name:lfn" v="Misre"/>
     <tag k="name:lg" v="Egypt"/>
     <tag k="name:li" v="Egypte"/>
     <tag k="name:lij" v="Egitto"/>
+    <tag k="name:lld" v="Egit"/>
     <tag k="name:lmo" v="Egit"/>
     <tag k="name:ln" v="Ejipte"/>
     <tag k="name:lo" v="ອີຢິບ"/>
@@ -42892,6 +43045,7 @@
     <tag k="name:lv" v="Ēģipte"/>
     <tag k="name:lzh" v="埃及"/>
     <tag k="name:mai" v="मिस्र"/>
+    <tag k="name:map-bms" v="Mesir"/>
     <tag k="name:mdf" v="Египет"/>
     <tag k="name:mg" v="Ejipta"/>
     <tag k="name:mi" v="Īhipa"/>
@@ -42949,6 +43103,7 @@
     <tag k="name:rue" v="Еґіпет"/>
     <tag k="name:sa" v="ईजिप्तदेशः"/>
     <tag k="name:sah" v="Эгиипэт"/>
+    <tag k="name:sat" v="ᱢᱤᱥᱚᱨ"/>
     <tag k="name:sc" v="Egittu"/>
     <tag k="name:scn" v="Eggittu"/>
     <tag k="name:sco" v="Egyp"/>
@@ -42956,6 +43111,7 @@
     <tag k="name:se" v="Egypta"/>
     <tag k="name:sg" v="Kâmitâ"/>
     <tag k="name:sh" v="Egipat"/>
+    <tag k="name:shn" v="မိူင်းဢီးၵျိပ်ႈ"/>
     <tag k="name:si" v="ඊජීප්තුව"/>
     <tag k="name:sk" v="Egypt"/>
     <tag k="name:sl" v="Egipt"/>
@@ -42974,6 +43130,7 @@
     <tag k="name:sv" v="Egypten"/>
     <tag k="name:sw" v="Misri"/>
     <tag k="name:szl" v="Egipt"/>
+    <tag k="name:szy" v="Egypt"/>
     <tag k="name:ta" v="எகிப்து"/>
     <tag k="name:te" v="ఈజిప్టు"/>
     <tag k="name:tet" v="Ejitu"/>
@@ -43029,6 +43186,8 @@
     <tag k="official_name:arz" v="جمهورية مصر العربية"/>
     <tag k="official_name:as" v="মিচৰ আৰব প্রজাতন্ত্র"/>
     <tag k="official_name:ast" v="República Árabe d'Exiptu"/>
+    <tag k="official_name:av" v="Еги́петалъул ГIaра́б Жумгьурият"/>
+    <tag k="official_name:ay" v="Iqiqtu Ripublika Arabi"/>
     <tag k="official_name:az" v="Misir Ərəb Respublikası"/>
     <tag k="official_name:azb" v="میصر عرب جمهوری‌سی"/>
     <tag k="official_name:ba" v="Мысыр ғәрәп республикаһы"/>
@@ -43037,19 +43196,24 @@
     <tag k="official_name:be" v="Ара́бская Рэспу́бліка Егі́пет"/>
     <tag k="official_name:be-tarask" v="Ара́бская Рэспу́бліка Эґі́пет"/>
     <tag k="official_name:bg" v="Арабска република Египет"/>
+    <tag k="official_name:bh" v="ज़म्हूरियत मिस्र अल अरबिया"/>
     <tag k="official_name:bjn" v="Republik Arab Mesir"/>
     <tag k="official_name:bm" v="Misra ka Arabu Fasojamana"/>
     <tag k="official_name:bn" v="মিশর আরব প্রজাতন্ত্র"/>
     <tag k="official_name:bpy" v="আরব প্রজাতন্ত্রি মিশর"/>
     <tag k="official_name:br" v="Republik arab Egipt"/>
     <tag k="official_name:bs" v="Arapska Republika Egipat"/>
+    <tag k="official_name:bxr" v="Араб Бүгэдэ Найрамдаха Египет Улас"/>
     <tag k="official_name:ca" v="República Àrab d'Egipte"/>
+    <tag k="official_name:cdo" v="Ăi-gĭk Ā-lá-báik Gê̤ṳng-huò-guók"/>
     <tag k="official_name:ce" v="Ӏаьрбийн Республика Мисар"/>
+    <tag k="official_name:chr" v="ᏃᏴ ᎠᏁᎯ ᏍᎦᏚᎩ ᎾᎿ ᎢᏥᏈᎢ"/>
     <tag k="official_name:ckb" v="کۆماری میسڕی عەرەبی"/>
     <tag k="official_name:crh" v="Mısır Arap Cumhuriyeti"/>
     <tag k="official_name:cs" v="Egyptská arabská republika"/>
     <tag k="official_name:cu" v="Єгѷптьска Ара́вьска Димократі́ꙗ"/>
     <tag k="official_name:cy" v="Gweriniaeth Arabaidd yr Aifft"/>
+    <tag k="official_name:da" v="Den Arabiske Republik Egypten"/>
     <tag k="official_name:de" v="Arabische Republik Ägypten"/>
     <tag k="official_name:dsb" v="Egyptojska arabska republika"/>
     <tag k="official_name:el" v="Αραβική Δημοκρατία της Αιγύπτου"/>
@@ -43065,19 +43229,26 @@
     <tag k="official_name:fr" v="République arabe d'Égypte"/>
     <tag k="official_name:frr" v="Araabisk Republiik faan Egypten"/>
     <tag k="official_name:fur" v="Republiche Arabe dal Egjit"/>
+    <tag k="official_name:fy" v="Arabysk Republyk Egypte"/>
     <tag k="official_name:ga" v="Poblacht Arabach na hÉigipte"/>
     <tag k="official_name:gan" v="埃及阿拉伯共和國"/>
+    <tag k="official_name:gcr" v="Répiblik arab di Léjip"/>
     <tag k="official_name:gl" v="República Árabe de Exipto"/>
+    <tag k="official_name:gn" v="Ehíto Tavakuairetã Árave"/>
+    <tag k="official_name:gu" v="મિસરનું આરબ ગણરાજ્ય"/>
     <tag k="official_name:gv" v="Pobblaght Arabagh ny h-Egypt"/>
+    <tag k="official_name:hak" v="Âi-khi̍p Â-lâ-pak Khiung-fò-koet"/>
     <tag k="official_name:he" v="רפובליקת מצרים הערבית"/>
     <tag k="official_name:hi" v="मिस्र अरब गणराज्य"/>
     <tag k="official_name:hr" v="Arapska Republika Egipat"/>
     <tag k="official_name:hsb" v="Egyptowska arabska republika"/>
     <tag k="official_name:hu" v="Egyiptomi Arab Köztársaság"/>
     <tag k="official_name:hy" v="Եգիպտոսի Արաբական Հանրապետություն"/>
+    <tag k="official_name:hyw" v="Եգիպտոսի Արաբական Հանրապետութիւն"/>
     <tag k="official_name:ia" v="Republica Arabe de Egypto"/>
     <tag k="official_name:id" v="Republik Arab Mesir"/>
     <tag k="official_name:ilo" v="Arabo a Republika iti Ehipto"/>
+    <tag k="official_name:inh" v="Iарбий Респу́блика Мисаре"/>
     <tag k="official_name:is" v="Arabíska feministafélagið Egyptaland"/>
     <tag k="official_name:it" v="Repubblica araba d'Egitto"/>
     <tag k="official_name:ja" v="エジプト・アラブ共和国"/>
@@ -43099,6 +43270,7 @@
     <tag k="official_name:lad" v="Repuvlika Araba de Ayifto"/>
     <tag k="official_name:lb" v="Arabesch Republik vun Egypten"/>
     <tag k="official_name:lez" v="Ара́б Респу́блика Еги́пет"/>
+    <tag k="official_name:lfn" v="Republica Arabi de Misre"/>
     <tag k="official_name:li" v="Arabische Rippebliek Egypte"/>
     <tag k="official_name:ln" v="Rebubliki Arabe ya Ejipte"/>
     <tag k="official_name:lt" v="Egipto Arabų Respublika"/>
@@ -43114,6 +43286,7 @@
     <tag k="official_name:mt" v="Repubblika Għarbija tal-Eġittu"/>
     <tag k="official_name:my" v="အီဂျစ်အာရပ်သမ္မတနိုင်ငံ"/>
     <tag k="official_name:myv" v="Ара́бская Респу́блика Еги́пет"/>
+    <tag k="official_name:mzn" v="جمهوریة مصر العربیة"/>
     <tag k="official_name:nah" v="Arabiatlācatlahtohcāyōtl Egipto"/>
     <tag k="official_name:nan" v="Ai-ki̍p A-la-pek Kiōng-hô-kok"/>
     <tag k="official_name:nap" v="Repubbreca Araba 'e Naggitto"/>
@@ -43132,6 +43305,7 @@
     <tag k="official_name:pam" v="Arab Republica ning Ejiptu"/>
     <tag k="official_name:pcd" v="Républike arabe Édjipe"/>
     <tag k="official_name:pl" v="Arabska Republika Egiptu"/>
+    <tag k="official_name:pnb" v="جمهورية مصر العربية"/>
     <tag k="official_name:ps" v="د مصر جمهوری دولت"/>
     <tag k="official_name:pt" v="República Árabe do Egito"/>
     <tag k="official_name:qu" v="Arabya Ripuwlika Ihiptu"/>
@@ -43141,22 +43315,29 @@
     <tag k="official_name:roa-tara" v="Repubbleche Arabe d'Egitte"/>
     <tag k="official_name:ru" v="Арабская Республика Египет"/>
     <tag k="official_name:sah" v="Эгиипэт Араб Өрөспүүбүлүкэтэ"/>
+    <tag k="official_name:scn" v="ripùbbirca àrabba d'Eggittu"/>
     <tag k="official_name:sco" v="Arab Republic o Egyp"/>
     <tag k="official_name:sd" v="عرب جمھوريہ مصر"/>
     <tag k="official_name:se" v="Egyptta arábadásseváldi"/>
     <tag k="official_name:sg" v="Arâbo Ködörösêse tî Kâmitâ"/>
     <tag k="official_name:sh" v="Arapska Republika Egipat"/>
+    <tag k="official_name:shn" v="မိူင်းၸွမ်ပွင်ၸိုင်ႈဢႃႇရၢပ်ႈ ဢီးၵျိပ်ႈ"/>
+    <tag k="official_name:si" v="අරාබියේ මිස්ර් ජනරජය"/>
     <tag k="official_name:sk" v="Egyptská arabská republika"/>
     <tag k="official_name:sl" v="Arabska republika Egipt"/>
+    <tag k="official_name:smn" v="Egypti arabitäsiväldi"/>
+    <tag k="official_name:so" v="Jamhuuriyada Masar ee Carabta"/>
     <tag k="official_name:sq" v="Republika Arabe e Egjiptit"/>
     <tag k="official_name:sr" v="Арапска Република Египат"/>
     <tag k="official_name:stq" v="Arabiske Republik Ägypten"/>
     <tag k="official_name:su" v="Républik Arab Mesir"/>
     <tag k="official_name:sv" v="Arabrepubliken Egypten"/>
+    <tag k="official_name:sw" v="Jamhuri ya Kiarabu ya Misri"/>
     <tag k="official_name:szl" v="Arabsko Republika Egiptu"/>
     <tag k="official_name:ta" v="எகிப்து அரபுக் குடியரசு"/>
     <tag k="official_name:te" v="అరబ్ రిపబ్లిక్ ఆఫ్ ఈజిప్ట్"/>
     <tag k="official_name:tet" v="Repúblika Arabi Ejitu niam"/>
+    <tag k="official_name:tg" v="Мисри Араб"/>
     <tag k="official_name:th" v="สาธารณรัฐอาหรับอียิปต์"/>
     <tag k="official_name:tk" v="Müsür Arap Respublikasy"/>
     <tag k="official_name:tl" v="Republikang Arabo ng Ehipto"/>
@@ -43164,7 +43345,9 @@
     <tag k="official_name:tr" v="Mısır Arap Cumhuriyeti"/>
     <tag k="official_name:tt" v="Гарә́б Мисы́р Җөмһүрияте́"/>
     <tag k="official_name:udm" v="Египет Араб Республика"/>
+    <tag k="official_name:ug" v="مىسىر ئەرەب جۇمھۇرىيىتى"/>
     <tag k="official_name:uk" v="Ара́бська Респу́бліка Єги́пет"/>
+    <tag k="official_name:ur" v="عرب جمہوریہ مصر"/>
     <tag k="official_name:uz" v="Misr Arab Respublikasi"/>
     <tag k="official_name:vec" v="Republica Araba d'Egito"/>
     <tag k="official_name:vep" v="Egiptan Arabine Tazovaldkund"/>
@@ -48386,6 +48569,7 @@
     <tag k="official_name:it" v="Regno dei Paesi Bassi"/>
     <tag k="official_name:nds" v="Königriek vun de Nedderlannen"/>
     <tag k="official_name:nl" v="Koninkrijk der Nederlanden"/>
+    <tag k="official_name:pt" v="Reino dos Países Baixos"/>
     <tag k="old_name:cs" v="Holandsko"/>
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q29999"/>
@@ -49494,9 +49678,9 @@
     <tag k="ISO3166-1:alpha3" v="ESH"/>
     <tag k="admin_level" v="2"/>
     <tag k="boundary" v="administrative"/>
+    <tag k="capital_city" v="تفاريتي"/>
     <tag k="country_code_iso3166_1_alpha_2" v="EH"/>
     <tag k="default_language" v="ar"/>
-    <tag k="fixme" v="raw guess, has to be fixed later"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/2/26/Flag_of_the_Sahrawi_Arab_Democratic_Republic.svg"/>
     <tag k="name" v="الجمهورية العربية الصحراوية الديمقراطية"/>
     <tag k="name:ar" v="الجمهورية العربية الصحراوية الديمقراطية"/>
@@ -49510,9 +49694,13 @@
     <tag k="name:fa" v="جمهوری دموکراتیک عربی صحرا"/>
     <tag k="name:fr" v="République arabe sahraouie démocratique"/>
     <tag k="name:it" v="Repubblica Araba Democratica dei Sahrawi"/>
+    <tag k="name:kk-Arab" v="ساحارا اراب دەموكراتىييالىق رەسپۋبلىيكاسى"/>
+    <tag k="name:kmr" v="کۆمارا دەمۆکراتیکائە رەبیا ساهارا"/>
+    <tag k="name:ku-Arab" v="کۆمارا دەمۆکراتیکائە رەبیا ساهارا"/>
     <tag k="name:lt" v="Sacharos Arabų Demokratinė Respublika"/>
     <tag k="name:nl" v="Arabische Democratische Republiek Sahara"/>
     <tag k="name:ota" v="صحرا دموکراتیک عرب جومهوریتی"/>
+    <tag k="name:pa" v="ਸਹਿਰਾਵੀ ਅਰਬ ਲੋਕਤੰਤਰੀ ਗਣਰਾਜ"/>
     <tag k="name:pt" v="República Árabe Saaraui Democrática"/>
     <tag k="name:ru" v="Сахарская Арабская Демократическая Республика"/>
     <tag k="name:ur" v="صحراوی عرب عوامی جمہوریہ"/>
@@ -49906,6 +50094,12 @@
     <tag k="admin_level" v="2"/>
     <tag k="boundary" v="maritime"/>
     <tag k="name" v="Monaco (zone contiguë)"/>
+    <tag k="type" v="boundary"/>
+  </relation>
+  <relation id="11963856">
+    <tag k="admin_level" v="2"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="대한민국"/>
     <tag k="type" v="boundary"/>
   </relation>
   <way id="52947809">
