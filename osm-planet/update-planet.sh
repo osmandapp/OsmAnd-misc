@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -xe
 #This script updates planet using OSC
 PLANET_FULL_PATH=/home/osm-planet/planet-latest.o5m
 
@@ -61,7 +61,8 @@ time osmconvert -v --merge-versions osc_tmp/*.osc.gz --out-o5c > "osc_tmp/update
 echo Applying OSC...
 time osmconvert -v $PLANET_FULL_PATH osc_tmp/update.o5c --timestamp=$(echo $FIRST_DAY_TIMESTAMP) --out-o5m > "$PLANET_DIR/$PLANET_FILENAME.o5mtmp"
 if [[ $? != 0 ]] ; then
-	echo Error applying OSC... $?
+	echo Error applying OSC... 
+	exit 1
 else
 	mv -f "$PLANET_DIR/$PLANET_FILENAME.o5mtmp" "$PLANET_DIR/$PLANET_FILENAME.o5m"
 # 	echo Setting timestamp...
