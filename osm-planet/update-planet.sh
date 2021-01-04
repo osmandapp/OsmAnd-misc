@@ -8,9 +8,12 @@ PLANET_FILENAME=${PLANET_FILENAME%%.*}
 
 echo Processing $PLANET_FULL_PATH
 echo Getting planet timestamp...
-PLANET_TIMESTAMP=$(osmconvert --out-statistics $PLANET_FULL_PATH | grep "timestamp max:" | sed 's/timestamp max: //g')
-echo Planet timestamp max: $PLANET_TIMESTAMP
-PLANET_TIMESTAMP=${PLANET_TIMESTAMP:0:10}
+#PLANET_TIMESTAMP=$(osmconvert --out-statistics $PLANET_FULL_PATH | grep "timestamp max:" | sed 's/timestamp max: //g')
+#echo Planet timestamp max: $PLANET_TIMESTAMP
+#PLANET_TIMESTAMP=${PLANET_TIMESTAMP:0:10}
+#FIXME
+PLANET_TIMESTAMP="2020-11-29"
+
 FIRST_DAY_TIMESTAMP=$(date +%Y-%m)-01
 
 if [[ -d "listing_tmp" ]] ; then rm listing_tmp/* || true; fi
@@ -24,7 +27,7 @@ for (( num=0; num<=999; num++ )) ; do
 	n="$(printf "%03d" $num)"
 	lynx --dump --nolist http://planet.openstreetmap.org/replication/day/000/$n/ | grep txt | sed 's/\[TXT\]//g'| sed 's/^[ \t]*//' > listing_tmp/$n.dmp
 	if [[ $(stat --printf="%s" listing_tmp/$n.dmp) -lt 100 ]] ; then
-		rm listing_tmp/$n.dmp
+		rm listing_tmp/$n.dmp || true
 		break
 	fi
 }
@@ -32,7 +35,7 @@ done
 
 # Calculate OSC filename which corresponds with currect planet
 for file in listing_tmp/*.dmp ; do
-	PLANET_TIMESTAMP_STRING=$(grep "$PLANET_TIMESTAMP" $file -R)
+	PLANET_TIMESTAMP_STRING=$(grep "$PLANET_TIMESTAMP" $file -R) || true
 	PLANET_RDIR=$(basename $file)
 	PLANET_RDIR=${PLANET_RDIR%.dmp}
 	PLANET_TIMESTAMP_FILENAME=${PLANET_TIMESTAMP_STRING:0:3}
@@ -40,7 +43,7 @@ for file in listing_tmp/*.dmp ; do
 done
 # Calculate OSC filename which corresponds with first day of current month
 for file in listing_tmp/*.dmp ; do
-	FIRST_DAY_TIMESTAMP_STRING=$(grep "$FIRST_DAY_TIMESTAMP" $file -R)
+	FIRST_DAY_TIMESTAMP_STRING=$(grep "$FIRST_DAY_TIMESTAMP" $file -R) || true
 	FIRST_DAY_RDIR=$(basename $file)
 	FIRST_DAY_RDIR=${FIRST_DAY_RDIR%.dmp}
 	file=$(basename $file)
