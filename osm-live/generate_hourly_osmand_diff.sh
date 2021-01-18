@@ -1,8 +1,14 @@
 #!/bin/bash -xe
 RESULT_DIR="/home/osmlive/"
+OSMAND_MAP_CREATOR_PATH=OsmAndMapCreator
+
+# For local test
+#RESULT_DIR=/home/xmd5a/tmp/live_germany
+#OSMAND_MAP_CREATOR_PATH=/home/xmd5a/utilites/OsmAndMapCreator-main
+#REMOTE_SSH_STRING="ssh jenkins@builder.osmand.net"
 
 export JAVA_OPTS="-Xms512M -Xmx8014M"
-chmod +x OsmAndMapCreator/utilities.sh
+chmod +x $OSMAND_MAP_CREATOR_PATH/utilities.sh
 
 SRTM_DIR="/home/relief-data/srtm/"
 # CURRENT_SEC=$(date -u "+%s")
@@ -22,7 +28,7 @@ while true; do
   START_DATE="${START_DAY}T${START_TIME}:00Z"
   START_SEC=$(date -u --date="$START_DATE" "+%s")
   # database timestamp
-  DB_SEC=$(date -u --date="$(/home/overpass/osm3s/cgi-bin/timestamp | tail -1)" "+%s")
+  DB_SEC=$(date -u --date="$($REMOTE_SSH_STRING /home/overpass/osm3s/cgi-bin/timestamp | tail -1)" "+%s")
 
  # PERIOD_SEC=$PERIOD_2_SEC;
   PERIOD_SEC=$PERIOD_1_SEC;
@@ -71,7 +77,7 @@ while true; do
   if false; then
     # this path to speedup generation 10 times (if obf were generated before)
       
-    OsmAndMapCreator/utilities.sh generate-obf-diff \
+    $OSMAND_MAP_CREATOR_PATH/utilities.sh generate-obf-diff \
     "$FINAL_FOLDER/src/${FILENAME_DIFF}_before.obf.gz" \
     "$FINAL_FOLDER/src/${FILENAME_DIFF}_after.obf.gz" \
     $FILENAME_DIFF.diff.obf \
@@ -80,7 +86,7 @@ while true; do
     gzip -c $FILENAME_DIFF.diff.obf > $FINAL_FILE
     TZ=UTC touch -c -d "$END_DATE" $FINAL_FILE
   
-    OsmAndMapCreator/utilities.sh split-obf \
+    $OSMAND_MAP_CREATOR_PATH/utilities.sh split-obf \
     $FILENAME_DIFF.diff.obf $RESULT_DIR  \
      "$DATE_NAME" "_$TIME_NAME"
   
@@ -134,8 +140,8 @@ while true; do
 .a out geom meta;
 "
     echo # 1. Query rich diffs
-    echo -e "$QUERY_START" | /home/overpass/osm3s/bin/osm3s_query > $FILENAME_START.osm &
-    echo -e "$QUERY_END" | /home/overpass/osm3s/bin/osm3s_query  > $FILENAME_END.osm &
+    echo -e "$QUERY_START" | $REMOTE_SSH_STRING /home/overpass/osm3s/bin/osm3s_query > $FILENAME_START.osm &
+    echo -e "$QUERY_END" | $REMOTE_SSH_STRING /home/overpass/osm3s/bin/osm3s_query  > $FILENAME_END.osm &
     wait
 
     if ! grep -q "<\/osm>"  $FILENAME_START.osm; then
@@ -152,10 +158,10 @@ while true; do
     date -u
 
     echo # 2. Generate obf files & query change file
-    echo "$QUERY_DIFF" | /home/overpass/osm3s/bin/osm3s_query  > $FILENAME_CHANGE.osm  &
+    echo "$QUERY_DIFF" | $REMOTE_SSH_STRING /home/overpass/osm3s/bin/osm3s_query  > $FILENAME_CHANGE.osm  &
     # SRTM takes too much time and memory at this step (probably it could be used at the change step)
-    OsmAndMapCreator/utilities.sh generate-obf-no-address $FILENAME_START.osm --add-region-tags & # --srtm="$SRTM_DIR" &
-    OsmAndMapCreator/utilities.sh generate-obf-no-address $FILENAME_END.osm --add-region-tags & # --srtm="$SRTM_DIR" &
+    $OSMAND_MAP_CREATOR_PATH/utilities.sh generate-obf-no-address $FILENAME_START.osm --add-region-tags & # --srtm="$SRTM_DIR" &
+    $OSMAND_MAP_CREATOR_PATH/utilities.sh generate-obf-no-address $FILENAME_END.osm --add-region-tags & # --srtm="$SRTM_DIR" &
     wait
 
     TZ=UTC touch -c -d "$END_DATE" $FILENAME_CHANGE.osm
@@ -174,13 +180,13 @@ while true; do
   
   
     echo # 4. Generate diff files, split files and cleaning
-    OsmAndMapCreator/utilities.sh generate-obf-diff \
+    $OSMAND_MAP_CREATOR_PATH/utilities.sh generate-obf-diff \
     $FILENAME_START.obf $FILENAME_END.obf $FILENAME_DIFF.diff.obf $FILENAME_CHANGE.osm
 
     gzip -c $FILENAME_DIFF.diff.obf > $FINAL_FILE
     TZ=UTC touch -c -d "$END_DATE" $FINAL_FILE
   
-    OsmAndMapCreator/utilities.sh split-obf \
+    $OSMAND_MAP_CREATOR_PATH/utilities.sh split-obf \
     $FILENAME_DIFF.diff.obf $RESULT_DIR  \
      "$DATE_NAME" "_$TIME_NAME"
   
