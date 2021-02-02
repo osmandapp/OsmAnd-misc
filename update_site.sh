@@ -1,9 +1,9 @@
 #!/bin/bash -xe
 DIRECTORY=$(cd `dirname $0` && pwd)
 if [ -z "$LOCAL_SITE_DIR" ]; then
-	LOCAL_SITE_DIR=/var/www-download/
+	LOCAL_SITE_DIR=/var/www-download
 fi
-mkdir -p $LOCAL_SITE_DIR/
+mkdir -p $LOCAL_SITE_DIR
 # (if doesn't exist) git clone https://github.com/osmandapp/osmandapp.github.io.git $LOCAL_SITE_DIR
 
 mkdir -p $LOCAL_SITE_DIR/hillshade
