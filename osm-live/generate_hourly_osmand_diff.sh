@@ -70,8 +70,15 @@ while true; do
   mkdir -p $FINAL_FOLDER/src/
   
   
-  
-
+  QUERY_LOW_EMMISIONS_ZONE="[timeout:3600][maxsize:160000000];
+    relation[\"boundary\"=\"low_emission_zone\"];
+    (._;>;);
+    out meta;"
+  LOW_EMMISION_ZONE_FILE=low_emission_zone.osm.gz
+  ## UPDATE LOW_EMMISION_ZONE_FILE once per day 
+  if test "`find $LOW_EMMISION_ZONE_FILE -mmin -1440`"; then 
+    echo "$QUERY_LOW_EMMISIONS_ZONE" | $REMOTE_SSH_STRING /home/overpass/osm3s/bin/osm3s_query  | gzip > $LOW_EMMISION_ZONE_FILE
+  fi
   #if [ -f "$FINAL_FOLDER/src/${FILENAME_DIFF}_before.obf.gz" ]; then
   # disable for now
   if false; then
@@ -160,8 +167,8 @@ while true; do
     echo # 2. Generate obf files & query change file
     echo "$QUERY_DIFF" | $REMOTE_SSH_STRING /home/overpass/osm3s/bin/osm3s_query  > $FILENAME_CHANGE.osm  &
     # SRTM takes too much time and memory at this step (probably it could be used at the change step)
-    $OSMAND_MAP_CREATOR_PATH/utilities.sh generate-obf-no-address $FILENAME_START.osm --add-region-tags & # --srtm="$SRTM_DIR" &
-    $OSMAND_MAP_CREATOR_PATH/utilities.sh generate-obf-no-address $FILENAME_END.osm --add-region-tags & # --srtm="$SRTM_DIR" &
+    $OSMAND_MAP_CREATOR_PATH/utilities.sh generate-obf-no-address $FILENAME_START.osm --add-region-tags --extra-relations="$LOW_EMMISION_ZONE_FILE" & # --srtm="$SRTM_DIR" &
+    $OSMAND_MAP_CREATOR_PATH/utilities.sh generate-obf-no-address $FILENAME_END.osm --add-region-tags --extra-relations="$LOW_EMMISION_ZONE_FILE" & # --srtm="$SRTM_DIR" &
     wait
 
     TZ=UTC touch -c -d "$END_DATE" $FILENAME_CHANGE.osm
