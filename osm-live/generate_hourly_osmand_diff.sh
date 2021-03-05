@@ -76,7 +76,7 @@ while true; do
     out meta;"
   LOW_EMMISION_ZONE_FILE=low_emission_zone.osm.gz
   ## UPDATE LOW_EMMISION_ZONE_FILE once per day 
-  if test "`find $LOW_EMMISION_ZONE_FILE -mmin -1440`"; then 
+  if ! test "`find $LOW_EMMISION_ZONE_FILE -mmin -1440`"; then 
     echo "$QUERY_LOW_EMMISIONS_ZONE" | $REMOTE_SSH_STRING /home/overpass/osm3s/bin/osm3s_query  | gzip > $LOW_EMMISION_ZONE_FILE
   fi
   #if [ -f "$FINAL_FOLDER/src/${FILENAME_DIFF}_before.obf.gz" ]; then
