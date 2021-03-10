@@ -30,8 +30,7 @@ while true; do
   # database timestamp
   DB_SEC=$(date -u --date="$($REMOTE_SSH_STRING /home/overpass/osm3s/cgi-bin/timestamp | tail -1)" "+%s")
 
- # PERIOD_SEC=$PERIOD_2_SEC;
-  if [ -z "$PERIOD_SEC" ]; then
+  if [ -z "$PERIOD" ]; then
     PERIOD_SEC=$PERIOD_1_SEC;
     if (( $DB_SEC > $START_SEC + $PERIOD_4_SEC + 60 )); then
       PERIOD_SEC=$PERIOD_4_SEC;
@@ -40,6 +39,8 @@ while true; do
     elif (( $DB_SEC > $START_SEC + $PERIOD_2_SEC + 60 )); then
       PERIOD_SEC=$PERIOD_2_SEC;
     fi
+  else 
+    PERIOD_SEC=$PERIOD
   fi
 
   NEXT="$START_DAY $START_TIME $PERIOD_SEC seconds"
