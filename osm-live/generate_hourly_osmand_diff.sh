@@ -3,7 +3,11 @@ RESULT_DIR="/home/osmlive/"
 OSMAND_MAP_CREATOR_PATH=OsmAndMapCreator
 
 # For local test
-#RESULT_DIR=/home/xmd5a/tmp/live_germany
+# How to generate files locally:
+# 1. Create .proc_timestamp in RESULT_DIR with date/time: "2020-12-30 10:10"
+# 2. Execute this script
+# 3. Stop when diff is done
+#RESULT_DIR=/home/xmd5a/tmp/live_germany2
 #OSMAND_MAP_CREATOR_PATH=/home/xmd5a/utilites/OsmAndMapCreator-main
 #REMOTE_SSH_STRING="ssh jenkins@builder.osmand.net"
 
