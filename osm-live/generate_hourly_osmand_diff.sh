@@ -114,48 +114,32 @@ while true; do
   else
     echo "Query between $START_DATE and $END_DATE"
     date -u
-    QUERY_START="[timeout:3600][maxsize:2000000000][date:\"$START_DATE\"];
-    
-(
-  node(changed:\"$START_DATE\",\"$END_DATE\");
-  way(changed:\"$START_DATE\",\"$END_DATE\");
-  relation(changed:\"$START_DATE\",\"$END_DATE\");
-)->.a;
-(way(bn.a);.a;) ->.a;
-(relation(bn.a);.a;) ->.a;
-(relation(bw.a);.a;) ->.a;
-(way(r.a);.a;) ->.a;
-(node(r.a);.a;) ->.a;
-(node(w.a);.a;) ->.a;
-
-.a out geom meta;
-"
-    QUERY_END="[timeout:3600][maxsize:2000000000][date:\"$END_DATE\"];
-    
-(
-  node(changed:\"$START_DATE\",\"$END_DATE\");
-  way(changed:\"$START_DATE\",\"$END_DATE\");
-  relation(changed:\"$START_DATE\",\"$END_DATE\");
-)->.a;
-(way(bn.a);.a;) ->.a;
-(relation(bn.a);.a;) ->.a;
-(relation(bw.a);.a;) ->.a;
-(way(r.a);.a;) ->.a;
-(node(r.a);.a;) ->.a;
-(node(w.a);.a;) ->.a;
-
-.a out geom meta;
-"
+    FULL_QUERY="
+    (
+      node(changed:\"$START_DATE\",\"$END_DATE\");
+      way(changed:\"$START_DATE\",\"$END_DATE\");
+      relation(changed:\"$START_DATE\",\"$END_DATE\");
+    )->.a;
+    (way(bn.a);.a;) ->.a; // get all ways by nodes
+    (relation(bn.a);.a;) ->.a;
+    (relation(bw.a);.a;) ->.a;
+    // final
+    (way(r.a);.a;) ->.a; // make all relations complete
+    (node(r.a);.a;) ->.a; // make all relations complete
+    (node(w.a);.a;) ->.a; // make all ways complete
+    .a out geom meta;
+    "
+    QUERY_START="[timeout:3600][maxsize:2000000000][date:\"$START_DATE\"]; $FULL_QUERY";
+    QUERY_END="[timeout:3600][maxsize:2000000000][date:\"$END_DATE\"]; $FULL_QUERY";
     QUERY_DIFF="[timeout:3600][maxsize:2000000000][diff:\"$START_DATE\",\"$END_DATE\"];
-    
-(
-   node(changed:\"$START_DATE\",\"$END_DATE\");
-   way(changed:\"$START_DATE\",\"$END_DATE\");
-   relation(changed:\"$START_DATE\",\"$END_DATE\");
-)->.a;
+    (
+      node(changed:\"$START_DATE\",\"$END_DATE\");
+      way(changed:\"$START_DATE\",\"$END_DATE\");
+      relation(changed:\"$START_DATE\",\"$END_DATE\");
+    )->.a;
 
-.a out geom meta;
-"
+    .a out geom meta;
+    "
     echo # 1. Query rich diffs
     echo -e "$QUERY_START" | $REMOTE_SSH_STRING /home/overpass/osm3s/bin/osm3s_query > $FILENAME_START.osm &
     echo -e "$QUERY_END" | $REMOTE_SSH_STRING /home/overpass/osm3s/bin/osm3s_query  > $FILENAME_END.osm &
