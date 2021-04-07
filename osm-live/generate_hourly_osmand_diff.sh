@@ -134,7 +134,7 @@ while true; do
     (way(r.a);.a;) ->.a; 
     (node(r.a);.a;) ->.a;
     (node(w.a);.a;) ->.a;
-    .a out geom meta;
+    .a out meta;
     "
     QUERY_START="[timeout:3600][maxsize:2000000000][date:\"$START_DATE\"]; $FULL_QUERY";
     QUERY_END="[timeout:3600][maxsize:2000000000][date:\"$END_DATE\"]; $FULL_QUERY";
