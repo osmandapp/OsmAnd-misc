@@ -123,8 +123,8 @@ while true; do
     )->.a;
     // 2.1 retrieve all nodes/ways for changed relation, 
     // so later we could retrieve all relations for Ways (not only changed)  and make ways complete
-    // (way(r.a);.a;) ->.a; 
-    // (node(r.a);.a;) ->.a; 
+    (way(r.a);.a;) ->.a; 
+    (node(r.a);.a;) ->.a; 
     // 2.2 retrieve all ways for changed nodes to change ways geometry
     (way(bn.a);.a;) ->.a; // get all ways by nodes
     // 2.3 retrieve all relations for changed nodes / ways, so we can propagate right tags to them
