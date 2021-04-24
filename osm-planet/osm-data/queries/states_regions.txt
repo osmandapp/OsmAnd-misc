@@ -103,7 +103,7 @@
 <id-query ref="175342" type="relation"/> <print/> <!-- Greater London -->
 <id-query ref="151164" type="relation"/> <print/> <!-- North East England -->
 <id-query ref="151261" type="relation"/> <print/> <!-- North West England -->
-<id-query ref="151304" type="relation"/> <print/> <!-- South East England -->
+<id-query ref="3820651" type="relation"/> <print/> <!-- South East England -->
 <id-query ref="151339" type="relation"/> <print/> <!-- South West England -->
 <id-query ref="151283" type="relation"/> <print/> <!-- West Midlands -->
 <id-query ref="151012" type="relation"/> <print/> <!-- Yorkshire and the Humber -->
@@ -428,5 +428,9 @@
 	<!-- India -->
 <id-query ref="1953042" type="relation"/> <print/> <!-- Daman -->
 <id-query ref="2713465" type="relation"/> <print/> <!-- Aksai Chin -->
+
+	<!-- Finland -->
+<id-query ref="2579841" type="relation"/> <print/> <!-- Regional State Administrative Agency for Eastern Finland -->
+<id-query ref="2541118" type="relation"/> <print/> <!-- Regional State Administrative Agency for Northern Finland -->
 
 </osm-script>
