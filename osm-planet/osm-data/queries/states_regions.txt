@@ -103,7 +103,7 @@
 <id-query ref="175342" type="relation"/> <print/> <!-- Greater London -->
 <id-query ref="151164" type="relation"/> <print/> <!-- North East England -->
 <id-query ref="151261" type="relation"/> <print/> <!-- North West England -->
-<id-query ref="3820651" type="relation"/> <print/> <!-- South East England -->
+<id-query ref="151304" type="relation"/> <print/> <!-- South East England -->
 <id-query ref="151339" type="relation"/> <print/> <!-- South West England -->
 <id-query ref="151283" type="relation"/> <print/> <!-- West Midlands -->
 <id-query ref="151012" type="relation"/> <print/> <!-- Yorkshire and the Humber -->
@@ -370,7 +370,6 @@
 
 
 	<!-- Pakistan -->
-<id-query ref="358002" type="relation"/> <print/> <!-- Islamabad -->
 <id-query ref="358004" type="relation"/> <print/> <!-- Federally Administered Tribal Areas;FATA -->
 
 <id-query ref="1703814" type="relation"/> <print/> <!-- Palestinian Territories -->
@@ -385,7 +384,8 @@
   </union>
   <print/>
 
-	<!-- USA Texas -->
+	<!-- USA -->
+	<!-- Texas -->
 <id-query ref="1698922081" type="node"/> <print/> <!-- Amarillo -->
 <id-query ref="1801308037" type="node"/> <print/> <!-- Austin -->
 <id-query ref="26506087" type="node"/> <print/> <!-- Dallas -->
@@ -397,6 +397,9 @@
 <id-query ref="151336948" type="node"/> <print/> <!-- Victoria -->
 <id-query ref="151563130" type="node"/> <print/> <!-- Waco -->
 <id-query ref="151484093" type="node"/> <print/> <!-- San Angelo -->
+
+<id-query ref="2605295" type="relation"/> <print/> <!-- Alaska, Nome -->
+
 
 	<!-- Switzerland -->
 <id-query ref="27284711" type="node"/> <print/> <!-- Basel -->

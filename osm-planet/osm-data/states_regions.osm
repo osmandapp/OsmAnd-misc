@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.57 93a4d346">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2022-02-09T12:36:23Z" areas="2022-02-09T09:35:59Z"/>
+<meta osm_base="2022-02-10T12:58:21Z" areas="2022-02-10T11:53:30Z"/>
 
   <relation id="8640">
     <tag k="ISO3166-2" v="FR-CVL"/>
@@ -17886,6 +17886,7 @@
   <relation id="215772">
     <tag k="ISO3166-2" v="KZ-PAV"/>
     <tag k="admin_level" v="4"/>
+    <tag k="boundary" v="administrative"/>
     <tag k="is_in:continent" v="Asia"/>
     <tag k="is_in:country" v="Kazakhstan"/>
     <tag k="is_in:country_code" v="KZ"/>
@@ -17900,7 +17901,6 @@
     <tag k="name:kk" v="Павлодар облысы"/>
     <tag k="name:pl" v="Obwód pawłodarski"/>
     <tag k="name:ru" v="Павлодарская область"/>
-    <tag k="restriction" v="no_left_turn"/>
     <tag k="timezone" v="Asia/Almaty"/>
     <tag k="type" v="restriction"/>
     <tag k="wikidata" v="Q486144"/>
@@ -53896,7 +53896,6 @@
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q19951088"/>
     <tag k="wikipedia" v="ar:جهة العيون الساقية الحمراء"/>
-    <tag k="wikipedia:ar" v="جهة العيون الساقية الحمراء"/>
   </relation>
   <relation id="2425963">
     <tag k="ISO3166-1" v="BV"/>
@@ -74631,6 +74630,7 @@
     <tag k="claimed_by" v="IN"/>
     <tag k="disputed_by" v="PK;CN"/>
     <tag k="name" v="Extent of Indian Claim"/>
+    <tag k="name:ur" v="بھارتی دعوے کی حد"/>
     <tag k="type" v="linestring"/>
   </relation>
   <relation id="7989252">
@@ -75049,19 +75049,6 @@
     <tag k="evacuation_center" v="no"/>
     <tag k="source" v="HOT_InAWARESurvey_2018"/>
     <tag k="type" v="multipolygon"/>
-  </relation>
-  <relation id="8295062">
-    <tag k="admin_level" v="4"/>
-    <tag k="alt_name:ur" v="راولپنڈی چھاؤنی"/>
-    <tag k="boundary" v="administrative"/>
-    <tag k="name" v="راولپنڈی کینٹ"/>
-    <tag k="name:ar" v="معسكر راولبندي"/>
-    <tag k="name:en" v="Rawalpindi Cantonment"/>
-    <tag k="name:ur" v="راولپنڈی کینٹ"/>
-    <tag k="type" v="boundary"/>
-    <tag k="wikidata" v="Q7296923"/>
-    <tag k="wikipedia" v="ur:راولپنڈی چھاؤنی"/>
-    <tag k="wikipedia:ur" v="راولپنڈی چھاؤنی"/>
   </relation>
   <relation id="8295114">
     <tag k="admin_level" v="4"/>
@@ -81179,6 +81166,20 @@
     <tag k="type" v="boundary"/>
     <tag k="wikidata" v="Q47967"/>
     <tag k="wikipedia" v="en:North West England"/>
+  </relation>
+  <relation id="151304">
+    <tag k="admin_level" v="5"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="South East England"/>
+    <tag k="name:de" v="Südostengland"/>
+    <tag k="name:en" v="South East England"/>
+    <tag k="name:ru" v="Юго-Восточная Англия"/>
+    <tag k="ref:gss" v="E12000008"/>
+    <tag k="ref:nuts:1" v="UKJ"/>
+    <tag k="source:ref:gss" v="ONS_OpenData"/>
+    <tag k="type" v="boundary"/>
+    <tag k="wikidata" v="Q48015"/>
+    <tag k="wikipedia" v="en:South East England"/>
   </relation>
   <relation id="151339">
     <tag k="admin_level" v="5"/>
@@ -90879,6 +90880,7 @@
     <tag k="de:regionalschluessel" v="08336"/>
     <tag k="license_plate_code" v="LÖ"/>
     <tag k="name" v="Landkreis Lörrach"/>
+    <tag k="name:de" v="Landkreis Lörrach"/>
     <tag k="name:gsw" v="Landchreis Lörrech"/>
     <tag k="name:ru" v="Лёррах"/>
     <tag k="population" v="230000"/>
@@ -95156,39 +95158,6 @@
     <tag k="wheelchair" v="yes"/>
     <tag k="wheelchair:description" v="WC: Damen und Herren im EG mit Euro-Schloss (Schlüssel an der Info- Theke) und im 2. OG mit Euro-Schloss"/>
   </relation>
-  <relation id="358002">
-    <tag k="ISO3166-2" v="PK-IS"/>
-    <tag k="admin_level" v="4"/>
-    <tag k="border_type" v="province"/>
-    <tag k="boundary" v="administrative"/>
-    <tag k="name" v="وفاقی دارالحکومت اسلام آباد"/>
-    <tag k="name:ar" v="ناحية بايتختي إسلام آباد"/>
-    <tag k="name:cs" v="Území hlavního města Islámábádu"/>
-    <tag k="name:de" v="Hauptstadtterritorium Islamabad"/>
-    <tag k="name:en" v="Islamabad Capital Territory"/>
-    <tag k="name:fa" v="ناحیه پایتختی اسلام‌آباد"/>
-    <tag k="name:fr" v="Territoire fédéral d'Islamabad"/>
-    <tag k="name:ja" v="イスラーマーバード首都圏"/>
-    <tag k="name:ko" v="이슬라마바드 수도권"/>
-    <tag k="name:pl" v="Terytorium Stołeczne Islamabadu"/>
-    <tag k="name:ru" v="Федеральная столичная территория"/>
-    <tag k="name:sd" v="اسلام آباد راڄڌاني جو علائقو"/>
-    <tag k="name:ur" v="وفاقی دارالحکومت اسلام آباد"/>
-    <tag k="name:zh" v="伊斯兰堡联邦首都区"/>
-    <tag k="short_name" v="اسلام آباد"/>
-    <tag k="short_name:ar" v="إسلام آباد"/>
-    <tag k="short_name:azb" v="ایسلام آباد"/>
-    <tag k="short_name:ckb" v="ئیسلاماباد"/>
-    <tag k="short_name:cs" v="Islámábád"/>
-    <tag k="short_name:en" v="Islamabad"/>
-    <tag k="short_name:fa" v="اسلام‌آباد"/>
-    <tag k="short_name:ug" v="ئىسلامئاباد"/>
-    <tag k="short_name:ur" v="اسلام آباد"/>
-    <tag k="type" v="boundary"/>
-    <tag k="website" v="http://www.islamabad.gov.pk/"/>
-    <tag k="wikidata" v="Q848613"/>
-    <tag k="wikipedia" v="ur:اسلام آباد وفاقی دارالحکومت علاقہ"/>
-  </relation>
   <relation id="358004">
     <tag k="ISO3166-2" v="PK-TA"/>
     <tag k="admin_level" v="3"/>
@@ -98863,6 +98832,19 @@
     <tag k="wikidata" v="Q925598"/>
     <tag k="wikipedia" v="en:San Angelo, Texas"/>
   </node>
+  <relation id="2605295">
+    <tag k="admin_level" v="6"/>
+    <tag k="alt_name" v="Nome (CA)"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="is_in:country_code" v="US"/>
+    <tag k="name" v="Nome"/>
+    <tag k="nist:fips_code" v="02180"/>
+    <tag k="nist:state_fips" v="02"/>
+    <tag k="official_name" v="Nome Census Area"/>
+    <tag k="type" v="boundary"/>
+    <tag k="wikidata" v="Q503023"/>
+    <tag k="wikipedia" v="en:Nome Census Area, Alaska"/>
+  </relation>
   <node id="27284711" lat="47.5581077" lon="7.5878261">
     <tag k="admin_centre:4" v="yes"/>
     <tag k="ele" v="260"/>
