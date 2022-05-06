@@ -11,7 +11,7 @@ OSMAND_MAP_CREATOR_PATH=OsmAndMapCreator
 #OSMAND_MAP_CREATOR_PATH=/home/xmd5a/utilites/OsmAndMapCreator-main
 #REMOTE_SSH_STRING="ssh jenkins@builder.osmand.net"
 
-export JAVA_OPTS="-Xms512M -Xmx8014M"
+export JAVA_OPTS="-Xms512M -Xmx12014M"
 chmod +x $OSMAND_MAP_CREATOR_PATH/utilities.sh
 
 SRTM_DIR="/home/relief-data/srtm/"
