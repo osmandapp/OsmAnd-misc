@@ -26,7 +26,7 @@ rm $CHANGES_FILE || true # comment to keep same file for processing
 if [ ! -f "$CHANGES_FILE" ] ; then 
 	TIMESTAMP=$(cat "$STATE_FOLDER/state.txt")
 	# osmupdate --base-url=https://tile.osmand.net/replication/ --minute -v $TIMESTAMP $CHANGES_FILE
-	osmupdate -v $TIMESTAMP $CHANGES_FILE
+	osmupdate --minute -v $TIMESTAMP $CHANGES_FILE
 fi
 ls -lar $CHANGES_FILE
 echo $(osmconvert --out-timestamp  $CHANGES_FILE) > "$STATE_FOLDER/state.txt"
