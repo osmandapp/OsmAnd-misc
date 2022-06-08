@@ -12,7 +12,7 @@ for i in `seq 1 6`; do
 		VERSION="version like 'OsmAnd%%2B%'"
 		VERSION_P="plus"
 	elif (($i == 3)) || (($i == 4)); then
-		VERSION="version is null"
+		VERSION="version = ''"
 		VERSION_P="ios"
 	else
 		VERSION="version like 'OsmAnd+%'"
@@ -71,7 +71,7 @@ for i in `seq 1 6`; do
 		VERSION="version like 'OsmAnd%%2B%'"
 		VERSION_P="plus"
 	elif (($i == 3)) || (($i == 4)); then
-		VERSION="version is null"
+		VERSION="version = ''"
 		VERSION_P="ios"
 	else
 		VERSION="version like 'OsmAnd+%'"
@@ -105,7 +105,7 @@ for i in `seq 1 6`; do
 		VERSION="version like 'OsmAnd%%2B%'"
 		VERSION_P="plus"
 	elif (($i == 3)) || (($i == 4)); then
-		VERSION="version is null"
+		VERSION="version = ''"
 		VERSION_P="ios"
 	else
 		VERSION="version like 'OsmAnd+%'"
