@@ -5,18 +5,23 @@ FOLDER=/var/lib/jenkins/reports
 if [ -z "$START_DATE" ]; then
 	START_DATE='2012-01-01'
 fi
+RSTART="${RSTART:-1}"
+REND="${RSTART:-6}"
 DATE_CONDITION=" and day >= '$START_DATE'"
 echo "Calculate General activity users"
-for i in `seq 1 6`; do
+for i in `seq $RSTART $REND`; do
 	if (($i == 1)) || (($i == 2)); then
 		VERSION="version like 'OsmAnd%%2B%'"
 		VERSION_P="plus"
+		USER_COLUMN="aid"
 	elif (($i == 3)) || (($i == 4)); then
 		VERSION="version = ''"
 		VERSION_P="ios"
+		USER_COLUMN="ip"
 	else
 		VERSION="version like 'OsmAnd+%'"
 		VERSION_P="free"
+		USER_COLUMN="aid"
 	fi
 	if (($i == 1)) || (($i == 3)) || (($i == 5)); then
 		SELECT_DATE="D.minday"
@@ -27,26 +32,26 @@ for i in `seq 1 6`; do
 		SELECT_SUBDATE="substr(day, 0, 8)"
 		INF="month"
 	fi
-	echo "1-$i. $(date)"
-	# psql -d $DB_NAME -U $DB_USER -c "select count(distinct ip), $SELECT_SUBDATE date \
-	#	from requests WHERE $VERSION $DATE_CONDITION group by $SELECT_SUBDATE order by date desc;" > $FOLDER/report_ga_${INF}_1_$VERSION_P
-
-	echo "2-$i. $(date)"
-	psql -d $DB_NAME -U $DB_USER -c "select count(distinct aid), $SELECT_SUBDATE date \
+	
+	echo "General activity users $i. $(date)"
+	psql -d $DB_NAME -U $DB_USER -c "select count(distinct $USER_COLUMN), $SELECT_SUBDATE date \
 	    from requests WHERE $VERSION $DATE_CONDITION group by $SELECT_SUBDATE order by date desc;" > $FOLDER/report_ga_${INF}_$VERSION_P
 done
 
 echo "Calculate General activity downloads"
-for i in `seq 1 6`; do
+for i in `seq $RSTART $REND`; do
 	if (($i == 1)) || (($i == 2)); then
 		VERSION="version like 'OsmAnd%%2B%'"
 		VERSION_P="plus"
+		USER_COLUMN="ip"
 	elif (($i == 3)) || (($i == 4)); then
 		VERSION="version like 'OsmAndIOs%'"
 		VERSION_P="ios"
+		USER_COLUMN="ip"
 	else
 		VERSION="version like 'OsmAnd+%'"
 		VERSION_P="free"
+		USER_COLUMN="ip"
 	fi
 	if (($i == 1)) || (($i == 3)) || (($i == 5)); then
 		SELECT_DATE="D.minday"
@@ -57,25 +62,28 @@ for i in `seq 1 6`; do
 		SELECT_SUBDATE="substr(day, 0, 8)"
 		INF="month"
 	fi
-	echo "1-$i. $(date)"
-	psql -d $DB_NAME -U $DB_USER -c "select count(distinct ip) users, \
-		count(*) total_downloads, count(*) ::float / count(distinct ip) average_per_user, $SELECT_SUBDATE date \
+	echo "General activity downloads $i. $(date)"
+	psql -d $DB_NAME -U $DB_USER -c "select count(distinct $USER_COLUMN) users, \
+		count(*) total_downloads, count(*) ::float / count(distinct $USER_COLUMN) average_per_user, $SELECT_SUBDATE date \
 		from downloads WHERE $VERSION $DATE_CONDITION group by $SELECT_SUBDATE order by date desc;" > $FOLDER/report_ga_downloads_${INF}_3_$VERSION_P
 done
 
 
 
 echo "Calculate User acquisition"
-for i in `seq 1 6`; do
+for i in `seq $RSTART $REND`; do
 	if (($i == 1)) || (($i == 2)); then
 		VERSION="version like 'OsmAnd%%2B%'"
 		VERSION_P="plus"
+		USER_COLUMN="aid"
 	elif (($i == 3)) || (($i == 4)); then
 		VERSION="version = ''"
 		VERSION_P="ios"
+		USER_COLUMN="ip"
 	else
 		VERSION="version like 'OsmAnd+%'"
 		VERSION_P="free"
+		USER_COLUMN="aid"
 	fi
 	if (($i == 1)) || (($i == 3)) || (($i == 5)); then
 		SELECT_DATE="D.minday"
@@ -86,30 +94,27 @@ for i in `seq 1 6`; do
 		SELECT_SUBDATE="substr(day, 0, 8)"
 		INF="month"
 	fi
-	# echo "1-$i. $(date)"
-	# psql -d $DB_NAME -U $DB_USER -c "SELECT COUNT(ip), $SELECT_DATE date \
-	#    from (SELECT ip, min(to_date(day,'YYYY-MM-DD')) minday from requests \
-	#    	  where $VERSION group by ip HAVING min(day) >= '$START_DATE') D \
-        # group by $SELECT_DATE order by date desc;" > $FOLDER/report_ua_${INF}_2_$VERSION_P
-        
-	echo "2-$i. $(date)"
-	psql -d $DB_NAME -U $DB_USER -c "SELECT count(distinct AID), $SELECT_SUBDATE date \
+	echo "User acquisition $i. $(date)"
+	psql -d $DB_NAME -U $DB_USER -c "SELECT count(distinct $USER_COLUMN), $SELECT_SUBDATE date \
 		from requests where $VERSION and ns=1 $DATE_CONDITION \
 		group by $SELECT_SUBDATE order by date desc;" > $FOLDER/report_ua_${INF}_$VERSION_P
 
 done
 
 echo "Calculate Retention"
-for i in `seq 1 6`; do
+for i in `seq $RSTART $REND`; do
 	if (($i == 1)) || (($i == 2)); then
 		VERSION="version like 'OsmAnd%%2B%'"
 		VERSION_P="plus"
+		USER_COLUMN="aid"
 	elif (($i == 3)) || (($i == 4)); then
 		VERSION="version = ''"
 		VERSION_P="ios"
+		USER_COLUMN="ip"
 	else
 		VERSION="version like 'OsmAnd+%'"
 		VERSION_P="free"
+		USER_COLUMN="aid"
 	fi
 	if (($i == 1)) || (($i == 3)) || (($i == 5)); then
 		SELECT_DATE="D.minday"
@@ -119,8 +124,8 @@ for i in `seq 1 6`; do
 		INF="month"
 	fi
 
-	echo "1-$i. $(date)"
-psql -d $DB_NAME -U $DB_USER -c "SELECT $SELECT_DATE date, COUNT(aid) allUsers, round( AVG(starts), 2) avgSt, round(AVG(numberdays), 2) avgNd,  \
+	echo "Retention $i. $(date)"
+psql -d $DB_NAME -U $DB_USER -c "SELECT $SELECT_DATE date, COUNT($USER_COLUMN) allUsers, round( AVG(starts), 2) avgSt, round(AVG(numberdays), 2) avgNd,  \
  SUM( CASE WHEN maxday >= minday + 7 THEN 1 ELSE 0 END ) wRetUsers, \
  SUM( CASE WHEN maxday >= minday + 7 THEN starts ELSE 0 END ) / (SUM( CASE WHEN maxday >= minday + 7 THEN 1 ELSE 0 END ) + 1) wRetSt, \
  SUM( CASE WHEN maxday >= minday + 7 THEN numberdays ELSE 0 END )  / (SUM( CASE WHEN maxday >= minday + 7 THEN 1 ELSE 0 END ) + 1) wRetNd, \
@@ -130,8 +135,8 @@ psql -d $DB_NAME -U $DB_USER -c "SELECT $SELECT_DATE date, COUNT(aid) allUsers, 
  SUM( CASE WHEN maxday >= minday + 180 THEN 1 ELSE 0 END ) m6RetUsers, \
  SUM( CASE WHEN maxday >= minday + 180 THEN starts ELSE 0 END ) / (SUM( CASE WHEN maxday >= minday + 180 THEN 1 ELSE 0 END ) + 1) m6RetSt, \
  SUM( CASE WHEN maxday >= minday + 180 THEN numberdays ELSE 0 END ) / (SUM( CASE WHEN maxday >= minday + 180 THEN 1 ELSE 0 END ) + 1) m6RetNd \
-from (SELECT aid, min(to_date(day,'YYYY-MM-DD')) minday, max(to_date(day,'YYYY-MM-DD')) maxday, \
+from (SELECT $USER_COLUMN, min(to_date(day,'YYYY-MM-DD')) minday, max(to_date(day,'YYYY-MM-DD')) maxday, \
       max(ns) starts, max(nd) numberdays from requests \
-      where aid <> '' and $VERSION group by aid HAVING min(day) >= '$START_DATE') D \
+      where $USER_COLUMN <> '' and $VERSION group by $ HAVING min(day) >= '$START_DATE') D \
 group by $SELECT_DATE order by 1 desc; " > $FOLDER/report_retention_${INF}_$VERSION_P
 done
