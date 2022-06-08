@@ -77,14 +77,17 @@ for i in `seq $RSTART $REND`; do
 		VERSION="version like 'OsmAnd%%2B%'"
 		VERSION_P="plus"
 		USER_COLUMN="aid"
+		TABLE="requests"
 	elif (($i == 3)) || (($i == 4)); then
-		VERSION="version = ''"
+		VERSION="version like 'ios%'"
 		VERSION_P="ios"
 		USER_COLUMN="ip"
+		TABLE="motd"
 	else
 		VERSION="version like 'OsmAnd+%'"
 		VERSION_P="free"
 		USER_COLUMN="aid"
+		TABLE="requests"
 	fi
 	if (($i == 1)) || (($i == 3)) || (($i == 5)); then
 		SELECT_DATE="D.minday"
@@ -98,7 +101,7 @@ for i in `seq $RSTART $REND`; do
 	NAME=report_ua_${INF}_$VERSION_P
 	echo "User acquisition $i. $(date) - $NAME"
 	psql -d $DB_NAME -U $DB_USER -c "SELECT count(distinct $USER_COLUMN), $SELECT_SUBDATE date \
-		from requests where $VERSION and ns=1 $DATE_CONDITION \
+		from $TABLE where $VERSION and ns=1 $DATE_CONDITION \
 		group by $SELECT_SUBDATE order by date desc;" > $FOLDER/$NAME
 
 done
