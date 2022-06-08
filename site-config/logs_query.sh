@@ -7,15 +7,18 @@ if [ -z "$START_DATE" ]; then
 fi
 DATE_CONDITION=" and day >= '$START_DATE'"
 echo "Calculate General activity users"
-for i in `seq 1 4`; do
+for i in `seq 1 6`; do
 	if (($i == 1)) || (($i == 2)); then
 		VERSION="version like 'OsmAnd%%2B%'"
 		VERSION_P="plus"
+	elif (($i == 3)) || (($i == 4)); then
+		VERSION="version is null"
+		VERSION_P="ios"
 	else
 		VERSION="version like 'OsmAnd+%'"
 		VERSION_P="free"
 	fi
-	if (($i == 1)) || (($i == 3)); then
+	if (($i == 1)) || (($i == 3)) || (($i == 5)); then
 		SELECT_DATE="D.minday"
 		SELECT_SUBDATE="day"
 		INF="day"
@@ -34,15 +37,18 @@ for i in `seq 1 4`; do
 done
 
 echo "Calculate General activity downloads"
-for i in `seq 1 4`; do
+for i in `seq 1 6`; do
 	if (($i == 1)) || (($i == 2)); then
 		VERSION="version like 'OsmAnd%%2B%'"
 		VERSION_P="plus"
+	elif (($i == 3)) || (($i == 4)); then
+		VERSION="version like 'OsmAndIOs%'"
+		VERSION_P="ios"
 	else
 		VERSION="version like 'OsmAnd+%'"
 		VERSION_P="free"
 	fi
-	if (($i == 1)) || (($i == 3)); then
+	if (($i == 1)) || (($i == 3)) || (($i == 5)); then
 		SELECT_DATE="D.minday"
 		SELECT_SUBDATE="day"
 		INF="day"
@@ -60,15 +66,18 @@ done
 
 
 echo "Calculate User acquisition"
-for i in `seq 1 4`; do
+for i in `seq 1 6`; do
 	if (($i == 1)) || (($i == 2)); then
 		VERSION="version like 'OsmAnd%%2B%'"
 		VERSION_P="plus"
+	elif (($i == 3)) || (($i == 4)); then
+		VERSION="version is null"
+		VERSION_P="ios"
 	else
 		VERSION="version like 'OsmAnd+%'"
 		VERSION_P="free"
 	fi
-	if (($i == 1)) || (($i == 3)); then
+	if (($i == 1)) || (($i == 3)) || (($i == 5)); then
 		SELECT_DATE="D.minday"
 		SELECT_SUBDATE="day"
 		INF="day"
@@ -91,15 +100,18 @@ for i in `seq 1 4`; do
 done
 
 echo "Calculate Retention"
-for i in `seq 1 4`; do
+for i in `seq 1 6`; do
 	if (($i == 1)) || (($i == 2)); then
 		VERSION="version like 'OsmAnd%%2B%'"
 		VERSION_P="plus"
+	elif (($i == 3)) || (($i == 4)); then
+		VERSION="version is null"
+		VERSION_P="ios"
 	else
 		VERSION="version like 'OsmAnd+%'"
 		VERSION_P="free"
 	fi
-	if (($i == 1)) || (($i == 3)); then
+	if (($i == 1)) || (($i == 3)) || (($i == 5)); then
 		SELECT_DATE="D.minday"
 		INF="day"
 	else
