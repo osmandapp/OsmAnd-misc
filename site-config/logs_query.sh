@@ -6,7 +6,7 @@ if [ -z "$START_DATE" ]; then
 	START_DATE='2012-01-01'
 fi
 RSTART="${RSTART:-1}"
-REND="${RSTART:-6}"
+REND="${REND:-6}"
 DATE_CONDITION=" and day >= '$START_DATE'"
 echo "Calculate General activity users"
 for i in `seq $RSTART $REND`; do
