@@ -12,6 +12,10 @@ server {
 
 	server_name xxx.osmand.net; #!!!
 
+	if ($request_uri ~ "\.\./"){
+   		return 403;
+	}
+
 	location ~ ^/(download|download.php) {
 		add_header Content-Disposition "attachment; filename=$arg_file";
 		try_files /srtm-countries/$arg_file /srtm/$arg_file /hillshade/$arg_file /slope/$arg_file
