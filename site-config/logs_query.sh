@@ -15,7 +15,7 @@ for i in `seq $RSTART $REND`; do
 		VERSION_P="plus"
 		USER_COLUMN="aid"
 	elif (($i == 3)) || (($i == 4)); then
-		VERSION="version = ''"
+		VERSION="version = '' or version like 'OsmAndIOS%'"
 		VERSION_P="ios"
 		USER_COLUMN="ip"
 	else
