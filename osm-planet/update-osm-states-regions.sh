@@ -3,7 +3,8 @@ NAME="states_regions"
 wget -O osm-data/states_regions.osm --post-file=osm-data/queries/$NAME.txt "https://z.overpass-api.de/api/interpreter"
 sed -i "s/<\/osm>//g" osm-data/$NAME.osm
 sed -i '/member type=/d' ./osm-data/$NAME.osm
-#sed -i '0,/k="name:en" v="Aksai Chin"/{s/k="name:en" v="Aksai Chin"/k="name:en" v="1"/}' ./osm-data/$NAME.osm
+sed -i '0,/k="name" v="Moselle"/{s/k="name" v="Moselle"/k="name" v="1"/}' ./osm-data/$NAME.osm
+sed -i '0,/k="name:en" v="Lijiang City"/{s/k="name:en" v="Lijiang City"/k="name:en" v="1"/}' ./osm-data/$NAME.osm
 
 #Translates
 > osm-data/flanders_brussel.osm
