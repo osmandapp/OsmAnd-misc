@@ -7,6 +7,7 @@ mkdir -p $LOCAL_SITE_DIR
 # (if doesn't exist) git clone https://github.com/osmandapp/osmandapp.github.io.git $LOCAL_SITE_DIR
 
 mkdir -p $LOCAL_SITE_DIR/hillshade
+mkdir -p $LOCAL_SITE_DIR/depth
 mkdir -p $LOCAL_SITE_DIR/indexes
 mkdir -p $LOCAL_SITE_DIR/road-indexes
 mkdir -p $LOCAL_SITE_DIR/srtm

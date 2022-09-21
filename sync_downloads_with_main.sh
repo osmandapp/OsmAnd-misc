@@ -6,6 +6,7 @@ function sync {
 sync indexes/
 #sync hillshade/
 #sync slope/
+sync depth/
 sync srtm-countries/
 sync road-indexes/
 sync wiki/
