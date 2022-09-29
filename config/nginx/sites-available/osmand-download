@@ -23,6 +23,10 @@ server {
 				/indexes/$arg_file /indexes/fonts/$arg_file /indexes/inapp/$arg_inapp/$arg_file
 				/aosmc/$arg_region/$arg_file =404;
 	}
+	location ~ ^/indexes {
+		autoindex on;
+		autoindex_format json;
+	}
 	location / {
 		try_files $uri $uri/ =404;
 	}	
