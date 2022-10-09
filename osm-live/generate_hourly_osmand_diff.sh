@@ -29,9 +29,11 @@ PERIOD_3_SEC=1200;
 PERIOD_4_SEC=1800;
 PERIOD_5_SEC=2400;
 
-LOG_SIZE=$(wc -l <"$DATE_LOG_FILE") || true
-if [ $LOG_SIZE -ge 1000  ]; then
-  echo "START" > $DATE_LOG_FILE
+if [ -f "$DATE_LOG_FILE"]; then 
+  LOG_SIZE=$(wc -l <"$DATE_LOG_FILE") 
+  if [ $LOG_SIZE -ge 1000  ]; then
+    echo "START" > $DATE_LOG_FILE
+  fi
 fi
 
 while true; do
