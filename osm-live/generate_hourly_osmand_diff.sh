@@ -21,13 +21,18 @@ echo "Begin with timestamp: $START"
 START_ARRAY=($START)
 START_DAY=${START_ARRAY[0]}
 START_TIME=${START_ARRAY[1]}
-
+DATE_LOG_FILE=date.log
 
 PERIOD_1_SEC=300;
 PERIOD_2_SEC=600;
 PERIOD_3_SEC=1200;
 PERIOD_4_SEC=1800;
 PERIOD_5_SEC=2400;
+
+LOG_SIZE=$(wc -l <"$DATE_LOG_FILE")
+if [ $LOG_SIZE -ge 1000  ]; then
+  echo "START" > $DATE_LOG_FILE
+fi
 
 while true; do
   START_DATE="${START_DAY}T${START_TIME}:00Z"
@@ -112,8 +117,7 @@ while true; do
     rm -r *.rtree* || true
     rm -r *.obf || true
   else
-    echo "Query between $START_DATE and $END_DATE"
-    date -u
+    echo "$START_DATE - $END_DATE query data: $(date -u)" >> $DATE_LOG_FILE
     FULL_QUERY="
     // 1. get all nodes, ways, relation changed between START - END
     (
@@ -164,7 +168,7 @@ while true; do
     TZ=UTC touch -c -d "$END_DATE" $FILENAME_START.osm
     TZ=UTC touch -c -d "$END_DATE" $FILENAME_END.osm
     date -u
-
+    echo "$START_DATE - $END_DATE generate obf: $(date -u)" >> $DATE_LOG_FILE
     echo # 2. Generate obf files & query change file
     echo "$QUERY_DIFF" | $REMOTE_SSH_STRING /home/overpass/osm3s/bin/osm3s_query  > $FILENAME_CHANGE.osm  &
     # SRTM takes too much time and memory at this step (probably it could be used at the change step)
@@ -177,7 +181,7 @@ while true; do
        exit 1;
     fi
     date -u
-    
+    echo "$START_DATE - $END_DATE zip files: $(date -u)" >> $DATE_LOG_FILE
     echo # 3. ZIP all files
     gzip -c $FILENAME_START.obf > $FINAL_FOLDER/src/${FILENAME_DIFF}_before.obf.gz &
     gzip -c $FILENAME_END.obf > $FINAL_FOLDER/src/${FILENAME_DIFF}_after.obf.gz &
@@ -186,7 +190,7 @@ while true; do
     #gzip -c $FILENAME_START.osm > $FINAL_FOLDER/src/${FILENAME_DIFF}_before.osm.gz
     #gzip -c $FILENAME_END.osm > $FINAL_FOLDER/src/${FILENAME_DIFF}_after.osm.gz
   
-  
+    echo "$START_DATE - $END_DATE generate diff: $(date -u)" >> $DATE_LOG_FILE
     echo # 4. Generate diff files, split files and cleaning
     $OSMAND_MAP_CREATOR_PATH/utilities.sh generate-obf-diff \
     $FILENAME_START.obf $FILENAME_END.obf $FILENAME_DIFF.diff.obf $FILENAME_CHANGE.osm
@@ -202,6 +206,7 @@ while true; do
     rm -r *.osm || true
     rm -r *.rtree* || true
     rm -r *.obf || true
+    echo "$START_DATE - $END_DATE done: $(date -u)" >> $DATE_LOG_FILE
   fi 
 
   START_DAY=$NSTART_DAY
