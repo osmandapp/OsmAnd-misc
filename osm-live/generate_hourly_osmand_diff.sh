@@ -174,8 +174,9 @@ while true; do
     echo # 2. Generate obf files & query change file
     echo "$QUERY_DIFF" | $REMOTE_SSH_STRING /home/overpass/osm3s/bin/osm3s_query  > $FILENAME_CHANGE.osm  &
     # SRTM takes too much time and memory at this step (probably it could be used at the change step)
-    $OSMAND_MAP_CREATOR_PATH/utilities.sh generate-obf-no-address $FILENAME_START.osm --add-region-tags --extra-relations="$LOW_EMMISION_ZONE_FILE" & # --srtm="$SRTM_DIR" &
-    $OSMAND_MAP_CREATOR_PATH/utilities.sh generate-obf-no-address $FILENAME_END.osm --add-region-tags --extra-relations="$LOW_EMMISION_ZONE_FILE" & # --srtm="$SRTM_DIR" &
+    
+    $OSMAND_MAP_CREATOR_PATH/utilities.sh generate-obf-no-address $FILENAME_START.osm --ram-process --add-region-tags --extra-relations="$LOW_EMMISION_ZONE_FILE" & # --srtm="$SRTM_DIR" &
+    $OSMAND_MAP_CREATOR_PATH/utilities.sh generate-obf-no-address $FILENAME_END.osm --ram-process --add-region-tags --extra-relations="$LOW_EMMISION_ZONE_FILE" & # --srtm="$SRTM_DIR" &
     wait
 
     TZ=UTC touch -c -d "$END_DATE" $FILENAME_CHANGE.osm
