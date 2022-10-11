@@ -96,30 +96,8 @@ while true; do
   if ! test "`find $LOW_EMMISION_ZONE_FILE -mmin -1440`"; then 
     echo "$QUERY_LOW_EMMISIONS_ZONE" | $REMOTE_SSH_STRING /home/overpass/osm3s/bin/osm3s_query  | gzip > $LOW_EMMISION_ZONE_FILE
   fi
-  #if [ -f "$FINAL_FOLDER/src/${FILENAME_DIFF}_before.obf.gz" ]; then
-  # disable for now
-  if false; then
-    # this path to speedup generation 10 times (if obf were generated before)
-      
-    $OSMAND_MAP_CREATOR_PATH/utilities.sh generate-obf-diff \
-    "$FINAL_FOLDER/src/${FILENAME_DIFF}_before.obf.gz" \
-    "$FINAL_FOLDER/src/${FILENAME_DIFF}_after.obf.gz" \
-    $FILENAME_DIFF.diff.obf \
-    "$FINAL_FOLDER/src/${FILENAME_DIFF}_diff.osm.gz"
+  
     
-    gzip -c $FILENAME_DIFF.diff.obf > $FINAL_FILE
-    TZ=UTC touch -c -d "$END_DATE" $FINAL_FILE
-  
-    $OSMAND_MAP_CREATOR_PATH/utilities.sh split-obf \
-    $FILENAME_DIFF.diff.obf $RESULT_DIR  \
-     "$DATE_NAME" "_$TIME_NAME"
-  
-  
-    rm -r *.osm || true
-    rm -r *.rtree* || true
-    rm -r *.obf || true
-  else
-    echo "$START_DATE - $END_DATE query data: $(date -u)" >> $DATE_LOG_FILE
     FULL_QUERY="
     // 1. get all nodes, ways, relation changed between START - END
     (
@@ -153,11 +131,16 @@ while true; do
 
     .a out geom meta;
     "
-    echo # 1. Query rich diffs
+
+    #######################
+    echo # 1. Query rich diffs - 2 in parallel
+    echo "$START_DATE - $END_DATE query data: $(date -u)" >> $DATE_LOG_FILE
     echo -e "$QUERY_START" | $REMOTE_SSH_STRING /home/overpass/osm3s/bin/osm3s_query > $FILENAME_START.osm &
     echo -e "$QUERY_END" | $REMOTE_SSH_STRING /home/overpass/osm3s/bin/osm3s_query  > $FILENAME_END.osm &
     wait
+    #######################
 
+    # 1.1 checks
     if ! grep -q "<\/osm>"  $FILENAME_START.osm; then
         rm $FILENAME_START.osm;
         exit 1;
@@ -169,49 +152,50 @@ while true; do
     fi
     TZ=UTC touch -c -d "$END_DATE" $FILENAME_START.osm
     TZ=UTC touch -c -d "$END_DATE" $FILENAME_END.osm
-    date -u
-    echo "$START_DATE - $END_DATE generate obf: $(date -u)" >> $DATE_LOG_FILE
+    
+    #######################
     echo # 2. Generate obf files & query change file
+    echo "$START_DATE - $END_DATE generate obf: $(date -u)" >> $DATE_LOG_FILE
     echo "$QUERY_DIFF" | $REMOTE_SSH_STRING /home/overpass/osm3s/bin/osm3s_query  > $FILENAME_CHANGE.osm  &
     # SRTM takes too much time and memory at this step (probably it could be used at the change step)
-    
     $OSMAND_MAP_CREATOR_PATH/utilities.sh generate-obf-no-address $FILENAME_START.osm --ram-process --add-region-tags --extra-relations="$LOW_EMMISION_ZONE_FILE" & # --srtm="$SRTM_DIR" &
     $OSMAND_MAP_CREATOR_PATH/utilities.sh generate-obf-no-address $FILENAME_END.osm --ram-process --add-region-tags --extra-relations="$LOW_EMMISION_ZONE_FILE" & # --srtm="$SRTM_DIR" &
     wait
+    #######################
 
+    # 2.1 checks
     TZ=UTC touch -c -d "$END_DATE" $FILENAME_CHANGE.osm
     if ! grep -q "<\/osm>"  $FILENAME_CHANGE.osm; then
        exit 1;
     fi
-    date -u
+
+    #######################
+    echo # 3. Generate diff files & split files and cleaning
+    echo "$START_DATE - $END_DATE generate diff: $(date -u)" >> $DATE_LOG_FILE
+    $OSMAND_MAP_CREATOR_PATH/utilities.sh generate-obf-diff \
+        $FILENAME_START.obf $FILENAME_END.obf $FILENAME_DIFF.diff.obf $FILENAME_CHANGE.osm
+    $OSMAND_MAP_CREATOR_PATH/utilities.sh split-obf \
+        $FILENAME_DIFF.diff.obf $RESULT_DIR  "$DATE_NAME" "_$TIME_NAME"
+    #######################
+  
+    #######################
+    echo # 4. ZIP all files & cleaning
     echo "$START_DATE - $END_DATE zip files: $(date -u)" >> $DATE_LOG_FILE
-    echo # 3. ZIP all files
     gzip -c $FILENAME_START.obf > $FINAL_FOLDER/src/${FILENAME_DIFF}_before.obf.gz &
     gzip -c $FILENAME_END.obf > $FINAL_FOLDER/src/${FILENAME_DIFF}_after.obf.gz &
     gzip -c $FILENAME_CHANGE.osm > $FINAL_FOLDER/src/${FILENAME_DIFF}_diff.osm.gz &
-    wait
-    #gzip -c $FILENAME_START.osm > $FINAL_FOLDER/src/${FILENAME_DIFF}_before.osm.gz
-    #gzip -c $FILENAME_END.osm > $FINAL_FOLDER/src/${FILENAME_DIFF}_after.osm.gz
-  
-    echo "$START_DATE - $END_DATE generate diff: $(date -u)" >> $DATE_LOG_FILE
-    echo # 4. Generate diff files, split files and cleaning
-    $OSMAND_MAP_CREATOR_PATH/utilities.sh generate-obf-diff \
-    $FILENAME_START.obf $FILENAME_END.obf $FILENAME_DIFF.diff.obf $FILENAME_CHANGE.osm
-
     gzip -c $FILENAME_DIFF.diff.obf > $FINAL_FILE
     TZ=UTC touch -c -d "$END_DATE" $FINAL_FILE
-  
-    $OSMAND_MAP_CREATOR_PATH/utilities.sh split-obf \
-    $FILENAME_DIFF.diff.obf $RESULT_DIR  \
-     "$DATE_NAME" "_$TIME_NAME"
-  
+    wait
+    #######################
+    #gzip -c $FILENAME_START.osm > $FINAL_FOLDER/src/${FILENAME_DIFF}_before.osm.gz
+    #gzip -c $FILENAME_END.osm > $FINAL_FOLDER/src/${FILENAME_DIFF}_after.osm.gz
   
     rm -r *.osm || true
     rm -r *.rtree* || true
     rm -r *.obf || true
-    echo "$START_DATE - $END_DATE done: $(date -u)" >> $DATE_LOG_FILE
-  fi 
 
+  # NEXT ITERATION
   START_DAY=$NSTART_DAY
   START_TIME=$NSTART_TIME
 
