@@ -1,17 +1,20 @@
 #!/bin/bash -xe
 
-pbf2o5m() {
-	echo Converting $1 to o5m
-	time osmconvert $1.pbf --out-o5m > $1.o5m
-	if [[ $? != 0 ]]; then
-		echo Error
-	else rm $1.pbf
-	fi
-	TZ=UTC touch -c -d "$(date +%Y-%m)-01" $1.o5m
-}
-
 DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
 TARGETDIR=/home/osm-planet/osm-extract
+
+pbf2o5m() {
+	echo Converting $1 to o5m
+	time osmconvert $TARGETDIR/$1.pbf --out-o5m > $TARGETDIR/$1.o5m
+	if [[ $? != 0 ]]; then
+		echo Error
+	else 
+		rm $TARGETDIR/$1.pbf
+	fi
+	TZ=UTC touch -c -d "$(date +%Y-%m)-01" $TARGETDIR/$1.o5m
+}
+
+
 osmium_extract() {
 	echo Extracting from $1.json to $TARGETDIR/$1.$2
 	time osmium extract -c "$DIR/$1.json" -s smart -S types=multipolygon --overwrite $TARGETDIR/$1.$2
@@ -19,10 +22,8 @@ osmium_extract() {
 
 # osmium_extract planet-latest o5m
 # osmium_extract europe pbf
-osmium_extract north-america pbf
+# osmium_extract north-america pbf
 
-
-# time osmconvert --complex-ways --complete-ways australia-oceania-all.o5m -B=australia-oceania.poly -o=australia-oceania-osmconvert.pbf
 
 pbf2o5m europe
 pbf2o5m north-america
