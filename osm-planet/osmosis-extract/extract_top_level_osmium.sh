@@ -14,7 +14,7 @@ DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
 TARGETDIR=/home/osm-planet/osm-extract
 osmium_extract() {
 	echo Extracting from $1.json to $TARGETDIR/$1.$2
-	time osmium extract -c $1.json -s smart -S types=multipolygon --overwrite $TARGETDIR/$1.$2
+	time osmium extract -c "$DIR/$1.json" -s smart -S types=multipolygon --overwrite $TARGETDIR/$1.$2
 	# TZ=UTC touch -c -d "$(date +%Y-%m)-01" $1.pbf
 }
 
