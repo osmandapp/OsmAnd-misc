@@ -1,0 +1,17 @@
+{
+    "directory": "/mnt/home-ssd/osm-planet/osm-extract-test",
+    "extracts": [
+        {
+            "output": "us.pbf",
+            "polygon": {
+                "file_name": "us.poly"
+            }
+        },
+        {
+            "output": "canada.pbf",
+            "polygon": {
+                "file_name": "canada.poly"
+            }
+        }
+]
+}

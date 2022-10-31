@@ -1,0 +1,35 @@
+{
+    "directory": "/mnt/home-ssd/osm-planet/osm-extract-test",
+    "extracts": [
+        {
+            "output": "great-britain.pbf",
+            "polygon": {
+                "file_name": "great-britain.poly"
+            }
+        },
+        {
+            "output": "east-europe.pbf",
+            "polygon": {
+                "file_name": "east-europe.poly"
+            }
+        },
+           {
+            "output": "south-europe.pbf",
+            "polygon": {
+                "file_name": "south-europe.poly"
+            }
+        },
+        {
+            "output": "north-europe.pbf",
+            "polygon": {
+                "file_name": "north-europe.poly"
+            }
+        },
+        {
+            "output": "west-europe.pbf",
+            "polygon": {
+                "file_name": "west-europe.poly"
+            }
+        }
+]
+}

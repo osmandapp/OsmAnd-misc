@@ -1,0 +1,53 @@
+{
+    "directory": "/mnt/home-ssd/osm-planet/osm-extract-test",
+    "extracts": [
+        {
+            "output": "europe.pbf",
+            "polygon": {
+                "file_name": "europe.poly"
+            }
+        },
+        {
+            "output": "russia.pbf",
+            "polygon": {
+                "file_name": "russia.poly"
+            }
+        },
+        {
+            "output": "asia.pbf",
+            "polygon": {
+                "file_name": "asia.poly"
+            }
+        },
+        {
+            "output": "central-america.pbf",
+            "polygon": {
+                "file_name": "central-america.poly"
+            }
+        },
+        {
+            "output": "south-america.pbf",
+            "polygon": {
+                "file_name": "south-america.poly"
+            }
+        },
+        {
+            "output": "north-america.pbf",
+            "polygon": {
+                "file_name": "north-america.poly"
+            }
+        },
+        {
+            "output": "africa.pbf",
+            "polygon": {
+                "file_name": "africa.poly"
+            }
+        },
+        {
+            "output": "australia-oceania-all.pbf",
+            "polygon": {
+                "file_name": "australia-oceania-all.poly"
+            }
+        }
+   ]
+}

@@ -1,0 +1,17 @@
+{
+    "directory": "/mnt/home-ssd/osm-planet/osm-extract-test",
+    "extracts": [
+        {
+            "output": "east-asia.pbf",
+            "polygon": {
+                "file_name": "east-asia.poly"
+            }
+        },
+        {
+            "output": "ocean-asia.pbf",
+            "polygon": {
+                "file_name": "ocean-asia.poly"
+            }
+        }
+]
+}
