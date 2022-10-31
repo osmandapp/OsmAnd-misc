@@ -20,6 +20,18 @@
             }
         },
         {
+            "output": "east-asia.pbf",
+            "polygon": {
+                "file_name": "east-asia.poly"
+            }
+        },
+        {
+            "output": "ocean-asia.pbf",
+            "polygon": {
+                "file_name": "ocean-asia.poly"
+            }
+        },
+        {
             "output": "central-america.pbf",
             "polygon": {
                 "file_name": "central-america.poly"
@@ -41,6 +53,12 @@
             "output": "africa.pbf",
             "polygon": {
                 "file_name": "africa.poly"
+            }
+        },
+        {
+            "output": "antarctica.pbf",
+            "polygon": {
+                "file_name": "antarctica.poly"
             }
         },
         {
