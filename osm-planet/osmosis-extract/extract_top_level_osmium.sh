@@ -15,24 +15,12 @@ TARGETDIR=/home/osm-planet/osm-extract
 osmium_extract() {
 	echo Extracting from $1.json to $TARGETDIR/$1.$2
 	time osmium extract -c "$DIR/$1.json" -s smart -S types=multipolygon --overwrite $TARGETDIR/$1.$2
-	# TZ=UTC touch -c -d "$(date +%Y-%m)-01" $1.pbf
 }
 
-osmium_extract planet-latest o5m
-osmium_extract europe pbf
+# osmium_extract planet-latest o5m
+# osmium_extract europe pbf
 osmium_extract north-america pbf
-# osmium_extract west-europe $DIR pbf
-# osmium_extract asia $DIR pbf
-# osmium_extract us $DIR pbf
-# osmium_extract australia-oceania-all $DIR pbf
 
-# time osmium extract -c planet-latest.json -s smart -S types=multipolygon $DIR/planet-latest.o5m
-# time osmium extract -c europe.json -s smart -S types=multipolygon $DIR/europe.pbf
-# time osmium extract -c west-europe.json -s smart -S types=multipolygon $DIR/west-europe.pbf
-# time osmium extract -c asia.json -s smart -S types=multipolygon $DIR/asia.pbf
-# time osmium extract -c north-america.json -s smart -S types=multipolygon $DIR/north-america.pbf
-# time osmium extract -c us.json -s smart -S types=multipolygon $DIR/us.pbf
-# time osmium extract -c australia-oceania-all.json -s smart -S types=multipolygon $DIR/australia-oceania-all.pbf
 
 # time osmconvert --complex-ways --complete-ways australia-oceania-all.o5m -B=australia-oceania.poly -o=australia-oceania-osmconvert.pbf
 
