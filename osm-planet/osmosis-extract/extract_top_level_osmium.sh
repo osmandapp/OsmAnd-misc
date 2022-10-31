@@ -6,13 +6,14 @@ TARGETDIR=/home/osm-planet/osm-extract
 pbf2o5m() {
 	echo Converting $1 to o5m
 	TZ=UTC touch -c -d "$(date +%Y-%m)-01" $TARGETDIR/$1.pbf
-	time osmconvert $TARGETDIR/$1.pbf --out-o5m > $TARGETDIR/$1.o5m
+	
+	# time osmconvert $TARGETDIR/$1.pbf --out-o5m > $TARGETDIR/$1.o5m
 	# if [[ $? != 0 ]]; then
 	# 	echo Error
 	# else 
 	# 	rm $TARGETDIR/$1.pbf
 	# fi
-	TZ=UTC touch -c -d "$(date +%Y-%m)-01" $TARGETDIR/$1.o5m
+	# TZ=UTC touch -c -d "$(date +%Y-%m)-01" $TARGETDIR/$1.o5m
 }
 
 
@@ -21,9 +22,9 @@ osmium_extract() {
 	time osmium extract -c "$DIR/$1.json" -s smart -S types=multipolygon --overwrite $TARGETDIR/$1.$2
 }
 
-# osmium_extract planet-latest o5m
-# osmium_extract europe pbf
-# osmium_extract north-america pbf
+osmium_extract planet-latest o5m
+osmium_extract europe pbf
+osmium_extract north-america pbf
 
 
 pbf2o5m europe
