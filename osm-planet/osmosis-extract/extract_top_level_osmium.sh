@@ -11,11 +11,11 @@ pbf2o5m() {
 }
 
 DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
-
+TARGETDIR=/home/osm-planet/osm-extract
 osmium_extract() {
-	echo Extracting $1 to $2/$1.$3
-	time osmium extract -c "$DIR/$1.json" -s smart -S types=multipolygon --overwrite $1.$3
-	TZ=UTC touch -c -d "$(date +%Y-%m)-01" $1.pbf
+	echo Extracting from $1.json to $TARGETDIR/$1.$2
+	time osmium extract -c $1.json -s smart -S types=multipolygon --overwrite $TARGETDIR/$1.$2
+	# TZ=UTC touch -c -d "$(date +%Y-%m)-01" $1.pbf
 }
 
 osmium_extract planet-latest o5m
