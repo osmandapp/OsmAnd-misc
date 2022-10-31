@@ -5,12 +5,13 @@ TARGETDIR=/home/osm-planet/osm-extract
 
 pbf2o5m() {
 	echo Converting $1 to o5m
+	TZ=UTC touch -c -d "$(date +%Y-%m)-01" $TARGETDIR/$1.pbf
 	time osmconvert $TARGETDIR/$1.pbf --out-o5m > $TARGETDIR/$1.o5m
-	if [[ $? != 0 ]]; then
-		echo Error
-	else 
-		rm $TARGETDIR/$1.pbf
-	fi
+	# if [[ $? != 0 ]]; then
+	# 	echo Error
+	# else 
+	# 	rm $TARGETDIR/$1.pbf
+	# fi
 	TZ=UTC touch -c -d "$(date +%Y-%m)-01" $TARGETDIR/$1.o5m
 }
 
