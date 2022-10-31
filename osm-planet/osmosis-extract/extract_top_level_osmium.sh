@@ -18,11 +18,11 @@ osmium_extract() {
 
 osmium_extract planet-latest $DIR o5m
 osmium_extract europe $DIR pbf
-osmium_extract west-europe $DIR pbf
-osmium_extract asia $DIR pbf
 osmium_extract north-america $DIR pbf
-osmium_extract us $DIR pbf
-osmium_extract australia-oceania-all $DIR pbf
+# osmium_extract west-europe $DIR pbf
+# osmium_extract asia $DIR pbf
+# osmium_extract us $DIR pbf
+# osmium_extract australia-oceania-all $DIR pbf
 
 # time osmium extract -c planet-latest.json -s smart -S types=multipolygon $DIR/planet-latest.o5m
 # time osmium extract -c europe.json -s smart -S types=multipolygon $DIR/europe.pbf
