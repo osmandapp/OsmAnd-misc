@@ -1,4 +1,5 @@
-#!/bin/bash
+#!/bin/bash -xe
+
 pbf2o5m() {
 	echo Converting $1 to o5m
 	time osmconvert $1.pbf --out-o5m > $1.o5m
@@ -8,17 +9,18 @@ pbf2o5m() {
 	fi
 	TZ=UTC touch -c -d "$(date +%Y-%m)-01" $1.o5m
 }
-DIR=/home/osm-planet
+
+DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
 
 osmium_extract() {
-	echo Extracting $1 $2 $3
-	time osmium extract -c $1.json -s smart -S types=multipolygon --overwrite $2/$1.$3
+	echo Extracting $1 to $2/$1.$3
+	time osmium extract -c $DIR/$1.json -s smart -S types=multipolygon --overwrite $1.$3
 	TZ=UTC touch -c -d "$(date +%Y-%m)-01" $1.pbf
 }
 
-osmium_extract planet-latest $DIR o5m
-osmium_extract europe $DIR pbf
-osmium_extract north-america $DIR pbf
+osmium_extract planet-latest o5m
+osmium_extract europe pbf
+osmium_extract north-america pbf
 # osmium_extract west-europe $DIR pbf
 # osmium_extract asia $DIR pbf
 # osmium_extract us $DIR pbf
