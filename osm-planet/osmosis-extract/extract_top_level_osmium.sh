@@ -56,7 +56,6 @@ pbf2o5m canada
 pbf2o5m us-south
 pbf2o5m us-northcentral
 pbf2o5m great-britain
-pbf2o5m europe-highway-tertiary
 pbf2o5m australia-oceania-all
 pbf2o5m central-america
 pbf2o5m antarctica
