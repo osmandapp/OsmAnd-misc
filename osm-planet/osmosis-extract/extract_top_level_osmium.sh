@@ -8,7 +8,7 @@ pbf2o5m() {
 	fi
 	TZ=UTC touch -c -d "$(date +%Y-%m)-01" $1.o5m
 }
-DIR=/mnt/home-ssd/osm-planet
+DIR=/home/osm-planet
 
 osmium_extract() {
 	echo Extracting $1 $2 $3
