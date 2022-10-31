@@ -39,7 +39,6 @@ pbf2o5m north-america
 pbf2o5m asia
 pbf2o5m west-europe
 pbf2o5m us
-pbf2o5m europe-highway
 pbf2o5m africa
 pbf2o5m ocean-asia
 pbf2o5m south-europe
