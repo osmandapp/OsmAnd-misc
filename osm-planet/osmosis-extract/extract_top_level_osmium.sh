@@ -13,7 +13,7 @@ pbf2o5m() {
 	# else 
 	# 	rm $TARGETDIR/$1.pbf
 	# fi
-	# TZ=UTC touch -c -d "$(date +%Y-%m)-01" $TARGETDIR/$1.o5m
+	# TZ=UTC touch -c -d "$(date +%Y-%m)-01" $TARGETDIR/$1.o5mщл
 }
 
 
