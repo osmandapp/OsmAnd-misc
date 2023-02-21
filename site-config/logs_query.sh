@@ -116,6 +116,7 @@ for i in `seq $RSTART $REND`; do
 		VERSION="version = ''"
 		VERSION_P="ios"
 		USER_COLUMN="ip"
+		USER_COLUMN="aid"
 	else
 		VERSION="version like 'OsmAnd+%'"
 		VERSION_P="free"
