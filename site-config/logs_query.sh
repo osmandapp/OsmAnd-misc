@@ -114,6 +114,7 @@ for i in `seq $RSTART $REND`; do
 		USER_COLUMN="aid"
 	elif (($i == 3)) || (($i == 4)); then
 		VERSION="version = ''"
+		VERSION="version like 'OsmAndIO%'"
 		VERSION_P="ios"
 		USER_COLUMN="ip"
 		USER_COLUMN="aid"
