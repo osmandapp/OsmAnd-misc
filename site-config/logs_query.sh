@@ -133,6 +133,9 @@ for i in `seq $RSTART $REND`; do
 	NAME=report_retention_${INF}_$VERSION_P
 	echo "Retention $i. $(date) - $NAME"
 psql -d $DB_NAME -U $DB_USER -c "SELECT $SELECT_DATE date, COUNT($USER_COLUMN) allUsers, round( AVG(starts), 2) avgSt, round(AVG(numberdays), 2) avgNd,  \
+ SUM( CASE WHEN maxday >= minday + 1 THEN 1 ELSE 0 END ) dRetUsers, \
+ SUM( CASE WHEN maxday >= minday + 1 THEN starts ELSE 0 END ) / (SUM( CASE WHEN maxday >= minday + 1 THEN 1 ELSE 0 END ) + 1) dRetSt, \
+ SUM( CASE WHEN maxday >= minday + 1 THEN numberdays ELSE 0 END )  / (SUM( CASE WHEN maxday >= minday + 1 THEN 1 ELSE 0 END ) + 1) dRetNd, \
  SUM( CASE WHEN maxday >= minday + 7 THEN 1 ELSE 0 END ) wRetUsers, \
  SUM( CASE WHEN maxday >= minday + 7 THEN starts ELSE 0 END ) / (SUM( CASE WHEN maxday >= minday + 7 THEN 1 ELSE 0 END ) + 1) wRetSt, \
  SUM( CASE WHEN maxday >= minday + 7 THEN numberdays ELSE 0 END )  / (SUM( CASE WHEN maxday >= minday + 7 THEN 1 ELSE 0 END ) + 1) wRetNd, \
