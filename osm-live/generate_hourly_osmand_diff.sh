@@ -118,6 +118,8 @@ while true; do
     (way(r.a);.a;) ->.a; 
     (node(r.a);.a;) ->.a;
     (node(w.a);.a;) ->.a;
+    // (relation(bw.a);.a;) ->.a; // needs to retrieve 1) all turn restrictions on highway 2) all routes
+    // (relation(bn.a);.a;) ->.a; // needs to retrieve 1) all turn restrictions on highway
     .a out meta;
     "
     QUERY_START="[timeout:3600][maxsize:2000000000][date:\"$START_DATE\"]; $FULL_QUERY";
