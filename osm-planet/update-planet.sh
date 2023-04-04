@@ -20,11 +20,11 @@ if [[ ! -d "listing_tmp" ]] ; then mkdir listing_tmp; fi
 if [[ -d "osc_tmp" ]] ; then rm osc_tmp/* || true; fi
 if [[ ! -d "osc_tmp" ]] ; then mkdir osc_tmp; fi
 
-echo Getting file list from http://planet.openstreetmap.org/replication/day...
+echo Getting file list from https://planet.openstreetmap.org/replication/day...
 for (( num=0; num<=999; num++ )) ; do
 {
 	n="$(printf "%03d" $num)"
-	lynx --dump --nolist http://planet.openstreetmap.org/replication/day/000/$n/ | grep txt | sed 's/\[TXT\]//g'| sed 's/^[ \t]*//' > listing_tmp/$n.dmp
+	lynx --dump --nolist https://planet.openstreetmap.org/replication/day/000/$n/ | grep txt | sed 's/\[TXT\]//g'| sed 's/^[ \t]*//' > listing_tmp/$n.dmp
 	if [[ $(stat --printf="%s" listing_tmp/$n.dmp) -lt 100 ]] ; then
 		rm listing_tmp/$n.dmp || true
 		break
@@ -54,7 +54,7 @@ echo Downloading OSC from $PLANET_RDIR/$PLANET_TIMESTAMP_FILENAME to $FIRST_DAY_
 for (( osc=$(echo $PLANET_RDIR$PLANET_TIMESTAMP_FILENAME | sed 's/^0*//g'); osc<=$(echo $FIRST_DAY_RDIR$FIRST_DAY_TIMESTAMP_FILENAME | sed 's/^0*//g'); osc++ )) ; do
 	osc_seq="$(printf "%06d" $osc)"
 	echo ${osc_seq:0:3}/${osc_seq:3:6}
-	wget -q --directory-prefix=osc_tmp/ -nc -c http://planet.openstreetmap.org/replication/day/000/${osc_seq:0:3}/${osc_seq:3:6}.osc.gz
+	wget -q --directory-prefix=osc_tmp/ -nc -c https://planet.openstreetmap.org/replication/day/000/${osc_seq:0:3}/${osc_seq:3:6}.osc.gz
 done
 echo Copying planet...
 cp -f $PLANET_FULL_PATH ${PLANET_FULL_PATH}_bak
