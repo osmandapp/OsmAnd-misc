@@ -10,8 +10,8 @@ if [ ! -d "$LOCAL_SITE_DIR/website/.git" ]; then
  git init 
  git remote add origin https://github.com/osmandapp/web-server-config.git
  git fetch
- git reset origin/master
- git checkout -t origin/master
+ git reset origin/main
+ git checkout -t origin/main
 else 
  git pull
 fi
