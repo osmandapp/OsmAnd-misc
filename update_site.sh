@@ -4,6 +4,17 @@ if [ -z "$LOCAL_SITE_DIR" ]; then
 	LOCAL_SITE_DIR=/var/www-download
 fi
 mkdir -p $LOCAL_SITE_DIR
+mkdir -p $LOCAL_SITE_DIR/website
+cd "$LOCAL_SITE_DIR/website"
+if [ ! -d "$LOCAL_SITE_DIR/website/.git" ]; then
+ git init 
+ git remote add origin https://github.com/osmandapp/web-server-config.git
+ git fetch
+ git reset origin/master
+ git checkout -t origin/master
+else 
+ git pull
+fi
 # (if doesn't exist) git clone https://github.com/osmandapp/osmandapp.github.io.git $LOCAL_SITE_DIR
 
 mkdir -p $LOCAL_SITE_DIR/hillshade
@@ -43,5 +54,4 @@ mkdir -p $LOCAL_SITE_DIR/gen
 cp misc/config/nginx-main/*.conf /etc/nginx/server-include/ || true
 sudo service nginx reload || true
 
-cd $LOCAL_SITE_DIR  && git pull
 chgrp -R www-data $LOCAL_SITE_DIR/*
