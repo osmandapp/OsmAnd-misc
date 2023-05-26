@@ -12,9 +12,11 @@ if [ ! -d "$LOCAL_SITE_DIR/website/.git" ]; then
  git fetch
  git reset origin/main
  git checkout -t origin/main
+ git restore .
 else 
  git pull
 fi
+cd -
 # (if doesn't exist) git clone https://github.com/osmandapp/osmandapp.github.io.git $LOCAL_SITE_DIR
 
 mkdir -p $LOCAL_SITE_DIR/hillshade
