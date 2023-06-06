@@ -53,7 +53,7 @@ else:
         date time, day text, version text, aid text, ns int, nd int);''')
     conn.commit()
 
-print "Prepare data (max day is %s) " % maxday
+print("Prepare data (max day is %s) " % maxday)
 ## Prepare data
 ind = 0
 skipped = 0;
@@ -62,7 +62,7 @@ for line in file:
     ind+=1;
     # Parse data from each line
     if ind % 10000 == 0:
-        print "Lines %d (skipped %d, inserted %d) " % ((ind / 10000), skipped, inserted)
+        print("Lines %d (skipped %d, inserted %d) " % ((ind / 10000), skipped, inserted))
         sys.stdout.flush()
         conn.commit()
     # if (ind / 10000) < 3918:
@@ -138,8 +138,8 @@ for line in file:
                 c.execute("INSERT INTO geoip(ip, land, date, day) VALUES (?, ?, ?, ?)", 
                         [ip, country, tm, day])                
     except:
-        print line
-        print "Unexpected error:", sys.exc_info()[0]
+        print(line)
+        print("Unexpected error:", sys.exc_info()[0])
 
 
 conn.commit()
@@ -150,7 +150,7 @@ conn.commit()
 #     conn.commit()
 
 if not postgres:
-    print "Create indexes"
+    print("Create indexes")
     c.execute('''CREATE INDEX requests_ip on requests (ip);''')
     c.execute('''CREATE INDEX downloads_ip on downloads (ip);''')
     c.execute('''CREATE INDEX requests_day on requests (day);''')
@@ -166,7 +166,7 @@ if not postgres:
     
     conn.commit()
     for row in c.execute("SELECT count(*) from requests"):
-        print row
+        print(row)
  
  # CREATE INDEX requests_day on requests (day);
  # ALTER TABLE requests CLUSTER ON requests_day;
