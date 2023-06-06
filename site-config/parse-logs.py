@@ -1,5 +1,5 @@
 #!/usr/bin/python
-from geoip import geolite2
+from geolite2 import geolite2
 import os
 import re
 import sqlite3
@@ -92,10 +92,14 @@ for line in file:
         ns = parseLine("ns", requested_url)
         nd = parseLine("nd", requested_url)
         #response_code = unquoted_data[6]
-        match = geolite2.lookup(ip)
+        reader = geolite2.reader()
+        match = reader.get(ip)        
         country = ""
-        if match is not None: 
-            country = match.country
+        if match:
+            if 'country' in match:
+                country = match['country']['iso_code']
+            else:
+                country = match['continent']['code']
         # print "Ip " + ip + " date " + date + " aid=" + aid + " ns=" + ns+ " nd=" + nd + " ver="+ version
         tm = datetime.datetime.strptime(date[:-6], "%d/%b/%Y:%H:%M:%S")
         day = "%s" % tm;
