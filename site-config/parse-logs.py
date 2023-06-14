@@ -36,13 +36,13 @@ if postgres:
 else:
     conn = sqlite3.connect(os.environ['LOG_FILE']+'.sqlite')
     c = conn.cursor()
-    
+
     # Build the SQLite database if needed
     c.execute('''DROP TABLE IF EXISTS requests;''')
     c.execute('''DROP TABLE IF EXISTS downloads;''')
     c.execute('''DROP TABLE IF EXISTS geoip;''')
     c.execute('''DROP TABLE IF EXISTS motd;''')
-    c.execute('''VACUUM FULL;''')
+    c.execute('''VACUUM;''')
     c.execute('''CREATE TABLE requests (ip text, land text,
         date time, day text, aid text, ns int, nd int, version text);''')
     c.execute('''CREATE TABLE downloads (ip text, land text,
@@ -56,20 +56,20 @@ else:
 print("Prepare data (max day is %s) " % maxday)
 ## Prepare data
 ind = 0
-skipped = 0;
-inserted = 0;
+skipped = 0
+inserted = 0
 for line in file:
-    ind+=1;
+    ind += 1
     # Parse data from each line
     if ind % 10000 == 0:
-        print("Lines %d (skipped %d, inserted %d) " % ((ind / 10000), skipped, inserted))
+        print("Lines %d (skipped %d, inserted %d) " % (ind, skipped, inserted))
         sys.stdout.flush()
         conn.commit()
     # if (ind / 10000) < 3918:
     #     continue;
-    if ( "/get_indexes" not in line and "/download" not in line 
-        and "/motd" not in line and "/geo-ip" not in line ):
-        continue;
+    if ("/get_indexes" not in line and "/download" not in line
+            and "/motd" not in line and "/geo-ip" not in line):
+        continue
     try:
         date = re.findall("\[.*?\]", line)[0][1:-1]
         quoted_data = re.findall("\".*?\"", line)
@@ -93,26 +93,28 @@ for line in file:
         nd = parseLine("nd", requested_url)
         #response_code = unquoted_data[6]
         reader = geolite2.reader()
-        match = reader.get(ip)        
+        match = reader.get(ip)
         country = ""
         if match:
             if 'country' in match:
                 country = match['country']['iso_code']
-            else:
+            elif 'continent' in match:
                 country = match['continent']['code']
+            else:
+                country = match['registered_country']['iso_code']
         # print "Ip " + ip + " date " + date + " aid=" + aid + " ns=" + ns+ " nd=" + nd + " ver="+ version
         tm = datetime.datetime.strptime(date[:-6], "%d/%b/%Y:%H:%M:%S")
-        day = "%s" % tm;
+        day = "%s" % tm
         day = day[0:10]
         if ns == "":
             ns = None
         if nd == "":
             nd = None
-        if tm.strftime('%Y-%m-%d %H:%M:%S')  < maxday:
-            skipped += 1;
-            continue;
+        if tm.strftime('%Y-%m-%d %H:%M:%S') < maxday:
+            skipped += 1
+            continue
         #Insert elements into rows
-        inserted += 1;
+        inserted += 1
         if "get_indexes" in line:
             if postgres:
                 c.execute("INSERT INTO requests(ip, land, date, day, aid, ns, nd, version) VALUES (%s, %s, %s, %s, %s, %s, %s, %s)", 
@@ -140,11 +142,10 @@ for line in file:
                         (ip, country, tm.strftime('%Y-%m-%d %H:%M:%S'), day))
             else:
                 c.execute("INSERT INTO geoip(ip, land, date, day) VALUES (?, ?, ?, ?)", 
-                        [ip, country, tm, day])                
-    except:
+                        [ip, country, tm, day])
+    except Exception as error:
+        print(f"Unexpected {error=}, {type(error)=}")
         print(line)
-        print("Unexpected error:", sys.exc_info()[0])
-
 
 conn.commit()
 # if postgres and os.environ['DELETE_DUPLICATES'] == 'true':
