@@ -7,30 +7,37 @@ import datetime
 import gzip
 import sys
 import psycopg2
+import urllib.parse
+
 
 ## Load in the log file
 def parseLine(var, line):
-      res = re.findall(var+"=([^\&\ ]+)", line)
-      if len(res) > 0:
-            return res[0];
-      return ""
+    res = re.findall(var+"=([^\&\ ]+)", line)
+    if len(res) > 0:
+        return res[0]
+    return ""
 
 
-postgres = os.environ['DB_TYPE'] == 'postgres';
+postgres = os.environ['DB_TYPE'] == 'postgres'
 
 if 'gz' in os.environ['LOG_FILE']:
-   file = gzip.open( os.environ['LOG_FILE'], 'rb')
+    file = gzip.open(os.environ['LOG_FILE'], 'rt')
 else:
-   file = open(os.environ['LOG_FILE'])
+    file = open(os.environ['LOG_FILE'])
 ## Create a database
 maxday = ""
 if postgres:
     conn_string = "host='localhost' dbname='"+os.environ['DB_NAME']+"' user='"+os.environ['DB_USER']+"' password='"+os.environ['DB_PWD']+"'"
     conn = psycopg2.connect(conn_string)
     c = conn.cursor()
-    ## DDL for postgres
-    ## CREATE TABLE requests (ip text, land text, date time, day text, aid text, ns int, nd int, version text);
-    ## CREATE TABLE downloads (ip text, land text, date time, day text, download text, version text);
+    # DDL for postgres
+    # c.execute("CREATE TABLE requests (ip text, land text, date time, day text, aid text, ns int, nd int, version text);")
+    # c.execute("CREATE TABLE downloads (ip text, land text, date time, day text, download text, version text);")
+    # c.execute("CREATE TABLE geoip(ip text, land text, date time, day text);")
+    # c.execute("CREATE TABLE motd (ip text, land text, date time, day text, version text, aid text, ns int, nd int);")
+    # c.execute("INSERT INTO downloads (date, day) values ('00:00','2010-01-01');")
+    # conn.commit()
+
     c.execute("select max(day || ' '  || date) from downloads where day = (SELECT max(day)  from downloads)");
     maxday = c.fetchall()[0][0]
 else:
@@ -74,7 +81,7 @@ for line in file:
         date = re.findall("\[.*?\]", line)[0][1:-1]
         quoted_data = re.findall("\".*?\"", line)
 
-        requested_url = quoted_data[0]
+        requested_url = urllib.parse.unquote(quoted_data[0])
         #referer = quoted_data[1]
         #agent = quoted_data[2]
         #unquoted_data_stream = re.sub("\".*?\"", "", line)    
