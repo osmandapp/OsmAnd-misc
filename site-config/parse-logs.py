@@ -7,11 +7,13 @@ import datetime
 import gzip
 import sys
 import psycopg2
-import urllib.parse
 
 
 ## Load in the log file
 def parseLine(var, line):
+    encoded_res = re.findall(var+"=(\S+?(?=%26))", line)
+    if len(encoded_res) > 0:
+        return encoded_res[0]
     res = re.findall(var+"=([^\&\ ]+)", line)
     if len(res) > 0:
         return res[0]
@@ -81,7 +83,7 @@ for line in file:
         date = re.findall("\[.*?\]", line)[0][1:-1]
         quoted_data = re.findall("\".*?\"", line)
 
-        requested_url = urllib.parse.unquote(quoted_data[0])
+        requested_url = quoted_data[0]
         #referer = quoted_data[1]
         #agent = quoted_data[2]
         #unquoted_data_stream = re.sub("\".*?\"", "", line)    
