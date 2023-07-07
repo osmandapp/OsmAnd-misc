@@ -14,48 +14,62 @@ PLANET_TIMESTAMP=${PLANET_TIMESTAMP:0:10}
 # PLANET_TIMESTAMP="2020-11-29" # FOR HOTFIXES
 
 FIRST_DAY_TIMESTAMP=$(date +%Y-%m)-01
+OS=$(uname)
+MIN_DATE="2023-01-01"
+if [ "$OS" = "Darwin" ]; then
+	MIN_DATE=$(date -j -v-3m +"%Y-%m")-01
+fi
+if [ "$OS" = "Linux" ]; then
+	MIN_DATE=$(date --date="3 month ago" +"%Y-%m")-01
+fi
 
 if [[ -d "listing_tmp" ]] ; then rm listing_tmp/* || true; fi
 if [[ ! -d "listing_tmp" ]] ; then mkdir listing_tmp; fi
-if [[ -d "osc_tmp" ]] ; then rm osc_tmp/* || true; fi
+#if [[ -d "osc_tmp" ]] ; then rm osc_tmp/* || true; fi
 if [[ ! -d "osc_tmp" ]] ; then mkdir osc_tmp; fi
 
-echo Getting file list from https://planet.openstreetmap.org/replication/day...
-for (( num=0; num<=999; num++ )) ; do
-{
-	n="$(printf "%03d" $num)"
-	lynx --dump --nolist https://planet.openstreetmap.org/replication/day/000/$n/ | grep txt | sed 's/\[TXT\]//g'| sed 's/^[ \t]*//' > listing_tmp/$n.dmp
-	if [[ $(stat --printf="%s" listing_tmp/$n.dmp) -lt 100 ]] ; then
-		rm listing_tmp/$n.dmp || true
+LISTING_FILE=listing_tmp/file_list.txt
+URL="https://planet.openstreetmap.org/replication/day/000/"
+echo Getting file list from $URL
+DAY_DIRS=( $(wget -qO- $URL | grep '\[DIR\]' | sed -e 's/<[^>]*>//g' | awk '{print $1}' ) )
+for dir in "${DAY_DIRS[@]}"
+do
+   : 
+   echo -e "Collect files in $URL$dir"
+   wget -qO- $URL$dir | sed -e 's/<[^>]*>//g' | grep txt | awk -v url=$URL -v dir="$dir" '{print url dir $1" "$2}' >> $LISTING_FILE
+done
+
+DOWNLOAD=false
+while IFS= read -r line
+do
+	DATE=${line: -10}
+	FILE=$(awk '{print $1}' <<< $line)
+	FILE="${FILE/.state.txt/.osc.gz}"
+	if [ "$DATE" = "$FIRST_DAY_TIMESTAMP" ]; then
+		DOWNLOAD=true
+   	fi
+	FILE_NAME=${FILE: -10}
+	if $DOWNLOAD; then		
+		if [ -f "osc_tmp/$FILE_NAME" ]; then
+			echo ">>>> File exist $FILE_NAME for date $DATE"
+		else 
+			echo ">>>> Download $FILE for date $DATE"
+			wget -q --directory-prefix=osc_tmp/ -nc -c $FILE
+		fi
+	else
+		if [ -f "osc_tmp/$FILE_NAME" ]; then
+			echo ">>>> Remove $FILE_NAME for date $DATE"
+			rm osc_tmp/$FILE_NAME
+		fi
+	fi
+	if [ "$DATE" = "$PLANET_TIMESTAMP" ]; then
+		DOWNLOAD=false
+	fi
+	if [ "$DATE" = "$MIN_DATE" ]; then
 		break
 	fi
-}
-done
+done < "$LISTING_FILE"
 
-# Calculate OSC filename which corresponds with currect planet
-for file in listing_tmp/*.dmp ; do
-	PLANET_TIMESTAMP_STRING=$(grep "$PLANET_TIMESTAMP" $file -R) || true
-	PLANET_RDIR=$(basename $file)
-	PLANET_RDIR=${PLANET_RDIR%.dmp}
-	PLANET_TIMESTAMP_FILENAME=${PLANET_TIMESTAMP_STRING:0:3}
-	if [[ -n $PLANET_TIMESTAMP_STRING ]] ; then break ; fi
-done
-# Calculate OSC filename which corresponds with first day of current month
-for file in listing_tmp/*.dmp ; do
-	FIRST_DAY_TIMESTAMP_STRING=$(grep "$FIRST_DAY_TIMESTAMP" $file -R) || true
-	FIRST_DAY_RDIR=$(basename $file)
-	FIRST_DAY_RDIR=${FIRST_DAY_RDIR%.dmp}
-	file=$(basename $file)
-	FIRST_DAY_TIMESTAMP_FILENAME=${FIRST_DAY_TIMESTAMP_STRING:0:3}
-	if [[ -n $FIRST_DAY_TIMESTAMP_STRING ]] ; then break ; fi
-done
-
-echo Downloading OSC from $PLANET_RDIR/$PLANET_TIMESTAMP_FILENAME to $FIRST_DAY_RDIR/$FIRST_DAY_TIMESTAMP_FILENAME
-for (( osc=$(echo $PLANET_RDIR$PLANET_TIMESTAMP_FILENAME | sed 's/^0*//g'); osc<=$(echo $FIRST_DAY_RDIR$FIRST_DAY_TIMESTAMP_FILENAME | sed 's/^0*//g'); osc++ )) ; do
-	osc_seq="$(printf "%06d" $osc)"
-	echo ${osc_seq:0:3}/${osc_seq:3:6}
-	wget -q --directory-prefix=osc_tmp/ -nc -c https://planet.openstreetmap.org/replication/day/000/${osc_seq:0:3}/${osc_seq:3:6}.osc.gz
-done
 echo Copying planet...
 cp -f $PLANET_FULL_PATH ${PLANET_FULL_PATH}_bak
 echo Merging OSC...
