@@ -8,19 +8,30 @@ PLANET_FILENAME=${PLANET_FILENAME%%.*}
 
 echo Processing $PLANET_FULL_PATH
 echo Getting planet timestamp...
-PLANET_TIMESTAMP=$(osmconvert --out-statistics $PLANET_FULL_PATH | grep "timestamp max:" | sed 's/timestamp max: //g')
-#echo Planet timestamp max: $PLANET_TIMESTAMP
-PLANET_TIMESTAMP=${PLANET_TIMESTAMP:0:10}
-# PLANET_TIMESTAMP="2020-11-29" # FOR HOTFIXES
+REAL_PLANET_TIMESTAMP=$(osmconvert --out-statistics $PLANET_FULL_PATH | grep "timestamp max:" | sed 's/timestamp max: //g')
+echo Planet timestamp max: $REAL_PLANET_TIMESTAMP
+#REAL_PLANET_TIMESTAMP="2023-05-31T23:59:09Z" # FOR HOTFIXES
 
 FIRST_DAY_TIMESTAMP=$(date +%Y-%m)-01
 OS=$(uname)
 MIN_DATE="2023-01-01"
+PLANET_TIMESTAMP=""
 if [ "$OS" = "Darwin" ]; then
 	MIN_DATE=$(date -j -v-3m +"%Y-%m")-01
+	PLANET_TIMESTAMP=$(date -j -v +10M -f "%Y-%m-%dT%H:%M:%SZ" "$REAL_PLANET_TIMESTAMP" +"%Y-%m-%d")
 fi
 if [ "$OS" = "Linux" ]; then
 	MIN_DATE=$(date --date="3 month ago" +"%Y-%m")-01
+	PLANET_TIMESTAMP=$(date -d "$REAL_PLANET_TIMESTAMP + 10 minutes" +"%Y-%m-%d")
+fi
+
+if [ "$PLANET_TIMESTAMP" = "$FIRST_DAY_TIMESTAMP" ]; then
+	echo "Planet already updated on date $REAL_PLANET_TIMESTAMP"
+	exit 0
+fi
+
+if [ "$PLANET_TIMESTAMP" = "${REAL_PLANET_TIMESTAMP:0:10}" ]; then
+	echo "Process newly downloaded planet file"
 fi
 
 if [[ -d "listing_tmp" ]] ; then rm listing_tmp/* || true; fi
@@ -29,6 +40,7 @@ if [[ ! -d "listing_tmp" ]] ; then mkdir listing_tmp; fi
 if [[ ! -d "osc_tmp" ]] ; then mkdir osc_tmp; fi
 
 LISTING_FILE=listing_tmp/file_list.txt
+SORTED_FILE=listing_tmp/sorted_list.txt
 URL="https://planet.openstreetmap.org/replication/day/000/"
 echo Getting file list from $URL
 DAY_DIRS=( $(wget -qO- $URL | grep '\[DIR\]' | sed -e 's/<[^>]*>//g' | awk '{print $1}' ) )
@@ -39,6 +51,8 @@ do
    wget -qO- $URL$dir | sed -e 's/<[^>]*>//g' | grep txt | awk -v url=$URL -v dir="$dir" '{print url dir $1" "$2}' >> $LISTING_FILE
 done
 
+sort -r $LISTING_FILE -o $SORTED_FILE
+
 DOWNLOAD=false
 while IFS= read -r line
 do
@@ -48,6 +62,9 @@ do
 	if [ "$DATE" = "$FIRST_DAY_TIMESTAMP" ]; then
 		DOWNLOAD=true
    	fi
+	if [ "$DATE" = "$PLANET_TIMESTAMP" ]; then
+		DOWNLOAD=false
+	fi
 	FILE_NAME=${FILE: -10}
 	if $DOWNLOAD; then		
 		if [ -f "osc_tmp/$FILE_NAME" ]; then
@@ -62,13 +79,16 @@ do
 			rm osc_tmp/$FILE_NAME
 		fi
 	fi
-	if [ "$DATE" = "$PLANET_TIMESTAMP" ]; then
-		DOWNLOAD=false
-	fi
 	if [ "$DATE" = "$MIN_DATE" ]; then
 		break
 	fi
-done < "$LISTING_FILE"
+done < "$SORTED_FILE"
+
+COUNT_OSC_FILES=$(ls osc_tmp | wc -l)
+if [ "$(($COUNT_OSC_FILES + 0))" = "0" ]; then
+	echo "No *.osc.gz files for update planet"
+	exit 1
+fi
 
 echo Copying planet...
 cp -f $PLANET_FULL_PATH ${PLANET_FULL_PATH}_bak
