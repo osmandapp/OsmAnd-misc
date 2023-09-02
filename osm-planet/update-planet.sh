@@ -8,8 +8,8 @@ PLANET_FILENAME=${PLANET_FILENAME%%.*}
 
 echo Processing $PLANET_FULL_PATH
 echo Getting planet timestamp...
-#REAL_PLANET_TIMESTAMP=$(osmconvert --out-statistics $PLANET_FULL_PATH | grep "timestamp max:" | sed 's/timestamp max: //g')
-REAL_PLANET_TIMESTAMP="2023-07-31T23:59:09Z" # FOR HOTFIXES
+REAL_PLANET_TIMESTAMP=$(osmconvert --out-statistics $PLANET_FULL_PATH | grep "timestamp max:" | sed 's/timestamp max: //g')
+#REAL_PLANET_TIMESTAMP="2023-07-31T23:59:09Z" # FOR HOTFIXES
 echo Planet timestamp max: $REAL_PLANET_TIMESTAMP
 
 FIRST_DAY_TIMESTAMP=$(date +%Y-%m)-01
