@@ -54,6 +54,7 @@ done
 sort -r $LISTING_FILE -o $SORTED_FILE
 
 DOWNLOAD=false
+MERGE_FILES=""
 while IFS= read -r line
 do
 	DATE=${line: -10}
@@ -66,7 +67,8 @@ do
 		DOWNLOAD=false
 	fi
 	FILE_NAME=${FILE: -10}
-	if $DOWNLOAD; then		
+	if $DOWNLOAD; then
+ 		MERGE_FILES="osc_tmp/$FILE_NAME $MERGE_FILES"
 		if [ -f "osc_tmp/$FILE_NAME" ]; then
 			echo ">>>> File exist $FILE_NAME for date $DATE"
 		else 
@@ -93,7 +95,7 @@ fi
 echo Copying planet...
 cp -f $PLANET_FULL_PATH ${PLANET_FULL_PATH}_bak
 echo Merging OSC...
-time osmconvert -v --merge-versions osc_tmp/*.osc.gz --out-o5c > "osc_tmp/update.o5c"
+time osmconvert -v --merge-versions $MERGE_FILES --out-o5c > "osc_tmp/update.o5c"
 echo Applying OSC...
 time osmconvert -v $PLANET_FULL_PATH osc_tmp/update.o5c --timestamp=$(echo $FIRST_DAY_TIMESTAMP) --out-o5m > "$PLANET_DIR/$PLANET_FILENAME.o5mtmp"
 if [[ $? != 0 ]] ; then
