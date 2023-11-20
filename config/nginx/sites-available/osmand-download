@@ -1,6 +1,9 @@
 server {
 	listen 80; ## listen for ipv4; this line is default and implied
 	listen 443 ssl;
+	listen [::]:80;
+	listen [::]:443 ssl;
+
 	ssl_certificate /etc/ssl/cacert.pem;        # path to your cacert.pem
 	ssl_certificate_key /etc/ssl/privkey.pem;    # path to your privkey.pem
 	server_tokens off;
@@ -13,19 +16,34 @@ server {
 	server_name xxx.osmand.net; #!!!
 
 	if ($request_uri ~ "\.\./"){
-   		return 403;
+			return 403;
 	}
 
 	location ~ ^/(download|download.php) {
 		add_header Content-Disposition "attachment; filename=$arg_file";
-		try_files /srtm-countries/$arg_file /srtm/$arg_file /hillshade/$arg_file /slope/$arg_file /heightmap/$arg_file
-				/wiki/$arg_file /road-indexes/$arg_file /wikivoyage/$arg_file /travel/$arg_file /depth/$arg_file
-				/weather/regions/$arg_file /indexes/$arg_file /indexes/fonts/$arg_file /indexes/inapp/$arg_inapp/$arg_file 
-				/aosmc/$arg_region/$arg_file =404;
+		try_files
+			/aosmc/$arg_region/$arg_file
+			/depth/$arg_file
+			/heightmap/$arg_file
+			/hillshade/$arg_file
+			/indexes/$arg_file
+			/indexes/fonts/$arg_file
+			/indexes/inapp/$arg_inapp/$arg_file
+			/road-indexes/$arg_file
+			/slope/$arg_file
+			/srtm/$arg_file
+			/srtm-countries/$arg_file
+			/travel/$arg_file
+			/weather/regions/$arg_file
+			/wiki/$arg_file
+			/wikivoyage/$arg_file
+		=404;
 	}
+
 	location / {
 		try_files $uri $uri/ =404;
 	}	
+
 	location ~ /\.ht {
 		deny all;
 	}
