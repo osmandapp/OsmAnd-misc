@@ -7,12 +7,8 @@ mkdir -p $LOCAL_SITE_DIR
 mkdir -p $LOCAL_SITE_DIR/website
 cd "$LOCAL_SITE_DIR/website"
 if [ ! -d "$LOCAL_SITE_DIR/website/.git" ]; then
- git init 
- git remote add origin https://github.com/osmandapp/web-server-config.git
- git fetch
- git reset origin/main
- git checkout -t origin/main
- git restore .
+ echo "You need to checkout to website folder - web-server-config.git"
+ exit 1;
 else 
  git pull
 fi
