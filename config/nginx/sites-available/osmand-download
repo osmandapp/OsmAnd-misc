@@ -40,6 +40,14 @@ server {
 		=404;
 	}
 
+	location = / {
+		try_files $uri $uri/ =404;
+		if ($host = 'dl2.osmand.net' ) {
+			# dl2 (smtp) / -> Contacts redirect required
+			return 302 https://osmand.net/help-online/support;
+		}
+	}
+
 	location / {
 		try_files $uri $uri/ =404;
 	}	
