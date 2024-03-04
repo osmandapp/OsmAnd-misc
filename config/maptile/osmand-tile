@@ -1,6 +1,9 @@
 server {
-        listen 443 ssl;
         listen 80;
+        listen [::]:80;
+        listen 443 ssl;
+        listen [::]:443 ssl;
+
         server_name tile.osmand.net;
         root /var/www/html/;
         #ssl on;
