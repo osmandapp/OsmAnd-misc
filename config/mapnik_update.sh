@@ -54,8 +54,8 @@ rm $CHANGES_FILE
 # gzip $EXPIRED_FILE
 # gzip -cd $EXPIRED_FILE.gz
 # rm $EXPIRED_FILE.gz
-cat $EXPIRED_FILE | render_expired --map=default --socket=$TILES_SOCK --tile-dir=$TILES_DIR --num-threads=4 --touch-from=12 --min-zoom=12 >/dev/null
-cat $EXPIRED_FILE | render_expired --map=highres --socket=$TILES_SOCK --tile-dir=$TILES_DIR --num-threads=4 --touch-from=12 --min-zoom=12 >/dev/null
+# cat $EXPIRED_FILE | render_expired --map=default --socket=$TILES_SOCK --tile-dir=$TILES_DIR --num-threads=4 --touch-from=13 --min-zoom=13 >/dev/null
+cat $EXPIRED_FILE | render_expired --map=highres --socket=$TILES_SOCK --tile-dir=$TILES_DIR --num-threads=4 --touch-from=13 --min-zoom=13 >/dev/null
 
 rm $EXPIRED_FILE
 

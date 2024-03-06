@@ -1,0 +1,16 @@
+[Unit]
+Description=OsmAnd server
+SourcePath=/var/osmand-server/osmand-server-boot.jar
+
+[Service]
+#ExecStart=/etc/init.d/osmand-server start
+#ExecStop=/etc/init.d/osmand-server stop
+User=jenkins
+Group=jenkins
+ExecStart=/var/osmand-server/osmand-server-boot.jar start
+ExecStop=/var/osmand-server/osmand-server-boot.jar stop
+StandardOutput=append:/var/log/osmand-server-logs/osmand-server.log
+StandardError=append:/var/log/osmand-server-logs/error.log
+
+[Install]
+WantedBy=multi-user.target

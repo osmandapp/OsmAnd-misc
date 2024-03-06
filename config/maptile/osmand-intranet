@@ -1,0 +1,39 @@
+server {
+    listen 80;
+    listen [::]:80;
+    listen 443 ssl;
+    listen [::]:443 ssl;
+
+    server_name intranet.osmand.net;
+    #ssl_certificate /etc/ssl/cacert-intranet.pem;
+    #ssl_certificate_key /etc/ssl/privkey-intranet.pem;
+
+    root /var/www-download;
+    location /.well-known {
+      try_files $uri $uri/ =404;
+    }
+
+    location / {
+        proxy_pass http://127.0.0.1:4180/;
+        proxy_set_header Host $http_host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Scheme $scheme;
+        proxy_set_header X-Forwarded-Host $host;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+
+        proxy_connect_timeout 1;
+        proxy_send_timeout 30;
+        proxy_read_timeout 30;
+  }
+
+}
+
+server {
+  listen 127.0.0.1:4181;
+  #port_in_redirect off;
+  absolute_redirect off;
+  location / {
+        #try_files $uri/ $uri = 404;
+        root /var/www-download/website/intranet/;
+  }
+}

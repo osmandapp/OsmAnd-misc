@@ -1,0 +1,72 @@
+# limit_req_zone $binary_remote_addr zone=one:50m rate=256r/m;
+
+server {
+        listen 80;
+        listen [::]:80;
+        listen 443 ssl;
+        listen [::]:443 ssl;
+
+        server_name maptile.osmand.net;
+        ssl_certificate /etc/ssl/cacert-maptile.pem;
+        ssl_certificate_key /etc/ssl/privkey-maptile.pem;
+
+        root /var/www-download;
+
+        # Add index.php to the list if you are using PHP
+        #index index.html index.htm index.nginx-debian.html;
+
+        if ($request_uri ~ "\.\./") {
+            return 403;
+        }
+
+        location /server-status {
+                proxy_pass http://127.0.0.1:8086;
+        }
+        location /mod_tile {
+                proxy_pass http://127.0.0.1:8086;
+        }
+
+        # routing
+        #location ~ ^/(maps|info|i18n|route) {
+             #   limit_req zone=two burst=128;
+              #  proxy_set_header X-Forwarded-For $remote_addr;
+              #  proxy_set_header X-Real-IP  $remote_addr;
+              #  proxy_set_header Host $host;
+              #  proxy_pass http://127.0.0.1:8989;
+              #  proxy_send_timeout 100s;
+              #  proxy_read_timeout 100s;
+              #  proxy_connect_timeout 100s;
+        #}
+
+        include /etc/nginx/server-include/server-docz-include.conf;
+
+        location ~ ^/(download|download.php) {
+                root /media/ssd/content;
+                add_header Content-Disposition "attachment; filename=$arg_file";
+                try_files /srtm-countries/$arg_file /srtm/$arg_file /hillshade/$arg_file /slope/$arg_file /heightmap/$arg_file
+                                /wiki/$arg_file /road-indexes/$arg_file /wikivoyage/$arg_file  /travel/$arg_file
+                                /indexes/$arg_file /indexes/fonts/$arg_file /indexes/inapp/$arg_inapp/$arg_file
+                                /depth/$arg_file /aosmc/$arg_region/$arg_file =404;
+        }
+
+        location /hd/ {
+               # limit_req zone=one burst=128;
+              #  limit_req zone=one rate=8r/s;
+              #  limit_req zone=one burst=256;
+                # crashes - https://github.com/openstreetmap/mod_tile/issues/198
+           #     proxy_set_header X-Forwarded-For $http_x_forwarded_for;
+        #       proxy_set_header X-Forwarded-For "$remote_addr, 127.0.0.1, $remote_addr";
+        #       proxy_set_header X-Forwarded-For $remote_addr;
+                proxy_set_header X-Real-IP  $remote_addr;
+                proxy_set_header X-Client-IP $remote_addr;
+                proxy_set_header Host $host;
+                proxy_send_timeout 100s;
+                proxy_read_timeout 100s;
+                proxy_connect_timeout 100s;
+                proxy_buffer_size 128k;
+                proxy_buffers 16 128k;
+                proxy_pass http://127.0.0.1:8086;
+        }
+
+
+}
