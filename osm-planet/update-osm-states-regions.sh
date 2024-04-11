@@ -14,4 +14,8 @@ cat osm-data/flanders_brussel.osm >> osm-data/$NAME.osm
 ./combine_translations.sh osm-data/$NAME.osm 62504 62422 osm-data/brandenburg_berlin.osm
 cat osm-data/brandenburg_berlin.osm >> osm-data/$NAME.osm
 
+> osm-data/lower_saxony_bremen.osm
+./combine_translations.sh osm-data/$NAME.osm 62771 62718 osm-data/lower_saxony_bremen.osm
+cat osm-data/lower_saxony_bremen.osm >> osm-data/$NAME.osm
+
 echo "</osm>" >> osm-data/$NAME.osm
