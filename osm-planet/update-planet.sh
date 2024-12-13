@@ -1,10 +1,18 @@
 #!/bin/bash -xe
 #This script updates planet using OSC
 PLANET_FULL_PATH=/home/osm-planet/planet-latest.o5m
+PLANET_FULL_PATH_BACKUP=/home/osm-planet/planet-latest.o5m_backup
+TIGER_FULL_PATH=/home/osm-planet/tiger.o5m
 
 PLANET_DIR=$(dirname $PLANET_FULL_PATH)
 PLANET_FILENAME=$(basename $PLANET_FULL_PATH)
 PLANET_FILENAME=${PLANET_FILENAME%%.*}
+
+if [ -f $PLANET_FULL_PATH_BACKUP ]; then
+	echo Restore original planet OSM from backup
+	rm $PLANET_FULL_PATH
+	cp $PLANET_FULL_PATH_BACKUP $PLANET_FULL_PATH
+fi
 
 echo Processing $PLANET_FULL_PATH
 echo Getting planet timestamp...
@@ -92,8 +100,6 @@ if [ "$(($COUNT_OSC_FILES + 0))" = "0" ]; then
 	exit 1
 fi
 
-echo Copying planet...
-cp -f $PLANET_FULL_PATH ${PLANET_FULL_PATH}_bak
 echo Merging OSC...
 time osmconvert -v --merge-versions $MERGE_FILES --out-o5c > "osc_tmp/update.o5c"
 echo Applying OSC...
@@ -103,6 +109,23 @@ if [[ $? != 0 ]] ; then
 	exit 1
 else
 	mv -f "$PLANET_DIR/$PLANET_FILENAME.o5mtmp" "$PLANET_DIR/$PLANET_FILENAME.o5m"
+	
+	# Backup
+	echo Copying planet...
+	cp $PLANET_FULL_PATH $PLANET_FULL_PATH_BACKUP
+
+	# Tiger
+	if [ -f $TIGER_FULL_PATH ]; then
+		time osmconvert $TIGER_FULL_PATH $PLANET_FULL_PATH -o=planet_with_tiger.o5m
+		if [[ $? != 0 ]] ; then
+			echo Error adding Tiger... 
+			exit 1
+		else
+			rm $PLANET_FULL_PATH
+			mv planet_with_tiger.o5m $PLANET_FULL_PATH
+			echo Successfully added Tiger file $TIGER_FULL_PATH to $PLANET_FULL_PATH
+		fi	
+	fi
 # 	echo Setting timestamp...
 # 	NEW_PLANET_TIMESTAMP=$(osmconvert $PLANET_DIR/$PLANET_FILENAME.o5m --out-statistics | grep "timestamp max" | sed 's/timestamp max: //g')
 # 	osmconvert --timestamp=$(echo $NEW_PLANET_TIMESTAMP) $PLANET_DIR/$PLANET_FILENAME.o5m --out-o5m > "$PLANET_DIR/$PLANET_FILENAME.o5mtmp"
