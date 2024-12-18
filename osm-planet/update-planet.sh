@@ -8,6 +8,22 @@ PLANET_DIR=$(dirname $PLANET_FULL_PATH)
 PLANET_FILENAME=$(basename $PLANET_FULL_PATH)
 PLANET_FILENAME=${PLANET_FILENAME%%.*}
 
+mergeTiger {
+	# Tiger
+	if [ -f $TIGER_FULL_PATH ]; then
+		echo "Merge Tiger to planet file"
+		time osmconvert $TIGER_FULL_PATH $PLANET_FULL_PATH -o=planet_with_tiger.o5m
+		if [[ $? != 0 ]] ; then
+			echo Error adding Tiger... 
+			exit 1
+		else
+			rm $PLANET_FULL_PATH
+			mv planet_with_tiger.o5m $PLANET_FULL_PATH
+			echo Successfully added Tiger file $TIGER_FULL_PATH to $PLANET_FULL_PATH
+		fi	
+	fi
+}
+
 if [ -f $PLANET_FULL_PATH_BACKUP ]; then
 	echo Restore original planet OSM from backup
 	rm $PLANET_FULL_PATH
@@ -35,6 +51,7 @@ fi
 
 if [ "$PLANET_TIMESTAMP" = "$FIRST_DAY_TIMESTAMP" ]; then
 	echo "Planet already updated on date $REAL_PLANET_TIMESTAMP"
+	mergeTiger
 	exit 0
 fi
 
@@ -115,17 +132,7 @@ else
 	cp $PLANET_FULL_PATH $PLANET_FULL_PATH_BACKUP
 
 	# Tiger
-	if [ -f $TIGER_FULL_PATH ]; then
-		time osmconvert $TIGER_FULL_PATH $PLANET_FULL_PATH -o=planet_with_tiger.o5m
-		if [[ $? != 0 ]] ; then
-			echo Error adding Tiger... 
-			exit 1
-		else
-			rm $PLANET_FULL_PATH
-			mv planet_with_tiger.o5m $PLANET_FULL_PATH
-			echo Successfully added Tiger file $TIGER_FULL_PATH to $PLANET_FULL_PATH
-		fi	
-	fi
+	mergeTiger
 # 	echo Setting timestamp...
 # 	NEW_PLANET_TIMESTAMP=$(osmconvert $PLANET_DIR/$PLANET_FILENAME.o5m --out-statistics | grep "timestamp max" | sed 's/timestamp max: //g')
 # 	osmconvert --timestamp=$(echo $NEW_PLANET_TIMESTAMP) $PLANET_DIR/$PLANET_FILENAME.o5m --out-o5m > "$PLANET_DIR/$PLANET_FILENAME.o5mtmp"
