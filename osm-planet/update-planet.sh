@@ -8,7 +8,7 @@ PLANET_DIR=$(dirname $PLANET_FULL_PATH)
 PLANET_FILENAME=$(basename $PLANET_FULL_PATH)
 PLANET_FILENAME=${PLANET_FILENAME%%.*}
 
-mergeTiger {
+function mergeTiger {
 	# Tiger
 	if [ -f $TIGER_FULL_PATH ]; then
 		echo "Merge Tiger to planet file"
