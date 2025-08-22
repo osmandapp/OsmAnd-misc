@@ -21,7 +21,7 @@ As we need to update objects we need to have concept of id & version, however ob
 
 **Note**: we fetch lots of incomplete objects in before.osm/after.osm and we need to filter them so they don't end up in final diff.
 
-### OSM - Generating roads & points
+### OSM Query 1. - Collect changed node, way, relations
 
 Mainly roads & points are generated from Ways & Nodes and they are mostly generated from way & nodes. So simple overpass query (main part) looks like it.
 
@@ -47,17 +47,24 @@ For `*_after.osm` (9:40) :
     )->.a;
 ```
 
-### OSM - Propagating relation tags / multipolygons
-In OsmAnd OBF file we do not save relation directly, but propagate tags from them to way and nodesa nd also create multipolygons from relations. So we need the code after to fetch relations that node/way belongs to and make them complete.
+### OSM Query 1. - Propagating relation tags / multipolygons
+In OsmAnd OBF file we do not save relation directly, but propagate tags from them to way and nodes a nd also create multipolygons from relations. So we need the code after to fetch relations that node/way belongs to and make them complete.
 
 For example, we have relation [`restriction=only_right_turn`](https://www.openstreetmap.org/relation/8085812) and need to include to OSM-live OBF any member of this relation that was changed or the relation itself. In our case these are: [From way/1169124687](https://www.openstreetmap.org/way/1169124687), [Via node/206392306](https://www.openstreetmap.org/node/206392306), [To way/1170508451](https://www.openstreetmap.org/way/1170508451), [Relation ownself](https://www.openstreetmap.org/relation/8085812).
 
 **Note**: However as we make these relations complete we fetch ways that were not changed and they are not complete (as we don't fetch parent relations again after step 3). So ways that are retrieved on 3rd step shouldn't endup in the final diff! !!![MISSING INFO]!!! explain or give link below file how we do it.
 
-**Multipolygons** are nicely handled by that case cause if relation or way inside it has changed, the multipolygon 
 
-Query 2nd part
+### OSM Query 1. - Full Query
+
+**Full query**
 ```
+    // 1. get all nodes, ways, relation changed between START - END
+    (
+      node(changed:\"$START_DATE\",\"$END_DATE\");
+      way(changed:\"$START_DATE\",\"$END_DATE\");
+      relation(changed:\"$START_DATE\",\"$END_DATE\");
+    )->.a; 
     // 2.2 retrieve all ways for changed nodes to change ways geometry
     (way(bn.a);.a;) ->.a; // get all ways by nodes
     // 2.3 retrieve all relations for changed nodes / ways, so we can propagate right tags to them
@@ -67,17 +74,34 @@ Query 2nd part
     (way(r.a);.a;) ->.a; 
     (node(r.a);.a;) ->.a;
     (node(w.a);.a;) ->.a;
+    .a out meta;
 ```
+**Purpose**: all changed objects POI, Multipolygons, Roads, Points should be Fully present in this file. Object is changed if any node / way was changed. Note:
+so if only parent relation of road has changed it's not necessarily present or complete in this file.
+
+**Incomplete data in after/before file**
+- However as we make these relations complete we fetch ways that were not changed and they are not complete (as we don't fetch parent relations again after step 3). So ways that are retrieved on 3rd step shouldn't endup in the final diff! 
+- For example, if way is removed from relation, step (3. final step make all relations / way / node complete) won't fetch way and those will create issue like removing road https://github.com/osmandapp/OsmAnd/issues/23030#issuecomment-3092486987.
+
+**Supported cases**:
+- If multipolygon has changed (added / deleted ways) - OK 
+- If road geometry is changed - OK (geohash might have collision 1/64, then old road will be present in old tile...) 
+- If route has changed adding / deleting members - V1 ROUTES PARTIAL (delete is not supported), V2 ROUTES - OK
+- If way geometry has changed inside Multipolygon / V2 route - OK
+- If way geometry has changed inside V1 route - OK
+- If route restriction is added - OK
+- If route restriction is modified / deleted - NOT OK (way is missing in _after)
 
 
-### OSM - Generating routes
+### OSM Query 2. - Support cases of changed relations
 
-!![MISSING INFO]!! Explain difference between old routes & new routes !!!
+Not all cases are supported and we need to fix them.
 
-If there are changes in relation itself and relation represents a visible / searchable entity such as routes, we need to regenerate ways / points that belong to this route. We handle in a separately process cause it makes query above very complicated. For example, if way is removed from relation, step (3. final step make all relations / way / node complete) won't fetch way and those will create issue like removing road https://github.com/osmandapp/OsmAnd/issues/23030#issuecomment-3092486987.
+**Purpose**: this query should generate all complete objects that are now or used to be **members** of changed/created/deleted relations.
 
+**Query**
 ```
-    // get all relation changed between START - END
+   // get all relation changed between START - END
     (
       relation(changed:\"$START_DATE\",\"$END_DATE\");
     )->.a;
@@ -86,32 +110,32 @@ If there are changes in relation itself and relation represents a visible / sear
     (node(r.a);.b;) ->.b;
     // 2. complete ways
     (node(w.b);.b;) ->.b;
-    // 3. find incomplete relations for all members to set .c
+    // 3. find incomplete relations for all members to make road segments complete to set .c
     (relation(bw.b);) ->.c;
     (relation(bn.b);.c;) ->.c;
+    // 3. print .b and .c, relations from set .a already in .c set
+    .b out meta;
+    .c out meta;
 ```
+**Important Note** - unique set of completed objects different in before/after! 
+As we can't retrieve ways in _after_rel.osm for deleted relations for example, these ways are missing in _after_rel.osm but present in _before.osm and it later creates wrongly deleted ways. We compensate this issue by copying data from _before_rel.osm to _after_rel.osm using - Merge data `*_after_rel_m.osm` utility `generate-relation-osm`. 
 
-!!![MISSING INFO]!!!
+**Incomplete data in after/before file**
+- All data should be complete except objects generated from relations ! For example all Multipolygons, Routes V2 are broken
+because we don't retrieve ways/nodes after ((relation(bn.b);.c;) ->.c;). However all ways and nodes are complete with all tags propagation.
 
-We need to start with what do we want to achieve that should be in the file. To calculate the difference
-Then we can put:
 
-**Query**
-Explanation of query
+### OSM 2. - Merge data `*_after_rel_m.osm`, utility `generate-relation-osm`  
 
-**Unused data in after file**
-not a problem because the data is complete or a problem?
+If we don't copy data from before_rel.osm to after_rel.osm, in `*_diff.obf` we can got many "deleted" roads, places.
 
-**Unnecessary data in before file**
- Explain type of unnecessary data source and solution with generate-relation-osm
+**Situation**. Member is deleted in relation. When we copy we check old version relation, get this member id, check way is not present in after and copy way and its nodes.
 
- !!![MISSING INFO]!!!
+**Goal** We need to copy all way / nodes that are missing in after_rel.osm and are members of changed / deleted relations. These objects needs to be complete! (TODO check)
 
-If the relation changed itself when we retreive members (nodes and ways), after retrieving all member's relations (even if incompleted - without all the members included!!!), the data is stored to `*_before_rel.obf` and `*_after_rel.obf`:
+**Important**: do not copy objects that are not changed (???) To be deleted? - https://github.com/osmandapp/OsmAnd/issues/21561
+If we copy ways that are changed itself, then we will get full same copy in _after.obf and _after_rel.obf. If we don't copy and rely on _after.obf then we need to exclude these objects during merge. 
 
-Note. `*_before_rel.obf` and `*_after_rel.obf` - needs only for find nodes/ways with propagated relation tags. Relations can be created/modified/deleted and need to be sure that these changes is correctly processing in all their members.
-
-### OSM - Merge data `*_after_rel_m.osm`, utility `generate-relation-osm`  
 ```
     echo "### 1. Generate relation osm : $(date -u) . All nodes and ways copy from before_rel to after_rel " &
     $OSMAND_MAP_CREATOR_PATH/utilities.sh generate-relation-osm \
@@ -119,8 +143,7 @@ Note. `*_before_rel.obf` and `*_after_rel.obf` - needs only for find nodes/ways 
             $DATE_DIR/src/${BASENAME}_diff.osm.gz ${BASENAME}_after_rel_m.osm.gz
 ```
 Files `*_before_rel.osm` and `*_after_rel.osm` can include different sets of relations.<br>
-- Why is it happen? - Before query on specific time (`$START_DATE` or `$END_DATE`) we do not know what relations was created/deleted. So  `*_before_rel.osm` will consist of deleted relations, and `*_after_rel.osm` will consist of created relations.
-- Why is it problem (different sets of nodes/members) ? - Because in `*_diff.obf` we can got many "created" and "deleted" nodes/ways.<br>
+- Why is it problem (different sets of nodes/members) ? - <br>
 - So, what to do? - We just copy nodes/ways from `*_before_rel.osm` to `*_after_rel.osm`.
 - Hmm, but nodes/ways in `*_before_rel.osm` can consist of old tags or geometry ?! - Yes, therefore need to use `*_diff.osm` for find all `<action type="create">`, `<action type="modify">`, `<action type="delete">` and correctly copy objects. Good example in the issue [Geometry duplication in live update](https://github.com/osmandapp/OsmAnd/issues/21561) whre made fix that avoid copying modified nodes/ways to `*_after_rel_m.osm`.
 `*_diff.osm` we need:
@@ -144,12 +167,14 @@ For `*_rel.osm` files we use `_no-multipolygon_` option because most part of rel
 ### COMPARE - Generate `*_diff.obf` files:
 !!![MISSING INFO]!!! how do we exclude errors on (how do we use plain diff file)? So ways that are retrieved on 3rd step shouldn't endup in the final diff!...
 
+We need to make sure that diff file contains only properly changed and complete objects. So in both files entities are complete & correct.
+
 ```
         echo "### 1. Generate diff files : $(date -u)"
         $OSMAND_MAP_CREATOR_PATH/utilities.sh generate-obf-diff \
             ${BEFORE_OBF_FILE} ${AFTER_OBF_FILE} ${BASENAME}_diff.obf $DIFF_FILE &
         $OSMAND_MAP_CREATOR_PATH/utilities.sh generate-obf-diff-no-transport \
-            ${BEFORE_REL_OBF_FILE} ${AFTER_REL_M_OBF_FILE} ${BASENAME}_diff_rel.obf &
+            ${BEFORE_REL_OBF_FILE} ${AFTER_REL_M_OBF_FILE} ${BASENAME}_diff_rel.obf $DIFF_FILE &
         wait
 ```
 Where `$DIFF_FILE` is `*_diff.osm` file with OSM changesets that consist of `<action type="create">`, `<action type="modify">`, `<action type="delete">`
@@ -159,13 +184,8 @@ Where `$DIFF_FILE` is `*_diff.osm` file with OSM changesets that consist of `<ac
 ```
 $OSMAND_MAP_CREATOR_PATH/utilities.sh merge-obf-diff ${BASENAME}_diff_rel.obf ${BASENAME}_diff.obf ${BASENAME}_diff_merged.obf
 ```
-During merge we need to remember that the data from `*_diff.obf` has full integrity.
 
-!!![TO THINK]!!!: how do we know which data in _diff_rel.obf is incomplete??? If we don't know we can't merge.
-
-- But the data from `*_diff_rel.obf` are based on incomplete data (see point Utility _generate-relation-osm_). So we need to be very carefull with merge these two files and give preference to the data from `*_diff.obf` .
-
-
+Default strategy: if we have object in _diff.obf, we should ignore same object by osmand id _diff_rel.obf.
 
 ### SPLIT - split whole world *_diff for countries:
 ```
