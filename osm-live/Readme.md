@@ -72,7 +72,8 @@ Query 2nd part
 
 ### OSM - Generating routes
 
-If the relation changed itself when we retreive members (nodes and ways), after retrieving all member's relations (even if incompleted - without all the members included!!!), the data is stored to `*_before_rel.obf` and `*_after_rel.obf`:
+If there are changes in relation itself and relation represents a visible / searchable entity such as routes, we need to regenerate ways / points that belong to this route. We handle in a separately process cause it makes query above very complicated. For example, if way is removed from relation, step (3. final step make all relations / way / node complete) won't fetch way and those will create issue like removing road https://github.com/osmandapp/OsmAnd/issues/23030#issuecomment-3092486987.
+
 ```
     // get all relation changed between START - END
     (
@@ -87,6 +88,25 @@ If the relation changed itself when we retreive members (nodes and ways), after 
     (relation(bw.b);) ->.c;
     (relation(bn.b);.c;) ->.c;
 ```
+
+!!![MISSING INFO]!!!
+
+We need to start with what do we want to achieve that should be in the file. To calculate the difference
+Then we can put:
+
+**Query**
+Explanation of query
+
+**Unused data in after file**
+not a problem because the data is complete or a problem?
+
+**Unnecessary data in before file**
+ Explain type of unnecessary data source and solution with generate-relation-osm
+
+ !!![MISSING INFO]!!!
+
+If the relation changed itself when we retreive members (nodes and ways), after retrieving all member's relations (even if incompleted - without all the members included!!!), the data is stored to `*_before_rel.obf` and `*_after_rel.obf`:
+
 Note. `*_before_rel.obf` and `*_after_rel.obf` - needs only for find nodes/ways with propagated relation tags. Relations can be created/modified/deleted and need to be sure that these changes is correctly processing in all their members.
 
 ### OSM - Merge data `*_after_rel_m.osm`, utility `generate-relation-osm`  
