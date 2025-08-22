@@ -72,6 +72,8 @@ Query 2nd part
 
 ### OSM - Generating routes
 
+!![MISSING INFO]!! Explain difference between old routes & new routes !!!
+
 If there are changes in relation itself and relation represents a visible / searchable entity such as routes, we need to regenerate ways / points that belong to this route. We handle in a separately process cause it makes query above very complicated. For example, if way is removed from relation, step (3. final step make all relations / way / node complete) won't fetch way and those will create issue like removing road https://github.com/osmandapp/OsmAnd/issues/23030#issuecomment-3092486987.
 
 ```
