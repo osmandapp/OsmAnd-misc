@@ -140,6 +140,8 @@ Why relations are incomplete?
 For `*_rel.osm` files we use `_no-multipolygon_` option because most part of relations are incomplete and multipolygons will be broken!
 
 ### COMPARE - Generate `*_diff.obf` files:
+!!![MISSING INFO]!!! how do we exclude errors on (how do we use plain diff file)? So ways that are retrieved on 3rd step shouldn't endup in the final diff!...
+
 ```
         echo "### 1. Generate diff files : $(date -u)"
         $OSMAND_MAP_CREATOR_PATH/utilities.sh generate-obf-diff \
@@ -151,10 +153,15 @@ For `*_rel.osm` files we use `_no-multipolygon_` option because most part of rel
 Where `$DIFF_FILE` is `*_diff.osm` file with OSM changesets that consist of `<action type="create">`, `<action type="modify">`, `<action type="delete">`
 
 ### COMPARE/OBF - Merge `*_diff.obf` and `*_diff_rel.obf`:
+
 ```
 $OSMAND_MAP_CREATOR_PATH/utilities.sh merge-obf-diff ${BASENAME}_diff_rel.obf ${BASENAME}_diff.obf ${BASENAME}_diff_merged.obf
 ```
-During merge we need to remember that the data from `*_diff.obf` has full integrity. But the data from `*_diff_rel.obf` are based on incompleted data (see point Utility _generate-relation-osm_). So we need to be very carefull with merge these two files and give preference to the data from `*_diff.obf` .
+During merge we need to remember that the data from `*_diff.obf` has full integrity.
+
+!!![TO THINK]!!!: how do we know which data in _diff_rel.obf is incomplete??? If we don't know we can't merge.
+
+- But the data from `*_diff_rel.obf` are based on incomplete data (see point Utility _generate-relation-osm_). So we need to be very carefull with merge these two files and give preference to the data from `*_diff.obf` .
 
 
 
