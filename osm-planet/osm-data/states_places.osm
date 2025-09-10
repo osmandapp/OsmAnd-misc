@@ -6,6 +6,7 @@
   <node id="671022" lat="36.7014631" lon="-118.7559970">
     <tag k="alt_name:vi" v="California;Ca-li-phoóc-ni-a;Ca-li-pho-ni-a"/>
     <tag k="name" v="California"/>
+    <tag k="short_name:en" v="Cal."/>
     <tag k="name:abbreviation" v="Calif."/>
     <tag k="name:af" v="Kalifornië"/>
     <tag k="name:als" v="Kalifornien"/>
@@ -8353,6 +8354,7 @@
   </node>
   <node id="316949496" lat="32.3293809" lon="-83.1137366">
     <tag k="name" v="Georgia"/>
+    <tag k="short_name:en" v="Geo."/>
     <tag k="name:abbreviation" v="Ga."/>
     <tag k="name:be" v="Джорджыя"/>
     <tag k="name:cs" v="Georgie"/>
@@ -8392,6 +8394,7 @@
   <node id="316949921" lat="21.2160437" lon="-157.9752030">
     <tag k="alt_name:vi" v="Hạ Uy Di"/>
     <tag k="name" v="Hawaii"/>
+    <tag k="short_name:en" v="Haw."/>
     <tag k="name:abbreviation" v="Hawaii"/>
     <tag k="name:be" v="Гаваі"/>
     <tag k="name:cdo" v="Hawaiʻi"/>
@@ -8444,6 +8447,7 @@
   </node>
   <node id="316950582" lat="43.6447642" lon="-114.0154070">
     <tag k="name" v="Idaho"/>
+    <tag k="short_name:en" v="Ida."/>
     <tag k="name:abbreviation" v="Idaho"/>
     <tag k="name:be" v="Айдаха"/>
     <tag k="name:chr" v="ᎠᏓᎰ"/>
@@ -8510,6 +8514,7 @@
   </node>
   <node id="316955537" lat="41.9216734" lon="-93.3122705">
     <tag k="name" v="Iowa"/>
+    <tag k="short_name:en" v="Ioa."/>
     <tag k="name:abbreviation" v="Iowa"/>
     <tag k="name:be" v="Аёва"/>
     <tag k="name:cdo" v="Iowa"/>
@@ -8545,6 +8550,7 @@
   </node>
   <node id="316956038" lat="38.2731200" lon="-98.5821872">
     <tag k="name" v="Kansas"/>
+    <tag k="short_name:en" v="Kans."/>
     <tag k="name:abbreviation" v="Kans."/>
     <tag k="name:be" v="Канзас"/>
     <tag k="name:chr" v="ᏧᏂᎦᏔᏙᏅᏙᏗ"/>
@@ -8581,6 +8587,8 @@
   </node>
   <node id="316959037" lat="37.5726028" lon="-85.1551411">
     <tag k="name" v="Kentucky"/>
+    <tag k="alt_name" v="Kent."/>
+    <tag k="short_name:en" v="Ken."/>
     <tag k="name:abbreviation" v="Ky."/>
     <tag k="name:be" v="Кентукі"/>
     <tag k="name:chr" v="ᎬᏅᏓᎩ"/>
@@ -8690,6 +8698,8 @@
   </node>
   <node id="316964668" lat="39.5162401" lon="-76.9382069">
     <tag k="name" v="Maryland"/>
+    <tag k="alt_name" v="Mar."/>
+    <tag k="short_name:en" v="Mary."/>
     <tag k="name:abbreviation" v="Md."/>
     <tag k="name:be" v="Мэрыленд"/>
     <tag k="name:en" v="Maryland"/>
@@ -9031,6 +9041,8 @@
   </node>
   <node id="316973311" lat="40.0757384" lon="-74.4041622">
     <tag k="name" v="New Jersey"/>
+    <tag k="alt_name" v="New Jer."/>
+    <tag k="short_name:en" v="N. Jersey"/>
     <tag k="name:abbreviation" v="N.J."/>
     <tag k="name:be" v="Нью-Джэрсі"/>
     <tag k="name:en" v="New Jersey"/>
@@ -9067,6 +9079,8 @@
   </node>
   <node id="316973967" lat="34.5802074" lon="-105.9960470">
     <tag k="name" v="New Mexico"/>
+    <tag k="alt_name" v="New M."/>
+    <tag k="short_name:en" v="New Mex."/>
     <tag k="name:abbreviation" v="N.M."/>
     <tag k="name:af" v="Nieu-Meksiko"/>
     <tag k="name:ast" v="Nuevu Méxicu"/>
@@ -9113,6 +9127,8 @@
   </node>
   <node id="316976734" lat="43.1561681" lon="-75.8449946">
     <tag k="name" v="New York"/>
+    <tag k="alt_name" v="New Y."/>
+    <tag k="short_name:en" v="N. York"/>
     <tag k="name:abbreviation" v="N.Y."/>
     <tag k="name:be" v="Нью-Ёрк"/>
     <tag k="name:en" v="New York"/>
@@ -9149,6 +9165,7 @@
   </node>
   <node id="316979074" lat="35.6729639" lon="-79.0392919">
     <tag k="name" v="North Carolina"/>
+    <tag k="short_name:en" v="N. Car."/>
     <tag k="name:abbreviation" v="N.C."/>
     <tag k="name:af" v="Noord-Carolina"/>
     <tag k="name:ast" v="Carolina del Norte"/>
@@ -9337,6 +9354,8 @@
   </node>
   <node id="316984338" lat="43.9792797" lon="-120.7372570">
     <tag k="name" v="Oregon"/>
+    <tag k="alt_name" v="Or."/>
+    <tag k="short_name:en" v="Oreg."/>
     <tag k="name:abbreviation" v="Ore."/>
     <tag k="name:be" v="Арэгон"/>
     <tag k="name:chr" v="ᎣᏩᎦᏂ"/>
@@ -9370,6 +9389,8 @@
   <node id="316987717" lat="40.9699889" lon="-77.7278831">
     <tag k="alt_name" v="Penna."/>
     <tag k="name" v="Pennsylvania"/>
+    <tag k="alt_name" v="Penna."/>
+    <tag k="short_name:en" v="Penn."/>
     <tag k="name:abbreviation" v="Pa."/>
     <tag k="name:af" v="Pennsilvanië"/>
     <tag k="name:be" v="Пенсільванія"/>
@@ -9453,6 +9474,8 @@
   </node>
   <node id="316990225" lat="33.6874388" lon="-80.4363743">
     <tag k="name" v="South Carolina"/>
+    <tag k="alt_name" v="South Car."/>
+    <tag k="short_name:en" v="S. Car."/>
     <tag k="name:abbreviation" v="S.C."/>
     <tag k="name:af" v="Suid-Carolina"/>
     <tag k="name:ast" v="Carolina del Sur"/>
@@ -9501,6 +9524,8 @@
   </node>
   <node id="316990807" lat="44.6471761" lon="-100.3487610">
     <tag k="name" v="South Dakota"/>
+    <tag k="alt_name" v="SoDak"/>
+    <tag k="short_name:en" v="S. Dak."/>
     <tag k="name:abbreviation" v="S.D."/>
     <tag k="name:ast" v="Dakota del Sur"/>
     <tag k="name:be" v="Паўднёвая Дакота"/>
@@ -9611,6 +9636,7 @@
   </node>
   <node id="317000170" lat="44.5990718" lon="-72.5002608">
     <tag k="name" v="Vermont"/>
+    <tag k="short_name:en" v="Verm."/>
     <tag k="name:abbreviation" v="Vt."/>
     <tag k="name:be" v="Вермонт"/>
     <tag k="name:chr" v="ᏣᏩᎦ"/>
@@ -9646,6 +9672,7 @@
   </node>
   <node id="317004702" lat="37.1232245" lon="-78.4927721">
     <tag k="name" v="Virginia"/>
+    <tag k="short_name:en" v="Virg."/>
     <tag k="name:abbreviation" v="Va."/>
     <tag k="name:ast" v="Virxinia"/>
     <tag k="name:be" v="Вірджынія"/>
@@ -9688,6 +9715,8 @@
   </node>
   <node id="317006365" lat="38.4758406" lon="-80.8408415">
     <tag k="name" v="West Virginia"/>
+    <tag k="alt_name" v="West Virg."/>
+    <tag k="short_name:en" v="W. Virg."/>
     <tag k="name:abbreviation" v="W.Va."/>
     <tag k="name:af" v="Wes-Virginië"/>
     <tag k="name:ast" v="Virxinia Occidental"/>
@@ -9738,6 +9767,7 @@
   <node id="317007239" lat="44.4308975" lon="-89.6884637">
     <tag k="is_in:country" v="USA"/>
     <tag k="name" v="Wisconsin"/>
+    <tag k="short_name:en" v="Wisc."/>
     <tag k="name:abbreviation" v="Wis."/>
     <tag k="name:be" v="Вісконсін"/>
     <tag k="name:chr" v="ᏫᏍᎧᏂᏏᏂ"/>
@@ -28561,6 +28591,8 @@
   </node>
   <node id="2912811859" lat="4.6355376" lon="-7.7281669">
     <tag k="name" v="Maryland"/>
+    <tag k="alt_name" v="Mar."/>
+    <tag k="short_name:en" v="Mary."/>
     <tag k="name:ta" v="மேரிலாந்து"/>
     <tag k="place" v="state"/>
     <tag k="unocha:pcode" v="LBR27100000020"/>
