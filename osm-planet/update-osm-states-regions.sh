@@ -19,3 +19,5 @@ cat osm-data/brandenburg_berlin.osm >> osm-data/$NAME.osm
 cat osm-data/lower_saxony_bremen.osm >> osm-data/$NAME.osm
 
 echo "</osm>" >> osm-data/$NAME.osm
+
+./us-states-abbreviations.sh "osm-data/states_regions.osm"
