@@ -1,4 +1,4 @@
-#!/bin/zsh -x
+#!/bin/zsh
 
 osm_file=$1
 

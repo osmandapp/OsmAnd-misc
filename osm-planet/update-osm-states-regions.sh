@@ -4,6 +4,8 @@ wget -O osm-data/states_regions.osm --post-file=osm-data/queries/$NAME.txt "http
 sed -i "s/<\/osm>//g" osm-data/$NAME.osm
 sed -i '/member type=/d' ./osm-data/$NAME.osm
 sed -i '0,/k="name:en" v="North Ostrobothnia"/{s/k="name:en" v="North Ostrobothnia"/k="name:en" v="1"/}' ./osm-data/$NAME.osm
+sed -i '0,/k="name" v="Bas-Rhin"/{s/k="name" v="Bas-Rhin"/k="name" v="1"/}' ./osm-data/$NAME.osm
+
 
 #Translates
 > osm-data/flanders_brussel.osm

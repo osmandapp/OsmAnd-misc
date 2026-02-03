@@ -372,8 +372,6 @@
 	<!-- Pakistan -->
 <id-query ref="358004" type="relation"/> <print/> <!-- Federally Administered Tribal Areas;FATA -->
 
-<id-query ref="1703814" type="relation"/> <print/> <!-- Palestinian Territories -->
-
 	<!-- France -->
   <id-query type="area" ref="3601403916" into="searchArea"/>
   <union into="_">
@@ -432,7 +430,7 @@
 <id-query ref="1953042" type="relation"/> <print/> <!-- Daman -->
 <id-query ref="2713465" type="relation"/> <print/> <!-- Aksai Chin -->
 
-	<!-- Finland -->
+	<!-- Finland
 <id-query ref="1724359" type="relation"/> <print/>
 <id-query ref="2375171" type="relation"/> <print/>
 <id-query ref="1999428" type="relation"/> <print/>
@@ -452,5 +450,14 @@
 <id-query ref="37355" type="relation"/> <print/>
 <id-query ref="2000361" type="relation"/> <print/>
 <id-query ref="38092" type="relation"/> <print/>
+ -->
+
+<id-query ref="1231749" type="relation"/> <print/> <!-- Aruba -->
+
+<id-query ref="17537071" type="relation"/> <print/> <!-- Eastern Switzerland -->
+
+<id-query ref="435508" type="relation"/> <print/> <!-- Central Moravia -->
+
+
 
 </osm-script>
