@@ -1,10 +1,9 @@
 #!/bin/bash
 NAME="states_regions"
-wget -O osm-data/states_regions.osm --post-file=osm-data/queries/$NAME.txt "https://z.overpass-api.de/api/interpreter"
+wget -O osm-data/states_regions.osm --post-file=osm-data/queries/$NAME.txt "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
 sed -i "s/<\/osm>//g" osm-data/$NAME.osm
 sed -i '/member type=/d' ./osm-data/$NAME.osm
 sed -i '0,/k="name:en" v="North Ostrobothnia"/{s/k="name:en" v="North Ostrobothnia"/k="name:en" v="1"/}' ./osm-data/$NAME.osm
-sed -i '0,/k="name" v="Bas-Rhin"/{s/k="name" v="Bas-Rhin"/k="name" v="1"/}' ./osm-data/$NAME.osm
 
 
 #Translates
@@ -19,6 +18,10 @@ cat osm-data/brandenburg_berlin.osm >> osm-data/$NAME.osm
 > osm-data/lower_saxony_bremen.osm
 ./combine_translations.sh osm-data/$NAME.osm 62771 62718 osm-data/lower_saxony_bremen.osm
 cat osm-data/lower_saxony_bremen.osm >> osm-data/$NAME.osm
+
+> osm-data/lower_austria_wien.osm
+./combine_translations.sh osm-data/$NAME.osm 77189 109166 osm-data/lower_austria_wien.osm
+cat osm-data/lower_austria_wien.osm >> osm-data/$NAME.osm
 
 echo "</osm>" >> osm-data/$NAME.osm
 

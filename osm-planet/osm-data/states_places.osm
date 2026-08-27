@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<osm version="0.6" generator="Overpass API 0.7.61.8 b1080abd">
+<osm version="0.6" generator="Overpass API 0.7.62.4 2390de5a">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2026-02-03T10:56:45Z"/>
+<meta osm_base="2026-08-27T09:50:11Z"/>
 
   <node id="671022" lat="36.7014631" lon="-118.7559970">
     <tag k="alt_name:vi" v="California;Ca-li-phoóc-ni-a;Ca-li-pho-ni-a"/>
@@ -198,6 +198,7 @@
     <tag k="name:vi" v="Ca Li"/>
     <tag k="name:vo" v="Kalifornän"/>
     <tag k="name:wa" v="Californeye"/>
+    <tag k="name:wal" v="Kaliiforniya"/>
     <tag k="name:war" v="California"/>
     <tag k="name:wuu" v="加利福尼亚"/>
     <tag k="name:xal" v="Калифорния"/>
@@ -245,6 +246,7 @@
     <tag k="name:short" v="WA"/>
     <tag k="name:tok" v="ma Wasinton"/>
     <tag k="name:uk" v="Вашингтон"/>
+    <tag k="name:wal" v="Waashingitene"/>
     <tag k="name:zh" v="华盛顿州;華盛頓州"/>
     <tag k="name:zh-Hans" v="华盛顿州"/>
     <tag k="name:zh-Hant" v="華盛頓州"/>
@@ -470,9 +472,9 @@
     <tag k="name:sk" v="Burgenland"/>
     <tag k="name:sl" v="Gradiščanska"/>
     <tag k="name:sr" v="Бургенланд"/>
-    <tag k="name:uk" v="Бургенланд"/>
+    <tag k="name:uk" v="Бурґенланд"/>
     <tag k="name:yi" v="בורגנלאנד"/>
-    <tag k="old_name:hu" v="Őrvidék; Felsőőrvidék"/>
+    <tag k="old_name:hu" v="Őrvidék;Felsőőrvidék"/>
     <tag k="place" v="state"/>
     <tag k="wikidata" v="Q43210"/>
     <tag k="wikipedia" v="de:Burgenland"/>
@@ -520,6 +522,7 @@
     <tag k="name" v="Aargau"/>
     <tag k="name:ar" v="أرجاو"/>
     <tag k="name:be" v="Ааргаў"/>
+    <tag k="name:cs" v="Argov"/>
     <tag k="name:de" v="Aargau"/>
     <tag k="name:eo" v="Argovio"/>
     <tag k="name:es" v="Argovia"/>
@@ -556,6 +559,7 @@
     <tag k="name" v="Niederösterreich"/>
     <tag k="name:ar" v="النمسا السفلى"/>
     <tag k="name:bg" v="Долна Австрия"/>
+    <tag k="name:br" v="Aostria-Izel"/>
     <tag k="name:de" v="Niederösterreich"/>
     <tag k="name:en" v="Lower Austria"/>
     <tag k="name:es" v="Baja Austria"/>
@@ -633,6 +637,7 @@
     <tag k="name" v="Oberösterreich"/>
     <tag k="name:ar" v="النمسا العليا"/>
     <tag k="name:bg" v="Горна Австрия"/>
+    <tag k="name:br" v="Aostria-Uhel"/>
     <tag k="name:de" v="Oberösterreich"/>
     <tag k="name:en" v="Upper Austria"/>
     <tag k="name:fr" v="Haute-Autriche"/>
@@ -768,6 +773,7 @@
     <tag k="name:en" v="Tyrol"/>
     <tag k="name:es" v="Tirol"/>
     <tag k="name:fr" v="Tyrol"/>
+    <tag k="name:fur" v="Tirôl"/>
     <tag k="name:it" v="Tirolo"/>
     <tag k="name:ko" v="티롤"/>
     <tag k="name:lt" v="Tirolis"/>
@@ -777,17 +783,6 @@
     <tag k="name:sk" v="Tirolsko"/>
     <tag k="name:uk" v="Тіроль"/>
     <tag k="name:vls" v="Tirol"/>
-    <tag k="openGeoDB:auto_update" v="population,name,is_in"/>
-    <tag k="openGeoDB:community_identification_number" v="7"/>
-    <tag k="openGeoDB:is_in" v="Österreich,Europe"/>
-    <tag k="openGeoDB:is_in_loc_id" v="106"/>
-    <tag k="openGeoDB:layer" v="3"/>
-    <tag k="openGeoDB:loc_id" v="130"/>
-    <tag k="openGeoDB:location" v="state"/>
-    <tag k="openGeoDB:name" v="Tirol"/>
-    <tag k="openGeoDB:sort_name" v="TIROL"/>
-    <tag k="openGeoDB:type" v="Bundesland"/>
-    <tag k="openGeoDB:version" v="0.2.6.11 / 2007-12-04 / http://fa-technik.adfc.de/code/opengeodb/dump/"/>
     <tag k="place" v="state"/>
     <tag k="wikidata" v="Q153809"/>
     <tag k="wikipedia" v="de:Tirol"/>
@@ -1670,6 +1665,7 @@
     <tag k="name" v="内蒙古自治区 ᠦᠪᠦᠷ ᠮᠣᠩᠭᠤᠯ ᠤᠨ ᠥᠪᠡᠷᠲᠡᠭᠡᠨ ᠵᠠᠰᠠᠬᠣ ᠣᠷᠣᠨ"/>
     <tag k="name:az" v="Daxili Monqolustan"/>
     <tag k="name:be" v="Унутраная Манголія"/>
+    <tag k="name:br" v="Mongolia an Diabarzh"/>
     <tag k="name:cs" v="Vnitřní Mongolsko"/>
     <tag k="name:da" v="Indre Mongoliet"/>
     <tag k="name:de" v="Innere Mongolei"/>
@@ -1814,6 +1810,8 @@
     <tag k="name:hi" v="शानदोंग"/>
     <tag k="name:hr" v="Shandong"/>
     <tag k="name:hu" v="Santung"/>
+    <tag k="name:ja" v="山東省"/>
+    <tag k="name:ja-Hira" v="さんとうしょう"/>
     <tag k="name:ko" v="산둥성"/>
     <tag k="name:lt" v="Šandongas"/>
     <tag k="name:nl" v="Shandong"/>
@@ -2088,6 +2086,7 @@
     <tag k="ISO3166-1:alpha3" v="SPM"/>
     <tag k="ISO3166-1:numeric" v="666"/>
     <tag k="ISO3166-2" v="FR-PM"/>
+    <tag k="alt_name:be" v="Сэн-П'ер і Мікелон"/>
     <tag k="capital_city" v="Saint Pierre"/>
     <tag k="country_code_fips" v="SB"/>
     <tag k="currency" v="EUR"/>
@@ -2103,7 +2102,7 @@
     <tag k="name:ar" v="سان بيار وميكلون"/>
     <tag k="name:ast" v="Saint Pierre y Miquelon"/>
     <tag k="name:az" v="Seynt Piyer və Mikelon"/>
-    <tag k="name:be" v="Святы П’ер і Міквелон"/>
+    <tag k="name:be" v="Сен-П'ер і Мікелон"/>
     <tag k="name:bg" v="Сен Пиер и Мигелон"/>
     <tag k="name:bm" v="Piyɛri-Senu-ni-Mikelɔŋ"/>
     <tag k="name:bn" v="সেন্ট পিয়ের ও মিকুয়েলন"/>
@@ -2289,6 +2288,7 @@
     <tag k="name:to" v="Seini Helena"/>
     <tag k="name:uk" v="Острів Святої Єлени"/>
     <tag k="name:ur" v="سینٹ ہیلینا"/>
+    <tag k="name:wal" v="Geeshsha Heeleenaa"/>
     <tag k="name:yo" v="Orílẹ́ède Hẹlena"/>
     <tag k="name:zh" v="圣赫勒拿"/>
     <tag k="name:zu" v="i-Saint Helena"/>
@@ -2455,13 +2455,6 @@
     <tag k="wikidata" v="Q188096"/>
     <tag k="wikipedia" v="en:Penang"/>
   </node>
-  <node id="256756054" lat="7.4393793" lon="151.8515538">
-    <tag k="name" v="Chuuk"/>
-    <tag k="name:hu" v="Chuuk"/>
-    <tag k="name:ru" v="Чуук"/>
-    <tag k="place" v="state"/>
-    <tag k="wikidata" v="Q221684"/>
-  </node>
   <node id="271047515" lat="18.0814066" lon="-63.0467131">
     <tag k="ISO3166-1" v="MF"/>
     <tag k="ISO3166-1:alpha2" v="MF"/>
@@ -2477,97 +2470,98 @@
     <tag k="description:en" v="France, overseas collectivity"/>
     <tag k="description:nl" v="Frankrijk, overzeese gemeenschap"/>
     <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/c/c3/Flag_of_France.svg"/>
-    <tag k="int_name" v="Saint Martin (French part)"/>
-    <tag k="name" v="Saint-Martin (France)"/>
-    <tag k="name:af" v="Sint Maartin (Frankryk)"/>
-    <tag k="name:an" v="Sant Martín (Francia)"/>
-    <tag k="name:ar" v="سانت مارتن (فرنسا)"/>
-    <tag k="name:ast" v="San Martín (Francia)"/>
-    <tag k="name:az" v="Sen-Marten (Fransa)"/>
+    <tag k="int_name" v="Saint-Martin"/>
+    <tag k="name" v="Saint-Martin"/>
+    <tag k="name:af" v="Sint Maartin"/>
+    <tag k="name:an" v="Sant Martín"/>
+    <tag k="name:ar" v="سانت مارتن"/>
+    <tag k="name:ast" v="San Martín"/>
+    <tag k="name:az" v="Sen-Marten"/>
     <tag k="name:azb" v="سنت مارتین فرانسه"/>
-    <tag k="name:be" v="Сен-Мартэн (Францыя)"/>
-    <tag k="name:be-tarask" v="Сэн-Мартэн (Францыя)"/>
-    <tag k="name:bg" v="Сен Мартен (Франция)"/>
-    <tag k="name:br" v="Sant-Martin (Bro-C'hall)"/>
-    <tag k="name:bs" v="Sveti Martin (Francuska)"/>
-    <tag k="name:ca" v="Sant Martí (Antilles Franceses)"/>
-    <tag k="name:cdo" v="Saint-Martin (Huák-guók)"/>
-    <tag k="name:cs" v="Svatý Martin (francouzská část)"/>
-    <tag k="name:cy" v="Saint Martin (Ffrainc)"/>
-    <tag k="name:da" v="Saint-Martin (Frankrig)"/>
-    <tag k="name:de" v="St. Martin (Frankreich)"/>
-    <tag k="name:el" v="Άγιος Μαρτίνος (Γαλλία)"/>
-    <tag k="name:en" v="Saint Martin (France)"/>
-    <tag k="name:eo" v="Sankta Marteno (Francio)"/>
-    <tag k="name:es" v="San Martín (Francia)"/>
-    <tag k="name:et" v="Saint-Martini (Prantsusmaa)"/>
-    <tag k="name:eu" v="San Martin (Frantzia)"/>
-    <tag k="name:fa" v="سن مارتن (فرانسه)"/>
-    <tag k="name:fi" v="Saint-Martin (Faransi)"/>
-    <tag k="name:fr" v="Saint-Martin (France)"/>
-    <tag k="name:frr" v="Saint-Martin (Frånkrik)"/>
-    <tag k="name:fy" v="Saint-Martin (Frankryk)"/>
-    <tag k="name:gag" v="Sent Martin (Franțiya)"/>
-    <tag k="name:gcf" v="Sen Mawten (Frans)"/>
-    <tag k="name:gl" v="San Martiño (Francia)"/>
-    <tag k="name:hak" v="Saint-Martin (Fap-koet)"/>
-    <tag k="name:he" v="סנט מארטן (צרפת)"/>
-    <tag k="name:hi" v="सन्त मार्टिन (फ़्रान्स)"/>
-    <tag k="name:hr" v="Sveti Martin (Francuska)"/>
-    <tag k="name:hu" v="Szent Márton (Franciaország)"/>
-    <tag k="name:hy" v="Սեն Մարտեն (Ֆրանսիա)"/>
-    <tag k="name:id" v="Saint Martin (Prancis)"/>
-    <tag k="name:is" v="Saint Martin (Frakkland)"/>
-    <tag k="name:it" v="Saint-Martin (Francia)"/>
-    <tag k="name:ja" v="サン・マルタン (フランス)"/>
-    <tag k="name:jam" v="Sah Mahtah (Frans)"/>
-    <tag k="name:ka" v="სენ-მარტენი (საფრანგეთი)"/>
-    <tag k="name:kn" v="ಸೇಂಟ್ ಮಾರ್ಟಿನ್ (ಫ್ರಾನ್ಸ್)"/>
-    <tag k="name:ko" v="세인트 마틴 (프랑스)"/>
-    <tag k="name:la" v="Insula Sancti Martini (Franciae)"/>
-    <tag k="name:lfn" v="San Marten (Frans)"/>
-    <tag k="name:li" v="Sint Maarten (Frans)"/>
-    <tag k="name:lmo" v="San Martin (Francia)"/>
-    <tag k="name:lt" v="San Martenas (Prancūzija)"/>
-    <tag k="name:lv" v="Senmartēna (Francija)"/>
-    <tag k="name:mk" v="Свети Мартин (Франција)"/>
-    <tag k="name:mr" v="सेंट मार्टिन (फ्रान्स)"/>
-    <tag k="name:ms" v="Saint Martin (Perancis)"/>
-    <tag k="name:mt" v="Saint Martin (Franza)"/>
-    <tag k="name:nan" v="Saint-Martin (Hoat-kok)"/>
-    <tag k="name:nb" v="Saint Martin (Frankrike)"/>
-    <tag k="name:ne" v="सेन्ट मार्टिन (फ्रान्स)"/>
-    <tag k="name:nl" v="Sint Maarten (Frankrijk)"/>
-    <tag k="name:nn" v="Saint Martin (Frankrike)"/>
-    <tag k="name:no" v="Saint Martin (Frankrike)"/>
-    <tag k="name:oc" v="Sant Martin (França)"/>
-    <tag k="name:os" v="Сен-Мартен (Франц)"/>
-    <tag k="name:pl" v="Saint-Martin (Francja)"/>
-    <tag k="name:pms" v="San Martin (Fransa)"/>
-    <tag k="name:pnb" v="سینٹ مارٹن (فرانس)"/>
-    <tag k="name:pt" v="São Martinho (França)"/>
-    <tag k="name:ro" v="Sfântul Martin (Franța)"/>
-    <tag k="name:ru" v="Сен-Мартен (Франция)"/>
-    <tag k="name:sco" v="Saunt Martin (Fraunce)"/>
-    <tag k="name:sh" v="Saint-Martin (Francuska)"/>
-    <tag k="name:sk" v="Svätý Martin (Francúzsko)"/>
-    <tag k="name:sr" v="Свети Мартин (Француска)"/>
-    <tag k="name:su" v="Saint Martin (Perancis)"/>
-    <tag k="name:sv" v="Saint Martin (Frankrike)"/>
-    <tag k="name:sw" v="Saint Martin (Ufaransa)"/>
-    <tag k="name:ta" v="செயிண்ட் மார்டின் (பிரான்சு)"/>
-    <tag k="name:tl" v="San Martin (Pransiya)"/>
-    <tag k="name:tr" v="Saint Martin (Fransa)"/>
-    <tag k="name:uk" v="Сен-Мартен (Франція)"/>
-    <tag k="name:ur" v="سینٹ مارٹن (فرانس)"/>
-    <tag k="name:vi" v="Saint-Martin (Pháp)"/>
-    <tag k="name:war" v="Saint Martin (Fransya)"/>
-    <tag k="name:yo" v="Saint Martin (Fránsì)"/>
-    <tag k="name:yue" v="聖馬丁 (法國)"/>
-    <tag k="name:zh" v="圣马丁 (法国) / 聖馬丁 (法國)"/>
-    <tag k="name:zh-Hans" v="圣马丁 (法国)"/>
-    <tag k="name:zh-Hant" v="聖馬丁 (法國)"/>
+    <tag k="name:be" v="Сен-Мартэн"/>
+    <tag k="name:be-tarask" v="Сэн-Мартэн"/>
+    <tag k="name:bg" v="Сен Мартен"/>
+    <tag k="name:br" v="Sant-Martin"/>
+    <tag k="name:bs" v="Sveti Martin"/>
+    <tag k="name:ca" v="Sant Martí"/>
+    <tag k="name:cdo" v="Saint-Martin"/>
+    <tag k="name:cs" v="Svatý Martin"/>
+    <tag k="name:cy" v="Saint Martin"/>
+    <tag k="name:da" v="Saint-Martin"/>
+    <tag k="name:de" v="Saint Martin"/>
+    <tag k="name:el" v="Άγιος Μαρτίνος"/>
+    <tag k="name:en" v="Saint Martin"/>
+    <tag k="name:eo" v="Sankta Marteno"/>
+    <tag k="name:es" v="San Martín"/>
+    <tag k="name:et" v="Saint-Martini"/>
+    <tag k="name:eu" v="San Martin"/>
+    <tag k="name:fa" v="سن مارتن"/>
+    <tag k="name:fi" v="Saint-Martin"/>
+    <tag k="name:fr" v="Saint-Martin"/>
+    <tag k="name:frr" v="Saint-Martin"/>
+    <tag k="name:fy" v="Saint-Martin"/>
+    <tag k="name:gag" v="Sent Martin"/>
+    <tag k="name:gcf" v="Sen Mawten"/>
+    <tag k="name:gl" v="San Martiño"/>
+    <tag k="name:hak" v="Saint-Martin"/>
+    <tag k="name:he" v="סנט מארטן"/>
+    <tag k="name:hi" v="सन्त मार्टिन"/>
+    <tag k="name:hr" v="Sveti Martin"/>
+    <tag k="name:hu" v="Szent Márton"/>
+    <tag k="name:hy" v="Սեն Մարտեն"/>
+    <tag k="name:id" v="Saint Martin"/>
+    <tag k="name:is" v="Saint Martin"/>
+    <tag k="name:it" v="Saint-Martin"/>
+    <tag k="name:ja" v="サン・マルタン"/>
+    <tag k="name:jam" v="Sah Mahtah"/>
+    <tag k="name:ka" v="სენ-მარტენი"/>
+    <tag k="name:kn" v="ಸೇಂಟ್ ಮಾರ್ಟಿನ್"/>
+    <tag k="name:ko" v="세인트 마틴"/>
+    <tag k="name:la" v="Insula Sancti Martini"/>
+    <tag k="name:lfn" v="San Marten"/>
+    <tag k="name:li" v="Sint Maarten"/>
+    <tag k="name:lmo" v="San Martin"/>
+    <tag k="name:lt" v="San Martenas"/>
+    <tag k="name:lv" v="Senmartēna"/>
+    <tag k="name:mk" v="Свети Мартин"/>
+    <tag k="name:mr" v="सेंट मार्टिन"/>
+    <tag k="name:ms" v="Saint Martin"/>
+    <tag k="name:mt" v="Saint Martin"/>
+    <tag k="name:nan" v="Saint-Martin"/>
+    <tag k="name:nb" v="Saint Martin"/>
+    <tag k="name:ne" v="सेन्ट मार्टिन"/>
+    <tag k="name:nl" v="Sint Maarten"/>
+    <tag k="name:nn" v="Saint Martin"/>
+    <tag k="name:no" v="Saint Martin"/>
+    <tag k="name:oc" v="Sant Martin"/>
+    <tag k="name:os" v="Сен-Мартен"/>
+    <tag k="name:pl" v="Saint-Martin"/>
+    <tag k="name:pms" v="San Martin"/>
+    <tag k="name:pnb" v="سینٹ مارٹن"/>
+    <tag k="name:pt" v="São Martinho"/>
+    <tag k="name:ro" v="Sfântul Martin"/>
+    <tag k="name:ru" v="Сен-Мартен"/>
+    <tag k="name:sco" v="Saunt Martin"/>
+    <tag k="name:sh" v="Saint-Martin"/>
+    <tag k="name:sk" v="Svätý Martin"/>
+    <tag k="name:sr" v="Свети Мартин"/>
+    <tag k="name:su" v="Saint Martin"/>
+    <tag k="name:sv" v="Saint Martin"/>
+    <tag k="name:sw" v="Saint Martin"/>
+    <tag k="name:ta" v="செயிண்ட் மார்டின்"/>
+    <tag k="name:th" v="แซ็ง-มาร์แต็ง"/>
+    <tag k="name:tl" v="San Martin"/>
+    <tag k="name:tr" v="Saint Martin"/>
+    <tag k="name:uk" v="Сен-Мартен"/>
+    <tag k="name:ur" v="سینٹ مارٹن"/>
+    <tag k="name:vi" v="Saint-Martin"/>
+    <tag k="name:war" v="Saint Martin"/>
+    <tag k="name:yo" v="Saint Martin"/>
+    <tag k="name:yue" v="聖馬丁"/>
+    <tag k="name:zh-Hans" v="圣马丁"/>
+    <tag k="name:zh-Hant" v="聖馬丁"/>
     <tag k="official_name" v="Collectivité de Saint-Martin"/>
+    <tag k="official_name:be" v="Супольнасць Сэн-Мартэн"/>
     <tag k="official_name:ca" v="Col·lectivitat de Saint-Martin"/>
     <tag k="official_name:cs" v="Společenství Svatý Martin"/>
     <tag k="official_name:de" v="Kollektivität Saint-Martin"/>
@@ -2662,7 +2656,7 @@
     <tag k="wikidata" v="Q474876"/>
     <tag k="wikipedia" v="ru:Наманганская область"/>
   </node>
-  <node id="304951004" lat="-31.8759835" lon="147.2869493">
+  <node id="304951004" lat="-32.1629594" lon="147.0320469">
     <tag k="alt_name:eo" v="Nova Sud-Kimrujo"/>
     <tag k="name" v="New South Wales"/>
     <tag k="name:ar" v="نيوساوث ويلز"/>
@@ -2691,7 +2685,10 @@
     <tag k="name:vo" v="Nula-Sulüda-Velsän"/>
     <tag k="name:zh" v="新南威尔士州"/>
     <tag k="place" v="state"/>
+    <tag k="population" v="8641100"/>
+    <tag k="population:date" v="2025-12-31"/>
     <tag k="ref" v="NSW"/>
+    <tag k="source:population" v="https://www.abs.gov.au/statistics/people/population/national-state-and-territory-population/dec-2025"/>
     <tag k="state_code" v="NSW"/>
     <tag k="wikidata" v="Q3224"/>
     <tag k="wikipedia" v="en:New South Wales"/>
@@ -2729,8 +2726,11 @@
     <tag k="name:vo" v="Vesüda-Laustralän"/>
     <tag k="name:zh" v="西澳大利亚州"/>
     <tag k="place" v="state"/>
+    <tag k="population" v="3076500"/>
+    <tag k="population:date" v="2025-12-31"/>
     <tag k="ref" v="WA"/>
     <tag k="source:name:br" v="ofis publik ar brezhoneg"/>
+    <tag k="source:population" v="https://www.abs.gov.au/statistics/people/population/national-state-and-territory-population/dec-2025"/>
     <tag k="state_code" v="WA"/>
     <tag k="wikidata" v="Q3206"/>
     <tag k="wikipedia" v="en:Western Australia"/>
@@ -2766,7 +2766,10 @@
     <tag k="name:vo" v="Sulüda-Laustralän"/>
     <tag k="name:zh" v="南澳大利亚州"/>
     <tag k="place" v="state"/>
+    <tag k="population" v="1910600"/>
+    <tag k="population:date" v="2025-12-31"/>
     <tag k="ref" v="SA"/>
+    <tag k="source:population" v="https://www.abs.gov.au/statistics/people/population/national-state-and-territory-population/dec-2025"/>
     <tag k="state_code" v="SA"/>
     <tag k="wikidata" v="Q35715"/>
     <tag k="wikipedia" v="en:South Australia"/>
@@ -2808,7 +2811,10 @@
     <tag k="old_name" v="Van Diemen's Land"/>
     <tag k="old_name:de" v="Van-Diemens-Land"/>
     <tag k="place" v="state"/>
+    <tag k="population" v="579100"/>
+    <tag k="population:date" v="2025-12-31"/>
     <tag k="ref" v="TAS"/>
+    <tag k="source:population" v="https://www.abs.gov.au/statistics/people/population/national-state-and-territory-population/dec-2025"/>
     <tag k="state_code" v="TAS"/>
     <tag k="wikidata" v="Q34366"/>
     <tag k="wikipedia" v="en:Tasmania"/>
@@ -2834,7 +2840,10 @@
     <tag k="name:uk" v="Вікторія"/>
     <tag k="name:zh" v="维多利亚州"/>
     <tag k="place" v="state"/>
+    <tag k="population" v="7121900"/>
+    <tag k="population:date" v="2025-12-31"/>
     <tag k="ref" v="VIC"/>
+    <tag k="source:population" v="https://www.abs.gov.au/statistics/people/population/national-state-and-territory-population/dec-2025"/>
     <tag k="state_code" v="VIC"/>
     <tag k="wikidata" v="Q36687"/>
     <tag k="wikipedia" v="en:Victoria (Australia)"/>
@@ -3458,6 +3467,7 @@
     <tag k="gns:dsg" v="ADM1"/>
     <tag k="gns:uni" v="-2367153"/>
     <tag k="name" v="Oaxaca"/>
+    <tag k="name:el" v="Οαχάκα"/>
     <tag k="name:en" v="Oaxaca"/>
     <tag k="name:eo" v="Oaĥako"/>
     <tag k="name:es" v="Oaxaca"/>
@@ -3750,6 +3760,7 @@
     <tag k="name:be" v="Паўночна-Заходнія тэрыторыі"/>
     <tag k="name:br" v="Tiriadoù ar Gwalarn"/>
     <tag k="name:ckb" v="ناوچەکانی باکووری ڕۆژاوا"/>
+    <tag k="name:dak" v="Waziyata Wiyoḣpiyeta"/>
     <tag k="name:de" v="Nordwest-Territorien"/>
     <tag k="name:el" v="Βορειοδυτικά Εδάφη"/>
     <tag k="name:en" v="Northwest Territories"/>
@@ -3764,6 +3775,7 @@
     <tag k="name:iu" v="ᓄᓇᑦᓯᐊᖅ"/>
     <tag k="name:iu-Latn" v="nunatsiaq"/>
     <tag k="name:ko" v="노스웨스트 준주"/>
+    <tag k="name:lkt" v="Wazíyata Wiyóȟpiyeta"/>
     <tag k="name:lt" v="Šiaurės Vakarai"/>
     <tag k="name:pl" v="Terytoria Północno-Zachodnie"/>
     <tag k="name:ru" v="Северо-Западные территории"/>
@@ -3803,6 +3815,7 @@
     <tag k="name:ckb" v="بریتش کۆڵۆمبیا"/>
     <tag k="name:cs" v="Britská Kolumbie"/>
     <tag k="name:da" v="Britisk Columbia"/>
+    <tag k="name:dak" v="Wi Mniwaƞca Ohiƞḣpaye"/>
     <tag k="name:de" v="Britisch-Kolumbien"/>
     <tag k="name:el" v="Βρετανική Κολομβία"/>
     <tag k="name:en" v="British Columbia"/>
@@ -3830,6 +3843,7 @@
     <tag k="name:kw" v="Kolombi Bredennek"/>
     <tag k="name:la" v="Columbia Britannica"/>
     <tag k="name:lij" v="Columbia Britannega"/>
+    <tag k="name:lkt" v="Wi Mniwáŋča Ohíŋȟpaye"/>
     <tag k="name:lt" v="Britų Kolumbija"/>
     <tag k="name:lv" v="Britu Kolumbija"/>
     <tag k="name:mn" v="Бритиш Коламбиа"/>
@@ -3855,10 +3869,10 @@
     <tag k="name:vro" v="Briti Columbia"/>
     <tag k="name:yi" v="בריטיש קאלאמביע"/>
     <tag k="name:zh" v="不列颠哥伦比亚省;英屬哥倫比亞省;卑詩省"/>
-    <tag k="name:zh-HK" v="卑詩省"/>
     <tag k="name:zh-Hans" v="不列颠哥伦比亚省"/>
     <tag k="name:zh-Hant" v="英屬哥倫比亞省;卑詩省"/>
-    <tag k="name:zh-TW" v="英屬哥倫比亞省"/>
+    <tag k="name:zh-Hant-HK" v="卑詩省"/>
+    <tag k="name:zh-Hant-TW" v="英屬哥倫比亞省"/>
     <tag k="place" v="state"/>
     <tag k="population" v="4400057"/>
     <tag k="population:date" v="2012-02-08"/>
@@ -3879,6 +3893,7 @@
     <tag k="name:be" v="Квебек"/>
     <tag k="name:br" v="Kebek"/>
     <tag k="name:ckb" v="کیبێک"/>
+    <tag k="name:dak" v="Wakpada Ocistiyeda"/>
     <tag k="name:en" v="Quebec"/>
     <tag k="name:eo" v="Kebekio"/>
     <tag k="name:fr" v="Québec"/>
@@ -3887,6 +3902,7 @@
     <tag k="name:iu-Latn" v="kupaik"/>
     <tag k="name:ko" v="퀘벡주"/>
     <tag k="name:ku" v="Kîbêk"/>
+    <tag k="name:lkt" v="Wakpála Očísčiyela"/>
     <tag k="name:ru" v="Квебек"/>
     <tag k="name:sk" v="Quebec"/>
     <tag k="name:uk" v="Квебек"/>
@@ -3913,6 +3929,7 @@
     <tag k="name:be" v="Антарыа"/>
     <tag k="name:br" v="Ontario"/>
     <tag k="name:ckb" v="ئۆنتاریۆ"/>
+    <tag k="name:dak" v="Waḣ'aƞksica"/>
     <tag k="name:en" v="Ontario"/>
     <tag k="name:eo" v="Ontario"/>
     <tag k="name:fr" v="Ontario"/>
@@ -3922,6 +3939,7 @@
     <tag k="name:ko" v="온타리오주"/>
     <tag k="name:ku" v="Ontaryo"/>
     <tag k="name:lfn" v="Ontario"/>
+    <tag k="name:lkt" v="Waȟ'áŋksiča"/>
     <tag k="name:mr" v="ऑनटारिओ"/>
     <tag k="name:ru" v="Онтарио"/>
     <tag k="name:sk" v="Ontário"/>
@@ -3956,6 +3974,7 @@
     <tag k="name:bg" v="Албърта"/>
     <tag k="name:br" v="Alberta"/>
     <tag k="name:ckb" v="ئەلبێرتا"/>
+    <tag k="name:dak" v="Íƞyaƞ Ḣe"/>
     <tag k="name:en" v="Alberta"/>
     <tag k="name:eo" v="Alberto"/>
     <tag k="name:fa" v="آلبرتا"/>
@@ -3966,6 +3985,7 @@
     <tag k="name:ka" v="ალბერტა"/>
     <tag k="name:ko" v="앨버타주"/>
     <tag k="name:ku" v="Elbêrta"/>
+    <tag k="name:lkt" v="Íŋyaŋ Ȟe"/>
     <tag k="name:mr" v="आल्बर्टा"/>
     <tag k="name:os" v="Альбертæ"/>
     <tag k="name:ru" v="Альберта"/>
@@ -3999,6 +4019,7 @@
     <tag k="name:ar" v="نوفا سكوتيا"/>
     <tag k="name:be" v="Новая Шатландыя"/>
     <tag k="name:ckb" v="نۆڤا سکۆشا"/>
+    <tag k="name:dak" v="C̣aƞsusbec̣a"/>
     <tag k="name:de" v="Neuschottland"/>
     <tag k="name:en" v="Nova Scotia"/>
     <tag k="name:eo" v="Nov-Skotio"/>
@@ -4045,6 +4066,7 @@
     <tag k="name:br" v="Manitoba"/>
     <tag k="name:ckb" v="مانیتۆبا"/>
     <tag k="name:cr" v="ᒪᓂᑐᐸ"/>
+    <tag k="name:dak" v="Ṭaṭaƞkaḣca Maḳokaṡpe"/>
     <tag k="name:en" v="Manitoba"/>
     <tag k="name:eo" v="Manitobo"/>
     <tag k="name:fa" v="مانیتوبا"/>
@@ -4055,6 +4077,7 @@
     <tag k="name:ka" v="მანიტობა"/>
     <tag k="name:ko" v="매니토바주"/>
     <tag k="name:ku" v="Manîtoba"/>
+    <tag k="name:lkt" v="Tȟatȟáŋkaȟča-Makȟókašpe"/>
     <tag k="name:mr" v="मॅनिटोबा"/>
     <tag k="name:oc" v="Manitòba"/>
     <tag k="name:os" v="Манитобæ"/>
@@ -4089,6 +4112,7 @@
     <tag k="name:br" v="Douar-Nevez ha Labrador"/>
     <tag k="name:ca" v="Terranova i Labrador"/>
     <tag k="name:ckb" v="نیوفاوندلاند و لابرادۆر"/>
+    <tag k="name:dak" v="Heḣaka"/>
     <tag k="name:de" v="Neufundland und Labrador"/>
     <tag k="name:el" v="Νέα Γη και Λαμπραντόρ"/>
     <tag k="name:en" v="Newfoundland and Labrador"/>
@@ -4106,6 +4130,7 @@
     <tag k="name:ko" v="뉴펀들랜드 래브라도"/>
     <tag k="name:ku" v="Nîwfawindland û labrador"/>
     <tag k="name:la" v="Terra Nova et Labrador"/>
+    <tag k="name:lkt" v="Heȟáka"/>
     <tag k="name:lt" v="Niufaundlandas ir Labradoras"/>
     <tag k="name:pl" v="Nowa Fundlandia i Labrador"/>
     <tag k="name:pt" v="Terra Nova e Labrador"/>
@@ -4144,6 +4169,7 @@
     <tag k="name:eo" v="Jukonio"/>
     <tag k="name:fr" v="Territoire du Yukon"/>
     <tag k="name:gd" v="Roinn an Iukon"/>
+    <tag k="name:gsw" v="Yùkon"/>
     <tag k="name:hu" v="Yukon"/>
     <tag k="name:ko" v="유콘 준주"/>
     <tag k="name:ku" v="Îwkon"/>
@@ -4362,6 +4388,9 @@
     <tag k="name" v="Quirino"/>
     <tag k="name:en" v="Quirino"/>
     <tag k="name:eo" v="Kirino"/>
+    <tag k="name:etymology" v="Elpidio Quirino"/>
+    <tag k="name:etymology:wikidata" v="Q319943"/>
+    <tag k="name:etymology:wikipedia" v="en:Elpidio Quirino"/>
     <tag k="name:ja" v="キリノ"/>
     <tag k="name:ko" v="키리노주"/>
     <tag k="name:ru" v="Кирино"/>
@@ -4427,6 +4456,7 @@
     <tag k="is_in:region" v="Soccsksargen"/>
     <tag k="name" v="South Cotabato"/>
     <tag k="name:eo" v="Suda Kotabato"/>
+    <tag k="name:fil" v="Timog Kutabato"/>
     <tag k="name:fr" v="Cotabato du Sud"/>
     <tag k="name:ko" v="남코타바토주"/>
     <tag k="name:ru" v="Южный Котабато"/>
@@ -5019,6 +5049,9 @@
     <tag k="name:ko" v="아파야오주"/>
     <tag k="name:ru" v="Апаяо"/>
     <tag k="name:tl" v="Apayao"/>
+    <tag k="official_name" v="Province of Apayao"/>
+    <tag k="official_name:fil" v="Lalawigan ng Apayao"/>
+    <tag k="official_name:ilo" v="Probinsia ti Apayao"/>
     <tag k="old_ref" v="148100000"/>
     <tag k="place" v="state"/>
     <tag k="population" v="126587"/>
@@ -5419,11 +5452,14 @@
     <tag k="name:ko" v="아브라주"/>
     <tag k="name:ru" v="Абра"/>
     <tag k="name:tl" v="Abra"/>
-    <tag k="old_ref" v="140100000"/>
+    <tag k="official_name" v="Province of Abra"/>
+    <tag k="official_name:fil" v="Lalawigan ng Abra"/>
+    <tag k="official_name:ilo" v="Probinsia ti Abra"/>
     <tag k="place" v="state"/>
     <tag k="population" v="246948"/>
     <tag k="population:date" v="2024-07-01"/>
     <tag k="ref" v="1400100000"/>
+    <tag k="source:population" v="Philippine Statistics Authority"/>
     <tag k="wikidata" v="Q13711"/>
     <tag k="wikimedia_commons" v="Category:Abra (province)"/>
     <tag k="wikipedia" v="en:Abra (province)"/>
@@ -5485,7 +5521,7 @@
     <tag k="wikimedia_commons" v="Category:Cagayan (province)"/>
     <tag k="wikipedia" v="en:Cagayan"/>
   </node>
-  <node id="305704568" lat="14.2554073" lon="120.8671503">
+  <node id="305704568" lat="14.2854199" lon="120.8543403">
     <tag k="ISO3166-2" v="PH-CAV"/>
     <tag k="admin_level" v="4"/>
     <tag k="admin_type:PH" v="province"/>
@@ -5504,10 +5540,11 @@
     <tag k="official_name" v="Province of Cavite"/>
     <tag k="old_ref" v="042100000"/>
     <tag k="place" v="state"/>
-    <tag k="population" v="4344829"/>
-    <tag k="population:date" v="2020-05-01"/>
+    <tag k="population" v="4573884"/>
+    <tag k="population:date" v="2024-07-01"/>
     <tag k="ref" v="0402100000"/>
     <tag k="wikidata" v="Q13785"/>
+    <tag k="wikimedia_commons" v="Category:Cavite"/>
     <tag k="wikipedia" v="en:Cavite"/>
   </node>
   <node id="305704570" lat="6.5556705" lon="124.3271496">
@@ -5533,6 +5570,8 @@
     <tag k="population" v="854052"/>
     <tag k="population:date" v="2020-05-01"/>
     <tag k="ref" v="126500000"/>
+    <tag k="related_law" v="Presidential Decree No. 341"/>
+    <tag k="start_date" v="1973-11-22"/>
     <tag k="wikidata" v="Q13885"/>
     <tag k="wikipedia" v="en:Sultan Kudarat"/>
   </node>
@@ -6228,6 +6267,7 @@
     <tag k="name:fr" v="Province de Khorezm"/>
     <tag k="name:hu" v="Hvárezmi vilajet"/>
     <tag k="name:ru" v="Хорезмская область"/>
+    <tag k="name:uk" v="Хорезмська область"/>
     <tag k="name:uz" v="Хоразм вилояти"/>
     <tag k="name:zh" v="花剌子模州"/>
     <tag k="place" v="state"/>
@@ -6271,6 +6311,7 @@
     <tag k="name:de" v="Provinz Fargʻona"/>
     <tag k="name:en" v="Fergana Province"/>
     <tag k="name:fa" v="ولایت فرغانه"/>
+    <tag k="name:hi" v="फ़रग़ाना प्रान्त"/>
     <tag k="name:hu" v="Fergánai vilajet"/>
     <tag k="name:ja" v="フェルガナ州"/>
     <tag k="name:ru" v="Ферганская область"/>
@@ -6394,8 +6435,6 @@
     <tag k="alt_name" v="Velayat-e Lowgar;Luger Province;Loogard;Logar;Wilayat-e Logar"/>
     <tag k="gns:dsg" v="ADM1: first-order administrative division"/>
     <tag k="gns:uni" v="-4809179"/>
-    <tag k="is_in:country" v="Afghanistan"/>
-    <tag k="is_in:country_code" v="AF"/>
     <tag k="name" v="لوګر"/>
     <tag k="name:ar" v="ولاية لوكر"/>
     <tag k="name:cs" v="Lógar"/>
@@ -6426,8 +6465,6 @@
   <node id="312470031" lat="34.3191345" lon="68.3360426">
     <tag k="gns:dsg" v="ADM1"/>
     <tag k="gns:uni" v="-4831695"/>
-    <tag k="is_in:country" v="Afghanistan"/>
-    <tag k="is_in:country_code" v="AF"/>
     <tag k="name" v="میدان وردګ"/>
     <tag k="name:ar" v="ولاية وردك"/>
     <tag k="name:cs" v="Vardak"/>
@@ -6456,8 +6493,6 @@
     <tag k="ISO3166-2" v="AF-FRA"/>
     <tag k="gns:dsg" v="ADM1"/>
     <tag k="gns:uni" v="-4795957"/>
-    <tag k="is_in:country" v="Afghanistan"/>
-    <tag k="is_in:country_code" v="AF"/>
     <tag k="name" v="فراه"/>
     <tag k="name:ar" v="ولاية فراه"/>
     <tag k="name:cs" v="Faráh"/>
@@ -6487,8 +6522,6 @@
   <node id="312470033" lat="32.3936231" lon="68.7036514">
     <tag k="gns:dsg" v="ADM1"/>
     <tag k="gns:uni" v="-4814824"/>
-    <tag k="is_in:country" v="Afghanistan"/>
-    <tag k="is_in:country_code" v="AF"/>
     <tag k="name" v="پکتیکا"/>
     <tag k="name:ar" v="ولاية بكتيكا"/>
     <tag k="name:cs" v="Paktíka"/>
@@ -6518,8 +6551,6 @@
     <tag k="alt_name" v="Qandahar"/>
     <tag k="gns:dsg" v="ADM1"/>
     <tag k="gns:uni" v="-4802516"/>
-    <tag k="is_in:country" v="Afghanistan"/>
-    <tag k="is_in:country_code" v="AF"/>
     <tag k="name" v="کندھار"/>
     <tag k="name:ar" v="ولاية قندهار"/>
     <tag k="name:ast" v="Kandahar"/>
@@ -6554,8 +6585,6 @@
     <tag k="alt_name" v="Orozgan;Uruzgan"/>
     <tag k="gns:dsg" v="ADM1"/>
     <tag k="gns:uni" v="-4814485"/>
-    <tag k="is_in:country" v="Afghanistan"/>
-    <tag k="is_in:country_code" v="AF"/>
     <tag k="name" v="اروزگان"/>
     <tag k="name:ar" v="ولاية أروزكان"/>
     <tag k="name:cs" v="Orúzgán"/>
@@ -6587,9 +6616,6 @@
     <tag k="ISO3166-2" v="AF-BDG"/>
     <tag k="gns:dsg" v="ADM1"/>
     <tag k="gns:uni" v="-4786554"/>
-    <tag k="is_in" v="Afghanistan"/>
-    <tag k="is_in:country" v="Afghanistan"/>
-    <tag k="is_in:country_code" v="AF"/>
     <tag k="name" v="بادغیس"/>
     <tag k="name:ar" v="ولاية بادغيس"/>
     <tag k="name:cs" v="Bádghís"/>
@@ -6620,15 +6646,13 @@
     <tag k="alt_name" v="Kuner Province;Velayat-e Konarha;Kunarha;Kunar;Velayat-e Konar;Wilayat-e Kunar"/>
     <tag k="gns:dsg" v="ADM1: first-order administrative division"/>
     <tag k="gns:uni" v="-4807298"/>
-    <tag k="is_in:country" v="Afghanistan"/>
-    <tag k="is_in:country_code" v="AF"/>
     <tag k="name" v="کونړ"/>
     <tag k="name:ar" v="ولاية كنر"/>
     <tag k="name:cs" v="Kúnar"/>
     <tag k="name:de" v="Kunar"/>
     <tag k="name:el" v="Κουνάρ"/>
     <tag k="name:en" v="Kunar"/>
-    <tag k="name:fa" v="کنر‎"/>
+    <tag k="name:fa" v="کنر"/>
     <tag k="name:fr" v="Kounar"/>
     <tag k="name:hi" v="कुनर"/>
     <tag k="name:hu" v="Kunar"/>
@@ -6822,9 +6846,6 @@
     <tag k="alt_name" v="Jōzjān;Jawzjan"/>
     <tag k="gns:dsg" v="ADM1"/>
     <tag k="gns:uni" v="-4801307"/>
-    <tag k="is_in" v="Afghanistan"/>
-    <tag k="is_in:country" v="Afghanistan"/>
-    <tag k="is_in:country_code" v="AF"/>
     <tag k="name" v="جوزجان"/>
     <tag k="name:ar" v="ولاية جوزجان"/>
     <tag k="name:cs" v="Džúzdžán"/>
@@ -6857,7 +6878,6 @@
     <tag k="alt_name" v="Ghowr;Ghur"/>
     <tag k="gns:dsg" v="ADM1"/>
     <tag k="gns:uni" v="-4797887"/>
-    <tag k="is_in:country_code" v="AF"/>
     <tag k="name" v="غور"/>
     <tag k="name:ar" v="ولاية غور"/>
     <tag k="name:cs" v="Ghór"/>
@@ -6889,8 +6909,6 @@
     <tag k="ISO3166-2" v="AF-NIM"/>
     <tag k="gns:dsg" v="ADM1"/>
     <tag k="gns:uni" v="-4813950"/>
-    <tag k="is_in:country" v="Afghanistan"/>
-    <tag k="is_in:country_code" v="AF"/>
     <tag k="name" v="نیمروز"/>
     <tag k="name:ar" v="ولاية نيمروز"/>
     <tag k="name:cs" v="Nímróz"/>
@@ -7004,8 +7022,6 @@
     <tag k="ISO3166-2" v="AF-GHA"/>
     <tag k="gns:dsg" v="ADM1"/>
     <tag k="gns:uni" v="-4797607"/>
-    <tag k="is_in:country" v="Afghanistan"/>
-    <tag k="is_in:country_code" v="AF"/>
     <tag k="name" v="غزني"/>
     <tag k="name:ar" v="ولاية غزني"/>
     <tag k="name:cs" v="Ghazní"/>
@@ -7112,8 +7128,6 @@
     <tag k="alt_name" v="ولايت بدکشان;بدخشان;Bedekhshan Province;Velayat-e Badakhshan;Badakhshan;Badakhsan;Wilayat-e"/>
     <tag k="gns:dsg" v="ADM1: first-order administrative division"/>
     <tag k="gns:uni" v="-4786498"/>
-    <tag k="is_in:country" v="Afghanistan"/>
-    <tag k="is_in:country_code" v="AF"/>
     <tag k="name" v="بدخشان"/>
     <tag k="name:ar" v="ولاية بدخشان"/>
     <tag k="name:cs" v="Badachšán"/>
@@ -7146,8 +7160,6 @@
   <node id="312470054" lat="32.3068942" lon="67.1299040">
     <tag k="gns:dsg" v="ADM1"/>
     <tag k="gns:uni" v="-4832877"/>
-    <tag k="is_in:country" v="Afghanistan"/>
-    <tag k="is_in:country_code" v="AF"/>
     <tag k="name" v="زابل"/>
     <tag k="name:ar" v="ولاية زابل"/>
     <tag k="name:cs" v="Zábul"/>
@@ -7179,8 +7191,6 @@
     <tag k="gns:dsg" v="ADM1"/>
     <tag k="gns:uni" v="6266209"/>
     <tag k="int_name" v="Nurestān;Nooristan"/>
-    <tag k="is_in:country" v="Afghanistan"/>
-    <tag k="is_in:country_code" v="AF"/>
     <tag k="name" v="نورستان"/>
     <tag k="name:ar" v="ولاية نورستان"/>
     <tag k="name:cs" v="Núristán"/>
@@ -7209,14 +7219,12 @@
   <node id="312470056" lat="36.0000000" lon="67.6666670">
     <tag k="gns:dsg" v="ADM1"/>
     <tag k="gns:uni" v="-4821676"/>
-    <tag k="is_in:country" v="Afghanistan"/>
-    <tag k="is_in:country_code" v="AF"/>
-    <tag k="name" v="سمنگان‎"/>
+    <tag k="name" v="سمنگان"/>
     <tag k="name:ar" v="ولاية سمنكان"/>
     <tag k="name:cs" v="Samangán"/>
     <tag k="name:de" v="Samangan"/>
     <tag k="name:en" v="Samangan"/>
-    <tag k="name:fa" v="ولایت سمنگان‎"/>
+    <tag k="name:fa" v="ولایت سمنگان"/>
     <tag k="name:fr" v="Samangân"/>
     <tag k="name:hi" v="समंगान"/>
     <tag k="name:hu" v="Szamangán"/>
@@ -7238,8 +7246,6 @@
   <node id="312470057" lat="35.5532126" lon="66.2426766">
     <tag k="gns:dsg" v="ADM1"/>
     <tag k="gns:uni" v="-4822776"/>
-    <tag k="is_in:country" v="Afghanistan"/>
-    <tag k="is_in:country_code" v="AF"/>
     <tag k="name" v="سرپل"/>
     <tag k="name:ar" v="ولاية سربل"/>
     <tag k="name:cs" v="Sar-e Pol"/>
@@ -7267,8 +7273,6 @@
   <node id="312470059" lat="34.9797014" lon="68.9146703">
     <tag k="gns:dsg" v="ADM1"/>
     <tag k="gns:uni" v="-4815172"/>
-    <tag k="is_in:country" v="Afghanistan"/>
-    <tag k="is_in:country_code" v="AF"/>
     <tag k="name" v="پروان"/>
     <tag k="name:ar" v="ولاية بروان"/>
     <tag k="name:cs" v="Parván"/>
@@ -7296,8 +7300,6 @@
     <tag k="alt_name" v="Welayat-e Khost;Velayat-e Khowst;Wilayat-e Khost"/>
     <tag k="gns:dsg" v="ADM1: first-order administrative division"/>
     <tag k="gns:uni" v="6266208"/>
-    <tag k="is_in:country" v="Afghanistan"/>
-    <tag k="is_in:country_code" v="AF"/>
     <tag k="name" v="خوست"/>
     <tag k="name:ar" v="ولاية خوست"/>
     <tag k="name:cs" v="Chóst"/>
@@ -7465,10 +7467,11 @@
     <tag k="name:te" v="ఫ్రెంచ్ గియానా"/>
     <tag k="name:th" v="เฟรนช์เกียนา"/>
     <tag k="name:ti" v="የፈረንሳይ ጉዊአና"/>
+    <tag k="name:tk" v="Gwiýana"/>
     <tag k="name:to" v="Falanise Kuiana"/>
     <tag k="name:tr" v="Fransız Guyanası"/>
     <tag k="name:tt" v="Француз Гвианасы"/>
-    <tag k="name:uk" v="Французька Гвіана"/>
+    <tag k="name:uk" v="Ґвіана"/>
     <tag k="name:ur" v="فرینچ گیانا"/>
     <tag k="name:vi" v="Guyane thuộc Pháp"/>
     <tag k="name:yo" v="Orílẹ́ède Firenṣi Guana"/>
@@ -7481,6 +7484,7 @@
     <tag k="official_name:br" v="Strollegezh Tiriadel Nemetañ Gwiana"/>
     <tag k="official_name:cs" v="Jednotná územní kolektivita Francouzské Guyany"/>
     <tag k="old_name:fr" v="Guyane française"/>
+    <tag k="old_name:uk" v="Французька Ґвіана"/>
     <tag k="place" v="state"/>
     <tag k="population" v="237549"/>
     <tag k="source:population" v="INSEE 2014"/>
@@ -7566,7 +7570,7 @@
     <tag k="name:ko" v="글라루스"/>
     <tag k="name:rm" v="Glaruna"/>
     <tag k="name:ru" v="Гларус"/>
-    <tag k="name:uk" v="Гларус"/>
+    <tag k="name:uk" v="Ґларус"/>
     <tag k="note" v="Dieser Punkt dient zur Platzierung der Kantonsbeschriftung - bitte nicht löschen // This node is used to place the name of the canton - please do not delete"/>
     <tag k="place" v="state"/>
     <tag k="ref" v="GL"/>
@@ -7585,7 +7589,7 @@
     <tag k="name:ko" v="장크트갈렌"/>
     <tag k="name:rm" v="Son Gagl"/>
     <tag k="name:ru" v="Санкт-Галлен"/>
-    <tag k="name:uk" v="Санкт-Галлен"/>
+    <tag k="name:uk" v="Санкт-Ґаллен"/>
     <tag k="note" v="Dieser Punkt dient zur Platzierung der Kantonsbeschriftung - bitte nicht löschen // This node is used to place the name of the canton - please do not delete"/>
     <tag k="place" v="state"/>
     <tag k="ref" v="SG"/>
@@ -7654,6 +7658,7 @@
     <tag k="name:ar" v="تيسينو"/>
     <tag k="name:be" v="Тычына"/>
     <tag k="name:de" v="Tessin"/>
+    <tag k="name:en" v="Ticino"/>
     <tag k="name:eo" v="Tiĉino"/>
     <tag k="name:es" v="Tesino"/>
     <tag k="name:fr" v="Tessin"/>
@@ -8196,6 +8201,108 @@
     <tag k="wikidata" v="Q16609"/>
     <tag k="wikipedia" v="es:Departamento de Rivera"/>
   </node>
+  <node id="316416994" lat="28.6328027" lon="77.2197713">
+    <tag k="ISO3166-2" v="IN-DL"/>
+    <tag k="alt_name:pnb" v="دلّی;دِلی;دلی"/>
+    <tag k="alt_name:vi" v="Dilli"/>
+    <tag k="gns:dsg" v="ADM1"/>
+    <tag k="gns:uni" v="9349459"/>
+    <tag k="name" v="Delhi"/>
+    <tag k="name:am" v="ዴሊ"/>
+    <tag k="name:ar" v="دلهي"/>
+    <tag k="name:as" v="দিল্লী"/>
+    <tag k="name:az" v="Dehli"/>
+    <tag k="name:ba" v="Дели"/>
+    <tag k="name:be" v="Дэлі"/>
+    <tag k="name:bg" v="Делхи"/>
+    <tag k="name:bh" v="दिल्ली"/>
+    <tag k="name:bn" v="দিল্লি"/>
+    <tag k="name:ce" v="Дели"/>
+    <tag k="name:ckb" v="دێلهی"/>
+    <tag k="name:cnr" v="Delhi"/>
+    <tag k="name:crh" v="Deli"/>
+    <tag k="name:cs" v="Dillí"/>
+    <tag k="name:cv" v="Дели"/>
+    <tag k="name:de" v="Delhi"/>
+    <tag k="name:dv" v="ދިއްލީ"/>
+    <tag k="name:el" v="Δελχί"/>
+    <tag k="name:en" v="Delhi"/>
+    <tag k="name:eo" v="Delhio"/>
+    <tag k="name:es" v="Delhi"/>
+    <tag k="name:fa" v="دهلی"/>
+    <tag k="name:fr" v="Delhi"/>
+    <tag k="name:ga" v="Deilí"/>
+    <tag k="name:gn" v="Ndéli"/>
+    <tag k="name:grc" v="Δελίς"/>
+    <tag k="name:gu" v="દિલ્હી"/>
+    <tag k="name:he" v="דלהי"/>
+    <tag k="name:hi" v="दिल्ली"/>
+    <tag k="name:hr" v="Delhi"/>
+    <tag k="name:hu" v="Delhi"/>
+    <tag k="name:hy" v="Դելի"/>
+    <tag k="name:is" v="Delí"/>
+    <tag k="name:ja" v="デリー"/>
+    <tag k="name:ka" v="დელი"/>
+    <tag k="name:kk" v="Дели"/>
+    <tag k="name:km" v="ដេលី"/>
+    <tag k="name:kn" v="ದೆಹಲಿ"/>
+    <tag k="name:ko" v="델리"/>
+    <tag k="name:ks" v="دِل"/>
+    <tag k="name:ku" v="Delhî"/>
+    <tag k="name:ky" v="Дели"/>
+    <tag k="name:la" v="Dellium"/>
+    <tag k="name:lt" v="Delis"/>
+    <tag k="name:lv" v="Deli"/>
+    <tag k="name:mk" v="Делхи"/>
+    <tag k="name:ml" v="ഡെൽഹി"/>
+    <tag k="name:mn" v="Дели"/>
+    <tag k="name:mr" v="दिल्ली"/>
+    <tag k="name:ms" v="Delhi"/>
+    <tag k="name:my" v="ဒေလီမြို့"/>
+    <tag k="name:ne" v="दिल्ली"/>
+    <tag k="name:nl" v="Delhi"/>
+    <tag k="name:oc" v="Delhi"/>
+    <tag k="name:or" v="ଦିଲ୍ଲୀ"/>
+    <tag k="name:os" v="Дели"/>
+    <tag k="name:pa" v="ਦਿੱਲੀ"/>
+    <tag k="name:pnb" v="دِلّی"/>
+    <tag k="name:ps" v="ډيلي"/>
+    <tag k="name:pt" v="Deli"/>
+    <tag k="name:qu" v="Dilhi"/>
+    <tag k="name:ru" v="Дели"/>
+    <tag k="name:sa" v="देहली"/>
+    <tag k="name:sat" v="ᱫᱤᱞᱞᱤ"/>
+    <tag k="name:sd" v="دهلي"/>
+    <tag k="name:sk" v="Dillí"/>
+    <tag k="name:sl" v="Delhi"/>
+    <tag k="name:sr" v="Делхи"/>
+    <tag k="name:ta" v="தில்லி"/>
+    <tag k="name:te" v="ఢిల్లీ"/>
+    <tag k="name:tg" v="Деҳлӣ"/>
+    <tag k="name:th" v="เดลี"/>
+    <tag k="name:tk" v="Deli"/>
+    <tag k="name:tt" v="Дәһли"/>
+    <tag k="name:ug" v="دېھلى"/>
+    <tag k="name:uk" v="Делі"/>
+    <tag k="name:ur" v="دہلی"/>
+    <tag k="name:uz" v="Dehli"/>
+    <tag k="name:vi" v="Delhi"/>
+    <tag k="name:yi" v="דעלהי"/>
+    <tag k="name:zh" v="德里"/>
+    <tag k="official_name" v="National Capital Territory of Delhi"/>
+    <tag k="official_name:vi" v="Lãnh thổ Thủ đô Quốc gia Delhi"/>
+    <tag k="place" v="state"/>
+    <tag k="population" v="16787941"/>
+    <tag k="population:date" v="2011"/>
+    <tag k="source" v="GNS"/>
+    <tag k="source:name:oc" v="Lo Congrès"/>
+    <tag k="wikidata" v="Q9357528"/>
+    <tag k="wikipedia" v="en:Delhi"/>
+    <tag k="wikipedia:ks" v="دِل"/>
+    <tag k="wikipedia:pa" v="ਦਿੱਲੀ"/>
+    <tag k="wikipedia:te" v="ఢిల్లీ"/>
+    <tag k="wikipedia:ur" v="دہلی"/>
+  </node>
   <node id="316417213" lat="29.0000000" lon="76.0000000">
     <tag k="gns:dsg" v="ADM1"/>
     <tag k="gns:uni" v="-2911966"/>
@@ -8556,6 +8663,7 @@
     <tag k="name:tok" v="ma Alapama"/>
     <tag k="name:uk" v="Алабама"/>
     <tag k="name:ur" v="الاباما"/>
+    <tag k="name:wal" v="Alabaamaa"/>
     <tag k="name:wuu" v="阿拉巴馬州"/>
     <tag k="name:yi" v="אלאבאמא"/>
     <tag k="name:yue" v="阿拉巴馬州"/>
@@ -8625,6 +8733,7 @@
     <tag k="name:fr" v="Arizona"/>
     <tag k="name:fy" v="Arizona"/>
     <tag k="name:hak" v="Arizona"/>
+    <tag k="name:hi" v="एरिज़ौना"/>
     <tag k="name:hu" v="Arizona"/>
     <tag k="name:ko" v="애리조나"/>
     <tag k="name:mo" v="Аризона"/>
@@ -8636,6 +8745,7 @@
     <tag k="name:short" v="AZ"/>
     <tag k="name:tok" v="ma Ewisona"/>
     <tag k="name:uk" v="Аризона"/>
+    <tag k="name:wal" v="Ariizoonaa"/>
     <tag k="name:zh" v="亚利桑那州;亞利桑那州"/>
     <tag k="name:zh-Hans" v="亚利桑那州"/>
     <tag k="name:zh-Hant" v="亞利桑那州"/>
@@ -8671,6 +8781,7 @@
     <tag k="name:short" v="AR"/>
     <tag k="name:tok" v="ma Akanso"/>
     <tag k="name:uk" v="Арканзас"/>
+    <tag k="name:wal" v="Arkkansaas"/>
     <tag k="name:zh" v="阿肯色州"/>
     <tag k="place" v="state"/>
     <tag k="population" v="3088354"/>
@@ -8695,6 +8806,7 @@
     <tag k="name:fr" v="Colorado"/>
     <tag k="name:fy" v="Kolorado"/>
     <tag k="name:hak" v="Colorado"/>
+    <tag k="name:hi" v="कोलोराडो"/>
     <tag k="name:hu" v="Colorado"/>
     <tag k="name:ko" v="콜로라도"/>
     <tag k="name:mo" v="Колорадо"/>
@@ -8706,6 +8818,7 @@
     <tag k="name:short" v="CO"/>
     <tag k="name:tok" v="ma Kolowato"/>
     <tag k="name:uk" v="Колорадо"/>
+    <tag k="name:wal" v="Koloraadoo"/>
     <tag k="name:zh" v="科罗拉多州;科羅拉多州"/>
     <tag k="name:zh-Hans" v="科罗拉多州"/>
     <tag k="name:zh-Hant" v="科羅拉多州"/>
@@ -8741,6 +8854,7 @@
     <tag k="name:ru" v="Коннектикут"/>
     <tag k="name:tok" v="ma Kanesika"/>
     <tag k="name:uk" v="Коннектикут"/>
+    <tag k="name:wal" v="Konnetiket"/>
     <tag k="name:zh" v="康涅狄格州;康乃狄克州"/>
     <tag k="name:zh-Hans" v="康涅狄格州"/>
     <tag k="name:zh-Hant" v="康乃狄克州"/>
@@ -8778,6 +8892,7 @@
     <tag k="name:short" v="DE"/>
     <tag k="name:tok" v="ma Telawe"/>
     <tag k="name:uk" v="Делавер"/>
+    <tag k="name:wal" v="Delaweere"/>
     <tag k="name:zh" v="特拉华州;德拉瓦州;特拉華州"/>
     <tag k="name:zh-Hans" v="特拉华州"/>
     <tag k="name:zh-Hans-CN" v="特拉华州"/>
@@ -8826,6 +8941,7 @@
     <tag k="name:tok" v="ma Sosa"/>
     <tag k="name:tt" v="Джорджия"/>
     <tag k="name:uk" v="Джорджія"/>
+    <tag k="name:wal" v="Jorjjiya"/>
     <tag k="name:zh" v="佐治亚州"/>
     <tag k="name:zh-Hant-CN" v="佐治亞州"/>
     <tag k="name:zh-Hant-TW" v="喬治亞州"/>
@@ -8842,7 +8958,6 @@
     <tag k="wikipedia" v="en:Georgia (U.S. state)"/>
   </node>
   <node id="316949921" lat="21.2160437" lon="-157.9752030">
-    <tag k="alt_name:vi" v="Hạ Uy Di"/>
     <tag k="name" v="Hawaii"/>
     <tag k="short_name:en" v="Haw."/>
     <tag k="name:abbreviation" v="Hawaii"/>
@@ -8881,6 +8996,9 @@
     <tag k="name:tok" v="ma Awawi"/>
     <tag k="name:tzl" v="Havaiï"/>
     <tag k="name:uk" v="Гаваї"/>
+    <tag k="name:vi" v="Hạ Uy Di"/>
+    <tag k="name:vi-VN" v="Ha-oai"/>
+    <tag k="name:wal" v="Hawwayii"/>
     <tag k="name:wuu" v="夏威夷州"/>
     <tag k="name:yue" v="夏威夷州"/>
     <tag k="name:zh" v="夏威夷州"/>
@@ -8919,6 +9037,7 @@
     <tag k="name:short" v="ID"/>
     <tag k="name:tok" v="ma Atajo"/>
     <tag k="name:uk" v="Айдахо"/>
+    <tag k="name:wal" v="Aydahoo"/>
     <tag k="name:zh" v="爱达荷州;愛達荷州"/>
     <tag k="name:zh-Hans" v="爱达荷州"/>
     <tag k="name:zh-Hant" v="愛達荷州"/>
@@ -8954,6 +9073,7 @@
     <tag k="name:short" v="IN"/>
     <tag k="name:tok" v="ma Intijana"/>
     <tag k="name:uk" v="Індіана"/>
+    <tag k="name:wal" v="Inddiyaana"/>
     <tag k="name:zh-Hans" v="印第安纳州"/>
     <tag k="name:zh-Hant" v="印第安納州"/>
     <tag k="place" v="state"/>
@@ -8991,6 +9111,7 @@
     <tag k="name:short" v="IA"/>
     <tag k="name:tok" v="ma Ajowa"/>
     <tag k="name:uk" v="Айова"/>
+    <tag k="name:wal" v="Ayoowa"/>
     <tag k="name:wuu" v="艾奥瓦州"/>
     <tag k="name:yue" v="愛荷華州"/>
     <tag k="name:zh" v="艾奥瓦州;愛荷華州"/>
@@ -9030,6 +9151,7 @@
     <tag k="name:short" v="KS"/>
     <tag k="name:tok" v="ma Kense"/>
     <tag k="name:uk" v="Канзас"/>
+    <tag k="name:wal" v="Kanssaas"/>
     <tag k="name:zh" v="堪萨斯州;堪薩斯州"/>
     <tag k="name:zh-Hans" v="堪萨斯州"/>
     <tag k="name:zh-Hant" v="堪薩斯州"/>
@@ -9068,6 +9190,7 @@
     <tag k="name:short" v="KY"/>
     <tag k="name:tok" v="ma Kentaki"/>
     <tag k="name:uk" v="Кентуккі"/>
+    <tag k="name:wal" v="Kenttakii"/>
     <tag k="name:zh" v="肯塔基州"/>
     <tag k="place" v="state"/>
     <tag k="population" v="4588372"/>
@@ -9097,6 +9220,7 @@
     <tag k="name:gl" v="Luisiana"/>
     <tag k="name:gn" v="Luisiana"/>
     <tag k="name:grc" v="Λουδοβικία"/>
+    <tag k="name:hi" v="लुईज़ियाना"/>
     <tag k="name:hu" v="Louisiana"/>
     <tag k="name:ik" v="Luisiana"/>
     <tag k="name:ko" v="루이지애나"/>
@@ -9112,6 +9236,7 @@
     <tag k="name:tok" v="ma Luwisijana"/>
     <tag k="name:uk" v="Луїзіана"/>
     <tag k="name:ur" v="لوویزیانا"/>
+    <tag k="name:wal" v="Luwiiziyanaa"/>
     <tag k="name:zh" v="路易斯安那州"/>
     <tag k="place" v="state"/>
     <tag k="population" v="4597740"/>
@@ -9148,6 +9273,7 @@
     <tag k="name:short" v="ME"/>
     <tag k="name:tok" v="ma Men"/>
     <tag k="name:uk" v="Мен"/>
+    <tag k="name:wal" v="Meyiin"/>
     <tag k="name:zh" v="缅因州;緬因州"/>
     <tag k="name:zh-Hans" v="缅因州"/>
     <tag k="name:zh-Hant" v="緬因州"/>
@@ -9185,6 +9311,7 @@
     <tag k="name:short" v="MD"/>
     <tag k="name:tok" v="ma Mewilan"/>
     <tag k="name:uk" v="Меріленд"/>
+    <tag k="name:wal" v="Meeriilandde"/>
     <tag k="name:wuu" v="马里兰州"/>
     <tag k="name:yue" v="馬里蘭州"/>
     <tag k="name:zh" v="马里兰州;馬里蘭州"/>
@@ -9226,6 +9353,7 @@
     <tag k="name:short" v="MA"/>
     <tag k="name:tok" v="ma Masasusi"/>
     <tag k="name:uk" v="Массачусетс"/>
+    <tag k="name:wal" v="Masaachuuseetis"/>
     <tag k="name:zh" v="马萨诸塞州;麻薩諸塞州;麻省"/>
     <tag k="name:zh-Hans" v="马萨诸塞州"/>
     <tag k="name:zh-Hant" v="麻薩諸塞州;麻省"/>
@@ -9267,7 +9395,8 @@
     <tag k="name:ru" v="Мичиган"/>
     <tag k="name:short" v="MI"/>
     <tag k="name:tok" v="ma Misikan"/>
-    <tag k="name:uk" v="Мічиган"/>
+    <tag k="name:uk" v="Мічиґан"/>
+    <tag k="name:wal" v="Mishiigan"/>
     <tag k="name:zh" v="密歇根州"/>
     <tag k="name:zh-Hans" v="密歇根州"/>
     <tag k="name:zh-Hant-CN" v="密歇根州"/>
@@ -9294,12 +9423,14 @@
     <tag k="name:be" v="Мінесота"/>
     <tag k="name:br" v="Minnesota"/>
     <tag k="name:chr" v="ᎻᏂᏐᏓ"/>
+    <tag k="name:dak" v="Mni Sóta Maḳoc̣e"/>
     <tag k="name:en" v="Minnesota"/>
     <tag k="name:eo" v="Minesoto"/>
     <tag k="name:fr" v="Minnesota"/>
     <tag k="name:fy" v="Minnesota"/>
     <tag k="name:hu" v="Minnesota"/>
     <tag k="name:ko" v="미네소타"/>
+    <tag k="name:lkt" v="Mni Sóta Makȟóčhe"/>
     <tag k="name:mo" v="Миннесота"/>
     <tag k="name:mr" v="मिनेसोटा"/>
     <tag k="name:nl" v="Minnesota"/>
@@ -9308,6 +9439,7 @@
     <tag k="name:short" v="MN"/>
     <tag k="name:tok" v="ma Minisota"/>
     <tag k="name:uk" v="Міннесота"/>
+    <tag k="name:wal" v="Minesootaa"/>
     <tag k="name:zh-Hans" v="明尼苏达州"/>
     <tag k="name:zh-Hant" v="明尼蘇達州"/>
     <tag k="place" v="state"/>
@@ -9344,6 +9476,7 @@
     <tag k="name:short" v="MS"/>
     <tag k="name:tok" v="ma Misisipi"/>
     <tag k="name:uk" v="Міссісіпі"/>
+    <tag k="name:wal" v="Misisippii"/>
     <tag k="name:zh" v="密西西比州"/>
     <tag k="name:zh-Hans" v="密西西比州"/>
     <tag k="name:zh-Hant" v="密西西比州"/>
@@ -9379,6 +9512,7 @@
     <tag k="name:short" v="MT"/>
     <tag k="name:tok" v="ma Montana"/>
     <tag k="name:uk" v="Монтана"/>
+    <tag k="name:wal" v="Monttaanaa"/>
     <tag k="name:zh" v="蒙大拿州"/>
     <tag k="place" v="state"/>
     <tag k="population" v="1137233"/>
@@ -9399,6 +9533,7 @@
     <tag k="name:be" v="Небраска"/>
     <tag k="name:br" v="Nebraska"/>
     <tag k="name:chr" v="ᏎᎷᏱ"/>
+    <tag k="name:dak" v="Mnibdaska"/>
     <tag k="name:de" v="Nebraska"/>
     <tag k="name:en" v="Nebraska"/>
     <tag k="name:eo" v="Nebrasko"/>
@@ -9409,6 +9544,7 @@
     <tag k="name:hu" v="Nebraska"/>
     <tag k="name:it" v="Nebraska"/>
     <tag k="name:ko" v="네브래스카"/>
+    <tag k="name:lkt" v="Mnináblaska"/>
     <tag k="name:mo" v="Небраска"/>
     <tag k="name:mr" v="नेब्रास्का"/>
     <tag k="name:nan" v="Nebraska"/>
@@ -9420,6 +9556,7 @@
     <tag k="name:ta" v="நெப்ராஸ்கா"/>
     <tag k="name:tok" v="ma Nepaka"/>
     <tag k="name:uk" v="Небраска"/>
+    <tag k="name:wal" v="Nebiraskkaa"/>
     <tag k="name:zh" v="内布拉斯加州"/>
     <tag k="name:zh-Hans" v="內布拉斯加州"/>
     <tag k="name:zh-Hant" v="內布拉斯加州"/>
@@ -9477,6 +9614,7 @@
     <tag k="name:tok" v="ma Niwata"/>
     <tag k="name:uk" v="Невада"/>
     <tag k="name:ur" v="نیواڈا"/>
+    <tag k="name:wal" v="Nevaada"/>
     <tag k="name:yi" v="נעוואדא"/>
     <tag k="name:zh" v="内华达州;內華達州"/>
     <tag k="name:zh-Hans" v="内华达州"/>
@@ -9516,6 +9654,7 @@
     <tag k="name:short" v="NH"/>
     <tag k="name:tok" v="ma Nuwanse"/>
     <tag k="name:uk" v="Нью-Гемпшир"/>
+    <tag k="name:wal" v="Niwu Hamppisheer"/>
     <tag k="name:zh" v="新罕布什尔州 / 新罕布夏州 / 新罕布什爾州"/>
     <tag k="name:zh-Hans" v="新罕布什尔州"/>
     <tag k="name:zh-Hant" v="新罕布夏州 / 新罕布什爾州"/>
@@ -9598,6 +9737,7 @@
     <tag k="name:uk" v="Нью-Джерсі"/>
     <tag k="name:ur" v="نیو جرسی"/>
     <tag k="name:uz" v="N'yu-Jersi"/>
+    <tag k="name:wal" v="Niwu Jerssii"/>
     <tag k="name:yi" v="ניו זשערסי"/>
     <tag k="name:zh" v="新泽西州;新澤西州;紐澤西州"/>
     <tag k="name:zh-Hans" v="新泽西州"/>
@@ -9655,6 +9795,7 @@
     <tag k="name:tok" v="ma Numesiko"/>
     <tag k="name:tt" v="Нью-Мексико"/>
     <tag k="name:uk" v="Нью-Мексико"/>
+    <tag k="name:wal" v="Niwu Meksiiko"/>
     <tag k="name:zh" v="新墨西哥州"/>
     <tag k="name:zh-Hans" v="新墨西哥州"/>
     <tag k="name:zh-Hant" v="新墨西哥州"/>
@@ -9698,6 +9839,7 @@
     <tag k="name:short" v="NY"/>
     <tag k="name:tok" v="ma Nujoka"/>
     <tag k="name:uk" v="Нью-Йорк"/>
+    <tag k="name:wal" v="Niwu Yorkke"/>
     <tag k="name:zh" v="纽约州;紐約州"/>
     <tag k="name:zh-Hans" v="纽约州"/>
     <tag k="name:zh-Hant" v="紐約州"/>
@@ -9749,6 +9891,7 @@
     <tag k="name:tt" v="Төньяк Каролина"/>
     <tag k="name:uk" v="Північна Кароліна"/>
     <tag k="name:vi" v="Bắc Carolina"/>
+    <tag k="name:wal" v="Huuphessa Karoolaynaa"/>
     <tag k="name:zh" v="北卡罗来纳州;北卡羅萊那州"/>
     <tag k="name:zh-Hans" v="北卡罗来纳州"/>
     <tag k="name:zh-Hant" v="北卡羅萊那州"/>
@@ -9779,6 +9922,7 @@
     <tag k="name:eo" v="Norda Dakoto"/>
     <tag k="name:es" v="Dakota del Norte"/>
     <tag k="name:et" v="Põhja-Dakota"/>
+    <tag k="name:etymology:wikidata" v="Q16148367"/>
     <tag k="name:fr" v="Dakota du Nord"/>
     <tag k="name:fy" v="Noard-Dakota"/>
     <tag k="name:ga" v="An Dachóta Thuaidh"/>
@@ -9804,6 +9948,7 @@
     <tag k="name:tt" v="Төньяк Дакота"/>
     <tag k="name:uk" v="Північна Дакота"/>
     <tag k="name:vi" v="Bắc Dakota"/>
+    <tag k="name:wal" v="Huuphessa Dakkoota"/>
     <tag k="name:zh" v="北达科他州;北達科他州"/>
     <tag k="name:zh-Hans" v="北达科他州"/>
     <tag k="name:zh-Hant" v="北達科他州"/>
@@ -9830,6 +9975,7 @@
     <tag k="name:eo" v="Ohio"/>
     <tag k="name:fr" v="Ohio"/>
     <tag k="name:fy" v="Ohio"/>
+    <tag k="name:hi" v="ओहायो"/>
     <tag k="name:hu" v="Ohio"/>
     <tag k="name:ko" v="오하이오"/>
     <tag k="name:mo" v="Охайо"/>
@@ -9840,6 +9986,7 @@
     <tag k="name:short" v="OH"/>
     <tag k="name:tok" v="ma Owajo"/>
     <tag k="name:uk" v="Огайо"/>
+    <tag k="name:wal" v="Oohayo"/>
     <tag k="name:zh" v="俄亥俄州"/>
     <tag k="place" v="state"/>
     <tag k="population" v="11883304"/>
@@ -9903,6 +10050,7 @@
     <tag k="name:tok" v="ma Okajoma"/>
     <tag k="name:uk" v="Оклахома"/>
     <tag k="name:ur" v="اوکلاہوما"/>
+    <tag k="name:wal" v="Okilahoomaa"/>
     <tag k="name:yi" v="אקלעהאמע"/>
     <tag k="name:zh" v="俄克拉何马州;奧克拉荷馬州"/>
     <tag k="name:zh-Hans" v="俄克拉何马州"/>
@@ -9942,7 +10090,8 @@
     <tag k="name:ru" v="Орегон"/>
     <tag k="name:short" v="OR"/>
     <tag k="name:tok" v="ma Owekan"/>
-    <tag k="name:uk" v="Орегон"/>
+    <tag k="name:uk" v="Ореґон"/>
+    <tag k="name:wal" v="Oriigene"/>
     <tag k="name:zh" v="俄勒冈州;俄勒岡州"/>
     <tag k="name:zh-Hans" v="俄勒冈州"/>
     <tag k="name:zh-Hant" v="俄勒岡州"/>
@@ -9987,6 +10136,7 @@
     <tag k="name:hak" v="Pîn-sé-fap-nì-â"/>
     <tag k="name:haw" v="Penekelewinia"/>
     <tag k="name:he" v="פנסילבניה"/>
+    <tag k="name:hi" v="पेनसिल्वेनिया"/>
     <tag k="name:ht" v="Pènsilvani"/>
     <tag k="name:hu" v="Pennsylvania"/>
     <tag k="name:hy" v="Պենսիլվանիա"/>
@@ -10025,6 +10175,7 @@
     <tag k="name:uk" v="Пенсильванія"/>
     <tag k="name:ur" v="پنسلوانیا"/>
     <tag k="name:uz" v="Pennsilvaniya"/>
+    <tag k="name:wal" v="Pensilveeniya"/>
     <tag k="name:yi" v="פענסילוועניע"/>
     <tag k="name:zh" v="宾夕法尼亚;賓夕法尼亞州"/>
     <tag k="name:zh-Hans" v="宾夕法尼亚"/>
@@ -10063,6 +10214,7 @@
     <tag k="name:ru" v="Род-Айленд"/>
     <tag k="name:tok" v="ma Otajan"/>
     <tag k="name:uk" v="Род-Айленд"/>
+    <tag k="name:wal" v="Roodi Aysilandde"/>
     <tag k="name:zh" v="罗得岛州;羅德島州"/>
     <tag k="name:zh-Hans" v="罗得岛州"/>
     <tag k="name:zh-Hant" v="羅德島州"/>
@@ -10117,6 +10269,7 @@
     <tag k="name:tt" v="Көньяк Каролина"/>
     <tag k="name:uk" v="Південна Кароліна"/>
     <tag k="name:vi" v="Nam Carolina"/>
+    <tag k="name:wal" v="Tohossa Karoolaynaa"/>
     <tag k="name:zh" v="南卡罗来纳州;南卡羅萊納州"/>
     <tag k="name:zh-Hans" v="南卡罗来纳州"/>
     <tag k="name:zh-Hant" v="南卡羅萊納州"/>
@@ -10148,6 +10301,7 @@
     <tag k="name:eo" v="Suda Dakoto"/>
     <tag k="name:es" v="Dakota del Sur"/>
     <tag k="name:et" v="Lõuna-Dakota"/>
+    <tag k="name:etymology:wikidata" v="Q16148367"/>
     <tag k="name:fr" v="Dakota du Sud"/>
     <tag k="name:fy" v="Súd-Dakota"/>
     <tag k="name:ga" v="An Dachóta Theas"/>
@@ -10171,6 +10325,7 @@
     <tag k="name:tt" v="Көньяк Дакота"/>
     <tag k="name:uk" v="Південна Дакота"/>
     <tag k="name:vi" v="Nam Dakota"/>
+    <tag k="name:wal" v="Tohossa Dakkoota"/>
     <tag k="name:zh" v="南达科他州;南達科他州"/>
     <tag k="name:zh-Hans" v="南达科他州"/>
     <tag k="name:zh-Hant" v="南達科他州"/>
@@ -10208,6 +10363,7 @@
     <tag k="name:short" v="TN"/>
     <tag k="name:tok" v="ma Tenesi"/>
     <tag k="name:uk" v="Теннессі"/>
+    <tag k="name:wal" v="Tenessii"/>
     <tag k="name:zh" v="田纳西州;田納西州"/>
     <tag k="name:zh-Hans" v="田纳西州"/>
     <tag k="name:zh-Hant" v="田納西州"/>
@@ -10234,6 +10390,7 @@
     <tag k="name:eo" v="Utaho"/>
     <tag k="name:fr" v="Utah"/>
     <tag k="name:fy" v="Utah"/>
+    <tag k="name:hi" v="यूटा"/>
     <tag k="name:hu" v="Utah"/>
     <tag k="name:is" v="Utah-ríki"/>
     <tag k="name:ko" v="유타"/>
@@ -10245,6 +10402,7 @@
     <tag k="name:short" v="UT"/>
     <tag k="name:tok" v="ma Juta"/>
     <tag k="name:uk" v="Юта"/>
+    <tag k="name:wal" v="Yuutaahi"/>
     <tag k="name:zh" v="犹他州"/>
     <tag k="name:zh-Hant" v="猶他州"/>
     <tag k="place" v="state"/>
@@ -10280,6 +10438,7 @@
     <tag k="name:short" v="VT"/>
     <tag k="name:tok" v="ma Wemon"/>
     <tag k="name:uk" v="Вермонт"/>
+    <tag k="name:wal" v="Vermontte"/>
     <tag k="name:zh" v="佛蒙特州"/>
     <tag k="name:zh-Hans" v="佛蒙特州"/>
     <tag k="name:zh-Hant" v="佛蒙特州"/>
@@ -10321,6 +10480,7 @@
     <tag k="name:tok" v="ma Wesinja"/>
     <tag k="name:tzl" v="Virxhignha"/>
     <tag k="name:uk" v="Вірджинія"/>
+    <tag k="name:wal" v="Verjjiiniya"/>
     <tag k="name:zh" v="弗吉尼亚州;維吉尼亞州;維珍尼亞州"/>
     <tag k="name:zh-Hans" v="弗吉尼亚州"/>
     <tag k="name:zh-Hans-CN" v="弗吉尼亚州"/>
@@ -10380,6 +10540,7 @@
     <tag k="name:tt" v="Көнбатыш Виргиния"/>
     <tag k="name:uk" v="Західна Вірджинія"/>
     <tag k="name:vi" v="Tây Virginia"/>
+    <tag k="name:wal" v="Arggo Verjjiiniya"/>
     <tag k="name:zh" v="西弗吉尼亚州;西維吉尼亞州;西維珍尼亞州"/>
     <tag k="name:zh-Hans" v="西弗吉尼亚州"/>
     <tag k="name:zh-Hant" v="西維吉尼亞州;西維珍尼亞州"/>
@@ -10411,6 +10572,7 @@
     <tag k="name:fr" v="Wisconsin"/>
     <tag k="name:fy" v="Wiskonsin"/>
     <tag k="name:hak" v="Wisconsin"/>
+    <tag k="name:hi" v="विस्कांसिन"/>
     <tag k="name:hu" v="Wisconsin"/>
     <tag k="name:ko" v="위스콘신"/>
     <tag k="name:mo" v="Уисконсин"/>
@@ -10423,6 +10585,7 @@
     <tag k="name:tok" v="ma Wikansen"/>
     <tag k="name:tzl" v="Visconça"/>
     <tag k="name:uk" v="Вісконсин"/>
+    <tag k="name:wal" v="Wiiskoonsin"/>
     <tag k="name:zh" v="威斯康星州;威斯康辛州"/>
     <tag k="name:zh-Hans" v="威斯康星州"/>
     <tag k="name:zh-Hant" v="威斯康辛州"/>
@@ -10446,6 +10609,8 @@
     <tag k="name:chr" v="ᏩᏲᎻ"/>
     <tag k="name:en" v="Wyoming"/>
     <tag k="name:eo" v="Vajomingo"/>
+    <tag k="name:es" v="Wyoming"/>
+    <tag k="name:es-u-sd-usnm" v="Guayuma"/>
     <tag k="name:fr" v="Wyoming"/>
     <tag k="name:fy" v="Wyoming"/>
     <tag k="name:hak" v="Wyoming"/>
@@ -10459,7 +10624,8 @@
     <tag k="name:ru" v="Вайоминг"/>
     <tag k="name:short" v="WY"/>
     <tag k="name:tok" v="ma Wajomin"/>
-    <tag k="name:uk" v="Вайомінг"/>
+    <tag k="name:uk" v="Вайомінґ"/>
+    <tag k="name:wal" v="Wayoominge"/>
     <tag k="name:zh" v="怀俄明州;懷俄明州"/>
     <tag k="name:zh-Hans" v="怀俄明州"/>
     <tag k="name:zh-Hant" v="懷俄明州"/>
@@ -10493,6 +10659,7 @@
     <tag k="name" v="ولاية شمال كردفان"/>
     <tag k="name:ar" v="شمال كردفان"/>
     <tag k="name:az" v="Şimali Kordofan"/>
+    <tag k="name:br" v="Norzh Kordofan"/>
     <tag k="name:de" v="Nord-Kurdufan"/>
     <tag k="name:en" v="North Kurdufan State"/>
     <tag k="name:es" v="Kordofán del Norte"/>
@@ -10504,6 +10671,7 @@
     <tag k="name:sr" v="Северни Кордофан"/>
     <tag k="name:tr" v="Kuzey Kordofan"/>
     <tag k="name:uk" v="Північний Кордофан"/>
+    <tag k="official_name:br" v="Stad Norzh Kordofan"/>
     <tag k="place" v="state"/>
     <tag k="population" v="1400000"/>
     <tag k="ref" v="KN"/>
@@ -10518,6 +10686,7 @@
     <tag k="hasc" v="SD.RS"/>
     <tag k="name" v="Red Sea State البحر الأحمر"/>
     <tag k="name:ar" v="البحر الأحمر"/>
+    <tag k="name:br" v="Mor Ruz"/>
     <tag k="name:de" v="Rotes Meer"/>
     <tag k="name:en" v="Red Sea State"/>
     <tag k="name:es" v="Mar Rojo"/>
@@ -10533,6 +10702,7 @@
     <tag k="name:sv" v="Röda havet"/>
     <tag k="name:tr" v="Kızıldeniz"/>
     <tag k="name:uk" v="Червоне Море"/>
+    <tag k="official_name:br" v="Stad ar Mor Ruz"/>
     <tag k="place" v="state"/>
     <tag k="population" v="695874"/>
     <tag k="ref" v="RS"/>
@@ -10548,6 +10718,7 @@
     <tag k="gns:uni" v="393097"/>
     <tag k="name" v="Al Qadarif State القضارف"/>
     <tag k="name:ar" v="القضارف"/>
+    <tag k="name:br" v="Al-Qadarif"/>
     <tag k="name:de" v="al-Qadarif"/>
     <tag k="name:en" v="Al Qadarif State"/>
     <tag k="name:es" v="Gadarif"/>
@@ -10560,6 +10731,7 @@
     <tag k="name:sr" v="Ел Кадариф"/>
     <tag k="name:tr" v="El Kadarif"/>
     <tag k="name:uk" v="Гедареф"/>
+    <tag k="official_name:br" v="Stad Al-Qadarif"/>
     <tag k="place" v="state"/>
     <tag k="population" v="1400000"/>
     <tag k="ref" v="GD"/>
@@ -10575,6 +10747,7 @@
     <tag k="gns:uni" v="393135"/>
     <tag k="name" v="النيل الأبيض"/>
     <tag k="name:ar" v="النيل الأبيض"/>
+    <tag k="name:br" v="Nil Gwenn"/>
     <tag k="name:de" v="Weißer Nil"/>
     <tag k="name:en" v="White Nile State"/>
     <tag k="name:es" v="Nilo Blanco"/>
@@ -10586,6 +10759,7 @@
     <tag k="name:sr" v="Бели Нил"/>
     <tag k="name:tr" v="Beyaz Nil"/>
     <tag k="name:uk" v="Білий Ніл"/>
+    <tag k="official_name:br" v="Stad an Nil Gwenn"/>
     <tag k="place" v="state"/>
     <tag k="population" v="1400000"/>
     <tag k="ref" v="NW"/>
@@ -10620,6 +10794,7 @@
     <tag k="gns:dsg" v="ADM1"/>
     <tag k="gns:uni" v="393177"/>
     <tag k="name" v="غرب كردفان"/>
+    <tag k="name:br" v="Kornôg Kordofan"/>
     <tag k="name:de" v="West-Kurdufan"/>
     <tag k="name:en" v="West Kurdufan State"/>
     <tag k="name:es" v="Kordofán del Oeste"/>
@@ -10635,6 +10810,7 @@
     <tag k="name:sr" v="Западни Кордофан"/>
     <tag k="name:tr" v="Batı Kordofan"/>
     <tag k="name:uk" v="Західний Кордофан"/>
+    <tag k="official_name:br" v="Stad Kornôg Kordofan"/>
     <tag k="place" v="state"/>
     <tag k="ref" v="GK"/>
     <tag k="source" v="GNS"/>
@@ -10664,6 +10840,7 @@
     <tag k="gns:uni" v="-2407"/>
     <tag k="name" v="النيل الأزرق Blue Nile State"/>
     <tag k="name:ar" v="النيل الأزرق"/>
+    <tag k="name:br" v="Nil Glas"/>
     <tag k="name:cs" v="Modrý Nil"/>
     <tag k="name:de" v="Blauer Nil"/>
     <tag k="name:en" v="Blue Nile State"/>
@@ -10677,6 +10854,7 @@
     <tag k="name:sr" v="Плави Нил"/>
     <tag k="name:tr" v="Mavi Nil"/>
     <tag k="name:uk" v="Блакитний Ніл"/>
+    <tag k="official_name:br" v="Stad an Nil Glas"/>
     <tag k="old_name" v="Al Wilāyah al Wusţá"/>
     <tag k="old_name:de" v="Zentral"/>
     <tag k="old_name:en" v="Central State"/>
@@ -10711,6 +10889,7 @@
     <tag k="gns:uni" v="393172"/>
     <tag k="name" v="Sultanate Dar Masalit"/>
     <tag k="name:ar" v="ولاية غرب دارفور"/>
+    <tag k="name:br" v="Kornôg Darfour"/>
     <tag k="name:cs" v="Západní Dárfúr"/>
     <tag k="name:de" v="West-Darfur"/>
     <tag k="name:en" v="West Darfur"/>
@@ -10724,6 +10903,7 @@
     <tag k="name:sr" v="Западни Дарфур"/>
     <tag k="name:tr" v="Batı Darfur"/>
     <tag k="name:uk" v="Західний Дарфур"/>
+    <tag k="official_name:br" v="Stad Kornôg Darfour"/>
     <tag k="old_name:ar" v="دار مساليت"/>
     <tag k="old_name:en" v="Dar Masalit"/>
     <tag k="place" v="state"/>
@@ -10739,6 +10919,7 @@
     <tag k="gns:uni" v="393191"/>
     <tag k="name" v="River Nile State ولاية نهر النيل"/>
     <tag k="name:ar" v="ولاية نهر النيل"/>
+    <tag k="name:br" v="An Nil"/>
     <tag k="name:de" v="Nilfluss"/>
     <tag k="name:en" v="River Nile State"/>
     <tag k="name:es" v="Río Nilo"/>
@@ -10752,6 +10933,7 @@
     <tag k="name:sv" v="Nilen"/>
     <tag k="name:tr" v="Nil Nehri (eyalet)"/>
     <tag k="name:uk" v="Ніл"/>
+    <tag k="official_name:br" v="Stad an Nil"/>
     <tag k="place" v="state"/>
     <tag k="population" v="900000"/>
     <tag k="ref" v="NR"/>
@@ -10766,6 +10948,7 @@
     <tag k="gns:uni" v="393180"/>
     <tag k="name" v="South Darfur State جنوب دارفور"/>
     <tag k="name:ar" v="جنوب دارفور"/>
+    <tag k="name:br" v="Su Darfour"/>
     <tag k="name:de" v="Süd-Darfur"/>
     <tag k="name:en" v="South Darfur State"/>
     <tag k="name:fr" v="Darfour du Sud"/>
@@ -10777,6 +10960,7 @@
     <tag k="name:sr" v="Јужни Дарфур"/>
     <tag k="name:tr" v="Güney Darfur"/>
     <tag k="name:uk" v="Південний Дарфур"/>
+    <tag k="official_name:br" v="Stad Su Darfour"/>
     <tag k="place" v="state"/>
     <tag k="ref" v="DS"/>
     <tag k="source" v="GNS"/>
@@ -10791,6 +10975,7 @@
     <tag k="gns:uni" v="393181"/>
     <tag k="name" v="South Kurdufan State جنوب كردفان"/>
     <tag k="name:ar" v="جنوب كردفان"/>
+    <tag k="name:br" v="Su Kordofan"/>
     <tag k="name:de" v="Süd-Kurdufan"/>
     <tag k="name:en" v="South Kurdufan State"/>
     <tag k="name:es" v="Kordofán del Sur"/>
@@ -10802,6 +10987,7 @@
     <tag k="name:sr" v="Јужни Кордофан"/>
     <tag k="name:tr" v="Güney Kordofan"/>
     <tag k="name:uk" v="Південний Кордофан"/>
+    <tag k="official_name:br" v="Stad Su Kordofan"/>
     <tag k="place" v="state"/>
     <tag k="population" v="1100000"/>
     <tag k="ref" v="KS"/>
@@ -10815,6 +11001,7 @@
     <tag k="gns:uni" v="-4000"/>
     <tag k="name" v="الشمالية Northern State"/>
     <tag k="name:ar" v="الشمالية"/>
+    <tag k="name:br" v="Norzh"/>
     <tag k="name:cs" v="Severní stát"/>
     <tag k="name:de" v="Norden"/>
     <tag k="name:en" v="Northern State"/>
@@ -10826,6 +11013,7 @@
     <tag k="name:sl" v="Sever"/>
     <tag k="name:sr" v="Север"/>
     <tag k="name:tr" v="Kuzey"/>
+    <tag k="official_name:br" v="Stad an Norzh"/>
     <tag k="place" v="state"/>
     <tag k="population" v="600000"/>
     <tag k="ref" v="NO"/>
@@ -10841,6 +11029,7 @@
     <tag k="gns:uni" v="393195"/>
     <tag k="name" v="North Darfur State شمال دارفور"/>
     <tag k="name:ar" v="شمال دارفور"/>
+    <tag k="name:br" v="Norzh Darfour"/>
     <tag k="name:de" v="Nord-Darfur"/>
     <tag k="name:en" v="North Darfur State"/>
     <tag k="name:fr" v="Darfour du Nord"/>
@@ -10852,6 +11041,7 @@
     <tag k="name:sr" v="Северни Дарфур"/>
     <tag k="name:tr" v="Kuzey Darfur (eyalet)"/>
     <tag k="name:uk" v="Північний Дарфур"/>
+    <tag k="official_name:br" v="Stad Norzh Darfour"/>
     <tag k="place" v="state"/>
     <tag k="population" v="1583000"/>
     <tag k="ref" v="DN"/>
@@ -10865,6 +11055,7 @@
     <tag k="gns:uni" v="393201"/>
     <tag k="name" v="Sennar State سنار"/>
     <tag k="name:ar" v="سنار"/>
+    <tag k="name:br" v="Sennar"/>
     <tag k="name:de" v="Sannar"/>
     <tag k="name:en" v="Sennar State"/>
     <tag k="name:es" v="Sennar"/>
@@ -10876,6 +11067,7 @@
     <tag k="name:sr" v="Сенар"/>
     <tag k="name:tr" v="Sennar"/>
     <tag k="name:uk" v="Сеннар"/>
+    <tag k="official_name:br" v="Stad Sennar"/>
     <tag k="place" v="state"/>
     <tag k="population" v="1100000"/>
     <tag k="ref" v="SI"/>
@@ -10912,6 +11104,7 @@
     <tag k="name:ar" v="الخرطوم"/>
     <tag k="name:az" v="Xartum"/>
     <tag k="name:be" v="Хартум"/>
+    <tag k="name:br" v="C'hartoum"/>
     <tag k="name:cs" v="Chartúm"/>
     <tag k="name:de" v="Khartum"/>
     <tag k="name:en" v="Khartoum State"/>
@@ -10943,6 +11136,7 @@
     <tag k="name:ar" v="ولاية كسلا"/>
     <tag k="name:arz" v="ولاية كسلا"/>
     <tag k="name:azb" v="کسلا ایالتی"/>
+    <tag k="name:br" v="Kasala"/>
     <tag k="name:de" v="Kassala"/>
     <tag k="name:en" v="Kassala State"/>
     <tag k="name:es" v="Kasala"/>
@@ -10957,6 +11151,7 @@
     <tag k="name:ty" v="ከሰላ"/>
     <tag k="name:uk" v="Кассала"/>
     <tag k="name:ur" v="کسلا ریاست"/>
+    <tag k="official_name:br" v="Stad Kasala"/>
     <tag k="place" v="state"/>
     <tag k="population" v="1400000"/>
     <tag k="ref" v="KA"/>
@@ -11389,11 +11584,12 @@
     <tag k="state_code" v="SO"/>
   </node>
   <node id="321732073" lat="6.8529485" lon="37.7545421">
-    <tag k="capital" v="Sodo"/>
+    <tag k="capital" v="Wolaita Sodo"/>
     <tag k="name" v="ደቡብ ኢትዮጵያ ክልላዊ መንግስት / South Ethiopia Regional State"/>
     <tag k="name:am" v="ደቡብ ኢትዮጵያ ክልላዊ መንግስት"/>
     <tag k="name:en" v="South Ethiopia Regional State"/>
     <tag k="name:ko" v="남부에티오피아주"/>
+    <tag k="name:wal" v="Tohossa Toophphiya Dalgga Mantti"/>
     <tag k="place" v="state"/>
     <tag k="population" v="14901990"/>
     <tag k="ref" v="SE"/>
@@ -11408,7 +11604,7 @@
     <tag k="gns:uni" v="9094740"/>
     <tag k="is_in:country" v="Ethiopia"/>
     <tag k="is_in:country_code" v="ET"/>
-    <tag k="name" v="ኣዲስ ኣበባ / Addis Ababa"/>
+    <tag k="name" v="ኣዲስ ኣበባ"/>
     <tag k="name:am" v="ኣዲስ ኣበባ"/>
     <tag k="name:de" v="Addis Abeba"/>
     <tag k="name:en" v="Addis Ababa"/>
@@ -11685,6 +11881,7 @@
     <tag k="name:sk" v="Americké Panenské ostrovy"/>
     <tag k="name:sr" v="Америчка Девичанска Острва"/>
     <tag k="name:sv" v="Amerikanska Jungfruöarna"/>
+    <tag k="name:tk" v="Amerikan Wirjin Adalary"/>
     <tag k="name:tr" v="ABD Virjin Adaları"/>
     <tag k="name:uk" v="Американські Віргінські Острови"/>
     <tag k="name:vi" v="Quần đảo Virgin thuộc Mỹ"/>
@@ -11708,6 +11905,7 @@
     <tag k="is_in:country" v="Equatorial Guinea"/>
     <tag k="is_in:island" v="Bioko Island"/>
     <tag k="name" v="Bioko Norte"/>
+    <tag k="name:br" v="Bioko Norzh"/>
     <tag k="name:de" v="Nordbioko"/>
     <tag k="name:es" v="Bioko Norte"/>
     <tag k="name:fr" v="Bioko Nord"/>
@@ -11726,6 +11924,7 @@
     <tag k="is_in:country" v="Equatorial Guinea"/>
     <tag k="is_in:island" v="Bioko Island"/>
     <tag k="name" v="Bioko Sur"/>
+    <tag k="name:br" v="Bioko Su"/>
     <tag k="name:de" v="Südbioko"/>
     <tag k="name:es" v="Bioko Sur"/>
     <tag k="name:fr" v="Bioko Sud"/>
@@ -11943,6 +12142,7 @@
     <tag k="name:ga" v="Vailís agus Futúna"/>
     <tag k="name:gd" v="Uallas agus Futuna"/>
     <tag k="name:gl" v="Wallis e Futuna"/>
+    <tag k="name:gsw" v="Wallis ùn Fùtùna"/>
     <tag k="name:gu" v="વૉલિસ એંડ ફ્યુચુના આઇલેન્ડ્સ"/>
     <tag k="name:ha" v="Walis Da Futuna"/>
     <tag k="name:he" v="איי ווליס ופוטונה"/>
@@ -12006,6 +12206,7 @@
     <tag k="name:te" v="వాలిస్ మరియు ఫ్యుత్యునా"/>
     <tag k="name:th" v="หมู่เกาะวาลลิสและหมู่เกาะฟุตูนา"/>
     <tag k="name:ti" v="ዋሊስ እና ፉቱና ደሴቶች"/>
+    <tag k="name:tk" v="Wallis we Futuna"/>
     <tag k="name:to" v="ʻUvea mo Futuna"/>
     <tag k="name:tr" v="Wallis ve Futuna Adaları"/>
     <tag k="name:ug" v="Wallis we Futuna Taqim Aralliri"/>
@@ -12494,6 +12695,15 @@
     <tag k="ref" v="ES"/>
     <tag k="source" v="GNS"/>
   </node>
+  <node id="470290033" lat="-0.0584893" lon="-78.3284371">
+    <tag k="ISO3166-2" v="EC-P"/>
+    <tag k="gns_classification" v="ADM1"/>
+    <tag k="name" v="Pichincha"/>
+    <tag k="name:ru" v="Пичинча"/>
+    <tag k="place" v="state"/>
+    <tag k="ref" v="PC"/>
+    <tag k="source" v="GNS"/>
+  </node>
   <node id="470293880" lat="0.3753621" lon="-78.3556810">
     <tag k="ISO3166-2" v="EC-I"/>
     <tag k="gns_classification" v="ADM1"/>
@@ -12589,6 +12799,7 @@
     <tag k="name:fo" v="Skotland"/>
     <tag k="name:fr" v="Écosse"/>
     <tag k="name:frr" v="Skotlun"/>
+    <tag k="name:fur" v="Scozie"/>
     <tag k="name:fy" v="Skotlân"/>
     <tag k="name:ga" v="Albain"/>
     <tag k="name:gd" v="Alba"/>
@@ -12707,6 +12918,7 @@
     <tag k="name:tet" v="Eskósia"/>
     <tag k="name:tg" v="Шотландия"/>
     <tag k="name:th" v="ประเทศสกอตแลนด์"/>
+    <tag k="name:tk" v="Şotlandiýa"/>
     <tag k="name:tl" v="Scotland"/>
     <tag k="name:to" v="Sikotilani"/>
     <tag k="name:tok" v="ma Sukosi"/>
@@ -12725,6 +12937,7 @@
     <tag k="name:vls" v="Schotland"/>
     <tag k="name:vo" v="Skotän"/>
     <tag k="name:wa" v="Escôsse"/>
+    <tag k="name:wal" v="Iskkootilandde"/>
     <tag k="name:war" v="Scotland"/>
     <tag k="name:wuu" v="苏格兰"/>
     <tag k="name:xal" v="Скотишин Таңһч"/>
@@ -12877,6 +13090,7 @@
     <tag k="name:short" v="MO"/>
     <tag k="name:tok" v="ma Misuwi"/>
     <tag k="name:uk" v="Міссурі"/>
+    <tag k="name:wal" v="Mizuurii"/>
     <tag k="name:zh" v="密苏里州"/>
     <tag k="name:zh-Hant" v="密蘇里州"/>
     <tag k="place" v="state"/>
@@ -12979,7 +13193,7 @@
     <tag k="wikidata" v="Q1208"/>
     <tag k="wikipedia" v="de:Brandenburg"/>
   </node>
-  <node id="473883922" lat="50.9014721" lon="11.0377839">
+  <node id="473883922" lat="50.9036654" lon="11.0264040">
     <tag k="alt_name:eo" v="Turingujo"/>
     <tag k="is_in:country" v="Germany"/>
     <tag k="name" v="Thüringen"/>
@@ -13025,7 +13239,6 @@
     <tag k="official_name:eo" v="Liberŝtato Turingio"/>
     <tag k="official_name:hsb" v="Swobodny stat Durinska"/>
     <tag k="place" v="state"/>
-    <tag k="population" v="2268000"/>
     <tag k="ref" v="TH"/>
     <tag k="short_name" v="TH"/>
     <tag k="state_code" v="TH"/>
@@ -13075,6 +13288,7 @@
     <tag k="name:be" v="Аляска"/>
     <tag k="name:cdo" v="Alaska"/>
     <tag k="name:cs" v="Aljaška"/>
+    <tag k="name:dak" v="Osni Maḳoc̣e"/>
     <tag k="name:en" v="Alaska"/>
     <tag k="name:eo" v="Alasko"/>
     <tag k="name:fy" v="Alaska"/>
@@ -13084,6 +13298,7 @@
     <tag k="name:ja" v="アラスカ州"/>
     <tag k="name:ko" v="알래스카"/>
     <tag k="name:lfn" v="Alaska"/>
+    <tag k="name:lkt" v="Osní-Makȟóčhe"/>
     <tag k="name:mo" v="Аласка"/>
     <tag k="name:nan" v="Alaska"/>
     <tag k="name:nl" v="Alaska"/>
@@ -13096,6 +13311,7 @@
     <tag k="name:tok" v="ma Alaka"/>
     <tag k="name:tzl" v="Aglhasca"/>
     <tag k="name:uk" v="Аляска"/>
+    <tag k="name:wal" v="Alaskka"/>
     <tag k="name:wuu" v="阿拉斯加州"/>
     <tag k="name:yue" v="阿拉斯加州"/>
     <tag k="name:zh" v="阿拉斯加州"/>
@@ -13372,7 +13588,6 @@
     <tag k="ref" v="EC"/>
   </node>
   <node id="474842912" lat="-28.5038330" lon="30.8875009">
-    <tag k="is_in:country" v="South Africa"/>
     <tag k="is_in:country_code" v="ZA"/>
     <tag k="name" v="KwaZulu-Natal"/>
     <tag k="name:en" v="KwaZulu-Natal"/>
@@ -13425,7 +13640,6 @@
   </node>
   <node id="474842944" lat="-28.7853618" lon="26.4978933">
     <tag k="alt_name:uk" v="Вільна Держава"/>
-    <tag k="is_in:country" v="South Africa"/>
     <tag k="is_in:country_code" v="ZA"/>
     <tag k="name" v="Free State"/>
     <tag k="name:af" v="Vrystaat"/>
@@ -13637,7 +13851,7 @@
     <tag k="wikidata" v="Q170041"/>
     <tag k="wikipedia" v="en:Golestan Province"/>
   </node>
-  <node id="480250674" lat="35.3843145" lon="54.6209302">
+  <node id="480250674" lat="35.2500644" lon="54.6931847">
     <tag k="name" v="استان سمنان"/>
     <tag k="name:ar" v="محافظة سمنان"/>
     <tag k="name:cs" v="Semnán"/>
@@ -13661,7 +13875,7 @@
     <tag k="wikidata" v="Q168949"/>
     <tag k="wikipedia" v="fa:استان سمنان"/>
   </node>
-  <node id="480250680" lat="33.1295770" lon="58.1065069">
+  <node id="480250680" lat="33.5688704" lon="57.0696419">
     <tag k="name" v="استان خراسان جنوبی"/>
     <tag k="name:ar" v="محافظة خراسان الجنوبية"/>
     <tag k="name:cs" v="Jižní Chorásán"/>
@@ -13828,7 +14042,7 @@
     <tag k="wikidata" v="Q170568"/>
     <tag k="wikipedia" v="fa:استان یزد"/>
   </node>
-  <node id="481249065" lat="29.2051447" lon="53.4327752">
+  <node id="481249065" lat="28.6692545" lon="54.0641546">
     <tag k="admin_level" v="4"/>
     <tag k="name" v="استان فارس"/>
     <tag k="name:ar" v="محافظة فارس"/>
@@ -13884,6 +14098,7 @@
   <node id="485934542" lat="33.1545696" lon="46.7576343">
     <tag k="name" v="استان ایلام"/>
     <tag k="name:ar" v="محافظة عيلام"/>
+    <tag k="name:br" v="Ilam"/>
     <tag k="name:cs" v="Ílám"/>
     <tag k="name:de" v="Ilam"/>
     <tag k="name:en" v="Ilam"/>
@@ -13975,6 +14190,7 @@
     <tag k="wikipedia" v="fr:Kohkiluyeh et Buyer Ahmad"/>
   </node>
   <node id="489592016" lat="54.5859836" lon="-6.9591554">
+    <tag k="alt_name:br" v="Iwerzhon an Hanternoz"/>
     <tag k="alt_name:vi" v="Bắc Ai-len"/>
     <tag k="description" v="Northern Ireland is a devolved part of the United Kingdom, as per the Northern Ireland Act 1998 and the Belfast ('Good Friday') Agreement."/>
     <tag k="is_in" v="United Kingdom"/>
@@ -14011,6 +14227,7 @@
     <tag k="name:fi" v="Pohjois-Irlanti"/>
     <tag k="name:fo" v="Norðurírland"/>
     <tag k="name:fr" v="Irlande du Nord"/>
+    <tag k="name:fur" v="Irlande dal Nord"/>
     <tag k="name:fy" v="Noard-Ierlân"/>
     <tag k="name:ga" v="Tuaisceart Éireann"/>
     <tag k="name:gd" v="Èirinn a Tuath"/>
@@ -14069,11 +14286,13 @@
     <tag k="name:ta" v="வட அயர்லாந்து"/>
     <tag k="name:tg" v="Ирландияи Шимолӣ"/>
     <tag k="name:th" v="ไอร์แลนด์เหนือ"/>
+    <tag k="name:tk" v="Demirgazyk Irlandiýa"/>
     <tag k="name:tl" v="Hilagang Irlanda"/>
     <tag k="name:tpi" v="Noten Aialan"/>
     <tag k="name:tr" v="Kuzey İrlanda"/>
     <tag k="name:uk" v="Північна Ірландія"/>
     <tag k="name:vi" v="Bắc Ireland"/>
+    <tag k="name:wal" v="Huuphessa Ayrilandde"/>
     <tag k="name:yo" v="Irẹlandi Apáàríwá"/>
     <tag k="name:zh" v="北爱尔兰;北愛爾蘭"/>
     <tag k="name:zh-Hans" v="北爱尔兰"/>
@@ -14090,6 +14309,7 @@
   <node id="495472876" lat="34.3789744" lon="46.7010122">
     <tag k="name" v="استان کرمانشاه"/>
     <tag k="name:ar" v="محافظة كرمانشاه"/>
+    <tag k="name:br" v="Kermanchah"/>
     <tag k="name:cs" v="Kermánšáh"/>
     <tag k="name:de" v="Kermanschah"/>
     <tag k="name:en" v="Kermanshah"/>
@@ -14136,6 +14356,7 @@
   <node id="496170398" lat="35.6727813" lon="47.0127981">
     <tag k="name" v="استان کردستان"/>
     <tag k="name:ar" v="محافظة كردستان"/>
+    <tag k="name:br" v="Kurdistan"/>
     <tag k="name:cs" v="Kurdistán"/>
     <tag k="name:de" v="Kordistan"/>
     <tag k="name:en" v="Kurdistan"/>
@@ -14163,6 +14384,7 @@
     <tag k="name:az" v="Qərbi Azərbaycan ostanı"/>
     <tag k="name:azb" v="غربی آذربایجان اوستانی"/>
     <tag k="name:be" v="Заходні Азербайджан"/>
+    <tag k="name:br" v="Kornôg Azerbaidjan"/>
     <tag k="name:ckb" v="پارێزگای ئازەربایجانی ڕۆژاوا"/>
     <tag k="name:cs" v="Západní Ázerbájdžán"/>
     <tag k="name:de" v="West-Aserbaidschan"/>
@@ -14441,7 +14663,6 @@
     <tag k="wikipedia" v="ru:Томская область"/>
   </node>
   <node id="503045144" lat="67.1471631" lon="74.3415488">
-    <tag k="is_in:country" v="Россия"/>
     <tag k="name" v="Ямало-Ненецкий автономный округ"/>
     <tag k="name:be" v="Ямала-Ненецкая аўтаномная акруга"/>
     <tag k="name:ca" v="Districte Autònom Iamalo-Nenets"/>
@@ -14613,7 +14834,6 @@
     <tag k="wikipedia" v="ru:Кемеровская область"/>
   </node>
   <node id="503057596" lat="52.6932243" lon="82.6931424">
-    <tag k="is_in:country" v="Россия"/>
     <tag k="name" v="Алтайский край"/>
     <tag k="name:be" v="Алтайскі край"/>
     <tag k="name:ca" v="Territori de l'Altai"/>
@@ -14646,6 +14866,7 @@
     <tag k="name" v="Республика Алтай"/>
     <tag k="name:be" v="Алтай"/>
     <tag k="name:ca" v="República de l'Altai"/>
+    <tag k="name:cv" v="Алтай Республики"/>
     <tag k="name:de" v="Republik Altai"/>
     <tag k="name:en" v="Altai Republic"/>
     <tag k="name:eo" v="Respubliko Altaj"/>
@@ -15824,7 +16045,7 @@
     <tag k="wikidata" v="Q54180"/>
     <tag k="wikipedia" v="pl:Województwo pomorskie"/>
   </node>
-  <node id="505016447" lat="52.4560973" lon="15.3061396">
+  <node id="505016447" lat="52.1001754" lon="15.3605075">
     <tag k="name" v="województwo lubuskie"/>
     <tag k="name:ar" v="محافظة لوبوسكي"/>
     <tag k="name:ast" v="Voivodatu de Lubusz"/>
@@ -16638,8 +16859,10 @@
     <tag k="wikipedia" v="be:Гродзенская вобласць"/>
   </node>
   <node id="516618494" lat="54.7293041" lon="21.1489473">
+    <tag k="alt_name:ar" v="أبلست كالينينغراد"/>
     <tag k="int_name" v="Kaliningrad region"/>
     <tag k="name" v="Калининградская область"/>
+    <tag k="name:ar" v="مقاطعة كالينينغراد"/>
     <tag k="name:be" v="Калінінградская вобласць"/>
     <tag k="name:br" v="Oblast Kaliningrad"/>
     <tag k="name:ca" v="Província de Kaliningrad"/>
@@ -16659,6 +16882,7 @@
     <tag k="name:tk" v="Kaliningrad Sebiti"/>
     <tag k="name:uk" v="Калінінградська область"/>
     <tag k="name:zh" v="加里宁格勒州"/>
+    <tag k="old_name:ar" v="مقاطعة كونغسبرغ"/>
     <tag k="old_name:pl:1946-2023" v="obwód kaliningradzki"/>
     <tag k="place" v="state"/>
     <tag k="population" v="937000"/>
@@ -16821,6 +17045,7 @@
     <tag k="name:be" v="Мурманская вобласць"/>
     <tag k="name:ca" v="Província de Múrmansk"/>
     <tag k="name:cs" v="Murmanská oblast"/>
+    <tag k="name:cv" v="Мурманск облаҫӗ"/>
     <tag k="name:de" v="Oblast Murmansk"/>
     <tag k="name:en" v="Murmansk Oblast"/>
     <tag k="name:eo" v="Murmanska Provinco"/>
@@ -17072,7 +17297,6 @@
     <tag k="wikipedia" v="pt:Ceará"/>
   </node>
   <node id="540553503" lat="58.5951603" lon="56.3159546">
-    <tag k="is_in:country" v="Россия"/>
     <tag k="name" v="Пермский край"/>
     <tag k="name:be" v="Пермскі край"/>
     <tag k="name:ca" v="Territori de Perm"/>
@@ -17167,6 +17391,7 @@
     <tag k="name:fr" v="Illinois"/>
     <tag k="name:fy" v="Illinois"/>
     <tag k="name:hak" v="Illinois"/>
+    <tag k="name:hi" v="इलिनॉय"/>
     <tag k="name:hu" v="Illinois"/>
     <tag k="name:ko" v="일리노이"/>
     <tag k="name:mo" v="Иллинойс"/>
@@ -17179,6 +17404,7 @@
     <tag k="name:tok" v="ma Ilino"/>
     <tag k="name:tzl" v="Idinois"/>
     <tag k="name:uk" v="Іллінойс"/>
+    <tag k="name:wal" v="Illinooyis"/>
     <tag k="name:zh" v="伊利诺伊州;伊利諾州"/>
     <tag k="name:zh-Hans" v="伊利诺伊州"/>
     <tag k="name:zh-Hant" v="伊利諾州"/>
@@ -17596,7 +17822,7 @@
     <tag k="name:cs" v="Baškortostán"/>
     <tag k="name:de" v="Baschkortostan"/>
     <tag k="name:el" v="Μπασκορτοστάν"/>
-    <tag k="name:en" v="Bashkiria"/>
+    <tag k="name:en" v="Bashkortostan"/>
     <tag k="name:eo" v="Baŝkirio"/>
     <tag k="name:es" v="Bashkortostán"/>
     <tag k="name:fr" v="Bachkirie"/>
@@ -17605,7 +17831,7 @@
     <tag k="name:ja" v="バシコルトスタン共和国"/>
     <tag k="name:lt" v="Baškirija"/>
     <tag k="name:pl" v="Baszkiria"/>
-    <tag k="name:ru" v="Башкирия"/>
+    <tag k="name:ru" v="Башкортостан"/>
     <tag k="name:sk" v="Baškirsko"/>
     <tag k="name:tk" v="Başgyrdystan"/>
     <tag k="name:tt" v="Башкортстан"/>
@@ -17628,11 +17854,13 @@
   <node id="573226688" lat="57.1961165" lon="52.6959832">
     <tag k="admin_level" v="4"/>
     <tag k="alt_name" v="Удмуртская республика"/>
+    <tag k="alt_name:cv" v="Удмурт Республики"/>
     <tag k="int_name" v="Udmurtia"/>
     <tag k="name" v="Удмуртия"/>
     <tag k="name:ba" v="Удмурт Республикаһы"/>
     <tag k="name:be" v="Удмуртыя"/>
     <tag k="name:ca" v="Udmúrtia"/>
+    <tag k="name:cv" v="Удмурти"/>
     <tag k="name:de" v="Udmurtien"/>
     <tag k="name:en" v="Udmurtia"/>
     <tag k="name:eo" v="Udmurtio"/>
@@ -17649,6 +17877,7 @@
     <tag k="name:uk" v="Удмуртія"/>
     <tag k="official_name" v="Удмуртская Республика"/>
     <tag k="official_name:be" v="Удмуртская Рэспубліка"/>
+    <tag k="official_name:cv" v="Удмурт Республики"/>
     <tag k="official_name:de" v="Republik Udmurtien"/>
     <tag k="official_name:en" v="Udmurt Republic"/>
     <tag k="official_name:fr" v="République d'Oudmourtie"/>
@@ -17676,7 +17905,7 @@
     <tag k="name:ru" v="Вологодская область"/>
     <tag k="name:tk" v="Wologda Sebiti"/>
     <tag k="name:tt" v="Вологда өлкәсе"/>
-    <tag k="name:uk" v="Вологодська область"/>
+    <tag k="name:uk" v="Волоґодська область"/>
     <tag k="place" v="state"/>
     <tag k="ref" v="ВОЛ"/>
     <tag k="ref:en" v="VLG"/>
@@ -17731,7 +17960,7 @@
     <tag k="name:th" v="ฉนวนกาซา"/>
     <tag k="name:tl" v="Piraso ng Gaza"/>
     <tag k="name:tr" v="Gazze Şeridi"/>
-    <tag k="name:uk" v="Сектор Гази"/>
+    <tag k="name:uk" v="Сектор Ґази"/>
     <tag k="name:ur" v="غزہ پٹی"/>
     <tag k="name:vi" v="Dải Gaza"/>
     <tag k="name:zh" v="加沙地带"/>
@@ -17899,6 +18128,7 @@
     <tag k="name:be" v="Ульянаўская вобласць"/>
     <tag k="name:ca" v="Província d'Uliànovsk"/>
     <tag k="name:cs" v="Uljanovská oblast"/>
+    <tag k="name:cv" v="Чӗмпӗр облаҫӗ"/>
     <tag k="name:de" v="Oblast Uljanowsk"/>
     <tag k="name:en" v="Ulyanovsk Oblast"/>
     <tag k="name:eo" v="Uljanovska Provinco"/>
@@ -17924,38 +18154,68 @@
   </node>
   <node id="607014868" lat="55.4259922" lon="47.0849429">
     <tag k="admin_level" v="4"/>
+    <tag k="alt_name:ba" v="Сыуаш Республикаһы"/>
+    <tag k="alt_name:cv" v="Чӑваш Республики"/>
+    <tag k="alt_name:en" v="Chuvash Republic"/>
+    <tag k="alt_name:fi" v="Tšuvassian tasavalta"/>
+    <tag k="alt_name:mdf" v="Чувашень Республикась"/>
+    <tag k="alt_name:mhr" v="Чуваший Республик"/>
+    <tag k="alt_name:mrj" v="Суасламары Республика"/>
+    <tag k="alt_name:myv" v="Чувашонь Мастор;Чувашонь Республикась"/>
+    <tag k="alt_name:ru" v="Чувашская Республика"/>
+    <tag k="alt_name:tt" v="Чуаш Республикасы"/>
+    <tag k="alt_name:udm" v="Чуваш Республика"/>
+    <tag k="alt_name:uk" v="Чуваська Республіка"/>
     <tag k="name" v="Чувашия"/>
     <tag k="name:ar" v="تشوفاشيا"/>
+    <tag k="name:ba" v="Сыуашстан"/>
     <tag k="name:be" v="Чувашыя"/>
     <tag k="name:ca" v="Txuvàixia"/>
     <tag k="name:cs" v="Čuvašsko"/>
+    <tag k="name:cv" v="Чӑваш Ен"/>
     <tag k="name:de" v="Tschuwaschien"/>
     <tag k="name:en" v="Chuvashia"/>
     <tag k="name:eo" v="Ĉuvaŝio"/>
     <tag k="name:es" v="Chuvasia"/>
+    <tag k="name:fi" v="Tšuvassia"/>
     <tag k="name:fr" v="Tchouvachie"/>
     <tag k="name:hr" v="Čuvašija"/>
     <tag k="name:hu" v="Csuvasföld"/>
     <tag k="name:ja" v="チュヴァシ共和国"/>
+    <tag k="name:kv" v="Чувашму"/>
     <tag k="name:lt" v="Čiuvašija"/>
+    <tag k="name:mdf" v="Чувашмастор"/>
+    <tag k="name:myv" v="Ветькень Мастор"/>
     <tag k="name:pl" v="Czuwaszja"/>
     <tag k="name:ru" v="Чувашия"/>
     <tag k="name:sk" v="Čuvašsko"/>
     <tag k="name:tk" v="Çuwaşystan"/>
-    <tag k="name:tt" v="Чуаш Республикасы"/>
-    <tag k="name:uk" v="Чуваська Республіка"/>
-    <tag k="official_name" v="Чувашская Республика"/>
-    <tag k="official_name:be" v="Чувашская Рэспубліка"/>
+    <tag k="name:tt" v="Чуашстан"/>
+    <tag k="name:udm" v="Чувашия"/>
+    <tag k="name:uk" v="Чувашія"/>
+    <tag k="official_name" v="Чувашская Республика — Чувашия"/>
+    <tag k="official_name:be" v="Чувашская Рэспубліка — Чувашыя"/>
+    <tag k="official_name:cv" v="Чӑваш Республики — Чӑваш Ен"/>
     <tag k="official_name:de" v="Republik Tschuwaschien"/>
     <tag k="official_name:en" v="Chuvash Republic — Chuvashia"/>
     <tag k="official_name:es" v="República de Chuvasia"/>
     <tag k="official_name:fr" v="République de Tchouvachie"/>
-    <tag k="official_name:ru" v="Чувашская Республика"/>
+    <tag k="official_name:mdf" v="Чувашень Республикась — Чувашмастор"/>
+    <tag k="official_name:myv" v="Чувашонь Республикась — Чувашонь Мастор"/>
+    <tag k="official_name:ru" v="Чувашская Республика — Чувашия"/>
     <tag k="official_name:sk" v="Čuvašská republika"/>
+    <tag k="official_name:udm" v="Чуваш Республика — Чувашия"/>
+    <tag k="official_status" v="ru:республика"/>
+    <tag k="old_name" v="Чувашская автономная область;ЧАО;Чувашская Автономная Советская Социалистическая Республика;ЧАССР"/>
+    <tag k="old_name:cv" v="Чӑваш автономиллӗ облаҫӗ;ЧАО;Чӑваш Автономиллӗ Социализмлӑ Совет Республики;ЧАССР"/>
+    <tag k="old_name:ru" v="Чувашская автономная область;ЧАО;Чувашская Автономная Советская Социалистическая Республика;ЧАССР"/>
     <tag k="place" v="state"/>
     <tag k="ref" v="ЧУВ"/>
     <tag k="ref:en" v="CU"/>
+    <tag k="start_date" v="1920-06-24"/>
+    <tag k="website" v="https://cap.ru/"/>
     <tag k="wikidata" v="Q5466"/>
+    <tag k="wikimedia_commons" v="Category:Chuvashia"/>
     <tag k="wikipedia" v="ru:Чувашия"/>
   </node>
   <node id="607014871" lat="52.0269262" lon="54.7276647">
@@ -18128,7 +18388,7 @@
     <tag k="name:ru" v="Ленинградская область"/>
     <tag k="name:sk" v="Leningradská oblasť"/>
     <tag k="name:tk" v="Leningrad Sebiti"/>
-    <tag k="name:uk" v="Ленінградська область"/>
+    <tag k="name:uk" v="Ленінґрадська область"/>
     <tag k="place" v="state"/>
     <tag k="population" v="2059479"/>
     <tag k="ref" v="ЛЕН"/>
@@ -18147,11 +18407,13 @@
     <tag k="name:es" v="Óblast de Pskov"/>
     <tag k="name:et" v="Pihkva oblast"/>
     <tag k="name:fr" v="Oblast de Pskov"/>
+    <tag k="name:ja" v="プスコフ地方"/>
     <tag k="name:lt" v="Pskovo sritis"/>
     <tag k="name:pl" v="Obwód pskowski"/>
     <tag k="name:ru" v="Псковская область"/>
     <tag k="name:tk" v="Pskow Sebiti"/>
     <tag k="name:uk" v="Псковська область"/>
+    <tag k="name:zh" v="普斯科夫地区"/>
     <tag k="place" v="state"/>
     <tag k="population" v="574480"/>
     <tag k="ref" v="ПСК"/>
@@ -18625,6 +18887,7 @@
     <tag k="name:pt" v="Região de O'Higgins"/>
     <tag k="name:rm" v="VI Regiun dal Libertador General Bernardo O'Higgins"/>
     <tag k="name:ru" v="О-Хиггинс"/>
+    <tag k="name:uk" v="Регіон Лібертадор-Ґенераль-Бернардо-О'Гіґґінс"/>
     <tag k="name:zh-Hans" v="奥伊金斯将军解放者大区"/>
     <tag k="name:zh-Hant" v="奧伊金斯將軍解放者大區"/>
     <tag k="place" v="state"/>
@@ -18649,7 +18912,7 @@
     <tag k="name:pt" v="Região de Maule"/>
     <tag k="name:ru" v="Мауле"/>
     <tag k="name:tr" v="Maule bölgesi"/>
-    <tag k="name:uk" v="VII Регіон Мауле"/>
+    <tag k="name:uk" v="Регіон Мауле"/>
     <tag k="name:zh" v="马乌莱大区"/>
     <tag k="place" v="state"/>
     <tag k="population" v="999685"/>
@@ -18667,6 +18930,7 @@
     <tag k="name:la" v="Regio Cucimpensis seu Cucimpi"/>
     <tag k="name:pt" v="Região de Coquimbo"/>
     <tag k="name:ru" v="Кокимбо"/>
+    <tag k="name:uk" v="Регіон Кокімбо"/>
     <tag k="name:zh-Hans" v="科金博大区"/>
     <tag k="name:zh-Hant" v="科金博大區"/>
     <tag k="place" v="state"/>
@@ -18686,7 +18950,7 @@
     <tag k="name:ja" v="アタカマ州"/>
     <tag k="name:ro" v="Regiunea Atacama"/>
     <tag k="name:ru" v="Атакама"/>
-    <tag k="name:uk" v="III Регіон Атакама"/>
+    <tag k="name:uk" v="Регіон Атакама"/>
     <tag k="name:zh-Hans" v="阿塔卡马大区"/>
     <tag k="name:zh-Hant" v="阿塔卡馬大區"/>
     <tag k="place" v="state"/>
@@ -18704,7 +18968,7 @@
     <tag k="name:it" v="Regione di Antofagasta"/>
     <tag k="name:pt" v="Região de Antofagasta"/>
     <tag k="name:ru" v="Антофагаста"/>
-    <tag k="name:uk" v="II Регіон Антофаґаста"/>
+    <tag k="name:uk" v="Регіон Антофаґаста"/>
     <tag k="name:zh-Hans" v="安托法加斯塔大区"/>
     <tag k="name:zh-Hant" v="安托法加斯塔大區"/>
     <tag k="place" v="state"/>
@@ -18805,7 +19069,7 @@
     <tag k="name:la" v="Regio Fiofina seu Fluvii Fiofii"/>
     <tag k="name:pt" v="Região de Bío-Bío"/>
     <tag k="name:ru" v="Био-Био"/>
-    <tag k="name:uk" v="VIII Регіон Біобіо"/>
+    <tag k="name:uk" v="Регіон Біобіо"/>
     <tag k="name:zh-Hans" v="比奥比奥大区"/>
     <tag k="name:zh-Hant" v="比奧比奧大區"/>
     <tag k="place" v="state"/>
@@ -18825,7 +19089,7 @@
     <tag k="name:ja" v="ラ・アラウカニア州"/>
     <tag k="name:la" v="Regio Raucana seu Araucaniae"/>
     <tag k="name:ru" v="Араукания"/>
-    <tag k="name:uk" v="IX Регіон Арауканія"/>
+    <tag k="name:uk" v="Регіон Арауканія"/>
     <tag k="name:zh-Hans" v="阿劳卡尼亚大区"/>
     <tag k="name:zh-Hant" v="阿勞卡尼亞大區"/>
     <tag k="place" v="state"/>
@@ -18845,7 +19109,7 @@
     <tag k="name:la" v="Regio Fluminum"/>
     <tag k="name:pt" v="Região de Los Rios"/>
     <tag k="name:ru" v="Лос-Риос"/>
-    <tag k="name:uk" v="XIV Регіон Лос-Ріос"/>
+    <tag k="name:uk" v="Регіон Лос-Ріос"/>
     <tag k="name:zh-Hans" v="河大区"/>
     <tag k="name:zh-Hant" v="河大區"/>
     <tag k="place" v="state"/>
@@ -18868,7 +19132,7 @@
     <tag k="name:la" v="Regio Lacustris seu Lacuum"/>
     <tag k="name:pt" v="Região de Los Lagos"/>
     <tag k="name:ru" v="Лос-Лагос"/>
-    <tag k="name:uk" v="X Регіон Лос-Лаґос"/>
+    <tag k="name:uk" v="Регіон Лос-Лаґос"/>
     <tag k="name:zh-Hans" v="湖大区"/>
     <tag k="name:zh-Hant" v="湖大區"/>
     <tag k="place" v="state"/>
@@ -18891,7 +19155,7 @@
     <tag k="name:lt" v="Aiseno regionas"/>
     <tag k="name:pt" v="Região de Aisén"/>
     <tag k="name:ru" v="Айсен"/>
-    <tag k="name:uk" v="XI Регіон Айсен"/>
+    <tag k="name:uk" v="Регіон Айсен"/>
     <tag k="name:zh-Hans" v="伊瓦涅斯将军艾森大区"/>
     <tag k="name:zh-Hant" v="伊瓦涅斯將軍艾森大區"/>
     <tag k="place" v="state"/>
@@ -18908,7 +19172,7 @@
     <tag k="name:hu" v="Magallanes y de la Antártica Chilena"/>
     <tag k="name:lt" v="Magelano ir Čilės Antarktidos regionas"/>
     <tag k="name:ru" v="Магальянес и Чилийская Антарктика"/>
-    <tag k="name:uk" v="XII Регіон Маґаянес і Чилійська Антарктика"/>
+    <tag k="name:uk" v="Регіон Маґаянес і Чилійська Антарктика"/>
     <tag k="name:zh-Hans" v="麦哲伦大区"/>
     <tag k="name:zh-Hant" v="麥哲倫大區"/>
     <tag k="official_name:zh-Hans" v="麦哲伦及智利南极大区"/>
@@ -18934,7 +19198,7 @@
     <tag k="name:ja" v="タラパカ州"/>
     <tag k="name:pt" v="Região de Tarapacá"/>
     <tag k="name:ru" v="Тарапака"/>
-    <tag k="name:uk" v="I Регіон Тарапака"/>
+    <tag k="name:uk" v="Регіон Тарапака"/>
     <tag k="name:zh-Hans" v="塔拉帕卡大区"/>
     <tag k="name:zh-Hant" v="塔拉帕卡大區"/>
     <tag k="place" v="state"/>
@@ -18954,6 +19218,7 @@
     <tag k="name:hu" v="Arica y Parinacota"/>
     <tag k="name:it" v="Regione di Arica e Parinacota"/>
     <tag k="name:ru" v="Арика-и-Паринакота"/>
+    <tag k="name:uk" v="Регіон Арика-і-Паринакота"/>
     <tag k="name:zh-Hans" v="阿里卡和帕里纳科塔大区"/>
     <tag k="name:zh-Hant" v="阿里卡和帕里納科塔大區"/>
     <tag k="place" v="state"/>
@@ -19041,6 +19306,7 @@
   <node id="660867243" lat="52.5310214" lon="-1.2649062">
     <tag k="ISO3166-2" v="GB-ENG"/>
     <tag k="alt_name:eo" v="Anglujo"/>
+    <tag k="alt_name:fur" v="Inghiltere"/>
     <tag k="alt_name:ia" v="Anglia"/>
     <tag k="alt_name:nds" v="Ingland"/>
     <tag k="name" v="England"/>
@@ -19063,6 +19329,7 @@
     <tag k="name:fa" v="انگلستان"/>
     <tag k="name:fi" v="Englanti"/>
     <tag k="name:fr" v="Angleterre"/>
+    <tag k="name:fur" v="Ingletiere"/>
     <tag k="name:fy" v="Ingelân"/>
     <tag k="name:ga" v="Sasana"/>
     <tag k="name:gd" v="Sasainn"/>
@@ -19094,6 +19361,7 @@
     <tag k="name:sr" v="Енглеска"/>
     <tag k="name:sv" v="England"/>
     <tag k="name:szl" v="Yngland"/>
+    <tag k="name:tk" v="Angliýa"/>
     <tag k="name:tok" v="ma Inli"/>
     <tag k="name:tr" v="İngiltere"/>
     <tag k="name:tzl" v="Anglatzara"/>
@@ -19102,6 +19370,7 @@
     <tag k="name:vi" v="Anh"/>
     <tag k="name:vls" v="Iengeland"/>
     <tag k="name:vo" v="Linglän"/>
+    <tag k="name:wal" v="Inggilize"/>
     <tag k="name:zh" v="英格兰;英格蘭"/>
     <tag k="name:zh-Hans" v="英格兰"/>
     <tag k="name:zh-Hant" v="英格蘭"/>
@@ -19516,6 +19785,7 @@
     <tag k="name:ar" v="ولاية بلقان"/>
     <tag k="name:en" v="Balkan Region"/>
     <tag k="name:fa" v="ولایت بلخان"/>
+    <tag k="name:hi" v="बल्खान प्रांत"/>
     <tag k="name:hu" v="Balkan tartomány"/>
     <tag k="name:ru" v="Балканский велаят"/>
     <tag k="name:tr" v="Balkan ili"/>
@@ -19529,6 +19799,7 @@
     <tag k="name:ar" v="ولاية لباب"/>
     <tag k="name:en" v="Lebap Region"/>
     <tag k="name:fa" v="ولایت لباب"/>
+    <tag k="name:hi" v="लबाब प्रांत"/>
     <tag k="name:hu" v="Lebap tartomány"/>
     <tag k="name:ru" v="Лебапский велаят"/>
     <tag k="name:tr" v="Lebap ili"/>
@@ -19542,6 +19813,7 @@
     <tag k="name:ar" v="ولاية داشوغوز"/>
     <tag k="name:en" v="Dashoguz Region"/>
     <tag k="name:fa" v="ولایت داش‌اغوز"/>
+    <tag k="name:hi" v="दाशोगुज़ प्रांत"/>
     <tag k="name:hu" v="Daşoguz tartomány"/>
     <tag k="name:ru" v="Дашогузский велаят"/>
     <tag k="name:tr" v="Daşoğuz ili"/>
@@ -19555,6 +19827,7 @@
     <tag k="name:ar" v="ولاية أهال"/>
     <tag k="name:en" v="Ahal Region"/>
     <tag k="name:fa" v="ولایت آخال"/>
+    <tag k="name:hi" v="अहाल प्रांत"/>
     <tag k="name:hu" v="Ahal tartomány"/>
     <tag k="name:ru" v="Ахалский велаят"/>
     <tag k="name:tr" v="Ahal ili"/>
@@ -19568,6 +19841,7 @@
     <tag k="name:ar" v="ولاية ماري"/>
     <tag k="name:en" v="Mary Region"/>
     <tag k="name:fa" v="ولایت مرو"/>
+    <tag k="name:hi" v="मारी प्रांत"/>
     <tag k="name:hu" v="Mary tartomány"/>
     <tag k="name:ru" v="Марыйский велаят"/>
     <tag k="name:tr" v="Marı ili"/>
@@ -20120,28 +20394,6 @@
     <tag k="ref:en" v="TER"/>
     <tag k="wikidata" v="Q173407"/>
     <tag k="wikipedia" v="uk:Тернопільська область"/>
-  </node>
-  <node id="683681607" lat="49.6512234" lon="23.8266948">
-    <tag k="name" v="Львівська область"/>
-    <tag k="name:ar" v="مقاطعة لفيف"/>
-    <tag k="name:be" v="Львоўская вобласць"/>
-    <tag k="name:de" v="Oblast Lemberg"/>
-    <tag k="name:en" v="Lviv Oblast"/>
-    <tag k="name:eo" v="Lviva Provinco"/>
-    <tag k="name:es" v="Óblast de Lviv"/>
-    <tag k="name:fa" v="استان لووف"/>
-    <tag k="name:fr" v="Oblast de Lviv"/>
-    <tag k="name:it" v="Oblast' di Leopoli"/>
-    <tag k="name:lt" v="Lvovo sritis"/>
-    <tag k="name:pl" v="obwód lwowski"/>
-    <tag k="name:pt" v="Oblast de Lviv"/>
-    <tag k="name:ru" v="Львовская область"/>
-    <tag k="name:uk" v="Львівська область"/>
-    <tag k="place" v="state"/>
-    <tag k="ref" v="ЛЬВ"/>
-    <tag k="ref:en" v="LVI"/>
-    <tag k="wikidata" v="Q164193"/>
-    <tag k="wikipedia" v="uk:Львівська область"/>
   </node>
   <node id="683681609" lat="48.3810791" lon="26.1081673">
     <tag k="alt_name:cs" v="Černivecká oblast"/>
@@ -21045,7 +21297,6 @@
     <tag k="wikipedia" v="ru:Ставропольский край"/>
   </node>
   <node id="869555482" lat="44.6939006" lon="40.1520421">
-    <tag k="is_in" v="Россия"/>
     <tag k="name" v="Адыгея"/>
     <tag k="name:ady" v="Адыгэ Республик"/>
     <tag k="name:ar" v="أديغيا"/>
@@ -21310,6 +21561,7 @@
     <tag k="name:fr" v="Région de Valparaíso"/>
     <tag k="name:it" v="Regione di Valparaiso"/>
     <tag k="name:pt" v="Região de Valparaiso"/>
+    <tag k="name:uk" v="Регіон Вальпараїсо"/>
     <tag k="name:zh-Hans" v="瓦尔帕莱索大区"/>
     <tag k="name:zh-Hant" v="瓦爾帕萊索大區"/>
     <tag k="place" v="state"/>
@@ -21331,6 +21583,7 @@
     <tag k="name:es" v="Andalucía"/>
     <tag k="name:et" v="Andaluusia"/>
     <tag k="name:fr" v="Andalousie"/>
+    <tag k="name:fur" v="Andalusie"/>
     <tag k="name:he" v="אנדלוסיה"/>
     <tag k="name:hu" v="Andalúzia"/>
     <tag k="name:it" v="Andalusia"/>
@@ -21380,7 +21633,7 @@
   </node>
   <node id="959502983" lat="52.0615626" lon="62.9372689">
     <tag k="addr:country" v="KZ"/>
-    <tag k="addr:region" v="Костанайская область"/>
+    <tag k="addr:region" v="Қостанай облысы"/>
     <tag k="name" v="Қостанай облысы"/>
     <tag k="name:ar" v="مقاطعة كوستناي"/>
     <tag k="name:de" v="Gebiet Qostanai"/>
@@ -21449,7 +21702,7 @@
     <tag k="population" v="1989300"/>
     <tag k="ref" v="АЛМ"/>
     <tag k="wikidata" v="Q186466"/>
-    <tag k="wikipedia" v="ru:Алматинская область"/>
+    <tag k="wikipedia" v="kk:Алматы облысы"/>
   </node>
   <node id="974358688" lat="44.4168463" lon="72.1341660">
     <tag k="addr:country" v="KZ"/>
@@ -21574,6 +21827,7 @@
     <tag k="name:fr" v="Oblys d'Atyraou"/>
     <tag k="name:hu" v="Atiraui terület"/>
     <tag k="name:kk" v="Атырау облысы"/>
+    <tag k="name:ky" v="Атыроо облусу"/>
     <tag k="name:ru" v="Атырауская область"/>
     <tag k="name:tr" v="Atırau Eyaleti"/>
     <tag k="name:uk" v="Атирауська область"/>
@@ -21608,9 +21862,10 @@
   </node>
   <node id="1099011107" lat="42.6194600" lon="-7.8631120">
     <tag k="alt_name" v="Galiza"/>
+    <tag k="alt_name:ar" v="جليقية;جليسية;غليسية"/>
     <tag k="alt_name:br" v="Galisia;Galis;Kalaikia;Kalaika"/>
     <tag k="name" v="Galicia"/>
-    <tag k="name:ar" v="جليقية"/>
+    <tag k="name:ar" v="غاليسيا"/>
     <tag k="name:ast" v="Galicia"/>
     <tag k="name:be" v="Галісія"/>
     <tag k="name:bg" v="Галисия"/>
@@ -21772,6 +22027,7 @@
     <tag k="name:ar" v="الريوخة"/>
     <tag k="name:ast" v="La Rioxa"/>
     <tag k="name:be" v="Рыёха"/>
+    <tag k="name:br" v="La Rioja"/>
     <tag k="name:en" v="La Rioja"/>
     <tag k="name:eo" v="Rioĥo"/>
     <tag k="name:es" v="La Rioja"/>
@@ -22583,7 +22839,7 @@
     <tag k="name:be" v="Іль-дэ-Франс"/>
     <tag k="name:br" v="Enez-Frañs"/>
     <tag k="name:ca" v="Illa de França"/>
-    <tag k="name:en" v="Island of France"/>
+    <tag k="name:en" v="Île-de-France"/>
     <tag k="name:eo" v="Francilio"/>
     <tag k="name:es" v="Isla de Francia"/>
     <tag k="name:eu" v="Île-de-France"/>
@@ -22606,7 +22862,7 @@
     <tag k="place" v="state"/>
     <tag k="population" v="11852851"/>
     <tag k="source:population" v="INSEE 2014"/>
-    <tag k="website" v="http://www.iledefrance.fr/"/>
+    <tag k="website" v="https://www.iledefrance.fr/"/>
     <tag k="wikidata" v="Q13917"/>
     <tag k="wikipedia" v="fr:Île-de-France"/>
   </node>
@@ -22660,7 +22916,6 @@
     <tag k="name:br" v="Kreiz Traoñ-al-Liger"/>
     <tag k="name:ca" v="Centre"/>
     <tag k="name:de" v="Zentrum"/>
-    <tag k="name:en" v="Centre-Loire Valley"/>
     <tag k="name:eo" v="Centro"/>
     <tag k="name:es" v="Centro"/>
     <tag k="name:eu" v="Centre"/>
@@ -22695,7 +22950,6 @@
     <tag k="name:br" v="Broioù al Liger"/>
     <tag k="name:ca" v="País del Loira"/>
     <tag k="name:ce" v="Луаран латтанаш"/>
-    <tag k="name:en" v="Pays of the Loire"/>
     <tag k="name:eo" v="Luarlandoj"/>
     <tag k="name:es" v="Países del Loira"/>
     <tag k="name:eu" v="Pays de la Loire"/>
@@ -22855,8 +23109,9 @@
     <tag k="admin_level" v="4"/>
     <tag k="alt_name:en" v="Al Murgub"/>
     <tag k="int_name" v="Al Margab"/>
-    <tag k="name" v="المرقب"/>
+    <tag k="name" v="ⵍⵎⵔⵇⴱ المرقب Al Margab"/>
     <tag k="name:ar" v="المرقب"/>
+    <tag k="name:ber" v="ⵍⵎⵔⵇⴱ"/>
     <tag k="name:en" v="Al Margab"/>
     <tag k="name:fr" v="Al Mourqoub"/>
     <tag k="name:it" v="Distretto di Al-Murgub"/>
@@ -22871,8 +23126,9 @@
     <tag k="UNOSAT:ref" v="19"/>
     <tag k="admin_level" v="4"/>
     <tag k="alt_name:fr" v="Chabiya de Zaouïa"/>
-    <tag k="name" v="الزاوية"/>
+    <tag k="name" v="ⵍⵣⴰⵡⵉⵢⴰ الزاوية Az Zawiyah"/>
     <tag k="name:ar" v="الزاوية"/>
+    <tag k="name:ber" v="ⵍⵣⴰⵡⵉⵢⴰ"/>
     <tag k="name:en" v="Az Zawiyah"/>
     <tag k="name:fr" v="Zaouïa"/>
     <tag k="name:it" v="El Zauia"/>
@@ -22888,8 +23144,9 @@
   <node id="1312442220" lat="26.0198133" lon="10.4339911">
     <tag k="UNOSAT:ref" v="22"/>
     <tag k="admin_level" v="4"/>
-    <tag k="name" v="غات"/>
+    <tag k="name" v="ⵖⴰⵜ غات Ghat"/>
     <tag k="name:ar" v="غات"/>
+    <tag k="name:ber" v="ⵖⴰⵜ"/>
     <tag k="name:en" v="Ghat"/>
     <tag k="name:fr" v="Ghat"/>
     <tag k="name:it" v="Distretto di Gat"/>
@@ -22901,8 +23158,9 @@
   <node id="1312442221" lat="32.5587916" lon="13.0707024">
     <tag k="UNOSAT:ref" v="18"/>
     <tag k="admin_level" v="4"/>
-    <tag k="name" v="الجفارة"/>
+    <tag k="name" v="ⵍⵊⴼⴰⵔⴰ الجفارة Al Jifarah"/>
     <tag k="name:ar" v="الجفارة"/>
+    <tag k="name:ber" v="ⵍⵊⴼⴰⵔⴰ"/>
     <tag k="name:en" v="Al Jifarah"/>
     <tag k="name:fr" v="Al Jufrah"/>
     <tag k="name:it" v="Gefara"/>
@@ -22918,8 +23176,9 @@
     <tag k="UNOSAT:ref" v="10"/>
     <tag k="admin_level" v="4"/>
     <tag k="int_name" v="Sabha"/>
-    <tag k="name" v="سبها"/>
+    <tag k="name" v="ⵙⴱⵀⴰ سبها Sabha"/>
     <tag k="name:ar" v="سبها"/>
+    <tag k="name:ber" v="ⵙⴱⵀⴰ"/>
     <tag k="name:en" v="Sabha District"/>
     <tag k="name:fr" v="Sebha"/>
     <tag k="name:it" v="Distretto di Seba"/>
@@ -22931,8 +23190,9 @@
   <node id="1312442223" lat="30.1782873" lon="24.0530924">
     <tag k="UNOSAT:ref" v="5"/>
     <tag k="admin_level" v="4"/>
-    <tag k="name" v="البطنان"/>
+    <tag k="name" v="ⵍⴱⵟⵏⴰⵏ البطنان Al Butnan"/>
     <tag k="name:ar" v="البطنان"/>
+    <tag k="name:ber" v="ⵍⴱⵟⵏⴰⵏ"/>
     <tag k="name:en" v="Al Butnan"/>
     <tag k="name:fa" v="بطنان"/>
     <tag k="name:fr" v="Al Boutnan"/>
@@ -22951,8 +23211,9 @@
   <node id="1312442224" lat="32.7733899" lon="13.3318732">
     <tag k="UNOSAT:ref" v="17"/>
     <tag k="admin_level" v="4"/>
-    <tag k="name" v="طرابلس"/>
+    <tag k="name" v="ⵟⴰⵕⴰⴱⵍⵓⵙ طرابلس Tripoli"/>
     <tag k="name:ar" v="طرابلس"/>
+    <tag k="name:ber" v="ⵟⴰⵕⴰⴱⵍⵓⵙ"/>
     <tag k="name:en" v="Tripoli"/>
     <tag k="name:fa" v="طرابلس"/>
     <tag k="name:fr" v="Tripoli"/>
@@ -22974,8 +23235,9 @@
     <tag k="UNOSAT:ref" v="20"/>
     <tag k="admin_level" v="4"/>
     <tag k="alt_name:en" v="Bani Walid"/>
-    <tag k="name" v="بني وليد"/>
+    <tag k="name" v="ⴰⵜ ⵡⵍⵉⴷ بني وليد Bani Walid"/>
     <tag k="name:ar" v="بني وليد"/>
+    <tag k="name:ber" v="ⴰⵜ ⵡⵍⵉⴷ"/>
     <tag k="name:en" v="Bani Walid"/>
     <tag k="name:fr" v="Bani Walid"/>
     <tag k="name:hu" v="Bani walid"/>
@@ -22989,8 +23251,9 @@
     <tag k="UNOSAT:ref" v="14"/>
     <tag k="admin_level" v="4"/>
     <tag k="int_name" v="Nalut"/>
-    <tag k="name" v="نالوت"/>
+    <tag k="name" v="ⵏⴰⵍⵓⵜ نالوت Nalut"/>
     <tag k="name:ar" v="نالوت"/>
+    <tag k="name:ber" v="ⵏⴰⵍⵓⵜ"/>
     <tag k="name:en" v="Nalut"/>
     <tag k="name:fr" v="Nalut"/>
     <tag k="name:it" v="Distretto di Nalut"/>
@@ -23002,10 +23265,13 @@
   <node id="1312442228" lat="23.3323776" lon="22.0840331">
     <tag k="UNOSAT:ref" v="12"/>
     <tag k="admin_level" v="4"/>
+    <tag k="alt_name" v="شعبية الكفرة"/>
+    <tag k="alt_name:ar" v="شعبية الكفرة"/>
     <tag k="alt_name:fr" v="Chabiya de Koufra"/>
-    <tag k="name" v="الكفرة"/>
+    <tag k="name" v="ⵍⴽⴼⵔⴰ الكفرة Al Kufrah"/>
     <tag k="name:ar" v="الكفرة"/>
     <tag k="name:azb" v="کفره"/>
+    <tag k="name:ber" v="ⵍⴽⴼⵔⴰ"/>
     <tag k="name:en" v="Al Kufrah"/>
     <tag k="name:fa" v="کفره"/>
     <tag k="name:fr" v="Koufra"/>
@@ -23025,8 +23291,9 @@
   <node id="1312442229" lat="29.1573123" lon="21.7496392">
     <tag k="UNOSAT:ref" v="7"/>
     <tag k="admin_level" v="4"/>
-    <tag k="name" v="الواحات"/>
+    <tag k="name" v="ⵍⵡⴰⵃⴰⵜ الواحات Al Wahat"/>
     <tag k="name:ar" v="الواحات"/>
+    <tag k="name:ber" v="ⵍⵡⴰⵃⴰⵜ"/>
     <tag k="name:en" v="Al Wahat"/>
     <tag k="name:fr" v="Al Wahat"/>
     <tag k="name:it" v="Al-Wahat"/>
@@ -23042,9 +23309,10 @@
   <node id="1312442230" lat="31.8689169" lon="22.5825391">
     <tag k="UNOSAT:ref" v="2"/>
     <tag k="admin_level" v="4"/>
-    <tag k="name" v="درنة"/>
+    <tag k="name" v="ⴷⵔⵏⴰ درنة Darnah"/>
     <tag k="name:ar" v="درنة"/>
     <tag k="name:azb" v="درنه"/>
+    <tag k="name:ber" v="ⴷⵔⵏⴰ"/>
     <tag k="name:en" v="Darnah"/>
     <tag k="name:fa" v="درنه"/>
     <tag k="name:fr" v="Darnah"/>
@@ -23067,8 +23335,9 @@
     <tag k="UNOSAT:ref" v="11"/>
     <tag k="admin_level" v="4"/>
     <tag k="int_name" v="Murzuq"/>
-    <tag k="name" v="مرزق"/>
+    <tag k="name" v="ⵎⵔⵣⵇ مرزق Murzuq"/>
     <tag k="name:ar" v="مرزق"/>
+    <tag k="name:ber" v="ⵎⵔⵣⵇ"/>
     <tag k="name:en" v="Murzuq"/>
     <tag k="name:fr" v="Mourzouq"/>
     <tag k="name:it" v="Distretto di Murzuch"/>
@@ -23081,8 +23350,9 @@
     <tag k="UNOSAT:ref" v="3"/>
     <tag k="admin_level" v="4"/>
     <tag k="alt_name:it" v="Distretto di Al-Marj"/>
-    <tag k="name" v="المرج"/>
+    <tag k="name" v="ⵍⵎⵔⵊ المرج Al Marj"/>
     <tag k="name:ar" v="المرج"/>
+    <tag k="name:ber" v="ⵍⵎⵔⵊ"/>
     <tag k="name:en" v="Al Marj"/>
     <tag k="name:fr" v="Al Marj"/>
     <tag k="name:it" v="Distretto di Barce"/>
@@ -23097,8 +23367,9 @@
     <tag k="alt_name:en" v="Wadi Al Shatii"/>
     <tag k="alt_name:it" v="Distretto di Wadi Al-Shatii"/>
     <tag k="int_name" v="Ash Shati"/>
-    <tag k="name" v="وادي الشاطي"/>
+    <tag k="name" v="ⵡⴰⴷⵉ ⵛⴰⵟⵉ وادي الشاطي Ash Shati"/>
     <tag k="name:ar" v="وادي الشاطي"/>
+    <tag k="name:ber" v="ⵡⴰⴷⵉ ⵛⴰⵟⵉ"/>
     <tag k="name:en" v="Ash Shati"/>
     <tag k="name:fr" v="Wadi ach Chatii"/>
     <tag k="name:it" v="Distretto di Sciati"/>
@@ -23112,8 +23383,9 @@
   <node id="1312442234" lat="32.4874119" lon="21.7089729">
     <tag k="UNOSAT:ref" v="1"/>
     <tag k="admin_level" v="4"/>
-    <tag k="name" v="الجبل الأخضر"/>
+    <tag k="name" v="ⴰⴷⵔⴰⵔ ⴰⵣⴳⵣⴰⵡ الجبل الأخضر Al Jabal Al Akhdar"/>
     <tag k="name:ar" v="الجبل الأخضر"/>
+    <tag k="name:ber" v="ⴰⴷⵔⴰⵔ ⴰⵣⴳⵣⴰⵡ"/>
     <tag k="name:en" v="Al Jabal Al Akhdar"/>
     <tag k="name:fr" v="Al Jabal al Akhdar"/>
     <tag k="name:it" v="Distretto di Al-Jabal Al-Akhdar"/>
@@ -23125,10 +23397,12 @@
   <node id="1312442235" lat="28.0055724" lon="16.7430292">
     <tag k="UNOSAT:ref" v="8"/>
     <tag k="admin_level" v="4"/>
+    <tag k="alt_name" v="شعبية الجفرة"/>
+    <tag k="alt_name:ar" v="شعبية الجفرة"/>
     <tag k="alt_name:it" v="Distretto di Al-Jufrah"/>
-    <tag k="int_name" v="Al Jufrah"/>
-    <tag k="name" v="الجفرة"/>
+    <tag k="name" v="ⵍⵊⴼⵔⴰ الجفرة Al Jufrah"/>
     <tag k="name:ar" v="الجفرة"/>
+    <tag k="name:ber" v="ⵍⵊⴼⵔⴰ"/>
     <tag k="name:en" v="Al Jufrah"/>
     <tag k="name:fr" v="Al Jufrah"/>
     <tag k="name:it" v="Distretto di Giofra"/>
@@ -23140,8 +23414,9 @@
   <node id="1312442236" lat="26.4233369" lon="12.7183638">
     <tag k="UNOSAT:ref" v="13"/>
     <tag k="admin_level" v="4"/>
-    <tag k="name" v="وادي الحياة"/>
+    <tag k="name" v="ⵡⴰⴷⵉ ⵍⵃⵢⴰⵜ وادي الحياة Wadi Al Hayaa"/>
     <tag k="name:ar" v="وادي الحياة"/>
+    <tag k="name:ber" v="ⵡⴰⴷⵉ ⵍⵃⵢⴰⵜ"/>
     <tag k="name:de" v="Wadi Al Hayaa"/>
     <tag k="name:en" v="Wadi Al Hayaa"/>
     <tag k="name:fr" v="Wadi al Hayaat"/>
@@ -23157,10 +23432,10 @@
   <node id="1312442237" lat="29.9713958" lon="16.6770887">
     <tag k="UNOSAT:ref" v="6"/>
     <tag k="admin_level" v="4"/>
-    <tag k="int_name" v="Surt"/>
-    <tag k="name" v="سرت"/>
+    <tag k="name" v="ⵙⵔⵜ سرت Surt"/>
     <tag k="name:ar" v="سرت"/>
     <tag k="name:azb" v="سرت"/>
+    <tag k="name:ber" v="ⵙⵔⵜ"/>
     <tag k="name:en" v="Surt"/>
     <tag k="name:fa" v="سرت"/>
     <tag k="name:fr" v="Syrte"/>
@@ -23185,8 +23460,9 @@
   <node id="1312442238" lat="32.7177153" lon="11.9896415">
     <tag k="UNOSAT:ref" v="21"/>
     <tag k="admin_level" v="4"/>
-    <tag k="name" v="النقاط الخمس"/>
+    <tag k="name" v="ⵍⵏⵇⴰⵟ ⵍⵅⵎⵙ النقاط الخمس An Niquat Al Khums"/>
     <tag k="name:ar" v="النقاط الخمس"/>
+    <tag k="name:ber" v="ⵍⵏⵇⴰⵟ ⵍⵅⵎⵙ"/>
     <tag k="name:en" v="An Niquat Al Khums"/>
     <tag k="name:fr" v="An Nouqat al Khams"/>
     <tag k="name:it" v="Distretto di Al-Nuqat Al-Khams"/>
@@ -23202,15 +23478,16 @@
   <node id="1312442239" lat="30.7046490" lon="13.2233859">
     <tag k="UNOSAT:ref" v="15"/>
     <tag k="admin_level" v="4"/>
-    <tag k="alt_name:en" v="Al Jabal al Gharbi"/>
-    <tag k="name" v="الجبل الغربي"/>
-    <tag k="name:ar" v="الجبل الغربي"/>
-    <tag k="name:en" v="Al Jabal Al Gharbi"/>
-    <tag k="name:fr" v="Al Jabal Al Gharbi"/>
-    <tag k="name:it" v="Distretto di Gebel Garbi"/>
-    <tag k="name:pl" v="Al-Dżabal al-Gharbi"/>
-    <tag k="name:ru" v="Эль-Джабал-эль-Гарби"/>
-    <tag k="name:uk" v="Ель-Джабал ель-Гарбі"/>
+    <tag k="alt_name:en" v="Adrar n Infusen"/>
+    <tag k="name" v="ⴰⴷⵔⴰⵔ ⵏ ⵉⵏⴼⵓⵙⵏ  جبل نفوسة Adrar n Infusen"/>
+    <tag k="name:ar" v="جبل نفوسة"/>
+    <tag k="name:ber" v="ⴰⴷⵔⴰⵔ ⵏ ⵉⵏⴼⵓⵙⵏ"/>
+    <tag k="name:en" v="Adrar n Infusen"/>
+    <tag k="name:fr" v="Djebel Nefoussa"/>
+    <tag k="name:it" v="Monti Nafusa"/>
+    <tag k="name:pl" v="Góry Nafusa"/>
+    <tag k="name:ru" v="Горы Нафуса"/>
+    <tag k="name:uk" v="Гори Нафуса"/>
     <tag k="place" v="state"/>
   </node>
   <node id="1366269650" lat="-27.0448424" lon="-65.3657954">
@@ -23596,16 +23873,38 @@
     <tag k="wikidata" v="Q36235"/>
     <tag k="wikipedia" v="en:Hung Yen province"/>
   </node>
-  <node id="1539105345" lat="21.3282166" lon="106.4625257">
-    <tag k="name" v="Bắc Ninh"/>
-    <tag k="name:en" v="Bac Ninh Province"/>
-    <tag k="name:fr" v="Province de Bắc Ninh"/>
-    <tag k="name:ja" v="バクニン"/>
-    <tag k="name:vi" v="Tỉnh Bắc Ninh"/>
-    <tag k="name:vi-Hani" v="省北寧"/>
-    <tag k="name:zh" v="北寧省"/>
-    <tag k="name:zh-Hans" v="北宁省"/>
-    <tag k="name:zh-Hant" v="北寧省"/>
+  <node id="1539105345" lat="21.2758567" lon="106.2007235">
+    <tag k="name" v="Thành phố Bắc Ninh"/>
+    <tag k="name:ar" v="مدينة باك ننه"/>
+    <tag k="name:bg" v="Град Бак Нин"/>
+    <tag k="name:ca" v="Ciutat de Bac Ninh"/>
+    <tag k="name:de" v="Stadt Bắc Ninh"/>
+    <tag k="name:en" v="Bắc Ninh City"/>
+    <tag k="name:es" v="Ciudad de Bắc Ninh"/>
+    <tag k="name:fa" v="شهر باک نین"/>
+    <tag k="name:fi" v="Bắc Ninh kaupunki"/>
+    <tag k="name:fr" v="Ville de Bắc Ninh"/>
+    <tag k="name:id" v="Kota Bac Ninh"/>
+    <tag k="name:it" v="Città di Bac Ninh"/>
+    <tag k="name:ja" v="バクニン市"/>
+    <tag k="name:ko" v="박닌시"/>
+    <tag k="name:mn" v="Бак Нэн хот"/>
+    <tag k="name:ms" v="Bandar Bac Ninh"/>
+    <tag k="name:nl" v="Stad Bắc Ninh"/>
+    <tag k="name:pl" v="Miasto Bắc Ninh"/>
+    <tag k="name:pt" v="Cidade de Bac Ninh"/>
+    <tag k="name:ru" v="Город Бакнинь"/>
+    <tag k="name:sr" v="Град Бак Нињ"/>
+    <tag k="name:sv" v="Bắc Ninh stad"/>
+    <tag k="name:sw" v="Jiji la Bắc Ninh"/>
+    <tag k="name:th" v="เมืองบั๊กนิญ"/>
+    <tag k="name:uk" v="Місто Бакнінь"/>
+    <tag k="name:ur" v="باک ننہ شہر"/>
+    <tag k="name:vi-Hani" v="城北寧"/>
+    <tag k="name:zh" v="北宁市"/>
+    <tag k="name:zh-Hans" v="北宁市"/>
+    <tag k="name:zh-Hant" v="北寧市"/>
+    <tag k="official_name" v="Thành phố Bắc Ninh"/>
     <tag k="place" v="state"/>
     <tag k="ref" v="BN"/>
     <tag k="wikidata" v="Q33408"/>
@@ -23625,20 +23924,6 @@
     <tag k="ref" v="PT"/>
     <tag k="wikidata" v="Q36610"/>
     <tag k="wikipedia" v="en:Phu Tho province"/>
-  </node>
-  <node id="1539344551" lat="21.1718046" lon="107.2012742">
-    <tag k="name" v="Quảng Ninh"/>
-    <tag k="name:en" v="Quang Ninh Province"/>
-    <tag k="name:ja" v="クアンニン"/>
-    <tag k="name:vi" v="Tỉnh Quảng Ninh"/>
-    <tag k="name:vi-Hani" v="省廣寧"/>
-    <tag k="name:zh" v="廣寧省"/>
-    <tag k="name:zh-Hans" v="广宁省"/>
-    <tag k="name:zh-Hant" v="廣寧省"/>
-    <tag k="place" v="state"/>
-    <tag k="ref" v="QN"/>
-    <tag k="wikidata" v="Q33396"/>
-    <tag k="wikipedia" v="en:Quang Ninh province"/>
   </node>
   <node id="1539375019" lat="21.9610968" lon="105.8440789">
     <tag k="name" v="Tỉnh Thái Nguyên"/>
@@ -23714,6 +23999,7 @@
     <tag k="name:be" v="Востраў Ушэсця"/>
     <tag k="name:de" v="Himmelfahrtsinsel"/>
     <tag k="name:el" v="Νήσος Αναλήψεως"/>
+    <tag k="name:en" v="Ascension Island"/>
     <tag k="name:es" v="Isla Ascensión"/>
     <tag k="name:eu" v="Ascension uhartea"/>
     <tag k="name:fr" v="Île de l'Ascension"/>
@@ -23739,6 +24025,7 @@
     <tag k="name" v="New Brunswick;Nouveau-Brunswick"/>
     <tag k="name:ar" v="نيو برانسويك"/>
     <tag k="name:be" v="Нью-Брансуік"/>
+    <tag k="name:dak" v="Mnáża"/>
     <tag k="name:de" v="Neubraunschweig"/>
     <tag k="name:en" v="New Brunswick"/>
     <tag k="name:eo" v="Nov-Brunsviko"/>
@@ -23749,6 +24036,7 @@
     <tag k="name:it" v="Nuovo Brunswick"/>
     <tag k="name:ko" v="뉴브런즈윅주"/>
     <tag k="name:la" v="Novum Brunsvicum"/>
+    <tag k="name:lkt" v="Mnáža"/>
     <tag k="name:pt" v="Novo Brunsvique"/>
     <tag k="name:ro" v="Noul Brunswick"/>
     <tag k="name:ru" v="Нью-Брансуик"/>
@@ -23832,7 +24120,7 @@
     <tag k="wikipedia" v="ar:مسندم (محافظة)"/>
   </node>
   <node id="1721119244" lat="41.3787291" lon="-0.7639373">
-    <tag k="alt_name:ar" v="راغون;راقون"/>
+    <tag k="alt_name:ar" v="أراغون;راغون;راقون"/>
     <tag k="name" v="Aragón"/>
     <tag k="name:ar" v="أرغون"/>
     <tag k="name:be" v="Арагон"/>
@@ -23911,6 +24199,7 @@
     <tag k="name:eu" v="Valentziako Erkidegoa"/>
     <tag k="name:fa" v="کوی والنسیا"/>
     <tag k="name:fr" v="Communauté valencienne"/>
+    <tag k="name:fur" v="Comunitât Valenziane"/>
     <tag k="name:hr" v="Valencijska Zajednica"/>
     <tag k="name:it" v="Comunità Valenzana"/>
     <tag k="name:la" v="Communitas Valentiana"/>
@@ -24080,6 +24369,7 @@
     <tag k="name:br" v="Enez ar Priñs Edouarzh"/>
     <tag k="name:ca" v="Illa del Príncep Eduard"/>
     <tag k="name:cs" v="Ostrov prince Edvarda"/>
+    <tag k="name:dak" v="Ṭeḣiƞdapi"/>
     <tag k="name:de" v="Prinz-Edward-Insel"/>
     <tag k="name:en" v="Prince Edward Island"/>
     <tag k="name:eo" v="Insulo de Princo Eduardo"/>
@@ -24090,6 +24380,7 @@
     <tag k="name:hu" v="Prince Edward-sziget"/>
     <tag k="name:it" v="Isola del Principe Edoardo"/>
     <tag k="name:ko" v="프린스에드워드아일랜드주"/>
+    <tag k="name:lkt" v="Theȟílapi"/>
     <tag k="name:pt" v="Ilha do Príncipe Eduardo"/>
     <tag k="name:ro" v="Insula Prințului Edward"/>
     <tag k="name:ru" v="Остров Принца Эдуарда"/>
@@ -24256,21 +24547,28 @@
   <node id="1781917318" lat="44.5256960" lon="11.0394370">
     <tag k="ISO3166-2" v="IT-45"/>
     <tag k="name" v="Emilia-Romagna"/>
+    <tag k="name:ar" v="إميليا رومانيا"/>
+    <tag k="name:az-Arab" v="امیلیا-رومانیا"/>
+    <tag k="name:azb" v="امیلیا-رومانیا"/>
     <tag k="name:be" v="Эмілія-Раманья"/>
+    <tag k="name:de" v="Emilia-Romagna"/>
     <tag k="name:en" v="Emilia-Romagna"/>
     <tag k="name:eo" v="Emilio-Romanjo"/>
     <tag k="name:es" v="Emilia-Romaña"/>
     <tag k="name:fr" v="Émilie-Romagne"/>
+    <tag k="name:fur" v="Emilie-Romagne"/>
     <tag k="name:he" v="אמיליה-רומאניה"/>
     <tag k="name:ko" v="에밀리아로마냐"/>
     <tag k="name:lt" v="Emilija-Romanija"/>
     <tag k="name:nl" v="Emilia-Romagna"/>
+    <tag k="name:pa" v="ਏਮੀਲੀਆ-ਰੋਮਾਞਾ"/>
     <tag k="name:pl" v="Emilia-Romania"/>
     <tag k="name:pt" v="Emília-Romanha"/>
     <tag k="name:ru" v="Эмилия-Романья"/>
     <tag k="name:scn" v="Emilia-Rumagna"/>
     <tag k="name:sl" v="Emilija - Romanja"/>
     <tag k="name:uk" v="Емілія-Романья"/>
+    <tag k="name:ur" v="ایمیلیا رومانیا"/>
     <tag k="place" v="state"/>
     <tag k="population" v="4432418"/>
     <tag k="ref:ISTAT" v="08"/>
@@ -24358,7 +24656,7 @@
     <tag k="name:sk" v="Ligúria"/>
     <tag k="name:sl" v="Ligurija"/>
     <tag k="name:sv" v="Ligurien"/>
-    <tag k="name:uk" v="Лігурія"/>
+    <tag k="name:uk" v="Ліґурія"/>
     <tag k="place" v="state"/>
     <tag k="population" v="1616788"/>
     <tag k="ref:ISTAT" v="07"/>
@@ -24368,6 +24666,7 @@
   </node>
   <node id="1781917324" lat="45.5703694" lon="9.7732524">
     <tag k="ISO3166-2" v="IT-25"/>
+    <tag k="alt_name:ar" v="لمبردية;لمبرديا;أنبردية;أنكبردية;أنبرضية"/>
     <tag k="name" v="Lombardia"/>
     <tag k="name:ar" v="لمبرديا"/>
     <tag k="name:be" v="Ламбардыя"/>
@@ -24406,6 +24705,7 @@
     <tag k="name:eo" v="Markio"/>
     <tag k="name:es" v="Marcas"/>
     <tag k="name:fr" v="Marches"/>
+    <tag k="name:fur" v="Marchis"/>
     <tag k="name:it" v="Marche"/>
     <tag k="name:ko" v="마르케"/>
     <tag k="name:nl" v="Marche"/>
@@ -24550,7 +24850,7 @@
     <tag k="ref:ISTAT" v="20"/>
     <tag k="short_name" v="SAR"/>
     <tag k="wikidata" v="Q1462"/>
-    <tag k="wikipedia" v="sc:Sardigna"/>
+    <tag k="wikipedia" v="sc:Regione Autònoma de Sardigna"/>
   </node>
   <node id="1781917332" lat="37.5877940" lon="14.1550480">
     <tag k="ISO3166-2" v="IT-82"/>
@@ -25056,6 +25356,7 @@
     <tag k="name:ar" v="لمبونق"/>
     <tag k="name:eo" v="Lampungo"/>
     <tag k="name:hu" v="Lampung"/>
+    <tag k="name:ja" v="ランプン"/>
     <tag k="name:ko" v="람풍주"/>
     <tag k="name:uk" v="Лампунґ"/>
     <tag k="name:zh" v="楠榜省"/>
@@ -25340,6 +25641,7 @@
     <tag k="name:eo" v="Okcidenta Sulaveso"/>
     <tag k="name:fr" v="Sulawesi occidental"/>
     <tag k="name:hu" v="Nyugat-Sulawesi"/>
+    <tag k="name:id" v="Sulawesi Barat"/>
     <tag k="name:ko" v="서술라웨시주"/>
     <tag k="name:nl" v="West-Celebes"/>
     <tag k="name:uk" v="Західне Сулавесі"/>
@@ -25466,6 +25768,7 @@
     <tag k="name:eo" v="Nordaj Malukoj"/>
     <tag k="name:fr" v="Moluques du Nord"/>
     <tag k="name:hu" v="North Maluku"/>
+    <tag k="name:id" v="Maluku Utara"/>
     <tag k="name:ko" v="북말루쿠주"/>
     <tag k="name:uk" v="Північне Малуку"/>
     <tag k="name:zh" v="北马鲁古省"/>
@@ -25725,12 +26028,12 @@
     <tag k="wikipedia" v="ar:جهة الشرق"/>
   </node>
   <node id="1956030563" lat="35.2029410" lon="-5.5510167">
-    <tag k="name" v="Tanger-Tétouan-Al Hoceima ⵟⴰⵏⵊⴰ ⵜⵉⵟⵟⴰⵡⵉⵏ ⵍⵃⵓⵙⵉⵎⴰ طنجة تطوان الحسيمة"/>
+    <tag k="name" v="Tanger-Tétouan-Al Hoceïma ⵟⴰⵏⵊⴰ ⵜⵉⵟⵟⴰⵡⵉⵏ ⵍⵃⵓⵙⵉⵎⴰ طنجة تطوان الحسيمة"/>
     <tag k="name:ar" v="طنجة تطوان الحسيمة"/>
-    <tag k="name:en" v="Tangier-Tétouan-Al Hoceima"/>
+    <tag k="name:en" v="Tanger-Tétouan-Al Hoceïma"/>
     <tag k="name:es" v="Tánger-Tetuán-Alhucemas"/>
     <tag k="name:fa" v="طنجه تطوان حسیمه"/>
-    <tag k="name:fr" v="Tanger-Tétouan-Al Hoceima"/>
+    <tag k="name:fr" v="Tanger-Tétouan-Al Hoceïma"/>
     <tag k="name:ru" v="Танжер-Тетуан-Эль-Хосейма"/>
     <tag k="name:tr" v="Tanca-Tetuan-El-Hüseyma"/>
     <tag k="place" v="state"/>
@@ -25795,7 +26098,10 @@
     <tag k="name:zh" v="昆士兰州"/>
     <tag k="note" v="This is the centroid of QLD based on OSM boundary and the Queensland Lambert conformal conic projection."/>
     <tag k="place" v="state"/>
+    <tag k="population" v="5712100"/>
+    <tag k="population:date" v="2025-12-31"/>
     <tag k="ref" v="QLD"/>
+    <tag k="source:population" v="https://www.abs.gov.au/statistics/people/population/national-state-and-territory-population/dec-2025"/>
     <tag k="state_code" v="QLD"/>
     <tag k="wikidata" v="Q36074"/>
     <tag k="wikipedia" v="en:Queensland"/>
@@ -25833,6 +26139,42 @@
     <tag k="short_name" v="Qro."/>
     <tag k="wikidata" v="Q79754"/>
     <tag k="wikipedia" v="es:Querétaro"/>
+  </node>
+  <node id="2043451343" lat="46.9905668" lon="29.4772511">
+    <tag k="alt_name" v="Приднестровье"/>
+    <tag k="alt_name:cs" v="Podněstří"/>
+    <tag k="alt_name:de" v="Pridnestrowien"/>
+    <tag k="alt_name:en" v="Pridnestrovie"/>
+    <tag k="alt_name:eo" v="Pridnestrovio"/>
+    <tag k="alt_name:fr" v="Pridnestrovie"/>
+    <tag k="alt_name:ro" v="Transnistria"/>
+    <tag k="alt_name:sk" v="Podnestersko"/>
+    <tag k="alt_name:sl" v="Pridnestrovije"/>
+    <tag k="alt_name:uk" v="Придністровя"/>
+    <tag k="alt_official_name:en" v="Pridnestrovskaya Moldavskaya Respublika"/>
+    <tag k="capital_city" v="Tiraspol"/>
+    <tag k="currency" v="Pridnestrovian ruble"/>
+    <tag k="name" v="Приднестровская Молдавская Республика"/>
+    <tag k="name:cs" v="Podněsterská moldavská republika"/>
+    <tag k="name:de" v="Pridnestrowische Moldauische Republik"/>
+    <tag k="name:en" v="Pridnestrovian Moldavian Republic"/>
+    <tag k="name:eo" v="Ĉednestria Moldava Respubliko"/>
+    <tag k="name:fr" v="République moldave du Dniestr"/>
+    <tag k="name:mo" v="Република Молдовеняскэ Нистрянэ"/>
+    <tag k="name:pl" v="Naddniestrzańska Republika Mołdawska"/>
+    <tag k="name:ro" v="Republica Moldovenească Nistreană"/>
+    <tag k="name:sk" v="Podnesterská moldavská republika"/>
+    <tag k="name:sl" v="Pridnjestrska moldavska republika"/>
+    <tag k="name:uk" v="Придністровська Молдавська Республіка"/>
+    <tag k="place" v="state"/>
+    <tag k="population" v="513400"/>
+    <tag k="short_name" v="ПМР"/>
+    <tag k="short_name:de" v="PMR"/>
+    <tag k="short_name:en" v="PMR"/>
+    <tag k="short_name:fr" v="RMD"/>
+    <tag k="short_name:ro" v="RMN"/>
+    <tag k="short_name:sl" v="PMR"/>
+    <tag k="short_name:uk" v="ПМР"/>
   </node>
   <node id="2050186944" lat="53.1448690" lon="8.6932343">
     <tag k="name" v="Freie Hansestadt Bremen"/>
@@ -25875,8 +26217,8 @@
     <tag k="name:ru" v="Санкт-Петербург"/>
     <tag k="name:sk" v="Petrohrad"/>
     <tag k="name:tk" v="Sankt-Peterburg"/>
+    <tag k="name:uk" v="Санкт-Петербурґ"/>
     <tag k="official_status" v="ru:город федерального значения"/>
-    <tag k="okato:user" v="40000000000"/>
     <tag k="place" v="state"/>
     <tag k="ref" v="СПБ"/>
     <tag k="ref:en" v="SPE"/>
@@ -25900,7 +26242,9 @@
   </node>
   <node id="2155009283" lat="10.6377186" lon="14.2738156">
     <tag k="admin_level" v="4"/>
+    <tag k="alt_name:br" v="Norzh-Pellañ"/>
     <tag k="name" v="Extrême-Nord"/>
+    <tag k="name:br" v="Rannvro an Norzh-Pellañ"/>
     <tag k="name:de" v="Hoher Norden"/>
     <tag k="name:en" v="Extreme North"/>
     <tag k="place" v="state"/>
@@ -25975,6 +26319,7 @@
   <node id="2163706687" lat="5.4540953" lon="7.5153071">
     <tag k="admin_level" v="4"/>
     <tag k="name" v="Abia"/>
+    <tag k="name:ar" v="أبيا"/>
     <tag k="name:hu" v="Abia"/>
     <tag k="name:ru" v="Абия"/>
     <tag k="name:uk" v="Абія"/>
@@ -26045,6 +26390,7 @@
   <node id="2163706694" lat="7.3505747" lon="8.7772877">
     <tag k="admin_level" v="4"/>
     <tag k="name" v="Benue"/>
+    <tag k="name:ar" v="بينو"/>
     <tag k="name:en" v="Benue"/>
     <tag k="name:ha" v="Binuwai"/>
     <tag k="name:ha-Arab" v="بِࢽُوَیْ"/>
@@ -26086,6 +26432,7 @@
   <node id="2163706698" lat="6.1996918" lon="8.0348906">
     <tag k="admin_level" v="4"/>
     <tag k="name" v="Ebonyi"/>
+    <tag k="name:ar" v="إبونيه"/>
     <tag k="name:ru" v="Эбоньи"/>
     <tag k="name:uk" v="Ебоньї"/>
     <tag k="place" v="state"/>
@@ -26199,6 +26546,7 @@
   <node id="2163706714" lat="6.9788582" lon="3.4389293">
     <tag k="admin_level" v="4"/>
     <tag k="name" v="Ogun"/>
+    <tag k="name:ar" v="أوقون"/>
     <tag k="name:ru" v="Огун"/>
     <tag k="name:uk" v="Огун"/>
     <tag k="place" v="state"/>
@@ -26278,7 +26626,9 @@
   </node>
   <node id="2169047703" lat="8.7712794" lon="13.7803627">
     <tag k="admin_level" v="4"/>
+    <tag k="alt_name:br" v="Norzh"/>
     <tag k="name" v="Nord"/>
+    <tag k="name:br" v="Rannvro an Norzh"/>
     <tag k="name:en" v="North"/>
     <tag k="place" v="state"/>
     <tag k="ref" v="NO"/>
@@ -26286,7 +26636,9 @@
   </node>
   <node id="2169055874" lat="6.8496708" lon="13.2163222">
     <tag k="admin_level" v="4"/>
+    <tag k="alt_name:br" v="Adamaoua"/>
     <tag k="name" v="Adamaoua"/>
+    <tag k="name:br" v="Rannvro Adamaoua"/>
     <tag k="name:de" v="Adamaua"/>
     <tag k="name:en" v="Adamawa"/>
     <tag k="name:hu" v="Adamaoua"/>
@@ -26296,7 +26648,9 @@
   </node>
   <node id="2169076360" lat="4.6862670" lon="11.9414512">
     <tag k="admin_level" v="4"/>
+    <tag k="alt_name:br" v="Kreiz"/>
     <tag k="name" v="Centre"/>
+    <tag k="name:br" v="Rannvro Kreiz"/>
     <tag k="name:de" v="Zentrum"/>
     <tag k="place" v="state"/>
     <tag k="ref" v="CE"/>
@@ -26304,7 +26658,9 @@
   </node>
   <node id="2169076372" lat="3.9894393" lon="14.1783730">
     <tag k="admin_level" v="4"/>
+    <tag k="alt_name:br" v="Reter"/>
     <tag k="name" v="Est"/>
+    <tag k="name:br" v="Rannvro ar Reter"/>
     <tag k="name:de" v="Ost"/>
     <tag k="name:en" v="East"/>
     <tag k="place" v="state"/>
@@ -26313,7 +26669,9 @@
   </node>
   <node id="2169076382" lat="4.2030330" lon="10.0563057">
     <tag k="admin_level" v="4"/>
+    <tag k="alt_name:br" v="Arvor"/>
     <tag k="name" v="Littoral"/>
+    <tag k="name:br" v="Rannvro an Arvor"/>
     <tag k="name:de" v="Küste"/>
     <tag k="place" v="state"/>
     <tag k="ref" v="LT"/>
@@ -26321,7 +26679,9 @@
   </node>
   <node id="2169076393" lat="6.3775255" lon="10.3864171">
     <tag k="admin_level" v="4"/>
+    <tag k="alt_name:br" v="Gwalarn"/>
     <tag k="name" v="Nord-Ouest"/>
+    <tag k="name:br" v="Rannvro ar Gwalarn"/>
     <tag k="name:de" v="Nordwest"/>
     <tag k="name:en" v="Northwest"/>
     <tag k="place" v="state"/>
@@ -26330,7 +26690,9 @@
   </node>
   <node id="2169076403" lat="5.5211184" lon="10.6528684">
     <tag k="admin_level" v="4"/>
+    <tag k="alt_name:br" v="Kornôg"/>
     <tag k="name" v="Ouest"/>
+    <tag k="name:br" v="Rannvro ar C'hornôg"/>
     <tag k="name:de" v="West"/>
     <tag k="name:en" v="West"/>
     <tag k="name:pt" v="Oeste"/>
@@ -26340,7 +26702,9 @@
   </node>
   <node id="2169076412" lat="2.7312374" lon="11.6254622">
     <tag k="admin_level" v="4"/>
+    <tag k="alt_name:br" v="Su"/>
     <tag k="name" v="Sud"/>
+    <tag k="name:br" v="Rannvro ar Su"/>
     <tag k="name:de" v="Süd"/>
     <tag k="name:en" v="South"/>
     <tag k="place" v="state"/>
@@ -26349,7 +26713,9 @@
   </node>
   <node id="2169076416" lat="5.0577606" lon="9.2289407">
     <tag k="admin_level" v="4"/>
+    <tag k="alt_name:br" v="Mervent"/>
     <tag k="name" v="Southwest"/>
+    <tag k="name:br" v="Rannvro ar Mervent"/>
     <tag k="name:de" v="Südwest"/>
     <tag k="name:en" v="Southwest"/>
     <tag k="name:fr" v="Sud-Ouest"/>
@@ -26862,6 +27228,7 @@
     <tag k="capital" v="Wad Madani"/>
     <tag k="name" v="الجزيرة"/>
     <tag k="name:ar" v="الجزيرة"/>
+    <tag k="name:br" v="Al-Djazirah"/>
     <tag k="name:de" v="al-Dschazira"/>
     <tag k="name:en" v="Al Jazirah"/>
     <tag k="name:es" v="Al Jazirah"/>
@@ -26875,6 +27242,7 @@
     <tag k="name:sr" v="Ел Џезира"/>
     <tag k="name:tr" v="El Cezire"/>
     <tag k="name:uk" v="Ель-Гезіра"/>
+    <tag k="official_name:br" v="Stad Al-Djazirah"/>
     <tag k="place" v="state"/>
     <tag k="ref" v="GZ"/>
     <tag k="state_code" v="GZ"/>
@@ -27381,8 +27749,6 @@
     <tag k="state_code" v="ML"/>
   </node>
   <node id="2240851584" lat="23.2146169" lon="92.8687612">
-    <tag k="is_in:country" v="India"/>
-    <tag k="is_in:country_code" v="IN"/>
     <tag k="name" v="Mizoram"/>
     <tag k="name:ar" v="ميزورام"/>
     <tag k="name:cs" v="Mizóram"/>
@@ -27796,8 +28162,6 @@
   <node id="2278857601" lat="33.7251130" lon="66.2196554">
     <tag k="gns:dsg" v="ADM1"/>
     <tag k="int_name" v="Daikundi;Dāykondī;Daykundi"/>
-    <tag k="is_in:country" v="Afghanistan"/>
-    <tag k="is_in:country_code" v="AF"/>
     <tag k="name" v="دایکندی"/>
     <tag k="name:cs" v="Dájkundí"/>
     <tag k="name:de" v="Daikondi"/>
@@ -28076,6 +28440,7 @@
     <tag k="name:vec" v="Florida"/>
     <tag k="name:vi" v="Florida"/>
     <tag k="name:vo" v="Florida"/>
+    <tag k="name:wal" v="Filoorida"/>
     <tag k="name:war" v="Florida"/>
     <tag k="name:wuu" v="佛罗里达州"/>
     <tag k="name:xal" v="Флорида"/>
@@ -28102,9 +28467,11 @@
     <tag k="wikipedia" v="en:Florida"/>
   </node>
   <node id="2371779362" lat="30.5903474" lon="33.7052032">
+    <tag k="alt_name:br" v="Sinai an Norzh"/>
     <tag k="name" v="شمال سيناء"/>
     <tag k="name:ar" v="شمال سيناء"/>
     <tag k="name:bg" v="Северен Синай"/>
+    <tag k="name:br" v="Norzh Sinai"/>
     <tag k="name:cs" v="Severní Sinaj"/>
     <tag k="name:de" v="Gouvernement Nordsinai"/>
     <tag k="name:el" v="Βορείου Σινά"/>
@@ -28115,6 +28482,7 @@
     <tag k="name:hr" v="Sjeverni Sinaj"/>
     <tag k="name:hu" v="Észak-sínai kormányzóság"/>
     <tag k="name:hy" v="Հյուսիսային Սինայ"/>
+    <tag k="name:ja" v="北シナイ県"/>
     <tag k="name:mk" v="Северен Синај"/>
     <tag k="name:pl" v="Synaj Północny"/>
     <tag k="name:ru" v="Северный Синай"/>
@@ -28122,11 +28490,14 @@
     <tag k="name:sr" v="Северни Синај"/>
     <tag k="name:tr" v="Kuzey Sina Valiliği"/>
     <tag k="name:uk" v="Мухафаза Північний Синай"/>
+    <tag k="official_name:br" v="Gouarnerezh Norzh Sinai"/>
     <tag k="place" v="state"/>
   </node>
   <node id="2371779373" lat="29.2076755" lon="33.8119441">
+    <tag k="alt_name:br" v="Sinai ar Su"/>
     <tag k="name" v="جنوب سيناء"/>
     <tag k="name:ar" v="جنوب سيناء"/>
+    <tag k="name:br" v="Su Sinai"/>
     <tag k="name:cs" v="Jižní Sinaj"/>
     <tag k="name:de" v="Gouvernement Südsinai"/>
     <tag k="name:el" v="Νοτίου Σινά"/>
@@ -28137,6 +28508,7 @@
     <tag k="name:hr" v="Južni Sinaj"/>
     <tag k="name:hu" v="Dél-Sínai"/>
     <tag k="name:hy" v="Հարավային Սինայ"/>
+    <tag k="name:ja" v="南シナイ県"/>
     <tag k="name:ml" v="ദക്ഷിണ സീനായ്"/>
     <tag k="name:pl" v="Synaj Południowy"/>
     <tag k="name:ru" v="Южный Синай"/>
@@ -28146,27 +28518,33 @@
     <tag k="name:uk" v="Мухафаза Південний Синай"/>
     <tag k="official_name" v="محافظة جنوب سيناء"/>
     <tag k="official_name:ar" v="محافظة جنوب سيناء"/>
+    <tag k="official_name:br" v="Gouarnerezh Su Sinai"/>
     <tag k="place" v="state"/>
   </node>
   <node id="2372908507" lat="23.1046213" lon="32.4239202">
     <tag k="name" v="محافظة أسوان"/>
     <tag k="name:ar" v="محافظة أسوان"/>
+    <tag k="name:br" v="Asouan"/>
     <tag k="name:de" v="Gouvernement Assuan"/>
     <tag k="name:en" v="Aswan Governorate"/>
     <tag k="name:fr" v="Assouan"/>
+    <tag k="name:ja" v="アスワン県"/>
     <tag k="name:ru" v="Асуан"/>
-    <tag k="name:uk" v="мухафаза Асуан"/>
+    <tag k="name:uk" v="Мухафаза Асуан"/>
+    <tag k="official_name:br" v="Gouarnerezh Asouan"/>
     <tag k="place" v="state"/>
   </node>
   <node id="2372908511" lat="24.6601831" lon="34.1399929">
     <tag k="name" v="البحر الأحمر"/>
     <tag k="name:ar" v="البحر الأحمر"/>
+    <tag k="name:br" v="Mor Ruz"/>
     <tag k="name:de" v="Gouvernement Rotes Meer"/>
     <tag k="name:en" v="Red Sea Governorate"/>
     <tag k="name:fr" v="Mer-Rouge"/>
     <tag k="name:hu" v="Vörös-tenger kormányzóság"/>
+    <tag k="name:ja" v="紅海県"/>
     <tag k="name:ru" v="Красное Море"/>
-    <tag k="name:uk" v="мухафаза Червоне Море"/>
+    <tag k="name:uk" v="Мухафаза Червоне Море"/>
     <tag k="place" v="state"/>
   </node>
   <node id="2372927929" lat="29.9387816" lon="26.4894728">
@@ -28181,14 +28559,18 @@
     <tag k="place" v="state"/>
   </node>
   <node id="2372927930" lat="23.9802763" lon="27.7269966">
+    <tag k="alt_name:br" v="Al-Wadi al-Jadid"/>
     <tag k="name" v="الوادي الجديد"/>
     <tag k="name:ar" v="الوادي الجديد"/>
+    <tag k="name:br" v="Traoñienn Nevez"/>
     <tag k="name:de" v="Gouvernement Neues Tal"/>
     <tag k="name:en" v="New Valley Governorate"/>
     <tag k="name:fr" v="La Nouvelle-Vallée"/>
     <tag k="name:hu" v="Új völgyi kormányzóság"/>
+    <tag k="name:ja" v="ワーディー・ゲディード県"/>
     <tag k="name:ru" v="Новая Долина"/>
     <tag k="name:uk" v="Мухафаза Нова Долина"/>
+    <tag k="official_name:br" v="Gouarnerezh an Draoñienn Nevez"/>
     <tag k="place" v="state"/>
   </node>
   <node id="2373178213" lat="30.3671977" lon="32.1565462">
@@ -28205,6 +28587,7 @@
     <tag k="name:he" v="אסמאעיליה"/>
     <tag k="name:hr" v="Ismailija"/>
     <tag k="name:hu" v="Iszmáilita kormányzóság"/>
+    <tag k="name:ja" v="イスマイリア県"/>
     <tag k="name:la" v="Ismailia"/>
     <tag k="name:pl" v="Ismailia"/>
     <tag k="name:ru" v="Исмаилия"/>
@@ -28232,6 +28615,7 @@
   <node id="2452912060" lat="55.6255780" lon="37.6063916">
     <tag k="int_name" v="Moscow"/>
     <tag k="name" v="Москва"/>
+    <tag k="name:br" v="Moskov"/>
     <tag k="name:ca" v="Moscou"/>
     <tag k="name:de" v="Moskau"/>
     <tag k="name:en" v="Moscow"/>
@@ -28255,6 +28639,21 @@
     <tag k="ref:en" v="MSK"/>
     <tag k="wikidata" v="Q649"/>
     <tag k="wikipedia" v="ru:Москва"/>
+  </node>
+  <node id="2465651751" lat="19.6665358" lon="10.5443685">
+    <tag k="name" v="ⴰⴳⴰⴷⴻⵣ"/>
+    <tag k="name:ar" v="أغاديس"/>
+    <tag k="name:en" v="Agadez Region"/>
+    <tag k="name:fr" v="Agadez"/>
+    <tag k="name:ko" v="아가데즈"/>
+    <tag k="name:ru" v="Агадес"/>
+    <tag k="name:uk" v="Агадес"/>
+    <tag k="official_name:ar" v="منطقة أغاديس"/>
+    <tag k="place" v="state"/>
+    <tag k="population" v="481982"/>
+    <tag k="wikidata" v="Q389944"/>
+    <tag k="wikipedia" v="fr:Agadez (région)"/>
+    <tag k="wikipedia:ar" v="منطقة أغاديس"/>
   </node>
   <node id="2465651752" lat="15.6714814" lon="13.1735642">
     <tag k="name" v="Diffa"/>
@@ -28308,6 +28707,7 @@
     <tag k="name:hi" v="गोर्नो-बदख्शान स्वायत्त क्षेत्र"/>
     <tag k="name:hu" v="Badahsán"/>
     <tag k="name:ja" v="ゴルノ・バダフシャン自治州"/>
+    <tag k="name:pl" v="Górskobadachszański Wilajet Autonomiczny"/>
     <tag k="name:ru" v="Горно-Бадахшанская автономная область"/>
     <tag k="name:short" v="GBAO"/>
     <tag k="name:tg" v="Вилояти Мухтори Кӯҳистони Бадахшон"/>
@@ -28322,6 +28722,7 @@
     <tag k="name:ar" v="ولاية الصغد"/>
     <tag k="name:en" v="Sughd Province"/>
     <tag k="name:fa" v="ولایت سغد"/>
+    <tag k="name:hi" v="सुग़्द"/>
     <tag k="name:ja" v="ソグド"/>
     <tag k="name:ru" v="Согдийская область"/>
     <tag k="name:short" v="Sughd"/>
@@ -28340,6 +28741,7 @@
     <tag k="name:fa" v="ولایت سغد"/>
     <tag k="name:hi" v="सुग़्द प्रान्त"/>
     <tag k="name:ja" v="ソグド"/>
+    <tag k="name:pl" v="Wilajet sogdyjski"/>
     <tag k="name:ru" v="Согдийская область"/>
     <tag k="name:short" v="Sughd"/>
     <tag k="name:tg" v="Вилояти Суғд"/>
@@ -28356,6 +28758,7 @@
     <tag k="name:fa" v="ولایت ختلان"/>
     <tag k="name:hi" v="खत्लान"/>
     <tag k="name:ja" v="ハトロン州"/>
+    <tag k="name:pl" v="Wilajet chatloński"/>
     <tag k="name:pnb" v="صوبہ ختلان"/>
     <tag k="name:ru" v="Хатлонская область"/>
     <tag k="name:tg" v="Вилояти Хатлон"/>
@@ -28373,6 +28776,7 @@
     <tag k="name:fa" v="ناحیه های تابع جمهوری"/>
     <tag k="name:hi" v="रिपब्लिकन अधीनता के जिले"/>
     <tag k="name:ja" v="共和国直轄地"/>
+    <tag k="name:pl" v="Rejony administrowane centralnie"/>
     <tag k="name:ru" v="Районы республиканского подчинения"/>
     <tag k="name:short" v="RRP"/>
     <tag k="name:tg" v="Ноҳияҳои тобеи ҷумҳурӣ"/>
@@ -28586,7 +28990,6 @@
     <tag k="wikipedia" v="pt:Amazonas"/>
   </node>
   <node id="2614275264" lat="-15.7754462" lon="-47.7970891">
-    <tag k="is_in:country" v="Brazil"/>
     <tag k="name" v="Distrito Federal"/>
     <tag k="name:ar" v="القطاع الفدرالي"/>
     <tag k="name:be" v="Федэральная акруга"/>
@@ -28663,6 +29066,7 @@
     <tag k="name:fa" v="ولز"/>
     <tag k="name:fi" v="Wales"/>
     <tag k="name:fr" v="Pays de Galles"/>
+    <tag k="name:fur" v="Gales"/>
     <tag k="name:ga" v="An Bhreatain Bheag"/>
     <tag k="name:gd" v="A' Chuimrigh"/>
     <tag k="name:gv" v="Bretyn"/>
@@ -28678,12 +29082,15 @@
     <tag k="name:nl" v="Wales"/>
     <tag k="name:pl" v="Walia"/>
     <tag k="name:ru" v="Уэльс"/>
+    <tag k="name:sr" v="Велс"/>
     <tag k="name:sv" v="Wales"/>
+    <tag k="name:tk" v="Uels"/>
     <tag k="name:tok" v="ma Kinla"/>
     <tag k="name:tr" v="Galler"/>
     <tag k="name:tzl" v="Vialsa"/>
     <tag k="name:uk" v="Уельс"/>
     <tag k="name:vo" v="Velsän"/>
+    <tag k="name:wal" v="Weelse"/>
     <tag k="name:zh" v="威尔士;威爾斯"/>
     <tag k="name:zh-Hans" v="威尔士"/>
     <tag k="name:zh-Hant" v="威爾斯"/>
@@ -29015,8 +29422,10 @@
   <node id="2661484221" lat="5.8101532" lon="0.0995242">
     <tag k="admin_level" v="4"/>
     <tag k="name" v="Greater Accra Region"/>
+    <tag k="name:br" v="Rannvro Accra Veur"/>
     <tag k="name:de" v="Groß-Accra Region"/>
     <tag k="name:en" v="Greater Accra Region"/>
+    <tag k="name:fr" v="Région du Grand Accra"/>
     <tag k="name:ru" v="Большая Аккра"/>
     <tag k="name:uk" v="Велика Аккра"/>
     <tag k="place" v="state"/>
@@ -29027,6 +29436,7 @@
     <tag k="admin_level" v="4"/>
     <tag k="name" v="Northern Region"/>
     <tag k="name:ar" v="الإقليم الشمالي"/>
+    <tag k="name:br" v="Rannvro an Norzh"/>
     <tag k="name:de" v="Nordregion"/>
     <tag k="name:en" v="Northern Region"/>
     <tag k="name:es" v="Región Norte"/>
@@ -29037,9 +29447,22 @@
     <tag k="ref" v="NP"/>
     <tag k="state_code" v="NP"/>
   </node>
+  <node id="2661484223" lat="10.8070481" lon="-0.6870286">
+    <tag k="admin_level" v="4"/>
+    <tag k="name" v="Upper East Region"/>
+    <tag k="name:br" v="Rannvro ar Reter Uhelañ"/>
+    <tag k="name:de" v="Obere Ostregion"/>
+    <tag k="name:en" v="Upper East Region"/>
+    <tag k="name:ru" v="Верхний Восточный"/>
+    <tag k="name:uk" v="Верхня Східна"/>
+    <tag k="place" v="state"/>
+    <tag k="ref" v="UE"/>
+    <tag k="state_code" v="UE"/>
+  </node>
   <node id="2661484224" lat="10.3669525" lon="-2.0921426">
     <tag k="admin_level" v="4"/>
     <tag k="name" v="Upper West Region"/>
+    <tag k="name:br" v="Rannvro ar C'hornôg Uhelañ"/>
     <tag k="name:de" v="Obere Westregion"/>
     <tag k="name:en" v="Upper West Region"/>
     <tag k="name:ru" v="Верхний Западный"/>
@@ -29051,8 +29474,10 @@
   <node id="2661484225" lat="6.4468770" lon="-0.3770964">
     <tag k="admin_level" v="4"/>
     <tag k="name" v="Eastern Region"/>
+    <tag k="name:br" v="Rannvro ar Reter"/>
     <tag k="name:de" v="Ostregion"/>
     <tag k="name:en" v="Eastern Region"/>
+    <tag k="name:fr" v="Région Orientale"/>
     <tag k="name:ru" v="Восточный"/>
     <tag k="name:uk" v="Східна"/>
     <tag k="place" v="state"/>
@@ -29062,8 +29487,10 @@
   <node id="2661484233" lat="5.4261241" lon="-2.1286574">
     <tag k="admin_level" v="4"/>
     <tag k="name" v="Western Region"/>
+    <tag k="name:br" v="Rannvro ar C'hornôg"/>
     <tag k="name:de" v="Westregion"/>
     <tag k="name:en" v="Western Region"/>
+    <tag k="name:fr" v="Région Occidentale"/>
     <tag k="name:ru" v="Западный"/>
     <tag k="name:uk" v="Західна"/>
     <tag k="place" v="state"/>
@@ -29073,8 +29500,10 @@
   <node id="2661484234" lat="5.7244148" lon="-1.3761749">
     <tag k="admin_level" v="4"/>
     <tag k="name" v="Central Region"/>
+    <tag k="name:br" v="Rannvro Kreiz"/>
     <tag k="name:de" v="Zentralregion"/>
     <tag k="name:en" v="Central Region"/>
+    <tag k="name:fr" v="Région du Centre"/>
     <tag k="name:ru" v="Центральный"/>
     <tag k="name:uk" v="Центральна"/>
     <tag k="place" v="state"/>
@@ -29084,6 +29513,7 @@
   <node id="2661665004" lat="6.8003319" lon="-1.5188142">
     <tag k="admin_level" v="4"/>
     <tag k="name" v="Ashanti Region"/>
+    <tag k="name:br" v="Rannvro Ashanti"/>
     <tag k="name:en" v="Ashanti Region"/>
     <tag k="name:ru" v="Ашанти"/>
     <tag k="name:uk" v="Ашанті"/>
@@ -29094,13 +29524,16 @@
   <node id="2661665005" lat="7.6761791" lon="-2.4735401">
     <tag k="admin_level" v="4"/>
     <tag k="name" v="Bono Region"/>
+    <tag k="name:br" v="Rannvro Bono"/>
     <tag k="name:en" v="Bono Region"/>
     <tag k="place" v="state"/>
   </node>
   <node id="2661665006" lat="6.5348624" lon="0.4556055">
     <tag k="admin_level" v="4"/>
     <tag k="name" v="Volta Region"/>
+    <tag k="name:br" v="Rannvro Volta"/>
     <tag k="name:en" v="Volta Region"/>
+    <tag k="name:fr" v="Région Volta"/>
     <tag k="name:ru" v="Вольта"/>
     <tag k="name:uk" v="Вольта"/>
     <tag k="place" v="state"/>
@@ -29263,6 +29696,7 @@
     <tag k="gns:dsg" v="ADM1"/>
     <tag k="name" v="East Darfur State ولاية شرق دارفور"/>
     <tag k="name:ar" v="ولاية شرق دارفور"/>
+    <tag k="name:br" v="Reter Darfour"/>
     <tag k="name:de" v="Ost-Darfur"/>
     <tag k="name:en" v="East Darfur State"/>
     <tag k="name:es" v="Darfur del Este"/>
@@ -29272,6 +29706,7 @@
     <tag k="name:ru" v="Восточный Дарфур"/>
     <tag k="name:sr" v="источни Дарфур"/>
     <tag k="name:uk" v="Східний Дарфур"/>
+    <tag k="official_name:br" v="Stad Reter Darfour"/>
     <tag k="place" v="state"/>
     <tag k="ref" v="DE"/>
     <tag k="state_code" v="DE"/>
@@ -29628,6 +30063,27 @@
     <tag k="place" v="state"/>
     <tag k="ref" v="MC"/>
     <tag k="state_code" v="MC"/>
+  </node>
+  <node id="2703796567" lat="51.0377778" lon="4.2405556">
+    <tag k="description" v="label node of Flanders"/>
+    <tag k="name" v="Vlaanderen"/>
+    <tag k="name:ar" v="فلاندر"/>
+    <tag k="name:br" v="Flandrez"/>
+    <tag k="name:cy" v="Fflandrys"/>
+    <tag k="name:de" v="Flandern"/>
+    <tag k="name:en" v="Flanders"/>
+    <tag k="name:es" v="Flandes"/>
+    <tag k="name:fa" v="فلاندر"/>
+    <tag k="name:fr" v="Flandre"/>
+    <tag k="name:it" v="Fiandre"/>
+    <tag k="name:nl" v="Vlaanderen"/>
+    <tag k="name:ru" v="Фландрия"/>
+    <tag k="name:tr" v="Flandre"/>
+    <tag k="name:uk" v="Фландрія"/>
+    <tag k="name:zh" v="弗拉芒大區"/>
+    <tag k="place" v="state"/>
+    <tag k="wikidata" v="Q234"/>
+    <tag k="wikipedia" v="en:Flanders"/>
   </node>
   <node id="2704047215" lat="47.8626460" lon="101.0316283">
     <tag k="name" v="Архангай ᠠᠷᠤ ᠬᠠᠩᠭ᠋ᠠᠢ"/>
@@ -30966,8 +31422,7 @@
     <tag k="place" v="state"/>
     <tag k="ref" v="NI"/>
     <tag k="state_code" v="NI"/>
-    <tag k="wikidata" v="Q189352"/>
-    <tag k="wikipedia" v="ar:نينوى (محافظة)"/>
+    <tag k="wikipedia" v="ar:نينوى(محافظة)"/>
     <tag k="wikipedia:ar" v="نينوى (محافظة)"/>
     <tag k="wikipedia:arc" v="ܢܝܢܘܐ (ܗܘܦܪܟܝܐ)"/>
   </node>
@@ -31189,7 +31644,7 @@
     <tag k="name:fr" v="Arta"/>
     <tag k="place" v="state"/>
   </node>
-  <node id="3140016266" lat="45.7684014" lon="39.0261044">
+  <node id="3140016266" lat="45.7682027" lon="39.0258102">
     <tag k="admin_level" v="4"/>
     <tag k="name" v="Краснодарский край"/>
     <tag k="name:af" v="Krasnodar-krai"/>
@@ -31277,184 +31732,6 @@
     <tag k="source:population" v="https://tjj.cq.gov.cn/zwgk_233/fdzdgknr/tjxx/sjjd_55469/202105/t20210513_9277501.html"/>
     <tag k="wikidata" v="Q11725"/>
     <tag k="wikipedia" v="en:Chongqing"/>
-  </node>
-  <node id="3171874991" lat="40.1906320" lon="116.4121440">
-    <tag k="alt_name:cs" v="Pej-ťing"/>
-    <tag k="alt_name:en" v="Peking;Peiping Municipality;Pei-p'ing Shih;Peking Municipality;Peiping Municipal Administrative Area"/>
-    <tag k="name" v="北京市"/>
-    <tag k="name:af" v="Beijing"/>
-    <tag k="name:am" v="ቤዪጂንግ"/>
-    <tag k="name:an" v="Pequín"/>
-    <tag k="name:ang" v="Beȝcinȝ"/>
-    <tag k="name:ar" v="بكين"/>
-    <tag k="name:arz" v="بيكين"/>
-    <tag k="name:ast" v="Beixín"/>
-    <tag k="name:ay" v="Pekin'"/>
-    <tag k="name:az" v="Pekin"/>
-    <tag k="name:ba" v="Пекин"/>
-    <tag k="name:bat" v="Pekėns"/>
-    <tag k="name:bcl" v="Beijing"/>
-    <tag k="name:be" v="Пэкін"/>
-    <tag k="name:bg" v="Пекин"/>
-    <tag k="name:bjn" v="Péycing"/>
-    <tag k="name:bn" v="বেইজিং"/>
-    <tag k="name:bo" v="པེ་ཅིང་གྲོང་ཁྱེར།"/>
-    <tag k="name:bpy" v="বেইজিং"/>
-    <tag k="name:br" v="Beijing"/>
-    <tag k="name:ca" v="Pequín"/>
-    <tag k="name:cbk" v="Pekín"/>
-    <tag k="name:cdo" v="Báe̤k-gĭng"/>
-    <tag k="name:ceb" v="Beijing"/>
-    <tag k="name:ckb" v="پێکەن"/>
-    <tag k="name:cnr" v="Peking"/>
-    <tag k="name:crh" v="Pekin"/>
-    <tag k="name:cs" v="Peking"/>
-    <tag k="name:cv" v="Пекин"/>
-    <tag k="name:cy" v="Beijing"/>
-    <tag k="name:da" v="Beijing"/>
-    <tag k="name:de" v="Peking"/>
-    <tag k="name:dv" v="ބީޖިންގ"/>
-    <tag k="name:el" v="Πεκίνο"/>
-    <tag k="name:en" v="Beijing"/>
-    <tag k="name:eo" v="Pekino"/>
-    <tag k="name:es" v="Pekín"/>
-    <tag k="name:et" v="Peking"/>
-    <tag k="name:eu" v="Pekin"/>
-    <tag k="name:ext" v="Pequín"/>
-    <tag k="name:fa" v="پکن"/>
-    <tag k="name:fi" v="Peking"/>
-    <tag k="name:fo" v="Beijing"/>
-    <tag k="name:fr" v="Pékin"/>
-    <tag k="name:frp" v="Pèquin"/>
-    <tag k="name:ga" v="Béising"/>
-    <tag k="name:gan" v="北京"/>
-    <tag k="name:gd" v="Beijing"/>
-    <tag k="name:gl" v="Pequín - 北京"/>
-    <tag k="name:gn" v="Pekĩ"/>
-    <tag k="name:gu" v="બેઇજિંગ"/>
-    <tag k="name:gv" v="Beijing"/>
-    <tag k="name:hak" v="Pet-kîn"/>
-    <tag k="name:haw" v="Beijing"/>
-    <tag k="name:he" v="בייג'ין"/>
-    <tag k="name:hi" v="बीजिंग"/>
-    <tag k="name:hif" v="Beijing"/>
-    <tag k="name:hr" v="Peking"/>
-    <tag k="name:ht" v="Peken"/>
-    <tag k="name:hu" v="Peking"/>
-    <tag k="name:hy" v="Պեկին"/>
-    <tag k="name:ia" v="Beijing"/>
-    <tag k="name:id" v="Beijing"/>
-    <tag k="name:ilo" v="Beijing"/>
-    <tag k="name:io" v="Beijing"/>
-    <tag k="name:is" v="Beijing"/>
-    <tag k="name:it" v="Pechino"/>
-    <tag k="name:ja" v="北京市"/>
-    <tag k="name:jbo" v="beidjin"/>
-    <tag k="name:jv" v="Beijing"/>
-    <tag k="name:ka" v="პეკინი"/>
-    <tag k="name:kab" v="Pekin"/>
-    <tag k="name:kk" v="Бейжің"/>
-    <tag k="name:kl" v="Beijing"/>
-    <tag k="name:km" v="ប៉េកាំង"/>
-    <tag k="name:kn" v="ಬೀಜಿಂಗ್"/>
-    <tag k="name:ko" v="베이징시"/>
-    <tag k="name:ku" v="Pekîn"/>
-    <tag k="name:kv" v="Пекин"/>
-    <tag k="name:kw" v="Beijing"/>
-    <tag k="name:la" v="Pechinum"/>
-    <tag k="name:lez" v="Пекин"/>
-    <tag k="name:lij" v="Pechin"/>
-    <tag k="name:lmo" v="Pechin"/>
-    <tag k="name:lo" v="ປັກກິ່ງ"/>
-    <tag k="name:lt" v="Pekinas"/>
-    <tag k="name:lv" v="Pekina"/>
-    <tag k="name:lzh" v="北京市"/>
-    <tag k="name:mg" v="Beijing"/>
-    <tag k="name:mhr" v="Пекин"/>
-    <tag k="name:mi" v="Beijing"/>
-    <tag k="name:mk" v="Пекинг"/>
-    <tag k="name:ml" v="ബെയ്‌ജിങ്ങ്"/>
-    <tag k="name:mn" v="Бээжин"/>
-    <tag k="name:mr" v="ीजिंग"/>
-    <tag k="name:ms" v="Beijing"/>
-    <tag k="name:mwl" v="Pequin"/>
-    <tag k="name:my" v="ပေကျင်းမြို့"/>
-    <tag k="name:mzn" v="پکن"/>
-    <tag k="name:na" v="Beijing"/>
-    <tag k="name:nah" v="Pequin"/>
-    <tag k="name:nan" v="Pak-kiaⁿ-chhī"/>
-    <tag k="name:ne" v="बेइजिङ"/>
-    <tag k="name:nl" v="Peking"/>
-    <tag k="name:nn" v="Beijing"/>
-    <tag k="name:no" v="Beijing"/>
-    <tag k="name:nov" v="Beyjing"/>
-    <tag k="name:nrm" v="Péqùin"/>
-    <tag k="name:oc" v="Pequin"/>
-    <tag k="name:os" v="Пекин"/>
-    <tag k="name:pa" v="ਬੀਜਿੰਗ"/>
-    <tag k="name:pam" v="Beijing"/>
-    <tag k="name:pap" v="Bejing"/>
-    <tag k="name:pdc" v="Beijing"/>
-    <tag k="name:pl" v="Pekin"/>
-    <tag k="name:pms" v="Pechin"/>
-    <tag k="name:pnb" v="بیجنگ"/>
-    <tag k="name:ps" v="بېجنګ"/>
-    <tag k="name:pt" v="Pequim"/>
-    <tag k="name:qu" v="Pikkin"/>
-    <tag k="name:ro" v="Beijing"/>
-    <tag k="name:roa" v="Pechine"/>
-    <tag k="name:ru" v="Пекин"/>
-    <tag k="name:rue" v="Пекінґ"/>
-    <tag k="name:sa" v="बीजिङ्ग्"/>
-    <tag k="name:sah" v="Пекин"/>
-    <tag k="name:sc" v="Beijing"/>
-    <tag k="name:scn" v="Pechinu"/>
-    <tag k="name:sco" v="Beijing"/>
-    <tag k="name:si" v="බෙයිජිං"/>
-    <tag k="name:sk" v="Peking"/>
-    <tag k="name:sl" v="Peking"/>
-    <tag k="name:so" v="Beijing"/>
-    <tag k="name:sq" v="Pekini"/>
-    <tag k="name:sr" v="Пекинг"/>
-    <tag k="name:srn" v="Beijing"/>
-    <tag k="name:su" v="Beijing"/>
-    <tag k="name:sv" v="Beijing"/>
-    <tag k="name:sw" v="Beijing"/>
-    <tag k="name:szl" v="Bejdżing"/>
-    <tag k="name:ta" v="பெய்ஜிங்"/>
-    <tag k="name:te" v="బీజింగ్"/>
-    <tag k="name:tg" v="Пекин"/>
-    <tag k="name:th" v="ปักกิ่ง"/>
-    <tag k="name:tk" v="Pekin"/>
-    <tag k="name:tl" v="Beijing"/>
-    <tag k="name:tpi" v="Beijing"/>
-    <tag k="name:tr" v="Pekin"/>
-    <tag k="name:tt" v="Пекин"/>
-    <tag k="name:ug" v="بېيجىڭ شەھىرى"/>
-    <tag k="name:uk" v="Пекін"/>
-    <tag k="name:ur" v="بیجنگ"/>
-    <tag k="name:uz" v="Pekin"/>
-    <tag k="name:vi" v="Bắc Kinh"/>
-    <tag k="name:war" v="Beijing"/>
-    <tag k="name:wuu" v="北京市"/>
-    <tag k="name:xal" v="Бәәҗң балһсн"/>
-    <tag k="name:xmf" v="პეკინი"/>
-    <tag k="name:yi" v="בייזשינג"/>
-    <tag k="name:yo" v="Beijing"/>
-    <tag k="name:yue" v="北京市"/>
-    <tag k="name:za" v="Baekging"/>
-    <tag k="name:zh" v="北京市"/>
-    <tag k="name:zh-Latn-pinyin" v="Běijīng shì"/>
-    <tag k="old_name" v="北平"/>
-    <tag k="old_name:ku" v="Komara Gel a Çînê"/>
-    <tag k="old_name:vi" v="Bắc Bình"/>
-    <tag k="place" v="state"/>
-    <tag k="ref" v="京"/>
-    <tag k="ref:en" v="BJ"/>
-    <tag k="ref:vi" v="Kinh"/>
-    <tag k="source" v="GNS"/>
-    <tag k="wikidata" v="Q956"/>
-    <tag k="wikipedia" v="en:Beijing"/>
   </node>
   <node id="3171897223" lat="39.3032619" lon="117.4163641">
     <tag k="name" v="天津"/>
@@ -31599,7 +31876,9 @@
     <tag k="name:ru" v="Кантабрия"/>
     <tag k="name:sk" v="Kantábria"/>
     <tag k="name:uk" v="Кантабрія"/>
+    <tag k="official_name:br" v="Proviñs Kantabria"/>
     <tag k="old_name" v="Provincia de Santander"/>
+    <tag k="old_name:br" v="Proviñs Santander"/>
     <tag k="place" v="state"/>
     <tag k="population" v="584507"/>
     <tag k="population:date" v="2021"/>
@@ -31609,12 +31888,14 @@
     <tag k="wikipedia" v="es:Cantabria"/>
   </node>
   <node id="3513471346" lat="42.9911816" lon="-2.5543023">
+    <tag k="alt_name:br" v="Bro-Vask"/>
     <tag k="alt_name:eo" v="Eŭskujo"/>
     <tag k="alt_name:eu" v="Euskal Autonomia Erkidegoa"/>
     <tag k="name" v="Euskadi"/>
     <tag k="name:ar" v="إقليم الباسك"/>
     <tag k="name:ast" v="País Vascu"/>
     <tag k="name:be" v="Краіна Баскаў"/>
+    <tag k="name:br" v="Euskadi"/>
     <tag k="name:ca" v="País Basc"/>
     <tag k="name:de" v="Baskenland"/>
     <tag k="name:en" v="Basque Country"/>
@@ -31622,6 +31903,7 @@
     <tag k="name:es" v="País Vasco"/>
     <tag k="name:eu" v="Euskadi"/>
     <tag k="name:fr" v="Pays Basque"/>
+    <tag k="name:fur" v="Paîs Basc"/>
     <tag k="name:fy" v="Baskelân"/>
     <tag k="name:hr" v="Baskija"/>
     <tag k="name:hu" v="Baszkföld"/>
@@ -31637,6 +31919,7 @@
     <tag k="name:tok" v="ma Esuka"/>
     <tag k="name:tzl" v="Euscadì"/>
     <tag k="name:uk" v="Країна Басків"/>
+    <tag k="official_name:br" v="Kumuniezh Emren Euskadi"/>
     <tag k="place" v="state"/>
     <tag k="population" v="2220504"/>
     <tag k="population:date" v="2020"/>
@@ -31792,41 +32075,41 @@
   <node id="3804891449" lat="29.8556443" lon="90.8749807">
     <tag k="name" v="西藏自治区 བོད་རང་སྐྱོང་ལྗོངས།"/>
     <tag k="name:ace" v="Tibèt"/>
-    <tag k="name:af" v="Outonome Gewes Tibet"/>
+    <tag k="name:af" v="Outonome Gewes Xizang"/>
     <tag k="name:ar" v="منطقة التبت ذاتية الحكم"/>
     <tag k="name:as" v="তিব্বত স্বায়ত্তশাসিত অঞ্চল"/>
-    <tag k="name:ast" v="Rexón Autónoma del Tíbet"/>
-    <tag k="name:az" v="Tibet Muxtar Vilayəti"/>
-    <tag k="name:bar" v="Tibet"/>
-    <tag k="name:bcl" v="Autonomong Rona kan Tibet"/>
+    <tag k="name:ast" v="Rexón Autónoma del Xizang"/>
+    <tag k="name:az" v="Xizang Muxtar Vilayəti"/>
+    <tag k="name:bar" v="Xizang"/>
+    <tag k="name:bcl" v="Autonomong Rona kan Xizang"/>
     <tag k="name:be" v="Тыбецкі аўтаномны раён"/>
     <tag k="name:bg" v="Тибетски автономен регион"/>
     <tag k="name:bn" v="তিব্বত স্বায়ত্তশাসিত অঞ্চল"/>
     <tag k="name:bo" v="བོད་རང་སྐྱོང་ལྗོངས།"/>
-    <tag k="name:br" v="Rannvro Emren Tibet"/>
-    <tag k="name:bs" v="Autonomno Područje Tibet"/>
-    <tag k="name:ca" v="Regió Autònoma del Tibet"/>
+    <tag k="name:br" v="Rannvro Emren Xizang"/>
+    <tag k="name:bs" v="Autonomno Područje Xizang"/>
+    <tag k="name:ca" v="Regió Autònoma del Xizang"/>
     <tag k="name:cdo" v="Să̤-câung"/>
-    <tag k="name:ceb" v="Tibet Autonomous Region"/>
-    <tag k="name:crh" v="Tibet Muhtar Rayonı"/>
+    <tag k="name:ceb" v="Xizang Autonomous Region"/>
+    <tag k="name:crh" v="Xizang Muhtar Rayonı"/>
     <tag k="name:cs" v="Tibetská autonomní oblast"/>
-    <tag k="name:cy" v="Rhanbarth Ymreolaethol Tibet"/>
-    <tag k="name:da" v="Autonom Region Tibet"/>
-    <tag k="name:de" v="Autonomes Gebiet Tibet"/>
+    <tag k="name:cy" v="Rhanbarth Ymreolaethol Xizang"/>
+    <tag k="name:da" v="Autonom Region Xizang"/>
+    <tag k="name:de" v="Autonomes Gebiet Xizang"/>
     <tag k="name:dz" v="བོད།"/>
     <tag k="name:el" v="Αυτόνομη Περιφέρεια του Θιβέτ"/>
-    <tag k="name:en" v="Tibet Autonomous Region"/>
+    <tag k="name:en" v="Xizang Autonomous Region"/>
     <tag k="name:eo" v="Tibeto"/>
-    <tag k="name:es" v="Región Autónoma del Tíbet"/>
+    <tag k="name:es" v="Región Autónoma del Xizang"/>
     <tag k="name:et" v="Tiibeti autonoomne piirkond"/>
     <tag k="name:eu" v="Tibeteko eskualde autonomoa"/>
     <tag k="name:fa" v="منطقه خودمختار تبت"/>
     <tag k="name:fi" v="Tiibetin autonominen alue"/>
-    <tag k="name:fr" v="Région autonome du Tibet"/>
-    <tag k="name:frr" v="Autonoom Regiuun Tiibet"/>
+    <tag k="name:fr" v="Région autonome du Xizang"/>
+    <tag k="name:frr" v="Autonoom Regiuun Xizang"/>
     <tag k="name:gan" v="西藏"/>
-    <tag k="name:gl" v="Rexión Autónoma do Tíbet"/>
-    <tag k="name:gv" v="Tibet"/>
+    <tag k="name:gl" v="Rexión Autónoma do Xizang"/>
+    <tag k="name:gv" v="Xizang"/>
     <tag k="name:hak" v="Sî-chhòng Chhṳ-chhṳ-khî"/>
     <tag k="name:he" v="המחוז האוטונומי הטיבטי"/>
     <tag k="name:hi" v="तिब्बत स्वायत्त क्षेत्र"/>
@@ -31834,66 +32117,66 @@
     <tag k="name:hu" v="Tibeti Autonóm Terület"/>
     <tag k="name:hy" v="Տիբեթի ինքնավար շրջան"/>
     <tag k="name:ia" v="Xizang"/>
-    <tag k="name:id" v="Tibet"/>
-    <tag k="name:is" v="Tíbet"/>
-    <tag k="name:it" v="Regione Autonoma del Tibet"/>
+    <tag k="name:id" v="Xizang"/>
+    <tag k="name:is" v="Xizang"/>
+    <tag k="name:it" v="Regione Autonoma del Xizang"/>
     <tag k="name:ja" v="チベット自治区"/>
     <tag k="name:ka" v="ტიბეტის ავტონომიური რეგიონი"/>
     <tag k="name:kg" v="Xizang"/>
     <tag k="name:ko" v="티베트 자치구"/>
     <tag k="name:ku" v="Tîbet"/>
     <tag k="name:ky" v="Тибет Өзэркин Району"/>
-    <tag k="name:lmo" v="Tibet (regiun autonoma)"/>
+    <tag k="name:lmo" v="Xizang (regiun autonoma)"/>
     <tag k="name:lt" v="Tibeto autonominis regionas"/>
     <tag k="name:lv" v="Tibetas autonomais reģions"/>
     <tag k="name:ml" v="തിബെത്ത് സ്വയംഭരണപ്രദേശം"/>
     <tag k="name:mn" v="Төвөдийн өөртөө засах орон"/>
     <tag k="name:mr" v="तिबेट स्वायत्त प्रदेश"/>
-    <tag k="name:ms" v="Kawasan Autonomi Tibet"/>
+    <tag k="name:ms" v="Kawasan Autonomi Xizang"/>
     <tag k="name:nan" v="Se-chōng Chū-tī-khu"/>
     <tag k="name:new" v="सँदेय्"/>
     <tag k="name:nl" v="Tibetaanse Autonome Regio"/>
-    <tag k="name:nn" v="Den autonome regionen Tibet"/>
-    <tag k="name:no" v="Den autonome region Tibet"/>
-    <tag k="name:oc" v="Region autonòma de Tibet"/>
+    <tag k="name:nn" v="Den autonome regionen Xizang"/>
+    <tag k="name:no" v="Den autonome region Xizang"/>
+    <tag k="name:oc" v="Region autonòma de Xizang"/>
     <tag k="name:os" v="Тибеты автономон район"/>
     <tag k="name:pa" v="ਤਿੱਬਤ ਖ਼ੁਦਮੁਖ਼ਤਿਆਰ ਸੂਬਾ"/>
     <tag k="name:pl" v="Tybetański Region Autonomiczny"/>
     <tag k="name:pnb" v="تبت"/>
     <tag k="name:pt" v="Região Autônoma do Tibete"/>
-    <tag k="name:qu" v="Tibet Awtunumu Suyu"/>
-    <tag k="name:ro" v="Regiunea autonomă Tibet"/>
+    <tag k="name:qu" v="Xizang Awtunumu Suyu"/>
+    <tag k="name:ro" v="Regiunea autonomă Xizang"/>
     <tag k="name:ru" v="Тибетский автономный район"/>
-    <tag k="name:sco" v="Tibet Autonomous Region"/>
-    <tag k="name:sh" v="Tibet"/>
-    <tag k="name:sk" v="Tibet"/>
-    <tag k="name:sl" v="Avtonomna regija Tibet"/>
+    <tag k="name:sco" v="Xizang Autonomous Region"/>
+    <tag k="name:sh" v="Xizang"/>
+    <tag k="name:sk" v="Xizang"/>
+    <tag k="name:sl" v="Avtonomna regija Xizang"/>
     <tag k="name:sq" v="Tibeti"/>
     <tag k="name:sr" v="Тибет"/>
-    <tag k="name:su" v="Tibét"/>
-    <tag k="name:sv" v="Autonoma regionen Tibet"/>
+    <tag k="name:su" v="Xizang"/>
+    <tag k="name:sv" v="Autonoma regionen Xizang"/>
     <tag k="name:ta" v="திபெத் தன்னாட்சிப் பகுதி"/>
     <tag k="name:te" v="టిబెట్ స్వాధికార ప్రాంతం"/>
     <tag k="name:tg" v="Тибет (Чин)"/>
     <tag k="name:th" v="เขตปกครองตนเองทิเบต"/>
-    <tag k="name:tl" v="Awtonomong Rehiyon ng Tibet"/>
+    <tag k="name:tl" v="Awtonomong Rehiyon ng Xizang"/>
     <tag k="name:tr" v="Tibet Özerk Bölgesi"/>
     <tag k="name:ug" v="شىزاڭ ئاپتونوم رايونى"/>
     <tag k="name:uk" v="Тибетський автономний район"/>
     <tag k="name:ur" v="تبت خود مختار علاقہ"/>
-    <tag k="name:uz" v="Tibet muxtor rayoni"/>
+    <tag k="name:uz" v="Xizang muxtor rayoni"/>
     <tag k="name:vec" v="Tibet"/>
     <tag k="name:vi" v="Tây Tạng"/>
-    <tag k="name:war" v="Naglulugaring nga Rehiyon han Tibet"/>
+    <tag k="name:war" v="Naglulugaring nga Rehiyon han Xizang"/>
     <tag k="name:wuu" v="西藏"/>
     <tag k="name:xmf" v="ტიბეტიშ ავტონომიური რეგიონი"/>
-    <tag k="name:yo" v="Agbègbè Aladawa Tibet"/>
+    <tag k="name:yo" v="Agbègbè Aladawa Xizang"/>
     <tag k="name:yue" v="西藏自治區"/>
     <tag k="name:za" v="Sihcang Swcigih"/>
     <tag k="name:zh" v="西藏自治区"/>
     <tag k="name:zh-Hans" v="西藏自治区"/>
     <tag k="name:zh-Hant" v="西藏自治區"/>
-    <tag k="official_name:en" v="Tibet Autonomous Region"/>
+    <tag k="official_name:en" v="Xizang Autonomous Region"/>
     <tag k="official_name:hi" v="तिब्बत बौद्ध देश"/>
     <tag k="official_name:zh" v="西藏自治区"/>
     <tag k="place" v="state"/>
@@ -31979,22 +32262,27 @@
     <tag k="name:br" v="Normandi"/>
     <tag k="name:ca" v="Normandia"/>
     <tag k="name:cs" v="Normandie"/>
+    <tag k="name:da" v="Normandiet"/>
     <tag k="name:de" v="Normandie"/>
     <tag k="name:en" v="Normandy"/>
     <tag k="name:eo" v="Normandio"/>
     <tag k="name:es" v="Normandía"/>
-    <tag k="name:et" v="Ülem-Normandia"/>
+    <tag k="name:et" v="Normandia"/>
     <tag k="name:eu" v="Normandia"/>
     <tag k="name:fa" v="نرماندی"/>
     <tag k="name:fr" v="Normandie"/>
-    <tag k="name:he" v="נורמנדי עילית"/>
+    <tag k="name:he" v="נורמנדי"/>
     <tag k="name:hu" v="Normandia"/>
-    <tag k="name:it" v="Alta Normandia"/>
-    <tag k="name:ja" v="オート＝ノルマンディー"/>
+    <tag k="name:is" v="Normandí"/>
+    <tag k="name:it" v="Normandia"/>
+    <tag k="name:ja" v="ノルマンディー"/>
     <tag k="name:la" v="Normannia"/>
     <tag k="name:lfn" v="Normandia"/>
+    <tag k="name:li" v="Normandië"/>
     <tag k="name:nl" v="Normandië"/>
+    <tag k="name:nrf" v="Normaundie"/>
     <tag k="name:oc" v="Normandia"/>
+    <tag k="name:pcd" v="Neurmindie"/>
     <tag k="name:pl" v="Normandia"/>
     <tag k="name:pt" v="Normandia"/>
     <tag k="name:ro" v="Normandia"/>
@@ -32003,6 +32291,10 @@
     <tag k="name:tzl" v="Normandì"/>
     <tag k="name:uk" v="Нормандія"/>
     <tag k="name:ur" v="نورمینڈی"/>
+    <tag k="name:vls" v="Normandië"/>
+    <tag k="name:wa" v="Normandeye"/>
+    <tag k="name:zh-Hans" v="诺曼底"/>
+    <tag k="name:zh-Hant" v="諾曼底"/>
     <tag k="place" v="state"/>
     <tag k="population" v="3568476"/>
     <tag k="source:population" v="INSEE 2012"/>
@@ -32017,7 +32309,7 @@
     <tag k="name:br" v="Krec'hioù-Frañs"/>
     <tag k="name:ca" v="Alts de França"/>
     <tag k="name:de" v="Nordfrankreich"/>
-    <tag k="name:en" v="Upper France"/>
+    <tag k="name:en" v="Hauts-de-France"/>
     <tag k="name:es" v="Alta Francia"/>
     <tag k="name:eu" v="Frantzia Garaia"/>
     <tag k="name:fr" v="Hauts-de-France"/>
@@ -32063,11 +32355,10 @@
     <tag k="name" v="Grand Est"/>
     <tag k="name:ar" v="الشرق العظيم"/>
     <tag k="name:br" v="Reter-Meur"/>
-    <tag k="name:en" v="Greater East"/>
     <tag k="name:fa" v="گرانت است"/>
     <tag k="name:fr" v="Grand Est"/>
     <tag k="name:hu" v="Kelet-Franciaország"/>
-    <tag k="name:uk" v="Гранд-Ест"/>
+    <tag k="name:uk" v="Ґранд-Ест"/>
     <tag k="name:ur" v="گرایت است"/>
     <tag k="note" v="nouvelle région au 1/1/2016"/>
     <tag k="old_name" v="Alsace-Champagne-Ardenne-Lorraine"/>
@@ -32085,7 +32376,7 @@
     <tag k="name" v="Nouvelle-Aquitaine"/>
     <tag k="name:ar" v="آكيتين الجديدة"/>
     <tag k="name:br" v="Akitania Nevez"/>
-    <tag k="name:en" v="New Aquitania"/>
+    <tag k="name:fur" v="Gnove Aquitanie"/>
     <tag k="name:hu" v="Új-Aquitania"/>
     <tag k="name:ko" v="누벨아키텐"/>
     <tag k="name:oc" v="Aquitània Nòva"/>
@@ -32136,9 +32427,8 @@
     <tag k="name:ar" v="برغونية فرانش كونتيه"/>
     <tag k="name:br" v="Bourgogn-Frank-Kontelezh"/>
     <tag k="name:ca" v="Borgonya – Franc Comtat"/>
-    <tag k="name:de" v="Burgund und Freigrafschaft"/>
+    <tag k="name:de" v="Bourgogne-Franche-Comté"/>
     <tag k="name:el" v="Βουργουνδία-Φρανς-Κοντέ"/>
-    <tag k="name:en" v="Burgundy-Free County"/>
     <tag k="name:eu" v="Borgoina-Franche-Comté"/>
     <tag k="name:fr" v="Bourgogne-Franche-Comté"/>
     <tag k="name:hu" v="Burgundia–Franche-Comté"/>
@@ -32168,6 +32458,7 @@
     <tag k="name:en" v="Occitania"/>
     <tag k="name:eo" v="Okcitanio"/>
     <tag k="name:fa" v="اکسیتنی"/>
+    <tag k="name:fur" v="Ocitanie"/>
     <tag k="name:hu" v="Okcitánia"/>
     <tag k="name:uk" v="Окситанія"/>
     <tag k="name:ur" v="اوکیتانی"/>
@@ -32346,7 +32637,7 @@
     <tag k="name:pl" v="Limburgia"/>
     <tag k="name:ru" v="Лимбург"/>
     <tag k="name:tok" v="ma Linpu"/>
-    <tag k="name:uk" v="Лімбург"/>
+    <tag k="name:uk" v="Лімбурґ"/>
     <tag k="name:zh-Hans" v="林堡省"/>
     <tag k="name:zh-Hant" v="林堡省"/>
     <tag k="note" v="&quot;Nederlands&quot; is not part of the name, however you look at it! it's only a disambiguator"/>
@@ -32542,7 +32833,7 @@
     <tag k="name:pl" v="Geldria"/>
     <tag k="name:ru" v="Гелдерланд"/>
     <tag k="name:tok" v="ma Ketelan"/>
-    <tag k="name:uk" v="Гелдерланд"/>
+    <tag k="name:uk" v="Ґелдерланд"/>
     <tag k="name:zh-Hans" v="海尔德兰省"/>
     <tag k="name:zh-Hant" v="海爾德蘭省"/>
     <tag k="note:ISO3166-2" v="Gelderland is a subset (type Province) of the Kingdom of the Netherlands (ISO3166-1 country code NL)"/>
@@ -32584,8 +32875,8 @@
     <tag k="official_name" v="Overijssel"/>
     <tag k="operator" v="Provincie Overijssel"/>
     <tag k="place" v="state"/>
-    <tag k="population" v="1162406"/>
-    <tag k="population:date" v="2020-01-01"/>
+    <tag k="population" v="1195789"/>
+    <tag k="population:date" v="2025-01-01"/>
     <tag k="ref" v="OV"/>
     <tag k="source:population" v="CBS"/>
     <tag k="wikidata" v="Q773"/>
@@ -32692,7 +32983,7 @@
     <tag k="name:ru" v="Гронинген"/>
     <tag k="name:sr" v="Гронинген"/>
     <tag k="name:tok" v="ma Konine"/>
-    <tag k="name:uk" v="Гронінген"/>
+    <tag k="name:uk" v="Ґронінґен"/>
     <tag k="name:vls" v="Groniengn"/>
     <tag k="name:zh-Hans" v="格罗宁根省"/>
     <tag k="name:zh-Hant" v="格羅寧根省"/>
@@ -32709,10 +33000,12 @@
   </node>
   <node id="4312523253" lat="28.5306525" lon="-15.7464439">
     <tag k="alt_name" v="Islas Canarias"/>
+    <tag k="alt_name:br" v="Inizi Kanaria;Inizi Eürus;Inizi Wenvidik"/>
     <tag k="alt_name:es" v="Islas Canarias"/>
     <tag k="alt_name:fr" v="Canaries"/>
     <tag k="name" v="Canarias"/>
     <tag k="name:ar" v="جزر الكناري"/>
+    <tag k="name:br" v="Inizi Kanariez"/>
     <tag k="name:ca" v="Canàries"/>
     <tag k="name:chr" v="ᎧᎾᏈ ᎤᎦᏚᏛ"/>
     <tag k="name:de" v="Kanarische Inseln"/>
@@ -32731,6 +33024,7 @@
     <tag k="name:sk" v="Kanárske ostrovy"/>
     <tag k="name:sl" v="Kanarski otoki"/>
     <tag k="name:sv" v="Kanarieöarna"/>
+    <tag k="name:uk" v="Канарські острови"/>
     <tag k="name:vec" v="Ìzołe Canàrie"/>
     <tag k="official_name" v="Canarias"/>
     <tag k="place" v="state"/>
@@ -33054,6 +33348,7 @@
     <tag k="name:ja" v="カレン"/>
     <tag k="name:my" v="ကရင်ပြည်နယ်"/>
     <tag k="name:ru" v="Карен"/>
+    <tag k="name:th" v="กะเหรี่ยง"/>
     <tag k="name:zh" v="克伦邦"/>
     <tag k="name:zh-Hans" v="克伦邦"/>
     <tag k="name:zh-Hant" v="克倫邦"/>
@@ -33070,6 +33365,7 @@
     <tag k="name:en" v="Magway Region"/>
     <tag k="name:ja" v="マグウェ"/>
     <tag k="name:my" v="မကွေးတိုင်း"/>
+    <tag k="name:shn" v="ၸႄႈတိူင်းမၵူၺ်း"/>
     <tag k="name:zh-Hans" v="马圭省"/>
     <tag k="name:zh-Hant" v="馬圭省"/>
     <tag k="place" v="state"/>
@@ -33107,7 +33403,7 @@
     <tag k="wikidata" v="Q818742"/>
     <tag k="wikipedia" v="en:Mon State"/>
   </node>
-  <node id="4344756100" lat="19.5212991" lon="94.0072428">
+  <node id="4344756100" lat="19.5317229" lon="93.9966846">
     <tag k="ISO3166-2" v="MM-16"/>
     <tag k="admin_level" v="4"/>
     <tag k="name" v="ရခိုင်ပြည်နယ်"/>
@@ -33161,6 +33457,7 @@
     <tag k="name:ja" v="タニンダーリ"/>
     <tag k="name:my" v="တနင်္သာရီတိုင်း"/>
     <tag k="name:ru" v="Танинтайи"/>
+    <tag k="name:th" v="ตะนาวศรี"/>
     <tag k="name:zh" v="德林达依省"/>
     <tag k="place" v="state"/>
     <tag k="st_pcode_1" v="MMR006"/>
@@ -33367,6 +33664,7 @@
   <node id="4346249291" lat="-4.3196982" lon="15.3424196">
     <tag k="admin_level" v="4"/>
     <tag k="name" v="Kinshasa"/>
+    <tag k="name:ja" v="キンシャサ州"/>
     <tag k="place" v="state"/>
     <tag k="timezone" v="Africa/Kinshasa"/>
   </node>
@@ -33380,6 +33678,7 @@
     <tag k="name:fr" v="Kongo-Central"/>
     <tag k="name:he" v="קונגו סנטרל"/>
     <tag k="name:hr" v="Središnji Kongo"/>
+    <tag k="name:ja" v="中央コンゴ州"/>
     <tag k="name:pl" v="Kongo Środkowe"/>
     <tag k="name:ru" v="Центральное Конго"/>
     <tag k="name:sl" v="Osrednji Kongo"/>
@@ -33417,6 +33716,7 @@
     <tag k="name:en" v="Kasai"/>
     <tag k="name:fr" v="Kasaï"/>
     <tag k="name:hr" v="Kasai"/>
+    <tag k="name:ja" v="カサイ州"/>
     <tag k="name:kg" v="Kasâyi"/>
     <tag k="name:ln" v="Kasai"/>
     <tag k="name:lua" v="Kàsaayì"/>
@@ -33439,6 +33739,7 @@
     <tag k="name:es" v="Kasai Central"/>
     <tag k="name:fr" v="Kasaï Central"/>
     <tag k="name:hr" v="Središnji Kasai"/>
+    <tag k="name:ja" v="中央カサイ州"/>
     <tag k="name:ru" v="Центральное Касаи"/>
     <tag k="name:sl" v="Osrednji Kasai"/>
     <tag k="name:sr" v="Централни Касаи"/>
@@ -33456,6 +33757,7 @@
     <tag k="name:hr" v="Istočni Kasai"/>
     <tag k="name:hu" v="Kelet-Kasai"/>
     <tag k="name:it" v="Kasai Orientale"/>
+    <tag k="name:ja" v="東カサイ州"/>
     <tag k="name:pl" v="Kasai Wschodnie"/>
     <tag k="name:pt" v="Kasaï Oriental"/>
     <tag k="name:ru" v="Восточное Касаи"/>
@@ -33521,6 +33823,7 @@
     <tag k="name:es" v="Alto Uele"/>
     <tag k="name:fr" v="Haut-Uele"/>
     <tag k="name:hr" v="Gornja Uele"/>
+    <tag k="name:ja" v="オー゠ウエレ"/>
     <tag k="name:ln" v="Wɛlɛ ya Likólo"/>
     <tag k="name:pl" v="Górne Uele"/>
     <tag k="name:sl" v="Zgornja Uele"/>
@@ -34674,12 +34977,14 @@
     <tag k="name:be" v="Саскачэван"/>
     <tag k="name:br" v="Saskatchewan"/>
     <tag k="name:ckb" v="ساسکاچوان"/>
+    <tag k="name:dak" v="Aġuyapsu Op̣aḣte"/>
     <tag k="name:en" v="Saskatchewan"/>
     <tag k="name:eo" v="Saskaĉevano"/>
     <tag k="name:fr" v="Saskatchewan"/>
     <tag k="name:hu" v="Saskatchewan"/>
     <tag k="name:ko" v="서스캐처원주"/>
     <tag k="name:ku" v="Saskaçwan"/>
+    <tag k="name:lkt" v="Aǧúyapsu Opȟáȟte"/>
     <tag k="name:lt" v="Saskačevanas"/>
     <tag k="name:ru" v="Саскачеван"/>
     <tag k="name:sdh" v="ساسکاچوان"/>
@@ -34753,6 +35058,7 @@
     <tag k="wikipedia" v="id:Nusa Tenggara Barat"/>
   </node>
   <node id="4548425012" lat="-8.2271303" lon="115.1919203">
+    <tag k="admin_level" v="4"/>
     <tag k="name" v="Bali"/>
     <tag k="name:ar" v="بالي"/>
     <tag k="name:cs" v="Bali"/>
@@ -34866,11 +35172,13 @@
     <tag k="ISO3166-1:alpha2" v="MO"/>
     <tag k="ISO3166-1:alpha3" v="MAC"/>
     <tag k="ISO3166-2" v="CN-MO"/>
+    <tag k="alt_name:be" v="Макао;Макаў;Аамэнь;Аамынь"/>
     <tag k="alt_name:en" v="Macao"/>
     <tag k="alt_name:eu" v="Macau"/>
     <tag k="capital" v="3"/>
     <tag k="name" v="澳門 Macau"/>
     <tag k="name:ar" v="ماكاو"/>
+    <tag k="name:be" v="Макаа"/>
     <tag k="name:cs" v="Macao"/>
     <tag k="name:de" v="Macao"/>
     <tag k="name:en" v="Macau"/>
@@ -35025,6 +35333,30 @@
     <tag k="wikipedia:ar" v="هضبة الجولان"/>
     <tag k="wikipedia:he" v="רמת הגולן"/>
   </node>
+  <node id="5030238381" lat="36.3552686" lon="44.5076375">
+    <tag k="admin_level" v="3"/>
+    <tag k="alt_name" v="کوردستان؛ باشووری کوردستان؛ هەرێما کوردستانێ"/>
+    <tag k="flag" v="https://upload.wikimedia.org/wikipedia/commons/3/35/Flag_of_Kurdistan.svg"/>
+    <tag k="name" v="هەرێمی کوردستان"/>
+    <tag k="name:ar" v="إقليم كردستان"/>
+    <tag k="name:ckb" v="هەرێمی کوردستان"/>
+    <tag k="name:cs" v="Irácký Kurdistán"/>
+    <tag k="name:en" v="Iraqi Kurdistan"/>
+    <tag k="name:fa" v="اقلیم کوردستان عراق"/>
+    <tag k="name:hi" v="इराकी कुर्दिस्तान"/>
+    <tag k="name:hy" v="Իրաքյան Քուրդիստան"/>
+    <tag k="name:ku" v="Başûrê Kurdistanê"/>
+    <tag k="name:ml" v="ഇറാഖി കുർദിസ്ഥാൻ"/>
+    <tag k="name:ru" v="Иракский Курдистан"/>
+    <tag k="name:sdh" v="هەرێمی کوردستان"/>
+    <tag k="name:tr" v="Kürdistan Bölgesel Yönetimi"/>
+    <tag k="name:uk" v="Іракський Курдистан"/>
+    <tag k="place" v="state"/>
+    <tag k="wikidata" v="Q205047"/>
+    <tag k="wikipedia" v="ckb:ھەرێمی کوردستان"/>
+    <tag k="wikipedia:en" v="Kurdistan Region"/>
+    <tag k="wikipedia:ku" v="Herêma Kurdistanê"/>
+  </node>
   <node id="5465479519" lat="-33.5739341" lon="-70.6205518">
     <tag k="name" v="Región Metropolitana de Santiago"/>
     <tag k="name:en" v="Santiago Metropolitan Region"/>
@@ -35033,6 +35365,7 @@
     <tag k="name:ja" v="首都州"/>
     <tag k="name:pt" v="Região Metropolitana de Santiago"/>
     <tag k="name:ru" v="Столичная область"/>
+    <tag k="name:uk" v="Столичний регіон Сантьяґо"/>
     <tag k="name:ur" v="سانتیاگو میٹروپولیٹن علاقہ"/>
     <tag k="name:zh-Hans" v="圣地亚哥首都大区"/>
     <tag k="name:zh-Hant-CN" v="聖地亞哥首都大區"/>
@@ -35048,6 +35381,7 @@
     <tag k="name:en" v="Ñuble Region"/>
     <tag k="name:es" v="Región de Ñuble"/>
     <tag k="name:fr" v="Ñuble"/>
+    <tag k="name:uk" v="Регіон Ньюбле"/>
     <tag k="name:zh-Hans" v="纽夫莱大区"/>
     <tag k="name:zh-Hant" v="紐夫萊大區"/>
     <tag k="place" v="state"/>
@@ -35082,6 +35416,10 @@
     <tag k="place" v="state"/>
     <tag k="wikidata" v="Q636967"/>
     <tag k="wikipedia" v="en:Nunatsiavut"/>
+  </node>
+  <node id="5648980821" lat="9.3977051" lon="6.5349907">
+    <tag k="name" v="Niger state"/>
+    <tag k="place" v="state"/>
   </node>
   <node id="5756243967" lat="6.4373891" lon="0.9241068">
     <tag k="amenity" v="public_building"/>
@@ -35182,37 +35520,46 @@
   <node id="6912837261" lat="7.8633872" lon="0.3185980">
     <tag k="admin_level" v="4"/>
     <tag k="name" v="Oti Region"/>
+    <tag k="name:br" v="Rannvro Oti"/>
     <tag k="name:en" v="Oti Region"/>
+    <tag k="name:fr" v="Région d'Oti"/>
     <tag k="place" v="state"/>
   </node>
   <node id="6913594074" lat="10.3959773" lon="-0.5410794">
     <tag k="admin_level" v="4"/>
     <tag k="name" v="North East Region"/>
+    <tag k="name:br" v="Rannvro ar Biz"/>
     <tag k="name:en" v="North East Region"/>
+    <tag k="name:fr" v="Région du Nord-Est"/>
     <tag k="place" v="state"/>
   </node>
   <node id="6913594075" lat="9.1400654" lon="-1.7111234">
     <tag k="admin_level" v="4"/>
     <tag k="name" v="Savannah Region"/>
     <tag k="name:ar" v="منطقة السفانا"/>
+    <tag k="name:br" v="Rannvro Savannah"/>
     <tag k="name:en" v="Savannah Region"/>
     <tag k="place" v="state"/>
   </node>
   <node id="6913594081" lat="7.8035236" lon="-1.0876492">
     <tag k="admin_level" v="4"/>
     <tag k="name" v="Bono East Region"/>
+    <tag k="name:br" v="Rannvro Bono ar Reter"/>
     <tag k="name:en" v="Bono East Region"/>
+    <tag k="name:fr" v="Région de Bono Est"/>
     <tag k="place" v="state"/>
   </node>
   <node id="6913605258" lat="6.9168852" lon="-2.5350966">
     <tag k="admin_level" v="4"/>
     <tag k="name" v="Ahafo Region"/>
+    <tag k="name:br" v="Rannvro Ahafo"/>
     <tag k="name:en" v="Ahafo Region"/>
     <tag k="place" v="state"/>
   </node>
   <node id="6913605322" lat="6.2279367" lon="-2.8234891">
     <tag k="admin_level" v="4"/>
     <tag k="name" v="Western North Region"/>
+    <tag k="name:br" v="Rannvro ar Gwalarn"/>
     <tag k="name:en" v="Western North Region"/>
     <tag k="place" v="state"/>
   </node>
@@ -35327,11 +35674,15 @@
     <tag k="name:ur" v="لداخ"/>
     <tag k="name:zh" v="拉達克"/>
     <tag k="place" v="state"/>
-    <tag k="website" v="https://ladakh.nic.in"/>
+    <tag k="short_name" v="LA"/>
+    <tag k="website" v="https://ladakh.gov.in"/>
     <tag k="wikidata" v="Q200667"/>
     <tag k="wikipedia" v="en:Ladakh"/>
     <tag k="wikipedia:ks" v="لَداخ"/>
     <tag k="wikipedia:ur" v="لداخ"/>
+  </node>
+  <node id="7400368282" lat="-7.4613993" lon="111.2849633">
+    <tag k="place" v="state"/>
   </node>
   <node id="7423950470" lat="-0.3158526" lon="-79.2224149">
     <tag k="name" v="Santo Domingo de los Tsáchilas"/>
@@ -35415,6 +35766,7 @@
     <tag k="name:ar" v="نونافوت"/>
     <tag k="name:be" v="Нунавут"/>
     <tag k="name:ckb" v="نوناڤۆت"/>
+    <tag k="name:dak" v="Iyoważapi"/>
     <tag k="name:en" v="Nunavut"/>
     <tag k="name:eo" v="Nunavuto"/>
     <tag k="name:fr" v="Nunavut"/>
@@ -35422,6 +35774,7 @@
     <tag k="name:iu" v="ᓄᓇᕗᑦ"/>
     <tag k="name:ko" v="누나부트 준주"/>
     <tag k="name:lfn" v="Nunavut"/>
+    <tag k="name:lkt" v="Iyówažapi"/>
     <tag k="name:ru" v="Нунавут"/>
     <tag k="name:uk" v="Нунавут"/>
     <tag k="name:zh" v="努纳武特地区"/>
@@ -35611,6 +35964,8 @@
     <tag k="name:en" v="Texas"/>
     <tag k="name:eo" v="Teksaso"/>
     <tag k="name:es" v="Texas"/>
+    <tag k="name:es-u-sd-usnm" v="Tejas"/>
+    <tag k="name:es-u-sd-ustx" v="Tejas"/>
     <tag k="name:fa" v="تگزاس"/>
     <tag k="name:fi" v="Texas"/>
     <tag k="name:fr" v="Texas"/>
@@ -35650,6 +36005,7 @@
     <tag k="name:tzl" v="Texas"/>
     <tag k="name:uk" v="Техас"/>
     <tag k="name:ur" v="ٹیکساس"/>
+    <tag k="name:wal" v="Tekisas"/>
     <tag k="name:yi" v="טעקסעס"/>
     <tag k="name:yue" v="德薩斯州"/>
     <tag k="name:zh" v="得克萨斯州;德克薩斯州;德薩斯州"/>
@@ -35706,6 +36062,7 @@
     <tag k="name:pt" v="Ilhas Marianas Setentrionais"/>
     <tag k="name:ru" v="Северные Марианские острова"/>
     <tag k="name:sv" v="Nordmarianerna"/>
+    <tag k="name:uk" v="Північні Маріанські Острови"/>
     <tag k="official_name" v="Commonwealth of the Northern Mariana Islands"/>
     <tag k="official_name:cs" v="Společenství Severní Mariany"/>
     <tag k="official_name:en" v="Commonwealth of the Northern Mariana Islands"/>
@@ -36047,6 +36404,7 @@
     <tag k="name:sk" v="Portoriko"/>
     <tag k="name:sr" v="Порторико"/>
     <tag k="name:sv" v="Puerto Rico"/>
+    <tag k="name:tk" v="Puerto-Riko"/>
     <tag k="name:tr" v="Porto Riko"/>
     <tag k="name:uk" v="Пуерто-Рико"/>
     <tag k="name:vo" v="Puertorikeäns"/>
@@ -36148,6 +36506,7 @@
     <tag k="name:fr" v="Oblys d'Ulytau"/>
     <tag k="name:kk" v="Ұлытау облысы"/>
     <tag k="name:ky" v="Улуу-Тоо облусу"/>
+    <tag k="name:pl" v="Obwód ulitauski"/>
     <tag k="name:ru" v="Улутауская область"/>
     <tag k="name:tr" v="Ulıtav Eyaleti"/>
     <tag k="name:tt" v="Олытау өлкәсе"/>
@@ -36179,8 +36538,15 @@
     <tag k="wikipedia" v="en:Maguindanao del Norte"/>
   </node>
   <node id="10050102992" lat="3.6984053" lon="-76.5501996">
+    <tag k="alt_name:en" v="Cauca Valley"/>
     <tag k="name" v="Valle del Cauca"/>
+    <tag k="name:es" v="Valle del Cauca"/>
     <tag k="place" v="state"/>
+    <tag k="ref" v="VAC"/>
+    <tag k="short_name" v="Valle"/>
+    <tag k="short_name:es" v="Valle"/>
+    <tag k="state_capital" v="Cali"/>
+    <tag k="state_code" v="VAC"/>
     <tag k="wikidata" v="Q13990"/>
     <tag k="wikipedia" v="es:Valle del Cauca"/>
   </node>
@@ -36243,12 +36609,6 @@
     <tag k="name" v="Cà Mau"/>
     <tag k="name:vi-Hani" v="省哥毛"/>
     <tag k="name:zh" v="哥毛省"/>
-    <tag k="place" v="state"/>
-  </node>
-  <node id="10297919210" lat="11.4285446" lon="107.1624245">
-    <tag k="name" v="Đồng Nai"/>
-    <tag k="name:vi-Hani" v="省垌狔"/>
-    <tag k="name:zh" v="垌狔省"/>
     <tag k="place" v="state"/>
   </node>
   <node id="10725090310" lat="43.0000000" lon="47.0000000">
@@ -36324,6 +36684,7 @@
     <tag k="alt_name:ml" v="ലുറിസ്ഥാൻ"/>
     <tag k="name" v="استان لرستان"/>
     <tag k="name:ar" v="محافظة لُرِستان"/>
+    <tag k="name:br" v="Lorestan"/>
     <tag k="name:cs" v="Lorestán"/>
     <tag k="name:de" v="Lorestan"/>
     <tag k="name:en" v="Lorestan"/>
@@ -36356,6 +36717,7 @@
   <node id="10733242822" lat="34.9726302" lon="48.6563818">
     <tag k="name" v="استان همدان"/>
     <tag k="name:ar" v="محافظة همدان"/>
+    <tag k="name:br" v="Hamadan"/>
     <tag k="name:cs" v="Hamadán"/>
     <tag k="name:en" v="Hamadan"/>
     <tag k="name:fa" v="استان همدان"/>
@@ -36378,6 +36740,7 @@
     <tag k="name:az" v="Doğu Azərbaycan ostanı"/>
     <tag k="name:azb" v="شرقی آذربایجان اوستانی"/>
     <tag k="name:be" v="Усходні Азербайджан"/>
+    <tag k="name:br" v="Reter Azerbaidjan"/>
     <tag k="name:ckb" v="پارێزگای ئازەربایجانی ڕۆژھەڵات"/>
     <tag k="name:cs" v="Východní Ázerbájdžán"/>
     <tag k="name:de" v="Ost-Aserbaidschan"/>
@@ -36533,10 +36896,6 @@
     <tag k="name:zh-Hans" v="上海市"/>
     <tag k="name:zh-Hant" v="上海市"/>
     <tag k="name:zh-Latn-pinyin" v="Shànghǎi Shì"/>
-    <tag k="nickname:en" v="Wonderful everyday"/>
-    <tag k="nickname:zh-Hans" v="精彩每一天"/>
-    <tag k="nickname:zh-Hant" v="精彩每一天"/>
-    <tag k="nickname:zh-Latn-pinyin" v="Jīngcǎi měiyītiān"/>
     <tag k="place" v="state"/>
     <tag k="ref" v="沪"/>
     <tag k="ref:en" v="SH"/>
@@ -36556,6 +36915,7 @@
     <tag k="name:en" v="Karnali Province"/>
     <tag k="name:fa" v="استان کرنالی"/>
     <tag k="name:hi" v="कर्णाली प्रदेश"/>
+    <tag k="name:ja" v="カルナリ州"/>
     <tag k="name:ne" v="कर्णाली प्रदेश"/>
     <tag k="name:ru" v="Карнали-Прадеш"/>
     <tag k="name:uk" v="Карналі"/>
@@ -36569,6 +36929,7 @@
     <tag k="name:en" v="Sudurpashchim Province"/>
     <tag k="name:fa" v="استان سودورپشچیم"/>
     <tag k="name:hi" v="सुदूरपश्चिम प्रदेश"/>
+    <tag k="name:ja" v="スドゥパシュチム州"/>
     <tag k="name:ne" v="सुदूरपश्चिम प्रदेश"/>
     <tag k="name:ru" v="Судурпаштин-Прадеш"/>
     <tag k="name:uk" v="Судурпашчим"/>
@@ -36584,6 +36945,7 @@
     <tag k="name:en" v="Madhesh Province"/>
     <tag k="name:fa" v="استان مادیش"/>
     <tag k="name:hi" v="मधेश प्रदेश"/>
+    <tag k="name:ja" v="マデシ州"/>
     <tag k="name:ne" v="मधेश प्रदेश"/>
     <tag k="name:ru" v="Мадхеш-Прадеш"/>
     <tag k="name:uk" v="Мадхеш"/>
@@ -36599,6 +36961,7 @@
     <tag k="name:en" v="Bagmati Province"/>
     <tag k="name:fa" v="استان باگمتی"/>
     <tag k="name:hi" v="बागमती प्रदेश"/>
+    <tag k="name:ja" v="バグマティ州"/>
     <tag k="name:ne" v="बागमती प्रदेश"/>
     <tag k="name:ru" v="Багмати-Прадеш"/>
     <tag k="name:uk" v="Баґматі"/>
@@ -36611,6 +36974,7 @@
     <tag k="name:en" v="Koshi Province"/>
     <tag k="name:fa" v="استان کوشی"/>
     <tag k="name:hi" v="कोशी प्रदेश"/>
+    <tag k="name:ja" v="コシ州"/>
     <tag k="name:ne" v="कोशी प्रदेश"/>
     <tag k="name:ru" v="Коши-Прадеш"/>
     <tag k="name:uk" v="Коші"/>
@@ -36940,22 +37304,6 @@
     <tag k="wikidata" v="Q3143381"/>
     <tag k="wikipedia" v="vi:Hương Sơn"/>
   </node>
-  <node id="12908612671" lat="17.3024666" lon="106.6624287">
-    <tag k="name" v="Quảng Trị"/>
-    <tag k="name:en" v="Quang Tri province"/>
-    <tag k="name:fr" v="Province de Quảng Trị"/>
-    <tag k="name:ja" v="クアンチ"/>
-    <tag k="name:uk" v="Куанґчі"/>
-    <tag k="name:vi" v="Tỉnh Quảng Trị"/>
-    <tag k="name:vi-Hani" v="省廣治"/>
-    <tag k="name:zh" v="廣治省"/>
-    <tag k="name:zh-Hans" v="广治省"/>
-    <tag k="name:zh-Hant" v="廣治省"/>
-    <tag k="place" v="state"/>
-    <tag k="ref" v="QT"/>
-    <tag k="wikidata" v="Q36579"/>
-    <tag k="wikipedia" v="en:Quang Tri province"/>
-  </node>
   <node id="13235708440" lat="3.3989554" lon="-65.7335886">
     <tag k="name" v="Amazonas"/>
     <tag k="place" v="state"/>
@@ -37165,6 +37513,7 @@
     <tag k="name:ar" v="محافظة البريمي"/>
     <tag k="name:en" v="Al Buraimi"/>
     <tag k="name:fa" v="استان بریمی"/>
+    <tag k="name:ru" v="Эль-Бурайми"/>
     <tag k="place" v="state"/>
     <tag k="wikidata" v="Q852039"/>
     <tag k="wikipedia" v="ar:البريمي (محافظة)"/>
@@ -37205,6 +37554,7 @@
     <tag k="name:fa" v="امارت دبی"/>
     <tag k="name:ru" v="Дубай эмират"/>
     <tag k="name:tr" v="Dubai Emirliği"/>
+    <tag k="name:zh" v="迪拜"/>
     <tag k="place" v="state"/>
     <tag k="wikidata" v="Q613"/>
     <tag k="wikipedia" v="ar:إمارة دبي"/>
@@ -37340,6 +37690,7 @@
     <tag k="name:fa" v="الضعاین"/>
     <tag k="name:ru" v="Эд-Дайиан"/>
     <tag k="name:tr" v="Ed-Daayin"/>
+    <tag k="name:uk" v="Ад-Даїян"/>
     <tag k="place" v="state"/>
   </node>
   <node id="13278587083" lat="25.7567822" lon="51.3269839">
@@ -37348,6 +37699,7 @@
     <tag k="name:en" v="Al Khor and Al Thakira"/>
     <tag k="name:fa" v="الخور"/>
     <tag k="name:ru" v="Эль-Хаур"/>
+    <tag k="name:uk" v="Ель-Хаур"/>
     <tag k="place" v="state"/>
   </node>
   <node id="13278587084" lat="25.0819602" lon="51.1584160">
@@ -37355,6 +37707,7 @@
     <tag k="name:ar" v="الريان"/>
     <tag k="name:en" v="Al Rayyan"/>
     <tag k="name:fa" v="الريان"/>
+    <tag k="name:uk" v="Ер-Раян"/>
     <tag k="place" v="state"/>
   </node>
   <node id="13278587085" lat="25.3108807" lon="51.5081812">
@@ -37362,6 +37715,7 @@
     <tag k="name:ar" v="الدوحة"/>
     <tag k="name:en" v="Doha"/>
     <tag k="name:fa" v="دوحه"/>
+    <tag k="name:uk" v="Ад-Доха"/>
     <tag k="place" v="state"/>
   </node>
   <node id="13278587086" lat="25.0037453" lon="51.4103338">
@@ -37370,6 +37724,7 @@
     <tag k="name:en" v="Al Wakrah"/>
     <tag k="name:fa" v="وکره"/>
     <tag k="name:tr" v="Vekre"/>
+    <tag k="name:uk" v="Ель-Вакра"/>
     <tag k="place" v="state"/>
   </node>
   <node id="13278587087" lat="26.0517166" lon="51.2005821">
@@ -37379,6 +37734,7 @@
     <tag k="name:fa" v="شمال"/>
     <tag k="name:ru" v="Эш-Шамаль"/>
     <tag k="name:tr" v="Eş-Şemal"/>
+    <tag k="name:uk" v="Аш-Шамаль"/>
     <tag k="place" v="state"/>
   </node>
   <node id="13278587088" lat="25.4897276" lon="51.3262709">
@@ -37388,6 +37744,7 @@
     <tag k="name:fa" v="ام صلال"/>
     <tag k="name:ru" v="Умм-Салаль"/>
     <tag k="name:tr" v="Ümmü Salâl"/>
+    <tag k="name:uk" v="Умм-Салаль"/>
     <tag k="place" v="state"/>
   </node>
   <node id="13294463855" lat="30.5298290" lon="36.5343244">
@@ -37806,6 +38163,7 @@
     <tag k="name:es" v="Alto Katanga"/>
     <tag k="name:fr" v="Haut-Katanga"/>
     <tag k="name:hr" v="Gornja Katanga"/>
+    <tag k="name:ja" v="オー゠カタンガ"/>
     <tag k="name:pl" v="Górna Katanga"/>
     <tag k="name:ru" v="Верхняя Катанга"/>
     <tag k="name:sl" v="Zgornja Katanga"/>
@@ -38183,15 +38541,6 @@
     <tag k="wikidata" v="Q528953"/>
     <tag k="wikipedia" v="ar:محافظة العاصمة (البحرين)"/>
   </node>
-  <node id="13358115917" lat="26.2616562" lon="50.6261733">
-    <tag k="name" v="محافظة المحرق"/>
-    <tag k="name:ar" v="محافظة المحرق"/>
-    <tag k="name:en" v="Muharraq"/>
-    <tag k="name:fa" v="استان محرق"/>
-    <tag k="place" v="state"/>
-    <tag k="wikidata" v="Q375630"/>
-    <tag k="wikipedia" v="ar:محافظة المحرق"/>
-  </node>
   <node id="13358115918" lat="26.1779416" lon="50.4613213">
     <tag k="name" v="المحافظة الشمالية"/>
     <tag k="name:ar" v="المحافظة الشمالية"/>
@@ -38206,6 +38555,7 @@
     <tag k="name:ar" v="المحافظة الجنوبية"/>
     <tag k="name:en" v="Southern"/>
     <tag k="name:fa" v="استان جنوبی"/>
+    <tag k="name:uk" v="Південна мухафаза"/>
     <tag k="place" v="state"/>
     <tag k="wikidata" v="Q838532"/>
     <tag k="wikipedia" v="ar:المحافظة الجنوبية (البحرين)"/>
@@ -38328,6 +38678,7 @@
     <tag k="name:ka" v="ღაზახ-თოვუზი"/>
     <tag k="name:ru" v="Газах-Товуз"/>
     <tag k="name:tr" v="Kazak-Tovuz"/>
+    <tag k="name:uk" v="Ґазах-Товуз"/>
     <tag k="place" v="state"/>
     <tag k="wikidata" v="Q108306186"/>
     <tag k="wikipedia" v="az:Qazax-Tovuz iqtisadi rayonu"/>
@@ -38342,6 +38693,7 @@
     <tag k="name:ka" v="განჯა-დაშკასანი"/>
     <tag k="name:ru" v="Гянджа-Дашкесан"/>
     <tag k="name:tr" v="Gence-Daşkesen"/>
+    <tag k="name:uk" v="Ґанджа-Дашкесан"/>
     <tag k="place" v="state"/>
     <tag k="wikidata" v="Q108306231"/>
     <tag k="wikipedia" v="az:Gəncə-Daşkəsən iqtisadi rayonu"/>
@@ -38404,6 +38756,7 @@
     <tag k="name:ka" v="შაკი-ზაგატალა"/>
     <tag k="name:ru" v="Шеки-Загатала"/>
     <tag k="name:tr" v="Şeki-Zakatala"/>
+    <tag k="name:uk" v="Шекі-Заґатала"/>
     <tag k="place" v="state"/>
     <tag k="wikidata" v="Q4522512"/>
     <tag k="wikipedia" v="az:Şəki-Zaqatala iqtisadi rayonu"/>
@@ -38482,24 +38835,10 @@
     <tag k="name:ka" v="ლანკორან-ასტარა"/>
     <tag k="name:ru" v="Ленкорань-Астара"/>
     <tag k="name:tr" v="Lenkeran-Astara"/>
+    <tag k="name:uk" v="Ленкорань-Астара"/>
     <tag k="place" v="state"/>
     <tag k="wikidata" v="Q4258528"/>
     <tag k="wikipedia" v="az:Lənkəran-Astara iqtisadi rayonu"/>
-  </node>
-  <node id="13358848566" lat="40.4065026" lon="50.0441468">
-    <tag k="name" v="Bakı"/>
-    <tag k="name:ar" v="باکو"/>
-    <tag k="name:az" v="Bakı"/>
-    <tag k="name:en" v="Baku"/>
-    <tag k="name:fa" v="باکو"/>
-    <tag k="name:hy" v="Բաքու"/>
-    <tag k="name:ka" v="ბაქო"/>
-    <tag k="name:ru" v="Баку"/>
-    <tag k="name:tr" v="Bakü"/>
-    <tag k="name:uk" v="Баку"/>
-    <tag k="place" v="state"/>
-    <tag k="wikidata" v="Q108306263"/>
-    <tag k="wikipedia" v="az:Bakı iqtisadi rayonu"/>
   </node>
   <node id="13358848567" lat="39.2768438" lon="45.5779970">
     <tag k="name" v="Naxçıvan Muxtar Respublikası"/>
@@ -38616,8 +38955,10 @@
     <tag k="wikipedia" v="ckb:پارێزگای ھەڵەبجە"/>
   </node>
   <node id="13372236507" lat="42.7027944" lon="-1.7086231">
+    <tag k="alt_name:br" v="Navarra-Uhel"/>
     <tag k="name" v="Navarra"/>
     <tag k="name:ar" v="نبرة"/>
+    <tag k="name:br" v="Navarra"/>
     <tag k="name:en" v="Navarre"/>
     <tag k="name:es" v="Navarra"/>
     <tag k="name:eu" v="Nafarroa"/>
@@ -38702,10 +39043,12 @@
     <tag k="wikipedia" v="az:Qarabağ iqtisadi rayonu"/>
   </node>
   <node id="13392590010" lat="39.7930807" lon="70.8512038">
+    <tag k="alt_name:hi" v="बातकेन प्रांत"/>
     <tag k="name" v="Баткен облусу"/>
     <tag k="name:ar" v="مقاطعة باتكين"/>
     <tag k="name:en" v="Batken Region"/>
     <tag k="name:fa" v="استان بادکند"/>
+    <tag k="name:hi" v="बादकंद प्रांत"/>
     <tag k="name:ky" v="Баткен облусу"/>
     <tag k="name:ru" v="Баткенская область"/>
     <tag k="name:tr" v="Batken ili"/>
@@ -38719,6 +39062,7 @@
     <tag k="name:ar" v="مقاطعة أوش"/>
     <tag k="name:en" v="Osh Region"/>
     <tag k="name:fa" v="استان اوش"/>
+    <tag k="name:hi" v="ओश प्रांत"/>
     <tag k="name:ky" v="Ош облусу"/>
     <tag k="name:ru" v="Ошская область"/>
     <tag k="name:tr" v="Oş İli"/>
@@ -38732,9 +39076,11 @@
     <tag k="name:ar" v="مقاطعة نارين"/>
     <tag k="name:en" v="Naryn Region"/>
     <tag k="name:fa" v="استان نارین"/>
+    <tag k="name:hi" v="नारिन प्रांत"/>
     <tag k="name:ky" v="Нарын облусу"/>
     <tag k="name:ru" v="Нарынская область"/>
     <tag k="name:tr" v="Narın İli"/>
+    <tag k="name:uk" v="Наринська область"/>
     <tag k="name:zh" v="納倫州"/>
     <tag k="place" v="state"/>
     <tag k="wikidata" v="Q486375"/>
@@ -38745,6 +39091,7 @@
     <tag k="name:ar" v="مقاطعة ايسيك كول"/>
     <tag k="name:en" v="Issyk-Kul Region"/>
     <tag k="name:fa" v="استان ایسیق‌کول"/>
+    <tag k="name:hi" v="इसिक-कुल प्रांत"/>
     <tag k="name:ky" v="Ысык-Көл облусу"/>
     <tag k="name:ru" v="Иссык-Кульская область"/>
     <tag k="name:tr" v="Issık-Göl İli"/>
@@ -38758,6 +39105,7 @@
     <tag k="name:ar" v="مقاطعة جلال أباد"/>
     <tag k="name:en" v="Jalal-Abad Region"/>
     <tag k="name:fa" v="استان جلال‌آباد"/>
+    <tag k="name:hi" v="जलालाबाद प्रांत"/>
     <tag k="name:ky" v="Жалал-Абад облусу"/>
     <tag k="name:ru" v="Джалал-Абадская область"/>
     <tag k="name:tr" v="Celal-Abad ili"/>
@@ -38767,6 +39115,7 @@
     <tag k="wikipedia" v="en:Jalal-Abad Region"/>
   </node>
   <node id="13392655203" lat="36.2988434" lon="37.7593857">
+    <tag k="alt_name:uk" v="Алеппо"/>
     <tag k="name" v="محافظة حلب"/>
     <tag k="name:ar" v="محافظة حلب"/>
     <tag k="name:az" v="Hələb mühafəzəsi"/>
@@ -38781,7 +39130,7 @@
     <tag k="name:sl" v="Guvernat Alep"/>
     <tag k="name:sr" v="покрајина Алеп"/>
     <tag k="name:tr" v="Halep İli"/>
-    <tag k="name:uk" v="Провінція Алеппо"/>
+    <tag k="name:uk" v="Халеб"/>
     <tag k="place" v="state"/>
     <tag k="wikidata" v="Q214064"/>
     <tag k="wikipedia" v="ar:محافظة حلب"/>
@@ -38792,6 +39141,7 @@
     <tag k="name:en" v="Gandaki Province"/>
     <tag k="name:fa" v="استان گندکی"/>
     <tag k="name:hi" v="गण्डकी प्रदेश"/>
+    <tag k="name:ja" v="ガンダキ州"/>
     <tag k="name:ne" v="गण्डकी प्रदेश"/>
     <tag k="name:uk" v="Ґандакі"/>
     <tag k="place" v="state"/>
@@ -38804,6 +39154,7 @@
     <tag k="name:en" v="Lumbini Province"/>
     <tag k="name:fa" v="استان لومبینی"/>
     <tag k="name:hi" v="लुम्बिनी प्रदेश"/>
+    <tag k="name:ja" v="ルンビニ州"/>
     <tag k="name:ne" v="लुम्बिनी प्रदेश"/>
     <tag k="name:uk" v="Лумбіні"/>
     <tag k="place" v="state"/>
@@ -38925,9 +39276,6 @@
     <tag k="ISO3166-2" v="AF-FYB"/>
     <tag k="gns:dsg" v="ADM1"/>
     <tag k="gns:uni" v="-4796031"/>
-    <tag k="is_in" v="Afghanistan"/>
-    <tag k="is_in:country" v="Afghanistan"/>
-    <tag k="is_in:country_code" v="AF"/>
     <tag k="name" v="فارياب"/>
     <tag k="name:ar" v="ولاية فارياب"/>
     <tag k="name:cs" v="Fárjáb"/>
@@ -38936,6 +39284,7 @@
     <tag k="name:en" v="Faryab"/>
     <tag k="name:fa" v="فارياب"/>
     <tag k="name:fr" v="Fâryâb"/>
+    <tag k="name:hi" v="फ़र्याब"/>
     <tag k="name:hu" v="Fárjáb"/>
     <tag k="name:ja" v="ファーリヤーブ州"/>
     <tag k="name:ko" v="파르야브 주"/>
@@ -38954,6 +39303,25 @@
     <tag k="wikidata" v="Q173830"/>
     <tag k="wikipedia" v="en:Faryab Province"/>
   </node>
+  <node id="13413489785" lat="50.3154983" lon="5.0097962">
+    <tag k="description" v="label node of Wallonia"/>
+    <tag k="name" v="Wallonie"/>
+    <tag k="name:ar" v="والونيا"/>
+    <tag k="name:de" v="Wallonische"/>
+    <tag k="name:en" v="Wallonia"/>
+    <tag k="name:es" v="Valona"/>
+    <tag k="name:fa" v="والونی"/>
+    <tag k="name:fr" v="Wallonie"/>
+    <tag k="name:it" v="Vallonia"/>
+    <tag k="name:nl" v="Wallonië"/>
+    <tag k="name:ru" v="Валлония"/>
+    <tag k="name:tr" v="Valonya"/>
+    <tag k="name:uk" v="Валлонія"/>
+    <tag k="name:zh" v="瓦隆大区"/>
+    <tag k="place" v="state"/>
+    <tag k="wikidata" v="Q231"/>
+    <tag k="wikipedia" v="en:Wallonia"/>
+  </node>
   <node id="13426299697" lat="48.8078278" lon="58.2341793">
     <tag k="name" v="Ақтөбе облысы"/>
     <tag k="name:ar" v="مقاطعة أكتوبي"/>
@@ -38962,6 +39330,7 @@
     <tag k="name:kk" v="Ақтөбе облысы"/>
     <tag k="name:ru" v="Актюбинская область"/>
     <tag k="name:tr" v="Aktöbe Eyaleti"/>
+    <tag k="name:uk" v="Актюбінська область"/>
     <tag k="name:zh" v="阿克托貝州"/>
     <tag k="place" v="state"/>
     <tag k="wikidata" v="Q485437"/>
@@ -38976,6 +39345,7 @@
     <tag k="name:ky" v="Чүй облусу"/>
     <tag k="name:ru" v="Чуйская область"/>
     <tag k="name:tr" v="Çüy ili"/>
+    <tag k="name:uk" v="Чуйська область"/>
     <tag k="name:zh" v="楚河州"/>
     <tag k="place" v="state"/>
     <tag k="wikidata" v="Q486370"/>
@@ -39063,6 +39433,7 @@
     <tag k="name:he" v="פורט סעיד"/>
     <tag k="name:hr" v="Port Said"/>
     <tag k="name:hu" v="Port Szaíd"/>
+    <tag k="name:ja" v="ポートサイド県"/>
     <tag k="name:la" v="Portus Saīd"/>
     <tag k="name:pl" v="Port Said"/>
     <tag k="name:ru" v="Порт-Саид"/>
@@ -39088,6 +39459,7 @@
     <tag k="name:hr" v="סואץ"/>
     <tag k="name:hu" v="Szuez"/>
     <tag k="name:hy" v="Սուեզ"/>
+    <tag k="name:ja" v="スエズ県"/>
     <tag k="name:la" v="Suesia"/>
     <tag k="name:nl" v="Suez"/>
     <tag k="name:pl" v="Suez"/>
@@ -39106,6 +39478,50 @@
     <tag k="name:ru" v="Эш-Шахания"/>
     <tag k="name:tr" v="Eş-Şahaniye"/>
     <tag k="place" v="state"/>
+  </node>
+  <node id="13633331869" lat="26.3597892" lon="50.6646213">
+    <tag k="name" v="محافظة المحرق"/>
+    <tag k="name:ar" v="محافظة المحرق"/>
+    <tag k="name:en" v="Muharraq"/>
+    <tag k="name:fa" v="استان محرق"/>
+    <tag k="place" v="state"/>
+    <tag k="wikidata" v="Q375630"/>
+    <tag k="wikipedia" v="ar:محافظة المحرق"/>
+  </node>
+  <node id="13637928486" lat="25.2939559" lon="56.3041365">
+    <tag k="int_name" v="Musandam, Musandam"/>
+    <tag k="is_in" v="Oman , عُمان"/>
+    <tag k="name" v="محافظة مسندم"/>
+    <tag k="name:ar" v="محافظة مسندم"/>
+    <tag k="name:de" v="Musandam"/>
+    <tag k="name:en" v="Musandam"/>
+    <tag k="name:es" v="Musandam"/>
+    <tag k="name:fa" v="استان مسندم"/>
+    <tag k="name:fr" v="Musandam"/>
+    <tag k="name:he" v="מוסנדם"/>
+    <tag k="name:hi" v="मुसंदम"/>
+    <tag k="name:ml" v="മുസന്ദം"/>
+    <tag k="name:ru" v="Мусандам"/>
+    <tag k="place" v="state"/>
+    <tag k="wikidata" v="Q372144"/>
+    <tag k="wikipedia" v="ar:مسندم (محافظة)"/>
+  </node>
+  <node id="13646507234" lat="-7.7953473" lon="110.3672845">
+    <tag k="name" v="Yogyakarta"/>
+    <tag k="name:en" v="Special Region of Yogyakarta"/>
+    <tag k="name:id" v="Daerah Istimewa Yogyakarta"/>
+    <tag k="name:ko" v="욕야카르타 특별주"/>
+    <tag k="name:ms" v="Yogyakarta"/>
+    <tag k="name:uk" v="Джок'якарта"/>
+    <tag k="name:zh" v="日惹特区"/>
+    <tag k="official_name:uk" v="Спеціальна округа Джок'якарта"/>
+    <tag k="place" v="state"/>
+    <tag k="wikidata" v="Q3741"/>
+    <tag k="wikipedia" v="id:Daerah Istimewa Yogyakarta"/>
+  </node>
+  <node id="14125028622" lat="-7.4781536" lon="111.2796796">
+    <tag k="place" v="state"/>
+    <tag k="wikidata" v="Q11108"/>
   </node>
 
 </osm>

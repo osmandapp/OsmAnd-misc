@@ -1080,3 +1080,465 @@
     <tag k="name:uk" v="Острів Ванкувер" />
     <tag k="name:cs" v="Ostrov Vancouver" />
   </relation>
+
+  <relation id="-1" version="1">
+    <tag k="type" v="boundary"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="admin_level" v="5"/>
+    <tag k="place" v="region"/>
+    <tag k="name" v="Budapest"/>
+    <tag k="name:hu" v="Budapest"/>
+    <tag k="name:en" v="Budapest"/>
+    <tag k="name:de" v="Budapest"/>
+    <tag k="name:fr" v="Budapest"/>
+    <tag k="name:es" v="Budapest"/>
+    <tag k="name:it" v="Budapest"/>
+    <tag k="name:pt" v="Budapeste"/>
+    <tag k="name:ru" v="Будапешт"/>
+    <tag k="name:pl" v="Budapeszt"/>
+    <tag k="name:nl" v="Boedapest"/>
+    <tag k="name:uk" v="Будапешт"/>
+    <tag k="name:cs" v="Budapešť"/>
+    <tag k="name:sk" v="Budapešť"/>
+    <tag k="name:hr" v="Budimpešta"/>
+    <tag k="name:ro" v="Budapesta"/>
+    <tag k="name:sr" v="Будимпешта"/>
+    <tag k="name:zh" v="布达佩斯"/>
+    <tag k="name:ja" v="ブダペスト"/>
+    <tag k="name:ar" v="بودابست"/>
+    <tag k="name:tr" v="Budapeşte"/>
+    <tag k="ref:nuts:2" v="HU11"/>
+  </relation>
+
+  <relation id="-2" version="1">
+    <tag k="type" v="boundary"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="admin_level" v="5"/>
+    <tag k="place" v="region"/>
+    <tag k="name" v="Dél-Alföld"/>
+    <tag k="name:hu" v="Dél-Alföld"/>
+    <tag k="name:en" v="Southern Great Plain"/>
+    <tag k="name:de" v="Südliche Tiefebene"/>
+    <tag k="name:fr" v="Grande Plaine méridionale"/>
+    <tag k="name:es" v="Gran Llanura Meridional"/>
+    <tag k="name:it" v="Grande Pianura Meridionale"/>
+    <tag k="name:pt" v="Grande Planície Meridional"/>
+    <tag k="name:ru" v="Южный Альфёльд"/>
+    <tag k="name:pl" v="Południowa Wielka Nizina"/>
+    <tag k="name:nl" v="Zuidelijke Hongaarse Laagvlakte"/>
+    <tag k="name:uk" v="Південна Велика рівнина"/>
+    <tag k="name:cs" v="Jižní Alföld"/>
+    <tag k="name:sk" v="Južný Alföld"/>
+    <tag k="name:hr" v="Južni Alföld"/>
+    <tag k="name:ro" v="Marea Câmpie de Sud"/>
+    <tag k="name:sr" v="Велика јужна равница"/>
+    <tag k="name:zh" v="南大平原"/>
+    <tag k="name:ja" v="南部大平原"/>
+    <tag k="name:ar" v="سهل الجنوب العظيم"/>
+    <tag k="name:tr" v="Güney Büyük Ova"/>
+    <tag k="ref:nuts:2" v="HU33"/>
+  </relation>
+
+  <relation id="-3" version="1">
+    <tag k="type" v="boundary"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="admin_level" v="5"/>
+    <tag k="place" v="region"/>
+    <tag k="name" v="Dél-Dunántúl"/>
+    <tag k="name:hu" v="Dél-Dunántúl"/>
+    <tag k="name:en" v="Southern Transdanubia"/>
+    <tag k="name:de" v="Südtransdanubien"/>
+    <tag k="name:fr" v="Transdanubie méridionale"/>
+    <tag k="name:es" v="Transdanubia Meridional"/>
+    <tag k="name:it" v="Transdanubio Meridionale"/>
+    <tag k="name:pt" v="Transdanúbia Meridional"/>
+    <tag k="name:ru" v="Южно-Задунайский край"/>
+    <tag k="name:pl" v="Południowy Kraj Zadunajski"/>
+    <tag k="name:nl" v="Zuid-Transdanubië"/>
+    <tag k="name:uk" v="Південне Задунав'я"/>
+    <tag k="name:cs" v="Jižní Zadunají"/>
+    <tag k="name:sk" v="Južné Zadunajsko"/>
+    <tag k="name:hr" v="Južno Podunavlje"/>
+    <tag k="name:ro" v="Transdanubia de Sud"/>
+    <tag k="name:sr" v="Јужно Подунавље"/>
+    <tag k="name:zh" v="南外多瑙"/>
+    <tag k="name:ja" v="南部トランスダヌビア"/>
+    <tag k="name:ar" v="ترانسدانوبيا الجنوبية"/>
+    <tag k="name:tr" v="Güney Transdanubia"/>
+    <tag k="ref:nuts:2" v="HU23"/>
+  </relation>
+
+  <relation id="-4" version="1">
+    <tag k="type" v="boundary"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="admin_level" v="5"/>
+    <tag k="place" v="region"/>
+    <tag k="name" v="Észak-Alföld"/>
+    <tag k="name:hu" v="Észak-Alföld"/>
+    <tag k="name:en" v="Northern Great Plain"/>
+    <tag k="name:de" v="Nördliche Tiefebene"/>
+    <tag k="name:fr" v="Grande Plaine septentrionale"/>
+    <tag k="name:es" v="Gran Llanura Septentrional"/>
+    <tag k="name:it" v="Grande Pianura Settentrionale"/>
+    <tag k="name:pt" v="Grande Planície Setentrional"/>
+    <tag k="name:ru" v="Северный Альфёльд"/>
+    <tag k="name:pl" v="Północna Wielka Nizina"/>
+    <tag k="name:nl" v="Noordelijke Grote Laagvlakte"/>
+    <tag k="name:uk" v="Північна Велика рівнина"/>
+    <tag k="name:cs" v="Severní Alföld"/>
+    <tag k="name:sk" v="Severný Alföld"/>
+    <tag k="name:hr" v="Sjeverni Alföld"/>
+    <tag k="name:ro" v="Marea Câmpie de Nord"/>
+    <tag k="name:sr" v="Велика северна равница"/>
+    <tag k="name:zh" v="北大平原"/>
+    <tag k="name:ja" v="北部大平原"/>
+    <tag k="name:ar" v="سهل الشمال العظيم"/>
+    <tag k="name:tr" v="Kuzey Büyük Ova"/>
+    <tag k="ref:nuts:2" v="HU32"/>
+  </relation>
+
+  <relation id="-5" version="1">
+    <tag k="type" v="boundary"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="admin_level" v="5"/>
+    <tag k="place" v="region"/>
+    <tag k="name" v="Észak-Magyarország"/>
+    <tag k="name:hu" v="Észak-Magyarország"/>
+    <tag k="name:en" v="Northern Hungary"/>
+    <tag k="name:de" v="Nordungarn"/>
+    <tag k="name:fr" v="Hongrie du Nord"/>
+    <tag k="name:es" v="Hungría Septentrional"/>
+    <tag k="name:it" v="Ungheria Settentrionale"/>
+    <tag k="name:pt" v="Hungria Setentrional"/>
+    <tag k="name:ru" v="Северная Венгрия"/>
+    <tag k="name:pl" v="Północne Węgry"/>
+    <tag k="name:nl" v="Noord-Hongarije"/>
+    <tag k="name:uk" v="Північна Угорщина"/>
+    <tag k="name:cs" v="Severní Maďarsko"/>
+    <tag k="name:sk" v="Severné Maďarsko"/>
+    <tag k="name:hr" v="Sjeverna Mađarska"/>
+    <tag k="name:ro" v="Ungaria de Nord"/>
+    <tag k="name:sr" v="Северна Мађарска"/>
+    <tag k="name:zh" v="北匈牙利"/>
+    <tag k="name:ja" v="北部ハンガリー"/>
+    <tag k="name:ar" v="شمال المجر"/>
+    <tag k="name:tr" v="Kuzey Macaristan"/>
+    <tag k="ref:nuts:2" v="HU31"/>
+  </relation>
+
+  <relation id="-6" version="1">
+    <tag k="type" v="boundary"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="admin_level" v="5"/>
+    <tag k="place" v="region"/>
+    <tag k="name" v="Közép-Dunántúl"/>
+    <tag k="name:hu" v="Közép-Dunántúl"/>
+    <tag k="name:en" v="Central Transdanubia"/>
+    <tag k="name:de" v="Mitteltransdanubien"/>
+    <tag k="name:fr" v="Transdanubie centrale"/>
+    <tag k="name:es" v="Transdanubia Central"/>
+    <tag k="name:it" v="Transdanubio Centrale"/>
+    <tag k="name:pt" v="Transdanúbia Central"/>
+    <tag k="name:ru" v="Центрально-Задунайский край"/>
+    <tag k="name:pl" v="Środkowy Kraj Zadunajski"/>
+    <tag k="name:nl" v="Centraal-Transdanubië"/>
+    <tag k="name:uk" v="Центральне Задунав'я"/>
+    <tag k="name:cs" v="Střední Zadunají"/>
+    <tag k="name:sk" v="Stredné Zadunajsko"/>
+    <tag k="name:hr" v="Središnje Podunavlje"/>
+    <tag k="name:ro" v="Transdanubia Centrală"/>
+    <tag k="name:sr" v="Централно Подунавље"/>
+    <tag k="name:zh" v="中外多瑙"/>
+    <tag k="name:ja" v="中部トランスダヌビア"/>
+    <tag k="name:ar" v="ترانسدانوبيا الوسطى"/>
+    <tag k="name:tr" v="Orta Transdanubia"/>
+    <tag k="ref:nuts:2" v="HU21"/>
+  </relation>
+
+  <relation id="-7" version="1">
+    <tag k="type" v="boundary"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="admin_level" v="5"/>
+    <tag k="place" v="region"/>
+    <tag k="name" v="Nyugat-Dunántúl"/>
+    <tag k="name:hu" v="Nyugat-Dunántúl"/>
+    <tag k="name:en" v="Western Transdanubia"/>
+    <tag k="name:de" v="Westtransdanubien"/>
+    <tag k="name:fr" v="Transdanubie occidentale"/>
+    <tag k="name:es" v="Transdanubia Occidental"/>
+    <tag k="name:it" v="Transdanubio Occidentale"/>
+    <tag k="name:pt" v="Transdanúbia Ocidental"/>
+    <tag k="name:ru" v="Западно-Задунайский край"/>
+    <tag k="name:pl" v="Zachodni Kraj Zadunajski"/>
+    <tag k="name:nl" v="West-Transdanubië"/>
+    <tag k="name:uk" v="Західне Задунав'я"/>
+    <tag k="name:cs" v="Západní Zadunají"/>
+    <tag k="name:sk" v="Západné Zadunajsko"/>
+    <tag k="name:hr" v="Zapadno Podunavlje"/>
+    <tag k="name:ro" v="Transdanubia de Vest"/>
+    <tag k="name:sr" v="Западно Подунавље"/>
+    <tag k="name:zh" v="西外多瑙"/>
+    <tag k="name:ja" v="西部トランスダヌビア"/>
+    <tag k="name:ar" v="ترانسدانوبيا الغربية"/>
+    <tag k="name:tr" v="Batı Transdanubia"/>
+    <tag k="ref:nuts:2" v="HU22"/>
+  </relation>
+
+  <relation id="-8" version="1">
+    <tag k="type" v="boundary"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="admin_level" v="5"/>
+    <tag k="place" v="region"/>
+    <tag k="name" v="Pest"/>
+    <tag k="name:hu" v="Pest"/>
+    <tag k="name:en" v="Pest"/>
+    <tag k="name:de" v="Pest"/>
+    <tag k="name:fr" v="Pest"/>
+    <tag k="name:es" v="Pest"/>
+    <tag k="name:it" v="Pest"/>
+    <tag k="name:pt" v="Pest"/>
+    <tag k="name:ru" v="Пешт"/>
+    <tag k="name:pl" v="Peszt"/>
+    <tag k="name:nl" v="Pest"/>
+    <tag k="name:uk" v="Пешт"/>
+    <tag k="name:cs" v="Pešť"/>
+    <tag k="name:sk" v="Pešť"/>
+    <tag k="name:hr" v="Pešta"/>
+    <tag k="name:ro" v="Pesta"/>
+    <tag k="name:sr" v="Пешта"/>
+    <tag k="name:zh" v="佩斯"/>
+    <tag k="name:ja" v="ペシュト"/>
+    <tag k="name:ar" v="بيشت"/>
+    <tag k="name:tr" v="Peşte"/>
+    <tag k="ref:nuts:2" v="HU12"/>
+  </relation>
+
+  <relation id="1152538">
+    <tag k="addr:country" v="RU"/>
+    <tag k="addr:region" v="Красноярский край"/>
+    <tag k="admin_level" v="6"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="Краснотуранский район"/>
+    <tag k="name:en" v="Krasnoturansky Rayon"/>
+    <tag k="name:ja" v="クラスノトゥランスク地区"/>
+    <tag k="name:ru" v="Краснотуранский район"/>
+    <tag k="name:uk" v="Краснотуранський район"/>
+    <tag k="official_status" v="ru:муниципальный район"/>
+    <tag k="source" v="cadastre"/>
+    <tag k="type" v="boundary"/>
+    <tag k="wikidata" v="Q2109891"/>
+    <tag k="wikipedia" v="ru:Краснотуранский район"/>
+  </relation>
+  <relation id="1157555">
+    <tag k="addr:country" v="RU"/>
+    <tag k="addr:region" v="Красноярский край"/>
+    <tag k="admin_level" v="6"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="Нижнеингашский район"/>
+    <tag k="name:en" v="Nizhneingashsky Rayon"/>
+    <tag k="name:ja" v="ニージュニー・インガシュ地区"/>
+    <tag k="name:ru" v="Нижнеингашский район"/>
+    <tag k="name:uk" v="Нижньоїнгаський район"/>
+    <tag k="official_status" v="ru:муниципальный район"/>
+    <tag k="source" v="cadastre"/>
+    <tag k="type" v="boundary"/>
+    <tag k="wikidata" v="Q2157145"/>
+    <tag k="wikipedia" v="ru:Нижнеингашский район"/>
+  </relation>
+  <relation id="1152534">
+    <tag k="addr:country" v="RU"/>
+    <tag k="addr:region" v="Красноярский край"/>
+    <tag k="admin_level" v="6"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="Новосёловский район"/>
+    <tag k="name:de" v="Rajon Nowosjolowski"/>
+    <tag k="name:en" v="Novosyolovsky Rayon"/>
+    <tag k="name:ja" v="ノボセロボ地区"/>
+    <tag k="name:ru" v="Новосёловский район"/>
+    <tag k="name:uk" v="Новоселівський район"/>
+    <tag k="official_status" v="ru:муниципальный район"/>
+    <tag k="source" v="cadastre"/>
+    <tag k="type" v="boundary"/>
+    <tag k="wikidata" v="Q2157137"/>
+    <tag k="wikipedia" v="ru:Новосёловский район"/>
+  </relation>
+  <relation id="1161786">
+    <tag k="addr:country" v="RU"/>
+    <tag k="addr:region" v="Красноярский край"/>
+    <tag k="admin_level" v="6"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="Пировский муниципальный округ"/>
+    <tag k="name:en" v="Pirovsky Rayon"/>
+    <tag k="name:ja" v="ピロフスコエ地区"/>
+    <tag k="name:ru" v="Пировский муниципальный округ"/>
+    <tag k="name:uk" v="Піровський муніципальний округ"/>
+    <tag k="official_status" v="ru:муниципальный округ"/>
+    <tag k="source" v="cadastre"/>
+    <tag k="type" v="boundary"/>
+    <tag k="wikidata" v="Q1617317"/>
+    <tag k="wikipedia" v="ru:Пировский район"/>
+  </relation>
+  <relation id="1159135">
+    <tag k="addr:country" v="RU"/>
+    <tag k="addr:region" v="Красноярский край"/>
+    <tag k="admin_level" v="6"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="Саянский район"/>
+    <tag k="name:en" v="Sayansky Rayon"/>
+    <tag k="name:ja" v="サヤンスキー地区"/>
+    <tag k="name:ru" v="Саянский район"/>
+    <tag k="name:uk" v="Саянський район"/>
+    <tag k="official_status" v="ru:муниципальный район"/>
+    <tag k="source" v="cadastre"/>
+    <tag k="type" v="boundary"/>
+    <tag k="wikidata" v="Q918200"/>
+    <tag k="wikipedia" v="ru:Саянский район"/>
+  </relation>
+  <relation id="1157397">
+    <tag k="addr:country" v="RU"/>
+    <tag k="addr:region" v="Красноярский край"/>
+    <tag k="admin_level" v="6"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="Сухобузимский район"/>
+    <tag k="name:en" v="Sukhobuzimsky Rayon"/>
+    <tag k="name:ja" v="スホブジムスコエ地区"/>
+    <tag k="name:ru" v="Сухобузимский район"/>
+    <tag k="name:uk" v="Сухобузимський район"/>
+    <tag k="official_status" v="ru:муниципальный район"/>
+    <tag k="source" v="cadastre"/>
+    <tag k="type" v="boundary"/>
+    <tag k="wikidata" v="Q649611"/>
+    <tag k="wikipedia" v="ru:Сухобузимский район"/>
+  </relation>
+  <relation id="1162502">
+    <tag k="addr:country" v="RU"/>
+    <tag k="addr:region" v="Красноярский край"/>
+    <tag k="admin_level" v="6"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="Тасеевский район"/>
+    <tag k="name:en" v="Taseyevsky Rayon"/>
+    <tag k="name:ja" v="タセエヴォ地区"/>
+    <tag k="name:ru" v="Тасеевский район"/>
+    <tag k="name:uk" v="Тасіївський район"/>
+    <tag k="official_status" v="ru:муниципальный район"/>
+    <tag k="source" v="cadastre"/>
+    <tag k="type" v="boundary"/>
+    <tag k="wikidata" v="Q2156445"/>
+    <tag k="wikipedia" v="ru:Тасеевский район"/>
+  </relation>
+  <relation id="1157597">
+    <tag k="addr:country" v="RU"/>
+    <tag k="addr:region" v="Красноярский край"/>
+    <tag k="admin_level" v="6"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="Уярский район"/>
+    <tag k="name:en" v="Uyarsky Rayon"/>
+    <tag k="name:ja" v="ウヤル地区"/>
+    <tag k="name:ru" v="Уярский район"/>
+    <tag k="name:uk" v="Уярський район"/>
+    <tag k="official_status" v="ru:муниципальный район"/>
+    <tag k="source" v="cadastre"/>
+    <tag k="type" v="boundary"/>
+    <tag k="wikidata" v="Q918951"/>
+    <tag k="wikipedia" v="ru:Уярский район"/>
+  </relation>
+  <relation id="1161797">
+    <tag k="addr:country" v="RU"/>
+    <tag k="addr:region" v="Красноярский край"/>
+    <tag k="admin_level" v="6"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="Большеулуйский район"/>
+    <tag k="name:en" v="Bolsheuluysky Rayon"/>
+    <tag k="name:ja" v="ボリショイ・ウルイ地区"/>
+    <tag k="name:ru" v="Большеулуйский район"/>
+    <tag k="name:uk" v="Великоулуйський район"/>
+    <tag k="official_status" v="ru:муниципальный район"/>
+    <tag k="source" v="cadastre"/>
+    <tag k="type" v="boundary"/>
+    <tag k="wikidata" v="Q40243"/>
+    <tag k="wikipedia" v="ru:Большеулуйский район"/>
+  </relation>
+  <relation id="1162476">
+    <tag k="addr:country" v="RU"/>
+    <tag k="addr:region" v="Красноярский край"/>
+    <tag k="admin_level" v="6"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="Тюхтетский муниципальный округ"/>
+    <tag k="name:clw" v="Тӱхтет аймағы?"/>
+    <tag k="name:en" v="Tyukhtetsky Rayon"/>
+    <tag k="name:ja" v="チュフテト地区"/>
+    <tag k="name:ru" v="Тюхтетский муниципальный округ"/>
+    <tag k="name:uk" v="Тюхтетський муніципальний округ"/>
+    <tag k="official_status" v="ru:муниципальный округ"/>
+    <tag k="source" v="cadastre"/>
+    <tag k="type" v="boundary"/>
+    <tag k="wikidata" v="Q1614814"/>
+    <tag k="wikipedia" v="ru:Тюхтетский район"/>
+  </relation>
+  <relation id="1157782">
+    <tag k="addr:country" v="RU"/>
+    <tag k="addr:region" v="Красноярский край"/>
+    <tag k="admin_level" v="6"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="Партизанский район"/>
+    <tag k="name:en" v="Partizansky Rayon"/>
+    <tag k="name:ja" v="パルチザンスコエ地区"/>
+    <tag k="name:ru" v="Партизанский район"/>
+    <tag k="name:uk" v="Партизанський район"/>
+    <tag k="official_status" v="ru:муниципальный район"/>
+    <tag k="source" v="cadastre"/>
+    <tag k="type" v="boundary"/>
+    <tag k="wikidata" v="Q1617010"/>
+    <tag k="wikipedia" v="ru:Партизанский район (Красноярский край)"/>
+  </relation>
+  <relation id="7008172">
+    <tag k="addr:region" v="Красноярский край"/>
+    <tag k="admin_level" v="8"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="сельское поселение Хатанга"/>
+    <tag k="name:uk" v="Сільське поселення Хатанга"/>
+    <tag k="note" v="Граница нарисована из схемы района."/>
+    <tag k="official_status" v="ru:сельское поселение"/>
+    <tag k="type" v="boundary"/>
+    <tag k="wikidata" v="Q17506477"/>
+    <tag k="wikipedia" v="ru:Сельское поселение Хатанга"/>
+  </relation>
+  <relation id="7008173">
+    <tag k="addr:district" v="Таймырский Долгано-Ненецкий район"/>
+    <tag k="addr:region" v="Красноярский край"/>
+    <tag k="admin_level" v="8"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="сельское поселение Караул"/>
+    <tag k="name:uk" v="Сільське поселення Караул"/>
+    <tag k="note" v="Граница нарисована из схемы района."/>
+    <tag k="official_status" v="ru:сельское поселение"/>
+    <tag k="type" v="boundary"/>
+    <tag k="wikidata" v="Q16472081"/>
+    <tag k="wikipedia" v="ru:Сельское поселение Караул"/>
+  </relation>
+  <relation id="7008175">
+    <tag k="addr:region" v="Красноярский край"/>
+    <tag k="admin_level" v="8"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="городское поселение Дудинка"/>
+    <tag k="name:uk" v="Міське поселення Дудинка"/>
+    <tag k="note" v="Граница нарисована из схемы района."/>
+    <tag k="official_status" v="ru:городское поселение"/>
+    <tag k="type" v="boundary"/>
+    <tag k="wikidata" v="Q18405829"/>
+    <tag k="wikipedia" v="ru:Городское поселение город Дудинка"/>
+  </relation>
+  <relation id="7008176">
+    <tag k="addr:district" v="Таймырский Долгано-Ненецкий район"/>
+    <tag k="addr:region" v="Красноярский край"/>
+    <tag k="admin_level" v="8"/>
+    <tag k="alt_name" v="Остров Диксон"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="городское поселение Диксон"/>
+    <tag k="name:uk" v="Міське поселення Діксон"/>
+    <tag k="note" v="Граница нарисована из схемы района."/>
+    <tag k="official_status" v="ru:городское поселение"/>
+    <tag k="type" v="boundary"/>
+    <tag k="wikidata" v="Q18405856"/>
+    <tag k="wikipedia" v="ru:Городское поселение посёлок Диксон"/>
+  </relation>
