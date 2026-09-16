@@ -19,10 +19,6 @@ cat osm-data/brandenburg_berlin.osm >> osm-data/$NAME.osm
 ./combine_translations.sh osm-data/$NAME.osm 62771 62718 osm-data/lower_saxony_bremen.osm
 cat osm-data/lower_saxony_bremen.osm >> osm-data/$NAME.osm
 
-> osm-data/lower_austria_wien.osm
-./combine_translations.sh osm-data/$NAME.osm 77189 109166 osm-data/lower_austria_wien.osm
-cat osm-data/lower_austria_wien.osm >> osm-data/$NAME.osm
-
 echo "</osm>" >> osm-data/$NAME.osm
 
 ./us-states-abbreviations.sh "osm-data/states_regions.osm"
